@@ -3,9 +3,9 @@ import type { FieldValues, Path, UseFormReturn } from "react-hook-form";
 import { toast } from "sonner";
 
 interface ApiErrorResponse {
-    title?: string;
-    message?: string;
     errors?: ApiFieldError[];
+    message?: string;
+    title?: string;
 }
 
 interface ApiFieldError {
@@ -23,8 +23,8 @@ function normalizeArray(value?: string[] | string): string[] {
 
 interface HandleApiErrorOptions<T extends FieldValues> {
     error: unknown;
-    form?: UseFormReturn<T>;
     fallbackMessage?: string;
+    form?: UseFormReturn<T>;
 }
 
 function escapeAttributeValue(value: string): string {

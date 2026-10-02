@@ -1,0 +1,301 @@
+{
+  "app": {
+    "name": "ट्र्याक योर लिडर",
+    "sampleData": "नमुना डाटा",
+    "sampleDataDescription": "यस पूर्वावलोकनका पदाधिकारीहरू काल्पनिक हुन् र उनीहरूका भ्रमणहरू उदाहरणका लागि मात्र हुन्। देश, पद, सहर र अन्तर्राष्ट्रिय कार्यक्रमहरू वास्तविक हुन्।"
+  },
+  "search": {
+    "open": "देश र पदाधिकारी खोज्नुहोस्",
+    "placeholderShort": "खोज्नुहोस्…",
+    "placeholder": "देश, नेता वा मन्त्री खोज्नुहोस्…",
+    "title": "देश र पदाधिकारी खोज्नुहोस्",
+    "officials": "पदाधिकारीहरू",
+    "countries": "देशहरू",
+    "tracked": "पदाधिकारीहरू ट्र्याक गरिएका",
+    "former": "पूर्व {title}",
+    "empty": "तपाईंको खोजसँग मिल्ने कुनै देश वा पदाधिकारी भेटिएन।",
+    "navigate": "सार्नुहोस्",
+    "select": "खोल्नुहोस्",
+    "close": "बन्द गर्नुहोस्"
+  },
+  "settings": {
+    "label": "सेटिङ",
+    "colorMode": "देखावट",
+    "modes": {
+      "light": "उज्यालो",
+      "dark": "अँध्यारो",
+      "system": "प्रणाली अनुसार"
+    },
+    "palette": "थिम",
+    "language": "भाषा"
+  },
+  "breadcrumb": {
+    "label": "अन्वेषण मार्ग",
+    "world": "विश्व",
+    "official": "पदाधिकारी",
+    "trip": "भ्रमण विवरण",
+    "back": "एक तह पछाडि जानुहोस्"
+  },
+  "panel": {
+    "label": "अन्वेषण प्यानल",
+    "collapse": "प्यानल लुकाउनुहोस्",
+    "expand": "प्यानल देखाउनुहोस्",
+    "handle": {
+      "peek": "प्यानल सानो बनाउनुहोस्",
+      "half": "प्यानल आधा उचाइमा खोल्नुहोस्",
+      "full": "प्यानल पूरा उचाइमा खोल्नुहोस्"
+    }
+  },
+  "filters": {
+    "open": "फिल्टर",
+    "close": "फिल्टर बन्द गर्नुहोस्",
+    "reset": "रिसेट",
+    "resetAll": "सबै फिल्टर हटाउनुहोस्",
+    "showResults": "{count, plural, =0 {मिल्ने भ्रमण छैन} other {{countLabel} नतिजा देखाउनुहोस्}}",
+    "activeLabel": "सक्रिय फिल्टरहरू",
+    "removeFilter": "फिल्टर हटाउनुहोस्: {filter}",
+    "chips": {
+      "name": "नाम: {value}",
+      "previousPositions": "पुराना पदहरू समेत",
+      "visited": "{country} भ्रमण",
+      "city": "सहर: {value}"
+    },
+    "sections": {
+      "dates": "मिति",
+      "person": "पदाधिकारी",
+      "travel": "भ्रमण",
+      "destination": "गन्तव्य"
+    },
+    "orPickPeriod": "वा अवधि छान्नुहोस्",
+    "originCountry": "मूल देश",
+    "originCountryHint": "नक्सामा देश छान्नु जस्तै हो।",
+    "allCountries": "ट्र्याक गरिएका सबै देश",
+    "party": "राजनीतिक दल",
+    "anyParty": "कुनै पनि दल",
+    "name": "नाम",
+    "namePlaceholder": "नामबाट खोज्नुहोस्",
+    "officeStatus": "पदको अवस्था",
+    "role": "भूमिका",
+    "includePrevious": "पुराना पदहरू पनि समावेश गर्नुहोस्",
+    "includePreviousHint": "हालका मात्र होइन, पहिले सम्हालेका भूमिका र मन्त्रालयसँग पनि मिलाउनुहोस्।",
+    "portfolio": "मन्त्रालय क्षेत्र",
+    "status": "अवस्था",
+    "travelType": "भ्रमणको प्रकार",
+    "region": "भ्रमण गरिएको क्षेत्र",
+    "countryVisited": "भ्रमण गरिएको देश",
+    "anyCountry": "कुनै पनि देश",
+    "noCountryMatch": "मिल्ने देश भेटिएन",
+    "city": "भ्रमण गरिएको सहर",
+    "cityPlaceholder": "जस्तै: नयाँ दिल्ली"
+  },
+  "dates": {
+    "presetsLabel": "मितिका विकल्पहरू",
+    "presets": {
+      "all": "सबै मिति",
+      "past30": "पछिल्ला ३० दिन",
+      "past6m": "पछिल्ला ६ महिना",
+      "past12m": "पछिल्ला १२ महिना",
+      "thisYear": "यो वर्ष",
+      "lastYear": "गत वर्ष",
+      "next90": "आगामी ९० दिन",
+      "upcoming": "आजदेखि अगाडि"
+    },
+    "triggerLabel": "मिति दायरा: {range}",
+    "fromDate": "{date} देखि",
+    "untilDate": "{date} सम्म",
+    "customRange": "आफ्नै दायरा",
+    "from": "देखि",
+    "to": "सम्म",
+    "year": "वर्ष",
+    "anyYear": "कुनै पनि वर्ष",
+    "month": "महिना",
+    "allMonths": "सबै महिना"
+  },
+  "overview": {
+    "title": "नेताहरू कहाँ भ्रमण गर्दैछन्?",
+    "description": "नक्सामा वा तल देश छान्नुहोस् र त्यहाँका पदाधिकारी, उनीहरू कहाँ गए र अब कहाँ जाँदैछन् हेर्नुहोस्।",
+    "stats": {
+      "countries": "देश",
+      "officials": "पदाधिकारी",
+      "trips": "भ्रमण",
+      "upcoming": "आगामी"
+    },
+    "countriesTitle": "ट्र्याक गरिएका देशहरू",
+    "tripsColumn": "भ्रमण",
+    "countrySearch": "देश फिल्टर गर्नुहोस्",
+    "noCountryMatch": "मिल्ने देश भेटिएन।",
+    "untrackedHint": "पदाधिकारी ट्र्याक नगरिएका देशहरू पनि नक्सामा छानेर तिनले पाएका भ्रमणहरू हेर्न सकिन्छ।",
+    "upcomingTitle": "आगामी भ्रमणहरू",
+    "noUpcomingTitle": "आगामी भ्रमण छैन",
+    "noUpcomingDescription": "हालका फिल्टरसँग मिल्ने कुनै तालिका छैन।"
+  },
+  "stats": {
+    "officials": "पदाधिकारी",
+    "trips": "भ्रमण",
+    "countries": "देश",
+    "upcoming": "आगामी",
+    "daysAbroad": "विदेशमा दिन"
+  },
+  "country": {
+    "untracked": "{country} का पदाधिकारीहरू अहिले ट्र्याक गरिएका छैनन्। तर कुन ट्र्याक गरिएका पदाधिकारीले भ्रमण गरे भने हेर्न सकिन्छ।",
+    "tabs": {
+      "officials": "पदाधिकारी",
+      "travel": "भ्रमण · {countLabel}",
+      "inbound": "आगन्तुक · {countLabel}"
+    },
+    "officialsCount": "{countLabel} पदाधिकारी",
+    "noOfficialsTitle": "कुनै पदाधिकारी मिलेन",
+    "noOfficialsDescription": "मिति दायरा फराकिलो बनाउनुहोस् वा केही फिल्टर हटाउनुहोस्।",
+    "noTripsTitle": "भ्रमण भेटिएन",
+    "noTripsDescription": "हालका फिल्टरसँग मिल्ने यस देशका पदाधिकारीको कुनै भ्रमण छैन।",
+    "noVisitsTitle": "भ्रमण भेटिएन",
+    "noVisitsDescription": "हालका फिल्टरभित्र कुनै ट्र्याक गरिएका पदाधिकारीले {country} भ्रमण गरेका छैनन्।"
+  },
+  "official": {
+    "formerTitle": "पूर्व {title}",
+    "tripUnit": "भ्रमण",
+    "recent": "पछिल्लो",
+    "upcoming": "अर्को",
+    "noRecentTrips": "यस अवधिमा सम्पन्न भ्रमण छैन",
+    "positions": "सम्हालेका पदहरू",
+    "current": "हाल",
+    "since": "{date} देखि",
+    "travelHistory": "भ्रमण इतिहास",
+    "noTripsTitle": "यस अवधिमा भ्रमण छैन",
+    "noTripsDescription": "हालका फिल्टरसँग मिल्ने यी पदाधिकारीको कुनै भ्रमण छैन।",
+    "notFoundTitle": "पदाधिकारी भेटिएन",
+    "notFoundDescription": "यी पदाधिकारी डाटामा समावेश छैनन्।"
+  },
+  "trip": {
+    "notFoundTitle": "भ्रमण भेटिएन",
+    "notFoundDescription": "यो भ्रमण डाटामा समावेश छैन।",
+    "outsideFilters": "यो भ्रमण हालका फिल्टरभन्दा बाहिर छ, त्यसैले नक्सामा देखाइएको छैन।",
+    "days": "{countLabel} दिन",
+    "origin": "बाट",
+    "destination": "सम्म",
+    "purpose": "उद्देश्य",
+    "event": "कार्यक्रम",
+    "region": "क्षेत्र",
+    "traveller": "यात्री",
+    "engagements": "भेटघाट र कार्यक्रमहरू",
+    "stepLabel": "यी पदाधिकारीका अन्य भ्रमण",
+    "previous": "अघिल्लो",
+    "next": "पछिल्लो",
+    "position": "{total} मध्ये {current}"
+  },
+  "timeline": {
+    "label": "भ्रमण समयरेखा",
+    "today": "आज · {date}"
+  },
+  "map": {
+    "label": "अन्तरक्रियात्मक विश्व नक्सा",
+    "title": "आधिकारिक भ्रमणको विश्व नक्सा",
+    "instructions": "जुम गर्न प्लस र माइनस, सार्न एरो कुञ्जी, रिसेट गर्न 0, छनोट देखाउन F र पछाडि जान Escape थिच्नुहोस्। देश र पदाधिकारी प्यानल वा खोजबाट पनि छान्न सकिन्छ।",
+    "loading": "नक्सा लोड हुँदैछ…",
+    "errorTitle": "नक्सा लोड हुन सकेन",
+    "errorDescription": "इन्टरनेट जडान जाँच गरेर फेरि प्रयास गर्नुहोस्। प्यानलका सूची र विवरण भने चल्छन्।",
+    "retry": "फेरि प्रयास गर्नुहोस्",
+    "calloutTracked": "{capital} · {countLabel} पदाधिकारी",
+    "tooltip": {
+      "selected": "छानिएको देश",
+      "worldTracked": "{tripsLabel} भ्रमण · {officialsLabel} पदाधिकारी",
+      "worldUntracked": "ट्र्याक नगरिएको · {visits, plural, =0 {कुनै भ्रमण प्राप्त भएको छैन} other {{visitsLabel} भ्रमण प्राप्त}}",
+      "visitsFrom": "{country} का पदाधिकारीबाट {countLabel} भ्रमण",
+      "visitsTo": "{country} मा {countLabel} भ्रमण",
+      "clickHint": "हेर्न क्लिक गर्नुहोस्",
+      "nodeTrips": "{countLabel} भ्रमण · पछिल्लो {date}",
+      "nodeNext": "अर्को भ्रमण {date}",
+      "nodeHint": "भ्रमण विवरणका लागि क्लिक गर्नुहोस्"
+    },
+    "controls": {
+      "zoomIn": "जुम इन",
+      "zoomOut": "जुम आउट",
+      "frameSelection": "छनोटमा केन्द्रित गर्नुहोस्",
+      "reset": "सम्पूर्ण विश्व देखाउनुहोस्"
+    },
+    "legend": {
+      "label": "संकेत",
+      "worldTitle": "मूल देश अनुसार विदेश भ्रमण",
+      "outboundTitle": "{country} का पदाधिकारीका भ्रमण",
+      "officialTitle": "{name} ले भ्रमण गरेका देश",
+      "inboundTitle": "मूल देश अनुसार {country} मा भएका भ्रमण",
+      "noTrips": "हालको छनोटमा भ्रमण छैन",
+      "selected": "छानिएको देश",
+      "trackedNoTrips": "ट्र्याक गरिएको, भ्रमण छैन",
+      "notTracked": "ट्र्याक नगरिएको",
+      "routes": "मार्गहरू"
+    },
+    "scope": {
+      "world": "ट्र्याक गरिएका सबै देश",
+      "outbound": "{country} का पदाधिकारी",
+      "official": "{name}",
+      "inbound": "{country} मा भएका भ्रमण",
+      "trips": "{count, plural, =0 {भ्रमण छैन} other {{countLabel} भ्रमण}}"
+    }
+  },
+  "sort": {
+    "label": "पदाधिकारी क्रमबद्ध गर्नुहोस्",
+    "rank": "वरिष्ठता",
+    "trips": "धेरै भ्रमण",
+    "recent": "हालसालको भ्रमण",
+    "name": "नाम"
+  },
+  "roles": {
+    "head_of_state": "राष्ट्र प्रमुख",
+    "head_of_government": "सरकार प्रमुख",
+    "deputy_leader": "उपप्रमुख",
+    "minister": "मन्त्री",
+    "junior_minister": "राज्यमन्त्री वा उपमन्त्री",
+    "senior_official": "वरिष्ठ अधिकारी"
+  },
+  "roleGroups": {
+    "leadership": "नेतृत्व",
+    "ministers": "मन्त्रीहरू",
+    "officials": "वरिष्ठ अधिकारीहरू",
+    "former": "पूर्व पदाधिकारीहरू"
+  },
+  "portfolios": {
+    "foreign_affairs": "परराष्ट्र",
+    "finance": "अर्थ",
+    "trade": "वाणिज्य",
+    "defence": "रक्षा",
+    "home_affairs": "गृह",
+    "environment": "वातावरण",
+    "energy": "ऊर्जा"
+  },
+  "tenure": {
+    "all": "सबै",
+    "current": "हालका",
+    "former": "पूर्व"
+  },
+  "travelTypes": {
+    "state_visit": "राजकीय भ्रमण",
+    "official_visit": "आधिकारिक भ्रमण",
+    "diplomatic_visit": "कूटनीतिक भ्रमण",
+    "summit": "शिखर सम्मेलन",
+    "conference": "सम्मेलन",
+    "bilateral_meeting": "द्विपक्षीय बैठक",
+    "multilateral_meeting": "बहुपक्षीय बैठक",
+    "other": "अन्य आधिकारिक भ्रमण"
+  },
+  "statuses": {
+    "completed": "सम्पन्न",
+    "upcoming": "आगामी",
+    "planned": "योजनामा",
+    "cancelled": "रद्द",
+    "inProgress": "जारी"
+  },
+  "regions": {
+    "Africa": "अफ्रिका",
+    "Americas": "अमेरिकी महादेश",
+    "Antarctic": "अन्टार्कटिका",
+    "Asia": "एसिया",
+    "Europe": "युरोप",
+    "Oceania": "ओसिनिया"
+  },
+  "relative": {
+    "today": "आज",
+    "inDays": "{countLabel} दिनमा",
+    "daysAgo": "{countLabel} दिन अघि"
+  }
+}

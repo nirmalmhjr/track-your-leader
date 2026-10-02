@@ -25,8 +25,8 @@ export const LocaleSwitcher = () => {
     const locale = useLocale();
 
     const localeMeta: Record<string, { label: string; flag: string }> = {
-        en: { label: "English", flag: "🇺🇸" },
-        ne: { label: "नेपाली", flag: "🇳🇵" },
+        en: { flag: "🇺🇸", label: "English" },
+        ne: { flag: "🇳🇵", label: "नेपाली" },
     };
 
     // Handle the change event of the select element.
@@ -39,13 +39,13 @@ export const LocaleSwitcher = () => {
 
     const items = routing.locales.map((locale) => {
         const meta = localeMeta[locale] ?? {
-            label: locale.toUpperCase(),
             flag: "",
+            label: locale.toUpperCase(),
         };
 
         return {
-            label: `${meta.flag} ${meta.label}`,
             flag: meta.flag,
+            label: `${meta.flag} ${meta.label}`,
             value: locale,
         };
     });

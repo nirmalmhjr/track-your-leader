@@ -17,18 +17,18 @@ const Toaster = ({ ...props }: ToasterProps) => {
         <Sonner
             className="toaster group"
             icons={{
-                success: <IconCircleCheck className="size-4" />,
-                info: <IconInfoCircle className="size-4" />,
-                warning: <IconAlertTriangle className="size-4" />,
                 error: <IconAlertOctagon className="size-4" />,
+                info: <IconInfoCircle className="size-4" />,
                 loading: <IconLoader className="size-4 animate-spin" />,
+                success: <IconCircleCheck className="size-4" />,
+                warning: <IconAlertTriangle className="size-4" />,
             }}
             style={
                 {
-                    "--normal-bg": "var(--popover)",
-                    "--normal-text": "var(--popover-foreground)",
-                    "--normal-border": "var(--border)",
                     "--border-radius": "var(--radius)",
+                    "--normal-bg": "var(--popover)",
+                    "--normal-border": "var(--border)",
+                    "--normal-text": "var(--popover-foreground)",
                 } as React.CSSProperties
             }
             theme={theme as ToasterProps["theme"]}

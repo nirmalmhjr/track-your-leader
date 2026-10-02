@@ -11,9 +11,9 @@ import { createAuthenticatedClient } from "./create-authenticated-client";
  */
 export const apiServer = createAuthenticatedClient({
     baseURL: `${env.API_URL}/api`,
-    timeout: env.API_TIMEOUT,
     resolveToken: async () => {
         const session = await getSession();
         return session?.accessToken;
     },
+    timeout: env.API_TIMEOUT,
 });

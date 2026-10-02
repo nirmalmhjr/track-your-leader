@@ -1,0 +1,707 @@
+---
+alwaysApply: true
+---
+# Core Principles
+
+* Follow SOLID principles.
+* Follow DRY principles.
+* Follow KISS principles.
+* Prefer readability over cleverness.
+* Prefer composition over inheritance.
+* Use early returns whenever possible.
+* Avoid deeply nested conditionals.
+* Avoid magic strings.
+* Avoid magic numbers.
+* Never leave TODO comments.
+* Never leave placeholders.
+* Never generate partial implementations.
+* Always provide complete working code.
+
+---
+
+# Project Structure
+
+Follow the existing project architecture.
+
+```txt
+src/
+├── app/
+├── assets/
+├── components/
+├── configs/
+├── env/
+├── features/
+├── hooks/
+├── i18n/
+├── lib/
+├── schema/
+├── services/
+├── stores/
+├── styles/
+├── types/
+```
+
+Do not introduce new root directories unless explicitly requested.
+
+---
+
+# Feature Architecture
+
+All business logic belongs inside feature folders.
+
+Example:
+
+```txt
+features/
+└── auth/
+    ├── components/
+    ├── hooks/
+    ├── schemas/
+    ├── types/
+    ├── constants/
+    ├── utils/
+```
+
+Feature-specific code must remain inside the feature.
+
+Never place feature-specific code inside shared folders.
+
+---
+
+# API Architecture
+
+Never call fetch directly from components.
+
+Never call axios directly from components.
+
+Create API functions inside:
+
+```txt
+src/services/<feature>/<feature>.api.ts
+```
+
+Example:
+
+```txt
+src/services/auth/auth.api.ts
+```
+
+API functions must:
+
+* Return typed responses.
+* Use centralized API clients.
+* Use centralized endpoints.
+
+---
+
+# Endpoints
+
+All endpoints must be defined in:
+
+```txt
+src/configs/endpoints.ts
+```
+
+Example:
+
+```ts
+export const ENDPOINTS = {
+    auth: {
+        login: "/auth/login",
+        register: "/auth/register",
+    },
+} as const
+```
+
+Never hardcode API endpoints.
+
+---
+
+# API Types
+
+All API request and response types belong in:
+
+```txt
+src/types/api/
+```
+
+Examples:
+
+```txt
+src/types/api/profile.types.ts
+src/types/api/auth.types.ts
+```
+
+Never define API types inside components.
+
+---
+
+# TanStack Query
+
+Use TanStack Query for client-side data fetching.
+
+Prefer Server Components and server-side data fetching whenever possible.
+
+Use React Query only when client-side fetching is required.
+
+---
+
+## Query Keys
+
+All query keys belong in:
+
+```txt
+src/configs/query-keys.ts
+```
+
+Example:
+
+```ts
+export const QUERY_KEYS = {
+    profile: ["profile"],
+} as const
+```
+
+Never hardcode query keys.
+
+---
+
+## Mutation Keys
+
+All mutation keys belong in:
+
+```txt
+src/configs/mutation-keys.ts
+```
+
+Never hardcode mutation keys.
+
+---
+
+## Query Options
+
+All GET endpoints must have query options.
+
+Location:
+
+```txt
+src/lib/query-options/
+```
+
+Example:
+
+```txt
+src/lib/query-options/profile.query-options.ts
+```
+
+Never call useQuery inline.
+
+Always create reusable query options.
+
+---
+
+## Mutations
+
+POST
+PUT
+PATCH
+DELETE
+
+Must use dedicated mutation hooks.
+
+Location:
+
+```txt
+features/<feature>/hooks/
+```
+
+Examples:
+
+```txt
+use-login-mutation.ts
+use-update-profile-mutation.ts
+use-delete-member-mutation.ts
+```
+
+Mutation hooks must:
+
+* Handle loading state.
+* Handle success state.
+* Handle error state.
+* Invalidate related queries.
+* Use centralized query keys.
+
+---
+
+# State Management
+
+Use Zustand.
+
+Location:
+
+```txt
+src/stores/
+```
+
+Example:
+
+```txt
+src/stores/auth-store.ts
+```
+
+Rules:
+
+* Zustand is for client state only.
+* TanStack Query is for server state.
+* Never duplicate API data inside Zustand.
+* Never use Zustand as an API cache.
+
+---
+
+# Forms
+
+Use:
+
+* React Hook Form
+* Zod
+* @hookform/resolvers/zod
+
+Schemas belong inside:
+
+```txt
+features/<feature>/schemas/
+```
+
+Always infer types:
+
+```ts
+type LoginFormValues = z.infer<typeof loginSchema>
+```
+
+Never manually duplicate schema types.
+
+---
+
+# Validation
+
+All form validation must use Zod.
+
+Never duplicate validation logic.
+
+Validation schemas must live inside feature folders.
+
+---
+
+# Environment Variables
+
+Client environment variables:
+
+```txt
+src/env/client.ts
+```
+
+Server environment variables:
+
+```txt
+src/env/server.ts
+```
+
+Never access process.env directly.
+
+Always read through typed env files.
+
+---
+
+# Routes
+
+All routes must be centralized.
+
+Location:
+
+```txt
+src/configs/routes.ts
+```
+
+Never hardcode routes.
+
+Always import route constants.
+
+---
+
+# Storage
+
+All storage keys must be defined in:
+
+```txt
+src/configs/storage.ts
+```
+
+Examples:
+
+```ts
+export const STORAGE_KEYS = {
+    accessToken: "access_token",
+    refreshToken: "refresh_token",
+} as const
+```
+
+Never hardcode:
+
+* localStorage keys
+* sessionStorage keys
+* cookie keys
+
+---
+
+# Assets
+
+Icons:
+
+```txt
+src/assets/icons/
+```
+
+Images:
+
+```txt
+src/assets/images/
+```
+
+Never hardcode asset paths.
+
+Always import assets.
+
+---
+
+# Components
+
+Shared reusable components:
+
+```txt
+src/components/shared/
+```
+
+UI primitives:
+
+```txt
+src/components/ui/
+```
+
+Feature-specific components:
+
+```txt
+features/<feature>/components/
+```
+
+Never place feature-specific components in shared.
+
+---
+
+# Hooks
+
+Shared hooks:
+
+```txt
+src/hooks/
+```
+
+Feature hooks:
+
+```txt
+features/<feature>/hooks/
+```
+
+Examples:
+
+```txt
+use-mobile.ts
+use-locale-select.ts
+```
+
+---
+
+# Utilities
+
+Shared utilities:
+
+```txt
+src/lib/
+```
+
+All exported utility functions require JSDoc.
+
+Example:
+
+```ts
+/**
+ * Formats a date string into a localized format.
+ *
+ * @param date - Input date.
+ * @returns Formatted date string.
+ */
+export const formatDate = (date: Date): string => {
+    ...
+}
+```
+
+---
+
+# TypeScript Rules
+
+* Use strict typing.
+* Never use any.
+* Prefer unknown over any.
+* Use inferred types whenever possible.
+* Use discriminated unions when appropriate.
+* Prefer readonly where applicable.
+* Prefer interface over type when possible.
+
+---
+
+# Naming Conventions
+
+Components:
+
+```txt
+PascalCase.tsx
+```
+
+Hooks:
+
+```txt
+use-feature-name.ts
+```
+
+Schemas:
+
+```txt
+feature.schema.ts
+```
+
+API:
+
+```txt
+feature.api.ts
+```
+
+Query Options:
+
+```txt
+feature.query-options.ts
+```
+
+Stores:
+
+```txt
+feature-store.ts
+```
+
+Types:
+
+```txt
+feature.types.ts
+```
+
+Constants:
+
+```txt
+UPPER_SNAKE_CASE
+```
+
+---
+
+# Imports
+
+Use absolute imports.
+
+Example:
+
+```ts
+import { Button } from "@/components/ui/button"
+```
+
+Avoid deep relative imports.
+
+---
+
+# No Barrel Exports
+
+Do not create:
+
+```txt
+index.ts
+```
+
+Do not use barrel exports.
+
+Always import directly from source files.
+
+Good:
+
+```ts
+import { loginSchema } from "@/features/auth/schemas/login.schema"
+```
+
+Bad:
+
+```ts
+import { loginSchema } from "@/features/auth"
+```
+
+Reason:
+
+* Prevent circular dependencies.
+* Improve discoverability.
+* Improve tree-shaking.
+* Improve maintainability.
+
+---
+
+# React Rules
+
+Prefer Server Components.
+
+Use Client Components only when required.
+
+Avoid:
+
+* unnecessary useEffect
+* unnecessary useMemo
+* unnecessary useCallback
+
+Do not store derived state.
+
+Extract reusable logic into hooks.
+
+Keep components focused on a single responsibility.
+
+---
+
+# Accessibility
+
+Interactive elements must support:
+
+* keyboard navigation
+* focus states
+* semantic HTML
+* aria-label where needed
+
+Prefer:
+
+```tsx
+<button />
+```
+
+Instead of:
+
+```tsx
+<div role="button" />
+```
+
+---
+
+# Styling
+
+Use Tailwind CSS.
+
+Do not create CSS files unless explicitly requested.
+
+Use cn utility for conditional classes.
+
+Keep classNames readable.
+
+Prefer extracted reusable UI over duplicated Tailwind blocks.
+
+---
+
+# Error Handling
+
+Always handle:
+
+* loading states
+* error states
+* empty states
+
+Never silently swallow errors.
+
+Use centralized error handling utilities when available.
+
+---
+
+# Security
+
+Always review:
+
+* Authentication
+* Authorization
+* XSS
+* CSRF
+* Open redirects
+* File uploads
+* Sensitive data exposure
+* Input validation
+
+Never trust client input.
+
+Always validate incoming data.
+
+---
+
+# Performance
+
+Avoid:
+
+* unnecessary re-renders
+* duplicated API calls
+* giant client components
+* excessive context providers
+
+Prefer:
+
+* server rendering
+* query caching
+* pagination
+* virtualization for large lists
+
+Optimize only when necessary.
+
+---
+
+# Comments
+
+Add comments only when explaining intent.
+
+Avoid obvious comments.
+
+All exported utility functions require JSDoc.
+
+---
+
+# Commit Convention
+
+Use Conventional Commits.
+
+Examples:
+
+feat(auth): add login mutation hook
+
+fix(member): prevent duplicate membership submissions
+
+refactor(address): simplify address card rendering
+
+docs(api): update authentication documentation
+
+chore(deps): upgrade tanstack query
+
+---
+
+# Expected Output Structure
+
+Always respond in this order:
+
+1. CODE_REVIEW
+2. PLANNING
+3. SECURITY_REVIEW (when applicable)
+4. Implementation
+
+Never skip architecture analysis before implementation.

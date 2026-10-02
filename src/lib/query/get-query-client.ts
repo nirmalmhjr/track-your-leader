@@ -7,7 +7,7 @@ import { cache } from "react";
  */
 function shouldRetryQuery(failureCount: number, error: unknown) {
     if (process.env.NODE_ENV === "development") {
-        console.log({ failureCount, error });
+        console.log({ error, failureCount });
         return false;
     }
 
@@ -25,15 +25,15 @@ function shouldRetryQuery(failureCount: number, error: unknown) {
 function makeQueryClient() {
     return new QueryClient({
         defaultOptions: {
-            queries: {
-                retry: shouldRetryQuery,
-                refetchOnWindowFocus: process.env.NODE_ENV === "production",
-                staleTime: 5 * 60 * 1000, // 5 minutes
-                gcTime: 10 * 60 * 1000, // 10 minutes
-            },
             dehydrate: {
                 shouldDehydrateQuery: (query) =>
                     defaultShouldDehydrateQuery(query) || query.state.status === "pending",
+            },
+            queries: {
+                gcTime: 10 * 60 * 1000, // 10 minutes
+                refetchOnWindowFocus: process.env.NODE_ENV === "production",
+                retry: shouldRetryQuery,
+                staleTime: 5 * 60 * 1000, // 5 minutes
             },
         },
     });

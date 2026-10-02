@@ -1,14 +1,14 @@
 export const siteConfig = {
-    title: "Next.js Frontend Starter",
     description:
-        "A modern frontend template built with Next.js 16 and Shadcn UI, designed for developers looking to kickstart their projects with a solid foundation.",
+        "Explore the international travel history and upcoming trips of heads of state, ministers and senior government officials on an interactive world map.",
     links: {
         github: "https://github.com/diwashbhattarai999/nextjs16_shadcn_template",
         github_api: "https://api.github.com/repos/diwashbhattarai999/nextjs16_shadcn_template",
     },
+    title: "Track Your Leader — Official Travel Explorer",
 };
 
 export const META_THEME_COLORS = {
-    light: "#ffffff",
     dark: "#10182b",
+    light: "#ffffff",
 };

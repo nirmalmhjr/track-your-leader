@@ -1,0 +1,301 @@
+{
+  "app": {
+    "name": "Track Your Leader",
+    "sampleData": "Sample data",
+    "sampleDataDescription": "Officials in this preview are fictional and their trips are illustrative. Countries, offices, cities and international events are real."
+  },
+  "search": {
+    "open": "Search countries and officials",
+    "placeholderShort": "Search…",
+    "placeholder": "Search a country, leader or minister…",
+    "title": "Search countries and officials",
+    "officials": "Officials",
+    "countries": "Countries",
+    "tracked": "Officials tracked",
+    "former": "Former {title}",
+    "empty": "No countries or officials match your search.",
+    "navigate": "Navigate",
+    "select": "Open",
+    "close": "Close"
+  },
+  "settings": {
+    "label": "Settings",
+    "colorMode": "Appearance",
+    "modes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "palette": "Theme",
+    "language": "Language"
+  },
+  "breadcrumb": {
+    "label": "Exploration path",
+    "world": "World",
+    "official": "Official",
+    "trip": "Trip details",
+    "back": "Go back one level"
+  },
+  "panel": {
+    "label": "Exploration panel",
+    "collapse": "Hide panel",
+    "expand": "Show panel",
+    "handle": {
+      "peek": "Collapse panel",
+      "half": "Expand panel to half height",
+      "full": "Expand panel to full height"
+    }
+  },
+  "filters": {
+    "open": "Filters",
+    "close": "Close filters",
+    "reset": "Reset",
+    "resetAll": "Clear all filters",
+    "showResults": "{count, plural, =0 {No matching trips} one {Show {countLabel} result} other {Show {countLabel} results}}",
+    "activeLabel": "Active filters",
+    "removeFilter": "Remove filter: {filter}",
+    "chips": {
+      "name": "Name: {value}",
+      "previousPositions": "Including previous positions",
+      "visited": "Visited {country}",
+      "city": "City: {value}"
+    },
+    "sections": {
+      "dates": "Dates",
+      "person": "Officials",
+      "travel": "Travel",
+      "destination": "Destination"
+    },
+    "orPickPeriod": "or pick a period",
+    "originCountry": "Country of origin",
+    "originCountryHint": "Same as selecting a country on the map.",
+    "allCountries": "All tracked countries",
+    "party": "Political party",
+    "anyParty": "Any party",
+    "name": "Name",
+    "namePlaceholder": "Search by name",
+    "officeStatus": "Office status",
+    "role": "Role",
+    "includePrevious": "Include previous positions",
+    "includePreviousHint": "Match roles and portfolios held in the past, not only current ones.",
+    "portfolio": "Portfolio",
+    "status": "Status",
+    "travelType": "Type of travel",
+    "region": "Region visited",
+    "countryVisited": "Country visited",
+    "anyCountry": "Any country",
+    "noCountryMatch": "No matching country",
+    "city": "City visited",
+    "cityPlaceholder": "e.g. New Delhi"
+  },
+  "dates": {
+    "presetsLabel": "Date presets",
+    "presets": {
+      "all": "All dates",
+      "past30": "Past 30 days",
+      "past6m": "Past 6 months",
+      "past12m": "Past 12 months",
+      "thisYear": "This year",
+      "lastYear": "Last year",
+      "next90": "Next 90 days",
+      "upcoming": "From today onwards"
+    },
+    "triggerLabel": "Date range: {range}",
+    "fromDate": "From {date}",
+    "untilDate": "Until {date}",
+    "customRange": "Custom range",
+    "from": "From",
+    "to": "To",
+    "year": "Year",
+    "anyYear": "Any year",
+    "month": "Month",
+    "allMonths": "All months"
+  },
+  "overview": {
+    "title": "Where are leaders travelling?",
+    "description": "Select a country on the map or below to see its officials, where they have been and where they are going next.",
+    "stats": {
+      "countries": "Countries",
+      "officials": "Officials",
+      "trips": "Trips",
+      "upcoming": "Upcoming"
+    },
+    "countriesTitle": "Tracked countries",
+    "tripsColumn": "Trips",
+    "countrySearch": "Filter countries",
+    "noCountryMatch": "No tracked country matches.",
+    "untrackedHint": "Countries without tracked officials can still be selected on the map to see the visits they received.",
+    "upcomingTitle": "Upcoming travel",
+    "noUpcomingTitle": "No upcoming trips",
+    "noUpcomingDescription": "Nothing scheduled matches the current filters."
+  },
+  "stats": {
+    "officials": "Officials",
+    "trips": "Trips",
+    "countries": "Countries",
+    "upcoming": "Upcoming",
+    "daysAbroad": "Days abroad"
+  },
+  "country": {
+    "untracked": "Officials from {country} are not tracked yet. You can still see which tracked officials visited.",
+    "tabs": {
+      "officials": "Officials",
+      "travel": "Trips · {countLabel}",
+      "inbound": "Visitors · {countLabel}"
+    },
+    "officialsCount": "{count, plural, one {{countLabel} official} other {{countLabel} officials}}",
+    "noOfficialsTitle": "No officials match",
+    "noOfficialsDescription": "Try widening the date range or removing some filters.",
+    "noTripsTitle": "No trips found",
+    "noTripsDescription": "No trips by this country's officials match the current filters.",
+    "noVisitsTitle": "No visits found",
+    "noVisitsDescription": "No tracked official visited {country} within the current filters."
+  },
+  "official": {
+    "formerTitle": "Former {title}",
+    "tripUnit": "{count, plural, one {trip} other {trips}}",
+    "recent": "Recent",
+    "upcoming": "Next",
+    "noRecentTrips": "No completed trips in this period",
+    "positions": "{count, plural, one {Position} other {Positions held}}",
+    "current": "Current",
+    "since": "Since {date}",
+    "travelHistory": "Travel history",
+    "noTripsTitle": "No trips in this period",
+    "noTripsDescription": "This official has no trips matching the current filters.",
+    "notFoundTitle": "Official not found",
+    "notFoundDescription": "This official is not part of the dataset."
+  },
+  "trip": {
+    "notFoundTitle": "Trip not found",
+    "notFoundDescription": "This trip is not part of the dataset.",
+    "outsideFilters": "This trip is outside the current filters, so it is not shown on the map.",
+    "days": "{count, plural, one {{countLabel} day} other {{countLabel} days}}",
+    "origin": "From",
+    "destination": "To",
+    "purpose": "Purpose",
+    "event": "Event",
+    "region": "Region",
+    "traveller": "Traveller",
+    "engagements": "Meetings and engagements",
+    "stepLabel": "Other trips by this official",
+    "previous": "Earlier",
+    "next": "Later",
+    "position": "{current} of {total}"
+  },
+  "timeline": {
+    "label": "Travel timeline",
+    "today": "Today · {date}"
+  },
+  "map": {
+    "label": "Interactive world map",
+    "title": "World map of official travel",
+    "instructions": "Use plus and minus to zoom, arrow keys to pan, 0 to reset, F to frame the selection and Escape to go back. Countries and officials can also be selected from the panel or with search.",
+    "loading": "Loading map…",
+    "errorTitle": "The map couldn't load",
+    "errorDescription": "Check your connection and try again. Lists and details in the panel still work.",
+    "retry": "Try again",
+    "calloutTracked": "{capital} · {count, plural, one {{countLabel} official} other {{countLabel} officials}}",
+    "tooltip": {
+      "selected": "Selected country",
+      "worldTracked": "{trips, plural, one {{tripsLabel} trip} other {{tripsLabel} trips}} · {officials, plural, one {{officialsLabel} official} other {{officialsLabel} officials}}",
+      "worldUntracked": "Not tracked · {visits, plural, =0 {no visits received} one {{visitsLabel} visit received} other {{visitsLabel} visits received}}",
+      "visitsFrom": "{count, plural, one {{countLabel} visit} other {{countLabel} visits}} by officials of {country}",
+      "visitsTo": "{count, plural, one {{countLabel} visit} other {{countLabel} visits}} to {country}",
+      "clickHint": "Click to explore",
+      "nodeTrips": "{count, plural, one {{countLabel} trip} other {{countLabel} trips}} · latest {date}",
+      "nodeNext": "Next visit {date}",
+      "nodeHint": "Click for trip details"
+    },
+    "controls": {
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "frameSelection": "Frame selection",
+      "reset": "Show whole world"
+    },
+    "legend": {
+      "label": "Legend",
+      "worldTitle": "Trips abroad by country of origin",
+      "outboundTitle": "Visits by officials of {country}",
+      "officialTitle": "Countries visited by {name}",
+      "inboundTitle": "Visits to {country} by country of origin",
+      "noTrips": "No trips in the current selection",
+      "selected": "Selected country",
+      "trackedNoTrips": "Tracked, no trips",
+      "notTracked": "Not tracked",
+      "routes": "Routes"
+    },
+    "scope": {
+      "world": "All tracked countries",
+      "outbound": "Officials of {country}",
+      "official": "{name}",
+      "inbound": "Visits to {country}",
+      "trips": "{count, plural, =0 {No trips} one {{countLabel} trip} other {{countLabel} trips}}"
+    }
+  },
+  "sort": {
+    "label": "Sort officials",
+    "rank": "Seniority",
+    "trips": "Most trips",
+    "recent": "Most recent travel",
+    "name": "Name"
+  },
+  "roles": {
+    "head_of_state": "Head of state",
+    "head_of_government": "Head of government",
+    "deputy_leader": "Deputy leader",
+    "minister": "Minister",
+    "junior_minister": "Deputy or state minister",
+    "senior_official": "Senior official"
+  },
+  "roleGroups": {
+    "leadership": "Leadership",
+    "ministers": "Ministers",
+    "officials": "Senior officials",
+    "former": "Former office holders"
+  },
+  "portfolios": {
+    "foreign_affairs": "Foreign affairs",
+    "finance": "Finance",
+    "trade": "Trade",
+    "defence": "Defence",
+    "home_affairs": "Home affairs",
+    "environment": "Environment",
+    "energy": "Energy"
+  },
+  "tenure": {
+    "all": "All",
+    "current": "Current",
+    "former": "Former"
+  },
+  "travelTypes": {
+    "state_visit": "State visit",
+    "official_visit": "Official visit",
+    "diplomatic_visit": "Diplomatic visit",
+    "summit": "Summit",
+    "conference": "Conference",
+    "bilateral_meeting": "Bilateral meeting",
+    "multilateral_meeting": "Multilateral meeting",
+    "other": "Other official travel"
+  },
+  "statuses": {
+    "completed": "Completed",
+    "upcoming": "Upcoming",
+    "planned": "Planned",
+    "cancelled": "Cancelled",
+    "inProgress": "In progress"
+  },
+  "regions": {
+    "Africa": "Africa",
+    "Americas": "Americas",
+    "Antarctic": "Antarctica",
+    "Asia": "Asia",
+    "Europe": "Europe",
+    "Oceania": "Oceania"
+  },
+  "relative": {
+    "today": "Today",
+    "inDays": "{count, plural, one {in {countLabel} day} other {in {countLabel} days}}",
+    "daysAgo": "{count, plural, one {{countLabel} day ago} other {{countLabel} days ago}}"
+  }
+}

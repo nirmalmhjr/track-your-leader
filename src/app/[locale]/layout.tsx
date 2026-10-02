@@ -4,9 +4,11 @@ import { cookies } from "next/headers";
 import { Providers } from "@/components/layout/providers";
 import { fontVariables } from "@/components/themes/font.config";
 import { DEFAULT_THEME } from "@/components/themes/theme.config";
+import { STORAGE_KEYS } from "@/configs/storage";
 import { META_THEME_COLORS, siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 
+import "flag-icons/css/flag-icons.min.css";
 import "@/styles/globals.css";
 
 import { notFound } from "next/navigation";
@@ -15,8 +17,8 @@ import { getMessages } from "next-intl/server";
 import { routing, type TLocales } from "@/i18n/routing";
 
 export const metadata: Metadata = {
-    title: siteConfig.title,
     description: siteConfig.description,
+    title: siteConfig.title,
 };
 
 export const viewport: Viewport = {
@@ -41,11 +43,11 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     const cookieStore = await cookies();
-    const activeThemeValue = cookieStore.get("active_theme")?.value;
+    const activeThemeValue = cookieStore.get(STORAGE_KEYS.THEME)?.value;
     const themeToApply = activeThemeValue || DEFAULT_THEME;
 
     return (
-        <html data-theme={themeToApply} lang="en" suppressHydrationWarning>
+        <html data-theme={themeToApply} lang={locale} suppressHydrationWarning>
             <head>
                 <script
                     // biome-ignore lint/security/noDangerouslySetInnerHtml: This is necessary to set the meta theme color based on user preference.

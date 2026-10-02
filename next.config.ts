@@ -2,33 +2,18 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
+    // Enable compression
+    compress: true,
     // Experimental features for Next.js 16.1
     experimental: {
         // Better tree-shaking for large icon/utility libraries
         optimizePackageImports: ["lucide-react", "date-fns", "recharts"],
     },
 
-    // Image optimization for external images (GitHub avatars)
-    images: {
-        remotePatterns: [
-            { protocol: "https", hostname: "avatars.githubusercontent.com" },
-            { protocol: "https", hostname: "picsum.photos" },
-            { protocol: "https", hostname: "images.unsplash.com" },
-        ],
-        formats: ["image/avif", "image/webp"],
-    },
-
-    // Enable compression
-    compress: true,
-
-    // Strict mode for better development practices
-    reactStrictMode: true,
-
     // Security headers
     async headers() {
         return [
             {
-                source: "/(.*)",
                 headers: [
                     {
                         key: "X-DNS-Prefetch-Control",
@@ -51,9 +36,23 @@ const nextConfig: NextConfig = {
                         value: "camera=(), microphone=(), geolocation=()",
                     },
                 ],
+                source: "/(.*)",
             },
         ];
     },
+
+    // Image optimization for external images (GitHub avatars)
+    images: {
+        formats: ["image/avif", "image/webp"],
+        remotePatterns: [
+            { hostname: "avatars.githubusercontent.com", protocol: "https" },
+            { hostname: "picsum.photos", protocol: "https" },
+            { hostname: "images.unsplash.com", protocol: "https" },
+        ],
+    },
+
+    // Strict mode for better development practices
+    reactStrictMode: true,
 };
 
 const withNextIntl = createNextIntlPlugin();

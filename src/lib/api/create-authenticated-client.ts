@@ -1,16 +1,16 @@
 import axios, { type AxiosInstance } from "axios";
 
 const DEFAULT_HEADERS = {
-    "Content-Type": "application/json",
     Accept: "application/json",
+    "Content-Type": "application/json",
 } as const;
 
 type TokenResolver = () => string | undefined | Promise<string | undefined>;
 
 interface CreateAuthenticatedClientOptions {
     baseURL: string;
-    timeout: number;
     resolveToken: TokenResolver;
+    timeout: number;
 }
 
 /**
@@ -24,8 +24,8 @@ export function createAuthenticatedClient({
 }: CreateAuthenticatedClientOptions): AxiosInstance {
     const client = axios.create({
         baseURL,
-        timeout,
         headers: DEFAULT_HEADERS,
+        timeout,
     });
 
     client.interceptors.request.use(async (config) => {

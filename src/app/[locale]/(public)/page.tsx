@@ -1,5 +1,5 @@
-import Home from "./_components/home";
+import { TravelExplorer } from "@/features/travel-explorer/components/travel-explorer";
 
 export default function HomePage() {
-    return <div>Hello World</div>;
+    return <TravelExplorer />;
 }

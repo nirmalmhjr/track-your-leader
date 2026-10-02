@@ -14,10 +14,10 @@ import { ActiveThemeProvider } from "../themes/active-theme";
 
 interface ProvidersProps {
     activeThemeValue: string;
+    children: React.ReactNode;
     locale: TLocales;
     // biome-ignore lint/suspicious/noExplicitAny: Messages can be of any shape depending on the locale and application needs; enforcing a specific type would reduce flexibility without significant benefits.
     messages: Record<string, any>;
-    children: React.ReactNode;
 }
 
 export function Providers({ activeThemeValue, locale, messages, children }: ProvidersProps) {

@@ -1,8 +1,8 @@
-import type homePageMessages from "@/i18n/messages/en/HomePage.json";
+import type explorerMessages from "@/i18n/messages/en/Explorer.json";
 import type { routing } from "@/i18n/routing";
 
 export interface AppMessages {
-    HomePage: typeof homePageMessages;
+    Explorer: typeof explorerMessages;
 }
 
 declare module "next-intl" {

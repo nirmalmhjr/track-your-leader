@@ -6,6 +6,69 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/*
+ * Map and travel-status tokens. They are deliberately independent of the active brand theme so
+ * the data encoding stays identical across themes; only light and dark steps differ. Status
+ * hues come from a colour-blind-validated categorical palette and always ship with a line
+ * texture, icon and label, never colour alone.
+ */
+:root {
+    --map-ocean: oklch(0.975 0.004 240);
+    --map-land: oklch(0.925 0.004 250);
+    --map-land-tracked: oklch(0.885 0.01 250);
+    --map-border: oklch(0.99 0.002 240);
+    --map-graticule: oklch(0.55 0.01 250 / 0.1);
+    --map-selected: oklch(0.6 0.02 250);
+    --map-selected-border: oklch(0.18 0.01 250);
+    --map-seq-1: #cde2fb;
+    --map-seq-2: #9ec5f4;
+    --map-seq-3: #6da7ec;
+    --map-seq-4: #3987e5;
+    --map-seq-5: #256abf;
+    --travel-completed: #2a78d6;
+    --travel-upcoming: #d95926;
+    --travel-cancelled: #898781;
+    --map-ink: oklch(0.2 0.01 250);
+    --map-halo: oklch(0.99 0 0);
+}
+
+.dark {
+    --map-ocean: oklch(0.175 0.006 250);
+    --map-land: oklch(0.26 0.007 250);
+    --map-land-tracked: oklch(0.305 0.012 250);
+    --map-border: oklch(0.175 0.006 250);
+    --map-graticule: oklch(0.8 0.01 250 / 0.06);
+    --map-selected: oklch(0.62 0.02 250);
+    --map-selected-border: oklch(0.95 0.005 250);
+    --map-seq-1: #163f73;
+    --map-seq-2: #1c5cab;
+    --map-seq-3: #2a78d6;
+    --map-seq-4: #5598e7;
+    --map-seq-5: #9ec5f4;
+    --travel-completed: #3987e5;
+    --travel-upcoming: #d95926;
+    --travel-cancelled: #898781;
+    --map-ink: oklch(0.96 0.005 250);
+    --map-halo: oklch(0.175 0.006 250);
+}
+
+@theme inline {
+    --color-map-ocean: var(--map-ocean);
+    --color-map-land: var(--map-land);
+    --color-map-land-tracked: var(--map-land-tracked);
+    --color-map-selected: var(--map-selected);
+    --color-map-ink: var(--map-ink);
+    --color-map-halo: var(--map-halo);
+    --color-map-seq-1: var(--map-seq-1);
+    --color-map-seq-2: var(--map-seq-2);
+    --color-map-seq-3: var(--map-seq-3);
+    --color-map-seq-4: var(--map-seq-4);
+    --color-map-seq-5: var(--map-seq-5);
+    --color-travel-completed: var(--travel-completed);
+    --color-travel-upcoming: var(--travel-upcoming);
+    --color-travel-cancelled: var(--travel-cancelled);
+}
+
 @layer base {
     * {
         @apply border-border outline-ring/50;
@@ -18,8 +81,8 @@
 /* View Transition Wave Effect */
 ::view-transition-old(root),
 ::view-transition-new(root) {
-    animation: none;
     mix-blend-mode: normal;
+    animation: none;
 }
 
 ::view-transition-old(root) {

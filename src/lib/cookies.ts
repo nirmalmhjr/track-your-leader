@@ -26,8 +26,8 @@ export function setCookie(
     }
 
     Cookies.set(name, value, {
-        path: "/",
         expires: maxAgeSeconds / (60 * 60 * 24), // js-cookie expects days
+        path: "/",
     });
 }
 

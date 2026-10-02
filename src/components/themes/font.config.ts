@@ -46,8 +46,8 @@ const fontInter = Inter({
 
 const fontArchitectsDaughter = Architects_Daughter({
     subsets: ["latin"],
-    weight: "400",
     variable: "--font-architects-daughter",
+    weight: "400",
 });
 
 const fontDMSans = DM_Sans({
@@ -67,8 +67,8 @@ const fontOutfit = Outfit({
 
 const fontSpaceMono = Space_Mono({
     subsets: ["latin"],
-    weight: ["400", "700"],
     variable: "--font-space-mono",
+    weight: ["400", "700"],
 });
 
 export const fontVariables = cn(
