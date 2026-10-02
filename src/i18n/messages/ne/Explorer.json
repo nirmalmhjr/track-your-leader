@@ -195,7 +195,6 @@
     "errorTitle": "नक्सा लोड हुन सकेन",
     "errorDescription": "इन्टरनेट जडान जाँच गरेर फेरि प्रयास गर्नुहोस्। प्यानलका सूची र विवरण भने चल्छन्।",
     "retry": "फेरि प्रयास गर्नुहोस्",
-    "calloutTracked": "{capital} · {countLabel} पदाधिकारी",
     "tooltip": {
       "selected": "छानिएको देश",
       "worldTracked": "{tripsLabel} भ्रमण · {officialsLabel} पदाधिकारी",
@@ -231,6 +230,11 @@
       "official": "{name}",
       "inbound": "{country} मा भएका भ्रमण",
       "trips": "{count, plural, =0 {भ्रमण छैन} other {{countLabel} भ्रमण}}"
+    },
+    "callout": {
+      "officials": "{countLabel} पदाधिकारी",
+      "trips": "{countLabel} भ्रमण",
+      "visits": "{count, plural, =0 {भ्रमण रेकर्ड छैन} other {{countLabel} भ्रमण प्राप्त}}"
     }
   },
   "sort": {

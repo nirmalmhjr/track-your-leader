@@ -133,7 +133,7 @@ export function MapLegend({
         return (
             <section
                 aria-label={t("label")}
-                className="absolute z-10 w-56 rounded-md border bg-background p-3 text-xs shadow-sm"
+                className="absolute z-10 w-56 rounded-lg border bg-card/95 p-3 text-xs shadow-md"
                 style={{ bottom, left }}
             >
                 <LegendContent scene={scene} />
@@ -143,7 +143,7 @@ export function MapLegend({
 
     return (
         <Collapsible
-            className="absolute z-10 max-w-[calc(100%-5rem)] rounded-md border bg-background text-xs shadow-sm transition-[bottom] duration-300"
+            className="absolute z-10 max-w-[calc(100%-5rem)] rounded-lg border bg-card text-xs shadow-md transition-[bottom] duration-300"
             style={{ bottom, left }}
         >
             <CollapsibleTrigger className="group flex w-full items-center gap-1.5 px-2.5 py-1.5 font-medium outline-none focus-visible:ring-3 focus-visible:ring-ring/50">

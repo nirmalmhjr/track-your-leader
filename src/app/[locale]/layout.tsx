@@ -3,7 +3,7 @@ import { cookies } from "next/headers";
 
 import { Providers } from "@/components/layout/providers";
 import { fontVariables } from "@/components/themes/font.config";
-import { DEFAULT_THEME } from "@/components/themes/theme.config";
+import { DEFAULT_THEME, THEMES } from "@/components/themes/theme.config";
 import { STORAGE_KEYS } from "@/configs/storage";
 import { META_THEME_COLORS, siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
@@ -44,7 +44,9 @@ export default async function LocaleLayout({
 
     const cookieStore = await cookies();
     const activeThemeValue = cookieStore.get(STORAGE_KEYS.THEME)?.value;
-    const themeToApply = activeThemeValue || DEFAULT_THEME;
+    // The cookie is shared by every app on the same host, so only accept themes this app ships.
+    const themeToApply =
+        THEMES.find((theme) => theme.value === activeThemeValue)?.value ?? DEFAULT_THEME;
 
     return (
         <html data-theme={themeToApply} lang={locale} suppressHydrationWarning>
@@ -54,8 +56,8 @@ export default async function LocaleLayout({
                     dangerouslySetInnerHTML={{
                         __html: `
                             try {
-                                // Set meta theme color
-                                if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                                // Set meta theme color; the app defaults to dark mode
+                                if (localStorage.theme === 'dark' || !('theme' in localStorage) || (localStorage.theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
                                 document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '${META_THEME_COLORS.dark}')
                                 }
                             } catch (_) {}

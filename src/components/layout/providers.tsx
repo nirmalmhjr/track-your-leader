@@ -32,7 +32,7 @@ export function Providers({ activeThemeValue, locale, messages, children }: Prov
             <NuqsAdapter>
                 <ThemeProvider
                     attribute="class"
-                    defaultTheme="system"
+                    defaultTheme="dark"
                     disableTransitionOnChange
                     enableColorScheme
                     enableSystem

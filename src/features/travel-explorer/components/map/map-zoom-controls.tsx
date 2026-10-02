@@ -63,7 +63,7 @@ export function MapZoomControls({
 
     return (
         <div
-            className="absolute right-3 z-10 flex flex-col overflow-hidden rounded-md border bg-background shadow-sm transition-[bottom] duration-300"
+            className="absolute right-3 z-10 flex flex-col overflow-hidden rounded-lg border bg-card shadow-md transition-[bottom] duration-300"
             style={{ bottom }}
         >
             <ControlButton label={t("zoomIn")} onClick={onZoomIn} shortcut="+">

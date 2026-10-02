@@ -76,7 +76,7 @@ export function WorldMap() {
 
             {isTabletUp && !isDesktop && isPanelCollapsed ? (
                 <Button
-                    className="absolute top-3 right-3 z-20 shadow-sm"
+                    className="absolute top-3 right-3 z-20 shadow-md"
                     onClick={expandPanel}
                     size="sm"
                     variant="outline"

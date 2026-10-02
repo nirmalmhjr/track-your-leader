@@ -394,7 +394,7 @@ export function FiltersView() {
                     <DestinationSection />
                 </Accordion>
             </div>
-            <div className="sticky bottom-0 flex items-center gap-2 border-t bg-background px-4 py-3">
+            <div className="sticky bottom-0 flex items-center gap-2 border-t bg-sidebar px-4 py-3">
                 <Button
                     disabled={countActiveFilters(filters) === 0}
                     onClick={resetFilters}

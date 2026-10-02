@@ -186,7 +186,7 @@ export function ExplorerPanel() {
         <aside
             aria-label={t("label")}
             className={cn(
-                "fixed inset-x-0 bottom-0 z-30 flex h-(--sheet-height) flex-col overflow-hidden rounded-t-2xl border-t bg-background shadow-[0_-12px_32px_-16px_rgb(0_0_0/0.35)]",
+                "fixed inset-x-0 bottom-0 z-30 flex h-(--sheet-height) flex-col overflow-hidden rounded-t-2xl border-t bg-sidebar shadow-[0_-12px_32px_-16px_rgb(0_0_0/0.35)]",
                 dragHeight === null && "transition-[height] duration-300 ease-out",
                 "md:absolute md:inset-x-auto md:top-3 md:bottom-3 md:left-3 md:h-auto md:w-[380px] md:rounded-xl md:border md:shadow-lg md:transition-transform",
                 isPanelCollapsed && "md:pointer-events-none md:-translate-x-[calc(100%+1rem)]",

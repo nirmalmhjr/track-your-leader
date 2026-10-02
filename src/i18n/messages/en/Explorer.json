@@ -195,7 +195,6 @@
     "errorTitle": "The map couldn't load",
     "errorDescription": "Check your connection and try again. Lists and details in the panel still work.",
     "retry": "Try again",
-    "calloutTracked": "{capital} · {count, plural, one {{countLabel} official} other {{countLabel} officials}}",
     "tooltip": {
       "selected": "Selected country",
       "worldTracked": "{trips, plural, one {{tripsLabel} trip} other {{tripsLabel} trips}} · {officials, plural, one {{officialsLabel} official} other {{officialsLabel} officials}}",
@@ -231,6 +230,11 @@
       "official": "{name}",
       "inbound": "Visits to {country}",
       "trips": "{count, plural, =0 {No trips} one {{countLabel} trip} other {{countLabel} trips}}"
+    },
+    "callout": {
+      "officials": "{count, plural, one {{countLabel} official} other {{countLabel} officials}}",
+      "trips": "{count, plural, one {{countLabel} trip} other {{countLabel} trips}}",
+      "visits": "{count, plural, =0 {No recorded visits} one {{countLabel} visit received} other {{countLabel} visits received}}"
     }
   },
   "sort": {

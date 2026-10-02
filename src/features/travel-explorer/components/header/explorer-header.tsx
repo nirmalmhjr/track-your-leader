@@ -18,7 +18,7 @@ export function ExplorerHeader() {
     const goToWorld = useCallback(() => goToLevel("world"), [goToLevel]);
 
     return (
-        <header className="flex h-14 shrink-0 items-center gap-3 border-b bg-background px-3 md:px-4">
+        <header className="flex h-14 shrink-0 items-center gap-3 border-b bg-sidebar px-3 md:px-4">
             <button
                 className="flex min-w-0 items-center gap-2 rounded-md outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
                 onClick={goToWorld}

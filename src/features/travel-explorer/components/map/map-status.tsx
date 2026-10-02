@@ -36,7 +36,7 @@ export function MapErrorState({ onRetry }: { onRetry: () => void }) {
 
     return (
         <div className="absolute inset-0 flex items-center justify-center p-6">
-            <Empty className="max-w-sm border bg-background">
+            <Empty className="max-w-sm border bg-card shadow-lg">
                 <EmptyHeader>
                     <EmptyMedia variant="icon">
                         <IconMapPinOff />

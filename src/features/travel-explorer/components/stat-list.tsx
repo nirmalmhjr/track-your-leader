@@ -10,7 +10,7 @@ export function StatList({ items, className }: { items: readonly StatItem[]; cla
     return (
         <dl
             className={cn(
-                "grid divide-x rounded-lg border",
+                "grid divide-x rounded-lg border bg-card",
                 items.length === 4 ? "grid-cols-4" : "grid-cols-3",
                 className
             )}

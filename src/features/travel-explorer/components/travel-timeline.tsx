@@ -35,7 +35,7 @@ function TimelineDot({ record }: { record: TravelRecord }) {
         <span
             aria-hidden
             className={cn(
-                "relative z-10 mt-1.5 block size-2.5 rounded-full border-2 bg-background",
+                "relative z-10 mt-1.5 block size-2.5 rounded-full border-2 bg-sidebar",
                 record.status === "planned" && "border-dotted"
             )}
             style={{
@@ -158,7 +158,7 @@ export function TravelTimeline({
         <ol aria-label={t("label")} className="flex flex-col gap-2">
             {groupByYear(records).map((group) => (
                 <li key={group.year}>
-                    <h3 className="sticky top-0 z-20 bg-background py-1.5 font-semibold text-muted-foreground text-xs tabular-nums">
+                    <h3 className="sticky top-0 z-20 bg-sidebar py-1.5 font-semibold text-muted-foreground text-xs tabular-nums">
                         {format.year(group.year)}
                     </h3>
                     <ol className="flex flex-col">

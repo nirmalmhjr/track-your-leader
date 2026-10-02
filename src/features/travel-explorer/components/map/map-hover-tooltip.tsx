@@ -131,7 +131,7 @@ export function MapHoverTooltip({ target, scene, width, height }: MapHoverToolti
     return (
         <div
             aria-hidden
-            className="pointer-events-none absolute z-20 flex max-w-60 flex-col gap-0.5 rounded-md border bg-popover px-3 py-2 text-popover-foreground text-xs shadow-md"
+            className="pointer-events-none absolute z-20 flex max-w-60 flex-col gap-0.5 rounded-lg border bg-popover px-3 py-2 text-popover-foreground text-xs shadow-md"
             style={{ left: Math.max(left, 8), top: Math.max(top, 8) }}
         >
             {target.kind === "country" ? (

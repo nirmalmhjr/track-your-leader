@@ -43,7 +43,7 @@ export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number
     return (
         <section
             aria-live="polite"
-            className="absolute top-3 z-10 flex max-w-[min(26rem,calc(100%-5rem))] flex-col gap-1 rounded-md border bg-background px-3 py-2 shadow-sm"
+            className="absolute top-3 z-10 flex max-w-[min(26rem,calc(100%-5rem))] flex-col gap-1 rounded-lg border bg-card/95 px-3 py-2 shadow-md"
             style={{ left }}
         >
             <p className="truncate font-medium text-sm">{subject}</p>

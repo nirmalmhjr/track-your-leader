@@ -1,4 +1,4 @@
-import { geoArea, geoEqualEarth, geoGraticule10, geoPath } from "d3-geo";
+import { type GeoStream, geoEqualEarth, geoGraticule10, geoPath, geoStream } from "d3-geo";
 import type { Feature, Geometry, MultiPolygon, Polygon } from "geojson";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -15,9 +15,12 @@ export type WorldTopology = Topology<{
 }>;
 
 export interface MapCountryShape {
-    /** Bounds of the largest landmass, used for framing so overseas territories don't dominate. */
+    /**
+     * Bounds of the country's main body (largest landmass plus comparably sized islands), used
+     * for framing and for placing the flag so overseas territories don't dominate.
+     */
     bounds: Bounds;
-    /** Visual centre of the largest landmass, in map units. */
+    /** Centre of the largest landmass, in map units. */
     centroid: Point;
     /** Stable key: ISO numeric id, or the feature name for uncoded territories. */
     key: string;
@@ -55,24 +58,83 @@ export const projectCoordinates = (coordinates: Coordinates): Point | null =>
 const isAreaGeometry = (geometry: Geometry): geometry is Polygon | MultiPolygon =>
     geometry.type === "Polygon" || geometry.type === "MultiPolygon";
 
-const largestPolygon = (geometry: Polygon | MultiPolygon): Polygon => {
-    if (geometry.type === "Polygon") {
-        return geometry;
+type Ring = [number, number][];
+
+/** Islands at least this share of the main landmass count as part of the country's body. */
+const SIGNIFICANT_RING_SHARE = 0.3;
+
+/**
+ * Projects a geometry and collects its rings in map units. Working after projection means
+ * polygons split at the antimeridian (e.g. Russia's far east) become separate rings.
+ */
+const collectProjectedRings = (geometry: Polygon | MultiPolygon): Ring[] => {
+    const rings: Ring[] = [];
+    let current: Ring = [];
+    const sink: GeoStream = {
+        lineEnd: () => {
+            if (current.length > 2) {
+                rings.push(current);
+            }
+        },
+        lineStart: () => {
+            current = [];
+        },
+        point: (x, y) => {
+            current.push([x, y]);
+        },
+        polygonEnd: () => undefined,
+        polygonStart: () => undefined,
+        sphere: () => undefined,
+    };
+    geoStream(geometry, WORLD_PROJECTION.stream(sink));
+    return rings;
+};
+
+const ringArea = (ring: Ring): number => {
+    let doubled = 0;
+    for (let index = 0; index < ring.length; index += 1) {
+        const [x0, y0] = ring[index];
+        const [x1, y1] = ring[(index + 1) % ring.length];
+        doubled += x0 * y1 - x1 * y0;
+    }
+    return Math.abs(doubled) / 2;
+};
+
+const ringCentroid = (ring: Ring): Point => {
+    const xs = ring.map(([x]) => x);
+    const ys = ring.map(([, y]) => y);
+    return [(Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2];
+};
+
+/**
+ * Describes the country's main body: its largest landmass plus any island of comparable size,
+ * so overseas territories (Alaska, French Guiana) don't stretch the framing or the flag.
+ */
+const describeMainBody = (
+    geometry: Polygon | MultiPolygon
+): { area: number; bounds: Bounds; centroid: Point } | null => {
+    const rings = collectProjectedRings(geometry).map((ring) => ({ area: ringArea(ring), ring }));
+    const largest = rings.reduce<(typeof rings)[number] | null>(
+        (best, candidate) => (!best || candidate.area > best.area ? candidate : best),
+        null
+    );
+    if (!largest) {
+        return null;
     }
 
-    let best: Polygon = { coordinates: geometry.coordinates[0], type: "Polygon" };
-    let bestArea = 0;
+    const body = rings.filter((entry) => entry.area >= largest.area * SIGNIFICANT_RING_SHARE);
+    const points = body.flatMap((entry) => entry.ring);
+    const xs = points.map(([x]) => x);
+    const ys = points.map(([, y]) => y);
 
-    for (const coordinates of geometry.coordinates) {
-        const polygon: Polygon = { coordinates, type: "Polygon" };
-        const area = geoArea(polygon);
-        if (area > bestArea) {
-            best = polygon;
-            bestArea = area;
-        }
-    }
-
-    return best;
+    return {
+        area: largest.area,
+        bounds: [
+            [Math.min(...xs), Math.min(...ys)],
+            [Math.max(...xs), Math.max(...ys)],
+        ],
+        centroid: ringCentroid(largest.ring),
+    };
 };
 
 /**
@@ -90,24 +152,19 @@ export const buildCountryShapes = (topology: WorldTopology): MapCountryShape[] =
         { name: string } | null
     >[]) {
         const { geometry } = country;
-        if (!(geometry && isAreaGeometry(geometry))) {
+        const body = geometry && isAreaGeometry(geometry) ? describeMainBody(geometry) : null;
+        if (!(geometry && body)) {
             continue;
         }
 
         const name = country.properties?.name ?? "";
         const numericId = country.id === undefined ? undefined : String(country.id);
-        const mainland = largestPolygon(geometry);
-        const [[x0, y0], [x1, y1]] = worldPath.bounds(mainland);
-        const [cx, cy] = worldPath.centroid(mainland);
         const key = numericId ?? `name:${name}`;
         const candidate = {
-            area: geoArea(mainland),
+            area: body.area,
             shape: {
-                bounds: [
-                    [x0, y0],
-                    [x1, y1],
-                ] as const,
-                centroid: [cx, cy] as const,
+                bounds: body.bounds,
+                centroid: body.centroid,
                 key,
                 name,
                 path: worldPath(geometry) ?? "",
@@ -143,6 +200,71 @@ export const buildCountryShapes = (topology: WorldTopology): MapCountryShape[] =
  */
 export const getCountryAnchor = (shape: MapCountryShape, capital: Coordinates | null): Point =>
     (capital ? projectCoordinates(capital) : null) ?? shape.centroid;
+
+export interface ScreenBox {
+    height: number;
+    width: number;
+    x: number;
+    y: number;
+}
+
+export interface CalloutLayout {
+    anchor: Point;
+    /** Approximate screen footprint, used to keep labels clear of the callout. */
+    box: ScreenBox;
+    /** Distance in pixels between the anchor and the callout's nearest edge. */
+    offset: number;
+    placement: "above" | "below";
+}
+
+const CALLOUT_SIZE = { height: 72, width: 236 } as const;
+const CALLOUT_GAP = { max: 140, min: 14, outside: 10 } as const;
+
+/**
+ * Places the country callout just outside the country's body, above it when there is room and
+ * below otherwise, so the callout never hides the flag of a small country. When neither side
+ * has room, it is pinned to the top of the free area.
+ *
+ * @param anchor - Anchor point (capital or centre) in screen pixels.
+ * @param body - Screen y of the country's northern and southern edges.
+ * @param freeArea - Screen y range not covered by overlays or panels.
+ * @returns Placement, leader-line length and the callout's screen footprint.
+ */
+export const computeCalloutLayout = (
+    anchor: Point,
+    body: { top: number; bottom: number },
+    freeArea: { top: number; bottom: number }
+): CalloutLayout => {
+    const [x, y] = anchor;
+    const clampGap = (gap: number) =>
+        Math.min(Math.max(gap + CALLOUT_GAP.outside, CALLOUT_GAP.min), CALLOUT_GAP.max);
+    const aboveOffset = clampGap(y - body.top);
+    const belowOffset = clampGap(body.bottom - y);
+    const fitsAbove = y - aboveOffset - CALLOUT_SIZE.height >= freeArea.top;
+    const fitsBelow = y + belowOffset + CALLOUT_SIZE.height <= freeArea.bottom;
+
+    let placement: CalloutLayout["placement"] = "above";
+    let offset = aboveOffset;
+    if (!fitsAbove && fitsBelow) {
+        placement = "below";
+        offset = belowOffset;
+    } else if (!fitsAbove) {
+        offset = Math.max(CALLOUT_GAP.min, y - freeArea.top - CALLOUT_SIZE.height);
+    }
+
+    const halfWidth = CALLOUT_SIZE.width / 2;
+    return {
+        anchor,
+        box: {
+            height: CALLOUT_SIZE.height,
+            width: CALLOUT_SIZE.width,
+            x: x - halfWidth,
+            y: placement === "above" ? y - offset - CALLOUT_SIZE.height : y + offset,
+        },
+        offset,
+        placement,
+    };
+};
 
 /**
  * Computes the smallest box containing every point and box.

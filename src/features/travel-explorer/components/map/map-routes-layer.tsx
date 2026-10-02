@@ -1,7 +1,7 @@
 "use client";
 
 import type { ZoomTransform } from "d3-zoom";
-import { memo } from "react";
+import { memo, useId } from "react";
 
 import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
 import {
@@ -13,6 +13,7 @@ import {
     buildArcPath,
     type Point,
     projectCoordinates,
+    type ScreenBox,
 } from "@/features/travel-explorer/utils/map-geometry.utils";
 import type {
     MapNode,
@@ -28,11 +29,13 @@ interface RouteFocus {
 }
 
 interface MapRoutesLayerProps {
-    /** Selected country's pointer, in map units; labels keep clear of its callout. */
-    calloutAnchor: Point | null;
     focus: RouteFocus;
     height: number;
+    /** Screen areas labels must keep clear of (the callout, a small selected country). */
+    labelObstacles: readonly ScreenBox[];
     scene: MapScene;
+    /** Outline (map units) of the selected country; routes fade over it so its flag stays clear. */
+    selectedPath: string | null;
     transform: ZoomTransform;
     width: number;
 }
@@ -55,9 +58,9 @@ const LABEL_HEIGHT = 14;
 const LABEL_CHAR_WIDTH = 6.2;
 const LABEL_GAP = 5;
 const VIEWPORT_MARGIN = 24;
-/** Approximate footprint of the country callout drawn above its anchor. */
-const CALLOUT_HALF_WIDTH = 100;
-const CALLOUT_HEIGHT = 58;
+
+/** Mask luminance over the selected country: routes keep about a quarter of their strength. */
+const SELECTED_ROUTE_VISIBILITY = 64;
 
 const nodeRadius = (node: MapNode): number =>
     3.5 + Math.min(Math.sqrt(node.records.length) * 1.1, 4.5);
@@ -127,12 +130,14 @@ function NodeMarker({ node, point }: { node: MapNode; point: Point }) {
  */
 export const MapRoutesLayer = memo(function RoutesLayer({
     scene,
-    calloutAnchor,
+    labelObstacles,
+    selectedPath,
     transform,
     focus,
     width,
     height,
 }: MapRoutesLayerProps) {
+    const maskId = useId();
     const toScreen = (place: Place): Point | null => {
         const projected = projectCoordinates(place.coordinates);
         return projected ? (transform.apply([projected[0], projected[1]]) as Point) : null;
@@ -146,16 +151,7 @@ export const MapRoutesLayer = memo(function RoutesLayer({
     const hasFocus = Boolean(focus.recordId || focus.officialId);
     const anchors = scene.mode === "inbound" ? scene.anchors : [];
 
-    const placedLabels: LabelBox[] = [];
-    if (calloutAnchor) {
-        const [anchorX, anchorY] = transform.apply([calloutAnchor[0], calloutAnchor[1]]);
-        placedLabels.push({
-            height: CALLOUT_HEIGHT,
-            width: CALLOUT_HALF_WIDTH * 2,
-            x: anchorX - CALLOUT_HALF_WIDTH,
-            y: anchorY - CALLOUT_HEIGHT,
-        });
-    }
+    const placedLabels: LabelBox[] = [...labelObstacles];
     const labels: { key: string; text: string; x: number; y: number }[] = [];
     const labelCandidates = scene.nodes
         .filter((node) => scene.showLabels || matchesFocus(node.records, focus))
@@ -199,7 +195,30 @@ export const MapRoutesLayer = memo(function RoutesLayer({
 
     return (
         <g>
-            <g aria-hidden className="pointer-events-none">
+            {selectedPath ? (
+                <defs>
+                    <mask
+                        height={height}
+                        id={maskId}
+                        maskUnits="userSpaceOnUse"
+                        width={width}
+                        x={0}
+                        y={0}
+                    >
+                        <rect fill="white" height={height} width={width} x={0} y={0} />
+                        <path
+                            d={selectedPath}
+                            fill={`rgb(${SELECTED_ROUTE_VISIBILITY} ${SELECTED_ROUTE_VISIBILITY} ${SELECTED_ROUTE_VISIBILITY})`}
+                            transform={transform.toString()}
+                        />
+                    </mask>
+                </defs>
+            ) : null}
+            <g
+                aria-hidden
+                className="pointer-events-none"
+                mask={selectedPath ? `url(#${maskId})` : undefined}
+            >
                 {scene.segments.map((segment) => {
                     const from = toScreen(segment.from);
                     const to = toScreen(segment.to);
@@ -242,7 +261,9 @@ export const MapRoutesLayer = memo(function RoutesLayer({
                         </g>
                     );
                 })}
+            </g>
 
+            <g aria-hidden className="pointer-events-none">
                 {anchors.map((place) => {
                     const point = toScreen(place);
                     return point ? (

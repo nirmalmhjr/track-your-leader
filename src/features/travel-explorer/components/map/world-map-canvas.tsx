@@ -16,6 +16,7 @@ import {
 
 import { MapCountriesLayer } from "@/features/travel-explorer/components/map/map-countries-layer";
 import { MapCountryCallout } from "@/features/travel-explorer/components/map/map-country-callout";
+import { MapFlagFill } from "@/features/travel-explorer/components/map/map-flag-fill";
 import {
     type MapHoverTarget,
     MapHoverTooltip,
@@ -37,11 +38,13 @@ import type { TravelRecord } from "@/features/travel-explorer/types/travel.types
 import {
     type Bounds,
     combineBounds,
+    computeCalloutLayout,
     GRATICULE_PATH,
     getCountryAnchor,
     type MapCountryShape,
     type Point,
     projectCoordinates,
+    type ScreenBox,
     SPHERE_PATH,
 } from "@/features/travel-explorer/utils/map-geometry.utils";
 import {
@@ -61,7 +64,9 @@ interface WorldMapCanvasProps {
 }
 
 /** Closest zoom used when framing a whole country, leaving regional context visible. */
-const COUNTRY_FRAME_ZOOM = 4.5;
+const COUNTRY_FRAME_ZOOM = 6.5;
+/** A selected country smaller than this share of the viewport keeps city labels off its flag. */
+const FLAG_LABEL_GUARD_MAX_SHARE = 0.2;
 const ROUTE_FRAME_ZOOM = 6;
 
 const computeFills = (
@@ -203,16 +208,47 @@ export function WorldMapCanvas({
 
     const selectedShape = selection.country ? shapeByCode.get(selection.country) : undefined;
     const highlightedShape = hoveredCountry ? shapeByCode.get(hoveredCountry) : undefined;
-    const calloutAnchor = useMemo(
-        () =>
-            selectedShape
-                ? getCountryAnchor(
-                      selectedShape,
-                      data.countryByCode.get(selection.country ?? "")?.capital.coordinates ?? null
-                  )
-                : null,
-        [data.countryByCode, selectedShape, selection.country]
-    );
+    // The flag previews whichever country is pointed at, on the map or in the panel list.
+    const previewShape =
+        (hover?.kind === "country" && hover.shape.reference ? hover.shape : undefined) ??
+        highlightedShape;
+    const calloutLayout = useMemo(() => {
+        if (!selectedShape) {
+            return null;
+        }
+        const anchor = getCountryAnchor(
+            selectedShape,
+            data.countryByCode.get(selection.country ?? "")?.capital.coordinates ?? null
+        );
+        const [[, bodyTop], [, bodyBottom]] = selectedShape.bounds;
+        return computeCalloutLayout(
+            transform.apply([anchor[0], anchor[1]]),
+            { bottom: transform.applyY(bodyBottom), top: transform.applyY(bodyTop) },
+            { bottom: height - insets.bottom, top: insets.top }
+        );
+    }, [
+        data.countryByCode,
+        height,
+        insets.bottom,
+        insets.top,
+        selectedShape,
+        selection.country,
+        transform,
+    ]);
+
+    const labelObstacles = useMemo(() => {
+        const obstacles: ScreenBox[] = calloutLayout ? [calloutLayout.box] : [];
+        if (selectedShape) {
+            const [[x0, y0], [x1, y1]] = selectedShape.bounds;
+            const [left, top] = transform.apply([x0, y0]);
+            const [right, bottom] = transform.apply([x1, y1]);
+            const box = { height: bottom - top, width: right - left, x: left, y: top };
+            if (box.width * box.height < width * height * FLAG_LABEL_GUARD_MAX_SHARE) {
+                obstacles.push(box);
+            }
+        }
+        return obstacles;
+    }, [calloutLayout, height, selectedShape, transform, width]);
 
     const frameSelection = useCallback(() => {
         const frame = getSelectionFrame({
@@ -389,22 +425,37 @@ export function WorldMapCanvas({
                         selectedKey={selectedShape?.key ?? null}
                         shapes={shapes}
                     />
+                    {selectedShape ? (
+                        <MapFlagFill
+                            key={selectedShape.key}
+                            shape={selectedShape}
+                            variant="selected"
+                        />
+                    ) : null}
+                    {previewShape && previewShape.key !== selectedShape?.key ? (
+                        <MapFlagFill
+                            key={previewShape.key}
+                            shape={previewShape}
+                            variant="preview"
+                        />
+                    ) : null}
                 </g>
                 <MapRoutesLayer
-                    calloutAnchor={calloutAnchor}
                     focus={focus}
                     height={height}
+                    labelObstacles={labelObstacles}
                     scene={scene}
+                    selectedPath={selectedShape?.path ?? null}
                     transform={transform}
                     width={width}
                 />
             </svg>
 
-            {selectedShape ? (
+            {selectedShape && calloutLayout ? (
                 <MapCountryCallout
                     height={height}
+                    layout={calloutLayout}
                     shape={selectedShape}
-                    transform={transform}
                     width={width}
                 />
             ) : null}
