@@ -3,7 +3,6 @@ import type {
     DESTINATION_REGIONS,
     OFFICIAL_GROUPS,
     OFFICIAL_SORTS,
-    SHEET_SNAP_POINTS,
 } from "@/features/travel-explorer/constants/explorer.constants";
 import type {
     IsoDate,
@@ -21,7 +20,6 @@ export type CountryView = (typeof COUNTRY_VIEWS)[number];
 export type DestinationRegion = (typeof DESTINATION_REGIONS)[number];
 export type OfficialSort = (typeof OFFICIAL_SORTS)[number];
 export type OfficialGroup = (typeof OFFICIAL_GROUPS)[number];
-export type SheetSnapPoint = (typeof SHEET_SNAP_POINTS)[number];
 
 /** Every filter the explorer understands. Mirrors the URL query parameters one-to-one. */
 export interface ExplorerFilters {

@@ -15,6 +15,7 @@ interface MapZoomControlsProps {
     onReset: () => void;
     onZoomIn: () => void;
     onZoomOut: () => void;
+    right: number;
 }
 
 function ControlButton({
@@ -58,13 +59,14 @@ export function MapZoomControls({
     onReset,
     onFrameSelection,
     bottom,
+    right,
 }: MapZoomControlsProps) {
     const t = useTranslations("Explorer.map.controls");
 
     return (
         <div
-            className="absolute right-3 z-10 flex flex-col overflow-hidden rounded-lg border bg-card shadow-md transition-[bottom] duration-300"
-            style={{ bottom }}
+            className="absolute z-10 flex flex-col overflow-hidden rounded-lg border bg-card shadow-md transition-[bottom,right] duration-300"
+            style={{ bottom, right }}
         >
             <ControlButton label={t("zoomIn")} onClick={onZoomIn} shortcut="+">
                 <IconPlus />

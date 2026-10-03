@@ -1,59 +1,55 @@
 "use client";
 
-import { IconLayoutSidebarLeftExpand } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
-import { useCallback, useMemo } from "react";
+import { useMemo } from "react";
 
-import { Button } from "@/components/ui/button";
 import {
     MapErrorState,
     MapLoadingState,
 } from "@/features/travel-explorer/components/map/map-status";
 import { WorldMapCanvas } from "@/features/travel-explorer/components/map/world-map-canvas";
-import { useSheetHeight } from "@/features/travel-explorer/hooks/use-sheet-height";
+import { PanelToggle } from "@/features/travel-explorer/components/panel/panel-toggle";
+import {
+    PANEL_GAP_PX,
+    PANEL_WIDTH_PX,
+    PANEL_WIDTH_XL_PX,
+} from "@/features/travel-explorer/constants/explorer.constants";
 import { useWorldShapes } from "@/features/travel-explorer/hooks/use-world-shapes";
 import { useElementSize } from "@/hooks/use-element-size";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
-/** Width of the floating tablet panel plus its outer margin. */
-const FLOATING_PANEL_SPACE_PX = 380 + 24;
 const EDGE_GAP_PX = 12;
-/** Room kept free for the scope summary at the top and zoom controls on the right. */
+/** Room kept free for the scope summary at the top of the map. */
 const TOP_OVERLAY_PX = 88;
-const RIGHT_OVERLAY_PX = 56;
 
 /**
  * Map viewport. Works out which parts of the screen panels cover so framing, controls and
  * overlays always land in the visible area on every layout.
  */
 export function WorldMap() {
-    const t = useTranslations("Explorer.panel");
     const [containerRef, size] = useElementSize<HTMLDivElement>();
     const world = useWorldShapes();
     const isTabletUp = useMediaQuery("(min-width: 768px)");
-    const isDesktop = useMediaQuery("(min-width: 1024px)");
-    const isPanelCollapsed = useExplorerUiStore((state) => state.isPanelCollapsed);
-    const setPanelCollapsed = useExplorerUiStore((state) => state.setPanelCollapsed);
-    const { height: sheetHeight } = useSheetHeight();
-    const expandPanel = useCallback(() => setPanelCollapsed(false), [setPanelCollapsed]);
+    const isWide = useMediaQuery("(min-width: 1280px)");
+    const isPanelOpen = useExplorerUiStore((state) => state.isPanelOpen);
 
-    const isFloatingPanelOpen = isTabletUp && !isDesktop && !isPanelCollapsed;
-    const panelLeft = isFloatingPanelOpen ? FLOATING_PANEL_SPACE_PX : 0;
-    const panelBottom = isTabletUp ? 0 : sheetHeight;
+    // On phones the open panel covers nearly the whole map, so it overlays the map rather than
+    // shrinking the area the map frames into.
+    const panelWidth = isWide ? PANEL_WIDTH_XL_PX : PANEL_WIDTH_PX;
+    const panelRight = isTabletUp && isPanelOpen ? panelWidth + 2 * PANEL_GAP_PX : 0;
 
     const insets = useMemo(
         () => ({
-            bottom: panelBottom + EDGE_GAP_PX,
-            left: panelLeft + EDGE_GAP_PX,
-            right: RIGHT_OVERLAY_PX,
+            bottom: EDGE_GAP_PX,
+            left: EDGE_GAP_PX,
+            right: panelRight + EDGE_GAP_PX,
             top: TOP_OVERLAY_PX,
         }),
-        [panelBottom, panelLeft]
+        [panelRight]
     );
     const overlayOffsets = useMemo(
-        () => ({ bottom: panelBottom + EDGE_GAP_PX, left: panelLeft + EDGE_GAP_PX }),
-        [panelBottom, panelLeft]
+        () => ({ bottom: EDGE_GAP_PX, left: EDGE_GAP_PX, right: panelRight + EDGE_GAP_PX }),
+        [panelRight]
     );
 
     const hasSize = size.width > 0 && size.height > 0;
@@ -73,18 +69,7 @@ export function WorldMap() {
                 <MapLoadingState />
             ) : null}
             {world.status === "error" ? <MapErrorState onRetry={world.retry} /> : null}
-
-            {isTabletUp && !isDesktop && isPanelCollapsed ? (
-                <Button
-                    className="absolute top-3 right-3 z-20 shadow-md"
-                    onClick={expandPanel}
-                    size="sm"
-                    variant="outline"
-                >
-                    <IconLayoutSidebarLeftExpand data-icon="inline-start" />
-                    {t("expand")}
-                </Button>
-            ) : null}
+            {isPanelOpen ? null : <PanelToggle />}
         </div>
     );
 }

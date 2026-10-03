@@ -22,7 +22,7 @@ export interface MapInsets {
 
 interface UseMapZoomOptions {
     height: number;
-    /** Screen space covered by panels, excluded when framing content. */
+    /** Screen space covered by panels and the top overlay, excluded when framing content. */
     insets: MapInsets;
     svgRef: RefObject<SVGSVGElement | null>;
     width: number;
@@ -31,19 +31,32 @@ interface UseMapZoomOptions {
 /** Inhabited latitudes; the polar caps are left out of the home view. */
 const HOME_NORTH_LATITUDE = 78;
 const HOME_SOUTH_LATITUDE = -56;
-/** Longitude centred on narrow, portrait screens where the whole world cannot fit legibly. */
-const PORTRAIT_CENTER_LONGITUDE = 30;
 const PORTRAIT_HEIGHT_FILL = 0.5;
+/**
+ * Room kept free for the zoom controls when framing a selection. The home view ignores it so
+ * the world stays centred between the panels.
+ */
+const ZOOM_CONTROLS_RESERVE_PX = 44;
 const CLICK_TOLERANCE_PX = 4;
 const KEYBOARD_ZOOM_MS = 220;
+/** Matches the panel's slide, so the map glides along when the panel opens or closes. */
+const PANEL_FOLLOW_MS = 300;
+/** How far past the world's edges the map may be panned, in map units. */
+const PAN_MARGIN = MAP_CONFIG.worldWidth * 0.3;
 
 const homeTop = projectCoordinates([0, HOME_NORTH_LATITUDE])?.[1] ?? 0;
 const homeBottom = projectCoordinates([0, HOME_SOUTH_LATITUDE])?.[1] ?? MAP_WORLD_HEIGHT;
 const homeHeight = homeBottom - homeTop;
 
+/**
+ * The resting view: the whole world centred in the area beside the panel. Vertically it is
+ * centred on the equator with equal gaps above and below, so the map sits in the middle of
+ * the screen rather than being pushed down by the overlays along the top.
+ */
 const computeHomeTransform = (width: number, height: number, insets: MapInsets): ZoomTransform => {
+    const verticalGap = Math.min(insets.top, insets.bottom);
     const availableWidth = Math.max(width - insets.left - insets.right, 1);
-    const availableHeight = Math.max(height - insets.top - insets.bottom, 1);
+    const availableHeight = Math.max(height - 2 * verticalGap, 1);
     const containScale = Math.min(
         availableWidth / MAP_CONFIG.worldWidth,
         availableHeight / homeHeight
@@ -53,17 +66,32 @@ const computeHomeTransform = (width: number, height: number, insets: MapInsets):
         ? Math.max(containScale, (availableHeight * PORTRAIT_HEIGHT_FILL) / homeHeight)
         : containScale;
 
-    const centerX = isPortrait
-        ? (projectCoordinates([PORTRAIT_CENTER_LONGITUDE, 0])?.[0] ?? MAP_CONFIG.worldWidth / 2)
-        : MAP_CONFIG.worldWidth / 2;
-    const centerY = (homeTop + homeBottom) / 2;
+    const centerX = MAP_CONFIG.worldWidth / 2;
+    const centerY = MAP_WORLD_HEIGHT / 2;
 
     return zoomIdentity
-        .translate(
-            insets.left + availableWidth / 2 - scale * centerX,
-            insets.top + availableHeight / 2 - scale * centerY
-        )
+        .translate(insets.left + availableWidth / 2 - scale * centerX, height / 2 - scale * centerY)
         .scale(scale);
+};
+
+/**
+ * Pan limits: the world plus a margin, widened to everything the home view shows so d3-zoom
+ * never snaps the home view sideways on the first drag when a panel shifts it off-centre.
+ */
+const computeTranslateExtent = (
+    home: ZoomTransform,
+    width: number,
+    height: number
+): [[number, number], [number, number]] => {
+    const [viewLeft, viewTop] = home.invert([0, 0]);
+    const [viewRight, viewBottom] = home.invert([width, height]);
+    return [
+        [Math.min(-PAN_MARGIN, viewLeft), Math.min(-PAN_MARGIN, viewTop)],
+        [
+            Math.max(MAP_CONFIG.worldWidth + PAN_MARGIN, viewRight),
+            Math.max(MAP_WORLD_HEIGHT + PAN_MARGIN, viewBottom),
+        ],
+    ];
 };
 
 type CameraMode = "home" | "framed" | "free";
@@ -83,6 +111,8 @@ export function useMapZoom({ svgRef, width, height, insets }: UseMapZoomOptions)
      * intent: the home view and framed selections adapt, while a view the user moved stays put.
      */
     const cameraModeRef = useRef<CameraMode>("home");
+    /** Viewport size the home view was last applied at; `null` before the first apply. */
+    const homeSizeRef = useRef<string | null>(null);
     const [transform, setTransform] = useState<ZoomTransform>(zoomIdentity);
 
     const home = useMemo(
@@ -121,22 +151,27 @@ export function useMapZoom({ svgRef, width, height, insets }: UseMapZoomOptions)
             return;
         }
 
-        const margin = MAP_CONFIG.worldWidth * 0.3;
         behavior
             .extent([
                 [0, 0],
                 [width, height],
             ])
             .scaleExtent([home.k * 0.85, home.k * MAP_CONFIG.maxZoom])
-            .translateExtent([
-                [-margin, -margin],
-                [MAP_CONFIG.worldWidth + margin, MAP_WORLD_HEIGHT + margin],
-            ]);
+            .translateExtent(computeTranslateExtent(home, width, height));
 
-        if (cameraModeRef.current === "home") {
+        if (cameraModeRef.current !== "home") {
+            return;
+        }
+        // Panels opening or closing glide the map along; resizes and the first view snap.
+        const sizeKey = `${width}x${height}`;
+        const isPanelChange = homeSizeRef.current === sizeKey;
+        homeSizeRef.current = sizeKey;
+        if (isPanelChange && !prefersReducedMotion) {
+            select(svg).transition().duration(PANEL_FOLLOW_MS).call(behavior.transform, home);
+        } else {
             select(svg).call(behavior.transform, home);
         }
-    }, [svgRef, width, height, home]);
+    }, [svgRef, width, height, home, prefersReducedMotion]);
 
     const applyTransform = useCallback(
         (target: ZoomTransform, durationMs: number = MAP_CONFIG.transitionMs) => {
@@ -201,7 +236,10 @@ export function useMapZoom({ svgRef, width, height, insets }: UseMapZoomOptions)
     const fitBounds = useCallback(
         (bounds: Bounds, maxZoom: number = MAP_CONFIG.maxAutoFitZoom) => {
             const [[x0, y0], [x1, y1]] = bounds;
-            const availableWidth = Math.max(width - insets.left - insets.right, 1);
+            const availableWidth = Math.max(
+                width - insets.left - insets.right - ZOOM_CONTROLS_RESERVE_PX,
+                1
+            );
             const availableHeight = Math.max(height - insets.top - insets.bottom, 1);
             const boundsWidth = Math.max(x1 - x0, 1);
             const boundsHeight = Math.max(y1 - y0, 1);

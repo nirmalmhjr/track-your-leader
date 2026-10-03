@@ -1,6 +1,5 @@
 import { create } from "zustand";
 
-import type { SheetSnapPoint } from "@/features/travel-explorer/types/explorer.types";
 import type { CountryCode } from "@/types/geo.types";
 
 interface ExplorerUiState {
@@ -13,16 +12,13 @@ interface ExplorerUiState {
     /** Trip whose route is emphasised while hovering it in a timeline. */
     hoveredRecordId: string | null;
     isFiltersOpen: boolean;
-    /** Tablet only: whether the floating panel is tucked away. */
-    isPanelCollapsed: boolean;
+    /** Whether the exploration panel is showing; hidden, the map gets the whole screen. */
+    isPanelOpen: boolean;
     setFiltersOpen: (isOpen: boolean) => void;
     setHoveredCountry: (code: CountryCode | null) => void;
     setHoveredOfficialId: (id: string | null) => void;
     setHoveredRecordId: (id: string | null) => void;
-    setPanelCollapsed: (isCollapsed: boolean) => void;
-    setSheetSnap: (snap: SheetSnapPoint) => void;
-    /** Phone only: height of the bottom sheet. */
-    sheetSnap: SheetSnapPoint;
+    setPanelOpen: (isOpen: boolean) => void;
 }
 
 /** Ephemeral UI state shared between the map and the exploration panel. */
@@ -32,12 +28,10 @@ export const useExplorerUiStore = create<ExplorerUiState>()((set) => ({
     hoveredOfficialId: null,
     hoveredRecordId: null,
     isFiltersOpen: false,
-    isPanelCollapsed: false,
+    isPanelOpen: true,
     setFiltersOpen: (isFiltersOpen) => set({ isFiltersOpen }),
     setHoveredCountry: (hoveredCountry) => set({ hoveredCountry }),
     setHoveredOfficialId: (hoveredOfficialId) => set({ hoveredOfficialId }),
     setHoveredRecordId: (hoveredRecordId) => set({ hoveredRecordId }),
-    setPanelCollapsed: (isPanelCollapsed) => set({ isPanelCollapsed }),
-    setSheetSnap: (sheetSnap) => set({ sheetSnap }),
-    sheetSnap: "peek",
+    setPanelOpen: (isPanelOpen) => set({ isPanelOpen }),
 }));

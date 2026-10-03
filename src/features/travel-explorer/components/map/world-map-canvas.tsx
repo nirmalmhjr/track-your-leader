@@ -58,7 +58,7 @@ interface WorldMapCanvasProps {
     height: number;
     insets: MapInsets;
     /** Where overlays sit relative to panels covering the map. */
-    overlayOffsets: { left: number; bottom: number };
+    overlayOffsets: { bottom: number; left: number; right: number };
     shapes: readonly MapCountryShape[];
     width: number;
 }
@@ -271,7 +271,7 @@ export function WorldMapCanvas({
     }, [frameKey]);
 
     // When panels change the visible area, keep a framed selection framed.
-    const viewportKey = `${width}|${height}|${insets.left}|${insets.bottom}`;
+    const viewportKey = `${width}|${height}|${insets.left}|${insets.right}|${insets.bottom}`;
     const onViewportChange = useEffectEvent((_key: string) => {
         if (getCameraMode() === "framed") {
             frameSelection();
@@ -471,6 +471,7 @@ export function WorldMapCanvas({
                 onReset={resetView}
                 onZoomIn={zoomIn}
                 onZoomOut={zoomOut}
+                right={overlayOffsets.right}
             />
         </section>
     );

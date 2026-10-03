@@ -96,12 +96,16 @@ export const MAP_CONFIG = {
     zoomStep: 1.6,
 } as const;
 
-/** Bottom sheet heights on small screens. */
-export const SHEET_SNAP_POINTS = ["peek", "half", "full"] as const;
+/**
+ * Floating panel on the right of the map, below the header. Keep in sync with the
+ * `sm:w-[380px]`, `xl:w-[420px]` and `*-3` classes on the panel.
+ */
+export const PANEL_WIDTH_PX = 380;
+export const PANEL_WIDTH_XL_PX = 420;
+export const PANEL_GAP_PX = 12;
 
-export const SHEET_PEEK_HEIGHT_PX = 148;
-export const SHEET_HALF_RATIO = 0.52;
-export const SHEET_TOP_GAP_PX = 64;
+/** Element id of the exploration panel, referenced by the toggle that shows and hides it. */
+export const EXPLORER_PANEL_ID = "explorer-panel";
 
 /** Number of upcoming trips listed in the global overview. */
 export const OVERVIEW_UPCOMING_LIMIT = 6;

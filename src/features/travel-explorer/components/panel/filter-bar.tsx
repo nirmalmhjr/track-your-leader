@@ -10,7 +10,6 @@ import { ActiveFilterChips } from "@/features/travel-explorer/components/filters
 import { DateRangePopover } from "@/features/travel-explorer/components/filters/date-range-popover";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { countActiveFilters } from "@/features/travel-explorer/utils/filters.utils";
-import { useMediaQuery } from "@/hooks/use-media-query";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
 /** Date range, filter editor toggle and reset, followed by the active filters as chips. */
@@ -19,17 +18,12 @@ export function FilterBar() {
     const { filters, resetFilters } = useExplorerState();
     const isFiltersOpen = useExplorerUiStore((state) => state.isFiltersOpen);
     const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);
-    const setSheetSnap = useExplorerUiStore((state) => state.setSheetSnap);
-    const isTabletUp = useMediaQuery("(min-width: 768px)");
     const activeCount = countActiveFilters(filters);
 
-    const toggleFilters = useCallback(() => {
-        const next = !isFiltersOpen;
-        setFiltersOpen(next);
-        if (next && !isTabletUp) {
-            setSheetSnap("full");
-        }
-    }, [isFiltersOpen, isTabletUp, setFiltersOpen, setSheetSnap]);
+    const toggleFilters = useCallback(
+        () => setFiltersOpen(!isFiltersOpen),
+        [isFiltersOpen, setFiltersOpen]
+    );
 
     return (
         <div className="flex flex-col gap-2">

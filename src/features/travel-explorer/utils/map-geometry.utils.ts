@@ -1,4 +1,4 @@
-import { type GeoStream, geoEqualEarth, geoGraticule10, geoPath, geoStream } from "d3-geo";
+import { type GeoStream, geoGraticule10, geoNaturalEarth1, geoPath, geoStream } from "d3-geo";
 import type { Feature, Geometry, MultiPolygon, Polygon } from "geojson";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
@@ -33,10 +33,11 @@ const SPHERE = { type: "Sphere" } as const;
 const PATH_PRECISION = 2;
 
 /**
- * Equal Earth is an equal-area projection, so every country keeps its true relative size,
- * which matters when the map is used to compare where officials travel.
+ * Natural Earth is a compromise projection designed to look right: flat poles and gently
+ * rounded edges, so countries near the sides are squeezed less than on equal-area ovals while
+ * the polar regions don't balloon as they do on Mercator.
  */
-export const WORLD_PROJECTION = geoEqualEarth().fitWidth(MAP_CONFIG.worldWidth, SPHERE);
+export const WORLD_PROJECTION = geoNaturalEarth1().fitWidth(MAP_CONFIG.worldWidth, SPHERE);
 
 const worldPath = geoPath(WORLD_PROJECTION).digits(PATH_PRECISION);
 
