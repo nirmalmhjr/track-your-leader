@@ -1,9 +1,11 @@
 "use client";
 
+import { IconChevronDown } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import { Fragment, useCallback } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-status";
 import { ROUTE_STYLES } from "@/features/travel-explorer/constants/map-style.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
@@ -137,9 +139,87 @@ function TimelineEntry({
     );
 }
 
+type EntryOptions = Required<Omit<TravelTimelineProps, "records">>;
+
+/** One year's trips, with the "today" marker before the first trip that has started. */
+function YearEntries({
+    records,
+    dividerRecordId,
+    ...entryOptions
+}: EntryOptions & { dividerRecordId: string | null; records: readonly TravelRecord[] }) {
+    const t = useTranslations("Explorer.timeline");
+    const format = useExplorerFormat();
+    const { today } = useExplorerData();
+
+    return (
+        <ol className="flex flex-col">
+            {records.map((record) => (
+                <Fragment key={record.id}>
+                    {record.id === dividerRecordId ? (
+                        <li
+                            aria-label={t("today", { date: format.date(today) })}
+                            className="flex items-center gap-2 py-2 pl-1"
+                        >
+                            <span className="font-medium text-[11px] uppercase tracking-wide">
+                                {t("today", { date: format.date(today) })}
+                            </span>
+                            <span aria-hidden className="h-px flex-1 bg-foreground/25" />
+                        </li>
+                    ) : null}
+                    <TimelineEntry record={record} {...entryOptions} />
+                </Fragment>
+            ))}
+        </ol>
+    );
+}
+
+/** A past year folded to its heading and trip count; selecting the heading reveals its trips. */
+function CollapsedYear({
+    year,
+    records,
+    dividerRecordId,
+    ...entryOptions
+}: EntryOptions & {
+    dividerRecordId: string | null;
+    records: readonly TravelRecord[];
+    year: string;
+}) {
+    const t = useTranslations("Explorer.timeline");
+    const format = useExplorerFormat();
+
+    return (
+        <Collapsible>
+            <h3 className="sticky top-0 z-20 bg-sidebar">
+                <CollapsibleTrigger className="group flex w-full items-center gap-1.5 rounded-md py-1.5 text-left text-muted-foreground text-xs outline-none transition-colors hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50">
+                    <span className="font-semibold tabular-nums">{format.year(year)}</span>
+                    <span aria-hidden>·</span>
+                    <span>
+                        {t("tripCount", {
+                            count: records.length,
+                            countLabel: format.number(records.length),
+                        })}
+                    </span>
+                    <IconChevronDown
+                        aria-hidden
+                        className="ml-auto size-3.5 transition-transform group-data-panel-open:rotate-180"
+                    />
+                </CollapsibleTrigger>
+            </h3>
+            <CollapsibleContent>
+                <YearEntries
+                    dividerRecordId={dividerRecordId}
+                    records={records}
+                    {...entryOptions}
+                />
+            </CollapsibleContent>
+        </Collapsible>
+    );
+}
+
 /**
- * Chronological travel log grouped by year, newest first, with a "today" marker separating
- * scheduled trips from completed ones.
+ * Chronological travel log grouped by year, newest first. The current year and any upcoming
+ * years are listed in full, with a "today" marker separating scheduled trips from completed
+ * ones; earlier years are folded so long histories stay scannable.
  */
 export function TravelTimeline({
     records,
@@ -150,45 +230,37 @@ export function TravelTimeline({
     const t = useTranslations("Explorer.timeline");
     const format = useExplorerFormat();
     const { today } = useExplorerData();
+    const entryOptions = { onSelect, perspective, showOfficial };
+    const currentYear = today.slice(0, 4);
 
     const firstPastIndex = records.findIndex((record) => record.startDate <= today);
     const dividerRecordId = firstPastIndex > 0 ? (records[firstPastIndex]?.id ?? null) : null;
 
     return (
         <ol aria-label={t("label")} className="flex flex-col gap-2">
-            {groupByYear(records).map((group) => (
-                <li key={group.year}>
-                    <h3 className="sticky top-0 z-20 bg-sidebar py-1.5 font-semibold text-muted-foreground text-xs tabular-nums">
-                        {format.year(group.year)}
-                    </h3>
-                    <ol className="flex flex-col">
-                        {group.records.map((record) => (
-                            <Fragment key={record.id}>
-                                {record.id === dividerRecordId ? (
-                                    <li
-                                        aria-label={t("today", { date: format.date(today) })}
-                                        className="flex items-center gap-2 py-2 pl-1"
-                                    >
-                                        <span className="font-medium text-[11px] uppercase tracking-wide">
-                                            {t("today", { date: format.date(today) })}
-                                        </span>
-                                        <span
-                                            aria-hidden
-                                            className="h-px flex-1 bg-foreground/25"
-                                        />
-                                    </li>
-                                ) : null}
-                                <TimelineEntry
-                                    onSelect={onSelect}
-                                    perspective={perspective}
-                                    record={record}
-                                    showOfficial={showOfficial}
-                                />
-                            </Fragment>
-                        ))}
-                    </ol>
-                </li>
-            ))}
+            {groupByYear(records).map((group) =>
+                group.year < currentYear ? (
+                    <li key={group.year}>
+                        <CollapsedYear
+                            dividerRecordId={dividerRecordId}
+                            records={group.records}
+                            year={group.year}
+                            {...entryOptions}
+                        />
+                    </li>
+                ) : (
+                    <li key={group.year}>
+                        <h3 className="sticky top-0 z-20 bg-sidebar py-1.5 font-semibold text-muted-foreground text-xs tabular-nums">
+                            {format.year(group.year)}
+                        </h3>
+                        <YearEntries
+                            dividerRecordId={dividerRecordId}
+                            records={group.records}
+                            {...entryOptions}
+                        />
+                    </li>
+                )
+            )}
         </ol>
     );
 }

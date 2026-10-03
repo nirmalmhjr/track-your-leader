@@ -157,7 +157,8 @@ export function WorldMapCanvas({
     const instructionsId = useId();
     const svgRef = useRef<SVGSVGElement>(null);
     const data = useExplorerData();
-    const { selection, level, selectCountry, selectTrip, goUp } = useExplorerState();
+    const { selection, level, selectCountry, selectTrip, goUp, resetExplorer } = useExplorerState();
+    const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);
     const hoveredCountry = useExplorerUiStore((state) => state.hoveredCountry);
     const hoveredOfficialId = useExplorerUiStore((state) => state.hoveredOfficialId);
     const hoveredRecordId = useExplorerUiStore((state) => state.hoveredRecordId);
@@ -337,7 +338,19 @@ export function WorldMapCanvas({
                 return;
             }
 
-            const code = findShape(event.target)?.reference?.alpha3;
+            const shape = findShape(event.target);
+            // Ocean or the space around the globe: start over from the opening view. Overlays
+            // such as the legend and zoom controls sit outside the SVG and don't count.
+            if (!shape) {
+                if (svgRef.current?.contains(event.target)) {
+                    resetExplorer();
+                    setFiltersOpen(false);
+                    resetView();
+                }
+                return;
+            }
+
+            const code = shape.reference?.alpha3;
             if (!code || (code === selection.country && level === "country")) {
                 return;
             }
@@ -348,9 +361,12 @@ export function WorldMapCanvas({
             findNode,
             findShape,
             level,
+            resetExplorer,
+            resetView,
             selectCountry,
             selectTrip,
             selection.country,
+            setFiltersOpen,
         ]
     );
 

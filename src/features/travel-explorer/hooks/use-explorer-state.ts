@@ -31,11 +31,18 @@ import type {
     Official,
     TravelRecord,
 } from "@/features/travel-explorer/types/travel.types";
-import { isIsoDate } from "@/features/travel-explorer/utils/date.utils";
+import { isIsoDate, toIsoDate } from "@/features/travel-explorer/utils/date.utils";
+import {
+    type DatePreset,
+    getPresetRange,
+} from "@/features/travel-explorer/utils/date-presets.utils";
 import { EMPTY_FILTERS } from "@/features/travel-explorer/utils/filters.utils";
 import type { CountryCode } from "@/types/geo.types";
 
 const TEXT_INPUT_DEBOUNCE_MS = 300;
+
+/** Date range applied when drilling into a country from the world view with no range set. */
+const COUNTRY_DEFAULT_DATE_PRESET: DatePreset = "past30";
 
 const parseAsIsoDateString = createParser<IsoDate>({
     parse: (value) => (isIsoDate(value) ? value : null),
@@ -146,7 +153,16 @@ export function useExplorerState() {
 
     const selectCountry = useCallback(
         (country: CountryCode | null, view: CountryView = "officials") =>
-            setState({ country, official: null, trip: null, view }),
+            setState((current) => {
+                const isEnteringCountry = current.country === null && country !== null;
+                const hasDateRange = current.from !== null || current.to !== null;
+                // Opening a country starts on recent travel; a range the user chose is kept.
+                const dateRange =
+                    isEnteringCountry && !hasDateRange
+                        ? getPresetRange(COUNTRY_DEFAULT_DATE_PRESET, toIsoDate(new Date()))
+                        : {};
+                return { country, official: null, trip: null, view, ...dateRange };
+            }),
         [setState]
     );
 
@@ -204,11 +220,18 @@ export function useExplorerState() {
 
     const resetFilters = useCallback(() => setState(EMPTY_FILTERS), [setState]);
 
+    /** Back to the opening state: world view, no selection and no filters. */
+    const resetExplorer = useCallback(
+        () => setState({ ...EMPTY_FILTERS, country: null, official: null, trip: null, view: null }),
+        [setState]
+    );
+
     return {
         filters,
         goToLevel,
         goUp,
         level,
+        resetExplorer,
         resetFilters,
         selectCountry,
         selection,

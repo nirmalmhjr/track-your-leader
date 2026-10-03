@@ -187,7 +187,8 @@
   },
   "timeline": {
     "label": "Travel timeline",
-    "today": "Today · {date}"
+    "today": "Today · {date}",
+    "tripCount": "{count, plural, one {{countLabel} trip} other {{countLabel} trips}}"
   },
   "map": {
     "label": "Interactive world map",
