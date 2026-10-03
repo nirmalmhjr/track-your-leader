@@ -4,6 +4,7 @@ import {
     IconAlertTriangle,
     IconChevronLeft,
     IconChevronRight,
+    IconExternalLink,
     IconPlane,
 } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
@@ -116,8 +117,10 @@ export function TripView({ recordId }: { recordId: string }) {
                     {record.eventName ?? record.purpose}
                 </h2>
                 <p className="text-muted-foreground text-sm tabular-nums">
-                    {format.dateRange(record.startDate, record.endDate)} ·{" "}
-                    {t("trip.days", { count: days, countLabel: format.number(days) })}
+                    {format.tripDates(record)} ·{" "}
+                    {record.datePrecision === "day"
+                        ? t("trip.days", { count: days, countLabel: format.number(days) })
+                        : t("trip.datesUnconfirmed")}
                 </p>
             </header>
 
@@ -157,6 +160,27 @@ export function TripView({ recordId }: { recordId: string }) {
                         record.positionTitle
                     )}
                 </DetailRow>
+                {record.sources.length > 0 ? (
+                    <DetailRow label={t("trip.source")}>
+                        <span className="flex flex-col gap-1">
+                            {record.sources.map((source) => (
+                                <a
+                                    className="flex items-center gap-1 underline-offset-2 hover:underline"
+                                    href={source.url}
+                                    key={source.url}
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                                    {source.label}
+                                    <IconExternalLink
+                                        aria-hidden
+                                        className="size-3.5 shrink-0 text-muted-foreground"
+                                    />
+                                </a>
+                            ))}
+                        </span>
+                    </DetailRow>
+                ) : null}
             </dl>
 
             {record.engagements.length > 0 ? (

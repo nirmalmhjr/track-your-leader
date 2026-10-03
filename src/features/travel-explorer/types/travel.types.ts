@@ -39,6 +39,18 @@ export type TravelType =
 
 export type TravelStatus = "completed" | "upcoming" | "planned" | "cancelled";
 
+/**
+ * How exact a trip's dates are. Announcements often name only a month ("visit in June"), and
+ * such trips store the first day of that month rather than an invented exact day.
+ */
+export type DatePrecision = "day" | "month" | "year";
+
+/** Public page a record was taken from. */
+export interface SourceRef {
+    label: string;
+    url: string;
+}
+
 export interface Place {
     city: string;
     coordinates: Coordinates;
@@ -60,7 +72,8 @@ export interface Position {
     id: string;
     ministry: string | null;
     portfolio: Portfolio | null;
-    startDate: IsoDate;
+    /** `null` when the source lists the office holder without a start date. */
+    startDate: IsoDate | null;
     title: string;
 }
 
@@ -72,10 +85,21 @@ export interface Official {
     photoUrl: string | null;
     /** Ordered from most recent to oldest. */
     positions: readonly Position[];
+    sources: readonly SourceRef[];
     summary: string;
+    /** Wikidata item id (e.g. `Q1058`), the stable identity used to match sources. */
+    wikidataId: string | null;
+}
+
+/** Everything the explorer shows: tracked countries, their officials and all trips. */
+export interface TravelDataset {
+    countries: readonly TrackedCountry[];
+    officials: readonly Official[];
+    records: readonly TravelRecord[];
 }
 
 export interface TravelRecord {
+    datePrecision: DatePrecision;
     destination: Place;
     endDate: IsoDate;
     engagements: readonly string[];
@@ -87,6 +111,7 @@ export interface TravelRecord {
     /** Title the official held when the trip took place. */
     positionTitle: string;
     purpose: string;
+    sources: readonly SourceRef[];
     startDate: IsoDate;
     status: TravelStatus;
     type: TravelType;

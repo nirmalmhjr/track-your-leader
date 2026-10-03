@@ -3,7 +3,7 @@
 import { useFormatter, useLocale, useTranslations } from "next-intl";
 import { useMemo } from "react";
 
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { countDaysInclusive, parseIsoDate } from "@/features/travel-explorer/utils/date.utils";
 import { COUNTRY_NAMES_NE } from "@/lib/geo/country-names-ne";
 import { getCountryReference } from "@/lib/geo/country-reference";
@@ -25,6 +25,8 @@ const createRegionNames = (locale: string): Intl.DisplayNames | null => {
         return null;
     }
 };
+
+type TripDates = Pick<TravelRecord, "datePrecision" | "endDate" | "startDate">;
 
 const splitIsoDate = (value: IsoDate) => {
     const [year, month, day] = value.split("-").map(Number);
@@ -106,6 +108,44 @@ export function useExplorerFormat() {
         return `${isSameYear ? dayMonth(start) : date(start)} – ${date(end)}`;
     };
 
+    const monthYear = (value: IsoDate): string => {
+        const parts = splitIsoDate(value);
+        if (isNepali) {
+            return `${year(parts.year)} ${NEPALI_MONTH_NAMES[parts.monthIndex]}`;
+        }
+        return format.dateTime(parseIsoDate(value), {
+            month: "long",
+            timeZone: UTC,
+            year: "numeric",
+        });
+    };
+
+    /** Full date range of a trip, at the precision the source gives ("June 2027"). */
+    const tripDates = (trip: TripDates): string => {
+        if (trip.datePrecision === "year") {
+            return year(trip.startDate.slice(0, 4));
+        }
+        if (trip.datePrecision === "month") {
+            return monthYear(trip.startDate);
+        }
+        return dateRange(trip.startDate, trip.endDate);
+    };
+
+    /** First day of a trip with its year, or just its month or year when that is all we know. */
+    const tripStart = (trip: TripDates): string =>
+        trip.datePrecision === "day" ? date(trip.startDate) : tripDates(trip);
+
+    /** Compact start label for dense lists (day and month, or month alone). */
+    const tripStartShort = (trip: TripDates): string => {
+        if (trip.datePrecision === "year") {
+            return year(trip.startDate.slice(0, 4));
+        }
+        if (trip.datePrecision === "month") {
+            return monthName(splitIsoDate(trip.startDate).monthIndex);
+        }
+        return dayMonth(trip.startDate);
+    };
+
     const relativeDays = (value: IsoDate, today: IsoDate): string => {
         const offset = countDaysInclusive(today, value) - 1;
         if (offset === 0) {
@@ -116,7 +156,20 @@ export function useExplorerFormat() {
         return offset > 0 ? t("inDays", params) : t("daysAgo", params);
     };
 
-    return { countryName, date, dateRange, dayMonth, monthName, number, relativeDays, year };
+    return {
+        countryName,
+        date,
+        dateRange,
+        dayMonth,
+        monthName,
+        monthYear,
+        number,
+        relativeDays,
+        tripDates,
+        tripStart,
+        tripStartShort,
+        year,
+    };
 }
 
 export type ExplorerFormat = ReturnType<typeof useExplorerFormat>;

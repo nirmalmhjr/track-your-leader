@@ -44,7 +44,9 @@ const official = (seed: OfficialSeed): Official => ({
     positions: [...seed.positions]
         .sort((a, b) => b.from.localeCompare(a.from))
         .map((position, index) => toPosition(seed.id, position, index)),
+    sources: [],
     summary: seed.summary,
+    wikidataId: null,
 });
 
 const HOS = ["head_of_state"] as const;
@@ -81,8 +83,8 @@ export const SAMPLE_OFFICIALS: readonly Official[] = [
     official({
         country: "NPL",
         id: "npl-pm",
-        name: "Sushant Raj Adhikari",
-        party: "Nepal Democratic Alliance",
+        name: "Balendra Shah",
+        party: "Rastriya Swatantra Party",
         positions: [
             { categories: HOG, from: "2025-09-12", title: "Prime Minister" },
             {

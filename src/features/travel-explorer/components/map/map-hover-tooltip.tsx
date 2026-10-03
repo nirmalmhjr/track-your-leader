@@ -104,12 +104,12 @@ function NodeTooltipBody({ node }: { node: MapNode }) {
                 {t("nodeTrips", {
                     count: node.records.length,
                     countLabel: format.number(node.records.length),
-                    date: format.date(node.latest.startDate),
+                    date: format.tripStart(node.latest),
                 })}
             </p>
             {next ? (
                 <p className="text-muted-foreground">
-                    {t("nodeNext", { date: format.date(next.startDate) })}
+                    {t("nodeNext", { date: format.tripStart(next) })}
                 </p>
             ) : null}
             <p className="text-muted-foreground/80">{t("nodeHint")}</p>

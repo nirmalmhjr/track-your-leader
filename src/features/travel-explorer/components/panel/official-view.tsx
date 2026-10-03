@@ -14,7 +14,7 @@ import { useDateRangeLabel } from "@/features/travel-explorer/hooks/use-date-ran
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
+import type { Official, Position } from "@/features/travel-explorer/types/travel.types";
 import {
     getCurrentPosition,
     getPrimaryPosition,
@@ -22,9 +22,54 @@ import {
 import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
 import { getCountryReference } from "@/lib/geo/country-reference";
 
-function PositionHistory({ official }: { official: Official }) {
+/** Tenure line for a position; sources sometimes list an office holder without a start date. */
+function PositionTenure({ position }: { position: Position }) {
     const t = useTranslations("Explorer.official");
     const format = useExplorerFormat();
+    const { startDate, endDate } = position;
+
+    let label: string | null = null;
+    if (startDate && endDate) {
+        label = format.dateRange(startDate, endDate);
+    } else if (endDate) {
+        label = t("until", { date: format.date(endDate) });
+    } else if (startDate) {
+        label = t("since", { date: format.date(startDate) });
+    }
+
+    return label ? (
+        <span className="text-muted-foreground text-xs tabular-nums">{label}</span>
+    ) : null;
+}
+
+/** Links to the public pages an official's profile was compiled from. */
+function OfficialSources({ sources }: { sources: Official["sources"] }) {
+    const t = useTranslations("Explorer.official");
+
+    if (sources.length === 0) {
+        return null;
+    }
+
+    return (
+        <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-muted-foreground text-xs">
+            <span>{t("sources")}:</span>
+            {sources.map((source) => (
+                <a
+                    className="underline-offset-2 hover:text-foreground hover:underline"
+                    href={source.url}
+                    key={source.url}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    {source.label}
+                </a>
+            ))}
+        </p>
+    );
+}
+
+function PositionHistory({ official }: { official: Official }) {
+    const t = useTranslations("Explorer.official");
 
     return (
         <Collapsible defaultOpen={official.positions.length > 1}>
@@ -50,11 +95,7 @@ function PositionHistory({ official }: { official: Official }) {
                                     {position.ministry}
                                 </span>
                             ) : null}
-                            <span className="text-muted-foreground text-xs tabular-nums">
-                                {position.endDate
-                                    ? format.dateRange(position.startDate, position.endDate)
-                                    : t("since", { date: format.date(position.startDate) })}
-                            </span>
+                            <PositionTenure position={position} />
                         </li>
                     ))}
                 </ol>
@@ -119,7 +160,9 @@ export function OfficialView({ officialId }: { officialId: string }) {
                 </div>
             </header>
 
-            <p className="text-muted-foreground text-sm">{official.summary}</p>
+            {official.summary ? (
+                <p className="text-muted-foreground text-sm">{official.summary}</p>
+            ) : null}
 
             <StatList
                 items={[
@@ -131,6 +174,7 @@ export function OfficialView({ officialId }: { officialId: string }) {
             />
 
             <PositionHistory official={official} />
+            <OfficialSources sources={official.sources} />
 
             <section aria-labelledby="official-travel-history" className="flex flex-col gap-2">
                 <div className="flex items-baseline justify-between gap-2">

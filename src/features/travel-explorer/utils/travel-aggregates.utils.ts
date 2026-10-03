@@ -58,7 +58,10 @@ export const summarizeTravel = (records: readonly TravelRecord[]): TravelSummary
         countries.add(record.destination.countryCode);
 
         if (record.status === "completed") {
-            daysAbroad += countDaysInclusive(record.startDate, record.endDate);
+            // Loosely dated trips ("June 2027") have no real length, so they add no days.
+            if (record.datePrecision === "day") {
+                daysAbroad += countDaysInclusive(record.startDate, record.endDate);
+            }
             if (!lastTrip || record.startDate > lastTrip.startDate) {
                 lastTrip = record;
             }

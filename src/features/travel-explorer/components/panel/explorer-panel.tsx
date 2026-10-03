@@ -14,6 +14,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { FiltersView } from "@/features/travel-explorer/components/filters/filters-view";
 import { CountryView } from "@/features/travel-explorer/components/panel/country-view";
+import { DataAttribution } from "@/features/travel-explorer/components/panel/data-attribution";
 import { FilterBar } from "@/features/travel-explorer/components/panel/filter-bar";
 import { OfficialView } from "@/features/travel-explorer/components/panel/official-view";
 import { OverviewView } from "@/features/travel-explorer/components/panel/overview-view";
@@ -212,6 +213,7 @@ export function ExplorerPanel() {
             </div>
             <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain" ref={scrollRef}>
                 {isFiltersOpen ? <FiltersView /> : <PanelBody />}
+                <DataAttribution />
             </div>
         </aside>
     );

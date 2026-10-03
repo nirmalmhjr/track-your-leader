@@ -44,7 +44,10 @@
       "peek": "Collapse panel",
       "half": "Expand panel to half height",
       "full": "Expand panel to full height"
-    }
+    },
+    "attribution": "Data: Wikipedia (CC BY-SA), Wikidata, CIA World Leaders",
+    "sampleData": "Showing fictional sample data",
+    "updatedOn": "Updated {date}"
   },
   "filters": {
     "open": "Filters",
@@ -164,7 +167,9 @@
     "noTripsTitle": "No trips in this period",
     "noTripsDescription": "This official has no trips matching the current filters.",
     "notFoundTitle": "Official not found",
-    "notFoundDescription": "This official is not part of the dataset."
+    "notFoundDescription": "This official is not part of the dataset.",
+    "until": "Until {date}",
+    "sources": "Sources"
   },
   "trip": {
     "notFoundTitle": "Trip not found",
@@ -181,7 +186,9 @@
     "stepLabel": "Other trips by this official",
     "previous": "Earlier",
     "next": "Later",
-    "position": "{current} of {total}"
+    "position": "{current} of {total}",
+    "source": "Source",
+    "datesUnconfirmed": "Exact dates not yet announced"
   },
   "timeline": {
     "label": "Travel timeline",

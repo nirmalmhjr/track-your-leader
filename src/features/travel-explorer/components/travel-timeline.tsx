@@ -67,7 +67,7 @@ function TimelineEntry({
     const official = officialById.get(record.officialId);
     const isInbound = perspective === "inbound";
     const leadCountry = isInbound ? record.originCountryCode : record.destination.countryCode;
-    const isMultiDay = record.startDate !== record.endDate;
+    const isMultiDay = record.datePrecision === "day" && record.startDate !== record.endDate;
     const typeLabel = t(`travelTypes.${record.type}`);
 
     const title = isInbound
@@ -96,7 +96,7 @@ function TimelineEntry({
                 type="button"
             >
                 <span className="pt-0.5 pr-1 text-right text-muted-foreground text-xs tabular-nums">
-                    <time dateTime={record.startDate}>{format.dayMonth(record.startDate)}</time>
+                    <time dateTime={record.startDate}>{format.tripStartShort(record)}</time>
                     {isMultiDay ? (
                         <time className="block text-[11px]" dateTime={record.endDate}>
                             – {format.dayMonth(record.endDate)}

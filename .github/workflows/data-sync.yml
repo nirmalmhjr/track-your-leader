@@ -1,0 +1,70 @@
+name: Data sync
+
+# Refreshes officials and trips from CIA World Leaders, Wikidata and Wikipedia once a day and
+# commits the result. The hosting platform redeploys on the new commit. Free on every GitHub
+# plan: a run takes a few minutes.
+
+on:
+  schedule:
+    # 03:15 UTC daily (09:00 in Nepal). GitHub may start scheduled runs a little late.
+    - cron: "15 3 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Write even if counts dropped sharply (after checking the report)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        env:
+          LEFTHOOK: "0"
+
+      - name: Test parsers
+        run: pnpm data:test
+
+      - name: Sync data
+        run: pnpm data:sync ${{ inputs.force && '--force' || '' }}
+        env:
+          # Optional: your site URL, so Wikimedia can reach you if the bot misbehaves.
+          DATA_PIPELINE_CONTACT: ${{ secrets.DATA_PIPELINE_CONTACT }}
+
+      - name: Commit changes
+        env:
+          LEFTHOOK: "0"
+        run: |
+          paths="src/features/travel-explorer/data/generated scripts/data-pipeline/state"
+          if [ -z "$(git status --porcelain -- $paths)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $paths
+          git commit -m "chore(data): sync $(date -u +%Y-%m-%d)"
+          git push

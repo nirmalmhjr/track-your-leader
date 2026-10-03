@@ -8,10 +8,11 @@ import { badgeVariants } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { ExplorerSearch } from "@/features/travel-explorer/components/header/explorer-search";
 import { ExplorerSettingsMenu } from "@/features/travel-explorer/components/header/explorer-settings-menu";
+import { TRAVEL_DATA_SOURCE } from "@/features/travel-explorer/data/travel-dataset";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { cn } from "@/lib/utils";
 
-/** Slim application bar: brand, data notice, search and settings. */
+/** Slim application bar: brand, a notice while showing sample data, search and settings. */
 export function ExplorerHeader() {
     const t = useTranslations("Explorer.app");
     const { goToLevel } = useExplorerState();
@@ -33,24 +34,26 @@ export function ExplorerHeader() {
                 <span className="truncate font-semibold text-sm tracking-tight">{t("name")}</span>
             </button>
 
-            <Tooltip>
-                <TooltipTrigger
-                    render={
-                        <button
-                            className={cn(
-                                badgeVariants({ variant: "outline" }),
-                                "hidden cursor-help sm:inline-flex"
-                            )}
-                            type="button"
-                        />
-                    }
-                >
-                    {t("sampleData")}
-                </TooltipTrigger>
-                <TooltipContent className="max-w-64" side="bottom">
-                    {t("sampleDataDescription")}
-                </TooltipContent>
-            </Tooltip>
+            {TRAVEL_DATA_SOURCE === "sample" ? (
+                <Tooltip>
+                    <TooltipTrigger
+                        render={
+                            <button
+                                className={cn(
+                                    badgeVariants({ variant: "outline" }),
+                                    "hidden cursor-help sm:inline-flex"
+                                )}
+                                type="button"
+                            />
+                        }
+                    >
+                        {t("sampleData")}
+                    </TooltipTrigger>
+                    <TooltipContent className="max-w-64" side="bottom">
+                        {t("sampleDataDescription")}
+                    </TooltipContent>
+                </Tooltip>
+            ) : null}
 
             <div className="ml-auto flex items-center gap-1.5">
                 <ExplorerSearch />

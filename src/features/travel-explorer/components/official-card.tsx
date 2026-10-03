@@ -53,7 +53,7 @@ function TripLine({
                         ? `${record.origin.city} → ${record.destination.city}`
                         : record.destination.city}
                 </span>
-                <span className="text-muted-foreground"> · {format.date(record.startDate)}</span>
+                <span className="text-muted-foreground"> · {format.tripStart(record)}</span>
             </dd>
         </div>
     );

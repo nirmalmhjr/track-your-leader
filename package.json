@@ -25,6 +25,8 @@
   "scripts": {
     "build": "next build",
     "clean": "rm -rf .next playwright-report test-results",
+    "data:sync": "tsx scripts/data-pipeline/run.ts",
+    "data:test": "tsx --test \"scripts/data-pipeline/**/*.test.ts\"",
     "dev": "next dev",
     "lint:check": "ultracite check",
     "lint:fix": "ultracite fix",
@@ -81,8 +83,11 @@
     "@types/topojson-client": "^3.1.5",
     "@types/topojson-specification": "^1.0.5",
     "babel-plugin-react-compiler": "^1.0.0",
+    "cheerio": "^1.2.0",
+    "domhandler": "^5.0.3",
     "lefthook": "^2.1.16",
     "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "ultracite": "7.12.2"
   },

@@ -42,7 +42,7 @@ function UpcomingTripRow({ record }: { record: TravelRecord }) {
                     dateTime={record.startDate}
                 >
                     <span className="font-semibold text-sm tabular-nums">
-                        {format.dayMonth(record.startDate)}
+                        {format.tripStartShort(record)}
                     </span>
                 </time>
                 <span className="flex min-w-0 flex-1 flex-col gap-0.5">

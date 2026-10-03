@@ -7,7 +7,11 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["!src/assets/geo"]
+    "includes": [
+      "!src/assets/geo",
+      "!src/features/travel-explorer/data/generated",
+      "!scripts/data-pipeline/state"
+    ]
   },
   "formatter": {
     "enabled": true,
