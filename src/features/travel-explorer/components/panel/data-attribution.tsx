@@ -2,18 +2,16 @@
 
 import { useTranslations } from "next-intl";
 
-import {
-    TRAVEL_DATA_SOURCE,
-    TRAVEL_DATA_UPDATED_ON,
-} from "@/features/travel-explorer/data/travel-dataset";
+import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 
 /** Credits the data sources (required by the Wikipedia, GOV.UK and Canadian licences) or flags the fictional samples. */
 export function DataAttribution() {
     const t = useTranslations("Explorer.panel");
     const format = useExplorerFormat();
+    const { dataSource, updatedOn } = useExplorerData();
 
-    if (TRAVEL_DATA_SOURCE === "sample") {
+    if (dataSource === "sample") {
         return (
             <p className="px-4 pt-2 pb-4 text-[11px] text-muted-foreground/80">{t("sampleData")}</p>
         );
@@ -21,9 +19,7 @@ export function DataAttribution() {
     return (
         <p className="px-4 pt-2 pb-4 text-[11px] text-muted-foreground/80">
             {t("attribution")}
-            {TRAVEL_DATA_UPDATED_ON
-                ? ` · ${t("updatedOn", { date: format.date(TRAVEL_DATA_UPDATED_ON) })}`
-                : null}
+            {updatedOn ? ` · ${t("updatedOn", { date: format.date(updatedOn) })}` : null}
         </p>
     );
 }

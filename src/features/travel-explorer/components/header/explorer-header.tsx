@@ -8,7 +8,7 @@ import { badgeVariants } from "@/components/ui/badge";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { ExplorerSearch } from "@/features/travel-explorer/components/header/explorer-search";
 import { ExplorerSettingsMenu } from "@/features/travel-explorer/components/header/explorer-settings-menu";
-import { TRAVEL_DATA_SOURCE } from "@/features/travel-explorer/data/travel-dataset";
+import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { cn } from "@/lib/utils";
 
@@ -17,6 +17,7 @@ export function ExplorerHeader() {
     const t = useTranslations("Explorer.app");
     const { goToLevel } = useExplorerState();
     const goToWorld = useCallback(() => goToLevel("world"), [goToLevel]);
+    const { dataSource } = useExplorerData();
 
     return (
         <header className="flex h-14 shrink-0 items-center gap-3 border-b bg-sidebar px-3 md:px-4">
@@ -34,7 +35,7 @@ export function ExplorerHeader() {
                 <span className="truncate font-semibold text-sm tracking-tight">{t("name")}</span>
             </button>
 
-            {TRAVEL_DATA_SOURCE === "sample" ? (
+            {dataSource === "sample" ? (
                 <Tooltip>
                     <TooltipTrigger
                         render={

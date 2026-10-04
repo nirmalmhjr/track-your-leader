@@ -33,6 +33,7 @@ import {
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { type MapInsets, useMapZoom } from "@/features/travel-explorer/hooks/use-map-zoom";
+import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { ExplorerSelection } from "@/features/travel-explorer/types/explorer.types";
 import type { TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import {
@@ -157,7 +158,8 @@ export function WorldMapCanvas({
     const instructionsId = useId();
     const svgRef = useRef<SVGSVGElement>(null);
     const data = useExplorerData();
-    const { selection, level, selectCountry, selectTrip, goUp, resetExplorer } = useExplorerState();
+    const { selection, level, selectTrip, goUp, resetExplorer } = useExplorerState();
+    const openCountry = useOpenCountry();
     const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);
     const hoveredCountry = useExplorerUiStore((state) => state.hoveredCountry);
     const hoveredOfficialId = useExplorerUiStore((state) => state.hoveredOfficialId);
@@ -354,7 +356,7 @@ export function WorldMapCanvas({
             if (!code || (code === selection.country && level === "country")) {
                 return;
             }
-            selectCountry(code, data.countryByCode.has(code) ? "officials" : "inbound");
+            openCountry(code, data.countryByCode.has(code) ? "officials" : "inbound");
         },
         [
             data.countryByCode,
@@ -363,7 +365,7 @@ export function WorldMapCanvas({
             level,
             resetExplorer,
             resetView,
-            selectCountry,
+            openCountry,
             selectTrip,
             selection.country,
             setFiltersOpen,

@@ -1,15 +1,17 @@
 # Data pipeline
 
 Builds the explorer's real data — officials and their international trips — from free public
-sources, with no backend or database. Everything collected lands in a committed **warehouse**
-(`data/warehouse/`, every country and year); the app's bundled files are a slice of it.
+sources, with no backend or database. Everything is committed as static files: one per country
+in `public/data/countries/`, plus a compact `public/data/index.json` the app loads first. The
+app loads a country's file when that country is opened.
 
 ```bash
 pnpm data:collect                       # every source, every country, offices since 1945
 pnpm data:collect --since=1980          # a shorter horizon (faster)
 pnpm data:collect --countries=NPL,IND   # only some countries (others stay as stored)
 pnpm data:collect --sources=colt,gov-uk # only some sources (others reuse stored claims)
-pnpm data:sync                          # daily refresh of the app's countries (fast sources only)
+pnpm data:sync                          # daily refresh of the featured countries (fast sources only)
+pnpm data:export                        # rebuild public/data/index.json from the country files (offline)
 pnpm data:test                          # parser tests
 ```
 
@@ -66,7 +68,7 @@ collect.ts / run.ts → pipeline.ts
 │                                 office + date; unknown named travellers become new officials
 ├─ extract/officials.extract.ts   photos, parties, biographies, stable ids
 ├─ extract/trips.merge.ts         the same trip from several sources becomes one trip
-├─ extract/app-export.ts          the app's slice: tracked countries, since appSinceYear
+├─ extract/app-index.ts           public/data/index.json: every country, official and trip, compact
 └─ validate/guard.ts              refuses to write if counts drop by more than 20 %
 ```
 
@@ -75,15 +77,17 @@ holds shared helpers (polite HTTP with caching and retries, text, JSON files, th
 
 Outputs:
 
-- `data/warehouse/officials/<ISO3>.json`, `trips/<ISO3>.json` — everything, per country.
+- `public/data/countries/<ISO3>.json` — each country's officials and merged trips, served to
+  the app as they are.
+- `public/data/index.json` — every country, official and trip in compact form (arrays and
+  numbered enums, one record per line so git diffs stay small), loaded by the app at startup.
+  The format lives in `src/features/travel-explorer/data/travel-index.ts`.
 - `data/warehouse/claims/<source>.json.gz` — each source's trips before merging, so a run that
   skips a source reuses them.
 - `data/warehouse/places/cities.json` — every city name looked up (found or not), so each is
   asked once.
 - `data/warehouse/report.json` — what needs a human look: per-source counts, rows that couldn't
   be read, unmatched names, stale cabinets, trip pages found.
-- `src/features/travel-explorer/data/generated/*.json` — the app's slice (tracked countries,
-  since `appSinceYear`), validated against `generated-data.schema.ts` on both sides.
 - `state/roster.json` — the pipeline's memory of cabinets between runs. Commit it.
 
 ## Behaviour worth knowing
@@ -110,8 +114,9 @@ Outputs:
   add it in `extract/trip-pages.overrides.ts`.
 - *A country's cabinet is "stale"*: the CIA hasn't updated it since a change of government.
   It recovers automatically when they do; leaders still come from Wikidata meanwhile.
-- *Show another country in the app*: add it to `TRACKED_COUNTRIES` and run `pnpm data:sync`.
-  Its data is already in the warehouse.
+- *A country's capital or description*: the app uses Wikidata's capital. To show a curated one
+  (and a government description), add the country to `TRACKED_COUNTRIES`; `pnpm data:sync`
+  refreshes those countries daily.
 - *Wikimedia contact*: set `DATA_PIPELINE_CONTACT` (your site or repository URL) locally and
   as a GitHub Actions secret so Wikimedia can reach you about the bot's traffic. Without it,
   Wikipedia rate-limits the pipeline heavily.

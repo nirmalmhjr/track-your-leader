@@ -64,7 +64,8 @@ export interface Place {
 export interface TrackedCountry {
     capital: Place;
     code: CountryCode;
-    governmentSystem: string;
+    /** Short description such as "Federal parliamentary republic", where curated. */
+    governmentSystem: string | null;
     name: string;
 }
 

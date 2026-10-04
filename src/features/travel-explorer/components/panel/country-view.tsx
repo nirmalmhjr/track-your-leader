@@ -64,7 +64,7 @@ export function CountryView({ countryCode }: { countryCode: CountryCode }) {
                 <div className="flex min-w-0 flex-col gap-0.5">
                     <h2 className="font-semibold text-lg leading-tight">{name}</h2>
                     <p className="text-muted-foreground text-sm">{location}</p>
-                    {tracked ? (
+                    {tracked?.governmentSystem ? (
                         <p className="text-muted-foreground text-xs">{tracked.governmentSystem}</p>
                     ) : null}
                 </div>

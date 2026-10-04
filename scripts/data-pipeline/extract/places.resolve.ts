@@ -182,6 +182,27 @@ export const loadPlaceIndex = async (): Promise<PlaceIndex> => {
     return { capitals, codeByItem, itemByCode };
 };
 
+const capitalsFile = path.join(PIPELINE_CONFIG.warehouseDir, "places", "capitals.json");
+
+/**
+ * Stores every country's capital, so the app index can be rebuilt without network access.
+ *
+ * @param index - Place index of this run.
+ */
+export const saveCapitals = async (index: PlaceIndex): Promise<void> => {
+    await writeJsonFile(capitalsFile, Object.fromEntries(index.capitals));
+};
+
+/**
+ * Reads the capitals stored by the last run.
+ *
+ * @returns Capital per country code.
+ */
+export const readCapitals = async (): Promise<Map<CountryCode, Place>> =>
+    new Map(
+        Object.entries((await readJsonFile(capitalsFile, z.record(z.string(), placeSchema))) ?? {})
+    );
+
 /**
  * A destination known only by its country: drawn at the capital, labelled as the country.
  *

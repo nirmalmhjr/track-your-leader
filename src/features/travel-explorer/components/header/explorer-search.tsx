@@ -3,60 +3,43 @@
 import { Autocomplete } from "@base-ui/react/autocomplete";
 import { IconSearch } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Kbd } from "@/components/ui/kbd";
-import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
-import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
-import {
-    getCurrentPosition,
-    getPrimaryPosition,
-    normalizeSearchText,
-} from "@/features/travel-explorer/utils/filters.utils";
+import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
+import { createSearchEntry, searchEntries } from "@/features/travel-explorer/utils/search.utils";
 import { ALL_COUNTRY_REFERENCES } from "@/lib/geo/country-reference";
 import type { CountryCode } from "@/types/geo.types";
 
-type SearchItem =
-    | {
-          kind: "country";
-          id: string;
-          label: string;
-          detail: string;
-          searchText: string;
-          code: CountryCode;
-          alpha2: string;
-      }
-    | {
-          kind: "official";
-          id: string;
-          label: string;
-          detail: string;
-          searchText: string;
-          official: Official;
-      };
+interface CountryItem {
+    alpha2: string;
+    code: CountryCode;
+    detail: string;
+    id: string;
+    label: string;
+}
 
 interface SearchGroup {
-    items: SearchItem[];
+    items: CountryItem[];
     value: string;
 }
 
-const matchesSearch = (item: SearchItem, query: string): boolean =>
-    item.searchText.includes(normalizeSearchText(query));
+/** Every matching country is listed; there are only about 250. */
+const RESULT_LIMIT = Number.POSITIVE_INFINITY;
 
-const getItemLabel = (item: SearchItem): string => item.label;
+const getItemLabel = (item: CountryItem): string => item.label;
 
 function SearchResult({
     item,
     onChoose,
 }: {
-    item: SearchItem;
-    onChoose: (item: SearchItem) => void;
+    item: CountryItem;
+    onChoose: (item: CountryItem) => void;
 }) {
     const handleClick = useCallback(() => onChoose(item), [onChoose, item]);
 
@@ -66,11 +49,7 @@ function SearchResult({
             onClick={handleClick}
             value={item}
         >
-            {item.kind === "country" ? (
-                <CountryFlag alpha2={item.alpha2} />
-            ) : (
-                <OfficialAvatar official={item.official} size="sm" />
-            )}
+            <CountryFlag alpha2={item.alpha2} />
             <span className="flex min-w-0 flex-col">
                 <span className="truncate">{item.label}</span>
                 <span className="truncate text-muted-foreground text-xs">{item.detail}</span>
@@ -83,13 +62,20 @@ const isEditableTarget = (target: EventTarget | null): boolean =>
     target instanceof HTMLElement &&
     (target.isContentEditable || ["INPUT", "SELECT", "TEXTAREA"].includes(target.tagName));
 
-/** Command-style search across every country and official, opened with ⌘K or "/". */
+/**
+ * Command-style country search, opened with ⌘K or "/". Countries match by their name in the
+ * current language, their English name or their ISO code ("USA"); people are found from a
+ * country's panel instead, so a short query never fills the list with unrelated names.
+ */
 export function ExplorerSearch() {
     const t = useTranslations("Explorer.search");
     const format = useExplorerFormat();
-    const { allOfficials, countryByCode } = useExplorerData();
-    const { selectCountry, selectOfficial } = useExplorerState();
+    const { countryByCode } = useExplorerData();
+    const openCountry = useOpenCountry();
     const [isOpen, setIsOpen] = useState(false);
+    const [query, setQuery] = useState("");
+    // Typing stays responsive: results catch up with the input instead of blocking it.
+    const deferredQuery = useDeferredValue(query);
 
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
@@ -104,64 +90,51 @@ export function ExplorerSearch() {
         return () => window.removeEventListener("keydown", handleKeyDown);
     }, []);
 
-    const countryItems: SearchItem[] = ALL_COUNTRY_REFERENCES.filter(
-        (reference) => reference.region !== "Antarctic"
-    )
-        .map((reference) => {
-            const label = format.countryName(reference.alpha3);
-            const isTracked = countryByCode.has(reference.alpha3);
-            return {
-                alpha2: reference.alpha2,
-                code: reference.alpha3,
-                detail: isTracked ? t("tracked") : reference.subregion,
-                id: `country-${reference.alpha3}`,
-                kind: "country" as const,
-                label,
-                searchText: normalizeSearchText(`${label} ${reference.name} ${reference.alpha3}`),
-            };
-        })
-        .sort(
-            (a, b) =>
-                Number(countryByCode.has(b.code)) - Number(countryByCode.has(a.code)) ||
-                a.label.localeCompare(b.label)
-        );
+    const entries = useMemo(
+        () =>
+            ALL_COUNTRY_REFERENCES.filter((reference) => reference.region !== "Antarctic")
+                .map((reference) => {
+                    const label = format.countryName(reference.alpha3);
+                    const isTracked = countryByCode.has(reference.alpha3);
+                    const item: CountryItem = {
+                        alpha2: reference.alpha2,
+                        code: reference.alpha3,
+                        detail: isTracked ? t("tracked") : reference.subregion,
+                        id: `country-${reference.alpha3}`,
+                        label,
+                    };
+                    return createSearchEntry(item, label, [reference.name, reference.alpha3], {
+                        isCurrent: isTracked,
+                    });
+                })
+                .sort((a, b) => a.item.label.localeCompare(b.item.label)),
+        [countryByCode, format, t]
+    );
 
-    const officialItems: SearchItem[] = allOfficials.map((official) => {
-        const position = getPrimaryPosition(official);
-        const title = getCurrentPosition(official)
-            ? position.title
-            : t("former", { title: position.title });
-        return {
-            detail: `${title} · ${format.countryName(official.countryCode)}`,
-            id: `official-${official.id}`,
-            kind: "official" as const,
-            label: official.fullName,
-            official,
-            searchText: normalizeSearchText(
-                `${official.fullName} ${position.title} ${format.countryName(official.countryCode)}`
-            ),
-        };
-    });
+    const groups = useMemo((): SearchGroup[] => {
+        const items = deferredQuery.trim()
+            ? searchEntries(entries, deferredQuery, RESULT_LIMIT)
+            : entries.map((entry) => entry.item);
+        return items.length > 0 ? [{ items, value: t("countries") }] : [];
+    }, [deferredQuery, entries, t]);
 
-    const groups: SearchGroup[] = [
-        { items: officialItems, value: t("officials") },
-        { items: countryItems, value: t("countries") },
-    ];
+    const handleOpenChange = useCallback((open: boolean) => {
+        setIsOpen(open);
+        if (!open) {
+            setQuery("");
+        }
+    }, []);
 
     const choose = useCallback(
-        (item: SearchItem) => {
-            if (item.kind === "country") {
-                selectCountry(item.code, countryByCode.has(item.code) ? "officials" : "inbound");
-            } else {
-                selectOfficial(item.official);
-            }
-            setIsOpen(false);
+        (item: CountryItem) => {
+            openCountry(item.code, countryByCode.has(item.code) ? "officials" : "inbound");
+            handleOpenChange(false);
         },
-        [countryByCode, selectCountry, selectOfficial]
+        [countryByCode, handleOpenChange, openCountry]
     );
 
     return (
-        <Dialog onOpenChange={setIsOpen} open={isOpen}>
+        <Dialog onOpenChange={handleOpenChange} open={isOpen}>
             <DialogTrigger
                 render={
                     <Button
@@ -183,12 +156,14 @@ export function ExplorerSearch() {
                 <DialogTitle className="sr-only">{t("title")}</DialogTitle>
                 <Autocomplete.Root
                     autoHighlight="always"
-                    filter={matchesSearch}
+                    filter={null}
                     inline
                     items={groups}
                     itemToStringValue={getItemLabel}
                     keepHighlight
+                    onValueChange={setQuery}
                     open
+                    value={query}
                 >
                     <div className="flex items-center gap-2 border-b px-3">
                         <IconSearch aria-hidden className="size-4 text-muted-foreground" />
@@ -212,7 +187,7 @@ export function ExplorerSearch() {
                                     {group.value}
                                 </Autocomplete.GroupLabel>
                                 <Autocomplete.Collection>
-                                    {(item: SearchItem) => (
+                                    {(item: CountryItem) => (
                                         <SearchResult item={item} key={item.id} onChoose={choose} />
                                     )}
                                 </Autocomplete.Collection>

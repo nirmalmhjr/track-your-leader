@@ -17,17 +17,19 @@ import { TRIP_SOURCES, type TripClaim, type TripSourceId } from "../types";
 import { readJsonFile, serializeJson, writeJsonFile } from "./json-file";
 
 /**
- * The warehouse keeps everything the pipeline has collected, for every country and year:
+ * Everything the pipeline has collected, for every country and year:
  *
- * - `officials/<ISO3>.json`, `trips/<ISO3>.json` — merged records per origin country,
- *   readable and diffable.
- * - `claims/<source>.json.gz` — each source's trips before merging, so a run that skips a
- *   slow source can reuse what it reported last time. Gzipped: they are large and
+ * - `public/data/countries/<ISO3>.json` — each country's merged officials and trips. The app
+ *   serves these files as they are and loads one when its country is opened.
+ * - `data/warehouse/claims/<source>.json.gz` — each source's trips before merging, so a run
+ *   that skips a slow source can reuse what it reported last time. Gzipped: large and
  *   machine-only.
- * - `report.json`, `meta.json` — what needs a look, and what the warehouse holds.
+ * - `data/warehouse/report.json`, `meta.json` — what needs a look, and what is stored.
  */
 
 const dir = (...parts: string[]): string => path.join(PIPELINE_CONFIG.warehouseDir, ...parts);
+const countryFile = (code: CountryCode): string =>
+    path.join(PIPELINE_CONFIG.countriesDir, `${code}.json`);
 const ISO3_FILE = /^([A-Z]{3})\.json$/;
 
 export const warehouseOfficialSchema = generatedOfficialSchema.extend({
@@ -61,60 +63,54 @@ const tripClaimSchema = z.object({
     type: generatedTripSchema.shape.type,
 });
 
-const countryFiles = async (folder: string): Promise<CountryCode[]> => {
+export const countryFileSchema = z.object({
+    officials: z.array(warehouseOfficialSchema),
+    trips: z.array(generatedTripSchema),
+});
+export type CountryFile = z.infer<typeof countryFileSchema>;
+
+/**
+ * Countries that have a stored file.
+ *
+ * @returns Their codes, sorted.
+ */
+export const storedCountries = async (): Promise<CountryCode[]> => {
     try {
-        return (await readdir(dir(folder))).flatMap((name) => name.match(ISO3_FILE)?.[1] ?? []);
+        const names = await readdir(PIPELINE_CONFIG.countriesDir);
+        return names.flatMap((name) => name.match(ISO3_FILE)?.[1] ?? []).sort();
     } catch {
         return [];
     }
 };
 
 /**
- * Reads the stored officials of every country.
+ * Reads the stored files of the given countries (every stored country by default).
  *
- * @returns Officials per country code.
+ * @param codes - Countries to read.
+ * @returns Officials and trips per country code; missing files are left out.
  */
-export const readWarehouseOfficials = async (): Promise<Map<CountryCode, WarehouseOfficial[]>> => {
-    const codes = await countryFiles("officials");
-    const lists = await Promise.all(
-        codes.map((code) =>
-            readJsonFile(dir("officials", `${code}.json`), z.array(warehouseOfficialSchema))
-        )
+export const readCountries = async (
+    codes?: readonly CountryCode[]
+): Promise<Map<CountryCode, CountryFile>> => {
+    const wanted = codes ?? (await storedCountries());
+    const files = await Promise.all(
+        wanted.map((code) => readJsonFile(countryFile(code), countryFileSchema))
     );
-    return new Map(codes.map((code, index) => [code, lists[index] ?? []]));
-};
-
-/**
- * Reads the stored trips of the given countries.
- *
- * @param codes - Origin countries.
- * @returns Trips per country code (empty when nothing is stored).
- */
-export const readWarehouseTrips = async (
-    codes: readonly CountryCode[]
-): Promise<Map<CountryCode, z.infer<typeof generatedTripSchema>[]>> => {
-    const lists = await Promise.all(
-        codes.map((code) =>
-            readJsonFile(dir("trips", `${code}.json`), z.array(generatedTripSchema))
-        )
+    return new Map(
+        wanted.flatMap((code, index) => {
+            const file = files[index];
+            return file ? [[code, file] as const] : [];
+        })
     );
-    return new Map(codes.map((code, index) => [code, lists[index] ?? []]));
 };
 
 /**
  * Writes one country's officials and trips.
  *
- * @returns `true` when either file changed.
+ * @returns `true` when the file changed.
  */
-export const writeCountry = async (
-    code: CountryCode,
-    officials: readonly WarehouseOfficial[],
-    trips: readonly z.infer<typeof generatedTripSchema>[]
-): Promise<boolean> => {
-    const officialsChanged = await writeJsonFile(dir("officials", `${code}.json`), officials);
-    const tripsChanged = await writeJsonFile(dir("trips", `${code}.json`), trips);
-    return officialsChanged || tripsChanged;
-};
+export const writeCountry = (code: CountryCode, contents: CountryFile): Promise<boolean> =>
+    writeJsonFile(countryFile(code), contents);
 
 const claimsFile = (source: TripSourceId): string => dir("claims", `${source}.json.gz`);
 

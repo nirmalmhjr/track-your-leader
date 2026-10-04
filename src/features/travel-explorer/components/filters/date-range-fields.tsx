@@ -2,7 +2,7 @@
 
 import { IconCheck } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
-import { type ChangeEvent, useCallback } from "react";
+import { type ChangeEvent, useCallback, useMemo } from "react";
 
 import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
@@ -14,11 +14,10 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
-import { TRAVEL_DATASET } from "@/features/travel-explorer/data/travel-dataset";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { getCalendarRange, isIsoDate } from "@/features/travel-explorer/utils/date.utils";
 import {
     DATE_PRESETS,
@@ -31,14 +30,16 @@ import { cn } from "@/lib/utils";
 const ALL_MONTHS = "all";
 const MONTH_INDEXES = Array.from({ length: 12 }, (_, index) => index);
 
-const DATASET_YEARS = [
-    ...new Set(
-        TRAVEL_DATASET.records.flatMap((record) => [
-            Number(record.startDate.slice(0, 4)),
-            Number(record.endDate.slice(0, 4)),
-        ])
-    ),
-].sort((a, b) => b - a);
+/** Every year a trip starts or ends in, newest first. */
+const yearsOf = (records: readonly TravelRecord[]): number[] =>
+    [
+        ...new Set(
+            records.flatMap((record) => [
+                Number(record.startDate.slice(0, 4)),
+                Number(record.endDate.slice(0, 4)),
+            ])
+        ),
+    ].sort((a, b) => b - a);
 
 function DatePresetButton({
     preset,
@@ -166,6 +167,7 @@ const resolveCalendarPeriod = (from: IsoDate | null, to: IsoDate | null): Calend
 
 /** Year and month pickers that set the range to a whole calendar period. */
 export function CalendarPeriodFields() {
+    const { allRecords } = useExplorerData();
     const t = useTranslations("Explorer.dates");
     const format = useExplorerFormat();
     const { filters, setFilters } = useExplorerState();
@@ -198,7 +200,10 @@ export function CalendarPeriodFields() {
         [selectedYear, setFilters]
     );
 
-    const yearItems = DATASET_YEARS.map((year) => ({ label: String(year), value: String(year) }));
+    const yearItems = useMemo(
+        () => yearsOf(allRecords).map((year) => ({ label: String(year), value: String(year) })),
+        [allRecords]
+    );
     const monthItems = [
         { label: t("allMonths"), value: ALL_MONTHS },
         ...MONTH_INDEXES.map((index) => ({ label: format.monthName(index), value: String(index) })),

@@ -59,7 +59,7 @@ jobs:
         env:
           LEFTHOOK: "0"
         run: |
-          paths="src/features/travel-explorer/data/generated scripts/data-pipeline/state data/warehouse"
+          paths="public/data scripts/data-pipeline/state data/warehouse"
           if [ -z "$(git status --porcelain -- $paths)" ]; then
             echo "No data changes."
             exit 0

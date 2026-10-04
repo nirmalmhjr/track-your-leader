@@ -48,140 +48,143 @@ export function useExplorerFormat() {
     const isNepali = locale === NEPALI_LOCALE;
     const regionNames = useMemo(() => createRegionNames(locale), [locale]);
 
-    const number = (value: number): string =>
-        isNepali ? formatNepaliNumber(value) : format.number(value);
+    // One stable object per locale, so components can memoise on it.
+    return useMemo(() => {
+        const number = (value: number): string =>
+            isNepali ? formatNepaliNumber(value) : format.number(value);
 
-    const countryName = (code: CountryCode): string => {
-        const reference = getCountryReference(code);
-        if (!reference) {
-            return code;
-        }
-        if (isNepali) {
-            return COUNTRY_NAMES_NE[code] ?? reference.name;
-        }
-        return regionNames?.of(reference.alpha2) ?? reference.name;
-    };
+        const countryName = (code: CountryCode): string => {
+            const reference = getCountryReference(code);
+            if (!reference) {
+                return code;
+            }
+            if (isNepali) {
+                return COUNTRY_NAMES_NE[code] ?? reference.name;
+            }
+            return regionNames?.of(reference.alpha2) ?? reference.name;
+        };
 
-    const monthName = (monthIndex: number): string =>
-        isNepali
-            ? NEPALI_MONTH_NAMES[monthIndex]
-            : format.dateTime(new Date(Date.UTC(2000, monthIndex, 1)), {
-                  month: "long",
-                  timeZone: UTC,
-              });
+        const monthName = (monthIndex: number): string =>
+            isNepali
+                ? NEPALI_MONTH_NAMES[monthIndex]
+                : format.dateTime(new Date(Date.UTC(2000, monthIndex, 1)), {
+                      month: "long",
+                      timeZone: UTC,
+                  });
 
-    const year = (value: string | number): string =>
-        isNepali ? toDevanagariDigits(String(value)) : String(value);
+        const year = (value: string | number): string =>
+            isNepali ? toDevanagariDigits(String(value)) : String(value);
 
-    const date = (value: IsoDate): string => {
-        if (isNepali) {
+        const date = (value: IsoDate): string => {
+            if (isNepali) {
+                const parts = splitIsoDate(value);
+                return `${year(parts.year)} ${NEPALI_MONTH_NAMES[parts.monthIndex]} ${number(parts.day)}`;
+            }
+            return format.dateTime(parseIsoDate(value), {
+                day: "numeric",
+                month: "short",
+                timeZone: UTC,
+                year: "numeric",
+            });
+        };
+
+        const dayMonth = (value: IsoDate): string => {
+            if (isNepali) {
+                const parts = splitIsoDate(value);
+                return `${NEPALI_MONTH_NAMES[parts.monthIndex]} ${number(parts.day)}`;
+            }
+            return format.dateTime(parseIsoDate(value), {
+                day: "numeric",
+                month: "short",
+                timeZone: UTC,
+            });
+        };
+
+        // Built from single dates: Intl range formatting differs between server and browser ICU
+        // builds (thin spaces), which would break hydration.
+        const dateRange = (start: IsoDate, end: IsoDate): string => {
+            if (start === end) {
+                return date(start);
+            }
+            const isSameYear = start.slice(0, 4) === end.slice(0, 4);
+            return `${isSameYear ? dayMonth(start) : date(start)} – ${date(end)}`;
+        };
+
+        const monthYear = (value: IsoDate): string => {
             const parts = splitIsoDate(value);
-            return `${year(parts.year)} ${NEPALI_MONTH_NAMES[parts.monthIndex]} ${number(parts.day)}`;
-        }
-        return format.dateTime(parseIsoDate(value), {
-            day: "numeric",
-            month: "short",
-            timeZone: UTC,
-            year: "numeric",
-        });
-    };
+            if (isNepali) {
+                return `${year(parts.year)} ${NEPALI_MONTH_NAMES[parts.monthIndex]}`;
+            }
+            return format.dateTime(parseIsoDate(value), {
+                month: "long",
+                timeZone: UTC,
+                year: "numeric",
+            });
+        };
 
-    const dayMonth = (value: IsoDate): string => {
-        if (isNepali) {
-            const parts = splitIsoDate(value);
-            return `${NEPALI_MONTH_NAMES[parts.monthIndex]} ${number(parts.day)}`;
-        }
-        return format.dateTime(parseIsoDate(value), {
-            day: "numeric",
-            month: "short",
-            timeZone: UTC,
-        });
-    };
+        /** Full date range of a trip, at the precision the source gives ("June 2027"). */
+        const tripDates = (trip: TripDates): string => {
+            if (trip.datePrecision === "year") {
+                return year(trip.startDate.slice(0, 4));
+            }
+            if (trip.datePrecision === "month") {
+                return monthYear(trip.startDate);
+            }
+            return dateRange(trip.startDate, trip.endDate);
+        };
 
-    // Built from single dates: Intl range formatting differs between server and browser ICU
-    // builds (thin spaces), which would break hydration.
-    const dateRange = (start: IsoDate, end: IsoDate): string => {
-        if (start === end) {
-            return date(start);
-        }
-        const isSameYear = start.slice(0, 4) === end.slice(0, 4);
-        return `${isSameYear ? dayMonth(start) : date(start)} – ${date(end)}`;
-    };
+        /** First day of a trip with its year, or just its month or year when that is all we know. */
+        const tripStart = (trip: TripDates): string =>
+            trip.datePrecision === "day" ? date(trip.startDate) : tripDates(trip);
 
-    const monthYear = (value: IsoDate): string => {
-        const parts = splitIsoDate(value);
-        if (isNepali) {
-            return `${year(parts.year)} ${NEPALI_MONTH_NAMES[parts.monthIndex]}`;
-        }
-        return format.dateTime(parseIsoDate(value), {
-            month: "long",
-            timeZone: UTC,
-            year: "numeric",
-        });
-    };
+        /** Compact start label for dense lists (day and month, or month alone). */
+        const tripStartShort = (trip: TripDates): string => {
+            if (trip.datePrecision === "year") {
+                return year(trip.startDate.slice(0, 4));
+            }
+            if (trip.datePrecision === "month") {
+                return monthName(splitIsoDate(trip.startDate).monthIndex);
+            }
+            return dayMonth(trip.startDate);
+        };
 
-    /** Full date range of a trip, at the precision the source gives ("June 2027"). */
-    const tripDates = (trip: TripDates): string => {
-        if (trip.datePrecision === "year") {
-            return year(trip.startDate.slice(0, 4));
-        }
-        if (trip.datePrecision === "month") {
-            return monthYear(trip.startDate);
-        }
-        return dateRange(trip.startDate, trip.endDate);
-    };
+        /** A place's short name: its city, or the country when only the country is known. */
+        const placeName = (place: Place): string =>
+            place.precision === "country" ? countryName(place.countryCode) : place.city;
 
-    /** First day of a trip with its year, or just its month or year when that is all we know. */
-    const tripStart = (trip: TripDates): string =>
-        trip.datePrecision === "day" ? date(trip.startDate) : tripDates(trip);
+        /** "City, Country", or just the country when no city is known. */
+        const placeWithCountry = (place: Place): string =>
+            place.precision === "country"
+                ? countryName(place.countryCode)
+                : `${place.city}, ${countryName(place.countryCode)}`;
 
-    /** Compact start label for dense lists (day and month, or month alone). */
-    const tripStartShort = (trip: TripDates): string => {
-        if (trip.datePrecision === "year") {
-            return year(trip.startDate.slice(0, 4));
-        }
-        if (trip.datePrecision === "month") {
-            return monthName(splitIsoDate(trip.startDate).monthIndex);
-        }
-        return dayMonth(trip.startDate);
-    };
+        const relativeDays = (value: IsoDate, today: IsoDate): string => {
+            const offset = countDaysInclusive(today, value) - 1;
+            if (offset === 0) {
+                return t("today");
+            }
+            const days = Math.abs(offset);
+            const params = { count: days, countLabel: number(days) };
+            return offset > 0 ? t("inDays", params) : t("daysAgo", params);
+        };
 
-    /** A place's short name: its city, or the country when only the country is known. */
-    const placeName = (place: Place): string =>
-        place.precision === "country" ? countryName(place.countryCode) : place.city;
-
-    /** "City, Country", or just the country when no city is known. */
-    const placeWithCountry = (place: Place): string =>
-        place.precision === "country"
-            ? countryName(place.countryCode)
-            : `${place.city}, ${countryName(place.countryCode)}`;
-
-    const relativeDays = (value: IsoDate, today: IsoDate): string => {
-        const offset = countDaysInclusive(today, value) - 1;
-        if (offset === 0) {
-            return t("today");
-        }
-        const days = Math.abs(offset);
-        const params = { count: days, countLabel: number(days) };
-        return offset > 0 ? t("inDays", params) : t("daysAgo", params);
-    };
-
-    return {
-        countryName,
-        date,
-        dateRange,
-        dayMonth,
-        monthName,
-        monthYear,
-        number,
-        placeName,
-        placeWithCountry,
-        relativeDays,
-        tripDates,
-        tripStart,
-        tripStartShort,
-        year,
-    };
+        return {
+            countryName,
+            date,
+            dateRange,
+            dayMonth,
+            monthName,
+            monthYear,
+            number,
+            placeName,
+            placeWithCountry,
+            relativeDays,
+            tripDates,
+            tripStart,
+            tripStartShort,
+            year,
+        };
+    }, [format, isNepali, regionNames, t]);
 }
 
 export type ExplorerFormat = ReturnType<typeof useExplorerFormat>;

@@ -1,88 +1,121 @@
 import type {
     IsoDate,
-    TravelDataset,
+    Official,
+    TrackedCountry,
     TravelRecord,
 } from "@/features/travel-explorer/types/travel.types";
-import { toIsoDate } from "@/features/travel-explorer/utils/date.utils";
-import { resolvePositionTitle } from "@/features/travel-explorer/utils/positions.utils";
-import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
+import type { CountryCode } from "@/types/geo.types";
 
-import generatedMeta from "./generated/meta.json";
-import generatedOfficials from "./generated/officials.json";
-import generatedTrips from "./generated/trips.json";
-import {
-    type GeneratedTrip,
-    generatedMetaSchema,
-    generatedOfficialsSchema,
-    generatedTripsSchema,
-} from "./generated-data.schema";
 import { buildSampleTravelDataset } from "./sample/sample-dataset";
-import { TRACKED_COUNTRIES } from "./tracked-countries";
-
-const compareRecordsNewestFirst = (a: TravelRecord, b: TravelRecord): number =>
-    b.startDate.localeCompare(a.startDate) || a.id.localeCompare(b.id);
+import {
+    countryDetailSchema,
+    DATA_BASE_PATH,
+    decodeTravelIndex,
+    type TravelBase,
+    toTravelRecord,
+    travelIndexSchema,
+} from "./travel-index";
 
 /**
- * Builds the dataset from the files written by the data pipeline (`pnpm data:sync`).
- *
- * @param today - Reference date for status calculation.
- * @returns The dataset, or `null` before the pipeline has produced any officials.
+ * Loads the explorer's data from the files the pipeline publishes in `public/data/`. Before the
+ * pipeline has run (a fresh checkout without `index.json`), the fictional samples are shown.
  */
-const buildGeneratedDataset = (today: IsoDate): TravelDataset | null => {
-    // Validated here as well as in the pipeline: a malformed file fails the build instead of
-    // shipping a broken page.
-    const officials = generatedOfficialsSchema.parse(generatedOfficials);
-    const trips = generatedTripsSchema.parse(generatedTrips);
-    if (officials.length === 0) {
-        return null;
-    }
 
-    const officialById = new Map(officials.map((official) => [official.id, official]));
-    const countryByCode = new Map(TRACKED_COUNTRIES.map((country) => [country.code, country]));
+const HTTP_NOT_FOUND = 404;
 
-    const toRecord = ({ statusHint, ...trip }: GeneratedTrip): TravelRecord[] => {
-        const official = officialById.get(trip.officialId);
-        const country = official ? countryByCode.get(official.countryCode) : undefined;
-        if (!(official && country)) {
-            return [];
+export type TravelDataSource = "generated" | "sample";
+
+export interface LoadedTravelBase {
+    base: TravelBase;
+    source: TravelDataSource;
+    /** Day the pipeline last changed the data, or `null` for the samples. */
+    updatedOn: IsoDate | null;
+}
+
+const groupByOrigin = (records: readonly TravelRecord[]): Map<CountryCode, TravelRecord[]> => {
+    const groups = new Map<CountryCode, TravelRecord[]>();
+    for (const record of records) {
+        const group = groups.get(record.originCountryCode);
+        if (group) {
+            group.push(record);
+        } else {
+            groups.set(record.originCountryCode, [record]);
         }
+    }
+    return groups;
+};
 
-        return [
-            {
-                ...trip,
-                origin: country.capital,
-                originCountryCode: country.code,
-                positionTitle: resolvePositionTitle(official, trip.startDate),
-                status: resolveTravelStatus({
-                    datePrecision: trip.datePrecision,
-                    endDate: trip.endDate,
-                    hint: statusHint,
-                    today,
-                }),
-            },
-        ];
-    };
-
+const sampleBase = (today: IsoDate): LoadedTravelBase => {
+    const dataset = buildSampleTravelDataset(today);
     return {
-        countries: TRACKED_COUNTRIES,
-        officials,
-        records: trips.flatMap(toRecord).sort(compareRecordsNewestFirst),
+        base: {
+            countries: [...dataset.countries],
+            officials: [...dataset.officials],
+            recordsByOrigin: groupByOrigin(dataset.records),
+            updatedOn: today,
+        },
+        source: "sample",
+        updatedOn: null,
     };
 };
 
-const TODAY = toIsoDate(new Date());
-const generatedDataset = buildGeneratedDataset(TODAY);
+/**
+ * Loads every country, official and trip in compact form.
+ *
+ * @param today - Reference date for trip statuses.
+ * @param signal - Aborts the request.
+ * @returns The decoded base dataset and where it came from.
+ * @throws When the file exists but can't be read or doesn't match the expected format.
+ */
+export const loadTravelBase = async (
+    today: IsoDate,
+    signal?: AbortSignal
+): Promise<LoadedTravelBase> => {
+    const response = await fetch(`${DATA_BASE_PATH}/index.json`, { signal });
+    if (response.status === HTTP_NOT_FOUND) {
+        return sampleBase(today);
+    }
+    if (!response.ok) {
+        throw new Error(`Travel data unavailable (HTTP ${response.status})`);
+    }
+    const index = travelIndexSchema.parse(await response.json());
+    return {
+        base: decodeTravelIndex(index, today),
+        source: "generated",
+        updatedOn: index.updatedOn,
+    };
+};
+
+export interface LoadedCountryDetail {
+    officials: Official[];
+    records: TravelRecord[];
+}
 
 /**
- * Where the explorer's data comes from: the pipeline's files, or the fictional samples on a
- * fresh checkout before `pnpm data:sync` has run.
+ * Loads one country's full records: biographies, sources, trip purposes and engagements.
+ *
+ * @param code - Country code.
+ * @param countryByCode - Countries from the base dataset (trip origins).
+ * @param today - Reference date for trip statuses.
+ * @param signal - Aborts the request.
+ * @returns The country's officials and trips.
  */
-export const TRAVEL_DATA_SOURCE: "generated" | "sample" = generatedDataset ? "generated" : "sample";
-
-/** Day the pipeline last changed the data, or `null` when showing samples. */
-export const TRAVEL_DATA_UPDATED_ON: IsoDate | null = generatedDataset
-    ? generatedMetaSchema.parse(generatedMeta).updatedOn
-    : null;
-
-/** Dataset evaluated against the viewer's current date. */
-export const TRAVEL_DATASET: TravelDataset = generatedDataset ?? buildSampleTravelDataset(TODAY);
+export const loadCountryDetail = async (
+    code: CountryCode,
+    countryByCode: ReadonlyMap<CountryCode, TrackedCountry>,
+    today: IsoDate,
+    signal?: AbortSignal
+): Promise<LoadedCountryDetail> => {
+    const response = await fetch(`${DATA_BASE_PATH}/countries/${code}.json`, { signal });
+    if (!response.ok) {
+        throw new Error(`Details for ${code} unavailable (HTTP ${response.status})`);
+    }
+    const detail = countryDetailSchema.parse(await response.json());
+    const officialById = new Map(detail.officials.map((official) => [official.id, official]));
+    const records = detail.trips.flatMap((trip) => {
+        const official = officialById.get(trip.officialId);
+        const record = official ? toTravelRecord(trip, { countryByCode, official, today }) : null;
+        return record ? [record] : [];
+    });
+    return { officials: detail.officials, records };
+};

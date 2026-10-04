@@ -29,9 +29,9 @@ const country = (
 });
 
 /**
- * Countries whose officials the explorer follows. Trips start from the capital listed here.
- * The data pipeline (`scripts/data-pipeline`) reads this list too, so adding a country here
- * and to the pipeline's source config is all it takes to track it.
+ * Featured countries: refreshed daily by `pnpm data:sync`, with a curated capital and
+ * government description. Every other country still appears in the app, with its capital
+ * taken from Wikidata and no description.
  */
 export const TRACKED_COUNTRIES: readonly TrackedCountry[] = [
     country("NPL", "Nepal", "Federal parliamentary republic", "Kathmandu", 85.324, 27.7172),

@@ -8,12 +8,14 @@ import { Button } from "@/components/ui/button";
 import { FiltersView } from "@/features/travel-explorer/components/filters/filters-view";
 import { CountryView } from "@/features/travel-explorer/components/panel/country-view";
 import { DataAttribution } from "@/features/travel-explorer/components/panel/data-attribution";
+import { DataStatus } from "@/features/travel-explorer/components/panel/data-status";
 import { FilterBar } from "@/features/travel-explorer/components/panel/filter-bar";
 import { OfficialView } from "@/features/travel-explorer/components/panel/official-view";
 import { OverviewView } from "@/features/travel-explorer/components/panel/overview-view";
 import { PanelBreadcrumb } from "@/features/travel-explorer/components/panel/panel-breadcrumb";
 import { TripView } from "@/features/travel-explorer/components/panel/trip-view";
 import { EXPLORER_PANEL_ID } from "@/features/travel-explorer/constants/explorer.constants";
+import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { usePanelSwipe } from "@/features/travel-explorer/hooks/use-panel-swipe";
 import { cn } from "@/lib/utils";
@@ -21,6 +23,11 @@ import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
 function PanelBody() {
     const { selection, level } = useExplorerState();
+    const { status } = useExplorerData();
+
+    if (status !== "ready") {
+        return <DataStatus />;
+    }
 
     if (level === "trip" && selection.trip) {
         return <TripView recordId={selection.trip} />;

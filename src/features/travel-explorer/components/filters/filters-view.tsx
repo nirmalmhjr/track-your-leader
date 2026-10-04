@@ -52,6 +52,7 @@ import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-d
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { useFilterSetter } from "@/features/travel-explorer/hooks/use-filter-setter";
+import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import { countActiveFilters } from "@/features/travel-explorer/utils/filters.utils";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
@@ -83,7 +84,8 @@ function OriginCountryField() {
     const t = useTranslations("Explorer.filters");
     const format = useExplorerFormat();
     const { countries } = useExplorerData();
-    const { selection, selectCountry } = useExplorerState();
+    const { selection } = useExplorerState();
+    const openCountry = useOpenCountry();
 
     const items = [
         { label: t("allCountries"), value: ANY_VALUE },
@@ -93,8 +95,8 @@ function OriginCountryField() {
     ];
     const isTracked = countries.some((country) => country.code === selection.country);
     const handleOriginChange = useCallback(
-        (value: string | null) => selectCountry(!value || value === ANY_VALUE ? null : value),
-        [selectCountry]
+        (value: string | null) => openCountry(!value || value === ANY_VALUE ? null : value),
+        [openCountry]
     );
 
     return (

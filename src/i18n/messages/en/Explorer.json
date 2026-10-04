@@ -5,15 +5,13 @@
     "sampleDataDescription": "Officials in this preview are fictional and their trips are illustrative. Countries, offices, cities and international events are real."
   },
   "search": {
-    "open": "Search countries and officials",
+    "open": "Search countries",
     "placeholderShort": "Search…",
-    "placeholder": "Search a country, leader or minister…",
-    "title": "Search countries and officials",
-    "officials": "Officials",
+    "placeholder": "Search a country by name or code…",
+    "title": "Search countries",
     "countries": "Countries",
     "tracked": "Officials tracked",
-    "former": "Former {title}",
-    "empty": "No countries or officials match your search.",
+    "empty": "No country matches your search.",
     "navigate": "Navigate",
     "select": "Open",
     "close": "Close"
@@ -184,6 +182,12 @@
     "position": "{current} of {total}",
     "source": "Source",
     "datesUnconfirmed": "Exact dates not yet announced"
+  },
+  "data": {
+    "loading": "Loading travel data…",
+    "errorTitle": "Couldn't load the travel data",
+    "errorDescription": "Check your connection and try again.",
+    "retry": "Try again"
   },
   "timeline": {
     "label": "Travel timeline",

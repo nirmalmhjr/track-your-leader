@@ -2,19 +2,19 @@ import type { CountryCode } from "@/types/geo.types";
 
 /** Settings shared by every pipeline step. */
 export const PIPELINE_CONFIG = {
-    /** Trips that started before this year are left out of the app's files. */
-    appSinceYear: 2014,
     /** Large files (COLT spreadsheet, Canada's CSV) are reused for this long. */
     bulkCacheTtlHours: 24 * 7,
     /** Local HTTP cache, so repeated runs on one machine don't refetch everything. */
     cacheDir: "scripts/data-pipeline/.cache",
     cacheTtlHours: 20,
+    /** Each country's officials and trips, served to the app as they are. */
+    countriesDir: "public/data/countries",
     /** Days before an official the pipeline couldn't match on Wikidata is searched again. */
     identityRetryDays: 30,
+    /** The compact index of every country, official and trip the app loads first. */
+    indexFile: "public/data/index.json",
     /** Abort (without writing) if officials or trips drop by more than this share. */
     maxCountDropRatio: 0.2,
-    /** Files the app reads. */
-    outputDir: "src/features/travel-explorer/data/generated",
     /** Pipeline memory between runs (who held which office since when). */
     stateDir: "scripts/data-pipeline/state",
     /**

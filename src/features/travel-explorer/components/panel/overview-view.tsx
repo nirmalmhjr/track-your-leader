@@ -13,6 +13,7 @@ import { OVERVIEW_UPCOMING_LIMIT } from "@/features/travel-explorer/constants/ex
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { TrackedCountry, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
 import {
@@ -83,14 +84,11 @@ interface CountryRowProps {
 
 function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
     const format = useExplorerFormat();
-    const { selectCountry } = useExplorerState();
+    const openCountry = useOpenCountry();
     const setHoveredCountry = useExplorerUiStore((state) => state.setHoveredCountry);
     const reference = getCountryReference(country.code);
 
-    const handleSelect = useCallback(
-        () => selectCountry(country.code),
-        [selectCountry, country.code]
-    );
+    const handleSelect = useCallback(() => openCountry(country.code), [openCountry, country.code]);
     const handleHighlight = useCallback(
         () => setHoveredCountry(country.code),
         [setHoveredCountry, country.code]

@@ -26,6 +26,7 @@
     "build": "next build",
     "clean": "rm -rf .next playwright-report test-results",
     "data:collect": "tsx scripts/data-pipeline/collect.ts",
+    "data:export": "tsx scripts/data-pipeline/export.ts",
     "data:sync": "tsx scripts/data-pipeline/run.ts",
     "data:test": "tsx --test \"scripts/data-pipeline/**/*.test.ts\"",
     "dev": "next dev",
@@ -33,6 +34,7 @@
     "lint:fix": "ultracite fix",
     "prepare": "lefthook install || true",
     "start": "next start",
+    "test": "tsx --test \"src/**/*.test.ts\"",
     "type-check": "tsc -b"
   },
   "dependencies": {

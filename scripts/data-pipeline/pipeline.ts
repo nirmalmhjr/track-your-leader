@@ -2,15 +2,13 @@ import path from "node:path";
 
 import {
     type GeneratedTrip,
-    generatedMetaSchema,
-    generatedOfficialsSchema,
     generatedTripsSchema,
 } from "@/features/travel-explorer/data/generated-data.schema";
 import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
 
 import { countrySourceFor, PIPELINE_CONFIG } from "./config";
-import { buildAppExport } from "./extract/app-export";
+import { writeAppIndex } from "./extract/app-index";
 import { extractCabinet } from "./extract/cabinets.extract";
 import { extractCanadaClaims } from "./extract/claims/canada.claims";
 import { extractColtClaims } from "./extract/claims/colt.claims";
@@ -33,6 +31,7 @@ import {
     createCityLookup,
     loadPlaceIndex,
     type PlaceIndex,
+    saveCapitals,
 } from "./extract/places.resolve";
 import { rosterSchema, updateRoster } from "./extract/roster";
 import { matchTravellers } from "./extract/travellers.match";
@@ -43,9 +42,9 @@ import { setCacheBypass } from "./lib/http";
 import { readJsonFile, writeJsonFile } from "./lib/json-file";
 import { log } from "./lib/log";
 import {
+    type CountryFile,
     readClaims,
-    readWarehouseOfficials,
-    readWarehouseTrips,
+    readCountries,
     type WarehouseOfficial,
     warehouseOfficialSchema,
     writeClaims,
@@ -90,7 +89,6 @@ const hasValidDates = (claim: TripClaim): boolean =>
     isCalendarDate(claim.startDate) &&
     isCalendarDate(claim.endDate) &&
     claim.endDate >= claim.startDate;
-const outputFile = (name: string): string => path.join(PIPELINE_CONFIG.outputDir, name);
 const stateFile = (name: string): string => path.join(PIPELINE_CONFIG.stateDir, name);
 
 // --- Officials ------------------------------------------------------------------------------
@@ -255,49 +253,6 @@ const collectClaims = async (
 const countTrips = (trips: ReadonlyMap<CountryCode, readonly GeneratedTrip[]>): number =>
     [...trips.values()].reduce((total, list) => total + list.length, 0);
 
-const writeAppFiles = async (
-    report: PipelineReport,
-    today: IsoDate,
-    force: boolean
-): Promise<void> => {
-    log.step("App export");
-    const officials = await readWarehouseOfficials();
-    const trips = await readWarehouseTrips([...officials.keys()]);
-    const app = buildAppExport(officials, trips, PIPELINE_CONFIG.appSinceYear);
-    const appOfficials = generatedOfficialsSchema.parse(app.officials);
-    const appTrips = generatedTripsSchema.parse(app.trips);
-
-    const previousOfficials =
-        (await readJsonFile(outputFile("officials.json"), generatedOfficialsSchema)) ?? [];
-    const previousTrips =
-        (await readJsonFile(outputFile("trips.json"), generatedTripsSchema)) ?? [];
-    const problems = [
-        checkCountDrop("App officials", previousOfficials.length, appOfficials.length),
-        checkCountDrop("App trips", previousTrips.length, appTrips.length),
-    ].filter((problem): problem is string => problem !== null);
-    for (const problem of problems) {
-        log.warn(problem);
-    }
-    if (problems.length > 0 && !force) {
-        throw new Error(
-            "App files not written. Check the warehouse report, then rerun with --force."
-        );
-    }
-
-    const officialsChanged = await writeJsonFile(outputFile("officials.json"), appOfficials);
-    const tripsChanged = await writeJsonFile(outputFile("trips.json"), appTrips);
-    const previousMeta = await readJsonFile(outputFile("meta.json"), generatedMetaSchema);
-    if (officialsChanged || tripsChanged || !previousMeta) {
-        await writeJsonFile(outputFile("meta.json"), {
-            cabinets: { ...previousMeta?.cabinets, ...report.cabinets },
-            counts: { officials: appOfficials.length, trips: appTrips.length },
-            sinceYear: PIPELINE_CONFIG.appSinceYear,
-            updatedOn: today,
-        });
-    }
-    log.info(`App: ${appOfficials.length} officials, ${appTrips.length} trips`);
-};
-
 // --- Run ------------------------------------------------------------------------------------
 
 type Matches = Awaited<ReturnType<typeof matchTravellers>>;
@@ -348,21 +303,29 @@ const buildTrips = (
 };
 
 /** Refuses to overwrite the warehouse when a run produced far less than it holds. */
-const checkDrops = async (
+const checkDrops = (
     codes: readonly CountryCode[],
-    stored: ReadonlyMap<CountryCode, readonly WarehouseOfficial[]>,
+    stored: ReadonlyMap<CountryCode, CountryFile>,
     officialCount: number,
     tripsByCountry: ReadonlyMap<CountryCode, readonly GeneratedTrip[]>,
     force: boolean
-): Promise<void> => {
-    const previousTrips = await readWarehouseTrips(codes);
-    const previousOfficials = codes.reduce(
-        (total, code) => total + (stored.get(code)?.length ?? 0),
-        0
-    );
+): void => {
+    const sum = (count: (file: CountryFile) => number): number =>
+        codes.reduce((total, code) => {
+            const file = stored.get(code);
+            return total + (file ? count(file) : 0);
+        }, 0);
     const problems = [
-        checkCountDrop("Officials", previousOfficials, officialCount),
-        checkCountDrop("Trips", countTrips(previousTrips), countTrips(tripsByCountry)),
+        checkCountDrop(
+            "Officials",
+            sum((file) => file.officials.length),
+            officialCount
+        ),
+        checkCountDrop(
+            "Trips",
+            sum((file) => file.trips.length),
+            countTrips(tripsByCountry)
+        ),
     ].filter((problem): problem is string => problem !== null);
     for (const problem of problems) {
         log.warn(problem);
@@ -401,7 +364,12 @@ const writeWarehouse = async ({
             a.id.localeCompare(b.id)
         );
         // biome-ignore lint/performance/noAwaitInLoops: files are written one by one to keep memory and output tidy.
-        changed += (await writeCountry(code, officialsByCountry.get(code) ?? [], trips)) ? 1 : 0;
+        changed += (await writeCountry(code, {
+            officials: officialsByCountry.get(code) ?? [],
+            trips,
+        }))
+            ? 1
+            : 0;
     }
     await Promise.all(
         [...fresh].map(async ([source, list]) => {
@@ -416,13 +384,12 @@ const writeWarehouse = async ({
     );
     await writeWarehouseFile("report.json", report);
 
-    const allOfficials = await readWarehouseOfficials();
-    const allTrips = await readWarehouseTrips([...allOfficials.keys()]);
+    const all = [...(await readCountries()).values()];
     await writeWarehouseFile("meta.json", {
         counts: {
-            countries: allOfficials.size,
-            officials: [...allOfficials.values()].reduce((total, list) => total + list.length, 0),
-            trips: countTrips(allTrips),
+            countries: all.length,
+            officials: all.reduce((total, file) => total + file.officials.length, 0),
+            trips: all.reduce((total, file) => total + file.trips.length, 0),
         },
         sinceYear,
         sources: Object.fromEntries(
@@ -454,14 +421,12 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     const selected = new Set(countries.codes);
     log.info(`${countries.codes.length} countries`);
 
-    const stored = await readWarehouseOfficials();
-    const appPrevious =
-        (await readJsonFile(outputFile("officials.json"), generatedOfficialsSchema)) ?? [];
-    const previous = [...[...stored.values()].flat(), ...appPrevious];
+    const stored = await readCountries();
+    const previous = [...stored.values()].flatMap((file) => file.officials);
     const reserved = new Set(
         [...stored]
             .filter(([code]) => !selected.has(code))
-            .flatMap(([, list]) => list.map((official) => official.id))
+            .flatMap(([, file]) => file.officials.map((official) => official.id))
     );
 
     const { contexts, drafts, roster } = await collectOfficials(
@@ -473,6 +438,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
 
     log.step("Places");
     const places = await loadPlaceIndex();
+    await saveCapitals(places);
     const cities = await createCityLookup(places);
     const { claims, fresh } = await collectClaims(
         { cities, drafts, places, report, today },
@@ -511,7 +477,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     log.info(`${countTrips(tripsByCountry)} trips for ${officials.length} officials`);
 
     log.step("Checks");
-    await checkDrops(countries.codes, stored, officials.length, tripsByCountry, options.force);
+    checkDrops(countries.codes, stored, officials.length, tripsByCountry, options.force);
 
     log.step("Writing the warehouse");
     await writeWarehouse({
@@ -526,7 +492,8 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     await cities.save();
     await writeJsonFile(stateFile("roster.json"), roster);
 
-    await writeAppFiles(report, today, options.force);
+    log.step("App index");
+    await writeAppIndex(today, options.force);
 };
 
 /**

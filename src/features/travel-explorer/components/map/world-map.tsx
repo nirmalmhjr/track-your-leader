@@ -13,6 +13,7 @@ import {
     PANEL_WIDTH_PX,
     PANEL_WIDTH_XL_PX,
 } from "@/features/travel-explorer/constants/explorer.constants";
+import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useWorldShapes } from "@/features/travel-explorer/hooks/use-world-shapes";
 import { useElementSize } from "@/hooks/use-element-size";
 import { useMediaQuery } from "@/hooks/use-media-query";
@@ -29,6 +30,7 @@ const TOP_OVERLAY_PX = 88;
 export function WorldMap() {
     const [containerRef, size] = useElementSize<HTMLDivElement>();
     const world = useWorldShapes();
+    const { status: dataStatus } = useExplorerData();
     const isTabletUp = useMediaQuery("(min-width: 768px)");
     const isWide = useMediaQuery("(min-width: 1280px)");
     const isPanelOpen = useExplorerUiStore((state) => state.isPanelOpen);
@@ -65,7 +67,9 @@ export function WorldMap() {
                     width={size.width}
                 />
             ) : null}
-            {world.status === "loading" || (world.status === "ready" && !hasSize) ? (
+            {world.status === "loading" ||
+            dataStatus === "loading" ||
+            (world.status === "ready" && !hasSize) ? (
                 <MapLoadingState />
             ) : null}
             {world.status === "error" ? <MapErrorState onRetry={world.retry} /> : null}
