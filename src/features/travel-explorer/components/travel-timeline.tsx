@@ -10,6 +10,7 @@ import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-
 import { ROUTE_STYLES } from "@/features/travel-explorer/constants/map-style.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
+import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import type { TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { groupByYear } from "@/features/travel-explorer/utils/travel-aggregates.utils";
 import { getCountryReference } from "@/lib/geo/country-reference";
@@ -60,11 +61,7 @@ function TimelineEntry({
     const setHoveredRecordId = useExplorerUiStore((state) => state.setHoveredRecordId);
 
     const handleSelect = useCallback(() => onSelect(record), [onSelect, record]);
-    const handleHighlight = useCallback(
-        () => setHoveredRecordId(record.id),
-        [setHoveredRecordId, record.id]
-    );
-    const handleClearHighlight = useCallback(() => setHoveredRecordId(null), [setHoveredRecordId]);
+    const highlightHandlers = useHoverHighlight(setHoveredRecordId, record.id);
 
     const official = officialById.get(record.officialId);
     const isInbound = perspective === "inbound";
@@ -90,12 +87,9 @@ function TimelineEntry({
                     "col-span-3 grid grid-cols-subgrid rounded-md py-2 pr-2 text-left outline-none transition-colors hover:bg-accent/50 focus-visible:ring-3 focus-visible:ring-ring/50",
                     record.status === "cancelled" && "opacity-70"
                 )}
-                onBlur={handleClearHighlight}
                 onClick={handleSelect}
-                onFocus={handleHighlight}
-                onPointerEnter={handleHighlight}
-                onPointerLeave={handleClearHighlight}
                 type="button"
+                {...highlightHandlers}
             >
                 <span className="pt-0.5 pr-1 text-right text-muted-foreground text-xs tabular-nums">
                     <time dateTime={record.startDate}>{format.tripStartShort(record)}</time>

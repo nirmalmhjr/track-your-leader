@@ -60,10 +60,6 @@ type BaseState =
     | { status: "error" }
     | { loaded: LoadedTravelBase; status: "ready" };
 
-type DetailState =
-    | { status: "loading" | "error" }
-    | { detail: LoadedCountryDetail; status: "ready" };
-
 interface ExplorerData {
     /** All officials, ignoring filters (used by search). */
     allOfficials: readonly Official[];
@@ -99,17 +95,10 @@ const ExplorerDataContext = createContext<ExplorerData | null>(null);
 /** Countries, officials and trips, with loaded countries' full records in place of the compact ones. */
 const useDataset = (
     base: LoadedTravelBase | null,
-    details: ReadonlyMap<CountryCode, DetailState>
+    detailed: ReadonlyMap<CountryCode, LoadedCountryDetail>
 ) =>
     useMemo(() => {
         const countries = base?.base.countries ?? [];
-        const detailed = new Map<CountryCode, LoadedCountryDetail>();
-        for (const [code, state] of details) {
-            if (state.status === "ready") {
-                detailed.set(code, state.detail);
-            }
-        }
-
         const fullOfficials = new Map(
             [...detailed.values()].flatMap((detail) =>
                 detail.officials.map((official) => [official.id, official] as const)
@@ -145,7 +134,7 @@ const useDataset = (
             recordById: new Map(records.map((record) => [record.id, record])),
             records,
         };
-    }, [base, details]);
+    }, [base, detailed]);
 
 /**
  * Loads the travel data, applies the current filters once and shares the indexed results with
@@ -157,7 +146,13 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
     const [today] = useState(() => toIsoDate(new Date()));
     const [attempt, setAttempt] = useState(0);
     const [baseState, setBaseState] = useState<BaseState>({ status: "loading" });
-    const [details, setDetails] = useState<ReadonlyMap<CountryCode, DetailState>>(new Map());
+    // Kept apart so a country starting to load doesn't rebuild the whole dataset.
+    const [details, setDetails] = useState<ReadonlyMap<CountryCode, LoadedCountryDetail>>(
+        new Map()
+    );
+    const [detailStatus, setDetailStatus] = useState<ReadonlyMap<CountryCode, DetailStatus>>(
+        new Map()
+    );
     const requestedRef = useRef(new Set<CountryCode>());
 
     // biome-ignore lint/correctness/useExhaustiveDependencies: `attempt` changes when the user retries, which must load again.
@@ -186,22 +181,25 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
             return;
         }
         requestedRef.current.add(code);
-        const setDetail = (state: DetailState) =>
-            setDetails((previous) => new Map(previous).set(code, state));
-        setDetail({ status: "loading" });
-        // Not aborted when the selection changes: the file is small and kept for later visits.
+        const setStatus = (status: DetailStatus) =>
+            setDetailStatus((previous) => new Map(previous).set(code, status));
+        setStatus("loading");
+        // Not aborted when the selection changes: the file is kept for later visits.
         travelDataClient
             .getCountry(code, dataset.countryByCode, today)
-            .then((detail) => setDetail({ detail, status: "ready" }))
+            .then((detail) => {
+                setDetails((previous) => new Map(previous).set(code, detail));
+                setStatus("ready");
+            })
             .catch(() => {
                 requestedRef.current.delete(code);
-                setDetail({ status: "error" });
+                setStatus("error");
             });
     }, [base, dataset.countryByCode, selectedCountry, today]);
 
     const retry = useCallback(() => setAttempt((count) => count + 1), []);
 
-    const value = useMemo<ExplorerData>(() => {
+    const filtered = useMemo(() => {
         const matchingOfficialIds = new Set(
             dataset.officials
                 .filter((official) => matchesOfficialFilters(official, filters))
@@ -211,35 +209,38 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
             (record) =>
                 matchingOfficialIds.has(record.officialId) && matchesTravelFilters(record, filters)
         );
-        const detailStatus = new Map(
-            [...details].map(([code, state]) => [code, state.status] as const)
-        );
-
         return {
-            allOfficials: dataset.officials,
-            allRecords: dataset.records,
-            countries: dataset.countries,
-            countryByCode: dataset.countryByCode,
-            dataSource: base?.source ?? "generated",
-            detailStatus,
             matchingOfficialIds,
             matchingRecords,
-            officialById: dataset.officialById,
-            officialsByCountry: dataset.officialsByCountry,
-            recordById: dataset.recordById,
             recordsByDestination: groupRecords(
                 matchingRecords,
                 (record) => record.destination.countryCode
             ),
             recordsByOfficial: groupRecords(matchingRecords, (record) => record.officialId),
             recordsByOrigin: groupRecords(matchingRecords, (record) => record.originCountryCode),
+            travelFiltersActive: hasTravelFilters(filters),
+        };
+    }, [dataset, filters]);
+
+    const value = useMemo<ExplorerData>(
+        () => ({
+            ...filtered,
+            allOfficials: dataset.officials,
+            allRecords: dataset.records,
+            countries: dataset.countries,
+            countryByCode: dataset.countryByCode,
+            dataSource: base?.source ?? "generated",
+            detailStatus,
+            officialById: dataset.officialById,
+            officialsByCountry: dataset.officialsByCountry,
+            recordById: dataset.recordById,
             retry,
             status: baseState.status,
             today,
-            travelFiltersActive: hasTravelFilters(filters),
             updatedOn: base?.updatedOn ?? null,
-        };
-    }, [base, baseState.status, dataset, details, filters, retry, today]);
+        }),
+        [base, baseState.status, dataset, detailStatus, filtered, retry, today]
+    );
 
     return <ExplorerDataContext value={value}>{children}</ExplorerDataContext>;
 }

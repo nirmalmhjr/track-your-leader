@@ -6,6 +6,7 @@ import {
     type MouseEvent,
     type PointerEvent,
     useCallback,
+    useDeferredValue,
     useEffect,
     useEffectEvent,
     useId,
@@ -161,9 +162,14 @@ export function WorldMapCanvas({
     const { selection, level, selectTrip, goUp, resetExplorer } = useExplorerState();
     const openCountry = useOpenCountry();
     const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);
-    const hoveredCountry = useExplorerUiStore((state) => state.hoveredCountry);
-    const hoveredOfficialId = useExplorerUiStore((state) => state.hoveredOfficialId);
-    const hoveredRecordId = useExplorerUiStore((state) => state.hoveredRecordId);
+    // Highlights from the panel redraw the map at low priority, so scrolling and pointing at
+    // long lists stay responsive while the map catches up.
+    const hoveredCountryNow = useExplorerUiStore((state) => state.hoveredCountry);
+    const hoveredOfficialIdNow = useExplorerUiStore((state) => state.hoveredOfficialId);
+    const hoveredRecordIdNow = useExplorerUiStore((state) => state.hoveredRecordId);
+    const hoveredCountry = useDeferredValue(hoveredCountryNow);
+    const hoveredOfficialId = useDeferredValue(hoveredOfficialIdNow);
+    const hoveredRecordId = useDeferredValue(hoveredRecordIdNow);
     const [hover, setHover] = useState<MapHoverTarget | null>(null);
 
     const { transform, zoomBy, panBy, resetView, fitBounds, getCameraMode } = useMapZoom({

@@ -1,7 +1,7 @@
 "use client";
 
 import type { ZoomTransform } from "d3-zoom";
-import { memo, useId } from "react";
+import { memo, useCallback, useId, useMemo } from "react";
 
 import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
 import {
@@ -19,6 +19,7 @@ import {
 import type {
     MapNode,
     MapScene,
+    RouteSegment,
     RouteTone,
 } from "@/features/travel-explorer/utils/map-scene.utils";
 
@@ -62,6 +63,10 @@ const VIEWPORT_MARGIN = 24;
 
 /** Mask luminance over the selected country: routes keep about a quarter of their strength. */
 const SELECTED_ROUTE_VISIBILITY = 64;
+/** Extra stroke width of the routes the hover focus emphasises. */
+const FOCUSED_EXTRA_WIDTH = 0.75;
+/** Endpoints stay a little more visible than routes when another official is in focus. */
+const DIMMED_NODE_OPACITY = DIMMED_ROUTE_OPACITY + 0.15;
 
 const nodeRadius = (node: MapNode): number =>
     3.5 + Math.min(Math.sqrt(node.records.length) * 1.1, 4.5);
@@ -125,6 +130,72 @@ function NodeMarker({ node, point }: { node: MapNode; point: Point }) {
     );
 }
 
+interface RoutePath {
+    path: string;
+    segment: RouteSegment;
+    strokeWidth: number;
+}
+
+interface PlacedNode {
+    node: MapNode;
+    point: Point;
+}
+
+function RoutePaths({ paths, isFocused }: { isFocused: boolean; paths: readonly RoutePath[] }) {
+    return paths.map(({ path, segment, strokeWidth }) => {
+        const style = ROUTE_STYLES[segment.status];
+        const width = strokeWidth + (isFocused ? FOCUSED_EXTRA_WIDTH : 0);
+        return (
+            <g key={segment.key}>
+                <path
+                    d={path}
+                    fill="none"
+                    stroke="var(--map-halo)"
+                    strokeLinecap="round"
+                    strokeOpacity={0.6}
+                    strokeWidth={width + 2.5}
+                />
+                <path
+                    d={path}
+                    fill="none"
+                    stroke={style.color}
+                    strokeDasharray={style.dashArray}
+                    strokeLinecap="round"
+                    strokeOpacity={style.opacity}
+                    strokeWidth={width}
+                />
+            </g>
+        );
+    });
+}
+
+// Every route and endpoint of the scene, memoised apart from the hover focus: pointing at a card
+// or a trip in the panel never redraws hundreds of routes. The focus only dims these layers as a
+// whole and redraws its own few routes and endpoints on top.
+
+const RouteLinesLayer = memo(function RouteLines({
+    mask,
+    paths,
+}: {
+    mask: string | undefined;
+    paths: readonly RoutePath[];
+}) {
+    return (
+        <g aria-hidden className="pointer-events-none" mask={mask}>
+            <RoutePaths isFocused={false} paths={paths} />
+        </g>
+    );
+});
+
+const RouteNodesLayer = memo(function RouteNodes({ nodes }: { nodes: readonly PlacedNode[] }) {
+    return nodes.map(({ node, point }) => (
+        <g className="cursor-pointer" data-node={node.key} key={node.key}>
+            <circle cx={point[0]} cy={point[1]} fill="transparent" r={12} />
+            <NodeMarker node={node} point={point} />
+        </g>
+    ));
+});
+
 /**
  * Routes, endpoints and city labels drawn in screen space, so line widths and text stay
  * constant at every zoom level.
@@ -140,30 +211,62 @@ export const MapRoutesLayer = memo(function RoutesLayer({
 }: MapRoutesLayerProps) {
     const maskId = useId();
     const format = useExplorerFormat();
-    const toScreen = (place: Place): Point | null => {
-        const projected = projectCoordinates(place.coordinates);
-        return projected ? (transform.apply([projected[0], projected[1]]) as Point) : null;
-    };
-    const isInView = ([x, y]: Point) =>
-        x > -VIEWPORT_MARGIN &&
-        x < width + VIEWPORT_MARGIN &&
-        y > -VIEWPORT_MARGIN &&
-        y < height + VIEWPORT_MARGIN;
+    const toScreen = useCallback(
+        (place: Place): Point | null => {
+            const projected = projectCoordinates(place.coordinates);
+            return projected ? (transform.apply([projected[0], projected[1]]) as Point) : null;
+        },
+        [transform]
+    );
+
+    const paths = useMemo(
+        () =>
+            scene.segments.flatMap((segment): RoutePath[] => {
+                const from = toScreen(segment.from);
+                const to = toScreen(segment.to);
+                const path = from && to ? buildArcPath(from, to, LIFT_BY_TONE[segment.tone]) : null;
+                if (!path) {
+                    return [];
+                }
+                const strokeWidth =
+                    ROUTE_STYLES[segment.status].width +
+                    Math.min(segment.records.length - 1, 4) * 0.35;
+                return [{ path, segment, strokeWidth }];
+            }),
+        [scene.segments, toScreen]
+    );
+
+    const placedNodes = useMemo(
+        () =>
+            scene.nodes.flatMap((node): PlacedNode[] => {
+                const point = toScreen(node.place);
+                const isInView =
+                    point !== null &&
+                    point[0] > -VIEWPORT_MARGIN &&
+                    point[0] < width + VIEWPORT_MARGIN &&
+                    point[1] > -VIEWPORT_MARGIN &&
+                    point[1] < height + VIEWPORT_MARGIN;
+                return point && isInView ? [{ node, point }] : [];
+            }),
+        [height, scene.nodes, toScreen, width]
+    );
 
     const hasFocus = Boolean(focus.recordId || focus.officialId);
     const anchors = scene.mode === "inbound" ? scene.anchors : [];
+    const focusedPaths = hasFocus
+        ? paths.filter(({ segment }) => matchesFocus(segment.records, focus))
+        : [];
+    const focusedNodes = hasFocus
+        ? placedNodes.filter(({ node }) => matchesFocus(node.records, focus))
+        : [];
 
     const placedLabels: LabelBox[] = [...labelObstacles];
     const labels: { key: string; text: string; x: number; y: number }[] = [];
-    const labelCandidates = scene.nodes
-        .filter((node) => scene.showLabels || matchesFocus(node.records, focus))
+    const labelCandidates = placedNodes
+        .filter(({ node }) => scene.showLabels || matchesFocus(node.records, focus))
         .slice(0, MAP_CONFIG.maxCityLabels);
 
-    for (const node of labelCandidates) {
-        const point = toScreen(node.place);
-        if (!(point && isInView(point))) {
-            continue;
-        }
+    for (const { node, point } of labelCandidates) {
         const radius = nodeRadius(node);
         const labelText = format.placeName(node.place);
         const labelWidth = labelText.length * LABEL_CHAR_WIDTH + 4;
@@ -196,6 +299,8 @@ export const MapRoutesLayer = memo(function RoutesLayer({
         }
     }
 
+    const routeMask = selectedPath ? `url(#${maskId})` : undefined;
+
     return (
         <g>
             {selectedPath ? (
@@ -217,53 +322,9 @@ export const MapRoutesLayer = memo(function RoutesLayer({
                     </mask>
                 </defs>
             ) : null}
-            <g
-                aria-hidden
-                className="pointer-events-none"
-                mask={selectedPath ? `url(#${maskId})` : undefined}
-            >
-                {scene.segments.map((segment) => {
-                    const from = toScreen(segment.from);
-                    const to = toScreen(segment.to);
-                    const path =
-                        from && to ? buildArcPath(from, to, LIFT_BY_TONE[segment.tone]) : null;
-                    if (!path) {
-                        return null;
-                    }
 
-                    const style = ROUTE_STYLES[segment.status];
-                    const isEmphasised = !hasFocus || matchesFocus(segment.records, focus);
-                    const strokeWidth =
-                        style.width +
-                        Math.min(segment.records.length - 1, 4) * 0.35 +
-                        (hasFocus && isEmphasised ? 0.75 : 0);
-
-                    return (
-                        <g
-                            className="fade-in animate-in transition-opacity duration-300 motion-reduce:animate-none"
-                            key={segment.key}
-                            opacity={isEmphasised ? 1 : DIMMED_ROUTE_OPACITY}
-                        >
-                            <path
-                                d={path}
-                                fill="none"
-                                stroke="var(--map-halo)"
-                                strokeLinecap="round"
-                                strokeOpacity={0.6}
-                                strokeWidth={strokeWidth + 2.5}
-                            />
-                            <path
-                                d={path}
-                                fill="none"
-                                stroke={style.color}
-                                strokeDasharray={style.dashArray}
-                                strokeLinecap="round"
-                                strokeOpacity={style.opacity}
-                                strokeWidth={strokeWidth}
-                            />
-                        </g>
-                    );
-                })}
+            <g opacity={hasFocus ? DIMMED_ROUTE_OPACITY : 1}>
+                <RouteLinesLayer mask={routeMask} paths={paths} />
             </g>
 
             <g aria-hidden className="pointer-events-none">
@@ -283,24 +344,20 @@ export const MapRoutesLayer = memo(function RoutesLayer({
                 })}
             </g>
 
-            {scene.nodes.map((node) => {
-                const point = toScreen(node.place);
-                if (!(point && isInView(point))) {
-                    return null;
-                }
-                const isEmphasised = !hasFocus || matchesFocus(node.records, focus);
-                return (
-                    <g
-                        className="cursor-pointer transition-opacity duration-300"
-                        data-node={node.key}
-                        key={node.key}
-                        opacity={isEmphasised ? 1 : DIMMED_ROUTE_OPACITY + 0.15}
-                    >
-                        <circle cx={point[0]} cy={point[1]} fill="transparent" r={12} />
-                        <NodeMarker node={node} point={point} />
+            <g opacity={hasFocus ? DIMMED_NODE_OPACITY : 1}>
+                <RouteNodesLayer nodes={placedNodes} />
+            </g>
+
+            {hasFocus ? (
+                <g aria-hidden className="pointer-events-none">
+                    <g mask={routeMask}>
+                        <RoutePaths isFocused paths={focusedPaths} />
                     </g>
-                );
-            })}
+                    {focusedNodes.map(({ node, point }) => (
+                        <NodeMarker key={node.key} node={node} point={point} />
+                    ))}
+                </g>
+            ) : null}
 
             <g aria-hidden className="pointer-events-none">
                 {labels.map((label) => (

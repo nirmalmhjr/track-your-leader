@@ -6,6 +6,7 @@ import { useCallback } from "react";
 import { CountryFlag } from "@/components/shared/country-flag";
 import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
+import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import type { TravelSummary } from "@/features/travel-explorer/types/explorer.types";
 import type { Official, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import {
@@ -66,14 +67,7 @@ export function OfficialCard({ official, summary, onSelect }: OfficialCardProps)
     const setHoveredOfficialId = useExplorerUiStore((state) => state.setHoveredOfficialId);
 
     const handleSelect = useCallback(() => onSelect(official), [onSelect, official]);
-    const handleHighlight = useCallback(
-        () => setHoveredOfficialId(official.id),
-        [setHoveredOfficialId, official.id]
-    );
-    const handleClearHighlight = useCallback(
-        () => setHoveredOfficialId(null),
-        [setHoveredOfficialId]
-    );
+    const highlightHandlers = useHoverHighlight(setHoveredOfficialId, official.id);
 
     const position = getPrimaryPosition(official);
     const isFormer = getCurrentPosition(official) === null;
@@ -83,12 +77,9 @@ export function OfficialCard({ official, summary, onSelect }: OfficialCardProps)
     return (
         <button
             className="group flex w-full gap-3 rounded-lg border bg-card p-3 text-left outline-none transition-colors hover:border-foreground/20 hover:bg-accent/40 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50"
-            onBlur={handleClearHighlight}
             onClick={handleSelect}
-            onFocus={handleHighlight}
-            onPointerEnter={handleHighlight}
-            onPointerLeave={handleClearHighlight}
             type="button"
+            {...highlightHandlers}
         >
             <OfficialAvatar official={official} />
             <span className="flex min-w-0 flex-1 flex-col gap-1">

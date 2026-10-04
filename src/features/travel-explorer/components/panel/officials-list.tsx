@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 
 import {
     Select,
@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/select";
 import { OfficialCard } from "@/features/travel-explorer/components/official-card";
 import { ClearFiltersEmpty } from "@/features/travel-explorer/components/panel/clear-filters-empty";
+import { ShowMoreButton } from "@/features/travel-explorer/components/panel/show-more-button";
 import {
     OFFICIAL_GROUPS,
     OFFICIAL_SORTS,
@@ -20,7 +21,11 @@ import {
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { OfficialSort, TravelSummary } from "@/features/travel-explorer/types/explorer.types";
+import type {
+    OfficialGroup,
+    OfficialSort,
+    TravelSummary,
+} from "@/features/travel-explorer/types/explorer.types";
 import type { Official } from "@/features/travel-explorer/types/travel.types";
 import { getOfficialGroup, getOfficialRank } from "@/features/travel-explorer/utils/filters.utils";
 import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
@@ -41,6 +46,28 @@ const SORTERS: Readonly<Record<OfficialSort, (a: OfficialRow, b: OfficialRow) =>
     trips: (a, b) => b.summary.tripCount - a.summary.tripCount,
 };
 
+/** Cards rendered per page; long lists (every official since 1945) grow as they scroll. */
+const PAGE_SIZE = 30;
+
+interface RowGroup {
+    group: OfficialGroup | null;
+    rows: OfficialRow[];
+}
+
+/** The first `limit` rows, keeping their groups. */
+const takeRows = (groups: readonly RowGroup[], limit: number): RowGroup[] => {
+    const taken: RowGroup[] = [];
+    let remaining = limit;
+    for (const entry of groups) {
+        if (remaining <= 0) {
+            break;
+        }
+        taken.push({ group: entry.group, rows: entry.rows.slice(0, remaining) });
+        remaining -= entry.rows.length;
+    }
+    return taken;
+};
+
 /** Officials of a country matching the filters, grouped by seniority or sorted on demand. */
 export function OfficialsList({ countryCode }: { countryCode: CountryCode }) {
     const t = useTranslations("Explorer");
@@ -56,15 +83,41 @@ export function OfficialsList({ countryCode }: { countryCode: CountryCode }) {
         }
     }, []);
 
-    const rows: OfficialRow[] = (officialsByCountry.get(countryCode) ?? [])
-        .filter((official) => matchingOfficialIds.has(official.id))
-        .map((official) => ({
-            official,
-            summary: summarizeTravel(recordsByOfficial.get(official.id) ?? []),
-        }))
-        // When trip filters are active, only officials with matching trips are relevant.
-        .filter((row) => !travelFiltersActive || recordsByOfficial.has(row.official.id))
-        .sort(SORTERS[sort]);
+    const rows = useMemo(
+        () =>
+            (officialsByCountry.get(countryCode) ?? [])
+                .filter((official) => matchingOfficialIds.has(official.id))
+                .map(
+                    (official): OfficialRow => ({
+                        official,
+                        summary: summarizeTravel(recordsByOfficial.get(official.id) ?? []),
+                    })
+                )
+                // When trip filters are active, only officials with matching trips are relevant.
+                .filter((row) => !travelFiltersActive || recordsByOfficial.has(row.official.id))
+                .sort(SORTERS[sort]),
+        [
+            countryCode,
+            matchingOfficialIds,
+            officialsByCountry,
+            recordsByOfficial,
+            sort,
+            travelFiltersActive,
+        ]
+    );
+
+    // Another country or order starts again from the first page.
+    const pageKey = `${countryCode}|${sort}`;
+    const [page, setPage] = useState({ key: pageKey, limit: PAGE_SIZE });
+    const limit = page.key === pageKey ? page.limit : PAGE_SIZE;
+    const showMore = useCallback(
+        () =>
+            setPage((current) => ({
+                key: pageKey,
+                limit: (current.key === pageKey ? current.limit : PAGE_SIZE) + PAGE_SIZE,
+            })),
+        [pageKey]
+    );
 
     if (rows.length === 0) {
         return (
@@ -76,13 +129,14 @@ export function OfficialsList({ countryCode }: { countryCode: CountryCode }) {
     }
 
     const sortItems = OFFICIAL_SORTS.map((value) => ({ label: t(`sort.${value}`), value }));
-    const groups =
+    const groups: RowGroup[] =
         sort === "rank"
             ? OFFICIAL_GROUPS.map((group) => ({
                   group,
                   rows: rows.filter((row) => getOfficialGroup(row.official) === group),
               })).filter((entry) => entry.rows.length > 0)
             : [{ group: null, rows }];
+    const hiddenCount = Math.max(rows.length - limit, 0);
 
     return (
         <div className="flex flex-col gap-4">
@@ -109,7 +163,7 @@ export function OfficialsList({ countryCode }: { countryCode: CountryCode }) {
                 </Select>
             </div>
 
-            {groups.map(({ group, rows: groupRows }) => (
+            {takeRows(groups, limit).map(({ group, rows: groupRows }) => (
                 <section
                     aria-label={group ? t(`roleGroups.${group}`) : undefined}
                     className="flex flex-col gap-2"
@@ -133,6 +187,17 @@ export function OfficialsList({ countryCode }: { countryCode: CountryCode }) {
                     </ul>
                 </section>
             ))}
+
+            {hiddenCount > 0 ? (
+                <ShowMoreButton
+                    label={t("country.showMore", {
+                        count: Math.min(hiddenCount, PAGE_SIZE),
+                        countLabel: format.number(Math.min(hiddenCount, PAGE_SIZE)),
+                    })}
+                    onShowMore={showMore}
+                    shownCount={limit}
+                />
+            ) : null}
         </div>
     );
 }

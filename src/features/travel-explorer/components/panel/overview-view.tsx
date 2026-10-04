@@ -13,6 +13,7 @@ import { OVERVIEW_UPCOMING_LIMIT } from "@/features/travel-explorer/constants/ex
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { TrackedCountry, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
@@ -89,22 +90,15 @@ function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
     const reference = getCountryReference(country.code);
 
     const handleSelect = useCallback(() => openCountry(country.code), [openCountry, country.code]);
-    const handleHighlight = useCallback(
-        () => setHoveredCountry(country.code),
-        [setHoveredCountry, country.code]
-    );
-    const handleClearHighlight = useCallback(() => setHoveredCountry(null), [setHoveredCountry]);
+    const highlightHandlers = useHoverHighlight(setHoveredCountry, country.code);
 
     return (
         <li>
             <button
                 className="grid w-full grid-cols-[auto_minmax(0,1fr)_4.5rem] items-center gap-x-3 rounded-md px-2 py-1.5 text-left outline-none transition-colors hover:bg-accent/50 focus-visible:ring-3 focus-visible:ring-ring/50"
-                onBlur={handleClearHighlight}
                 onClick={handleSelect}
-                onFocus={handleHighlight}
-                onPointerEnter={handleHighlight}
-                onPointerLeave={handleClearHighlight}
                 type="button"
+                {...highlightHandlers}
             >
                 <CountryFlag alpha2={reference?.alpha2} />
                 <span className="flex min-w-0 flex-col">

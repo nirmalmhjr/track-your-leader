@@ -17,6 +17,7 @@ import { TripView } from "@/features/travel-explorer/components/panel/trip-view"
 import { EXPLORER_PANEL_ID } from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import { cancelHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import { usePanelSwipe } from "@/features/travel-explorer/hooks/use-panel-swipe";
 import { cn } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
@@ -63,6 +64,7 @@ export function ExplorerPanel() {
     useEffect(() => {
         if (viewKey) {
             scrollRef.current?.scrollTo({ top: 0 });
+            cancelHoverHighlight();
             clearHover();
         }
     }, [viewKey, clearHover]);
