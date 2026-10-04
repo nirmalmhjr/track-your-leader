@@ -59,6 +59,9 @@ export const COUNTRY_VIEWS = ["officials", "travel", "inbound"] as const;
 
 export const OFFICIAL_SORTS = ["rank", "trips", "recent", "name"] as const;
 
+/** Orders of the overview country index; the first is the default. */
+export const COUNTRY_SORTS = ["name", "trips"] as const;
+
 /** Lower rank sorts first when ordering officials by seniority. */
 export const ROLE_RANK: Readonly<Record<RoleCategory, number>> = {
     deputy_leader: 2,

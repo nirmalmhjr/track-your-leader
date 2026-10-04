@@ -1,4 +1,5 @@
 import type {
+    COUNTRY_SORTS,
     COUNTRY_VIEWS,
     DESTINATION_REGIONS,
     OFFICIAL_GROUPS,
@@ -16,6 +17,7 @@ import type {
 } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
 
+export type CountrySort = (typeof COUNTRY_SORTS)[number];
 export type CountryView = (typeof COUNTRY_VIEWS)[number];
 export type DestinationRegion = (typeof DESTINATION_REGIONS)[number];
 export type OfficialSort = (typeof OFFICIAL_SORTS)[number];

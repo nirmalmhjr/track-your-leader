@@ -1,20 +1,32 @@
 "use client";
 
 import { IconSearch } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
-import { type ChangeEvent, useCallback, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { type ChangeEvent, useCallback, useMemo, useState } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from "@/components/ui/empty";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select";
 import { StatList } from "@/features/travel-explorer/components/stat-list";
 import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-status";
-import { OVERVIEW_UPCOMING_LIMIT } from "@/features/travel-explorer/constants/explorer.constants";
+import {
+    COUNTRY_SORTS,
+    OVERVIEW_UPCOMING_LIMIT,
+} from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
+import type { CountrySort } from "@/features/travel-explorer/types/explorer.types";
 import type { TrackedCountry, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
 import {
@@ -83,7 +95,18 @@ interface CountryRowProps {
     trips: number;
 }
 
+type CountryRowData = Omit<CountryRowProps, "maxTrips">;
+
+/** Comparators for the country index, given a collator for the active locale. */
+const createCountrySorters = (
+    collator: Intl.Collator
+): Readonly<Record<CountrySort, (a: CountryRowData, b: CountryRowData) => number>> => ({
+    name: (a, b) => collator.compare(a.label, b.label),
+    trips: (a, b) => b.trips - a.trips || collator.compare(a.label, b.label),
+});
+
 function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
+    const t = useTranslations("Explorer.overview");
     const format = useExplorerFormat();
     const openCountry = useOpenCountry();
     const setHoveredCountry = useExplorerUiStore((state) => state.setHoveredCountry);
@@ -108,7 +131,10 @@ function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
                     </span>
                 </span>
                 <span className="flex flex-col items-end gap-1">
-                    <span className="text-sm tabular-nums">{format.number(trips)}</span>
+                    <span className="text-sm tabular-nums">
+                        {format.number(trips)}
+                        <span className="sr-only"> {t("tripsColumn")}</span>
+                    </span>
                     <span aria-hidden className="h-1 w-full overflow-hidden rounded-full bg-muted">
                         <span
                             className="block h-full rounded-full bg-map-seq-4"
@@ -124,12 +150,28 @@ function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
 /** Landing state of the panel: global figures, the country index and what's coming up. */
 export function OverviewView() {
     const t = useTranslations("Explorer.overview");
+    const locale = useLocale();
     const format = useExplorerFormat();
     const { countries, matchingOfficialIds, matchingRecords, today } = useExplorerData();
     const [query, setQuery] = useState("");
     const handleQueryChange = useCallback(
         (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value),
         []
+    );
+    const countrySort = useExplorerUiStore((state) => state.countrySort);
+    const setCountrySort = useExplorerUiStore((state) => state.setCountrySort);
+    const handleSortChange = useCallback(
+        (value: string | null) => {
+            const next = COUNTRY_SORTS.find((candidate) => candidate === value);
+            if (next) {
+                setCountrySort(next);
+            }
+        },
+        [setCountrySort]
+    );
+    const countrySorters = useMemo(
+        () => createCountrySorters(new Intl.Collator(locale, { sensitivity: "base" })),
+        [locale]
     );
 
     const summary = summarizeTravel(matchingRecords);
@@ -138,18 +180,21 @@ export function OverviewView() {
     const normalizedQuery = normalizeSearchText(query);
 
     const countryRows = countries
-        .map((country) => ({
-            country,
-            label: format.countryName(country.code),
-            trips: tripsByCountry.get(country.code) ?? 0,
-        }))
+        .map(
+            (country): CountryRowData => ({
+                country,
+                label: format.countryName(country.code),
+                trips: tripsByCountry.get(country.code) ?? 0,
+            })
+        )
         .filter(
             (row) =>
                 !normalizedQuery ||
                 normalizeSearchText(row.label).includes(normalizedQuery) ||
                 normalizeSearchText(row.country.name).includes(normalizedQuery)
         )
-        .sort((a, b) => b.trips - a.trips || a.label.localeCompare(b.label));
+        .sort(countrySorters[countrySort]);
+    const sortItems = COUNTRY_SORTS.map((value) => ({ label: t(`countrySort.${value}`), value }));
 
     const upcoming = matchingRecords
         .filter((record) => isFutureStatus(record.status) && record.endDate >= today)
@@ -173,11 +218,24 @@ export function OverviewView() {
             />
 
             <section aria-labelledby="overview-countries" className="flex flex-col gap-3">
-                <div className="flex items-baseline justify-between gap-2">
+                <div className="flex items-center justify-between gap-2">
                     <h3 className="font-medium text-sm" id="overview-countries">
                         {t("countriesTitle")}
                     </h3>
-                    <span className="text-muted-foreground text-xs">{t("tripsColumn")}</span>
+                    <Select items={sortItems} onValueChange={handleSortChange} value={countrySort}>
+                        <SelectTrigger aria-label={t("countrySort.label")} size="sm">
+                            <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent align="end">
+                            <SelectGroup>
+                                {sortItems.map((item) => (
+                                    <SelectItem key={item.value} value={item.value}>
+                                        {item.label}
+                                    </SelectItem>
+                                ))}
+                            </SelectGroup>
+                        </SelectContent>
+                    </Select>
                 </div>
                 <InputGroup>
                     <InputGroupAddon>
