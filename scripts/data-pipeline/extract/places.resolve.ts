@@ -1,3 +1,8 @@
+import path from "node:path";
+
+import { z } from "zod";
+
+import { placeSchema } from "@/features/travel-explorer/data/generated-data.schema";
 import { TRACKED_COUNTRIES } from "@/features/travel-explorer/data/tracked-countries";
 import type { Place } from "@/features/travel-explorer/types/travel.types";
 import {
@@ -7,59 +12,76 @@ import {
 } from "@/lib/geo/country-reference";
 import type { Coordinates, CountryCode } from "@/types/geo.types";
 
+import { PIPELINE_CONFIG } from "../config";
 import { chunk } from "../lib/collections";
+import { readJsonFile, writeJsonFile } from "../lib/json-file";
 import { normalizeName } from "../lib/text";
 import { entityId, parsePoint, runSparql } from "../sources/wikidata";
 import { fetchWikidataIds } from "../sources/wikipedia";
 import type { CellLink, TableCell } from "./trip-tables.parse";
 
 /**
- * Locates trip destinations. Links in the country and city cells point to Wikipedia articles;
- * their Wikidata items give the country (ISO code) and the city's coordinates. When a row
- * names no city that can be located, the trip is placed at the country's capital.
+ * Locates trip destinations. Wikipedia rows link their places, so their Wikidata items give
+ * the country and the city's coordinates; other sources name cities in plain text, which is
+ * looked up on Wikidata by name within the country. When no city can be located the trip is
+ * placed at the country's capital, marked as country-precision so no city is claimed.
  */
 
 const SPARQL_BATCH_SIZE = 200;
-const COUNTRY_LIST_SEPARATOR = /[,;/]| and /;
+const CITY_BATCH_SIZE = 40;
+const COUNTRY_LIST_SEPARATOR = /[,;/&]| and /;
+const LEADING_THE = /^the /;
 
-/** Common names in Wikipedia tables that differ from the ISO short names. */
+/** Common and historical names that differ from the ISO short names. */
 const COUNTRY_ALIASES: Readonly<Record<string, CountryCode>> = {
+    burma: "MMR",
+    "cabo verde": "CPV",
+    "cape verde": "CPV",
+    ceylon: "LKA",
     "czech republic": "CZE",
+    czechoslovakia: "CZE",
     "democratic republic of the congo": "COD",
+    "east germany": "DEU",
     "east timor": "TLS",
+    "federal republic of germany": "DEU",
+    "german democratic republic": "DEU",
+    "great britain": "GBR",
+    holland: "NLD",
+    "holy see": "VAT",
     "ivory coast": "CIV",
+    "korea republic of": "KOR",
     "north korea": "PRK",
     "people s republic of china": "CHN",
+    persia: "IRN",
+    "republic of china": "TWN",
     "republic of ireland": "IRL",
+    "republic of korea": "KOR",
     "republic of the congo": "COG",
+    rhodesia: "ZWE",
     russia: "RUS",
+    "russian federation": "RUS",
     "south korea": "KOR",
+    "south vietnam": "VNM",
+    "soviet union": "RUS",
+    swaziland: "SWZ",
     "the bahamas": "BHS",
     "the gambia": "GMB",
     "the netherlands": "NLD",
     turkey: "TUR",
+    turkiye: "TUR",
     uk: "GBR",
     "united states of america": "USA",
     us: "USA",
     usa: "USA",
+    ussr: "RUS",
     "vatican city": "VAT",
     vietnam: "VNM",
+    "west germany": "DEU",
+    yugoslavia: "SRB",
+    zaire: "COD",
 };
 
-interface ItemInfo {
-    coordinates: Coordinates | null;
-    countryCode: CountryCode | null;
-}
-
-export interface PlaceResolver {
-    /** Destinations of a row, one per country, excluding the traveller's own country. */
-    destinationsOf: (
-        row: { cities: TableCell | null; country: TableCell | null },
-        home: CountryCode
-    ) => Place[];
-}
-
-const countryCodeByName = (): Map<string, CountryCode> => {
+const NAMES = ((): Map<string, CountryCode> => {
     const names = new Map<string, CountryCode>();
     for (const reference of ALL_COUNTRY_REFERENCES) {
         names.set(normalizeName(reference.name), reference.alpha3);
@@ -68,13 +90,40 @@ const countryCodeByName = (): Map<string, CountryCode> => {
         names.set(name, code);
     }
     return names;
-};
+})();
 
-/** Every country's Wikidata item, ISO code and capital coordinates in one query. */
-const fetchCountries = async (): Promise<{
+/**
+ * Finds the country a name refers to, including historical names (the Soviet Union counts as
+ * Russia, its successor state).
+ *
+ * @param name - Country name as written in a source.
+ * @returns The ISO code, or `null`.
+ */
+export const countryCodeOfName = (name: string): CountryCode | null =>
+    NAMES.get(normalizeName(name).replace(LEADING_THE, "")) ?? null;
+
+/**
+ * Every country named in a list such as "France, Belgium and the Netherlands".
+ *
+ * @param text - Free text.
+ * @returns The ISO codes found, in order.
+ */
+export const countriesInText = (text: string): CountryCode[] =>
+    text.split(COUNTRY_LIST_SEPARATOR).flatMap((part) => countryCodeOfName(part) ?? []);
+
+/** Every country's Wikidata item and capital, loaded once per run. */
+export interface PlaceIndex {
     capitals: Map<CountryCode, Place>;
     codeByItem: Map<string, CountryCode>;
-}> => {
+    itemByCode: Map<CountryCode, string>;
+}
+
+/**
+ * Loads every country's Wikidata item, ISO code and capital coordinates in one query.
+ *
+ * @returns The index.
+ */
+export const loadPlaceIndex = async (): Promise<PlaceIndex> => {
     const rows = await runSparql(`
         SELECT ?country ?iso ?countryLabel ?countryCoord ?capitalLabel ?coord WHERE {
             ?country wdt:P298 ?iso .
@@ -94,6 +143,7 @@ const fetchCountries = async (): Promise<{
     );
     const fallbacks = new Map<CountryCode, Place>();
     const codeByItem = new Map<string, CountryCode>();
+    const itemByCode = new Map<CountryCode, string>();
     for (const row of rows) {
         const item = entityId(row.country);
         const code = row.iso;
@@ -101,6 +151,9 @@ const fetchCountries = async (): Promise<{
             continue;
         }
         codeByItem.set(item, code);
+        if (!itemByCode.has(code)) {
+            itemByCode.set(code, item);
+        }
         const coordinates = parsePoint(row.coord);
         if (coordinates && row.capitalLabel && !capitals.has(code)) {
             capitals.set(code, {
@@ -126,8 +179,113 @@ const fetchCountries = async (): Promise<{
             capitals.set(code, place);
         }
     }
-    return { capitals, codeByItem };
+    return { capitals, codeByItem, itemByCode };
 };
+
+/**
+ * A destination known only by its country: drawn at the capital, labelled as the country.
+ *
+ * @param index - Place index.
+ * @param code - Country code.
+ * @returns The place, or `null` when the country has no known location.
+ */
+export const countryPlace = (index: PlaceIndex, code: CountryCode): Place | null => {
+    const capital = index.capitals.get(code);
+    return capital ? { ...capital, precision: "country" } : null;
+};
+
+// --- Cities named in plain text -------------------------------------------------------------
+
+const cityKey = (code: CountryCode, name: string): string => `${code}:${normalizeName(name)}`;
+const cityCacheFile = path.join(PIPELINE_CONFIG.warehouseDir, "places", "cities.json");
+const cityCacheSchema = z.record(z.string(), placeSchema.nullable());
+
+/** Looks cities up by name on Wikidata, remembering every answer (including "not found"). */
+export interface CityLookup {
+    /** Resolves every pending name; call once after all `request`s. */
+    load: () => Promise<void>;
+    /** A city that `load` located, or `null`. */
+    place: (code: CountryCode, name: string) => Place | null;
+    /** Queues a city name for lookup. */
+    request: (code: CountryCode, name: string) => void;
+    /** Writes the lookup cache to the warehouse. */
+    save: () => Promise<void>;
+}
+
+/**
+ * Creates a city lookup backed by `data/warehouse/places/cities.json`, so each name is
+ * queried once across runs. Names match labels or aliases of items located in the country;
+ * among several, the best-known item (most Wikipedia articles) wins.
+ *
+ * @param index - Place index.
+ * @returns The lookup.
+ */
+export const createCityLookup = async (index: PlaceIndex): Promise<CityLookup> => {
+    const cache: Record<string, Place | null> =
+        (await readJsonFile(cityCacheFile, cityCacheSchema)) ?? {};
+    const pending = new Map<string, { code: CountryCode; name: string }>();
+
+    const load = async (): Promise<void> => {
+        const batches = chunk([...pending.values()], CITY_BATCH_SIZE);
+        pending.clear();
+        const results = await Promise.all(
+            batches.map((batch) =>
+                runSparql(`
+                    SELECT ?name ?country ?coord ?links WHERE {
+                        VALUES (?name ?country) { ${batch
+                            .flatMap(({ code, name }) => {
+                                const item = index.itemByCode.get(code);
+                                return item ? [`(${JSON.stringify(name)}@en wd:${item})`] : [];
+                            })
+                            .join(" ")} }
+                        ?item rdfs:label|skos:altLabel ?name ; wdt:P17 ?country ; wdt:P625 ?coord .
+                        ?item wikibase:sitelinks ?links .
+                    }`).then((rows) => ({ batch, rows }))
+            )
+        );
+        for (const { batch, rows } of results) {
+            for (const { code, name } of batch) {
+                const item = index.itemByCode.get(code);
+                const [best] = rows
+                    .filter((row) => row.name === name && entityId(row.country) === item)
+                    .sort((a, b) => Number(b.links) - Number(a.links));
+                const coordinates = parsePoint(best?.coord);
+                cache[cityKey(code, name)] = coordinates
+                    ? { city: name, coordinates, countryCode: code, region: getCountryRegion(code) }
+                    : null;
+            }
+        }
+    };
+
+    return {
+        load,
+        place: (code, name) => cache[cityKey(code, name)] ?? null,
+        request: (code, name) => {
+            const key = cityKey(code, name);
+            if (name.trim() && !(key in cache) && index.itemByCode.has(code)) {
+                pending.set(key, { code, name: name.trim() });
+            }
+        },
+        save: async () => {
+            await writeJsonFile(cityCacheFile, cache);
+        },
+    };
+};
+
+// --- Wikipedia table rows -------------------------------------------------------------------
+
+interface ItemInfo {
+    coordinates: Coordinates | null;
+    countryCode: CountryCode | null;
+}
+
+export interface PlaceResolver {
+    /** Destinations of a row, one per country, excluding the traveller's own country. */
+    destinationsOf: (
+        row: { cities: TableCell | null; country: TableCell | null },
+        home: CountryCode
+    ) => Place[];
+}
 
 /** Coordinates and country of linked articles (cities, venues). */
 const fetchItems = async (
@@ -164,20 +322,23 @@ const fetchItems = async (
  * Prepares a resolver for all links found on the trip pages.
  *
  * @param links - Every link from country and city cells.
+ * @param index - Place index.
  * @returns A resolver that turns rows into destination places.
  */
-export const buildPlaceResolver = async (links: readonly CellLink[]): Promise<PlaceResolver> => {
-    const { capitals, codeByItem } = await fetchCountries();
+export const buildPlaceResolver = async (
+    links: readonly CellLink[],
+    index: PlaceIndex
+): Promise<PlaceResolver> => {
+    const { codeByItem } = index;
     const itemByTitle = await fetchWikidataIds(links.map((link) => link.title));
     const items = await fetchItems(
         [...itemByTitle.values()].filter((item) => !codeByItem.has(item)),
         codeByItem
     );
-    const names = countryCodeByName();
 
     const countryOfLink = (link: CellLink): CountryCode | null => {
         const item = itemByTitle.get(link.title);
-        return (item && codeByItem.get(item)) || names.get(normalizeName(link.text)) || null;
+        return (item && codeByItem.get(item)) || countryCodeOfName(link.text);
     };
 
     const cityOfLink = (link: CellLink): Place | null => {
@@ -193,9 +354,6 @@ export const buildPlaceResolver = async (links: readonly CellLink[]): Promise<Pl
             region: getCountryRegion(info.countryCode),
         };
     };
-
-    const countriesInText = (text: string): CountryCode[] =>
-        text.split(COUNTRY_LIST_SEPARATOR).flatMap((part) => names.get(normalizeName(part)) ?? []);
 
     return {
         destinationsOf: (row, home) => {
@@ -213,7 +371,8 @@ export const buildPlaceResolver = async (links: readonly CellLink[]): Promise<Pl
                 .filter((code) => code !== home)
                 .flatMap((code) => {
                     const place =
-                        cities.find((city) => city.countryCode === code) ?? capitals.get(code);
+                        cities.find((city) => city.countryCode === code) ??
+                        countryPlace(index, code);
                     return place ? [place] : [];
                 });
         },

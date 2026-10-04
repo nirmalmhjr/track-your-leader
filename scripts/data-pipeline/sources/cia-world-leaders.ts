@@ -55,6 +55,50 @@ export interface CiaCabinet {
  */
 export const ciaPageUrl = (slug: string): string => `${SITE}/foreign-governments/${slug}/`;
 
+const pageHashesSchema = z.object({ staticQueryHashes: z.array(z.string()) });
+const countryListSchema = z.object({
+    data: z.object({ leaders: z.object({ nodes: z.array(z.object({ country: z.string() })) }) }),
+});
+const APOSTROPHES = /['’]/g;
+const NON_ALPHANUMERIC = /[^a-z0-9]+/g;
+const EDGE_HYPHENS = /^-+|-+$/g;
+
+/**
+ * Page slug the CIA site derives from a country name ("Korea, South" → `korea-south`).
+ *
+ * @param name - Country name as the CIA writes it.
+ * @returns The slug.
+ */
+export const ciaSlugOf = (name: string): string =>
+    name
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(APOSTROPHES, "")
+        .replace(NON_ALPHANUMERIC, "-")
+        .replace(EDGE_HYPHENS, "");
+
+/**
+ * Names of every government the CIA lists. The index page loads them through a Gatsby static
+ * query whose file name is a hash, so the hashes are read from the index's page data first.
+ *
+ * @returns Country names as the CIA writes them ("Korea, South").
+ */
+export const fetchCiaCountryNames = async (): Promise<string[]> => {
+    const index = pageHashesSchema.parse(
+        await fetchJson(`${SITE}/page-data/foreign-governments/page-data.json`)
+    );
+    for (const hash of index.staticQueryHashes) {
+        // biome-ignore lint/performance/noAwaitInLoops: the list is in one of a few files; stop at the first.
+        const json = await fetchJson(`${SITE}/page-data/sq/d/${hash}.json`);
+        const parsed = countryListSchema.safeParse(json);
+        if (parsed.success) {
+            return parsed.data.data.leaders.nodes.map((node) => node.country);
+        }
+    }
+    throw new Error("CIA World Leaders: country index not found");
+};
+
 /**
  * Fetches a country's leaders and cabinet.
  *

@@ -1,8 +1,9 @@
 name: Data sync
 
-# Refreshes officials and trips from CIA World Leaders, Wikidata and Wikipedia once a day and
-# commits the result. The hosting platform redeploys on the new commit. Free on every GitHub
-# plan: a run takes a few minutes.
+# Refreshes the app's countries from the fast sources (CIA World Leaders, Wikidata, Wikipedia,
+# Nepal's foreign ministry) once a day, reusing what the bulk sources (COLT, US Office of the
+# Historian, GOV.UK, Canada) reported at the last `pnpm data:collect`, and commits the result.
+# The hosting platform redeploys on the new commit. Free on every GitHub plan.
 
 on:
   schedule:
@@ -58,7 +59,7 @@ jobs:
         env:
           LEFTHOOK: "0"
         run: |
-          paths="src/features/travel-explorer/data/generated scripts/data-pipeline/state"
+          paths="src/features/travel-explorer/data/generated scripts/data-pipeline/state data/warehouse"
           if [ -z "$(git status --porcelain -- $paths)" ]; then
             echo "No data changes."
             exit 0

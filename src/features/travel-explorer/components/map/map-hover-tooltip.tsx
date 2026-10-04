@@ -98,7 +98,7 @@ function NodeTooltipBody({ node }: { node: MapNode }) {
                     alpha2={getCountryReference(node.place.countryCode)?.alpha2}
                     size="sm"
                 />
-                {node.place.city}, {format.countryName(node.place.countryCode)}
+                {format.placeWithCountry(node.place)}
             </p>
             <p className="text-muted-foreground">
                 {t("nodeTrips", {

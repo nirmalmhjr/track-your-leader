@@ -25,6 +25,7 @@
   "scripts": {
     "build": "next build",
     "clean": "rm -rf .next playwright-report test-results",
+    "data:collect": "tsx scripts/data-pipeline/collect.ts",
     "data:sync": "tsx scripts/data-pipeline/run.ts",
     "data:test": "tsx --test \"scripts/data-pipeline/**/*.test.ts\"",
     "dev": "next dev",
@@ -84,7 +85,9 @@
     "@types/topojson-specification": "^1.0.5",
     "babel-plugin-react-compiler": "^1.0.0",
     "cheerio": "^1.2.0",
+    "csv-parse": "^7.0.3",
     "domhandler": "^5.0.3",
+    "exceljs": "^4.4.0",
     "lefthook": "^2.1.16",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",

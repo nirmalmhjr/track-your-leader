@@ -8,7 +8,7 @@ import {
 } from "@/features/travel-explorer/data/travel-dataset";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 
-/** Credits the data sources (required by Wikipedia's licence) or flags the fictional samples. */
+/** Credits the data sources (required by the Wikipedia, GOV.UK and Canadian licences) or flags the fictional samples. */
 export function DataAttribution() {
     const t = useTranslations("Explorer.panel");
     const format = useExplorerFormat();

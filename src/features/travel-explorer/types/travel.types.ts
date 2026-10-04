@@ -52,9 +52,12 @@ export interface SourceRef {
 }
 
 export interface Place {
+    /** City name; for country-precision places, the capital the map marker sits on. */
     city: string;
     coordinates: Coordinates;
     countryCode: CountryCode;
+    /** `country` when only the country is known; absent means the city is known. */
+    precision?: "city" | "country";
     region: WorldRegion;
 }
 

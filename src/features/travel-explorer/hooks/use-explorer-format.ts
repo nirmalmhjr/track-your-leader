@@ -3,7 +3,7 @@
 import { useFormatter, useLocale, useTranslations } from "next-intl";
 import { useMemo } from "react";
 
-import type { IsoDate, TravelRecord } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate, Place, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { countDaysInclusive, parseIsoDate } from "@/features/travel-explorer/utils/date.utils";
 import { COUNTRY_NAMES_NE } from "@/lib/geo/country-names-ne";
 import { getCountryReference } from "@/lib/geo/country-reference";
@@ -146,6 +146,16 @@ export function useExplorerFormat() {
         return dayMonth(trip.startDate);
     };
 
+    /** A place's short name: its city, or the country when only the country is known. */
+    const placeName = (place: Place): string =>
+        place.precision === "country" ? countryName(place.countryCode) : place.city;
+
+    /** "City, Country", or just the country when no city is known. */
+    const placeWithCountry = (place: Place): string =>
+        place.precision === "country"
+            ? countryName(place.countryCode)
+            : `${place.city}, ${countryName(place.countryCode)}`;
+
     const relativeDays = (value: IsoDate, today: IsoDate): string => {
         const offset = countDaysInclusive(today, value) - 1;
         if (offset === 0) {
@@ -164,6 +174,8 @@ export function useExplorerFormat() {
         monthName,
         monthYear,
         number,
+        placeName,
+        placeWithCountry,
         relativeDays,
         tripDates,
         tripStart,

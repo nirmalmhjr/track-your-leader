@@ -1,12 +1,15 @@
 import type {
+    DatePrecision,
     IsoDate,
+    Place,
     Portfolio,
     RoleCategory,
     SourceRef,
+    TravelType,
 } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
 
-/** A tracked country's Wikidata identity and the offices of its leaders. */
+/** A country's Wikidata identity and the offices of its leaders. */
 export interface CountryContext {
     code: CountryCode;
     headOfGovernmentOffice: string | null;
@@ -33,6 +36,8 @@ export interface PositionDraft {
 
 /** An official before ids, photos and summaries are added. */
 export interface OfficialDraft {
+    /** Other spellings of the name (Wikidata aliases), used to match trips to people. */
+    aliases: string[];
     countryCode: CountryCode;
     /** Name as published by the source that introduced the official. */
     name: string;
@@ -41,13 +46,77 @@ export interface OfficialDraft {
     wikidataId: string | null;
 }
 
-/** Problems worth a human look, written to `state/report.json` after each run. */
+/** Every source of trips the pipeline reads. */
+export const TRIP_SOURCES = [
+    "wikipedia",
+    "colt",
+    "historian",
+    "gov-uk",
+    "canada",
+    "nepal-mofa",
+] as const;
+
+export type TripSourceId = (typeof TRIP_SOURCES)[number];
+
+/** Who a source says travelled. Sources name people differently, so every hint is kept. */
+export interface TravellerHint {
+    /** Role the source gives, used when the name is missing or ambiguous. */
+    categories: RoleCategory[];
+    countryCode: CountryCode;
+    /** Family name on its own, when the source provides it (COLT). */
+    familyName: string | null;
+    /** `null` when the source names only the office ("the Prime Minister"). */
+    name: string | null;
+    portfolio: Portfolio | null;
+    /** Office as written by the source. */
+    title: string | null;
+    wikidataId: string | null;
+}
+
+/**
+ * One trip as one source reports it, before it is matched to an official and merged with
+ * other sources' reports of the same trip.
+ */
+export interface TripClaim {
+    datePrecision: DatePrecision;
+    destination: Place;
+    endDate: IsoDate;
+    engagements: string[];
+    eventName: string | null;
+    purpose: string | null;
+    source: TripSourceId;
+    sourceRef: SourceRef;
+    startDate: IsoDate;
+    statusHint: "cancelled" | "planned" | null;
+    traveller: TravellerHint;
+    type: TravelType;
+}
+
+/** A row a source published that could not become a trip, for the report. */
+export interface SkippedRow {
+    reason: string;
+    text: string;
+}
+
+/** What one source produced in a run. */
+export interface SourceReport {
+    claims: number;
+    /** Claims matched to a known official, and claims that introduced a new one. */
+    matched: number;
+    newOfficials: number;
+    skipped: SkippedRow[];
+    skippedCount: number;
+    unmatched: number;
+}
+
+/** Problems worth a human look, written to the warehouse's `report.json` after each run. */
 export interface PipelineReport {
     cabinets: Record<CountryCode, { asOf: IsoDate | null; status: string }>;
+    sources: Partial<Record<TripSourceId, SourceReport>>;
     tripPages: {
         official: string;
         records: number;
-        rowsSkipped: { reason: string; text: string }[];
+        rowsSkipped: SkippedRow[];
         title: string;
     }[];
     unmatchedOfficials: string[];

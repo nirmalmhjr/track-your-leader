@@ -50,8 +50,8 @@ function TripLine({
             <dd className="min-w-0 truncate">
                 <span className="text-foreground">
                     {tone === "past"
-                        ? `${record.origin.city} → ${record.destination.city}`
-                        : record.destination.city}
+                        ? `${record.origin.city} → ${format.placeName(record.destination)}`
+                        : format.placeName(record.destination)}
                 </span>
                 <span className="text-muted-foreground"> · {format.tripStart(record)}</span>
             </dd>

@@ -74,9 +74,9 @@ function TimelineEntry({
 
     const title = isInbound
         ? (official?.fullName ?? record.positionTitle)
-        : `${record.destination.city}, ${format.countryName(record.destination.countryCode)}`;
+        : format.placeWithCountry(record.destination);
     const subtitle = isInbound
-        ? `${record.positionTitle}, ${format.countryName(record.originCountryCode)} → ${record.destination.city}`
+        ? `${record.positionTitle}, ${format.countryName(record.originCountryCode)} → ${format.placeName(record.destination)}`
         : [typeLabel, record.eventName].filter(Boolean).join(" · ");
 
     return (

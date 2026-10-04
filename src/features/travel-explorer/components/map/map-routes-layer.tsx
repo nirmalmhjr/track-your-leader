@@ -8,6 +8,7 @@ import {
     DIMMED_ROUTE_OPACITY,
     ROUTE_STYLES,
 } from "@/features/travel-explorer/constants/map-style.constants";
+import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import type { Place, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import {
     buildArcPath,
@@ -138,6 +139,7 @@ export const MapRoutesLayer = memo(function RoutesLayer({
     height,
 }: MapRoutesLayerProps) {
     const maskId = useId();
+    const format = useExplorerFormat();
     const toScreen = (place: Place): Point | null => {
         const projected = projectCoordinates(place.coordinates);
         return projected ? (transform.apply([projected[0], projected[1]]) as Point) : null;
@@ -163,7 +165,8 @@ export const MapRoutesLayer = memo(function RoutesLayer({
             continue;
         }
         const radius = nodeRadius(node);
-        const labelWidth = node.place.city.length * LABEL_CHAR_WIDTH + 4;
+        const labelText = format.placeName(node.place);
+        const labelWidth = labelText.length * LABEL_CHAR_WIDTH + 4;
         const options: LabelBox[] = [
             {
                 height: LABEL_HEIGHT,
@@ -189,7 +192,7 @@ export const MapRoutesLayer = memo(function RoutesLayer({
         );
         if (box) {
             placedLabels.push(box);
-            labels.push({ key: node.key, text: node.place.city, x: box.x + 2, y: box.y + 11 });
+            labels.push({ key: node.key, text: labelText, x: box.x + 2, y: box.y + 11 });
         }
     }
 

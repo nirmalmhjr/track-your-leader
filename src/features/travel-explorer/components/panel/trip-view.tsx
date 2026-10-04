@@ -33,11 +33,13 @@ function RouteEnd({ place, label }: { place: Place; label: string }) {
             </span>
             <span className="flex min-w-0 items-center gap-2">
                 <CountryFlag alpha2={getCountryReference(place.countryCode)?.alpha2} />
-                <span className="truncate font-medium text-sm">{place.city}</span>
+                <span className="truncate font-medium text-sm">{format.placeName(place)}</span>
             </span>
-            <span className="truncate text-muted-foreground text-xs">
-                {format.countryName(place.countryCode)}
-            </span>
+            {place.precision === "country" ? null : (
+                <span className="truncate text-muted-foreground text-xs">
+                    {format.countryName(place.countryCode)}
+                </span>
+            )}
         </div>
     );
 }

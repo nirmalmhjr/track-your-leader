@@ -75,6 +75,42 @@ export const searchTitles = async (query: string): Promise<string[]> => {
     return searchResponseSchema.parse(json).query.search.map((result) => result.title);
 };
 
+const allPagesResponseSchema = z.object({
+    continue: z.object({ apcontinue: z.string() }).optional(),
+    query: z.object({ allpages: z.array(z.object({ title: z.string() })) }),
+});
+
+/**
+ * Lists every article whose title starts with a prefix, following the API's continuation.
+ *
+ * @param prefix - Title prefix, e.g. "List of international".
+ * @returns The titles, redirects excluded.
+ */
+export const listTitlesWithPrefix = async (prefix: string): Promise<string[]> => {
+    const titles: string[] = [];
+    let from: string | undefined;
+    do {
+        // biome-ignore lint/performance/noAwaitInLoops: each page of results names where the next one starts.
+        const json = await fetchJson(
+            withQuery(API_ENDPOINT, {
+                action: "query",
+                apfilterredir: "nonredirects",
+                aplimit: "max",
+                apnamespace: "0",
+                apprefix: prefix,
+                format: "json",
+                formatversion: "2",
+                list: "allpages",
+                ...(from ? { apcontinue: from } : {}),
+            })
+        );
+        const page = allPagesResponseSchema.parse(json);
+        titles.push(...page.query.allpages.map((entry) => entry.title));
+        from = page.continue?.apcontinue;
+    } while (from);
+    return titles;
+};
+
 /**
  * Fetches an article's rendered HTML (templates such as flags and dates already expanded).
  *

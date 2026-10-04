@@ -1,7 +1,7 @@
 import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
 
-import { COUNTRY_SOURCES } from "../config";
+import { countrySourceFor } from "../config";
 import { log } from "../lib/log";
 import { formatCiaName, isSameName } from "../lib/text";
 import { type CiaCabinet, fetchCiaCabinet } from "../sources/cia-world-leaders";
@@ -90,15 +90,16 @@ const groupMembers = (cabinet: CiaCabinet): CabinetMember[] => {
  *
  * @param code - Country code.
  * @param leaders - Wikidata's current heads of state and government for that country.
+ * @param slug - The country's page on the CIA site, or `null` when it has none.
  * @returns Members (ministers, deputies, senior officials) and the list's status.
  */
 export const extractCabinet = async (
     code: CountryCode,
-    leaders: readonly CurrentLeader[]
+    leaders: readonly CurrentLeader[],
+    slug: string | null
 ): Promise<CabinetResult> => {
-    const source = COUNTRY_SOURCES[code];
-    const slug = source?.ciaSlug;
-    if (!slug) {
+    const source = countrySourceFor(code);
+    if (!(slug && source.useCia)) {
         return { asOf: null, members: [], status: "not-covered", url: null };
     }
 

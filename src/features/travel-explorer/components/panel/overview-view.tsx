@@ -58,7 +58,7 @@ function UpcomingTripRow({ record }: { record: TravelRecord }) {
                             size="sm"
                         />
                         <span className="truncate">
-                            {record.destination.city}
+                            {format.placeName(record.destination)}
                             {record.eventName ? ` · ${record.eventName}` : ""}
                         </span>
                     </span>

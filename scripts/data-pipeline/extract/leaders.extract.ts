@@ -1,9 +1,13 @@
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type {
+    IsoDate,
+    Portfolio,
+    RoleCategory,
+} from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
 
-import { COUNTRY_SOURCES, PIPELINE_CONFIG } from "../config";
-import { groupBy } from "../lib/collections";
-import { addDaysIso } from "../lib/dates";
+import { countrySourceFor } from "../config";
+import { chunk, groupBy } from "../lib/collections";
+import { addDaysIso, isoFromParts, isValidDay } from "../lib/dates";
 import { capitalize } from "../lib/text";
 import { entityId, fetchEntities, HUMAN, runSparql, wikidataUrl } from "../sources/wikidata";
 import type { CountryContext, OfficeTerm, OfficialDraft, PositionDraft } from "../types";
@@ -12,8 +16,42 @@ import { classifyTitle } from "./roles";
 /** `nature of statement: acting` — caretakers are not recorded as office holders. */
 const ACTING = "Q4676846";
 const DATE_LENGTH = 10;
+/** Offices per terms query; larger lists risk the query service's timeout. */
+const OFFICE_BATCH_SIZE = 100;
+
+/**
+ * Wikidata classes of the ministerial offices collected for every country, beyond the heads
+ * of state and government: the people who travel most on a government's behalf.
+ */
+const MINISTER_OFFICE_CLASSES: Readonly<Record<string, OfficeRole>> = {
+    Q42178: { categories: ["deputy_leader"], portfolio: null }, // vice president
+    Q877955: { categories: ["deputy_leader"], portfolio: null }, // deputy prime minister
+    Q2518691: { categories: ["minister"], portfolio: "defence" }, // defence minister
+    Q7330070: { categories: ["minister"], portfolio: "foreign_affairs" }, // foreign minister
+    Q7614320: { categories: ["minister"], portfolio: "finance" }, // finance minister
+};
+
+/** Role of an office known from its class, since office labels are worded too freely to parse. */
+export interface OfficeRole {
+    categories: RoleCategory[];
+    portfolio: Portfolio | null;
+}
 
 const sparqlString = (value: string): string => JSON.stringify(value);
+const ISO_DATE = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+/**
+ * Reads a SPARQL date, rejecting values that aren't ordinary calendar dates (Wikidata also
+ * holds BCE years, five-digit years and placeholder days).
+ */
+const calendarDate = (value: string | undefined): IsoDate | null => {
+    const match = value?.slice(0, DATE_LENGTH).match(ISO_DATE);
+    if (!match) {
+        return null;
+    }
+    const [year, month, day] = [Number(match[1]), Number(match[2]), Number(match[3])];
+    return isValidDay(year, month, day) ? isoFromParts(year, month, day) : null;
+};
 
 /**
  * Looks up each tracked country's Wikidata item and the offices of its head of state and
@@ -43,7 +81,7 @@ export const fetchCountryContexts = async (
         contexts.set(code, {
             code,
             headOfGovernmentOffice: entityId(row.hog),
-            headOfStateOffice: COUNTRY_SOURCES[code]?.includeHeadOfState ? entityId(row.hos) : null,
+            headOfStateOffice: countrySourceFor(code).includeHeadOfState ? entityId(row.hos) : null,
             wikidataId,
         });
     }
@@ -67,6 +105,41 @@ export const fetchOfficesByLabel = async (labels: readonly string[]): Promise<st
             FILTER EXISTS { ?statement ps:P39 ?office }
         }`);
     return rows.flatMap((row) => entityId(row.office) ?? []);
+};
+
+/**
+ * Finds each country's ministerial offices (foreign, finance and defence ministers, deputy
+ * prime ministers, vice presidents) by their Wikidata class and jurisdiction.
+ *
+ * @param contexts - Country contexts.
+ * @returns Office ids per country code, and each office's role.
+ */
+export const fetchMinisterOffices = async (
+    contexts: ReadonlyMap<CountryCode, CountryContext>
+): Promise<{ offices: Map<CountryCode, string[]>; roles: Map<string, OfficeRole> }> => {
+    const codeByItem = new Map(
+        [...contexts.values()].map((context) => [context.wikidataId, context.code])
+    );
+    const rows = await runSparql(`
+        SELECT DISTINCT ?office ?class ?country WHERE {
+            VALUES ?class { ${Object.keys(MINISTER_OFFICE_CLASSES)
+                .map((id) => `wd:${id}`)
+                .join(" ")} }
+            ?office wdt:P279 ?class ; wdt:P1001 ?country .
+        }`);
+
+    const offices = new Map<CountryCode, string[]>();
+    const roles = new Map<string, OfficeRole>();
+    for (const row of rows) {
+        const office = entityId(row.office);
+        const code = codeByItem.get(entityId(row.country) ?? "");
+        const role = MINISTER_OFFICE_CLASSES[entityId(row.class) ?? ""];
+        if (office && code && role) {
+            offices.set(code, [...new Set([...(offices.get(code) ?? []), office])]);
+            roles.set(office, role);
+        }
+    }
+    return { offices, roles };
 };
 
 /**
@@ -109,33 +182,38 @@ export const normalizeTerms = (terms: readonly OfficeTerm[]): OfficeTerm[] => {
 };
 
 /**
- * Fetches every term held in the given offices that was still running in the tracked period.
+ * Fetches every term held in the given offices that was still running in the period.
  *
  * @param officeIds - Office items.
+ * @param sinceYear - Terms that ended before this year are left out.
  * @returns Normalised terms, per office.
  */
-export const fetchOfficeTerms = async (officeIds: readonly string[]): Promise<OfficeTerm[]> => {
-    if (officeIds.length === 0) {
-        return [];
-    }
-    const since = `${PIPELINE_CONFIG.sinceYear}-01-01`;
-    const rows = await runSparql(`
-        SELECT ?office ?person ?start ?end WHERE {
-            VALUES ?office { ${officeIds.map((id) => `wd:${id}`).join(" ")} }
-            ?statement ps:P39 ?office .
-            ?person p:P39 ?statement ; wdt:P31 wd:${HUMAN} .
-            ?statement wikibase:rank ?rank ; pq:P580 ?start .
-            FILTER(?rank != wikibase:DeprecatedRank)
-            OPTIONAL { ?statement pq:P582 ?end }
-            FILTER NOT EXISTS { ?statement pq:P5102 wd:${ACTING} }
-        }`);
+export const fetchOfficeTerms = async (
+    officeIds: readonly string[],
+    sinceYear: number
+): Promise<OfficeTerm[]> => {
+    const since = `${sinceYear}-01-01`;
+    const batches = await Promise.all(
+        chunk([...new Set(officeIds)].sort(), OFFICE_BATCH_SIZE).map((batch) =>
+            runSparql(`
+                SELECT ?office ?person ?start ?end WHERE {
+                    VALUES ?office { ${batch.map((id) => `wd:${id}`).join(" ")} }
+                    ?statement ps:P39 ?office .
+                    ?person p:P39 ?statement ; wdt:P31 wd:${HUMAN} .
+                    ?statement wikibase:rank ?rank ; pq:P580 ?start .
+                    FILTER(?rank != wikibase:DeprecatedRank)
+                    OPTIONAL { ?statement pq:P582 ?end }
+                    FILTER NOT EXISTS { ?statement pq:P5102 wd:${ACTING} }
+                }`)
+        )
+    );
 
-    const terms = rows.flatMap((row): OfficeTerm[] => {
+    const terms = batches.flat().flatMap((row): OfficeTerm[] => {
         const officeId = entityId(row.office);
         const personId = entityId(row.person);
-        const startDate = row.start?.slice(0, DATE_LENGTH);
+        const startDate = calendarDate(row.start);
         return officeId && personId && startDate
-            ? [{ endDate: row.end?.slice(0, DATE_LENGTH) ?? null, officeId, personId, startDate }]
+            ? [{ endDate: calendarDate(row.end), officeId, personId, startDate }]
             : [];
     });
 
@@ -147,11 +225,13 @@ export const fetchOfficeTerms = async (officeIds: readonly string[]): Promise<Of
 const positionFromTerm = (
     term: OfficeTerm,
     title: string,
-    context: CountryContext
+    context: CountryContext,
+    officeRole: OfficeRole | undefined
 ): PositionDraft => {
     const isHeadOfState = term.officeId === context.headOfStateOffice;
     const isHeadOfGovernment = term.officeId === context.headOfGovernmentOffice;
-    const role = classifyTitle(title);
+    const classified = classifyTitle(title);
+    const role = officeRole ? { ...classified, ...officeRole } : classified;
     const categories: PositionDraft["categories"] = [];
     if (isHeadOfState) {
         categories.push("head_of_state");
@@ -172,8 +252,12 @@ const positionFromTerm = (
 
 interface LeaderSources {
     contexts: ReadonlyMap<CountryCode, CountryContext>;
-    /** Extra offices per country (e.g. the US cabinet), already resolved to item ids. */
+    /** Extra offices per country (ministers, the US cabinet), already resolved to item ids. */
     extraOffices: ReadonlyMap<CountryCode, readonly string[]>;
+    /** Roles of offices found by class; other offices are classified from their labels. */
+    officeRoles: ReadonlyMap<string, OfficeRole>;
+    /** Terms that ended before this year are left out. */
+    sinceYear: number;
 }
 
 /**
@@ -185,6 +269,8 @@ interface LeaderSources {
 export const extractLeaders = async ({
     contexts,
     extraOffices,
+    officeRoles,
+    sinceYear,
 }: LeaderSources): Promise<Map<string, OfficialDraft>> => {
     const countryByOffice = new Map<string, CountryContext>();
     for (const context of contexts.values()) {
@@ -200,10 +286,10 @@ export const extractLeaders = async ({
         }
     }
 
-    const terms = await fetchOfficeTerms([...countryByOffice.keys()]);
+    const terms = await fetchOfficeTerms([...countryByOffice.keys()], sinceYear);
     const people = await fetchEntities(
         [...new Set([...countryByOffice.keys(), ...terms.map((term) => term.personId)])],
-        ["labels"]
+        ["labels", "aliases"]
     );
 
     const drafts = new Map<string, OfficialDraft>();
@@ -213,14 +299,17 @@ export const extractLeaders = async ({
         if (!(context && officeLabel)) {
             continue;
         }
-        const draft = drafts.get(term.personId) ?? {
+        const draft: OfficialDraft = drafts.get(term.personId) ?? {
+            aliases: [...(people.get(term.personId)?.aliases ?? [])],
             countryCode: context.code,
             name: people.get(term.personId)?.label ?? term.personId,
             positions: [],
             sources: [{ label: "Wikidata", url: wikidataUrl(term.personId) }],
             wikidataId: term.personId,
         };
-        draft.positions.push(positionFromTerm(term, capitalize(officeLabel), context));
+        draft.positions.push(
+            positionFromTerm(term, capitalize(officeLabel), context, officeRoles.get(term.officeId))
+        );
         drafts.set(term.personId, draft);
     }
     return drafts;

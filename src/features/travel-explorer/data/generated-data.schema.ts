@@ -18,15 +18,20 @@ const WIKIDATA_ID = /^Q\d+$/;
 const isoDate = z.string().regex(ISO_DATE);
 const countryCode = z.string().regex(ISO_ALPHA3);
 
-const sourceRefSchema = z.object({
+export const sourceRefSchema = z.object({
     label: z.string().min(1),
     url: z.url(),
 });
 
-const placeSchema = z.object({
+export const placeSchema = z.object({
     city: z.string().min(1),
     coordinates: z.tuple([z.number().min(-180).max(180), z.number().min(-90).max(90)]).readonly(),
     countryCode,
+    /**
+     * `country` when the source names only the country: the place then sits at the capital
+     * on the map, but is labelled with the country so no city is invented. Absent means `city`.
+     */
+    precision: z.enum(["city", "country"]).optional(),
     region: z.enum(["Africa", "Americas", "Antarctic", "Asia", "Europe", "Oceania"]),
 });
 

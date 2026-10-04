@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { parseTripDates } from "../extract/trip-dates.parse";
+import { isoFromParts } from "../lib/dates";
 
 test("day range within a month uses the section year", () => {
     assert.deepEqual(parseTripDates("15–16 June", 2014), {
@@ -86,4 +87,9 @@ test("dates without any year are rejected", () => {
 
 test("impossible dates are rejected", () => {
     assert.equal(parseTripDates("31 April", 2020), null);
+});
+
+test("years before 1000 keep four digits so dates sort as text", () => {
+    assert.equal(isoFromParts(947, 1, 1), "0947-01-01");
+    assert.ok(isoFromParts(962, 1, 1) < "1980-01-01");
 });

@@ -1,6 +1,8 @@
 import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 
 const pad = (value: number): string => String(value).padStart(2, "0");
+/** Four-digit years keep ISO dates sortable as text, including medieval ones ("0947"). */
+const YEAR_DIGITS = 4;
 
 /**
  * Formats calendar parts as an ISO date.
@@ -11,7 +13,7 @@ const pad = (value: number): string => String(value).padStart(2, "0");
  * @returns `YYYY-MM-DD`.
  */
 export const isoFromParts = (year: number, month: number, day: number): IsoDate =>
-    `${year}-${pad(month)}-${pad(day)}`;
+    `${String(year).padStart(YEAR_DIGITS, "0")}-${pad(month)}-${pad(day)}`;
 
 /**
  * Number of days in a month.

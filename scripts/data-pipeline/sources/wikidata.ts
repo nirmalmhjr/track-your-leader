@@ -285,7 +285,8 @@ export const findPeopleByExactName = async (
     for (const row of rows) {
         const person = entityId(row.person);
         if (row.name && person) {
-            matches.set(row.name, [...(matches.get(row.name) ?? []), person]);
+            // A person can match through several labels (English and "mul"); count them once.
+            matches.set(row.name, [...new Set([...(matches.get(row.name) ?? []), person])]);
         }
     }
     return matches;

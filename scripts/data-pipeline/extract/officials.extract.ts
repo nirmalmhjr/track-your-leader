@@ -4,6 +4,7 @@ import type { SourceRef } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
 
 import { capitalize, cleanText, normalizeName, slugify, stripParenthetical } from "../lib/text";
+import type { WarehouseOfficial } from "../lib/warehouse";
 import {
     claimsOf,
     commonsImageUrl,
@@ -97,6 +98,7 @@ export const assembleDrafts = (
             continue;
         }
         drafts.set(draftKey, {
+            aliases: [],
             countryCode: member.countryCode,
             name: member.name,
             positions,
@@ -186,7 +188,8 @@ const summaryFor = (intro: string | undefined, person: WikidataEntity | undefine
  */
 const assignIds = (
     drafts: readonly OfficialDraft[],
-    previous: readonly GeneratedOfficial[]
+    previous: readonly GeneratedOfficial[],
+    reserved: ReadonlySet<string>
 ): Map<OfficialDraft, string> => {
     const previousByWikidata = new Map(
         previous.flatMap((official) =>
@@ -201,7 +204,7 @@ const assignIds = (
     );
 
     const ids = new Map<OfficialDraft, string>();
-    const used = new Set<string>();
+    const used = new Set<string>(reserved);
     const ordered = [...drafts].sort((a, b) =>
         (a.wikidataId ?? a.name).localeCompare(b.wikidataId ?? b.name)
     );
@@ -209,7 +212,8 @@ const assignIds = (
         const remembered =
             (draft.wikidataId && previousByWikidata.get(draft.wikidataId)) ||
             previousByName.get(rosterKey(draft.countryCode, draft.name));
-        const base = slugify(draft.name);
+        // Names written only in non-Latin scripts have no slug; fall back to the Wikidata id.
+        const base = slugify(draft.name) || (draft.wikidataId ?? "official").toLowerCase();
         const candidates = [
             remembered,
             base,
@@ -245,19 +249,21 @@ const officialRank = (official: GeneratedOfficial): number =>
     Math.min(...official.positions[0].categories.map((category) => ROLE_RANK[category]));
 
 /**
- * Adds names, photos, parties, summaries and ids, producing the records the app reads.
+ * Adds names, photos, parties, summaries and ids, producing the stored records.
  *
  * @param drafts - Assembled drafts.
- * @param previous - Officials from the last run, for stable ids.
- * @returns Officials sorted by country, seniority and name.
+ * @param previous - Officials from earlier runs, for stable ids.
+ * @param reserved - Ids held by officials this run doesn't touch (other countries).
+ * @returns Officials (with the id each draft received) sorted by country, seniority and name.
  */
 export const enrichOfficials = async (
     drafts: OfficialDraft[],
-    previous: readonly GeneratedOfficial[]
-): Promise<GeneratedOfficial[]> => {
+    previous: readonly GeneratedOfficial[],
+    reserved: ReadonlySet<string> = new Set()
+): Promise<{ idOf: Map<OfficialDraft, string>; officials: WarehouseOfficial[] }> => {
     const people = await fetchEntities(
         drafts.flatMap((draft) => draft.wikidataId ?? []),
-        ["labels", "descriptions", "claims", "sitelinks"]
+        ["labels", "aliases", "descriptions", "claims", "sitelinks"]
     );
     await fillStartDates(drafts, people);
 
@@ -266,9 +272,9 @@ export const enrichOfficials = async (
     const intros = await fetchIntros(
         [...people.values()].flatMap((person) => person.enwikiTitle ?? [])
     );
-    const ids = assignIds(drafts, previous);
+    const ids = assignIds(drafts, previous, reserved);
 
-    const officials = drafts.map((draft): GeneratedOfficial => {
+    const officials = drafts.map((draft): WarehouseOfficial => {
         const id = ids.get(draft) ?? slugify(draft.name);
         const person = draft.wikidataId ? people.get(draft.wikidataId) : undefined;
         const photo = person ? snakString(claimsOf(person, PROPERTY.image)[0]?.mainsnak) : null;
@@ -278,9 +284,13 @@ export const enrichOfficials = async (
             sources.push({ label: "Wikipedia", url: wikipediaUrl(person.enwikiTitle) });
         }
 
+        const fullName = stripParenthetical(person?.label ?? draft.name);
         return {
+            aliases: [...new Set([draft.name, ...draft.aliases, ...(person?.aliases ?? [])])]
+                .filter((alias) => alias !== fullName)
+                .sort(),
             countryCode: draft.countryCode,
-            fullName: stripParenthetical(person?.label ?? draft.name),
+            fullName,
             id,
             party: partyId ? (parties.get(partyId)?.label ?? null) : null,
             photoUrl: photo ? commonsImageUrl(photo, PHOTO_WIDTH) : null,
@@ -297,10 +307,12 @@ export const enrichOfficials = async (
         };
     });
 
-    return officials.sort(
+    officials.sort(
         (a, b) =>
             a.countryCode.localeCompare(b.countryCode) ||
             officialRank(a) - officialRank(b) ||
-            a.fullName.localeCompare(b.fullName)
+            a.fullName.localeCompare(b.fullName) ||
+            a.id.localeCompare(b.id)
     );
+    return { idOf: ids, officials };
 };

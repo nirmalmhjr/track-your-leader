@@ -8,9 +8,14 @@ import { log } from "./log";
 
 /** Minimum gap between requests to one host. Public APIs ask clients to stay gentle. */
 const HOST_INTERVAL_MS: Readonly<Record<string, number>> = {
+    "api.github.com": 1000,
+    "assets.publishing.service.gov.uk": 250,
     "en.wikipedia.org": 400,
+    "mofa.gov.np": 1500,
     "query.wikidata.org": 1000,
+    "raw.githubusercontent.com": 250,
     "www.cia.gov": 400,
+    "www.gov.uk": 250,
     "www.wikidata.org": 400,
 };
 const DEFAULT_INTERVAL_MS = 500;
@@ -25,6 +30,8 @@ export interface RequestOptions {
     /** Form fields sent as a POST body (used for long SPARQL queries). */
     form?: Readonly<Record<string, string>>;
     headers?: Readonly<Record<string, string>>;
+    /** How long a cached response stays fresh; defaults to `PIPELINE_CONFIG.cacheTtlHours`. */
+    ttlHours?: number;
 }
 
 let bypassCache = false;
@@ -68,33 +75,27 @@ const waitForSlot = async (host: string): Promise<void> => {
     }
 };
 
-const cachePathFor = (url: string, options: RequestOptions): string => {
+const cachePathFor = (url: string, options: RequestOptions, extension: string): string => {
     const key = createHash("sha1")
         .update(url)
         .update(JSON.stringify(options.form ?? null))
         .digest("hex");
-    return path.join(PIPELINE_CONFIG.cacheDir, new URL(url).host, `${key}.txt`);
+    return path.join(PIPELINE_CONFIG.cacheDir, new URL(url).host, `${key}.${extension}`);
 };
 
-const readCache = async (file: string): Promise<string | null> => {
+const isFresh = async (file: string, ttlHours: number): Promise<boolean> => {
     if (bypassCache) {
-        return null;
+        return false;
     }
     try {
         const info = await stat(file);
-        const ageHours = (Date.now() - info.mtimeMs) / MS_PER_HOUR;
-        return ageHours < PIPELINE_CONFIG.cacheTtlHours ? await readFile(file, "utf8") : null;
+        return (Date.now() - info.mtimeMs) / MS_PER_HOUR < ttlHours;
     } catch {
-        return null;
+        return false;
     }
 };
 
-const writeCache = async (file: string, body: string): Promise<void> => {
-    await mkdir(path.dirname(file), { recursive: true });
-    await writeFile(file, body, "utf8");
-};
-
-const request = async (url: string, options: RequestOptions): Promise<string> => {
+const send = async (url: string, options: RequestOptions): Promise<Response> => {
     await waitForSlot(new URL(url).host);
     const response = await fetch(url, {
         body: options.form ? new URLSearchParams(options.form) : undefined,
@@ -105,31 +106,32 @@ const request = async (url: string, options: RequestOptions): Promise<string> =>
         const retryAfter = Number(response.headers.get("retry-after")) || 0;
         throw new HttpError(url, response.status, retryAfter * MS_PER_SECOND);
     }
-    return response.text();
+    return response;
 };
 
 /**
- * Fetches a URL as text with rate limiting, retries and a local cache.
- *
- * @param url - Address to fetch.
- * @param options - Optional POST form and extra headers.
- * @returns The response body.
- * @throws When every attempt fails, or immediately for non-retryable HTTP errors (e.g. 404).
+ * Downloads a URL into the cache (unless a fresh copy is there) with rate limiting and
+ * retries, and returns the cache file's path.
  */
-export const fetchText = async (url: string, options: RequestOptions = {}): Promise<string> => {
-    const cacheFile = cachePathFor(url, options);
-    const cached = await readCache(cacheFile);
-    if (cached !== null) {
-        return cached;
+const download = async (
+    url: string,
+    options: RequestOptions,
+    extension: string,
+    read: (response: Response) => Promise<string | Uint8Array>
+): Promise<string> => {
+    const cacheFile = cachePathFor(url, options, extension);
+    if (await isFresh(cacheFile, options.ttlHours ?? PIPELINE_CONFIG.cacheTtlHours)) {
+        return cacheFile;
     }
 
     let lastError: unknown;
     for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
         try {
             // biome-ignore lint/performance/noAwaitInLoops: retries must wait for the previous attempt.
-            const body = await request(url, options);
-            await writeCache(cacheFile, body);
-            return body;
+            const body = await read(await send(url, options));
+            await mkdir(path.dirname(cacheFile), { recursive: true });
+            await writeFile(cacheFile, body);
+            return cacheFile;
         } catch (error) {
             lastError = error;
             if (!isRetryable(error) || attempt === MAX_ATTEMPTS) {
@@ -145,6 +147,27 @@ export const fetchText = async (url: string, options: RequestOptions = {}): Prom
     }
     throw lastError instanceof Error ? lastError : new Error(`Request failed: ${url}`);
 };
+
+/**
+ * Fetches a URL as text with rate limiting, retries and a local cache.
+ *
+ * @param url - Address to fetch.
+ * @param options - Optional POST form, extra headers and cache lifetime.
+ * @returns The response body.
+ * @throws When every attempt fails, or immediately for non-retryable HTTP errors (e.g. 404).
+ */
+export const fetchText = async (url: string, options: RequestOptions = {}): Promise<string> =>
+    readFile(await download(url, options, "txt", (response) => response.text()), "utf8");
+
+/**
+ * Downloads a (possibly large or binary) file into the local cache.
+ *
+ * @param url - Address to fetch.
+ * @param options - Extra headers and cache lifetime.
+ * @returns Path of the cached file.
+ */
+export const fetchFile = (url: string, options: RequestOptions = {}): Promise<string> =>
+    download(url, options, "bin", async (response) => new Uint8Array(await response.arrayBuffer()));
 
 /**
  * Fetches and parses JSON. Callers validate the result with a schema.
