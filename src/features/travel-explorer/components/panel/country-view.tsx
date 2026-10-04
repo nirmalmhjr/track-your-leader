@@ -7,7 +7,7 @@ import { useCallback } from "react";
 import { CountryFlag } from "@/components/shared/country-flag";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ClearFiltersEmpty } from "@/features/travel-explorer/components/panel/clear-filters-empty";
-import { OfficialsList } from "@/features/travel-explorer/components/panel/officials-list";
+import { CountryOfficials } from "@/features/travel-explorer/components/panel/country-officials";
 import { StatList } from "@/features/travel-explorer/components/stat-list";
 import { TravelTimeline } from "@/features/travel-explorer/components/travel-timeline";
 import { COUNTRY_VIEWS } from "@/features/travel-explorer/constants/explorer.constants";
@@ -110,7 +110,7 @@ export function CountryView({ countryCode }: { countryCode: CountryCode }) {
                 {tracked ? (
                     <>
                         <TabsContent className="pt-2" value="officials">
-                            <OfficialsList countryCode={countryCode} />
+                            <CountryOfficials countryCode={countryCode} key={countryCode} />
                         </TabsContent>
                         <TabsContent className="pt-2" value="travel">
                             {outbound.length === 0 ? (

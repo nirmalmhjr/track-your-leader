@@ -2,6 +2,8 @@ import type {
     COUNTRY_SORTS,
     COUNTRY_VIEWS,
     DESTINATION_REGIONS,
+    FORMER_LAYOUTS,
+    OFFICE_GROUPS,
     OFFICIAL_GROUPS,
     OFFICIAL_SORTS,
 } from "@/features/travel-explorer/constants/explorer.constants";
@@ -22,6 +24,8 @@ export type CountryView = (typeof COUNTRY_VIEWS)[number];
 export type DestinationRegion = (typeof DESTINATION_REGIONS)[number];
 export type OfficialSort = (typeof OFFICIAL_SORTS)[number];
 export type OfficialGroup = (typeof OFFICIAL_GROUPS)[number];
+export type OfficeGroup = (typeof OFFICE_GROUPS)[number];
+export type FormerLayout = (typeof FORMER_LAYOUTS)[number];
 
 /** Every filter the explorer understands. Mirrors the URL query parameters one-to-one. */
 export interface ExplorerFilters {

@@ -145,13 +145,26 @@
       "inbound": "Visitors · {countLabel}"
     },
     "showMore": "Show {count, plural, one {{countLabel} more official} other {{countLabel} more officials}}",
-    "officialsCount": "{count, plural, one {{countLabel} official} other {{countLabel} officials}}",
     "noOfficialsTitle": "No officials match",
     "noOfficialsDescription": "Try widening the date range or removing some filters.",
     "noTripsTitle": "No trips found",
     "noTripsDescription": "No trips by this country's officials match the current filters.",
     "noVisitsTitle": "No visits found",
-    "noVisitsDescription": "No tracked official visited {country} within the current filters."
+    "noVisitsDescription": "No tracked official visited {country} within the current filters.",
+    "tenureSwitch": {
+      "label": "Show officials",
+      "current": "In office",
+      "former": "Former"
+    },
+    "formerLayout": {
+      "label": "Arrange former officials",
+      "position": "By position",
+      "year": "By year",
+      "person": "By person"
+    },
+    "formerHolders": "{count, plural, one {{countLabel} former} other {{countLabel} former}}",
+    "noLongerHeld": "Offices no longer held",
+    "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}"
   },
   "official": {
     "formerTitle": "Former {title}",

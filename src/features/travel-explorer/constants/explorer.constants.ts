@@ -75,6 +75,12 @@ export const ROLE_RANK: Readonly<Record<RoleCategory, number>> = {
 /** Groups shown in the officials list, in display order. */
 export const OFFICIAL_GROUPS = ["leadership", "ministers", "officials", "former"] as const;
 
+/** Sections of the offices list; `vacant` holds offices nobody tracked currently holds. */
+export const OFFICE_GROUPS = ["leadership", "ministers", "officials", "vacant"] as const;
+
+/** Ways to look back at a country's former officials; the first is the default. */
+export const FORMER_LAYOUTS = ["position", "year", "person"] as const;
+
 /** Statuses that represent trips which have not happened yet. */
 export const FUTURE_STATUSES: readonly TravelStatus[] = ["upcoming", "planned"];
 

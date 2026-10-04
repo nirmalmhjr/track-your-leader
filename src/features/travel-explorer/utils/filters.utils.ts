@@ -6,14 +6,19 @@ import type {
 import type {
     Official,
     Position,
+    RoleCategory,
     TravelRecord,
 } from "@/features/travel-explorer/types/travel.types";
 import { rangesOverlap } from "@/features/travel-explorer/utils/date.utils";
 
 const DIACRITICS_PATTERN = /\p{Diacritic}/gu;
 
-const LEADERSHIP_CATEGORIES = new Set(["head_of_state", "head_of_government", "deputy_leader"]);
-const MINISTER_CATEGORIES = new Set(["minister", "junior_minister"]);
+const LEADERSHIP_CATEGORIES = new Set<RoleCategory>([
+    "head_of_state",
+    "head_of_government",
+    "deputy_leader",
+]);
+const MINISTER_CATEGORIES = new Set<RoleCategory>(["minister", "junior_minister"]);
 
 export const EMPTY_FILTERS: ExplorerFilters = {
     city: "",
@@ -68,6 +73,24 @@ export const getOfficialRank = (official: Official): number =>
     Math.min(...getPrimaryPosition(official).categories.map((category) => ROLE_RANK[category]));
 
 /**
+ * Classifies a position by its most senior kind of office.
+ *
+ * @param categories - Categories of the position.
+ * @returns Leadership, ministers or (senior) officials.
+ */
+export const getCategoryGroup = (
+    categories: readonly RoleCategory[]
+): Exclude<OfficialGroup, "former"> => {
+    if (categories.some((category) => LEADERSHIP_CATEGORIES.has(category))) {
+        return "leadership";
+    }
+    if (categories.some((category) => MINISTER_CATEGORIES.has(category))) {
+        return "ministers";
+    }
+    return "officials";
+};
+
+/**
  * Assigns an official to a display group in the results list.
  *
  * @param official - Official to classify.
@@ -75,17 +98,7 @@ export const getOfficialRank = (official: Official): number =>
  */
 export const getOfficialGroup = (official: Official): OfficialGroup => {
     const current = getCurrentPosition(official);
-
-    if (!current) {
-        return "former";
-    }
-    if (current.categories.some((category) => LEADERSHIP_CATEGORIES.has(category))) {
-        return "leadership";
-    }
-    if (current.categories.some((category) => MINISTER_CATEGORIES.has(category))) {
-        return "ministers";
-    }
-    return "officials";
+    return current ? getCategoryGroup(current.categories) : "former";
 };
 
 /**

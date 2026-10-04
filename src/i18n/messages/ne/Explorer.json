@@ -145,13 +145,26 @@
       "inbound": "आगन्तुक · {countLabel}"
     },
     "showMore": "थप {countLabel} पदाधिकारी देखाउनुहोस्",
-    "officialsCount": "{countLabel} पदाधिकारी",
     "noOfficialsTitle": "कुनै पदाधिकारी मिलेन",
     "noOfficialsDescription": "मिति दायरा फराकिलो बनाउनुहोस् वा केही फिल्टर हटाउनुहोस्।",
     "noTripsTitle": "भ्रमण भेटिएन",
     "noTripsDescription": "हालका फिल्टरसँग मिल्ने यस देशका पदाधिकारीको कुनै भ्रमण छैन।",
     "noVisitsTitle": "भ्रमण भेटिएन",
-    "noVisitsDescription": "हालका फिल्टरभित्र कुनै ट्र्याक गरिएका पदाधिकारीले {country} भ्रमण गरेका छैनन्।"
+    "noVisitsDescription": "हालका फिल्टरभित्र कुनै ट्र्याक गरिएका पदाधिकारीले {country} भ्रमण गरेका छैनन्।",
+    "tenureSwitch": {
+      "label": "पदाधिकारी देखाउनुहोस्",
+      "current": "पदमा",
+      "former": "पूर्व"
+    },
+    "formerLayout": {
+      "label": "पूर्व पदाधिकारी क्रमबद्ध गर्नुहोस्",
+      "position": "पद अनुसार",
+      "year": "वर्ष अनुसार",
+      "person": "व्यक्ति अनुसार"
+    },
+    "formerHolders": "{countLabel} पूर्व",
+    "noLongerHeld": "अब नरहेका पदहरू",
+    "showMoreYears": "थप {countLabel} वर्ष देखाउनुहोस्"
   },
   "official": {
     "formerTitle": "पूर्व {title}",
