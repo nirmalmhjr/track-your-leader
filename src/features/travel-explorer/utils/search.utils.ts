@@ -52,7 +52,14 @@ export const createSearchEntry = <T>(
     };
 };
 
-const rankOf = <T>(entry: SearchEntry<T>, query: string): MatchRank | null => {
+/**
+ * Rates how well an entry matches, for callers that order matches themselves.
+ *
+ * @param entry - Prepared entry.
+ * @param query - Query already passed through `normalizeSearchText`.
+ * @returns The match rank (lower is better), or `null` when the entry does not match.
+ */
+export const rankSearchEntry = <T>(entry: SearchEntry<T>, query: string): MatchRank | null => {
     // "modi" finds Narendra Modi before Modibo Keïta.
     if (entry.name === query || entry.words.includes(query)) {
         return MATCH_RANK.wholeWord;
@@ -87,7 +94,7 @@ export const searchEntries = <T>(
     }
     const matches: { entry: SearchEntry<T>; rank: MatchRank }[] = [];
     for (const entry of entries) {
-        const rank = rankOf(entry, normalized);
+        const rank = rankSearchEntry(entry, normalized);
         if (rank !== null) {
             matches.push({ entry, rank });
         }

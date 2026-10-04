@@ -29,12 +29,14 @@ import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-countr
 import type { CountrySort } from "@/features/travel-explorer/types/explorer.types";
 import type { TrackedCountry, TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
+import { createSearchEntry, rankSearchEntry } from "@/features/travel-explorer/utils/search.utils";
 import {
     countTrips,
     isFutureStatus,
     summarizeTravel,
 } from "@/features/travel-explorer/utils/travel-aggregates.utils";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
 function UpcomingTripRow({ record }: { record: TravelRecord }) {
@@ -174,26 +176,41 @@ export function OverviewView() {
         [locale]
     );
 
+    const countryEntries = useMemo(
+        () =>
+            countries.map((country) => {
+                const label = format.countryName(country.code);
+                return createSearchEntry({ country, label }, label, [
+                    country.name,
+                    ...getCountrySearchTerms(country.code),
+                ]);
+            }),
+        [countries, format]
+    );
+
     const summary = summarizeTravel(matchingRecords);
     const tripsByCountry = countTrips(matchingRecords, (record) => record.originCountryCode);
     const maxTrips = Math.max(1, ...tripsByCountry.values());
     const normalizedQuery = normalizeSearchText(query);
 
-    const countryRows = countries
-        .map(
-            (country): CountryRowData => ({
+    // Codes and abbreviations ("NPL", "UK", "UAE") find a country as well as its name; with a
+    // query, the best matches come first and the chosen order breaks ties.
+    const countryRows = countryEntries
+        .flatMap((entry) => {
+            const rank = normalizedQuery ? rankSearchEntry(entry, normalizedQuery) : 0;
+            if (rank === null) {
+                return [];
+            }
+            const { country, label } = entry.item;
+            const row: CountryRowData = {
                 country,
-                label: format.countryName(country.code),
+                label,
                 trips: tripsByCountry.get(country.code) ?? 0,
-            })
-        )
-        .filter(
-            (row) =>
-                !normalizedQuery ||
-                normalizeSearchText(row.label).includes(normalizedQuery) ||
-                normalizeSearchText(row.country.name).includes(normalizedQuery)
-        )
-        .sort(countrySorters[countrySort]);
+            };
+            return [{ rank, row }];
+        })
+        .sort((a, b) => a.rank - b.rank || countrySorters[countrySort](a.row, b.row))
+        .map(({ row }) => row);
     const sortItems = COUNTRY_SORTS.map((value) => ({ label: t(`countrySort.${value}`), value }));
 
     const upcoming = matchingRecords

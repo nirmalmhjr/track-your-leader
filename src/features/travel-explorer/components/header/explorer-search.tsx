@@ -14,6 +14,7 @@ import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import { createSearchEntry, searchEntries } from "@/features/travel-explorer/utils/search.utils";
 import { ALL_COUNTRY_REFERENCES } from "@/lib/geo/country-reference";
+import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
 import type { CountryCode } from "@/types/geo.types";
 
 interface CountryItem {
@@ -103,7 +104,7 @@ export function ExplorerSearch() {
                         id: `country-${reference.alpha3}`,
                         label,
                     };
-                    return createSearchEntry(item, label, [reference.name, reference.alpha3], {
+                    return createSearchEntry(item, label, getCountrySearchTerms(reference.alpha3), {
                         isCurrent: isTracked,
                     });
                 })

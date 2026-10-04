@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
+import { ALL_COUNTRY_REFERENCES } from "../../../lib/geo/country-reference";
+import { getCountrySearchTerms } from "../../../lib/geo/country-search-terms";
 import { createSearchEntry, searchEntries } from "./search.utils";
 
 const entries = [
@@ -43,4 +45,22 @@ test("accents are ignored and results are capped", () => {
     assert.deepEqual(searchEntries(entries, "goncalo", 10), ["mendes"]);
     assert.equal(searchEntries(entries, "e", 2).length, 2);
     assert.deepEqual(searchEntries(entries, "   ", 10), []);
+});
+
+const countryEntries = ALL_COUNTRY_REFERENCES.map((reference) =>
+    createSearchEntry(reference.alpha3, reference.name, getCountrySearchTerms(reference.alpha3))
+);
+
+test("every country comes first when searched by its ISO alpha-3 or alpha-2 code", () => {
+    for (const { alpha2, alpha3 } of ALL_COUNTRY_REFERENCES) {
+        assert.equal(searchEntries(countryEntries, alpha3, 1)[0], alpha3, alpha3);
+        assert.equal(searchEntries(countryEntries, alpha2, 1)[0], alpha3, alpha2);
+    }
+});
+
+test("everyday abbreviations find the country they stand for", () => {
+    assert.deepEqual(searchEntries(countryEntries, "uk", 2), ["GBR", "UKR"]);
+    assert.equal(searchEntries(countryEntries, "usa", 1)[0], "USA");
+    assert.equal(searchEntries(countryEntries, "uae", 1)[0], "ARE");
+    assert.equal(searchEntries(countryEntries, "burma", 1)[0], "MMR");
 });
