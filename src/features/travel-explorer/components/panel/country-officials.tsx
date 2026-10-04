@@ -27,7 +27,7 @@ import { useCountryOfficials } from "@/features/travel-explorer/hooks/use-countr
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import type { OfficialSort } from "@/features/travel-explorer/types/explorer.types";
-import type { OfficeTenure } from "@/features/travel-explorer/types/travel.types";
+import type { OfficeTenure, Official } from "@/features/travel-explorer/types/travel.types";
 import { getCurrentPosition } from "@/features/travel-explorer/utils/filters.utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 import type { CountryCode } from "@/types/geo.types";
@@ -59,6 +59,48 @@ function CompactSelect({ items, label, onValueChange, value }: CompactSelectProp
     );
 }
 
+const isInOffice = (official: Official): boolean => getCurrentPosition(official) !== null;
+
+interface InOfficeListProps {
+    countryCode: CountryCode;
+    sort: OfficialSort;
+    /** Everyone in office, whether or not they travelled. */
+    total: number;
+    /** Those in office whose trips match the trip filters. */
+    travelling: readonly Official[];
+}
+
+/**
+ * Officials in office, narrowed to those who travelled within the trip filters (by default the
+ * last 30 days), saying so whenever that hides anyone.
+ */
+function InOfficeList({ countryCode, sort, total, travelling }: InOfficeListProps) {
+    const t = useTranslations("Explorer.country");
+    const format = useExplorerFormat();
+    const labels = {
+        shownLabel: format.number(travelling.length),
+        totalLabel: format.number(total),
+    };
+
+    if (travelling.length === 0) {
+        return (
+            <ClearFiltersEmpty
+                description={t("inOfficeNoTripsDescription", labels)}
+                title={t("inOfficeNoTripsTitle")}
+            />
+        );
+    }
+
+    return (
+        <div className="flex flex-col gap-3">
+            {travelling.length < total ? (
+                <p className="text-muted-foreground text-xs">{t("inOfficeNarrowed", labels)}</p>
+            ) : null}
+            <OfficialsList countryCode={countryCode} officials={travelling} sort={sort} />
+        </div>
+    );
+}
+
 /**
  * The officials tab of a country. The in-office / former switch carries the counts, so it reads
  * as a summary and is also the way into the past, which can be laid out by office, year or person.
@@ -67,7 +109,7 @@ function CompactSelect({ items, label, onValueChange, value }: CompactSelectProp
 export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) {
     const t = useTranslations("Explorer");
     const format = useExplorerFormat();
-    const officials = useCountryOfficials(countryCode);
+    const { roster, travelling } = useCountryOfficials(countryCode);
     const { officialsByCountry } = useExplorerData();
     const formerLayout = useExplorerUiStore((state) => state.formerLayout);
     const setFormerLayout = useExplorerUiStore((state) => state.setFormerLayout);
@@ -97,7 +139,7 @@ export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) 
         [setFormerLayout]
     );
 
-    if (officials.length === 0) {
+    if (roster.length === 0) {
         return (
             <ClearFiltersEmpty
                 description={t("country.noOfficialsDescription")}
@@ -106,8 +148,10 @@ export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) 
         );
     }
 
-    const current = officials.filter((official) => getCurrentPosition(official) !== null);
-    const former = officials.filter((official) => getCurrentPosition(official) === null);
+    // The switch counts the roster: holding office does not depend on when anyone travelled.
+    const current = roster.filter(isInOffice);
+    const former = roster.filter((official) => !isInOffice(official));
+    const travellingCurrent = travelling.filter(isInOffice);
     const counts: Record<OfficeTenure, number> = {
         current: current.length,
         former: former.length,
@@ -124,17 +168,24 @@ export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) 
 
     let list: ReactNode;
     if (tenure === "current") {
-        list = <OfficialsList countryCode={countryCode} officials={current} sort={sort} />;
+        list = (
+            <InOfficeList
+                countryCode={countryCode}
+                sort={sort}
+                total={current.length}
+                travelling={travellingCurrent}
+            />
+        );
     } else if (formerLayout === "position") {
         // Offices also list earlier stints of people who hold another office today.
         list = (
             <FormerByPosition
                 allOfficials={officialsByCountry.get(countryCode) ?? []}
-                officials={officials}
+                officials={roster}
             />
         );
     } else if (formerLayout === "year") {
-        list = <FormerByYear officials={officials} />;
+        list = <FormerByYear officials={roster} />;
     } else {
         list = <OfficialsList countryCode={countryCode} officials={former} sort="recent" />;
     }

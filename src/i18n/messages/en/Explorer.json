@@ -164,7 +164,10 @@
     },
     "formerHolders": "{count, plural, one {{countLabel} former} other {{countLabel} former}}",
     "noLongerHeld": "Offices no longer held",
-    "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}"
+    "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}",
+    "inOfficeNarrowed": "{shownLabel} of {totalLabel} in office travelled within the current filters.",
+    "inOfficeNoTripsTitle": "No trips by officials in office",
+    "inOfficeNoTripsDescription": "None of the {totalLabel} officials in office travelled within the current filters. Widen the dates or see former officials."
   },
   "official": {
     "formerTitle": "Former {title}",
