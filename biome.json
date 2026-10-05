@@ -8,6 +8,7 @@
   "files": {
     "ignoreUnknown": false,
     "includes": [
+      "!public/data",
       "!public/geo",
       "!src/features/travel-explorer/data/generated",
       "!scripts/data-pipeline/state"
@@ -22,7 +23,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "style": {
         "useBlockStatements": "off"
       }
