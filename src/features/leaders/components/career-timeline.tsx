@@ -2,12 +2,14 @@ import { getTranslations } from "next-intl/server";
 
 import { badgeVariants } from "@/components/ui/badge";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
+import { isCurrentPosition } from "@/lib/travel/officials.utils";
 import type { TravelFormat } from "@/lib/travel/travel-format";
 import { getTravelFormat } from "@/lib/travel/travel-format.server";
 import { cn } from "@/lib/utils";
 import type { Position } from "@/types/travel.types";
 
 interface TenureLabels {
+    fromEndUnknown: (date: string) => string;
     present: string;
     unknown: string;
     until: (date: string) => string;
@@ -16,6 +18,9 @@ interface TenureLabels {
 /** "March 2015 – October 2023", "Until …" or "Present"-ended, whatever the source gives. */
 const formatTenure = (position: Position, format: TravelFormat, labels: TenureLabels): string => {
     const { startDate, endDate } = position;
+    if (position.undated) {
+        return startDate ? labels.fromEndUnknown(format.monthYear(startDate)) : labels.unknown;
+    }
     if (startDate) {
         const end = endDate ? format.monthYear(endDate) : labels.present;
         return `${format.monthYear(startDate)} – ${end}`;
@@ -34,7 +39,7 @@ interface CareerEntryProps {
 }
 
 function CareerEntry({ position, tenure, currentLabel, portfolioLabel }: CareerEntryProps) {
-    const isCurrent = position.endDate === null;
+    const isCurrent = isCurrentPosition(position);
 
     return (
         <li className="relative flex flex-col gap-1 pb-6 last:pb-0">
@@ -77,6 +82,7 @@ export async function CareerTimeline({ positions }: { positions: readonly Positi
         getTravelFormat(),
     ]);
     const labels: TenureLabels = {
+        fromEndUnknown: (date) => tOfficial("fromEndUnknown", { date }),
         present: t("present"),
         unknown: t("dateUnknown"),
         until: (date) => tOfficial("until", { date }),

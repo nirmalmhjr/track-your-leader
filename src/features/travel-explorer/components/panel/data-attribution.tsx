@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 
-/** Credits the data sources (required by the Wikipedia, GOV.UK and Canadian licences) or flags the fictional samples. */
+/** Credits the data sources (required by the Wikipedia, GOV.UK, Canadian, UK Parliament, WHO and IPEA licences) or flags the fictional samples. */
 export function DataAttribution() {
     const t = useTranslations("Explorer.panel");
     const format = useTravelFormat();

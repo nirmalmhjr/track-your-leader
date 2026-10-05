@@ -40,7 +40,7 @@
     "expand": "प्यानल देखाउनुहोस्",
     "sheetExpand": "प्यानल ठूलो पार्नुहोस्",
     "sheetCollapse": "प्यानल सानो पार्नुहोस्",
-    "attribution": "स्रोत: विकिपिडिया (CC BY-SA), विकिडाटा, CIA World Leaders, COLT (Diplometrics), अमेरिकी Office of the Historian, GOV.UK (OGL v3), क्यानडा सरकार (OGL–Canada), परराष्ट्र मन्त्रालय, नेपाल",
+    "attribution": "स्रोत: विकिपिडिया (CC BY-SA), विकिडाटा, CIA World Leaders, COLT (Diplometrics), अमेरिकी Office of the Historian, GOV.UK (OGL v3), क्यानडा सरकार (OGL–Canada), परराष्ट्र मन्त्रालय, नेपाल, विश्व स्वास्थ्य संगठन, बेलायती संसद (Open Parliament Licence), IPEA (CC BY 3.0 AU)",
     "sampleData": "काल्पनिक नमुना डाटा देखाइँदैछ",
     "updatedOn": "{date} मा अद्यावधिक"
   },
@@ -172,7 +172,8 @@
     "showMoreYears": "थप {countLabel} वर्ष देखाउनुहोस्",
     "inOfficeNarrowed": "पदमा रहेका {totalLabel} मध्ये {shownLabel} जनाले हालको फिल्टरभित्र भ्रमण गरेका छन्।",
     "inOfficeNoTripsTitle": "पदमा रहेका पदाधिकारीको भ्रमण छैन",
-    "inOfficeNoTripsDescription": "पदमा रहेका {totalLabel} पदाधिकारीमध्ये कसैले हालको फिल्टरभित्र भ्रमण गरेका छैनन्। मिति फराकिलो बनाउनुहोस् वा पूर्व पदाधिकारी हेर्नुहोस्।"
+    "inOfficeNoTripsDescription": "पदमा रहेका {totalLabel} पदाधिकारीमध्ये कसैले हालको फिल्टरभित्र भ्रमण गरेका छैनन्। मिति फराकिलो बनाउनुहोस् वा पूर्व पदाधिकारी हेर्नुहोस्।",
+    "latestTripOnRecord": "यो देशको अभिलेखमा रहेको पछिल्लो भ्रमण {date} मा सुरु भएको थियो।"
   },
   "official": {
     "fullProfile": "पूरा परिचय",
@@ -184,6 +185,7 @@
     "positions": "सम्हालेका पदहरू",
     "current": "हाल",
     "since": "{date} देखि",
+    "fromEndUnknown": "{date} देखि, अन्त्य मिति अभिलेखमा छैन",
     "travelHistory": "भ्रमण इतिहास",
     "noTripsTitle": "यस अवधिमा भ्रमण छैन",
     "noTripsDescription": "हालका फिल्टरसँग मिल्ने यी पदाधिकारीको कुनै भ्रमण छैन।",
@@ -288,12 +290,23 @@
     "deputy_leader": "उपप्रमुख",
     "minister": "मन्त्री",
     "junior_minister": "राज्यमन्त्री वा उपमन्त्री",
-    "senior_official": "वरिष्ठ अधिकारी"
+    "senior_official": "वरिष्ठ अधिकारी",
+    "legislator": "सांसद वा विधायक",
+    "regional_leader": "प्रादेशिक नेता",
+    "local_leader": "मेयर वा स्थानीय नेता",
+    "judiciary": "न्यायाधीश",
+    "diplomat": "कूटनीतिज्ञ",
+    "central_banker": "केन्द्रीय बैंकर",
+    "military_leader": "सैन्य नेता",
+    "party_leader": "पार्टी नेता"
   },
   "roleGroups": {
     "leadership": "नेतृत्व",
     "ministers": "मन्त्रीहरू",
     "officials": "वरिष्ठ अधिकारीहरू",
+    "legislators": "सांसद र विधायकहरू",
+    "regional": "प्रादेशिक र स्थानीय नेताहरू",
+    "judiciary": "न्यायपालिका",
     "former": "पूर्व पदाधिकारीहरू"
   },
   "portfolios": {
@@ -303,7 +316,19 @@
     "defence": "रक्षा",
     "home_affairs": "गृह",
     "environment": "वातावरण",
-    "energy": "ऊर्जा"
+    "energy": "ऊर्जा",
+    "health": "स्वास्थ्य",
+    "education": "शिक्षा",
+    "labour": "श्रम",
+    "justice": "न्याय",
+    "agriculture": "कृषि",
+    "transport": "यातायात",
+    "women": "महिला तथा बालबालिका",
+    "youth": "युवा तथा खेलकुद",
+    "culture": "संस्कृति",
+    "tourism": "पर्यटन",
+    "science": "विज्ञान तथा प्रविधि",
+    "social_affairs": "सामाजिक मामिला"
   },
   "tenure": {
     "all": "सबै",

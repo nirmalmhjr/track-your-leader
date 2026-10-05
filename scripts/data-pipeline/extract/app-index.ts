@@ -11,14 +11,21 @@ import type { IsoDate, Place, TrackedCountry } from "@/types/travel.types";
 
 import { PIPELINE_CONFIG } from "../config";
 import { log } from "../lib/log";
-import { readCountries } from "../lib/warehouse";
+import { readCountries, type WarehouseOfficial } from "../lib/warehouse";
 import { checkCountDrop } from "../validate/guard";
 import { readCapitals } from "./places.resolve";
 
 /**
- * Writes `public/data/index.json`, the compact list of every country, official and trip that
- * the app loads first. It is rebuilt from the stored country files, so it always matches them.
+ * Writes `public/data/index.json`, the compact list of countries, officials and trips that the
+ * app loads first. It is rebuilt from the stored country files, so it always matches them.
+ * Officials who neither travelled nor hold office today (most former ministers) are left to the
+ * country files, which the app loads when a country is opened: the index stays small enough
+ * to load at startup.
  */
+
+const isInIndex = (official: WarehouseOfficial, travellers: ReadonlySet<string>): boolean =>
+    travellers.has(official.id) ||
+    official.positions.some((position) => position.endDate === null && !position.undated);
 
 /** Capitals Wikidata doesn't return by ISO code (Kosovo uses the user-assigned code XKX). */
 const CAPITAL_FALLBACKS: Readonly<Record<string, Place>> = {
@@ -71,8 +78,11 @@ export const writeAppIndex = async (today: IsoDate, force: boolean): Promise<voi
     }
     const included = new Set(countries.map((country) => country.code));
     const files = [...stored].filter(([code]) => included.has(code)).map(([, file]) => file);
-    const officials = files.flatMap((file) => file.officials);
     const trips = files.flatMap((file) => file.trips);
+    const travellers = new Set(trips.map((trip) => trip.officialId));
+    const officials = files.flatMap((file) =>
+        file.officials.filter((official) => isInIndex(official, travellers))
+    );
 
     const previous = await readPreviousIndex();
     const problems = [

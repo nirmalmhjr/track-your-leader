@@ -1,40 +1,6 @@
 {
   "officials": [
     {
-      "aliases": [],
-      "countryCode": "PAN",
-      "fullName": "Arístides Royo",
-      "id": "aristides-royo",
-      "party": "Democratic Revolutionary Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristides_Royo_(2022).png?width=160",
-      "positions": [
-        {
-          "categories": [
-            "head_of_state",
-            "head_of_government"
-          ],
-          "endDate": "1982-07-31",
-          "id": "aristides-royo-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1978-10-11",
-          "title": "President of Panama"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q665630"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ar%C3%ADstides_Royo"
-        }
-      ],
-      "summary": "Arístides Royo Sánchez (born August 14, 1940) is a Panamanian politician who was 23rd President of Panama from October 11, 1978 to July 31, 1982, when he was pressured to resign by the military. He served as Minister of Canal Affairs until 2024.",
-      "wikidataId": "Q665630"
-    },
-    {
       "aliases": [
         "Arnulfo Arias Madrid",
         "Dr. Arnulfo Arias Madrid"
@@ -335,6 +301,42 @@
     },
     {
       "aliases": [
+        "Ezequiel Fernandez"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Ezequiel Fernández Jaén",
+      "id": "ezequiel-fernandez-jaen",
+      "party": "Panameñista Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Don_Ezequiel_Fern%C3%A1ndez_Ja%C3%A9n.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": null,
+          "id": "ezequiel-fernandez-jaen-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "President of Panama",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q721723"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ezequiel_Fern%C3%A1ndez_(Panamanian_politician)"
+        }
+      ],
+      "summary": "Ezequiel Fernández Jaén (3 March 1886 – 26 March 1946) was one of Panama's presidential designates from 1936 to 1940 and in that capacity also served as acting President of Panama from 16 December 1939, to 18 December 1939. He belonged to the National Revolutionary Party (PNR), acting as president and \"Supreme Leader\" of the party, until in 1940, Arnulfo Arias Madrid, became President of Panama.",
+      "wikidataId": "Q721723"
+    },
+    {
+      "aliases": [
         "Guillermo David Endara Galimany"
       ],
       "countryCode": "PAN",
@@ -397,8 +399,30 @@
           "categories": [
             "minister"
           ],
-          "endDate": "1994-01-01",
+          "endDate": "2014-06-30",
           "id": "jose-raul-mulino-p2",
+          "ministry": "Ministry of Public Security",
+          "portfolio": "home_affairs",
+          "startDate": "2010-04-15",
+          "title": "Minister of Public Security"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2010-04-15",
+          "id": "jose-raul-mulino-p3",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2009-07-01",
+          "title": "Minister of Government of Panama"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1994-01-01",
+          "id": "jose-raul-mulino-p4",
           "ministry": "Ministry of Foreign Affairs",
           "portfolio": "foreign_affairs",
           "startDate": "1993-01-01",
@@ -498,6 +522,17 @@
           "portfolio": null,
           "startDate": "2019-07-01",
           "title": "President of Panama"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2001-08-31",
+          "id": "laurentino-cortizo-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2000-09-01",
+          "title": "Speaker of the National Assembly of Panama"
         }
       ],
       "sources": [
@@ -512,6 +547,40 @@
       ],
       "summary": "Laurentino \"Nito\" Cortizo Cohen is a Panamanian politician who served as the 38th President of Panama from 2019 to 2024. Previously, he served as President of the National Assembly (2000–2001) and Minister of Agricultural and Livestock Development (2004–2006).",
       "wikidataId": "Q28122455"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Marco Aurelio Robles",
+      "id": "marco-aurelio-robles",
+      "party": "National Liberal Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": null,
+          "id": "marco-aurelio-robles-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "President of Panama",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q880303"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Marco_Aurelio_Robles"
+        }
+      ],
+      "summary": "Marco Aurelio Robles Méndez (8 November 1905, in Aguadulce – 14 April 1990, in Miami) was President of Panama from October 1, 1964 to September 30, 1968. He studied at the University of Panama and at the Sorbonne.",
+      "wikidataId": "Q880303"
     },
     {
       "aliases": [
@@ -634,6 +703,18 @@
           "portfolio": null,
           "startDate": "1955-03-29",
           "title": "President of Panama"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "ricardo-arias-espinosa-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Ambassador of Panama to the United States",
+          "undated": true
         }
       ],
       "sources": [
@@ -722,6 +803,42 @@
     },
     {
       "aliases": [
+        "Ruben Dario Paredes"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Rubén Darío Paredes",
+      "id": "ruben-dario-paredes",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": null,
+          "id": "ruben-dario-paredes-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "President of Panama",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7376468"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rub%C3%A9n_Dar%C3%ADo_Paredes"
+        }
+      ],
+      "summary": "Rubén Darío Paredes del Río (born 11 August 1933) is a Panamanian army officer who was the military ruler of Panama from 1982 to 1983. Colonel Paredes came to power after the displacement of Colonel Florencio Flores, due to the instability of the Panamanian National Guard after the death of Omar Torrijos.",
+      "wikidataId": "Q7376468"
+    },
+    {
+      "aliases": [
         "Gaby Carrizo"
       ],
       "countryCode": "PAN",
@@ -740,6 +857,17 @@
           "portfolio": null,
           "startDate": "2019-07-01",
           "title": "Vice President of Panama"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-02-01",
+          "id": "jose-gabriel-carrizo-p2",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "2019-07-01",
+          "title": "Minister of the Presidency"
         }
       ],
       "sources": [
@@ -788,6 +916,70 @@
     },
     {
       "aliases": [
+        "Alberto Vallarino Clement"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Alberto Vallarino Clément",
+      "id": "alberto-vallarino-clement",
+      "party": "Panameñista Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alberto_Vallarino_Clement.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2011-10-05",
+          "id": "alberto-vallarino-clement-p1",
+          "ministry": "Ministry of Economy and Finance",
+          "portfolio": "finance",
+          "startDate": "2009-07-01",
+          "title": "Minister of Economy and Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4712230"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alberto_Vallarino_Cl%C3%A9ment"
+        }
+      ],
+      "summary": "Alberto Vallarino Clément, (Panama City, April 2, 1951) is a Panamanian engineer, businessman and president of Grupo VerdeAzul, S.A. since 2011.",
+      "wikidataId": "Q4712230"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Alcibíades Vásquez Velásquez",
+      "id": "alcibiades-vasquez-velasquez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-10-31",
+          "id": "alcibiades-vasquez-velasquez-p1",
+          "ministry": "Ministry of Social Development",
+          "portfolio": "social_affairs",
+          "startDate": "2014-07-01",
+          "title": "Minister of Social Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628499"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628499"
+    },
+    {
+      "aliases": [
         "Alejandro Ferrer"
       ],
       "countryCode": "PAN",
@@ -806,6 +998,17 @@
           "portfolio": "foreign_affairs",
           "startDate": "2019-07-01",
           "title": "Minister of Foreign Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2008-07-01",
+          "id": "alejandro-ferrer-lopez-p2",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2004-09-01",
+          "title": "Minister of Commerce and Industries"
         }
       ],
       "sources": [
@@ -824,6 +1027,208 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Alexis Betancourt",
+      "id": "alexis-betancourt",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-10-31",
+          "id": "alexis-betancourt-p1",
+          "ministry": "Ministry of Public Security",
+          "portfolio": "home_affairs",
+          "startDate": "2016-07-28",
+          "title": "Minister of Public Security"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628456"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628456"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Alma Cortés",
+      "id": "alma-cortes",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "alma-cortes-p1",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2009-07-01",
+          "title": "Minister of Labour"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628372"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628372"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Álvaro Alemán",
+      "id": "alvaro-aleman",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-07-01",
+          "id": "alvaro-aleman-p1",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "2014-07-01",
+          "title": "Minister of the Presidency"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628438"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628438"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Arístides Royo",
+      "id": "aristides-royo",
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristides_Royo_(2022).png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "aristides-royo-p1",
+          "ministry": "Ministry of Canal Affairs",
+          "portfolio": null,
+          "startDate": "2019-07-01",
+          "title": "Minister for Canal Affairs"
+        },
+        {
+          "categories": [
+            "head_of_state",
+            "head_of_government"
+          ],
+          "endDate": "1982-07-31",
+          "id": "aristides-royo-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1978-10-11",
+          "title": "President of Panama"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "aristides-royo-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Ambassador of Panama",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q665630"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ar%C3%ADstides_Royo"
+        }
+      ],
+      "summary": "Arístides Royo Sánchez (born August 14, 1940) is a Panamanian politician who was 23rd President of Panama from October 11, 1978 to July 31, 1982, when he was pressured to resign by the military. He served as Minister of Canal Affairs until 2024.",
+      "wikidataId": "Q665630"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Augusto Arosemena Moreno",
+      "id": "augusto-arosemena-moreno",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-12-31",
+          "id": "augusto-arosemena-moreno-p1",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2016-12-31",
+          "title": "Minister of Commerce and Industries"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628418"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628418"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Augusto Valderrama",
+      "id": "augusto-valderrama",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20220512-APHIS-RAE_5733_(52153586683).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "augusto-valderrama-p1",
+          "ministry": "Ministry of Agricultural Development",
+          "portfolio": "agriculture",
+          "startDate": "2019-07-01",
+          "title": "Minister of Agricultural Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628764"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628764"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Beatriz Carles Arango",
       "id": "beatriz-carles-arango",
       "party": null,
@@ -836,7 +1241,7 @@
           "endDate": null,
           "id": "beatriz-carles-arango-p1",
           "ministry": "Ministry of Social Development",
-          "portfolio": null,
+          "portfolio": "social_affairs",
           "startDate": null,
           "title": "Minister of Social Development"
         }
@@ -849,6 +1254,64 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Carla García",
+      "id": "carla-garcia",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-02-21",
+          "id": "carla-garcia-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2020-02-05",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628553"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628553"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Carlos Aguilar",
+      "id": "carlos-aguilar",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-02-11",
+          "id": "carlos-aguilar-p1",
+          "ministry": "Ministry of Culture",
+          "portfolio": "culture",
+          "startDate": "2019-07-01",
+          "title": "Minister of Culture"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628812"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628812"
     },
     {
       "aliases": [],
@@ -882,6 +1345,35 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Carlos Duboy",
+      "id": "carlos-duboy",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2011-09-01",
+          "id": "carlos-duboy-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2009-07-01",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628252"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628252"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Carlos N. Brin",
       "id": "carlos-n-brin",
       "party": null,
@@ -911,6 +1403,64 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Carlos Romero",
+      "id": "carlos-romero",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-02-05",
+          "id": "carlos-romero-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2019-07-01",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628546"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628546"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Carlos Rubio",
+      "id": "carlos-rubio",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "carlos-rubio-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2018-05-02",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628401"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628401"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Dinoska Montalvo",
       "id": "dinoska-montalvo",
       "party": null,
@@ -936,6 +1486,130 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Doris Zapata",
+      "id": "doris-zapata",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "doris-zapata-p1",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2019-07-01",
+          "title": "Minister of Labour"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628727"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628727"
+    },
+    {
+      "aliases": [
+        "Dulcidio De La Guardia"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Dulcidio de la Guardia",
+      "id": "dulcidio-de-la-guardia",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-07-01",
+          "id": "dulcidio-de-la-guardia-p1",
+          "ministry": "Ministry of Economy and Finance",
+          "portfolio": "finance",
+          "startDate": "2014-07-01",
+          "title": "Minister of Economy and Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628406"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628406"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Eduardo Enrique Carles",
+      "id": "eduardo-enrique-carles",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "eduardo-enrique-carles-p1",
+          "ministry": "Ministry of Agricultural Development",
+          "portfolio": "agriculture",
+          "startDate": "2016-06-14",
+          "title": "Minister of Agricultural Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628464"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628464"
+    },
+    {
+      "aliases": [
+        "Emilo Sempris"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Emilio Sempris",
+      "id": "emilio-sempris",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "emilio-sempris-p1",
+          "ministry": "Ministry of the Environment",
+          "portfolio": "environment",
+          "startDate": "2017-04-01",
+          "title": "Minister of the Environment"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q96093253"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emilio_Sempris"
+        }
+      ],
+      "summary": "Emilio Luis Sempris Ceballos (born Panama City) is a Panamanian politician and sustainability advocate. He served as Panama's minister of environment from 2017 to 2019.",
+      "wikidataId": "Q96093253"
     },
     {
       "aliases": [
@@ -971,6 +1645,93 @@
       ],
       "summary": "Erika Mouynes (born 24 November 1977) is a Panamanian diplomat, lawyer, and business executive. Mouynes served as the 62nd Minister of Foreign Affairs of Panama from December 2020 to October 2022.",
       "wikidataId": "Q105724712"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Eyda Varela de Chinchilla",
+      "id": "eyda-varela-de-chinchilla",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-06-27",
+          "id": "eyda-varela-de-chinchilla-p1",
+          "ministry": "Ministry of Economy and Finance",
+          "portfolio": "finance",
+          "startDate": "2018-07-01",
+          "title": "Minister of Economy and Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628407"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628407"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Federico Franco Alfaro",
+      "id": "federico-franco-alfaro",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "federico-franco-alfaro-p1",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2022-06-01",
+          "title": "Minister of Commerce and Industries"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q51885503"
+        }
+      ],
+      "summary": "Paraguayan politician.",
+      "wikidataId": "Q51885503"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Federico José Suárez",
+      "id": "federico-jose-suarez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2012-08-20",
+          "id": "federico-jose-suarez-p1",
+          "ministry": "Ministry of Public Works",
+          "portfolio": null,
+          "startDate": "2009-07-01",
+          "title": "Minister of Public Works"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628311"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628311"
     },
     {
       "aliases": [],
@@ -1016,7 +1777,7 @@
           "endDate": null,
           "id": "fernando-boyd-galindo-p1",
           "ministry": "Ministry of Health",
-          "portfolio": null,
+          "portfolio": "health",
           "startDate": null,
           "title": "Minister of Health"
         }
@@ -1089,6 +1850,35 @@
       "wikidataId": "Q106989170"
     },
     {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Francisco Terrientes",
+      "id": "francisco-terrientes",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-07-16",
+          "id": "francisco-terrientes-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2014-07-01",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628467"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628467"
+    },
+    {
       "aliases": [
         "Frank Alexis Abrego Mendoza"
       ],
@@ -1124,6 +1914,66 @@
       "wikidataId": "Q65108209"
     },
     {
+      "aliases": [
+        "Frank De Lima"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Frank de Lima",
+      "id": "frank-de-lima",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "frank-de-lima-p1",
+          "ministry": "Ministry of Economy and Finance",
+          "portfolio": "finance",
+          "startDate": "2011-10-05",
+          "title": "Minister of Economy and Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628226"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628226"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Franklin Vergara",
+      "id": "franklin-vergara",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2011-10-05",
+          "id": "franklin-vergara-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2009-07-01",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628363"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628363"
+    },
+    {
       "aliases": [],
       "countryCode": "PAN",
       "fullName": "Galileo Solís",
@@ -1151,6 +2001,64 @@
       ],
       "summary": "Minister of foreign affairs for Panama.",
       "wikidataId": "Q108454855"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Giselle González Villarué",
+      "id": "giselle-gonzalez-villarue",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "giselle-gonzalez-villarue-p1",
+          "ministry": "Ministry of Culture",
+          "portfolio": "culture",
+          "startDate": "2022-02-11",
+          "title": "Minister of Culture"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111098386"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q111098386"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Guillermo Ferrufino",
+      "id": "guillermo-ferrufino",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "guillermo-ferrufino-p1",
+          "ministry": "Ministry of Social Development",
+          "portfolio": "social_affairs",
+          "startDate": "2009-07-01",
+          "title": "Minister of Social Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628379"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628379"
     },
     {
       "aliases": [],
@@ -1184,6 +2092,35 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Héctor Alexander",
+      "id": "hector-alexander",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "hector-alexander-p1",
+          "ministry": "Ministry of Economy and Finance",
+          "portfolio": "finance",
+          "startDate": "2019-07-01",
+          "title": "Minister of Economy and Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628776"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628776"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Ignacio Carlos Molino de Diego",
       "id": "ignacio-carlos-molino-de-diego",
       "party": null,
@@ -1209,6 +2146,35 @@
       ],
       "summary": "Minister of foreign affairs for Panama.",
       "wikidataId": "Q108454851"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Inés Samudio",
+      "id": "ines-samudio",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-06-24",
+          "id": "ines-samudio-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2019-07-01",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628742"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628742"
     },
     {
       "aliases": [
@@ -1260,6 +2226,39 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Ivonne Young",
+      "id": "ivonne-young",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2004-08-31",
+          "id": "ivonne-young-p1",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "1999-09-01",
+          "title": "Minister of the Presidency"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q136513272"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ivonne_Young"
+        }
+      ],
+      "summary": "Ivonne Young (1943 – 30 July 2025) was a Panamanian politician. She served as Minister of the Presidency from 1999 to 2004.",
+      "wikidataId": "Q136513272"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Jackeline Munoz",
       "id": "jackeline-munoz",
       "party": null,
@@ -1272,7 +2271,7 @@
           "endDate": null,
           "id": "jackeline-munoz-p1",
           "ministry": "Ministry of Labor and Labor Development",
-          "portfolio": null,
+          "portfolio": "labour",
           "startDate": null,
           "title": "Minister of Labor and Labor Development"
         }
@@ -1289,6 +2288,35 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Jaime Ford",
+      "id": "jaime-ford",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "jaime-ford-p1",
+          "ministry": "Ministry of Public Works",
+          "portfolio": null,
+          "startDate": "2012-08-20",
+          "title": "Minister of Public Works"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628342"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628342"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Jaime Jovane",
       "id": "jaime-jovane",
       "party": null,
@@ -1301,7 +2329,7 @@
           "endDate": null,
           "id": "jaime-jovane-p1",
           "ministry": "Ministry of Housing and Land Management",
-          "portfolio": null,
+          "portfolio": "social_affairs",
           "startDate": null,
           "title": "Minister of Housing and Land Management"
         }
@@ -1335,6 +2363,17 @@
           "portfolio": "foreign_affairs",
           "startDate": "2022-10-10",
           "title": "Minister of Foreign Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-10-10",
+          "id": "janaina-tewaney-p2",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2020-02-06",
+          "title": "Minister of Government of Panama"
         }
       ],
       "sources": [
@@ -1353,8 +2392,37 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Javier Díaz",
+      "id": "javier-diaz",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "javier-diaz-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2011-10-05",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628369"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628369"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Javier Martinez Acha",
-      "id": "javier-martinez-acha",
+      "id": "javier-martinez-acha-pan",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1363,7 +2431,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "javier-martinez-acha-p1",
+          "id": "javier-martinez-acha-pan-p1",
           "ministry": "Ministry of Foreign Affairs",
           "portfolio": "foreign_affairs",
           "startDate": null,
@@ -1378,6 +2446,94 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Javier Martínez-Acha",
+      "id": "javier-martinez-acha",
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Javier_Vasquez%2C_Foreign_Minister_of_Panama_on_17_July_2024_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "javier-martinez-acha-p1",
+          "ministry": "Ministry of Foreign Affairs",
+          "portfolio": "foreign_affairs",
+          "startDate": null,
+          "title": "Minister of Foreign Affairs",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q127602695"
+        }
+      ],
+      "summary": "Panamanian executive and diplomat.",
+      "wikidataId": "Q127602695"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Jimmy Papadimitriu",
+      "id": "jimmy-papadimitriu",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2012-07-19",
+          "id": "jimmy-papadimitriu-p1",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "2009-07-01",
+          "title": "Minister of the Presidency"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628285"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628285"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Jonathan del Rosario",
+      "id": "jonathan-del-rosario",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "jonathan-del-rosario-p1",
+          "ministry": "Ministry of Public Security",
+          "portfolio": "home_affairs",
+          "startDate": "2018-10-31",
+          "title": "Minister of Public Security"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628460"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628460"
     },
     {
       "aliases": [],
@@ -1411,6 +2567,35 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Jorge Arango",
+      "id": "jorge-arango",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-06-15",
+          "id": "jorge-arango-p1",
+          "ministry": "Ministry of Agricultural Development",
+          "portfolio": "agriculture",
+          "startDate": "2014-07-01",
+          "title": "Minister of Agricultural Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628462"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628462"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Jorge Eduardo Ritter",
       "id": "jorge-eduardo-ritter",
       "party": null,
@@ -1436,6 +2621,68 @@
       ],
       "summary": "Minister of foreign affairs for Panama.",
       "wikidataId": "Q108454866"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Jorge González",
+      "id": "jorge-gonzalez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "jorge-gonzalez-p1",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "2018-10-31",
+          "title": "Minister of the Presidency"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628450"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628450"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "José Domingo Arias",
+      "id": "jose-domingo-arias",
+      "party": "Democratic Change",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jose_Domingo_Arias.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2013-02-15",
+          "id": "jose-domingo-arias-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2011-09-01",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15149762"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Domingo_Arias"
+        }
+      ],
+      "summary": "José Domingo Arias Villalaz is a Panamanian economist and politician, and was an unsuccessful candidate in the 2014 presidential elections.",
+      "wikidataId": "Q15149762"
     },
     {
       "aliases": [],
@@ -1616,6 +2863,41 @@
       "wikidataId": "Q108454861"
     },
     {
+      "aliases": [
+        "Juan Pino"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Juan Manuel Pino Forero",
+      "id": "juan-manuel-pino-forero",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USSOUTHCOM_and_NAVSCIATTS_honor_Panam%C3%A1%E2%80%99s_Minister_of_Public_Security_(8227147).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2024-06-30",
+          "id": "juan-manuel-pino-forero-p1",
+          "ministry": "Ministry of Public Security",
+          "portfolio": "home_affairs",
+          "startDate": "2020-02-05",
+          "title": "Minister of Public Security"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q97860853"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Juan_Manuel_Pino_Forero"
+        }
+      ],
+      "summary": "Juan Manuel Pino Forero (born in Santiago de Veraguas, 3 November 1969) was the minister of public security of Panama.",
+      "wikidataId": "Q97860853"
+    },
+    {
       "aliases": [],
       "countryCode": "PAN",
       "fullName": "Julio Molto",
@@ -1676,6 +2958,35 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Lucy Molinar",
+      "id": "lucy-molinar",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "lucy-molinar-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2009-07-01",
+          "title": "Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628249"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628249"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Luis Carlos Manuel Gomez Rudy",
       "id": "luis-carlos-manuel-gomez-rudy",
       "party": null,
@@ -1705,6 +3016,269 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Luis Ernesto Carles",
+      "id": "luis-ernesto-carles",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-10-31",
+          "id": "luis-ernesto-carles-p1",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2014-07-01",
+          "title": "Minister of Labour"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628470"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628470"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Luis Francisco Sucre",
+      "id": "luis-francisco-sucre",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis_Francisco_Sucre%2C_Minister_of_Health_of_Panama_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "luis-francisco-sucre-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2020-06-01",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q95807201"
+        }
+      ],
+      "summary": "Panamanian Doctor and Politician.",
+      "wikidataId": "Q95807201"
+    },
+    {
+      "aliases": [
+        "Marcela Paredes de Vásquez"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Marcela Paredes",
+      "id": "marcela-paredes",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-08-15",
+          "id": "marcela-paredes-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2014-07-01",
+          "title": "Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17478197"
+        }
+      ],
+      "summary": "Panamanian educator.",
+      "wikidataId": "Q17478197"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "María Inés Castillo",
+      "id": "maria-ines-castillo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "maria-ines-castillo-p1",
+          "ministry": "Ministry of Social Development",
+          "portfolio": "social_affairs",
+          "startDate": "2020-06-24",
+          "title": "Minister of Social Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628773"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628773"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "María Luisa Romero",
+      "id": "maria-luisa-romero",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-05-02",
+          "id": "maria-luisa-romero-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2017-01-03",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628394"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628394"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Mario Etchelecu",
+      "id": "mario-etchelecu",
+      "party": "Panameñista Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-08-01",
+          "id": "mario-etchelecu-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2014-07-01",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q51763809"
+        }
+      ],
+      "summary": "Politician.",
+      "wikidataId": "Q51763809"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Mario Sucre Champsaur",
+      "id": "mario-sucre-champsaur",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "mario-sucre-champsaur-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2018-08-01",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628436"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628436"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Markova Concepción",
+      "id": "markova-concepcion",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-06-24",
+          "id": "markova-concepcion-p1",
+          "ministry": "Ministry of Social Development",
+          "portfolio": "social_affairs",
+          "startDate": "2019-07-01",
+          "title": "Minister of Social Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628768"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628768"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Maruja Gorday de Villalobos",
+      "id": "maruja-gorday-de-villalobos",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "maruja-gorday-de-villalobos-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2019-07-01",
+          "title": "Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q64374205"
+        }
+      ],
+      "summary": "Panamanian educator.",
+      "wikidataId": "Q64374205"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Maruja Herrera",
       "id": "maruja-herrera",
       "party": null,
@@ -1717,7 +3291,7 @@
           "endDate": null,
           "id": "maruja-herrera-p1",
           "ministry": "Ministry of Culture",
-          "portfolio": null,
+          "portfolio": "culture",
           "startDate": null,
           "title": "Minister of Culture"
         }
@@ -1730,6 +3304,64 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Melitón Arrocha",
+      "id": "meliton-arrocha",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-12-31",
+          "id": "meliton-arrocha-p1",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2014-07-01",
+          "title": "Minister of Commerce and Industries"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628413"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628413"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Michelle Muschet",
+      "id": "michelle-muschet",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "michelle-muschet-p1",
+          "ministry": "Ministry of Social Development",
+          "portfolio": "social_affairs",
+          "startDate": "2018-10-31",
+          "title": "Minister of Social Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628503"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628503"
     },
     {
       "aliases": [],
@@ -1763,6 +3395,133 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Miguel Mayo",
+      "id": "miguel-mayo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "miguel-mayo-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2016-07-16",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628468"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628468"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Milciades Concepción",
+      "id": "milciades-concepcion",
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "milciades-concepcion-p1",
+          "ministry": "Ministry of the Environment",
+          "portfolio": "environment",
+          "startDate": "2019-07-01",
+          "title": "Minister of the Environment"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2009-06-30",
+          "id": "milciades-concepcion-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2004-09-01",
+          "title": "Member of the National Assembly of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q96066480"
+        }
+      ],
+      "summary": "Agronomist and Panamanian politician.",
+      "wikidataId": "Q96066480"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Miltón Henríquez",
+      "id": "milton-henriquez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2017-01-03",
+          "id": "milton-henriquez-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2014-07-01",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628389"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628389"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Mirei Endara",
+      "id": "mirei-endara",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2017-03-18",
+          "id": "mirei-endara-p1",
+          "ministry": "Ministry of the Environment",
+          "portfolio": "environment",
+          "startDate": "2014-07-01",
+          "title": "Minister of the Environment"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628489"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628489"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Nander A. Pitty Velásquez",
       "id": "nander-a-pitty-velasquez",
       "party": null,
@@ -1788,6 +3547,35 @@
       ],
       "summary": "Minister of foreign affairs for Panama.",
       "wikidataId": "Q108454857"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Néstor González",
+      "id": "nestor-gonzalez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "nestor-gonzalez-p1",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2018-12-31",
+          "title": "Minister of Commerce and Industries"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628420"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628420"
     },
     {
       "aliases": [],
@@ -1833,7 +3621,7 @@
           "endDate": null,
           "id": "niurka-palacios-p1",
           "ministry": "Ministry of Women",
-          "portfolio": null,
+          "portfolio": "women",
           "startDate": null,
           "title": "Minister of Women"
         }
@@ -1908,6 +3696,122 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Rafael Sabonge",
+      "id": "rafael-sabonge",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ministro_en_consejo_gabinete.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "rafael-sabonge-p1",
+          "ministry": "Ministry of Public Works",
+          "portfolio": null,
+          "startDate": "2019-07-01",
+          "title": "Minister of Public Works"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q100351071"
+        }
+      ],
+      "summary": "Panamanian businessperson.",
+      "wikidataId": "Q100351071"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Ramón Arosemena",
+      "id": "ramon-arosemena",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "ramon-arosemena-p1",
+          "ministry": "Ministry of Public Works",
+          "portfolio": null,
+          "startDate": "2014-07-01",
+          "title": "Minister of Public Works"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628453"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628453"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Ramón Martínez de la Guardia",
+      "id": "ramon-martinez-de-la-guardia",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-06-01",
+          "id": "ramon-martinez-de-la-guardia-p1",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2019-07-01",
+          "title": "Minister of Commerce and Industries"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628731"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628731"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Ricardo Pinzón",
+      "id": "ricardo-pinzon",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "ricardo-pinzon-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2018-08-15",
+          "title": "Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628425"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628425"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Roberto Henríquez",
       "id": "roberto-henriquez",
       "party": null,
@@ -1917,8 +3821,30 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2012-08-20",
+          "endDate": "2014-07-01",
           "id": "roberto-henriquez-p1",
+          "ministry": "Ministry of Commerce and Industries",
+          "portfolio": "trade",
+          "startDate": "2009-07-01",
+          "title": "Minister of Commerce and Industries"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "roberto-henriquez-p2",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "2012-07-19",
+          "title": "Minister of the Presidency"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2012-08-20",
+          "id": "roberto-henriquez-p3",
           "ministry": "Ministry of Foreign Affairs",
           "portfolio": "foreign_affairs",
           "startDate": "2011-08-30",
@@ -1949,7 +3875,7 @@
           "endDate": null,
           "id": "roberto-jose-linares-p1",
           "ministry": "Ministry of Agricultural Development",
-          "portfolio": null,
+          "portfolio": "agriculture",
           "startDate": null,
           "title": "Minister of Agricultural Development"
         }
@@ -1962,6 +3888,157 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Roberto R. Roy"
+      ],
+      "countryCode": "PAN",
+      "fullName": "Roberto Roy",
+      "id": "roberto-roy",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-06-30",
+          "id": "roberto-roy-p1",
+          "ministry": "Ministry of Canal Affairs",
+          "portfolio": null,
+          "startDate": "2012-08-19",
+          "title": "Minister for Canal Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q25999658"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roberto_Roy"
+        }
+      ],
+      "summary": "Roberto Roy is a Panamanian civil and mechanical engineer and politician, who served as the Minister of Canal Affairs of Panama from 2012 and as Director General of Panama Metro from January 2015. Roy graduated in mechanical engineering at the Georgia Institute of Technology, gaining a master's degree in industrial administration at the same Institute.",
+      "wikidataId": "Q25999658"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Rodolfo Aguilera",
+      "id": "rodolfo-aguilera",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-07-28",
+          "id": "rodolfo-aguilera-p1",
+          "ministry": "Ministry of Public Security",
+          "portfolio": "home_affairs",
+          "startDate": "2014-07-01",
+          "title": "Minister of Public Security"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628454"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628454"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Rogelio Paredes",
+      "id": "rogelio-paredes",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "rogelio-paredes-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2020-06-24",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628751"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628751"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Roger Tejada",
+      "id": "roger-tejada",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "roger-tejada-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2022-10-10",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114756032"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q114756032"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Rolando Mirones",
+      "id": "rolando-mirones",
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rolando_Mirones.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-02-05",
+          "id": "rolando-mirones-p1",
+          "ministry": "Ministry of Public Security",
+          "portfolio": "home_affairs",
+          "startDate": "2019-07-01",
+          "title": "Minister of Public Security"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q84509125"
+        }
+      ],
+      "summary": "Panamanian politician.",
+      "wikidataId": "Q84509125"
     },
     {
       "aliases": [
@@ -1984,6 +4061,17 @@
           "portfolio": "foreign_affairs",
           "startDate": "2012-08-20",
           "title": "Minister of Foreign Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2012-08-19",
+          "id": "romulo-roux-p2",
+          "ministry": "Ministry of Canal Affairs",
+          "portfolio": null,
+          "startDate": "2009-07-01",
+          "title": "Minister for Canal Affairs"
         }
       ],
       "sources": [
@@ -2002,6 +4090,104 @@
     {
       "aliases": [],
       "countryCode": "PAN",
+      "fullName": "Rosario Turner",
+      "id": "rosario-turner",
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-06-24",
+          "id": "rosario-turner-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2019-07-01",
+          "title": "Minister of Health"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2009-06-30",
+          "id": "rosario-turner-p2",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2007-09-01",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q95388804"
+        }
+      ],
+      "summary": "Panamanian Physician and Politics.",
+      "wikidataId": "Q95388804"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Salvador Sánchez",
+      "id": "salvador-sanchez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-10-31",
+          "id": "salvador-sanchez-p1",
+          "ministry": "Ministry of the Presidency",
+          "portfolio": null,
+          "startDate": "2018-07-01",
+          "title": "Minister of the Presidency"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628442"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628442"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Sheyla Grajales",
+      "id": "sheyla-grajales",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-02-21",
+          "id": "sheyla-grajales-p1",
+          "ministry": "Ministry of Government of Panama",
+          "portfolio": null,
+          "startDate": "2020-02-06",
+          "title": "Minister of Government of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q96182200"
+        }
+      ],
+      "summary": "Panamanian administrator and policy.",
+      "wikidataId": "Q96182200"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
       "fullName": "Ventura Vega Osorio",
       "id": "ventura-vega-osorio",
       "party": null,
@@ -2014,7 +4200,7 @@
           "endDate": null,
           "id": "ventura-vega-osorio-p1",
           "ministry": "Ministry of Education",
-          "portfolio": null,
+          "portfolio": "education",
           "startDate": null,
           "title": "Minister of Education"
         }
@@ -2027,6 +4213,93 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Víctor Manuel Pérez",
+      "id": "victor-manuel-perez",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "victor-manuel-perez-p1",
+          "ministry": "Ministry of Agricultural Development",
+          "portfolio": "agriculture",
+          "startDate": "2010-04-01",
+          "title": "Minister of Agricultural Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628353"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628353"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Yasmina Pimentel",
+      "id": "yasmina-pimentel",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2014-07-01",
+          "id": "yasmina-pimentel-p1",
+          "ministry": "Ministry of Housing and Land Management",
+          "portfolio": "social_affairs",
+          "startDate": "2013-02-15",
+          "title": "Minister of Housing and Land Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628269"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628269"
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Zulphy Santamaría",
+      "id": "zulphy-santamaria",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-07-01",
+          "id": "zulphy-santamaria-p1",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2018-10-31",
+          "title": "Minister of Labour"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110628472"
+        }
+      ],
+      "summary": "Politician in Panama.",
+      "wikidataId": "Q110628472"
     },
     {
       "aliases": [],
@@ -2056,6 +4329,99 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Javier Carrizo",
+      "id": "javier-carrizo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "javier-carrizo-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Manager, National Bank of Panama"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/panama/"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Eloy Alfaro de Alba",
+      "id": "eloy-alfaro-de-alba",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "eloy-alfaro-de-alba-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Permanent Representative to the UN, New York"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/panama/"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Jose Miguel Aleman"
+      ],
+      "countryCode": "PAN",
+      "fullName": "José Miguel Alemán",
+      "id": "jose-miguel-aleman",
+      "party": "Panameñista Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "jose-miguel-aleman-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Ambassador to the US"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/panama/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Miguel_Alem%C3%A1n"
+        }
+      ],
+      "summary": "José Miguel Alemán Healy (born 8 May 1956, in Panama City) is a Panamanian Attorney, Politician and Businessman. He spent a significant part of his childhood living in Washington, DC while his father, Roberto Alemán Zubieta, was serving as a lead negotiator of the Robles-Johnson Three in One Treaty project in 1968.",
+      "wikidataId": "Q6293430"
     }
   ],
   "trips": [
@@ -3377,6 +5743,168 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2025-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "fernando-boyd-galindo--2025-05-01--CHE",
+      "officialId": "fernando-boyd-galindo",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA78)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA78/A78_DIV1REV1-en.pdf"
+        }
+      ],
+      "startDate": "2025-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "fernando-boyd-galindo--2026-05-01--CHE",
+      "officialId": "fernando-boyd-galindo",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA79)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_DIV1-en.pdf"
+        }
+      ],
+      "startDate": "2026-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2011-09-27",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "francisco-alvarez-de-soto--2011-09-27--USA",
+      "officialId": "francisco-alvarez-de-soto",
+      "purpose": "Addressed the general debate of the sixty-sixth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2011-09-27",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2016-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "francisco-terrientes--2016-05-01--CHE",
+      "officialId": "francisco-terrientes",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA69)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA69/A69_DIV1REV1-en.pdf"
+        }
+      ],
+      "startDate": "2016-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2010-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "franklin-vergara--2010-05-01--CHE",
+      "officialId": "franklin-vergara",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA63)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA63/A63_DIV1.pdf"
+        }
+      ],
+      "startDate": "2010-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2011-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "franklin-vergara--2011-05-01--CHE",
+      "officialId": "franklin-vergara",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA64)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA64/A64_DIV1.pdf"
+        }
+      ],
+      "startDate": "2011-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -4451,6 +6979,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2022-09-22",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-gabriel-carrizo--2022-09-22--USA",
+      "officialId": "jose-gabriel-carrizo",
+      "purpose": "Addressed the general debate of the seventy-seventh session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-seventh_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2022-09-22",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Asunción",
         "coordinates": [
           -57.634444444,
@@ -4510,32 +7065,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-09-25",
+      "endDate": "2024-09-30",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "jose-raul-mulino--2024-09-21--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-raul-mulino--2024-09-24--USA",
       "officialId": "jose-raul-mulino",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-ninth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-ninth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-09-21",
+      "startDate": "2024-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -4921,32 +7479,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New York",
+        "city": "New York City",
         "coordinates": [
-          -75,
-          43
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2025-09-28",
+      "endDate": "2025-09-24",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "jose-raul-mulino--2025-09-21--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-raul-mulino--2025-09-24--USA",
       "officialId": "jose-raul-mulino",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the eightieth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-09-21",
+      "startDate": "2025-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -5038,6 +7600,33 @@
       "startDate": "2025-12-19",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2026-09-23",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-raul-mulino--2026-09-23--USA",
+      "officialId": "jose-raul-mulino",
+      "purpose": "Addressed the general debate of the eighty-first session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eighty-first_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2026-09-23",
+      "statusHint": null,
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -5158,32 +7747,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-09-26",
+      "endDate": "2014-09-25",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "juan-carlos-varela--2014-09-24--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "juan-carlos-varela--2014-09-25--USA",
       "officialId": "juan-carlos-varela",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-ninth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-24",
+      "startDate": "2014-09-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -5470,32 +8062,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-10-01",
+      "endDate": "2015-09-30",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "juan-carlos-varela--2015-09-23--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "juan-carlos-varela--2015-09-30--USA",
       "officialId": "juan-carlos-varela",
-      "purpose": "Attended United Nations (UN) General Assembly and UN Sustainable Development Summit",
+      "purpose": "Addressed the general debate of the seventieth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-23",
+      "startDate": "2015-09-30",
       "statusHint": null,
-      "type": "summit"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -5821,33 +8416,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-09-23",
+      "endDate": "2016-09-20",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "juan-carlos-varela--2016-09-18--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "juan-carlos-varela--2016-09-20--USA",
       "officialId": "juan-carlos-varela",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-first session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-first_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-18",
+      "startDate": "2016-09-20",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -6184,30 +8782,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-09-24",
+      "endDate": "2017-09-20",
       "engagements": [],
-      "eventName": "UN General Assembly",
-      "id": "juan-carlos-varela--2017-09-17--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "juan-carlos-varela--2017-09-20--USA",
       "officialId": "juan-carlos-varela",
-      "purpose": "Attended UN General Assembly and Brazil-Colombia-Panama-United States Multilateral Meeting",
+      "purpose": "Addressed the general debate of the seventy-second session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-second_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-17",
+      "startDate": "2017-09-20",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -6690,32 +9291,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-09-30",
+      "endDate": "2018-09-26",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "juan-carlos-varela--2018-09-22--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "juan-carlos-varela--2018-09-26--USA",
       "officialId": "juan-carlos-varela",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-third session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-22",
+      "startDate": "2018-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -7192,32 +9796,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2019-09-25",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "laurentino-cortizo--2019-09-23--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "laurentino-cortizo--2019-09-25--USA",
       "officialId": "laurentino-cortizo",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-fourth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-09-23",
+      "startDate": "2019-09-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -7371,13 +9978,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2021-09-23",
@@ -7385,19 +9991,23 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "laurentino-cortizo--2021-09-20--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "laurentino-cortizo--2021-09-23--USA",
       "officialId": "laurentino-cortizo",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-sixth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-sixth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-09-20",
+      "startDate": "2021-09-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -7612,24 +10222,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2023-09-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "UN General Assembly general debate",
       "id": "laurentino-cortizo--2023-09-19--USA",
       "officialId": "laurentino-cortizo",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-eighth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7637,7 +10250,7 @@
       ],
       "startDate": "2023-09-19",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -9651,20 +12264,19 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2008-09-17",
       "engagements": [
         "Met President George W. Bush"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "UN General Assembly general debate",
       "id": "martin-torrijos--2008-09-15--USA",
       "officialId": "martin-torrijos",
       "purpose": "Working visit.",
@@ -9672,6 +12284,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
         },
         {
           "label": "COLT dataset",
@@ -9976,6 +12592,60 @@
       "startDate": "2009-04-20",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2017-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "miguel-mayo--2017-05-01--CHE",
+      "officialId": "miguel-mayo",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA70)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA70/WHA70_DIV1REV1-en.pdf"
+        }
+      ],
+      "startDate": "2017-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2018-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "miguel-mayo--2018-05-01--CHE",
+      "officialId": "miguel-mayo",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA71)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_DIV1REV1-en.pdf"
+        }
+      ],
+      "startDate": "2018-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -11552,24 +14222,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-09-25",
+      "endDate": "2009-09-24",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "UN General Assembly general debate",
       "id": "ricardo-martinelli--2009-09-24--USA",
       "officialId": "ricardo-martinelli",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-fourth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fourth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11577,7 +14250,7 @@
       ],
       "startDate": "2009-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -12018,32 +14691,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-09-25",
+      "endDate": "2010-09-23",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "ricardo-martinelli--2010-09-17--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "ricardo-martinelli--2010-09-23--USA",
       "officialId": "ricardo-martinelli",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-fifth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-09-17",
+      "startDate": "2010-09-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -12844,32 +15520,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-09-27",
+      "endDate": "2012-09-25",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "ricardo-martinelli--2012-09-21--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "ricardo-martinelli--2012-09-25--USA",
       "officialId": "ricardo-martinelli",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-seventh session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-seventh_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-09-21",
+      "startDate": "2012-09-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -13394,32 +16073,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-09-27",
+      "endDate": "2013-09-25",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "ricardo-martinelli--2013-09-21--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "ricardo-martinelli--2013-09-25--USA",
       "officialId": "ricardo-martinelli",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-eighth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-09-21",
+      "startDate": "2013-09-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

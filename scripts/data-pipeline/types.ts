@@ -32,6 +32,8 @@ export interface PositionDraft {
     portfolio: Portfolio | null;
     startDate: IsoDate | null;
     title: string;
+    /** The source doesn't record when it ended (see `Position.undated`). */
+    undated?: true;
 }
 
 /** An official before ids, photos and summaries are added. */
@@ -55,6 +57,10 @@ export const TRIP_SOURCES = [
     "gov-uk",
     "canada",
     "nepal-mofa",
+    "un-general-debate",
+    "who-assembly",
+    "uk-parliament",
+    "au-ipea",
 ] as const;
 
 export type TripSourceId = (typeof TRIP_SOURCES)[number];

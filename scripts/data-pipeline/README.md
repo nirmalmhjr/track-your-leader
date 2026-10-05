@@ -1,9 +1,19 @@
 # Data pipeline
 
-Builds the explorer's real data — officials and their international trips — from free public
-sources, with no backend or database. Everything is committed as static files: one per country
-in `public/data/countries/`, plus a compact `public/data/index.json` the app loads first. The
-app loads a country's file when that country is opened.
+Builds the explorer's real data from free public sources, with no backend or database:
+everyone politically exposed in every country since 1945 (heads of state and government,
+ministers, legislators, regional and city leaders, judges, diplomats, central bankers, military
+chiefs and party leaders) and their international trips. Everything is committed as static
+files:
+
+- `public/data/countries/<ISO3>.json`: each country's officials with full records (anyone who
+  travelled, and the executive: heads, deputies, ministers) and their trips. The app loads a
+  country's file when that country is opened.
+- `public/data/index.json`: the compact list the app loads first. It holds the travellers and
+  everyone in office today; former officials without trips are only in the country files.
+- `data/warehouse/people/<ISO3>.json.gz`: everyone else (about 300,000 legislators, judges,
+  diplomats…), compressed. `pnpm data:people` unpacks them into `public/data/people/`
+  (git-ignored), and `pnpm build` runs it first.
 
 ```bash
 pnpm data:collect                       # every source, every country, offices since 1945
@@ -12,6 +22,7 @@ pnpm data:collect --countries=NPL,IND   # only some countries (others stay as st
 pnpm data:collect --sources=colt,gov-uk # only some sources (others reuse stored claims)
 pnpm data:sync                          # daily refresh of the featured countries (fast sources only)
 pnpm data:export                        # rebuild public/data/index.json from the country files (offline)
+pnpm data:people                        # unpack the people store into public/data/people/ (offline)
 pnpm data:test                          # parser tests
 ```
 
@@ -29,11 +40,16 @@ concurrency group, so they never write at the same time.
 | What | Source | Licence |
 | --- | --- | --- |
 | Heads of state and government, foreign/finance/defence ministers, deputy PMs and vice presidents, with terms | Wikidata | CC0 |
+| Everyone else who held a public office since 1945: every ministry, legislators, governors, mayors of capitals and cities of 100,000+, judges, ambassadors, central bankers, military chiefs, party leaders | Wikidata, queried in bulk through [QLever](https://qlever.dev) | CC0 |
 | Current cabinets (ministers, deputies) | CIA World Leaders (`page-data.json` behind each country page) | Public domain |
 | US cabinet (the CIA doesn't list the US) | Wikidata, offices listed in `config.ts` | CC0 |
 | Photos, parties, Wikidata ids | Wikidata / Wikimedia Commons | CC0 / per file |
 | Short biographies | Wikipedia article intros | CC BY-SA |
-| Trips of well-known leaders and foreign ministers | Wikipedia "List of international … trips made by …" and "List of presidential trips made by …" pages | CC BY-SA |
+| Trips of well-known leaders and foreign ministers | Wikipedia trip-list pages in English, Spanish, French, Portuguese, German, Indonesian, Korean, Arabic and Persian ("List of … trips made by …", "Lista de viagens presidenciais de …", "이재명의 대통령 순방 목록"…) | CC BY-SA |
+| Every in-person speech at the UN General Assembly's general debate, 2008 on | Wikipedia's article for each session | CC BY-SA |
+| Health ministers (and other members of government) at every World Health Assembly, 1999 on | WHO "List of delegates and other participants" PDFs | WHO, reproduction with attribution |
+| Visits outside the UK registered by sitting MPs | [UK Parliament interests API](https://interests-api.parliament.uk) | Open Parliament Licence |
+| Australian parliamentarians' international travel, 2017 on | [IPEA](https://www.ipea.gov.au) expenditure files on data.gov.au | CC BY 3.0 AU |
 | Trips of monarchs, and state visits they hosted | Wikipedia "List of official overseas trips made by …", "List of state visits made (and received) by …" pages | CC BY-SA |
 | Trips of heads of state and government of 200+ countries since 1945 | [COLT](https://doi.org/10.7910/DVN/HJK7DN) (Diplometrics, University of Denver), Harvard Dataverse | CC0 |
 | Trips of US presidents and secretaries of state | [US Office of the Historian](https://github.com/HistoryAtState/travels) | Public domain (CC0) |
@@ -54,11 +70,15 @@ Looked at and left out for now:
 - The kdiplo Korean dataset (unclear licence; COLT covers Korea), GDELT (too noisy without AI).
 - ICEWS event data (no licence granted: "limited information on how it can be used"; ends 2022).
 - EveryPolitician (frozen since 2019, no licence file, and legislators rather than travellers).
-- Need a manual download, because their sites ask for a name and email first:
-  [WhoGov](https://politicscentre.nuffield.ox.ac.uk/whogov-dataset/) (every cabinet member
-  1966–2025; no licence stated, citation requested) and the
-  [UN General Debate speakers](https://doi.org/10.7910/DVN/0TJX8Y) (CC0; every country's
-  speaker each year since 1946).
+- [WhoGov](https://politicscentre.nuffield.ox.ac.uk/whogov-dataset/) (every cabinet member
+  1966–2025): download behind a name-and-email form, and no licence stated, which rules it out
+  if the site ever earns money. The
+  [UN General Debate speakers](https://doi.org/10.7910/DVN/0TJX8Y) dataset is also behind a
+  form; Wikipedia's session articles give the same speakers from 2008.
+- [OpenSanctions](https://www.opensanctions.org/datasets/peps/) politically exposed persons:
+  CC BY-NC (non-commercial only), so the people list is built from Wikidata instead.
+- World Health Assembly lists for 2000, 2001, 2008 and 2009 (no file under any known name) and
+  2005 (no text layer).
 - The Kremlin's trip list (CC BY 4.0) covers only the Russian president's own trips, which
   COLT and Wikipedia already list.
 
@@ -71,12 +91,20 @@ collect.ts / run.ts → pipeline.ts
 ├─ extract/cabinets.extract.ts    CIA list per country (skipped if older than the current leader)
 ├─ extract/roster.ts              remembers who joined/left a cabinet and when (state/roster.json)
 ├─ extract/identity.ts            links cabinet members to Wikidata people (name + citizenship)
+├─ extract/people.extract.ts      everyone politically exposed, via QLever: office classes, who held
+│                                 which office in each country, names, photos, parties
+├─ extract/people.assemble.ts     folds them into the officials; travellers and the executive get
+│                                 full records, everyone else goes to the people store
 ├─ extract/claims/*.claims.ts     one per source: its trips as "claims" (who, when, where)
 │  ├─ wikipedia  trip-pages.discover → trip-tables.parse → trip-dates.parse
 │  ├─ colt       sources/colt.ts streams the spreadsheet
 │  ├─ historian  sources/state-historian.ts reads the XML per person
 │  ├─ historian-visits  sources/historian-visits.ts reads the XML per decade
 │  ├─ uk         sources/gov-uk.ts finds every quarterly CSV
+│  ├─ uk-parliament  sources/uk-parliament.ts pages through MPs' registered visits
+│  ├─ au-ipea    sources/au-ipea.ts streams every quarter's expenses
+│  ├─ un-general-debate  Wikipedia's session articles, speaker by speaker
+│  ├─ who-assembly  sources/who-assembly.ts reads each delegate list (PDF) via un-delegations.parse
 │  ├─ canada     sources/canada-open-data.ts streams the national CSV
 │  └─ nepal-mofa sources/nepal-mofa.ts reads press releases about visits abroad
 ├─ extract/places.resolve.ts      countries, capitals and cities → coordinates via Wikidata
@@ -128,6 +156,14 @@ Outputs:
   title, from their first to their last reported trip (still open if that was within a year).
 - **Unknown start dates stay unknown.** Ministers already in office on the first run get no
   start date unless Wikidata has one; later appointments get the day they first appear.
+- **Dates nobody recorded stay unknown.** A Wikidata term with no dates at all, or one in an
+  office many people hold at once (legislators, mayors, judges) that started over 25 years ago
+  with no end, is marked `undated`: neither current nor known to have ended. A term with a start
+  and no end closes at the person's death.
+- **Embassies belong to the sending state.** Wikidata files "ambassador of the UK to Nepal"
+  under Nepal; a diplomatic post only counts for a country its holder is a citizen of.
+- **Delegates named by initials** (WHO lists: "Mr G. Pokharel, Minister of Health") are matched
+  by family name and office on the date, and never become new officials.
 - **Historical countries map to successors.** The Soviet Union counts as Russia, Yugoslavia as
   Serbia, Czechoslovakia as Czechia, East and West Germany as Germany.
 

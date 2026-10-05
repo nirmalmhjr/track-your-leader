@@ -43,3 +43,6 @@ next-env.d.ts
 
 # data pipeline HTTP cache
 scripts/data-pipeline/.cache
+
+# generated from data/warehouse/people by `pnpm data:people` (run before every build)
+/public/data/people/

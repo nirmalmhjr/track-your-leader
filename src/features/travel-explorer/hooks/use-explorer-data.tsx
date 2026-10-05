@@ -108,9 +108,13 @@ const useDataset = (
                 detail.officials.map((official) => [official.id, official] as const)
             )
         );
-        const officials = (base?.base.officials ?? []).map(
-            (official) => fullOfficials.get(official.id) ?? official
-        );
+        const baseOfficials = base?.base.officials ?? [];
+        const inBase = new Set(baseOfficials.map((official) => official.id));
+        // The index holds travellers and office holders; a loaded country adds everyone else.
+        const officials = [
+            ...baseOfficials.map((official) => fullOfficials.get(official.id) ?? official),
+            ...[...fullOfficials.values()].filter((official) => !inBase.has(official.id)),
+        ];
 
         const records: TravelRecord[] = [];
         for (const [code, group] of base?.base.recordsByOrigin ?? []) {

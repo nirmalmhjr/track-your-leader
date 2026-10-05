@@ -4,18 +4,23 @@ import {
     type GeneratedTrip,
     generatedTripsSchema,
 } from "@/features/travel-explorer/data/generated-data.schema";
+import type { OfficialRow } from "@/features/travel-explorer/data/travel-index";
 import type { CountryCode } from "@/types/geo.types";
 import type { IsoDate } from "@/types/travel.types";
 
 import { countrySourceFor, PIPELINE_CONFIG } from "./config";
 import { writeAppIndex } from "./extract/app-index";
 import { extractCabinet } from "./extract/cabinets.extract";
+import { extractIpeaClaims } from "./extract/claims/au-ipea.claims";
 import { extractCanadaClaims } from "./extract/claims/canada.claims";
 import { extractColtClaims } from "./extract/claims/colt.claims";
 import { extractHistorianClaims } from "./extract/claims/historian.claims";
 import { extractHistorianVisitClaims } from "./extract/claims/historian-visits.claims";
 import { extractNepalMofaClaims } from "./extract/claims/nepal-mofa.claims";
 import { extractUkClaims } from "./extract/claims/uk.claims";
+import { extractUkParliamentClaims } from "./extract/claims/uk-parliament.claims";
+import { extractGeneralDebateClaims } from "./extract/claims/un-general-debate.claims";
+import { extractWhoAssemblyClaims } from "./extract/claims/who-assembly.claims";
 import { extractWikipediaClaims } from "./extract/claims/wikipedia.claims";
 import { type CountryList, resolveCountries } from "./extract/countries";
 import { resolveIdentities } from "./extract/identity";
@@ -27,6 +32,9 @@ import {
     fetchOfficesByLabel,
 } from "./extract/leaders.extract";
 import { assembleDrafts, enrichOfficials } from "./extract/officials.extract";
+import { buildPeopleRows, idRecordsOf, isPromoted, mergePeople } from "./extract/people.assemble";
+import { writePeopleFiles } from "./extract/people.export";
+import { extractPeople, type PersonDraft } from "./extract/people.extract";
 import {
     type CityLookup,
     createCityLookup,
@@ -44,12 +52,14 @@ import { readJsonFile, writeJsonFile } from "./lib/json-file";
 import { log } from "./lib/log";
 import {
     type CountryFile,
+    readAllPeople,
     readClaims,
     readCountries,
     type WarehouseOfficial,
     warehouseOfficialSchema,
     writeClaims,
     writeCountry,
+    writePeople,
     writeWarehouseFile,
 } from "./lib/warehouse";
 import { fetchEntities } from "./sources/wikidata";
@@ -91,6 +101,14 @@ const hasValidDates = (claim: TripClaim): boolean =>
     isCalendarDate(claim.startDate) &&
     isCalendarDate(claim.endDate) &&
     claim.endDate >= claim.startDate;
+/**
+ * Whether a claim is international travel.
+ *
+ * @param claim - Claim to test.
+ * @returns `false` for a trip within the traveller's own country.
+ */
+export const isAbroad = (claim: TripClaim): boolean =>
+    claim.destination.countryCode !== claim.traveller.countryCode;
 const stateFile = (name: string): string => path.join(PIPELINE_CONFIG.stateDir, name);
 
 // --- Officials ------------------------------------------------------------------------------
@@ -205,6 +223,14 @@ const extractSource = async (source: TripSourceId, input: ClaimsInput): Promise<
             return extractCanadaClaims({ cities, places });
         case "nepal-mofa":
             return extractNepalMofaClaims(places);
+        case "un-general-debate":
+            return extractGeneralDebateClaims({ cities });
+        case "who-assembly":
+            return extractWhoAssemblyClaims({ cities });
+        case "uk-parliament":
+            return extractUkParliamentClaims({ cities, places });
+        case "au-ipea":
+            return extractIpeaClaims({ cities, places });
         default:
             return { claims: [], skipped: [] };
     }
@@ -242,7 +268,15 @@ const collectClaims = async (
         if (valid.length < found.length) {
             skipped.push({ reason: "invalid dates", text: `${found.length - valid.length} trips` });
         }
-        const relevant = valid.filter((claim) => selected.has(claim.traveller.countryCode));
+        // Trips at home (a US president's UN speech in New York) aren't international travel.
+        const abroad = valid.filter(isAbroad);
+        if (abroad.length < valid.length) {
+            skipped.push({
+                reason: "domestic travel",
+                text: `${valid.length - abroad.length} trips`,
+            });
+        }
+        const relevant = abroad.filter((claim) => selected.has(claim.traveller.countryCode));
         claims.push(...relevant);
         input.report.sources[source] = {
             claims: relevant.length,
@@ -314,13 +348,24 @@ const buildTrips = (
 };
 
 /** Refuses to overwrite the warehouse when a run produced far less than it holds. */
-const checkDrops = (
-    codes: readonly CountryCode[],
-    stored: ReadonlyMap<CountryCode, CountryFile>,
-    officialCount: number,
-    tripsByCountry: ReadonlyMap<CountryCode, readonly GeneratedTrip[]>,
-    force: boolean
-): void => {
+interface DropCheck {
+    codes: readonly CountryCode[];
+    force: boolean;
+    officialCount: number;
+    /** People stored before and found now. */
+    people: { found: number; stored: number };
+    stored: ReadonlyMap<CountryCode, CountryFile>;
+    tripsByCountry: ReadonlyMap<CountryCode, readonly GeneratedTrip[]>;
+}
+
+const checkDrops = ({
+    codes,
+    force,
+    officialCount,
+    people,
+    stored,
+    tripsByCountry,
+}: DropCheck): void => {
     const sum = (count: (file: CountryFile) => number): number =>
         codes.reduce((total, code) => {
             const file = stored.get(code);
@@ -337,6 +382,7 @@ const checkDrops = (
             sum((file) => file.trips.length),
             countTrips(tripsByCountry)
         ),
+        checkCountDrop("People", people.stored, people.found),
     ].filter((problem): problem is string => problem !== null);
     for (const problem of problems) {
         log.warn(problem);
@@ -352,6 +398,8 @@ interface WarehouseWrite {
     codes: readonly CountryCode[];
     fresh: ReadonlyMap<TripSourceId, readonly TripClaim[]>;
     officialsByCountry: ReadonlyMap<CountryCode, WarehouseOfficial[]>;
+    /** People rows per country. */
+    peopleByCountry: ReadonlyMap<CountryCode, OfficialRow[]>;
     report: PipelineReport;
     sinceYear: number;
     today: IsoDate;
@@ -363,6 +411,7 @@ const writeWarehouse = async ({
     codes,
     fresh,
     officialsByCountry,
+    peopleByCountry,
     report,
     sinceYear,
     today,
@@ -370,6 +419,10 @@ const writeWarehouse = async ({
 }: WarehouseWrite): Promise<void> => {
     const selected = new Set(codes);
     let changed = 0;
+    for (const code of codes) {
+        // biome-ignore lint/performance/noAwaitInLoops: files are written one by one to keep memory and output tidy.
+        await writePeople(code, peopleByCountry.get(code) ?? []);
+    }
     for (const code of codes) {
         const trips = [...(tripsByCountry.get(code) ?? [])].sort((a, b) =>
             a.id.localeCompare(b.id)
@@ -396,10 +449,12 @@ const writeWarehouse = async ({
     await writeWarehouseFile("report.json", report);
 
     const all = [...(await readCountries()).values()];
+    const people = [...(await readAllPeople()).values()];
     await writeWarehouseFile("meta.json", {
         counts: {
             countries: all.length,
             officials: all.reduce((total, file) => total + file.officials.length, 0),
+            people: people.reduce((total, rows) => total + rows.length, 0),
             trips: all.reduce((total, file) => total + file.trips.length, 0),
         },
         sinceYear,
@@ -457,19 +512,46 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
         selected
     );
 
+    // Every run sweeps its countries, since some of the people found become officials.
+    log.step("Everyone politically exposed (Wikidata, via QLever)");
+    const people: PersonDraft[] = mergePeople(
+        drafts,
+        await extractPeople({ contexts, sinceYear: options.sinceYear, today })
+    );
+    log.info(`${people.length} people beyond the leaders and cabinets`);
+
     log.step("Matching trips to officials");
-    const matches = await matchTravellers(claims, drafts, contexts, today);
+    const matches = await matchTravellers(claims, [...drafts, ...people], contexts, today);
     tallyMatches(report, matches);
     log.info(
         `${matches.draftOf.size} trips matched, ${matches.newDrafts.length} new officials, ${matches.unmatched.length} without a traveller`
     );
 
+    // Travellers and the executive get full records; everyone else goes to the people store.
+    const travelled = new Set(matches.draftOf.values());
+    const promoted = people.filter((person) => isPromoted(person, travelled));
+    const rest = people.filter((person) => !isPromoted(person, travelled));
+    const storedPeople = await readAllPeople();
+    const previousPeople = idRecordsOf(storedPeople);
+    const reservedPeople = idRecordsOf(
+        new Map([...storedPeople].filter(([code]) => !selected.has(code)))
+    ).map((record) => record.id);
+
     log.step("Officials: photos, parties, biographies");
     const { idOf, officials } = await enrichOfficials(
-        [...drafts, ...matches.newDrafts],
-        previous,
-        reserved
+        [...drafts, ...matches.newDrafts, ...promoted],
+        [...previous, ...previousPeople],
+        new Set([...reserved, ...reservedPeople])
     );
+    const peopleByCountry = buildPeopleRows({
+        people: rest,
+        previous: [...previous, ...previousPeople],
+        reserved: new Set([
+            ...reserved,
+            ...reservedPeople,
+            ...officials.map((official) => official.id),
+        ]),
+    });
     const officialsByCountry = groupBy(
         officials.map((official) => {
             const parsed = warehouseOfficialSchema.safeParse(official);
@@ -488,13 +570,27 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     log.info(`${countTrips(tripsByCountry)} trips for ${officials.length} officials`);
 
     log.step("Checks");
-    checkDrops(countries.codes, stored, officials.length, tripsByCountry, options.force);
+    checkDrops({
+        codes: countries.codes,
+        force: options.force,
+        officialCount: officials.length,
+        people: {
+            found: [...peopleByCountry.values()].reduce((total, rows) => total + rows.length, 0),
+            stored: countries.codes.reduce(
+                (total, code) => total + (storedPeople.get(code)?.length ?? 0),
+                0
+            ),
+        },
+        stored,
+        tripsByCountry,
+    });
 
     log.step("Writing the warehouse");
     await writeWarehouse({
         codes: countries.codes,
         fresh,
         officialsByCountry,
+        peopleByCountry,
         report,
         sinceYear: options.sinceYear,
         today,
@@ -505,6 +601,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
 
     log.step("App index");
     await writeAppIndex(today, options.force);
+    await writePeopleFiles();
 };
 
 /**

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import { parseTripDates } from "../extract/trip-dates.parse";
-import { isoFromParts } from "../lib/dates";
+import { isoFromParts, persianToIso } from "../lib/dates";
 
 test("day range within a month uses the section year", () => {
     assert.deepEqual(parseTripDates("15–16 June", 2014), {
@@ -121,5 +121,43 @@ test("Spanish and French dates", () => {
         endDate: "1962-08-31",
         precision: "month",
         startDate: "1962-08-01",
+    });
+});
+
+test("dates on the other Wikipedias read", () => {
+    const day = (startDate: string, endDate = startDate) => ({
+        endDate,
+        precision: "day",
+        startDate,
+    });
+    assert.deepEqual(
+        parseTripDates("15 e 16 de janeiro de 2003", null),
+        day("2003-01-15", "2003-01-16")
+    );
+    assert.deepEqual(
+        parseTripDates("3 a 5 de março de 2010", null),
+        day("2010-03-03", "2010-03-05")
+    );
+    assert.deepEqual(parseTripDates("30.–31. März", 2017), day("2017-03-30", "2017-03-31"));
+    assert.deepEqual(
+        parseTripDates("12. bis 14. Juni 2019", null),
+        day("2019-06-12", "2019-06-14")
+    );
+    assert.deepEqual(parseTripDates("8–12 November", 2014), day("2014-11-08", "2014-11-12"));
+    assert.deepEqual(parseTripDates("6월 16일 - 6월 18일", 2025), day("2025-06-16", "2025-06-18"));
+    assert.deepEqual(
+        parseTripDates("2024/9/11 – 2024/9/13", null),
+        day("2024-09-11", "2024-09-13")
+    );
+});
+
+test("Persian-calendar dates in Persian digits become Gregorian", () => {
+    assert.equal(persianToIso(1403, 1, 1), "2024-03-20");
+    assert.equal(persianToIso(1399, 12, 30), "2021-03-20");
+    assert.equal(persianToIso(1403, 7, 31), null);
+    assert.deepEqual(parseTripDates("۱۴۰۳/۶/۲۱ – ۱۴۰۳/۶/۲۲", null), {
+        endDate: "2024-09-12",
+        precision: "day",
+        startDate: "2024-09-11",
     });
 });

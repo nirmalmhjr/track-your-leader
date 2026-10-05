@@ -1,5 +1,7 @@
 const DIACRITICS = /[̀-ͯ]/g;
-const NON_ALPHANUMERIC = /[^a-z0-9]+/g;
+/** Anything but letters and digits, in any script. */
+const NON_LETTER_OR_DIGIT = /[^\p{L}\p{N}]+/gu;
+const NON_ASCII_ALPHANUMERIC = /[^a-z0-9]+/g;
 const WHITESPACE = /\s+/g;
 const FOOTNOTE_MARKERS = /\[(?:\d+|[a-z]|note \d+|citation needed)\]/gi;
 const UPPERCASE_RUN = /(\p{Lu})(\p{Lu}+)/gu;
@@ -17,7 +19,8 @@ export const cleanText = (value: string): string =>
     value.replace(FOOTNOTE_MARKERS, "").replace(WHITESPACE, " ").trim();
 
 /**
- * Normalises a name for comparison: no accents, punctuation or case.
+ * Normalises a name for comparison: no accents, punctuation or case. Letters of every script
+ * are kept, so Persian or Korean names compare too.
  *
  * @param value - Name as written in a source.
  * @returns Lowercase words separated by single spaces.
@@ -26,8 +29,10 @@ export const normalizeName = (value: string): string =>
     value
         .normalize("NFD")
         .replace(DIACRITICS, "")
+        // Recompose what isn't an accent, such as Hangul syllables.
+        .normalize("NFC")
         .toLowerCase()
-        .replace(NON_ALPHANUMERIC, " ")
+        .replace(NON_LETTER_OR_DIGIT, " ")
         .trim();
 
 /**
@@ -60,12 +65,13 @@ export const isSameName = (a: string, b: string): boolean => {
 };
 
 /**
- * Makes a URL-safe identifier.
+ * Makes a URL-safe identifier from the Latin letters and digits of a text.
  *
  * @param value - Text to convert.
- * @returns Lowercase words joined by hyphens.
+ * @returns Lowercase words joined by hyphens; empty for names in other scripts only.
  */
-export const slugify = (value: string): string => normalizeName(value).replaceAll(" ", "-");
+export const slugify = (value: string): string =>
+    normalizeName(value).replace(NON_ASCII_ALPHANUMERIC, " ").trim().replaceAll(" ", "-");
 
 /**
  * Converts the CIA's capitalised family names ("Balendra SHAH", "Pat McFADDEN") to normal

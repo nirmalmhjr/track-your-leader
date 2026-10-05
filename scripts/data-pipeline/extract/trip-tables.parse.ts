@@ -46,34 +46,157 @@ export interface ParsedTripPage {
     skippedTables: string[];
 }
 
-type ColumnKey = "cities" | "country" | "date" | "notes" | "purpose";
+type ColumnKey = "cities" | "country" | "date" | "endDate" | "notes" | "purpose";
+
+/** Whole words in any script: `\b` only knows ASCII letters, so it can't bound "é", "Ort" or "کشور". */
+const words = (list: readonly string[]): string => `(?<!\\p{L})(?:${list.join("|")})(?!\\p{L})`;
+const headerPattern = (list: readonly string[]): RegExp => new RegExp(words(list), "u");
 
 /**
- * Checked in this order; each column is claimed by the first key that matches it. Headers are
- * English, Spanish or French; accented words get explicit boundaries, as `\b` ignores "é".
+ * Checked in this order; each column is claimed by the first key that matches it. An end-date
+ * column comes first, so a table with separate start and end dates reads both. Headers are in
+ * any of the Wikipedias read (see `WIKI_LANGUAGES`).
  */
 const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
-    ["date", /\b(dates?|fechas?)\b/],
-    ["country", /\b(country|countries|nation|destination|país|países|pais|paises|pays|destino)\b/],
+    [
+        "endDate",
+        headerPattern([
+            "end date",
+            "date de fin",
+            "fecha de (?:fin|término)",
+            "data de (?:fim|término)",
+            "enddatum",
+            "تاريخ الانتهاء",
+            "تاریخ پایان",
+        ]),
+    ],
+    [
+        "date",
+        headerPattern([
+            "dates?",
+            "fechas?",
+            "período",
+            "periodo",
+            "data",
+            "datum",
+            "tanggal",
+            "날짜",
+            "일자",
+            "일정",
+            "기간",
+            "تاريخ(?: البدء)?",
+            "تاریخ(?: شروع)?",
+            "даты?",
+        ]),
+    ],
+    [
+        "country",
+        headerPattern([
+            "country",
+            "countries",
+            "nation",
+            "destinations?",
+            "país",
+            "países",
+            "pais",
+            "paises",
+            "pays",
+            "destino",
+            "land",
+            "länder",
+            "staat(?:en)?",
+            "negara",
+            "국가",
+            "방문국",
+            "나라",
+            "دولة",
+            "البلد",
+            "الدولة",
+            "کشور",
+            "страны?",
+        ]),
+    ],
     [
         "cities",
-        /\b(cit(y|ies)|areas?|locations?|places?|venues?|visited|ciudad(es)?|lugar(es)?|localidad(es)?|villes?|lieux?|localit)/,
+        new RegExp(
+            `\\b(cit(y|ies)|areas?|locations?|places?|venues?|visited|ciudad(es)?|lugar(es)?|localidad(es)?|villes?|lieux?|localit)|${words(
+                [
+                    "cidades?",
+                    "regi(?:ão|ões)",
+                    "ort(?:e)?",
+                    "stadt",
+                    "städte",
+                    "tempat",
+                    "kota",
+                    "lokasi",
+                    "도시",
+                    "방문지",
+                    "المدينة",
+                    "المدن",
+                    "المقاطعة",
+                    "المقاطعات",
+                    "شهر(?:ها)?",
+                    "استان",
+                    "город(?:а)?",
+                    "места",
+                ]
+            )}`,
+            "u"
+        ),
     ],
     [
         "purpose",
-        /\b(purpose|reason|events?|type|activit(y|ies)|occasion|description|motivo|propósito|tipo|eventos?|actividad(es)?|descripción|objetivo|objet|motif|activités?)\b|(^|\s)événements?/,
+        new RegExp(
+            `\\b(purpose|reason|events?|type|activit(y|ies)|occasion|description|motivo|propósito|tipo|eventos?|actividad(es)?|descripción|objetivo|objet|motif|activités?)\\b|(^|\\s)événements?|${words(
+                [
+                    "hauptgrund",
+                    "anlass",
+                    "zweck",
+                    "programm",
+                    "rincian",
+                    "tujuan",
+                    "agenda",
+                    "설명",
+                    "목적",
+                    "الغرض",
+                    "الهدف",
+                    "هدف",
+                    "اهداف",
+                    "توضیحات",
+                    "цель",
+                    "событие",
+                    "описание",
+                ]
+            )}`,
+            "u"
+        ),
     ],
     [
         "notes",
-        /\b(notes?|details|highlights|remarks|summary|notas?|detalles|observaciones|comentarios|remarques|commentaires)\b|(^|\s)détails/,
+        new RegExp(
+            `\\b(notes?|details|highlights|remarks|summary|notas?|detalles|observaciones|comentarios|remarques|commentaires)\\b|(^|\\s)détails|${words(
+                [
+                    "anmerkungen",
+                    "bemerkungen",
+                    "keterangan",
+                    "catatan",
+                    "비고",
+                    "ملاحظات",
+                    "примечания",
+                ]
+            )}`,
+            "u"
+        ),
     ],
 ];
 
 const YEAR = /\b(?:19|20)\d{2}\b/g;
 const FUTURE_HEADING =
-    /\b(future|upcoming|scheduled|planned|proposed|futur[oa]s?|próxim[oa]s|programad[oa]s|futurs?|prévus?)\b|(^|\s)à venir/i;
-const CANCELLED_HEADING = /\b(cancel+ed|postponed|cancelad[oa]s?|suspendid[oa]s?|annul)/i;
-const RECEIVED_HEADING = /\b(received|incoming|hosted|inbound|recibid[oa]s|reçue?s)\b/i;
+    /\b(future|upcoming|scheduled|planned|proposed|futur[oa]s?|próxim[oa]s|programad[oa]s|futurs?|prévus?|previst[oa]s|geplant|künftige?|mendatang|direncanakan)\b|(^|\s)à venir|예정|مستقبلية|آینده/i;
+const CANCELLED_HEADING =
+    /\b(cancel+ed|postponed|cancelad[oa]s?|suspendid[oa]s?|annul|abgesagt|dibatalkan)|취소|ملغاة|لغو/i;
+const RECEIVED_HEADING =
+    /\b(received|incoming|hosted|inbound|recibid[oa]s|reçue?s|recebid[oa]s|empfangen)\b/i;
 const NON_ARTICLE_TITLE = /^(file|image|help|wikipedia|category|template|portal|special):/i;
 const WIKI_LINK = "/wiki/";
 const NOISE =
@@ -195,20 +318,51 @@ const contextFrom = (headings: readonly string[]): SectionContext => {
 const isHeaderRow = (line: readonly Element[]): boolean =>
     line.length > 1 && line.every((cell) => cell.tagName === "th");
 
+/** Whether a table's columns can make trips: a date, and a country or city. */
+const hasDateAndPlace = (columns: Partial<Record<ColumnKey, number>>): boolean =>
+    columns.date !== undefined && (columns.country !== undefined || columns.cities !== undefined);
+
+/**
+ * The header row and its columns. A banner row ("Year 1403") may sit above the real headers,
+ * so the first header row that names a date and a place wins.
+ */
+const findHeaders = (
+    $: CheerioAPI,
+    grid: readonly Element[][]
+): { columns: Partial<Record<ColumnKey, number>>; headerIndex: number; headers: string[] } => {
+    const headersAt = (index: number): string[] =>
+        grid[index].map((cell) => cleanText($(cell).text()).toLowerCase());
+    const headerRows = grid.flatMap((line, index) => (isHeaderRow(line) ? [index] : []));
+    const headerIndex =
+        headerRows.find((index) => hasDateAndPlace(mapColumns(headersAt(index)))) ??
+        headerRows[0] ??
+        -1;
+    const headers = headerIndex >= 0 ? headersAt(headerIndex) : [];
+    return { columns: mapColumns(headers), headerIndex, headers };
+};
+
+/** A row's date text; with a separate end-date column, "start – end". */
+const readDateText = (
+    $: CheerioAPI,
+    startCell: Element | undefined,
+    endCell: Element | undefined
+): string | null => {
+    const start = startCell ? readCell($, startCell).text : "";
+    const end = endCell ? readCell($, endCell).text : "";
+    if (!start) {
+        return null;
+    }
+    return end && end !== start ? `${start} – ${end}` : start;
+};
+
 const readTable = (
     $: CheerioAPI,
     table: Element,
     section: SectionContext
 ): { headers: string[]; rows: TripRow[] } => {
     const grid = buildGrid($, table);
-    const headerIndex = grid.findIndex(isHeaderRow);
-    const headers =
-        headerIndex >= 0
-            ? grid[headerIndex].map((cell) => cleanText($(cell).text()).toLowerCase())
-            : [];
-    const columns = mapColumns(headers);
-    const hasPlace = columns.country !== undefined || columns.cities !== undefined;
-    if (columns.date === undefined || !hasPlace) {
+    const { columns, headerIndex, headers } = findHeaders($, grid);
+    if (!hasDateAndPlace(columns)) {
         return { headers, rows: [] };
     }
 
@@ -220,11 +374,9 @@ const readTable = (
     };
 
     const rows = grid.slice(headerIndex + 1).flatMap((line): TripRow[] => {
-        const dateCell = cellAt(line, "date");
-        if (!dateCell || line.every((cell) => cell.tagName === "th")) {
-            return [];
-        }
-        const date = readCell($, dateCell).text;
+        const date = line.every((cell) => cell.tagName === "th")
+            ? null
+            : readDateText($, cellAt(line, "date"), cellAt(line, "endDate"));
         if (!date) {
             return [];
         }

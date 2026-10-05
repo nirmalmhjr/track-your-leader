@@ -5,12 +5,15 @@ import { fetchJson, withQuery } from "../lib/http";
 
 /**
  * Wikipedia: trip-list pages ("List of international prime ministerial trips made by …", and
- * their Spanish and French counterparts) and short English biographies. Text is CC BY-SA, so
+ * their counterparts on other Wikipedias) and short English biographies. Text is CC BY-SA, so
  * the app credits Wikipedia.
  */
 
-/** Wikipedias read for trip lists. English is the default everywhere. */
-export const WIKI_LANGUAGES = ["en", "es", "fr"] as const;
+/**
+ * Wikipedias read for trip lists. English is the default everywhere; the others hold lists
+ * English lacks (Portuguese for Latin America, Persian and Arabic for the Middle East…).
+ */
+export const WIKI_LANGUAGES = ["en", "es", "fr", "pt", "de", "id", "ko", "ar", "fa"] as const;
 export type WikiLanguage = (typeof WIKI_LANGUAGES)[number];
 
 const apiEndpoint = (language: WikiLanguage): string =>
@@ -19,6 +22,8 @@ const TITLE_BATCH_SIZE = 50;
 /** The extracts API returns at most 20 intros per request. */
 const EXTRACT_BATCH_SIZE = 20;
 const SEARCH_LIMIT = 20;
+/** The search API's own ceiling per request. */
+const MAX_SEARCH_LIMIT = 500;
 const INTRO_SENTENCES = 2;
 
 const titleMapSchema = z.array(z.object({ from: z.string(), to: z.string() })).optional();
@@ -65,16 +70,22 @@ export const wikipediaUrl = (title: string, language: WikiLanguage = "en"): stri
  * Full-text search over article titles and text.
  *
  * @param query - CirrusSearch query, e.g. `intitle:trips "Narendra Modi"`.
+ * @param language - Wikipedia language.
+ * @param limit - Most results wanted (up to 500).
  * @returns Matching article titles.
  */
-export const searchTitles = async (query: string): Promise<string[]> => {
+export const searchTitles = async (
+    query: string,
+    language: WikiLanguage = "en",
+    limit = SEARCH_LIMIT
+): Promise<string[]> => {
     const json = await fetchJson(
-        withQuery(apiEndpoint("en"), {
+        withQuery(apiEndpoint(language), {
             action: "query",
             format: "json",
             formatversion: "2",
             list: "search",
-            srlimit: String(SEARCH_LIMIT),
+            srlimit: String(Math.min(limit, MAX_SEARCH_LIMIT)),
             srnamespace: "0",
             srsearch: query,
         })

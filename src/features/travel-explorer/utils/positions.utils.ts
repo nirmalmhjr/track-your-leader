@@ -2,13 +2,15 @@ import type { IsoDate, Official, Position } from "@/types/travel.types";
 
 /**
  * Checks whether a position was held on a date. Positions without a known start date count as
- * held from the beginning, so they still match trips made while the office was held.
+ * held from the beginning, so they still match trips made while the office was held; undated
+ * ones never do.
  *
  * @param position - Position to test.
  * @param date - Calendar date to test against.
  * @returns `true` when the date falls inside the position's tenure.
  */
 export const isPositionActiveOn = (position: Position, date: IsoDate): boolean =>
+    !position.undated &&
     (position.startDate === null || position.startDate <= date) &&
     (position.endDate === null || date < position.endDate);
 

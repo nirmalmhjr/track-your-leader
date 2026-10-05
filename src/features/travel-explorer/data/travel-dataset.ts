@@ -5,7 +5,9 @@ import { buildSampleTravelDataset } from "./sample/sample-dataset";
 import {
     countryDetailSchema,
     DATA_BASE_PATH,
+    decodeOfficial,
     decodeTravelIndex,
+    peopleFileSchema,
     type TravelBase,
     toTravelRecord,
     travelIndexSchema,
@@ -131,4 +133,49 @@ export const loadCountryDetail = async (
         throw new Error(`Details for ${code} unavailable (HTTP ${response.status})`);
     }
     return decodeCountryDetail(await response.json(), countryByCode, today);
+};
+
+/**
+ * Decodes a people file into officials, each linked to their Wikidata record.
+ *
+ * @param raw - Parsed `public/data/people/<ISO3>.json`.
+ * @returns Everyone on record for the country beyond the officials in its country file.
+ * @throws When the file doesn't match the expected format.
+ */
+export const decodePeople = (raw: unknown): Official[] =>
+    peopleFileSchema.parse(raw).people.map((row) => {
+        const official = decodeOfficial(row);
+        return official.wikidataId
+            ? {
+                  ...official,
+                  sources: [
+                      {
+                          label: "Wikidata",
+                          url: `https://www.wikidata.org/wiki/${official.wikidataId}`,
+                      },
+                  ],
+              }
+            : official;
+    });
+
+/**
+ * Loads everyone else on record for a country: legislators, regional and city leaders, judges,
+ * diplomats and others without trips.
+ *
+ * @param code - Country code.
+ * @param signal - Aborts the request.
+ * @returns The people, or none when the country has no people file.
+ */
+export const loadCountryPeople = async (
+    code: CountryCode,
+    signal?: AbortSignal
+): Promise<Official[]> => {
+    const response = await fetch(`${DATA_BASE_PATH}/people/${code}.json`, { signal });
+    if (response.status === HTTP_NOT_FOUND) {
+        return [];
+    }
+    if (!response.ok) {
+        throw new Error(`People of ${code} unavailable (HTTP ${response.status})`);
+    }
+    return decodePeople(await response.json());
 };

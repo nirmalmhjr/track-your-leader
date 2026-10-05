@@ -40,7 +40,7 @@
     "expand": "Show panel",
     "sheetExpand": "Expand panel",
     "sheetCollapse": "Collapse panel",
-    "attribution": "Data: Wikipedia (CC BY-SA), Wikidata, CIA World Leaders, COLT (Diplometrics), US Office of the Historian, GOV.UK (OGL v3), Government of Canada (OGL–Canada), Ministry of Foreign Affairs of Nepal",
+    "attribution": "Data: Wikipedia (CC BY-SA), Wikidata, CIA World Leaders, COLT (Diplometrics), US Office of the Historian, GOV.UK (OGL v3), Government of Canada (OGL–Canada), Ministry of Foreign Affairs of Nepal, World Health Organization, UK Parliament (Open Parliament Licence), IPEA (CC BY 3.0 AU)",
     "sampleData": "Showing fictional sample data",
     "updatedOn": "Updated {date}"
   },
@@ -172,7 +172,8 @@
     "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}",
     "inOfficeNarrowed": "{shownLabel} of {totalLabel} in office travelled within the current filters.",
     "inOfficeNoTripsTitle": "No trips by officials in office",
-    "inOfficeNoTripsDescription": "None of the {totalLabel} officials in office travelled within the current filters. Widen the dates or see former officials."
+    "inOfficeNoTripsDescription": "None of the {totalLabel} officials in office travelled within the current filters. Widen the dates or see former officials.",
+    "latestTripOnRecord": "The latest trip on record for this country began on {date}."
   },
   "official": {
     "fullProfile": "Full profile",
@@ -184,6 +185,7 @@
     "positions": "{count, plural, one {Position} other {Positions held}}",
     "current": "Current",
     "since": "Since {date}",
+    "fromEndUnknown": "From {date}, end not recorded",
     "travelHistory": "Travel history",
     "noTripsTitle": "No trips in this period",
     "noTripsDescription": "This official has no trips matching the current filters.",
@@ -288,12 +290,23 @@
     "deputy_leader": "Deputy leader",
     "minister": "Minister",
     "junior_minister": "Deputy or state minister",
-    "senior_official": "Senior official"
+    "senior_official": "Senior official",
+    "legislator": "Legislator",
+    "regional_leader": "Regional leader",
+    "local_leader": "Mayor or local leader",
+    "judiciary": "Judge",
+    "diplomat": "Diplomat",
+    "central_banker": "Central banker",
+    "military_leader": "Military leader",
+    "party_leader": "Party leader"
   },
   "roleGroups": {
     "leadership": "Leadership",
     "ministers": "Ministers",
     "officials": "Senior officials",
+    "legislators": "Legislators",
+    "regional": "Regional and local leaders",
+    "judiciary": "Judiciary",
     "former": "Former office holders"
   },
   "portfolios": {
@@ -303,7 +316,19 @@
     "defence": "Defence",
     "home_affairs": "Home affairs",
     "environment": "Environment",
-    "energy": "Energy"
+    "energy": "Energy",
+    "health": "Health",
+    "education": "Education",
+    "labour": "Labour",
+    "justice": "Justice",
+    "agriculture": "Agriculture",
+    "transport": "Transport",
+    "women": "Women and children",
+    "youth": "Youth and sports",
+    "culture": "Culture",
+    "tourism": "Tourism",
+    "science": "Science and technology",
+    "social_affairs": "Social affairs"
   },
   "tenure": {
     "all": "All",

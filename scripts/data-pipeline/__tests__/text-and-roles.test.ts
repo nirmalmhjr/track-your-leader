@@ -43,10 +43,44 @@ test("titles map to generic roles and portfolios", () => {
     );
 });
 
-test("ambassadors and central bankers are not tracked", () => {
-    assert.equal(classifyTitle("Ambassador to the US").isTracked, false);
-    assert.equal(classifyTitle("Governor, Central Bank").isTracked, false);
-    assert.equal(classifyTitle("Min. of Finance").isTracked, true);
+test("every politically exposed office gets a role", () => {
+    const role = (title: string) => classifyTitle(title).categories[0];
+    assert.equal(role("Ambassador to the US"), "diplomat");
+    assert.equal(role("Permanent Representative to the UN, New York"), "diplomat");
+    assert.equal(role("Governor, Central Bank"), "central_banker");
+    assert.equal(role("Chief Justice"), "judiciary");
+    assert.equal(role("Justice of the Supreme Court of India"), "judiciary");
+    assert.equal(role("Chief of the Army Staff"), "military_leader");
+    assert.equal(role("Member of the House of Representatives of Nepal"), "legislator");
+    assert.equal(role("Deputy of the State Duma"), "legislator");
+    assert.equal(role("Speaker of the National Assembly"), "legislator");
+    assert.equal(role("Governor of Bagmati Province"), "regional_leader");
+    assert.equal(role("Chief Minister of Kerala"), "regional_leader");
+    assert.equal(role("Mayor of Kathmandu"), "local_leader");
+    assert.equal(role("General Secretary of the Chinese Communist Party"), "party_leader");
+    // Ministerial and leader titles keep winning over the wider patterns.
+    assert.equal(role("Min. of Justice"), "minister");
+    assert.equal(role("Deputy Prime Minister"), "deputy_leader");
+    assert.equal(role("Deputy Min. of Health"), "junior_minister");
+    assert.equal(role("Premier"), "head_of_government");
+    assert.equal(role("Prime Minister of Iran"), "head_of_government");
+    assert.equal(role("Premier of Ontario"), "regional_leader");
+    assert.ok(classifyTitle("Ambassador to the US").isTracked);
+});
+
+test("every ministry maps to a portfolio", () => {
+    const portfolio = (title: string) => classifyTitle(title).portfolio;
+    assert.equal(portfolio("Minister of Health and Population"), "health");
+    assert.equal(portfolio("Minister of Education, Science and Technology"), "education");
+    assert.equal(portfolio("Minister of Labour, Employment and Social Security"), "labour");
+    assert.equal(portfolio("Minister of Law, Justice and Parliamentary Affairs"), "justice");
+    assert.equal(portfolio("Minister of Agriculture and Livestock Development"), "agriculture");
+    assert.equal(portfolio("Minister of Physical Infrastructure and Transport"), "transport");
+    assert.equal(portfolio("Minister for Women, Children and Senior Citizens"), "women");
+    assert.equal(portfolio("Minister of Youth and Sports"), "youth");
+    assert.equal(portfolio("Minister of Culture, Tourism and Civil Aviation"), "culture");
+    assert.equal(portfolio("Minister of Industry, Commerce and Supplies"), "trade");
+    assert.equal(portfolio("Ambassador to the US"), null);
 });
 
 test("office terms merge and predecessors are closed by successors", () => {

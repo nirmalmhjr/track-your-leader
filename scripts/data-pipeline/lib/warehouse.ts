@@ -10,6 +10,11 @@ import {
     placeSchema,
     sourceRefSchema,
 } from "@/features/travel-explorer/data/generated-data.schema";
+import {
+    INDEX_VERSION,
+    type OfficialRow,
+    officialRow,
+} from "@/features/travel-explorer/data/travel-index";
 import type { CountryCode } from "@/types/geo.types";
 
 import { PIPELINE_CONFIG } from "../config";
@@ -24,6 +29,10 @@ import { readJsonFile, serializeJson, writeJsonFile } from "./json-file";
  * - `data/warehouse/claims/<source>.json.gz` — each source's trips before merging, so a run
  *   that skips a slow source can reuse what it reported last time. Gzipped: large and
  *   machine-only.
+ * - `data/warehouse/people/<ISO3>.json.gz` — everyone else politically exposed in the country
+ *   (legislators, regional leaders, judges, diplomats… without trips), as compact official
+ *   rows. Gzipped: hundreds of thousands of people. `pnpm data:people` unpacks them into
+ *   `public/data/people/` for the app.
  * - `data/warehouse/report.json`, `meta.json` — what needs a look, and what is stored.
  */
 
@@ -168,3 +177,53 @@ export const writeClaims = async (
  */
 export const writeWarehouseFile = (name: string, data: unknown): Promise<boolean> =>
     writeJsonFile(dir(name), data);
+
+// --- People ---------------------------------------------------------------------------------
+
+const peopleFile = (code: CountryCode): string => dir("people", `${code}.json.gz`);
+const PEOPLE_FILE = /^([A-Z]{3})\.json\.gz$/;
+const peopleSchema = z.object({ people: z.array(officialRow), version: z.literal(INDEX_VERSION) });
+
+/** One person per line, so a weekly update diffs line by line once unpacked. */
+export const serializePeople = (people: readonly OfficialRow[]): string =>
+    `{"version":${INDEX_VERSION},"people":[\n${people.map((row) => JSON.stringify(row)).join(",\n")}\n]}\n`;
+
+/**
+ * Reads the people stored for every country.
+ *
+ * @returns Rows per country code.
+ */
+export const readAllPeople = async (): Promise<Map<CountryCode, OfficialRow[]>> => {
+    const names = await readdir(dir("people")).catch(() => [] as string[]);
+    const codes = names.flatMap((name) => name.match(PEOPLE_FILE)?.[1] ?? []).sort();
+    const files = await Promise.all(
+        codes.map(async (code) => {
+            const text = gunzipSync(await readFile(peopleFile(code))).toString();
+            return peopleSchema.parse(JSON.parse(text)).people;
+        })
+    );
+    return new Map(codes.map((code, index) => [code, files[index]]));
+};
+
+/**
+ * Stores a country's people, only rewriting the file when its contents change.
+ *
+ * @param code - Country.
+ * @param people - Every person on record for it, sorted.
+ * @returns `true` when the file changed.
+ */
+export const writePeople = async (
+    code: CountryCode,
+    people: readonly OfficialRow[]
+): Promise<boolean> => {
+    const next = serializePeople(people);
+    const previous = await readFile(peopleFile(code))
+        .then((buffer) => gunzipSync(buffer).toString())
+        .catch(() => null);
+    if (previous === next) {
+        return false;
+    }
+    await mkdir(dir("people"), { recursive: true });
+    await writeFile(peopleFile(code), gzipSync(next, { level: 9 }));
+    return true;
+};

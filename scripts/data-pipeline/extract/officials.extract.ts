@@ -182,13 +182,21 @@ const summaryFor = (intro: string | undefined, person: WikidataEntity | undefine
 
 // --- Ids ----------------------------------------------------------------------------------
 
+/** What earlier runs recorded about someone, enough to give them the same id again. */
+export type IdRecord = Pick<GeneratedOfficial, "countryCode" | "fullName" | "id" | "wikidataId">;
+
 /**
  * Gives each official a readable id ("narendra-modi") that stays the same between runs, so
  * shared links keep working even if a name's spelling changes on Wikidata.
+ *
+ * @param drafts - People to name.
+ * @param previous - Everyone earlier runs named.
+ * @param reserved - Ids already taken by people outside `drafts`.
+ * @returns The id of each draft.
  */
-const assignIds = (
+export const assignIds = (
     drafts: readonly OfficialDraft[],
-    previous: readonly GeneratedOfficial[],
+    previous: readonly IdRecord[],
     reserved: ReadonlySet<string>
 ): Map<OfficialDraft, string> => {
     const previousByWikidata = new Map(
@@ -233,9 +241,9 @@ const positionRank = (position: PositionDraft): number =>
     Math.min(...position.categories.map((category) => ROLE_RANK[category]));
 
 /** Current positions first (most senior first), then past ones from newest to oldest. */
-const comparePositions = (a: PositionDraft, b: PositionDraft): number => {
-    const aCurrent = a.endDate === null;
-    const bCurrent = b.endDate === null;
+export const comparePositions = (a: PositionDraft, b: PositionDraft): number => {
+    const aCurrent = a.endDate === null && !a.undated;
+    const bCurrent = b.endDate === null && !b.undated;
     if (aCurrent !== bCurrent) {
         return aCurrent ? -1 : 1;
     }
@@ -252,13 +260,13 @@ const officialRank = (official: GeneratedOfficial): number =>
  * Adds names, photos, parties, summaries and ids, producing the stored records.
  *
  * @param drafts - Assembled drafts.
- * @param previous - Officials from earlier runs, for stable ids.
+ * @param previous - Officials and people from earlier runs, for stable ids.
  * @param reserved - Ids held by officials this run doesn't touch (other countries).
  * @returns Officials (with the id each draft received) sorted by country, seniority and name.
  */
 export const enrichOfficials = async (
     drafts: OfficialDraft[],
-    previous: readonly GeneratedOfficial[],
+    previous: readonly IdRecord[],
     reserved: ReadonlySet<string> = new Set()
 ): Promise<{ idOf: Map<OfficialDraft, string>; officials: WarehouseOfficial[] }> => {
     const people = await fetchEntities(

@@ -21,12 +21,117 @@
           "portfolio": null,
           "startDate": "2005-01-27",
           "title": "President"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2013-09-26",
+          "id": "mahmoud-abbas-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2013-09-26",
+          "title": "President [nb 7]"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2012-09-27",
+          "id": "mahmoud-abbas-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-09-27",
+          "title": "Acting President [nb 1]"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2011-09-23",
+          "id": "mahmoud-abbas-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-09-23",
+          "title": "Acting President [nb 3][nb 4]"
         }
       ],
       "sources": [
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fourth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-seventh_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-first_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-second_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-sixth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-seventh_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-ninth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eighty-first_session_of_the_United_Nations_General_Assembly"
         },
         {
           "label": "Wikipedia",
@@ -7139,13 +7244,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2008-09-26",
@@ -7153,19 +7257,23 @@
         "Met President George W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2008-09-25--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2008-09-26--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-third session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-25",
+      "startDate": "2008-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -9481,33 +9589,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-09-26",
+      "endDate": "2009-09-25",
       "engagements": [
         "Met President Barack Obama",
         "Gave a public address"
       ],
-      "eventName": null,
-      "id": "mahmoud-abbas--2009-09-22--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2009-09-25--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Visit to United States",
+      "purpose": "Addressed the general debate of the sixty-fourth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fourth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-09-22",
+      "startDate": "2009-09-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -12130,32 +12241,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2010-09-25",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2010-09-20--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2010-09-25--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-fifth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-09-20",
+      "startDate": "2010-09-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -13885,13 +13999,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2011-09-23",
@@ -13899,19 +14012,23 @@
         "Met President Barack Obama",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2011-09-19--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2011-09-23--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-sixth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-09-19",
+      "startDate": "2011-09-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -15932,32 +16049,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-09-28",
+      "endDate": "2012-09-27",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2012-09-24--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2012-09-27--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-seventh session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-seventh_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-09-24",
+      "startDate": "2012-09-27",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -16913,33 +17033,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-09-28",
+      "endDate": "2013-09-26",
       "engagements": [
         "Met President Barack Obama",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2013-09-24--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2013-09-26--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-eighth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-09-24",
+      "startDate": "2013-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -18101,32 +18224,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-09-27",
+      "endDate": "2014-09-26",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2014-09-22--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2014-09-26--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-ninth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-22",
+      "startDate": "2014-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -19173,32 +19299,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-09-30",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2015-09-26--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2015-09-30--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventieth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-26",
+      "startDate": "2015-09-30",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -20217,32 +20346,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-09-24",
+      "endDate": "2016-09-22",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2016-09-18--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2016-09-22--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-first session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-first_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-18",
+      "startDate": "2016-09-22",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -21408,33 +21540,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-09-21",
+      "endDate": "2017-09-20",
       "engagements": [
         "Met President Donald Trump",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2017-09-17--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2017-09-20--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-second session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-second_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-17",
+      "startDate": "2017-09-20",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -22218,32 +22353,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-09-27",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2018-09-25--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2018-09-27--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-third session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-25",
+      "startDate": "2018-09-27",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -22994,32 +23132,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2019-09-26",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2019-09-21--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2019-09-26--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-fourth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-09-21",
+      "startDate": "2019-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -23462,6 +23603,33 @@
         }
       ],
       "startDate": "2021-09-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2021-09-24",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2021-09-24--USA",
+      "officialId": "mahmoud-abbas",
+      "purpose": "Addressed the general debate of the seventy-sixth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-sixth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2021-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
     },
@@ -24069,32 +24237,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-09-25",
+      "endDate": "2022-09-23",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2022-09-18--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2022-09-23--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-seventh session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-seventh_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-09-18",
+      "startDate": "2022-09-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -24547,32 +24718,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-09-26",
+      "endDate": "2023-09-21",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2023-09-19--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2023-09-21--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-eighth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-19",
+      "startDate": "2023-09-21",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -25000,32 +25174,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-09-27",
+      "endDate": "2024-09-30",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mahmoud-abbas--2024-09-22--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2024-09-24--USA",
       "officialId": "mahmoud-abbas",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-ninth session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-ninth_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-09-22",
+      "startDate": "2024-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -25647,6 +25824,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2025-09-25",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2025-09-25--USA",
+      "officialId": "mahmoud-abbas",
+      "purpose": "Addressed the general debate of the eightieth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2025-09-25",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Cairo",
         "coordinates": [
           31.2357,
@@ -25900,6 +26104,33 @@
       "startDate": "2025-12-12",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2026-09-24",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "mahmoud-abbas--2026-09-24--USA",
+      "officialId": "mahmoud-abbas",
+      "purpose": "Addressed the general debate of the eighty-first session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eighty-first_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2026-09-24",
+      "statusHint": null,
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

@@ -14,12 +14,16 @@ import type { TripClaim, TripSourceId } from "../types";
 
 /** Lower is more trustworthy: official records first, then curated lists, then research data. */
 const SOURCE_RANK: Readonly<Record<TripSourceId, number>> = {
+    "au-ipea": 0,
     canada: 0,
     colt: 2,
     "gov-uk": 0,
     historian: 0,
     "historian-visits": 0,
     "nepal-mofa": 1,
+    "uk-parliament": 0,
+    "un-general-debate": 1,
+    "who-assembly": 0,
     wikipedia: 1,
 };
 const PRECISION_RANK = { day: 0, month: 1, year: 2 } as const;

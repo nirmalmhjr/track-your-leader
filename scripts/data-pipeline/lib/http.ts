@@ -14,6 +14,7 @@ const HOST_INTERVAL_MS: Readonly<Record<string, number>> = {
     "es.wikipedia.org": 400,
     "fr.wikipedia.org": 400,
     "mofa.gov.np": 1500,
+    "qlever.dev": 1000,
     "query.wikidata.org": 1000,
     "raw.githubusercontent.com": 250,
     "www.cia.gov": 400,

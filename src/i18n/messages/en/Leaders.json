@@ -68,7 +68,21 @@
     "showMoreLeaders": "Show {count, plural, one {{countLabel} more official} other {{countLabel} more officials}}",
     "showMoreOffices": "Show {count, plural, one {{countLabel} more office} other {{countLabel} more offices}}",
     "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}",
-    "leftOffice": "{count, plural, one {{countLabel} term ended} other {{countLabel} terms ended}}"
+    "leftOffice": "{count, plural, one {{countLabel} term ended} other {{countLabel} terms ended}}",
+    "peopleTitle": "Everyone on record",
+    "peopleCaption": "Legislators, regional and city leaders, judges, diplomats and others without recorded trips",
+    "peopleIntro": "Members of parliament, governors, mayors of large cities, judges, diplomats and other public office holders from {country}, as recorded on Wikidata.",
+    "peopleLoad": "Show everyone on record",
+    "peopleLoading": "Loading everyone on record…",
+    "peopleError": "The list couldn't be loaded.",
+    "peopleRetry": "Try again",
+    "peopleEmpty": "No one else is on record for {country}.",
+    "peopleNoMatch": "No one else on record matches this name.",
+    "peopleGroups": "Show a group",
+    "peopleAll": "All",
+    "peopleSince": "Since {year}",
+    "peopleFrom": "From {year}",
+    "showMorePeople": "Show {count, plural, one {{countLabel} more person} other {{countLabel} more people}}"
   },
   "card": {
     "trips": "{count, plural, one {trip} other {trips}}",

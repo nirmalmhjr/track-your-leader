@@ -26,7 +26,8 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # The tracked countries include the US, whose people sweep alone takes several minutes.
+    timeout-minutes: 60
 
     steps:
       - name: Checkout code
@@ -45,6 +46,18 @@ jobs:
         run: pnpm install --frozen-lockfile
         env:
           LEFTHOOK: "0"
+
+      # Long-lived answers (QLever's office classes and holdings, WHO's delegate lists,
+      # Australia's quarterly files) carry over between runs; the cache expires on its own.
+      - name: Restore the pipeline's HTTP cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            scripts/data-pipeline/.cache/qlever.dev
+            scripts/data-pipeline/.cache/apps.who.int
+            scripts/data-pipeline/.cache/data.gov.au
+          key: pipeline-cache-${{ github.run_id }}
+          restore-keys: pipeline-cache-
 
       - name: Test parsers
         run: pnpm data:test

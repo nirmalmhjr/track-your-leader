@@ -22,6 +22,7 @@ import {
 } from "@/features/leaders/utils/leaders.utils";
 import {
     decodeCountryDetail,
+    decodePeople,
     type LoadedCountryDetail,
     type LoadedTravelBase,
     sampleBase,
@@ -30,7 +31,7 @@ import { decodeTravelIndex, travelIndexSchema } from "@/features/travel-explorer
 import { buildCountryNames } from "@/lib/travel/country-names.server";
 import { toIsoDate } from "@/lib/travel/date.utils";
 import type { CountryCode } from "@/types/geo.types";
-import type { IsoDate, TravelRecord } from "@/types/travel.types";
+import type { IsoDate, Official, TravelRecord } from "@/types/travel.types";
 
 /**
  * What the leaders pages read. Today it is backed by the files the pipeline publishes in
@@ -43,13 +44,15 @@ export interface LeadersDataSource {
     getCountryList: (locale: string) => Promise<CountryListItem[]>;
     getOfficialProfile: (code: CountryCode, officialId: string) => Promise<OfficialProfile | null>;
     getOverview: () => Promise<DirectoryOverview>;
-    /** Whether the official is on record for the country; answered from the index alone. */
+    /** Whether the official (or person) is on record for the country. */
     hasOfficial: (code: CountryCode, officialId: string) => Promise<boolean>;
 }
 
 const DATA_DIRECTORY = path.join(process.cwd(), "public", "data");
 /** Country files kept parsed in memory; the largest are a few megabytes each. */
 const DETAIL_CACHE_LIMIT = 24;
+/** People files kept parsed in memory; the largest hold tens of thousands of people. */
+const PEOPLE_CACHE_LIMIT = 8;
 
 interface DerivedBase {
     countryList: CountryListItem[];
@@ -65,6 +68,7 @@ interface CacheEntry<T> {
 
 let baseEntry: CacheEntry<DerivedBase> | null = null;
 const detailEntries = new Map<CountryCode, CacheEntry<LoadedCountryDetail | null>>();
+const peopleEntries = new Map<CountryCode, CacheEntry<Map<string, Official>>>();
 
 const isMissingFile = (error: unknown): boolean =>
     error instanceof Error && "code" in error && error.code === "ENOENT";
@@ -169,6 +173,42 @@ const loadDetail = async (
     return value;
 };
 
+/**
+ * Everyone else on record for a country (legislators, judges… without trips), by id. Empty
+ * when the country has no people file.
+ */
+const loadPeople = async (code: CountryCode): Promise<Map<string, Official>> => {
+    const file = path.join(DATA_DIRECTORY, "people", `${code}.json`);
+    const modified = await readModifiedTime(file);
+    if (modified === null) {
+        return new Map();
+    }
+    const key = String(modified);
+    const cached = peopleEntries.get(code);
+    if (cached?.key === key) {
+        peopleEntries.delete(code);
+        peopleEntries.set(code, cached);
+        return cached.value;
+    }
+    const value = readJson(file).then(
+        (raw) => new Map(decodePeople(raw).map((person) => [person.id, person]))
+    );
+    peopleEntries.delete(code);
+    peopleEntries.set(code, { key, value });
+    if (peopleEntries.size > PEOPLE_CACHE_LIMIT) {
+        const oldest = peopleEntries.keys().next().value;
+        if (oldest) {
+            peopleEntries.delete(oldest);
+        }
+    }
+    value.catch(() => {
+        if (peopleEntries.get(code)?.value === value) {
+            peopleEntries.delete(code);
+        }
+    });
+    return value;
+};
+
 /** Today's date, fixed for the whole request so every part of a page agrees. */
 const getToday = cache((): IsoDate => toIsoDate(new Date()));
 
@@ -187,7 +227,17 @@ const getOverview = cache(async () => (await getBase()).overview);
 
 const getCountryDirectory = cache(async (code: CountryCode) => {
     const derived = await getBase();
-    return buildCountryDirectory(derived.loaded.base, code, derived.recordsByOfficial);
+    const { base } = derived.loaded;
+    // The index lacks former officials without trips; the country file lists everyone.
+    const detail = await loadDetail(code, derived, getToday());
+    // Biographies and sources stay on the profiles: the directory never shows them.
+    const listed = detail?.officials.map(
+        (official): Official => ({ ...official, sources: [], summary: "" })
+    );
+    const officials = listed
+        ? [...base.officials.filter((official) => official.countryCode !== code), ...listed]
+        : base.officials;
+    return buildCountryDirectory({ ...base, officials }, code, derived.recordsByOfficial);
 });
 
 const getOfficialProfile = cache(
@@ -195,17 +245,25 @@ const getOfficialProfile = cache(
         const derived = await getBase();
         const { base } = derived.loaded;
         const country = base.countries.find((candidate) => candidate.code === code);
+        if (!country) {
+            return null;
+        }
         const compact = base.officials.find(
             (candidate) => candidate.id === officialId && candidate.countryCode === code
         );
-        if (!(country && compact)) {
+        // The index lacks biographies, sources, trip purposes and former officials without
+        // trips; the country file has them.
+        const detail = await loadDetail(code, derived, getToday());
+        const full = detail?.officials.find((candidate) => candidate.id === officialId);
+        if (!(compact || full)) {
+            // Not an official with a full record: perhaps a legislator, judge or diplomat.
+            const person = (await loadPeople(code)).get(officialId);
+            return person ? { country, official: person, records: [] } : null;
+        }
+        const official = full ?? compact;
+        if (!official) {
             return null;
         }
-
-        // The index lacks biographies, sources and trip purposes; the country file has them.
-        const detail = await loadDetail(code, derived, getToday());
-        const official =
-            detail?.officials.find((candidate) => candidate.id === officialId) ?? compact;
         const records = (
             detail?.records.filter((record) => record.officialId === officialId) ??
             derived.recordsByOfficial.get(officialId) ??
@@ -217,9 +275,17 @@ const getOfficialProfile = cache(
 );
 
 const hasOfficial = cache(async (code: CountryCode, officialId: string) => {
-    const { loaded } = await getBase();
-    return loaded.base.officials.some(
+    const derived = await getBase();
+    const isIndexed = derived.loaded.base.officials.some(
         (official) => official.id === officialId && official.countryCode === code
+    );
+    if (isIndexed) {
+        return true;
+    }
+    const detail = await loadDetail(code, derived, getToday());
+    return (
+        Boolean(detail?.officials.some((official) => official.id === officialId)) ||
+        (await loadPeople(code)).has(officialId)
     );
 });
 

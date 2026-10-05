@@ -20,7 +20,11 @@ import { useTripDownloads } from "@/features/travel-explorer/hooks/use-trip-down
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
-import { getCurrentPosition, getPrimaryPosition } from "@/lib/travel/officials.utils";
+import {
+    getCurrentPosition,
+    getPrimaryPosition,
+    isCurrentPosition,
+} from "@/lib/travel/officials.utils";
 import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { Official, Position } from "@/types/travel.types";
 
@@ -31,7 +35,9 @@ function PositionTenure({ position }: { position: Position }) {
     const { startDate, endDate } = position;
 
     let label: string | null = null;
-    if (startDate && endDate) {
+    if (position.undated) {
+        label = startDate ? t("fromEndUnknown", { date: format.date(startDate) }) : null;
+    } else if (startDate && endDate) {
         label = format.dateRange(startDate, endDate);
     } else if (endDate) {
         label = t("until", { date: format.date(endDate) });
@@ -88,7 +94,7 @@ function PositionHistory({ official }: { official: Official }) {
                         <li className="flex flex-col gap-0.5" key={position.id}>
                             <span className="flex flex-wrap items-center gap-2 text-sm">
                                 {position.title}
-                                {position.endDate === null ? (
+                                {isCurrentPosition(position) ? (
                                     <Badge variant="secondary">{t("current")}</Badge>
                                 ) : null}
                             </span>

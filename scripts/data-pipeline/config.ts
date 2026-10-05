@@ -15,6 +15,8 @@ export const PIPELINE_CONFIG = {
     indexFile: "public/data/index.json",
     /** Abort (without writing) if officials or trips drop by more than this share. */
     maxCountDropRatio: 0.2,
+    /** Everyone else on record per country, unpacked from the warehouse for the app. */
+    peopleDir: "public/data/people",
     /** Pipeline memory between runs (who held which office since when). */
     stateDir: "scripts/data-pipeline/state",
     /**

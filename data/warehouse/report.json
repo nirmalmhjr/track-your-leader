@@ -806,10 +806,18 @@
     }
   },
   "sources": {
+    "au-ipea": {
+      "claims": 1513,
+      "matched": 1513,
+      "newOfficials": 0,
+      "skipped": [],
+      "skippedCount": 0,
+      "unmatched": 0
+    },
     "canada": {
       "claims": 1916,
       "matched": 1916,
-      "newOfficials": 946,
+      "newOfficials": 61,
       "skipped": [],
       "skippedCount": 0,
       "unmatched": 0
@@ -817,7 +825,7 @@
     "colt": {
       "claims": 77705,
       "matched": 77705,
-      "newOfficials": 2801,
+      "newOfficials": 1749,
       "skipped": [],
       "skippedCount": 0,
       "unmatched": 0
@@ -825,7 +833,7 @@
     "gov-uk": {
       "claims": 4239,
       "matched": 4239,
-      "newOfficials": 2891,
+      "newOfficials": 329,
       "skipped": [],
       "skippedCount": 0,
       "unmatched": 0
@@ -833,7 +841,7 @@
     "historian": {
       "claims": 3981,
       "matched": 3981,
-      "newOfficials": 114,
+      "newOfficials": 92,
       "skipped": [],
       "skippedCount": 0,
       "unmatched": 0
@@ -841,7 +849,7 @@
     "historian-visits": {
       "claims": 3055,
       "matched": 3055,
-      "newOfficials": 135,
+      "newOfficials": 107,
       "skipped": [],
       "skippedCount": 0,
       "unmatched": 0
@@ -854,13 +862,47 @@
       "skippedCount": 0,
       "unmatched": 0
     },
+    "uk-parliament": {
+      "claims": 441,
+      "matched": 441,
+      "newOfficials": 8,
+      "skipped": [],
+      "skippedCount": 0,
+      "unmatched": 0
+    },
+    "un-general-debate": {
+      "claims": 3415,
+      "matched": 3415,
+      "newOfficials": 121,
+      "skipped": [
+        {
+          "reason": "domestic travel",
+          "text": "18 trips"
+        }
+      ],
+      "skippedCount": 1,
+      "unmatched": 0
+    },
+    "who-assembly": {
+      "claims": 3414,
+      "matched": 995,
+      "newOfficials": 0,
+      "skipped": [
+        {
+          "reason": "domestic travel",
+          "text": "13 trips"
+        }
+      ],
+      "skippedCount": 1,
+      "unmatched": 2419
+    },
     "wikipedia": {
-      "claims": 27892,
-      "matched": 27845,
+      "claims": 31792,
+      "matched": 31762,
       "newOfficials": 0,
       "skipped": [],
       "skippedCount": 0,
-      "unmatched": 47
+      "unmatched": 30
     }
   },
   "tripPages": [
@@ -1118,8 +1160,12 @@
     },
     {
       "official": "Alexander Lukashenka",
-      "records": 140,
+      "records": 137,
       "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Serbia and Montenegro"
+        },
         {
           "reason": "date not understood",
           "text": "February 28 – 2 March"
@@ -1129,11 +1175,23 @@
     },
     {
       "official": "Carl XVI Gustaf of Sweden",
-      "records": 97,
+      "records": 94,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "countries | state visits | notes"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
         },
         {
           "reason": "date not understood",
@@ -1144,13 +1202,26 @@
     },
     {
       "official": "Carl XVI Gustaf of Sweden",
-      "records": 74,
-      "rowsSkipped": [],
+      "records": 71,
+      "rowsSkipped": [
+        {
+          "reason": "visiting country not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Czechoslovakia"
+        }
+      ],
       "title": "List of state visits received by Carl XVI Gustaf"
     },
     {
       "official": "Carl XVI Gustaf of Sweden",
-      "records": 16,
+      "records": 18,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -1738,6 +1809,190 @@
       "title": "List of international presidential trips made by Joe Biden"
     },
     {
+      "official": "Joe Biden",
+      "records": 26,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "1–2 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14–17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17–19 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Joe Biden"
+    },
+    {
+      "official": "Kamala Harris",
+      "records": 26,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Colorado"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Nevada"
+        },
+        {
+          "reason": "destination not found",
+          "text": "New Jersey"
+        },
+        {
+          "reason": "destination not found",
+          "text": "California"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Illinois"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Wisconsin"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Rhode Island"
+        },
+        {
+          "reason": "destination not found",
+          "text": "South Carolina"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Pennsylvania"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Texas"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Michigan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Nevada"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Virginia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "South Carolina"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Georgia"
+        }
+      ],
+      "title": "List of vice presidential trips made by Kamala Harris"
+    },
+    {
+      "official": "Kamala Harris",
+      "records": 17,
+      "rowsSkipped": [
+        {
+          "reason": "date not understood",
+          "text": "8-13 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18-20 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "21-22 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "1-2 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens vice-presidenciais de Kamala Harris"
+    },
+    {
+      "official": "JD Vance",
+      "records": 16,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Virginia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Ohio"
+        },
+        {
+          "reason": "destination not found",
+          "text": "California"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Maryland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vermont"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vermont"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Texas"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Michigan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Virginia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Texas"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Texas"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Alabama"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Florida"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Maryland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Virginia"
+        }
+      ],
+      "title": "List of vice presidential trips made by JD Vance"
+    },
+    {
       "official": "Armen Sarkissian",
       "records": 41,
       "rowsSkipped": [
@@ -1795,9 +2050,81 @@
       "title": "List of international prime ministerial trips made by Nikol Pashinyan"
     },
     {
+      "official": "Nikol Pashinyan",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "منطقه‌های بازدیدکرده | تاریخ(ها) | توضیحات"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "کشور | منطقه‌های بازدیدکرده | تاریخ(ها) | توضیحات"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۴ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۳۰–۳۱ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۴ ژوئن"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۱–۱۳ ژوئیه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۷ ژوئیه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۸ سپتامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۴ سپتامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۵–۲۶ سپتامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "سپتامبر ۲۷–۲۸"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۴ اکتبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۰–۲۱ اکتبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۸–۹ نوامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۰–۱۱ نوامبر"
+        }
+      ],
+      "title": "fa:فهرست سفرهای خارجی نیکول پاشینیان، نخست‌وزیر ارمنستان"
+    },
+    {
       "official": "Hafez al-Assad",
-      "records": 66,
-      "rowsSkipped": [],
+      "records": 65,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "East Germany"
+        }
+      ],
       "title": "List of international presidential trips made by Hafez al-Assad"
     },
     {
@@ -1820,12 +2147,55 @@
       "title": "List of international presidential trips made by Jimmy Carter"
     },
     {
+      "official": "Jimmy Carter",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": " | país | áreas visitadas | datas | detalhes | imagem"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": " | país | áreas visitadas | datas | detalhes | imagem"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": " | país | áreas visitadas | datas | detalhes | imagem"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": " | país | áreas visitadas | datas | detalhes | imagem"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "grupo | ano | ano | ano | ano"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Jimmy Carter"
+    },
+    {
       "official": "Ronald Reagan",
-      "records": 48,
+      "records": 44,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year | year | year | year"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
         }
       ],
       "title": "List of international presidential trips made by Ronald Reagan"
@@ -1911,6 +2281,73 @@
       "title": "es:Anexo:Visitas oficiales al exterior del presidente Barack Obama"
     },
     {
+      "official": "Barack Obama",
+      "records": 55,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13 - 14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 - 15 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15 - 17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18 - 19 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "6 - 9 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9 - 10 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10 - 12 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "12 - 13 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "19 - 20 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "3 - 4 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16 - 17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 - 17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17 - 20 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Barack Obama"
+    },
+    {
       "official": "Donald Trump",
       "records": 63,
       "rowsSkipped": [
@@ -1924,6 +2361,139 @@
         }
       ],
       "title": "List of international presidential trips made by Donald Trump"
+    },
+    {
+      "official": "Donald Trump",
+      "records": 46,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | evento | primeira presidência (2017–2021) | primeira presidência (2017–2021) | primeira presidência (2017–2021) | primeira presidência (2017–2021) | segunda presidência (2025–) | segunda presidência (2025–) | segunda presidência (2025–) | segunda presidência (2025–)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5–7 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7–8 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8–10 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10–12 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "12–14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9–11 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18–19 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Donald Trump"
+    },
+    {
+      "official": "Donald Trump",
+      "records": 4,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "organisasi | tahun | tahun | tahun | tahun"
+        },
+        {
+          "reason": "date not understood",
+          "text": "TBD"
+        }
+      ],
+      "title": "id:Daftar kunjungan kenegaraan Donald Trump"
+    },
+    {
+      "official": "Donald Trump",
+      "records": 11,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "그룹 | 연도 | 연도 | 연도 | 연도"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "그룹 | 연도 | 연도 | 연도 | 연도"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5월 20–22일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5월 22–23일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5월 23–24일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5월 24–25일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5월 25–27일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7월 5–6일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7월 6–8일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7월 13–14일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11월 5–7일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11월 7–8일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11월 8–10일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11월 10–12일"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11월 12–14일"
+        }
+      ],
+      "title": "ko:도널드 트럼프의 해외 순방 목록"
     },
     {
       "official": "Mateusz Morawiecki",
@@ -2004,6 +2574,29 @@
       "title": "List of international trips made by Liz Truss as Foreign Secretary"
     },
     {
+      "official": "Liz Truss",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano"
+        },
+        {
+          "reason": "destination not found",
+          "text": "1"
+        },
+        {
+          "reason": "destination not found",
+          "text": "2"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Liz Truss"
+    },
+    {
       "official": "James Cleverly",
       "records": 72,
       "rowsSkipped": [
@@ -2047,23 +2640,14 @@
     },
     {
       "official": "David Cameron",
-      "records": 46,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        }
-      ],
+      "records": 47,
+      "rowsSkipped": [],
       "title": "List of international trips made by David Cameron as Foreign Secretary"
     },
     {
       "official": "David Lammy",
-      "records": 78,
+      "records": 79,
       "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
         {
           "reason": "date not understood",
           "text": "30-31 June 2025"
@@ -2100,15 +2684,11 @@
     },
     {
       "official": "Andrej Plenković",
-      "records": 91,
+      "records": 92,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year | year | year | year | year | year"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of international prime ministerial trips made by Andrej Plenković"
@@ -2457,7 +3037,7 @@
     },
     {
       "official": "Philippe of Belgium",
-      "records": 33,
+      "records": 36,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -2466,14 +3046,6 @@
         {
           "reason": "table without date/place columns",
           "text": "áfrica | américa | asia | europa | oceanía"
-        },
-        {
-          "reason": "destination not found",
-          "text": "La Haya ( Países Bajos)"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Milán y Cortina d'Ampezzo ( Italia)"
         }
       ],
       "title": "es:Anexo:Visitas oficiales al exterior del rey Felipe de Bélgica"
@@ -2513,11 +3085,39 @@
     },
     {
       "official": "Olav V of Norway",
-      "records": 61,
+      "records": 54,
       "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Iran"
+        },
         {
           "reason": "visiting country not found",
           "text": "Tanganyika"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Romania"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
         }
       ],
       "title": "List of state visits made and received by Olav V"
@@ -2843,6 +3443,25 @@
       "title": "List of international presidential trips made by Mauricio Macri"
     },
     {
+      "official": "Mauricio Macri",
+      "records": 39,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Assunção"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15-16 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Mauricio Macri"
+    },
+    {
       "official": "Javier Milei",
       "records": 62,
       "rowsSkipped": [
@@ -2878,15 +3497,11 @@
     },
     {
       "official": "Xavier Bettel",
-      "records": 73,
+      "records": 74,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year | year | year | year | year | year | year"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of international prime ministerial trips made by Xavier Bettel"
@@ -2929,6 +3544,88 @@
       "title": "List of international presidential trips made by Joko Widodo"
     },
     {
+      "official": "Joko Widodo",
+      "records": 106,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "organisasi | tahun | tahun | tahun | tahun | tahun | tahun"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organisasi | tahun | tahun | tahun | tahun | tahun"
+        }
+      ],
+      "title": "id:Daftar kunjungan kenegaraan Joko Widodo"
+    },
+    {
+      "official": "Joko Widodo",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "provinsi | kabupaten/kota | tahun | tahun | tahun | tahun | tahun | tahun | tahun | tahun | tahun | tahun | tahun | jumlah"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Tangerang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Kupang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Rote Ndao"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Rote Ndao"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Kupang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Pekalongan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Tegal"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Banjar"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Bandung"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Lampung Selatan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Palembang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Banyuasin"
+        }
+      ],
+      "title": "id:Daftar kunjungan kerja Joko Widodo"
+    },
+    {
       "official": "Prabowo Subianto",
       "records": 56,
       "rowsSkipped": [
@@ -2940,6 +3637,88 @@
       "title": "List of international presidential trips made by Prabowo Subianto"
     },
     {
+      "official": "Prabowo Subianto",
+      "records": 60,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "organisasi | tahun | tahun | tahun | tahun | tahun | tahun"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Akan Diumumkan"
+        }
+      ],
+      "title": "id:Daftar kunjungan kenegaraan Prabowo Subianto"
+    },
+    {
+      "official": "Prabowo Subianto",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "provinsi | kabupaten/kota | tahun | tahun | tahun | tahun | tahun | tahun | jumlah"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Magelang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Merauke"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Surakarta"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Bogor"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Timur"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Karawang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Kupang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Semarang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Bogor"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        }
+      ],
+      "title": "id:Daftar kunjungan kerja Prabowo Subianto"
+    },
+    {
       "official": "Serdar Berdimuhamedow",
       "records": 53,
       "rowsSkipped": [],
@@ -2947,13 +3726,50 @@
     },
     {
       "official": "Charles de Gaulle",
-      "records": 34,
-      "rowsSkipped": [],
+      "records": 25,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Greece"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Poland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Romania"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        }
+      ],
       "title": "List of international presidential trips made by Charles de Gaulle"
     },
     {
       "official": "Charles de Gaulle",
-      "records": 22,
+      "records": 21,
       "rowsSkipped": [
         {
           "reason": "destination not found",
@@ -2970,6 +3786,10 @@
         {
           "reason": "destination not found",
           "text": "Allemagne de l'Ouest"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Iran"
         },
         {
           "reason": "destination not found",
@@ -3019,7 +3839,7 @@
     },
     {
       "official": "Jacques Chirac",
-      "records": 109,
+      "records": 110,
       "rowsSkipped": [
         {
           "reason": "date not understood",
@@ -3083,6 +3903,73 @@
         }
       ],
       "title": "fr:Liste des voyages présidentiels à l'étranger de Jacques Chirac"
+    },
+    {
+      "official": "Fernando Henrique Cardoso",
+      "records": 91,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9 a 11 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "24 a 25 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "25 a 28 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "6 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "25 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "23 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 a 16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17 a 22 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Entre 17 a 22 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17 a 18 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7 a 11 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "23 a 24 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Fernando Henrique Cardoso"
     },
     {
       "official": "Ilie Bolojan",
@@ -3165,53 +4052,19 @@
     },
     {
       "official": "Warren Christopher",
-      "records": 232,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        }
-      ],
+      "records": 238,
+      "rowsSkipped": [],
       "title": "List of international trips made by Warren Christopher as United States Secretary of State"
     },
     {
       "official": "Madeleine Albright",
-      "records": 268,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Palestinian National Authority"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Netherlands Antilles"
-        }
-      ],
+      "records": 269,
+      "rowsSkipped": [],
       "title": "List of international trips made by Madeleine Albright as United States Secretary of State"
     },
     {
       "official": "Colin Powell",
-      "records": 215,
+      "records": 214,
       "rowsSkipped": [],
       "title": "List of international trips made by Colin Powell as United States Secretary of State"
     },
@@ -3223,28 +4076,14 @@
     },
     {
       "official": "Hillary Clinton",
-      "records": 238,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        }
-      ],
+      "records": 240,
+      "rowsSkipped": [],
       "title": "List of international trips made by Hillary Clinton as United States Secretary of State"
     },
     {
       "official": "John Kerry",
-      "records": 350,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        }
-      ],
+      "records": 351,
+      "rowsSkipped": [],
       "title": "List of international trips made by John Kerry as United States Secretary of State"
     },
     {
@@ -3273,37 +4112,8 @@
     },
     {
       "official": "Benjamin Netanyahu",
-      "records": 132,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        }
-      ],
+      "records": 139,
+      "rowsSkipped": [],
       "title": "List of international prime ministerial trips made by Benjamin Netanyahu"
     },
     {
@@ -3313,6 +4123,14 @@
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year | year | year | year | year | year | year | year"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
         }
       ],
       "title": "List of international prime ministerial trips made by Margaret Thatcher"
@@ -3335,7 +4153,7 @@
         },
         {
           "reason": "destination not found",
-          "text": "Kosovo"
+          "text": "Hong Kong"
         }
       ],
       "title": "List of international prime ministerial trips made by Tony Blair"
@@ -3367,6 +4185,49 @@
       "title": "List of international prime ministerial trips made by Theresa May"
     },
     {
+      "official": "Theresa May",
+      "records": 51,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "6-8 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "24 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28-29 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "29 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "30 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Theresa May"
+    },
+    {
       "official": "Rishi Sunak",
       "records": 28,
       "rowsSkipped": [
@@ -3376,6 +4237,73 @@
         }
       ],
       "title": "List of international prime ministerial trips made by Rishi Sunak"
+    },
+    {
+      "official": "Rishi Sunak",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "6-7 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "6-16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "19 de novembro"
+        },
+        {
+          "reason": "destination not found",
+          "text": "4"
+        },
+        {
+          "reason": "destination not found",
+          "text": "4"
+        },
+        {
+          "reason": "destination not found",
+          "text": "5"
+        },
+        {
+          "reason": "destination not found",
+          "text": "6"
+        },
+        {
+          "reason": "destination not found",
+          "text": "7"
+        },
+        {
+          "reason": "destination not found",
+          "text": "8"
+        },
+        {
+          "reason": "destination not found",
+          "text": "9"
+        },
+        {
+          "reason": "destination not found",
+          "text": "10"
+        },
+        {
+          "reason": "destination not found",
+          "text": "11"
+        },
+        {
+          "reason": "destination not found",
+          "text": "12"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Rishi Sunak"
     },
     {
       "official": "Keir Starmer",
@@ -3393,6 +4321,37 @@
       "title": "List of international prime ministerial trips made by Keir Starmer"
     },
     {
+      "official": "Keir Starmer",
+      "records": 24,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | evento | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11–12 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "12 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18–19 de novembro"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Acrotíri e Deceleia"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Keir Starmer"
+    },
+    {
       "official": "Andy Burnham",
       "records": 7,
       "rowsSkipped": [
@@ -3405,37 +4364,19 @@
     },
     {
       "official": "Bujar Nishani",
-      "records": 38,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        }
-      ],
+      "records": 41,
+      "rowsSkipped": [],
       "title": "List of international presidential trips made by Bujar Nishani"
     },
     {
       "official": "Ilir Meta",
-      "records": 16,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        }
-      ],
+      "records": 17,
+      "rowsSkipped": [],
       "title": "List of international presidential trips made by Ilir Meta"
     },
     {
       "official": "Bajram Begaj",
-      "records": 34,
+      "records": 35,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -3468,10 +4409,6 @@
         {
           "reason": "destination not found",
           "text": "KOS"
-        },
-        {
-          "reason": "destination not found",
-          "text": "SMOM"
         },
         {
           "reason": "destination not found",
@@ -3643,11 +4580,59 @@
     },
     {
       "official": "Muammar Gaddafi",
-      "records": 106,
+      "records": 95,
       "rowsSkipped": [
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "USSR"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Hungary"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Poland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Iraq"
+        },
+        {
+          "reason": "destination not found",
+          "text": "USSR"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Poland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Romania"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Benin"
+        },
+        {
+          "reason": "destination not found",
+          "text": "USSR"
         }
       ],
       "title": "List of international trips made by Muammar Gaddafi"
@@ -3688,20 +4673,49 @@
     },
     {
       "official": "Gamal Abdel Nasser",
-      "records": 39,
+      "records": 41,
       "rowsSkipped": [],
       "title": "List of international presidential trips made by Gamal Abdel Nasser"
     },
     {
       "official": "Anwar Sadat",
-      "records": 49,
-      "rowsSkipped": [],
+      "records": 48,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        }
+      ],
       "title": "List of international presidential trips made by Anwar Sadat"
     },
     {
       "official": "Saddam Hussein",
-      "records": 74,
+      "records": 68,
       "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "East Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
         {
           "reason": "date not understood",
           "text": "Unknown"
@@ -3735,6 +4749,37 @@
       "records": 20,
       "rowsSkipped": [],
       "title": "List of international presidential trips made by Kais Saied"
+    },
+    {
+      "official": "Kais Saied",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | مدن الزيارة | التواريخ | ملاحظات"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | مدن الزيارة | التواريخ | ملاحظات"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | مدن الزيارة | التواريخ | ملاحظات"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | مدن الزيارة | التواريخ | ملاحظات"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | مدن الزيارة | التواريخ | ملاحظات"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | مدن الزيارة | التواريخ | ملاحظات"
+        }
+      ],
+      "title": "ar:قائمة رحلات قيس سعيد الخارجية"
     },
     {
       "official": "Chandrika Kumaratunga",
@@ -3835,11 +4880,19 @@
       "rowsSkipped": [
         {
           "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
           "text": "Hungarian People's Republic"
         },
         {
           "reason": "destination not found",
-          "text": "Sovereign Military Order of Malta"
+          "text": "Zaire"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Macau"
         }
       ],
       "title": "List of international presidential trips made by Mário Soares"
@@ -3934,6 +4987,33 @@
       "title": "List of international prime ministerial trips made by António Costa"
     },
     {
+      "official": "António Costa",
+      "records": 24,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "países visitados por antónio costa entre 2016 e 2017 | países visitados por antónio costa entre 2016 e 2017"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15 – 16 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de António Costa"
+    },
+    {
       "official": "Luís Montenegro",
       "records": 55,
       "rowsSkipped": [
@@ -3946,13 +5026,8 @@
     },
     {
       "official": "Tobias Billström",
-      "records": 79,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        }
-      ],
+      "records": 80,
+      "rowsSkipped": [],
       "title": "List of international trips made by Tobias Billström as Minister for Foreign Affairs of Sweden"
     },
     {
@@ -3986,7 +5061,7 @@
     },
     {
       "official": "Jawaharlal Nehru",
-      "records": 64,
+      "records": 59,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -3994,7 +5069,39 @@
         },
         {
           "reason": "destination not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Burma"
+        },
+        {
+          "reason": "destination not found",
           "text": "Malaya"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Czechoslovakia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Syria"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Ceylon"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Syria"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Nepal"
         }
       ],
       "title": "List of international prime ministerial trips made by Jawaharlal Nehru"
@@ -4012,7 +5119,7 @@
     },
     {
       "official": "Indira Gandhi",
-      "records": 111,
+      "records": 106,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -4025,13 +5132,49 @@
         {
           "reason": "destination not found",
           "text": "Sikkim"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Czechoslovakia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Iraq"
+        },
+        {
+          "reason": "destination not found",
+          "text": "East Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Afghanistan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Romania"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
         }
       ],
       "title": "List of international prime ministerial trips made by Indira Gandhi"
     },
     {
       "official": "Manmohan Singh",
-      "records": 95,
+      "records": 97,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -4046,27 +5189,11 @@
     },
     {
       "official": "Edi Rama",
-      "records": 112,
+      "records": 124,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of international prime ministerial trips made by Edi Rama"
@@ -4262,6 +5389,10 @@
         },
         {
           "reason": "destination not found",
+          "text": "Zaïre"
+        },
+        {
+          "reason": "destination not found",
           "text": "URSS"
         },
         {
@@ -4295,10 +5426,6 @@
         {
           "reason": "destination not found",
           "text": "Roy.-Uni"
-        },
-        {
-          "reason": "destination not found",
-          "text": "ONU"
         },
         {
           "reason": "destination not found",
@@ -4348,6 +5475,12 @@
       "title": "List of international prime ministerial trips made by Ismail Sabri Yaakob"
     },
     {
+      "official": "Ismail Sabri Yaakob",
+      "records": 2,
+      "rowsSkipped": [],
+      "title": "id:Daftar kunjungan kenegaraan Ismail Sabri Yaakob"
+    },
+    {
       "official": "Lal Bahadur Shastri",
       "records": 9,
       "rowsSkipped": [
@@ -4360,11 +5493,27 @@
     },
     {
       "official": "Rajiv Gandhi",
-      "records": 60,
+      "records": 56,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "number of visits | country"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
         }
       ],
       "title": "List of international prime ministerial trips made by Rajiv Gandhi"
@@ -4393,7 +5542,7 @@
     },
     {
       "official": "Narendra Modi",
-      "records": 196,
+      "records": 199,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -4526,7 +5675,7 @@
     },
     {
       "official": "William Alexander of the Netherlands",
-      "records": 36,
+      "records": 37,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -4604,7 +5753,7 @@
     },
     {
       "official": "Hirohito",
-      "records": 70,
+      "records": 59,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -4617,23 +5766,80 @@
         {
           "reason": "visiting country not found",
           "text": "Manchukuo"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Iran"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Afghanistan"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Zaire"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Romania"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "East Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Poland"
         }
       ],
       "title": "List of state visits received by Hirohito"
     },
     {
       "official": "Akihito",
-      "records": 78,
-      "rowsSkipped": [],
+      "records": 73,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Nepal"
+        }
+      ],
       "title": "List of official overseas trips made by Akihito"
     },
     {
       "official": "Akihito",
-      "records": 63,
+      "records": 61,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "countries | state visits | notes"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Czechoslovakia"
         }
       ],
       "title": "List of state visits received by Akihito"
@@ -4707,8 +5913,13 @@
     },
     {
       "official": "Naruhito",
-      "records": 89,
-      "rowsSkipped": [],
+      "records": 85,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        }
+      ],
       "title": "List of official overseas trips made by Naruhito"
     },
     {
@@ -4739,13 +5950,8 @@
     },
     {
       "official": "Ilham Aliyev",
-      "records": 371,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "Subject of the Russian Federation, Republic of Tatarstan"
-        }
-      ],
+      "records": 372,
+      "rowsSkipped": [],
       "title": "List of international presidential trips made by Ilham Aliyev"
     },
     {
@@ -4776,6 +5982,73 @@
       "records": 0,
       "rowsSkipped": [],
       "title": "fr:Liste des voyages présidentiels à l'étranger de François Hollande"
+    },
+    {
+      "official": "François Hollande",
+      "records": 196,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "4 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "4 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "5 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "22 - 23 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17-19 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17-19 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "27 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28-29 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "29 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "2-4 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15-16 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de François Hollande"
     },
     {
       "official": "Emmanuel Macron",
@@ -4882,6 +6155,49 @@
       "title": "fr:Liste des voyages présidentiels à l'étranger d'Emmanuel Macron"
     },
     {
+      "official": "Emmanuel Macron",
+      "records": 25,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | evento | ano | ano | ano | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8-9 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28–29 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "29-30 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "30 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Emmanuel Macron"
+    },
+    {
       "official": "Abdullah Gül",
       "records": 38,
       "rowsSkipped": [
@@ -4913,7 +6229,7 @@
     },
     {
       "official": "Recep Tayyip Erdoğan",
-      "records": 322,
+      "records": 323,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -4930,14 +6246,6 @@
         {
           "reason": "date not understood",
           "text": "September 30-2"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of international prime ministerial trips made by Recep Tayyip Erdoğan"
@@ -4947,6 +6255,29 @@
       "records": 17,
       "rowsSkipped": [],
       "title": "List of international foreign trips made by Barham Salih"
+    },
+    {
+      "official": "Barham Salih",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | الموقع | التاريخ | المضيف | نوع الزيارة"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | الموقع | التاريخ | المضيف | نوع الزيارة"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | الموقع | التاريخ | المضيف | نوع الزيارة"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "الدولة | الموقع | التاريخ | المضيف | نوع الزيارة"
+        }
+      ],
+      "title": "ar:قائمة رحلات برهم صالح الخارجية"
     },
     {
       "official": "Saadeddine Othmani",
@@ -4995,19 +6326,53 @@
       "title": "List of international prime ministerial trips made by Scott Morrison"
     },
     {
+      "official": "Helmut Schmidt",
+      "records": 93,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Singapur"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Guadeloupe ( Frankreich)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Helmut Schmidts Amtszeit endete am 1. Oktober 1982."
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Helmut Schmidt"
+    },
+    {
       "official": "Olaf Scholz",
-      "records": 155,
+      "records": 156,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of international trips made by Olaf Scholz"
+    },
+    {
+      "official": "Olaf Scholz",
+      "records": 160,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Singapur"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Olaf Scholz"
     },
     {
       "official": "Bhumibol Adulyadej",
@@ -5028,14 +6393,24 @@
     },
     {
       "official": "Zulfikar Ali Bhutto",
-      "records": 31,
-      "rowsSkipped": [],
+      "records": 30,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        }
+      ],
       "title": "List of international presidential trips made by Zulfikar Ali Bhutto"
     },
     {
       "official": "Zulfikar Ali Bhutto",
-      "records": 10,
-      "rowsSkipped": [],
+      "records": 9,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        }
+      ],
       "title": "List of international prime ministerial trips made by Zulfikar Ali Bhutto"
     },
     {
@@ -5102,15 +6477,11 @@
     },
     {
       "official": "Alexander Stubb",
-      "records": 86,
+      "records": 87,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year"
-        },
-        {
-          "reason": "destination not found",
-          "text": ""
         }
       ],
       "title": "List of international presidential trips made by Alexander Stubb"
@@ -5195,19 +6566,67 @@
     },
     {
       "official": "Urho Kekkonen",
-      "records": 120,
+      "records": 72,
       "rowsSkipped": [
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Soviet Union"
         },
         {
           "reason": "destination not found",
-          "text": "United Arab Republic"
+          "text": "Soviet Union"
         },
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Hungary"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Poland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Iran"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
         }
       ],
       "title": "List of international presidential trips made by Urho Kekkonen"
@@ -5401,10 +6820,310 @@
       "title": "es:Anexo:Visitas oficiales al exterior del presidente Dmitri Medvédev"
     },
     {
+      "official": "Theodor Heuss",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Griechenland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Türkei"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Italien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kanada"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vereinigte Staaten"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vereinigtes Königreich"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Theodor Heuss"
+    },
+    {
+      "official": "Heinrich Lübke",
+      "records": 34,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Afghanistan"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Heinrich Lübke"
+    },
+    {
+      "official": "Gustav Heinemann",
+      "records": 7,
+      "rowsSkipped": [
+        {
+          "reason": "date not understood",
+          "text": "Sommer"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Herbst"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Rumänien"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Gustav Heinemann"
+    },
+    {
+      "official": "Walter Scheel",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Frankreich"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vereinigte Staaten"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Sowjetunion"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Spanien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Finnland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schweden"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bahamas"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Costa Rica"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Mexiko"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schweiz"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Mexiko"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Japan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Iran"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Cookinseln"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Neuseeland"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Walter Scheel"
+    },
+    {
+      "official": "Karl Carstens",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "monat | staaten"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "monat | staaten"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "monat | staaten"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "monat | staaten"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "monat | staaten"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Karl Carstens"
+    },
+    {
+      "official": "Richard von Weizsäcker",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "monat | staaten"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Richard von Weizsäcker"
+    },
+    {
+      "official": "Roman Herzog",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Frankreich"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Polen"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Belgien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Österreich"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Ungarn"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Belgien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Luxemburg"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Israel"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schweiz"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schweiz"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Frankreich"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Brasilien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Äthiopien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Venezuela"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Slowenien"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Roman Herzog"
+    },
+    {
       "official": "Christian Wulff",
       "records": 40,
       "rowsSkipped": [],
       "title": "List of international presidential trips made by Christian Wulff"
+    },
+    {
+      "official": "Christian Wulff",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Polen"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schweiz"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Russland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Türkei"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Israel und Palästina"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Mexiko"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Costa Rica"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Brasilien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Afghanistan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bangladesch"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Indien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vereinigte Arabische Emirate"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Italien"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Christian Wulff"
     },
     {
       "official": "Joachim Gauck",
@@ -5413,10 +7132,70 @@
       "title": "List of international presidential trips made by Joachim Gauck"
     },
     {
+      "official": "Joachim Gauck",
+      "records": 40,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "19 - 20 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13-18 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Joachim Gauck"
+    },
+    {
+      "official": "Joachim Gauck",
+      "records": 104,
+      "rowsSkipped": [],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Joachim Gauck"
+    },
+    {
       "official": "Frank-Walter Steinmeier",
       "records": 193,
       "rowsSkipped": [],
       "title": "List of international presidential trips made by Frank-Walter Steinmeier"
+    },
+    {
+      "official": "Frank-Walter Steinmeier",
+      "records": 207,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Singapur ( Singapur)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Singapur"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Frankreich"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Frank-Walter Steinmeier"
     },
     {
       "official": "Shinzō Abe",
@@ -5776,7 +7555,7 @@
     },
     {
       "official": "Anura Kurankan Dissanayake",
-      "records": 22,
+      "records": 25,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -5785,18 +7564,6 @@
         {
           "reason": "visiting country not found",
           "text": "European Union"
-        },
-        {
-          "reason": "visiting country not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "visiting country not found",
-          "text": "International Monetary Fund"
-        },
-        {
-          "reason": "visiting country not found",
-          "text": "Asian Development Bank"
         }
       ],
       "title": "List of state visits received by Anura Kumara Dissanayake"
@@ -5823,10 +7590,133 @@
       "title": "List of international presidential trips made by Marcelo Rebelo de Sousa"
     },
     {
+      "official": "Marcelo Rebelo de Sousa",
+      "records": 130,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "países visitados por marcelo rebelo de sousa entre março de 2016 e março de 2026 | países visitados por marcelo rebelo de sousa entre março de 2016 e março de 2026"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": " | número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "data | local | agenda | motivo do cancelamento | referências"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16 – 17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10 – 11 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11 – 14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11 – 14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8 – 9 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8 – 9 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "27 – 28 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "24 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15 – 16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "1 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Marcelo Rebelo de Sousa"
+    },
+    {
       "official": "António José Seguro",
       "records": 10,
       "rowsSkipped": [],
       "title": "List of international presidential trips made by António José Seguro"
+    },
+    {
+      "official": "António José Seguro",
+      "records": 8,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": " | número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "data | local | agenda | motivo do cancelamento | referências"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de António José Seguro"
+    },
+    {
+      "official": "José Sarney",
+      "records": 41,
+      "rowsSkipped": [],
+      "title": "pt:Lista de viagens presidenciais de José Sarney"
+    },
+    {
+      "official": "Itamar Franco",
+      "records": 16,
+      "rowsSkipped": [],
+      "title": "pt:Lista de viagens presidenciais de Itamar Franco"
+    },
+    {
+      "official": "Michel Temer",
+      "records": 25,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | evento | governo temer (2016–2019) | governo temer (2016–2019) | governo temer (2016–2019)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15–16 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Michel Temer"
+    },
+    {
+      "official": "Hamilton Mourão",
+      "records": 24,
+      "rowsSkipped": [],
+      "title": "pt:Lista de viagens vice-presidenciais de Hamilton Mourão"
     },
     {
       "official": "Pratibha Patil",
@@ -5911,6 +7801,73 @@
       "title": "List of international prime ministerial trips made by Anthony Albanese"
     },
     {
+      "official": "Anthony Albanese",
+      "records": 9,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | evento | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11-14 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11-17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11-19 de novembro"
+        },
+        {
+          "reason": "destination not found",
+          "text": "9"
+        },
+        {
+          "reason": "destination not found",
+          "text": "10"
+        },
+        {
+          "reason": "destination not found",
+          "text": "11"
+        },
+        {
+          "reason": "destination not found",
+          "text": "12"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Barrow-in-FurnessLondres"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Hiroshima"
+        },
+        {
+          "reason": "destination not found",
+          "text": "15"
+        },
+        {
+          "reason": "destination not found",
+          "text": "16"
+        },
+        {
+          "reason": "destination not found",
+          "text": "17"
+        },
+        {
+          "reason": "destination not found",
+          "text": "18"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Anthony Albanese"
+    },
+    {
       "official": "Alexis Tsipras",
       "records": 90,
       "rowsSkipped": [
@@ -5945,7 +7902,7 @@
     },
     {
       "official": "Felipe VI of Spain",
-      "records": 47,
+      "records": 48,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -6033,6 +7990,17 @@
       "title": "List of international presidential trips made by Sebastián Piñera"
     },
     {
+      "official": "Sebastián Piñera",
+      "records": 10,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Sebastián Piñera"
+    },
+    {
       "official": "Janez Janša",
       "records": 42,
       "rowsSkipped": [
@@ -6090,11 +8058,15 @@
     },
     {
       "official": "Ayub Khan",
-      "records": 19,
+      "records": 16,
       "rowsSkipped": [
         {
           "reason": "destination not found",
           "text": "United Arab Republic"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Ceylon"
         },
         {
           "reason": "destination not found",
@@ -6106,11 +8078,19 @@
         },
         {
           "reason": "destination not found",
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
           "text": "United Arab Republic"
         },
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Soviet Union"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
         }
       ],
       "title": "List of international presidential trips made by Ayub Khan"
@@ -6121,78 +8101,31 @@
       "rowsSkipped": [
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Soviet Union"
         },
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Soviet Union"
         }
       ],
       "title": "List of international presidential trips made by Zia-ul-Haq"
     },
     {
       "official": "Benazir Bhutto",
-      "records": 32,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        }
-      ],
+      "records": 33,
+      "rowsSkipped": [],
       "title": "List of international prime ministerial trips made by Benazir Bhutto"
     },
     {
       "official": "Nawaz Sharif",
-      "records": 62,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        }
-      ],
+      "records": 67,
+      "rowsSkipped": [],
       "title": "List of international prime ministerial trips made by Nawaz Sharif"
     },
     {
       "official": "Pervez Musharraf",
-      "records": 129,
-      "rowsSkipped": [
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        },
-        {
-          "reason": "destination not found",
-          "text": "United Nations"
-        }
-      ],
+      "records": 134,
+      "rowsSkipped": [],
       "title": "List of international presidential trips made by Pervez Musharraf"
     },
     {
@@ -6208,8 +8141,16 @@
     },
     {
       "official": "Li Peng",
-      "records": 90,
+      "records": 88,
       "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        },
         {
           "reason": "destination not found",
           "text": "FR Yugoslavia"
@@ -6397,8 +8338,23 @@
       "title": "List of international trips made by Ludwig Erhard"
     },
     {
+      "official": "Ludwig Erhard",
+      "records": 17,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schweden"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Ludwig Erhard"
+    },
+    {
       "official": "Willy Brandt",
-      "records": 36,
+      "records": 37,
       "rowsSkipped": [
         {
           "reason": "destination not found",
@@ -6406,6 +8362,25 @@
         }
       ],
       "title": "List of international trips made by Willy Brandt"
+    },
+    {
+      "official": "Willy Brandt",
+      "records": 45,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Erfurt und Gedenkstätte Buchenwald ( DDR)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Brandts Amtszeit endete am 7. Mai 1974."
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Willy Brandt"
     },
     {
       "official": "Muhammadu Buhari",
@@ -6419,23 +8394,197 @@
       "title": "List of international presidential trips made by Muhammadu Buhari"
     },
     {
-      "official": "Asif Ali Zardari",
-      "records": 77,
+      "official": "Gibran Rakabuming Raka",
+      "records": 0,
       "rowsSkipped": [
         {
-          "reason": "destination not found",
-          "text": "United Nations"
+          "reason": "table without date/place columns",
+          "text": "provinsi | kabupaten/kota | tahun | tahun | tahun | tahun | tahun | tahun | jumlah"
         },
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Jakarta Pusat"
         },
         {
           "reason": "destination not found",
-          "text": "United Nations"
+          "text": "Kabupaten Balangan"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Banjar"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Pusat"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Biak Numfor"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Jaya Wijaya"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Jaya Wijaya"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Jaya Wijaya"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Jakarta Timur"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Bekasi"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Karawang"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Tasikmalaya"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kota Tasikmalaya"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kabupaten Bandung Barat"
         }
       ],
+      "title": "id:Daftar kunjungan kerja Gibran Rakabuming Raka"
+    },
+    {
+      "official": "Asif Ali Zardari",
+      "records": 80,
+      "rowsSkipped": [],
       "title": "List of international presidential trips made by Asif Ali Zardari"
+    },
+    {
+      "official": "Ernesto Geisel",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "date not understood",
+          "text": "21 a 22 de maio"
+        },
+        {
+          "reason": "date not understood",
+          "text": "12 de junho"
+        },
+        {
+          "reason": "date not understood",
+          "text": "03 a 05 de dezembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "26 a 28 de abril"
+        },
+        {
+          "reason": "date not understood",
+          "text": "03 a 07 de maio"
+        },
+        {
+          "reason": "date not understood",
+          "text": "12 a 21 de setembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "05 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 a 19 de janeiro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "25 a 27 de janeiro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "05 a 11 de abril"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Ernesto Geisel"
+    },
+    {
+      "official": "João Figueiredo",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "date not understood",
+          "text": "06 a 08 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "09 a 11 de abril"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13 a 17 de maio"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10 a 12 de setembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28 a 31 de janeiro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "1 a 4 de fevereiro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10 a 13 de março"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16 a 20 de maio"
+        },
+        {
+          "reason": "date not understood",
+          "text": "26 de maio"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11 a 15 de maio"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18 a 22 de julho"
+        },
+        {
+          "reason": "date not understood",
+          "text": "25 a 28 de setembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "05 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "26 a 29 de abril"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 de julho a 12 de agosto"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de João Figueiredo"
+    },
+    {
+      "official": "Fernando Collor",
+      "records": 27,
+      "rowsSkipped": [],
+      "title": "pt:Lista de viagens presidenciais de Fernando Collor"
     },
     {
       "official": "Luiz Inácio Lula da Silva",
@@ -6457,6 +8606,49 @@
       "title": "List of international presidential trips made by Luiz Inácio Lula da Silva"
     },
     {
+      "official": "Luiz Inácio Lula da Silva",
+      "records": 311,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "grupo | ano | ano | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | governo lula (2023–presente) | governo lula (2023–presente) | governo lula (2023–presente) | governo lula (2023–presente)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15–17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17–18 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28–29 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "29–30 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "22 a 23 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "23 a 24 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Luiz Inácio Lula da Silva"
+    },
+    {
       "official": "Dilma Rousseff",
       "records": 39,
       "rowsSkipped": [
@@ -6466,6 +8658,49 @@
         }
       ],
       "title": "List of international presidential trips made by Dilma Rousseff"
+    },
+    {
+      "official": "Dilma Rousseff",
+      "records": 74,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "grupo | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "1-5 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15 - 19 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "12 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 - 16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14 - 15 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "29 - 30 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Dilma Rousseff"
     },
     {
       "official": "Jair Bolsonaro",
@@ -6483,6 +8718,106 @@
       "title": "List of international presidential trips made by Jair Bolsonaro"
     },
     {
+      "official": "Jair Bolsonaro",
+      "records": 0,
+      "rowsSkipped": [],
+      "title": "pt:Lista de viagens presidenciais de Jair Bolsonaro"
+    },
+    {
+      "official": "Jair Bolsonaro",
+      "records": 29,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "grupo | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13-16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16-17 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17-18 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais internacionais de Jair Bolsonaro"
+    },
+    {
+      "official": "Jair Bolsonaro",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Guarujá"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Coribe"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Propriá"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Cascavel"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Florianópolis"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Alcântara"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Sertânia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Campinas"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Rio Branco"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Foz do Iguaçu"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Tianguá, Fortaleza"
+        },
+        {
+          "reason": "date not understood",
+          "text": "São Simão"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Chapecó"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Foz do Iguaçu"
+        },
+        {
+          "reason": "destination not found",
+          "text": "São Paulo"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais nacionais de Jair Bolsonaro"
+    },
+    {
       "official": "Petr Fiala",
       "records": 39,
       "rowsSkipped": [
@@ -6492,6 +8827,17 @@
         }
       ],
       "title": "List of international prime ministerial trips made by Petr Fiala"
+    },
+    {
+      "official": "Alexander Van der Bellen",
+      "records": 60,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundespräsident Alexander Van der Bellen"
     },
     {
       "official": "Kiril Petkov",
@@ -6533,6 +8879,12 @@
       "title": "es:Anexo:Viajes internacionales del presidente Santiago Peña"
     },
     {
+      "official": "Santiago Peña Palacios",
+      "records": 7,
+      "rowsSkipped": [],
+      "title": "pt:Lista de viagens presidenciais de Santiago Peña"
+    },
+    {
       "official": "Mark Brown",
       "records": 18,
       "rowsSkipped": [
@@ -6545,15 +8897,11 @@
     },
     {
       "official": "Tharman Shanmugaratnam",
-      "records": 32,
+      "records": 33,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "country | locations | dates | details"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Paris"
         }
       ],
       "title": "List of international presidential trips made by Tharman Shanmugaratnam"
@@ -6571,16 +8919,116 @@
       "title": "es:Anexo:Viajes internacionales de la presidenta Dina Boluarte"
     },
     {
+      "official": "Konrad Adenauer",
+      "records": 63,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Adenauers Amtszeit endete am 16. Oktober 1963."
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Konrad Adenauer"
+    },
+    {
+      "official": "Kurt Georg Kiesinger",
+      "records": 19,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Kurt Georg Kiesinger"
+    },
+    {
+      "official": "Helmut Kohl",
+      "records": 350,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "( Vatikanstadt)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Saudi-Arabien"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt ( Vatikanstadt)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Singapur ( Singapur)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Singapur ( Singapur)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Hongkong ( Hongkong)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Kohls Amtszeit endete am 27. Oktober 1998."
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Helmut Kohl"
+    },
+    {
+      "official": "Gerhard Schröder",
+      "records": 149,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "( Libanon)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Singapur ( Singapur)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Schröders Amtszeit endete am 22. November 2005."
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Gerhard Schröder"
+    },
+    {
       "official": "Angela Merkel",
-      "records": 561,
+      "records": 562,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "group | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year | year"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of international trips made by Angela Merkel"
@@ -6637,6 +9085,33 @@
       "title": "es:Anexo:Visitas oficiales al exterior de la canciller Angela Merkel"
     },
     {
+      "official": "Angela Merkel",
+      "records": 550,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "( Israel)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Luxemburg ( Luxemburg)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt ( Vatikanstadt)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Vatikanstadt ( Vatikanstadt)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Merkels Amtszeit endete am 8. Dezember 2021."
+        }
+      ],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzlerin Angela Merkel"
+    },
+    {
       "official": "Friedrich Merz",
       "records": 64,
       "rowsSkipped": [
@@ -6646,6 +9121,12 @@
         }
       ],
       "title": "List of international trips made by Friedrich Merz"
+    },
+    {
+      "official": "Friedrich Merz",
+      "records": 62,
+      "rowsSkipped": [],
+      "title": "de:Liste der Auslandsreisen von Bundeskanzler Friedrich Merz"
     },
     {
       "official": "Winston Peters",
@@ -6728,8 +9209,17 @@
     },
     {
       "official": "Kim Il-sung",
-      "records": 48,
-      "rowsSkipped": [],
+      "records": 47,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "East Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "East Germany"
+        }
+      ],
       "title": "List of international trips made by Kim Il Sung"
     },
     {
@@ -6748,6 +9238,12 @@
       "title": "fr:Liste des voyages officiels effectués par Kim Il-sung"
     },
     {
+      "official": "Kim Il-sung",
+      "records": 0,
+      "rowsSkipped": [],
+      "title": "ko:김일성의 해외 순방 목록"
+    },
+    {
       "official": "Kim Jong-il",
       "records": 13,
       "rowsSkipped": [],
@@ -6758,6 +9254,12 @@
       "records": 10,
       "rowsSkipped": [],
       "title": "fr:Liste des voyages officiels effectués par Kim Jong-il"
+    },
+    {
+      "official": "Kim Jong-il",
+      "records": 0,
+      "rowsSkipped": [],
+      "title": "ko:김정일의 해외 순방 목록"
     },
     {
       "official": "Kim Jong-un",
@@ -6790,6 +9292,27 @@
         }
       ],
       "title": "fr:Liste des voyages officiels effectués par Kim Jong-un"
+    },
+    {
+      "official": "Kim Jong-un",
+      "records": 7,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "TBA"
+        },
+        {
+          "reason": "date not understood",
+          "text": "TBA"
+        }
+      ],
+      "title": "id:Daftar kunjungan kenegaraan Kim Jong-un"
+    },
+    {
+      "official": "Kim Jong-un",
+      "records": 0,
+      "rowsSkipped": [],
+      "title": "ko:김정은의 해외 순방 목록"
     },
     {
       "official": "Bernardo Arévalo de León",
@@ -6915,6 +9438,29 @@
       "title": "es:Anexo:Viajes internacionales del presidente Andrés Manuel López Obrador"
     },
     {
+      "official": "Andrés Manuel López Obrador",
+      "records": 9,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8–9 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18–19 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16–17 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Andrés Manuel López Obrador"
+    },
+    {
       "official": "Claudia Sheinbaum",
       "records": 10,
       "rowsSkipped": [
@@ -6977,6 +9523,25 @@
       "title": "es:Anexo:Viajes internacionales de la presidenta Claudia Sheinbaum"
     },
     {
+      "official": "Claudia Sheinbaum",
+      "records": 3,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18–19 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Claudia Sheinbaum"
+    },
+    {
       "official": "Abdul Hamid",
       "records": 3,
       "rowsSkipped": [],
@@ -7000,6 +9565,17 @@
       "title": "List of international presidential trips made by Park Geun-hye"
     },
     {
+      "official": "Park Geun-hye",
+      "records": 49,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "기구 | 연도 | 연도 | 연도 | 연도 | 연도"
+        }
+      ],
+      "title": "ko:박근혜의 대통령 순방 목록"
+    },
+    {
       "official": "Moon Jae-in",
       "records": 59,
       "rowsSkipped": [
@@ -7011,6 +9587,17 @@
       "title": "List of international presidential trips made by Moon Jae-in"
     },
     {
+      "official": "Moon Jae-in",
+      "records": 58,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "기구 | 연도 | 연도 | 연도 | 연도 | 연도"
+        }
+      ],
+      "title": "ko:문재인의 대통령 순방 목록"
+    },
+    {
       "official": "Yoon Suk Yeol",
       "records": 36,
       "rowsSkipped": [
@@ -7020,6 +9607,12 @@
         }
       ],
       "title": "List of international presidential trips made by Yoon Suk Yeol"
+    },
+    {
+      "official": "Yoon Suk Yeol",
+      "records": 0,
+      "rowsSkipped": [],
+      "title": "ko:윤석열의 대통령 순방 목록"
     },
     {
       "official": "Lee Jae Myung",
@@ -7035,6 +9628,17 @@
         }
       ],
       "title": "List of international presidential trips made by Lee Jae Myung"
+    },
+    {
+      "official": "Lee Jae Myung",
+      "records": 25,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "중국"
+        }
+      ],
+      "title": "ko:이재명의 대통령 순방 목록"
     },
     {
       "official": "Petro Poroshenko",
@@ -7161,6 +9765,45 @@
         }
       ],
       "title": "List of international prime ministerial trips made by Matteo Renzi"
+    },
+    {
+      "official": "Matteo Renzi",
+      "records": 64,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15-16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "24 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15-16 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "25 de novembro"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Matteo Renzi"
     },
     {
       "official": "Giuseppe Conte",
@@ -7413,7 +10056,7 @@
     },
     {
       "official": "Brian Mulroney",
-      "records": 22,
+      "records": 23,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
@@ -7494,6 +10137,73 @@
         }
       ],
       "title": "es:Anexo:Visitas oficiales al exterior del primer ministro Justin Trudeau"
+    },
+    {
+      "official": "Justin Trudeau",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "número de visitas | país"
+        },
+        {
+          "reason": "table without date/place columns",
+          "text": "organização | ano | ano | ano | ano | ano | ano | ano | ano | ano"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14-15 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "17-19 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "24-26 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "26-28 de novembro"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28-30 de novembro"
+        },
+        {
+          "reason": "destination not found",
+          "text": "4"
+        },
+        {
+          "reason": "destination not found",
+          "text": "5"
+        },
+        {
+          "reason": "destination not found",
+          "text": "6"
+        },
+        {
+          "reason": "destination not found",
+          "text": "7"
+        },
+        {
+          "reason": "destination not found",
+          "text": "8"
+        },
+        {
+          "reason": "destination not found",
+          "text": "9"
+        },
+        {
+          "reason": "destination not found",
+          "text": "10"
+        },
+        {
+          "reason": "destination not found",
+          "text": "10"
+        }
+      ],
+      "title": "pt:Lista de viagens primo-ministeriais de Justin Trudeau"
     },
     {
       "official": "Mark Carney",
@@ -7685,6 +10395,69 @@
       "title": "List of international presidential trips made by Bashar al-Assad"
     },
     {
+      "official": "Bashar Donkey",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "date not understood",
+          "text": "۱۸ مارس"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۸ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۰ فوریه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۴–۱۵ مارس"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۸ مارس"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۸–۱۹ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۱–۲۶ سپتامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۰–۱۱ نوامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۶ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۳۰ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۴–۲۵ ژوئیه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۱ نوامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۸–۲۹ نوامبر"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۸ دسامبر"
+        }
+      ],
+      "title": "fa:فهرست سفرهای بین‌المللی بشار اسد"
+    },
+    {
       "official": "Ahmed al-Sharaa",
       "records": 36,
       "rowsSkipped": [
@@ -7722,6 +10495,53 @@
         }
       ],
       "title": "List of international presidential trips made by Ahmed al-Sharaa"
+    },
+    {
+      "official": "Ahmed al-Sharaa",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "گروه | سال | سال | سال | سال | سال | سال | سال"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲–۳ فوریه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۴ فوریه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۲۶ فوریه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۴ مارس"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۱–۱۳ آوریل"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۳ آوریل"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۵ آوریل"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۷ مه"
+        },
+        {
+          "reason": "date not understood",
+          "text": "۱۰ مه"
+        }
+      ],
+      "title": "fa:فهرست سفرهای بین‌المللی ریاست‌جمهوری احمد الشرع"
     },
     {
       "official": "Guillermo Lasso",
@@ -7762,6 +10582,23 @@
         }
       ],
       "title": "List of international presidential trips made by Hassan Rouhani"
+    },
+    {
+      "official": "Masoud Pezeshkian",
+      "records": 20,
+      "rowsSkipped": [],
+      "title": "fa:سفرهای خارجی دولت چهاردهم"
+    },
+    {
+      "official": "Masoud Pezeshkian",
+      "records": 0,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "العراق"
+        }
+      ],
+      "title": "ar:قائمة الرحلات الخارجية للرئيس الرابع عشر لإيران"
     },
     {
       "official": "Ulf Kristersson",
@@ -7888,6 +10725,28 @@
       "title": "List of international presidential trips made by Gitanas Nausėda"
     },
     {
+      "official": "Chan Santokhi",
+      "records": 50,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "grupo | ano | ano | ano | ano | ano | ano"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Chan Santokhi"
+    },
+    {
+      "official": "Jennifer Geerlings-Simons",
+      "records": 9,
+      "rowsSkipped": [
+        {
+          "reason": "table without date/place columns",
+          "text": "grupo | ano | ano | ano | ano | ano | ano"
+        }
+      ],
+      "title": "pt:Lista de viagens presidenciais de Jennifer Simons"
+    },
+    {
       "official": "Kersti Kaljulaid",
       "records": 119,
       "rowsSkipped": [
@@ -7929,33 +10788,51 @@
     },
     {
       "official": "Slobodan Milošević",
-      "records": 20,
-      "rowsSkipped": [],
+      "records": 19,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Soviet Union"
+        }
+      ],
       "title": "List of international presidential trips made by Slobodan Milošević"
     },
     {
       "official": "George VI",
-      "records": 0,
+      "records": 19,
       "rowsSkipped": [
         {
-          "reason": "table without date/place columns",
-          "text": "visit to yugoslavia in october 1923: | visit to yugoslavia in october 1923: | visit to yugoslavia in october 1923: | visit to yugoslavia in october 1923:"
+          "reason": "destination not found",
+          "text": "Anglo-Egyptian Sudan"
         },
         {
-          "reason": "table without date/place columns",
-          "text": "as king of the united kingdom | as king of the united kingdom | as king of the united kingdom | as king of the united kingdom"
+          "reason": "destination not found",
+          "text": "Mauritius"
         },
         {
-          "reason": "table without date/place columns",
-          "text": "tour of north america from may to june 1939: | tour of north america from may to june 1939: | tour of north america from may to june 1939: | tour of north america from may to june 1939:"
+          "reason": "destination not found",
+          "text": "Northern Rhodesia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bechuanaland"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Saint Helena"
         }
       ],
       "title": "List of official overseas trips made by George VI"
     },
     {
       "official": "George VI",
-      "records": 7,
-      "rowsSkipped": [],
+      "records": 6,
+      "rowsSkipped": [
+        {
+          "reason": "visiting country not found",
+          "text": "Romania"
+        }
+      ],
       "title": "List of state visits received by George VI"
     },
     {
@@ -7972,7 +10849,46 @@
     },
     {
       "official": "Elizabeth II",
-      "records": 98,
+      "records": 182,
+      "rowsSkipped": [
+        {
+          "reason": "destination not found",
+          "text": "Ceylon"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Aden"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Akrotiri and Dhekelia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "British Guiana"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Saint Christopher-Nevis-Anguilla"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Hong Kong"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Hong Kong"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Akrotiri and Dhekelia"
+        }
+      ],
+      "title": "List of Commonwealth official trips made by Elizabeth II"
+    },
+    {
+      "official": "Elizabeth II",
+      "records": 97,
       "rowsSkipped": [
         {
           "reason": "destination not found",
@@ -7981,17 +10897,65 @@
         {
           "reason": "destination not found",
           "text": "West Berlin"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
         }
       ],
       "title": "List of state visits made by Elizabeth II"
     },
     {
       "official": "Elizabeth II",
-      "records": 113,
+      "records": 102,
       "rowsSkipped": [
         {
           "reason": "table without date/place columns",
           "text": "countries | state visits | notes"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Iraq"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Iran"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Greece"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Afghanistan"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Zaire"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Romania"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Nepal"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "West Germany"
         }
       ],
       "title": "List of state visits received by Elizabeth II"
@@ -8084,7 +11048,7 @@
     },
     {
       "official": "Charles III",
-      "records": 483,
+      "records": 475,
       "rowsSkipped": [
         {
           "reason": "destination not found",
@@ -8096,7 +11060,47 @@
         },
         {
           "reason": "destination not found",
-          "text": "Saint Kitts"
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Yugoslavia"
+        },
+        {
+          "reason": "destination not found",
+          "text": "British Hong Kong"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Germany"
         },
         {
           "reason": "destination not found",
@@ -8105,22 +11109,6 @@
         {
           "reason": "destination not found",
           "text": "British Hong Kong"
-        },
-        {
-          "reason": "destination not found",
-          "text": "British Hong Kong"
-        },
-        {
-          "reason": "destination not found",
-          "text": "British Hong Kong"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
-        },
-        {
-          "reason": "destination not found",
-          "text": "Kosovo"
         }
       ],
       "title": "List of official overseas trips made by Charles III"
@@ -8172,12 +11160,14 @@
     "AFG: Noor Mohammad Saqib (Acting)",
     "AFG: Qari Din Mohammad (Acting)",
     "AFG: Sirajuddin Haqqani (Acting)",
+    "AGO: Agostinho de Carvalho dos Santo Van-Dunem",
     "AGO: Ana Maria de Sousa E Silva",
     "AGO: Ana Paula do Sacramento Neto",
     "AGO: Carlos Alberto Gregorio Dos Santos",
     "AGO: Dionisio Manuel da Fonseca",
     "AGO: Felipe Silva de Pina Zau",
     "AGO: Lucio Goncalves Amaral",
+    "AGO: Manuel Tiago Dias",
     "AGO: Mario Augusto da Silva Oliveira",
     "ALB: Bora Muzhaqi",
     "ALB: Elva Margariti",
@@ -8197,11 +11187,13 @@
     "ARE: Alia bint Abdullah al-Mazrouei",
     "ARE: Amna bint Abdullah al-Shamsi",
     "ARE: Jaber Muhammad Ghanem al-Suwaidi",
+    "ARE: Khalid Muhammad Balama",
     "ARE: Khalifa Shahin al-Marrar",
     "ARE: Maitha Salim al-Shamsi",
     "ARE: Mansur bin Zayid Al Nuhayyan",
     "ARE: Mohammed Mubarak al-Mazrouei",
     "ARE: Muhammad Abdallah al-Gargawi",
+    "ARE: Muhammad Abushahab",
     "ARE: Muhammad Bin Rashid Al Maktum",
     "ARE: Muhammad bin Hadi al-Hussaini",
     "ARE: Nahyan bin Mubarak Al Nuhayyan",
@@ -8214,34 +11206,51 @@
     "ARE: Suhail bin Muhammad al-Mazrui",
     "ARE: Sultan Ahmad al-Jabir",
     "ARE: Sultan Saif al-Neyadi",
+    "ARE: Yusif bin Mani bin Said al-Utayba",
     "ARG: Alejandra Monteolivia",
+    "ARG: Alejandro Carlos Francisco Oxenford",
+    "ARG: Francisco Tropepi",
     "ARM: Arsen Torosyan",
     "ARM: Davit Tadevosyan",
+    "ARM: Paruyr Hovhannisyan",
     "ATG: Anthony Smith Jr.",
     "ATG: Daryll Matthew",
     "ATG: Dwayne George",
     "ATG: Michael Joseph",
+    "ATG: Rodney Williams",
+    "ATG: Ronald Sanders",
     "ATG: Steadroy Benjamin",
+    "ATG: Walton Webson",
     "AUS: Kathy Gallagher",
+    "AUT: Gregor Koessler",
     "AZE: Adil Karimli",
     "AZE: Emin Amrullayev",
     "AZE: Mehriban Aliyeva",
     "AZE: Mukhtar Babayev",
     "AZE: Parviz Shahbazov",
     "AZE: Teymur Musayev",
+    "AZE: Tofig Musayev",
     "AZE: Vilayat Eyvazov",
     "AZE: Yagub Eyyubov",
     "BDI: Arthemon Katihabwa",
+    "BDI: Edouard-Normand Bigendako",
     "BDI: Egide Nuimbere",
+    "BDI: Jean Bosco Barege",
     "BDI: Valentin Bagorikunda",
+    "BDI: Zephyrin Maniratanga",
+    "BEL: Frederic Bernard",
+    "BEL: Sophie De Smedt",
+    "BEN: Agniola Ahouanmenou",
     "BEN: Jose Didier Tonato",
     "BEN: Kegnide Paulin Akponna",
+    "BEN: Marc Hermanne Gninadoou Araba",
     "BEN: Romauld Wadagni",
     "BEN: Shegun Adjadi Bakari",
     "BFA: Aboubakar Nacanabo",
     "BFA: B. Stella Eldine Kabre-Kabore",
     "BFA: Mikaikou Sidibe",
     "BFA: Moumouni Zoungrana",
+    "BFA: Saidou Zongo",
     "BGD: A.N.M. Ehsanul Hoque Milon",
     "BGD: Abdul Awal Mintu",
     "BGD: Abu Zafar Mohammed Zahid Hossain",
@@ -8253,11 +11262,14 @@
     "BGD: Mohammed Abdul Bari",
     "BGD: Mohammed Aminur Rashid",
     "BGD: Mohammed Asaduzzman",
+    "BGD: Mohammed Mostaqur Rahman",
     "BGD: Mohammed Shahid Uddin Chowdhury Anee",
     "BGD: Sardar Mohammed Sakhawat Husain",
     "BGD: Shaikh Rabiul Alam",
+    "BGD: Tareq Mohammed Ariful Islam",
     "BGD: Zakaria Taher Suman",
     "BGR: Dimitrar Stoyanov",
+    "BGR: Gergana Karadjova",
     "BGR: Ivan Demerdzhiev",
     "BGR: Miroslav Borsos",
     "BGR: Velislava Petrova-Charmova",
@@ -8269,6 +11281,7 @@
     "BHR: Ghanim bin Fadhil al-Buaynayn",
     "BHR: Hamad bin Faisal al-Malki",
     "BHR: Jalila bint al-Sayed Jawad Hassan",
+    "BHR: Jamal Faris al-Ruwayi",
     "BHR: Jamil Muhammad Ali Humaydan",
     "BHR: Khalid bin Abdallah Al Khalifa",
     "BHR: Majid bin Ali Hasan al-Nuaymi",
@@ -8279,6 +11292,7 @@
     "BHR: Osama bin Ahmed Khalaf al-Asfoor",
     "BHR: Ramzan bin Abdallah al-Nuaymi",
     "BHR: Rashid bin Abdallah bin Ahmad Al Khalifa",
+    "BHR: Rashid bin Muhammad al-Maraj",
     "BHR: Wael bin Naser al-Mubarak",
     "BHR: Yasir bin Ibrahim Humaydan",
     "BHR: Yusif bin Abd al-Hussein Khalaf",
@@ -8305,8 +11319,10 @@
     "BHS: Owen Carlo Benjamin Wells",
     "BHS: Pia Takita Glover-Rolle",
     "BHS: Sebastian Bastian",
+    "BHS: Stan O. Smith",
     "BHS: Wayde Alexander Watson",
     "BHS: Wayne R. Munroe",
+    "BHS: Wendall K. Jones",
     "BHS: Zane Enrico Lightbourne",
     "BIH: Sevlid Hurtic",
     "BIH: Srdjan Amidzic",
@@ -8327,9 +11343,11 @@
     "BLR: Mikalay Snapkow",
     "BLR: Natallya Pavlyuchenka",
     "BLR: Natallya Pyatkevich",
+    "BLR: Raman Halowchenka",
     "BLR: Ruslan Chernetsky",
     "BLR: Syarhey Maslyak",
     "BLR: Vadym Sinyawski",
+    "BLR: Valyantsin Rybakow",
     "BLR: Viktar Karankevich",
     "BLR: Yawheny Kavalenka",
     "BLR: Yury Chebotar",
@@ -8337,10 +11355,13 @@
     "BLR: Yury Shuleyka",
     "BLR: Yuryy Seliverstaw",
     "BLZ: Julius Espat",
+    "BLZ: Kareem Michael",
     "BLZ: Louise Zabaneh",
+    "BLZ: Lynn Raymond Young",
     "BLZ: Michel Chebat",
     "BLZ: Thea Garcia Ramirez",
     "BMU: Everard Trenton Richards",
+    "BMU: George Fergusson",
     "BMU: Leah Scott",
     "BMU: Mark Pettingill",
     "BMU: Michael Fahy",
@@ -8359,6 +11380,7 @@
     "BOL: Hector Huanca Gutierrez",
     "BOL: Jose Fernando Romero Pinto",
     "BOL: Jose Gabriel Espinoza Yanez",
+    "BOL: Jose Luis Lupo Flores",
     "BOL: Marco Antonio Oviedo Huerta",
     "BOL: Mauricio Zamora Liebers",
     "BOL: Oscar Mario Justiniano Pinto",
@@ -8372,6 +11394,7 @@
     "BRA: Janine Mello Dos Santos",
     "BRA: Marcia Lopez",
     "BRA: Paulo Henrique Cordeiro Perna",
+    "BRA: Santiago Bausili",
     "BRA: Tome Barros Monteiro da Franca",
     "BRA: Vladimir Lima",
     "BRB: Adrian R. Forde",
@@ -8380,20 +11403,24 @@
     "BRB: Cheryl S. V. Husbands",
     "BRB: Chris D. L. Gibbs",
     "BRB: Colin E. Jordan",
+    "BRB: Francois Jackman",
     "BRB: Gregory P. B. Nicholls",
     "BRB: Ian Gooding-Edghill",
     "BRB: Indar A. Weir",
     "BRB: Jonathan W. D. Reid",
     "BRB: Kay S. Mcconney",
+    "BRB: Kevin Greenidge",
     "BRB: Kirk D. Humphrey",
     "BRB: Lisa R. Cummins",
     "BRB: Michael Lashley",
     "BRB: Ryan R. Straughn",
     "BRB: Shantal M. Munroe-Knight",
     "BRB: Trevor A. Prescod",
+    "BRB: Victor Fernandes",
     "BRB: Wilfred Abrahams",
     "BRN: Abdullah Manaf Metussin",
     "BRN: Ahmaddin Abdullah Rahman",
+    "BRN: Hairani Tajuddin",
     "BRN: Hajah Romaizah",
     "BRN: Halbi Muhammad Yussof",
     "BRN: Laila Utama Isa bin Ibrahim",
@@ -8401,12 +11428,16 @@
     "BRN: Matsatejo bin Sokiaw",
     "BRN: Mohammad Juanda Abullaha Rashid",
     "BRN: Nazmi Mohammad",
+    "BRN: Serbini Ali",
     "BRN: Shamhary Mustapha",
     "BTN: Chandra Gurung",
     "BTN: Dina Nath Dhungyel",
     "BTN: Gem Tshering",
     "BTN: Namgyal Dorji",
+    "BTN: Tenzin Rondel Wangchuk",
+    "BTN: Yangchen Tshogyel",
     "BTN: Younten Phuntsho",
+    "BWA: Charles Masole",
     "BWA: David Tshere",
     "BWA: Jacob Kelebeng",
     "BWA: Ketlhalefile Motshegwa",
@@ -8426,27 +11457,35 @@
     "CAF: Jean Laurent Syssa-Magale",
     "CAF: Josiane Lima Bemaka-Soui",
     "CAF: Lea Mboua Koyasoum-Doumta",
+    "CAF: Marius Aristide Hoja Nzessioue",
+    "CAF: Martial Ndoubou",
     "CAF: Opportune Edwige Pouninguiza",
     "CAF: Rodolphe Heritier Bonheur Doneng-Wanzoumon",
     "CAF: Roger Andjalandji",
     "CAF: Sylla Simbala",
+    "CHE: Ralf Heckner",
+    "CHL: Andres Ergas Heymann",
     "CHL: Fernando Rabat",
     "CHL: Tomas Rau",
     "CHN: Lei Haichao",
     "CHN: Wang Guangha",
     "CIV: Ibrahim Kalil Konate",
+    "CIV: Ibrahima Toure",
     "CIV: Jacque Assahore Konan",
     "CIV: Kobenon Kouassi Adjoumani",
     "CIV: Logboh Myss Belmode Dogo",
     "CIV: Naile Kaba",
+    "CIV: Tiemoko Moriko",
     "CMR: Doctor Taiga",
     "CMR: Galax Yves Landry Etoga",
     "CMR: George Obam Elanga",
     "CMR: Gregroire Owona",
     "CMR: Hamadou Mustapha",
+    "CMR: Henri Etoundi Essomba",
     "CMR: Marie Theresa Abena Ondoa",
     "CMR: Mba Acha Rose Fomundam",
     "CMR: Michel Ange Angouin",
+    "CMR: Yvon Sana Bangui",
     "COD: Daniel Mokoko Samba",
     "COD: Ferdinand Massamba",
     "COD: Floribert Azuluni",
@@ -8467,7 +11506,9 @@
     "COD: Samuel Mbemba",
     "COD: Samuel-Roger Kamba Mulanda",
     "COD: Therese Kayikwamba Wagner",
+    "COD: Vacant",
     "COD: Yolande Elebe Mandembo",
+    "COD: Zenon Mukongo Ngay",
     "COG: Aime Ange Wilfrid Bininga",
     "COG: Alphonse-Claude Nsilou",
     "COG: Constant Serge Bounda",
@@ -8482,6 +11523,7 @@
     "COG: Jean-Marc Thystere Tchicaya",
     "COG: Josue Rodrigue Ngouonimba",
     "COG: Juste Desire Mondele",
+    "COG: Lazare Makayat Safouesse",
     "COG: Luc Joseph Okio",
     "COG: Ludovic Ngatse",
     "COG: Marie-France Helene Lydie Pongault",
@@ -8509,6 +11551,8 @@
     "COL: Jamie Andres Beltran",
     "COL: Jesus Alejandro Barrera Pena",
     "COL: Jorge Andres Zuluaga Lopez",
+    "COL: Jorge Jaller",
+    "COL: Jose Mauricio Gaona Bejarano",
     "COL: Juliana Gutierrez",
     "COL: Maria Arboleda",
     "COL: Mauricio Gomez-Amin",
@@ -8524,16 +11568,18 @@
     "COM: Daniel Ali Bandar",
     "COM: Fatima Ahamada",
     "COM: Hassane Alfeine Yasmine",
+    "COM: Issimail Chanfi",
     "COM: Mbae Mohamed",
     "COM: Mohamed Nourouddine Afraitane",
     "COM: Moussa Abderemane",
     "COM: Moustoifa Hassane Mohamed",
     "COM: Nour El Fath Azali",
     "COM: Oumouri M’madi Hassane",
-    "COM: Said Mohamed Ali Said",
+    "COM: Younoussa Imani",
     "COM: Youssoufa Mohamed Ali",
     "CRI: Alexander Sanchez Cabo",
     "CRI: Arnold Zamora Miranda",
+    "CRI: Boris Marchegiani",
     "CRI: Carla Morales Rojas",
     "CRI: Carlo Diaz Sanchez",
     "CRI: Efraím Zeledon Leiva",
@@ -8549,23 +11595,15 @@
     "CRI: Mónica Navarro",
     "CRI: Paula Bogantes Zamora",
     "CRI: Yorleni Leon Marchena",
-    "CUB: Alberto Lopez Diaz",
     "CUB: Alfonso Noya Martinez",
-    "CUB: Antonio Rodriguez Rodriguez",
-    "CUB: Armando Rodriguez Batista",
-    "CUB: Betsy Diaz Velazquez",
-    "CUB: Eduardo Martinez Diaz",
-    "CUB: Eduardo Rodriguez Davila",
     "CUB: Eloy Alvarez Martinez",
+    "CUB: Ernesto Soberon Guzman",
     "CUB: Jesus Otamendiz Campos",
     "CUB: Joaquin Alonso Vazquez",
-    "CUB: Jose Amado Ricardo Guerra",
-    "CUB: Juan Carlos Garcia Granda",
-    "CUB: Mayra Arevich Marin",
+    "CUB: Juana Lilia Delgado Portal",
     "CUB: Miriam Marban Gonzalez",
     "CUB: Naima Trujillo Barreto",
     "CUB: Oscar Manuel Silvera Martinez",
-    "CUB: Oscar Perez-Oliva Fraga",
     "CUB: Osvaldo Caridad Vento Montiller",
     "CUB: Raúl Omar Acosta Gregorich",
     "CUB: Rene Mesa Villafana",
@@ -8574,7 +11612,9 @@
     "CUB: Walter Baluja García",
     "CUB: Yamila Pena Ojeda",
     "CUB: Ydael Perez Brito",
+    "CYP: Christodoulos Patsalidis",
     "CYP: Eirini Piki",
+    "CYP: Evangelos Savva",
     "CYP: Evanthia Tsolaki",
     "CYP: Klea Chatzistefanou Papaellina",
     "CYP: Konstantinos Fytiris",
@@ -8586,12 +11626,12 @@
     "CYP: Nikodimos Damianou",
     "CYP: Nikolas Ioannidis",
     "CYP: Tina Pavlu",
-    "CZE: Adam Vojtech",
     "CZE: Ivan Bednarik",
-    "CZE: Karel Havlicek",
+    "CZE: Miloslav Stasek",
     "DEU: Baerbel Bas",
     "DEU: Dorothee Baer",
     "DEU: Karsten Wildeberger",
+    "DJI: Ahmed Osman Ali",
     "DJI: Hassan Mohamed Kamil",
     "DJI: Kassim Haroun Ali",
     "DJI: Mariam Hamadou Ali",
@@ -8601,19 +11641,21 @@
     "DMA: Cozier Frederick",
     "DMA: Fidel Grant",
     "DMA: Greta Roberts",
-    "DMA: Irving Mcintyre",
     "DMA: Levi Peter",
-    "DMA: Melissa Poponne-Skerrit",
     "DMA: Miriam Blanchard",
+    "DMA: Philbert Aaron",
     "DMA: Rayburn Blackmoore",
     "DMA: Roland Royer",
     "DNK: Ane Halsboe-Jorgensen",
+    "DNK: Christian Kettel Thomsen",
     "DNK: Christian Rabjerg Madsen",
     "DNK: Christina Egelund",
+    "DNK: Christina Markus Lassen",
     "DNK: Ida Auken",
     "DNK: Jacob Engel-Schmidt",
     "DNK: Jacob Mark",
     "DNK: Jeppe Bruus",
+    "DNK: Jesper Moller Sorensen",
     "DNK: Lars Lokke Rasmussen",
     "DNK: Lisbeth Bech-Nielsen",
     "DNK: Magnus Heunicke",
@@ -8623,23 +11665,19 @@
     "DNK: Samira Nawa Amini",
     "DNK: Signe Munk",
     "DNK: Zenia Stampe",
-    "DOM: Antoliano Peralta",
     "DOM: Armando Paino Henriquez",
     "DOM: Carlos Antonio Fernandez Onofre",
     "DOM: Carlos José Valdez Matos",
     "DOM: Eddy de Jesus Olivares Ortega",
     "DOM: Francisco Oliverio Espillat Bencosme",
-    "DOM: Gloria Reyes",
-    "DOM: Jean Luis Rodriguez",
     "DOM: Jochy Vicente",
-    "DOM: Joel Santos Echavarria",
     "DOM: Jose Ignacio Ramon Paliza Nouel",
     "DOM: Luis Miguel De Camps Garcia",
     "DOM: Miguel Ceara Hatton",
-    "DOM: Roberto Angel Salcedo Sanz",
     "DOM: Sigmund Freund Mena",
-    "DOM: Victor Elias Atallah Lajam",
+    "DOM: Wellington Dario Bencosme Castanos",
     "DOM: Yayo Sanz Lovaton",
+    "DOM: Yvette Ngandu Kapinga",
     "DZA: Abdelkader Jellaoui",
     "DZA: Abdelkrim Bouzerd",
     "DZA: Amel Abdelatif",
@@ -8657,10 +11695,12 @@
     "DZA: Wassim Gouidri",
     "DZA: Yacine Walid",
     "DZA: Yahya Boukhari",
+    "ECU: Andres Montalvo Sosa",
     "ECU: Gilda Alcivar Garcia",
     "ECU: Gustavo Camacho",
     "ECU: Henry Delgado Salvador",
     "ECU: Jaime Otton Bernabe",
+    "ECU: John Eduardo Mino Razo",
     "ECU: John Reimberg Oviedo",
     "ECU: Jorge Antonio Jacome",
     "ECU: Jose Julio Neira Hanze",
@@ -8670,6 +11710,9 @@
     "ECU: Luis Jaramillo Granja",
     "ECU: Maricela Benites",
     "ECU: Marlon Vargas",
+    "ECU: Mauricio Xavier Salazar Machuca",
+    "ECU: Pablo Ivan Pazmino Manrique",
+    "ECU: Pablo Vinicio Davila Maldonado",
     "ECU: Roberto Carlos Kury Pesantes",
     "ECU: Roberto Xavier Luque Nuques",
     "ECU: Ronald Spina",
@@ -8682,8 +11725,10 @@
     "EGY: Diaa Youssef Rashwan Ahmed",
     "EGY: Hani Hanna Sidra Azar",
     "EGY: Hani Swailem,",
+    "EGY: Hassan Abdullah (Acting)",
     "EGY: Hassan Raddad Ibrahim Al-Sayed",
     "EGY: Hussein Eilssa",
+    "EGY: Ihab Awad",
     "EGY: Jihan Zaki",
     "EGY: Kamil Al-Wazir,",
     "EGY: Khaled Atef Abdel-Ghaffar,",
@@ -8692,6 +11737,7 @@
     "EGY: Mahmoud Helmy El-Sherif",
     "EGY: Mohamed Ahmed Abdel Latif",
     "EGY: Mohamed Farid Saleh",
+    "EGY: Motaz Mounir Zahran",
     "EGY: Osama Al-Azhari,",
     "EGY: Raafat Abdel Aziz Fahmy Mohamed Amin Hendy",
     "EGY: Randa Ali Saleh Al-Manshawy",
@@ -8699,42 +11745,36 @@
     "ERI: Alem Kibreab",
     "ERI: Berhane Gebrehiwet Solomon",
     "ERI: Gergis Teklemicael",
-    "ERI: Giorgis Teklemichael",
+    "ERI: Kibreab Woldemariam",
     "ERI: Nesredin Mohammed-Saleh",
     "ERI: Petros Hailemariam (Acting)",
     "ERI: Tesfaslasie Berhane",
     "ERI: Tewolde Kelati",
-    "ESP: Angel Victor Torres Perez",
-    "ESP: Ernest Urtasun Domenech",
-    "ESP: Felix Bolanos Garcia",
-    "ESP: Fernando Grande-Marlaska Gomez",
-    "ESP: Isabel Rodriguez Garcia",
-    "ESP: Jordi Hereu i Boher",
-    "ESP: Monica Garcia Gomez",
-    "ESP: Pilar Alegria Continente",
-    "ESP: Sara Aagesen Munoz",
-    "EST: Lauri Laanemets",
     "EST: Lisa-Ly Pakosta",
     "ETH: Alemu Simie",
     "ETH: Aynalem Ngusaye",
     "ETH: Belete Molla Getahun",
+    "ETH: Binalf Andualem Ashenef",
     "ETH: Birhanu Nega",
     "ETH: Gedion Timothewos Hessebon",
     "ETH: Habtamu Itefa Geleta",
     "ETH: Hanna Araya Selassie",
-    "ETH: Melaku Alebel",
+    "ETH: Mamo Esmelealem Mihretu",
     "ETH: Selamawit Kassa Wodajeneh",
     "ETH: Temesgen Tiruneh Dinku",
+    "ETH: Tesfaye Yilma Sabo",
     "ETH: Vacant",
-    "FIN: Mari Rantanen",
+    "FIN: Janne Taalas",
     "FIN: Sanni Grahn-Lassonen",
     "FJI: Agni Deo Singh",
     "FJI: Alitia Bainivalu",
     "FJI: Aseri Masivou Radrodro",
     "FJI: Charan Jeath Singh",
     "FJI: Esrom Immanuel",
+    "FJI: Filipo Tarakinikini",
     "FJI: Graham Leung",
     "FJI: Ifereimi Vasu",
+    "FJI: Ilisoni Vuidreketi",
     "FJI: Maciu Katamotu Nalumisa",
     "FJI: Mosese Bulitavu",
     "FJI: Ratu Atonio Rabici Lalabalavu",
@@ -8747,8 +11787,9 @@
     "FSM: Carlson D. Apis",
     "FSM: Cynthia Ehmes (Acting)",
     "FSM: Epel Ilon",
-    "FSM: Gardenia Aisek",
     "FSM: Hainrick Panuelo",
+    "FSM: Jackson T. Soram",
+    "FSM: Jeem S. Lippwe",
     "FSM: Leonito Bacalando, Jr.",
     "FSM: Marcus Samo",
     "FSM: Ricky Cantero",
@@ -8757,12 +11798,11 @@
     "GAB: Augustin Emane",
     "GAB: Camelia Ntoutoume Épse Leclercq",
     "GAB: Elza Ayo Épse Bivigou",
-    "GAB: Francois Ndong Obiang",
+    "GAB: Ghislain Ondias Okouma",
     "GAB: Hermann Immongault",
     "GAB: Jacqueline Ilogue Épse Bignoumba",
     "GAB: Laurence Mengue Me Nzoghe Épse Ndong",
     "GAB: Louise Pierrette Mvono",
-    "GAB: Lubin Ntoutoume",
     "GAB: Marcelle Ibinga Épese Itsitsa",
     "GAB: Mays Lloyd Mouissi",
     "GAB: Pacôme Kossy",
@@ -8770,18 +11810,25 @@
     "GAB: Phillipe Ntonangoye",
     "GAB: Ulrich Manfoumbi Manfoumbi",
     "GAB: Zeinaba Gninga Chaning",
+    "GBR: Andrew Bailey",
     "GBR: Anna Evans Smith",
+    "GBR: Sarah Macintosh",
+    "GEO: Davit Bakradze",
     "GEO: Paata Salia",
     "GEO: Shalva Gogoladze",
+    "GEO: Tamar Taliashvili",
     "GEO: Tamaz Boroshvili",
     "GHA: Abla Dzifa Gomashie",
     "GHA: Alhaji Mohammed Mubarak Muntaka",
     "GHA: Eric Opoku",
     "GHA: George Opare Addo",
     "GHA: Governs Kwame Agbodz",
+    "GHA: Harold Adlai Agyeman",
+    "GHA: Johnson Asiama",
     "GHA: Joseph Bukari Nikpe",
     "GHA: Kenneth Gilbert Adjei",
     "GHA: Kwabena Minta Akandoh",
+    "GHA: Victor Emmanuel Smith",
     "GIN: Bouna Sylla",
     "GIN: Cellou Balde",
     "GIN: Djenabou Toure",
@@ -8790,15 +11837,18 @@
     "GIN: Foda Tea Kouyate",
     "GIN: Fode Felix Lamah",
     "GIN: Ibrahima Kalil Conde",
+    "GIN: Karamo Kaba",
     "GIN: Khaite Sall",
     "GIN: Lasana Bea Diallo",
     "GIN: Laye Sekou Camara",
+    "GIN: Mohamed Dabo",
     "GIN: Mohamed Lamine Sy Savane",
     "GIN: Morissanda Kouyate",
     "GIN: Mory Conde",
     "GIN: Moussa Moise Sylla",
     "GIN: Ousmane Gaoual Diallo",
     "GIN: Patricia Adeline Lama",
+    "GIN: Sidibe Fatoumata Kaba",
     "GIN: Tamba Benoit Kamano",
     "GMB: Abdou Jobe",
     "GMB: Bakary Badgie",
@@ -8821,6 +11871,7 @@
     "GNB: Mamadu Mudjetaba Djalo",
     "GNB: Mamasaliu Embalo",
     "GNB: Mario Muzante Da Silva Loureiro",
+    "GNB: Samba Sane",
     "GNB: Stive Lassana Manssaly",
     "GNB: Usna Antonio Quade",
     "GNB: Virginia Maria Da Cruz Godinho Pires Correia",
@@ -8842,6 +11893,7 @@
     "GNQ: Pamela Nze Eworo",
     "GNQ: Patricio Bakale Mba",
     "GNQ: Sergio Esono Abeso Tomo",
+    "GRC: Antonios Alexandridis",
     "GRC: Athanasios Plevris",
     "GRC: Christos Dimas",
     "GRC: Christos-Georgios Skertsos",
@@ -8850,6 +11902,7 @@
     "GRC: Evangelos Tournas",
     "GRC: Georgios Floridis",
     "GRC: Georgios Gerapetritis",
+    "GRC: Ioannis Stournaras",
     "GRC: Konstantinos Chatzidakis",
     "GRC: Michail Chrysochoidis",
     "GRC: Niki Kerameos",
@@ -8865,20 +11918,25 @@
     "GRD: Delma Thomas",
     "GRD: Dennis Cornwall",
     "GRD: Gloria Ann Thomas",
+    "GRD: Ingrid Jackson",
     "GRD: Kerryne Zennelle James",
     "GRD: Lennox Andrews",
     "GRD: Phillip Alfred Telesford",
     "GRD: Ron Livingston Redhead",
+    "GRD: Tarlie Francis",
     "GRD: Teven Andrews",
     "GTM: Abelardo Pinto Moscoso",
+    "GTM: Alvaro Gonzalez Ricci",
     "GTM: Ana Patricia Orantes Thomas",
     "GTM: Anabella Maria Giracca Mendez",
     "GTM: Carlos Ramiro Martinez Alvarado",
+    "GTM: Catalina Crespo Sancho",
     "GTM: Edwin Barrios",
     "GTM: Gabriela Garcia Quinn",
     "GTM: Henry David Saenz",
     "GTM: Joaquin Barnoya Perez",
     "GTM: Jonathan Kiril Menkos Zeissig",
+    "GTM: Jose Alberto Briz Gutierrez",
     "GTM: Juan Gerardo Guerrero Garnica",
     "GTM: Julio Roberto Saavedra Pinetta",
     "GTM: Liwy Grazioso Sierra",
@@ -8889,8 +11947,10 @@
     "GTM: Miriam Catarina Roquel Chavez",
     "GUY: Ashni Singh",
     "GUY: Bishop Juan Edghill",
+    "GUY: Carolyn Rodrigues-Birkett",
     "GUY: Charles Ramson",
     "GUY: Collin Croal",
+    "GUY: Gobind Ganga",
     "GUY: Keoma Griffith",
     "GUY: Robert Persaud",
     "GUY: Zulfikar Ally",
@@ -8914,10 +11974,13 @@
     "HND: Maria Antonieta Mejia",
     "HND: Moises Abraham Molina",
     "HND: Pablo Reyes",
+    "HND: Roberto Fernando Lagos",
+    "HND: Roberto Flores Bermudez",
     "HND: Sulmy Ortez",
     "HND: Yasser Handal",
     "HRV: Alen Ruzic",
     "HRV: Ante Susnjar",
+    "HRV: Ante Zigman",
     "HRV: Branko Bacic",
     "HRV: David Vlajcic",
     "HRV: Irena Hrstic",
@@ -8926,20 +11989,24 @@
     "HRV: Marija Vuckovic",
     "HRV: Natasa Mikus Zigman",
     "HRV: Nina Obuljen Korzinek",
+    "HRV: Pjer Simunovic",
     "HRV: Radovan Fuchs",
     "HRV: Tomislav Coric",
     "HRV: Tonci Glavina",
+    "HRV: Vacant",
     "HTI: Bertrand Sinal",
     "HTI: J. E. Kathia Verdier",
     "HTI: Jacques Desrosiers",
     "HTI: James Monazard",
     "HTI: Joseph Almathe Pierre Louis",
+    "HTI: Lionel Delatour",
     "HTI: Marc Elie Nelson",
     "HTI: Marcelin Aubourg",
     "HTI: Mario Andresol",
     "HTI: Patrick Pelissier",
     "HTI: Paul Antoine Bien-Aime",
     "HTI: Pedrica Saint-Jean",
+    "HTI: Pierre Ericq Pierre",
     "HTI: Pythagore Dumas",
     "HTI: Sandra Paulemon",
     "HTI: Serge Gabriel Collin",
@@ -8955,8 +12022,12 @@
     "IDN: Widiyandti Putri Wardhana",
     "IDN: Yursil Ihza Mahendra",
     "IND: Ashwini Vaishnaw",
+    "IND: Parvathaneni Harish",
     "IND: Prataprao Ganpatrao Jadav",
+    "IND: Sanjay Malhotra",
     "IRL: Darragh O’Brien",
+    "IRL: Fergal Mythen",
+    "IRL: Gabriel Makhlouf",
     "IRL: Helen Mcentee",
     "IRL: Jennifer Carroll Macneill",
     "IRL: Jim O’Callaghan",
@@ -8966,6 +12037,7 @@
     "IRN: Abbas Salehi-Shariati",
     "IRN: Ali-Reza Kazemi",
     "IRN: Amin-Hosein Rahimi",
+    "IRN: Amir Said Iravani",
     "IRN: Farzaneh Sadeq-Malvajerd",
     "IRN: Hamid Pur-Mohammadi",
     "IRN: Hosein Afshin",
@@ -8973,6 +12045,7 @@
     "IRN: Kamil Taqavi-Nejad",
     "IRN: Majid Ansari",
     "IRN: Maysam Latifi",
+    "IRN: Mohamad-Reza Farzin",
     "IRN: Mohammad Atabak",
     "IRN: Mohammad-Jafar Qaempanah",
     "IRN: Mohammad-Reza Salehi-Amiri",
@@ -8986,19 +12059,24 @@
     "IRQ: Abd al-Husayn al-Musawi",
     "IRQ: Abd al-Karim Abtan",
     "IRQ: Abd al-Rahim Jassim",
+    "IRQ: Ali Abd al-Ridha al-Alwan",
     "IRQ: Ali Sa’di Wahib al-Saihud",
     "IRQ: Basim Muhammad Khudayr",
     "IRQ: Falih Sari Abdashi",
     "IRQ: Fuad Husayn",
     "IRQ: Khalid Shwani",
+    "IRQ: Krikor Pakram Mosses Der Hagopian",
+    "IRQ: Luqman Abd al-Rahim Fayli",
     "IRQ: Muhammad Nuri Karbuli",
     "IRQ: Mustafa Nizar Juma’ al-Ani",
     "IRQ: Mustafa Sanad",
     "IRQ: Muthana al-Tamimi",
+    "IRQ: Nizar Nasir Husayn",
     "IRQ: Sarwa Abd Al-Wahid Qadir",
     "IRQ: Vacant",
     "IRQ: Wahab Muhammad al-Hasani",
     "ISL: Alma Moller",
+    "ISL: Anna Johannsdottir",
     "ISL: Dadi Mar Kristofersson",
     "ISL: Eyjolfur Armannsson",
     "ISL: Hanna Katrin Fridriksson",
@@ -9006,6 +12084,7 @@
     "ISL: Johann Pall Johannsson",
     "ISL: Logi Mar Einarsson",
     "ISL: Ragnar Thor Ingolfsson",
+    "ISL: Svanhildur Holm Valsdottir",
     "ISL: Thorbjorg Sigridur Gunnlaugsdottir",
     "ISR: Avraham “Avi” Dichter",
     "ISR: David Amsalem",
@@ -9016,6 +12095,8 @@
     "ISR: Yitzhak Wasserlauf",
     "ITA: Alessandra Locatelli",
     "ITA: Eugenia Roccella",
+    "JAM: Antony Anderson",
+    "JAM: Brian Wallace",
     "JAM: Christopher Charles Tufton",
     "JAM: Delroy Aubyn Chuck",
     "JAM: Derrick Mckoy",
@@ -9023,8 +12104,10 @@
     "JAM: Edmund Curtis Bartlett",
     "JAM: Olivia Atavia Grange",
     "JAM: Pearnel Charles, Jr.",
+    "JAM: Richard Owen Byles",
     "JOR: Abdelmunim al-Oudat",
     "JOR: Abdul Latif al-Najdawi",
+    "JOR: Adel Sharkas",
     "JOR: Ahmad Abu-Samen",
     "JOR: Ahmad al-Awidi",
     "JOR: Ayman Sulayman",
@@ -9048,6 +12131,7 @@
     "JOR: Sami Samirat",
     "JOR: Tariq Abu Ghazalah",
     "JOR: Wafaa Bani-Mustafa",
+    "JOR: Walid Obeidat",
     "JOR: Walid al-Masri",
     "JOR: Yarub Qudah",
     "JOR: Zaina Toukan",
@@ -9060,7 +12144,9 @@
     "KAZ: Galymzhan Koyshybayev",
     "KAZ: Gizat Nurdauletov",
     "KAZ: Kanat Bozumbayev",
+    "KAZ: Kayrat Umarov",
     "KAZ: Madi Takiyev",
+    "KAZ: Magzhan Ilyasov",
     "KAZ: Nurlan Sauranbayev",
     "KAZ: Nurzhan Nurzhigitov",
     "KAZ: Serik Zhumangarin",
@@ -9072,10 +12158,12 @@
     "KEN: Abraham Kithure Kindiki",
     "KEN: Alice Muthoni Wahome Ngayu",
     "KEN: Beatrice Askul Moe",
+    "KEN: David Kiplagat Kerich",
     "KEN: Davis Kimutai Chirchir",
     "KEN: Deborah Mulongo Barasa",
     "KEN: Dorcas Agik Abuya Oduor",
     "KEN: Douglas Kanja Kirocho",
+    "KEN: Erastus Ekitela Lokaale",
     "KEN: Eric Murithi Mugaa",
     "KEN: Geoffrey Kariuki Kiringa Ruku",
     "KEN: John Mbadi Ng’ongo",
@@ -9083,12 +12171,14 @@
     "KEN: Onesmus Kipchumba Murkomen",
     "KEN: Salim Mvurya Mgala",
     "KEN: Wycliffe Ambetsa Oparanya",
+    "KGZ: Aida Kasymalieva",
     "KGZ: Akyl Toktobaev",
     "KGZ: Almaz Ayylchiev",
     "KGZ: Almaz Imangaziev",
     "KGZ: Bakyt Sydykov",
     "KGZ: Damirbek Osmonov",
     "KGZ: Dogdurkul Kendirbaeva",
+    "KGZ: Edil Baysalov",
     "KGZ: Erlist Akunbekov",
     "KGZ: Gulzat Isamatova",
     "KGZ: Jumgalbek Shabdanbekov",
@@ -9113,6 +12203,7 @@
     "KHM: Hem Vandy",
     "KHM: Heng Sour",
     "KHM: Huot Hak",
+    "KHM: Keo Chhea",
     "KHM: Keo Rattanak",
     "KHM: Keut Rith",
     "KHM: Neth Pheaktra",
@@ -9120,6 +12211,7 @@
     "KHM: Peng Ponea",
     "KHM: Sok Soken",
     "KHM: Thor Chetha",
+    "KHM: Vacant",
     "KHM: Vongsey Vissoth",
     "KIR: Auria Kitina",
     "KIR: Booti Nauan",
@@ -9133,35 +12225,44 @@
     "KNA: Garth Lucien Wilkin",
     "KNA: Isalean Felicitee Ciara Phillip",
     "KNA: Konris Gregor Menten Maynard",
+    "KNA: Marcella A. Liburd",
     "KNA: Marsha Tamika Henderson",
     "KNA: Samal Mojah Duggins",
+    "KOR: Cha Ji-hoon",
     "KOR: Jung Seong-ho",
     "KOR: Kim Yun-duk",
+    "KOR: Rhee Chang-yong",
     "KWT: Abdulrahman Badah al-Mutairi",
     "KWT: Adel Muhammad Abdullah al-Adwani",
     "KWT: Ahmed Abdel-Wahab Ahmed al-Awadhi",
+    "KWT: Al-Zain Sabah al-Naser al-Sabah",
     "KWT: Anwar Ali Abdallah Mudhaf",
+    "KWT: Basel Ahmed al-Haroon",
     "KWT: Imad Muhammad Abdulaziz Al-Ateeqi",
     "KWT: Mahmoud Abdulaziz Mahmoud Bushahri",
     "KWT: Mathal Hadi Hayef al-Huwaila",
     "KWT: Mishal al-Ahmad al-Jabir al-Sabah",
     "KWT: Muhammad Abdallah al-Sabah",
     "KWT: Muhammad Ibrahim Muhammad Al-Wasmi al-Wasmi",
+    "KWT: Nasser al-Hayan",
     "KWT: Noura Mohammed Khaled al-Mashaan",
     "KWT: Omar Saud Abdulaziz al-Omar",
     "LAO: Baikham Khatti-gna",
     "LAO: Bouakhong Nammavong",
+    "LAO: Bounkham Volachit",
     "LAO: Khamliang Outhakaison",
     "LAO: Khamphan Phommathat",
     "LAO: Leklai Sivilai",
     "LAO: Linkham Douangsavan",
     "LAO: Malaithong Kommasit",
     "LAO: Phongsamout Anlavan",
+    "LAO: Phoukhong Sisoulat",
     "LAO: Phoxai Xai-gnason",
     "LAO: Saleumxai Kommasit",
     "LAO: Santiphap Phomvihan",
     "LAO: Santisouk Simmalavong",
     "LAO: Souansavan Vi-gnaket",
+    "LAO: Thongphan Savanphet",
     "LAO: Thongsalit Mangnomek",
     "LAO: Thongsavan Phomvihan",
     "LAO: Vanthong Kongmani",
@@ -9169,12 +12270,14 @@
     "LAO: Viangthong Siphandon",
     "LBN: Adil Nassar",
     "LBN: Ahmad al-Hajjar",
+    "LBN: Amal Mudallali",
     "LBN: Charles al-Hajj",
     "LBN: Fayiz Rasamni",
     "LBN: Hanin al-Sayyid",
     "LBN: Joe Issa al-Khoury",
     "LBN: Joe Saddi",
     "LBN: Kamal Shehadeh",
+    "LBN: Karim Suaid",
     "LBN: Laura al-Khazin Lahud",
     "LBN: Michel Manassa",
     "LBN: Muhammad Haidar",
@@ -9188,6 +12291,7 @@
     "LBR: Francis Sakila Nyumalin, Sr.",
     "LBR: Gbeme Horace Kollie",
     "LBR: Geraldine Janet George",
+    "LBR: Henry F. Saamoi",
     "LBR: Jerolinmek Piah",
     "LBR: Magdalene Dagoseh",
     "LBR: Mamaka Bility",
@@ -9229,14 +12333,20 @@
     "LBY: Salim al-Alam",
     "LBY: Salim al-Zadma",
     "LBY: Suhail Abu-Shiha",
+    "LBY: Tahir al-Sunni",
     "LBY: Wafa al-Kilani",
     "LBY: Walid al-Lafi",
     "LBY: Yakhlaf al-Sifaw",
+    "LCA: Cyril Charles",
+    "LCA: Elizabeth Clarke",
     "LCA: Jeremiah Norbert",
     "LCA: Keithson Charles",
     "LCA: Kenson Casimir",
     "LCA: Leslie Mondesir",
     "LCA: Shawn Edward",
+    "LIE: Christian Wenaweser",
+    "LIE: Georg Sparber",
+    "LIE: Georg Wohlwend",
     "LKA: Ananda Wijepala",
     "LKA: Anura Karunathilaka",
     "LKA: Anura Karunathilake",
@@ -9245,7 +12355,9 @@
     "LKA: Dhammika Patabandi",
     "LKA: Harshana Nanayakkara",
     "LKA: Hiniduma Sunil Senevi",
+    "LKA: Mohan Peiris",
     "LKA: Nalinda Jayathissa",
+    "LKA: Nandalal Weerasinghe",
     "LKA: Samantha Vidyarathna",
     "LKA: Sarojani Savithri Paulraj",
     "LKA: Sunil Handunneththi",
@@ -9253,19 +12365,23 @@
     "LKA: Upali Pannilage",
     "LKA: Vijita Herath",
     "LKA: Wasantha Samarasingha",
+    "LSO: Emmanuel Letete",
     "LSO: Makatleho Motsoasele",
     "LSO: Mamokete Ntsekhe",
+    "LSO: Matete Paul Nena",
     "LSO: Moeketsi Motsoane",
     "LSO: Mohlomi Moleko",
     "LSO: Motiasi Maqelepo",
     "LSO: Mphuthi Mphuthi",
     "LSO: Neo Matjato Moteane",
     "LSO: Samuel Ntsokoane Matekane",
+    "LSO: Sankatana Gabriel Maja",
     "LSO: Tseliso Mokhosi",
     "LSO: Voeswa Tsheka",
     "LUX: Claude Meisch",
     "LUX: Guillaume",
     "LUX: Leon Gloden",
+    "LUX: Nicole Bintner-Bakshian",
     "LUX: Stephanie Obertin",
     "MCO: Celine Caron-Dagioni",
     "MCO: Cristophe Robino",
@@ -9274,6 +12390,7 @@
     "MDA: Alexandru Musteata",
     "MDA: Claudiu Nasui",
     "MDA: Eugeniu Osmochescu",
+    "MDA: Gheorghe Leuca",
     "MDA: Natalia Plugaru",
     "MDA: Vladislav Cojuhari",
     "MDG: Alain Désiré Rasambany",
@@ -9282,9 +12399,11 @@
     "MDG: Erick Michel Mouli Soumah Idissa",
     "MDG: Fanirisoa Ernaivo",
     "MDG: Gaetan Ramindo",
+    "MDG: Gaston Ravelojaona",
     "MDG: Hanitra Velonjara Tiaray Rakotonandrasana",
     "MDG: Herinjatovo Aimé Ramiarison",
     "MDG: Jean Maharavo",
+    "MDG: Lanto Rahajarizafy",
     "MDG: Lobo Hanitriniaina (Hanitra) Razafimanantsoa",
     "MDG: Lucie Vololoniaina",
     "MDG: Mahefa Andriamampiadana",
@@ -9303,6 +12422,7 @@
     "MDG: Sambilason Richard Rafefimanana",
     "MDG: Todisoa Manampy Andriamampandry",
     "MDG: Voahanginirina Cathia Rakotoniaina",
+    "MDV: Abdul Ghafoor Mohamed",
     "MDV: Abdulla Muththalib",
     "MDV: Abdulla Nazim Ibrahim",
     "MDV: Abdulla Rafiu",
@@ -9321,6 +12441,8 @@
     "MEX: Columba Jazmin Lopez Gutierrez",
     "MEX: Edgar Amador Zamora",
     "MEX: Edna Elena Vega Rangel",
+    "MEX: Esteban Moctezuma Barragan",
+    "MEX: Hector Vasconcelos y Cruz",
     "MEX: Jesus Antonio Esteva Medina",
     "MEX: Josefina Rodriguez Zamora",
     "MEX: Luisa Maria Alcalde Lujan",
@@ -9334,13 +12456,16 @@
     "MEX: Rosura Ruiz Gutierrez",
     "MHL: Bernard Adiniwin",
     "MHL: Bremity Lakjohn",
+    "MHL: Charles Rudolph Paul",
     "MHL: Hilton Kendall",
     "MHL: Jess Gasper, Jr.",
     "MHL: Kalani Kaneko",
     "MHL: Ota Kisino",
+    "MHL: Sultan Korean",
     "MHL: Tony Muller",
     "MHL: Wisely Zackhras",
     "MKD: Aleksandar Nikoloski",
+    "MKD: Anita Angelovska-Bezoska",
     "MKD: Arben Fetaj",
     "MKD: Azir Aliu",
     "MKD: Blagoja Bocvarski",
@@ -9359,6 +12484,7 @@
     "MKD: Pance Toshkovski",
     "MKD: Stefan Andonovski",
     "MKD: Timcho Mucunski",
+    "MKD: Vasko Gjurcinovski",
     "MKD: Vesna Janevska",
     "MKD: Xhemail Chupi",
     "MKD: Zhemail Cupi",
@@ -9366,6 +12492,7 @@
     "MKD: Zoran Lyutkov",
     "MKD: Zoran Sapuric",
     "MKD: Zoran Shapuric",
+    "MKD: vacant",
     "MLI: Abdoul Kassim Ibrahim Fomba",
     "MLI: Alhamdon Ag Ilyene",
     "MLI: Alousseni Sanou",
@@ -9381,6 +12508,7 @@
     "MLI: Fassoun Coulibaly",
     "MLI: Imirane Abdoulaye Toure",
     "MLI: Ismael Wague",
+    "MLI: Issa Konfourou",
     "MLI: Issa Ousmane Coulibaly",
     "MLI: Mahamadou Kassogue",
     "MLI: Mamadou Kone",
@@ -9412,6 +12540,7 @@
     "MMR: Tin Maung Swe",
     "MMR: Tin Oo Lwin",
     "MMR: Tun Aung",
+    "MMR: Vacant",
     "MMR: Ye Myint Tun",
     "MNE: Admir Sahmanovic",
     "MNE: Aleksa Becic",
@@ -9422,12 +12551,14 @@
     "MNE: Damjan Culafic",
     "MNE: Danilo Saranovic",
     "MNE: Dragan Krapovic",
+    "MNE: Dragana Radulovic",
     "MNE: Ernad Suljevic",
     "MNE: Ervin Ibrahimovic",
     "MNE: Fatmir Gjeka",
     "MNE: Filip Radulovic",
     "MNE: Jelena Borovinic Bojovic",
     "MNE: Jovan Jole Vucurovic",
+    "MNE: Jovan Mirkovic",
     "MNE: Maida Gorcevic",
     "MNE: Majda Adzovic",
     "MNE: Milutin Butorovic",
@@ -9453,13 +12584,18 @@
     "MNG: Gongor Damdinnyam",
     "MNG: Jukov Aldarjavkhlan",
     "MNG: Luvasantseren Enkh-Amgalan",
+    "MNG: Nyamdorj Ankhbayar",
+    "MNG: Sanjaa Narantsogt",
     "MNG: Telukhan Aubakir",
     "MNG: Tsagaankhuu Iderbat",
+    "MNG: Ulziidelger Batbayar",
     "MNG: Zagdjav Mendsaikhan",
+    "MOZ: Alfredo Fabião Nuvunga",
     "MOZ: Americo Muchanga",
     "MOZ: Beatriz da Consolacao Mateus Buchili",
     "MOZ: Caifardine Manasse",
     "MOZ: Carla Alexandra Louveira",
+    "MOZ: Domingo Estevao Fernandes",
     "MOZ: Estevao Pale",
     "MOZ: Inocenio Impissa",
     "MOZ: Ivete Ferrao Alane",
@@ -9468,12 +12604,14 @@
     "MOZ: Mateus Finiasse Saize",
     "MOZ: Paulo Chachine",
     "MOZ: Roberto Albino",
+    "MOZ: Rogerio Zandamela",
     "MOZ: Salim Vala",
     "MOZ: Samaria dos Anjos Filemon Tovela",
     "MOZ: Ussene Isse",
     "MRT: Abdallahi Suleiman Cheikh Sidiya",
     "MRT: Ahmed Salem Ebode",
     "MRT: Amal Mouloud",
+    "MRT: Cisse Mint Cheik Ould Boide",
     "MRT: Codioro Moussa N’Guenore",
     "MRT: Eddy Ould Zeine",
     "MRT: El Vadil Ould Sidaty Ould Ahmed Louly",
@@ -9491,6 +12629,7 @@
     "MRT: Naha Hamdi Mouknass",
     "MRT: Safiha Mint Ntahah",
     "MRT: Sidi Ahmed Ould Mohamed",
+    "MRT: Sidi Ould Baham Ould Mohamed Laghdaf",
     "MRT: Thiam Tidjani",
     "MRT: Yacoub Moine",
     "MRT: Zeinebou Mint Ahmednah",
@@ -9498,6 +12637,7 @@
     "MUS: Avinash Ramtohul",
     "MUS: Darmarajen Nagalingum",
     "MUS: Dhananjay Ritish Ramful",
+    "MUS: Gajjaluxmi Mootoosamy",
     "MUS: Gavin Patrick Cyril Glover",
     "MUS: Govindranath Gunness",
     "MUS: Harold Richard Duval",
@@ -9509,7 +12649,9 @@
     "MUS: Mahendra Gondeea",
     "MUS: Mahomed Osman Cassam Mahomed",
     "MUS: Marie Arianne Navarre-Marie",
+    "MUS: Milan J.N. Meetarbhan",
     "MUS: Patrick Gervais Assirvaden",
+    "MUS: Priscilla Muthoora Thakoor",
     "MUS: Rajesh Anand Bhagwan",
     "MUS: Ranjiv Woochit",
     "MUS: Sayed Muhammad Aadil Ameer Meea",
@@ -9523,17 +12665,20 @@
     "MWI: Shadrick Namalomba",
     "MWI: Simon Itaye",
     "MWI: Thoko Tembo",
+    "MYS: Abdul Rasheed Adbul Ghaffour",
     "MYS: Ahmad Terrirudin",
     "MYS: Amir Hamzah Azizan (Acting)",
     "MYS: Anthony Loke Siew Fook",
     "MYS: Armizan Mohamad Ali",
     "MYS: Gobind Singh Deo",
     "MYS: Mohamad Na’Im Mokhtar",
+    "MYS: Muhammad Shahrul Ikram Yaakob",
     "MYS: Shamsul Azri Abu Bakar (Acting)",
     "NAM: Benedictus Likando",
     "NAM: Emma Kantema",
     "NAM: James Sankwasa",
     "NAM: Lucia Lipumbu",
+    "NAM: Penda Naanda",
     "NAM: Viekko Nekundi",
     "NER: Aissa Lawan",
     "NER: Aissatou Abdoulaye",
@@ -9551,6 +12696,7 @@
     "NER: Salissou Mahaman",
     "NER: Salissou Sahirou Adamou",
     "NER: Seydou Asman",
+    "NER: Vacant",
     "NGA: Ahmed Dangiwa",
     "NGA: Ali Pate",
     "NGA: Ayodele Olawande",
@@ -9558,17 +12704,20 @@
     "NGA: Dele Alake",
     "NGA: Imaam Sulaiman-Ibrahim",
     "NGA: Jumoke Oduwole",
+    "NGA: Lateef Kayode Are",
     "NGA: Mohammed Idris",
     "NGA: Morufu Olatuni Alausa",
     "NGA: Muhammadu Maigari Dingyadi",
     "NGA: Nentawe Yilwatda",
     "NGA: Nyeson Wike",
+    "NGA: Olayemi Cardoso",
     "NGA: Shuaibu Audu",
     "NGA: Taiwo Oyedele",
     "NIC: Bruno Mauricio Gallardo Palaviccine",
     "NIC: Fulvia Castro",
     "NIC: Heyddy Calderon",
     "NIC: Indiana Raquel Fuentes Ramirez",
+    "NIC: Jaime Hermida Castillo",
     "NIC: Jose de Jesus Bermudez Carvajal",
     "NIC: Lautaro Sandino Montes",
     "NIC: Maria Amelia Coronel Kinloch",
@@ -9583,21 +12732,26 @@
     "NIU: Kahealani Sariah Sinahemana Hekau",
     "NIU: Rhonda Linaone Tiakia",
     "NLD: Bart Van Den Brink",
+    "NLD: Birgitta Tazelaar",
     "NLD: David Van Weel",
     "NLD: Dilan Yesilgoz",
     "NLD: Jaimi Van Essen",
+    "NLD: Lise Gregoire-Van Haaren",
     "NLD: Stientje Van Veldhoven-Van Der Meer",
     "NOR: Asmund Aukrust",
     "NOR: Bjornar Selnes Skjaeran",
     "NOR: Kari Ness Nordtun",
     "NOR: Lene Vagslid",
     "NOR: Marianne Siverstsen Naess",
+    "NOR: Merete Field Brattested",
     "NOR: Nils Kristen Sandtroen",
     "NOR: Sigrun Aasland",
     "NPL: Bikram Timilsina",
+    "NPL: Biswo Nath Paudel",
     "NPL: Gauri Yadav",
     "NPL: Gita Chaudhary",
     "NPL: Khadak Raj Poudel",
+    "NPL: Lok Darshan Regmi",
     "NPL: Pratibha Rawal",
     "NPL: Sasmit Pokharel",
     "NPL: Shishir Khanal",
@@ -9605,12 +12759,16 @@
     "NPL: Sunil Lamsal",
     "NRU: Charmaine Eraidinomo Scotty",
     "NRU: Delvin O’Neale Thoma",
+    "NRU: Lara Erab Daniel",
+    "NZL: Alcyion Cynthia Kiro",
     "NZL: Brooke Van Velden",
     "NZL: David Seymour",
     "NZL: Nicole Mckee",
     "NZL: Todd Mcclay",
+    "NZL: Victoria Hallum",
     "OMN: Abdallah bin Muhammad bin Said al-Saidi",
     "OMN: Abdallah bin Nasir bin Khalifa al-Harrasi",
+    "OMN: Ahmed al-Musalmi",
     "OMN: As’Ad bin Tarik Al Said",
     "OMN: Fahd bin Mahmud Al Said",
     "OMN: Hamud bin Faisal bin Said al-Busaidi",
@@ -9619,6 +12777,7 @@
     "OMN: Laila bint Ahmad bin Awadh al-Najar",
     "OMN: Madiha bint Ahmad bin Nasir al-Shibyaniyah",
     "OMN: Mahad bin Said bin Ali Baowain",
+    "OMN: Muhammad bin Awadh Al Hassan",
     "OMN: Muhammad bin Sayid Al Maamari",
     "OMN: Qais bin Muhammad bin Moosa al-Yusif",
     "OMN: Rahma bint Ibrahim bin Said al-Mahruqiyah",
@@ -9630,16 +12789,19 @@
     "OMN: Shihab bin Tarik Al Said",
     "OMN: Sultan bin Muhammad al-Numani",
     "OMN: Sultan bin Salim bin Said Al-Habsi",
+    "OMN: Talal bin Sulaiman bin Habib Al Rahbi",
     "PAK: Abdul Aleem Khan",
     "PAK: Ahad Khan Cheema",
     "PAK: Ahsan Iqbal Chaudhary",
     "PAK: Ali Pervaiz Malik",
+    "PAK: Jameel Ahmad",
     "PAK: Khalid Maqbool Siddiqui",
     "PAK: Khwaja Muhammad Asif",
     "PAK: Muhammad Mueen Wattoo",
     "PAK: Muhammad Raza Hayat Harraj",
     "PAK: Musadik Malik",
     "PAK: Rana Mubashar Iqbal",
+    "PAK: Rizwan Saeed Sheikh",
     "PAK: Sardar Awais Ahmad Khan Leghari",
     "PAK: Sardar Muhammad Yousaf",
     "PAK: Syed Imran Ahmed Shah",
@@ -9647,10 +12809,12 @@
     "PAK: Tariq Fazal Chaudhary",
     "PAN: Beatriz Carles Arango",
     "PAN: Dinoska Montalvo",
+    "PAN: Eloy Alfaro de Alba",
     "PAN: Felipe Chapman",
     "PAN: Fernando Boyd Galindo",
     "PAN: Jackeline Munoz",
     "PAN: Jaime Jovane",
+    "PAN: Javier Carrizo",
     "PAN: Javier Martinez Acha",
     "PAN: Jose Ramon Icaza",
     "PAN: José Luis Andrade",
@@ -9671,32 +12835,39 @@
     "PER: Maria Magdalena Seminario Maron",
     "PER: Maritza Ivonne Canales Martinez",
     "PER: Rogers Martin Valencia Espinoza",
+    "PER: Vacant",
     "PER: Vladimir Huaroc Portocarrero",
     "PHL: Amena Pangandaman",
+    "PHL: Antonio Lagdameo, Sr.",
     "PHL: Arsenio Balisacan",
     "PHL: Christina Frasco",
     "PHL: Cristina Aldeguer-Roque (Oic)",
     "PHL: Eduardo Ano",
+    "PHL: Eli Remolona, Jr.",
     "PHL: Gilberto Teodoro, Jr.",
     "PHL: Hans Leo Cacdac",
     "PHL: Ivan Uy",
     "PHL: Jamie Bautista",
     "PHL: Jose Acuzar",
+    "PHL: Jose Manuel de Gallego Romualdez",
     "PHL: Juanito Victor Remulla, Jr. (Oic)",
     "PHL: Manuel Bonoan",
     "PHL: Raphael Lotilla",
     "PHL: Renato Solidum, Jr.",
     "PHL: Teodoro Herbosa",
     "PLW: Charles Obichang",
+    "PLW: Ilana Victorya Seid",
     "PLW: Jennifer Sekang Olegeriil",
     "PLW: Landisang Kotaro",
     "PLW: Ngirai Tmetuchl",
     "PLW: Steven Victor",
     "PNG: Billy Joseph, Dr.",
     "PNG: Francis Kikin Siune",
+    "PNG: Fred Sarufa",
     "PNG: Jimmy Maladina",
     "PNG: John Kaupa",
     "PNG: Kinoka Feo",
+    "PNG: Loi Bakani",
     "PNG: Peter Tsiamalili, Jr.",
     "PNG: Richard Masere",
     "PNG: Saki Soloma",
@@ -9710,6 +12881,7 @@
     "POL: Milosz Motyka",
     "POL: Radoslaw Sikorski",
     "POL: Stefan Krajewski",
+    "POL: Vacant",
     "POL: Waldemar Zurek",
     "POL: Wladyslaw Kosiniak-Kamysz",
     "PRK: Han Jong Hyok",
@@ -9749,7 +12921,9 @@
     "PRY: Cynthia Figueredo",
     "PRY: Enrique Riera",
     "PRY: Gustavo Villate",
+    "PRY: Jose Antonio Dos Santos",
     "PRY: Luis Fernando Ramirez",
+    "PRY: Marcelo Eliseo Scappini Ricciardi",
     "PRY: Marco Aurelio Gonzalez",
     "PRY: Maria Teresa Baran",
     "PRY: Miguel Rojas",
@@ -9760,10 +12934,12 @@
     "PRY: Rolando de Barros Barreto",
     "PRY: Walter Gutierrez",
     "QAT: Abdallah bin Hamad Al Thani",
+    "QAT: Abdallah bin Saud Al Thani",
     "QAT: Abdullah bin Abdulaziz bin Turki al-Subaie",
     "QAT: Abdulrahman bin Hamad bin Jassim bin Hamad Al Thani",
     "QAT: Ali bin Ahmed al-Kuwari",
     "QAT: Ali bin Saeed bin Smaikh al-Marri",
+    "QAT: Alya bint Ahmad bin Saif Al Thani",
     "QAT: Buthaina bint Ali al-Nuaimi",
     "QAT: Faleh bin Nasser bin Ahmed bin Ali Al Thani",
     "QAT: Ghanem bin Shaheen bin Ghanem al-Ghanem",
@@ -9772,6 +12948,7 @@
     "QAT: Khalid bin Muhammad al-Atiyah",
     "QAT: Maryam bint Ali bin Nasser al-Misnad",
     "QAT: Masoud al-Amiri",
+    "QAT: Mishal bin Hamad bin Muhammad Al Thani",
     "QAT: Mohammed bin Abdullah bin Mohammed al-Sulaiti",
     "QAT: Mohammed bin Ali bin Mohammed al-Mannai",
     "QAT: Mohammed bin Hamad bin Qassim Al Abdullah Al Thani",
@@ -9779,6 +12956,7 @@
     "QAT: Saad al-Kabi",
     "QAT: Salih bin Ghanim bin Nasir al-Ali",
     "ROU: Ciprian Serban",
+    "ROU: Cornel Feruta",
     "ROU: Demeter Andras Istvan",
     "ROU: Dragos Pislaru",
     "ROU: Florin Petre Manole",
@@ -9789,6 +12967,7 @@
     "RUS: Aleksandr Vasilyevich Bortnikov",
     "RUS: Aleksandr Vyacheslavovich Kurenkov",
     "RUS: Aleksey Logvinovich Overchuk",
+    "RUS: Anatoliy Ivanovich Antonov",
     "RUS: Andrey Removich Belousov",
     "RUS: Anton Andreyevich Alikhanov",
     "RUS: Dmitriy Nikolayevich Chernyshenko",
@@ -9807,6 +12986,7 @@
     "RUS: Sergey Yevgenyevich Tsivilev",
     "RUS: Tatyana Alekseyevna Golikova",
     "RUS: Valeriy Nikolayevich Falkov",
+    "RUS: Vasiliy Alekseyevich Nebenzya",
     "RUS: Vitaliy Gennadyevich Savelyev",
     "RUS: Vladimir Aleksandrovich Kolokoltsev",
     "RUS: Yuriy Petrovich Trutnev",
@@ -9820,6 +13000,7 @@
     "RWA: Jean Nepo Abdallah Utumatwishima",
     "RWA: Jean-Guy Afrika",
     "RWA: Juliana Muganza",
+    "RWA: Martin Karoli Ngoga",
     "RWA: Rwego Ngarambe",
     "RWA: Sandrine Umutoni",
     "RWA: Telesphore Ndabamenye",
@@ -9827,6 +13008,7 @@
     "RWA: Yussuf Murangwa",
     "SAU: Abd Al-Aziz Bin Turki al-Faisal Al Saud",
     "SAU: Abd Al-Aziz bin Saud bin Nayif bin Abd al-Aziz Al Saud",
+    "SAU: Abd al-Aziz Al-Wasil",
     "SAU: Abd al-Aziz bin Abdallah Al Al-Shaykh",
     "SAU: Abd al-Latif bin Abd al-Aziz bin Abd al-Rahman Al Al Shaykh",
     "SAU: Abd al-Rahman bin Abd al-Muhsin al-Fadhli",
@@ -9841,6 +13023,7 @@
     "SAU: Badr bin Abdallah bin Muhammad bin Farhan Al Saud",
     "SAU: Bandar al-Khorayef",
     "SAU: Fahd al-Jalajil",
+    "SAU: Fahd bin Abdallah bin Abd al-Latif al-Mubarak",
     "SAU: Faysal bin Fadel bin Mohsen Al-Ibrahim",
     "SAU: Faysal bin Farhan",
     "SAU: Hamad bin Muhammad bin Hamad al-Shaykh",
@@ -9854,6 +13037,7 @@
     "SAU: Muhammd bin Faysal bin Jabir Abu Saq",
     "SAU: Musaid bin Muhammad al-Ayban",
     "SAU: Mutalib bin Abdallah al-Nafisa",
+    "SAU: Rima bint Bandar bin Abd al-Aziz Al Saud",
     "SAU: Salih bin Abd al-Aziz bin Muhammad bin Ibrahim Al Al-Shaykh",
     "SAU: Salih bin Nasir bin Ali Al-Jasir",
     "SAU: Salman bin Abd al-Aziz Al Saud",
@@ -9866,6 +13050,7 @@
     "SDN: Ahlam Mahdi (Acting)",
     "SDN: Ahmad Adam Bakhit (Acting)",
     "SDN: Al-Hadi Idris",
+    "SDN: Al-Harith Idris Al-Harith Muhammad",
     "SDN: Al-Taher Hajar",
     "SDN: Amal Salih Saad (Acting)",
     "SDN: Anan Hamed Muhammad Umar (Acting)",
@@ -9877,11 +13062,13 @@
     "SDN: Haitham Muhammad Ibrahim (Acting)",
     "SDN: Hazar Abd Al-Rasul al-Ajab (Acting)",
     "SDN: Hisham Ahmed Ali Abu Zaid (Acting)",
+    "SDN: Husayn Yahia Jangul",
     "SDN: Ibrahim Jaber Ibrahim",
     "SDN: Jibril Ibrahim (Acting)",
     "SDN: Khalifa Ahmed Khalifa",
     "SDN: Mahmud Siral-Khattam al-Huri (Acting)",
     "SDN: Mohamed Hamdan Dagalo (a.k.a. Hemeti)",
+    "SDN: Muhammad Abdallah Idris Muhammad",
     "SDN: Muhammad Abdallah Mahmoud (Acting)",
     "SDN: Muhammad Bashir Abu-Namu (Acting)",
     "SDN: Muhammad Hassan Dahab (Acting)",
@@ -9912,6 +13099,7 @@
     "SEN: Samba Diouf",
     "SEN: Serigne Oumar Ba",
     "SEN: Yankoba Dieme",
+    "SGP: Burhan Gafoor",
     "SGP: David Neo (Acting)",
     "SGP: Jeffrey Siow (Acting)",
     "SLB: Alfred Lazarus Rinah",
@@ -9922,6 +13110,7 @@
     "SLB: George Temahua",
     "SLB: Isikeli Vave Jr.",
     "SLB: James Bonunga",
+    "SLB: Jane Mugafalu Kabui Waetara",
     "SLB: John Maneniaru",
     "SLB: John Tuhaika Jr.",
     "SLB: Morris Toiraena",
@@ -9944,8 +13133,10 @@
     "SLE: Jiwoh Abdulai",
     "SLE: John Abu",
     "SLE: Julius Mattai",
+    "SLE: Kefala M. Kallon",
     "SLE: Kenyeh Ballay",
     "SLE: Malrose Karminty",
+    "SLE: Michael Imran Kanu",
     "SLE: Mohamed Orman Bangura",
     "SLE: Mohamed Swaray",
     "SLE: Morie Lengor",
@@ -9954,9 +13145,13 @@
     "SLE: Ramatulai Wurie",
     "SLE: Sao-Kpato Hannah Max-Kyne",
     "SLE: Sheku Bangura",
+    "SLE: Sidique Abou-Bakarr Wai",
     "SLE: Timothy Musa Kabba",
     "SLE: Umaru B. Wurie",
+    "SLV: Carmen Milena Mayorga de Monterrosa",
+    "SLV: Douglas Pablo Rodriguez Fuentes",
     "SLV: Edgar Rodriguez",
+    "SLV: Egriselda Lopez",
     "SLV: Fernando Lopez",
     "SLV: Francisco Jose Alabi Montoya",
     "SLV: Hector Gustavo Villatoro",
@@ -9966,14 +13161,17 @@
     "SLV: Oscar Rolando Castro",
     "SLV: Rene Francis Merino Monroy",
     "SLV: Rodolfo Antonio Delgado Montes",
+    "SMR: Damiano Beleffi",
     "SMR: Fabio Righi",
     "SMR: Federico Pedini Amanti",
     "SMR: Stefano Canti",
     "SOM: Abdisalan Abdi Ali",
     "SOM: Abdulkadir Muhammad Nur \"Jama\"",
+    "SOM: Abukar Dahir Osman",
     "SOM: Ahmed Hassan Adan",
     "SOM: Ahmed Madobe Nuunow",
     "SOM: Ali Haji Adan",
+    "SOM: Ali Sharif Ahmed",
     "SOM: Ali Yusuf Ali Hoosh",
     "SOM: Bashir Mohamed Jama Goobbe",
     "SOM: Bihi Iman Ige",
@@ -10000,6 +13198,7 @@
     "SRB: Irena Vujovic",
     "SRB: Jagoda Lazarevic",
     "SRB: Jelena Zaric-Kovacevic",
+    "SRB: Jorgovanka Tabakovic",
     "SRB: Marko Djuric",
     "SRB: Milan Krkobabic",
     "SRB: Milica Djurdjevic-Stamenkovski",
@@ -10010,11 +13209,15 @@
     "SRB: Sara Pavkov",
     "SRB: Snezana Paunovic",
     "SRB: Zlatibor Loncar",
+    "SSD: Addis Ababa Othow",
     "SSD: Africano Mande Gedima",
     "SSD: Ateny Wek Ateny",
     "SSD: Ayor Akuoch Anok Aduot",
     "SSD: Cecilia Adut Manyok Adeng",
     "SSD: Labanya Margaret Mathya Ugila",
+    "SSD: Santino Fardol Watod Dicken",
+    "SSD: Vacant",
+    "STP: Americo Barros",
     "STP: Carlos Stock",
     "STP: Celso Vaz do Nascimento Matos",
     "STP: Gareth Haddad do Espirito Santo Guadalupe",
@@ -10025,24 +13228,31 @@
     "STP: Nelson Mario de Carvalho Rosa Cardoso",
     "STP: Nilda Borges Da Mata",
     "STP: Nilton Garrido de Sousa Pontes",
+    "STP: Vacant",
     "STP: Vera Maria Assuncao Gomes Cravid",
     "SUR: Andre Misiekaba",
     "SUR: Harish Monorath",
+    "SUR: Jan Marten Willem Schalkwijk",
+    "SUR: Maurice Roemer",
     "SUR: Mike Noersaliem",
     "SUR: Miquella Hurr",
     "SUR: Steven Tsang",
+    "SUR: Sunil Algram Sitaldin",
     "SUR: Vacant",
     "SVK: Boris Susko",
     "SVK: Erik Tomas",
     "SVK: Jozef Raz, Jr.",
     "SVK: Kamil Sasko",
     "SVK: Matus Sutaj Estok",
+    "SVK: Peter Hulenyi",
+    "SVK: Radovan Javorcik",
     "SVK: Richard Takac",
     "SVK: Rudolf Huliak",
     "SVK: Tomas Taraba",
     "SVN: Aleksander Jevsek",
     "SVN: Borut Roncevic",
     "SVN: Igor Papic",
+    "SVN: Iztok Mirosic",
     "SVN: Jože Novak",
     "SVN: Klemen Bostjansic",
     "SVN: Matej Arcon",
@@ -10050,6 +13260,7 @@
     "SVN: Matjaz Han",
     "SVN: Mihael Zupancic",
     "SVN: Monika Kirbirs Rojs",
+    "SVN: Primoz Dolenc",
     "SVN: Suzana Lep Simenko",
     "SWE: Camilla Waltersson Gronvall",
     "SWE: Gunnar Strommer",
@@ -10057,6 +13268,7 @@
     "SWZ: Apollo Maphalala",
     "SWZ: Bongani Nzima",
     "SWZ: Jane Mkhonta",
+    "SWZ: Kennedy Fitzgerald Groening",
     "SWZ: Lindiwe Dlamini",
     "SWZ: Lonkhokhela",
     "SWZ: Mabulala Maseko",
@@ -10066,9 +13278,11 @@
     "SWZ: Ndlaluhlaza",
     "SWZ: Owen Nxumalo",
     "SWZ: Phila Buthelezi",
+    "SWZ: Philemon Mnisi",
     "SWZ: Sikhumbuzo Dlamini",
     "SWZ: Simelane",
     "SWZ: Tambo Gina",
+    "SWZ: Thamie Dlamini",
     "SWZ: Thulisile Dlamini",
     "SYC: Alix Sebastian Pillay",
     "SYC: Amanda Bernstein",
@@ -10115,11 +13329,13 @@
     "TCD: Kedha Balla",
     "TCD: Khadidja Hassana Abdoulaye",
     "TCD: Maide Hamid Lony",
+    "TCD: Mouctar Abakar",
     "TCD: Ndolenodji Alix Naimbai",
     "TCD: Saleh Bourma",
     "TGO: Abdul Fahd Fofana",
     "TGO: Badanam Patoki",
     "TGO: Essowe Georges Barcola",
+    "TGO: Frederic Edem Hegbe",
     "TGO: Gado Tchangbedji",
     "TGO: Isaac Tchiakpe",
     "TGO: Jean-Marie Koffi Tessi",
@@ -10137,6 +13353,7 @@
     "THA: Adun Bunthamcharoen",
     "THA: Anuthin Chanwirakun",
     "THA: Chaichanok Chitchop",
+    "THA: Choetchai Chaiwaiwit",
     "THA: Chulaphan Amonwiwat",
     "THA: Ekanat Phromphan",
     "THA: Ekniti Nitithanpraphat",
@@ -10154,14 +13371,18 @@
     "THA: Suphachi Suthamphan",
     "THA: Suphamat Itsaraphakdi",
     "THA: Surasak Phancharoenworakun",
+    "THA: Suriya Chindawong",
     "THA: Suriya Chuengrungrueangkit",
     "THA: Warawut Sinlapa-acha",
+    "THA: Withai Rattanakon",
     "TJK: Abdurahmon Abdurahmonzoda",
     "TJK: Daler Juma",
     "TJK: Fayziddin Qahhorzoda",
+    "TJK: Firdavs Tolibzoda",
     "TJK: Habibullo Vohidzoda",
     "TJK: Hokim Kholiqzoda",
     "TJK: Jamoliddin Abdullozoda",
+    "TJK: Jonibek Hikmat",
     "TJK: Muzaffar Ashuriyon",
     "TJK: Qurbon Hakimzoda",
     "TJK: Rahim Saidzoda",
@@ -10170,6 +13391,7 @@
     "TJK: Soleha Kholmahmadzoda",
     "TJK: Sulaymon Ziyozoda",
     "TJK: Usmonali Usmonzoda",
+    "TJK: Zavqi Zavqizoda",
     "TKM: Abdulla Geldiyew",
     "TKM: Annageldi Saparow",
     "TKM: Atageldi Samyradow",
@@ -10183,6 +13405,7 @@
     "TKM: Caryyar Cetiyew",
     "TKM: Dowletgeldi Meredow",
     "TKM: Dunyagozel Gulmanowa",
+    "TKM: Esen Aydogdyyew",
     "TKM: Guwanc Agajanow",
     "TKM: Hajymyrat Hudaygulyyew",
     "TKM: Hangeldi Kerimow",
@@ -10200,6 +13423,8 @@
     "TKM: Owezgeldi Gosjanow",
     "TKM: Tanryguly Atahallyyew",
     "TKM: Toyguly Nurow",
+    "TKM: Toyly Myalikow",
+    "TKM: Wepa Hajiyew",
     "TLS: Amandio De Sa",
     "TLS: Bendito Dos Santos Freitas",
     "TLS: Donaciano do Rosario Gomes",
@@ -10226,10 +13451,14 @@
     "TON: Tupouto’a ‘Ulukalala",
     "TON: Vika Sivoki Lavemaau",
     "TON: Viliami Sisifa",
+    "TON: Viliami Va'inga Tone",
+    "TTO: Alvin Hilaire",
+    "TTO: Anthony Phillips-Spencer",
     "TTO: Barry Phadarath",
     "TTO: Colin Gosine",
     "TTO: Dominic Smith",
     "TTO: Jerlean John",
+    "TTO: Neil Nadash Parsan",
     "TTO: Philip Watts",
     "TTO: Ravi Rattiram",
     "TTO: Rishard Seecheran",
@@ -10249,6 +13478,7 @@
     "TUN: Sofiane Teguia",
     "TUN: Wajdi Hedhili",
     "TUR: Abdulkadir Uraloglu",
+    "TUR: Ahmet Yildiz",
     "TUR: Akin Gurlek",
     "TUR: Cevdet Yilmaz",
     "TUR: Ibrahim Yumakli",
@@ -10258,6 +13488,7 @@
     "TUR: Mustafa Ciftci",
     "TUR: Omer Bolat",
     "TUR: Osman Askin Bak",
+    "TUR: Sedat Onal",
     "TUR: Vedat Isikhan",
     "TUR: Yasar Guler",
     "TUR: Yusuf Tekin",
@@ -10266,6 +13497,7 @@
     "TUV: Hamoa Halona",
     "TUV: Maina Vakafua Talia",
     "TUV: Sa’aga Talu Teafa",
+    "TUV: Tapugao Falefou",
     "TWN: Chen Chih-min (Andy) (Acting)",
     "TWN: Chen Chin-de",
     "TWN: Cheng Li-chun",
@@ -10282,9 +13514,11 @@
     "TWN: Yeh Chun-hsien",
     "TWN: You Ying-lung",
     "TWN: Yui Tah-ray (a.k.a Alexander Yui)",
+    "TZA: Elisie Kanza",
     "TZA: Emmanuel Nchimbi",
     "TZA: Hamad Yusuf Masauni",
     "TZA: Hamza Johari",
+    "TZA: Hussein Kattanga",
     "TZA: Joel Nanauka",
     "TZA: Khamis Mussa Omar",
     "TZA: Leonard Akwilapo",
@@ -10301,6 +13535,7 @@
     "UGA: John Lokii",
     "UGA: Justine Lumumba",
     "UGA: Miriam Babalanda",
+    "UGA: Robie Kagonge",
     "UGA: Sam Mayanja",
     "UKR: Andriy Butenko",
     "UKR: Andriy Sybiha",
@@ -10310,15 +13545,19 @@
     "UKR: Oleksandr Kravchenko",
     "UKR: Oleksandr Poklad",
     "UKR: Taras Vysotskyy",
+    "UKR: Vacant",
     "UKR: Viktor Lyashko",
     "UKR: Vitaliy Bezhin",
     "UKR: Vsevolod Chentsov",
     "URY: Alejandro Sanchez",
+    "URY: Andres Augusto Duran Hareau",
+    "URY: Carlos Daniel Amorin Tenconi",
     "URY: Edgardo Ortuno",
     "URY: Gonzalo Civila",
     "URY: Lucia Etcheverry",
     "URY: Pablo Menoni",
     "URY: Tamara Paseyro",
+    "URY: Washington Rebeiro",
     "UZB: Adxam Ikromov",
     "UZB: Akbar Toshqulov",
     "UZB: Asilbek Xudoyorov",
@@ -10342,6 +13581,8 @@
     "UZB: Sherzod Shermatov",
     "UZB: Sherzod Xojayev",
     "UZB: Shuhrat Xolmuhamedov",
+    "UZB: Timur Ishmetov",
+    "UZB: Ulugbek Lapasov",
     "UZB: Viktor Mahmudov",
     "UZB: Zulayho Mahkamova",
     "VAT: Christophe Pierre",
@@ -10359,6 +13600,7 @@
     "VCT: Philip Jackson",
     "VCT: Shevern John",
     "VCT: Terrance Olliverre",
+    "VCT: Vynette Frederick",
     "VEN: Alejandro Lopez Rodriguez",
     "VEN: Ana Maria Sanjuan",
     "VEN: Anabel Pereira Fernandez",
@@ -10366,6 +13608,7 @@
     "VEN: Carlos Alexis Castillo",
     "VEN: Carlos Guillermo Mast Yustiz",
     "VEN: Carlos Leal Telleria",
+    "VEN: Coromoto Godoy Calderon",
     "VEN: Francisco Garces",
     "VEN: Franklin Carrillo",
     "VEN: Gerardo Izquierdo Torres",
@@ -10374,6 +13617,7 @@
     "VEN: Hector Silva",
     "VEN: Juan Jose Ramirez",
     "VEN: Julio Garcia Zerpa",
+    "VEN: Luis Alberto Perez Gonzalez",
     "VEN: Magally Vina Gutierrez",
     "VEN: Miguel Angel Perez Pirela",
     "VEN: Nahum Fernandez",
@@ -10388,8 +13632,10 @@
     "VUT: Job Sam Andy",
     "VUT: John Still Tari Qetu",
     "VUT: Johnny Koanapo",
+    "VUT: Odo Tevi",
     "VUT: Rick Tchamako Mahe",
     "VUT: Robson Iavro",
+    "VUT: Simeon Malachi Athy",
     "VUT: Simil Johnson",
     "VUT: Tomker Netvunei",
     "VUT: Xavier Harry Emanuel",
@@ -10397,10 +13643,12 @@
     "WSM: Aiono Alec Ekeroma",
     "WSM: Ale Vena Ale",
     "WSM: Fata Ryan Schuster",
+    "WSM: Fatumanava-o-Upolu III Pa'olelei Luteru",
     "WSM: Fesolai Apulu Tusiupu Tuigamala",
     "WSM: Fo’Isala Lilo Tu’u Ioane",
     "WSM: Fuimaono Maiava Tito Asafo",
     "WSM: La’Aulialemalietoa Leuatea Polataivao Schmidt",
+    "WSM: Maiva Atalina Emma Ainnu-Enari",
     "WSM: Masinalupe Makesi Pisi",
     "WSM: Mauga Precious Chang",
     "WSM: Moefaauouo Julius Ah Kui Tafunai",
@@ -10409,6 +13657,7 @@
     "WSM: Seuamuli Letuuga Fasi Toma",
     "WSM: Tuimaleali'Ifano Va'aleto'a Eti Sualauvi II",
     "WSM: Va’Aaoao Salumalo Alofipo",
+    "XKX: Ahmet Ismaili",
     "XKX: Albin Kurti",
     "XKX: Albulena Haxhiu",
     "XKX: Andin Hoti",
@@ -10425,6 +13674,7 @@
     "XKX: Fitore Pacolli Dalipi",
     "XKX: Glauk Konjufca",
     "XKX: Hekuran Murati",
+    "XKX: Ilir Dugolli",
     "XKX: Lulezon Jagxhiu",
     "XKX: Mimoza Kusari Lila",
     "XKX: Nenad Rasic",
@@ -10442,6 +13692,7 @@
     "ZAF: Thembisile Simelane",
     "ZMB: Charles Milupi",
     "ZMB: Chipoka Mulenga",
+    "ZMB: Chola Milambo",
     "ZMB: Collins Nzovu",
     "ZMB: Doreen Mwamba",
     "ZMB: Elvis Nkandu",
@@ -10457,6 +13708,7 @@
     "ZMB: Syliva Masebo",
     "ZWE: Anselem Nhamo Sanyatwe",
     "ZWE: Barbra Rwodzi",
-    "ZWE: Evelyn Ndlovu"
+    "ZWE: Evelyn Ndlovu",
+    "ZWE: Vacant"
   ]
 }

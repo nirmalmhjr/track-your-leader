@@ -39,6 +39,8 @@ const positionSchema = z.object({
     portfolio: z.enum(PORTFOLIOS).nullable(),
     startDate: isoDate.nullable(),
     title: z.string().min(1),
+    /** The source doesn't record when it ended, so it is neither current nor known to have ended. */
+    undated: z.literal(true).optional(),
 });
 
 export const generatedOfficialSchema = z.object({

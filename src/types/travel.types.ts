@@ -14,7 +14,15 @@ export type RoleCategory =
     | "deputy_leader"
     | "minister"
     | "junior_minister"
-    | "senior_official";
+    | "senior_official"
+    | "legislator"
+    | "regional_leader"
+    | "local_leader"
+    | "judiciary"
+    | "diplomat"
+    | "central_banker"
+    | "military_leader"
+    | "party_leader";
 
 /** Normalised policy area of a ministerial position, independent of local ministry names. */
 export type Portfolio =
@@ -24,7 +32,19 @@ export type Portfolio =
     | "trade"
     | "home_affairs"
     | "environment"
-    | "energy";
+    | "energy"
+    | "health"
+    | "education"
+    | "labour"
+    | "justice"
+    | "agriculture"
+    | "transport"
+    | "women"
+    | "youth"
+    | "culture"
+    | "tourism"
+    | "science"
+    | "social_affairs";
 
 export type OfficeTenure = "current" | "former";
 
@@ -72,7 +92,7 @@ export interface TrackedCountry {
 
 export interface Position {
     categories: readonly RoleCategory[];
-    /** `null` while the position is still held. */
+    /** `null` while the position is still held, unless the position is `undated`. */
     endDate: IsoDate | null;
     id: string;
     ministry: string | null;
@@ -80,6 +100,12 @@ export interface Position {
     /** `null` when the source lists the office holder without a start date. */
     startDate: IsoDate | null;
     title: string;
+    /**
+     * The source doesn't record when the position ended, or whether it still continues (no dates
+     * at all, or a decades-old start with no end): it is neither current nor known to have
+     * ended, and can't place a trip in time. `endDate` is then `null`.
+     */
+    undated?: boolean;
 }
 
 export interface Official {

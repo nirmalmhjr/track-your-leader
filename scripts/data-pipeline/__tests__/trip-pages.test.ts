@@ -32,6 +32,20 @@ test("trip-list titles name their subject and direction", () => {
         // Yearly US pages are mostly domestic travel.
         ["List of presidential trips made by Barack Obama (2009)", null],
         ["List of state visits received by Akihito", { direction: "received", subject: "akihito" }],
+        [
+            "List of vice presidential trips made by JD Vance",
+            { direction: "outgoing", subject: "jd vance" },
+        ],
+        [
+            "List of Commonwealth official trips made by Charles III",
+            { direction: "outgoing", subject: "charles iii" },
+        ],
+        [
+            "List of international visits made by Nicola Sturgeon",
+            { direction: "outgoing", subject: "nicola sturgeon" },
+        ],
+        ["List of domestic trips made by Narendra Modi", null],
+        ["List of papal visits to Africa", null],
         ["List of international presidential trips made by Joe Biden (domestic)", null],
         ["List of international organisations", null],
     ];
@@ -76,5 +90,23 @@ test("Spanish and French trip-list titles drop the office before the name", () =
     ];
     for (const [title, language, expected] of cases) {
         assert.deepEqual(classifyTripPage(title, language), expected, title);
+    }
+});
+
+test("trip-list titles on the other Wikipedias", () => {
+    const cases: [string, "pt" | "de" | "id" | "ko" | "ar" | "fa", string | null][] = [
+        ["Lista de viagens presidenciais de Santiago Peña", "pt", "santiago pena"],
+        ["Lista de viagens primo-ministeriais de Liz Truss", "pt", "liz truss"],
+        ["Liste der Auslandsreisen von Bundespräsident Joachim Gauck", "de", "joachim gauck"],
+        ["Liste der Staatsbesuche in Deutschland", "de", null],
+        ["Daftar kunjungan kenegaraan Joko Widodo", "id", "joko widodo"],
+        ["Daftar kunjungan kepausan ke Amerika Serikat", "id", null],
+        ["이재명의 대통령 순방 목록", "ko", "이재명"],
+        ["قائمة رحلات برهم صالح الخارجية", "ar", "برهم صالح"],
+        ["فهرست سفرهای خارجی نیکول پاشینیان، نخست\u200cوزیر ارمنستان", "fa", "نیکول پاشینیان"],
+        ["فهرست سفرهای دولتی به ایران", "fa", null],
+    ];
+    for (const [title, language, subject] of cases) {
+        assert.equal(classifyTripPage(title, language)?.subject ?? null, subject, title);
     }
 });

@@ -10,6 +10,7 @@ import type {
     IsoDate,
     Official,
     Place,
+    Position,
     TrackedCountry,
     TravelRecord,
 } from "@/types/travel.types";
@@ -58,16 +59,26 @@ const placeRow = z.tuple([
     latitude,
     z.union([z.literal(0), z.literal(1)]),
 ]);
-/** [title, categories, portfolio, start, end] */
-const positionRow = z.tuple([
-    z.string(),
-    z.array(enumIndex(ROLE_CATEGORIES)).min(1),
-    enumIndex(PORTFOLIOS).nullable(),
-    isoDate.nullable(),
-    isoDate.nullable(),
+/** [title, categories, portfolio, start, end, 1 when the source doesn't record the end] */
+const positionRow = z.union([
+    z.tuple([
+        z.string(),
+        z.array(enumIndex(ROLE_CATEGORIES)).min(1),
+        enumIndex(PORTFOLIOS).nullable(),
+        isoDate.nullable(),
+        isoDate.nullable(),
+    ]),
+    z.tuple([
+        z.string(),
+        z.array(enumIndex(ROLE_CATEGORIES)).min(1),
+        enumIndex(PORTFOLIOS).nullable(),
+        isoDate.nullable(),
+        z.null(),
+        z.literal(1),
+    ]),
 ]);
 /** [id, country, name, party, photo, Wikidata id, positions] */
-const officialRow = z.tuple([
+export const officialRow = z.tuple([
     z.string(),
     code,
     z.string(),
@@ -108,6 +119,17 @@ export const travelIndexSchema = z.object({
     version: z.literal(INDEX_VERSION),
 });
 export type TravelIndex = z.infer<typeof travelIndexSchema>;
+export type OfficialRow = z.infer<typeof officialRow>;
+
+/**
+ * `public/data/people/<ISO3>.json`: everyone else on record for a country (legislators, regional
+ * leaders, judges, diplomats… without trips), as official rows. Loaded by the leaders pages.
+ */
+export const peopleFileSchema = z.object({
+    people: z.array(officialRow),
+    version: z.literal(INDEX_VERSION),
+});
+export type PeopleFile = z.infer<typeof peopleFileSchema>;
 
 export const countryDetailSchema = z.object({
     officials: z.array(generatedOfficialSchema),
@@ -132,6 +154,30 @@ export interface IndexInput {
 }
 
 const round = (value: number): number => Math.round(value * 1000) / 1000;
+
+/**
+ * Encodes one official as a compact row, as stored in the index and the people files.
+ *
+ * @param official - Official to encode.
+ * @returns The row.
+ */
+export const encodeOfficial = (
+    official: Omit<GeneratedOfficial, "sources" | "summary">
+): OfficialRow => [
+    official.id,
+    official.countryCode,
+    official.fullName,
+    official.party,
+    official.photoUrl,
+    official.wikidataId,
+    official.positions.map((position): OfficialRow[6][number] => {
+        const categories = position.categories.map((category) => ROLE_CATEGORIES.indexOf(category));
+        const portfolio = position.portfolio ? PORTFOLIOS.indexOf(position.portfolio) : null;
+        return position.undated
+            ? [position.title, categories, portfolio, position.startDate, null, 1]
+            : [position.title, categories, portfolio, position.startDate, position.endDate];
+    }),
+];
 
 /**
  * Encodes officials and trips as the compact index.
@@ -174,21 +220,7 @@ export const encodeTravelIndex = ({
             round(country.capital.coordinates[1]),
             country.governmentSystem,
         ]),
-        officials: officials.map((official) => [
-            official.id,
-            official.countryCode,
-            official.fullName,
-            official.party,
-            official.photoUrl,
-            official.wikidataId,
-            official.positions.map((position) => [
-                position.title,
-                position.categories.map((category) => ROLE_CATEGORIES.indexOf(category)),
-                position.portfolio ? PORTFOLIOS.indexOf(position.portfolio) : null,
-                position.startDate,
-                position.endDate,
-            ]),
-        ]),
+        officials: officials.map(encodeOfficial),
         places,
         trips: trips.flatMap((trip): TravelIndex["trips"] => {
             const official = officialIndex.get(trip.officialId);
@@ -271,7 +303,12 @@ const toCountry = ([
     name: getCountryReference(countryCode)?.name ?? countryCode,
 });
 
-const toOfficial = ([
+/**
+ * Decodes a compact official row.
+ *
+ * @returns The official, without sources or summary (they live in the country files).
+ */
+export const decodeOfficial = ([
     id,
     countryCode,
     fullName,
@@ -285,15 +322,18 @@ const toOfficial = ([
     id,
     party,
     photoUrl,
-    positions: positions.map(([title, categories, portfolio, startDate, endDate], index) => ({
-        categories: categories.map((category) => ROLE_CATEGORIES[category]),
-        endDate,
-        id: `${id}-p${index + 1}`,
-        ministry: null,
-        portfolio: portfolio === null ? null : PORTFOLIOS[portfolio],
-        startDate,
-        title,
-    })),
+    positions: positions.map(
+        ([title, categories, portfolio, startDate, endDate, undated], index): Position => ({
+            categories: categories.map((category) => ROLE_CATEGORIES[category]),
+            endDate,
+            id: `${id}-p${index + 1}`,
+            ministry: null,
+            portfolio: portfolio === null ? null : PORTFOLIOS[portfolio],
+            startDate,
+            title,
+            ...(undated ? { undated: true } : {}),
+        })
+    ),
     sources: [],
     summary: "",
     wikidataId,
@@ -343,7 +383,7 @@ export const toTravelRecord = (
 export const decodeTravelIndex = (index: TravelIndex, today: IsoDate): TravelBase => {
     const countries = index.countries.map(toCountry);
     const countryByCode = new Map(countries.map((country) => [country.code, country]));
-    const officials = index.officials.map(toOfficial);
+    const officials = index.officials.map(decodeOfficial);
     const places = index.places.map(toPlace);
     const recordsByOrigin = new Map<CountryCode, TravelRecord[]>();
 

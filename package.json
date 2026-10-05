@@ -23,10 +23,11 @@
   },
   "type": "module",
   "scripts": {
-    "build": "next build",
+    "build": "pnpm data:people && next build",
     "clean": "rm -rf .next playwright-report test-results",
     "data:collect": "tsx scripts/data-pipeline/collect.ts",
     "data:export": "tsx scripts/data-pipeline/export.ts",
+    "data:people": "tsx scripts/data-pipeline/export-people.ts",
     "data:sync": "tsx scripts/data-pipeline/run.ts",
     "data:test": "tsx --test \"scripts/data-pipeline/**/*.test.ts\"",
     "dev": "next dev",
@@ -95,7 +96,8 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "ultracite": "7.12.2"
+    "ultracite": "7.12.2",
+    "unpdf": "^1.8.1"
   },
   "packageManager": "pnpm@10.27.0"
 }

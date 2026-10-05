@@ -1,12 +1,18 @@
 import { normalizeName, stripParenthetical } from "../lib/text";
-import { listTitlesWithPrefix, WIKI_LANGUAGES, type WikiLanguage } from "../sources/wikipedia";
+import {
+    listTitlesWithPrefix,
+    searchTitles,
+    WIKI_LANGUAGES,
+    type WikiLanguage,
+} from "../sources/wikipedia";
 import { TRIP_PAGE_OVERRIDES } from "./trip-pages.overrides";
 
 /**
  * Finds the Wikipedia trip-list pages of officials, e.g. "List of international prime
  * ministerial trips made by Narendra Modi", "List of state visits received by Elizabeth II",
- * "Anexo:Viajes internacionales del presidente José Mujica" or "Liste des voyages officiels
- * effectués par Kim Jong-il". Every such page title is listed once per Wikipedia, then matched
+ * "Anexo:Viajes internacionales del presidente José Mujica", "Liste des voyages officiels
+ * effectués par Kim Jong-il", "Lista de viagens presidenciais de Santiago Peña" or
+ * "이재명의 대통령 순방 목록". Every such page title is listed once per Wikipedia, then matched
  * to officials by the title of their article there, which scales to every country without a
  * search per person.
  */
@@ -23,19 +29,44 @@ interface TitlePatterns {
     prefixes: readonly string[];
     /** Visits the person hosted: the visitors are in the table rows. */
     received: RegExp | null;
+    /** Searches finding lists whose titles start with the person's name (Korean). */
+    searches?: readonly string[];
     /** Office words before the name ("del presidente José Mujica"). */
     titleWords: RegExp | null;
 }
 
 const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
+    ar: {
+        namespace: 0,
+        // "قائمة رحلات برهم صالح الخارجية"; lists named after an office are in the overrides.
+        outgoing: /^قائمة رحلات (.+?) الخارجية$/u,
+        prefixes: ["قائمة رحلات", "قائمة الرحلات", "قائمة الزيارات"],
+        received: null,
+        titleWords: null,
+    },
+    de: {
+        namespace: 0,
+        // "Liste der Auslandsreisen von Bundespräsident Joachim Gauck".
+        outgoing:
+            /^Liste der (?:Auslandsreisen|Staatsbesuche|Reisen)(?: [\p{L}-]+)*? (?:von|des|der) (.+?)(?: \([^)]*\))?$/iu,
+        prefixes: ["Liste der Auslandsreisen", "Liste der Staatsbesuche"],
+        received: null,
+        titleWords:
+            /^(?:bundespräsident(?:in)?|bundeskanzler(?:in)?|präsident(?:in)?|kanzler(?:in)?|könig(?:in)?|papst|ministerpräsident(?:in)?|außenminister(?:in)?)\s+/i,
+    },
     en: {
         namespace: 0,
+        // "international prime ministerial trips", "vice presidential trips", "Commonwealth
+        // official trips", "international visits"… made by someone.
         outgoing:
-            /^List of (?:international (?:[\w-]+ )*trips|official overseas trips|presidential trips|state visits) made (?:and received )?by (.+?)(?: as .+?)?(?: \([^)]*\))?$/i,
+            /^List of (?:[\w-]+ )*?(?:trips|visits) made (?:and received )?by (.+?)(?: as .+?)?(?: \([^)]*\))?$/i,
         prefixes: [
             "List of international",
             "List of official overseas trips",
             "List of presidential trips",
+            "List of vice presidential trips",
+            "List of vice-presidential trips",
+            "List of Commonwealth official trips",
             "List of state visits",
         ],
         received: /^List of state visits received by (.+?)(?: \([^)]*\))?$/i,
@@ -50,6 +81,15 @@ const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
         titleWords:
             /^(?:presidente del gobierno|presidenta del gobierno|presidente|presidenta|primer ministro|primera ministra|canciller|rey|reina|emperador|emperatriz)\s+/i,
     },
+    fa: {
+        namespace: 0,
+        // "فهرست سفرهای خارجی نیکول پاشینیان، نخست‌وزیر ارمنستان".
+        outgoing:
+            /^فهرست سفرهای (?:خارجی|بین\u200cالمللی)(?: (?:ریاست\u200cجمهوری|نخست\u200cوزیری))? (.+?)(?:، .+)?$/u,
+        prefixes: ["فهرست سفرهای"],
+        received: null,
+        titleWords: null,
+    },
     fr: {
         namespace: 0,
         outgoing:
@@ -57,6 +97,34 @@ const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
         prefixes: ["Liste des voyages", "Liste des visites d'État"],
         received: /^Liste des visites d'État reçues par (.+?)(?: \([^)]*\))?$/i,
         titleWords: /^(?:le |la )?(?:roi|reine|président|présidente|empereur|impératrice)\s+/i,
+    },
+    id: {
+        namespace: 0,
+        // "Daftar kunjungan kenegaraan Joko Widodo"; not "Daftar kunjungan kepausan ke …".
+        outgoing:
+            /^Daftar kunjungan (?:kenegaraan|kerja|resmi|luar negeri|internasional)(?: (?:presiden|perdana menteri|wakil presiden|raja))? (?!ke )(.+?)(?: \([^)]*\))?$/iu,
+        prefixes: ["Daftar kunjungan"],
+        received: null,
+        titleWords: null,
+    },
+    ko: {
+        namespace: 0,
+        // "이재명의 대통령 순방 목록": the name comes first, so the lists are found by search.
+        outgoing: /^(.+?)의 (?:\p{L}+ )*?순방 목록$/u,
+        prefixes: [],
+        received: null,
+        searches: ['intitle:"순방 목록"'],
+        titleWords: null,
+    },
+    pt: {
+        namespace: 0,
+        // "Lista de viagens presidenciais de Santiago Peña", "…primo-ministeriais de Liz Truss".
+        outgoing:
+            /^Lista de (?:viagens|visitas)(?: [\p{L}-]+)*? (?:de|do|da|dos|das) (.+?)(?: \([^)]*\))?$/iu,
+        prefixes: ["Lista de viagens", "Lista de visitas"],
+        received: null,
+        titleWords:
+            /^(?:presidente|presidenta|primeiro-ministro|primeira-ministra|rei|rainha|papa)\s+/i,
     },
 };
 /**
@@ -141,13 +209,22 @@ export const discoverTripPages = async (
         title: string;
     }[] = [];
     for (const language of WIKI_LANGUAGES) {
-        const { namespace, prefixes } = PATTERNS[language];
+        const { namespace, prefixes, searches = [] } = PATTERNS[language];
+        const titles = new Set<string>();
         for (const prefix of prefixes) {
             for (const title of await listTitlesWithPrefix(prefix, language, namespace)) {
-                const page = classifyTripPage(title, language);
-                if (page) {
-                    listed.push({ ...page, language, title });
-                }
+                titles.add(title);
+            }
+        }
+        for (const query of searches) {
+            for (const title of await searchTitles(query, language, Number.POSITIVE_INFINITY)) {
+                titles.add(title);
+            }
+        }
+        for (const title of titles) {
+            const page = classifyTripPage(title, language);
+            if (page) {
+                listed.push({ ...page, language, title });
             }
         }
     }

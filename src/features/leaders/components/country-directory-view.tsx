@@ -6,6 +6,7 @@ import { useCallback, useDeferredValue, useState } from "react";
 
 import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { Input } from "@/components/ui/input";
+import { CountryPeople } from "@/features/leaders/components/country-people";
 import { FormerOfficialsDirectory } from "@/features/leaders/components/former-officials-directory";
 import { LeaderCard } from "@/features/leaders/components/leader-card";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
@@ -109,6 +110,12 @@ export function CountryDirectoryView({ directory }: { directory: CountryDirector
                     />
                 </>
             )}
+
+            <CountryPeople
+                code={directory.country.code}
+                countryName={countryName}
+                needle={needle}
+            />
         </>
     );
 }

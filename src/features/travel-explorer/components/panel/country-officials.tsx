@@ -75,15 +75,29 @@ interface InOfficeListProps {
 function InOfficeList({ countryCode, sort, total, travelling }: InOfficeListProps) {
     const t = useTranslations("Explorer.country");
     const format = useTravelFormat();
+    const { allRecords, today } = useExplorerData();
     const labels = {
         shownLabel: format.number(travelling.length),
         totalLabel: format.number(total),
     };
 
     if (travelling.length === 0) {
+        // Sources reach different dates per country; say how recent this one's data is, so a
+        // gap in coverage isn't read as nobody travelling.
+        const latest = allRecords.find(
+            (record) =>
+                record.originCountryCode === countryCode &&
+                record.status !== "cancelled" &&
+                record.startDate <= today
+        );
+        const description = t("inOfficeNoTripsDescription", labels);
         return (
             <ClearFiltersEmpty
-                description={t("inOfficeNoTripsDescription", labels)}
+                description={
+                    latest
+                        ? `${description} ${t("latestTripOnRecord", { date: format.date(latest.startDate) })}`
+                        : description
+                }
                 title={t("inOfficeNoTripsTitle")}
             />
         );

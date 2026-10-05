@@ -8,6 +8,7 @@
   "files": {
     "ignoreUnknown": false,
     "includes": [
+      "!data/warehouse",
       "!public/data",
       "!public/geo",
       "!src/features/travel-explorer/data/generated",

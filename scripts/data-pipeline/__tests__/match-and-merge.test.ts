@@ -5,6 +5,7 @@ import type { Place } from "@/types/travel.types";
 
 import { matchTravellers } from "../extract/travellers.match";
 import { mergeClaims } from "../extract/trips.merge";
+import { isAbroad } from "../pipeline";
 import type { OfficialDraft, TripClaim } from "../types";
 
 const TODAY = "2026-10-04";
@@ -295,4 +296,57 @@ test("a surname alone matches the one official of that country with it and the r
     assert.equal(result.draftOf.get(bySurname), betancourt);
     // Nobody by that surname: a new official, never another president.
     assert.equal(result.draftOf.get(unknown)?.name, "Ramírez");
+});
+
+test("a family name nobody holds isn't given to whoever held the office", async () => {
+    // A current minister whose start date the cabinet list doesn't give.
+    const mehta = draft({
+        name: "Nisha Mehta",
+        positions: [
+            {
+                categories: ["minister"],
+                endDate: null,
+                ministry: null,
+                portfolio: "health",
+                startDate: null,
+                title: "Minister of Health and Population",
+            },
+        ],
+    });
+    const delegate = (familyName: string) =>
+        claim({
+            datePrecision: "month",
+            endDate: "2002-05-31",
+            source: "who-assembly",
+            startDate: "2002-05-01",
+            traveller: {
+                categories: ["minister"],
+                countryCode: "NPL",
+                familyName,
+                name: null,
+                portfolio: "health",
+                title: "Minister of Health",
+                wikidataId: null,
+            },
+        });
+    const matches = await matchTravellers(
+        [delegate("Bhandari"), delegate("Mehta")],
+        [mehta],
+        new Map(),
+        TODAY
+    );
+    assert.equal(matches.draftOf.size, 1);
+    assert.equal(matches.unmatched.length, 1);
+    assert.equal(matches.unmatched[0]?.traveller.familyName, "Bhandari");
+});
+
+test("trips at home aren't international travel", () => {
+    const abroad = claim({ source: "wikipedia", startDate: "2023-09-19" });
+    const home = claim({
+        destination: place("NPL", "Kathmandu"),
+        source: "un-general-debate",
+        startDate: "2023-09-19",
+    });
+    assert.equal(isAbroad(abroad), true);
+    assert.equal(isAbroad(home), false);
 });

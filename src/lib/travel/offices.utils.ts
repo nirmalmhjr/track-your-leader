@@ -1,4 +1,8 @@
-import { getCategoryGroup, getCurrentPosition } from "@/lib/travel/officials.utils";
+import {
+    getCategoryGroup,
+    getCurrentPosition,
+    isCurrentPosition,
+} from "@/lib/travel/officials.utils";
 import { OFFICE_GROUPS, PORTFOLIOS, ROLE_RANK } from "@/lib/travel/travel.constants";
 import { normalizeSearchText } from "@/lib/utils";
 import type { OfficeGroup, Official, Position } from "@/types/travel.types";
@@ -75,9 +79,7 @@ const officeKey = (position: Position): string => normalizeSearchText(position.t
 export const getHeldOfficeKeys = (officials: readonly Official[]): Set<string> =>
     new Set(
         officials.flatMap((official) =>
-            official.positions
-                .filter((position) => position.endDate === null)
-                .map((position) => officeKey(position))
+            official.positions.filter(isCurrentPosition).map((position) => officeKey(position))
         )
     );
 
@@ -110,8 +112,8 @@ export const groupOffices = (
     const offices: Office[] = [];
     for (const [key, terms] of termsByKey) {
         const sorted = terms.toSorted(compareTerms);
-        const current = sorted.filter((term) => term.position.endDate === null);
-        const past = sorted.filter((term) => term.position.endDate !== null);
+        const current = sorted.filter((term) => isCurrentPosition(term.position));
+        const past = sorted.filter((term) => !isCurrentPosition(term.position));
         const latest = current[0] ?? past[0];
         offices.push({
             current,

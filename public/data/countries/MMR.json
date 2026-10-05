@@ -134,6 +134,28 @@
           "portfolio": null,
           "startDate": "2024-07-22",
           "title": "President of Myanmar"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": null,
+          "id": "min-aung-hlaing-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-08-01",
+          "title": "Prime Minister of Myanmar"
+        },
+        {
+          "categories": [
+            "military_leader"
+          ],
+          "endDate": null,
+          "id": "min-aung-hlaing-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-03-30",
+          "title": "Commander-in-Chief of Defence Services"
         }
       ],
       "sources": [
@@ -175,10 +197,21 @@
         },
         {
           "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2024-07-22",
+          "id": "myint-swe-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-03-30",
+          "title": "Vice President of Burma"
+        },
+        {
+          "categories": [
             "head_of_state"
           ],
           "endDate": "2018-03-30",
-          "id": "myint-swe-p2",
+          "id": "myint-swe-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2018-03-21",
@@ -233,6 +266,17 @@
           "portfolio": null,
           "startDate": "1974-03-02",
           "title": "President of Myanmar"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1960-04-04",
+          "id": "ne-win-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1958-10-29",
+          "title": "Prime Minister of Myanmar"
         }
       ],
       "sources": [
@@ -317,76 +361,6 @@
     {
       "aliases": [],
       "countryCode": "MMR",
-      "fullName": "Saw Maung",
-      "id": "saw-maung",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "head_of_state"
-          ],
-          "endDate": "1991-08-25",
-          "id": "saw-maung-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1991-08-20",
-          "title": "Chairman of the State Law and Order Restoration Council"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Agga Maha Thray Sithu Than Shwe",
-        "Bogyoke Hmu Gyi Than Shwe",
-        "Bogyoke Than Shwe",
-        "Bogyokegyi Than Shwe",
-        "General Than Shwe",
-        "Senior General Than Shwe",
-        "U Than Shwe"
-      ],
-      "countryCode": "MMR",
-      "fullName": "Than Shwe",
-      "id": "than-shwe",
-      "party": "State Peace and Development Council",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Than_Shwe_2010-10-11.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "head_of_state"
-          ],
-          "endDate": "2011-03-30",
-          "id": "than-shwe-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1992-04-23",
-          "title": "President of Myanmar"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q202553"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Than_Shwe"
-        }
-      ],
-      "summary": "Than Shwe is a retired Burmese military officer who ruled Myanmar as the second chairman of the State Law and Order Restoration Council, later as the only chairman of the State Peace and Development Council, as well as the commander-in-chief of Defence Services from 1992 until his resignation in 2011, and concurrently served as the eighth prime minister of Myanmar from 1992 to 2003. He previously served as the deputy commander-in-chief of Defence Services from 1985, and the vice chairman of the State Peace and Development Council, and deputy prime minister of Myanmar from 1988 until 1992.",
-      "wikidataId": "Q202553"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
       "fullName": "Thein Sein",
       "id": "thein-sein",
       "party": "Union Solidarity and Development Party",
@@ -402,6 +376,17 @@
           "portfolio": null,
           "startDate": "2011-03-30",
           "title": "President of Myanmar"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2011-03-30",
+          "id": "thein-sein-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2007-10-24",
+          "title": "Prime Minister of Myanmar"
         }
       ],
       "sources": [
@@ -481,6 +466,29 @@
           "portfolio": null,
           "startDate": "2018-03-30",
           "title": "President of Myanmar"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2018-03-21",
+          "id": "win-myint-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-02-01",
+          "title": "Speaker of the House of Representatives of Myanmar"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "win-myint-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the House of Representatives of Burma",
+          "undated": true
         }
       ],
       "sources": [
@@ -534,6 +542,124 @@
       "wikidataId": "Q105444004"
     },
     {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Ba Swe",
+      "id": "ba-swe",
+      "party": "Anti-Fascist People's Freedom League",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ba_Swe.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1957-02-25",
+          "id": "ba-swe-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1956-06-12",
+          "title": "Prime Minister of Myanmar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2877627"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ba_Swe"
+        }
+      ],
+      "summary": "Ba Swe was the second Prime Minister of Burma. He was a leading Burmese politician during the decade after the country gained its independence from Britain in 1948.",
+      "wikidataId": "Q2877627"
+    },
+    {
+      "aliases": [
+        "Bogyoke Khin Nyunt",
+        "Bogyokegyi Khin Nyunt",
+        "General Khin Nyunt",
+        "Maung Khin Nyunt",
+        "U Khin Nyunt"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Khin Nyunt",
+      "id": "khin-nyunt",
+      "party": "independent politician",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KhinNyunt_cropped.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2004-10-18",
+          "id": "khin-nyunt-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2003-08-25",
+          "title": "Prime Minister of Myanmar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q557313"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khin_Nyunt"
+        }
+      ],
+      "summary": "Khin Nyunt is a retired Burmese army general widely recognized for his influential role in shaping Myanmar's political dynamics. Serving as the Chief of Intelligence and Prime Minister of Myanmar from 25 August 2003 to 18 October 2004, he played a crucial part in the nation's history.",
+      "wikidataId": "Q557313"
+    },
+    {
+      "aliases": [
+        "Mahn Winn Khaing Thann"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Mahn Win Khaing Than",
+      "id": "mahn-win-khaing-than",
+      "party": "National League for Democracy",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahn_Win_Khaing_Than.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": null,
+          "id": "mahn-win-khaing-than-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Prime Minister of Myanmar"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2021-01-31",
+          "id": "mahn-win-khaing-than-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-02-03",
+          "title": "Speaker of the House of Nationalities"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q22343041"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mahn_Winn_Khaing_Thann"
+        }
+      ],
+      "summary": "Mahn Winn Khaing Thann is a Myanmar politician and lawyer who is serving as the Prime Minister of the National Unity Government of Myanmar, a government in exile. An ethnic Karen, he served as the Speaker of the Assembly of the Union from 2016 to 2018 and the Speaker of the House of Nationalities on behalf of Kayin State from 2016 until his removal from office in the 2021 Myanmar coup d'état.",
+      "wikidataId": "Q22343041"
+    },
+    {
       "aliases": [
         "Admiral Moe Aung",
         "Commodore Moe Aung",
@@ -575,6 +701,109 @@
     },
     {
       "aliases": [
+        "General Moe Myint Tun",
+        "Lieutenant General Moe Myint Tun"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Moe Myint Tun",
+      "id": "moe-myint-tun",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": null,
+          "id": "moe-myint-tun-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "State Administration Council",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105444002"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moe_Myint_Tun"
+        }
+      ],
+      "summary": "Moe Myint Tun is a Burmese army general who served as a member of Myanmar's State Administration Council (SAC). He was appointed to the SAC on 2 February 2021, in the aftermath of the 2021 Myanmar coup d'état.",
+      "wikidataId": "Q105444002"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Saw Maung",
+      "id": "saw-maung",
+      "party": "State Peace and Development Council",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1992-04-23",
+          "id": "saw-maung-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1988-09-21",
+          "title": "Prime Minister of Myanmar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q740342"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saw_Maung"
+        }
+      ],
+      "summary": "Saw Maung was a Burmese military leader and statesman who served as Chairman of the State Law and Order Restoration Council (SLORC) and Prime Minister of Burma from 1988 until 1992, when he was deposed by rival generals who disapproved Saw Maung decisions that were in favor of Aung San Suu Kyi. Besides this, he was the 8th Commander-in-Chief of the Tatmadaw.",
+      "wikidataId": "Q740342"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Soe Win",
+      "id": "soe-win-mmr",
+      "party": "State Peace and Development Council",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/SoeWin_cropped.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2007-10-12",
+          "id": "soe-win-mmr-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2004-10-19",
+          "title": "Prime Minister of Myanmar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q315983"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soe_Win_(prime_minister)"
+        }
+      ],
+      "summary": "Soe Win was a Burmese army general who served as the Prime Minister of Myanmar and Secretary-1 of the State Peace and Development Council from 2004 to 2007. He was known by Burmese dissident groups as \"the butcher of Depayin\" for his role as mastermind of the 2003 Depayin Massacre, in which 70 National League for Democracy supporters were killed by a government-sponsored mob.",
+      "wikidataId": "Q315983"
+    },
+    {
+      "aliases": [
         "Nu",
         "Thakin Nu"
       ],
@@ -588,18 +817,18 @@
           "categories": [
             "head_of_government"
           ],
-          "endDate": "1955-07-03",
+          "endDate": "1956-06-12",
           "id": "u-nu-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "1955-06-29",
-          "title": "Prime Minister"
+          "startDate": "1948-01-04",
+          "title": "Prime Minister of Myanmar"
         }
       ],
       "sources": [
         {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q316384"
         },
         {
           "label": "Wikipedia",
@@ -608,6 +837,74 @@
       ],
       "summary": "Nu, commonly known as U Nu and also by the honorific name Thakin Nu, was a prominent Burmese statesman and the first Prime Minister of Union of Burma. He was educated at Rangoon University, where he developed his political ideas and became actively involved in the student movement.",
       "wikidataId": "Q316384"
+    },
+    {
+      "aliases": [
+        "Lashi La"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Duwa Lashi La",
+      "id": "duwa-lashi-la",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Duwa_Lashi_La_(December_2023)_(cropped).png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": null,
+          "id": "duwa-lashi-la-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Vice President of Burma"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q106577395"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Duwa_Lashi_La"
+        }
+      ],
+      "summary": "Duwa Lashi La is a Kachin politician and lawyer in Myanmar who is the president of the Kachin National Consultative Council. Duwa Lashi La was named by the Committee Representing Pyidaungsu Hluttaw, on 16 April 2021, as the vice-president in the National Unity Government of Myanmar, a parallel government to the State Administrative Council formed after the 2021 coup.",
+      "wikidataId": "Q106577395"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Henry Van Thio",
+      "id": "henry-van-thio",
+      "party": "National League for Democracy",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Van_Thio_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2024-04-22",
+          "id": "henry-van-thio-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-03-30",
+          "title": "Vice President of Burma"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23034406"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Henry_Van_Thio"
+        }
+      ],
+      "summary": "Henry Van Thio is a Burmese politician who was the second vice president of Myanmar from 30 March 2016 to 22 April 2024. He previously served as a member of Amyotha Hluttaw (House of Nationalities).",
+      "wikidataId": "Q23034406"
     },
     {
       "aliases": [
@@ -692,6 +989,39 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Nyan Tun",
+      "id": "nyan-tun",
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyan_Tun_World_Economic_Forum_2013.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2016-03-30",
+          "id": "nyan-tun-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-08-15",
+          "title": "Vice President of Burma"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4707696"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nyan_Tun"
+        }
+      ],
+      "summary": "Thray Sithu Nyan Tun is a Burmese politician who served as a member of parliament in the House of Representatives for Zigon Township constituency from 31 March 2016 to 30 January 2021. He previously served as Second Vice President of Myanmar from 15 August 2012 to 30 March 2016.",
+      "wikidataId": "Q4707696"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Nyo Saw",
       "id": "nyo-saw",
       "party": "Union Solidarity and Development Party",
@@ -725,6 +1055,83 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Sai Mauk Kham",
+      "id": "sai-mauk-kham",
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sai_Mauk_Kham_in_2015.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2016-03-30",
+          "id": "sai-mauk-kham-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-07-01",
+          "title": "Vice President of Burma"
+        },
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2012-07-01",
+          "id": "sai-mauk-kham-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-03-30",
+          "title": "Vice President of Burma"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4405249"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Mauk_Kham"
+        }
+      ],
+      "summary": "Dr. Sai Mauk Kham is a Burmese politician and physician who currently serves as a House of Representatives MP for Lashio Township constituency.",
+      "wikidataId": "Q4405249"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Tin Aung Myint Oo",
+      "id": "tin-aung-myint-oo",
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tin_Aung_Myint_Oo.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2012-07-01",
+          "id": "tin-aung-myint-oo-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-03-30",
+          "title": "Vice President of Burma"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3078540"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tin_Aung_Myint_Oo"
+        }
+      ],
+      "summary": "Thihathura Tin Aung Myint Oo is a Burmese former military official and politician who was the First Vice President of Myanmar from 30 March 2011 to 1 July 2012. He is also chairman of Burmese Trade Council, having been appointed in November 2007 by Than Shwe, in response to Saffron Revolution demonstrations in October of that year, and Minister of Military Affairs.",
+      "wikidataId": "Q3078540"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Aung Kyaw Hoe",
       "id": "aung-kyaw-hoe",
       "party": null,
@@ -753,6 +1160,87 @@
     },
     {
       "aliases": [
+        "U Aung Myo Min"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Aung Myo Min",
+      "id": "aung-myo-min",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/U_Aung_Myo_Min_in_2014.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "aung-myo-min-p1",
+          "ministry": "Ministry of Human Rights",
+          "portfolio": null,
+          "startDate": "2021-05-03",
+          "title": "Minister of Human Rights"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107598235"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aung_Myo_Min"
+        }
+      ],
+      "summary": "Aung Myo Min (Burmese: အောင်မျိုးမင်း, pronounced [ʔaʊɰ̃ mjó mɪ́ɰ̃]) is a Burmese human rights activist. He is currently a human rights minister in the cabinet of the National Unity Government and is the first openly LGBT minister in the country's history.",
+      "wikidataId": "Q107598235"
+    },
+    {
+      "aliases": [
+        "U Aung Naing Oo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Aung Naing Oo",
+      "id": "aung-naing-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-09-24",
+          "id": "aung-naing-oo-p1",
+          "ministry": "Ministry of Commerce",
+          "portfolio": "trade",
+          "startDate": "2022-08-19",
+          "title": "Minister of Commerce"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-19",
+          "id": "aung-naing-oo-p2",
+          "ministry": "Ministry of Investment and Foreign Economic Relations",
+          "portfolio": "foreign_affairs",
+          "startDate": "2021-02-01",
+          "title": "Minister of Investment and Foreign Economic Relations"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105203929"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Aung_Naing_Oo"
+        }
+      ],
+      "summary": "Aung Naing Oo is the current Union Minister of Commerce of Myanmar. He also served as Union Minister of Investment and Foreign Economic Relations from the Myanmar military coup on 1 February 2021 to 19 August 2022.",
+      "wikidataId": "Q105203929"
+    },
+    {
+      "aliases": [
         "Amay Suu",
         "Aung San Su Kyi",
         "Daw Aung San Su Kyi",
@@ -774,12 +1262,68 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2021-02-01",
+          "endDate": null,
           "id": "aung-san-suu-kyi-p1",
+          "ministry": "Ministry of the President's Office",
+          "portfolio": null,
+          "startDate": "2016-03-30",
+          "title": "Minister of the President's Office"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2021-02-01",
+          "id": "aung-san-suu-kyi-p2",
           "ministry": "Ministry of Foreign Affairs (Myanmar)",
           "portfolio": "foreign_affairs",
           "startDate": "2016-03-30",
           "title": "Minister of Foreign Affairs (Myanmar)"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2021-02-01",
+          "id": "aung-san-suu-kyi-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-04-06",
+          "title": "State Counsellor of Myanmar"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-04-05",
+          "id": "aung-san-suu-kyi-p4",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2016-03-30",
+          "title": "Minister of Education"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-04-05",
+          "id": "aung-san-suu-kyi-p5",
+          "ministry": "Ministry of Electric Power",
+          "portfolio": "energy",
+          "startDate": "2016-03-30",
+          "title": "Minister of Electric Power"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "aung-san-suu-kyi-p6",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the House of Representatives of Burma",
+          "undated": true
         }
       ],
       "sources": [
@@ -798,6 +1342,35 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Aung Than Oo",
+      "id": "aung-than-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-05-02",
+          "id": "aung-than-oo-p1",
+          "ministry": "Ministry of Electricity and Energy",
+          "portfolio": "energy",
+          "startDate": "2021-02-08",
+          "title": "Minister of Electricity and Energy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849617"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114849617"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Charlie Than",
       "id": "charlie-than",
       "party": null,
@@ -809,6 +1382,39 @@
           ],
           "endDate": null,
           "id": "charlie-than-p1",
+          "ministry": "Ministry of Industry",
+          "portfolio": "trade",
+          "startDate": "2021-05-22",
+          "title": "Minister of Industry"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q110192053"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charlie_Than"
+        }
+      ],
+      "summary": "Charlie Than is the current Union Minister for Ministry of Industry of Myanmar. He is an engineer, retired rector and guest professor.",
+      "wikidataId": "Q110192053"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Charlie Than",
+      "id": "charlie-than-mmr",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "charlie-than-mmr-p1",
           "ministry": "Ministry of Industry and Micro, Small and Medium Enterprise Development",
           "portfolio": "trade",
           "startDate": null,
@@ -839,7 +1445,7 @@
           "endDate": null,
           "id": "chaw-chaw-sein-p1",
           "ministry": "Ministry of Education",
-          "portfolio": null,
+          "portfolio": "education",
           "startDate": null,
           "title": "Minister of Education"
         }
@@ -856,6 +1462,79 @@
       ],
       "summary": "Chaw Chaw Sein is a Burmese academic and government official who currently serves as the Union Minister for Education.",
       "wikidataId": "Q139268582"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Chit Naing",
+      "id": "chit-naing",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-19",
+          "id": "chit-naing-p1",
+          "ministry": "Ministry of the Office of the Union Government",
+          "portfolio": null,
+          "startDate": "2021-08-01",
+          "title": "Minister of the Office of the Union Government"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2021-08-01",
+          "id": "chit-naing-p2",
+          "ministry": "Ministry of Information",
+          "portfolio": null,
+          "startDate": "2021-02-01",
+          "title": "Minister of Information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q13063623"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chit_Naing"
+        }
+      ],
+      "summary": "Chit Naing is a Burmese politician, writer and Minister of Union Government Office. He previously served as a former Minister of Information.",
+      "wikidataId": "Q13063623"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Hla Moe",
+      "id": "hla-moe",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "hla-moe-p1",
+          "ministry": "Ministry of Cooperatives and Rural Development",
+          "portfolio": null,
+          "startDate": "2021-06-24",
+          "title": "Minister of Cooperatives and Rural Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849619"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114849619"
     },
     {
       "aliases": [],
@@ -889,6 +1568,50 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Htay Aung",
+      "id": "htay-aung",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-02-01",
+          "id": "htay-aung-p1",
+          "ministry": "Ministry of Hotels and Tourism",
+          "portfolio": "tourism",
+          "startDate": "2021-08-05",
+          "title": "Minister of Hotels and Tourism"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-03-30",
+          "id": "htay-aung-p2",
+          "ministry": "Ministry of Hotels and Tourism",
+          "portfolio": "tourism",
+          "startDate": "2012-09-01",
+          "title": "Minister of Hotels and Tourism"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20740965"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Htay_Aung"
+        }
+      ],
+      "summary": "Htay Aung (Burmese: ဌေးအောင်) is a former military officer and politician, who previously served as Minister of Hotels and Tourism in Myanmar. He was appointed in September 2012 by President Thein Sein, effectively receiving a promotion, as he had previously been a deputy minister at the ministry from March 2011 to September 2012.",
+      "wikidataId": "Q20740965"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Htein Lin",
       "id": "htein-lin",
       "party": null,
@@ -916,6 +1639,41 @@
       "wikidataId": null
     },
     {
+      "aliases": [
+        "U Htin Lin Aung"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Htin Linn Aung",
+      "id": "htin-linn-aung",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "htin-linn-aung-p1",
+          "ministry": "Ministry of Information",
+          "portfolio": null,
+          "startDate": "2021-06-05",
+          "title": "Minister of Information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105709676"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Htin_Linn_Aung"
+        }
+      ],
+      "summary": "U Htin Linn Aung is a Burmese politician, social activist, former prisoner of conscience, and computer scientist who currently serves as the Union Minister of Communications, Information and Technology of the National Unity Government of Myanmar.",
+      "wikidataId": "Q105709676"
+    },
+    {
       "aliases": [],
       "countryCode": "MMR",
       "fullName": "Kan Zaw",
@@ -933,6 +1691,17 @@
           "portfolio": "finance",
           "startDate": null,
           "title": "Minister of Finance and Revenue"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "kan-zaw-p2",
+          "ministry": "Ministry of Investment and Foreign Economic Relations",
+          "portfolio": "foreign_affairs",
+          "startDate": "2022-08-19",
+          "title": "Minister of Investment and Foreign Economic Relations"
         }
       ],
       "sources": [
@@ -947,6 +1716,41 @@
       ],
       "summary": "Kan Zaw (Burmese: ကံဇော်, born 11 October 1954) is a Burmese politician who was the Union Minister of the now defunct Ministry of Investment and Foreign Economic Relations. He previously served as Union Auditor General under Min Aung Hlaing.",
       "wikidataId": "Q16186311"
+    },
+    {
+      "aliases": [
+        "Daw Khin Ma Ma Myo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Khin Ma Ma Myo",
+      "id": "khin-ma-ma-myo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "khin-ma-ma-myo-p1",
+          "ministry": "Ministry of Commerce",
+          "portfolio": "trade",
+          "startDate": "2021-08-25",
+          "title": "Minister of Commerce"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108100380"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khin_Ma_Ma_Myo"
+        }
+      ],
+      "summary": "Khin Ma Ma Myo is a Burmese politician who currently serves as Minister of Commerce of NUG. She was appointed by the Committee Representing Pyidaungsu Hluttaw as the Deputy Minister of Defence in the National Unity Government of Myanmar on 16 April 2021 and later on transferred to the role of Minister of Commerce.",
+      "wikidataId": "Q108100380"
     },
     {
       "aliases": [
@@ -965,7 +1769,7 @@
           "endDate": null,
           "id": "khin-maung-soe-p1",
           "ministry": "Ministry of Labor",
-          "portfolio": null,
+          "portfolio": "labour",
           "startDate": null,
           "title": "Minister of Labor"
         }
@@ -978,6 +1782,37 @@
       ],
       "summary": "Burmese politician (born 1955).",
       "wikidataId": "Q114268937"
+    },
+    {
+      "aliases": [
+        "U Khin Maung Yee"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Khin Maung Yee",
+      "id": "khin-maung-yee",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "khin-maung-yee-p1",
+          "ministry": "Ministry of Natural Resources and Environmental Conservation",
+          "portfolio": "environment",
+          "startDate": "2021-02-02",
+          "title": "Minister of Natural Resources and Environmental Conservation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114268803"
+        }
+      ],
+      "summary": "Burmese politician (born 1944).",
+      "wikidataId": "Q114268803"
     },
     {
       "aliases": [],
@@ -1007,6 +1842,116 @@
       ],
       "summary": "Statesperson, Myanmar.",
       "wikidataId": "Q136387081"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Khin Yi",
+      "id": "khin-yi",
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/U-Khin-Yi.gif?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-19",
+          "id": "khin-yi-p1",
+          "ministry": "Ministry of Immigration and Population",
+          "portfolio": null,
+          "startDate": "2021-08-01",
+          "title": "Minister of Immigration and Population"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2015-08-12",
+          "id": "khin-yi-p2",
+          "ministry": "Ministry of Immigration and Population",
+          "portfolio": null,
+          "startDate": "2011-03-30",
+          "title": "Minister of Immigration and Population"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6401687"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khin_Yi"
+        }
+      ],
+      "summary": "Khin Yi (born 29 December 1952) is a Myanmar politician and former military officer who has served as the fourth speaker and Member of the Pyithu Hluttaw for Zeyathiri since 2026, and Chairman of Union Solidarity and Development Party (USDP) since 2022. He was previously Minister of Immigration and Population from 2011 to 2015 and again fron 2021 to 2022, and was also Chief of the Myanmar Police Force from 2002 to 2011.",
+      "wikidataId": "Q6401687"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Ko Ko",
+      "id": "ko-ko",
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "ko-ko-p1",
+          "ministry": "Ministry of Religious Affairs and Culture",
+          "portfolio": "culture",
+          "startDate": "2021-02-01",
+          "title": "Minister of Religious Affairs and Culture"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19696256"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ko_Ko_(minister)"
+        }
+      ],
+      "summary": "Ko Ko was the Minister for Home Affairs of Myanmar (Burma) from 2011 to 2016. He retired as a Lieutenant General on 30 March 2016 from the Myanmar Army.",
+      "wikidataId": "Q19696256"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Ko Ko Hlaing",
+      "id": "ko-ko-hlaing",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko_Ko_Hlaing.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "ko-ko-hlaing-p1",
+          "ministry": "Ministry of International Cooperation",
+          "portfolio": null,
+          "startDate": "2021-02-01",
+          "title": "Minister of International Cooperation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6424145"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ko_Ko_Hlaing"
+        }
+      ],
+      "summary": "Ko Ko Hlaing (Burmese: ကိုကိုလှိုင်, born 24 October 1956 in Myinmu) is a Burmese military researcher and writer, served under Thein Sein as the chief political advisor to the President's Office of Myanmar, after being appointed on 19 April 2011. In 1976, he graduated from the Defence Services Academy.",
+      "wikidataId": "Q6424145"
     },
     {
       "aliases": [],
@@ -1067,6 +2012,120 @@
       "wikidataId": null
     },
     {
+      "aliases": [
+        "Dr. Lian Hmung Sakhong"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Lian Hmung Sakhong",
+      "id": "lian-hmung-sakhong",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lian_Hmung_Sakhong.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "lian-hmung-sakhong-p1",
+          "ministry": "Ministry of Federal Union Affairs",
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Minister of Federal Union Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q106608579"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lian_Hmung_Sakhong"
+        }
+      ],
+      "summary": "Lian Hmung Sakhong (Burmese: လျန်မှုန်းဆာခေါင်း) is a prominent Chin scholar, activist, and politician. He currently serves Union Minister of Ministry of Federal Union Affairs at National Unity Government of the Union of Myanmar (NUG).",
+      "wikidataId": "Q106608579"
+    },
+    {
+      "aliases": [
+        "U Lwin Ko Latt"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Lwin Ko Latt",
+      "id": "lwin-ko-latt",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LwinKoLatt.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "lwin-ko-latt-p1",
+          "ministry": "Ministry of Home Affairs",
+          "portfolio": "home_affairs",
+          "startDate": "2021-04-16",
+          "title": "Minister of Home Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105741482"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lwin_Ko_Latt"
+        }
+      ],
+      "summary": "Lwin Ko Latt (Burmese: လွင်ကိုလတ်) is a Burmese activist and politician who served as a member of the House of Representatives from Thanlyin Township from 2016 until his removal from office in the 2021 Myanmar coup d'état. He is a member of the Committee Representing Pyidaungsu Hluttaw.",
+      "wikidataId": "Q105741482"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Maung Maung Ohn",
+      "id": "maung-maung-ohn",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maung_Maung_Ohn_-_2014_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "maung-maung-ohn-p1",
+          "ministry": "Ministry of Information",
+          "portfolio": null,
+          "startDate": "2021-08-01",
+          "title": "Minister of Information"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2021-08-05",
+          "id": "maung-maung-ohn-p2",
+          "ministry": "Ministry of Hotels and Tourism",
+          "portfolio": "tourism",
+          "startDate": "2021-02-07",
+          "title": "Minister of Hotels and Tourism"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20992005"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maung_Maung_Ohn"
+        }
+      ],
+      "summary": "Maung Maung Ohn (Burmese: မောင်မောင်အုန်း, born 30 May 1950) is a Burmese politician who has been serving as the Deputy Speaker of the Pyithu Hluttaw since 16 March 2026. He previously held the position of Union Minister for Information from 2021 to 2026.",
+      "wikidataId": "Q20992005"
+    },
+    {
       "aliases": [],
       "countryCode": "MMR",
       "fullName": "Maung Myint",
@@ -1081,7 +2140,7 @@
           "endDate": null,
           "id": "maung-myint-p1",
           "ministry": "Ministry of Hotels, Tourism and Culture",
-          "portfolio": null,
+          "portfolio": "culture",
           "startDate": null,
           "title": "Minister of Hotels, Tourism and Culture"
         }
@@ -1112,9 +2171,21 @@
           "endDate": null,
           "id": "maung-thin-p1",
           "ministry": "Ministry of Youth Affairs",
-          "portfolio": null,
+          "portfolio": "youth",
           "startDate": null,
           "title": "Minister of Youth Affairs"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "maung-thin-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the House of Representatives of Burma",
+          "undated": true
         }
       ],
       "sources": [
@@ -1147,7 +2218,7 @@
           "endDate": null,
           "id": "min-naung-p1",
           "ministry": "Ministry of Agriculture, Livestock and Irrigation",
-          "portfolio": null,
+          "portfolio": "agriculture",
           "startDate": null,
           "title": "Minister of Agriculture, Livestock and Irrigation"
         }
@@ -1160,6 +2231,35 @@
       ],
       "summary": "Burmese politician (born 1966).",
       "wikidataId": "Q114268994"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Min Thein Zan",
+      "id": "min-thein-zan",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "min-thein-zan-p1",
+          "ministry": "Ministry of Sports",
+          "portfolio": "youth",
+          "startDate": "2021-08-01",
+          "title": "Minister of Sports"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849620"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114849620"
     },
     {
       "aliases": [
@@ -1179,7 +2279,7 @@
           "endDate": null,
           "id": "mya-tun-oo-p1",
           "ministry": "Ministry of Digital Development and Communications",
-          "portfolio": null,
+          "portfolio": "science",
           "startDate": null,
           "title": "Minister of Digital Development and Communications"
         },
@@ -1190,7 +2290,7 @@
           "endDate": null,
           "id": "mya-tun-oo-p2",
           "ministry": "Ministry of Transport",
-          "portfolio": null,
+          "portfolio": "transport",
           "startDate": null,
           "title": "Minister of Transport"
         },
@@ -1215,6 +2315,17 @@
           "portfolio": null,
           "startDate": "2021-02-02",
           "title": "State Administration Council"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-08-03",
+          "id": "mya-tun-oo-p5",
+          "ministry": "Ministry of Defence",
+          "portfolio": "defence",
+          "startDate": "2021-02-01",
+          "title": "Minister of Defence"
         }
       ],
       "sources": [
@@ -1250,6 +2361,50 @@
           "id": "myint-kyaing-p1",
           "ministry": "Ministry of Immigration and Population",
           "portfolio": null,
+          "startDate": "2022-08-19",
+          "title": "Minister of Immigration and Population"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-19",
+          "id": "myint-kyaing-p2",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2021-02-01",
+          "title": "Minister of Labour"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114837022"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myint_Kyaing"
+        }
+      ],
+      "summary": "Myint Kyaing is the current union minister of Ministry of Immigration and Population of Myanmar. He also served as union minister of Ministry of Labour and Ministry of Labour, Immigration and Population.",
+      "wikidataId": "Q114837022"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Myint Kyaing",
+      "id": "myint-kyaing-mmr",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "myint-kyaing-mmr-p1",
+          "ministry": "Ministry of Immigration and Population",
+          "portfolio": null,
           "startDate": null,
           "title": "Minister of Immigration and Population"
         }
@@ -1262,6 +2417,35 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Myo Myint Oo",
+      "id": "myo-myint-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "myo-myint-oo-p1",
+          "ministry": "Ministry of Energy",
+          "portfolio": "energy",
+          "startDate": "2022-08-05",
+          "title": "Minister of Energy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849621"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114849621"
     },
     {
       "aliases": [],
@@ -1307,7 +2491,40 @@
           "endDate": null,
           "id": "myo-thein-kyaw-p1",
           "ministry": "Ministry of Science and Technology",
-          "portfolio": null,
+          "portfolio": "science",
+          "startDate": "2021-06-17",
+          "title": "Minister of Science and Technology"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849623"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Myo_Thein_Kyaw"
+        }
+      ],
+      "summary": "Brigadier General (Retd.) Dr. Myo Thein Kyaw (မျိုးသိန်းကျော်) is a Burmese military officer and politician currently serving as the Union Minister for Science and Technology.",
+      "wikidataId": "Q114849623"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Myo Thein Kyaw",
+      "id": "myo-thein-kyaw-mmr",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "myo-thein-kyaw-mmr-p1",
+          "ministry": "Ministry of Science and Technology",
+          "portfolio": "science",
           "startDate": null,
           "title": "Minister of Science and Technology"
         }
@@ -1351,37 +2568,107 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Nai Tun Pe (a) Nai Suwunna"
+      ],
       "countryCode": "MMR",
-      "fullName": "Nyan Win",
-      "id": "nyan-win",
-      "party": "Union Solidarity and Development Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyan_Win.jpg?width=160",
+      "fullName": "Nai Thuwanna",
+      "id": "nai-thuwanna",
+      "party": null,
+      "photoUrl": null,
       "positions": [
         {
           "categories": [
             "minister"
           ],
-          "endDate": "2011-03-30",
-          "id": "nyan-win-p1",
-          "ministry": "Ministry of Foreign Affairs (Myanmar)",
-          "portfolio": "foreign_affairs",
-          "startDate": "2004-09-18",
-          "title": "Minister of Foreign Affairs (Myanmar)"
+          "endDate": null,
+          "id": "nai-thuwanna-p1",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2021-05-03",
+          "title": "Minister of Labour"
         }
       ],
       "sources": [
         {
           "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q58153"
+          "url": "https://www.wikidata.org/wiki/Q107451326"
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Nyan_Win"
+          "url": "https://en.wikipedia.org/wiki/Nai_Thuwanna"
         }
       ],
-      "summary": "Nyan Win is a former Chief Minister of Bago Region, having served from 2011 to 2016. He won a Regional Hluttaw seat in an uncontested election in 2010, representing Zigon Township, and was appointed Chief Minister of the region on 30 March 2011.",
-      "wikidataId": "Q58153"
+      "summary": "Nai Suwunna is a Burmese politician who currently serves as Minister of Labour of NUG and as the president of Mon State Interim Coordination Committee (MSICC). He was appointed by the Committee Representing Pyidaungsu Hluttaw as the Minister of Labour in the National Unity Government of Myanmar on 3 May 2021.",
+      "wikidataId": "Q107451326"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Naw Susanna Hla Hla Soe",
+      "id": "naw-susanna-hla-hla-soe",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naw_Susanna_Hla_Hla_Soe.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "naw-susanna-hla-hla-soe-p1",
+          "ministry": "Ministry of Women, Youth and Children",
+          "portfolio": "women",
+          "startDate": "2021-04-16",
+          "title": "Minister of Women, Youth and Children"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q106615935"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Naw_Susanna_Hla_Hla_Soe"
+        }
+      ],
+      "summary": "Naw Susanna Hla Hla Soe (Burmese: နော်ဆူဇန်နာလှလှစိုး), or simply Naw Hla Hla Soe (Burmese: နော်လှလှစိုး), is a Karen zoologist, politician and social activist who mainly focuses on the development of the lives of ethnic Karen women in Burma.",
+      "wikidataId": "Q106615935"
+    },
+    {
+      "aliases": [
+        "Nyunt Phay"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Nyunt Pe",
+      "id": "nyunt-pe",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "nyunt-pe-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2021-02-16",
+          "title": "Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108081336"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nyunt_Phay"
+        }
+      ],
+      "summary": "Nyunt Phay is the Union Minister for Education of Myanmar since 2021 to 2025. He was appointed by the State Administration Council after the 2021 coup.",
+      "wikidataId": "Q108081336"
     },
     {
       "aliases": [],
@@ -1411,6 +2698,53 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Dr Pwint San",
+        "Pwong San (Minister)"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Pwint San",
+      "id": "pwint-san",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "pwint-san-p1",
+          "ministry": "Ministry of Labour",
+          "portfolio": "labour",
+          "startDate": "2022-08-19",
+          "title": "Minister of Labour"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-19",
+          "id": "pwint-san-p2",
+          "ministry": "Ministry of Commerce",
+          "portfolio": "trade",
+          "startDate": "2021-02-03",
+          "title": "Minister of Commerce"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q113426931"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pwint_San"
+        }
+      ],
+      "summary": "Pwint San is now retired from his previous position Minister of Labour of Myanmar after he was dismissed from his duties in 2023. He served as Minister for Commerce from 3 February 2021 to 19 August 2022 in the aftermath of the 2021 Myanmar coup d'état in the Burmese military junta's cabinet.",
+      "wikidataId": "Q113426931"
     },
     {
       "aliases": [],
@@ -1443,6 +2777,180 @@
     },
     {
       "aliases": [
+        "Dr. Sa Sa",
+        "Dr. Sasa",
+        "Salai Maung Taing San"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Sasa",
+      "id": "sasa",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Sa_Sa_(cropped).png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "sasa-p1",
+          "ministry": "Ministry of International Cooperation",
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Minister of International Cooperation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105686954"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sasa_(politician)"
+        }
+      ],
+      "summary": "Sasa, known honorifically as Dr Sasa, is a Chin medical doctor, philanthropist and civil society activist who served as the Minister of International Cooperation in the cabinet of National Unity Government. He previously served as the Special Envoy of Committee Representing Pyidaungsu Hluttaw (CRPH) to the United Nations.",
+      "wikidataId": "Q105686954"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Saw Tun Aung Myint",
+      "id": "saw-tun-aung-myint",
+      "party": "Kayin People's Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-02-01",
+          "id": "saw-tun-aung-myint-p1",
+          "ministry": "Ministry of Ethnic Affairs",
+          "portfolio": null,
+          "startDate": "2021-02-03",
+          "title": "Minister of Ethnic Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849624"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Saw_Tun_Aung_Myint"
+        }
+      ],
+      "summary": "Saw Tun Aung Myint is a Burmese politician and retired naval officer. He currently serves as the Leader of the Central Advisory Group of the National Defence and Security Council (NDSC).",
+      "wikidataId": "Q114849624"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Shwe Lay",
+      "id": "shwe-lay",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-02-01",
+          "id": "shwe-lay-p1",
+          "ministry": "Ministry of Construction",
+          "portfolio": null,
+          "startDate": "2021-02-02",
+          "title": "Minister of Construction"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849625"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114849625"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Soe Htut",
+      "id": "soe-htut",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Soe_Htut_Minister.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-08-03",
+          "id": "soe-htut-p1",
+          "ministry": "Ministry of Home Affairs",
+          "portfolio": "home_affairs",
+          "startDate": "2020-02-10",
+          "title": "Minister of Home Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2021-05-11",
+          "id": "soe-htut-p2",
+          "ministry": "Ministry of the Office of the Union Government",
+          "portfolio": null,
+          "startDate": "2020-02-10",
+          "title": "Minister of the Office of the Union Government"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q91866659"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soe_Htut"
+        }
+      ],
+      "summary": "Soe Htut is a former Burmese military officer and former Minister for Home Affairs of Myanmar. Soe Htut was a career soldier, and held the rank of Lieutenant General.",
+      "wikidataId": "Q91866659"
+    },
+    {
+      "aliases": [
+        "U Soe Thura Tun"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Soe Thura Tun",
+      "id": "soe-thura-tun",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "soe-thura-tun-p1",
+          "ministry": "Ministry of Electricity and Energy",
+          "portfolio": "energy",
+          "startDate": "2021-06-05",
+          "title": "Minister of Electricity and Energy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114269088"
+        }
+      ],
+      "summary": "Burmese politician (born 1970).",
+      "wikidataId": "Q114269088"
+    },
+    {
+      "aliases": [
         "Bogyoke Soe Win",
         "Bogyokegyi Soe Win",
         "General Soe Win",
@@ -1462,16 +2970,49 @@
           "endDate": null,
           "id": "soe-win-p1",
           "ministry": "Ministry of Social Welfare, Relief and Resettlement",
-          "portfolio": null,
+          "portfolio": "social_affairs",
           "startDate": null,
           "title": "Minister of Social Welfare, Relief and Resettlement"
+        },
+        {
+          "categories": [
+            "military_leader"
+          ],
+          "endDate": null,
+          "id": "soe-win-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-04-01",
+          "title": "Commander-in-Chief of Myanmar Army"
+        },
+        {
+          "categories": [
+            "military_leader"
+          ],
+          "endDate": null,
+          "id": "soe-win-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-03-30",
+          "title": "Deputy Commander-in-Chief of Defence Services"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "soe-win-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-02-02",
+          "title": "Vice-Chairman of the State Administration Council"
         },
         {
           "categories": [
             "deputy_leader"
           ],
           "endDate": "2023-02-01",
-          "id": "soe-win-p2",
+          "id": "soe-win-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "2021-08-01",
@@ -1527,6 +3068,81 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Thaung Han",
+      "id": "thaung-han",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "thaung-han-p1",
+          "ministry": "Ministry of Electric Power",
+          "portfolio": "energy",
+          "startDate": "2022-05-02",
+          "title": "Minister of Electric Power"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-05",
+          "id": "thaung-han-p2",
+          "ministry": "Ministry of Energy",
+          "portfolio": "energy",
+          "startDate": "2022-05-02",
+          "title": "Minister of Energy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114849626"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114849626"
+    },
+    {
+      "aliases": [
+        "U Thein Oo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Thein Oo",
+      "id": "thein-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "thein-oo-p1",
+          "ministry": "Ministry of Justice",
+          "portfolio": "justice",
+          "startDate": "2021-06-05",
+          "title": "Minister of Justice"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7777802"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thein_Oo"
+        }
+      ],
+      "summary": "Thein Oo(Born 12 May 1948) is a businessman in Myanmar's computer industry, President of the Myanmar Computer Federation (a semi-governmental Nonprofit organization) and also the president of ACE Data Systems, (ACE Group of companies.)",
+      "wikidataId": "Q7777802"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Thet Khaing Win",
       "id": "thet-khaing-win",
       "party": null,
@@ -1539,7 +3155,7 @@
           "endDate": null,
           "id": "thet-khaing-win-p1",
           "ministry": "Ministry of Health",
-          "portfolio": null,
+          "portfolio": "health",
           "startDate": null,
           "title": "Minister of Health"
         }
@@ -1552,6 +3168,42 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Dr. Thet Thet Khine",
+        "Thet Thet Khine"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Thet Thet Khaing",
+      "id": "thet-thet-khaing",
+      "party": "National League for Democracy",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr_Thet_Thet_Khine.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-08-02",
+          "id": "thet-thet-khaing-p1",
+          "ministry": "Ministry of Social Welfare",
+          "portfolio": "social_affairs",
+          "startDate": "2021-02-04",
+          "title": "Minister of Social Welfare"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q56486694"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thet_Thet_Khine"
+        }
+      ],
+      "summary": "Dr. Thet Thet Khine is a Burmese politician, physician and businesswoman who is the Minister for Social Welfare, Relief and Resettlement appointed by the military junta after the coup d'état in 2021.",
+      "wikidataId": "Q56486694"
     },
     {
       "aliases": [
@@ -1570,7 +3222,7 @@
           "endDate": null,
           "id": "thet-thet-zin-p1",
           "ministry": "Ministry of Women’s Affairs",
-          "portfolio": null,
+          "portfolio": "women",
           "startDate": null,
           "title": "Minister of Women’s Affairs"
         }
@@ -1583,6 +3235,37 @@
       ],
       "summary": "Burmese politician, Union Minister for Women's Affairs.",
       "wikidataId": "Q139302411"
+    },
+    {
+      "aliases": [
+        "U Thet Win Khaing"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Thet Win Khaing",
+      "id": "thet-win-khaing",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "thet-win-khaing-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2021-02-01",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114269410"
+        }
+      ],
+      "summary": "Burmese politician (born 1980).",
+      "wikidataId": "Q114269410"
     },
     {
       "aliases": [],
@@ -1610,7 +3293,7 @@
           "endDate": null,
           "id": "thida-oo-p2",
           "ministry": "Ministry of Legal Affairs",
-          "portfolio": null,
+          "portfolio": "justice",
           "startDate": "2021-08-30",
           "title": "Minister of Legal Affairs"
         }
@@ -1672,6 +3355,17 @@
           "portfolio": null,
           "startDate": "2021-02-02",
           "title": "State Administration Council"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-08-03",
+          "id": "tin-aung-san-p4",
+          "ministry": "Ministry of Transport and Communications",
+          "portfolio": "transport",
+          "startDate": "2021-02-03",
+          "title": "Minister of Transport and Communications"
         }
       ],
       "sources": [
@@ -1690,6 +3384,37 @@
       ],
       "summary": "Tin Aung San is a Burmese politician and former Myanmar Navy officer who is serving as Union Minister of the President's Office since April 2026. He held the position of Union Minister of Ministry 1 of the President's Office and served as the national security advisor to the National Defence and Security Council.",
       "wikidataId": "Q105234492"
+    },
+    {
+      "aliases": [
+        "U Tin Htut Oo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Tin Htut Oo",
+      "id": "tin-htut-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-02-01",
+          "id": "tin-htut-oo-p1",
+          "ministry": "Ministry of Agriculture, Livestock and Irrigation",
+          "portfolio": "agriculture",
+          "startDate": "2021-02-03",
+          "title": "Minister of Agriculture, Livestock and Irrigation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114268443"
+        }
+      ],
+      "summary": "Burmese politician (born 1963).",
+      "wikidataId": "Q114268443"
     },
     {
       "aliases": [],
@@ -1750,10 +3475,12 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "U Tin Tun Naing"
+      ],
       "countryCode": "MMR",
-      "fullName": "Tun Aung",
-      "id": "tun-aung",
+      "fullName": "Tin Tun Naing",
+      "id": "tin-tun-naing",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1762,7 +3489,75 @@
             "minister"
           ],
           "endDate": null,
-          "id": "tun-aung-p1",
+          "id": "tin-tun-naing-p1",
+          "ministry": "Ministry of Finance",
+          "portfolio": "finance",
+          "startDate": "2021-04-16",
+          "title": "Minister of Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q25619633"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tin_Tun_Naing"
+        }
+      ],
+      "summary": "Tin Tun Naing (Burmese: တင်ထွန်းနိုင်) is a Burmese activist and politician who currently serves as the acting union minister for the Ministry of Planning, Finance and Industry, Ministry of Investment and Foreign Economic Relations and Ministry of Commerce. He is also a member of House of Representatives for Seikkyi Kanaungto Township and of the Committee Representing Pyidaungsu Hluttaw.",
+      "wikidataId": "Q25619633"
+    },
+    {
+      "aliases": [
+        "Dr. Tu Hkawng"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Tu Hkawng",
+      "id": "tu-hkawng",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "tu-hkawng-p1",
+          "ministry": "Ministry of Natural Resources and Environmental Conservation",
+          "portfolio": "environment",
+          "startDate": "2021-04-16",
+          "title": "Minister of Natural Resources and Environmental Conservation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107395473"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tu_Hkawng"
+        }
+      ],
+      "summary": "Tu Hkawng (Burmese: တူးခေါင်), also known as Hkalen Tu Hkawng, is a Kachin botanist, independent researcher, pastor and politician.",
+      "wikidataId": "Q107395473"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Tun Aung",
+      "id": "tun-aung-mmr",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "tun-aung-mmr-p1",
           "ministry": "Ministry of Defense",
           "portfolio": "defence",
           "startDate": null,
@@ -1810,6 +3605,106 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Tun Tun Naung",
+      "id": "tun-tun-naung",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "tun-tun-naung-p1",
+          "ministry": "Ministry of Border Affairs",
+          "portfolio": null,
+          "startDate": "2021-02-01",
+          "title": "Minister of Border Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111353513"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tun_Tun_Naung"
+        }
+      ],
+      "summary": "Tun Tun Naung is a Burmese military officer and former Minister for Home Affairs of Myanmar. He was the former Union Minister of Border Affairs Tun Tun Naung is a career soldier, and currently holds the rank of Lieutenant General.",
+      "wikidataId": "Q111353513"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "U Myo Thant",
+      "id": "u-myo-thant",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "u-myo-thant-p1",
+          "ministry": "Ministry of Construction",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Construction",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q130468383"
+        }
+      ],
+      "summary": "Statesperson, Myanmar.",
+      "wikidataId": "Q130468383"
+    },
+    {
+      "aliases": [
+        "U Yee Mon",
+        "Ye Mon",
+        "Yee Mon"
+      ],
+      "countryCode": "MMR",
+      "fullName": "U Tin Thit",
+      "id": "u-tin-thit",
+      "party": "National League for Democracy",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NUG_Defense_Minister_Yee_Mon_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "u-tin-thit-p1",
+          "ministry": "Ministry of Defence",
+          "portfolio": "defence",
+          "startDate": "2021-04-16",
+          "title": "Minister of Defence"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q21934500"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yee_Mon"
+        }
+      ],
+      "summary": "Yee Mon is a Burmese poet, former political prisoner, and politician currently serving as Minister of Defense of the National Unity Government of Myanmar. He attended the University of Medicine, Mandalay in 1984.",
+      "wikidataId": "Q21934500"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Win Aung",
       "id": "win-aung",
       "party": null,
@@ -1841,6 +3736,96 @@
       "wikidataId": "Q454491"
     },
     {
+      "aliases": [
+        "Dr. Win Myat Aye"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Win Myat Aye",
+      "id": "win-myat-aye",
+      "party": "National League for Democracy",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Win_Myat_Aye_(cropped).png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "win-myat-aye-p1",
+          "ministry": "Ministry of Humanitarian Affairs and Disaster Management",
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Minister of Humanitarian Affairs and Disaster Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23386122"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Win_Myat_Aye"
+        }
+      ],
+      "summary": "Win Myat Aye is a Burmese politician and former Minister for Social Welfare, Relief and Resettlement of Myanmar (Burma). He also serves as the chairman of the Myanmar Youth Affairs Committee.",
+      "wikidataId": "Q23386122"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Win Shein",
+      "id": "win-shein",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "win-shein-p1",
+          "ministry": "Ministry of Finance",
+          "portfolio": "finance",
+          "startDate": "2021-02-01",
+          "title": "Minister of Finance"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-03-30",
+          "id": "win-shein-p2",
+          "ministry": "Ministry of Finance",
+          "portfolio": "finance",
+          "startDate": "2012-09-07",
+          "title": "Minister of Finance"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2011-01-01",
+          "id": "win-shein-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2009-01-01",
+          "title": "Ambassador of Myanmar to Cambodia"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q17070236"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Win_Shein"
+        }
+      ],
+      "summary": "Win Shein is a former military officer and the incumbent Minister for Finance of Myanmar.",
+      "wikidataId": "Q17070236"
+    },
+    {
       "aliases": [],
       "countryCode": "MMR",
       "fullName": "Wunna Maung Lwin",
@@ -1869,6 +3854,28 @@
           "portfolio": "foreign_affairs",
           "startDate": "2011-03-30",
           "title": "Minister of Foreign Affairs (Myanmar)"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2011-03-30",
+          "id": "wunna-maung-lwin-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2007-01-01",
+          "title": "Permanent Representative of Myanmar to the United Nations"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2004-01-01",
+          "id": "wunna-maung-lwin-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2001-01-01",
+          "title": "Ambassador of Myanmar to France"
         }
       ],
       "sources": [
@@ -1887,6 +3894,39 @@
     {
       "aliases": [],
       "countryCode": "MMR",
+      "fullName": "Yar Pyae",
+      "id": "yar-pyae",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-08-03",
+          "id": "yar-pyae-p1",
+          "ministry": "Ministry of the Office of the Union Government",
+          "portfolio": null,
+          "startDate": "2021-05-11",
+          "title": "Minister of the Office of the Union Government"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19718768"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yar_Pyae"
+        }
+      ],
+      "summary": "Yar Pyae is a Burmese army general and the Minister for the Union Government Office as of 11 May 2021. He was appointed as the National Security Advisor on 22 May 2021.",
+      "wikidataId": "Q19718768"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
       "fullName": "Ye Myint Tun",
       "id": "ye-myint-tun",
       "party": null,
@@ -1899,7 +3939,7 @@
           "endDate": null,
           "id": "ye-myint-tun-p1",
           "ministry": "Ministry of Sports",
-          "portfolio": null,
+          "portfolio": "youth",
           "startDate": null,
           "title": "Minister of Sports"
         }
@@ -1912,6 +3952,52 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Dr. Zaw Wai Soe"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Zaw Wai Soe",
+      "id": "zaw-wai-soe",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr_Zaw_Wai_Soe.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "zaw-wai-soe-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2021-04-16",
+          "title": "Minister of Education"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "zaw-wai-soe-p2",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "2021-04-16",
+          "title": "Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q59660264"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zaw_Wai_Soe"
+        }
+      ],
+      "summary": "Zaw Wai Soe (Burmese: ဇော်ဝေစိုး) is a Burmese orthopaedics surgeon, physician, professor and politician who currently serves as the Minister for the Ministry of Labour, Immigration and Population, the Ministry of Education, and the Ministry of Health and Sports for National Unity Government since 2 March 2021, appointed by the CRPH. Previously he served as the Rector of the University of Medicine 1, Yangon since 20 May 2015, Rector of the University of Medicine 2, Yangon from 2014 to 2015, and led the task force for reforming sixteen medical related universities in Myanmar.",
+      "wikidataId": "Q59660264"
     },
     {
       "aliases": [
@@ -1948,6 +4034,913 @@
       ],
       "summary": "Zin Mar Aung is a Burmese politician, activist, and former political inmate who is serving as the Minister of Foreign Affairs for the National Unity Government of Myanmar. She previously served as a House of Representatives MP for Yankin Township Constituency from 2016 until her removal from office in the 2021 Myanmar coup d'état.",
       "wikidataId": "Q17985658"
+    },
+    {
+      "aliases": [
+        "Baham Htan"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Ba Ham Htan",
+      "id": "ba-ham-htan",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "ba-ham-htan-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-05-03",
+          "title": "Deputy Minister of Human Rights"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850385"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114850385"
+    },
+    {
+      "aliases": [
+        "U Chit Tun"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Chit Tun",
+      "id": "chit-tun",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": "2025-09-25",
+          "id": "chit-tun-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Federal Union Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850386"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114850386"
+    },
+    {
+      "aliases": [
+        "Daw Ei Thinzar Maung"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Ei Thinzar Maung",
+      "id": "ei-thinzar-maung",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ei_Thinzar_Maung-Headshot-e1646027673538-332x332.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "ei-thinzar-maung-p1",
+          "ministry": null,
+          "portfolio": "women",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Women, Youth and Children"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105523630"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ei_Thinzar_Maung"
+        }
+      ],
+      "summary": "Ei Thinzar Maung (Burmese: အိသဉ္ဇာမောင်, born 11 September 1994) is a Burmese activist and politician. She is the incumbent Deputy Minister of Women, Youths and Children Affairs of the National Unity Government.",
+      "wikidataId": "Q105523630"
+    },
+    {
+      "aliases": [
+        "Hkawng Naw"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Hkaung Naw",
+      "id": "hkaung-naw",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": "2022-11-06",
+          "id": "hkaung-naw-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-05-03",
+          "title": "Deputy Minister of International Cooperation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850387"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114850387"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Ja Htoi Pan",
+      "id": "ja-htoi-pan",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ja_Htoi_Pan.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "ja-htoi-pan-p1",
+          "ministry": null,
+          "portfolio": "education",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q106599026"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ja_Htoi_Pan"
+        }
+      ],
+      "summary": "Ja Htoi Pan (Burmese: ဂျာထွယ်ပန်) is a Kachin youth activist and politician who, representing Kachin Political Interim Coordination Team (KPICT), was appointed by the Committee Representing Pyidaungsu Hluttaw as the deputy minister of education in the National Unity Government on 16 April 2021. She was born to the Reverend Dr Maran Ja Gun and Lazing Lu Aung in Kachin State.",
+      "wikidataId": "Q106599026"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Khu Hte Bu",
+      "id": "khu-hte-bu",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "khu-hte-bu-p1",
+          "ministry": null,
+          "portfolio": "home_affairs",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Home Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850388"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114850388"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Khun Bedu",
+      "id": "khun-bedu",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KhunBedu.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "khun-bedu-p1",
+          "ministry": null,
+          "portfolio": "environment",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Natural Resources and Environmental Conservation"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6402971"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Khun_Bedu"
+        }
+      ],
+      "summary": "Khun Bedu (born 1984) is an ethnically Karenni Burmese political activist who was imprisoned from 2008 to 2012 for organizing protests against the 2008 Constitutional Referendum. He is the leader of the Karenni Nationalities Defence Force, an armed resistance/defence force and pro democracy group participating in the country's ongoing civil war.",
+      "wikidataId": "Q6402971"
+    },
+    {
+      "aliases": [
+        "U Kyaw Ni (a) U Kyaw Kyaw"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Kyaw Ni",
+      "id": "kyaw-ni",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "kyaw-ni-p1",
+          "ministry": null,
+          "portfolio": "labour",
+          "startDate": "2021-05-03",
+          "title": "Deputy Minister of Labour"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107524276"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyaw_Ni"
+        }
+      ],
+      "summary": "Kyaw Ni (Burmese: ကျော်နီ) is a politician who currently serves as Deputy Minister of Labour Affairs of NUG. He was appointed by the Committee Representing Pyidaungsu Hluttaw as the Deputy Minister of Labour Affairs in the National Unity Government of Myanmar on 3 May 2021.",
+      "wikidataId": "Q107524276"
+    },
+    {
+      "aliases": [
+        "Mai Win Htoo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Maing Win Htoo",
+      "id": "maing-win-htoo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "maing-win-htoo-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Federal Union Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850389"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114850389"
+    },
+    {
+      "aliases": [
+        "Lahpai Maw Htun Awng"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Maw Htun Aung",
+      "id": "maw-htun-aung",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "maw-htun-aung-p1",
+          "ministry": null,
+          "portfolio": "energy",
+          "startDate": "2021-07-26",
+          "title": "Deputy Minister of Electricity and Energy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q109381672"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maw_Htun_Aung"
+        }
+      ],
+      "summary": "Lahpai Maw Htun Aung is a Burmese politician, social activist and technologist. He is a deputy minister of electricity and energy of the National Unity Government of Myanmar formed by the opponents of the 2021 Myanmar coup d'état.",
+      "wikidataId": "Q109381672"
+    },
+    {
+      "aliases": [
+        "U Min Zayar Oo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Min Zayar Oo",
+      "id": "min-zayar-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "min-zayar-oo-p1",
+          "ministry": null,
+          "portfolio": "finance",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107598311"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Min_Zayar_Oo"
+        }
+      ],
+      "summary": "Min Zayar Oo is a Burmese politician who currently serves as Deputy Minister of Planning, Finance and Investment appointed by the National Unity Government of Myanmar. He was appointed by the Committee Representing Pyidaungsu Hluttaw as the Deputy Minister of Planning, Finance and Investment in the National Unity Government of Myanmar on 16 April 2021.",
+      "wikidataId": "Q107598311"
+    },
+    {
+      "aliases": [
+        "U Moe Zaw Oo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Moe Zaw Oo",
+      "id": "moe-zaw-oo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "moe-zaw-oo-p1",
+          "ministry": null,
+          "portfolio": "foreign_affairs",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Foreign Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107390971"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moe_Zaw_Oo"
+        }
+      ],
+      "summary": "Moe Zaw Oo (Burmese: မိုးဇော်ဦး, born 1969) is a Burmese politician who became a deputy foreign minister of National Unity Government of Myanmar on 16 April 2021.",
+      "wikidataId": "Q107390971"
+    },
+    {
+      "aliases": [
+        "Nai Kao Rot (MSICC)"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Nai Kao Rot",
+      "id": "nai-kao-rot",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "nai-kao-rot-p1",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Defence"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850390"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nai_Kao_Rot"
+        }
+      ],
+      "summary": "Nai Kao Rot is a Mon politician and former ethnic armed group commander. Since April 2021, he has served as the Deputy Minister of Defence in the National Unity Government (NUG) of Myanmar.",
+      "wikidataId": "Q114850390"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Naw Htoo Phaw",
+      "id": "naw-htoo-phaw",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": "2022-11-04",
+          "id": "naw-htoo-phaw-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Humanitarian Affairs and Disaster Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114850391"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q114850391"
+    },
+    {
+      "aliases": [
+        "Dr. Ngai Tam Maung"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Ngai Tam Maung",
+      "id": "ngai-tam-maung",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "ngai-tam-maung-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2022-11-04",
+          "title": "Deputy Minister of Humanitarian Affairs and Disaster Management"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q115114260"
+        }
+      ],
+      "summary": "Politician in Myanmar.",
+      "wikidataId": "Q115114260"
+    },
+    {
+      "aliases": [
+        "Patricia Papano Mwafulirwa"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Papano Patricia Mwafulirwa",
+      "id": "papano-patricia-mwafulirwa",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": "2009-01-01",
+          "id": "papano-patricia-mwafulirwa-p1",
+          "ministry": null,
+          "portfolio": "women",
+          "startDate": "2008-01-01",
+          "title": "Deputy Minister of Women, Youth and Children"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2009-01-01",
+          "id": "papano-patricia-mwafulirwa-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2004-01-01",
+          "title": "Member of the National Assembly of Malawi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q134136431"
+        }
+      ],
+      "summary": "Malawian politician.",
+      "wikidataId": "Q134136431"
+    },
+    {
+      "aliases": [
+        "Dr. Sai Khaing Myo Tun"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Sai Khaing Myo Tun",
+      "id": "sai-khaing-myo-tun",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "sai-khaing-myo-tun-p1",
+          "ministry": null,
+          "portfolio": "education",
+          "startDate": "2021-05-03",
+          "title": "Deputy Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107598353"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sai_Khaing_Myo_Tun"
+        }
+      ],
+      "summary": "Sai Khaing Myo Tun is a Burmese politician who currently serves as Deputy Minister of Education of NUG. He was also working as a Professor at the Department of International Relations in Yangon University of Foreign Languages. He was appointed by the Committee Representing Pyidaungsu Hluttaw as the Deputy Minister of Education in the National Unity Government of Myanmar on 3 May 2021.",
+      "wikidataId": "Q107598353"
+    },
+    {
+      "aliases": [
+        "Dr. Shwe Pon",
+        "Dr. Shwe Pone",
+        "Shwe Pone"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Shwe Pon",
+      "id": "shwe-pon",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shwe_Pon.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "shwe-pon-p1",
+          "ministry": null,
+          "portfolio": "health",
+          "startDate": "2021-04-16",
+          "title": "Deputy Minister of Health"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q107493812"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Shwe_Pon"
+        }
+      ],
+      "summary": "Shwe Pon (Burmese: ဒေါက်တာရွှေပုံ) is a Burmese politician and medical doctor who currently serving as the Deputy Minister for the Ministry of Health appointed by the National Unity Government of Myanmar. She was born on 24 February 1951.",
+      "wikidataId": "Q107493812"
+    },
+    {
+      "aliases": [
+        "Bogyoke Zaw Min Tun",
+        "Bogyokegyi Zaw Min Tun",
+        "Brigadier General Zaw Min Tun",
+        "General Zaw Min Tun",
+        "Major General Zaw Min Tun",
+        "U Zaw Min Tun"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Zaw Min Tun",
+      "id": "zaw-min-tun",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaw_Min_Tun_at_Tatmadaw_True_News_Press_Conference_on_18_January_2019_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": "2026-03-27",
+          "id": "zaw-min-tun-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-02-07",
+          "title": "Deputy Minister of Information"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q105525835"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zaw_Min_Tun_(general)"
+        }
+      ],
+      "summary": "Zaw Min Tun (born in Yenangyaung, Magway Region, Myanmar) is a Burmese army general and government official and he has served as a senior spokesperson for the Myanmar Army. He has served as Deputy Minister of Information of Myanmar since 7 February 2021 and as Information Team Leader of the National Defence and Security Council (NDSC) since 3 September 2025, until his removal from all office positions on 27 March 2026 following an investigation by military leader Senior General Min Aung Hlaing.",
+      "wikidataId": "Q105525835"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "ကိုကိုကျော်",
+      "id": "q136524194",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "q136524194-p1",
+          "ministry": null,
+          "portfolio": "foreign_affairs",
+          "startDate": null,
+          "title": "Deputy Minister of Foreign Affairs",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q136524194"
+        }
+      ],
+      "summary": "",
+      "wikidataId": "Q136524194"
+    },
+    {
+      "aliases": [
+        "Dr. Khin Naing Oo"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Khin Naing Oo",
+      "id": "khin-naing-oo",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Khin_Naing_Oo.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "central_banker"
+          ],
+          "endDate": null,
+          "id": "khin-naing-oo-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Governor, Central Bank of Burma"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        }
+      ],
+      "summary": "14th Governor of Myanmar Central Bank.",
+      "wikidataId": "Q114269240"
+    },
+    {
+      "aliases": [
+        "Agga Maha Thray Sithu Than Shwe",
+        "Bogyoke Hmu Gyi Than Shwe",
+        "Bogyoke Than Shwe",
+        "Bogyokegyi Than Shwe",
+        "General Than Shwe",
+        "Senior General Than Shwe",
+        "U Than Shwe"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Than Shwe",
+      "id": "than-shwe",
+      "party": "State Peace and Development Council",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Than_Shwe_2010-10-11.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "military_leader"
+          ],
+          "endDate": "2011-03-30",
+          "id": "than-shwe-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1992-04-23",
+          "title": "Commander-in-Chief of Defence Services"
+        },
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2011-03-30",
+          "id": "than-shwe-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1992-04-23",
+          "title": "President of Myanmar"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2003-08-25",
+          "id": "than-shwe-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1992-04-23",
+          "title": "Prime Minister of Myanmar"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q202553"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Than_Shwe"
+        }
+      ],
+      "summary": "Than Shwe is a retired Burmese military officer who ruled Myanmar as the second chairman of the State Law and Order Restoration Council, later as the only chairman of the State Peace and Development Council, as well as the commander-in-chief of Defence Services from 1992 until his resignation in 2011, and concurrently served as the eighth prime minister of Myanmar from 1992 to 2003. He previously served as the deputy commander-in-chief of Defence Services from 1985, and the vice chairman of the State Peace and Development Council, and deputy prime minister of Myanmar from 1988 until 1992.",
+      "wikidataId": "Q202553"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Kyaw Moe Tun",
+      "id": "kyaw-moe-tun",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyaw_Moe_Tun_OPCW_2018.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "kyaw-moe-tun-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Permanent Representative to the UN, New York"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyaw_Moe_Tun"
+        }
+      ],
+      "summary": "Kyaw Moe Tun is a Burmese diplomat who serves as the Permanent Representative of Myanmar to the United Nations. Prior to his appointment to UN, he had served as director-general of International Organizations and Economic Development Department under the Ministry of Foreign Affairs from 2016 to 2018.",
+      "wikidataId": "Q105691824"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Vacant",
+      "id": "vacant-mmr",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "vacant-mmr-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Ambassador to the US"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Nyan Win",
+      "id": "nyan-win",
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyan_Win.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "regional_leader"
+          ],
+          "endDate": "2016-03-30",
+          "id": "nyan-win-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-03-30",
+          "title": "Chief Minister of Bago"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2011-03-30",
+          "id": "nyan-win-p2",
+          "ministry": "Ministry of Foreign Affairs (Myanmar)",
+          "portfolio": "foreign_affairs",
+          "startDate": "2004-09-18",
+          "title": "Minister of Foreign Affairs (Myanmar)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q58153"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nyan_Win"
+        }
+      ],
+      "summary": "Nyan Win is a former Chief Minister of Bago Region, having served from 2011 to 2016. He won a Regional Hluttaw seat in an uncontested election in 2010, representing Zigon Township, and was appointed Chief Minister of the region on 30 March 2011.",
+      "wikidataId": "Q58153"
+    },
+    {
+      "aliases": [],
+      "countryCode": "MMR",
+      "fullName": "Tint Swe",
+      "id": "tint-swe",
+      "party": "National League for Democracy",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr_Tint_Swe.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "tint-swe-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the House of Representatives of Burma",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q39073896"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tint_Swe_(politician%2C_born_1948)"
+        }
+      ],
+      "summary": "Tint Swe is a Burmese physician and politician who was elected MP for Pyithu Hluttaw in the 1990 election. He has served as Minister for Prime Minister's Office of National Coalition Government of the Union of Burma (NCGUB).",
+      "wikidataId": "Q39073896"
     }
   ],
   "trips": [
@@ -2163,33 +5156,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-09-25",
+      "endDate": "2016-09-21",
       "engagements": [
         "Met President Barack Obama",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "aung-san-suu-kyi--2016-09-14--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "aung-san-suu-kyi--2016-09-21--USA",
       "officialId": "aung-san-suu-kyi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the seventy-first session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-first_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-14",
+      "startDate": "2016-09-21",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -3093,6 +6089,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2017-09-20",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "henry-van-thio--2017-09-20--USA",
+      "officialId": "henry-van-thio",
+      "purpose": "Addressed the general debate of the seventy-second session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-second_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2017-09-20",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [
           106.826944444,
@@ -3902,6 +6925,60 @@
       "startDate": "1966-09-08",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2008-09-29",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "nyan-win--2008-09-29--USA",
+      "officialId": "nyan-win",
+      "purpose": "Addressed the general debate of the sixty-third session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2008-09-29",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2010-09-28",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "nyan-win--2010-09-28--USA",
+      "officialId": "nyan-win",
+      "purpose": "Addressed the general debate of the sixty-fifth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2010-09-28",
+      "statusHint": null,
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -4936,6 +8013,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2009-09-28",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "thein-sein--2009-09-28--USA",
+      "officialId": "thein-sein",
+      "purpose": "Addressed the general debate of the sixty-fourth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fourth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2009-09-28",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [
           106.8456,
@@ -5329,32 +8433,35 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-09-30",
+      "endDate": "2012-09-27",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "thein-sein--2012-09-24--USA",
+      "eventName": "UN General Assembly general debate",
+      "id": "thein-sein--2012-09-27--USA",
       "officialId": "thein-sein",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Addressed the general debate of the sixty-seventh session of the UN General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-seventh_session_of_the_United_Nations_General_Assembly"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-09-24",
+      "startDate": "2012-09-27",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -6528,6 +9635,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2018-09-28",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "tint-swe--2018-09-28--USA",
+      "officialId": "tint-swe",
+      "purpose": "Addressed the general debate of the seventy-third session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2018-09-28",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2019-09-28",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "tint-swe--2019-09-28--USA",
+      "officialId": "tint-swe",
+      "purpose": "Addressed the general debate of the seventy-fourth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2019-09-28",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -6580,6 +9741,114 @@
       "startDate": "1957-12-16",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2011-09-27",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "wunna-maung-lwin--2011-09-27--USA",
+      "officialId": "wunna-maung-lwin",
+      "purpose": "Addressed the general debate of the sixty-sixth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2011-09-27",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2013-09-30",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "wunna-maung-lwin--2013-09-30--USA",
+      "officialId": "wunna-maung-lwin",
+      "purpose": "Addressed the general debate of the sixty-eighth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2013-09-30",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2014-09-29",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "wunna-maung-lwin--2014-09-29--USA",
+      "officialId": "wunna-maung-lwin",
+      "purpose": "Addressed the general debate of the sixty-ninth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2014-09-29",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2015-10-02",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "wunna-maung-lwin--2015-10-02--USA",
+      "officialId": "wunna-maung-lwin",
+      "purpose": "Addressed the general debate of the seventieth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2015-10-02",
+      "statusHint": null,
+      "type": "multilateral_meeting"
     }
   ]
 }

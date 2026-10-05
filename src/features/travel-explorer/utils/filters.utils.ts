@@ -3,7 +3,11 @@ import type {
     ExplorerSelection,
 } from "@/features/travel-explorer/types/explorer.types";
 import { rangesOverlap } from "@/lib/travel/date.utils";
-import { getCategoryGroup, getCurrentPosition } from "@/lib/travel/officials.utils";
+import {
+    getCategoryGroup,
+    getCurrentPosition,
+    isCurrentPosition,
+} from "@/lib/travel/officials.utils";
 import { normalizeSearchText } from "@/lib/utils";
 import type { CountryCode } from "@/types/geo.types";
 import type { OfficeTenure, Official, OfficialGroup, TravelRecord } from "@/types/travel.types";
@@ -182,7 +186,7 @@ export const matchesOfficialFilters = (official: Official, filters: ExplorerFilt
 
     const consideredPositions = filters.includePreviousPositions
         ? official.positions
-        : official.positions.filter((position) => position.endDate === null || !isCurrent);
+        : official.positions.filter((position) => isCurrentPosition(position) || !isCurrent);
 
     if (
         filters.roles.length > 0 &&

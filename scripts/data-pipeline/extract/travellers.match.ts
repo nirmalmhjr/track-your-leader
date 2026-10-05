@@ -36,7 +36,9 @@ const sameTokens = (a: ReadonlySet<string>, b: ReadonlySet<string>): boolean => 
     return shared === smaller.size && (smaller.size >= MINIMUM_SHARED_TOKENS || larger.size === 1);
 };
 
+/** Undated positions can't place anyone in office on a given day. */
 const heldOn = (position: PositionDraft, date: IsoDate, graceDays = TERM_GRACE_DAYS): boolean =>
+    !position.undated &&
     (position.startDate === null || position.startDate <= addDaysIso(date, graceDays)) &&
     (position.endDate === null || position.endDate >= addDaysIso(date, -graceDays));
 
@@ -167,9 +169,12 @@ const findTraveller = (claim: TripClaim, index: DraftIndex): OfficialDraft | nul
         }
     }
     // A country has one head of state and one head of government at a time, so the office also
-    // identifies a named leader whose name is spelled differently ("Salih" for "Saleh").
+    // identifies a named leader whose name is spelled differently ("Salih" for "Saleh"). A
+    // source that names a family name nobody holds ("Mr G. Pokharel, Minister of Health") is
+    // left unmatched rather than given to whoever held the office.
     const isLeader = claim.traveller.categories.some((category) => LEADER_ROLES.has(category));
-    if ((!name || isLeader) && claim.traveller.categories.length > 0) {
+    const namesNoOne = !(name || familyName);
+    if ((namesNoOne || isLeader) && claim.traveller.categories.length > 0) {
         const holder = pickInOffice(index.inCountry(countryCode), claim, true);
         if (holder) {
             return holder;
