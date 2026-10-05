@@ -59,7 +59,11 @@ const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
         titleWords: /^(?:le |la )?(?:roi|reine|président|présidente|empereur|impératrice)\s+/i,
     },
 };
-const DOMESTIC = /\bdomestic\b/i;
+/**
+ * Domestic travel: explicit, or the yearly US "List of presidential trips made by Joe Biden
+ * (2022)" pages, which are mostly domestic (the Office of the Historian covers the trips abroad).
+ */
+const DOMESTIC = /\bdomestic\b|^List of presidential trips made by .+ \(\d{4}/i;
 /** "es:Anexo:…" in the overrides names a page on another Wikipedia. */
 const LANGUAGE_PREFIX = /^([a-z]{2}):(.+)$/;
 

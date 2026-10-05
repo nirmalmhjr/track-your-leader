@@ -29,7 +29,7 @@ import { classifyTripType, detectEventName } from "../trip-type.classify";
  */
 
 /** Pages about state visits only; their rows default to state visits, received ones included. */
-const STATE_VISIT_PAGE = /^List of state visits\b/i;
+const STATE_VISIT_PAGE = /^(?:List of state visits|Liste des visites d'État)\b/i;
 const CANCELLED = /\b(cancel+ed|postponed|called off)\b/i;
 const NOTE_NOISE = /^(see also|main article|further information)\b/i;
 const MAX_PURPOSE_LENGTH = 140;

@@ -36,9 +36,9 @@ const sameTokens = (a: ReadonlySet<string>, b: ReadonlySet<string>): boolean => 
     return shared === smaller.size && (smaller.size >= MINIMUM_SHARED_TOKENS || larger.size === 1);
 };
 
-const heldOn = (position: PositionDraft, date: IsoDate): boolean =>
-    (position.startDate === null || position.startDate <= addDaysIso(date, TERM_GRACE_DAYS)) &&
-    (position.endDate === null || position.endDate >= addDaysIso(date, -TERM_GRACE_DAYS));
+const heldOn = (position: PositionDraft, date: IsoDate, graceDays = TERM_GRACE_DAYS): boolean =>
+    (position.startDate === null || position.startDate <= addDaysIso(date, graceDays)) &&
+    (position.endDate === null || position.endDate >= addDaysIso(date, -graceDays));
 
 /** Whether a position fits the role a source describes (any shared category, same portfolio). */
 const fitsRole = (position: PositionDraft, claim: TripClaim): boolean => {
@@ -97,19 +97,45 @@ class DraftIndex {
     }
 }
 
-/** Among candidates, the single one who held a fitting office on the trip's date. */
+/**
+ * Among candidates, the single one who held a fitting office on the trip's date. Terms get some
+ * leeway, so right after a change of government both holders fit; then exact terms decide.
+ */
 const pickInOffice = (
     candidates: readonly IndexedDraft[],
     claim: TripClaim,
     requireRole: boolean
 ): OfficialDraft | null => {
-    const inOffice = candidates.filter(({ draft }) =>
-        draft.positions.some(
-            (position) =>
-                heldOn(position, claim.startDate) && (!requireRole || fitsRole(position, claim))
-        )
-    );
+    const holders = (graceDays: number) =>
+        candidates.filter(({ draft }) =>
+            draft.positions.some(
+                (position) =>
+                    heldOn(position, claim.startDate, graceDays) &&
+                    (!requireRole || fitsRole(position, claim))
+            )
+        );
+    const withGrace = holders(TERM_GRACE_DAYS);
+    const inOffice = withGrace.length > 1 ? holders(0) : withGrace;
     return inOffice.length === 1 ? inOffice[0].draft : null;
+};
+
+/**
+ * A source naming a leader by surname alone ("President Betancourt"), on a date Wikidata has no
+ * term for: the single official of that country with that surname who held the role at some
+ * point. Several (two Gandhis) means no match.
+ */
+const findBySurname = (name: string, claim: TripClaim, index: DraftIndex): OfficialDraft | null => {
+    const [surname, ...rest] = tokensOf(name);
+    if (!surname || rest.length > 0 || claim.traveller.categories.length === 0) {
+        return null;
+    }
+    const candidates = index
+        .inCountry(claim.traveller.countryCode)
+        .filter(
+            ({ draft, tokens }) =>
+                tokens.has(surname) && draft.positions.some((position) => fitsRole(position, claim))
+        );
+    return candidates.length === 1 ? candidates[0].draft : null;
 };
 
 const findTraveller = (claim: TripClaim, index: DraftIndex): OfficialDraft | null => {
@@ -144,9 +170,12 @@ const findTraveller = (claim: TripClaim, index: DraftIndex): OfficialDraft | nul
     // identifies a named leader whose name is spelled differently ("Salih" for "Saleh").
     const isLeader = claim.traveller.categories.some((category) => LEADER_ROLES.has(category));
     if ((!name || isLeader) && claim.traveller.categories.length > 0) {
-        return pickInOffice(index.inCountry(countryCode), claim, true);
+        const holder = pickInOffice(index.inCountry(countryCode), claim, true);
+        if (holder) {
+            return holder;
+        }
     }
-    return null;
+    return name ? findBySurname(name, claim, index) : null;
 };
 
 /** Describes a newly discovered official from the trips sources attribute to them. */

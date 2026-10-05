@@ -26,9 +26,11 @@ test("trip-list titles name their subject and direction", () => {
             { direction: "outgoing", subject: "harald v" },
         ],
         [
-            "List of presidential trips made by Barack Obama (2009)",
-            { direction: "outgoing", subject: "barack obama" },
+            "List of presidential trips made by Emmanuel Macron",
+            { direction: "outgoing", subject: "emmanuel macron" },
         ],
+        // Yearly US pages are mostly domestic travel.
+        ["List of presidential trips made by Barack Obama (2009)", null],
         ["List of state visits received by Akihito", { direction: "received", subject: "akihito" }],
         ["List of international presidential trips made by Joe Biden (domestic)", null],
         ["List of international organisations", null],

@@ -118,7 +118,11 @@ Outputs:
   Wikipedia and Nepal's MoFA, then COLT. Every source stays listed on the trip.
 - **Leaders are matched by office too.** A head of state or government whose name a source
   spells differently ("Salih" for "Saleh") is matched to whoever held that office on the
-  trip's date, when exactly one person did.
+  trip's date, when exactly one person did. A surname alone ("President Betancourt") matches
+  the one official of that country with that surname who held the role, for terms Wikidata
+  is missing.
+- **Shared monarchs are filed once.** Commonwealth realms, the Cook Islands and Niue don't
+  track their head of state, so the British monarch and the royal trips sit under the UK.
 - **New officials from trip sources.** A named traveller no known official matches (a UK junior
   minister, a 1950s leader) becomes an official described by the sources: one position per
   title, from their first to their last reported trip (still open if that was within a year).

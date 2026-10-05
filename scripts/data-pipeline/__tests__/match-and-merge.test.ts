@@ -213,3 +213,86 @@ test("travellers are matched by id, name, family name and office, or become new 
         title: "Minister of State",
     });
 });
+
+test("right after a change of government, exact terms pick the office holder", async () => {
+    const leader = (name: string, startDate: string, endDate: string | null) =>
+        draft({
+            countryCode: "CAN",
+            name,
+            positions: [
+                {
+                    categories: ["head_of_government"],
+                    endDate,
+                    ministry: null,
+                    portfolio: null,
+                    startDate,
+                    title: "Prime Minister of Canada",
+                },
+            ],
+            wikidataId: name,
+        });
+    const outgoing = leader("John Diefenbaker", "1957-06-21", "1963-04-22");
+    const incoming = leader("Lester B. Pearson", "1963-04-22", "1968-04-20");
+    const visit = claim({
+        source: "historian-visits",
+        startDate: "1963-05-10",
+        traveller: {
+            categories: ["head_of_government"],
+            countryCode: "CAN",
+            familyName: null,
+            name: "Pearson",
+            portfolio: null,
+            title: "Prime Minister",
+            wikidataId: null,
+        },
+    });
+    const result = await matchTravellers([visit], [outgoing, incoming], new Map(), TODAY);
+    assert.equal(result.draftOf.get(visit), incoming);
+});
+
+test("a surname alone matches the one official of that country with it and the role", async () => {
+    const president = (name: string, startDate: string, endDate: string) =>
+        draft({
+            countryCode: "VEN",
+            name,
+            positions: [
+                {
+                    categories: ["head_of_state", "head_of_government"],
+                    endDate,
+                    ministry: null,
+                    portfolio: null,
+                    startDate,
+                    title: "President of Venezuela",
+                },
+            ],
+            wikidataId: name,
+        });
+    // Wikidata records only Betancourt's first term; the visit is in his second.
+    const betancourt = president("Rómulo Betancourt", "1945-10-19", "1948-02-17");
+    const leoni = president("Raúl Leoni", "1964-03-13", "1969-03-11");
+    const visit = (name: string) =>
+        claim({
+            source: "historian-visits",
+            startDate: "1963-02-19",
+            traveller: {
+                categories: ["head_of_state"],
+                countryCode: "VEN",
+                familyName: null,
+                name,
+                portfolio: null,
+                title: "President",
+                wikidataId: null,
+            },
+        });
+    const bySurname = visit("Betancourt");
+    const unknown = visit("Ramírez");
+    const result = await matchTravellers(
+        [bySurname, unknown],
+        [betancourt, leoni],
+        new Map(),
+        TODAY
+    );
+    assert.equal(result.draftOf.get(bySurname), betancourt);
+    // Nobody by that surname: a new official, never another president.
+    assert.equal(result.draftOf.get(unknown)?.name, "Ramírez");
+});

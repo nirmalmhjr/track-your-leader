@@ -40,17 +40,23 @@ export interface CountrySourceConfig {
     wikidataOffices?: readonly string[];
 }
 
-/** Realms whose head of state is the British monarch (the UK itself tracks the monarch). */
+/**
+ * Realms whose head of state is the British monarch (the UK itself tracks the monarch), and the
+ * Cook Islands and Niue, whose head of state is the monarch in right of New Zealand. Tracking
+ * the monarch there too would file the monarch, and the royal trips, under that country.
+ */
 const COMMONWEALTH_REALMS: ReadonlySet<CountryCode> = new Set([
     "ATG",
     "AUS",
     "BHS",
     "BLZ",
     "CAN",
+    "COK",
     "GRD",
     "JAM",
     "KNA",
     "LCA",
+    "NIU",
     "NZL",
     "PNG",
     "SLB",

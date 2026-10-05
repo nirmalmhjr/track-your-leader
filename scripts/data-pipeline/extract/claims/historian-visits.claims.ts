@@ -1,5 +1,6 @@
 import type { RoleCategory } from "@/types/travel.types";
 
+import { PIPELINE_CONFIG } from "../../config";
 import { cleanText } from "../../lib/text";
 import {
     fetchHistorianVisits,
@@ -19,6 +20,8 @@ import { shorten } from "./wikipedia.claims";
  */
 
 const HOST = "USA";
+/** Visits before the warehouse's first year: their visitors' terms aren't collected. */
+const FIRST_YEAR = String(PIPELINE_CONFIG.warehouseSinceYear);
 const MAX_PURPOSE_LENGTH = 140;
 
 /** Leading titles, checked in order; the rest of the text is the name. */
@@ -146,6 +149,9 @@ export const extractHistorianVisitClaims = async (
     const claims: TripClaim[] = [];
     const skipped: SkippedRow[] = [];
     for (const visit of await fetchHistorianVisits()) {
+        if (visit.startDate < FIRST_YEAR) {
+            continue;
+        }
         const result = claimsFromHistorianVisit(visit, places);
         if (Array.isArray(result)) {
             claims.push(...result);
