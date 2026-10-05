@@ -1,8 +1,12 @@
-import type { ExplorerFilters } from "@/features/travel-explorer/types/explorer.types";
+import type {
+    ExplorerFilters,
+    ExplorerSelection,
+} from "@/features/travel-explorer/types/explorer.types";
 import { rangesOverlap } from "@/lib/travel/date.utils";
 import { getCategoryGroup, getCurrentPosition } from "@/lib/travel/officials.utils";
 import { normalizeSearchText } from "@/lib/utils";
-import type { Official, OfficialGroup, TravelRecord } from "@/types/travel.types";
+import type { CountryCode } from "@/types/geo.types";
+import type { OfficeTenure, Official, OfficialGroup, TravelRecord } from "@/types/travel.types";
 
 export const EMPTY_FILTERS: ExplorerFilters = {
     city: "",
@@ -18,6 +22,126 @@ export const EMPTY_FILTERS: ExplorerFilters = {
     tenure: null,
     to: null,
     types: [],
+};
+
+/**
+ * The same filters with the date range lifted, for trip histories a date window would cut short.
+ *
+ * @param filters - Active explorer filters.
+ * @returns The filters without `from` and `to`.
+ */
+export const withoutDateRange = (filters: ExplorerFilters): ExplorerFilters => ({
+    ...filters,
+    from: null,
+    to: null,
+});
+
+/**
+ * Whether an official holds an office today.
+ *
+ * @param official - Official to test.
+ * @returns `true` while any of their positions is open-ended.
+ */
+export const isInOffice = (official: Official): boolean => getCurrentPosition(official) !== null;
+
+/**
+ * The side of a country's in-office / former switch that is actually shown: an empty side (say,
+ * the tenure filter excludes it) gives way to the other one.
+ *
+ * @param chosen - Side the visitor picked.
+ * @param counts - Officials on each side.
+ * @returns The side to show.
+ */
+export const pickOfficeTenure = (
+    chosen: OfficeTenure,
+    counts: Readonly<Record<OfficeTenure, number>>
+): OfficeTenure => {
+    const other: OfficeTenure = chosen === "current" ? "former" : "current";
+    return counts[chosen] === 0 ? other : chosen;
+};
+
+/**
+ * Trips that skip the date range. A former office holder's travel ended when they left, so the
+ * recent window the explorer opens on would show none of it: one former official's profile, or
+ * a country's former officials while that side of its switch is open, show every year instead.
+ */
+export type DateRangeExemption =
+    | { kind: "none" }
+    | { kind: "official"; officialId: string }
+    | { countryCode: CountryCode; kind: "former"; officialIds: ReadonlySet<string> };
+
+const NO_EXEMPTION: DateRangeExemption = { kind: "none" };
+
+interface DateRangeExemptionInput {
+    /** Side of the selected country's in-office / former switch the visitor picked. */
+    chosenTenure: OfficeTenure;
+    officialById: ReadonlyMap<string, Official>;
+    /** The selected country's officials passing the person-level filters. */
+    roster: readonly Official[];
+    selection: ExplorerSelection;
+}
+
+/**
+ * Works out which trips skip the date range for the current selection.
+ *
+ * @param input - Selection, the chosen side of the switch and the country's roster.
+ * @returns The exemption in force.
+ */
+export const getDateRangeExemption = ({
+    chosenTenure,
+    officialById,
+    roster,
+    selection,
+}: DateRangeExemptionInput): DateRangeExemption => {
+    if (selection.official) {
+        const official = officialById.get(selection.official);
+        return official && !isInOffice(official)
+            ? { kind: "official", officialId: official.id }
+            : NO_EXEMPTION;
+    }
+    if (!selection.country || selection.view !== "officials") {
+        return NO_EXEMPTION;
+    }
+
+    const former = roster.filter((official) => !isInOffice(official));
+    const counts = { current: roster.length - former.length, former: former.length };
+    if (former.length === 0 || pickOfficeTenure(chosenTenure, counts) !== "former") {
+        return NO_EXEMPTION;
+    }
+    return {
+        countryCode: selection.country,
+        kind: "former",
+        officialIds: new Set(former.map((official) => official.id)),
+    };
+};
+
+/**
+ * Builds the trip test for the current filters and exemption. While a country's former side is
+ * open, that country's trips are its former officials' only, so the map and the counts describe
+ * the people listed.
+ *
+ * @param filters - Active explorer filters.
+ * @param exemption - Trips that skip the date range.
+ * @returns Predicate telling whether a trip passes the travel-level filters.
+ */
+export const createTravelMatcher = (
+    filters: ExplorerFilters,
+    exemption: DateRangeExemption
+): ((record: TravelRecord) => boolean) => {
+    const undatedFilters = withoutDateRange(filters);
+
+    return (record) => {
+        if (exemption.kind === "official" && record.officialId === exemption.officialId) {
+            return matchesTravelFilters(record, undatedFilters);
+        }
+        if (exemption.kind === "former" && record.originCountryCode === exemption.countryCode) {
+            return (
+                exemption.officialIds.has(record.officialId) &&
+                matchesTravelFilters(record, undatedFilters)
+            );
+        }
+        return matchesTravelFilters(record, filters);
+    };
 };
 
 /**
@@ -39,7 +163,7 @@ export const getOfficialGroup = (official: Official): OfficialGroup => {
  * @returns `true` when the official satisfies every person-level filter.
  */
 export const matchesOfficialFilters = (official: Official, filters: ExplorerFilters): boolean => {
-    const isCurrent = getCurrentPosition(official) !== null;
+    const isCurrent = isInOffice(official);
 
     if (filters.tenure === "current" && !isCurrent) {
         return false;

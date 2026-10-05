@@ -25,8 +25,8 @@ import {
 import { useCountryOfficials } from "@/features/travel-explorer/hooks/use-country-officials";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import type { OfficialSort } from "@/features/travel-explorer/types/explorer.types";
+import { isInOffice, pickOfficeTenure } from "@/features/travel-explorer/utils/filters.utils";
 import { useTravelFormat } from "@/hooks/use-travel-format";
-import { getCurrentPosition } from "@/lib/travel/officials.utils";
 import { OFFICE_TENURES } from "@/lib/travel/travel.constants";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 import type { CountryCode } from "@/types/geo.types";
@@ -58,8 +58,6 @@ function CompactSelect({ items, label, onValueChange, value }: CompactSelectProp
         </Select>
     );
 }
-
-const isInOffice = (official: Official): boolean => getCurrentPosition(official) !== null;
 
 interface InOfficeListProps {
     countryCode: CountryCode;
@@ -104,7 +102,8 @@ function InOfficeList({ countryCode, sort, total, travelling }: InOfficeListProp
 /**
  * The officials tab of a country. The in-office / former switch carries the counts, so it reads
  * as a summary and is also the way into the past, which can be laid out by office, year or person.
- * Mount it with `key={countryCode}` so every country opens on who is in office now.
+ * The chosen side lives in the UI store because the date range stands aside on the former side.
+ * Mount it with `key={countryCode}` so the sort starts afresh in every country.
  */
 export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) {
     const t = useTranslations("Explorer");
@@ -113,16 +112,21 @@ export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) 
     const { officialsByCountry } = useExplorerData();
     const formerLayout = useExplorerUiStore((state) => state.formerLayout);
     const setFormerLayout = useExplorerUiStore((state) => state.setFormerLayout);
-    const [chosenTenure, setChosenTenure] = useState<OfficeTenure>("current");
+    const formerSideCountry = useExplorerUiStore((state) => state.formerSideCountry);
+    const setFormerSideCountry = useExplorerUiStore((state) => state.setFormerSideCountry);
     const [sort, setSort] = useState<OfficialSort>("rank");
+    const chosenTenure: OfficeTenure = formerSideCountry === countryCode ? "former" : "current";
 
-    const handleTenureChange = useCallback((values: string[]) => {
-        // Pressing the active side would leave nothing selected; keep it instead.
-        const next = OFFICE_TENURES.find((candidate) => candidate === values[0]);
-        if (next) {
-            setChosenTenure(next);
-        }
-    }, []);
+    const handleTenureChange = useCallback(
+        (values: string[]) => {
+            // Pressing the active side would leave nothing selected; keep it instead.
+            const next = OFFICE_TENURES.find((candidate) => candidate === values[0]);
+            if (next) {
+                setFormerSideCountry(next === "former" ? countryCode : null);
+            }
+        },
+        [countryCode, setFormerSideCountry]
+    );
     const handleSortChange = useCallback((value: string | null) => {
         const next = OFFICIAL_SORTS.find((candidate) => candidate === value);
         if (next) {
@@ -156,9 +160,7 @@ export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) 
         current: current.length,
         former: former.length,
     };
-    // An empty side (say, the tenure filter excludes it) gives way to the other one.
-    const otherTenure: OfficeTenure = chosenTenure === "current" ? "former" : "current";
-    const tenure = counts[chosenTenure] === 0 ? otherTenure : chosenTenure;
+    const tenure = pickOfficeTenure(chosenTenure, counts);
 
     const sortItems = OFFICIAL_SORTS.map((value) => ({ label: t(`sort.${value}`), value }));
     const layoutItems = FORMER_LAYOUTS.map((value) => ({

@@ -111,7 +111,7 @@ export function OfficialView({ officialId }: { officialId: string }) {
     const t = useTranslations("Explorer");
     const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
-    const { officialById, recordsByOfficial } = useExplorerData();
+    const { dateRangeIgnoredFor, officialById, recordsByOfficial } = useExplorerData();
     const { filters, selectTrip } = useExplorerState();
     const downloads = useTripDownloads({ kind: "official", officialId });
 
@@ -197,7 +197,9 @@ export function OfficialView({ officialId }: { officialId: string }) {
                     </h3>
                     <div className="flex min-w-0 items-center gap-1">
                         <span className="truncate text-muted-foreground text-xs">
-                            {describeRange(filters.from, filters.to)}
+                            {dateRangeIgnoredFor
+                                ? t("dates.presets.all")
+                                : describeRange(filters.from, filters.to)}
                         </span>
                         {downloads ? (
                             <DownloadTripsButton

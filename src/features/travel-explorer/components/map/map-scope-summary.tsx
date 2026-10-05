@@ -16,10 +16,11 @@ import { TRAVEL_STATUSES } from "@/lib/travel/travel.constants";
  */
 export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number }) {
     const t = useTranslations("Explorer.map.scope");
+    const tDates = useTranslations("Explorer.dates");
     const tStatus = useTranslations("Explorer.statuses");
     const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
-    const { officialById } = useExplorerData();
+    const { dateRangeIgnoredFor, officialById } = useExplorerData();
     const { filters, selection } = useExplorerState();
 
     const focusName = scene.focusCountry ? format.countryName(scene.focusCountry) : "";
@@ -30,7 +31,10 @@ export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number
     } else if (officialName) {
         subject = t("official", { name: officialName });
     } else if (scene.mode === "outbound") {
-        subject = t("outbound", { country: focusName });
+        subject =
+            dateRangeIgnoredFor === "former"
+                ? t("former", { country: focusName })
+                : t("outbound", { country: focusName });
     }
 
     // Cancelled trips never happened, so they are listed in the breakdown but not counted.
@@ -53,9 +57,14 @@ export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number
                     countLabel: format.number(tripCount),
                 })}
                 {" · "}
-                {describeRange(filters.from, filters.to)}
+                {dateRangeIgnoredFor
+                    ? tDates("presets.all")
+                    : describeRange(filters.from, filters.to)}
             </p>
-            {counts.length > 0 ? (
+            {scene.routesHidden ? (
+                <p className="text-muted-foreground text-xs">{t("pickFormerOfficial")}</p>
+            ) : null}
+            {counts.length > 0 && !scene.routesHidden ? (
                 <ul className="hidden flex-wrap gap-x-3 gap-y-1 text-[11px] text-muted-foreground sm:flex">
                     {counts.map(({ status, count }) => (
                         <li className="flex items-center gap-1.5" key={status}>

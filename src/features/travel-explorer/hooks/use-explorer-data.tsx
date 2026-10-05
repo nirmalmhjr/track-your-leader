@@ -19,11 +19,14 @@ import type {
 } from "@/features/travel-explorer/data/travel-dataset";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import {
+    createTravelMatcher,
+    type DateRangeExemption,
+    getDateRangeExemption,
     hasTravelFilters,
     matchesOfficialFilters,
-    matchesTravelFilters,
 } from "@/features/travel-explorer/utils/filters.utils";
 import { toIsoDate } from "@/lib/travel/date.utils";
+import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 import type { CountryCode } from "@/types/geo.types";
 import type { IsoDate, Official, TrackedCountry, TravelRecord } from "@/types/travel.types";
 
@@ -63,6 +66,12 @@ interface ExplorerData {
     countries: readonly TrackedCountry[];
     countryByCode: ReadonlyMap<CountryCode, TrackedCountry>;
     dataSource: TravelDataSource;
+    /**
+     * Whose trips skip the date range, if anyone's: a former official's profile, or a country's
+     * former officials while that side of its switch is open. A recent window would hide a
+     * history that ended years ago.
+     */
+    dateRangeIgnoredFor: Exclude<DateRangeExemption["kind"], "none"> | null;
     /** Whether each opened country's full records (biographies, purposes, sources) are loaded. */
     detailStatus: ReadonlyMap<CountryCode, DetailStatus>;
     /** Officials passing the person-level filters. */
@@ -194,17 +203,32 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
 
     const retry = useCallback(() => setAttempt((count) => count + 1), []);
 
+    const formerSideCountry = useExplorerUiStore((state) => state.formerSideCountry);
+    const chosenTenure =
+        formerSideCountry !== null && formerSideCountry === selectedCountry ? "former" : "current";
+
     const filtered = useMemo(() => {
         const matchingOfficialIds = new Set(
             dataset.officials
                 .filter((official) => matchesOfficialFilters(official, filters))
                 .map((official) => official.id)
         );
+        const exemption = getDateRangeExemption({
+            chosenTenure,
+            officialById: dataset.officialById,
+            roster: selection.country
+                ? (dataset.officialsByCountry.get(selection.country) ?? []).filter((official) =>
+                      matchingOfficialIds.has(official.id)
+                  )
+                : [],
+            selection,
+        });
+        const matchesTravel = createTravelMatcher(filters, exemption);
         const matchingRecords = dataset.records.filter(
-            (record) =>
-                matchingOfficialIds.has(record.officialId) && matchesTravelFilters(record, filters)
+            (record) => matchingOfficialIds.has(record.officialId) && matchesTravel(record)
         );
         return {
+            dateRangeIgnoredFor: exemption.kind === "none" ? null : exemption.kind,
             matchingOfficialIds,
             matchingRecords,
             recordsByDestination: groupRecords(
@@ -215,7 +239,7 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
             recordsByOrigin: groupRecords(matchingRecords, (record) => record.originCountryCode),
             travelFiltersActive: hasTravelFilters(filters),
         };
-    }, [dataset, filters]);
+    }, [chosenTenure, dataset, filters, selection]);
 
     const value = useMemo<ExplorerData>(
         () => ({

@@ -63,16 +63,22 @@ const TENURE_OPTIONS = [ALL_TENURES, ...OFFICE_TENURES] as const;
 const DEFAULT_OPEN_SECTIONS = ["dates", "person", "travel"];
 
 function DateSection() {
-    const t = useTranslations("Explorer.filters");
+    const t = useTranslations("Explorer");
+    const { dateRangeIgnoredFor } = useExplorerData();
 
     return (
         <AccordionItem value="dates">
-            <AccordionTrigger>{t("sections.dates")}</AccordionTrigger>
+            <AccordionTrigger>{t("filters.sections.dates")}</AccordionTrigger>
             <AccordionContent className="flex flex-col gap-4">
+                {dateRangeIgnoredFor ? (
+                    <p className="text-muted-foreground text-xs">
+                        {t("dates.ignoredForFormerNote")}
+                    </p>
+                ) : null}
                 <div className="-mx-2">
                     <DatePresetList />
                 </div>
-                <FieldSeparator>{t("orPickPeriod")}</FieldSeparator>
+                <FieldSeparator>{t("filters.orPickPeriod")}</FieldSeparator>
                 <CalendarPeriodFields />
                 <CustomDateFields />
             </AccordionContent>

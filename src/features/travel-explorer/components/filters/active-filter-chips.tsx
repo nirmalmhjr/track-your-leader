@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 
 import { useDateRangeLabel } from "@/features/travel-explorer/hooks/use-date-range-label";
+import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import type { ExplorerFilters } from "@/features/travel-explorer/types/explorer.types";
 import { useTravelFormat } from "@/hooks/use-travel-format";
@@ -47,12 +48,13 @@ export function ActiveFilterChips() {
     const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
     const { filters, setFilters } = useExplorerState();
+    const { dateRangeIgnoredFor } = useExplorerData();
 
     const chips: FilterChip[] = [];
     const addChip = (id: string, label: string, patch: Partial<ExplorerFilters>) =>
         chips.push({ id, label, patch });
 
-    if (filters.from || filters.to) {
+    if ((filters.from || filters.to) && dateRangeIgnoredFor === null) {
         addChip("dates", describeRange(filters.from, filters.to), { from: null, to: null });
     }
     if (filters.name.trim()) {

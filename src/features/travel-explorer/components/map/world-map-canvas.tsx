@@ -195,6 +195,7 @@ export function WorldMapCanvas({
         () =>
             buildMapScene({
                 countryByCode: data.countryByCode,
+                isFormerSide: data.dateRangeIgnoredFor === "former",
                 matchingRecords: data.matchingRecords,
                 recordsByDestination: data.recordsByDestination,
                 recordsByOfficial: data.recordsByOfficial,

@@ -39,6 +39,11 @@ export interface MapScene {
     nodes: readonly MapNode[];
     /** Trips represented on the map. */
     records: readonly TravelRecord[];
+    /**
+     * Routes, endpoints and shading are held back until an official is picked: every year of a
+     * country's former officials would bury the map in lines.
+     */
+    routesHidden: boolean;
     scale: SequentialScale;
     segments: readonly RouteSegment[];
     /** City labels are shown when the set of nodes is small enough to read. */
@@ -49,6 +54,8 @@ export interface MapScene {
 
 interface SceneInput {
     countryByCode: ReadonlyMap<CountryCode, TrackedCountry>;
+    /** The country's officials tab is on its former side, which spans every year. */
+    isFormerSide: boolean;
     matchingRecords: readonly TravelRecord[];
     recordsByDestination: ReadonlyMap<CountryCode, readonly TravelRecord[]>;
     recordsByOfficial: ReadonlyMap<string, readonly TravelRecord[]>;
@@ -158,6 +165,7 @@ export const buildMapScene = ({
     recordsByDestination,
     recordsByOfficial,
     countryByCode,
+    isFormerSide,
 }: SceneInput): MapScene => {
     const focusCountry = selection.country;
 
@@ -169,6 +177,7 @@ export const buildMapScene = ({
             mode: "world",
             nodes: [],
             records: matchingRecords,
+            routesHidden: false,
             scale: buildSequentialScale(Math.max(0, ...values.values())),
             segments: [],
             showLabels: false,
@@ -188,10 +197,26 @@ export const buildMapScene = ({
             mode: "inbound",
             nodes,
             records,
+            routesHidden: false,
             scale: buildSequentialScale(Math.max(0, ...values.values())),
             segments: buildSegments(records),
             showLabels: nodes.length <= LABEL_NODE_LIMIT,
             values,
+        };
+    }
+
+    if (isFormerSide && !selection.official) {
+        return {
+            anchors: [],
+            focusCountry,
+            mode: "outbound",
+            nodes: [],
+            records: recordsByOrigin.get(focusCountry) ?? [],
+            routesHidden: true,
+            scale: buildSequentialScale(0),
+            segments: [],
+            showLabels: false,
+            values: new Map(),
         };
     }
 
@@ -208,6 +233,7 @@ export const buildMapScene = ({
         mode: "outbound",
         nodes,
         records,
+        routesHidden: false,
         scale: buildSequentialScale(Math.max(0, ...values.values())),
         segments: buildSegments(records),
         showLabels: Boolean(selection.official) || nodes.length <= LABEL_NODE_LIMIT,

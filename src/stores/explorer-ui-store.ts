@@ -15,6 +15,11 @@ interface ExplorerUiState {
     countrySort: CountrySort;
     /** How a country's former officials are laid out, kept from one country to the next. */
     formerLayout: FormerLayout;
+    /**
+     * Country whose officials tab shows its former side, so it survives a visit to an official's
+     * profile; any other country opens on who is in office now.
+     */
+    formerSideCountry: CountryCode | null;
     /** Country highlighted on the map while hovering it in the panel. */
     hoveredCountry: CountryCode | null;
     /** Official whose routes are emphasised while hovering their card. */
@@ -29,6 +34,7 @@ interface ExplorerUiState {
     setCountrySort: (sort: CountrySort) => void;
     setFiltersOpen: (isOpen: boolean) => void;
     setFormerLayout: (layout: FormerLayout) => void;
+    setFormerSideCountry: (code: CountryCode | null) => void;
     setHoveredCountry: (code: CountryCode | null) => void;
     setHoveredOfficialId: (id: string | null) => void;
     setHoveredRecordId: (id: string | null) => void;
@@ -47,6 +53,7 @@ export const useExplorerUiStore = create<ExplorerUiState>()((set) => ({
     clearHover: () => set({ hoveredCountry: null, hoveredOfficialId: null, hoveredRecordId: null }),
     countrySort: "name",
     formerLayout: "position",
+    formerSideCountry: null,
     hoveredCountry: null,
     hoveredOfficialId: null,
     hoveredRecordId: null,
@@ -61,6 +68,7 @@ export const useExplorerUiStore = create<ExplorerUiState>()((set) => ({
                 : { isFiltersOpen }
         ),
     setFormerLayout: (formerLayout) => set({ formerLayout }),
+    setFormerSideCountry: (formerSideCountry) => set({ formerSideCountry }),
     setHoveredCountry: (hoveredCountry) => set({ hoveredCountry }),
     setHoveredOfficialId: (hoveredOfficialId) => set({ hoveredOfficialId }),
     setHoveredRecordId: (hoveredRecordId) => set({ hoveredRecordId }),

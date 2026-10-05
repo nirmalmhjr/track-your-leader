@@ -107,7 +107,10 @@
     "year": "Year",
     "anyYear": "Any year",
     "month": "Month",
-    "allMonths": "All months"
+    "allMonths": "All months",
+    "ignoredForFormerOfficial": "All years · former official",
+    "ignoredForFormerOfficials": "All years · former officials",
+    "ignoredForFormerNote": "Former officials' trips are shown in full, so these dates don't apply to them. They still apply to officials in office."
   },
   "overview": {
     "title": "Where are leaders travelling?",
@@ -251,6 +254,7 @@
       "officialTitle": "Countries visited by {name}",
       "inboundTitle": "Visits to {country} by country of origin",
       "noTrips": "No trips in the current selection",
+      "pickFormerOfficial": "Select a former official to see their routes",
       "selected": "Selected country",
       "trackedNoTrips": "Tracked, no trips",
       "notTracked": "Not tracked",
@@ -259,6 +263,8 @@
     "scope": {
       "world": "All tracked countries",
       "outbound": "Officials of {country}",
+      "former": "Former officials of {country}",
+      "pickFormerOfficial": "Select one to see their routes",
       "official": "{name}",
       "inbound": "Visits to {country}",
       "trips": "{count, plural, =0 {No trips} one {{countLabel} trip} other {{countLabel} trips}}"

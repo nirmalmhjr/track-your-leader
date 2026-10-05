@@ -87,7 +87,9 @@ function LegendContent({ scene }: { scene: MapScene }) {
                         </ol>
                     </div>
                 ) : (
-                    <p className="text-muted-foreground">{t("noTrips")}</p>
+                    <p className="text-muted-foreground">
+                        {scene.routesHidden ? t("pickFormerOfficial") : t("noTrips")}
+                    </p>
                 )}
             </div>
 

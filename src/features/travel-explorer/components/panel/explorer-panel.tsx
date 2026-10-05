@@ -105,6 +105,8 @@ export function ExplorerPanel() {
     const sheetSnap = useExplorerUiStore((state) => state.sheetSnap);
     const setSheetCoverPx = useExplorerUiStore((state) => state.setSheetCoverPx);
     const clearHover = useExplorerUiStore((state) => state.clearHover);
+    const formerSideCountry = useExplorerUiStore((state) => state.formerSideCountry);
+    const setFormerSideCountry = useExplorerUiStore((state) => state.setFormerSideCountry);
     const isTabletUp = useMediaQuery(TABLET_UP_MEDIA_QUERY);
     const closePanel = useCallback(() => setPanelOpen(false), [setPanelOpen]);
     const scrollRef = useRef<HTMLDivElement>(null);
@@ -153,6 +155,13 @@ export function ExplorerPanel() {
             clearHover();
         }
     }, [viewKey, clearHover]);
+
+    // Leaving a country closes its former side, so every country opens on who is in office now.
+    useEffect(() => {
+        if (formerSideCountry !== null && formerSideCountry !== selection.country) {
+            setFormerSideCountry(null);
+        }
+    }, [formerSideCountry, selection.country, setFormerSideCountry]);
 
     return (
         <aside

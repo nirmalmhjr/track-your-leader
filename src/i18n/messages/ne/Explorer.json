@@ -107,7 +107,10 @@
     "year": "वर्ष",
     "anyYear": "कुनै पनि वर्ष",
     "month": "महिना",
-    "allMonths": "सबै महिना"
+    "allMonths": "सबै महिना",
+    "ignoredForFormerOfficial": "सबै वर्ष · पूर्व पदाधिकारी",
+    "ignoredForFormerOfficials": "सबै वर्ष · पूर्व पदाधिकारीहरू",
+    "ignoredForFormerNote": "पूर्व पदाधिकारीहरूका भ्रमण पूरै देखाइन्छन्, त्यसैले यी मिति तिनमा लागू हुँदैनन्। बहालवाला पदाधिकारीमा भने लागू हुन्छन्।"
   },
   "overview": {
     "title": "नेताहरू कहाँ भ्रमण गर्दैछन्?",
@@ -251,6 +254,7 @@
       "officialTitle": "{name} ले भ्रमण गरेका देश",
       "inboundTitle": "मूल देश अनुसार {country} मा भएका भ्रमण",
       "noTrips": "हालको छनोटमा भ्रमण छैन",
+      "pickFormerOfficial": "मार्ग हेर्न पूर्व पदाधिकारी छान्नुहोस्",
       "selected": "छानिएको देश",
       "trackedNoTrips": "ट्र्याक गरिएको, भ्रमण छैन",
       "notTracked": "ट्र्याक नगरिएको",
@@ -259,6 +263,8 @@
     "scope": {
       "world": "ट्र्याक गरिएका सबै देश",
       "outbound": "{country} का पदाधिकारी",
+      "former": "{country} का पूर्व पदाधिकारी",
+      "pickFormerOfficial": "मार्ग हेर्न कुनै एक छान्नुहोस्",
       "official": "{name}",
       "inbound": "{country} मा भएका भ्रमण",
       "trips": "{count, plural, =0 {भ्रमण छैन} other {{countLabel} भ्रमण}}"
