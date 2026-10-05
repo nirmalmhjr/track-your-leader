@@ -4,8 +4,9 @@ import { getTranslations } from "next-intl/server";
 import { CountryFlag } from "@/components/shared/country-flag";
 import { buttonVariants } from "@/components/ui/button";
 import { ROUTES } from "@/configs/routes";
+import { CountryDownloadButton } from "@/features/leaders/components/country-download-button";
 import { StatTiles } from "@/features/leaders/components/stat-tiles";
-import type { CountryDirectory } from "@/features/leaders/types/leaders.types";
+import type { CountryDirectory, DirectoryContext } from "@/features/leaders/types/leaders.types";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getTravelFormat } from "@/lib/travel/travel-format.server";
@@ -22,8 +23,13 @@ const FLAG_WASH_STYLE = {
     width: "100%",
 } as const;
 
+interface CountryHeroProps {
+    context: DirectoryContext;
+    directory: CountryDirectory;
+}
+
 /** The country's banner: flag, name, capital and how many officials and trips are on record. */
-export async function CountryHero({ directory }: { directory: CountryDirectory }) {
+export async function CountryHero({ directory, context }: CountryHeroProps) {
     const [t, format] = await Promise.all([getTranslations("Leaders.country"), getTravelFormat()]);
     const { country, tenure, tripCount } = directory;
     const reference = getCountryReference(country.code);
@@ -63,13 +69,24 @@ export async function CountryHero({ directory }: { directory: CountryDirectory }
                             </p>
                         </div>
                     </div>
-                    <Link
-                        className={buttonVariants({ size: "sm", variant: "outline" })}
-                        href={ROUTES.map(country.code)}
-                    >
-                        <IconMap2 data-icon="inline-start" />
-                        {t("openOnMap")}
-                    </Link>
+                    <div className="flex flex-wrap gap-2">
+                        <Link
+                            className={buttonVariants({ size: "sm", variant: "outline" })}
+                            href={ROUTES.map(country.code)}
+                        >
+                            <IconMap2 data-icon="inline-start" />
+                            {t("openOnMap")}
+                        </Link>
+                        {/* The samples are fictional, so they aren't offered as a download. */}
+                        {context.updatedOn && tripCount > 0 ? (
+                            <CountryDownloadButton
+                                country={country}
+                                today={context.today}
+                                tripCount={tripCount}
+                                updatedOn={context.updatedOn}
+                            />
+                        ) : null}
+                    </div>
                 </div>
                 <StatTiles
                     items={[

@@ -88,8 +88,10 @@ export async function ProfileView({ profile, context }: ProfileViewProps) {
                     {records.length > 0 ? (
                         <TripLog
                             currentTitle={getPrimaryPosition(official).title}
+                            official={official}
                             records={records}
                             today={context.today}
+                            updatedOn={context.updatedOn}
                         />
                     ) : null}
                 </div>

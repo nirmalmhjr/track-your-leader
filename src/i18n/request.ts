@@ -6,6 +6,7 @@ import { routing, type TLocales } from "@/i18n/routing";
  * Message file namespaces
  */
 const NAMESPACE_FILES = {
+    Downloads: "Downloads",
     Explorer: "Explorer",
     Leaders: "Leaders",
 } as const satisfies Record<string, string>;

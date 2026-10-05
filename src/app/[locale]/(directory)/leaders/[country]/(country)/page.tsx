@@ -48,7 +48,7 @@ export default async function CountryPage({ params }: CountryPageProps) {
         <DirectoryColumns
             rail={<CountryRail activeCode={directory.country.code} countries={countries} />}
         >
-            <CountryHero directory={directory} />
+            <CountryHero context={context} directory={directory} />
             <CountryDirectoryView directory={directory} />
             <DirectoryFooter updatedOn={context.updatedOn} />
         </DirectoryColumns>

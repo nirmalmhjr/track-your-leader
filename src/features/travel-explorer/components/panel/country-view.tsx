@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { DownloadTripsButton } from "@/components/shared/download-trips-button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ClearFiltersEmpty } from "@/features/travel-explorer/components/panel/clear-filters-empty";
 import { CountryOfficials } from "@/features/travel-explorer/components/panel/country-officials";
@@ -13,10 +14,32 @@ import { TravelTimeline } from "@/features/travel-explorer/components/travel-tim
 import { COUNTRY_VIEWS } from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import {
+    type TripDownloads,
+    useTripDownloads,
+} from "@/features/travel-explorer/hooks/use-trip-downloads";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { CountryCode } from "@/types/geo.types";
+
+/** Right-aligned download control above a tab's trip list. */
+function TripsDownloadBar({ downloads }: { downloads: TripDownloads | null }) {
+    if (!downloads) {
+        return null;
+    }
+    return (
+        <div className="-mt-1 mb-1 flex justify-end">
+            <DownloadTripsButton
+                all={downloads.all}
+                filtered={downloads.filtered}
+                pending={downloads.pending}
+                size="xs"
+                variant="ghost"
+            />
+        </div>
+    );
+}
 
 /** Country dossier: who travels, where they went and who came to visit. */
 export function CountryView({ countryCode }: { countryCode: CountryCode }) {
@@ -30,6 +53,8 @@ export function CountryView({ countryCode }: { countryCode: CountryCode }) {
         recordsByOrigin,
     } = useExplorerData();
     const { selection, selectTrip, setView } = useExplorerState();
+    const outboundDownloads = useTripDownloads({ countryCode, kind: "outbound" });
+    const inboundDownloads = useTripDownloads({ countryCode, kind: "inbound" });
 
     const handleViewChange = useCallback(
         (value: unknown) => {
@@ -119,11 +144,14 @@ export function CountryView({ countryCode }: { countryCode: CountryCode }) {
                                     title={t("country.noTripsTitle")}
                                 />
                             ) : (
-                                <TravelTimeline
-                                    onSelect={selectTrip}
-                                    records={outbound}
-                                    showOfficial
-                                />
+                                <>
+                                    <TripsDownloadBar downloads={outboundDownloads} />
+                                    <TravelTimeline
+                                        onSelect={selectTrip}
+                                        records={outbound}
+                                        showOfficial
+                                    />
+                                </>
                             )}
                         </TabsContent>
                     </>
@@ -135,11 +163,14 @@ export function CountryView({ countryCode }: { countryCode: CountryCode }) {
                             title={t("country.noVisitsTitle")}
                         />
                     ) : (
-                        <TravelTimeline
-                            onSelect={selectTrip}
-                            perspective="inbound"
-                            records={inbound}
-                        />
+                        <>
+                            <TripsDownloadBar downloads={inboundDownloads} />
+                            <TravelTimeline
+                                onSelect={selectTrip}
+                                perspective="inbound"
+                                records={inbound}
+                            />
+                        </>
                     )}
                 </TabsContent>
             </Tabs>

@@ -4,6 +4,7 @@ import { IconChevronDown, IconId } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { DownloadTripsButton } from "@/components/shared/download-trips-button";
 import { OfficialAvatar } from "@/components/shared/official-avatar";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
@@ -15,6 +16,7 @@ import { TravelTimeline } from "@/features/travel-explorer/components/travel-tim
 import { useDateRangeLabel } from "@/features/travel-explorer/hooks/use-date-range-label";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import { useTripDownloads } from "@/features/travel-explorer/hooks/use-trip-downloads";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
@@ -111,6 +113,7 @@ export function OfficialView({ officialId }: { officialId: string }) {
     const describeRange = useDateRangeLabel();
     const { officialById, recordsByOfficial } = useExplorerData();
     const { filters, selectTrip } = useExplorerState();
+    const downloads = useTripDownloads({ kind: "official", officialId });
 
     const official = officialById.get(officialId);
     if (!official) {
@@ -188,13 +191,24 @@ export function OfficialView({ officialId }: { officialId: string }) {
             <OfficialSources sources={official.sources} />
 
             <section aria-labelledby="official-travel-history" className="flex flex-col gap-2">
-                <div className="flex items-baseline justify-between gap-2">
+                <div className="flex items-center justify-between gap-2">
                     <h3 className="font-medium text-sm" id="official-travel-history">
                         {t("official.travelHistory")}
                     </h3>
-                    <span className="truncate text-muted-foreground text-xs">
-                        {describeRange(filters.from, filters.to)}
-                    </span>
+                    <div className="flex min-w-0 items-center gap-1">
+                        <span className="truncate text-muted-foreground text-xs">
+                            {describeRange(filters.from, filters.to)}
+                        </span>
+                        {downloads ? (
+                            <DownloadTripsButton
+                                all={downloads.all}
+                                filtered={downloads.filtered}
+                                pending={downloads.pending}
+                                size="xs"
+                                variant="ghost"
+                            />
+                        ) : null}
+                    </div>
                 </div>
                 {records.length === 0 ? (
                     <ClearFiltersEmpty

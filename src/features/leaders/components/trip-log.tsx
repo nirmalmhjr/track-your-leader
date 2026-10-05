@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useCallback, useMemo, useState } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { DownloadTripsButton, type TripDownload } from "@/components/shared/download-trips-button";
 import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { TravelStatusBadge } from "@/components/shared/travel-status";
 import {
@@ -21,8 +22,9 @@ import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { ROUTE_STYLES } from "@/lib/travel/travel.constants";
 import { groupByYear } from "@/lib/travel/travel-summary.utils";
+import { buildTripsFileName } from "@/lib/travel/trips-csv";
 import { cn } from "@/lib/utils";
-import type { IsoDate, TravelRecord, TravelStatus } from "@/types/travel.types";
+import type { IsoDate, Official, TravelRecord, TravelStatus } from "@/types/travel.types";
 
 const STATUS_ORDER: readonly TravelStatus[] = ["completed", "upcoming", "planned", "cancelled"];
 const ALL = "all";
@@ -117,13 +119,16 @@ function TripEntry({ record, today, currentTitle }: TripEntryProps) {
 
 interface TripLogProps {
     currentTitle: string;
+    official: Official;
     /** The official's trips, newest first. */
     records: readonly TravelRecord[];
     today: IsoDate;
+    /** Day the data was last updated, or `null` for the samples, which aren't offered for download. */
+    updatedOn: IsoDate | null;
 }
 
 /** Every recorded trip, newest first, grouped by year and filterable by status and year. */
-export function TripLog({ records, today, currentTitle }: TripLogProps) {
+export function TripLog({ official, records, today, currentTitle, updatedOn }: TripLogProps) {
     const t = useTranslations("Leaders.profile");
     const tStatus = useTranslations("Explorer.statuses");
     const format = useTravelFormat();
@@ -152,6 +157,22 @@ export function TripLog({ records, today, currentTitle }: TripLogProps) {
         [records, status, year]
     );
     const groups = useMemo(() => groupByYear(filtered.slice(0, shown)), [filtered, shown]);
+    const downloads = useMemo(() => {
+        if (!updatedOn) {
+            return null;
+        }
+        const officialById = new Map([[official.id, official]]);
+        const toDownload = (list: readonly TravelRecord[], isFiltered: boolean): TripDownload => ({
+            count: list.length,
+            fileName: buildTripsFileName({
+                filtered: isFiltered,
+                subject: [official.id, "trips"],
+                updatedOn,
+            }),
+            load: () => ({ officialById, records: list }),
+        });
+        return { all: toDownload(records, false), filtered: toDownload(filtered, true) };
+    }, [filtered, official, records, updatedOn]);
 
     const handleStatusChange = useCallback((values: string[]) => {
         const next = STATUS_FILTERS.find((candidate) => candidate === values[0]);
@@ -175,6 +196,11 @@ export function TripLog({ records, today, currentTitle }: TripLogProps) {
     return (
         <section aria-labelledby="trip-log" className="flex flex-col gap-4">
             <SectionHeading
+                actions={
+                    downloads ? (
+                        <DownloadTripsButton all={downloads.all} filtered={downloads.filtered} />
+                    ) : null
+                }
                 caption={t("tripLogCaption", {
                     count: records.length,
                     countLabel: format.number(records.length),
