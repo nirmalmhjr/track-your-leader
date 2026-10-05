@@ -93,3 +93,33 @@ test("years before 1000 keep four digits so dates sort as text", () => {
     assert.equal(isoFromParts(947, 1, 1), "0947-01-01");
     assert.ok(isoFromParts(962, 1, 1) < "1980-01-01");
 });
+
+test("Spanish and French dates", () => {
+    const range = (startDate: string, endDate: string) => ({
+        endDate,
+        precision: "day",
+        startDate,
+    });
+    assert.deepEqual(
+        parseTripDates("15 de junio de 2014", null),
+        range("2014-06-15", "2014-06-15")
+    );
+    assert.deepEqual(
+        parseTripDates("Del 15 al 17 de junio", 2014),
+        range("2014-06-15", "2014-06-17")
+    );
+    assert.deepEqual(
+        parseTripDates("30 de noviembre al 2 de diciembre de 2018", null),
+        range("2018-11-30", "2018-12-02")
+    );
+    assert.deepEqual(parseTripDates("1er–3 juin 2014", null), range("2014-06-01", "2014-06-03"));
+    assert.deepEqual(
+        parseTripDates("28 février au 2 mars 1960", null),
+        range("1960-02-28", "1960-03-02")
+    );
+    assert.deepEqual(parseTripDates("août 1962", null), {
+        endDate: "1962-08-31",
+        precision: "month",
+        startDate: "1962-08-01",
+    });
+});

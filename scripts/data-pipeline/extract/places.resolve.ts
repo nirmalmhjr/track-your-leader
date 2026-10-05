@@ -17,7 +17,7 @@ import { chunk } from "../lib/collections";
 import { readJsonFile, writeJsonFile } from "../lib/json-file";
 import { normalizeName } from "../lib/text";
 import { entityId, parsePoint, runSparql } from "../sources/wikidata";
-import { fetchWikidataIds } from "../sources/wikipedia";
+import { fetchWikidataIds, type WikiLanguage } from "../sources/wikipedia";
 import type { CellLink, TableCell } from "./trip-tables.parse";
 
 /**
@@ -306,6 +306,14 @@ export interface PlaceResolver {
         row: { cities: TableCell | null; country: TableCell | null },
         home: CountryCode
     ) => Place[];
+    /**
+     * Reads a row of visits someone hosted: the visiting countries, and where they went (a
+     * linked venue in the host country, or the host country itself).
+     */
+    visitsTo: (
+        row: { cities: TableCell | null; country: TableCell | null },
+        host: CountryCode
+    ) => { destination: Place | null; visitors: CountryCode[] };
 }
 
 /** Coordinates and country of linked articles (cities, venues). */
@@ -344,14 +352,19 @@ const fetchItems = async (
  *
  * @param links - Every link from country and city cells.
  * @param index - Place index.
+ * @param language - Wikipedia the links point into.
  * @returns A resolver that turns rows into destination places.
  */
 export const buildPlaceResolver = async (
     links: readonly CellLink[],
-    index: PlaceIndex
+    index: PlaceIndex,
+    language: WikiLanguage = "en"
 ): Promise<PlaceResolver> => {
     const { codeByItem } = index;
-    const itemByTitle = await fetchWikidataIds(links.map((link) => link.title));
+    const itemByTitle = await fetchWikidataIds(
+        links.map((link) => link.title),
+        language
+    );
     const items = await fetchItems(
         [...itemByTitle.values()].filter((item) => !codeByItem.has(item)),
         codeByItem
@@ -376,15 +389,20 @@ export const buildPlaceResolver = async (
         };
     };
 
+    const countriesOf = (row: { cities: TableCell | null; country: TableCell | null }) => {
+        const cities = (row.cities?.links ?? []).flatMap((link) => cityOfLink(link) ?? []);
+        const listed = row.country
+            ? [
+                  ...row.country.links.flatMap((link) => countryOfLink(link) ?? []),
+                  ...countriesInText(row.country.text),
+              ]
+            : [];
+        return { cities, listed };
+    };
+
     return {
         destinationsOf: (row, home) => {
-            const cities = (row.cities?.links ?? []).flatMap((link) => cityOfLink(link) ?? []);
-            const listed = row.country
-                ? [
-                      ...row.country.links.flatMap((link) => countryOfLink(link) ?? []),
-                      ...countriesInText(row.country.text),
-                  ]
-                : [];
+            const { cities, listed } = countriesOf(row);
             // Tables with a single "Location" column list cities only; their countries count too.
             const countries = listed.length > 0 ? listed : cities.map((city) => city.countryCode);
 
@@ -396,6 +414,14 @@ export const buildPlaceResolver = async (
                         countryPlace(index, code);
                     return place ? [place] : [];
                 });
+        },
+        visitsTo: (row, host) => {
+            const { cities, listed } = countriesOf(row);
+            return {
+                destination:
+                    cities.find((city) => city.countryCode === host) ?? countryPlace(index, host),
+                visitors: [...new Set(listed)].filter((code) => code !== host),
+            };
         },
     };
 };

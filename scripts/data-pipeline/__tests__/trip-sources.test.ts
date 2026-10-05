@@ -7,6 +7,7 @@ import { isMinisterTitle, normalizeCanadianName } from "../extract/claims/canada
 import { claimFromColtRow, excelSerialToIso } from "../extract/claims/colt.claims";
 import { cityCandidateOf, placesOf } from "../extract/claims/free-text-places";
 import { claimFromHistorianTrip } from "../extract/claims/historian.claims";
+import { claimsFromHistorianVisit, readVisitor } from "../extract/claims/historian-visits.claims";
 import { claimsFromPressItem, isOutboundVisit } from "../extract/claims/nepal-mofa.claims";
 import { parseMinisterCell, parseUkDate } from "../extract/claims/uk.claims";
 import { type CityLookup, countryCodeOfName, type PlaceIndex } from "../extract/places.resolve";
@@ -132,6 +133,68 @@ test("Office of the Historian rows keep the city when it can be located", () => 
         claim.sourceRef.url,
         "https://history.state.gov/departmenthistory/travels/secretary/blinken-antony-j"
     );
+});
+
+test("Historian visitors are read as a title, a role and a name", () => {
+    assert.deepEqual(readVisitor("Prime Minister John Howard"), {
+        categories: ["head_of_government"],
+        name: "John Howard",
+        title: "Prime Minister",
+    });
+    assert.deepEqual(
+        readVisitor("Prime MinisterHaidar Abu Bakr al-Attas")?.name,
+        "Haidar Abu Bakr al-Attas"
+    );
+    assert.deepEqual(readVisitor("King Hussein")?.categories, ["head_of_state"]);
+    assert.deepEqual(readVisitor("Interim President Fabian Alarcon")?.categories, [
+        "head_of_state",
+    ]);
+    assert.deepEqual(readVisitor("Prince Sultan bin Abdulaziz")?.categories, []);
+    assert.deepEqual(readVisitor("Sheikh Nasser Al-Sabah"), {
+        categories: [],
+        name: "Sheikh Nasser Al-Sabah",
+        title: null,
+    });
+    assert.equal(readVisitor("President-elect Fernando Collor de Mello"), null);
+});
+
+test("Historian visits become trips to the United States, one per visitor in office", () => {
+    const visit = {
+        description: "State Visit. Also visited New York City.",
+        endDate: "1999-02-10",
+        from: "Poland",
+        fromId: "poland",
+        id: "1",
+        startDate: "1999-02-08",
+        visitors: ["President Alexander Kwasniewski and Prime Minister Jerzy Buzek"],
+    };
+    const claims = claimsFromHistorianVisit(visit, places);
+    assert.ok(Array.isArray(claims));
+    assert.deepEqual(
+        claims.map((claim) => [
+            claim.traveller.countryCode,
+            claim.traveller.name,
+            claim.traveller.categories,
+        ]),
+        [
+            ["POL", "Alexander Kwasniewski", ["head_of_state"]],
+            ["POL", "Jerzy Buzek", ["head_of_government"]],
+        ]
+    );
+    assert.equal(claims[0]?.destination.countryCode, "USA");
+    assert.equal(claims[0]?.type, "state_visit");
+
+    const monaco = claimsFromHistorianVisit(
+        { ...visit, from: "Monaco", fromId: "monaco", visitors: ["Prince Rainier"] },
+        places
+    );
+    assert.deepEqual(Array.isArray(monaco) && monaco[0]?.traveller.categories, ["head_of_state"]);
+
+    const elect = claimsFromHistorianVisit(
+        { ...visit, visitors: ["President-elect Lech Walesa"] },
+        places
+    );
+    assert.equal(!Array.isArray(elect) && elect.reason, "visitor not in office");
 });
 
 test("UK minister cells separate the office from the name and honorifics", () => {

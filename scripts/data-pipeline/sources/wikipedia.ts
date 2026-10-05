@@ -4,11 +4,17 @@ import { chunk } from "../lib/collections";
 import { fetchJson, withQuery } from "../lib/http";
 
 /**
- * English Wikipedia: trip-list pages ("List of international prime ministerial trips made by
- * …") and short biographies. Text is CC BY-SA, so the app credits Wikipedia.
+ * Wikipedia: trip-list pages ("List of international prime ministerial trips made by …", and
+ * their Spanish and French counterparts) and short English biographies. Text is CC BY-SA, so
+ * the app credits Wikipedia.
  */
 
-const API_ENDPOINT = "https://en.wikipedia.org/w/api.php";
+/** Wikipedias read for trip lists. English is the default everywhere. */
+export const WIKI_LANGUAGES = ["en", "es", "fr"] as const;
+export type WikiLanguage = (typeof WIKI_LANGUAGES)[number];
+
+const apiEndpoint = (language: WikiLanguage): string =>
+    `https://${language}.wikipedia.org/w/api.php`;
 const TITLE_BATCH_SIZE = 50;
 /** The extracts API returns at most 20 intros per request. */
 const EXTRACT_BATCH_SIZE = 20;
@@ -49,10 +55,11 @@ type PageInfo = NonNullable<PagesResponse["query"]>["pages"][number];
  * Public URL of an article.
  *
  * @param title - Article title.
+ * @param language - Wikipedia language.
  * @returns The article URL.
  */
-export const wikipediaUrl = (title: string): string =>
-    `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(" ", "_"))}`;
+export const wikipediaUrl = (title: string, language: WikiLanguage = "en"): string =>
+    `https://${language}.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(" ", "_"))}`;
 
 /**
  * Full-text search over article titles and text.
@@ -62,7 +69,7 @@ export const wikipediaUrl = (title: string): string =>
  */
 export const searchTitles = async (query: string): Promise<string[]> => {
     const json = await fetchJson(
-        withQuery(API_ENDPOINT, {
+        withQuery(apiEndpoint("en"), {
             action: "query",
             format: "json",
             formatversion: "2",
@@ -83,20 +90,26 @@ const allPagesResponseSchema = z.object({
 /**
  * Lists every article whose title starts with a prefix, following the API's continuation.
  *
- * @param prefix - Title prefix, e.g. "List of international".
- * @returns The titles, redirects excluded.
+ * @param prefix - Title prefix without its namespace, e.g. "List of international".
+ * @param language - Wikipedia language.
+ * @param namespace - Namespace number: 0 for articles, 104 for Spanish "Anexo:" lists.
+ * @returns The full titles, redirects excluded.
  */
-export const listTitlesWithPrefix = async (prefix: string): Promise<string[]> => {
+export const listTitlesWithPrefix = async (
+    prefix: string,
+    language: WikiLanguage = "en",
+    namespace = 0
+): Promise<string[]> => {
     const titles: string[] = [];
     let from: string | undefined;
     do {
         // biome-ignore lint/performance/noAwaitInLoops: each page of results names where the next one starts.
         const json = await fetchJson(
-            withQuery(API_ENDPOINT, {
+            withQuery(apiEndpoint(language), {
                 action: "query",
                 apfilterredir: "nonredirects",
                 aplimit: "max",
-                apnamespace: "0",
+                apnamespace: String(namespace),
                 apprefix: prefix,
                 format: "json",
                 formatversion: "2",
@@ -115,13 +128,15 @@ export const listTitlesWithPrefix = async (prefix: string): Promise<string[]> =>
  * Fetches an article's rendered HTML (templates such as flags and dates already expanded).
  *
  * @param title - Article title; redirects are followed.
+ * @param language - Wikipedia language.
  * @returns The final title and HTML, or `null` if the page doesn't exist.
  */
 export const fetchArticleHtml = async (
-    title: string
+    title: string,
+    language: WikiLanguage = "en"
 ): Promise<{ html: string; title: string } | null> => {
     const json = await fetchJson(
-        withQuery(API_ENDPOINT, {
+        withQuery(apiEndpoint(language), {
             action: "parse",
             disableeditsection: "1",
             disabletoc: "1",
@@ -166,14 +181,15 @@ const resolveRequestedTitles = (
 const queryPages = async (
     titles: readonly string[],
     batchSize: number,
-    params: Readonly<Record<string, string>>
+    params: Readonly<Record<string, string>>,
+    language: WikiLanguage = "en"
 ): Promise<Map<string, PageInfo>> => {
     const pages = new Map<string, PageInfo>();
     const batches = chunk([...new Set(titles)].sort(), batchSize);
     const responses = await Promise.all(
         batches.map((batch) =>
             fetchJson(
-                withQuery(API_ENDPOINT, {
+                withQuery(apiEndpoint(language), {
                     action: "query",
                     format: "json",
                     formatversion: "2",
@@ -200,13 +216,19 @@ const queryPages = async (
  * Maps article titles to their Wikidata items.
  *
  * @param titles - Article titles as linked from pages (redirects are followed).
+ * @param language - Wikipedia the titles belong to.
  * @returns Item id per requested title; titles without an item are left out.
  */
-export const fetchWikidataIds = async (titles: readonly string[]): Promise<Map<string, string>> => {
-    const pages = await queryPages(titles, TITLE_BATCH_SIZE, {
-        ppprop: "wikibase_item",
-        prop: "pageprops",
-    });
+export const fetchWikidataIds = async (
+    titles: readonly string[],
+    language: WikiLanguage = "en"
+): Promise<Map<string, string>> => {
+    const pages = await queryPages(
+        titles,
+        TITLE_BATCH_SIZE,
+        { ppprop: "wikibase_item", prop: "pageprops" },
+        language
+    );
     const ids = new Map<string, string>();
     for (const [title, page] of pages) {
         const id = page.pageprops?.wikibase_item;

@@ -11,6 +11,8 @@ const HOST_INTERVAL_MS: Readonly<Record<string, number>> = {
     "api.github.com": 1000,
     "assets.publishing.service.gov.uk": 250,
     "en.wikipedia.org": 400,
+    "es.wikipedia.org": 400,
+    "fr.wikipedia.org": 400,
     "mofa.gov.np": 1500,
     "query.wikidata.org": 1000,
     "raw.githubusercontent.com": 250,
@@ -20,6 +22,11 @@ const HOST_INTERVAL_MS: Readonly<Record<string, number>> = {
 };
 const DEFAULT_INTERVAL_MS = 500;
 const MAX_ATTEMPTS = 5;
+/** Throttling clears with patience, so "too many requests" gets more and longer retries. */
+const MAX_THROTTLED_ATTEMPTS = 9;
+const MAX_RETRY_DELAY_MS = 120_000;
+/** Each "too many requests" doubles the gap between requests to that host, up to this. */
+const MAX_INTERVAL_MS = 5000;
 const RETRY_BASE_MS = 3000;
 const MS_PER_SECOND = 1000;
 const MS_PER_HOUR = 3_600_000;
@@ -36,6 +43,8 @@ export interface RequestOptions {
 
 let bypassCache = false;
 const nextSlotByHost = new Map<string, number>();
+/** Gaps widened after a host throttled this run. */
+const intervalByHost = new Map<string, number>();
 
 /** Ignore cached responses for the rest of the run (`--refresh`). */
 export const setCacheBypass = (value: boolean): void => {
@@ -59,6 +68,17 @@ const isRetryable = (error: unknown): boolean =>
     error.status === HTTP_TOO_MANY_REQUESTS ||
     error.status >= HTTP_SERVER_ERROR;
 
+const isThrottled = (error: unknown): boolean =>
+    error instanceof HttpError && error.status === HTTP_TOO_MANY_REQUESTS;
+
+const intervalFor = (host: string): number =>
+    intervalByHost.get(host) ?? HOST_INTERVAL_MS[host] ?? DEFAULT_INTERVAL_MS;
+
+/** Spaces out every later request to a host that said "too many requests". */
+const slowDownHost = (host: string): void => {
+    intervalByHost.set(host, Math.min(intervalFor(host) * 2, MAX_INTERVAL_MS));
+};
+
 /** Pauses every request to a host, e.g. after it answered "too many requests". */
 const pauseHost = (host: string, milliseconds: number): void => {
     nextSlotByHost.set(host, Math.max(nextSlotByHost.get(host) ?? 0, Date.now() + milliseconds));
@@ -66,7 +86,7 @@ const pauseHost = (host: string, milliseconds: number): void => {
 
 /** Reserves the next free request slot for a host and waits for it. */
 const waitForSlot = async (host: string): Promise<void> => {
-    const interval = HOST_INTERVAL_MS[host] ?? DEFAULT_INTERVAL_MS;
+    const interval = intervalFor(host);
     const now = Date.now();
     const slot = Math.max(now, nextSlotByHost.get(host) ?? 0);
     nextSlotByHost.set(host, slot + interval);
@@ -125,7 +145,7 @@ const download = async (
     }
 
     let lastError: unknown;
-    for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt += 1) {
+    for (let attempt = 1; attempt <= MAX_THROTTLED_ATTEMPTS; attempt += 1) {
         try {
             // biome-ignore lint/performance/noAwaitInLoops: retries must wait for the previous attempt.
             const body = await read(await send(url, options));
@@ -134,13 +154,24 @@ const download = async (
             return cacheFile;
         } catch (error) {
             lastError = error;
-            if (!isRetryable(error) || attempt === MAX_ATTEMPTS) {
+            const throttled = isThrottled(error);
+            if (
+                !isRetryable(error) ||
+                attempt >= (throttled ? MAX_THROTTLED_ATTEMPTS : MAX_ATTEMPTS)
+            ) {
                 break;
             }
             const requested = error instanceof HttpError ? error.retryAfterMs : 0;
-            const delay = Math.max(RETRY_BASE_MS * 2 ** (attempt - 1), requested);
+            const delay = Math.min(
+                Math.max(RETRY_BASE_MS * 2 ** (attempt - 1), requested),
+                MAX_RETRY_DELAY_MS
+            );
             // Slow down every request to this host, not just this one.
-            pauseHost(new URL(url).host, delay);
+            const { host } = new URL(url);
+            pauseHost(host, delay);
+            if (throttled) {
+                slowDownHost(host);
+            }
             log.warn(`Retrying in ${delay / MS_PER_SECOND}s: ${(error as Error).message}`);
             await sleep(delay);
         }

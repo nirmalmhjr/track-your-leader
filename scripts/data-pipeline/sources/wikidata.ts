@@ -133,6 +133,8 @@ export interface WikidataEntity {
     enwikiTitle: string | null;
     id: string;
     label: string | null;
+    /** Article titles on the Wikipedias asked for, keyed by site ("eswiki"). */
+    wikiTitles: Readonly<Record<string, string>>;
 }
 
 const itemValueSchema = z.object({ id: z.string() });
@@ -212,11 +214,13 @@ export const qualifier = (claim: WikidataClaim, property: string): Snak | undefi
  *
  * @param ids - Item ids.
  * @param props - Which parts to load (fewer is faster).
+ * @param sites - Wikipedias whose article titles to read with `sitelinks`.
  * @returns Entities keyed by id; missing items are left out.
  */
 export const fetchEntities = async (
     ids: readonly string[],
-    props: readonly ("aliases" | "claims" | "descriptions" | "labels" | "sitelinks")[]
+    props: readonly ("aliases" | "claims" | "descriptions" | "labels" | "sitelinks")[],
+    sites: readonly string[] = ["enwiki"]
 ): Promise<Map<string, WikidataEntity>> => {
     const entities = new Map<string, WikidataEntity>();
     const unique = [...new Set(ids)].sort();
@@ -230,7 +234,7 @@ export const fetchEntities = async (
                     ids: batch.join("|"),
                     languages: LABEL_LANGUAGES.join("|"),
                     props: props.join("|"),
-                    sitefilter: "enwiki",
+                    sitefilter: sites.join("|"),
                 })
             )
         )
@@ -249,6 +253,9 @@ export const fetchEntities = async (
                 enwikiTitle: raw.sitelinks?.enwiki?.title ?? null,
                 id: raw.id,
                 label: raw.labels?.en?.value ?? raw.labels?.mul?.value ?? null,
+                wikiTitles: Object.fromEntries(
+                    Object.entries(raw.sitelinks ?? {}).map(([site, link]) => [site, link.title])
+                ),
             });
         }
     }

@@ -19,8 +19,10 @@ Both commands accept `--refresh` (ignore the local HTTP cache) and `--force` (wr
 counts dropped sharply — read the report first). A cold `data:collect` takes about an hour,
 mostly polite waiting between requests.
 
-A GitHub Action (`.github/workflows/data-sync.yml`) runs `data:sync` every day and commits any
-changes; the hosting platform redeploys on that commit. `data:collect` is run by hand for now.
+Two GitHub Actions commit any changes, and the hosting platform redeploys on each commit:
+`.github/workflows/data-sync.yml` runs `data:sync` every day, and
+`.github/workflows/data-collect.yml` runs the full `data:collect` every Sunday. They share a
+concurrency group, so they never write at the same time.
 
 ## Sources
 
@@ -31,9 +33,11 @@ changes; the hosting platform redeploys on that commit. `data:collect` is run by
 | US cabinet (the CIA doesn't list the US) | Wikidata, offices listed in `config.ts` | CC0 |
 | Photos, parties, Wikidata ids | Wikidata / Wikimedia Commons | CC0 / per file |
 | Short biographies | Wikipedia article intros | CC BY-SA |
-| Trips of well-known leaders and foreign ministers | Wikipedia "List of international … trips made by …" pages | CC BY-SA |
+| Trips of well-known leaders and foreign ministers | Wikipedia "List of international … trips made by …" and "List of presidential trips made by …" pages | CC BY-SA |
+| Trips of monarchs, and state visits they hosted | Wikipedia "List of official overseas trips made by …", "List of state visits made (and received) by …" pages | CC BY-SA |
 | Trips of heads of state and government of 200+ countries since 1945 | [COLT](https://doi.org/10.7910/DVN/HJK7DN) (Diplometrics, University of Denver), Harvard Dataverse | CC0 |
 | Trips of US presidents and secretaries of state | [US Office of the Historian](https://github.com/HistoryAtState/travels) | Public domain (CC0) |
+| Visits to the US by foreign leaders of every country, since 1874 | [US Office of the Historian](https://github.com/HistoryAtState/visits) | Public domain (CC0) |
 | Trips of every UK minister, quarterly since about 2010 | GOV.UK ministerial transparency CSVs | Open Government Licence v3.0 |
 | Trips of Canadian ministers | [Proactive Disclosure – Travel Expenses](https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce) | Open Government Licence – Canada |
 | Current trips of Nepal's President, VP, PM and Foreign Minister | [mofa.gov.np](https://mofa.gov.np) press releases | Government website |
@@ -43,9 +47,20 @@ Wikipedia, GOV.UK and Canada's data require attribution; the app's panel footer 
 sources and each trip links to where it came from. Please cite COLT as: Diplometrics, *Country
 and Organization Leader Travel (COLT)*, Harvard Dataverse, doi:10.7910/DVN/HJK7DN.
 
-Looked at and left out for now: India's MEA visit lists (loaded by JavaScript; needs its data
-endpoint), Japan's MOFA pages, Nepal's older MoFA archive (fails certificate checks), the
-kdiplo Korean dataset (unclear licence; COLT covers Korea) and GDELT (too noisy without AI).
+Looked at and left out for now:
+
+- India's MEA visit lists (loaded by JavaScript; needs its data endpoint), Japan's MOFA pages,
+  Nepal's older MoFA archive (fails certificate checks).
+- The kdiplo Korean dataset (unclear licence; COLT covers Korea), GDELT (too noisy without AI).
+- ICEWS event data (no licence granted: "limited information on how it can be used"; ends 2022).
+- EveryPolitician (frozen since 2019, no licence file, and legislators rather than travellers).
+- Need a manual download, because their sites ask for a name and email first:
+  [WhoGov](https://politicscentre.nuffield.ox.ac.uk/whogov-dataset/) (every cabinet member
+  1966–2025; no licence stated, citation requested) and the
+  [UN General Debate speakers](https://doi.org/10.7910/DVN/0TJX8Y) (CC0; every country's
+  speaker each year since 1946).
+- The Kremlin's trip list (CC BY 4.0) covers only the Russian president's own trips, which
+  COLT and Wikipedia already list.
 
 ## How it works
 
@@ -60,6 +75,7 @@ collect.ts / run.ts → pipeline.ts
 │  ├─ wikipedia  trip-pages.discover → trip-tables.parse → trip-dates.parse
 │  ├─ colt       sources/colt.ts streams the spreadsheet
 │  ├─ historian  sources/state-historian.ts reads the XML per person
+│  ├─ historian-visits  sources/historian-visits.ts reads the XML per decade
 │  ├─ uk         sources/gov-uk.ts finds every quarterly CSV
 │  ├─ canada     sources/canada-open-data.ts streams the national CSV
 │  └─ nepal-mofa sources/nepal-mofa.ts reads press releases about visits abroad
@@ -100,6 +116,9 @@ Outputs:
 - **Same trip, one record.** Claims for the same person, destination country and overlapping
   dates merge. Details come from the most trusted source: official government records, then
   Wikipedia and Nepal's MoFA, then COLT. Every source stays listed on the trip.
+- **Leaders are matched by office too.** A head of state or government whose name a source
+  spells differently ("Salih" for "Saleh") is matched to whoever held that office on the
+  trip's date, when exactly one person did.
 - **New officials from trip sources.** A named traveller no known official matches (a UK junior
   minister, a 1950s leader) becomes an official described by the sources: one position per
   title, from their first to their last reported trip (still open if that was within a year).
@@ -112,6 +131,10 @@ Outputs:
 
 - *A leader's trips are missing*: check `report.json → tripPages`. If the page wasn't found,
   add it in `extract/trip-pages.overrides.ts`.
+- *State visits a monarch received*: on pages titled "…received by …", or under headings such
+  as "State visits received", each row becomes a trip of the visiting country's head of state
+  on that date. Rows under such headings on other trip pages are skipped (the visitor could be
+  a head of government).
 - *A country's cabinet is "stale"*: the CIA hasn't updated it since a change of government.
   It recovers automatically when they do; leaders still come from Wikidata meanwhile.
 - *A country's capital or description*: the app uses Wikidata's capital. To show a curated one

@@ -1,5 +1,5 @@
 import type { CountryCode } from "@/types/geo.types";
-import type { IsoDate } from "@/types/travel.types";
+import type { IsoDate, RoleCategory } from "@/types/travel.types";
 
 import { chunk, groupBy } from "../lib/collections";
 import { addDaysIso } from "../lib/dates";
@@ -21,6 +21,7 @@ const TERM_GRACE_DAYS = 45;
 const STILL_IN_OFFICE_DAYS = 365;
 const NAME_BATCH_SIZE = 50;
 const MINIMUM_SHARED_TOKENS = 2;
+const LEADER_ROLES: ReadonlySet<RoleCategory> = new Set(["head_of_state", "head_of_government"]);
 
 const tokensOf = (name: string): Set<string> =>
     new Set(normalizeName(name).split(" ").filter(Boolean));
@@ -139,7 +140,10 @@ const findTraveller = (claim: TripClaim, index: DraftIndex): OfficialDraft | nul
             return resolved;
         }
     }
-    if (!name && claim.traveller.categories.length > 0) {
+    // A country has one head of state and one head of government at a time, so the office also
+    // identifies a named leader whose name is spelled differently ("Salih" for "Saleh").
+    const isLeader = claim.traveller.categories.some((category) => LEADER_ROLES.has(category));
+    if ((!name || isLeader) && claim.traveller.categories.length > 0) {
         return pickInOffice(index.inCountry(countryCode), claim, true);
     }
     return null;

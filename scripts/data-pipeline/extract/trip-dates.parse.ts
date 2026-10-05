@@ -4,7 +4,8 @@ import { daysInMonth, isoFromParts, isValidDay } from "../lib/dates";
 
 /**
  * Reads the free-form dates of Wikipedia trip tables:
- * "15–16 June", "30 November – 2 December", "June 15–16, 2014", "December 2019", "2027".
+ * "15–16 June", "30 November – 2 December", "June 15–16, 2014", "December 2019", "2027", and
+ * their Spanish and French forms ("del 15 al 17 de junio de 2014", "1er–3 juin 2014").
  * When the cell has no year, the year of the section heading is used.
  */
 
@@ -15,30 +16,67 @@ export interface TripDates {
 }
 
 const MONTHS: Readonly<Record<string, number>> = {
+    // Spanish
+    abril: 4,
+    agosto: 8,
+    aout: 8,
+    // French
+    août: 8,
+    // English
     apr: 4,
     april: 4,
     aug: 8,
     august: 8,
+    avr: 4,
+    avril: 4,
     dec: 12,
     december: 12,
+    decembre: 12,
+    diciembre: 12,
+    déc: 12,
+    décembre: 12,
+    enero: 1,
     feb: 2,
+    febrero: 2,
     february: 2,
+    fevr: 2,
+    fevrier: 2,
+    févr: 2,
+    février: 2,
     jan: 1,
     january: 1,
+    janv: 1,
+    janvier: 1,
+    juil: 7,
+    juillet: 7,
+    juin: 6,
     jul: 7,
+    julio: 7,
     july: 7,
     jun: 6,
     june: 6,
+    junio: 6,
+    mai: 5,
     mar: 3,
     march: 3,
+    mars: 3,
+    marzo: 3,
     may: 5,
+    mayo: 5,
     nov: 11,
     november: 11,
+    novembre: 11,
+    noviembre: 11,
     oct: 10,
     october: 10,
+    octobre: 10,
+    octubre: 10,
     sep: 9,
     sept: 9,
     september: 9,
+    septembre: 9,
+    septiembre: 9,
+    setiembre: 9,
 };
 const MONTH = Object.keys(MONTHS)
     .sort((a, b) => b.length - a.length)
@@ -59,8 +97,13 @@ const MONTH_ONLY = new RegExp(`\\b(${MONTH})\\.?(?:\\s+(\\d{4}))?\\b`, "gi");
 const YEAR = /\b(?:19|20)\d{2}\b/;
 
 const DASHES = /[‒–—−-]/g;
-const RANGE_WORDS = /\s+(?:to|until|and|&)\s+/gi;
-const ORDINAL_SUFFIX = /(\d)(?:st|nd|rd|th)\b/gi;
+/** "to", "and"; Spanish "al", "y", "hasta"; French "au", "et". */
+const RANGE_WORDS = /\s+(?:to|until|and|&|al|y|hasta|au|et)\s+/gi;
+/** "1st", "1er", "1º". */
+const ORDINAL_SUFFIX = /(\d)(?:(?:st|nd|rd|th|er)\b|[º°])/gi;
+/** Spanish "15 de junio de 2014" reads as "15 junio 2014". */
+const DAY_DE = /(\d)\s+de\s+/gi;
+const MONTH_DE_YEAR = new RegExp(`(${MONTH})\\s+del?\\s+(\\d{4})`, "gi");
 const WEEKDAY = /\b(?:mon|tues|wednes|thurs|fri|satur|sun)day,?\s*/gi;
 const SPACED_DASH = /\s*–\s*/g;
 
@@ -75,6 +118,8 @@ const normalize = (text: string): string =>
     text
         .replace(WEEKDAY, "")
         .replace(ORDINAL_SUFFIX, "$1")
+        .replace(DAY_DE, "$1 ")
+        .replace(MONTH_DE_YEAR, "$1 $2")
         .replace(DASHES, "–")
         .replace(RANGE_WORDS, " – ")
         .replace(SPACED_DASH, " – ");

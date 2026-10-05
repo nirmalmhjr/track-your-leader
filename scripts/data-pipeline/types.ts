@@ -51,6 +51,7 @@ export const TRIP_SOURCES = [
     "wikipedia",
     "colt",
     "historian",
+    "historian-visits",
     "gov-uk",
     "canada",
     "nepal-mofa",

@@ -72,3 +72,48 @@ test("trip types and event names come from the purpose", () => {
     assert.equal(detectEventName(["6th BRICS summit"], "6th BRICS summit"), "6th BRICS summit");
     assert.equal(detectEventName([], "State visit; meeting with the King"), null);
 });
+
+test("rows under a received heading are marked as hosted visits", () => {
+    const page = `
+<div class="mw-heading mw-heading2"><h2>State visits made by Harald V</h2></div>
+<table class="wikitable">
+  <tr><th>Date(s)</th><th>Country</th><th>Details</th></tr>
+  <tr><td>28–30 October 1991</td><td><a href="/wiki/Denmark" title="Denmark">Denmark</a></td><td>Visiting Queen Margrethe II</td></tr>
+</table>
+<div class="mw-heading mw-heading2"><h2>State visits received by Harald V</h2></div>
+<table class="wikitable">
+  <tr><th>Date(s)</th><th>Country</th><th>Details</th></tr>
+  <tr><td>5–7 May 1992</td><td><a href="/wiki/Iceland" title="Iceland">Iceland</a></td><td>President Vigdís Finnbogadóttir</td></tr>
+</table>`;
+    const { rows } = parseTripTables(page);
+    assert.deepEqual(
+        rows.map((row) => [row.country?.text, row.received]),
+        [
+            ["Denmark", false],
+            ["Iceland", true],
+        ]
+    );
+});
+
+test("Spanish and French tables are read by their headers", () => {
+    const page = `
+<h2>Visitas recibidas</h2>
+<table class="wikitable">
+  <tr><th>Fecha</th><th>País</th><th>Ciudades</th><th>Motivo</th><th>Detalles</th></tr>
+  <tr><td>15 de junio</td><td><a href="/wiki/Chile" title="Chile">Chile</a></td><td>Santiago</td><td>Visita de Estado</td><td>Reunión</td></tr>
+</table>
+<h2>Visites à venir</h2>
+<table class="wikitable">
+  <tr><th>Date</th><th>Pays</th><th>Villes</th><th>Événement</th><th>Détails</th></tr>
+  <tr><td>juin 2027</td><td><a href="/wiki/Japon" title="Japon">Japon</a></td><td>Tokyo</td><td>Sommet</td><td>Rencontre</td></tr>
+</table>`;
+    const [spanish, french] = parseTripTables(page).rows;
+    assert.equal(spanish?.country?.text, "Chile");
+    assert.equal(spanish?.cities?.text, "Santiago");
+    assert.equal(spanish?.purpose?.text, "Visita de Estado");
+    assert.equal(spanish?.notes, "Reunión");
+    assert.equal(spanish?.received, true);
+    assert.equal(french?.purpose?.text, "Sommet");
+    assert.equal(french?.notes, "Rencontre");
+    assert.equal(french?.sectionHint, "planned");
+});

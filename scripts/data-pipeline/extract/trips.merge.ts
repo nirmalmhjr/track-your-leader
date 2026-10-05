@@ -18,6 +18,7 @@ const SOURCE_RANK: Readonly<Record<TripSourceId, number>> = {
     colt: 2,
     "gov-uk": 0,
     historian: 0,
+    "historian-visits": 0,
     "nepal-mofa": 1,
     wikipedia: 1,
 };

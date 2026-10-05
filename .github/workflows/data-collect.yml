@@ -1,0 +1,72 @@
+name: Data collect
+
+# Rebuilds the warehouse from every source for every country (offices since 1945) once a week,
+# including the bulk and historical sources the daily sync only reuses (COLT, the Office of the
+# Historian's trips and visits, GOV.UK, Canada), and commits the result. History changes rarely,
+# so weekly is enough. Free on every GitHub plan.
+
+on:
+  schedule:
+    # 00:30 UTC on Sundays, so it normally ends before the daily sync at 03:15.
+    - cron: "30 0 * * 0"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Write even if counts dropped sharply (after checking the report)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# Shared with the daily sync, so the two never write the data at the same time.
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+        env:
+          LEFTHOOK: "0"
+
+      - name: Test parsers
+        run: pnpm data:test
+
+      - name: Collect data
+        run: pnpm data:collect ${{ inputs.force && '--force' || '' }}
+        env:
+          # Optional: your site URL, so Wikimedia can reach you if the bot misbehaves.
+          DATA_PIPELINE_CONTACT: ${{ secrets.DATA_PIPELINE_CONTACT }}
+
+      - name: Commit changes
+        env:
+          LEFTHOOK: "0"
+        run: |
+          paths="public/data scripts/data-pipeline/state data/warehouse"
+          if [ -z "$(git status --porcelain -- $paths)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- $paths
+          git commit -m "chore(data): weekly collect $(date -u +%Y-%m-%d)"
+          git push

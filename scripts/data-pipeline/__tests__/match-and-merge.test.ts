@@ -164,6 +164,11 @@ test("travellers are matched by id, name, family name and office, or become new 
             name: "Kay Oli",
         }),
     });
+    const bySpellingAndOffice = claim({
+        source: "historian",
+        startDate: "2019-04-01",
+        traveller: traveller({ categories: ["head_of_government"], name: "Khadga Prashad Olee" }),
+    });
     const byOffice = claim({
         source: "nepal-mofa",
         startDate: "2026-06-14",
@@ -185,7 +190,7 @@ test("travellers are matched by id, name, family name and office, or become new 
     });
 
     const result = await matchTravellers(
-        [byId, byAlias, byFamily, byOffice, stranger, nobody],
+        [byId, byAlias, byFamily, bySpellingAndOffice, byOffice, stranger, nobody],
         [oli, minister],
         new Map(),
         TODAY
@@ -193,6 +198,7 @@ test("travellers are matched by id, name, family name and office, or become new 
     assert.equal(result.draftOf.get(byId), oli);
     assert.equal(result.draftOf.get(byAlias), oli);
     assert.equal(result.draftOf.get(byFamily), oli);
+    assert.equal(result.draftOf.get(bySpellingAndOffice), oli);
     assert.equal(result.draftOf.get(byOffice), minister);
     assert.deepEqual(result.unmatched, [nobody]);
     assert.equal(result.newDrafts.length, 1);

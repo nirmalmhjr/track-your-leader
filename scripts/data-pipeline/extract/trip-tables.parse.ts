@@ -31,6 +31,11 @@ export interface TripRow {
     date: string;
     notes: string | null;
     purpose: TableCell | null;
+    /**
+     * Under a heading such as "State visits received": the country column names the visitors,
+     * not the destination.
+     */
+    received: boolean;
     /** Set by headings such as "Future trips" or "Cancelled visits". */
     sectionHint: TravelStatusHint;
 }
@@ -43,18 +48,32 @@ export interface ParsedTripPage {
 
 type ColumnKey = "cities" | "country" | "date" | "notes" | "purpose";
 
-/** Checked in this order; each column is claimed by the first key that matches it. */
+/**
+ * Checked in this order; each column is claimed by the first key that matches it. Headers are
+ * English, Spanish or French; accented words get explicit boundaries, as `\b` ignores "é".
+ */
 const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
-    ["date", /\bdates?\b/],
-    ["country", /\b(country|countries|nation|destination)\b/],
-    ["cities", /\b(cit(y|ies)|areas?|locations?|places?|venues?|visited)\b/],
-    ["purpose", /\b(purpose|reason|events?|type|activit(y|ies)|occasion|description)\b/],
-    ["notes", /\b(notes?|details|highlights|remarks|summary)\b/],
+    ["date", /\b(dates?|fechas?)\b/],
+    ["country", /\b(country|countries|nation|destination|país|países|pais|paises|pays|destino)\b/],
+    [
+        "cities",
+        /\b(cit(y|ies)|areas?|locations?|places?|venues?|visited|ciudad(es)?|lugar(es)?|localidad(es)?|villes?|lieux?|localit)/,
+    ],
+    [
+        "purpose",
+        /\b(purpose|reason|events?|type|activit(y|ies)|occasion|description|motivo|propósito|tipo|eventos?|actividad(es)?|descripción|objetivo|objet|motif|activités?)\b|(^|\s)événements?/,
+    ],
+    [
+        "notes",
+        /\b(notes?|details|highlights|remarks|summary|notas?|detalles|observaciones|comentarios|remarques|commentaires)\b|(^|\s)détails/,
+    ],
 ];
 
 const YEAR = /\b(?:19|20)\d{2}\b/g;
-const FUTURE_HEADING = /\b(future|upcoming|scheduled|planned|proposed)\b/i;
-const CANCELLED_HEADING = /\b(cancel+ed|postponed)\b/i;
+const FUTURE_HEADING =
+    /\b(future|upcoming|scheduled|planned|proposed|futur[oa]s?|próxim[oa]s|programad[oa]s|futurs?|prévus?)\b|(^|\s)à venir/i;
+const CANCELLED_HEADING = /\b(cancel+ed|postponed|cancelad[oa]s?|suspendid[oa]s?|annul)/i;
+const RECEIVED_HEADING = /\b(received|incoming|hosted|inbound|recibid[oa]s|reçue?s)\b/i;
 const NON_ARTICLE_TITLE = /^(file|image|help|wikipedia|category|template|portal|special):/i;
 const WIKI_LINK = "/wiki/";
 const NOISE =
@@ -146,6 +165,7 @@ const mapColumns = (headers: readonly string[]): Partial<Record<ColumnKey, numbe
 
 interface SectionContext {
     hint: TravelStatusHint;
+    received: boolean;
     year: number | null;
 }
 
@@ -158,16 +178,18 @@ const singleYear = (text: string): number | null => {
 const contextFrom = (headings: readonly string[]): SectionContext => {
     let year: number | null = null;
     let hint: TravelStatusHint = null;
+    let received = false;
     // Skipped heading levels leave holes in the list.
     for (const heading of headings.filter(Boolean)) {
         year = singleYear(heading) ?? year;
+        received ||= RECEIVED_HEADING.test(heading);
         if (CANCELLED_HEADING.test(heading)) {
             hint = "cancelled";
         } else if (FUTURE_HEADING.test(heading) && hint !== "cancelled") {
             hint = "planned";
         }
     }
-    return { hint, year };
+    return { hint, received, year };
 };
 
 const isHeaderRow = (line: readonly Element[]): boolean =>
@@ -191,7 +213,7 @@ const readTable = (
     }
 
     const caption = cleanText($(table).children("caption").text());
-    const context = caption ? contextFrom([caption]) : { hint: null, year: null };
+    const context = caption ? contextFrom([caption]) : { hint: null, received: false, year: null };
     const cellAt = (line: readonly Element[], key: ColumnKey): Element | undefined => {
         const index = columns[key];
         return index === undefined ? undefined : line[index];
@@ -218,6 +240,7 @@ const readTable = (
                 date,
                 notes: notes ? readNotes($, notes) : null,
                 purpose: purpose ? readCell($, purpose) : null,
+                received: context.received || section.received,
                 sectionHint: context.hint ?? section.hint,
             },
         ];

@@ -13,6 +13,7 @@ import { extractCabinet } from "./extract/cabinets.extract";
 import { extractCanadaClaims } from "./extract/claims/canada.claims";
 import { extractColtClaims } from "./extract/claims/colt.claims";
 import { extractHistorianClaims } from "./extract/claims/historian.claims";
+import { extractHistorianVisitClaims } from "./extract/claims/historian-visits.claims";
 import { extractNepalMofaClaims } from "./extract/claims/nepal-mofa.claims";
 import { extractUkClaims } from "./extract/claims/uk.claims";
 import { extractWikipediaClaims } from "./extract/claims/wikipedia.claims";
@@ -52,6 +53,7 @@ import {
     writeWarehouseFile,
 } from "./lib/warehouse";
 import { fetchEntities } from "./sources/wikidata";
+import { WIKI_LANGUAGES } from "./sources/wikipedia";
 import {
     type CountryContext,
     type OfficialDraft,
@@ -174,20 +176,29 @@ const extractSource = async (source: TripSourceId, input: ClaimsInput): Promise<
         case "wikipedia": {
             const people = await fetchEntities(
                 input.drafts.flatMap((draft) => draft.wikidataId ?? []),
-                ["sitelinks"]
+                ["sitelinks"],
+                WIKI_LANGUAGES.map((language) => `${language}wiki`)
             );
-            const enwikiTitles = new Map(
-                [...people.values()].flatMap((person) =>
-                    person.enwikiTitle ? [[person.id, person.enwikiTitle] as const] : []
-                )
+            const wikiTitles = new Map(
+                [...people.values()].map((person) => [
+                    person.id,
+                    Object.fromEntries(
+                        WIKI_LANGUAGES.flatMap((language) => {
+                            const title = person.wikiTitles[`${language}wiki`];
+                            return title ? [[language, title]] : [];
+                        })
+                    ),
+                ])
             );
-            const claims = await extractWikipediaClaims({ ...input, enwikiTitles });
+            const claims = await extractWikipediaClaims({ ...input, wikiTitles });
             return { claims, skipped: [] };
         }
         case "colt":
             return extractColtClaims({ cities, places });
         case "historian":
             return extractHistorianClaims({ cities, places });
+        case "historian-visits":
+            return extractHistorianVisitClaims(places);
         case "gov-uk":
             return extractUkClaims({ cities, places });
         case "canada":
