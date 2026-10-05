@@ -30,6 +30,7 @@
     "data:sync": "tsx scripts/data-pipeline/run.ts",
     "data:test": "tsx --test \"scripts/data-pipeline/**/*.test.ts\"",
     "dev": "next dev",
+    "geo:build": "tsx scripts/geo/build-world-topology.ts",
     "lint:check": "ultracite check",
     "lint:fix": "ultracite fix",
     "prepare": "lefthook install || true",

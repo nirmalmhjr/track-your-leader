@@ -50,8 +50,8 @@ const homeHeight = homeBottom - homeTop;
 
 /**
  * The resting view: the whole world centred in the area beside the panel. Vertically it is
- * centred on the equator with equal gaps above and below, so the map sits in the middle of
- * the screen rather than being pushed down by the overlays along the top.
+ * centred on the inhabited latitudes with equal gaps above and below, so the map sits in the
+ * middle of the screen rather than being pushed down by the overlays along the top.
  */
 const computeHomeTransform = (width: number, height: number, insets: MapInsets): ZoomTransform => {
     const verticalGap = Math.min(insets.top, insets.bottom);
@@ -67,7 +67,7 @@ const computeHomeTransform = (width: number, height: number, insets: MapInsets):
         : containScale;
 
     const centerX = MAP_CONFIG.worldWidth / 2;
-    const centerY = MAP_WORLD_HEIGHT / 2;
+    const centerY = homeTop + homeHeight / 2;
 
     return zoomIdentity
         .translate(insets.left + availableWidth / 2 - scale * centerX, height / 2 - scale * centerY)

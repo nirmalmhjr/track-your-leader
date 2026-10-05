@@ -88,6 +88,13 @@ export const FUTURE_STATUSES: readonly TravelStatus[] = ["upcoming", "planned"];
 export const SEQUENTIAL_STEPS = 5;
 
 export const MAP_CONFIG = {
+    /**
+     * Longitude at the centre of the map. The opposite meridian, 168.97°W, is where the map's
+     * left and right edges meet: the Russia–US line in the Bering Strait, so Russia and Fiji stay
+     * whole. `pnpm geo:build` joins the land on either side of 180° for this seam, so rerun it
+     * after changing the value.
+     */
+    centralMeridian: 11.03,
     /** Share of the available viewport a framed selection may occupy. */
     fitFill: 0.82,
     /** Closest zoom used when automatically framing a single country. */
@@ -104,6 +111,12 @@ export const MAP_CONFIG = {
     worldWidth: 1000,
     zoomStep: 1.6,
 } as const;
+
+/**
+ * Country outlines for the map, served as a static file (built by `pnpm geo:build`). Kept out of
+ * the JavaScript bundle so it needs no compiling, caches on its own and downloads with the page.
+ */
+export const WORLD_TOPOLOGY_URL = "/geo/world-countries.topo.json";
 
 /**
  * Floating panel on the right of the map, below the header. Keep in sync with the

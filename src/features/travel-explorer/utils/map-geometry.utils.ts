@@ -1,9 +1,12 @@
-import { type GeoStream, geoGraticule10, geoNaturalEarth1, geoPath, geoStream } from "d3-geo";
+import { type GeoStream, geoMercator, geoPath, geoStream } from "d3-geo";
 import type { Feature, Geometry, MultiPolygon, Polygon } from "geojson";
 import { feature } from "topojson-client";
 import type { GeometryCollection, Topology } from "topojson-specification";
 
-import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
+import {
+    MAP_CONFIG,
+    WORLD_TOPOLOGY_URL,
+} from "@/features/travel-explorer/constants/explorer.constants";
 import { type CountryReference, resolveFeatureReference } from "@/lib/geo/country-reference";
 import type { Coordinates } from "@/types/geo.types";
 
@@ -29,32 +32,97 @@ export interface MapCountryShape {
     reference: CountryReference | null;
 }
 
-const SPHERE = { type: "Sphere" } as const;
 const PATH_PRECISION = 2;
 
 /**
- * Natural Earth is a compromise projection designed to look right: flat poles and gently
- * rounded edges, so countries near the sides are squeezed less than on equal-area ovals while
- * the polar regions don't balloon as they do on Mercator.
+ * Latitudes shown on the flat map: just above the northernmost land (83.6°N) down to the
+ * southern ocean islands, leaving out Antarctica, which Mercator would stretch without limit.
  */
-export const WORLD_PROJECTION = geoNaturalEarth1().fitWidth(MAP_CONFIG.worldWidth, SPHERE);
+const MAP_LATITUDE_EXTENT = { north: 84, south: -60 } as const;
+
+const MERCATOR_SCALE = MAP_CONFIG.worldWidth / (2 * Math.PI);
+
+/** Distance of a latitude above the equator on the Mercator map, in map units. */
+const mercatorHeight = (latitude: number): number =>
+    MERCATOR_SCALE * Math.log(Math.tan(Math.PI / 4 + (latitude * Math.PI) / 360));
+
+const equatorY = mercatorHeight(MAP_LATITUDE_EXTENT.north);
+
+export const MAP_WORLD_HEIGHT = equatorY - mercatorHeight(MAP_LATITUDE_EXTENT.south);
+
+/**
+ * Mercator is conformal, so every country keeps its true shape, which matters most when the map
+ * frames a single country. It is cropped to a flat rectangle one full turn of longitude across
+ * `MAP_CONFIG.worldWidth` map units, with the north edge at y = 0. Centring on
+ * `MAP_CONFIG.centralMeridian` puts the edges in the Bering Strait, so land reaches both sides
+ * instead of leaving a band of empty Pacific on one of them.
+ */
+export const WORLD_PROJECTION = geoMercator()
+    .rotate([-MAP_CONFIG.centralMeridian, 0])
+    .scale(MERCATOR_SCALE)
+    .translate([MAP_CONFIG.worldWidth / 2, equatorY])
+    .clipExtent([
+        [0, 0],
+        [MAP_CONFIG.worldWidth, MAP_WORLD_HEIGHT],
+    ]);
 
 const worldPath = geoPath(WORLD_PROJECTION).digits(PATH_PRECISION);
 
-const [, [, worldBottom]] = worldPath.bounds(SPHERE);
-
-export const MAP_WORLD_HEIGHT = worldBottom;
-export const SPHERE_PATH = worldPath(SPHERE) ?? "";
-export const GRATICULE_PATH = worldPath(geoGraticule10()) ?? "";
+const GRATICULE_STEP_DEGREES = 10;
+/** Northernmost and southernmost parallels drawn; Mercator cannot reach the poles. */
+const GRATICULE_MAX_LATITUDE = 80;
+/**
+ * How far the graticule runs past the map on every side, in map sizes. The ocean has no edge,
+ * so the grid keeps going wherever the map is panned or zoomed out.
+ */
+const GRATICULE_OVERHANG = 1;
 
 /**
- * Projects geographic coordinates into map units.
+ * Builds the latitude/longitude grid. On Mercator meridians and parallels are straight lines,
+ * so they are drawn directly rather than clipped to the map's rectangle.
+ */
+const buildGraticulePath = (): string => {
+    const width = MAP_CONFIG.worldWidth;
+    const left = -width * GRATICULE_OVERHANG;
+    const right = width * (1 + GRATICULE_OVERHANG);
+    const top = -MAP_WORLD_HEIGHT * GRATICULE_OVERHANG;
+    const bottom = MAP_WORLD_HEIGHT * (1 + GRATICULE_OVERHANG);
+    const spacing = (width * GRATICULE_STEP_DEGREES) / 360;
+    const [greenwichX] = WORLD_PROJECTION([0, 0]) ?? [0, 0];
+    const round = (value: number) => value.toFixed(PATH_PRECISION);
+
+    const lines: string[] = [];
+    const firstMeridianX = greenwichX - Math.floor((greenwichX - left) / spacing) * spacing;
+    for (let x = firstMeridianX; x <= right; x += spacing) {
+        lines.push(`M${round(x)},${round(top)}V${round(bottom)}`);
+    }
+    for (
+        let latitude = -GRATICULE_MAX_LATITUDE;
+        latitude <= GRATICULE_MAX_LATITUDE;
+        latitude += GRATICULE_STEP_DEGREES
+    ) {
+        const y = equatorY - mercatorHeight(latitude);
+        lines.push(`M${round(left)},${round(y)}H${round(right)}`);
+    }
+    return lines.join("");
+};
+
+export const GRATICULE_PATH = buildGraticulePath();
+
+/**
+ * Projects geographic coordinates into map units. Latitudes beyond the map's extent are pinned
+ * to its edge, since Mercator sends the poles to infinity (Antarctica is stored at -90°).
  *
  * @param coordinates - Longitude/latitude pair.
  * @returns The projected point, or `null` when the point cannot be projected.
  */
-export const projectCoordinates = (coordinates: Coordinates): Point | null =>
-    WORLD_PROJECTION([coordinates[0], coordinates[1]]) ?? null;
+export const projectCoordinates = ([longitude, latitude]: Coordinates): Point | null => {
+    const clampedLatitude = Math.min(
+        Math.max(latitude, MAP_LATITUDE_EXTENT.south),
+        MAP_LATITUDE_EXTENT.north
+    );
+    return WORLD_PROJECTION([longitude, clampedLatitude]) ?? null;
+};
 
 const isAreaGeometry = (geometry: Geometry): geometry is Polygon | MultiPolygon =>
     geometry.type === "Polygon" || geometry.type === "MultiPolygon";
@@ -107,6 +175,20 @@ const ringCentroid = (ring: Ring): Point => {
     return [(Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2];
 };
 
+const DEGREES_TO_RADIANS = Math.PI / 180;
+
+/**
+ * Approximate ground area of a projected ring. Mercator inflates areas by sec²(latitude), so
+ * scaling by cos² compares landmasses at their real size and keeps high-latitude parts such as
+ * Alaska or Svalbard from outweighing the mainland.
+ */
+const ringGroundArea = (ring: Ring): number => {
+    const [x, y] = ringCentroid(ring);
+    const [, latitude] = WORLD_PROJECTION.invert?.([x, y]) ?? [0, 0];
+    const cosine = Math.cos(latitude * DEGREES_TO_RADIANS);
+    return ringArea(ring) * cosine * cosine;
+};
+
 /**
  * Describes the country's main body: its largest landmass plus any island of comparable size,
  * so overseas territories (Alaska, French Guiana) don't stretch the framing or the flag.
@@ -114,7 +196,10 @@ const ringCentroid = (ring: Ring): Point => {
 const describeMainBody = (
     geometry: Polygon | MultiPolygon
 ): { area: number; bounds: Bounds; centroid: Point } | null => {
-    const rings = collectProjectedRings(geometry).map((ring) => ({ area: ringArea(ring), ring }));
+    const rings = collectProjectedRings(geometry).map((ring) => ({
+        area: ringGroundArea(ring),
+        ring,
+    }));
     const largest = rings.reduce<(typeof rings)[number] | null>(
         (best, candidate) => (!best || candidate.area > best.area ? candidate : best),
         null
@@ -326,19 +411,26 @@ export const buildArcPath = (from: Point, to: Point, liftFactor = 1): string | n
 
 let topologyRequest: Promise<WorldTopology> | null = null;
 
+const fetchWorldTopology = async (): Promise<WorldTopology> => {
+    const response = await fetch(WORLD_TOPOLOGY_URL);
+    if (!response.ok) {
+        throw new Error(`World map unavailable (HTTP ${response.status})`);
+    }
+    return (await response.json()) as WorldTopology;
+};
+
 /**
- * Loads the bundled world topology once and caches the request for every map instance.
+ * Loads the world topology once and caches the request for every map instance. The page
+ * preloads the same URL, so this usually picks up a download that is already under way.
  * A failed request is discarded so a retry can load it again.
  *
  * @returns Promise resolving to the world topology.
  */
 export const loadWorldTopology = (): Promise<WorldTopology> => {
-    topologyRequest ??= import("@/assets/geo/world-countries.topo.json")
-        .then((module) => module.default as unknown as WorldTopology)
-        .catch((error: unknown) => {
-            topologyRequest = null;
-            throw error;
-        });
+    topologyRequest ??= fetchWorldTopology().catch((error: unknown) => {
+        topologyRequest = null;
+        throw error;
+    });
 
     return topologyRequest;
 };

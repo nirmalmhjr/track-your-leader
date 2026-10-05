@@ -57,7 +57,10 @@ export function WorldMap() {
     const hasSize = size.width > 0 && size.height > 0;
 
     return (
-        <div className="relative min-w-0 flex-1 overflow-hidden bg-background" ref={containerRef}>
+        <div
+            className="relative min-w-0 flex-1 overflow-hidden bg-(--map-ocean)"
+            ref={containerRef}
+        >
             {world.status === "ready" && hasSize ? (
                 <WorldMapCanvas
                     height={size.height}

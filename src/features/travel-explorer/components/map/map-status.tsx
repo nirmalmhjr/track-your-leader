@@ -21,7 +21,7 @@ export function MapLoadingState() {
 
     return (
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 p-6">
-            <Skeleton className="aspect-[2.05/1] w-[min(80%,56rem)] rounded-[45%/50%]" />
+            <Skeleton className="aspect-[1.47/1] w-[min(80%,48rem)] rounded-xl" />
             <p className="flex items-center gap-2 text-muted-foreground text-sm" role="status">
                 <Spinner />
                 {t("loading")}

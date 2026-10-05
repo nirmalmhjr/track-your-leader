@@ -47,7 +47,6 @@ import {
     type Point,
     projectCoordinates,
     type ScreenBox,
-    SPHERE_PATH,
 } from "@/features/travel-explorer/utils/map-geometry.utils";
 import {
     buildMapScene,
@@ -434,10 +433,6 @@ export function WorldMapCanvas({
             >
                 <title id={titleId}>{t("title")}</title>
                 <g transform={transform.toString()}>
-                    <path
-                        className="fill-(--map-ocean) stroke-border [stroke-width:0.75] [vector-effect:non-scaling-stroke]"
-                        d={SPHERE_PATH}
-                    />
                     <path
                         aria-hidden
                         className="pointer-events-none fill-none stroke-(--map-graticule) [stroke-width:0.5] [vector-effect:non-scaling-stroke]"
