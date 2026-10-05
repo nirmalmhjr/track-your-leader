@@ -7904,6 +7904,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2002-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlo-azeglio-ciampi--2002-10-15--BEL",
+      "officialId": "carlo-azeglio-ciampi",
+      "purpose": "Visit to Belgium",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://fr.wikipedia.org/wiki/Liste_des_visites_d'%C3%89tat_re%C3%A7ues_par_le_roi_Albert_II_de_Belgique"
+        }
+      ],
+      "startDate": "2002-10-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
