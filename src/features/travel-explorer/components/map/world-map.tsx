@@ -12,6 +12,7 @@ import {
     PANEL_GAP_PX,
     PANEL_WIDTH_PX,
     PANEL_WIDTH_XL_PX,
+    TABLET_UP_MEDIA_QUERY,
 } from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useWorldShapes } from "@/features/travel-explorer/hooks/use-world-shapes";
@@ -31,27 +32,33 @@ export function WorldMap() {
     const [containerRef, size] = useElementSize<HTMLDivElement>();
     const world = useWorldShapes();
     const { status: dataStatus } = useExplorerData();
-    const isTabletUp = useMediaQuery("(min-width: 768px)");
+    const isTabletUp = useMediaQuery(TABLET_UP_MEDIA_QUERY);
     const isWide = useMediaQuery("(min-width: 1280px)");
     const isPanelOpen = useExplorerUiStore((state) => state.isPanelOpen);
+    const sheetCoverPx = useExplorerUiStore((state) => state.sheetCoverPx);
 
-    // On phones the open panel covers nearly the whole map, so it overlays the map rather than
-    // shrinking the area the map frames into.
+    // Tablets and up: the open side drawer narrows the area the map frames into from the right.
+    // Phones: the bottom sheet shortens it from below.
     const panelWidth = isWide ? PANEL_WIDTH_XL_PX : PANEL_WIDTH_PX;
     const panelRight = isTabletUp && isPanelOpen ? panelWidth + 2 * PANEL_GAP_PX : 0;
+    const panelBottom = isTabletUp ? 0 : sheetCoverPx;
 
     const insets = useMemo(
         () => ({
-            bottom: EDGE_GAP_PX,
+            bottom: panelBottom + EDGE_GAP_PX,
             left: EDGE_GAP_PX,
             right: panelRight + EDGE_GAP_PX,
             top: TOP_OVERLAY_PX,
         }),
-        [panelRight]
+        [panelRight, panelBottom]
     );
     const overlayOffsets = useMemo(
-        () => ({ bottom: EDGE_GAP_PX, left: EDGE_GAP_PX, right: panelRight + EDGE_GAP_PX }),
-        [panelRight]
+        () => ({
+            bottom: panelBottom + EDGE_GAP_PX,
+            left: EDGE_GAP_PX,
+            right: panelRight + EDGE_GAP_PX,
+        }),
+        [panelRight, panelBottom]
     );
 
     const hasSize = size.width > 0 && size.height > 0;
@@ -76,7 +83,7 @@ export function WorldMap() {
                 <MapLoadingState />
             ) : null}
             {world.status === "error" ? <MapErrorState onRetry={world.retry} /> : null}
-            {isPanelOpen ? null : <PanelToggle />}
+            {isTabletUp && !isPanelOpen ? <PanelToggle /> : null}
         </div>
     );
 }

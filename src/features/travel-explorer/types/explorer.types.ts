@@ -4,6 +4,7 @@ import type {
     DESTINATION_REGIONS,
     FORMER_LAYOUTS,
     OFFICIAL_SORTS,
+    SHEET_SNAPS,
 } from "@/features/travel-explorer/constants/explorer.constants";
 import type { CountryCode } from "@/types/geo.types";
 import type {
@@ -22,6 +23,10 @@ export type CountryView = (typeof COUNTRY_VIEWS)[number];
 export type DestinationRegion = (typeof DESTINATION_REGIONS)[number];
 export type OfficialSort = (typeof OFFICIAL_SORTS)[number];
 export type FormerLayout = (typeof FORMER_LAYOUTS)[number];
+export type SheetSnap = (typeof SHEET_SNAPS)[number];
+
+/** Distance (px) the bottom sheet sits below its fully open position at each snap. */
+export type SheetSnapOffsets = Record<SheetSnap, number>;
 
 /** Every filter the explorer understands. Mirrors the URL query parameters one-to-one. */
 export interface ExplorerFilters {

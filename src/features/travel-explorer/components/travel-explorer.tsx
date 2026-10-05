@@ -14,7 +14,7 @@ export function TravelExplorer() {
         <ExplorerDataProvider>
             <div className="flex h-dvh flex-col bg-background">
                 <ExplorerHeader />
-                <main className="relative flex min-h-0 flex-1">
+                <main className="relative flex min-h-0 flex-1 overflow-hidden">
                     <WorldMap />
                     <ExplorerPanel />
                 </main>

@@ -9,8 +9,8 @@ import { EXPLORER_PANEL_ID } from "@/features/travel-explorer/constants/explorer
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
 /**
- * Menu button in the top-right corner of the map, just below the header, shown while the
- * exploration panel is hidden. Opening the panel slides it in from the right.
+ * Menu button in the top-right corner of the map, just below the header, shown on tablets and up
+ * while the exploration panel is hidden. Opening the panel slides it in from the right.
  */
 export function PanelToggle() {
     const t = useTranslations("Explorer.panel");

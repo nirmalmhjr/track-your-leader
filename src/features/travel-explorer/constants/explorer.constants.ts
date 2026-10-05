@@ -54,12 +54,30 @@ export const MAP_CONFIG = {
 export const WORLD_TOPOLOGY_URL = "/geo/world-countries.topo.json";
 
 /**
+ * From this width up the panel is a floating drawer on the right of the map; below it, a bottom
+ * sheet. Keep in sync with the `md:` and `max-md:` classes on the panel.
+ */
+export const TABLET_UP_MEDIA_QUERY = "(min-width: 768px)";
+
+/**
  * Floating panel on the right of the map, below the header. Keep in sync with the
- * `sm:w-[380px]`, `xl:w-[420px]` and `*-3` classes on the panel.
+ * `md:w-[380px]`, `xl:w-[420px]` and `*-3` classes on the panel.
  */
 export const PANEL_WIDTH_PX = 380;
 export const PANEL_WIDTH_XL_PX = 420;
 export const PANEL_GAP_PX = 12;
+
+/**
+ * Heights the phone bottom sheet rests at, from fully open to only its header showing. The
+ * last is where it starts.
+ */
+export const SHEET_SNAPS = ["full", "half", "peek"] as const;
+
+/** Share of the sheet's full height showing at the half snap. */
+export const SHEET_HALF_RATIO = 0.5;
+
+/** Release speed (px/ms) above which a drag moves the sheet on to the next snap. */
+export const SHEET_FLICK_VELOCITY = 0.4;
 
 /** Element id of the exploration panel, referenced by the toggle that shows and hides it. */
 export const EXPLORER_PANEL_ID = "explorer-panel";

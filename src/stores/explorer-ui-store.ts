@@ -1,6 +1,11 @@
 import { create } from "zustand";
 
-import type { CountrySort, FormerLayout } from "@/features/travel-explorer/types/explorer.types";
+import type {
+    CountrySort,
+    FormerLayout,
+    SheetSnap,
+} from "@/features/travel-explorer/types/explorer.types";
+import { raiseSheetSnap } from "@/features/travel-explorer/utils/sheet-snap.utils";
 import type { CountryCode } from "@/types/geo.types";
 
 interface ExplorerUiState {
@@ -17,7 +22,9 @@ interface ExplorerUiState {
     /** Trip whose route is emphasised while hovering it in a timeline. */
     hoveredRecordId: string | null;
     isFiltersOpen: boolean;
-    /** Whether the exploration panel is showing; hidden, the map gets the whole screen. */
+    /**
+     * Whether the side drawer (tablets and up) is showing; hidden, the map gets the whole screen.
+     */
     isPanelOpen: boolean;
     setCountrySort: (sort: CountrySort) => void;
     setFiltersOpen: (isOpen: boolean) => void;
@@ -25,7 +32,14 @@ interface ExplorerUiState {
     setHoveredCountry: (code: CountryCode | null) => void;
     setHoveredOfficialId: (id: string | null) => void;
     setHoveredRecordId: (id: string | null) => void;
+    /** Opens or hides the panel: the side drawer shows or hides, the bottom sheet rises or peeks. */
     setPanelOpen: (isOpen: boolean) => void;
+    setSheetCoverPx: (coverPx: number) => void;
+    setSheetSnap: (snap: SheetSnap) => void;
+    /** Height of the map (px) the resting bottom sheet covers, so the map frames above it. */
+    sheetCoverPx: number;
+    /** How far the bottom sheet (phones) is pulled up. */
+    sheetSnap: SheetSnap;
 }
 
 /** Ephemeral UI state shared between the map and the exploration panel. */
@@ -39,10 +53,24 @@ export const useExplorerUiStore = create<ExplorerUiState>()((set) => ({
     isFiltersOpen: false,
     isPanelOpen: true,
     setCountrySort: (countrySort) => set({ countrySort }),
-    setFiltersOpen: (isFiltersOpen) => set({ isFiltersOpen }),
+    // The filters open inside the panel, so a peeking sheet rises to show them.
+    setFiltersOpen: (isFiltersOpen) =>
+        set((state) =>
+            isFiltersOpen
+                ? { isFiltersOpen, sheetSnap: raiseSheetSnap(state.sheetSnap) }
+                : { isFiltersOpen }
+        ),
     setFormerLayout: (formerLayout) => set({ formerLayout }),
     setHoveredCountry: (hoveredCountry) => set({ hoveredCountry }),
     setHoveredOfficialId: (hoveredOfficialId) => set({ hoveredOfficialId }),
     setHoveredRecordId: (hoveredRecordId) => set({ hoveredRecordId }),
-    setPanelOpen: (isPanelOpen) => set({ isPanelOpen }),
+    setPanelOpen: (isPanelOpen) =>
+        set((state) => ({
+            isPanelOpen,
+            sheetSnap: isPanelOpen ? raiseSheetSnap(state.sheetSnap) : "peek",
+        })),
+    setSheetCoverPx: (sheetCoverPx) => set({ sheetCoverPx }),
+    setSheetSnap: (sheetSnap) => set({ sheetSnap }),
+    sheetCoverPx: 0,
+    sheetSnap: "peek",
 }));
