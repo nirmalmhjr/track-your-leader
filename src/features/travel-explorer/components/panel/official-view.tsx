@@ -1,11 +1,13 @@
 "use client";
 
-import { IconChevronDown } from "@tabler/icons-react";
+import { IconChevronDown, IconId } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { Badge } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
+import { getProfilePath } from "@/features/leaders/utils/leaders-paths";
 import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
 import { ClearFiltersEmpty } from "@/features/travel-explorer/components/panel/clear-filters-empty";
 import { StatList } from "@/features/travel-explorer/components/stat-list";
@@ -20,6 +22,7 @@ import {
     getPrimaryPosition,
 } from "@/features/travel-explorer/utils/filters.utils";
 import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
 
 /** Tenure line for a position; sources sometimes list an office holder without a start date. */
@@ -157,6 +160,17 @@ export function OfficialView({ officialId }: { officialId: string }) {
                         ))}
                         {current ? null : <Badge variant="secondary">{t("tenure.former")}</Badge>}
                     </div>
+                    <Link
+                        className={buttonVariants({
+                            className: "mt-2 self-start",
+                            size: "sm",
+                            variant: "outline",
+                        })}
+                        href={getProfilePath(official.countryCode, official.id)}
+                    >
+                        <IconId data-icon="inline-start" />
+                        {t("official.fullProfile")}
+                    </Link>
                 </div>
             </header>
 

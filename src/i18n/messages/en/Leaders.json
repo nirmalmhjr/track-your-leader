@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "label": "Main",
+    "map": "Map",
+    "leaders": "Leaders"
+  },
+  "meta": {
+    "directoryTitle": "Leaders directory",
+    "directoryDescription": "Current and former heads of state, heads of government and ministers of {countLabel} countries, with their careers and official travel.",
+    "countryTitle": "Leaders of {country}",
+    "countryDescription": "Who holds office in {country} today, who held it before, and where they travelled.",
+    "profileDescription": "{title}, {country}. Career, biography and {count, plural, =0 {official travel} one {{countLabel} recorded official trip} other {{countLabel} recorded official trips}}."
+  },
+  "rail": {
+    "label": "Countries",
+    "search": "Filter countries",
+    "empty": "No country matches.",
+    "sortLabel": "Sort countries",
+    "sort": {
+      "name": "A–Z",
+      "officials": "Officials",
+      "trips": "Trips"
+    },
+    "officials": "{count, plural, one {{countLabel} official} other {{countLabel} officials}}",
+    "trips": "{count, plural, one {{countLabel} trip} other {{countLabel} trips}}",
+    "change": "Change country",
+    "choose": "Choose a country"
+  },
+  "landing": {
+    "eyebrow": "Leaders directory",
+    "title": "Who governs, and where they travel",
+    "description": "Profiles of heads of state, heads of government and ministers, with their careers and every recorded official trip. Choose a country to see who holds office today and who held it before.",
+    "stats": {
+      "countries": "Countries",
+      "officials": "Officials",
+      "trips": "Trips recorded"
+    },
+    "topTitle": "Most travelled leaders in office",
+    "topCaption": "Completed trips in the past 12 months",
+    "recentTripsUnit": "{count, plural, one {trip} other {trips}} in the past year",
+    "noTopTravellers": "No completed trips by leaders in office in the past 12 months."
+  },
+  "country": {
+    "openOnMap": "Open on map",
+    "stats": {
+      "officials": "Officials",
+      "inOffice": "In office",
+      "former": "Former",
+      "trips": "Trips"
+    },
+    "filter": "Filter by name",
+    "inOfficeTitle": "In office",
+    "inOfficeCaption": "Most senior first",
+    "noneInOffice": "No one from {country} is recorded as holding office today.",
+    "formerTitle": "Former officials",
+    "formerCaption": "Earlier holders of each office",
+    "noFormer": "No former officials are recorded for {country}.",
+    "noMatch": "No official matches “{query}”.",
+    "layout": {
+      "label": "Arrange former officials",
+      "office": "By office",
+      "year": "By year left"
+    },
+    "now": "Now",
+    "holders": "{count, plural, one {{countLabel} holder} other {{countLabel} holders}}",
+    "showAllTerms": "Show all {countLabel}",
+    "showFewerTerms": "Show fewer",
+    "showMoreLeaders": "Show {count, plural, one {{countLabel} more official} other {{countLabel} more officials}}",
+    "showMoreOffices": "Show {count, plural, one {{countLabel} more office} other {{countLabel} more offices}}",
+    "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}",
+    "leftOffice": "{count, plural, one {{countLabel} term ended} other {{countLabel} terms ended}}"
+  },
+  "card": {
+    "trips": "{count, plural, one {trip} other {trips}}",
+    "last": "Last",
+    "next": "Next",
+    "noTrips": "No recorded trips"
+  },
+  "profile": {
+    "breadcrumb": "Breadcrumb",
+    "showOnMap": "Show on map",
+    "copyLink": "Copy link",
+    "copied": "Link copied",
+    "inOffice": "In office",
+    "former": "Former",
+    "about": "About",
+    "noSummary": "No biography is available yet.",
+    "career": "Career",
+    "careerCaption": "{count, plural, one {{countLabel} position} other {{countLabel} positions}}",
+    "present": "Present",
+    "dateUnknown": "Dates not recorded",
+    "travel": "Travel",
+    "tripsPerYear": "Trips per year",
+    "tripsPerYearSummary": "Trips per year from {first} to {last}, peaking at {peakLabel} in {peakYear}.",
+    "barLabel": "{year}: {count, plural, one {{countLabel} trip} other {{countLabel} trips}}",
+    "topDestinations": "Most visited countries",
+    "showTable": "Show as table",
+    "hideTable": "Hide table",
+    "yearColumn": "Year",
+    "countryColumn": "Country",
+    "tripsColumn": "Trips",
+    "tripLog": "Trip log",
+    "tripLogCaption": "{count, plural, one {{countLabel} trip} other {{countLabel} trips}}",
+    "statusFilter": "Filter trips by status",
+    "allStatuses": "All",
+    "yearFilter": "Year",
+    "allYears": "All years",
+    "noTripsTitle": "No recorded trips",
+    "noTripsDescription": "There is no official travel on record for {name}. Coverage is best for heads of state, heads of government and foreign ministers.",
+    "noFilteredTrips": "No trips match these filters.",
+    "asTitle": "As {title}",
+    "engagements": "Meetings and engagements",
+    "sources": "Sources",
+    "showMoreTrips": "Show {count, plural, one {{countLabel} more trip} other {{countLabel} more trips}}"
+  }
+}

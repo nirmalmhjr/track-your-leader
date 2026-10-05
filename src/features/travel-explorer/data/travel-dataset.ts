@@ -45,7 +45,8 @@ const groupByOrigin = (records: readonly TravelRecord[]): Map<CountryCode, Trave
     return groups;
 };
 
-const sampleBase = (today: IsoDate): LoadedTravelBase => {
+/** The fictional samples, shown before the pipeline has published any data. */
+export const sampleBase = (today: IsoDate): LoadedTravelBase => {
     const dataset = buildSampleTravelDataset(today);
     return {
         base: {
@@ -92,6 +93,30 @@ export interface LoadedCountryDetail {
 }
 
 /**
+ * Validates and decodes one country's detail file.
+ *
+ * @param raw - Parsed JSON of `countries/<ISO3>.json`.
+ * @param countryByCode - Countries from the base dataset (trip origins).
+ * @param today - Reference date for trip statuses.
+ * @returns The country's officials and trips.
+ * @throws When the file doesn't match the expected format.
+ */
+export const decodeCountryDetail = (
+    raw: unknown,
+    countryByCode: ReadonlyMap<CountryCode, TrackedCountry>,
+    today: IsoDate
+): LoadedCountryDetail => {
+    const detail = countryDetailSchema.parse(raw);
+    const officialById = new Map(detail.officials.map((official) => [official.id, official]));
+    const records = detail.trips.flatMap((trip) => {
+        const official = officialById.get(trip.officialId);
+        const record = official ? toTravelRecord(trip, { countryByCode, official, today }) : null;
+        return record ? [record] : [];
+    });
+    return { officials: detail.officials, records };
+};
+
+/**
  * Loads one country's full records: biographies, sources, trip purposes and engagements.
  *
  * @param code - Country code.
@@ -110,12 +135,5 @@ export const loadCountryDetail = async (
     if (!response.ok) {
         throw new Error(`Details for ${code} unavailable (HTTP ${response.status})`);
     }
-    const detail = countryDetailSchema.parse(await response.json());
-    const officialById = new Map(detail.officials.map((official) => [official.id, official]));
-    const records = detail.trips.flatMap((trip) => {
-        const official = officialById.get(trip.officialId);
-        const record = official ? toTravelRecord(trip, { countryByCode, official, today }) : null;
-        return record ? [record] : [];
-    });
-    return { officials: detail.officials, records };
+    return decodeCountryDetail(await response.json(), countryByCode, today);
 };

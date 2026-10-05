@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "label": "मुख्य",
+    "map": "नक्सा",
+    "leaders": "नेताहरू"
+  },
+  "meta": {
+    "directoryTitle": "नेताहरूको निर्देशिका",
+    "directoryDescription": "{countLabel} देशका वर्तमान र पूर्व राष्ट्र प्रमुख, सरकार प्रमुख र मन्त्रीहरू, उनीहरूको कार्यकाल र आधिकारिक भ्रमणसहित।",
+    "countryTitle": "{country}का नेताहरू",
+    "countryDescription": "{country}मा अहिले को पदमा छन्, पहिले को थिए, र उनीहरूले कहाँ भ्रमण गरे।",
+    "profileDescription": "{title}, {country}। कार्यकाल, परिचय र {count, plural, =0 {आधिकारिक भ्रमण} other {{countLabel} आधिकारिक भ्रमण}}।"
+  },
+  "rail": {
+    "label": "देशहरू",
+    "search": "देश खोज्नुहोस्",
+    "empty": "कुनै देश मेल खाएन।",
+    "sortLabel": "देश क्रमबद्ध गर्नुहोस्",
+    "sort": {
+      "name": "क–ज्ञ",
+      "officials": "पदाधिकारी",
+      "trips": "भ्रमण"
+    },
+    "officials": "{count, plural, other {{countLabel} पदाधिकारी}}",
+    "trips": "{count, plural, other {{countLabel} भ्रमण}}",
+    "change": "देश बदल्नुहोस्",
+    "choose": "देश छान्नुहोस्"
+  },
+  "landing": {
+    "eyebrow": "नेताहरूको निर्देशिका",
+    "title": "को शासनमा छन्, र कहाँ भ्रमण गर्छन्",
+    "description": "राष्ट्र प्रमुख, सरकार प्रमुख र मन्त्रीहरूको परिचय, कार्यकाल र अभिलेख गरिएका सबै आधिकारिक भ्रमण। अहिले र पहिले पदमा रहेकाहरू हेर्न देश छान्नुहोस्।",
+    "stats": {
+      "countries": "देश",
+      "officials": "पदाधिकारी",
+      "trips": "अभिलेखित भ्रमण"
+    },
+    "topTitle": "सबैभन्दा बढी भ्रमण गर्ने बहालवाला नेता",
+    "topCaption": "पछिल्लो १२ महिनामा सम्पन्न भ्रमण",
+    "recentTripsUnit": "पछिल्लो वर्ष {count, plural, other {भ्रमण}}",
+    "noTopTravellers": "पछिल्लो १२ महिनामा बहालवाला नेताहरूको कुनै सम्पन्न भ्रमण छैन।"
+  },
+  "country": {
+    "openOnMap": "नक्सामा खोल्नुहोस्",
+    "stats": {
+      "officials": "पदाधिकारी",
+      "inOffice": "बहालवाला",
+      "former": "पूर्व",
+      "trips": "भ्रमण"
+    },
+    "filter": "नामबाट खोज्नुहोस्",
+    "inOfficeTitle": "बहालवाला",
+    "inOfficeCaption": "वरिष्ठता अनुसार",
+    "noneInOffice": "{country}बाट अहिले पदमा रहेको कोही अभिलेखमा छैन।",
+    "formerTitle": "पूर्व पदाधिकारी",
+    "formerCaption": "हरेक पदका पहिलेका पदाधिकारी",
+    "noFormer": "{country}का पूर्व पदाधिकारी अभिलेखमा छैनन्।",
+    "noMatch": "“{query}” सँग कुनै पदाधिकारी मेल खाएन।",
+    "layout": {
+      "label": "पूर्व पदाधिकारी मिलाउनुहोस्",
+      "office": "पद अनुसार",
+      "year": "पद छाडेको वर्ष अनुसार"
+    },
+    "now": "अहिले",
+    "holders": "{count, plural, other {{countLabel} पदाधिकारी}}",
+    "showAllTerms": "सबै {countLabel} देखाउनुहोस्",
+    "showFewerTerms": "कम देखाउनुहोस्",
+    "showMoreLeaders": "थप {count, plural, other {{countLabel} पदाधिकारी}} देखाउनुहोस्",
+    "showMoreOffices": "थप {count, plural, other {{countLabel} पद}} देखाउनुहोस्",
+    "showMoreYears": "थप {count, plural, other {{countLabel} वर्ष}} देखाउनुहोस्",
+    "leftOffice": "{count, plural, other {{countLabel} कार्यकाल सकिए}}"
+  },
+  "card": {
+    "trips": "{count, plural, other {भ्रमण}}",
+    "last": "पछिल्लो",
+    "next": "अर्को",
+    "noTrips": "कुनै भ्रमण अभिलेखमा छैन"
+  },
+  "profile": {
+    "breadcrumb": "मार्ग",
+    "showOnMap": "नक्सामा हेर्नुहोस्",
+    "copyLink": "लिंक कपी गर्नुहोस्",
+    "copied": "लिंक कपी भयो",
+    "inOffice": "बहालवाला",
+    "former": "पूर्व",
+    "about": "परिचय",
+    "noSummary": "परिचय अझै उपलब्ध छैन।",
+    "career": "कार्यकाल",
+    "careerCaption": "{count, plural, other {{countLabel} पद}}",
+    "present": "हालसम्म",
+    "dateUnknown": "मिति अभिलेखमा छैन",
+    "travel": "भ्रमण",
+    "tripsPerYear": "वर्षअनुसार भ्रमण",
+    "tripsPerYearSummary": "{first} देखि {last} सम्म वर्षअनुसार भ्रमण, {peakYear} मा सबैभन्दा बढी {peakLabel}।",
+    "barLabel": "{year}: {count, plural, other {{countLabel} भ्रमण}}",
+    "topDestinations": "सबैभन्दा बढी भ्रमण गरिएका देश",
+    "showTable": "तालिकामा हेर्नुहोस्",
+    "hideTable": "तालिका लुकाउनुहोस्",
+    "yearColumn": "वर्ष",
+    "countryColumn": "देश",
+    "tripsColumn": "भ्रमण",
+    "tripLog": "भ्रमण विवरण",
+    "tripLogCaption": "{count, plural, other {{countLabel} भ्रमण}}",
+    "statusFilter": "स्थिति अनुसार भ्रमण छान्नुहोस्",
+    "allStatuses": "सबै",
+    "yearFilter": "वर्ष",
+    "allYears": "सबै वर्ष",
+    "noTripsTitle": "कुनै भ्रमण अभिलेखमा छैन",
+    "noTripsDescription": "{name}को कुनै आधिकारिक भ्रमण अभिलेखमा छैन। राष्ट्र प्रमुख, सरकार प्रमुख र परराष्ट्र मन्त्रीहरूको अभिलेख सबैभन्दा पूर्ण छ।",
+    "noFilteredTrips": "यी छनोटसँग कुनै भ्रमण मेल खाएन।",
+    "asTitle": "{title}को रूपमा",
+    "engagements": "भेटघाट र कार्यक्रम",
+    "sources": "स्रोत",
+    "showMoreTrips": "थप {count, plural, other {{countLabel} भ्रमण}} देखाउनुहोस्"
+  }
+}

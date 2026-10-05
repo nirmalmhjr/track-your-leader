@@ -7,6 +7,7 @@ import { routing, type TLocales } from "@/i18n/routing";
  */
 const NAMESPACE_FILES = {
     Explorer: "Explorer",
+    Leaders: "Leaders",
 } as const satisfies Record<string, string>;
 
 type NamespaceFile = keyof typeof NAMESPACE_FILES;
