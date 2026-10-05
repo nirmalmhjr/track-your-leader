@@ -223,6 +223,37 @@
       "wikidataId": "Q1397999"
     },
     {
+      "aliases": ["Joseph Leabua Jonathan"],
+      "countryCode": "LSO",
+      "fullName": "Leabua Jonathan",
+      "id": "leabua-jonathan",
+      "party": "Basotho National Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister-president_Jonathan_van_Lesotho_(1970).jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1967-09-23",
+          "id": "leabua-jonathan-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1967-09-22",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Leabua_Jonathan"
+        }
+      ],
+      "summary": "Joseph Leabua Jonathan (30 October 1914 – 5 April 1987) was the first prime minister of Lesotho. He succeeded Chief Sekhonyana Nehemia Maseribane following a by-election and held that post from 1965 to 1986.",
+      "wikidataId": "Q1347953"
+    },
+    {
       "aliases": [],
       "countryCode": "LSO",
       "fullName": "Moeketsi Majoro",
@@ -254,37 +285,6 @@
       "wikidataId": "Q91621859"
     },
     {
-      "aliases": [],
-      "countryCode": "LSO",
-      "fullName": "Mothetjoa Metsing",
-      "id": "mothetjoa-metsing",
-      "party": "Lesotho Congress for Democracy",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/H.E._Mr._Mothetjoa_Metsing%2C_Deputy_Prime_Minister%2C_Kingdom_of_Lesotho_(8008839925)_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": ["head_of_government"],
-          "endDate": "2014-09-01",
-          "id": "mothetjoa-metsing-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2014-09-01",
-          "title": "Prime Minister (Acting)"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mothetjoa_Metsing"
-        }
-      ],
-      "summary": "Mothetjoa Metsing (born 2 February 1967) is a former Deputy Prime Minister of Lesotho. He is a member and current leader of the Lesotho Congress for Democracy (LCD).",
-      "wikidataId": "Q17781861"
-    },
-    {
       "aliases": ["Clement Ntsu Sejabanana Mokhehle"],
       "countryCode": "LSO",
       "fullName": "Ntsu Mokhehle",
@@ -294,7 +294,7 @@
       "positions": [
         {
           "categories": ["head_of_government"],
-          "endDate": "1998-05-22",
+          "endDate": "1996-07-18",
           "id": "ntsu-mokhehle-p1",
           "ministry": null,
           "portfolio": null,
@@ -1526,6 +1526,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "leabua-jonathan--1967-09-22--USA",
+      "officialId": "leabua-jonathan",
+      "purpose": "Informal visit. Afterwards visited New York City and San Diego. Departed U.S. September 30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-09-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Pretoria",
         "coordinates": [28.2293, -25.7479],
         "countryCode": "ZAF",
@@ -1801,31 +1826,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
-        "coordinates": [28.2293, -25.7479],
-        "countryCode": "ZAF",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2014-09-01",
-      "engagements": ["Met President Jacob Zuma"],
-      "eventName": null,
-      "id": "mothetjoa-metsing--2014-09-01--ZAF",
-      "officialId": "mothetjoa-metsing",
-      "purpose": "Visit to South Africa",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2014-09-01",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Nicosia",
         "coordinates": [33.365, 35.1725],
         "countryCode": "CYP",
@@ -1985,8 +1985,8 @@
       "endDate": "1998-05-22",
       "engagements": [],
       "eventName": null,
-      "id": "ntsu-mokhehle--1998-05-08--ZAF",
-      "officialId": "ntsu-mokhehle",
+      "id": "pakalitha-mosisili--1998-05-08--ZAF",
+      "officialId": "pakalitha-mosisili",
       "purpose": "Visit to South Africa",
       "sources": [
         {
@@ -3393,19 +3393,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "sam-matekane--2022-12-10--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "sam-matekane--2022-12-13--USA",
       "officialId": "sam-matekane",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-10",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -4340,19 +4344,48 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "tom-thabane--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "tom-thabane--2014-08-05--USA",
       "officialId": "tom-thabane",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2014-08-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pretoria",
+        "coordinates": [28.2293, -25.7479],
+        "countryCode": "ZAF",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2014-09-01",
+      "engagements": ["Met President Jacob Zuma"],
+      "eventName": null,
+      "id": "tom-thabane--2014-09-01--ZAF",
+      "officialId": "tom-thabane",
+      "purpose": "Visit to South Africa",
       "sources": [
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-09-01",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

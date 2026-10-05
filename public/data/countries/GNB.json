@@ -5944,17 +5944,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "jose-mario-vaz--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "jose-mario-vaz--2014-08-05--USA",
       "officialId": "jose-mario-vaz",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -9729,6 +9733,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-saturnino-da-costa--1995-10-19--USA",
+      "officialId": "manuel-saturnino-da-costa",
+      "purpose": "Attended Africare dinner with President Clinton.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-10-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Yamoussoukro",
         "coordinates": [-5.274166666, 6.816111111],
         "countryCode": "CIV",
@@ -13057,17 +13086,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "umaro-sissoco-embalo--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "umaro-sissoco-embalo--2022-12-13--USA",
       "officialId": "umaro-sissoco-embalo",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },

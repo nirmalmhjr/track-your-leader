@@ -3656,16 +3656,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-09-22",
+      "endDate": "2011-09-20",
       "engagements": [
         "On 19 September, President Rousseff opened the High-Level Meeting on Noncommunicable Disease Prevention and Control at the United Nations and attended the High-Level Gathering of…",
         "On 20 September, President Rousseff had private bilateral meetings with the presidents of Mexico, Felipe Calderón and the United States, Barack Obama."
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "dilma-rousseff--2011-09-18--USA",
+      "eventName": "Met with President Obama at the UN General Assembly in New York City.",
+      "id": "dilma-rousseff--2011-09-20--USA",
       "officialId": "dilma-rousseff",
-      "purpose": "President Rousseff arrived in New York on 18 September for her five-day visit as part of the General debate of the sixty-sixth session of t…",
+      "purpose": "Met with President Obama at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Dilma_Rousseff"
@@ -3675,9 +3679,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-09-18",
+      "startDate": "2011-09-20",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -4118,7 +4122,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2012-04-10",
+      "endDate": "2012-04-09",
       "engagements": [
         "She met with President Obama at the White House, where the two leaders had a working lunch.",
         "Obama and Rousseff highlighted the areas of cooperation on energy development, education and trade."
@@ -4126,8 +4130,12 @@
       "eventName": null,
       "id": "dilma-rousseff--2012-04-09--USA",
       "officialId": "dilma-rousseff",
-      "purpose": "On 9 April 2012, Rousseff made her first official visit to Washington as President of Brazil.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Dilma_Rousseff"
@@ -4139,7 +4147,7 @@
       ],
       "startDate": "2012-04-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -5397,13 +5405,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2015-07-01",
+      "endDate": "2015-06-30",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
-      "id": "dilma-rousseff--2015-06-27--USA",
+      "id": "dilma-rousseff--2015-06-29--USA",
       "officialId": "dilma-rousseff",
-      "purpose": "President Barack Obama and Brazilian President met nearly two years after Rousseff canceled a rare state visit to Washington following reve…",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Dilma_Rousseff"
@@ -5413,7 +5425,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-06-27",
+      "startDate": "2015-06-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5778,8 +5790,12 @@
       "eventName": null,
       "id": "emilio-garrastazu-medici--1971-12-06--USA",
       "officialId": "emilio-garrastazu-medici",
-      "purpose": "Visit to United States",
+      "purpose": "State visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5787,7 +5803,7 @@
       ],
       "startDate": "1971-12-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5842,6 +5858,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1976-05-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "ernesto-geisel--1976-05-04--GBR",
+      "officialId": "ernesto-geisel",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1976-05-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1976-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "ernesto-geisel--1976-09-15--JPN",
+      "officialId": "ernesto-geisel",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1976-09-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "La Paz",
         "coordinates": [-68.133333333, -16.495833333],
         "countryCode": "BOL",
@@ -5873,13 +5939,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1949-05-27",
+      "endDate": "1949-05-21",
       "engagements": ["Met President Harry Truman", "Signed agreements"],
       "eventName": null,
       "id": "eurico-gaspar-dutra--1949-05-18--USA",
       "officialId": "eurico-gaspar-dutra",
-      "purpose": "Visit to United States",
+      "purpose": "Official guest.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5887,7 +5957,7 @@
       ],
       "startDate": "1949-05-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -6003,17 +6073,21 @@
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "fernando-collor--1990-09-24--USA",
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "fernando-collor--1990-09-30--USA",
       "officialId": "fernando-collor",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-09-24",
+      "startDate": "1990-09-30",
       "statusHint": null,
       "type": "conference"
     },
@@ -6212,8 +6286,12 @@
       "eventName": null,
       "id": "fernando-collor--1991-06-17--USA",
       "officialId": "fernando-collor",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit. Afterwards visited New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6221,7 +6299,7 @@
       ],
       "startDate": "1991-06-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6365,11 +6443,15 @@
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "id": "fernando-collor--1991-09-23--USA",
       "officialId": "fernando-collor",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6568,8 +6650,12 @@
       "eventName": null,
       "id": "fernando-henrique-cardoso--1995-04-19--USA",
       "officialId": "fernando-henrique-cardoso",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6577,7 +6663,7 @@
       ],
       "startDate": "1995-04-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7158,13 +7244,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1996-03-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7709,18 +7799,22 @@
       "endDate": "1997-12-05",
       "engagements": ["Met Prime Minister Tony Blair", "Signed agreements"],
       "eventName": null,
-      "id": "fernando-henrique-cardoso--1997-12-01--GBR",
+      "id": "fernando-henrique-cardoso--1997-12-02--GBR",
       "officialId": "fernando-henrique-cardoso",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-12-01",
+      "startDate": "1997-12-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7881,13 +7975,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-06-09",
+      "endDate": "1998-06-08",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "UN Drug Summit",
       "id": "fernando-henrique-cardoso--1998-06-06--USA",
       "officialId": "fernando-henrique-cardoso",
-      "purpose": "Attended UN Drug Summit",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7895,7 +7993,7 @@
       ],
       "startDate": "1998-06-06",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8106,13 +8204,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-05-11",
+      "endDate": "1999-05-10",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "fernando-henrique-cardoso--1999-05-08--USA",
       "officialId": "fernando-henrique-cardoso",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8918,6 +9020,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2001-04-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "fernando-henrique-cardoso--2001-03-29--USA",
+      "officialId": "fernando-henrique-cardoso",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2001-03-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ottawa",
         "coordinates": [-75.6972, 45.4215],
         "countryCode": "CAN",
@@ -9155,21 +9282,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-11-11",
+      "endDate": "2001-11-08",
       "engagements": ["Signed agreements", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "fernando-henrique-cardoso--2001-11-07--USA",
+      "id": "fernando-henrique-cardoso--2001-11-08--USA",
       "officialId": "fernando-henrique-cardoso",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-11-07",
+      "startDate": "2001-11-08",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9992,13 +10123,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-14",
+      "endDate": "1994-12-11",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "itamar-franco--1994-12-09--USA",
       "officialId": "itamar-franco",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10047,16 +10182,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2019-03-20",
+      "endDate": "2019-03-19",
       "engagements": [
         "Met with President Donald Trump.",
         "Nomination of Brazil as Major non-NATO ally."
       ],
       "eventName": null,
-      "id": "jair-bolsonaro--2019-03-18--USA",
+      "id": "jair-bolsonaro--2019-03-17--USA",
       "officialId": "jair-bolsonaro",
-      "purpose": "Working visit.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jair_Bolsonaro"
@@ -10066,7 +10205,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-03-18",
+      "startDate": "2019-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11099,8 +11238,12 @@
       "eventName": null,
       "id": "joao-figueiredo--1982-05-11--USA",
       "officialId": "joao-figueiredo",
-      "purpose": "Visit to United States",
+      "purpose": "State visit. Private visit afterwards to Cleveland.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11108,7 +11251,7 @@
       ],
       "startDate": "1982-05-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11169,7 +11312,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1984-05-28",
+      "endDate": "1984-05-27",
       "engagements": [
         "Met Prime Minister Nakasone Yasuhiro",
         "Signed agreements"
@@ -11180,13 +11323,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1984-05-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11222,13 +11369,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1962-04-08",
+      "endDate": "1962-04-05",
       "engagements": ["Met President John F. Kennedy", "Gave a public address"],
       "eventName": null,
       "id": "joao-goulart--1962-04-03--USA",
       "officialId": "joao-goulart",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit. Afterwards visited New York City, Omaha (Nebraska), and Chicago. Departed U.S. April 8.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11372,21 +11523,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1986-09-12",
+      "endDate": "1986-09-11",
       "engagements": ["Met President Ronald Reagan", "Gave a public address"],
       "eventName": null,
-      "id": "jose-sarney--1986-09-10--USA",
+      "id": "jose-sarney--1986-09-09--USA",
       "officialId": "jose-sarney",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit; visited New York City (September 12–13). Addressed Joint Meeting of U.S. Congress September 11.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1986-09-10",
+      "startDate": "1986-09-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11474,11 +11629,15 @@
       },
       "endDate": "1989-09-25",
       "engagements": ["Met President George H.W. Bush"],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
       "id": "jose-sarney--1989-09-25--USA",
       "officialId": "jose-sarney",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12056,8 +12215,12 @@
       "eventName": null,
       "id": "luiz-inacio-lula-da-silva--2003-06-19--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15096,8 +15259,12 @@
       "eventName": null,
       "id": "luiz-inacio-lula-da-silva--2007-03-30--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Met with President George W.",
+      "purpose": "Working visit. Met with President Bush at Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -15109,7 +15276,7 @@
       ],
       "startDate": "2007-03-30",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -15641,7 +15808,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         },
         {
           "label": "COLT dataset",
@@ -15754,13 +15921,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2007-09-25",
+      "endDate": "2007-09-24",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
       "id": "luiz-inacio-lula-da-silva--2007-09-24--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Addressed the 62nd session of the United Nations General Assembly.",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -17018,34 +17189,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington, D.C.",
-        "coordinates": [-77.036666666, 38.895],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2008-11-15",
-      "engagements": ["Attended the 1st G20 summit.", "Signed agreements"],
-      "eventName": "World Summit on Financial Markets and Economics",
-      "id": "luiz-inacio-lula-da-silva--2008-11-13--USA",
-      "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Met with President George W.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-11-13",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Vatican City",
         "coordinates": [12.453, 41.904],
         "countryCode": "VAT",
@@ -17071,6 +17214,38 @@
       "startDate": "2008-11-13",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington, D.C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2008-11-15",
+      "engagements": ["Attended the 1st G20 summit.", "Signed agreements"],
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
+      "id": "luiz-inacio-lula-da-silva--2008-11-14--USA",
+      "officialId": "luiz-inacio-lula-da-silva",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2008-11-14",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -17136,13 +17311,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2009-03-16",
+      "endDate": "2009-03-14",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "luiz-inacio-lula-da-silva--2009-03-13--USA",
+      "id": "luiz-inacio-lula-da-silva--2009-03-14--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Met with President Barack Obama.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -17152,9 +17331,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-03-13",
+      "startDate": "2009-03-14",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -17818,11 +17997,15 @@
         "Addressed the sixty-fourth session of the United Nations General Assembly.",
         "Attended the 3rd G20 summit."
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "luiz-inacio-lula-da-silva--2009-09-21--USA",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
+      "id": "luiz-inacio-lula-da-silva--2009-09-24--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Met with President Barack Obama.",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -17832,7 +18015,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-09-21",
+      "startDate": "2009-09-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -18521,11 +18704,15 @@
         "Attended the Nuclear Security Summit.",
         "Met President Barack Obama"
       ],
-      "eventName": "UN Summit on Nuclear Security",
-      "id": "luiz-inacio-lula-da-silva--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "luiz-inacio-lula-da-silva--2010-04-12--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Met with President Barack Obama.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -18535,7 +18722,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -19411,10 +19598,14 @@
       "endDate": "2023-02-10",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "luiz-inacio-lula-da-silva--2023-02-09--USA",
+      "id": "luiz-inacio-lula-da-silva--2023-02-10--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Met with President Joe Biden.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -19424,9 +19615,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-02-09",
+      "startDate": "2023-02-10",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -20016,11 +20207,15 @@
         "Held bilateral meetings with US president Joe Biden, Swiss president Alain Berset, UN secretary-general António Guterres, Austrian president Alexander Van der Bellen, German chanc…",
         "Met President Joe Biden"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "luiz-inacio-lula-da-silva--2023-09-16--USA",
+      "eventName": "Met with President Biden at the UN General Assembly Meeting in New York City.",
+      "id": "luiz-inacio-lula-da-silva--2023-09-20--USA",
       "officialId": "luiz-inacio-lula-da-silva",
-      "purpose": "Attended the 78th United Nations General Assembly.",
+      "purpose": "Met with President Biden at the UN General Assembly Meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
@@ -20030,7 +20225,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-16",
+      "startDate": "2023-09-20",
       "statusHint": null,
       "type": "conference"
     },
@@ -20576,7 +20771,7 @@
         "countryCode": "JPN",
         "region": "Asia"
       },
-      "endDate": "2025-03-26",
+      "endDate": "2025-03-27",
       "engagements": [
         "Gala dinner between Brazilian and Japanese officials with the Imperial family of Japan.",
         "Met with Prime Minister Shigeru Ishiba."

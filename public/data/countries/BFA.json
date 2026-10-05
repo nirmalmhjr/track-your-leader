@@ -72,7 +72,7 @@
           "id": "blaise-compaore-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "1990-11-28",
+          "startDate": "1993-07-22",
           "title": "President"
         }
       ],
@@ -82,70 +82,16 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         },
         {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Blaise_Compaor%C3%A9"
         }
       ],
       "summary": "Blaise Compaoré is a Burkinabé politician and former military officer who served as the second president of Burkina Faso from 1987 until his government was overthrown in 2014. The longest-serving president in Burkinabé history, Compaoré previously served as the Minister of Justice from 1985 to 1987.",
       "wikidataId": "Q57324"
-    },
-    {
-      "aliases": [],
-      "countryCode": "BFA",
-      "fullName": "Ibrahim Traore",
-      "id": "ibrahim-traore",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": null,
-          "id": "ibrahim-traore-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2022-11-02",
-          "title": "President (Acting)"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "Burkinabe politician.",
-      "wikidataId": "Q134717793"
-    },
-    {
-      "aliases": ["Lt-Col Paul Henri Sandaogo Damiba", "Paul-Henri Damiba"],
-      "countryCode": "BFA",
-      "fullName": "Paul-Henri Sandaogo Damiba",
-      "id": "paul-henri-sandaogo-damiba",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_lieutenant-colonel_Paul_Henri_Sandaogo_Damiba%2C_Ouagadougou_le_27_janvier_2022_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "2022-10-03",
-          "id": "paul-henri-sandaogo-damiba-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2022-09-03",
-          "title": "Interim President"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Paul-Henri_Sandaogo_Damiba"
-        }
-      ],
-      "summary": "Paul-Henri Sandaogo Damiba is a Burkinabé military officer who served as interim president of Burkina Faso from 31 January 2022 to 30 September 2022, when he was removed in a coup d'état by his own military colleague, Ibrahim Traoré. Damiba had come to power just eight months earlier, on 24 January 2022, when he removed president Roch Marc Christian Kaboré in a coup.",
-      "wikidataId": "Q110666454"
     },
     {
       "aliases": [],
@@ -200,6 +146,33 @@
       ],
       "summary": "Spanish military personnel.",
       "wikidataId": "Q56401571"
+    },
+    {
+      "aliases": [],
+      "countryCode": "BFA",
+      "fullName": "Yameogo",
+      "id": "yameogo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1965-03-31",
+          "id": "yameogo-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1965-03-29",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [
@@ -2478,6 +2451,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "aboubacar-sangoule-lamizana--1970-10-24--USA",
+      "officialId": "aboubacar-sangoule-lamizana",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-10-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "aboubacar-sangoule-lamizana--1973-10-15--USA",
+      "officialId": "aboubacar-sangoule-lamizana",
+      "purpose": "Private visit. Met with President Nixon at the White House to discuss the drought in West Africa.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-10-15",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bamako",
         "coordinates": [-7.992222222, 12.645833333],
         "countryCode": "MLI",
@@ -2487,8 +2510,8 @@
       "endDate": "1990-11-29",
       "engagements": [],
       "eventName": "Economic Community of West African States (ECOWAS) Summit",
-      "id": "blaise-compaore--1990-11-28--MLI",
-      "officialId": "blaise-compaore",
+      "id": "agustin-quesada-gomez--1990-11-28--MLI",
+      "officialId": "agustin-quesada-gomez",
       "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
       "sources": [
         {
@@ -2512,8 +2535,8 @@
       "endDate": "1991-02-16",
       "engagements": [],
       "eventName": "Economic Community of West African States (ECOWAS) Summit",
-      "id": "blaise-compaore--1991-02-15--TGO",
-      "officialId": "blaise-compaore",
+      "id": "agustin-quesada-gomez--1991-02-15--TGO",
+      "officialId": "agustin-quesada-gomez",
       "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
       "sources": [
         {
@@ -2537,8 +2560,8 @@
       "endDate": "1991-04-21",
       "engagements": ["Gave a public address"],
       "eventName": "United States-African Leaders Summit",
-      "id": "blaise-compaore--1991-04-19--CIV",
-      "officialId": "blaise-compaore",
+      "id": "agustin-quesada-gomez--1991-04-19--CIV",
+      "officialId": "agustin-quesada-gomez",
       "purpose": "Attended United States-African Leaders Summit",
       "sources": [
         {
@@ -2547,231 +2570,6 @@
         }
       ],
       "startDate": "1991-04-19",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Abuja",
-        "coordinates": [7.3986, 9.0765],
-        "countryCode": "NGA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1991-06-07",
-      "engagements": ["Signed agreements"],
-      "eventName": "Organization of African Unity (OAU) Summit",
-      "id": "blaise-compaore--1991-06-06--NGA",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Organization of African Unity (OAU) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-06-06",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Yamoussoukro",
-        "coordinates": [-5.274166666, 6.816111111],
-        "countryCode": "CIV",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1991-07-03",
-      "engagements": [],
-      "eventName": "Burkina Faso-Cote d'Ivoire-Gambia-Liberia-Nigeria-Togo Multilateral Meeting",
-      "id": "blaise-compaore--1991-07-02--CIV",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Burkina Faso-Cote d'Ivoire-Gambia-Liberia-Nigeria-Togo Multilateral Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-07-02",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Abuja",
-        "coordinates": [7.3986, 9.0765],
-        "countryCode": "NGA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1991-07-09",
-      "engagements": [],
-      "eventName": "Economic Community of West African States (ECOWAS) Summit",
-      "id": "blaise-compaore--1991-07-08--NGA",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-07-08",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Yamoussoukro",
-        "coordinates": [-5.274166666, 6.816111111],
-        "countryCode": "CIV",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1991-10-30",
-      "engagements": [],
-      "eventName": "Economic Community of West African States (ECOWAS) Summit",
-      "id": "blaise-compaore--1991-10-29--CIV",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-10-29",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Yamoussoukro",
-        "coordinates": [-5.274166666, 6.816111111],
-        "countryCode": "CIV",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1991-11-03",
-      "engagements": [],
-      "eventName": "UN Day for Africa Meeting",
-      "id": "blaise-compaore--1991-11-02--CIV",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended UN Day for Africa Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-11-02",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dakar",
-        "coordinates": [-17.432, 14.672555555],
-        "countryCode": "SEN",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1991-12-11",
-      "engagements": ["Gave a public address"],
-      "eventName": "Organization of Islamic Cooperation (OIC) Summit",
-      "id": "blaise-compaore--1991-12-09--SEN",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Organization of Islamic Cooperation (OIC) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-12-09",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Brasília",
-        "coordinates": [-47.8825, -15.7942],
-        "countryCode": "BRA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1992-06-13",
-      "engagements": ["Gave a public address"],
-      "eventName": "UN Conference for Sustainable Development",
-      "id": "blaise-compaore--1992-06-11--BRA",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended UN Conference for Sustainable Development",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1992-06-11",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dakar",
-        "coordinates": [-17.432, 14.672555555],
-        "countryCode": "SEN",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1992-07-01",
-      "engagements": [],
-      "eventName": "Organization of African Unity (OAU) Summit",
-      "id": "blaise-compaore--1992-06-29--SEN",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Organization of African Unity (OAU) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1992-06-29",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dakar",
-        "coordinates": [-17.432, 14.672555555],
-        "countryCode": "SEN",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1992-07-29",
-      "engagements": [],
-      "eventName": "Economic Community of West African States (ECOWAS) Summit",
-      "id": "blaise-compaore--1992-07-27--SEN",
-      "officialId": "blaise-compaore",
-      "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1992-07-27",
       "statusHint": null,
       "type": "summit"
     },
@@ -6414,6 +6212,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-07-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "blaise-compaore--2008-07-13--USA",
+      "officialId": "blaise-compaore",
+      "purpose": "Working visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-07-13",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bern",
         "coordinates": [7.44743, 46.94798],
         "countryCode": "CHE",
@@ -8047,11 +7870,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "blaise-compaore--2014-08-05--USA",
       "officialId": "blaise-compaore",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8108,153 +7935,6 @@
         }
       ],
       "startDate": "2014-09-13",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bamako",
-        "coordinates": [-7.992222222, 12.645833333],
-        "countryCode": "MLI",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2022-11-02",
-      "engagements": ["Met President (Acting) Assimi Goita"],
-      "eventName": null,
-      "id": "ibrahim-traore--2022-11-02--MLI",
-      "officialId": "ibrahim-traore",
-      "purpose": "Visit to Mali",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2022-11-02",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2023-07-28",
-      "engagements": ["Met President Vladimir Putin"],
-      "eventName": "Russia-Africa Summit",
-      "id": "ibrahim-traore--2023-07-25--RUS",
-      "officialId": "ibrahim-traore",
-      "purpose": "Attended Russia-Africa Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-07-25",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Niamey",
-        "coordinates": [2.1175, 13.515],
-        "countryCode": "NER",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2024-07-06",
-      "engagements": [],
-      "eventName": "Alliance of the Sahel States Summit",
-      "id": "ibrahim-traore--2024-07-05--NER",
-      "officialId": "ibrahim-traore",
-      "purpose": "Attended Alliance of the Sahel States Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2024-07-05",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Accra",
-        "coordinates": [-0.1969, 5.55602],
-        "countryCode": "GHA",
-        "region": "Africa"
-      },
-      "endDate": "2025-01-08",
-      "engagements": ["Met President John Mahama"],
-      "eventName": null,
-      "id": "ibrahim-traore--2025-01-07--GHA",
-      "officialId": "ibrahim-traore",
-      "purpose": "Visit to Ghana",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-01-07",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
-        "countryCode": "RUS",
-        "region": "Europe"
-      },
-      "endDate": "2025-05-11",
-      "engagements": ["Met President Vladimir Putin"],
-      "eventName": null,
-      "id": "ibrahim-traore--2025-05-09--RUS",
-      "officialId": "ibrahim-traore",
-      "purpose": "Visit to Russia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-05-09",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bamako",
-        "coordinates": [-7.992222222, 12.645833333],
-        "countryCode": "MLI",
-        "region": "Africa"
-      },
-      "endDate": "2025-12-23",
-      "engagements": ["Gave a public address"],
-      "eventName": "Alliance of Sahel States (AES) Summit",
-      "id": "ibrahim-traore--2025-12-23--MLI",
-      "officialId": "ibrahim-traore",
-      "purpose": "Attended Alliance of Sahel States (AES) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-12-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -8395,8 +8075,8 @@
       "endDate": "2022-09-05",
       "engagements": ["Met President (Acting) Assimi Goita"],
       "eventName": null,
-      "id": "paul-henri-sandaogo-damiba--2022-09-03--MLI",
-      "officialId": "paul-henri-sandaogo-damiba",
+      "id": "q27146606--2022-09-03--MLI",
+      "officialId": "q27146606",
       "purpose": "Visit to Mali",
       "sources": [
         {
@@ -8420,8 +8100,8 @@
       "endDate": "2022-09-05",
       "engagements": ["Met President Alassane Ouattara"],
       "eventName": null,
-      "id": "paul-henri-sandaogo-damiba--2022-09-05--CIV",
-      "officialId": "paul-henri-sandaogo-damiba",
+      "id": "q27146606--2022-09-05--CIV",
+      "officialId": "q27146606",
       "purpose": "Visit to Ivory Coast",
       "sources": [
         {
@@ -8445,8 +8125,8 @@
       "endDate": "2022-09-25",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "paul-henri-sandaogo-damiba--2022-09-21--USA",
-      "officialId": "paul-henri-sandaogo-damiba",
+      "id": "q27146606--2022-09-21--USA",
+      "officialId": "q27146606",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -8470,8 +8150,8 @@
       "endDate": "2022-10-03",
       "engagements": [],
       "eventName": null,
-      "id": "paul-henri-sandaogo-damiba--2022-10-02--TGO",
-      "officialId": "paul-henri-sandaogo-damiba",
+      "id": "q27146606--2022-10-02--TGO",
+      "officialId": "q27146606",
       "purpose": "Visit to Togo",
       "sources": [
         {
@@ -8482,6 +8162,153 @@
       "startDate": "2022-10-02",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bamako",
+        "coordinates": [-7.992222222, 12.645833333],
+        "countryCode": "MLI",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2022-11-02",
+      "engagements": ["Met President (Acting) Assimi Goita"],
+      "eventName": null,
+      "id": "q27146606--2022-11-02--MLI",
+      "officialId": "q27146606",
+      "purpose": "Visit to Mali",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2022-11-02",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [37.6175, 55.750555555],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-07-28",
+      "engagements": ["Met President Vladimir Putin"],
+      "eventName": "Russia-Africa Summit",
+      "id": "q27146606--2023-07-25--RUS",
+      "officialId": "q27146606",
+      "purpose": "Attended Russia-Africa Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2023-07-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Niamey",
+        "coordinates": [2.1175, 13.515],
+        "countryCode": "NER",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2024-07-06",
+      "engagements": [],
+      "eventName": "Alliance of the Sahel States Summit",
+      "id": "q27146606--2024-07-05--NER",
+      "officialId": "q27146606",
+      "purpose": "Attended Alliance of the Sahel States Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2024-07-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Accra",
+        "coordinates": [-0.1969, 5.55602],
+        "countryCode": "GHA",
+        "region": "Africa"
+      },
+      "endDate": "2025-01-08",
+      "engagements": ["Met President John Mahama"],
+      "eventName": null,
+      "id": "q27146606--2025-01-07--GHA",
+      "officialId": "q27146606",
+      "purpose": "Visit to Ghana",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-01-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [37.6175, 55.750555555],
+        "countryCode": "RUS",
+        "region": "Europe"
+      },
+      "endDate": "2025-05-11",
+      "engagements": ["Met President Vladimir Putin"],
+      "eventName": null,
+      "id": "q27146606--2025-05-09--RUS",
+      "officialId": "q27146606",
+      "purpose": "Visit to Russia",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-05-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bamako",
+        "coordinates": [-7.992222222, 12.645833333],
+        "countryCode": "MLI",
+        "region": "Africa"
+      },
+      "endDate": "2025-12-23",
+      "engagements": ["Gave a public address"],
+      "eventName": "Alliance of Sahel States (AES) Summit",
+      "id": "q27146606--2025-12-23--MLI",
+      "officialId": "q27146606",
+      "purpose": "Attended Alliance of Sahel States (AES) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-12-23",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -10741,6 +10568,256 @@
       "startDate": "2022-01-08",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abuja",
+        "coordinates": [7.3986, 9.0765],
+        "countryCode": "NGA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1991-06-07",
+      "engagements": ["Signed agreements"],
+      "eventName": "Organization of African Unity (OAU) Summit",
+      "id": "victor-suanzes-pardo--1991-06-06--NGA",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Organization of African Unity (OAU) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-06-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Yamoussoukro",
+        "coordinates": [-5.274166666, 6.816111111],
+        "countryCode": "CIV",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1991-07-03",
+      "engagements": [],
+      "eventName": "Burkina Faso-Cote d'Ivoire-Gambia-Liberia-Nigeria-Togo Multilateral Meeting",
+      "id": "victor-suanzes-pardo--1991-07-02--CIV",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Burkina Faso-Cote d'Ivoire-Gambia-Liberia-Nigeria-Togo Multilateral Meeting",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-07-02",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abuja",
+        "coordinates": [7.3986, 9.0765],
+        "countryCode": "NGA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1991-07-09",
+      "engagements": [],
+      "eventName": "Economic Community of West African States (ECOWAS) Summit",
+      "id": "victor-suanzes-pardo--1991-07-08--NGA",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Yamoussoukro",
+        "coordinates": [-5.274166666, 6.816111111],
+        "countryCode": "CIV",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1991-10-30",
+      "engagements": [],
+      "eventName": "Economic Community of West African States (ECOWAS) Summit",
+      "id": "victor-suanzes-pardo--1991-10-29--CIV",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-10-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Yamoussoukro",
+        "coordinates": [-5.274166666, 6.816111111],
+        "countryCode": "CIV",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1991-11-03",
+      "engagements": [],
+      "eventName": "UN Day for Africa Meeting",
+      "id": "victor-suanzes-pardo--1991-11-02--CIV",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended UN Day for Africa Meeting",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-11-02",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Dakar",
+        "coordinates": [-17.432, 14.672555555],
+        "countryCode": "SEN",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1991-12-11",
+      "engagements": ["Gave a public address"],
+      "eventName": "Organization of Islamic Cooperation (OIC) Summit",
+      "id": "victor-suanzes-pardo--1991-12-09--SEN",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Organization of Islamic Cooperation (OIC) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-12-09",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [-47.8825, -15.7942],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-06-13",
+      "engagements": ["Gave a public address"],
+      "eventName": "UN Conference for Sustainable Development",
+      "id": "victor-suanzes-pardo--1992-06-11--BRA",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended UN Conference for Sustainable Development",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1992-06-11",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Dakar",
+        "coordinates": [-17.432, 14.672555555],
+        "countryCode": "SEN",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1992-07-01",
+      "engagements": [],
+      "eventName": "Organization of African Unity (OAU) Summit",
+      "id": "victor-suanzes-pardo--1992-06-29--SEN",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Organization of African Unity (OAU) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1992-06-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Dakar",
+        "coordinates": [-17.432, 14.672555555],
+        "countryCode": "SEN",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1992-07-29",
+      "engagements": [],
+      "eventName": "Economic Community of West African States (ECOWAS) Summit",
+      "id": "victor-suanzes-pardo--1992-07-27--SEN",
+      "officialId": "victor-suanzes-pardo",
+      "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1992-07-27",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-03-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "yameogo--1965-03-29--USA",
+      "officialId": "yameogo",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-03-29",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

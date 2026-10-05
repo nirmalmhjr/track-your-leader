@@ -3220,21 +3220,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-06-10",
+      "endDate": "2011-06-09",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "UN Summit",
-      "id": "ali-bongo-ondimba--2011-06-07--USA",
+      "id": "ali-bongo-ondimba--2011-06-09--USA",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Attended UN Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-06-07",
+      "startDate": "2011-06-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -4445,19 +4449,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-07",
+      "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "U.S-Africa Leaders Summit",
-      "id": "ali-bongo-ondimba--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "ali-bongo-ondimba--2014-08-05--USA",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Attended U.S-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -5175,11 +5183,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "ali-bongo-ondimba--2016-03-31--USA",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6528,17 +6540,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "ali-bongo-ondimba--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "ali-bongo-ondimba--2022-12-13--USA",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Attended United States-Africa Leaders Summit and Congo-Kinshasa-Gabon-Liberia-Madagascar-Nigeria-Sierra Leone-United States Multilateral Meeting",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -8277,6 +8293,156 @@
       "startDate": "2009-06-08",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1973-08-02--USA",
+      "officialId": "omar-bongo",
+      "purpose": "Private visit. Met with President Nixon at the White House.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-03-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1977-03-03--USA",
+      "officialId": "omar-bongo",
+      "purpose": "Met with President Carter during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-03-03",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1977-10-17--USA",
+      "officialId": "omar-bongo",
+      "purpose": "Met with President Carter during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-10-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1981-06-15--USA",
+      "officialId": "omar-bongo",
+      "purpose": "Met with President Reagan during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-06-15",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1984-09-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1984-09-18--JPN",
+      "officialId": "omar-bongo",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1984-09-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-08-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1987-08-03--USA",
+      "officialId": "omar-bongo",
+      "purpose": "Official Working Visit. In U.S. July 30; also visited Atlanta August 1–2. Private visit to Houston afterwards.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-08-03",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11489,13 +11655,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-05-27",
+      "endDate": "2004-05-26",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "omar-bongo--2004-05-26--USA",
       "officialId": "omar-bongo",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

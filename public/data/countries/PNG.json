@@ -214,7 +214,7 @@
       "positions": [
         {
           "categories": ["head_of_government"],
-          "endDate": "1994-08-02",
+          "endDate": "1994-07-14",
           "id": "paias-wingti-p1",
           "ministry": null,
           "portfolio": null,
@@ -3078,6 +3078,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-09-28",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Pacific Island Country Summit.",
+      "id": "james-marape--2022-09-28--USA",
+      "officialId": "james-marape",
+      "purpose": "Attended the U.S.-Pacific Island Country Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2022-09-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bangkok",
         "coordinates": [100.516666666, 13.75],
         "countryCode": "THA",
@@ -3306,6 +3331,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-09-25",
+      "engagements": [],
+      "eventName": "Attended the Pacific Islands Countries Summit.",
+      "id": "james-marape--2023-09-25--USA",
+      "officialId": "james-marape",
+      "purpose": "Attended the Pacific Islands Countries Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2023-09-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Beijing",
         "coordinates": [116.4074, 39.9042],
         "countryCode": "CHN",
@@ -3342,17 +3392,21 @@
       },
       "endDate": "2023-11-17",
       "engagements": [],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "james-marape--2023-11-13--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "james-marape--2023-11-12--USA",
       "officialId": "james-marape",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit and Fiji-Indonesia-Papua New Guinea Trilateral Meeting",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-13",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -4061,6 +4115,31 @@
       "startDate": "1997-05-07",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [149.13, -35.2809],
+        "countryCode": "AUS",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "1994-08-02",
+      "engagements": [],
+      "eventName": "South Pacific Forum",
+      "id": "julius-chan--1994-07-31--AUS",
+      "officialId": "julius-chan",
+      "purpose": "Attended South Pacific Forum",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-07-31",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -7883,31 +7962,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
-        "coordinates": [149.13, -35.2809],
-        "countryCode": "AUS",
-        "precision": "country",
-        "region": "Oceania"
-      },
-      "endDate": "1994-08-02",
-      "engagements": [],
-      "eventName": "South Pacific Forum",
-      "id": "paias-wingti--1994-07-31--AUS",
-      "officialId": "paias-wingti",
-      "purpose": "Attended South Pacific Forum",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-07-31",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Suva",
         "coordinates": [178.433333333, -18.133333333],
         "countryCode": "FJI",
@@ -8039,19 +8093,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-11-15",
+      "endDate": "2011-11-13",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "peter-o-neill--2011-11-09--USA",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
+      "id": "peter-o-neill--2011-11-10--USA",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-09",
+      "startDate": "2011-11-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -9675,19 +9733,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-05-08",
+      "endDate": "1990-05-07",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "rabbie-namaliu--1990-05-06--USA",
+      "id": "rabbie-namaliu--1990-05-07--USA",
       "officialId": "rabbie-namaliu",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-05-06",
+      "startDate": "1990-05-07",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9775,13 +9837,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-10-28",
+      "endDate": "1990-10-27",
       "engagements": [],
-      "eventName": "Pacific Island Summit",
+      "eventName": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "id": "rabbie-namaliu--1990-10-27--USA",
       "officialId": "rabbie-namaliu",
-      "purpose": "Attended Pacific Island Summit",
+      "purpose": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

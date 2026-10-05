@@ -4179,6 +4179,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "dawda-kairaba-jawara--1989-05-15--USA",
+      "officialId": "dawda-kairaba-jawara",
+      "purpose": "Met with President Bush during a private visit. Also visited Cornell University and Cape Canaveral. Departed U.S. May 18.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-15",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Nouakchott",
         "coordinates": [-15.9785, 18.08581],
         "countryCode": "MRT",
@@ -6460,8 +6485,12 @@
       "eventName": "United States-Africa Business Forum",
       "id": "yahya-jammeh--2003-06-21--USA",
       "officialId": "yahya-jammeh",
-      "purpose": "Attended United States-Africa Business Forum",
+      "purpose": "Attended United States-Africa Business Summit; met with President Bush during a private visit June 26.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6469,7 +6498,7 @@
       ],
       "startDate": "2003-06-21",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8511,17 +8540,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "yahya-jammeh--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "yahya-jammeh--2014-08-05--USA",
       "officialId": "yahya-jammeh",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },

@@ -406,7 +406,7 @@
           "url": "https://en.wikipedia.org/wiki/Kalonzo_Musyoka"
         }
       ],
-      "summary": "Stephen Kalonzo Musyoka (born 24 December 1953) is a Kenyan politician who was the tenth Vice-President of Kenya from 2008 to 2013. Musyoka served in the government under the late President Daniel arap Moi as the Secretary of Kenya African National Union party (1980-1988), Assistant Minister for Works (1986-1988), Deputy Speaker of the National Assembly (1988-1992), Minister for Foreign Affairs from 1993 until 1998, Minister of Education (1998-2001); and subsequently, under the late President Mwai Kibaki, he was Minister of Foreign Affairs again from 2003 to 2004, then Minister of the Environment from 2004 to 2005.",
+      "summary": "Stephen Kalonzo Musyoka (born 24 December 1953) is a Kenyan politician who was the tenth Vice-President of Kenya from 2008 to 2013. Musyoka served in the government under the late President Daniel arap Moi as the Secretary of Kenya African National Union party (1980–1988), Assistant Minister for Works (1986-1988), Deputy Speaker of the National Assembly (1988–1992), Minister for Foreign Affairs from 1993 until 1998, Minister of Education (1998–2001); and subsequently, under the late President Mwai Kibaki, he was Minister of Foreign Affairs again from 2003 to 2004, then Minister of the Environment from 2004 to 2005.",
       "wikidataId": "Q1395018"
     },
     {
@@ -2337,6 +2337,131 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1979-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-arap-moi--1979-06-12--GBR",
+      "officialId": "daniel-arap-moi",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1979-06-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-02-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-arap-moi--1980-02-19--USA",
+      "officialId": "daniel-arap-moi",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-02-19",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-09-26",
+      "engagements": [],
+      "eventName": "Private visit en route to U.N. General Assembly. Met with President Reagan September 25.",
+      "id": "daniel-arap-moi--1981-09-24--USA",
+      "officialId": "daniel-arap-moi",
+      "purpose": "Private visit en route to U.N. General Assembly. Met with President Reagan September 25.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-09-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1982-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-arap-moi--1982-04-05--JPN",
+      "officialId": "daniel-arap-moi",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1982-04-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-03-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-arap-moi--1987-03-11--USA",
+      "officialId": "daniel-arap-moi",
+      "purpose": "Official Working Visit. Also visited New York City March 14.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-03-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -5827,19 +5952,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-12-07",
+      "endDate": "2002-12-06",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "daniel-arap-moi--2002-12-02--USA",
+      "id": "daniel-arap-moi--2002-12-04--USA",
       "officialId": "daniel-arap-moi",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-12-02",
+      "startDate": "2002-12-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6055,18 +6184,22 @@
       "endDate": "2003-10-07",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "mwai-kibaki--2003-10-06--USA",
+      "id": "mwai-kibaki--2003-10-05--USA",
       "officialId": "mwai-kibaki",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-10-06",
+      "startDate": "2003-10-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9729,13 +9862,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-12",
+      "endDate": "2014-08-06",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "uhuru-kenyatta--2014-08-05--USA",
       "officialId": "uhuru-kenyatta",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12068,16 +12205,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2018-08-28",
+      "endDate": "2018-08-27",
       "engagements": [
         "Kenyatta met president Donald Trump for the first time.",
         "Defense and Security agreements were top of the agenda as the United States works with Kenya to help fight political instability in the Horn of Africa."
       ],
       "eventName": null,
-      "id": "uhuru-kenyatta--2018-08-26--USA",
+      "id": "uhuru-kenyatta--2018-08-25--USA",
       "officialId": "uhuru-kenyatta",
-      "purpose": "State Visit",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
@@ -12087,9 +12228,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-08-26",
+      "startDate": "2018-08-25",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13099,16 +13240,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2020-02-07",
+      "endDate": "2020-02-06",
       "engagements": [
         "President Kenyatta made with President Donald Trump at the white house to sign a new trade agreement with the United States.",
         "Trade between the two countries is valued at approximately $1bn annually."
       ],
       "eventName": null,
-      "id": "uhuru-kenyatta--2020-02-05--USA",
+      "id": "uhuru-kenyatta--2020-02-06--USA",
       "officialId": "uhuru-kenyatta",
-      "purpose": "State Visit",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
@@ -13118,9 +13263,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2020-02-05",
+      "startDate": "2020-02-06",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14436,16 +14581,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": [
         "William Ruto attended the US-Africa Leaders summit hosted by President Joe Biden.",
         "On the sidelines of the summit, President Ruto met: Rajiv Shah the President of the Rockefeller Foundation, where they discussed collaborating in expanding green energy in Kenya."
       ],
-      "eventName": "United States–Africa Leaders Summit 2022",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
       "id": "william-ruto--2022-12-13--USA",
       "officialId": "william-ruto",
-      "purpose": "United States–Africa Leaders Summit 2022",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_William_Ruto"
@@ -16076,16 +16225,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-05-24",
+      "endDate": "2024-05-23",
       "engagements": [
         "William Ruto made a three-day state visit to the United States.",
         "This was his first state visit as head of state of Kenya."
       ],
       "eventName": null,
-      "id": "william-ruto--2024-05-21--USA",
+      "id": "william-ruto--2024-05-23--USA",
       "officialId": "william-ruto",
-      "purpose": "State visit",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_William_Ruto"
@@ -16095,7 +16248,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-05-21",
+      "startDate": "2024-05-23",
       "statusHint": null,
       "type": "state_visit"
     },

@@ -32,6 +32,60 @@
       "wikidataId": "Q16193958"
     },
     {
+      "aliases": [],
+      "countryCode": "NPL",
+      "fullName": "Birendra",
+      "id": "birendra",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1983-12-10",
+          "id": "birendra-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1983-12-05",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "NPL",
+      "fullName": "Mahendra",
+      "id": "mahendra",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1967-11-03",
+          "id": "mahendra-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1960-04-27",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Dr. Ram Baran Yadav", "Ram varan Yadav", "Ramvaran Yadav"],
       "countryCode": "NPL",
       "fullName": "Ram Baran Yadav",
@@ -339,7 +393,7 @@
           "url": "https://en.wikipedia.org/wiki/K._P._Sharma_Oli"
         }
       ],
-      "summary": "Khadga Prasad Sharma Oli (born 22 February 1952) is a Nepali politician who served as three terms as the prime minister of Nepal, from 2015 to 2016, 2018 to 2021, and 2024 to 2025. He has served as the chairman of the Communist Party of Nepal (Unified Marxist–Leninist) since 2014.",
+      "summary": "Khadga Prasad Sharma Oli (born 22 February 1952) is a Nepali politician who served three terms as the prime minister of Nepal, from 2015 to 2016, 2018 to 2021, and 2024 to 2025. He has served as the chairman of the Communist Party of Nepal (Unified Marxist–Leninist) since 2014.",
       "wikidataId": "Q3195923"
     },
     {
@@ -421,6 +475,33 @@
       ],
       "summary": "Kirti Nidhi Bista was a Nepali politician who served as the 25th prime minister of Nepal.",
       "wikidataId": "Q2267879"
+    },
+    {
+      "aliases": [],
+      "countryCode": "NPL",
+      "fullName": "Koirala",
+      "id": "koirala",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1960-09-22",
+          "id": "koirala-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1960-09-22",
+          "title": "Head of government"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -1667,6 +1748,31 @@
       "startDate": "2012-08-30",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-12-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "birendra--1983-12-05--USA",
+      "officialId": "birendra",
+      "purpose": "State visit; visited Orlando, Dallas, New York City, and Boston (December 10–13).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-12-05",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2932,6 +3038,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-09-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "koirala--1960-09-22--USA",
+      "officialId": "koirala",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-09-22",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New Delhi",
         "coordinates": [77.209, 28.6139],
         "countryCode": "IND",
@@ -3303,6 +3434,56 @@
       "startDate": "2010-12-06",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-04-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "mahendra--1960-04-27--USA",
+      "officialId": "mahendra",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-04-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-11-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "mahendra--1967-11-01--USA",
+      "officialId": "mahendra",
+      "purpose": "State visit. In U.S. October 30–December 3; visited Williamsburg, Cape Kennedy, and New York City. Hunting trip in Alaska after November 9.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-11-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4225,13 +4406,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-05-09",
+      "endDate": "2002-05-08",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "sher-bahadur-deuba--2002-05-06--USA",
       "officialId": "sher-bahadur-deuba",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush May 7 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4239,7 +4424,7 @@
       ],
       "startDate": "2002-05-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

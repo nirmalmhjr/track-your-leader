@@ -1,6 +1,33 @@
 {
   "officials": [
     {
+      "aliases": [],
+      "countryCode": "SDN",
+      "fullName": "Abboud",
+      "id": "abboud",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1961-10-07",
+          "id": "abboud-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1961-10-04",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Abdel Fattah Abdelrahman al-Burhan",
         "Abdel Fattah Burhan",
@@ -78,6 +105,60 @@
       ],
       "summary": "Ahmed Awad Ibn Auf is a Sudanese military officer and politician who served as the head of state for one day from 11 April 2019 to 12 April 2019 after taking part in the 2019 Sudanese coup d'état. Auf previously served as the minister of defense in Sudan from 23 August 2015 to 14 April 2019, and the First Vice President of Sudan from February to April 2019.",
       "wikidataId": "Q22949078"
+    },
+    {
+      "aliases": [],
+      "countryCode": "SDN",
+      "fullName": "Jaafar Nimeiri",
+      "id": "jaafar-nimeiri",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1983-11-22",
+          "id": "jaafar-nimeiri-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1976-06-10",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "SDN",
+      "fullName": "Jaafar Nimieri",
+      "id": "jaafar-nimieri",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1985-04-05",
+          "id": "jaafar-nimieri-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1978-09-21",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [
@@ -623,7 +704,7 @@
           "url": "https://en.wikipedia.org/wiki/Moses_Kacoul_Machar"
         }
       ],
-      "summary": "Prof. Moses Kacoul Machar (born 1945) was the Second Vice President of Sudan from February 2001 to January 2005.",
+      "summary": "Moses Kacoul Machar (born 1945) was the Second Vice President of Sudan from February 2001 to January 2005. In 2004, he was sent abroad for medical treatment for an unspecified illness.",
       "wikidataId": "Q23541055"
     },
     {
@@ -2501,6 +2582,31 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "abboud--1961-10-04--USA",
+      "officialId": "abboud",
+      "purpose": "State visit. Afterwards visited Los Angeles, Fresno (California), San Francisco, Chicago, and New York City. Departed U.S. October 15.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-10-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -5294,6 +5400,156 @@
         }
       ],
       "startDate": "2026-07-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-06-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaafar-nimeiri--1976-06-10--USA",
+      "officialId": "jaafar-nimeiri",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-06-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaafar-nimeiri--1983-11-19--USA",
+      "officialId": "jaafar-nimeiri",
+      "purpose": "Official working visit. Private visit afterward. Departed U.S. December 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-11-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-09-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaafar-nimieri--1978-09-21--USA",
+      "officialId": "jaafar-nimieri",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-09-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-07-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaafar-nimieri--1980-06-27--USA",
+      "officialId": "jaafar-nimieri",
+      "purpose": "Private visit. Met with President Carter July 2.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-06-27",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-11-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaafar-nimieri--1981-11-14--USA",
+      "officialId": "jaafar-nimieri",
+      "purpose": "Private visit. Met with President Reagan November 20",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-11-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-04-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaafar-nimieri--1985-03-27--USA",
+      "officialId": "jaafar-nimieri",
+      "purpose": "Private Visit. Met with President Reagan April 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-03-27",
       "statusHint": null,
       "type": "diplomatic_visit"
     },

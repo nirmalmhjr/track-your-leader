@@ -3001,6 +3001,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1974-07-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdul-halim-of-kedah--1974-07-09--GBR",
+      "officialId": "abdul-halim-of-kedah",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1974-07-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2012-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdul-halim-of-kedah--2012-10-01--JPN",
+      "officialId": "abdul-halim-of-kedah",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2012-10-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdul-razak-hussein--1971-10-05--USA",
+      "officialId": "abdul-razak-hussein",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-10-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [139.6917, 35.6895],
         "countryCode": "JPN",
@@ -3287,8 +3362,12 @@
       "eventName": null,
       "id": "abdullah-ahmad-badawi--2004-07-18--USA",
       "officialId": "abdullah-ahmad-badawi",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4187,19 +4266,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-09-20",
+      "endDate": "2006-09-18",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "abdullah-ahmad-badawi--2006-09-17--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "abdullah-ahmad-badawi--2006-09-18--USA",
       "officialId": "abdullah-ahmad-badawi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-09-17",
+      "startDate": "2006-09-18",
       "statusHint": null,
       "type": "conference"
     },
@@ -6019,11 +6102,15 @@
         "He then took part in the APEC Economic Leaders' Informal Dialogue with distinguished guests from Colombia, Fiji and India.",
         "Following this, Anwar engaged in discussions at the APEC Business Advisory Council (ABAC) Dialogue with APEC Economic Leaders and the 2023 APEC CEO Summit."
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "anwar-ibrahim--2023-11-14--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "anwar-ibrahim--2023-11-12--USA",
       "officialId": "anwar-ibrahim",
-      "purpose": "The Prime Minister attended the 30th Asia Pacific Economic Cooperation (APEC) Economic Leaders' Meeting (AELM).",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Anwar_Ibrahim"
@@ -6033,7 +6120,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-14",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -7710,6 +7797,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1993-04-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "azlan-shah-i-of-perak--1993-04-04--JPN",
+      "officialId": "azlan-shah-i-of-perak",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1993-04-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1993-11-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "azlan-shah-i-of-perak--1993-11-09--GBR",
+      "officialId": "azlan-shah-i-of-perak",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1993-11-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-onn--1977-09-23--USA",
+      "officialId": "hussein-onn",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [106.826944444, -6.175277777],
         "countryCode": "IDN",
@@ -8030,11 +8192,15 @@
         "Witnessed several exchanges of MoU documents.",
         "Met with President Joe Biden and Vice President Kamala Harris, along with other ASEAN leaders, at the White House for the ASEAN-US Special Summit."
       ],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "ismail-sabri-yaakob--2022-05-10--USA",
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "ismail-sabri-yaakob--2022-05-12--USA",
       "officialId": "ismail-sabri-yaakob",
-      "purpose": "Met with several prominent leaders representing US Fortune 500 companies and senior officials of major US companies.",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Ismail_Sabri_Yaakob"
@@ -8044,7 +8210,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-10",
+      "startDate": "2022-05-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -8166,6 +8332,56 @@
       "startDate": "2022-09-26",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-01-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "mahathir-mohamad--1984-01-17--USA",
+      "officialId": "mahathir-mohamad",
+      "purpose": "Official working visit. Private visit to Tulsa (Okla.) afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-01-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "mahathir-mohamad--1989-05-21--USA",
+      "officialId": "mahathir-mohamad",
+      "purpose": "Met with President Bush in Boston.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9843,21 +10059,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-05-23",
+      "endDate": "1996-05-21",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": "East Asian Economic Caucus",
-      "id": "mahathir-mohamad--1996-05-19--USA",
+      "id": "mahathir-mohamad--1996-05-21--USA",
       "officialId": "mahathir-mohamad",
-      "purpose": "Attended East Asian Economic Caucus",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-05-19",
+      "startDate": "1996-05-21",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12883,13 +13103,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-05-16",
+      "endDate": "2002-05-15",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "mahathir-mohamad--2002-05-13--USA",
       "officialId": "mahathir-mohamad",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15183,19 +15407,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-16",
+      "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "Nuclear Security Summit",
-      "id": "najib-razak--2010-04-10--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "najib-razak--2010-04-12--USA",
       "officialId": "najib-razak",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-10",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -16047,11 +16275,15 @@
       },
       "endDate": "2011-11-13",
       "engagements": ["Gave a public address"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "id": "najib-razak--2011-11-10--USA",
       "officialId": "najib-razak",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17374,8 +17606,12 @@
       "eventName": null,
       "id": "najib-razak--2014-12-24--USA",
       "officialId": "najib-razak",
-      "purpose": "Visit to United States",
+      "purpose": "Played golf with President Obama while both were vacationing in Oahu.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17850,19 +18086,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-02-17",
+      "endDate": "2016-02-18",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "najib-razak--2016-02-11--USA",
+      "eventName": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "id": "najib-razak--2016-02-16--USA",
       "officialId": "najib-razak",
-      "purpose": "Attended United States-Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-02-11",
+      "startDate": "2016-02-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -18334,19 +18574,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-09-14",
+      "endDate": "2017-09-12",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "najib-razak--2017-09-11--USA",
+      "id": "najib-razak--2017-09-12--USA",
       "officialId": "najib-razak",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-11",
+      "startDate": "2017-09-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -18658,6 +18902,156 @@
       "startDate": "2018-03-17",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2005-03-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "sirajuddin-i-of-perlis--2005-03-06--JPN",
+      "officialId": "sirajuddin-i-of-perlis",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2005-03-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2005-09-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "sirajuddin-i-of-perlis--2005-09-14--SWE",
+      "officialId": "sirajuddin-i-of-perlis",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2005-09-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1964-06-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "syed-putra-of-perlis--1964-06-16--JPN",
+      "officialId": "syed-putra-of-perlis",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1964-06-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-10-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "tunku-abdul-rahman--1960-10-25--USA",
+      "officialId": "tunku-abdul-rahman",
+      "purpose": "Official visit. Afterwards visited Pittsburgh (Pennsylvania), San Francisco, Akron (Ohio), and New York City. Departed U.S. November 6.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-10-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-07-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "tunku-abdul-rahman--1964-07-22--USA",
+      "officialId": "tunku-abdul-rahman",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-07-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-10-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "tunku-abdul-rahman--1969-10-13--USA",
+      "officialId": "tunku-abdul-rahman",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-10-13",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

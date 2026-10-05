@@ -1724,6 +1724,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-07-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "france-albert-rene--1989-07-20--USA",
+      "officialId": "france-albert-rene",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-07-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [139.6917, 35.6895],
         "countryCode": "JPN",
@@ -3765,11 +3790,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "james-michel--2014-08-05--USA",
       "officialId": "james-michel",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4590,19 +4619,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-19",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "wavel-ramkalawan--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "wavel-ramkalawan--2022-12-13--USA",
       "officialId": "wavel-ramkalawan",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },

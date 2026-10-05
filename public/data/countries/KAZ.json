@@ -689,6 +689,37 @@
       "wikidataId": "Q4167136"
     },
     {
+      "aliases": ["Erlan Tynymbaiūly Qarin"],
+      "countryCode": "KAZ",
+      "fullName": "Erlan Qarin",
+      "id": "erlan-qarin",
+      "party": "Nur Otan",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%95%D1%80%D0%BB%D0%B0%D0%BD_%D0%9A%D0%B0%D1%80%D0%B8%D0%BD_kremlin.ru_2017_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": ["deputy_leader"],
+          "endDate": null,
+          "id": "erlan-qarin-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-08-31",
+          "title": "Vice President of Kazakhstan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4215062"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Erlan_Karin"
+        }
+      ],
+      "summary": "Yerlan Tynymbaiuly Karin is a Kazakh politician who has served as the vice president of Kazakhstan since 31 August 2026. He previously served as first deputy head of the Presidential Administration from June to August 2026 and as state counsellor of Kazakhstan from June 2022 to June 2026.",
+      "wikidataId": "Q4215062"
+    },
+    {
       "aliases": ["Erūlan Kenzhebekūly Zhamaubaev"],
       "countryCode": "KAZ",
       "fullName": "Erūlan Zhamaubaev",
@@ -1058,7 +1089,7 @@
           "url": "https://en.wikipedia.org/wiki/Serik_Juman%C4%9Farin"
         }
       ],
-      "summary": "Serık Maqaşūly Jumanğarin (Kazakh: Серік Мақашұлы Жұманғарин, [sʲeˈrɘk mɑˈqɑʂo̙ɫɯ ʐo̙mɑnˈɣɑrɯjn], born 22 July 1969) is a Kazakh politician, economist, and physicist, who's currently serving as the Deputy Prime Minister of Kazakhstan since September 2022 and Minister of National Economy since December 2024.",
+      "summary": "Serık Maqaşūly Jumanğarin (born 22 July 1969) is a Kazakh politician, economist, and physicist, who's currently serving as the deputy prime minister since 2022 and minister of national economy since 2024.",
       "wikidataId": "Q113548929"
     },
     {
@@ -1096,6 +1127,37 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": ["Erik Magzumuly Asanbayev", "Yerik Magzumovich Asanbayev"],
+      "countryCode": "KAZ",
+      "fullName": "Yerik Assanbayev",
+      "id": "yerik-assanbayev",
+      "party": "Communist Party of the Soviet Union",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["deputy_leader"],
+          "endDate": "1996-02-22",
+          "id": "yerik-assanbayev-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1991-12-16",
+          "title": "Vice President of Kazakhstan"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3793553"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yerik_Asanbayev"
+        }
+      ],
+      "summary": "Erık Mağzūmūly Asanbaev was a Kazakh politician, who was Vice President of Kazakhstan from 1991 to 1996.",
+      "wikidataId": "Q3793553"
     },
     {
       "aliases": ["Zhengis Makhmuduly Qasymbek"],
@@ -4137,10 +4199,14 @@
       "endDate": "2023-09-21",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "kassym-jomart-tokayev--2023-09-19--USA",
+      "id": "kassym-jomart-tokayev--2023-09-21--USA",
       "officialId": "kassym-jomart-tokayev",
-      "purpose": "Working visit",
+      "purpose": "Participated in C5+1 Presidential Summit Meeting with President Biden at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kassym-Jomart_Tokayev"
@@ -4150,9 +4216,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-19",
+      "startDate": "2023-09-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6213,13 +6279,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-05-23",
+      "endDate": "1992-05-20",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "nursultan-nazarbaev--1992-05-18--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7222,13 +7292,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-02-17",
+      "endDate": "1994-02-15",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
       "id": "nursultan-nazarbaev--1994-02-13--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8871,16 +8945,20 @@
       "endDate": "1997-11-19",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "nursultan-nazarbaev--1997-11-17--USA",
+      "id": "nursultan-nazarbaev--1997-11-16--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Attended 4th annual meeting of U.S.-Kazakh Joint Commission.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-11-17",
+      "startDate": "1997-11-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9295,17 +9373,21 @@
       },
       "endDate": "1999-04-25",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "NATO Anniversary Summit",
-      "id": "nursultan-nazarbaev--1999-04-22--USA",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "nursultan-nazarbaev--1999-04-23--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended NATO Anniversary Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-04-22",
+      "startDate": "1999-04-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -9645,19 +9727,23 @@
       },
       "endDate": "1999-12-21",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": null,
-      "id": "nursultan-nazarbaev--1999-12-17--USA",
+      "eventName": "Met with President Clinton and attended a meeting of the U.S.-Kazakhstan Joint Commission.",
+      "id": "nursultan-nazarbaev--1999-12-20--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton and attended a meeting of the U.S.-Kazakhstan Joint Commission.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-12-17",
+      "startDate": "1999-12-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10607,8 +10693,12 @@
       "eventName": null,
       "id": "nursultan-nazarbaev--2001-12-20--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12539,16 +12629,20 @@
       "endDate": "2006-09-29",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "nursultan-nazarbaev--2006-09-29--USA",
+      "id": "nursultan-nazarbaev--2006-09-27--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-09-29",
+      "startDate": "2006-09-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14222,11 +14316,15 @@
       },
       "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "nursultan-nazarbaev--2010-04-11--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended Nuclear Security Summit and President Dmitry Medvedev and President Viktor Yanukovych",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16453,19 +16551,23 @@
       },
       "endDate": "2015-09-29",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "UN Sustainable Development Summit",
-      "id": "nursultan-nazarbaev--2015-09-26--USA",
+      "eventName": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "id": "nursultan-nazarbaev--2015-09-29--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended UN Sustainable Development Summit and United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly Meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-26",
+      "startDate": "2015-09-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -16603,11 +16705,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "nursultan-nazarbaev--2016-03-31--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17463,21 +17569,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-01-19",
+      "endDate": "2018-01-17",
       "engagements": ["Met President Donald Trump", "Signed agreements"],
       "eventName": "UN Security Council Meeting",
-      "id": "nursultan-nazarbaev--2018-01-16--USA",
+      "id": "nursultan-nazarbaev--2018-01-15--USA",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended UN Security Council Meeting",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-01-16",
+      "startDate": "2018-01-15",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

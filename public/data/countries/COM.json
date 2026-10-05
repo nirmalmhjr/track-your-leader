@@ -429,37 +429,6 @@
     {
       "aliases": [],
       "countryCode": "COM",
-      "fullName": "Tadjidine Ben Said Massounde",
-      "id": "tadjidine-ben-said-massounde",
-      "party": "Comorian Union for Progress",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadjidine_Ben_Said_Massounde_illustration.png?width=160",
-      "positions": [
-        {
-          "categories": ["head_of_state", "head_of_government"],
-          "endDate": "1999-04-07",
-          "id": "tadjidine-ben-said-massounde-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1999-04-07",
-          "title": "President (Acting)"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Tadjidine_Ben_Said_Massounde"
-        }
-      ],
-      "summary": "Tadjidine Ben Said Massounde was a Comorian politician. He was born in 1928 in Domoni on Anjouan.",
-      "wikidataId": "Q888853"
-    },
-    {
-      "aliases": [],
-      "countryCode": "COM",
       "fullName": "Abdallah Said Sarouma",
       "id": "abdallah-said-sarouma",
       "party": null,
@@ -2377,6 +2346,31 @@
       "startDate": "2011-05-09",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Libreville",
+        "coordinates": [9.440277777, 0.407777777],
+        "countryCode": "GAB",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1999-04-07",
+      "engagements": ["Met President Omar Bongo"],
+      "eventName": null,
+      "id": "azali-assoumani--1999-04-07--GAB",
+      "officialId": "azali-assoumani",
+      "purpose": "Visit to Gabon",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-04-07",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -4463,19 +4457,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "azali-assoumani--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "azali-assoumani--2022-12-13--USA",
       "officialId": "azali-assoumani",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -7052,19 +7050,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-05",
+      "endDate": "2014-08-06",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "ikililou-dhoinine--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "ikililou-dhoinine--2014-08-05--USA",
       "officialId": "ikililou-dhoinine",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -7596,31 +7598,6 @@
       "startDate": "1994-11-08",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Libreville",
-        "coordinates": [9.440277777, 0.407777777],
-        "countryCode": "GAB",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1999-04-07",
-      "engagements": ["Met President Omar Bongo"],
-      "eventName": null,
-      "id": "tadjidine-ben-said-massounde--1999-04-07--GAB",
-      "officialId": "tadjidine-ben-said-massounde",
-      "purpose": "Visit to Gabon",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1999-04-07",
-      "statusHint": null,
-      "type": "official_visit"
     }
   ]
 }

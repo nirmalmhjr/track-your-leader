@@ -347,6 +347,33 @@
       "wikidataId": "Q357219"
     },
     {
+      "aliases": [],
+      "countryCode": "ALB",
+      "fullName": "Aleksander Meksi",
+      "id": "aleksander-meksi",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1993-04-22",
+          "id": "aleksander-meksi-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1993-04-20",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Edvin Kristaq Rama", "Edvin Rama"],
       "countryCode": "ALB",
       "fullName": "Edi Rama",
@@ -2410,8 +2437,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-04-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-meksi--1993-04-20--USA",
+      "officialId": "aleksander-meksi",
+      "purpose": "Attended dedication of the Holocaust Memorial Museum and met with President Clinton on April 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-04-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Prekaz",
-        "coordinates": [20.82898, 42.782274],
+        "coordinates": [20.8297, 42.7797],
         "countryCode": "SRB",
         "region": "Europe"
       },
@@ -10585,11 +10637,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "edi-rama--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "edi-rama--2024-07-10--USA",
       "officialId": "edi-rama",
-      "purpose": "Prime Minister Rama attended the 33rd summit of NATO held in Washington, D.C., United States, alongside other heads of government from the…",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Edi_Rama"
@@ -10599,7 +10655,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -13193,21 +13249,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-03-31",
+      "endDate": "2004-04-01",
       "engagements": [],
       "eventName": "Albania-Bulgaria-Croatia-Estonia-Latvia-Lithuania-North Macedonia-Romania-Slovakia-Slovenia Multilateral Meeting",
-      "id": "fatos-nano--2004-03-26--USA",
+      "id": "fatos-nano--2004-03-27--USA",
       "officialId": "fatos-nano",
-      "purpose": "Attended Albania-Bulgaria-Croatia-Estonia-Latvia-Lithuania-North Macedonia-Romania-Slovakia-Slovenia Multilateral Meeting",
+      "purpose": "Working visit. Attended NATO Accession ceremony.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-03-26",
+      "startDate": "2004-03-27",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14308,13 +14368,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-05-04",
+      "endDate": "2001-05-03",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "ilir-meta--2001-05-01--USA",
       "officialId": "ilir-meta",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush May 1 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14322,7 +14386,7 @@
       ],
       "startDate": "2001-05-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14824,21 +14888,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-02-07",
+      "endDate": "1999-02-04",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "pandeli-majko--1999-02-01--USA",
+      "id": "pandeli-majko--1999-02-04--USA",
       "officialId": "pandeli-majko",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-02-01",
+      "startDate": "1999-02-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15527,6 +15595,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-02-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "rexhep-meidani--1998-02-03--USA",
+      "officialId": "rexhep-meidani",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1998-02-03",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-04-25",
+      "engagements": [],
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "rexhep-meidani--1999-04-23--USA",
+      "officialId": "rexhep-meidani",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-04-23",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -15614,16 +15732,20 @@
       "endDate": "1992-06-16",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "sali-berisha--1992-06-12--USA",
+      "id": "sali-berisha--1992-06-14--USA",
       "officialId": "sali-berisha",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-06-12",
+      "startDate": "1992-06-14",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16395,13 +16517,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-09-15",
+      "endDate": "1995-09-13",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "sali-berisha--1995-09-10--USA",
       "officialId": "sali-berisha",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Afterwards visited Boston and New York.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18949,11 +19075,15 @@
       },
       "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "sali-berisha--2012-05-20--USA",
       "officialId": "sali-berisha",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

@@ -1085,19 +1085,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-03-21",
+      "endDate": "2008-03-20",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "david-thompson--2008-03-20--USA",
+      "id": "david-thompson--2008-03-19--USA",
       "officialId": "david-thompson",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-03-20",
+      "startDate": "2008-03-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -1500,6 +1504,31 @@
       "startDate": "2010-03-11",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-09-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "errol-barrow--1968-09-11--USA",
+      "officialId": "errol-barrow",
+      "purpose": "Official visit. Private visit to New York City and Philadelphia September 8–10, and to San Francisco September 13–16.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-09-11",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -2843,8 +2872,12 @@
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "lloyd-erskine-sandiford--1993-08-30--USA",
       "officialId": "lloyd-erskine-sandiford",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "purpose": "Attended a CARICOM working luncheon.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4652,11 +4685,15 @@
       },
       "endDate": "2023-11-03",
       "engagements": [],
-      "eventName": "Americas Partnership for Economic Prosperity (APEP) Summit",
+      "eventName": "Attended the APEP Leaders' Summit.",
       "id": "mia-mottley--2023-11-03--USA",
       "officialId": "mia-mottley",
-      "purpose": "Attended Americas Partnership for Economic Prosperity (APEP) Summit",
+      "purpose": "Attended the APEP Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5788,13 +5825,42 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1994-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "owen-arthur--1994-09-16--USA",
+      "officialId": "owen-arthur",
+      "purpose": "Discussed the despatch of a multinational force to Haiti.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1994-09-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1994-12-11",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "owen-arthur--1994-12-09--USA",
       "officialId": "owen-arthur",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7831,6 +7897,31 @@
       "startDate": "2007-12-06",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-04-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "tom-adams--1980-04-27--USA",
+      "officialId": "tom-adams",
+      "purpose": "Private visit. Met with President Carter April 28.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-04-27",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

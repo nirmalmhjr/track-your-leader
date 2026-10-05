@@ -57,6 +57,10 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
       "summary": "",
@@ -273,6 +277,10 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
           "label": "Wikipedia",
@@ -1343,6 +1351,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-03-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "alfredo-stroessner--1968-03-20--USA",
+      "officialId": "alfredo-stroessner",
+      "purpose": "Official visit. In U.S. March 19–23; visited Williamsburg and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-03-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1972-04-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "alfredo-stroessner--1972-04-14--JPN",
+      "officialId": "alfredo-stroessner",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1972-04-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "alfredo-stroessner--1977-09-06--USA",
+      "officialId": "alfredo-stroessner",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Montevideo",
         "coordinates": [-56.191311111, -34.905916666],
         "countryCode": "URY",
@@ -1480,16 +1563,20 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "andres-rodriguez--1990-06-14--USA",
+      "id": "andres-rodriguez--1990-06-15--USA",
       "officialId": "andres-rodriguez",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-06-14",
+      "startDate": "1990-06-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -2155,21 +2242,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-26",
+      "endDate": "2008-09-24",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "fernando-lugo--2008-09-21--USA",
+      "id": "fernando-lugo--2008-09-24--USA",
       "officialId": "fernando-lugo",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-21",
+      "startDate": "2008-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2199,31 +2290,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2008-10-28",
-      "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": null,
-      "id": "fernando-lugo--2008-10-27--USA",
-      "officialId": "fernando-lugo",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-10-27",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "San Salvador",
         "coordinates": [-89.191155555, 13.697597222],
         "countryCode": "SLV",
@@ -2245,6 +2311,35 @@
       "startDate": "2008-10-29",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-10-29",
+      "engagements": ["Met President George W. Bush", "Gave a public address"],
+      "eventName": null,
+      "id": "fernando-lugo--2008-10-29--USA",
+      "officialId": "fernando-lugo",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2008-10-29",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6095,19 +6190,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-10",
+      "endDate": "1994-12-11",
       "engagements": ["Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "juan-carlos-wasmosy--1994-12-10--USA",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "juan-carlos-wasmosy--1994-12-09--USA",
       "officialId": "juan-carlos-wasmosy",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-12-10",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -8251,19 +8350,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-12-16",
+      "endDate": "2019-12-15",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "mario-abdo-benitez--2019-12-11--USA",
+      "id": "mario-abdo-benitez--2019-12-12--USA",
       "officialId": "mario-abdo-benitez",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-12-11",
+      "startDate": "2019-12-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8556,17 +8659,21 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas",
-      "id": "mario-abdo-benitez--2022-06-07--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "mario-abdo-benitez--2022-06-08--USA",
       "officialId": "mario-abdo-benitez",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-07",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -9138,21 +9245,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-09-28",
+      "endDate": "2003-09-26",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "nicanor-duarte--2003-09-22--USA",
+      "id": "nicanor-duarte--2003-09-26--USA",
       "officialId": "nicanor-duarte",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-22",
+      "startDate": "2003-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10607,50 +10718,80 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-09-25",
+      "endDate": "2023-09-23",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": "Concordia Summit",
-      "id": "santiago-pena-palacios--2023-09-17--USA",
+      "id": "santiago-pena-palacios--2023-09-16--USA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Attended Concordia Summit and United Nations (UN) General Assembly",
+      "purpose": "Invitado en la 78.ª Asamblea General de las Naciones Unidas​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-17",
+      "startDate": "2023-09-16",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
+        "city": "Buenos Aires",
+        "coordinates": [-58.381944444, -34.599722222],
+        "countryCode": "ARG",
         "region": "Americas"
       },
-      "endDate": "2023-10-26",
+      "endDate": "2023-10-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2023-10-12--ARG",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Participación en un partido de fútbol entre Argentina y Paraguay como parte de las eliminatorias de la Conmebol para la Copa Mundial de Fút…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2023-10-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington D. C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2023-10-25",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "santiago-pena-palacios--2023-10-23--USA",
+      "id": "santiago-pena-palacios--2023-10-22--USA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to United States",
+      "purpose": "Invitado en la Sesión Protocolar del Consejo Permanente de la Organización de Estados Americanos​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-23",
+      "startDate": "2023-10-22",
       "statusHint": null,
       "type": "other"
     },
@@ -10660,7 +10801,6 @@
         "city": "Montevideo",
         "coordinates": [-56.191311111, -34.905916666],
         "countryCode": "URY",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2023-10-27",
@@ -10668,8 +10808,12 @@
       "eventName": null,
       "id": "santiago-pena-palacios--2023-10-27--URY",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Uruguay",
+      "purpose": "Reunión con el presidente Luis Lacalle Pou​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10682,19 +10826,22 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Santiago",
+        "city": "Santiago de Chile",
         "coordinates": [-70.65, -33.4375],
         "countryCode": "CHL",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-11-08",
+      "endDate": "2023-11-09",
       "engagements": ["Met President Gabriel Boric", "Gave a public address"],
       "eventName": null,
       "id": "santiago-pena-palacios--2023-11-06--CHL",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Chile",
+      "purpose": "Reunión con el presidente Gabriel Boric​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10703,31 +10850,6 @@
       "startDate": "2023-11-06",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Rome",
-        "coordinates": [12.4964, 41.9028],
-        "countryCode": "ITA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2023-11-29",
-      "engagements": [],
-      "eventName": null,
-      "id": "santiago-pena-palacios--2023-11-26--ITA",
-      "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Italy",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-11-26",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -10741,10 +10863,42 @@
       "endDate": "2023-11-27",
       "engagements": ["Met Pope Francis"],
       "eventName": null,
-      "id": "santiago-pena-palacios--2023-11-27--VAT",
+      "id": "santiago-pena-palacios--2023-11-26--VAT",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Reunión con el papa Francisco​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2023-11-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Roma",
+        "coordinates": [12.482777777, 41.893055555],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "2023-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2023-11-27--ITA",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Reunión con el presidente Sergio Mattarella​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10752,15 +10906,14 @@
       ],
       "startDate": "2023-11-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "other"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Abu Dhabi",
-        "coordinates": [54.396944444, 24.451111111],
+        "city": "Dubái",
+        "coordinates": [55.311666666, 25.264444444],
         "countryCode": "ARE",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-12-03",
@@ -10771,8 +10924,12 @@
       "eventName": "Conference of the Parties (COP)",
       "id": "santiago-pena-palacios--2023-11-30--ARE",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Attended Conference of the Parties (COP)",
+      "purpose": "Invitado en la Conferencia de las Naciones Unidas sobre el Cambio Climático de 2023​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10785,10 +10942,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
-        "coordinates": [-47.8825, -15.7942],
+        "city": "Río de Janeiro",
+        "coordinates": [-43.205555555, -22.911111111],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2023-12-07",
@@ -10799,8 +10955,12 @@
       "eventName": "Common Market of the South (MERCOSUR) Summit",
       "id": "santiago-pena-palacios--2023-12-07--BRA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Attended Common Market of the South (MERCOSUR) Summit",
+      "purpose": "Reunión con el presidente Luiz Inácio Lula da Silva y traspaso de la presidencia pro tempore del Mercosur​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10816,16 +10976,19 @@
         "city": "Buenos Aires",
         "coordinates": [-58.381944444, -34.599722222],
         "countryCode": "ARG",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-12-11",
+      "endDate": "2023-12-10",
       "engagements": ["Met President Javier Milei"],
       "eventName": null,
       "id": "santiago-pena-palacios--2023-12-08--ARG",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Argentina",
+      "purpose": "Invitado a la asunción del presidente Javier Milei​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10838,35 +11001,37 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Guatemala City",
+        "city": "Ciudad de Guatemala",
         "coordinates": [-90.513333333, 14.641666666],
         "countryCode": "GTM",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-01-15",
+      "endDate": "2024-01-14",
       "engagements": ["Met President Alejandro Giammattei"],
       "eventName": null,
-      "id": "santiago-pena-palacios--2024-01-13--GTM",
+      "id": "santiago-pena-palacios--2024-01-12--GTM",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Guatemala",
+      "purpose": "Invitado en la asunción del presidente Bernardo Arévalo​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-01-13",
+      "startDate": "2024-01-12",
       "statusHint": null,
       "type": "official_visit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
-        "coordinates": [-47.8825, -15.7942],
+        "city": "Brasilia",
+        "coordinates": [-47.882777777, -15.793888888],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-01-15",
@@ -10874,8 +11039,12 @@
       "eventName": null,
       "id": "santiago-pena-palacios--2024-01-15--BRA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Brazil",
+      "purpose": "Reunión con el presidente Luiz Inácio Lula da Silva​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10891,16 +11060,19 @@
         "city": "Buenos Aires",
         "coordinates": [-58.381944444, -34.599722222],
         "countryCode": "ARG",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-02-15",
+      "endDate": "2024-02-14",
       "engagements": ["Met President Javier Milei"],
       "eventName": null,
       "id": "santiago-pena-palacios--2024-02-14--ARG",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Argentina",
+      "purpose": "Reunión con el presidente Javier Milei​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10913,10 +11085,57 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Barcelona",
+        "coordinates": [2.176944444, 41.3825],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "2024-03-01",
+      "engagements": [],
+      "eventName": "Mobile World Congress",
+      "id": "santiago-pena-palacios--2024-02-25--ESP",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Reunión con el rey Felipe VI y el presidente del gobierno Pedro Sánchez, además de invitado en la Mobile World Congress de Barcelona​​​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2024-02-25",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [-58.381944444, -34.599722222],
+        "countryCode": "ARG",
+        "region": "Americas"
+      },
+      "endDate": "2024-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2024-03-22--ARG",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Reunión con el presidente Javier Milei y participación en el programa Almorzando con Juana​​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2024-03-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Montevideo",
         "coordinates": [-56.191311111, -34.905916666],
         "countryCode": "URY",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-04-11",
@@ -10924,8 +11143,12 @@
       "eventName": null,
       "id": "santiago-pena-palacios--2024-04-11--URY",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Uruguay",
+      "purpose": "Reunión con el presidente Luis Lacalle Pou y el presidente de la FIFA, Gianni Infantino, sobre los preparativos para la Copa Mundial de Fút…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10938,19 +11161,46 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
+        "city": "Bariloche",
+        "coordinates": [-71.3, -41.15],
+        "countryCode": "ARG",
         "region": "Americas"
       },
-      "endDate": "2024-05-17",
+      "endDate": "2024-04-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2024-04-18--ARG",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Reunión con los presidentes Javier Milei y Luis Lacalle Pou, de Argentina y Uruguay respectivamente, en un foro de empresarios​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2024-04-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington D. C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2024-05-18",
       "engagements": ["Gave a public address"],
       "eventName": null,
       "id": "santiago-pena-palacios--2024-05-14--USA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to United States",
+      "purpose": "Reunión con oficiales estadounidenses (Washington)​ y ejecutivos de Alphabet y Nvidia (San Francisco)​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10963,50 +11213,56 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Taipei",
+        "city": "Taipéi",
         "coordinates": [121.5625, 25.0375],
         "countryCode": "TWN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2024-05-21",
+      "endDate": "2024-05-22",
       "engagements": ["Met President Tsai Ing-wen", "Gave a public address"],
       "eventName": null,
-      "id": "santiago-pena-palacios--2024-05-17--TWN",
+      "id": "santiago-pena-palacios--2024-05-19--TWN",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Taiwan",
+      "purpose": "Invitado en la asunción del presidente William Lai​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-05-17",
+      "startDate": "2024-05-19",
       "statusHint": null,
       "type": "official_visit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Miami",
+        "coordinates": [-80.193611111, 25.774166666],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-05-31",
+      "endDate": "2024-06-01",
       "engagements": [],
       "eventName": null,
-      "id": "santiago-pena-palacios--2024-05-29--USA",
+      "id": "santiago-pena-palacios--2024-05-30--USA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to United States",
+      "purpose": "Reunión con la comandante del Comando Sur de EE. UU. Laura Richardson y invitado en el Centro Adam Smith para la Libertad Económica​​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-05-29",
+      "startDate": "2024-05-30",
       "statusHint": null,
       "type": "other"
     },
@@ -11016,22 +11272,25 @@
         "city": "San Salvador",
         "coordinates": [-89.191155555, 13.697597222],
         "countryCode": "SLV",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-06-01",
       "engagements": [],
       "eventName": null,
-      "id": "santiago-pena-palacios--2024-05-31--SLV",
+      "id": "santiago-pena-palacios--2024-06-01--SLV",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to El Salvador",
+      "purpose": "Invitado en la asunción del presidente reelecto Nayib Bukele​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-05-31",
+      "startDate": "2024-06-01",
       "statusHint": null,
       "type": "other"
     },
@@ -11041,16 +11300,19 @@
         "city": "La Paz",
         "coordinates": [-68.133333333, -16.495833333],
         "countryCode": "BOL",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-06-14",
+      "endDate": "2024-06-13",
       "engagements": ["Met President Luis Arce", "Signed agreements"],
       "eventName": null,
       "id": "santiago-pena-palacios--2024-06-13--BOL",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Bolivia",
+      "purpose": "Reunión con el presidente Luis Arce​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11066,7 +11328,6 @@
         "city": "Buenos Aires",
         "coordinates": [-58.381944444, -34.599722222],
         "countryCode": "ARG",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-07-17",
@@ -11074,8 +11335,12 @@
       "eventName": null,
       "id": "santiago-pena-palacios--2024-07-17--ARG",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Argentina",
+      "purpose": "Ceremonia de conmemoración por el 30.º aniversario del atentado a la AMIA​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11088,25 +11353,28 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
-        "coordinates": [2.3522, 48.8566],
+        "city": "París",
+        "coordinates": [2.352222222, 48.856666666],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-07-27",
+      "endDate": "2024-07-28",
       "engagements": ["Met President Emmanuel Macron", "Gave a public address"],
       "eventName": null,
-      "id": "santiago-pena-palacios--2024-07-25--FRA",
+      "id": "santiago-pena-palacios--2024-07-23--FRA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to France",
+      "purpose": "Inauguración de los Juegos Olímpicos de Verano; reunión con Alberto II de Mónaco, Audrey Azoulay, Gianni Infantino, Emmanuel Macron, Benjam…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-25",
+      "startDate": "2024-07-23",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11116,41 +11384,119 @@
         "city": "Santo Domingo",
         "coordinates": [-69.936111111, 18.4625],
         "countryCode": "DOM",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-08-16",
+      "endDate": "2024-08-17",
       "engagements": [],
       "eventName": null,
-      "id": "santiago-pena-palacios--2024-08-16--DOM",
+      "id": "santiago-pena-palacios--2024-08-15--DOM",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Visit to Dominican Republic",
+      "purpose": "Invitado en la asunción del presidente Luis Abinader​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-08-16",
+      "startDate": "2024-08-15",
       "statusHint": null,
       "type": "other"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
+        "city": "San José",
+        "coordinates": [-84.079613888, 9.932738888],
+        "countryCode": "CRI",
         "region": "Americas"
       },
-      "endDate": "2024-09-26",
+      "endDate": "2024-08-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2024-08-18--CRI",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Reunión con el presidente Rodrigo Chaves​​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2024-08-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Montevideo",
+        "coordinates": [-56.191311111, -34.905916666],
+        "countryCode": "URY",
+        "region": "Americas"
+      },
+      "endDate": "2024-09-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2024-09-06--URY",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Invitado a un partido de fútbol entre Paraguay y Uruguay​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2024-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Santa Fe",
+        "coordinates": [-60.7, -31.633333333],
+        "countryCode": "ARG",
+        "region": "Americas"
+      },
+      "endDate": "2024-09-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "santiago-pena-palacios--2024-09-07--ARG",
+      "officialId": "santiago-pena-palacios",
+      "purpose": "Reunión con el gobernador Maximiliano Pullaro​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        }
+      ],
+      "startDate": "2024-09-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2024-09-27",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "santiago-pena-palacios--2024-09-22--USA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Invitado en la 80.ª Asamblea General de las Naciones Unidas​​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Santiago_Pe%C3%B1a"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

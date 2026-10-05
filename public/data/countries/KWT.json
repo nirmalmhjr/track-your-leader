@@ -2623,6 +2623,33 @@
       ],
       "summary": "Sabah Al-Khalid Al-Sabah (born 3 March 1953) is Crown Prince of Kuwait. A senior member of the Al-Sabah ruling family, he held various government positions from 2006 to 2022, serving as Foreign Minister from 2011 to 2019 and as Prime Minister from 2019 to 2022.",
       "wikidataId": "Q12219691"
+    },
+    {
+      "aliases": [],
+      "countryCode": "KWT",
+      "fullName": "Sheikh Nasser Sabah Al-Ahmed Al-Sabah",
+      "id": "sheikh-nasser-sabah-al-ahmed-al-sabah",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "2020-09-18",
+          "id": "sheikh-nasser-sabah-al-ahmed-al-sabah-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-09-18",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     }
   ],
   "trips": [
@@ -2685,24 +2712,28 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-09-30",
+      "endDate": "1990-09-28",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "jaber-al-ahmad-al-sabah--1990-09-27--USA",
+      "id": "jaber-al-ahmad-al-sabah--1990-09-28--USA",
       "officialId": "jaber-al-ahmad-al-sabah",
-      "purpose": "Attended United Nations (UN) General Assembly and World Summit for Children",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-09-27",
+      "startDate": "1990-09-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3652,13 +3683,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1995-05-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4539,6 +4574,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-09-26",
+      "engagements": [],
+      "eventName": "Met with President Reagan while attending U.N. General Assembly in New York City.",
+      "id": "mishal-al-ahmad-al-jabir-al-sabah--1988-09-26--USA",
+      "officialId": "mishal-al-ahmad-al-jabir-al-sabah",
+      "purpose": "Met with President Reagan while attending U.N. General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-09-26",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "mishal-al-ahmad-al-jabir-al-sabah--1991-10-01--USA",
+      "officialId": "mishal-al-ahmad-al-jabir-al-sabah",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1991-10-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-03-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "mishal-al-ahmad-al-jabir-al-sabah--1996-02-27--USA",
+      "officialId": "mishal-al-ahmad-al-jabir-al-sabah",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1996-02-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-09-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "nasser-mohammed-al-ahmed-al-sabah--2008-09-17--USA",
+      "officialId": "nasser-mohammed-al-ahmed-al-sabah",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-09-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Riyadh",
         "coordinates": [46.71, 24.65],
         "countryCode": "SAU",
@@ -4864,6 +4999,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-07-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "saad-al-abdullah-al-salim-al-sabah--1988-07-10--USA",
+      "officialId": "saad-al-abdullah-al-salim-al-sabah",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-07-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-09-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2003-09-09--USA",
+      "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-09-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-07-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2005-07-01--USA",
+      "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-07-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Riyadh",
         "coordinates": [46.71, 24.65],
         "countryCode": "SAU",
@@ -5145,19 +5355,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-09-15",
+      "endDate": "2006-09-05",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2006-09-03--USA",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2006-09-04--USA",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-09-03",
+      "startDate": "2006-09-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6170,19 +6384,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-08-13",
+      "endDate": "2009-08-03",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2009-07-19--USA",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2009-08-03--USA",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-07-19",
+      "startDate": "2009-08-03",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7262,18 +7480,22 @@
       "endDate": "2012-03-23",
       "engagements": ["Met Prime Minister Noda Yoshihiko", "Signed agreements"],
       "eventName": null,
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2012-03-19--JPN",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2012-03-20--JPN",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-03-19",
+      "startDate": "2012-03-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7584,21 +7806,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2012-11-30",
+      "endDate": "2012-11-29",
       "engagements": ["Met Prime Minister David Cameron", "Signed agreements"],
       "eventName": null,
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2012-11-26--GBR",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2012-11-27--GBR",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-11-26",
+      "startDate": "2012-11-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7859,19 +8085,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-10-07",
+      "endDate": "2013-09-13",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2013-08-25--USA",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2013-09-13--USA",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-08-25",
+      "startDate": "2013-09-13",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8637,16 +8867,20 @@
       "endDate": "2015-05-15",
       "engagements": [],
       "eventName": "United States-Gulf Cooperation Council (GCC) Summit",
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2015-05-10--USA",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2015-05-13--USA",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
-      "purpose": "Attended United States-Gulf Cooperation Council (GCC) Summit",
+      "purpose": "Attended a Summit at Camp David, MD, for Gulf Cooperation Council members on Countering Violent Extremism.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-05-10",
+      "startDate": "2015-05-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -9521,19 +9755,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-09-08",
+      "endDate": "2017-09-07",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "sabah-al-ahmad-al-jaber-al-sabah--2017-09-06--USA",
+      "id": "sabah-al-ahmad-al-jaber-al-sabah--2017-09-07--USA",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-06",
+      "startDate": "2017-09-07",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9777,13 +10015,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-09-10",
+      "endDate": "2018-09-05",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
       "id": "sabah-al-ahmad-al-jaber-al-sabah--2018-09-05--USA",
       "officialId": "sabah-al-ahmad-al-jaber-al-sabah",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10043,6 +10285,56 @@
         }
       ],
       "startDate": "2020-07-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-12-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "sabah-iii-al-salim-al-sabah--1968-12-11--USA",
+      "officialId": "sabah-iii-al-salim-al-sabah",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-12-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-09-18",
+      "engagements": [],
+      "eventName": "Private Ceremony for the Legion of Merit.",
+      "id": "sheikh-nasser-sabah-al-ahmed-al-sabah--2020-09-18--USA",
+      "officialId": "sheikh-nasser-sabah-al-ahmed-al-sabah",
+      "purpose": "Private Ceremony for the Legion of Merit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2020-09-18",
       "statusHint": null,
       "type": "other"
     }

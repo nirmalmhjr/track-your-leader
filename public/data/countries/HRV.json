@@ -10,7 +10,7 @@
       "positions": [
         {
           "categories": ["head_of_state"],
-          "endDate": "1999-10-29",
+          "endDate": "1999-06-17",
           "id": "franjo-tudjman-p1",
           "ministry": null,
           "portfolio": null,
@@ -22,6 +22,10 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
           "label": "Wikipedia",
@@ -9895,8 +9899,12 @@
       "eventName": null,
       "id": "franjo-tudjman--1993-04-18--USA",
       "officialId": "franjo-tudjman",
-      "purpose": "Visit to United States",
+      "purpose": "Attended dedication of the Holocaust Memorial Museum and met with President Clinton on April 21.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9904,7 +9912,7 @@
       ],
       "startDate": "1993-04-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10120,8 +10128,12 @@
       "eventName": null,
       "id": "franjo-tudjman--1994-03-17--USA",
       "officialId": "franjo-tudjman",
-      "purpose": "Visit to United States",
+      "purpose": "Attended the signing of the Muslim-Croat federation agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10218,19 +10230,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-03-17",
+      "endDate": "1995-03-16",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "franjo-tudjman--1995-03-16--USA",
+      "id": "franjo-tudjman--1995-03-15--USA",
       "officialId": "franjo-tudjman",
-      "purpose": "Visit to United States",
+      "purpose": "Attended commemoration of the first anniversary of the Bosnian-Croatian Federation.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-03-16",
+      "startDate": "1995-03-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10333,156 +10349,6 @@
       "startDate": "1995-09-25",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-11-22",
-      "engagements": ["Met President Bill Clinton", "Signed agreements"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "franjo-tudjman--1995-10-24--USA",
-      "officialId": "franjo-tudjman",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-10-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Paris",
-        "coordinates": [2.3522, 48.8566],
-        "countryCode": "FRA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1995-12-15",
-      "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": null,
-      "id": "franjo-tudjman--1995-12-14--FRA",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to France",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-12-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Sarajevo",
-        "coordinates": [18.413055555, 43.856388888],
-        "countryCode": "BIH",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1996-01-04",
-      "engagements": ["Met Chairman of the State Presidency Alija Izetbegovic"],
-      "eventName": null,
-      "id": "franjo-tudjman--1996-01-04--BIH",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to Bosnia and Herzegovina",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-01-04",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-08-02",
-      "engagements": ["Met President Bill Clinton"],
-      "eventName": null,
-      "id": "franjo-tudjman--1996-08-01--USA",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-08-01",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Athens",
-        "coordinates": [23.728055555, 37.984166666],
-        "countryCode": "GRC",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1996-08-07",
-      "engagements": [],
-      "eventName": null,
-      "id": "franjo-tudjman--1996-08-07--GRC",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to Greece",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-08-07",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "franjo-tudjman--1996-11-08--USA",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-08",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -10636,56 +10502,6 @@
       "startDate": "1999-06-15",
       "statusHint": null,
       "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vatican City",
-        "coordinates": [12.453, 41.904],
-        "countryCode": "VAT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1999-10-28",
-      "engagements": ["Met Pope John Paul II"],
-      "eventName": null,
-      "id": "franjo-tudjman--1999-10-28--VAT",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1999-10-28",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Rome",
-        "coordinates": [12.4964, 41.9028],
-        "countryCode": "ITA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1999-10-29",
-      "engagements": ["Met President Carlo Azeglio Ciampi"],
-      "eventName": null,
-      "id": "franjo-tudjman--1999-10-29--ITA",
-      "officialId": "franjo-tudjman",
-      "purpose": "Visit to Italy",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1999-10-29",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11010,8 +10826,12 @@
       "eventName": null,
       "id": "ivica-racan--2000-08-07--USA",
       "officialId": "ivica-racan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11417,19 +11237,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-06-12",
+      "endDate": "2002-06-06",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "ivica-racan--2002-06-05--USA",
+      "id": "ivica-racan--2002-06-06--USA",
       "officialId": "ivica-racan",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-06-05",
+      "startDate": "2002-06-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11735,6 +11559,164 @@
       "startDate": "2003-11-08",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-24",
+      "engagements": ["Met President Bill Clinton", "Signed agreements"],
+      "eventName": "Met with President Clinton at the UN General Assembly in New York City.",
+      "id": "ivo-sanader--1995-10-24--USA",
+      "officialId": "ivo-sanader",
+      "purpose": "Met with President Clinton at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-10-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-12-15",
+      "engagements": ["Signed agreements", "Gave a public address"],
+      "eventName": null,
+      "id": "ivo-sanader--1995-12-14--FRA",
+      "officialId": "ivo-sanader",
+      "purpose": "Visit to France",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-12-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Sarajevo",
+        "coordinates": [18.413055555, 43.856388888],
+        "countryCode": "BIH",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-01-04",
+      "engagements": ["Met Chairman of the State Presidency Alija Izetbegovic"],
+      "eventName": null,
+      "id": "ivo-sanader--1996-01-04--BIH",
+      "officialId": "ivo-sanader",
+      "purpose": "Visit to Bosnia and Herzegovina",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-01-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-08-02",
+      "engagements": ["Met President Bill Clinton"],
+      "eventName": null,
+      "id": "ivo-sanader--1996-08-01--USA",
+      "officialId": "ivo-sanader",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-08-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-08-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "ivo-sanader--1996-08-07--GRC",
+      "officialId": "ivo-sanader",
+      "purpose": "Visit to Greece",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-08-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-11-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ivo-sanader--1996-11-08--USA",
+      "officialId": "ivo-sanader",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-08",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -12075,8 +12057,12 @@
       "eventName": null,
       "id": "ivo-sanader--2004-03-28--USA",
       "officialId": "ivo-sanader",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Attended NATO Accession ceremony.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12084,7 +12070,7 @@
       ],
       "startDate": "2004-03-28",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14453,16 +14439,20 @@
       "endDate": "2006-10-18",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "ivo-sanader--2006-10-16--USA",
+      "id": "ivo-sanader--2006-10-15--USA",
       "officialId": "ivo-sanader",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-10-16",
+      "startDate": "2006-10-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -18009,31 +17999,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Sofia",
-        "coordinates": [23.321726, 42.697886],
-        "countryCode": "BGR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-04-15",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-04-14--BGR",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Bulgaria",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-04-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Portorož",
         "coordinates": [13.590833333, 45.514166666],
         "countryCode": "SVN",
@@ -18054,31 +18019,6 @@
       "startDate": "2015-04-17",
       "statusHint": null,
       "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Rome",
-        "coordinates": [12.4964, 41.9028],
-        "countryCode": "ITA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-04-23",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-04-23--ITA",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Italy",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-04-23",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18155,56 +18095,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tallinn",
-        "coordinates": [24.745, 59.437222222],
-        "countryCode": "EST",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-06-03",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-06-03--EST",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Estonia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-06-03",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bucharest",
-        "coordinates": [26.097777777, 44.413361111],
-        "countryCode": "ROU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-06-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-06-15--ROU",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Romania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-06-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Vienna",
         "coordinates": [16.3725, 48.208333333],
         "countryCode": "AUT",
@@ -18249,31 +18139,6 @@
       "startDate": "2015-06-19",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vilnius",
-        "coordinates": [25.28, 54.687222222],
-        "countryCode": "LTU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-06-30",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-06-29--LTU",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Lithuania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-06-29",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18518,156 +18383,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tirana",
-        "coordinates": [19.818055555, 41.328333333],
-        "countryCode": "ALB",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-11-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-11-25--ALB",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Albania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-11-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vienna",
-        "coordinates": [16.3725, 48.208333333],
-        "countryCode": "AUT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-11-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-11-25--AUT",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Austria",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-11-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Podgorica",
-        "coordinates": [19.262777777, 42.441388888],
-        "countryCode": "MNE",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-11-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-11-25--MNE",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Montenegro",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-11-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Belgrade",
-        "coordinates": [20.456944444, 44.817777777],
-        "countryCode": "SRB",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-11-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-11-25--SRB",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Serbia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-11-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ljubljana",
-        "coordinates": [14.506111111, 46.051388888],
-        "countryCode": "SVN",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2015-11-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-11-25--SVN",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Slovenia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-11-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-11-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2015-11-25--USA",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2015-11-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Bratislava",
         "coordinates": [17.1093063, 48.1516988],
         "countryCode": "SVK",
@@ -18817,56 +18532,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
-        "coordinates": [-0.1276, 51.5072],
-        "countryCode": "GBR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2016-03-15",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2016-03-14--GBR",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to United Kingdom",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2016-03-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tallinn",
-        "coordinates": [24.745, 59.437222222],
-        "countryCode": "EST",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2016-03-23",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2016-03-21--EST",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Estonia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2016-03-21",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Sofia",
         "coordinates": [23.321726, 42.697886],
         "countryCode": "BGR",
@@ -18983,56 +18648,6 @@
       "startDate": "2016-04-20",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2016-04-27",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2016-04-26--TUR",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Türkiye",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2016-04-26",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tirana",
-        "coordinates": [19.818055555, 41.328333333],
-        "countryCode": "ALB",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2016-05-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2016-05-09--ALB",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Albania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2016-05-09",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19446,31 +19061,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Prague",
-        "coordinates": [14.421388888, 50.0875],
-        "countryCode": "CZE",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-03-29",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-03-28--CZE",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Czechia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-03-28",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Dublin",
         "coordinates": [-6.260277777, 53.349722222],
         "countryCode": "IRL",
@@ -19491,31 +19081,6 @@
       "startDate": "2017-04-03",
       "statusHint": null,
       "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Budapest",
-        "coordinates": [19.040833333, 47.498333333],
-        "countryCode": "HUN",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-04-13",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-04-12--HUN",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Hungary",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-04-12",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19544,31 +19109,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bern",
-        "coordinates": [7.44743, 46.94798],
-        "countryCode": "CHE",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-04-26",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-04-25--CHE",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Switzerland",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-04-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Valletta",
         "coordinates": [14.5125, 35.897777777],
         "countryCode": "MLT",
@@ -19589,31 +19129,6 @@
       "startDate": "2017-05-09",
       "statusHint": null,
       "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Lisbon",
-        "coordinates": [-9.139016, 38.708042],
-        "countryCode": "PRT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-05-19",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-05-18--PRT",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Portugal",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-05-18",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19639,106 +19154,6 @@
       "startDate": "2017-05-25",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bucharest",
-        "coordinates": [26.097777777, 44.413361111],
-        "countryCode": "ROU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-06-12",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-06-12--ROU",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Romania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-06-12",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Warsaw",
-        "coordinates": [21.011111111, 52.23],
-        "countryCode": "POL",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-06-13",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-06-13--POL",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Poland",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-06-13",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kyiv",
-        "coordinates": [30.5234, 50.4501],
-        "countryCode": "UKR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-06-13",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-06-13--UKR",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Ukraine",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-06-13",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bratislava",
-        "coordinates": [17.1093063, 48.1516988],
-        "countryCode": "SVK",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2017-06-21",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2017-06-20--SVK",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Slovakia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2017-06-20",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -20068,56 +19483,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Belgrade",
-        "coordinates": [20.456944444, 44.817777777],
-        "countryCode": "SRB",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-02-12",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-02-11--SRB",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Serbia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-02-11",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Valletta",
-        "coordinates": [14.5125, 35.897777777],
-        "countryCode": "MLT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-02-28",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-02-27--MLT",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Malta",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-02-27",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Mostar",
         "coordinates": [17.8075, 43.343611111],
         "countryCode": "BIH",
@@ -20238,31 +19603,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Helsinki",
-        "coordinates": [24.9375, 60.170833333],
-        "countryCode": "FIN",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-04-12",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-04-10--FIN",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Finland",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-04-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Skopje",
         "coordinates": [21.431666666, 41.996111111],
         "countryCode": "MKD",
@@ -20340,81 +19680,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jerusalem",
-        "coordinates": [35.234156, 31.776679],
-        "countryCode": "ISR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-07-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-07-24--ISR",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Israel",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-07-24",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Baku",
-        "coordinates": [49.835183333, 40.366655555],
-        "countryCode": "AZE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-09-06",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-09-06--AZE",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Azerbaijan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-09-06",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vienna",
-        "coordinates": [16.3725, 48.208333333],
-        "countryCode": "AUT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-09-10",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-09-10--AUT",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Austria",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-09-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Riga",
         "coordinates": [24.106944444, 56.9475],
         "countryCode": "LVA",
@@ -20487,277 +19752,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tirana",
-        "coordinates": [19.818055555, 41.328333333],
-        "countryCode": "ALB",
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
         "precision": "country",
-        "region": "Europe"
+        "region": "Americas"
       },
-      "endDate": "2018-12-04",
+      "endDate": "2000-08-10",
       "engagements": [],
       "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-12-03--ALB",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Albania",
+      "id": "stjepan-mesic--2000-08-07--USA",
+      "officialId": "stjepan-mesic",
+      "purpose": "Working visit.",
       "sources": [
         {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "2018-12-03",
+      "startDate": "2000-08-07",
       "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Budapest",
-        "coordinates": [19.040833333, 47.498333333],
-        "countryCode": "HUN",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-12-04",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-12-03--HUN",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Hungary",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-12-03",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Skopje",
-        "coordinates": [21.431666666, 41.996111111],
-        "countryCode": "MKD",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-12-04",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-12-03--MKD",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to North Macedonia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-12-03",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bucharest",
-        "coordinates": [26.097777777, 44.413361111],
-        "countryCode": "ROU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-12-04",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2018-12-03--ROU",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Romania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2018-12-03",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Athens",
-        "coordinates": [23.728055555, 37.984166666],
-        "countryCode": "GRC",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-02-05",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-02-05--GRC",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Greece",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-02-05",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Berlin",
-        "coordinates": [13.405, 52.52],
-        "countryCode": "DEU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-03-22",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-03-20--DEU",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Germany",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-03-20",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New Delhi",
-        "coordinates": [77.209, 28.6139],
-        "countryCode": "IND",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2019-03-26",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-03-25--IND",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to India",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-03-25",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Riga",
-        "coordinates": [24.106944444, 56.9475],
-        "countryCode": "LVA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-03-28",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-03-28--LVA",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Latvia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-03-28",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Beijing",
-        "coordinates": [116.4074, 39.9042],
-        "countryCode": "CHN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2019-04-10",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-04-10--CHN",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to China",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-04-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Sofia",
-        "coordinates": [23.321726, 42.697886],
-        "countryCode": "BGR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-07-23",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-07-23--BGR",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Bulgaria",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-07-23",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tirana",
-        "coordinates": [19.818055555, 41.328333333],
-        "countryCode": "ALB",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-10-29",
-      "engagements": [],
-      "eventName": null,
-      "id": "kolinda-grabar-kitarovic--2019-10-29--ALB",
-      "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "Visit to Albania",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
-        }
-      ],
-      "startDate": "2019-10-29",
-      "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -21162,6 +20177,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [12.453, 41.904],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-10-28",
+      "engagements": ["Met Pope John Paul II"],
+      "eventName": null,
+      "id": "vlatko-pavletic--1999-10-28--VAT",
+      "officialId": "vlatko-pavletic",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-10-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-10-29",
+      "engagements": ["Met President Carlo Azeglio Ciampi"],
+      "eventName": null,
+      "id": "vlatko-pavletic--1999-10-29--ITA",
+      "officialId": "vlatko-pavletic",
+      "purpose": "Visit to Italy",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-10-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-04-11",
+      "engagements": [],
+      "eventName": "Attended funeral service for Commerce Secretary Brown.",
+      "id": "zlatko-matesa--1996-04-09--USA",
+      "officialId": "zlatko-matesa",
+      "purpose": "Attended funeral service for Commerce Secretary Brown.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1996-04-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -21373,11 +20463,15 @@
       },
       "endDate": "2012-05-21",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "zoran-milanovic--2012-05-20--USA",
       "officialId": "zoran-milanovic",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24300,17 +23394,21 @@
       "engagements": [
         "Participated in sessions of the North Atlantic Council and held informal bilateral meetings with other heads of state."
       ],
-      "eventName": null,
-      "id": "zoran-milanovic--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "zoran-milanovic--2024-07-10--USA",
       "officialId": "zoran-milanovic",
-      "purpose": "Attended the 75th Anniversary NATO Summit.",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Zoran_Milanovi%C4%87"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },

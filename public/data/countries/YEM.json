@@ -48,6 +48,33 @@
       "wikidataId": "Q57480"
     },
     {
+      "aliases": [],
+      "countryCode": "YEM",
+      "fullName": "Ali Abdallah Salih",
+      "id": "ali-abdallah-salih",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1990-01-26",
+          "id": "ali-abdallah-salih-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1990-01-23",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Affash", "Ali Abdullah Saleh al-Ahmar"],
       "countryCode": "YEM",
       "fullName": "Ali Abdullah Saleh",
@@ -812,7 +839,7 @@
           "url": "https://en.wikipedia.org/wiki/Aydarus_al-Zubaydi"
         }
       ],
-      "summary": "Aydarus Qassem Abdulaziz al-Zubaydi (born 1967) is a Yemeni politician who served as the president of the Southern Transitional Council from 2017 until its dissolution in 2026. He was Vice President of the Presidential Leadership Council (PLC) from 2022 to 2026.",
+      "summary": "Aydarus Qassem Abdulaziz al-Zubaydi (born 1967) is a Yemeni politician who has served as the president of the Southern Transitional Council since 2017. He previously served as the vice president of the Presidential Leadership Council (PLC) from 2022 to 2026 and as the governor of Aden Governorate from 2015 to 2017.",
       "wikidataId": "Q22054939"
     },
     {
@@ -1693,6 +1720,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-08-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdrabbuh-mansour-hadi--2013-07-29--USA",
+      "officialId": "abdrabbuh-mansour-hadi",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2013-07-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kuwait City",
         "coordinates": [47.98, 29.375],
         "countryCode": "KWT",
@@ -1739,6 +1791,31 @@
       "startDate": "2014-07-09",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-01-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-abdallah-salih--1990-01-23--USA",
+      "officialId": "ali-abdallah-salih",
+      "purpose": "State Visit. Also visited New York City, San Francisco, and made a private visit to Dallas. Departed U.S. January 30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-01-23",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2627,18 +2704,22 @@
       "endDate": "2000-04-04",
       "engagements": [],
       "eventName": null,
-      "id": "ali-abdullah-saleh--2000-03-30--USA",
+      "id": "ali-abdullah-saleh--2000-04-02--USA",
       "officialId": "ali-abdullah-saleh",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-03-30",
+      "startDate": "2000-04-02",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -2899,19 +2980,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-11-28",
+      "endDate": "2001-11-27",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "ali-abdullah-saleh--2001-11-26--USA",
+      "id": "ali-abdullah-saleh--2001-11-25--USA",
       "officialId": "ali-abdullah-saleh",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-11-26",
+      "startDate": "2001-11-25",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3221,6 +3306,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-06-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-abdullah-saleh--2004-06-07--USA",
+      "officialId": "ali-abdullah-saleh",
+      "purpose": "Working visit. Attended G-8 Economic Summit at Sea Island, Georgia.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-06-07",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Doha",
         "coordinates": [51.529444444, 25.286111111],
         "countryCode": "QAT",
@@ -3365,6 +3475,31 @@
         }
       ],
       "startDate": "2005-06-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-11-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-abdullah-saleh--2005-11-10--USA",
+      "officialId": "ali-abdullah-saleh",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-11-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3617,6 +3752,31 @@
       "startDate": "2007-03-28",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-05-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-abdullah-saleh--2007-04-29--USA",
+      "officialId": "ali-abdullah-saleh",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2007-04-29",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

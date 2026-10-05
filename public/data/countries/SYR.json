@@ -476,11 +476,11 @@
       "positions": [
         {
           "categories": ["head_of_state"],
-          "endDate": "1963-01-01",
+          "endDate": "1963-03-08",
           "id": "nazim-al-kudsi-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "1961-01-01",
+          "startDate": "1961-12-14",
           "title": "President of Syria"
         }
       ],
@@ -621,6 +621,33 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "SYR",
+      "fullName": "Al-Khouri",
+      "id": "al-khouri",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1945-06-26",
+          "id": "al-khouri-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1945-04-25",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
       "summary": "",
@@ -3703,6 +3730,31 @@
       "startDate": "2027-06-23",
       "statusHint": "planned",
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-06-26",
+      "engagements": [],
+      "eventName": "Led Syrian delegation to the United Nations Conference in San Francisco.",
+      "id": "al-khouri--1945-04-25--USA",
+      "officialId": "al-khouri",
+      "purpose": "Led Syrian delegation to the United Nations Conference in San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-04-25",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",

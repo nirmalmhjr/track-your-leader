@@ -152,35 +152,8 @@
           "url": "https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta"
         }
       ],
-      "summary": "Assimi Goïta (born 9 November 1983) is a Malian politiican and military officer who has ruled Mali since 2021. He has served as the sixth president of Mali since 2025, previously serving as the interim vice president under Interim President Bah Ndaw from 2020 to 2021 and then as the interim president until 2025.",
+      "summary": "Assimi Goïta (born 9 November 1983) is a Malian politician and military officer who has ruled Mali since 2021. He has served as the sixth president of Mali since 2025, previously serving as the interim vice president under Interim President Bah Ndaw from 2020 to 2021 and then as the interim president until 2025.",
       "wikidataId": "Q98497406"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MLI",
-      "fullName": "Bah N'Daw",
-      "id": "bah-n-daw",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "2021-05-21",
-          "id": "bah-n-daw-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2020-11-12",
-          "title": "President (Acting)"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -3189,19 +3162,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-11-20",
+      "endDate": "1997-11-21",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "alpha-oumar-konare--1997-11-19--USA",
+      "id": "alpha-oumar-konare--1997-11-18--USA",
       "officialId": "alpha-oumar-konare",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-11-19",
+      "startDate": "1997-11-18",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6063,18 +6040,22 @@
       "endDate": "2001-06-28",
       "engagements": [],
       "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "alpha-oumar-konare--2001-06-27--USA",
+      "id": "alpha-oumar-konare--2001-06-26--USA",
       "officialId": "alpha-oumar-konare",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit and Partnership to Cut Hunger in Africa",
+      "purpose": "Working visit; attended a forum of the Partnership to Cut Hunger in Africa.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-06-27",
+      "startDate": "2001-06-26",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -9305,19 +9286,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-02-12",
+      "endDate": "2008-02-13",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "amadou-toumani-toure--2008-02-12--USA",
+      "id": "amadou-toumani-toure--2008-02-11--USA",
       "officialId": "amadou-toumani-toure",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-02-12",
+      "startDate": "2008-02-11",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11498,8 +11483,8 @@
       "endDate": "2020-11-13",
       "engagements": ["Met President Nana Akufo-Addo", "Signed agreements"],
       "eventName": null,
-      "id": "bah-n-daw--2020-11-12--GHA",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-11-12--GHA",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Ghana",
       "sources": [
         {
@@ -11523,8 +11508,8 @@
       "endDate": "2020-11-14",
       "engagements": ["Met President Faure Gnassingbe"],
       "eventName": null,
-      "id": "bah-n-daw--2020-11-13--TGO",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-11-13--TGO",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Togo",
       "sources": [
         {
@@ -11548,8 +11533,8 @@
       "endDate": "2020-11-15",
       "engagements": ["Met President Macky Sall"],
       "eventName": null,
-      "id": "bah-n-daw--2020-11-14--SEN",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-11-14--SEN",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Senegal",
       "sources": [
         {
@@ -11573,8 +11558,8 @@
       "endDate": "2020-11-16",
       "engagements": ["Met President Jose Mario Vaz"],
       "eventName": null,
-      "id": "bah-n-daw--2020-11-15--GNB",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-11-15--GNB",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Guinea-Bissau",
       "sources": [
         {
@@ -11598,8 +11583,8 @@
       "endDate": "2020-12-14",
       "engagements": [],
       "eventName": null,
-      "id": "bah-n-daw--2020-12-14--CIV",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-12-14--CIV",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Ivory Coast",
       "sources": [
         {
@@ -11623,8 +11608,8 @@
       "endDate": "2020-12-15",
       "engagements": [],
       "eventName": null,
-      "id": "bah-n-daw--2020-12-15--GIN",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-12-15--GIN",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Guinea",
       "sources": [
         {
@@ -11648,8 +11633,8 @@
       "endDate": "2020-12-17",
       "engagements": ["Met President Mahamadou Issoufou"],
       "eventName": null,
-      "id": "bah-n-daw--2020-12-16--NER",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2020-12-16--NER",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Niger",
       "sources": [
         {
@@ -11673,8 +11658,8 @@
       "endDate": "2021-01-28",
       "engagements": ["Met President Emmanuel Macron"],
       "eventName": null,
-      "id": "bah-n-daw--2021-01-26--FRA",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-01-26--FRA",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -11698,8 +11683,8 @@
       "endDate": "2021-02-11",
       "engagements": ["Met President Mohamed Cheikh El Ghazouani"],
       "eventName": null,
-      "id": "bah-n-daw--2021-02-11--MRT",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-02-11--MRT",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Mauritania",
       "sources": [
         {
@@ -11723,8 +11708,8 @@
       "endDate": "2021-02-12",
       "engagements": ["Met President Mahamadou Issoufou"],
       "eventName": null,
-      "id": "bah-n-daw--2021-02-12--NER",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-02-12--NER",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Niger",
       "sources": [
         {
@@ -11748,8 +11733,8 @@
       "endDate": "2021-02-13",
       "engagements": ["Met President Roch Marc Christian Kabore"],
       "eventName": null,
-      "id": "bah-n-daw--2021-02-13--BFA",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-02-13--BFA",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Burkina Faso",
       "sources": [
         {
@@ -11773,8 +11758,8 @@
       "endDate": "2021-02-17",
       "engagements": ["Met President Idriss Deby"],
       "eventName": "G5 Sahel Summit",
-      "id": "bah-n-daw--2021-02-14--TCD",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-02-14--TCD",
+      "officialId": "bah-ndaw",
       "purpose": "Attended G5 Sahel Summit",
       "sources": [
         {
@@ -11798,8 +11783,8 @@
       "endDate": "2021-03-15",
       "engagements": ["Met President Abdelmajid Tebboune"],
       "eventName": null,
-      "id": "bah-n-daw--2021-03-13--DZA",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-03-13--DZA",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Algeria",
       "sources": [
         {
@@ -11823,8 +11808,8 @@
       "endDate": "2021-04-02",
       "engagements": [],
       "eventName": null,
-      "id": "bah-n-daw--2021-04-02--NER",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-04-02--NER",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Niger",
       "sources": [
         {
@@ -11848,8 +11833,8 @@
       "endDate": "2021-04-16",
       "engagements": ["Met President Denis Sassou-Nguesso"],
       "eventName": null,
-      "id": "bah-n-daw--2021-04-15--COG",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-04-15--COG",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to Republic of the Congo",
       "sources": [
         {
@@ -11875,8 +11860,8 @@
         "Met Chairman of the Transitional Military Council Mahamat Idriss Deby Itno"
       ],
       "eventName": "G5 Sahel Summit",
-      "id": "bah-n-daw--2021-04-22--TCD",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-04-22--TCD",
+      "officialId": "bah-ndaw",
       "purpose": "Attended G5 Sahel Summit",
       "sources": [
         {
@@ -11900,8 +11885,8 @@
       "endDate": "2021-05-21",
       "engagements": ["Met President Emmanuel Macron", "Gave a public address"],
       "eventName": null,
-      "id": "bah-n-daw--2021-05-17--FRA",
-      "officialId": "bah-n-daw",
+      "id": "bah-ndaw--2021-05-17--FRA",
+      "officialId": "bah-ndaw",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -12877,17 +12862,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United States-Africa Summit",
-      "id": "ibrahim-boubacar-keita--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "ibrahim-boubacar-keita--2014-08-05--USA",
       "officialId": "ibrahim-boubacar-keita",
-      "purpose": "Attended United States-Africa Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -15608,6 +15597,56 @@
       "startDate": "2020-06-30",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-09-13",
+      "engagements": [],
+      "eventName": "Informal visit after attending Conference of Nonaligned Nations in Belgrade.",
+      "id": "modibo-keita--1961-09-12--USA",
+      "officialId": "modibo-keita",
+      "purpose": "Informal visit after attending Conference of Nonaligned Nations in Belgrade.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-09-12",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "moussa-traore--1988-10-05--USA",
+      "officialId": "moussa-traore",
+      "purpose": "State Visit; (October 9) visited Dayton, Wilberforce, and Columbus (Ohio).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-10-05",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

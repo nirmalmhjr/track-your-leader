@@ -632,6 +632,33 @@
       "wikidataId": "Q98000318"
     },
     {
+      "aliases": ["Nono Kgafela", "Nono Kgafela-Mokoka"],
+      "countryCode": "BWA",
+      "fullName": "Kebuang Nono Kgafela-Mokoka",
+      "id": "nono-kgafela-mokoka",
+      "party": "Botswana People's Party",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["minister"],
+          "endDate": null,
+          "id": "nono-kgafela-mokoka-p1",
+          "ministry": "Ministry of Child Welfare and Basic Education",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Child Welfare and Basic Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/botswana/"
+        }
+      ],
+      "summary": "Motswana literary scholar.",
+      "wikidataId": "Q116923572"
+    },
+    {
       "aliases": [],
       "countryCode": "BWA",
       "fullName": "Kenneth Matambo",
@@ -748,7 +775,7 @@
           "url": "https://en.wikipedia.org/wiki/Lesego_Chombo"
         }
       ],
-      "summary": "Lesego Chombo (born 30 July 1998) is a Motswana politician, attorney, philanthropist, and former beauty pageant titleholder. She has served as Botswana's Minister of Youth and Gender Affairs since November 2024, making her the youngest person to hold a ministerial post in the country's history.",
+      "summary": "Lesego Chombo is a Motswana politician, and former beauty pageant titleholder. She has served as Botswana's Minister of Youth and Gender Affairs since November 2024, and is the youngest person to hold a ministerial post in the country's national assembly.",
       "wikidataId": "Q116727717"
     },
     {
@@ -924,33 +951,6 @@
       ],
       "summary": "Noah Salakae is a Motswana politician who has been Member of Parliament for Ghanzi since 2024.",
       "wikidataId": "Q136673311"
-    },
-    {
-      "aliases": [],
-      "countryCode": "BWA",
-      "fullName": "Nono Kgafela-Mokoka",
-      "id": "nono-kgafela-mokoka",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["minister"],
-          "endDate": null,
-          "id": "nono-kgafela-mokoka-p1",
-          "ministry": "Ministry of Child Welfare and Basic Education",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Child Welfare and Basic Education"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/botswana/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -1341,11 +1341,11 @@
       "wikidataId": "Q59139097"
     },
     {
-      "aliases": [],
+      "aliases": ["Boipuso Wynter Mmolotsi", "Wynter Boipuso Mmolotsi"],
       "countryCode": "BWA",
-      "fullName": "Wynter Boipuso Mmolotsi",
+      "fullName": "Wynter Mmolotsi",
       "id": "wynter-boipuso-mmolotsi",
-      "party": null,
+      "party": "Umbrella for Democratic Change",
       "photoUrl": null,
       "positions": [
         {
@@ -1364,8 +1364,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/botswana/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Motswana politician.",
+      "wikidataId": "Q136500918"
     }
   ],
   "trips": [
@@ -3157,21 +3157,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-02-27",
+      "endDate": "2002-02-26",
       "engagements": ["Met President George W. Bush"],
       "eventName": "Afro-American Summit",
-      "id": "festus-mogae--2002-02-26--USA",
+      "id": "festus-mogae--2002-02-25--USA",
       "officialId": "festus-mogae",
-      "purpose": "Attended Afro-American Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-02-26",
+      "startDate": "2002-02-25",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3882,21 +3886,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-06-15",
+      "endDate": "2005-06-13",
       "engagements": [],
       "eventName": "Botswana-Ghana-Namibia-Niger-Mozambique-United States Multilateral Meeting",
-      "id": "festus-mogae--2005-06-13--USA",
+      "id": "festus-mogae--2005-06-12--USA",
       "officialId": "festus-mogae",
-      "purpose": "Attended Botswana-Ghana-Namibia-Niger-Mozambique-United States Multilateral Meeting",
+      "purpose": "Working visit. Discussed African Growth and Opportunity Act.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-06-13",
+      "startDate": "2005-06-12",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -4047,6 +4055,31 @@
       "startDate": "2006-01-21",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-03-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "festus-mogae--2006-03-21--SWE",
+      "officialId": "festus-mogae",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2006-03-21",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7029,13 +7062,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-12-19",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "mokgweetsi-masisi--2022-12-05--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "mokgweetsi-masisi--2022-12-13--USA",
       "officialId": "mokgweetsi-masisi",
-      "purpose": "Official visit to the United States for diplomatic, economic and international engagements.",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mokgweetsi_Masisi"
@@ -7045,9 +7082,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-05",
+      "startDate": "2022-12-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8044,6 +8081,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "quett-masire--1984-05-07--USA",
+      "officialId": "quett-masire",
+      "purpose": "Official working visit. Private visit to New York City afterwards.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-05-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "quett-masire--1989-06-07--USA",
+      "officialId": "quett-masire",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-06-07",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Lusaka",
         "coordinates": [28.283333333, -15.416666666],
         "countryCode": "ZMB",
@@ -8728,6 +8815,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1995-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "quett-masire--1995-10-19--USA",
+      "officialId": "quett-masire",
+      "purpose": "Attended Africare dinner with President Clinton.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-10-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1995-10-27",
       "engagements": [],
       "eventName": "United Nations (UN) General Assembly",
@@ -8816,6 +8928,56 @@
         }
       ],
       "startDate": "1996-08-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-04-01",
+      "engagements": [],
+      "eventName": "Consultations with IBRD; attended Eisenhower funeral; met with President Nixon March 31.",
+      "id": "seretse-khama--1969-03-31--USA",
+      "officialId": "seretse-khama",
+      "purpose": "Consultations with IBRD; attended Eisenhower funeral; met with President Nixon March 31.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-03-31",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-06-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "seretse-khama--1976-06-09--USA",
+      "officialId": "seretse-khama",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-06-09",
       "statusHint": null,
       "type": "other"
     },
@@ -9128,13 +9290,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-11-08",
+      "endDate": "2009-11-05",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "seretse-khama-ian-khama--2009-11-05--USA",
       "officialId": "seretse-khama-ian-khama",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

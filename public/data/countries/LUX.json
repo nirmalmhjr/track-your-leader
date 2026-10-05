@@ -1,6 +1,80 @@
 {
   "officials": [
     {
+      "aliases": [
+        "Charlotte",
+        "Charlotte I",
+        "Charlotte I, Grand Duchess of Luxembourg",
+        "Grand Duchess Charlotte of Luxembourg"
+      ],
+      "countryCode": "LUX",
+      "fullName": "Charlotte, Grand Duchess of Luxembourg",
+      "id": "charlotte",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlotte%2C_Grand_Duchess_of_Luxembourg.jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1963-05-01",
+          "id": "charlotte-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1963-04-30",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charlotte%2C_Grand_Duchess_of_Luxembourg"
+        }
+      ],
+      "summary": "Charlotte was Grand Duchess of Luxembourg from 14 January 1919 until her abdication on 12 November 1964. Her reign is the longest of any Luxembourgish monarch since 1815 when the country was elevated to a Grand Duchy.",
+      "wikidataId": "Q155608"
+    },
+    {
+      "aliases": [
+        "Grand Duke Jean I",
+        "Grand Duke Jean I of Luxembourg, Duke of Nassau",
+        "Jean",
+        "Jean Benoît Guillaume Robert Antoine Louis Marie Adolphe Marc d'Aviano",
+        "Jean I, Grand Duke of Luxembourg",
+        "John of Luxembourg"
+      ],
+      "countryCode": "LUX",
+      "fullName": "Jean, Grand Duke of Luxembourg",
+      "id": "jean",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GD_Jean_1967.jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1984-11-15",
+          "id": "jean-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1984-11-12",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean%2C_Grand_Duke_of_Luxembourg"
+        }
+      ],
+      "summary": "Jean was Grand Duke of Luxembourg from 1964 until his abdication in 2000. He was the first Grand Duke of Luxembourg of French agnatic descent.",
+      "wikidataId": "Q15988"
+    },
+    {
       "aliases": ["Gaston Egmond Thorn"],
       "countryCode": "LUX",
       "fullName": "Gaston Thorn",
@@ -1422,6 +1496,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-05-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "charlotte--1963-04-30--USA",
+      "officialId": "charlotte",
+      "purpose": "State visit. In U.S. April 29–May 4, visited Philadelphia (Pennsylvania), Chicago, Cape Canaveral (Florida), and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-04-30",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-11-12",
+      "engagements": [],
+      "eventName": "Private visit to Washington while serving as President of the U.N. General Assembly.",
+      "id": "gaston-thorn--1975-11-12--USA",
+      "officialId": "gaston-thorn",
+      "purpose": "Private visit to Washington while serving as President of the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-11-12",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "gaston-thorn--1977-10-02--USA",
+      "officialId": "gaston-thorn",
+      "purpose": "Met with President Carter October 4 in New York City while attending U.N. General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-10-02",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "gaston-thorn--1978-05-30--USA",
+      "officialId": "gaston-thorn",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Dublin",
         "coordinates": [-6.260277777, 53.349722222],
         "countryCode": "IRL",
@@ -1978,19 +2152,48 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-08-10",
+      "endDate": "1984-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1984-11-12--USA",
+      "officialId": "jean",
+      "purpose": "State visit; visited Colorado Springs, San Jose, San Francisco, and Chicago. Departed U.S. November 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-11-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-08-08",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "jean-claude-juncker--1995-08-07--USA",
+      "id": "jean-claude-juncker--1995-08-06--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-08-07",
+      "startDate": "1995-08-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -2378,19 +2581,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-12-07",
+      "endDate": "1997-12-05",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "United States-European Council Summit",
-      "id": "jean-claude-juncker--1997-12-05--USA",
+      "eventName": "Attended U.S.-EU Summit as President of the EU Council.",
+      "id": "jean-claude-juncker--1997-12-04--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended United States-European Council Summit",
+      "purpose": "Attended U.S.-EU Summit as President of the EU Council.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-12-05",
+      "startDate": "1997-12-04",
       "statusHint": null,
       "type": "summit"
     },
@@ -2806,13 +3013,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-04-24",
+      "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "jean-claude-juncker--1999-04-23--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3509,19 +3720,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-03-07",
+      "endDate": "2002-03-06",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "jean-claude-juncker--2002-03-06--USA",
+      "id": "jean-claude-juncker--2002-03-04--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-03-06",
+      "startDate": "2002-03-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5062,13 +5277,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-04-20",
+      "endDate": "2005-04-15",
       "engagements": ["Met President George W. Bush"],
       "eventName": "United States-European Council Summit",
       "id": "jean-claude-juncker--2005-04-15--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended United States-European Council Summit and International Monetary Fund (IMF)-World Bank Summit",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5237,13 +5456,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-06-21",
+      "endDate": "2005-06-20",
       "engagements": [],
       "eventName": "United States-European Council Summit",
       "id": "jean-claude-juncker--2005-06-20--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended United States-European Council Summit",
+      "purpose": "Working visit. Attended the U.S.-EU Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7040,16 +7263,20 @@
       "endDate": "2008-04-12",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "jean-claude-juncker--2008-04-10--USA",
+      "id": "jean-claude-juncker--2008-04-09--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-04-10",
+      "startDate": "2008-04-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10365,13 +10592,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "jean-claude-juncker--2012-05-20--USA",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11790,11 +12021,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "luc-frieden--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "luc-frieden--2024-07-10--USA",
       "officialId": "luc-frieden",
-      "purpose": "Frieden attended the 2024 NATO summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Luc_Frieden"
@@ -11804,7 +12039,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },

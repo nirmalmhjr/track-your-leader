@@ -2737,11 +2737,15 @@
       },
       "endDate": "1990-10-27",
       "engagements": [],
-      "eventName": "Pacific Island Nations-United States Summit",
+      "eventName": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "id": "bernard-dowiyogo--1990-10-27--USA",
       "officialId": "bernard-dowiyogo",
-      "purpose": "Attended Pacific Island Nations-United States Summit",
+      "purpose": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3642,6 +3646,31 @@
       "startDate": "2025-11-10",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "hammer-deroburt--1989-05-08--USA",
+      "officialId": "hammer-deroburt",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4935,17 +4964,21 @@
       },
       "endDate": "2023-09-25",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "russ-j-kun--2023-09-19--USA",
+      "eventName": "Attended the Pacific Islands Countries Summit.",
+      "id": "russ-j-kun--2023-09-25--USA",
       "officialId": "russ-j-kun",
-      "purpose": "Attended United Nations (UN) General Assembly and US-Pacific Island Forum Summit",
+      "purpose": "Attended the Pacific Islands Countries Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-19",
+      "startDate": "2023-09-25",
       "statusHint": null,
       "type": "summit"
     },

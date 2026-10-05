@@ -3585,6 +3585,33 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "JOR",
+      "fullName": "Hussein",
+      "id": "hussein",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "2023-02-02",
+          "id": "hussein-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2023-02-02",
+          "title": "Crown Prince"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     }
   ],
   "trips": [
@@ -3647,13 +3674,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-05-24",
+      "endDate": "1999-05-19",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--1999-05-17--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Also visited New York City. Departed the U.S. May 24.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3797,13 +3828,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-10-15",
+      "endDate": "1999-10-14",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--1999-10-07--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton October 12 during a private visit. Also visited Boston.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3811,7 +3846,7 @@
       ],
       "startDate": "1999-10-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3922,21 +3957,25 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1999-12-03",
+      "endDate": "1999-12-04",
       "engagements": ["Met Prime Minister Obuchi Keizo"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--1999-12-01--JPN",
+      "id": "abdullah-ii-of-jordan--1999-11-30--JPN",
       "officialId": "abdullah-ii-of-jordan",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-12-01",
+      "startDate": "1999-11-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4047,19 +4086,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2000-06-07",
+      "endDate": "2000-06-08",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2000-05-30--USA",
+      "id": "abdullah-ii-of-jordan--2000-06-05--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Discussed the Middle East peace process with President Clinton. Arrived in the U.S. May 30.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-05-30",
+      "startDate": "2000-06-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4172,19 +4215,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2000-09-10",
+      "endDate": "2000-09-06",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "UN Millenium Summit",
-      "id": "abdullah-ii-of-jordan--2000-09-05--USA",
+      "eventName": "Met with President Clinton at the UN Millenium Summit in New York City.",
+      "id": "abdullah-ii-of-jordan--2000-09-06--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended UN Millenium Summit",
+      "purpose": "Met with President Clinton at the UN Millenium Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-09-05",
+      "startDate": "2000-09-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -4280,8 +4327,12 @@
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2000-10-24--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4407,8 +4458,12 @@
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2001-04-03--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4507,8 +4562,12 @@
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2001-09-26--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4580,21 +4639,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2001-11-08",
+      "endDate": "2001-11-09",
       "engagements": ["Met Prime Minister Tony Blair", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2001-11-02--GBR",
+      "id": "abdullah-ii-of-jordan--2001-11-06--GBR",
       "officialId": "abdullah-ii-of-jordan",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-11-02",
+      "startDate": "2001-11-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4855,13 +4918,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-02-04",
+      "endDate": "2002-02-01",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2002-01-30--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush February 1 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4869,7 +4936,7 @@
       ],
       "startDate": "2002-01-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5155,19 +5222,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-05-14",
+      "endDate": "2002-05-13",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2002-05-04--USA",
+      "id": "abdullah-ii-of-jordan--2002-05-03--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-05-04",
+      "startDate": "2002-05-03",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5399,6 +5470,35 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-08-01",
+      "engagements": ["Met President George W. Bush", "Gave a public address"],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2002-07-19--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2002-07-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bern",
         "coordinates": [7.44743, 46.94798],
         "countryCode": "CHE",
@@ -5468,31 +5568,6 @@
         }
       ],
       "startDate": "2002-07-28",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2002-08-04",
-      "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": null,
-      "id": "abdullah-ii-of-jordan--2002-07-29--USA",
-      "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2002-07-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6283,21 +6358,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-09-20",
+      "endDate": "2003-09-19",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2003-09-14--USA",
+      "id": "abdullah-ii-of-jordan--2003-09-15--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush at Camp David Sept. 18–19.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-14",
+      "startDate": "2003-09-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6366,13 +6445,17 @@
       "purpose": "Visit to Sweden",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2003-10-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6586,13 +6669,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-12-09",
+      "endDate": "2003-12-07",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2003-12-03--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7092,13 +7179,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-05-08",
+      "endDate": "2004-05-07",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2004-05-05--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7295,13 +7386,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-06-17",
+      "endDate": "2004-06-16",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "G8 Summit",
       "id": "abdullah-ii-of-jordan--2004-06-08--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Working visit. Met with President Bush at the G-8 Economic Summit in Sea Island, Georgia. Attended the funeral of Former President Reagan.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7933,19 +8028,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-12-11",
+      "endDate": "2004-12-09",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2004-12-06--USA",
+      "id": "abdullah-ii-of-jordan--2004-12-05--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-12-06",
+      "startDate": "2004-12-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8283,19 +8382,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-03-24",
+      "endDate": "2005-03-15",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2005-03-14--USA",
+      "id": "abdullah-ii-of-jordan--2005-03-15--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-03-14",
+      "startDate": "2005-03-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8661,21 +8764,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-09-23",
+      "endDate": "2005-09-22",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "abdullah-ii-of-jordan--2005-09-12--USA",
+      "id": "abdullah-ii-of-jordan--2005-09-19--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-09-12",
+      "startDate": "2005-09-19",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9121,19 +9228,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-02-09",
+      "endDate": "2006-02-08",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2006-02-06--USA",
+      "id": "abdullah-ii-of-jordan--2006-02-04--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Arrived in the U.S. February 1. Also visited New Orleans.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-02-06",
+      "startDate": "2006-02-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9321,19 +9432,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-06-02",
+      "endDate": "2006-05-29",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2006-05-26--USA",
+      "id": "abdullah-ii-of-jordan--2006-05-29--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Arrived in the U.S. May 27; also visited Deerfield, Massachusetts; and Jackson, Wyoming.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-05-26",
+      "startDate": "2006-05-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9977,21 +10092,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-03-08",
+      "endDate": "2007-03-07",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2007-02-28--USA",
+      "id": "abdullah-ii-of-jordan--2007-03-03--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Addressed a Joint Session of Congress March 7.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-02-28",
+      "startDate": "2007-03-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -10180,13 +10299,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-07-25",
+      "endDate": "2007-07-24",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2007-07-23--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10738,19 +10861,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-03-07",
+      "endDate": "2008-03-06",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2008-02-28--USA",
+      "id": "abdullah-ii-of-jordan--2008-03-02--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-02-28",
+      "startDate": "2008-03-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10913,19 +11040,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-04-26",
+      "endDate": "2008-04-23",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2008-04-23--USA",
+      "id": "abdullah-ii-of-jordan--2008-04-22--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-04-23",
+      "startDate": "2008-04-22",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11830,19 +11961,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-04-26",
+      "endDate": "2009-04-21",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2009-04-15--USA",
+      "id": "abdullah-ii-of-jordan--2009-04-21--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-04-15",
+      "startDate": "2009-04-21",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12711,19 +12846,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-18",
+      "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "abdullah-ii-of-jordan--2010-04-10--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "abdullah-ii-of-jordan--2010-04-12--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-10",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -13136,21 +13275,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-09-02",
+      "endDate": "2010-09-01",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "Israeli-Palestenian Peace Summit",
-      "id": "abdullah-ii-of-jordan--2010-08-29--USA",
+      "id": "abdullah-ii-of-jordan--2010-09-01--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended Israeli-Palestenian Peace Summit",
+      "purpose": "Attended Middle East peace talks.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-08-29",
+      "startDate": "2010-09-01",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13389,19 +13532,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-05-19",
+      "endDate": "2011-05-17",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2011-05-14--USA",
+      "id": "abdullah-ii-of-jordan--2011-05-17--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-05-14",
+      "startDate": "2011-05-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13767,19 +13914,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-01-20",
+      "endDate": "2012-01-18",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2012-01-14--USA",
+      "id": "abdullah-ii-of-jordan--2012-01-17--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-01-14",
+      "startDate": "2012-01-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14473,16 +14624,20 @@
       "endDate": "2013-04-26",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2013-04-19--USA",
+      "id": "abdullah-ii-of-jordan--2013-04-24--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-04-19",
+      "startDate": "2013-04-24",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14951,19 +15106,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-02-17",
+      "endDate": "2014-02-14",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2014-02-10--USA",
+      "id": "abdullah-ii-of-jordan--2014-02-12--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Included working visit at Rancho Mirage, California February 14.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-02-10",
+      "startDate": "2014-02-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -15432,19 +15591,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-09-25",
+      "endDate": "2014-09-23",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "abdullah-ii-of-jordan--2014-09-21--USA",
+      "eventName": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "id": "abdullah-ii-of-jordan--2014-09-23--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly Meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-21",
+      "startDate": "2014-09-23",
       "statusHint": null,
       "type": "conference"
     },
@@ -15582,19 +15745,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-12-08",
+      "endDate": "2014-12-05",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2014-12-01--USA",
+      "id": "abdullah-ii-of-jordan--2014-12-05--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-12-01",
+      "startDate": "2014-12-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -15732,19 +15899,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-02-04",
+      "endDate": "2015-02-03",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2015-02-02--USA",
+      "id": "abdullah-ii-of-jordan--2015-02-03--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-02-02",
+      "startDate": "2015-02-03",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16516,6 +16687,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-01-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2016-01-16--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Met with President Obama at Andrews Air Force Base, MD.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2016-01-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [-0.1276, 51.5072],
         "countryCode": "GBR",
@@ -16600,19 +16796,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-02-29",
+      "endDate": "2016-02-24",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2016-02-23--USA",
+      "id": "abdullah-ii-of-jordan--2016-02-24--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-02-23",
+      "startDate": "2016-02-24",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16702,17 +16902,21 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "Nuclear Security Summit",
-      "id": "abdullah-ii-of-jordan--2016-03-29--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "abdullah-ii-of-jordan--2016-03-31--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-29",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -17206,19 +17410,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-02-04",
+      "endDate": "2017-02-02",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2017-01-29--USA",
+      "id": "abdullah-ii-of-jordan--2017-02-02--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-01-29",
+      "startDate": "2017-02-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -17306,19 +17514,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-04-07",
+      "endDate": "2017-04-06",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2017-04-03--USA",
+      "id": "abdullah-ii-of-jordan--2017-04-04--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-04-03",
+      "startDate": "2017-04-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -18189,8 +18401,12 @@
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2018-06-21--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18909,6 +19125,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Kigali",
+        "coordinates": [30.115, -1.9525],
+        "countryCode": "RWA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-01-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-01-08--RWA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Visita al Memorial del Genocidio de Kigali",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-01-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Muscat",
         "coordinates": [58.592222222, 23.613888888],
         "countryCode": "OMN",
@@ -18984,6 +19225,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [54.396944444, 24.451111111],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-01-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-01-16--ARE",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el jeque Mohamed bin Zayed Al Nahyan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-01-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-01-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-01-30--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Joe Biden Reunión con el presidente de la Cámara de Representantes de los Estados Unidos, Kevin McCarthy",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-01-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Yerevan",
         "coordinates": [44.514444444, 40.181388888],
         "countryCode": "ARM",
@@ -19005,6 +19296,456 @@
       "startDate": "2020-02-10",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-02-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-02-11--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Donald Trump",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-02-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-02-13--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Joe Biden y con la vicepresidenta Kamala Harris Reunión con el presidente de la Cámara de Representantes Mike Joh…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-02-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [-75.6972, 45.4215],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-02-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-02-15--CAN",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el primer ministro Justin Trudeau",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-02-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riyadh",
+        "coordinates": [46.71, 24.65],
+        "countryCode": "SAU",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-02-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-02-21--SAU",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con los líderes del Consejo de Cooperación del Golfo y Egipto",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-02-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [54.396944444, 24.451111111],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-02-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-02-25--ARE",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el jeque Mohamed bin Zayed Al Nahyan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-02-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-04-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-04-10--JPN",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el emperador Naruhito y con el primer ministro Fumio Kishida",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-04-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-04-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-04-14--GBR",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Asistencia al Desfile Soberano de la Real Academia Militar Sandhurst junto al rey Carlos III y al gran duque Enrique de Luxemburgo",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-04-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riyadh",
+        "coordinates": [46.71, 24.65],
+        "countryCode": "SAU",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-04-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-04-20--SAU",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el príncipe heredero Mohamed bin Salmán Visita a la Meca",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-04-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cairo",
+        "coordinates": [31.2357, 30.0444],
+        "countryCode": "EGY",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-04-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-04-24--EGY",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre Trilateral Jordania-Egipto-Abu Dabi",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-04-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-05-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-05-05--BEL",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el rey Felipe Reuniones con el secretario general de la OTAN, Jens Stoltenberg, con el presidente del Consejo Europeo, Charles…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-05-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-05-09--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Recepción del Premio Path to Peace Reunión con el presidente Joe Biden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-05-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riyadh",
+        "coordinates": [46.71, 24.65],
+        "countryCode": "SAU",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-05-19--SAU",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre de la Liga Árabe",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-05-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuwait City",
+        "coordinates": [47.98, 29.375],
+        "countryCode": "KWT",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-06-07--KWT",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el emir Nawaf Al-Áhmad Al-Yáber Al-Sabah",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-06-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-15",
+      "engagements": [],
+      "eventName": "G7",
+      "id": "abdullah-ii-of-jordan--2020-06-13--ITA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Asistencia a la cumbre del G7",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-06-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-06-19--ESP",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el rey Felipe VI Reunión con el presidente Pedro Sánchez Asistencia a la Cumbre de Aqaba sobre la paz en Córdoba",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-06-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [44.366111111, 33.315277777],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-06-27--IRQ",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Barham Salih",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-06-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-07-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-07-11--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Participación en el Foro Económico en Sun Valley",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-07-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-07-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-07-19--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Joe Biden, y con la vicepresidenta Kamala Harris Reunión con el arzobispo de Washington, Wilton Gregory y con Jan…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-07-19",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19034,6 +19775,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-07-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-07-28--GRC",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre Trilateral Jordania-Grecia-Chipre",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-07-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cairo",
+        "coordinates": [31.2357, 30.0444],
+        "countryCode": "EGY",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-08-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-08-14--EGY",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre Trilateral Jordania-Egipto-Palestina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-08-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [37.6175, 55.750555555],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-08-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-08-23--RUS",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Vladímir Putin",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-08-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cairo",
+        "coordinates": [31.2357, 30.0444],
+        "countryCode": "EGY",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-09-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-09-02--EGY",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre Trilateral Jordania-Egipto-Palestina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-09-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -19045,8 +19886,12 @@
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2020-09-08--FRA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to France",
+      "purpose": "Reunión con el presidente Emmanuel Macron",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19055,6 +19900,81 @@
       "startDate": "2020-09-08",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-09-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-09-13--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Asistencia a la Asamblea General de las Naciones Unidas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-09-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-09-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-09-14--FRA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Emmanuel Macron",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-09-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-09-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-09-23--USA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Asistencia a la Asamblea General de las Naciones Unidas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-09-23",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19084,6 +20004,281 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Muscat",
+        "coordinates": [58.592222222, 23.613888888],
+        "countryCode": "OMN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-04--OMN",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el sultán Haitham bin Tariq Al Said",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Doha",
+        "coordinates": [51.529444444, 25.286111111],
+        "countryCode": "QAT",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-10-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-13--QAT",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el emir Tamim bin Hamad Al Thani",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-15--GBR",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el primer ministro Rishi Sunak con motivo de la guerra Israel-Gaza",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-16--DEU",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Frank-Walter Steinmeier y con el canciller Olaf Scholz con motivo de la guerra Israel-Gaza",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-17--ITA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con la primera ministra Giorgia Meloni con motivo de la guerra Israel-Gaza",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-25--AUT",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Alexander Van der Bellen",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [21.011111111, 52.23],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-26--POL",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Andrzej Duda",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-10-27--DEU",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con la canciller Angela Merkel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-10-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-11-07--BEL",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con la presidenta de la Comisión Europea, Ursula von der Leyen",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-11-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [12.453, 41.904],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-11-10--VAT",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el papa Francisco",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-11-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-11-11--GBR",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el rey Carlos III Reunión con el primer ministro Rishi Sunak",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-11-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Abu Dhabi",
         "coordinates": [54.396944444, 24.451111111],
         "countryCode": "ARE",
@@ -19105,6 +20300,156 @@
       "startDate": "2020-11-17",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manama",
+        "coordinates": [50.583333333, 26.216666666],
+        "countryCode": "BHR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-11-22--BHR",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el rey Hamad bin Isa Al Jalifa",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-11-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [54.396944444, 24.451111111],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-11-23--ARE",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el jeque Mohamed bin Zayed Al Nahyan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-11-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nicosia",
+        "coordinates": [33.365, 35.1725],
+        "countryCode": "CYP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-11-27--CYP",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre Trilateral Jordania-Grecia-Chipre",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-11-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-12-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-12-05--ITA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Reunión con el presidente Sergio Mattarella",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-12-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riyadh",
+        "coordinates": [46.71, 24.65],
+        "countryCode": "SAU",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-12-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-12-09--SAU",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Cumbre económica Árabe-China",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-12-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [44.366111111, 33.315277777],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-12-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdullah-ii-of-jordan--2020-12-20--IRQ",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Conferencia de Bagdad para la Cooperación y la Asociación",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Abdal%C3%A1_II_de_Jordania"
+        }
+      ],
+      "startDate": "2020-12-20",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19240,19 +20585,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2021-07-24",
+      "endDate": "2021-07-19",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2021-07-01--USA",
+      "id": "abdullah-ii-of-jordan--2021-07-19--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-07-01",
+      "startDate": "2021-07-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -19746,16 +21095,20 @@
       "endDate": "2022-05-13",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2022-05-10--USA",
+      "id": "abdullah-ii-of-jordan--2022-05-13--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-10",
+      "startDate": "2022-05-13",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -20396,16 +21749,20 @@
       "endDate": "2023-02-02",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2023-01-27--USA",
+      "id": "abdullah-ii-of-jordan--2023-02-02--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Private Visit (Lunch).",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-01-27",
+      "startDate": "2023-02-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -21121,19 +22478,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-02-14",
+      "endDate": "2024-02-12",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "abdullah-ii-of-jordan--2024-02-08--USA",
+      "id": "abdullah-ii-of-jordan--2024-02-12--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-02-08",
+      "startDate": "2024-02-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -21371,13 +22732,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-05-09",
+      "endDate": "2024-05-06",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
       "id": "abdullah-ii-of-jordan--2024-05-06--USA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Private Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22746,6 +24111,431 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-02-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein--2023-02-02--USA",
+      "officialId": "hussein",
+      "purpose": "Private Visit (Lunch).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2023-02-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-03-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1959-03-23--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-03-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-10-07",
+      "engagements": [],
+      "eventName": "Met with President Eisenhower in Washington while attending UN General Assembly.",
+      "id": "hussein-i-of-jordan--1960-10-07--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Met with President Eisenhower in Washington while attending UN General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-10-07",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-04-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1964-04-14--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official visit. In U.S. April 13–23. Also visited Philadelphia, New York City, Cape Kennedy and Palm Beach (Florida), and Houston (Texas).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-04-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1966-07-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1966-07-19--GBR",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1966-07-19",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-28",
+      "engagements": [],
+      "eventName": "Informal visit while attending U.N. General Assembly session; in U.S. June 24–30.",
+      "id": "hussein-i-of-jordan--1967-06-28--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Informal visit while attending U.N. General Assembly session; in U.S. June 24–30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-06-28",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-11-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1967-11-06--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Informal visit. In U.S. November 2–12; visited New York City and Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-11-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-04-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1969-04-08--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official visit. In U.S. April 7–18; visited Williamsburg and McDill AFB. Private visit to New York City after April 11.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-04-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-12-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1970-12-08--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private visit. Met with President Nixon December 8.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-12-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1972-03-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1972-03-28--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1972-03-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-02-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1973-02-05--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private visit. Met with President Nixon February 6.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-02-05",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-03-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1974-03-12--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-03-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-08-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1974-08-15--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private visit. First foreign head of state to be received by President Ford.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-08-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-04-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1975-04-29--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Met with President Ford during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1976-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1976-03-10--JPN",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1976-03-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-04-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1976-03-29--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "State visit. Afterwards visited Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-03-29",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-04-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1977-04-24--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-04-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tehran",
         "coordinates": [51.389722222, 35.688888888],
         "countryCode": "IRN",
@@ -22765,6 +24555,206 @@
         }
       ],
       "startDate": "1977-12-31",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1980-06-16--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-06-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1981-11-01--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "State visit; visited Los Angeles. Departed U.S. November 12.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-11-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-12-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1982-12-18--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-12-18",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1984-02-12--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-02-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1985-05-28--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-05-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1985-09-28--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private Visit. Met with President Reagan September 30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-09-28",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-06-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1986-06-08--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Private Visit. Met with President Reagan June 10. In U.S. June 4; also visited Boston, Middlebury (Conn.), Wellesley (Mass.), and Cleveland.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-06-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-04-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "hussein-i-of-jordan--1989-04-17--USA",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Official Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-04-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -22880,18 +24870,22 @@
       "endDate": "1990-08-16",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1990-08-14--USA",
+      "id": "hussein-i-of-jordan--1990-08-16--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush at Kennebunkport, Maine. Arrived in Washington, D.C. August 15.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-08-14",
+      "startDate": "1990-08-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23107,8 +25101,12 @@
       "eventName": null,
       "id": "hussein-i-of-jordan--1992-03-12--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23116,7 +25114,7 @@
       ],
       "startDate": "1992-03-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23302,13 +25300,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-06-27",
+      "endDate": "1993-06-25",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "hussein-i-of-jordan--1993-06-16--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit. Afterwards received medical treatment in Rochester, Minn. Departed the U.S. June 27.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23477,13 +25479,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-01-27",
+      "endDate": "1994-01-26",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "hussein-i-of-jordan--1994-01-19--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23491,7 +25497,7 @@
       ],
       "startDate": "1994-01-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23605,18 +25611,22 @@
       "endDate": "1994-06-23",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1994-06-14--USA",
+      "id": "hussein-i-of-jordan--1994-06-17--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit. Attended first meeting of the U.S.-Jordan Bilateral Commission June 22.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-06-14",
+      "startDate": "1994-06-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -23654,11 +25664,15 @@
       },
       "endDate": "1994-07-29",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
-      "eventName": "Israeli-Jordinian Peace Summit",
+      "eventName": "Signed the Washington Declaration and addressed a Joint Session of the Congress.",
       "id": "hussein-i-of-jordan--1994-07-22--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Attended Israeli-Jordinian Peace Summit",
+      "purpose": "Signed the Washington Declaration and addressed a Joint Session of the Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23666,7 +25680,7 @@
       ],
       "startDate": "1994-07-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -23852,21 +25866,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-04-07",
+      "endDate": "1995-04-02",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1995-03-24--USA",
+      "id": "hussein-i-of-jordan--1995-03-26--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-03-24",
+      "startDate": "1995-03-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -24055,16 +26073,20 @@
       "endDate": "1995-09-30",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": "Middle-East Peace Process Summit",
-      "id": "hussein-i-of-jordan--1995-09-27--USA",
+      "id": "hussein-i-of-jordan--1995-09-28--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Attended Middle-East Peace Process Summit",
+      "purpose": "Attended signing of Israeli- Palestinian Interim Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-09-27",
+      "startDate": "1995-09-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -24208,21 +26230,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-03-12",
+      "endDate": "1996-03-30",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1996-03-04--USA",
+      "id": "hussein-i-of-jordan--1996-03-06--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit. At Mayo Clinic Mar. 4–6.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-03-04",
+      "startDate": "1996-03-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -24248,31 +26274,6 @@
       "startDate": "1996-03-12",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-03-30",
-      "engagements": [],
-      "eventName": null,
-      "id": "hussein-i-of-jordan--1996-03-22--USA",
-      "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-03-22",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -24388,8 +26389,12 @@
       "eventName": null,
       "id": "hussein-i-of-jordan--1996-06-08--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24397,7 +26402,7 @@
       ],
       "startDate": "1996-06-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -24533,13 +26538,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-10-09",
+      "endDate": "1996-10-02",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "Israeli-Palestenian Summit",
+      "eventName": "Attended Middle East Summit Meeting.",
       "id": "hussein-i-of-jordan--1996-09-30--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Attended Israeli-Palestenian Summit",
+      "purpose": "Attended Middle East Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24764,21 +26773,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-04-09",
+      "endDate": "1997-04-02",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1997-03-21--USA",
+      "id": "hussein-i-of-jordan--1997-03-30--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-03-21",
+      "startDate": "1997-03-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -24867,18 +26880,22 @@
       "endDate": "1997-11-14",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1997-11-07--USA",
+      "id": "hussein-i-of-jordan--1997-11-11--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-11-07",
+      "startDate": "1997-11-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -25067,16 +27084,20 @@
       "endDate": "1998-03-20",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1998-03-12--USA",
+      "id": "hussein-i-of-jordan--1998-03-16--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit. Arrived in the U.S. March 12.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-03-12",
+      "startDate": "1998-03-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -25264,21 +27285,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-06-27",
+      "endDate": "1998-06-16",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "hussein-i-of-jordan--1998-06-09--USA",
+      "id": "hussein-i-of-jordan--1998-06-15--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-06-09",
+      "startDate": "1998-06-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -25314,21 +27339,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-01-19",
+      "endDate": "1999-01-05",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "Wye Plantation Peace Summit",
-      "id": "hussein-i-of-jordan--1998-07-14--USA",
+      "id": "hussein-i-of-jordan--1998-10-20--USA",
       "officialId": "hussein-i-of-jordan",
-      "purpose": "Attended Wye Plantation Peace Summit",
+      "purpose": "Took part in Israeli-Palestinian peace talks at Wye Plantation, Maryland.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-07-14",
+      "startDate": "1998-10-20",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

@@ -1146,6 +1146,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "alexander-bustamante--1963-11-24--USA",
+      "officialId": "alexander-bustamante",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Caracas",
         "coordinates": [-66.914444444, 10.506111111],
         "countryCode": "VEN",
@@ -2005,21 +2030,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-03-23",
+      "endDate": "2019-03-22",
       "engagements": ["Met President Donald Trump"],
-      "eventName": "United States-Caribbean Community (CARICOM) Summit",
-      "id": "andrew-holness--2019-03-21--USA",
+      "eventName": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
+      "id": "andrew-holness--2019-03-22--USA",
       "officialId": "andrew-holness",
-      "purpose": "Attended United States-Caribbean Community (CARICOM) Summit",
+      "purpose": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-03-21",
+      "startDate": "2019-03-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -2388,17 +2417,21 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "Summit of the Americas",
-      "id": "andrew-holness--2022-06-07--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "andrew-holness--2022-06-08--USA",
       "officialId": "andrew-holness",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-07",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -4030,6 +4063,231 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-01-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-seaga--1981-01-27--USA",
+      "officialId": "edward-seaga",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-01-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-02-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-seaga--1983-02-21--USA",
+      "officialId": "edward-seaga",
+      "purpose": "Private visit. Met with President Reagan February 22.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-02-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-11-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-seaga--1983-11-05--USA",
+      "officialId": "edward-seaga",
+      "purpose": "Private visit. Met with President Reagan November 6.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-11-05",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-07-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-seaga--1984-07-17--USA",
+      "officialId": "edward-seaga",
+      "purpose": "Attended meeting of Caribbean Heads of Government in Charleston (S.C.). Met with President Reagan July 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-07-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-10-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "hugh-shearer--1967-10-13--USA",
+      "officialId": "hugh-shearer",
+      "purpose": "Informal visit. In U.S. October 7–14; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-10-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "hugh-shearer--1968-06-07--USA",
+      "officialId": "hugh-shearer",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-06-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-08-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "hugh-shearer--1970-08-11--USA",
+      "officialId": "hugh-shearer",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-08-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "hugh-shearer--1970-10-24--USA",
+      "officialId": "hugh-shearer",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-12-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "michael-manley--1977-12-16--USA",
+      "officialId": "michael-manley",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-12-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bridgetown",
         "coordinates": [-59.616666666, 13.0975],
         "countryCode": "BRB",
@@ -4086,13 +4344,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-05-07",
+      "endDate": "1990-05-04",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "michael-manley--1990-05-02--USA",
       "officialId": "michael-manley",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Private visit to New York City afterwards.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4311,13 +4573,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-05-17",
+      "endDate": "1991-05-15",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "michael-manley--1991-05-15--USA",
       "officialId": "michael-manley",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4325,7 +4591,7 @@
       ],
       "startDate": "1991-05-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4526,6 +4792,31 @@
       "startDate": "1992-01-31",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "michael-manley--1992-03-24--USA",
+      "officialId": "michael-manley",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1992-03-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4811,13 +5102,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-09-01",
+      "endDate": "1993-08-30",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "p-j-patterson--1993-08-30--USA",
       "officialId": "p-j-patterson",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "purpose": "Attended a CARICOM working luncheon.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4961,19 +5256,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-08",
+      "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "p-j-patterson--1994-12-06--USA",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "p-j-patterson--1994-12-09--USA",
       "officialId": "p-j-patterson",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-12-06",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -5091,8 +5390,12 @@
       "eventName": "Organization of American States (OAS) Summit",
       "id": "p-j-patterson--1995-09-11--USA",
       "officialId": "p-j-patterson",
-      "purpose": "Attended Organization of American States (OAS) Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5100,7 +5403,7 @@
       ],
       "startDate": "1995-09-11",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

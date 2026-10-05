@@ -2336,6 +2336,33 @@
     {
       "aliases": [],
       "countryCode": "GTM",
+      "fullName": "General Kjell Laugerud Garcia",
+      "id": "general-kjell-laugerud-garcia",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "1977-09-09",
+          "id": "general-kjell-laugerud-garcia-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1977-09-06",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "GTM",
       "fullName": "Juan Gerardo Guerrero Garnica",
       "id": "juan-gerardo-guerrero-garnica",
       "party": null,
@@ -3126,13 +3153,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-07-05",
+      "endDate": "2001-07-06",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "alfonso-portillo--2001-07-01--USA",
       "officialId": "alfonso-portillo",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3306,8 +3337,12 @@
       "eventName": "Central America-United States Summit",
       "id": "alfonso-portillo--2003-04-10--USA",
       "officialId": "alfonso-portillo",
-      "purpose": "Attended Central America-United States Summit",
+      "purpose": "Working visit. Discussed negotiations for a Central American free trade agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3315,7 +3350,7 @@
       ],
       "startDate": "2003-04-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3629,13 +3664,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-04-28",
+      "endDate": "2008-04-30",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "alvaro-colom--2008-04-26--USA",
       "officialId": "alvaro-colom",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3704,21 +3743,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-25",
+      "endDate": "2008-09-24",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "alvaro-colom--2008-09-23--USA",
+      "id": "alvaro-colom--2008-09-24--USA",
       "officialId": "alvaro-colom",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-23",
+      "startDate": "2008-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5387,16 +5430,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2024-03-27",
+      "endDate": "2024-03-25",
       "engagements": [
         "Met with President Joe Biden.",
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "bernardo-arevalo-de-leon--2024-03-24--USA",
+      "id": "bernardo-arevalo-de-leon--2024-03-25--USA",
       "officialId": "bernardo-arevalo-de-leon",
-      "purpose": "Working visit.",
+      "purpose": "Official Visit",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Bernardo_Ar%C3%A9valo"
@@ -5406,7 +5453,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-03-24",
+      "startDate": "2024-03-25",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5880,6 +5927,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-11-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-castillo-armas--1955-10-31--USA",
+      "officialId": "carlos-castillo-armas",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-10-31",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "general-kjell-laugerud-garcia--1977-09-06--USA",
+      "officialId": "general-kjell-laugerud-garcia",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Quito",
         "coordinates": [-78.5125, -0.22],
         "countryCode": "ECU",
@@ -6286,13 +6383,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-06-15",
+      "endDate": "2017-06-16",
       "engagements": ["Gave a public address"],
       "eventName": "Conference on Prosperity and Security in Central America",
       "id": "jimmy-morales--2017-06-15--USA",
       "officialId": "jimmy-morales",
-      "purpose": "Attended Conference on Prosperity and Security in Central America",
+      "purpose": "Attended the Conference on Prosperity and Security in Central America, in Washington and in Doral, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6376,6 +6477,31 @@
       "startDate": "2017-12-14",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2018-02-08",
+      "engagements": [],
+      "eventName": "Bilateral Meeting (National Prayer Breakfast).",
+      "id": "jimmy-morales--2018-02-08--USA",
+      "officialId": "jimmy-morales",
+      "purpose": "Bilateral Meeting (National Prayer Breakfast).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2018-02-08",
+      "statusHint": null,
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -7039,19 +7165,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-12-19",
+      "endDate": "2019-12-17",
       "engagements": ["Met President Donald Trump", "Signed agreements"],
       "eventName": null,
-      "id": "jimmy-morales--2019-12-18--USA",
+      "id": "jimmy-morales--2019-12-17--USA",
       "officialId": "jimmy-morales",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-12-18",
+      "startDate": "2019-12-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7167,24 +7297,28 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-10-03",
+      "endDate": "1991-10-02",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "jorge-serrano-elias--1991-09-26--USA",
+      "id": "jorge-serrano-elias--1991-10-02--USA",
       "officialId": "jorge-serrano-elias",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-09-26",
+      "startDate": "1991-10-02",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7589,6 +7723,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-alberto-flores-asturias--1998-12-09--USA",
+      "officialId": "luis-alberto-flores-asturias",
+      "purpose": "Attended conference on Central American reconstruction at the Inter-American Development Bank.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1998-12-09",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Madrid",
         "coordinates": [-3.703333333, 40.416944444],
         "countryCode": "ESP",
@@ -7648,21 +7807,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-05-03",
+      "endDate": "2004-05-04",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "UN Food and Agricultural Organization (FAO) Latin American Conference",
-      "id": "oscar-berger--2004-04-30--USA",
+      "id": "oscar-berger--2004-04-28--USA",
       "officialId": "oscar-berger",
-      "purpose": "Attended UN Food and Agricultural Organization (FAO) Latin American Conference",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-04-30",
+      "startDate": "2004-04-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7901,18 +8064,22 @@
       "endDate": "2005-05-12",
       "engagements": ["Met President George W. Bush"],
       "eventName": "Central American and Dominican Republic Free Trade Agreement Meeting",
-      "id": "oscar-berger--2005-05-09--USA",
+      "id": "oscar-berger--2005-05-10--USA",
       "officialId": "oscar-berger",
-      "purpose": "Attended Central American and Dominican Republic Free Trade Agreement Meeting",
+      "purpose": "Working visit. Discussed Central American and Dominican Republic Free Trade Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-05-09",
+      "startDate": "2005-05-10",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8804,16 +8971,20 @@
       "endDate": "2014-07-25",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "El Salvador-Guatemala-Honduras-United States Quadrilateral Meeting",
-      "id": "otto-perez-molina--2014-07-24--USA",
+      "id": "otto-perez-molina--2014-07-25--USA",
       "officialId": "otto-perez-molina",
-      "purpose": "Attended El Salvador-Guatemala-Honduras-United States Quadrilateral Meeting",
+      "purpose": "Discussed migration of unaccompanied minors.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-24",
+      "startDate": "2014-07-25",
       "statusHint": null,
       "type": "multilateral_meeting"
     },
@@ -9026,13 +9197,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-12-01",
+      "endDate": "1993-11-30",
       "engagements": ["Gave a public address"],
       "eventName": "Central America-United States Summit",
       "id": "ramiro-de-leon-carpio--1993-11-30--USA",
       "officialId": "ramiro-de-leon-carpio",
-      "purpose": "Attended Central America-United States Summit",
+      "purpose": "Attended working brunch with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9203,11 +9378,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "ramiro-de-leon-carpio--1994-12-09--USA",
       "officialId": "ramiro-de-leon-carpio",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9464,6 +9643,81 @@
         }
       ],
       "startDate": "1995-10-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-05-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "vinicio-cerezo--1987-05-12--USA",
+      "officialId": "vinicio-cerezo",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-05-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-03-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "vinicio-cerezo--1989-03-02--USA",
+      "officialId": "vinicio-cerezo",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-03-02",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-09-25",
+      "engagements": [],
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "vinicio-cerezo--1989-09-25--USA",
+      "officialId": "vinicio-cerezo",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-09-25",
       "statusHint": null,
       "type": "conference"
     },

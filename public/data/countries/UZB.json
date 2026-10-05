@@ -3468,8 +3468,12 @@
       "eventName": null,
       "id": "islam-karimov--1996-06-23--USA",
       "officialId": "islam-karimov",
-      "purpose": "Visit to United States",
+      "purpose": "Inaugurated a new embassy during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3893,11 +3897,15 @@
       },
       "endDate": "1999-04-25",
       "engagements": ["Signed agreements"],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "islam-karimov--1999-04-23--USA",
       "officialId": "islam-karimov",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4572,13 +4580,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-03-14",
+      "endDate": "2002-03-13",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "islam-karimov--2002-03-11--USA",
       "officialId": "islam-karimov",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush March 12 during a private visit. Also visited New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4586,7 +4598,7 @@
       ],
       "startDate": "2002-03-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7507,133 +7519,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2016-09-06",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2016-09-06--RUS",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "The President of Russia visited the grave of Islam Karimov in Samarkand, met with Karimov's wife and daughter, and met with Shavkat Mirziyo…",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2016-09-06",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2016-09-12",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2016-09-12--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "The President of Kazakhstan visited the grave of Islam Karimov in Samarkand, met with Karimov's wife and daughter, and met with Shavkat Mir…",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2016-09-12",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Minsk",
-        "coordinates": [27.561837, 53.902246],
-        "countryCode": "BLR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2016-10-06",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2016-10-06--BLR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "The President of Belarus visited the grave of Islam Karimov in Samarkand, met with Karimov's wife and daughter, and met with Shavkat Mirziy…",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2016-10-06",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2016-11-18",
-      "engagements": [
-        "Also visited the famous sights and places of Samarkand."
-      ],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2016-11-17--TUR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "The President of Turkey visited the grave of Islam Karimov in Samarkand, met with Karimov's wife and daughter, and met with Shavkat Mirziyo…",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2016-11-17",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2016-12-24",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2016-12-24--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2016-12-24",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ashgabat",
         "coordinates": [58.383333333, 37.95],
         "countryCode": "TKM",
@@ -7936,31 +7821,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2017-09-17",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2017-09-16--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2017-09-16",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ashgabat",
         "coordinates": [58.383333333, 37.95],
         "countryCode": "TKM",
@@ -8013,31 +7873,6 @@
       "startDate": "2017-09-18",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2017-10-06",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2017-10-05--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2017-10-05",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -8129,31 +7964,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2017-12-14",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2017-12-13--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2017-12-13",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Moscow",
         "coordinates": [37.6175, 55.750555555],
         "countryCode": "RUS",
@@ -8241,106 +8051,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-03-21",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-03-21--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-03-21",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kabul",
-        "coordinates": [69.165833333, 34.532777777],
-        "countryCode": "AFG",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-03-27",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-03-26--AFG",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Afghanistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-03-26",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ashgabat",
-        "coordinates": [58.383333333, 37.95],
-        "countryCode": "TKM",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-04-24",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-04-23--TKM",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Turkmenistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-04-23",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-05-01",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-04-29--TUR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Türkiye",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-04-29",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Washington, D.C.",
         "coordinates": [-77.036666666, 38.895],
         "countryCode": "USA",
@@ -8351,8 +8061,12 @@
       "eventName": null,
       "id": "shavkat-mirziyoyev--2018-05-15--USA",
       "officialId": "shavkat-mirziyoyev",
-      "purpose": "Official Visit, met Donald Trump, Mike Pompeo, held meetings in Congress and Pentagon.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
@@ -8364,7 +8078,7 @@
       ],
       "startDate": "2018-05-15",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8453,31 +8167,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Dushanbe",
-        "coordinates": [68.786388888, 38.573055555],
-        "countryCode": "TJK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-08-17",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-08-16--TJK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Tajikistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-08-16",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ashgabat",
         "coordinates": [58.383333333, 37.95],
         "countryCode": "TKM",
@@ -8530,56 +8219,6 @@
       "startDate": "2018-09-03",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Cairo",
-        "coordinates": [31.2357, 30.0444],
-        "countryCode": "EGY",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2018-09-05",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-09-04--EGY",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Egypt",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-09-04",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Minsk",
-        "coordinates": [27.561837, 53.902246],
-        "countryCode": "BLR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-09-14",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-09-13--BLR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Belarus",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-09-13",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -8660,31 +8299,6 @@
       "startDate": "2018-10-08",
       "statusHint": null,
       "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-10-19",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2018-10-18--RUS",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Russia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-10-18",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -8850,56 +8464,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2019-04-14",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2019-04-14--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2019-04-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Seoul",
-        "coordinates": [126.978, 37.5665],
-        "countryCode": "KOR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2019-04-21",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2019-04-18--KOR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to South Korea",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2019-04-18",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Beijing",
         "coordinates": [116.407526, 39.90403],
         "countryCode": "CHN",
@@ -8928,32 +8492,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
-        "coordinates": [13.405, 52.52],
-        "countryCode": "DEU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-05-29",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2019-05-27--DEU",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Germany",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2019-05-27",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
+        "city": "Bichkek",
         "coordinates": [74.566666666, 42.866666666],
         "countryCode": "KGZ",
         "region": "Asia"
@@ -8961,20 +8500,20 @@
       "endDate": "2019-06-15",
       "engagements": ["Met President Sooronbay Jeenbekov", "Signed agreements"],
       "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "shavkat-mirziyoyev--2019-06-14--KGZ",
+      "id": "shavkat-mirziyoyev--2019-06-13--KGZ",
       "officialId": "shavkat-mirziyoyev",
       "purpose": "Scheduled to attend the SCO summit.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+          "url": "https://fr.wikipedia.org/wiki/Liste_des_voyages_officiels_effectu%C3%A9s_par_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-06-14",
+      "startDate": "2019-06-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -9003,34 +8542,6 @@
         }
       ],
       "startDate": "2019-06-15",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dhaka",
-        "coordinates": [90.4125, 23.8103],
-        "countryCode": "BGD",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2019-06-18",
-      "engagements": [
-        "Visited the sights and famous places of Bukhara, Samarkand and Tashkent, as well as acquainted with the activities of the textile company.",
-        "On June 15, Abdul met with Shavkat Mirziyoyev in Dushanbe, the capital of Tajikistan, at the CICA summit."
-      ],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2019-06-16--BGD",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "The President of Bangladesh and his wife visited Uzbekistan on a tourist, ziyarat and working visit.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2019-06-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -9264,56 +8775,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2021-03-12",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2021-03-11--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2021-03-11",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Budapest",
-        "coordinates": [19.040833333, 47.498333333],
-        "countryCode": "HUN",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2021-03-30",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2021-03-30--HUN",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Hungary",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2021-03-30",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ashgabat",
         "coordinates": [58.383333333, 37.95],
         "countryCode": "TKM",
@@ -9373,56 +8834,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Kabul",
-        "coordinates": [69.165833333, 34.532777777],
-        "countryCode": "AFG",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2021-07-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2021-07-15--AFG",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Afghanistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2021-07-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Islamabad",
-        "coordinates": [73.036944444, 33.698888888],
-        "countryCode": "PAK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2021-07-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2021-07-15--PAK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Pakistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2021-07-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Türkmenbaşy",
         "coordinates": [52.9932834, 40.0055388],
         "countryCode": "TKM",
@@ -9475,31 +8886,6 @@
       "startDate": "2021-09-16",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ashgabat",
-        "coordinates": [58.383333333, 37.95],
-        "countryCode": "TKM",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2021-10-05",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2021-10-04--TKM",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Turkmenistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2021-10-04",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -9740,31 +9126,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-03-31",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-03-29--TUR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Türkiye",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-03-29",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Abu-Dhabi",
         "coordinates": [54.396944444, 24.451111111],
         "countryCode": "ARE",
@@ -9789,81 +9150,6 @@
       "startDate": "2022-05-15",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dushanbe",
-        "coordinates": [68.786388888, 38.573055555],
-        "countryCode": "TJK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-06-03",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-06-02--TJK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Tajikistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-06-02",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Baku",
-        "coordinates": [49.835183333, 40.366655555],
-        "countryCode": "AZE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-06-22",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-06-21--AZE",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Azerbaijan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-06-21",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ashgabat",
-        "coordinates": [58.383333333, 37.95],
-        "countryCode": "TKM",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-07-15",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-07-14--TKM",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Turkmenistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-07-14",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -9920,331 +9206,6 @@
       "startDate": "2022-08-17",
       "statusHint": null,
       "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Beijing",
-        "coordinates": [116.4074, 39.9042],
-        "countryCode": "CHN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-14--CHN",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to China",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tehran",
-        "coordinates": [51.389722222, 35.688888888],
-        "countryCode": "IRN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-14--IRN",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Iran",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-14--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ulaanbaatar",
-        "coordinates": [106.905515, 47.921357],
-        "countryCode": "MNG",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-14--MNG",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Mongolia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Baku",
-        "coordinates": [49.835183333, 40.366655555],
-        "countryCode": "AZE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--AZE",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Azerbaijan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Minsk",
-        "coordinates": [27.561837, 53.902246],
-        "countryCode": "BLR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--BLR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Belarus",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New Delhi",
-        "coordinates": [77.209, 28.6139],
-        "countryCode": "IND",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--IND",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to India",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Islamabad",
-        "coordinates": [73.036944444, 33.698888888],
-        "countryCode": "PAK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--PAK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Pakistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--RUS",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Russia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dushanbe",
-        "coordinates": [68.786388888, 38.573055555],
-        "countryCode": "TJK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--TJK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Tajikistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ashgabat",
-        "coordinates": [58.383333333, 37.95],
-        "countryCode": "TKM",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--TKM",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Turkmenistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-09-15--TUR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Türkiye",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -10395,156 +9356,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Baku",
-        "coordinates": [49.835183333, 40.366655555],
-        "countryCode": "AZE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-11-10--AZE",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Azerbaijan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-11-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Budapest",
-        "coordinates": [19.040833333, 47.498333333],
-        "countryCode": "HUN",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2022-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-11-10--HUN",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Hungary",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-11-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-11-10--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-11-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-11-10--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-11-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ashgabat",
-        "coordinates": [58.383333333, 37.95],
-        "countryCode": "TKM",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-11-10--TKM",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Turkmenistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-11-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-11-10--TUR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Türkiye",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-11-10",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Paris",
         "coordinates": [2.352222222, 48.856666666],
         "countryCode": "FRA",
@@ -10569,31 +9380,6 @@
       "startDate": "2022-11-21",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2022-12-22",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2022-12-21--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2022-12-21",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -10888,31 +9674,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Singapore",
-        "coordinates": [103.8, 1.3],
-        "countryCode": "SGP",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-05-25",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-05-23--SGP",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Singapore",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-05-23",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Cholpon-Ata",
         "coordinates": [77.082222222, 42.649444444],
         "countryCode": "KGZ",
@@ -10959,31 +9720,6 @@
       "startDate": "2023-06-03",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Doha",
-        "coordinates": [51.529444444, 25.286111111],
-        "countryCode": "QAT",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-06-05",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-06-04--QAT",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Qatar",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-06-04",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -11180,10 +9916,14 @@
       "endDate": "2023-09-21",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": "United Nations General Assembly (UNGA) Summit",
-      "id": "shavkat-mirziyoyev--2023-09-17--USA",
+      "id": "shavkat-mirziyoyev--2023-09-21--USA",
       "officialId": "shavkat-mirziyoyev",
-      "purpose": "Official visit",
+      "purpose": "Participated in C5+1 Presidential Summit Meeting with President Biden at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
@@ -11193,9 +9933,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-17",
+      "startDate": "2023-09-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -11339,31 +10079,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
-        "coordinates": [2.3522, 48.8566],
-        "countryCode": "FRA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2023-11-02",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-01--FRA",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to France",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-01",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Astana",
         "coordinates": [71.433333333, 51.133333333],
         "countryCode": "KAZ",
@@ -11388,231 +10103,6 @@
       "startDate": "2023-11-02",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Baku",
-        "coordinates": [49.835183333, 40.366655555],
-        "countryCode": "AZE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--AZE",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Azerbaijan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tehran",
-        "coordinates": [51.389722222, 35.688888888],
-        "countryCode": "IRN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--IRN",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Iran",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Islamabad",
-        "coordinates": [73.036944444, 33.698888888],
-        "countryCode": "PAK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--PAK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Pakistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Dushanbe",
-        "coordinates": [68.786388888, 38.573055555],
-        "countryCode": "TJK",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--TJK",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Tajikistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ashgabat",
-        "coordinates": [58.383333333, 37.95],
-        "countryCode": "TKM",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--TKM",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Turkmenistan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ankara",
-        "coordinates": [32.8597, 39.9334],
-        "countryCode": "TUR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-08--TUR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Türkiye",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Rome",
-        "coordinates": [12.4964, 41.9028],
-        "countryCode": "ITA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2023-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-11-09--ITA",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Italy",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-11-09",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -11676,31 +10166,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Doha",
-        "coordinates": [51.529444444, 25.286111111],
-        "countryCode": "QAT",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-12-19",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2023-12-19--QAT",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Qatar",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2023-12-19",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Saint Petersburg",
         "coordinates": [30.316666666, 59.95],
         "countryCode": "RUS",
@@ -11757,31 +10222,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Minsk",
-        "coordinates": [27.561837, 53.902246],
-        "countryCode": "BLR",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2024-02-08",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-02-07--BLR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Belarus",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-02-07",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Kazan",
         "coordinates": [49.114444444, 55.790833333],
         "countryCode": "RUS",
@@ -11806,31 +10246,6 @@
       "startDate": "2024-02-21",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2024-04-05",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-04-05--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kazakhstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-04-05",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -11891,56 +10306,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Kuala Lumpur",
-        "coordinates": [101.695277777, 3.147777777],
-        "countryCode": "MYS",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2024-05-19",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-05-17--MYS",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Malaysia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-05-17",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2024-05-27",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-05-26--RUS",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Russia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-05-26",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ankara",
         "coordinates": [32.83869, 39.93576],
         "countryCode": "TUR",
@@ -11968,56 +10333,6 @@
       "startDate": "2024-06-06",
       "statusHint": null,
       "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Seoul",
-        "coordinates": [126.978, 37.5665],
-        "countryCode": "KOR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2024-06-15",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-06-13--KOR",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to South Korea",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-06-13",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ulaanbaatar",
-        "coordinates": [106.905515, 47.921357],
-        "countryCode": "MNG",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2024-06-26",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-06-23--MNG",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Mongolia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-06-23",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -12081,31 +10396,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bishkek",
-        "coordinates": [74.566666666, 42.866666666],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2024-07-19",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-07-18--KGZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-07-18",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Astana",
         "coordinates": [71.433333333, 51.133333333],
         "countryCode": "KAZ",
@@ -12133,56 +10423,6 @@
       "startDate": "2024-08-07",
       "statusHint": null,
       "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Baku",
-        "coordinates": [49.835183333, 40.366655555],
-        "countryCode": "AZE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2024-08-23",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-08-22--AZE",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Azerbaijan",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-08-22",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Berlin",
-        "coordinates": [13.405, 52.52],
-        "countryCode": "DEU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2024-09-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "shavkat-mirziyoyev--2024-09-15--DEU",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Visit to Germany",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2024-09-15",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",

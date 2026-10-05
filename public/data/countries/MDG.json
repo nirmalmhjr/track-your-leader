@@ -4433,19 +4433,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-17",
+      "endDate": "2022-12-15",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "andry-rajoelina--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "andry-rajoelina--2022-12-13--USA",
       "officialId": "andry-rajoelina",
-      "purpose": "Attended United States-Africa Leaders Summit and Congo-Kinshasa-Gabon-Liberia-Madagascar-Nigeria-Sierra Leone-United States Multilateral Meeting",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -6185,17 +6189,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "hery-rajaonarimampianina--2014-08-02--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "hery-rajaonarimampianina--2014-08-05--USA",
       "officialId": "hery-rajaonarimampianina",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-02",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -9934,6 +9942,56 @@
       "startDate": "2026-09-22",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-07-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "philibert-tsiranana--1964-07-27--USA",
+      "officialId": "philibert-tsiranana",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-07-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1965-11-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "philibert-tsiranana--1965-11-15--JPN",
+      "officialId": "philibert-tsiranana",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1965-11-15",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

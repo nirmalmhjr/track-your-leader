@@ -1967,6 +1967,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "aristides-pereira--1983-10-03--USA",
+      "officialId": "aristides-pereira",
+      "purpose": "Private visit. Met with President Reagan October 3.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-10-03",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-01-30",
+      "engagements": [],
+      "eventName": "Met with President Bush while attending a U.N. Security Council Summit in New York City.",
+      "id": "carlos-veiga--1992-01-30--USA",
+      "officialId": "carlos-veiga",
+      "purpose": "Met with President Bush while attending a U.N. Security Council Summit in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1992-01-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brasília",
         "coordinates": [-47.8825, -15.7942],
         "countryCode": "BRA",
@@ -2501,19 +2551,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-07",
+      "endDate": "2014-08-06",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "jorge-carlos-fonseca--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "jorge-carlos-fonseca--2014-08-05--USA",
       "officialId": "jorge-carlos-fonseca",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -3120,6 +3174,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-12-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "jorge-carlos-fonseca--2018-12-10--NLD",
+      "officialId": "jorge-carlos-fonseca",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-12-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brasília",
         "coordinates": [-47.8825, -15.7942],
         "countryCode": "BRA",
@@ -3619,6 +3698,31 @@
       "startDate": "2021-11-05",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-03-28",
+      "engagements": [],
+      "eventName": "Attended African Leaders Summit.",
+      "id": "jose-maria-neves--2013-03-28--USA",
+      "officialId": "jose-maria-neves",
+      "purpose": "Attended African Leaders Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2013-03-28",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7065,6 +7169,31 @@
       "startDate": "2011-06-14",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-12-15",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "ulisses-correia-e-silva--2022-12-13--USA",
+      "officialId": "ulisses-correia-e-silva",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2022-12-13",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

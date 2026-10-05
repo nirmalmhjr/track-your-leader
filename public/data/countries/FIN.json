@@ -1245,6 +1245,33 @@
       "wikidataId": "Q16986436"
     },
     {
+      "aliases": [],
+      "countryCode": "FIN",
+      "fullName": "Taisto K. Sorsa",
+      "id": "taisto-k-sorsa",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1979-05-17",
+          "id": "taisto-k-sorsa-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1979-05-17",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Teuvo Ensio Aura"],
       "countryCode": "FIN",
       "fullName": "Teuvo Aura",
@@ -4213,7 +4240,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Stubb"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         },
         {
           "label": "COLT dataset",
@@ -4456,11 +4483,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": [],
-      "eventName": "2024 Washington summit",
-      "id": "alexander-stubb--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "alexander-stubb--2024-07-10--USA",
       "officialId": "alexander-stubb",
-      "purpose": "2024 Washington summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Stubb"
@@ -4470,7 +4501,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -5710,13 +5741,17 @@
       "purpose": "Attended Coalition of the Willing Meeting",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2025-12-11",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6445,6 +6480,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-05-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "esko-aho--1992-05-12--USA",
+      "officialId": "esko-aho",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1992-05-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-05-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "harri-holkeri--1988-05-02--USA",
+      "officialId": "harri-holkeri",
+      "purpose": "Met with President Reagan during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-05-02",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Stockholm",
         "coordinates": [18.068611111, 59.329444444],
         "countryCode": "SWE",
@@ -6459,13 +6544,17 @@
       "purpose": "Visit to Sweden",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1994-04-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6676,21 +6765,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-11-11",
+      "endDate": "1994-11-10",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "martti-ahtisaari--1994-11-06--USA",
+      "id": "martti-ahtisaari--1994-11-08--USA",
       "officialId": "martti-ahtisaari",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-11-06",
+      "startDate": "1994-11-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7184,13 +7277,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1995-10-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8749,11 +8846,15 @@
       },
       "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "martti-ahtisaari--1999-04-23--USA",
       "officialId": "martti-ahtisaari",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9469,31 +9570,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1999-12-17",
-      "engagements": ["Met President Bill Clinton"],
-      "eventName": "United States-European Council Summit",
-      "id": "martti-ahtisaari--1999-12-13--USA",
-      "officialId": "martti-ahtisaari",
-      "purpose": "Attended United States-European Council Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1999-12-13",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ottawa",
         "coordinates": [-75.6972, 45.4215],
         "countryCode": "CAN",
@@ -9515,6 +9591,35 @@
       "startDate": "1999-12-16",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-12-17",
+      "engagements": ["Met President Bill Clinton"],
+      "eventName": "United States-European Council Summit",
+      "id": "martti-ahtisaari--1999-12-16--USA",
+      "officialId": "martti-ahtisaari",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-12-16",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9615,6 +9720,106 @@
       "startDate": "2000-02-18",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1982-04-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "mauno-koivisto--1982-04-27--SWE",
+      "officialId": "mauno-koivisto",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1982-04-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1983-03-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "mauno-koivisto--1983-03-08--NOR",
+      "officialId": "mauno-koivisto",
+      "purpose": "visited by President Mauno Koivisto and Tellervo Koivisto",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1983-03-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "mauno-koivisto--1983-09-24--USA",
+      "officialId": "mauno-koivisto",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-09-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1986-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "mauno-koivisto--1986-09-30--JPN",
+      "officialId": "mauno-koivisto",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1986-09-30",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9800,19 +10005,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-05-11",
+      "endDate": "1991-05-08",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "mauno-koivisto--1991-05-07--USA",
+      "id": "mauno-koivisto--1991-05-06--USA",
       "officialId": "mauno-koivisto",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-05-07",
+      "startDate": "1991-05-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10191,6 +10400,31 @@
         }
       ],
       "startDate": "1993-03-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "paavo-lipponen--2002-12-07--USA",
+      "officialId": "paavo-lipponen",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2002-12-07",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11332,6 +11566,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "reino-kuuskoski--1958-05-08--USA",
+      "officialId": "reino-kuuskoski",
+      "purpose": "Unofficial visit; attended Minnesota Statehood Centennial in Minneapolis and St. Paul.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-05-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Seoul",
         "coordinates": [126.99, 37.56],
         "countryCode": "KOR",
@@ -11374,7 +11633,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         }
       ],
       "startDate": "2012-04-17",
@@ -11444,11 +11703,15 @@
       },
       "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO 2012 summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "sauli-niinisto--2012-05-20--USA",
       "officialId": "sauli-niinisto",
-      "purpose": "NATO 2012 summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
@@ -13153,11 +13416,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "2016 Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "sauli-niinisto--2016-03-31--USA",
       "officialId": "sauli-niinisto",
-      "purpose": "2016 Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
@@ -13203,13 +13470,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-05-15",
+      "endDate": "2016-05-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United States-nordic Summit",
-      "id": "sauli-niinisto--2016-05-12--USA",
+      "eventName": "Attended the U.S.- Nordic Leaders Summit.",
+      "id": "sauli-niinisto--2016-05-13--USA",
       "officialId": "sauli-niinisto",
-      "purpose": "Official visit, meeting of US and Nordic leaders",
+      "purpose": "Attended the U.S.- Nordic Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
@@ -13219,9 +13490,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-05-12",
+      "startDate": "2016-05-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -13716,13 +13987,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2017-08-29",
+      "endDate": "2017-08-28",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "sauli-niinisto--2017-08-29--USA",
+      "id": "sauli-niinisto--2017-08-28--USA",
       "officialId": "sauli-niinisto",
-      "purpose": "Working visit",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
@@ -13732,7 +14007,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-08-29",
+      "startDate": "2017-08-28",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14415,13 +14690,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2019-10-02",
+      "endDate": "2019-10-03",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "sauli-niinisto--2019-10-02--USA",
+      "id": "sauli-niinisto--2019-10-01--USA",
       "officialId": "sauli-niinisto",
-      "purpose": "Working visit",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
@@ -14431,7 +14710,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-10-02",
+      "startDate": "2019-10-01",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14833,13 +15112,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-03-03",
+      "endDate": "2022-03-04",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "sauli-niinisto--2022-03-03--USA",
+      "id": "sauli-niinisto--2022-03-04--USA",
       "officialId": "sauli-niinisto",
-      "purpose": "Working visit",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
@@ -14849,7 +15132,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-03-03",
+      "startDate": "2022-03-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14929,7 +15212,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         },
         {
           "label": "COLT dataset",
@@ -15824,6 +16107,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-05-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "taisto-k-sorsa--1979-05-17--USA",
+      "officialId": "taisto-k-sorsa",
+      "purpose": "Informal visit while serving as Chairman of the Socialist International Study Group on Disarmament.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-05-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Santiago",
         "coordinates": [-70.65, -33.4375],
         "countryCode": "CHL",
@@ -15883,16 +16191,20 @@
       "endDate": "2000-04-28",
       "engagements": [],
       "eventName": null,
-      "id": "tarja-halonen--2000-04-27--USA",
+      "id": "tarja-halonen--2000-04-28--USA",
       "officialId": "tarja-halonen",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-04-27",
+      "startDate": "2000-04-28",
       "statusHint": null,
       "type": "other"
     },
@@ -15913,13 +16225,17 @@
       "purpose": "Visit to Sweden",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2000-05-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16661,13 +16977,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-04-17",
+      "endDate": "2002-04-16",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "tarja-halonen--2002-04-16--USA",
       "officialId": "tarja-halonen",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16675,7 +16995,7 @@
       ],
       "startDate": "2002-04-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20017,19 +20337,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-14",
+      "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "tarja-halonen--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "tarja-halonen--2010-04-12--USA",
       "officialId": "tarja-halonen",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -21200,16 +21524,16 @@
       "eventName": null,
       "id": "urho-kekkonen--1961-03-08--NOR",
       "officialId": "urho-kekkonen",
-      "purpose": "Visit to Norway",
+      "purpose": "visited by President Urho Kekkonen and Sylvi Kekkonen",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Urho_Kekkonen"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
         }
       ],
       "startDate": "1961-03-08",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -21270,13 +21594,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1961-11-03",
+      "endDate": "1961-10-18",
       "engagements": [],
       "eventName": null,
       "id": "urho-kekkonen--1961-10-16--USA",
       "officialId": "urho-kekkonen",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Urho_Kekkonen"
@@ -21284,7 +21612,7 @@
       ],
       "startDate": "1961-10-16",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -22159,7 +22487,7 @@
       ],
       "startDate": "1969-07-15",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -22345,19 +22673,48 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1970-07-27",
+      "endDate": "1970-07-25",
       "engagements": [],
       "eventName": null,
       "id": "urho-kekkonen--1970-07-23--USA",
       "officialId": "urho-kekkonen",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit. In U.S. July 22–27; visited Williamsburg, Fitchburg (Mass.), Wood’s Hole, and New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Urho_Kekkonen"
         }
       ],
       "startDate": "1970-07-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "urho-kekkonen--1970-10-24--USA",
+      "officialId": "urho-kekkonen",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
       "statusHint": null,
       "type": "other"
     },
@@ -23229,12 +23586,12 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Urho_Kekkonen"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         }
       ],
       "startDate": "1975-10-21",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -23423,18 +23780,22 @@
       "endDate": "1976-08-05",
       "engagements": [],
       "eventName": null,
-      "id": "urho-kekkonen--1976-07-30--USA",
+      "id": "urho-kekkonen--1976-08-03--USA",
       "officialId": "urho-kekkonen",
-      "purpose": "Visit to United States",
+      "purpose": "State visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Urho_Kekkonen"
         }
       ],
-      "startDate": "1976-07-30",
+      "startDate": "1976-08-03",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

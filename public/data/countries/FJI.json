@@ -3290,21 +3290,100 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-09-30",
+      "endDate": "2022-09-28",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "frank-bainimarama--2022-09-20--USA",
+      "eventName": "Attended the U.S.-Pacific Island Country Summit.",
+      "id": "frank-bainimarama--2022-09-28--USA",
       "officialId": "frank-bainimarama",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Attended the U.S.-Pacific Island Country Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-09-20",
+      "startDate": "2022-09-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamisese-mara--1970-10-24--USA",
+      "officialId": "kamisese-mara",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-11-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamisese-mara--1984-11-25--USA",
+      "officialId": "kamisese-mara",
+      "purpose": "Official working visit. Private visit to New York City afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-11-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-11-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamisese-mara--1989-11-06--USA",
+      "officialId": "kamisese-mara",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-11-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3417,11 +3496,15 @@
       },
       "endDate": "1990-10-27",
       "engagements": [],
-      "eventName": "Honolulu Summit",
+      "eventName": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "id": "kamisese-mara--1990-10-27--USA",
       "officialId": "kamisese-mara",
-      "purpose": "Attended Honolulu Summit",
+      "purpose": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4883,19 +4966,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-09-30",
+      "endDate": "2023-09-25",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "sitiveni-rabuka--2023-09-18--USA",
+      "eventName": "Attended the Pacific Islands Countries Summit.",
+      "id": "sitiveni-rabuka--2023-09-25--USA",
       "officialId": "sitiveni-rabuka",
-      "purpose": "Attended United Nations (UN) General Assembly and US-Pacific Islands Forum Summit",
+      "purpose": "Attended the Pacific Islands Countries Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-18",
+      "startDate": "2023-09-25",
       "statusHint": null,
       "type": "summit"
     },
@@ -4933,19 +5020,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-11-16",
+      "endDate": "2023-11-17",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "sitiveni-rabuka--2023-11-15--USA",
+      "eventName": "Invited Guest to APEC Leaders' Summit.",
+      "id": "sitiveni-rabuka--2023-11-12--USA",
       "officialId": "sitiveni-rabuka",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit and Fiji-Indonesia-Papua New Guinea Trilateral Meeting",
+      "purpose": "Invited Guest to APEC Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-15",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },

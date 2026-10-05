@@ -132,33 +132,6 @@
     {
       "aliases": [],
       "countryCode": "LAO",
-      "fullName": "Khamtai Siphandon",
-      "id": "khamtai-siphandon",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "1997-12-16",
-          "id": "khamtai-siphandon-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1996-11-28",
-          "title": "General Secretary"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "LAO",
       "fullName": "Khamtai Siphandone",
       "id": "khamtai-siphandone",
       "party": "Lao People's Revolutionary Party",
@@ -266,6 +239,33 @@
       ],
       "summary": "Phoumi Vongvichit was a leading figure of the Pathet Lao and an elder statesman of the Lao People's Democratic Republic.",
       "wikidataId": "Q878933"
+    },
+    {
+      "aliases": [],
+      "countryCode": "LAO",
+      "fullName": "Savang Vathana",
+      "id": "savang-vathana",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1963-02-27",
+          "id": "savang-vathana-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1963-02-25",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -517,7 +517,7 @@
           "url": "https://en.wikipedia.org/wiki/Sonexay_Siphandone"
         }
       ],
-      "summary": "Sonexay Siphandone (born 26 January 1966) is a Laotian politician who has served as the prime minister of Laos since 30 December 2022. A member of the Lao People's Revolutionary Party (LPRP), he previously served as the deputy prime minister from 2016 to 2022.",
+      "summary": "Sonexay Siphandone (born 26 January 1966) is a Laotian politician who has served as the president of the National Assembly of Laos since 5 October 2026. A member of the Lao People's Revolutionary Party (LPRP), he previously served as the prime minister of Laos from 30 December 2022 to 5 October 2026 and as the deputy prime minister from 2016 to 2022.",
       "wikidataId": "Q104914585"
     },
     {
@@ -1149,7 +1149,7 @@
           "url": "https://en.wikipedia.org/wiki/Saleumxay_Kommasith"
         }
       ],
-      "summary": "Saleumxay Kommasith is a Laotian politician who has served as the Deputy Prime Minister of Laos since June 2022. He served as Minister of Foreign Affairs of Laos from April 2016 to November 2024.",
+      "summary": "Saleumxay Kommasith is a Laotian politician who has served as the Prime Minister of Laos since 5 October 2026. He previously served as a Deputy Prime Minister from 2022 to 2026 and as Minister of Foreign Affairs of Laos from April 2016 to November 2024.",
       "wikidataId": "Q25999464"
     },
     {
@@ -2454,6 +2454,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-02-18",
+      "engagements": [],
+      "eventName": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "id": "choummaly-sayasone--2016-02-16--USA",
+      "officialId": "choummaly-sayasone",
+      "purpose": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2016-02-16",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-05-13",
+      "engagements": [],
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "choummaly-sayasone--2022-05-12--USA",
+      "officialId": "choummaly-sayasone",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2022-05-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [139.6917, 35.6895],
         "countryCode": "JPN",
@@ -2654,159 +2704,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
-        "coordinates": [106.8456, -6.2088],
-        "countryCode": "IDN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1996-11-28",
-      "engagements": ["Met President Suharto"],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "khamtai-siphandon--1996-11-28--IDN",
-      "officialId": "khamtai-siphandon",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-28",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Naypyidaw",
-        "coordinates": [96.115, 19.7475],
-        "countryCode": "MMR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1997-04-03",
-      "engagements": [
-        "Met Chairman of the State Law and Order Restoration Council Than Shwe",
-        "Signed agreements"
-      ],
-      "eventName": null,
-      "id": "khamtai-siphandon--1997-03-29--MMR",
-      "officialId": "khamtai-siphandon",
-      "purpose": "Visit to Myanmar",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1997-03-29",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Havana",
-        "coordinates": [-82.358888888, 23.136666666],
-        "countryCode": "CUB",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1997-04-28",
-      "engagements": ["Met President Fidel Castro"],
-      "eventName": null,
-      "id": "khamtai-siphandon--1997-04-26--CUB",
-      "officialId": "khamtai-siphandon",
-      "purpose": "Visit to Cuba",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1997-04-26",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Paris",
-        "coordinates": [2.3522, 48.8566],
-        "countryCode": "FRA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1997-05-01",
-      "engagements": ["Met President Jacques Chirac"],
-      "eventName": null,
-      "id": "khamtai-siphandon--1997-04-29--FRA",
-      "officialId": "khamtai-siphandon",
-      "purpose": "Visit to France",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1997-04-29",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New Delhi",
-        "coordinates": [77.209, 28.6139],
-        "countryCode": "IND",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1997-05-05",
-      "engagements": ["Met Prime Minister Atal Bihari Vajpayee"],
-      "eventName": null,
-      "id": "khamtai-siphandon--1997-05-03--IND",
-      "officialId": "khamtai-siphandon",
-      "purpose": "Visit to India",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1997-05-03",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kuala Lumpur",
-        "coordinates": [101.695277777, 3.147777777],
-        "countryCode": "MYS",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1997-12-16",
-      "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "khamtai-siphandon--1997-12-15--MYS",
-      "officialId": "khamtai-siphandon",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1997-12-15",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Bandar Seri Begawan",
         "coordinates": [114.916666666, 4.916666666],
         "countryCode": "BRN",
@@ -2953,6 +2850,384 @@
       "startDate": "2003-06-12",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Jakarta",
+        "coordinates": [106.8456, -6.2088],
+        "countryCode": "IDN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-11-28",
+      "engagements": ["Met President Suharto"],
+      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "id": "nouhak-phoumsavanh--1996-11-28--IDN",
+      "officialId": "nouhak-phoumsavanh",
+      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Naypyidaw",
+        "coordinates": [96.115, 19.7475],
+        "countryCode": "MMR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-04-03",
+      "engagements": [
+        "Met Chairman of the State Law and Order Restoration Council Than Shwe",
+        "Signed agreements"
+      ],
+      "eventName": null,
+      "id": "nouhak-phoumsavanh--1997-03-29--MMR",
+      "officialId": "nouhak-phoumsavanh",
+      "purpose": "Visit to Myanmar",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1997-03-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Havana",
+        "coordinates": [-82.358888888, 23.136666666],
+        "countryCode": "CUB",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1997-04-28",
+      "engagements": ["Met President Fidel Castro"],
+      "eventName": null,
+      "id": "nouhak-phoumsavanh--1997-04-26--CUB",
+      "officialId": "nouhak-phoumsavanh",
+      "purpose": "Visit to Cuba",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1997-04-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1997-05-01",
+      "engagements": ["Met President Jacques Chirac"],
+      "eventName": null,
+      "id": "nouhak-phoumsavanh--1997-04-29--FRA",
+      "officialId": "nouhak-phoumsavanh",
+      "purpose": "Visit to France",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1997-04-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [77.209, 28.6139],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-05-05",
+      "engagements": ["Met Prime Minister Atal Bihari Vajpayee"],
+      "eventName": null,
+      "id": "nouhak-phoumsavanh--1997-05-03--IND",
+      "officialId": "nouhak-phoumsavanh",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1997-05-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [101.695277777, 3.147777777],
+        "countryCode": "MYS",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-12-16",
+      "engagements": [],
+      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "id": "nouhak-phoumsavanh--1997-12-15--MYS",
+      "officialId": "nouhak-phoumsavanh",
+      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1997-12-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-02-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "savang-vathana--1963-02-25--USA",
+      "officialId": "savang-vathana",
+      "purpose": "State visit. In U.S. February 21–27, visited Knoxville (Tennessee) and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-02-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-01-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1958-01-13--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Informal meetings with President Eisenhower and senior U.S. officials.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-01-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-07-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1962-07-26--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Official visit. Later visited Philadelphia and New York City. Departed U.S. July 31.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-07-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-10-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1966-10-12--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Informal meetings with President Johnson in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-10-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1967-10-20--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Informal visit. Arrived in U.S. October 10; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-10-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1969-10-06--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Official visit. In U.S. October 3–11; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-10-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1970-10-21--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-09-30",
+      "engagements": [],
+      "eventName": "Private visit to Washington while attending session of the U.N. General Assembly.",
+      "id": "souvanna-phouma--1971-09-30--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Private visit to Washington while attending session of the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-09-30",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1972-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "souvanna-phouma--1972-10-27--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1972-10-27",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

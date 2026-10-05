@@ -147,6 +147,33 @@
       "wikidataId": "Q540954"
     },
     {
+      "aliases": [],
+      "countryCode": "TGO",
+      "fullName": "Olympio",
+      "id": "olympio",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1962-03-22",
+          "id": "olympio-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1960-09-23",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Edouard Kodjo",
         "Édouard Kodjovi Edem Kodjo",
@@ -1998,6 +2025,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-10-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "etienne-gnassingbe-eyadema--1983-10-22--USA",
+      "officialId": "etienne-gnassingbe-eyadema",
+      "purpose": "Private visit. Met with President Reagan October 24.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-10-22",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -2029,7 +2081,7 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-08-12",
+      "endDate": "1990-08-01",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
@@ -2037,8 +2089,12 @@
       "eventName": null,
       "id": "etienne-gnassingbe-eyadema--1990-07-30--USA",
       "officialId": "etienne-gnassingbe-eyadema",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6476,17 +6532,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "faure-essozimna-gnassingbe--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "faure-essozimna-gnassingbe--2014-08-05--USA",
       "officialId": "faure-essozimna-gnassingbe",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -10285,17 +10345,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "faure-essozimna-gnassingbe--2022-12-14--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "faure-essozimna-gnassingbe--2022-12-13--USA",
       "officialId": "faure-essozimna-gnassingbe",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-14",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -11740,6 +11804,56 @@
       "startDate": "2025-12-19",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "olympio--1960-09-23--USA",
+      "officialId": "olympio",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-09-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-03-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "olympio--1962-03-20--USA",
+      "officialId": "olympio",
+      "purpose": "Presidential guest. In the U.S. March 19–30, visiting New York City, Niagara Falls (New York), and the Virgin Islands.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-03-20",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

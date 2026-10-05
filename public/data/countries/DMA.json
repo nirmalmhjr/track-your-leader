@@ -405,7 +405,7 @@
           "url": "https://en.wikipedia.org/wiki/Roosevelt_Skerrit"
         }
       ],
-      "summary": "Roosevelt Skerrit (born 8 June 1972), also known as \"Roozey\" or \"Skerro\", is a Dominican politician who has been Prime Minister of Dominica since 2004; he has also been the Member of Parliament for the Vieille Case constituency since 2000. Regionally, he has served as the chairman of the Organisation of Eastern Caribbean States (OECS) and, most recently, as chairman of the Caribbean Community (CARICOM) in 2010.",
+      "summary": "Roosevelt Skerrit (born 8 June 1972), also known as \"Roozey\" or \"Skerro\", is a Dominican politician who has been Prime Minister of Dominica since 2004; he has also been the Member of Parliament for the Vieille Case constituency since 2000. Regionally, he has served as the chairman of the Organisation of Eastern Caribbean States (OECS) and, most recently, as chairman of the Caribbean Community (CARICOM) in 2010 and 2023.",
       "wikidataId": "Q57823"
     },
     {
@@ -1464,6 +1464,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-10-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "eugenia-charles--1983-10-25--USA",
+      "officialId": "eugenia-charles",
+      "purpose": "Private visit. Met with President Reagan October 25.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-10-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-02-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "eugenia-charles--1984-02-01--USA",
+      "officialId": "eugenia-charles",
+      "purpose": "Private visit. Met with President Reagan February 3.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-02-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-07-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "eugenia-charles--1984-07-17--USA",
+      "officialId": "eugenia-charles",
+      "purpose": "Attended meeting of Caribbean Heads of Government in Charleston (S.C.). Met with President Reagan July 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-07-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bridgetown",
         "coordinates": [-59.616666666, 13.0975],
         "countryCode": "BRB",
@@ -1989,6 +2064,35 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "eugenia-charles--1994-09-16--USA",
+      "officialId": "eugenia-charles",
+      "purpose": "Discussed the despatch of a multinational force to Haiti.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-09-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Port-au-Prince",
         "coordinates": [-72.340277777, 18.546944444],
         "countryCode": "HTI",
@@ -2001,31 +2105,6 @@
       "id": "eugenia-charles--1994-09-17--HTI",
       "officialId": "eugenia-charles",
       "purpose": "Visit to Haiti",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-09-17",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1994-09-17",
-      "engagements": [],
-      "eventName": null,
-      "id": "eugenia-charles--1994-09-17--USA",
-      "officialId": "eugenia-charles",
-      "purpose": "Visit to United States",
       "sources": [
         {
           "label": "COLT dataset",
@@ -2097,17 +2176,21 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "eugenia-charles--1994-12-08--USA",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "eugenia-charles--1994-12-09--USA",
       "officialId": "eugenia-charles",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-12-08",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },

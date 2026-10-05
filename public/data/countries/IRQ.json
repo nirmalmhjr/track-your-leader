@@ -1,6 +1,33 @@
 {
   "officials": [
     {
+      "aliases": [],
+      "countryCode": "IRQ",
+      "fullName": "Abdul Ilah",
+      "id": "abdul-ilah",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1945-06-01",
+          "id": "abdul-ilah-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1945-05-28",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Abdulatif Rashid", "Latif Rashid"],
       "countryCode": "IRQ",
       "fullName": "Abdul Latif Rashid",
@@ -223,6 +250,33 @@
       ],
       "summary": "Barham Salih is an Iraqi Kurdish politician who has been serving as United Nations High Commissioner for Refugees since 1 January 2026. He previously served as the president of Iraq from 2018 to 2022.",
       "wikidataId": "Q808173"
+    },
+    {
+      "aliases": [],
+      "countryCode": "IRQ",
+      "fullName": "Faisal II",
+      "id": "faisal-ii",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1952-08-18",
+          "id": "faisal-ii-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1952-08-16",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [
@@ -1481,7 +1535,7 @@
           "id": "nuri-al-maliki-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2006-07-02",
+          "startDate": "2006-07-24",
           "title": "Prime Minister"
         }
       ],
@@ -1571,11 +1625,11 @@
       "positions": [
         {
           "categories": ["head_of_government"],
-          "endDate": "2003-11-14",
+          "endDate": "2003-06-23",
           "id": "paul-bremer-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2003-06-05",
+          "startDate": "2003-06-21",
           "title": "Civil Administrator"
         }
       ],
@@ -5469,6 +5523,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-06-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdul-ilah--1945-05-28--USA",
+      "officialId": "abdul-ilah",
+      "purpose": "At invitation of the President.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-05-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Amman",
         "coordinates": [35.926084, 31.930983],
         "countryCode": "JOR",
@@ -5775,6 +5854,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-01-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "adnan-pachachi--2004-01-20--USA",
+      "officialId": "adnan-pachachi",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-01-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-09-25",
+      "engagements": ["Met President George W. Bush"],
+      "eventName": null,
+      "id": "ahmed-chalabi--2003-09-24--USA",
+      "officialId": "ahmed-chalabi",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2003-09-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Amman",
         "coordinates": [35.926084, 31.930983],
         "countryCode": "JOR",
@@ -5981,19 +6110,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-09-27",
+      "endDate": "2004-09-24",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "ayad-allawi--2004-09-23--USA",
+      "id": "ayad-allawi--2004-09-21--USA",
       "officialId": "ayad-allawi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-09-23",
+      "startDate": "2004-09-21",
       "statusHint": null,
       "type": "conference"
     },
@@ -6541,19 +6674,98 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-09-27",
-      "engagements": ["Met President Barack Obama"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "haider-al-abadi--2014-09-24--USA",
-      "officialId": "haider-al-abadi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "endDate": "1952-08-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "faisal-ii--1952-08-16--USA",
+      "officialId": "faisal-ii",
+      "purpose": "Informal, unofficial visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-08-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-06-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "ghazi-mashal-ajil-al-yawer--2004-06-09--USA",
+      "officialId": "ghazi-mashal-ajil-al-yawer",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-06-09",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-12-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ghazi-mashal-ajil-al-yawer--2004-12-03--USA",
+      "officialId": "ghazi-mashal-ajil-al-yawer",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-12-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-09-24",
+      "engagements": ["Met President Barack Obama"],
+      "eventName": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "id": "haider-al-abadi--2014-09-23--USA",
+      "officialId": "haider-al-abadi",
+      "purpose": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-24",
+      "startDate": "2014-09-23",
       "statusHint": null,
       "type": "conference"
     },
@@ -6794,19 +7006,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-04-17",
+      "endDate": "2015-04-14",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "haider-al-abadi--2015-04-13--USA",
+      "id": "haider-al-abadi--2015-04-14--USA",
       "officialId": "haider-al-abadi",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-13",
+      "startDate": "2015-04-14",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6922,19 +7138,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-09-30",
+      "endDate": "2015-09-29",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "haider-al-abadi--2015-09-28--USA",
+      "eventName": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "id": "haider-al-abadi--2015-09-29--USA",
       "officialId": "haider-al-abadi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly Meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-28",
+      "startDate": "2015-09-29",
       "statusHint": null,
       "type": "conference"
     },
@@ -7122,13 +7342,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-03-23",
+      "endDate": "2017-03-20",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
       "id": "haider-al-abadi--2017-03-20--USA",
       "officialId": "haider-al-abadi",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7569,6 +7793,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-06-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "ibrahim-al-jaafari--2005-06-23--USA",
+      "officialId": "ibrahim-al-jaafari",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-06-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tehran",
         "coordinates": [51.389722222, 35.688888888],
         "countryCode": "IRN",
@@ -7640,6 +7889,331 @@
       "startDate": "2006-02-28",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riyadh",
+        "coordinates": [46.71, 24.65],
+        "countryCode": "SAU",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-07-03",
+      "engagements": ["Gave a public address"],
+      "eventName": null,
+      "id": "ibrahim-al-jaafari--2006-07-02--SAU",
+      "officialId": "ibrahim-al-jaafari",
+      "purpose": "Visit to Saudi Arabia",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2006-07-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [54.396944444, 24.451111111],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-07-04",
+      "engagements": ["Met President Khalifa bin Zayed Al Nahyan"],
+      "eventName": null,
+      "id": "ibrahim-al-jaafari--2006-07-03--ARE",
+      "officialId": "ibrahim-al-jaafari",
+      "purpose": "Visit to United Arab Emirates",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2006-07-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuwait City",
+        "coordinates": [47.98, 29.375],
+        "countryCode": "KWT",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-07-05",
+      "engagements": ["Met Prime Minister Nasser Muhammad Al-Ahmad Al-Sabah"],
+      "eventName": null,
+      "id": "ibrahim-al-jaafari--2006-07-04--KWT",
+      "officialId": "ibrahim-al-jaafari",
+      "purpose": "Visit to Kuwait",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2006-07-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-11-14",
+      "engagements": ["Met President George W. Bush"],
+      "eventName": null,
+      "id": "jalal-talabani--2003-11-12--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2003-11-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-09-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "jalal-talabani--2005-09-08--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-09-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-09-19",
+      "engagements": [],
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "jalal-talabani--2006-09-19--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2006-09-19",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-06-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "jalal-talabani--2007-05-30--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2007-05-30",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "jalal-talabani--2007-09-29--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2007-09-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "jalal-talabani--2008-06-21--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-06-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-09-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "jalal-talabani--2008-09-10--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-09-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-09-23",
+      "engagements": [],
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "jalal-talabani--2008-09-23--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-09-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2009-10-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "jalal-talabani--2009-10-06--USA",
+      "officialId": "jalal-talabani",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2009-10-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Doha",
+        "coordinates": [51.529444444, 25.286111111],
+        "countryCode": "QAT",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2003-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-bahr-al-ulloum--2003-06-05--QAT",
+      "officialId": "mohammad-bahr-al-ulloum",
+      "purpose": "Visit to Qatar",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2003-06-05",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -8231,19 +8805,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-04-20",
+      "endDate": "2024-04-15",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
       "eventName": null,
-      "id": "muhammad-shia-al-sudani--2024-04-13--USA",
+      "id": "muhammad-shia-al-sudani--2024-04-15--USA",
       "officialId": "muhammad-shia-al-sudani",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-04-13",
+      "startDate": "2024-04-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8827,19 +9405,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2020-08-21",
+      "endDate": "2020-08-20",
       "engagements": ["Met President Donald Trump", "Signed agreements"],
       "eventName": null,
-      "id": "mustafa-al-kadhimi--2020-08-19--USA",
+      "id": "mustafa-al-kadhimi--2020-08-20--USA",
       "officialId": "mustafa-al-kadhimi",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2020-08-19",
+      "startDate": "2020-08-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9133,6 +9715,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "2021-07-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "mustafa-al-kadhimi--2021-07-23--USA",
+      "officialId": "mustafa-al-kadhimi",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2021-07-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2021-07-29",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
@@ -9402,6 +10009,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-07-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "nouri-al-maliki--2006-07-24--USA",
+      "officialId": "nouri-al-maliki",
+      "purpose": "Working visit. Addressed joint meeting of Congress July 26.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2006-07-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [139.6917, 35.6895],
         "countryCode": "JPN",
@@ -9636,19 +10268,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-09-26",
+      "endDate": "2007-09-25",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "nouri-al-maliki--2007-09-22--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "nouri-al-maliki--2007-09-25--USA",
       "officialId": "nouri-al-maliki",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-09-22",
+      "startDate": "2007-09-25",
       "statusHint": null,
       "type": "conference"
     },
@@ -10064,13 +10700,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-07-24",
+      "endDate": "2009-07-22",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "nouri-al-maliki--2009-07-22--USA",
       "officialId": "nouri-al-maliki",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10114,21 +10754,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-10-22",
+      "endDate": "2009-10-20",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "nouri-al-maliki--2009-10-19--USA",
+      "id": "nouri-al-maliki--2009-10-20--USA",
       "officialId": "nouri-al-maliki",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-10-19",
+      "startDate": "2009-10-20",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10422,8 +11066,12 @@
       "eventName": null,
       "id": "nouri-al-maliki--2011-12-12--USA",
       "officialId": "nouri-al-maliki",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10623,13 +11271,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-11-02",
+      "endDate": "2013-11-01",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
       "id": "nouri-al-maliki--2013-10-31--USA",
       "officialId": "nouri-al-maliki",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10661,81 +11313,6 @@
         }
       ],
       "startDate": "2013-12-04",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Riyadh",
-        "coordinates": [46.71, 24.65],
-        "countryCode": "SAU",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2006-07-03",
-      "engagements": ["Gave a public address"],
-      "eventName": null,
-      "id": "nuri-al-maliki--2006-07-02--SAU",
-      "officialId": "nuri-al-maliki",
-      "purpose": "Visit to Saudi Arabia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2006-07-02",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Abu Dhabi",
-        "coordinates": [54.396944444, 24.451111111],
-        "countryCode": "ARE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2006-07-04",
-      "engagements": ["Met President Khalifa bin Zayed Al Nahyan"],
-      "eventName": null,
-      "id": "nuri-al-maliki--2006-07-03--ARE",
-      "officialId": "nuri-al-maliki",
-      "purpose": "Visit to United Arab Emirates",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2006-07-03",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kuwait City",
-        "coordinates": [47.98, 29.375],
-        "countryCode": "KWT",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2006-07-05",
-      "engagements": ["Met Prime Minister Nasser Muhammad Al-Ahmad Al-Sabah"],
-      "eventName": null,
-      "id": "nuri-al-maliki--2006-07-04--KWT",
-      "officialId": "nuri-al-maliki",
-      "purpose": "Visit to Kuwait",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2006-07-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10867,31 +11444,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Doha",
-        "coordinates": [51.529444444, 25.286111111],
-        "countryCode": "QAT",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2003-06-05",
-      "engagements": [],
-      "eventName": null,
-      "id": "paul-bremer--2003-06-05--QAT",
-      "officialId": "paul-bremer",
-      "purpose": "Visit to Qatar",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2003-06-05",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Amman",
         "coordinates": [35.926084, 31.930983],
         "countryCode": "JOR",
@@ -10913,56 +11465,6 @@
       "startDate": "2003-06-21",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2003-09-25",
-      "engagements": ["Met President George W. Bush"],
-      "eventName": null,
-      "id": "paul-bremer--2003-09-24--USA",
-      "officialId": "paul-bremer",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2003-09-24",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2003-11-14",
-      "engagements": ["Met President George W. Bush"],
-      "eventName": null,
-      "id": "paul-bremer--2003-11-12--USA",
-      "officialId": "paul-bremer",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2003-11-12",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "day",

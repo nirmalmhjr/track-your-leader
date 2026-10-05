@@ -2389,13 +2389,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2007-10-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2608,17 +2612,21 @@
       },
       "endDate": "2008-11-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "abdullah-of-saudi-arabia--2008-11-12--USA",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
+      "id": "abdullah-of-saudi-arabia--2008-11-14--USA",
       "officialId": "abdullah-of-saudi-arabia",
-      "purpose": "Attended United Nations (UN) General Assembly and G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-11-12",
+      "startDate": "2008-11-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -2831,13 +2839,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-07-01",
+      "endDate": "2010-06-29",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
       "id": "abdullah-of-saudi-arabia--2010-06-29--USA",
       "officialId": "abdullah-of-saudi-arabia",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3150,6 +3162,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-02-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "fahd-bin-abdulaziz-al-saud--1985-02-07--USA",
+      "officialId": "fahd-bin-abdulaziz-al-saud",
+      "purpose": "State Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-02-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1987-03-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "fahd-bin-abdulaziz-al-saud--1987-03-24--GBR",
+      "officialId": "fahd-bin-abdulaziz-al-saud",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1987-03-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bern",
         "coordinates": [7.44743, 46.94798],
         "countryCode": "CHE",
@@ -3425,6 +3487,181 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "khalid-of-saudi-arabia--1978-10-27--USA",
+      "officialId": "khalid-of-saudi-arabia",
+      "purpose": "Private visit. Had luncheon with President Carter. Was receiving medical treatment at the Cleveland Clinic.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-10-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1981-06-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "khalid-of-saudi-arabia--1981-06-09--GBR",
+      "officialId": "khalid-of-saudi-arabia",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1981-06-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "king-faisal-bin-abdulaziz-al-saud--1966-06-21--USA",
+      "officialId": "king-faisal-bin-abdulaziz-al-saud",
+      "purpose": "State visit. In U.S. June 20–30; visited Williamsburg and New York",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-06-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1967-05-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "king-faisal-bin-abdulaziz-al-saud--1967-05-09--GBR",
+      "officialId": "king-faisal-bin-abdulaziz-al-saud",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1967-05-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-05-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "king-faisal-bin-abdulaziz-al-saud--1971-05-20--JPN",
+      "officialId": "king-faisal-bin-abdulaziz-al-saud",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1971-05-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-05-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "king-faisal-bin-abdulaziz-al-saud--1971-05-27--USA",
+      "officialId": "king-faisal-bin-abdulaziz-al-saud",
+      "purpose": "Official visit. In U.S. May 24; visited San Francisco and Williamsburg.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-05-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-09-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-bin-salman-al-saud--2015-09-04--USA",
+      "officialId": "mohammed-bin-salman-al-saud",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2015-09-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Beijing",
         "coordinates": [116.407526, 39.90403],
         "countryCode": "CHN",
@@ -3508,21 +3745,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2018-04-08",
+      "endDate": "2018-03-24",
       "engagements": [
         "Three-week tour of the United States; aimed at localizing 50% of military spending by 2030"
       ],
       "eventName": null,
-      "id": "mohammed-bin-salman-al-saud--2018-03-20--USA",
+      "id": "mohammed-bin-salman-al-saud--2018-03-19--USA",
       "officialId": "mohammed-bin-salman-al-saud",
-      "purpose": "Official visit.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Mohammed_bin_Salman_as_Crown_Prince_of_Saudi_Arabia"
         }
       ],
-      "startDate": "2018-03-20",
+      "startDate": "2018-03-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4747,6 +4988,56 @@
         }
       ],
       "startDate": "2020-01-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1957-02-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "saud-of-saudi-arabia--1957-01-30--USA",
+      "officialId": "saud-of-saudi-arabia",
+      "purpose": "State visit to Washington.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1957-01-30",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "saud-of-saudi-arabia--1962-02-13--USA",
+      "officialId": "saud-of-saudi-arabia",
+      "purpose": "Informal visit. Arrived in U.S. November 22, 1961 for medical treatment in Boston; also visited Palm Beach.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-02-13",
       "statusHint": null,
       "type": "other"
     }

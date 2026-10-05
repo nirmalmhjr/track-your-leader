@@ -1833,11 +1833,15 @@
       },
       "endDate": "2019-03-22",
       "engagements": ["Met President Donald Trump"],
-      "eventName": "United States-Caribbean Community (CARICOM) Summit",
+      "eventName": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "id": "allen-chastanet--2019-03-22--USA",
       "officialId": "allen-chastanet",
-      "purpose": "Attended United States-Caribbean Community (CARICOM) Summit",
+      "purpose": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1845,7 +1849,7 @@
       ],
       "startDate": "2019-03-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -2425,6 +2429,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-07-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-compton--1984-07-17--USA",
+      "officialId": "john-compton",
+      "purpose": "Attended meeting of Caribbean Heads of Government in Charleston (S.C.). Met with President Reagan July 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-07-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "St. George's",
         "coordinates": [-61.753055555, 12.0525],
         "countryCode": "GRD",
@@ -2808,11 +2837,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "john-compton--1994-12-09--USA",
       "officialId": "john-compton",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3756,19 +3789,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-10-02",
+      "endDate": "2003-09-24",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "kenny-anthony--2003-09-22--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "kenny-anthony--2003-09-24--USA",
       "officialId": "kenny-anthony",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-22",
+      "startDate": "2003-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -5110,11 +5147,15 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Gave a public address"],
-      "eventName": "Summit of the Americas",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
       "id": "philip-j-pierre--2022-06-08--USA",
       "officialId": "philip-j-pierre",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

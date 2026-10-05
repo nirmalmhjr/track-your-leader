@@ -16,15 +16,6 @@
           "portfolio": null,
           "startDate": "2025-09-30",
           "title": "President"
-        },
-        {
-          "categories": ["head_of_government"],
-          "endDate": "2025-02-24",
-          "id": "abdourahamane-tchiani-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2023-11-23",
-          "title": "Chairman of the National Council for the Safeguarding of the Fatherland"
         }
       ],
       "sources": [
@@ -332,6 +323,33 @@
       ],
       "summary": "Salou Djibo (born 15 April 1965) is a Nigerien Army officer. After President Mamadou Tandja's attempts to remain in power beyond his term, Djibo led the military coup of 18 February 2010 that ousted Tandja, after which he became the head of the Supreme Council for the Restoration of Democracy.",
       "wikidataId": "Q356835"
+    },
+    {
+      "aliases": [],
+      "countryCode": "NER",
+      "fullName": "Seyni Kounche",
+      "id": "seyni-kounche",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1984-12-13",
+          "id": "seyni-kounche-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1984-12-10",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": ["Abouba Albadé", "Albade Abouba"],
@@ -1066,9 +1084,13 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q106424171"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ahmat_Jidoud"
         }
       ],
-      "summary": "Nigerien economist and politician.",
+      "summary": "Ahmat Jidoud (born 1 January 1980) is a Nigerien economist and former politician who served as Minister of Finance of Niger from 7 April 2021 to 26 July 2023. He previously served as Minister Delegate in charge of the Budget from May 2016 to April 2021.",
       "wikidataId": "Q106424171"
     },
     {
@@ -2446,105 +2468,6 @@
         "city": "Ouagadougou",
         "coordinates": [-1.5275, 12.368611111],
         "countryCode": "BFA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2023-11-23",
-      "engagements": ["Met President Ibrahim Traore"],
-      "eventName": null,
-      "id": "abdourahamane-tchiani--2023-11-23--BFA",
-      "officialId": "abdourahamane-tchiani",
-      "purpose": "Visit to Burkina Faso",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-11-23",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bamako",
-        "coordinates": [-7.992222222, 12.645833333],
-        "countryCode": "MLI",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2023-11-23",
-      "engagements": ["Met President (Acting) Assimi Goita"],
-      "eventName": null,
-      "id": "abdourahamane-tchiani--2023-11-23--MLI",
-      "officialId": "abdourahamane-tchiani",
-      "purpose": "Visit to Mali",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-11-23",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Lomé",
-        "coordinates": [1.215833333, 6.13],
-        "countryCode": "TGO",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2023-12-08",
-      "engagements": ["Met President Faure Gnassingbe"],
-      "eventName": null,
-      "id": "abdourahamane-tchiani--2023-12-08--TGO",
-      "officialId": "abdourahamane-tchiani",
-      "purpose": "Visit to Togo",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-12-08",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Doha",
-        "coordinates": [51.529444444, 25.286111111],
-        "countryCode": "QAT",
-        "region": "Asia"
-      },
-      "endDate": "2025-02-24",
-      "engagements": [],
-      "eventName": null,
-      "id": "abdourahamane-tchiani--2025-02-24--QAT",
-      "officialId": "abdourahamane-tchiani",
-      "purpose": "Visit to Qatar",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-02-24",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ouagadougou",
-        "coordinates": [-1.5275, 12.368611111],
-        "countryCode": "BFA",
         "region": "Africa"
       },
       "endDate": "2025-09-30",
@@ -2613,6 +2536,105 @@
       "startDate": "2025-12-22",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ouagadougou",
+        "coordinates": [-1.5275, 12.368611111],
+        "countryCode": "BFA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2023-11-23",
+      "engagements": ["Met President Ibrahim Traore"],
+      "eventName": null,
+      "id": "ali-lamine-zeine--2023-11-23--BFA",
+      "officialId": "ali-lamine-zeine",
+      "purpose": "Visit to Burkina Faso",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2023-11-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bamako",
+        "coordinates": [-7.992222222, 12.645833333],
+        "countryCode": "MLI",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2023-11-23",
+      "engagements": ["Met President (Acting) Assimi Goita"],
+      "eventName": null,
+      "id": "ali-lamine-zeine--2023-11-23--MLI",
+      "officialId": "ali-lamine-zeine",
+      "purpose": "Visit to Mali",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2023-11-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lomé",
+        "coordinates": [1.215833333, 6.13],
+        "countryCode": "TGO",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2023-12-08",
+      "engagements": ["Met President Faure Gnassingbe"],
+      "eventName": null,
+      "id": "ali-lamine-zeine--2023-12-08--TGO",
+      "officialId": "ali-lamine-zeine",
+      "purpose": "Visit to Togo",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2023-12-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Doha",
+        "coordinates": [51.529444444, 25.286111111],
+        "countryCode": "QAT",
+        "region": "Asia"
+      },
+      "endDate": "2025-02-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-lamine-zeine--2025-02-24--QAT",
+      "officialId": "ali-lamine-zeine",
+      "purpose": "Visit to Qatar",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-02-24",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -3395,6 +3417,31 @@
         }
       ],
       "startDate": "1999-12-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "diori-hamani--1967-09-26--USA",
+      "officialId": "diori-hamani",
+      "purpose": "Official visit. In U.S. September 25–October11; visited the Virgin Islands, Tucson, Chicago, New York City, and San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-09-26",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4966,18 +5013,22 @@
       "endDate": "2011-07-29",
       "engagements": [],
       "eventName": "Niger-Benin-Guinea-Cote d'Ivoire-United States Summit",
-      "id": "mahamadou-issoufou--2011-07-26--USA",
+      "id": "mahamadou-issoufou--2011-07-29--USA",
       "officialId": "mahamadou-issoufou",
-      "purpose": "Attended Niger-Benin-Guinea-Cote d'Ivoire-United States Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-07-26",
+      "startDate": "2011-07-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6274,11 +6325,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "mahamadou-issoufou--2014-08-05--USA",
       "officialId": "mahamadou-issoufou",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11556,18 +11611,22 @@
       "endDate": "2005-06-13",
       "engagements": [],
       "eventName": "United States-Niger-Ghana-Mozambique-Botswana-Namibia Summit",
-      "id": "mamadou-tandja--2005-06-13--USA",
+      "id": "mamadou-tandja--2005-06-12--USA",
       "officialId": "mamadou-tandja",
-      "purpose": "Attended United States-Niger-Ghana-Mozambique-Botswana-Namibia Summit",
+      "purpose": "Working visit. Discussed African Growth and Opportunity Act.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-06-13",
+      "startDate": "2005-06-12",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13551,19 +13610,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "mohamed-bazoum--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "mohamed-bazoum--2022-12-13--USA",
       "officialId": "mohamed-bazoum",
-      "purpose": "Attended United States-Africa Leaders Summit and Djibouti-Niger-Somalia Trilateral Meeting",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -14268,6 +14331,31 @@
       "startDate": "2011-03-23",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-12-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "seyni-kounche--1984-12-10--USA",
+      "officialId": "seyni-kounche",
+      "purpose": "Official Working Visit. Private visit afterwards to Columbus (Miss.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-12-10",
+      "statusHint": null,
+      "type": "official_visit"
     }
   ]
 }

@@ -103,11 +103,11 @@
       "positions": [
         {
           "categories": ["head_of_government"],
-          "endDate": "2010-07-23",
+          "endDate": "2010-06-25",
           "id": "derek-sikua-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2008-01-21",
+          "startDate": "2008-03-02",
           "title": "Prime Minister"
         }
       ],
@@ -2192,6 +2192,31 @@
         "precision": "country",
         "region": "Oceania"
       },
+      "endDate": "2010-07-23",
+      "engagements": [],
+      "eventName": "Engaging Fiji Meeting",
+      "id": "danny-philip--2010-07-19--FJI",
+      "officialId": "danny-philip",
+      "purpose": "Attended Engaging Fiji Meeting",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2010-07-19",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Suva",
+        "coordinates": [178.433333333, -18.133333333],
+        "countryCode": "FJI",
+        "precision": "country",
+        "region": "Oceania"
+      },
       "endDate": "2011-03-30",
       "engagements": [],
       "eventName": null,
@@ -2232,81 +2257,6 @@
       "startDate": "2011-10-28",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Port Moresby",
-        "coordinates": [147.149444444, -9.478888888],
-        "countryCode": "PNG",
-        "precision": "country",
-        "region": "Oceania"
-      },
-      "endDate": "2008-01-22",
-      "engagements": ["Met Prime Minister Michael Somare"],
-      "eventName": null,
-      "id": "derek-sikua--2008-01-21--PNG",
-      "officialId": "derek-sikua",
-      "purpose": "Visit to Papua New Guinea",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-01-21",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Canberra",
-        "coordinates": [149.13, -35.2809],
-        "countryCode": "AUS",
-        "precision": "country",
-        "region": "Oceania"
-      },
-      "endDate": "2008-01-24",
-      "engagements": ["Met Prime Minister Kevin Rudd"],
-      "eventName": null,
-      "id": "derek-sikua--2008-01-22--AUS",
-      "officialId": "derek-sikua",
-      "purpose": "Visit to Australia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-01-22",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Wellington",
-        "coordinates": [174.7762, -41.2865],
-        "countryCode": "NZL",
-        "precision": "country",
-        "region": "Oceania"
-      },
-      "endDate": "2008-01-27",
-      "engagements": ["Met Prime Minister Helen Clark"],
-      "eventName": null,
-      "id": "derek-sikua--2008-01-24--NZL",
-      "officialId": "derek-sikua",
-      "purpose": "Visit to New Zealand",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-01-24",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -2507,31 +2457,6 @@
       "startDate": "2010-06-23",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Suva",
-        "coordinates": [178.433333333, -18.133333333],
-        "countryCode": "FJI",
-        "precision": "country",
-        "region": "Oceania"
-      },
-      "endDate": "2010-07-23",
-      "engagements": [],
-      "eventName": "Engaging Fiji Meeting",
-      "id": "derek-sikua--2010-07-19--FJI",
-      "officialId": "derek-sikua",
-      "purpose": "Attended Engaging Fiji Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2010-07-19",
-      "statusHint": null,
-      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -3708,6 +3633,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Port Moresby",
+        "coordinates": [147.149444444, -9.478888888],
+        "countryCode": "PNG",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2008-01-22",
+      "engagements": ["Met Prime Minister Michael Somare"],
+      "eventName": null,
+      "id": "manasseh-sogavare--2008-01-21--PNG",
+      "officialId": "manasseh-sogavare",
+      "purpose": "Visit to Papua New Guinea",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2008-01-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [149.13, -35.2809],
+        "countryCode": "AUS",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2008-01-24",
+      "engagements": ["Met Prime Minister Kevin Rudd"],
+      "eventName": null,
+      "id": "manasseh-sogavare--2008-01-22--AUS",
+      "officialId": "manasseh-sogavare",
+      "purpose": "Visit to Australia",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2008-01-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [174.7762, -41.2865],
+        "countryCode": "NZL",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2008-01-27",
+      "engagements": ["Met Prime Minister Helen Clark"],
+      "eventName": null,
+      "id": "manasseh-sogavare--2008-01-24--NZL",
+      "officialId": "manasseh-sogavare",
+      "purpose": "Visit to New Zealand",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2008-01-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Port Vila",
         "coordinates": [168.316667, -17.73333],
         "countryCode": "VUT",
@@ -4267,21 +4267,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-09-30",
+      "endDate": "2022-09-28",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "manasseh-sogavare--2022-09-18--USA",
+      "eventName": "Attended the U.S.-Pacific Island Country Summit.",
+      "id": "manasseh-sogavare--2022-09-28--USA",
       "officialId": "manasseh-sogavare",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Attended the U.S.-Pacific Island Country Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-09-18",
+      "startDate": "2022-09-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -4510,6 +4514,31 @@
       "startDate": "2023-09-22",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-09-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "peter-kenilorea--1978-09-22--USA",
+      "officialId": "peter-kenilorea",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-09-22",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

@@ -3702,13 +3702,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-03-23",
+      "endDate": "2019-03-22",
       "engagements": ["Met President Donald Trump"],
-      "eventName": "United States-Caribbean Community (CARICOM) Summit",
+      "eventName": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "id": "danilo-medina--2019-03-22--USA",
       "officialId": "danilo-medina",
-      "purpose": "Attended United States-Caribbean Community (CARICOM) Summit",
+      "purpose": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3716,7 +3720,7 @@
       ],
       "startDate": "2019-03-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -4633,19 +4637,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-05-21",
+      "endDate": "2003-05-20",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "hipolito-mejia--2003-05-19--USA",
+      "id": "hipolito-mejia--2003-05-20--USA",
       "officialId": "hipolito-mejia",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-05-19",
+      "startDate": "2003-05-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5058,6 +5066,56 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "joaquin-balaguer--1977-09-06--USA",
+      "officialId": "joaquin-balaguer",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "joaquin-balaguer--1988-03-24--USA",
+      "officialId": "joaquin-balaguer",
+      "purpose": "Official Working Visit. Private visit afterwards to Boston and Texas.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-03-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1990-02-12",
       "engagements": [],
       "eventName": null,
@@ -5158,19 +5216,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-13",
+      "endDate": "1994-12-11",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "joaquin-balaguer--1994-12-10--USA",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "joaquin-balaguer--1994-12-09--USA",
       "officialId": "joaquin-balaguer",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-12-10",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -5486,18 +5548,22 @@
       "endDate": "1998-06-10",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "leonel-fernandez--1998-06-07--USA",
+      "id": "leonel-fernandez--1998-06-10--USA",
       "officialId": "leonel-fernandez",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-06-07",
+      "startDate": "1998-06-10",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5938,8 +6004,12 @@
       "eventName": "Central America-United States Summit",
       "id": "leonel-fernandez--2005-05-10--USA",
       "officialId": "leonel-fernandez",
-      "purpose": "Attended Central America-United States Summit",
+      "purpose": "Working visit. Discussed Central American and Dominican Republic Free Trade Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5947,7 +6017,7 @@
       ],
       "startDate": "2005-05-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6544,8 +6614,12 @@
       "eventName": null,
       "id": "leonel-fernandez--2006-10-24--USA",
       "officialId": "leonel-fernandez",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6967,21 +7041,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-10-03",
+      "endDate": "2008-09-24",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "leonel-fernandez--2008-09-21--USA",
+      "id": "leonel-fernandez--2008-09-24--USA",
       "officialId": "leonel-fernandez",
-      "purpose": "Attended United Nations (UN) General Assembly and Conference of the Americas",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-21",
+      "startDate": "2008-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7845,19 +7923,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-07-13",
+      "endDate": "2010-07-12",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "leonel-fernandez--2010-07-11--USA",
+      "id": "leonel-fernandez--2010-07-12--USA",
       "officialId": "leonel-fernandez",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-07-11",
+      "startDate": "2010-07-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8875,17 +8957,21 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "Summit of the Americas",
-      "id": "luis-abinader--2022-06-07--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "luis-abinader--2022-06-08--USA",
       "officialId": "luis-abinader",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-07",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -9200,11 +9286,15 @@
       },
       "endDate": "2023-11-03",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "Americas Partnership for Economic Prosperity (APEP) Summit",
+      "eventName": "Attended the APEP Leaders' Summit.",
       "id": "luis-abinader--2023-11-02--USA",
       "officialId": "luis-abinader",
-      "purpose": "Attended Americas Partnership for Economic Prosperity (APEP) Summit",
+      "purpose": "Met with President Biden for a bilateral meeting alongside the Americas Partnership for Economic Prosperity Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9732,6 +9822,31 @@
       "startDate": "2025-11-20",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-04-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "salvador-jorge-blanco--1984-04-09--USA",
+      "officialId": "salvador-jorge-blanco",
+      "purpose": "State visit; visited Springfield (Ill.), Chicago, New York City, Columbia (S.C.). Departed U.S. April 14.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-04-09",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

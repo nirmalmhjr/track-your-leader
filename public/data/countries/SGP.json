@@ -2165,17 +2165,21 @@
       },
       "endDate": "1993-11-21",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "goh-chok-tong--1993-11-19--USA",
+      "eventName": "Attended APEC meeting in Seattle.",
+      "id": "goh-chok-tong--1993-11-17--USA",
       "officialId": "goh-chok-tong",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended APEC meeting in Seattle.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1993-11-19",
+      "startDate": "1993-11-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -4603,8 +4607,12 @@
       "eventName": null,
       "id": "goh-chok-tong--2001-06-09--USA",
       "officialId": "goh-chok-tong",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush June 11 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4612,7 +4620,7 @@
       ],
       "startDate": "2001-06-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4979,19 +4987,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-05-12",
+      "endDate": "2003-05-06",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "goh-chok-tong--2003-05-04--USA",
+      "id": "goh-chok-tong--2003-05-06--USA",
       "officialId": "goh-chok-tong",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Signed free-trade agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-05-04",
+      "startDate": "2003-05-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5237,8 +5249,12 @@
       "eventName": null,
       "id": "goh-chok-tong--2004-05-03--USA",
       "officialId": "goh-chok-tong",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5401,6 +5417,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "halimah-yacob--2018-11-21--NLD",
+      "officialId": "halimah-yacob",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-11-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1967-10-17--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Official visit. In U.S. October 16–27; visited Williamsburg, New York City, Boston, St. Louis, Chicago, San Francisco, and Los Angeles.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-10-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Canberra",
         "coordinates": [149.13, -35.2809],
         "countryCode": "AUS",
@@ -5422,6 +5488,281 @@
       "startDate": "1967-12-21",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-12-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1968-12-10--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Informal visit. Arrived in U.S. November 14; visiting fellow at Harvard University’s John F. Kennedy School of Government.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-12-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1969-05-12--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-05-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1970-11-05--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit. Arrived in U.S. November 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-11-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-04-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1973-04-10--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit. In U.S. March 25–April 11. Met with President Nixon April 10.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-04-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1975-05-08--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit. In U.S. May 5–11.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1977-10-04--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-10-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1978-10-03--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-10-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-06-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1981-06-16--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit. Met with President Reagan June 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-06-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-07-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1982-07-18--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Private visit. Met with President Reagan July 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-07-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-10-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1985-10-07--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Official Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-10-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-04-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "kuan-yew-lee--1988-04-13--USA",
+      "officialId": "kuan-yew-lee",
+      "purpose": "Met with President Reagan during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-04-13",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7282,19 +7623,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-07-16",
+      "endDate": "2005-07-12",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "lee-hsien-loong--2005-07-07--USA",
+      "id": "lee-hsien-loong--2005-07-11--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-07-07",
+      "startDate": "2005-07-11",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7863,13 +8208,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-05-08",
+      "endDate": "2007-05-05",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "lee-hsien-loong--2007-05-02--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8541,6 +8890,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "2010-04-13",
+      "engagements": [],
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "lee-hsien-loong--2010-04-12--USA",
+      "officialId": "lee-hsien-loong",
+      "purpose": "Attended the Nuclear Security Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2010-04-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2010-04-18",
       "engagements": ["Gave a public address"],
       "eventName": null,
@@ -8843,11 +9217,15 @@
       },
       "endDate": "2011-11-13",
       "engagements": ["Gave a public address"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "id": "lee-hsien-loong--2011-11-10--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9272,19 +9650,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-04-04",
+      "endDate": "2013-04-03",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "lee-hsien-loong--2013-04-01--USA",
+      "id": "lee-hsien-loong--2013-04-02--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-04-01",
+      "startDate": "2013-04-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10231,19 +10613,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-02-16",
+      "endDate": "2016-02-18",
       "engagements": [],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "lee-hsien-loong--2016-02-10--USA",
+      "eventName": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "id": "lee-hsien-loong--2016-02-16--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Attended United States-Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-02-10",
+      "startDate": "2016-02-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -10256,19 +10642,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-04-02",
+      "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "lee-hsien-loong--2016-03-26--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "lee-hsien-loong--2016-03-31--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-26",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -10465,19 +10855,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-08-05",
+      "endDate": "2016-08-02",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
-      "id": "lee-hsien-loong--2016-07-31--USA",
+      "id": "lee-hsien-loong--2016-08-02--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-07-31",
+      "startDate": "2016-08-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10871,19 +11265,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-10-26",
+      "endDate": "2017-10-23",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
-      "id": "lee-hsien-loong--2017-10-22--USA",
+      "id": "lee-hsien-loong--2017-10-23--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-10-22",
+      "startDate": "2017-10-23",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11670,19 +12068,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-04-02",
+      "endDate": "2022-03-29",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": null,
-      "id": "lee-hsien-loong--2022-03-26--USA",
+      "id": "lee-hsien-loong--2022-03-29--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-03-26",
+      "startDate": "2022-03-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11695,19 +12097,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-05-14",
+      "endDate": "2022-05-13",
       "engagements": [],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "lee-hsien-loong--2022-05-10--USA",
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "lee-hsien-loong--2022-05-12--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Attended United States-Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-10",
+      "startDate": "2022-05-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -12204,19 +12610,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-11-18",
+      "endDate": "2023-11-17",
       "engagements": [],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "lee-hsien-loong--2023-11-13--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "lee-hsien-loong--2023-11-12--USA",
       "officialId": "lee-hsien-loong",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-13",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -12372,6 +12782,31 @@
       "startDate": "2024-04-29",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2009-05-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "s-r-nathan--2009-05-09--JPN",
+      "officialId": "s-r-nathan",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2009-05-09",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -13151,6 +13586,56 @@
       "startDate": "2026-08-18",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "tony-tan-keng-yam--2014-10-21--GBR",
+      "officialId": "tony-tan-keng-yam",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "2014-10-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-12-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "tony-tan-keng-yam--2016-11-28--JPN",
+      "officialId": "tony-tan-keng-yam",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2016-11-28",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

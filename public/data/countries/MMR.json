@@ -536,6 +536,37 @@
       "wikidataId": "Q116822184"
     },
     {
+      "aliases": ["Nu", "Thakin Nu"],
+      "countryCode": "MMR",
+      "fullName": "U Nu",
+      "id": "u-nu",
+      "party": "Anti-Fascist People's Freedom League",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Staatsgreep_in_Birma%2C_premier_U_nu%2C_Bestanddeelnr_913-5820_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1955-07-03",
+          "id": "u-nu-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1955-06-29",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/U_Nu"
+        }
+      ],
+      "summary": "Nu, commonly known as U Nu and also by the honorific name Thakin Nu, was a prominent Burmese statesman and the first Prime Minister of Union of Burma. He was educated at Rangoon University, where he developed his political ideas and became actively involved in the student movement.",
+      "wikidataId": "Q316384"
+    },
+    {
       "aliases": [
         "Brigadier General Maung Maung Aye",
         "Deputy Prime Minister Maung Maung Aye",
@@ -1405,7 +1436,7 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": ["Thet Zin"],
       "countryCode": "MMR",
       "fullName": "Thet Thet Zin",
       "id": "thet-thet-zin",
@@ -1428,8 +1459,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Burmese politician, Union Minister for Women's Affairs.",
+      "wikidataId": "Q139302411"
     },
     {
       "aliases": [],
@@ -3425,6 +3456,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-09-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "ne-win--1966-09-08--USA",
+      "officialId": "ne-win",
+      "purpose": "State visit. In U.S. September 8–10; visited New York City, Williamsburg, California, and Hawaii.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-09-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1984-07-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "san-yu--1984-07-01--JPN",
+      "officialId": "san-yu",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1984-07-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Beijing",
         "coordinates": [116.4074, 39.9042],
         "countryCode": "CHN",
@@ -4998,16 +5079,20 @@
       "endDate": "2013-05-21",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
-      "id": "thein-sein--2013-05-17--USA",
+      "id": "thein-sein--2013-05-19--USA",
       "officialId": "thein-sein",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-05-17",
+      "startDate": "2013-05-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5591,6 +5676,56 @@
       "startDate": "2015-11-21",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-07-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "u-nu--1955-06-29--USA",
+      "officialId": "u-nu",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-06-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1957-12-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "win-maung--1957-12-16--USA",
+      "officialId": "win-maung",
+      "purpose": "Private visit to obtain medical treatment. Met with President Eisenhower December 23.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1957-12-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

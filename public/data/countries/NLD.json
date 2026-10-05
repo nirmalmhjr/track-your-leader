@@ -1322,6 +1322,181 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1972-01-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "barend-biesheuvel--1972-01-26--USA",
+      "officialId": "barend-biesheuvel",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1972-01-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-04-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--1982-04-18--USA",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "State visit. Addressed Joint Session of U.S. Congress April 2l; visited Philadelphia and New York City. Departed U.S. April 24.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-04-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1982-11-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--1982-11-16--GBR",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1982-11-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1986-05-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--1986-05-13--NOR",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "visited by Queen Beatrix and Prince Claus",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1986-05-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1987-05-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--1987-05-21--SWE",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1987-05-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1991-10-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--1991-10-20--JPN",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1991-10-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-11-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--1995-11-07--USA",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-11-07",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.3525, 50.846666666],
         "countryCode": "BEL",
@@ -1359,11 +1534,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "dick-schoof--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "dick-schoof--2024-07-10--USA",
       "officialId": "dick-schoof",
-      "purpose": "Schoof attends the 2024 NATO summit in Washington, D.C., hosted by President Joe Biden, to commemorate the landmark 75th anniversary of NAT…",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Dick_Schoof"
@@ -1373,7 +1552,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -3109,6 +3288,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "dries-van-agt--1978-05-30--USA",
+      "officialId": "dries-van-agt",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-12-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "dries-van-agt--1979-12-07--USA",
+      "officialId": "dries-van-agt",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-12-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-04-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "dries-van-agt--1981-03-30--USA",
+      "officialId": "dries-van-agt",
+      "purpose": "Official working visit. Met with Vice President Bush.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-03-30",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -3370,8 +3624,12 @@
       "eventName": null,
       "id": "jan-peter-balkenende--2003-09-03--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3820,8 +4078,12 @@
       "eventName": null,
       "id": "jan-peter-balkenende--2004-03-15--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5729,8 +5991,12 @@
       "eventName": null,
       "id": "jan-peter-balkenende--2008-06-05--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6051,11 +6317,15 @@
       },
       "endDate": "2008-11-15",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "jan-peter-balkenende--2008-11-14--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6504,8 +6774,12 @@
       "eventName": null,
       "id": "jan-peter-balkenende--2009-07-14--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6599,19 +6873,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-09-26",
+      "endDate": "2009-09-25",
       "engagements": [],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "jan-peter-balkenende--2009-09-20--USA",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
+      "id": "jan-peter-balkenende--2009-09-24--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Attended United Nations (UN) General Assembly and G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-09-20",
+      "startDate": "2009-09-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -6824,19 +7102,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-14",
+      "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "jan-peter-balkenende--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "jan-peter-balkenende--2010-04-12--USA",
       "officialId": "jan-peter-balkenende",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -7014,6 +7296,131 @@
       "startDate": "2010-10-04",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "joop-den-uyl--1975-05-13--USA",
+      "officialId": "joop-den-uyl",
+      "purpose": "Private visit. First visit to the U.S. at invitation of the President.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1950-11-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "juliana-of-the-netherlands--1950-11-21--GBR",
+      "officialId": "juliana-of-the-netherlands",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_George_VI"
+        }
+      ],
+      "startDate": "1950-11-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-04-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "juliana-of-the-netherlands--1952-04-02--USA",
+      "officialId": "juliana-of-the-netherlands",
+      "purpose": "Addressed U.S.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-04-02",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1953-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "juliana-of-the-netherlands--1953-05-06--NOR",
+      "officialId": "juliana-of-the-netherlands",
+      "purpose": "visited by Queen Juliana and Prince Bernhard",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1953-05-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1972-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "juliana-of-the-netherlands--1972-04-11--GBR",
+      "officialId": "juliana-of-the-netherlands",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1972-04-11",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7692,10 +8099,14 @@
       "endDate": "2011-11-29",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "mark-rutte--2011-11-29--USA",
+      "id": "mark-rutte--2011-11-28--USA",
       "officialId": "mark-rutte",
-      "purpose": "Rutte met with President Barack Obama.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
@@ -7705,9 +8116,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-29",
+      "startDate": "2011-11-28",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7984,13 +8395,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
-      "id": "mark-rutte--2012-05-19--USA",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "id": "mark-rutte--2012-05-20--USA",
       "officialId": "mark-rutte",
-      "purpose": "Rutte attended the NATO 2012 Chicago summit.",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
@@ -8000,7 +8415,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-05-19",
+      "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -10920,11 +11335,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "mark-rutte--2016-04-01--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "mark-rutte--2016-03-31--USA",
       "officialId": "mark-rutte",
-      "purpose": "Rutte attended the Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
@@ -10934,7 +11353,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-04-01",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -12849,10 +13268,14 @@
         "Met President Donald Trump"
       ],
       "eventName": null,
-      "id": "mark-rutte--2018-07-02--USA",
+      "id": "mark-rutte--2018-07-01--USA",
       "officialId": "mark-rutte",
-      "purpose": "Rutte visited the Arlington Cemetery to commemorate the Unknown Soldier.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
@@ -12862,9 +13285,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-07-02",
+      "startDate": "2018-07-01",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13943,6 +14366,41 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington, D.C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2019-07-18",
+      "engagements": [
+        "Rutte went on a trade mission together with a delegation of Dutch companies.",
+        "They have visited Boston Dynamics and other companies focusing on robotics, AI, healthcare and climate."
+      ],
+      "eventName": null,
+      "id": "mark-rutte--2019-07-17--USA",
+      "officialId": "mark-rutte",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2019-07-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.352222222, 48.856666666],
         "countryCode": "FRA",
@@ -13963,37 +14421,6 @@
       "startDate": "2019-07-18",
       "statusHint": null,
       "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington, D.C.",
-        "coordinates": [-77.036666666, 38.895],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2019-07-20",
-      "engagements": [
-        "Rutte went on a trade mission together with a delegation of Dutch companies.",
-        "They have visited Boston Dynamics and other companies focusing on robotics, AI, healthcare and climate."
-      ],
-      "eventName": null,
-      "id": "mark-rutte--2019-07-18--USA",
-      "officialId": "mark-rutte",
-      "purpose": "Rutte met with President Donald Trump in the White House.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2019-07-18",
-      "statusHint": null,
-      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16191,8 +16618,12 @@
       "eventName": null,
       "id": "mark-rutte--2023-01-17--USA",
       "officialId": "mark-rutte",
-      "purpose": "Rutte and Minister of Foreign Affairs Hoekstra meet with President Joe Biden.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Rutte"
@@ -16204,7 +16635,7 @@
       ],
       "startDate": "2023-01-17",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -18171,6 +18602,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-05-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "piet-de-jong--1969-05-27--USA",
+      "officialId": "piet-de-jong",
+      "purpose": "Official visit. In U.S. May 26–29; visited Williamsburg, Annapolis, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-05-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.3525, 50.846666666],
         "countryCode": "BEL",
@@ -18712,6 +19168,81 @@
       "startDate": "2026-12-14",
       "statusHint": "planned",
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "ruud-lubbers--1983-03-14--USA",
+      "officialId": "ruud-lubbers",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-03-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-01-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "ruud-lubbers--1984-01-19--USA",
+      "officialId": "ruud-lubbers",
+      "purpose": "Private visit. Met with President Reagan January 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-01-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ruud-lubbers--1989-05-09--USA",
+      "officialId": "ruud-lubbers",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-09",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19505,8 +20036,12 @@
       "eventName": null,
       "id": "ruud-lubbers--1994-01-04--USA",
       "officialId": "ruud-lubbers",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19744,6 +20279,1881 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-01-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "ruud-lubbers--1999-01-04--USA",
+      "officialId": "ruud-lubbers",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-01-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1922-09-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "wilhelmina-of-the-netherlands--1922-09-15--NOR",
+      "officialId": "wilhelmina-of-the-netherlands",
+      "purpose": "visited by Queen Wilhelmina and Prince Hendrik",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1922-09-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-01-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "willem-drees--1952-01-20--USA",
+      "officialId": "willem-drees",
+      "purpose": "Informal visit. In U.S. January 12–24, visiting New York City, Bridgeport (Connecticut) and Pittsburgh (Pennsylvania).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-01-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [37.6175, 55.750555555],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2013-11-08--RUS",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Russia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2013-11-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [21.011111111, 52.23],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-06-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2014-06-24--POL",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2014-06-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-11-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2014-10-28--JPN",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2014-10-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Seoul",
+        "coordinates": [126.978, 37.5665],
+        "countryCode": "KOR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-11-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2014-11-03--KOR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to South Korea",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2014-11-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2015-03-17--DNK",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2015-03-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [-75.6972, 45.4215],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-03-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2015-03-27--CAN",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2015-03-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-06-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2015-06-01--USA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2015-06-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.4074, 39.9042],
+        "countryCode": "CHN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-10-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2015-10-25--CHN",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to China",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2015-10-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-03-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2016-03-10--FRA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to France",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2016-03-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [149.13, -35.2809],
+        "countryCode": "AUS",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2016-11-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2016-10-31--AUS",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Australia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2016-10-31",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [174.7762, -41.2865],
+        "countryCode": "NZL",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2016-11-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2016-11-07--NZL",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to New Zealand",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2016-11-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2017-06-20--ITA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Italy",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2017-06-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [12.453, 41.904],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-06-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2017-06-22--VAT",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2017-06-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [-9.139016, 38.708042],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2017-10-10--PRT",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2017-10-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Luxembourg",
+        "coordinates": [6.13, 49.611388888],
+        "countryCode": "LUX",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-05-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2018-05-23--LUX",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Luxembourg",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-05-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riga",
+        "coordinates": [24.106944444, 56.9475],
+        "countryCode": "LVA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-06-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2018-06-11--LVA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Latvia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-06-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tallinn",
+        "coordinates": [24.745, 59.437222222],
+        "countryCode": "EST",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-06-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2018-06-12--EST",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Estonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-06-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vilnius",
+        "coordinates": [25.28, 54.687222222],
+        "countryCode": "LTU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2018-06-13--LTU",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Lithuania",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-06-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2018-10-23--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2018-10-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Dublin",
+        "coordinates": [-6.260277777, 53.349722222],
+        "countryCode": "IRL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-06-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2019-06-12--IRL",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Ireland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2019-06-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [77.209, 28.6139],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2019-10-14--IND",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2019-10-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-01-16",
+      "engagements": [],
+      "eventName": "funeral",
+      "id": "william-alexander-of-the-netherlands--2020-01-16--GRC",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Asistencia a los actos con motivo del funeral de S.M. Constantino II​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-01-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Caribbean Netherlands",
+        "coordinates": [-68.233333333, 12.183333333],
+        "countryCode": "BES",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-02-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-01-27--BES",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con los gobernadores Edison Rijna, Alfonso Boekhoudt y Lucille George-Wout Visita a las 'chozas de esclavos' en Witte Pan y al Parq…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-01-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [21.011111111, 52.23],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-01-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-01-27--POL",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Conmemoración del 80º aniversario de la liberación del Campo de concentración y exterminio Auschwitz​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-01-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-02-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-02-05--ITA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Asistencia a los Juegos Olímpicos de Invierno Milán-Cortina d'Ampezzo",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-02-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tallinn",
+        "coordinates": [24.745, 59.437222222],
+        "countryCode": "EST",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-02-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-02-13--EST",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visita a tropas neerlandesas de la OTAN",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-02-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vilnius",
+        "coordinates": [25.28, 54.687222222],
+        "countryCode": "LTU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-02-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-02-21--LTU",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Gitanas Nausėda Visita a soldados neerlandeses de la OTAN",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-02-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nicosia",
+        "coordinates": [33.365, 35.1725],
+        "countryCode": "CYP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-03-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-04--CYP",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Nikos Christodoulides y con la presidenta de la Cámara de Representantes, Annita Demetriou Visita al Centro Conju…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bratislava",
+        "coordinates": [17.1093063, 48.1516988],
+        "countryCode": "SVK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-03-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-07--SVK",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con la presidenta Zuzana Čaputová, con el alcalde de Bratislava Matúš Vallo y con el primer ministro Eduard Heger Visita al centro…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Jakarta",
+        "coordinates": [106.8456, -6.2088],
+        "countryCode": "IDN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-03-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-09--IDN",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Joko Widodo Visita al cementerio de cementerio Menteng Pulo y a la fábrica de chocolate Pipiltin Cocoa Visita a l…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nairobi",
+        "coordinates": [36.8219, -1.2921],
+        "countryCode": "KEN",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-18--KEN",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente William Ruto Asistencia a Foro Empresarial Visita a Inland Container Depot y al Centro Internacional de Capacitac…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-20--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visita a la Operación Interflex, programa de entrenamiento para entrenar a reclutas ucranianos",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-03-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-21--USA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Conferencia en la Naciones Unidas sobre el Agua y la Semana del Agua",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-03-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-26--NOR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visita a la Marina Real de los Países Bajos durante el ejercicio Cold Response de la OTAN",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-03-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-03-29--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Ceremonia religiosa en recuerdo de Felipe de Edimburgo",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-03-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-04-13--USA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Donald Trump Reuniones con el gobernador de Pensilvania, Josh Shapiro; y con el secretario de estado de Florida,…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-04-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-05-06--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Coronación de Carlos III",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-05-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Prague",
+        "coordinates": [14.421388888, 50.0875],
+        "countryCode": "CZE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-06-04--CZE",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Petr Pavel Reuniones con el primer ministro Petr Fiala; el presidente del Senado, Miloš Vystrčil y la presidenta…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-06-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-06-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-06-10--USA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el gobernador de Georgia, Brian Kemp y con el alcalde de Savannah Visita a la tumba de Martin Luther King Jr, a Patchwerk Recor…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-06-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-06-13--ESP",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el rey Felipe VI 375º aniversario del establecimiento de relaciones diplomáticas entre los Países Bajos y España Visita Planta…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-06-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-06-19--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visita a helicópteros TAC Blaze UK",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-06-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-06-23--FRA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Discurso ante la Asamblea Parlamentaria del Consejo de Europa",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-06-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-06-27--AUT",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Alexander Van der Bellen,con el alcalde de Viena, Michael Ludwig y con el canciller Karl Nehammer Visita al Parqu…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-06-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-07-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-07-05--DEU",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Frank-Walter Steinmeier,con la canciller Angela Merkel y con el alcalde de Berlín, Michael Müller Visita al Centr…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-07-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-07-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-07-25--FRA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Asistencia a la ceremonia de inauguración de los Juegos Olímpicos de Verano 2024",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-07-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-09-09",
+      "engagements": [],
+      "eventName": "Funeral del rey Harald V",
+      "id": "william-alexander-of-the-netherlands--2020-09-09--NOR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Funeral del rey Harald V",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-09-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-09-19",
+      "engagements": [],
+      "eventName": "Funeral de la reina Isabel II",
+      "id": "william-alexander-of-the-netherlands--2020-09-19--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Funeral de la reina Isabel II",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-09-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-09-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-09-22--USA",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Participación en la 79ª Asamblea General de las Naciones Unidas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-09-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Luxembourg",
+        "coordinates": [6.13, 49.611388888],
+        "countryCode": "LUX",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-10-03--LUX",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Asistencia a la proclamación del gran duque Guillermo V",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-10-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pretoria",
+        "coordinates": [28.2293, -25.7479],
+        "countryCode": "ZAF",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-10-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-10-18--ZAF",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el presidente Cyril Ramaphosa Visita a la Reserva de Humedales de Blesbokspruit, al Museo del Apartheid y a la Innovation Villa…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-10-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-10-31--GRC",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con la presidenta Katerina Sakellaropoulou, con el primer ministro Kyriakos Mitsotakis y con el alcalde de Atenas, Kostas Bakoyanni…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-10-31",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [54.396944444, 24.451111111],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-11-03--ARE",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visita a la Exposición Universal de Dubái 2020",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-11-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-11-09--NOR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el rey Harald V y con el primer ministro Jonas Gahr Støre Visita al Museo Fram, a la Powerhouse Brattørkaia y a la Universidad…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-11-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-11-11--DNK",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el rey Federico X Visita a las instalaciones de la empresa Topsoe y a Copenhagen Infrastructure Partners Conferencia de negocio…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-11-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-11-13--NOR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con el rey Harald V Visita a las instalaciones de Northern Lights en Øygardeny a Hystar",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-11-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-11-14--DEU",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visita a proyectos de hidrógeno",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-11-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paramaribo",
+        "coordinates": [-55.166666666, 5.866666666],
+        "countryCode": "SUR",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-12-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2020-12-01--SUR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Reunión con la presidenta Jennifer Simons Visita a la Asamblea Nacional",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_rey_Guillermo_Alejandro_de_los_Pa%C3%ADses_Bajos"
+        }
+      ],
+      "startDate": "2020-12-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2021-07-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2021-07-05--DEU",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Germany",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2021-07-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2021-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2021-11-09--NOR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2021-11-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2022-06-27--AUT",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Austria",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2022-06-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-09-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2022-09-18--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2022-09-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-10-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2022-10-11--SWE",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2022-10-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-11-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2022-10-31--GRC",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Greece",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2022-10-31",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bratislava",
+        "coordinates": [17.1093063, 48.1516988],
+        "countryCode": "SVK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-03-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2023-03-07--SVK",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Slovakia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2023-03-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2023-05-05--GBR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2023-05-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-06-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2023-06-20--BEL",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Belgium",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2023-06-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pretoria",
+        "coordinates": [28.2293, -25.7479],
+        "countryCode": "ZAF",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2023-10-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2023-10-18--ZAF",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to South Africa",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2023-10-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [21.011111111, 52.23],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-01-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2025-01-27--POL",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2025-01-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nicosia",
+        "coordinates": [33.365, 35.1725],
+        "countryCode": "CYP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-03-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2025-03-04--CYP",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Cyprus",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2025-03-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nairobi",
+        "coordinates": [36.8219, -1.2921],
+        "countryCode": "KEN",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2025-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2025-03-18--KEN",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Kenya",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2025-03-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Prague",
+        "coordinates": [14.421388888, 50.0875],
+        "countryCode": "CZE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2025-06-04--CZE",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Czechia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2025-06-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paramaribo",
+        "coordinates": [-55.166666666, 5.866666666],
+        "countryCode": "SUR",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2025-12-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2025-12-01--SUR",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to Suriname",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
+        }
+      ],
+      "startDate": "2025-12-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Berlin",
         "coordinates": [13.405, 52.52],
         "countryCode": "DEU",
@@ -19780,8 +22190,12 @@
       "eventName": null,
       "id": "wim-kok--1995-02-26--USA",
       "officialId": "wim-kok",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20983,11 +23397,15 @@
       },
       "endDate": "1999-04-25",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "wim-kok--1999-04-23--USA",
       "officialId": "wim-kok",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21489,8 +23907,12 @@
       "eventName": null,
       "id": "wim-kok--2000-09-27--USA",
       "officialId": "wim-kok",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

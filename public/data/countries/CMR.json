@@ -2313,6 +2313,131 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-03-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmadou-ahidjo--1962-03-13--USA",
+      "officialId": "ahmadou-ahidjo",
+      "purpose": "Presidential guest. Afterwards visited New York City. Departed U.S. March 18.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-03-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmadou-ahidjo--1967-10-24--USA",
+      "officialId": "ahmadou-ahidjo",
+      "purpose": "Informal visit. In U.S. October 19–25; visited New York City and Pittsburgh.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmadou-ahidjo--1969-10-09--USA",
+      "officialId": "ahmadou-ahidjo",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-10-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-07-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmadou-ahidjo--1982-07-25--USA",
+      "officialId": "ahmadou-ahidjo",
+      "purpose": "Official working visit. Private visit afterwards to Gainesville (Fla.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-07-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-02-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-biya--1986-02-25--USA",
+      "officialId": "paul-biya",
+      "purpose": "Official Working Visit. Private visit to Los Angeles afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-02-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Rome",
         "coordinates": [12.4964, 41.9028],
         "countryCode": "ITA",
@@ -2394,13 +2519,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-05-07",
+      "endDate": "1991-05-06",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "paul-biya--1991-05-06--USA",
       "officialId": "paul-biya",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2408,7 +2537,7 @@
       ],
       "startDate": "1991-05-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3449,8 +3578,12 @@
       "eventName": null,
       "id": "paul-biya--2003-03-20--USA",
       "officialId": "paul-biya",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4882,11 +5015,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "paul-biya--2014-08-05--USA",
       "officialId": "paul-biya",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5482,17 +5619,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "paul-biya--2022-12-10--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "paul-biya--2022-12-13--USA",
       "officialId": "paul-biya",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-10",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -5769,6 +5910,31 @@
       "startDate": "2025-09-21",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "peter-mafany-musonge--2003-06-22--USA",
+      "officialId": "peter-mafany-musonge",
+      "purpose": "Attended United States-Africa Business Summit; met with President Bush during a private visit June 26.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-06-22",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

@@ -1535,6 +1535,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "anastasio-somoza-debayle--1970-10-24--USA",
+      "officialId": "anastasio-somoza-debayle",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "anastasio-somoza-debayle--1971-06-02--USA",
+      "officialId": "anastasio-somoza-debayle",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-06-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "anastasio-somoza-garcia--1952-05-01--USA",
+      "officialId": "anastasio-somoza-garcia",
+      "purpose": "Unofficial visit to Washington. Afterwards visited Boston (Massachusetts) and New York City. Departed U.S. July 5.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-05-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "San José",
         "coordinates": [-84.079613888, 9.932738888],
         "countryCode": "CRI",
@@ -1969,13 +2044,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-12-14",
+      "endDate": "1998-12-11",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "arnoldo-aleman--1998-12-09--USA",
       "officialId": "arnoldo-aleman",
-      "purpose": "Visit to United States",
+      "purpose": "Attended conference on Central American reconstruction at the Inter-American Development Bank.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1983,7 +2062,7 @@
       ],
       "startDate": "1998-12-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -2382,6 +2461,31 @@
         }
       ],
       "startDate": "2001-11-12",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-09-24",
+      "engagements": [],
+      "eventName": "Private visit to Washington en route to U.N. General Assembly session.",
+      "id": "daniel-ortega--1979-09-24--USA",
+      "officialId": "daniel-ortega",
+      "purpose": "Private visit to Washington en route to U.N. General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -4604,21 +4708,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-04-11",
+      "endDate": "2003-04-10",
       "engagements": [],
       "eventName": "Central America-United States Summit",
-      "id": "enrique-bolanos--2003-04-09--USA",
+      "id": "enrique-bolanos--2003-04-10--USA",
       "officialId": "enrique-bolanos",
-      "purpose": "Attended Central America-United States Summit",
+      "purpose": "Working visit. Discussed negotiations for a Central American free trade agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-04-09",
+      "startDate": "2003-04-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -5210,19 +5318,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-05-13",
+      "endDate": "2005-05-12",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "enrique-bolanos--2005-05-09--USA",
+      "id": "enrique-bolanos--2005-05-10--USA",
       "officialId": "enrique-bolanos",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Discussed Central American and Dominican Republic Free Trade Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-05-09",
+      "startDate": "2005-05-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5560,22 +5672,26 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-10-02",
+      "endDate": "1990-09-29",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "violeta-chamorro--1990-09-26--USA",
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "violeta-chamorro--1990-09-29--USA",
       "officialId": "violeta-chamorro",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-09-26",
+      "startDate": "1990-09-29",
       "statusHint": null,
       "type": "conference"
     },
@@ -5696,8 +5812,12 @@
       "eventName": null,
       "id": "violeta-chamorro--1991-04-15--USA",
       "officialId": "violeta-chamorro",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit. Afterwards visited Miami.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5705,7 +5825,7 @@
       ],
       "startDate": "1991-04-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5897,21 +6017,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-04-11",
+      "endDate": "1992-04-10",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "violeta-chamorro--1992-04-07--USA",
+      "id": "violeta-chamorro--1992-04-09--USA",
       "officialId": "violeta-chamorro",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-04-07",
+      "startDate": "1992-04-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6177,8 +6301,12 @@
       "eventName": null,
       "id": "violeta-chamorro--1993-11-30--USA",
       "officialId": "violeta-chamorro",
-      "purpose": "Visit to United States",
+      "purpose": "Attended working brunch with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6349,11 +6477,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "violeta-chamorro--1994-12-09--USA",
       "officialId": "violeta-chamorro",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

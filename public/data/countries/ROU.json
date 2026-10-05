@@ -3432,6 +3432,37 @@
     {
       "aliases": [],
       "countryCode": "ROU",
+      "fullName": "Grigore Preoteasa",
+      "id": "grigore-preoteasa",
+      "party": "Romanian Communist Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grigore_Preoteasa.jpg?width=160",
+      "positions": [
+        {
+          "categories": ["minister"],
+          "endDate": "1957-07-14",
+          "id": "grigore-preoteasa-p1",
+          "ministry": "Ministry of Foreign Affairs of Romania",
+          "portfolio": "foreign_affairs",
+          "startDate": "1955-10-04",
+          "title": "Minister of Foreign Affairs of Romania"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q505962"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grigore_Preoteasa"
+        }
+      ],
+      "summary": "Grigore Preoteasa (August 25, 1915 – November 4, 1957) was a Romanian communist activist, journalist and politician, who served as Communist Romania's Minister of Foreign Affairs between October 4, 1955, and July 1957.",
+      "wikidataId": "Q505962"
+    },
+    {
+      "aliases": [],
+      "countryCode": "ROU",
       "fullName": "Ioan Mircea Pașcu",
       "id": "ioan-mircea-pascu",
       "party": "Social Democratic Party",
@@ -4430,7 +4461,7 @@
           "id": "simion-bughici-p1",
           "ministry": "Ministry of Foreign Affairs of Romania",
           "portfolio": "foreign_affairs",
-          "startDate": "1952-07-11",
+          "startDate": "1952-07-10",
           "title": "Minister of Foreign Affairs of Romania"
         }
       ],
@@ -5166,13 +5197,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-11-05",
+      "endDate": "2001-11-01",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "adrian-nastase--2001-10-29--USA",
       "officialId": "adrian-nastase",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush November 1 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5180,7 +5215,7 @@
       ],
       "startDate": "2001-10-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7085,8 +7120,12 @@
       "eventName": "North Atlantic Treaty Organization (NATO) Summit",
       "id": "adrian-nastase--2004-03-28--USA",
       "officialId": "adrian-nastase",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Working visit. Attended NATO Accession ceremony.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7094,7 +7133,7 @@
       ],
       "startDate": "2004-03-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7369,8 +7408,12 @@
       "eventName": "UN Security Council Summit",
       "id": "adrian-nastase--2004-07-18--USA",
       "officialId": "adrian-nastase",
-      "purpose": "Attended UN Security Council Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7378,7 +7421,7 @@
       ],
       "startDate": "2004-07-18",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7530,6 +7573,56 @@
         }
       ],
       "startDate": "2004-12-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-07-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "emil-constantinescu--1998-07-14--USA",
+      "officialId": "emil-constantinescu",
+      "purpose": "Official visit. Addressed a Joint Session of Congress. Afterwards visited Chicago and San Francisco. Departed the U.S. July 22.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1998-07-14",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-04-25",
+      "engagements": [],
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "emil-constantinescu--1999-04-23--USA",
+      "officialId": "emil-constantinescu",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-04-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -7772,6 +7865,106 @@
       "startDate": "2025-05-17",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "ion-gheorghe-maurer--1967-06-26--USA",
+      "officialId": "ion-gheorghe-maurer",
+      "purpose": "Informal visit. Departed U.S. June 27; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-06-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-04-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "ion-iliescu--1993-04-19--USA",
+      "officialId": "ion-iliescu",
+      "purpose": "Attended dedication of the Holocaust Memorial Museum and met with President Clinton on April 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-04-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-09-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "ion-iliescu--1995-09-25--USA",
+      "officialId": "ion-iliescu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-09-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-10-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "ion-iliescu--2003-10-27--USA",
+      "officialId": "ion-iliescu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-10-27",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8535,19 +8728,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-03-31",
+      "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "klaus-iohannis--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "klaus-iohannis--2016-03-31--USA",
       "officialId": "klaus-iohannis",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -9038,16 +9235,20 @@
       "endDate": "2017-06-09",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
-      "id": "klaus-iohannis--2017-06-05--USA",
+      "id": "klaus-iohannis--2017-06-09--USA",
       "officialId": "klaus-iohannis",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-06-05",
+      "startDate": "2017-06-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10124,8 +10325,12 @@
       "eventName": null,
       "id": "klaus-iohannis--2019-08-19--USA",
       "officialId": "klaus-iohannis",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12331,13 +12536,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-05-08",
+      "endDate": "2024-05-07",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": null,
       "id": "klaus-iohannis--2024-05-07--USA",
       "officialId": "klaus-iohannis",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12383,17 +12592,21 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Signed agreements"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "klaus-iohannis--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "klaus-iohannis--2024-07-10--USA",
       "officialId": "klaus-iohannis",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -12845,6 +13058,181 @@
       "startDate": "2000-10-08",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1970-10-24--USA",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N; official visit to Washington, October 26–28.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-12-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1973-12-03--USA",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "Official visit. Afterwards visited Wilmington (N.C.), Cleveland, Hartford (Conn.), and New York City. Departed U.S. December 7.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-12-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1975-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1975-04-04--JPN",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1975-04-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-04-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1978-04-11--USA",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "State visit. Afterwards visited Chattanooga, Dallas, Houston, New Orleans, and New York City. Departed U.S. April 17.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-04-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1978-06-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1978-06-13--GBR",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1978-06-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1980-11-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1980-11-06--SWE",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1980-11-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1980-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolae-ceausescu--1980-11-13--NOR",
+      "officialId": "nicolae-ceausescu",
+      "purpose": "visited by President Nicolae Ceaușescu and Elena Ceaușescu",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1980-11-13",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -15980,13 +16368,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-03-10",
+      "endDate": "2005-03-09",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "traian-basescu--2005-03-08--USA",
       "officialId": "traian-basescu",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16841,8 +17233,12 @@
       "eventName": null,
       "id": "traian-basescu--2006-07-26--USA",
       "officialId": "traian-basescu",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17764,7 +18160,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-03-12",
+      "endDate": "2008-03-11",
       "engagements": ["Met Prime Minister Fredrik Reinfeldt"],
       "eventName": null,
       "id": "traian-basescu--2008-03-11--SWE",
@@ -17772,13 +18168,17 @@
       "purpose": "Visit to Sweden",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2008-03-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -20017,13 +20417,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-25",
+      "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "traian-basescu--2012-05-20--USA",
       "officialId": "traian-basescu",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

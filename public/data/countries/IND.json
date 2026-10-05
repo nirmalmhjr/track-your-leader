@@ -40,7 +40,7 @@
           "url": "https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam"
         }
       ],
-      "summary": "Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace engineer and science administrator who served as president of India from 2002 to 2007. In 1997, he was awarded India's highest civilian honour, the Bharat Ratna, for his contribution to the scientific research and modernisation of defence technology in India.",
+      "summary": "Dr. Avul Pakir Jainulabdeen Abdul Kalam was an Indian aerospace engineer and science administrator who served as president of India from 2002 to 2007.",
       "wikidataId": "Q9513"
     },
     {
@@ -1897,7 +1897,7 @@
           "url": "https://en.wikipedia.org/wiki/Annapurna_Devi"
         }
       ],
-      "summary": "Annapurna Devi was an Indian surbahar player of Hindustani classical music and music teacher. She was given the name 'Annapurna' by Maharaja Brijnath Singh of the former Maihar Estate, and it was by this name that she was popularly known by.",
+      "summary": "Annapurna Devi was an Indian surbahar player of Hindustani classical music and an influential music teacher. The daughter and disciple of Ustad Allauddin Khan and younger sister of sarod maestro Ustad Ali Akbar Khan, she was trained in the Maihar gharana and became a master of the surbahar.",
       "wikidataId": "Q2440940"
     },
     {
@@ -3365,7 +3365,7 @@
       ],
       "countryCode": "IND",
       "fullName": "Liaquat Ali Khan",
-      "id": "liaquat-ali-khan",
+      "id": "liaquat-ali-khan-ind",
       "party": "Muslim League",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Liaquat_Ali_Khan.jpg?width=160",
       "positions": [
@@ -3374,7 +3374,7 @@
             "minister"
           ],
           "endDate": "1951-10-16",
-          "id": "liaquat-ali-khan-p1",
+          "id": "liaquat-ali-khan-ind-p1",
           "ministry": null,
           "portfolio": "defence",
           "startDate": "1947-08-15",
@@ -3385,7 +3385,7 @@
             "head_of_government"
           ],
           "endDate": "1951-10-16",
-          "id": "liaquat-ali-khan-p2",
+          "id": "liaquat-ali-khan-ind-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "1947-08-15",
@@ -3396,7 +3396,7 @@
             "minister"
           ],
           "endDate": "1949-12-27",
-          "id": "liaquat-ali-khan-p3",
+          "id": "liaquat-ali-khan-ind-p3",
           "ministry": null,
           "portfolio": "foreign_affairs",
           "startDate": "1947-08-15",
@@ -3407,7 +3407,7 @@
             "minister"
           ],
           "endDate": "1947-08-14",
-          "id": "liaquat-ali-khan-p4",
+          "id": "liaquat-ali-khan-ind-p4",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "1946-10-29",
@@ -5817,10 +5817,14 @@
         "Met President Bill Clinton"
       ],
       "eventName": "Millennium Summit",
-      "id": "atal-bihari-vajpayee--2000-09-05--USA",
+      "id": "atal-bihari-vajpayee--2000-09-13--USA",
       "officialId": "atal-bihari-vajpayee",
-      "purpose": "Millennium SummitState visit",
+      "purpose": "Official Visit. Addressed Joint Session of Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Atal_Bihari_Vajpayee"
@@ -5830,7 +5834,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-09-05",
+      "startDate": "2000-09-13",
       "statusHint": null,
       "type": "conference"
     },
@@ -6042,7 +6046,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2001-11-11",
+      "endDate": "2001-11-09",
       "engagements": [
         "Official working visit from 7-9 Nov.",
         "UNGA from 10 Nov."
@@ -6050,8 +6054,12 @@
       "eventName": "United Nations General Assembly",
       "id": "atal-bihari-vajpayee--2001-11-07--USA",
       "officialId": "atal-bihari-vajpayee",
-      "purpose": "State visit and United Nations General Assembly",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Atal_Bihari_Vajpayee"
@@ -6063,7 +6071,7 @@
       ],
       "startDate": "2001-11-07",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6277,11 +6285,15 @@
         "Met with President George W.",
         "Bush at the UN General Assembly in New York City."
       ],
-      "eventName": "United Nations General Assembly",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
       "id": "atal-bihari-vajpayee--2002-09-12--USA",
       "officialId": "atal-bihari-vajpayee",
-      "purpose": "United Nations General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Atal_Bihari_Vajpayee"
@@ -6727,16 +6739,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2003-09-28",
+      "endDate": "2003-09-24",
       "engagements": [
         "Met with President George W.",
         "Bush at the United Nations General Assembly in New York City on 24 September."
       ],
-      "eventName": "United Nations General Assembly",
-      "id": "atal-bihari-vajpayee--2003-09-20--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "atal-bihari-vajpayee--2003-09-24--USA",
       "officialId": "atal-bihari-vajpayee",
-      "purpose": "United Nations General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Atal_Bihari_Vajpayee"
@@ -6746,7 +6762,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-20",
+      "startDate": "2003-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -7305,6 +7321,36 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-04",
+      "engagements": [
+        "Met with President Anura Kumara Dissanayake, Prime Minister Harini Amarasuriya, and Foreign Minister Vijitha Herath."
+      ],
+      "eventName": null,
+      "id": "droupadi-murmu--2024-10-04--LKA",
+      "officialId": "droupadi-murmu",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2024-10-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Algiers",
         "coordinates": [
           3.058611111,
@@ -7386,6 +7432,36 @@
       "startDate": "2024-10-17",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-04-06",
+      "engagements": [
+        "To strengthen energy and defence ties and investment opportunities with Sri Lanka."
+      ],
+      "eventName": null,
+      "id": "droupadi-murmu--2025-04-04--LKA",
+      "officialId": "droupadi-murmu",
+      "purpose": "State visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-04-04",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7481,6 +7557,36 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-09-25",
+      "engagements": [
+        "Four-day official visit."
+      ],
+      "eventName": null,
+      "id": "droupadi-murmu--2025-09-22--LKA",
+      "officialId": "droupadi-murmu",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-09-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Luanda",
         "coordinates": [
           13.234444444,
@@ -7533,6 +7639,97 @@
       "startDate": "2025-11-11",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-12-23",
+      "engagements": [
+        "Met with Sri Lankan Foreign Minister Vijitha Herath.",
+        "Addressed the devastation caused by Cyclone Ditwah."
+      ],
+      "eventName": null,
+      "id": "droupadi-murmu--2025-12-22--LKA",
+      "officialId": "droupadi-murmu",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-12-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-01-09",
+      "engagements": [
+        "Two-day official visit."
+      ],
+      "eventName": null,
+      "id": "droupadi-murmu--2026-01-07--LKA",
+      "officialId": "droupadi-murmu",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2026-01-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-04-20",
+      "engagements": [
+        "Met with President Anura Kumara Dissanayake."
+      ],
+      "eventName": null,
+      "id": "droupadi-murmu--2026-04-19--LKA",
+      "officialId": "droupadi-murmu",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2026-04-19",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7813,22 +8010,26 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-09-24",
+      "endDate": "1997-09-22",
       "engagements": [
         "Met President Bill Clinton",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "inder-kumar-gujral--1997-09-21--USA",
+      "eventName": "Met with President Clinton at the UN General Assembly in New York City.",
+      "id": "inder-kumar-gujral--1997-09-22--USA",
       "officialId": "inder-kumar-gujral",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Clinton at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-09-21",
+      "startDate": "1997-09-22",
       "statusHint": null,
       "type": "conference"
     },
@@ -8054,21 +8255,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1966-04-01",
+      "endDate": "1966-03-29",
       "engagements": [
         "Met President Johnson at the White House."
       ],
       "eventName": null,
-      "id": "indira-gandhi--1966-03-27--USA",
+      "id": "indira-gandhi--1966-03-28--USA",
       "officialId": "indira-gandhi",
-      "purpose": "Official visit",
+      "purpose": "Official visit. In U.S. March 27–April 1; visited Williamsburg and New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Indira_Gandhi"
         }
       ],
-      "startDate": "1966-03-27",
+      "startDate": "1966-03-28",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9308,8 +9513,12 @@
       "eventName": null,
       "id": "indira-gandhi--1971-11-03--USA",
       "officialId": "indira-gandhi",
-      "purpose": "Official visit",
+      "purpose": "Official visit. Afterwards visited New York City. Departed U.S. November 7.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Indira_Gandhi"
@@ -10619,13 +10828,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1982-08-04",
+      "endDate": "1982-07-31",
       "engagements": [],
       "eventName": null,
       "id": "indira-gandhi--1982-07-27--USA",
       "officialId": "indira-gandhi",
-      "purpose": "State visit",
+      "purpose": "Official visit; visited New York City, Los Angeles, and Honolulu. Departed U.S. August 4.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Indira_Gandhi"
@@ -10633,7 +10846,7 @@
       ],
       "startDate": "1982-07-27",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11093,8 +11306,12 @@
       "eventName": null,
       "id": "jawaharlal-nehru--1949-10-11--USA",
       "officialId": "jawaharlal-nehru",
-      "purpose": "State visit",
+      "purpose": "Guest of the President.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jawaharlal_Nehru"
@@ -12053,8 +12270,12 @@
       "eventName": null,
       "id": "jawaharlal-nehru--1956-12-16--USA",
       "officialId": "jawaharlal-nehru",
-      "purpose": "State visit",
+      "purpose": "Official visit at Washington and Gettysburg (Pennsylvania).",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jawaharlal_Nehru"
@@ -12062,7 +12283,7 @@
       ],
       "startDate": "1956-12-16",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "year",
@@ -12657,8 +12878,12 @@
       "eventName": "United Nations General Assembly",
       "id": "jawaharlal-nehru--1960-09-26--USA",
       "officialId": "jawaharlal-nehru",
-      "purpose": "United Nations General Assembly",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jawaharlal_Nehru"
@@ -12684,8 +12909,12 @@
       "eventName": null,
       "id": "jawaharlal-nehru--1961-11-06--USA",
       "officialId": "jawaharlal-nehru",
-      "purpose": "State visit",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jawaharlal_Nehru"
@@ -12693,7 +12922,7 @@
       ],
       "startDate": "1961-11-06",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13132,16 +13361,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-09-26",
+      "endDate": "2004-09-21",
       "engagements": [
         "Called on US President George W.",
         "Bush and held multilateral talks other participating leaders including UN Secretary-General Kofi Annan, Afghan President Hamid Karzai, Pakistani President Pervez Musharraf."
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
       "id": "manmohan-singh--2004-09-21--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Attended 59th United Nations General Assembly Session and addressed the General Assembly.",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -13401,16 +13634,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-07-21",
+      "endDate": "2005-07-20",
       "engagements": [
         "Accorded formal welcome at White House lawn, met and held talks with President George W.",
         "Bush and attended banquet hosted in his honour by President Bush and First Lady Laura Bush."
       ],
       "eventName": null,
-      "id": "manmohan-singh--2005-07-16--USA",
+      "id": "manmohan-singh--2005-07-17--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Official visit to the United States.",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -13420,9 +13657,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-07-16",
+      "startDate": "2005-07-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14357,7 +14594,7 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-27",
+      "endDate": "2008-09-25",
       "engagements": [
         "Called on US President George W.",
         "Bush at White House and met leaders of other UN member countries on the sidelines including Pakistani President Asif Ali Zardari, British Prime Minister Gordon Brown, Namibian Pre…"
@@ -14365,8 +14602,12 @@
       "eventName": "United Nations (UN) General Assembly",
       "id": "manmohan-singh--2008-09-23--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Addressed the 63rd session of the United Nations General Assembly.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -14378,7 +14619,7 @@
       ],
       "startDate": "2008-09-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14569,11 +14810,15 @@
         "Met with President George W.",
         "Bush at White House and attended banquet hosted by him."
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "manmohan-singh--2008-11-14--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Attended 1st G20 Summit or Washington Summit on Financial Markets and the World Economy.",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -14774,11 +15019,15 @@
       "engagements": [
         "Also met other participating leaders including Australian Prime Minister Kevin Rudd, British Prime Minister Gordon Brown, Canadian Prime Minister Stephen Harper, Dutch Prime Minis…"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "id": "manmohan-singh--2009-09-24--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Attended the 3rd G20 summit and met President Barack Obama and attended banquet hosted by him.",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -14838,16 +15087,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-11-26",
+      "endDate": "2009-11-25",
       "engagements": [
         "Accorded ceremonial welcome at White House lawns and met with President Barack Obama and attended state banquet hosted by him.",
         "Also met Vice President Joe Biden, Secretary of State Hillary Clinton, Treasury Secretary Timothy Geithner, Defence Secretary Robert Gates and various other eminent personalities."
       ],
       "eventName": null,
-      "id": "manmohan-singh--2009-11-21--USA",
+      "id": "manmohan-singh--2009-11-23--USA",
       "officialId": "manmohan-singh",
-      "purpose": "State visit.",
+      "purpose": "Official State visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -14857,7 +15110,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-11-21",
+      "startDate": "2009-11-23",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -15042,11 +15295,15 @@
         "Met with host President Barack Obama and other participating leaders including Kazakh President Nursultan Nazarbayev, German Chancellor Angela Merkel, French President Nicolas Sar…",
         "Met President Barack Obama"
       ],
-      "eventName": "UN Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "manmohan-singh--2010-04-11--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Attended the 1st Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -16200,16 +16457,20 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-10-01",
+      "endDate": "2013-09-27",
       "engagements": [
         "Met with US President Barack Obama and attended a luncheon at White House and met leaders of other UN member countries including Bangladesh Prime Minister Sheikh Hasina, Pakistan…",
         "Met President Barack Obama"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "manmohan-singh--2013-09-25--USA",
+      "id": "manmohan-singh--2013-09-27--USA",
       "officialId": "manmohan-singh",
-      "purpose": "Addressed the 68th session of the United Nations General Assembly.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Manmohan_Singh"
@@ -16219,9 +16480,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-09-25",
+      "startDate": "2013-09-27",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -16654,8 +16915,12 @@
       "eventName": "United Nations General Assembly",
       "id": "morarji-desai--1978-06-12--USA",
       "officialId": "morarji-desai",
-      "purpose": "United Nations General Assembly",
+      "purpose": "Official visit. In U.S. June 8; visited New York City, San Francisco, and Omaha.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Morarji_Desai"
@@ -16663,7 +16928,7 @@
       ],
       "startDate": "1978-06-12",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "month",
@@ -17028,16 +17293,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2014-10-01",
+      "endDate": "2014-09-30",
       "engagements": [
         "Modi delivered his maiden speech in the 69th session of the United Nations General Assembly on 27 September 2014, in which he called for the reform and expansion of the United Nat…",
         "He expressed his concerns over the relevance of a 20th century setup in the 21st century, and stressed the need to evaluate the UN's performance in the past 70 years."
       ],
       "eventName": "General debate of the 69th United Nations General Assembly",
-      "id": "narendra-modi--2014-09-25--USA",
+      "id": "narendra-modi--2014-09-29--USA",
       "officialId": "narendra-modi",
-      "purpose": "Official visit, General debate of the 69th United Nations General Assembly",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -17047,9 +17316,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-25",
+      "startDate": "2014-09-29",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -18210,11 +18479,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "2016 Nuclear Security summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "narendra-modi--2016-03-31--USA",
       "officialId": "narendra-modi",
-      "purpose": "2016 Nuclear Security summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -18409,16 +18682,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-06-08",
+      "endDate": "2016-06-07",
       "engagements": [
         "Met President Barack Obama",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "narendra-modi--2016-06-06--USA",
+      "id": "narendra-modi--2016-06-07--USA",
       "officialId": "narendra-modi",
-      "purpose": "Held progress review meeting with President Barack Obama on defence, security and energy, and also addressed a joint session of the United…",
+      "purpose": "Working lunch.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -18428,7 +18705,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-06-06",
+      "startDate": "2016-06-07",
       "statusHint": null,
       "type": "conference"
     },
@@ -19055,8 +19332,12 @@
       "eventName": null,
       "id": "narendra-modi--2017-06-25--USA",
       "officialId": "narendra-modi",
-      "purpose": "First bilateral meet of Narendra Modi and Donald Trump.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -19068,7 +19349,7 @@
       ],
       "startDate": "2017-06-25",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -20455,16 +20736,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2019-09-28",
+      "endDate": "2019-09-22",
       "engagements": [
         "Prime Minister Modi addressed the 74th session of the United Nations General Assembly and later an event in Houston with Indian Americans along US President Donald Trump and took…",
         "In another event at New York he was presented the Global Goalkeeper Award by Bill & Melinda Gates Foundation."
       ],
       "eventName": "General debate of the 74th United Nations General Assembly",
-      "id": "narendra-modi--2019-09-21--USA",
+      "id": "narendra-modi--2019-09-22--USA",
       "officialId": "narendra-modi",
-      "purpose": "General debate of the 74th United Nations General Assembly, 1st India–Caribbean summit, Howdy Modi community event",
+      "purpose": "Participated in a rally in Houston, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -20474,7 +20759,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-09-21",
+      "startDate": "2019-09-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -20625,16 +20910,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2021-09-26",
+      "endDate": "2021-09-24",
       "engagements": [
         "Prime Minister Modi held bilateral talks with Joe Biden, President of the United States, Scott Morrison, Prime Minister of Australia, Yoshihide Suga, Prime Minister of Japan and C…",
         "He also participated in the first in-person Quad leaders' summit at White House."
       ],
       "eventName": "General debate of the 76th United Nations General Assembly",
-      "id": "narendra-modi--2021-09-22--USA",
+      "id": "narendra-modi--2021-09-24--USA",
       "officialId": "narendra-modi",
-      "purpose": "General debate of the 76th United Nations General Assembly, 2nd Quad leaders' summit",
+      "purpose": "Working Visit; Quad Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -20644,7 +20933,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-09-22",
+      "startDate": "2021-09-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -21195,16 +21484,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-06-23",
+      "endDate": "2023-06-22",
       "engagements": [
         "Prime Minister Modi oversaw a cultural program at the United Nations in New York City to commemorate International Yoga Day.",
         "In Washington, D.C. and paid his first official State visit to the United States."
       ],
       "eventName": null,
-      "id": "narendra-modi--2023-06-20--USA",
+      "id": "narendra-modi--2023-06-22--USA",
       "officialId": "narendra-modi",
-      "purpose": "State visit",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -21214,7 +21507,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-06-20",
+      "startDate": "2023-06-22",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -21803,16 +22096,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2024-09-24",
+      "endDate": "2024-09-21",
       "engagements": [
         "Prime Minister Modi attended the Quad Leaders' Summit on September 21 in Wilmington, Delaware.",
         "On September 22, he addressed a gathering of Indian Americans at the Nassau Coliseum and interacted with business leaders and CEOs of leading US-based companies."
       ],
-      "eventName": "6th Quad leaders' summit, United Nations Summit of the Future",
+      "eventName": "Attended Quad Leaders' Summit in Claymont, DE.",
       "id": "narendra-modi--2024-09-21--USA",
       "officialId": "narendra-modi",
-      "purpose": "6th Quad leaders' summit, United Nations Summit of the Future",
+      "purpose": "Attended Quad Leaders' Summit in Claymont, DE.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Narendra_Modi"
@@ -23610,16 +23907,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1992-02-02",
+      "endDate": "1992-01-31",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "UN Security Council Summit",
-      "id": "p-v-narasimha-rao--1992-01-30--USA",
+      "eventName": "Met with President Bush during a U.N. Security Council Summit in New York City.",
+      "id": "p-v-narasimha-rao--1992-01-31--USA",
       "officialId": "p-v-narasimha-rao",
-      "purpose": "Attended UN Security Council Summit",
+      "purpose": "Met with President Bush during a U.N. Security Council Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_P._V._Narasimha_Rao"
@@ -23629,7 +23930,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-01-30",
+      "startDate": "1992-01-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -24409,10 +24710,14 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "p-v-narasimha-rao--1994-05-14--USA",
+      "id": "p-v-narasimha-rao--1994-05-17--USA",
       "officialId": "p-v-narasimha-rao",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Arrived in U.S. May 15; also visited New York City, Houston, and Boston. Addressed joint meeting of Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_P._V._Narasimha_Rao"
@@ -24422,9 +24727,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-05-14",
+      "startDate": "1994-05-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "month",
@@ -24962,6 +25267,34 @@
       "startDate": "1995-11-08",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "pranab-mukherjee--2015-05-31--SWE",
+      "officialId": "pranab-mukherjee",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2015-05-31",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -25684,6 +26017,62 @@
       "type": "conference"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1990-04-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "r-venkataraman--1990-04-03--GBR",
+      "officialId": "r-venkataraman",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1990-04-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1958-10-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "rajendra-prasad--1958-09-27--JPN",
+      "officialId": "rajendra-prasad",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1958-09-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Moscow",
@@ -25838,8 +26227,12 @@
       "eventName": null,
       "id": "rajiv-gandhi--1985-06-11--USA",
       "officialId": "rajiv-gandhi",
-      "purpose": "Visit to United States",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Rajiv_Gandhi"
@@ -25847,7 +26240,7 @@
       ],
       "startDate": "1985-06-11",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -26051,19 +26444,23 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1985-10-24",
+      "endDate": "1985-10-23",
       "engagements": [],
       "eventName": null,
-      "id": "rajiv-gandhi--1985-10-22--USA",
+      "id": "rajiv-gandhi--1985-10-23--USA",
       "officialId": "rajiv-gandhi",
-      "purpose": "Met with President Reagan on 23 October in New York City, at reception and luncheon at the U.N.",
+      "purpose": "Met with President Reagan in New York City, at reception and luncheon at the U.N.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Rajiv_Gandhi"
         }
       ],
-      "startDate": "1985-10-22",
+      "startDate": "1985-10-23",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -26718,8 +27115,12 @@
       "eventName": "United Nations General Assembly",
       "id": "rajiv-gandhi--1987-10-19--USA",
       "officialId": "rajiv-gandhi",
-      "purpose": "United Nations General Assembly",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Rajiv_Gandhi"
@@ -26727,7 +27128,7 @@
       ],
       "startDate": "1987-10-19",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -28203,7 +28604,7 @@
       ],
       "startDate": "2022-04-04",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -29648,6 +30049,62 @@
       "startDate": "2014-03-24",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "sarvepalli-radhakrishnan--1963-06-03--USA",
+      "officialId": "sarvepalli-radhakrishnan",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-06-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1963-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "sarvepalli-radhakrishnan--1963-06-12--GBR",
+      "officialId": "sarvepalli-radhakrishnan",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1963-06-12",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -37183,6 +37640,34 @@
       "startDate": "1990-06-04",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1968-04-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "zakir-husain--1968-03-28--JPN",
+      "officialId": "zakir-husain",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1968-03-28",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

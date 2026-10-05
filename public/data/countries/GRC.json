@@ -44,6 +44,33 @@
       "wikidataId": "Q344729"
     },
     {
+      "aliases": [],
+      "countryCode": "GRC",
+      "fullName": "Constantine",
+      "id": "constantine",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1967-09-11",
+          "id": "constantine-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1967-09-11",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "George Papadopoulos",
         "George Papadópoulos",
@@ -106,7 +133,7 @@
           "url": "https://en.wikipedia.org/wiki/Georgios_Papadopoulos"
         }
       ],
-      "summary": "Georgios Papadopoulos was a Hellenic Army officer and far-right military dictator who ruled Greece from 1967 to 1973. He led the military junta that overthrew Prime Minister Panagiotis Kanellopoulos in 1967 and established his dictatorship.",
+      "summary": "Georgios Papadopoulos was a Greek military officer and dictator who ruled Greece from 1967 to 1973. He led the military junta that overthrew Prime Minister Panagiotis Kanellopoulos in 1967 and established his dictatorship.",
       "wikidataId": "Q156505"
     },
     {
@@ -388,6 +415,33 @@
       ],
       "summary": "Michail Stasinopoulos was a Greek jurist and politician who served as the President of Greece from 18 December 1974 to 19 July 1975. A member of New Democracy, he was the first officeholder under the Third Hellenic Republic.",
       "wikidataId": "Q373532"
+    },
+    {
+      "aliases": [],
+      "countryCode": "GRC",
+      "fullName": "Paul I",
+      "id": "paul-i",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1953-10-31",
+          "id": "paul-i-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1953-10-28",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -7064,13 +7118,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2017-10-19",
+      "endDate": "2017-10-17",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
       "id": "alexis-tsipras--2017-10-17--USA",
       "officialId": "alexis-tsipras",
-      "purpose": "Met with President Donald Trump.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Alexis_Tsipras"
@@ -7082,7 +7140,7 @@
       ],
       "startDate": "2017-10-17",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8622,16 +8680,20 @@
       "endDate": "1994-04-24",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "andreas-papandreou--1994-04-19--USA",
+      "id": "andreas-papandreou--1994-04-22--USA",
       "officialId": "andreas-papandreou",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-04-19",
+      "startDate": "1994-04-22",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9571,13 +9633,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2013-08-10",
+      "endDate": "2013-08-08",
       "engagements": ["Ban Ki-moon.", "Met President Barack Obama"],
       "eventName": null,
-      "id": "antonis-samaras--2013-08-07--USA",
+      "id": "antonis-samaras--2013-08-08--USA",
       "officialId": "antonis-samaras",
-      "purpose": "Met with President Barack Obama and Secretary-General of the U.N.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Antonis_Samaras"
@@ -9587,9 +9653,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-08-07",
+      "startDate": "2013-08-08",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10428,6 +10494,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "constantine--1967-09-11--USA",
+      "officialId": "constantine",
+      "purpose": "Informal visit. Arrived in New York City August 24; visited Canada August 26–September 9. Visited Newport (R.I.) September 10 and 12.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-09-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Berlin",
         "coordinates": [13.405, 52.52],
         "countryCode": "DEU",
@@ -10484,19 +10575,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-04-09",
+      "endDate": "1996-04-10",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "costas-simitis--1996-04-08--USA",
+      "id": "costas-simitis--1996-04-07--USA",
       "officialId": "costas-simitis",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-04-08",
+      "startDate": "1996-04-07",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11111,17 +11206,21 @@
       },
       "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": "NATO Summit",
-      "id": "costas-simitis--1999-04-19--USA",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "costas-simitis--1999-04-23--USA",
       "officialId": "costas-simitis",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-04-19",
+      "startDate": "1999-04-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -11865,16 +11964,20 @@
       "endDate": "2002-01-11",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "costas-simitis--2002-01-08--USA",
+      "id": "costas-simitis--2002-01-09--USA",
       "officialId": "costas-simitis",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-01-08",
+      "startDate": "2002-01-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12671,19 +12774,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-06-25",
+      "endDate": "2003-06-26",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": "European Union (EU)-United States Summit",
-      "id": "costas-simitis--2003-06-25--USA",
+      "id": "costas-simitis--2003-06-24--USA",
       "officialId": "costas-simitis",
-      "purpose": "Attended European Union (EU)-United States Summit",
+      "purpose": "Working visit. Met with President Bush at the U.S.-EU Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-06-25",
+      "startDate": "2003-06-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -12711,6 +12818,31 @@
       "startDate": "2003-07-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-06-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "georgios-papandreou--1964-06-24--USA",
+      "officialId": "georgios-papandreou",
+      "purpose": "Informal visit. In U.S. June 23. Visited Williamsburg and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-06-24",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -13199,13 +13331,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-03-10",
+      "endDate": "2010-03-09",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
       "id": "giorgos-papandreou--2010-03-08--USA",
       "officialId": "giorgos-papandreou",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14583,6 +14719,131 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-05-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "karolos-papoulias--2008-05-20--SWE",
+      "officialId": "karolos-papoulias",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2008-05-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1956-11-15",
+      "engagements": [],
+      "eventName": "Met with U.S. officials while attending a UN General Assembly session.",
+      "id": "konstantinos-karamanlis--1956-11-15--USA",
+      "officialId": "konstantinos-karamanlis",
+      "purpose": "Met with U.S. officials while attending a UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1956-11-15",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-04-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-karamanlis--1961-04-17--USA",
+      "officialId": "konstantinos-karamanlis",
+      "purpose": "Official visit. Afterwards visited New York City. Departed U.S. April 24.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-04-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "konstantinos-karamanlis--1978-05-30--USA",
+      "officialId": "konstantinos-karamanlis",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-05-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-karamanlis--2004-05-19--USA",
+      "officialId": "konstantinos-karamanlis",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-05-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Dublin",
         "coordinates": [-6.260277777, 53.349722222],
         "countryCode": "IRL",
@@ -14789,19 +15050,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-06-13",
+      "endDate": "1990-06-06",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "konstantinos-mitsotakis--1990-06-03--USA",
+      "id": "konstantinos-mitsotakis--1990-06-06--USA",
       "officialId": "konstantinos-mitsotakis",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-06-03",
+      "startDate": "1990-06-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -15620,13 +15885,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-12-16",
+      "endDate": "1991-12-13",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "konstantinos-mitsotakis--1991-12-11--USA",
       "officialId": "konstantinos-mitsotakis",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Later visited New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16448,21 +16717,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-11-20",
+      "endDate": "1992-11-19",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "konstantinos-mitsotakis--1992-11-15--USA",
+      "id": "konstantinos-mitsotakis--1992-11-16--USA",
       "officialId": "konstantinos-mitsotakis",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush and attended the opening of an exhibit at the National Gallery of Art.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-11-15",
+      "startDate": "1992-11-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16836,6 +17109,56 @@
         }
       ],
       "startDate": "1993-08-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-stephanopoulos--1996-05-07--USA",
+      "officialId": "konstantinos-stephanopoulos",
+      "purpose": "State Visit. Afterwards visited Atlanta, Los Angeles, San Francisco, Sacramento, and Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1996-05-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1946-12-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-tsaldaris--1946-12-19--USA",
+      "officialId": "konstantinos-tsaldaris",
+      "purpose": "Addressed the UN on frontier problems with neighboring states. Visited Washington as guest of the government. In U.S. December 5–24.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1946-12-19",
       "statusHint": null,
       "type": "other"
     },
@@ -17461,8 +17784,12 @@
       "eventName": null,
       "id": "kostas-karamanlis--2005-05-20--USA",
       "officialId": "kostas-karamanlis",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19857,7 +20184,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2020-01-08",
+      "endDate": "2020-01-07",
       "engagements": [
         "Also, had meetings with Vice President Mike Pence and Speaker of the House Nancy Pelosi.",
         "Met President Donald Trump"
@@ -19865,8 +20192,12 @@
       "eventName": null,
       "id": "kyriakos-mitsotakis--2020-01-07--USA",
       "officialId": "kyriakos-mitsotakis",
-      "purpose": "Met with President Donald Trump.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Kyriakos_Mitsotakis"
@@ -19878,7 +20209,7 @@
       ],
       "startDate": "2020-01-07",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -21424,16 +21755,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-05-17",
+      "endDate": "2022-05-16",
       "engagements": [
         "Also, had meetings with Vice President Kamala Harris, and Speaker of the House Nancy Pelosi",
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "kyriakos-mitsotakis--2022-05-15--USA",
+      "id": "kyriakos-mitsotakis--2022-05-16--USA",
       "officialId": "kyriakos-mitsotakis",
-      "purpose": "Met with President Joe Biden.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Kyriakos_Mitsotakis"
@@ -21443,9 +21778,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-15",
+      "startDate": "2022-05-16",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -23298,11 +23633,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "kyriakos-mitsotakis--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "kyriakos-mitsotakis--2024-07-10--USA",
       "officialId": "kyriakos-mitsotakis",
-      "purpose": "Mitsotakis attended the NATO summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Kyriakos_Mitsotakis"
@@ -23312,7 +23651,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -25244,6 +25583,31 @@
       "startDate": "2012-05-23",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1953-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-i--1953-10-28--USA",
+      "officialId": "paul-i",
+      "purpose": "At the invitation of the President.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1953-10-28",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

@@ -3,6 +3,33 @@
     {
       "aliases": [],
       "countryCode": "XKX",
+      "fullName": "Fatmir Sejdiu",
+      "id": "fatmir-sejdiu",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "2008-07-21",
+          "id": "fatmir-sejdiu-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2008-07-17",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "XKX",
       "fullName": "Avdullah Hoti",
       "id": "avdullah-hoti",
       "party": null,
@@ -22,6 +49,10 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
       "summary": "",
@@ -49,6 +80,10 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
       "summary": "",
@@ -4323,13 +4358,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2020-09-05",
+      "endDate": "2020-09-04",
       "engagements": ["Met President Donald Trump", "Signed agreements"],
       "eventName": "America-Kosovo-Serbia Trilateral Meeting",
       "id": "avdullah-hoti--2020-09-04--USA",
       "officialId": "avdullah-hoti",
-      "purpose": "Attended America-Kosovo-Serbia Trilateral Meeting",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4337,7 +4376,7 @@
       ],
       "startDate": "2020-09-04",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -4486,6 +4525,31 @@
         }
       ],
       "startDate": "2020-11-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-07-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "fatmir-sejdiu--2008-07-17--USA",
+      "officialId": "fatmir-sejdiu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-07-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4776,19 +4840,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-07-23",
+      "endDate": "2008-07-21",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "hashim-thaci--2008-07-16--USA",
+      "id": "hashim-thaci--2008-07-17--USA",
       "officialId": "hashim-thaci",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-07-16",
+      "startDate": "2008-07-17",
       "statusHint": null,
       "type": "official_visit"
     },

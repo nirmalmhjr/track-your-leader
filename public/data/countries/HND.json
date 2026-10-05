@@ -34,33 +34,6 @@
     {
       "aliases": [],
       "countryCode": "HND",
-      "fullName": "Carlos Roberto Flores",
-      "id": "carlos-roberto-flores",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state", "head_of_government"],
-          "endDate": "2002-01-07",
-          "id": "carlos-roberto-flores-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1998-04-09",
-          "title": "President"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "HND",
       "fullName": "Carlos Roberto Reina",
       "id": "carlos-roberto-reina",
       "party": "Liberal Party of Honduras",
@@ -2074,6 +2047,33 @@
     {
       "aliases": [],
       "countryCode": "HND",
+      "fullName": "Brigadier General Juan Melgar Castro",
+      "id": "brigadier-general-juan-melgar-castro",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "1977-09-09",
+          "id": "brigadier-general-juan-melgar-castro-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1977-09-06",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "HND",
       "fullName": "Carlos Eduardo Cordero Montoya",
       "id": "carlos-eduardo-cordero-montoya",
       "party": null,
@@ -2217,11 +2217,61 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "brigadier-general-juan-melgar-castro--1977-09-06--USA",
+      "officialId": "brigadier-general-juan-melgar-castro",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-flores-guifarro--1998-12-09--USA",
+      "officialId": "carlos-flores-guifarro",
+      "purpose": "Attended conference on Central American reconstruction at the Inter-American Development Bank.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1998-12-09",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1998-04-09",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--1998-04-09--USA",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--1998-04-09--USA",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to United States",
       "sources": [
         {
@@ -2245,8 +2295,8 @@
       "endDate": "1998-10-08",
       "engagements": ["Met President Ernesto Zedillo", "Signed agreements"],
       "eventName": null,
-      "id": "carlos-roberto-flores--1998-10-07--MEX",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--1998-10-07--MEX",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Mexico",
       "sources": [
         {
@@ -2270,8 +2320,8 @@
       "endDate": "1999-03-11",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--1999-03-11--GTM",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--1999-03-11--GTM",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Guatemala",
       "sources": [
         {
@@ -2295,8 +2345,8 @@
       "endDate": "1999-04-17",
       "engagements": [],
       "eventName": "Association of Caribbean States (ACS) Summit",
-      "id": "carlos-roberto-flores--1999-04-17--DOM",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--1999-04-17--DOM",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended Association of Caribbean States (ACS) Summit",
       "sources": [
         {
@@ -2320,8 +2370,8 @@
       "endDate": "1999-09-22",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "carlos-roberto-flores--1999-09-22--USA",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--1999-09-22--USA",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -2345,8 +2395,8 @@
       "endDate": "2000-04-05",
       "engagements": [],
       "eventName": "Central American States-Brazil Summit",
-      "id": "carlos-roberto-flores--2000-04-05--CRI",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-04-05--CRI",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended Central American States-Brazil Summit and Honduras-Nicaragua-Organization of American States (OAS) Trilateral Meeting",
       "sources": [
         {
@@ -2370,8 +2420,8 @@
       "endDate": "2000-06-17",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--2000-06-17--PAN",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-06-17--PAN",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Panama",
       "sources": [
         {
@@ -2395,8 +2445,8 @@
       "endDate": "2000-08-16",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--2000-08-16--DOM",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-08-16--DOM",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Dominican Republic",
       "sources": [
         {
@@ -2420,8 +2470,8 @@
       "endDate": "2000-08-25",
       "engagements": [],
       "eventName": "Mexico-Central America Summit",
-      "id": "carlos-roberto-flores--2000-08-25--GTM",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-08-25--GTM",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended Mexico-Central America Summit",
       "sources": [
         {
@@ -2445,8 +2495,8 @@
       "endDate": "2000-09-08",
       "engagements": [],
       "eventName": "UN Summit on Millenium Development Goals",
-      "id": "carlos-roberto-flores--2000-09-06--USA",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-09-06--USA",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended UN Summit on Millenium Development Goals",
       "sources": [
         {
@@ -2470,8 +2520,8 @@
       "endDate": "2000-10-12",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--2000-10-11--CHL",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-10-11--CHL",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Chile",
       "sources": [
         {
@@ -2495,8 +2545,8 @@
       "endDate": "2000-12-01",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--2000-11-30--MEX",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2000-11-30--MEX",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Mexico",
       "sources": [
         {
@@ -2520,8 +2570,8 @@
       "endDate": "2001-03-08",
       "engagements": [],
       "eventName": "Central American Integration System (SICA) Summit",
-      "id": "carlos-roberto-flores--2001-03-07--ESP",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2001-03-07--ESP",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended Central American Integration System (SICA) Summit",
       "sources": [
         {
@@ -2545,8 +2595,8 @@
       "endDate": "2001-03-30",
       "engagements": ["Signed agreements"],
       "eventName": null,
-      "id": "carlos-roberto-flores--2001-03-30--NIC",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2001-03-30--NIC",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Nicaragua",
       "sources": [
         {
@@ -2570,8 +2620,8 @@
       "endDate": "2001-04-21",
       "engagements": [],
       "eventName": "Summit of the Americas (SOA)",
-      "id": "carlos-roberto-flores--2001-04-20--CAN",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2001-04-20--CAN",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended Summit of the Americas (SOA)",
       "sources": [
         {
@@ -2595,8 +2645,8 @@
       "endDate": "2001-06-15",
       "engagements": ["Signed agreements"],
       "eventName": "Mexico-Central America Summit",
-      "id": "carlos-roberto-flores--2001-06-15--SLV",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2001-06-15--SLV",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Attended Mexico-Central America Summit",
       "sources": [
         {
@@ -2620,8 +2670,8 @@
       "endDate": "2001-08-31",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--2001-08-31--GTM",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2001-08-31--GTM",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to Guatemala",
       "sources": [
         {
@@ -2645,8 +2695,8 @@
       "endDate": "2002-01-07",
       "engagements": [],
       "eventName": null,
-      "id": "carlos-roberto-flores--2002-01-06--USA",
-      "officialId": "carlos-roberto-flores",
+      "id": "carlos-roberto-flor--2002-01-06--USA",
+      "officialId": "carlos-roberto-flor",
       "purpose": "Visit to United States",
       "sources": [
         {
@@ -2819,11 +2869,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "carlos-roberto-reina--1994-12-09--USA",
       "officialId": "carlos-roberto-reina",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3489,6 +3543,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-05-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-azcona-del-hoyo--1986-05-26--USA",
+      "officialId": "jose-azcona-del-hoyo",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-05-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-azcona-del-hoyo--1987-10-21--USA",
+      "officialId": "jose-azcona-del-hoyo",
+      "purpose": "Met with President Reagan during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-10-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Havana",
         "coordinates": [-82.358888888, 23.136666666],
         "countryCode": "CUB",
@@ -3823,16 +3927,20 @@
       "endDate": "2014-07-25",
       "engagements": [],
       "eventName": null,
-      "id": "juan-orlando-hernandez--2014-07-23--USA",
+      "id": "juan-orlando-hernandez--2014-07-25--USA",
       "officialId": "juan-orlando-hernandez",
-      "purpose": "Visit to United States",
+      "purpose": "Discussed migration of unaccompanied minors.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-23",
+      "startDate": "2014-07-25",
       "statusHint": null,
       "type": "other"
     },
@@ -4806,8 +4914,12 @@
       "eventName": "Conference on Prosperity and Security in Central America",
       "id": "juan-orlando-hernandez--2017-06-15--USA",
       "officialId": "juan-orlando-hernandez",
-      "purpose": "Attended Conference on Prosperity and Security in Central America",
+      "purpose": "Attended the Conference on Prosperity and Security in Central America, in Washington and in Doral, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6268,8 +6380,12 @@
       "eventName": null,
       "id": "manuel-zelaya--2006-06-04--USA",
       "officialId": "manuel-zelaya",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6388,19 +6504,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-09-20",
+      "endDate": "2006-09-18",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "manuel-zelaya--2006-09-17--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "manuel-zelaya--2006-09-18--USA",
       "officialId": "manuel-zelaya",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-09-17",
+      "startDate": "2006-09-18",
       "statusHint": null,
       "type": "conference"
     },
@@ -7891,21 +8011,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-26",
+      "endDate": "2008-09-24",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "manuel-zelaya--2008-09-21--USA",
+      "id": "manuel-zelaya--2008-09-24--USA",
       "officialId": "manuel-zelaya",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-21",
+      "startDate": "2008-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8542,6 +8666,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-03-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "policarpo-paz-garcia--1980-03-02--USA",
+      "officialId": "policarpo-paz-garcia",
+      "purpose": "Private visit. Met with President Carter March 3.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-03-02",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Managua",
         "coordinates": [-86.273725, 12.154680555],
         "countryCode": "NIC",
@@ -8948,19 +9097,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-10-07",
+      "endDate": "2011-10-05",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "porfirio-lobo-sosa--2011-10-03--USA",
+      "id": "porfirio-lobo-sosa--2011-10-05--USA",
       "officialId": "porfirio-lobo-sosa",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-03",
+      "startDate": "2011-10-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9623,19 +9776,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-04-18",
+      "endDate": "1990-04-19",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "rafael-leonardo-callejas-romero--1990-04-18--USA",
+      "id": "rafael-leonardo-callejas-romero--1990-04-17--USA",
       "officialId": "rafael-leonardo-callejas-romero",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Private visit to New York City afterwards.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-04-18",
+      "startDate": "1990-04-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10159,8 +10316,12 @@
       "eventName": null,
       "id": "rafael-leonardo-callejas-romero--1992-05-06--USA",
       "officialId": "rafael-leonardo-callejas-romero",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10168,7 +10329,7 @@
       ],
       "startDate": "1992-05-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10707,13 +10868,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-12-01",
+      "endDate": "1993-11-30",
       "engagements": [],
       "eventName": null,
       "id": "rafael-leonardo-callejas-romero--1993-11-30--USA",
       "officialId": "rafael-leonardo-callejas-romero",
-      "purpose": "Visit to United States",
+      "purpose": "Attended working brunch with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10745,6 +10910,31 @@
         }
       ],
       "startDate": "1994-01-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-12-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "ramon-villeda-morales--1962-11-30--USA",
+      "officialId": "ramon-villeda-morales",
+      "purpose": "Informal visit. In U.S. November 29–December 5. Also visited Williamsburg, and made a private visit to Miami.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-11-30",
       "statusHint": null,
       "type": "other"
     },
@@ -11012,8 +11202,12 @@
       "eventName": null,
       "id": "ricardo-maduro--2003-04-10--USA",
       "officialId": "ricardo-maduro",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Discussed negotiations for a Central American free trade agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11021,7 +11215,7 @@
       ],
       "startDate": "2003-04-10",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11985,18 +12179,22 @@
       "endDate": "2005-05-12",
       "engagements": [],
       "eventName": null,
-      "id": "ricardo-maduro--2005-05-09--USA",
+      "id": "ricardo-maduro--2005-05-10--USA",
       "officialId": "ricardo-maduro",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Discussed Central American and Dominican Republic Free Trade Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-05-09",
+      "startDate": "2005-05-10",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -12476,6 +12674,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-07-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "roberto-suazo-cordova--1982-07-13--USA",
+      "officialId": "roberto-suazo-cordova",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-07-13",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-05-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "roberto-suazo-cordova--1985-05-20--USA",
+      "officialId": "roberto-suazo-cordova",
+      "purpose": "Official Working Visit. Private visit to Houston afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-05-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bogotá",
         "coordinates": [-74.08175, 4.60971],
         "countryCode": "COL",
@@ -12718,22 +12966,25 @@
         "city": "Santo Domingo",
         "coordinates": [-69.936111111, 18.4625],
         "countryCode": "DOM",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2023-03-25",
       "engagements": ["Met President Luis Abinader"],
       "eventName": "Ibero-American Summit",
-      "id": "xiomara-castro--2023-03-22--DOM",
+      "id": "xiomara-castro--2023-03-24--DOM",
       "officialId": "xiomara-castro",
-      "purpose": "Attended Ibero-American Summit",
+      "purpose": "XXVIII Cumbre Iberoamericana.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Xiomara_Castro"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-03-22",
+      "startDate": "2023-03-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -12918,31 +13169,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Dubai",
-        "coordinates": [55.309444444, 25.269722222],
+        "city": "Dubái",
+        "coordinates": [55.311666666, 25.264444444],
         "countryCode": "ARE",
         "region": "Asia"
       },
-      "endDate": "2023-12-03",
+      "endDate": "2023-12-12",
       "engagements": [
         "Castro delivered a speech on climate change and held meetings with international leaders, including King Charles III.",
         "Signed agreements"
       ],
       "eventName": "Conference of the Parties (COP)",
-      "id": "xiomara-castro--2023-12-01--ARE",
+      "id": "xiomara-castro--2023-11-30--ARE",
       "officialId": "xiomara-castro",
-      "purpose": "Attended the COP28 climate summit.",
+      "purpose": "Conferencia de las Naciones Unidas sobre el Cambio Climático de 2023.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Xiomara_Castro"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Xiomara_Castro"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-12-01",
+      "startDate": "2023-11-30",
       "statusHint": null,
       "type": "summit"
     },
@@ -13036,10 +13287,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Guatemala City",
+        "city": "San José",
+        "coordinates": [-84.079613888, 9.932738888],
+        "countryCode": "CRI",
+        "region": "Americas"
+      },
+      "endDate": "2024-06-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "xiomara-castro--2024-06-20--CRI",
+      "officialId": "xiomara-castro",
+      "purpose": "Visita de Estado.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Xiomara_Castro"
+        }
+      ],
+      "startDate": "2024-06-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ciudad de Guatemala",
         "coordinates": [-90.513333333, 14.641666666],
         "countryCode": "GTM",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-06-22",
@@ -13047,8 +13321,12 @@
       "eventName": null,
       "id": "xiomara-castro--2024-06-22--GTM",
       "officialId": "xiomara-castro",
-      "purpose": "Visit to Guatemala",
+      "purpose": "Visita de Estado.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Xiomara_Castro"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

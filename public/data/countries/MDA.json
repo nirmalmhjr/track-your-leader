@@ -560,7 +560,7 @@
           "url": "https://en.wikipedia.org/wiki/Mircea_Druc"
         }
       ],
-      "summary": "Mircea Druc (born 25 July 1941) is a Moldovan and Romanian politician who served as Prime Minister of Moldova between 26 May 1990 and 22 May 1991. He was appointed as Prime Minister after the opposition walked out of the Parliament, in protest to the policies of the nationalist Popular Front of Moldova.",
+      "summary": "Mircea Druc (born 25 July 1941) is a Moldovan and Romanian politician who served as the Prime Minister of the Soviet Socialist Republic of Moldova from May 1990 to May 1991. Coming to power during the turbulent final years of the Soviet Union, his administration played a central role in Moldova’s early transition away from Soviet structures toward national independence and cultural alignment with Romania.",
       "wikidataId": "Q1986805"
     },
     {
@@ -2308,7 +2308,7 @@
       "countryCode": "MDA",
       "fullName": "Valeriu Troenco",
       "id": "valeriu-troenco",
-      "party": "Liberal Reformists Party (Moldova)",
+      "party": "Romanian Popular Party",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Valeriu_Troenco.jpg?width=160",
       "positions": [
         {
@@ -3106,8 +3106,12 @@
       "eventName": null,
       "id": "andrei-sangheli--1993-04-20--USA",
       "officialId": "andrei-sangheli",
-      "purpose": "Visit to United States",
+      "purpose": "Attended dedication of the Holocaust Memorial Museum and met with President Clinton on April 21.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3115,7 +3119,7 @@
       ],
       "startDate": "1993-04-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -11113,6 +11117,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-02-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "mircea-snegur--1992-02-18--USA",
+      "officialId": "mircea-snegur",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1992-02-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-02-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "mircea-snegur--1995-01-29--USA",
+      "officialId": "mircea-snegur",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-01-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.3525, 50.846666666],
         "countryCode": "BEL",
@@ -13092,11 +13146,15 @@
       },
       "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "petru-lucinschi--1999-04-23--USA",
       "officialId": "petru-lucinschi",
-      "purpose": "1999 Washington summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Petru_Lucinschi"
@@ -16485,6 +16543,31 @@
       "startDate": "2013-03-14",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "vladimir-voronin--2002-12-16--USA",
+      "officialId": "vladimir-voronin",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2002-12-16",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

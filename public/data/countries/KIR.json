@@ -3658,11 +3658,15 @@
       },
       "endDate": "1990-10-27",
       "engagements": [],
-      "eventName": "Pacific Island Nations-United States Summit",
+      "eventName": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "id": "ieremia-tabai--1990-10-27--USA",
       "officialId": "ieremia-tabai",
-      "purpose": "Attended Pacific Island Nations-United States Summit",
+      "purpose": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4556,21 +4560,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-09-27",
+      "endDate": "2023-09-25",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "United Nations General Assembly",
-      "id": "taneti-maamau--2023-09-18--USA",
+      "eventName": "Attended the Pacific Islands Countries Summit.",
+      "id": "taneti-maamau--2023-09-25--USA",
       "officialId": "taneti-maamau",
-      "purpose": "Attended United Nations General Assembly and Pacific Islands Forum (PIF)",
+      "purpose": "Attended the Pacific Islands Countries Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-18",
+      "startDate": "2023-09-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",

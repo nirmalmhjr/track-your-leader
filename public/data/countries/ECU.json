@@ -80,6 +80,33 @@
       "wikidataId": "Q217555"
     },
     {
+      "aliases": [],
+      "countryCode": "ECU",
+      "fullName": "Alfredo Poveda Burbano",
+      "id": "alfredo-poveda-burbano",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1977-09-09",
+          "id": "alfredo-poveda-burbano-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1977-09-06",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Camilo Ponce", "Camilo Ponce Enriquez"],
       "countryCode": "ECU",
       "fullName": "Camilo Ponce Enríquez",
@@ -4647,6 +4674,56 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "alfredo-poveda-burbano--1977-09-06--USA",
+      "officialId": "alfredo-poveda-burbano",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-07-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-julio-arosemena-monroy--1962-07-23--USA",
+      "officialId": "carlos-julio-arosemena-monroy",
+      "purpose": "Official visit. In U.S. July 22–29, visiting Philadelphia (Pennsylvania), Chicago, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-07-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2023-12-07",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) Security Council Open Debate",
@@ -6067,6 +6144,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1951-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "galo-plaza--1951-06-20--USA",
+      "officialId": "galo-plaza",
+      "purpose": "Guest of U.S. Government. Addressed U.S. Congress June 21. Afterwards visited New York City and San Francisco. Departed U.S. June 29.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1951-06-20",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2021-07-02",
       "engagements": [],
       "eventName": null,
@@ -6478,17 +6580,21 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "Summit of the Americas",
-      "id": "guillermo-lasso--2022-06-06--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "guillermo-lasso--2022-06-08--USA",
       "officialId": "guillermo-lasso",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-06",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -6601,13 +6707,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-20",
+      "endDate": "2022-12-19",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
       "eventName": null,
       "id": "guillermo-lasso--2022-12-19--USA",
       "officialId": "guillermo-lasso",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6956,17 +7066,21 @@
       },
       "endDate": "2023-11-03",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "Americas Partnership for Economic Prosperity (APEP) Summit",
-      "id": "guillermo-lasso--2023-11-01--USA",
+      "eventName": "Attended the APEP Leaders' Summit.",
+      "id": "guillermo-lasso--2023-11-03--USA",
       "officialId": "guillermo-lasso",
-      "purpose": "Attended Americas Partnership for Economic Prosperity (APEP) Summit",
+      "purpose": "Attended the APEP Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-01",
+      "startDate": "2023-11-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -7844,19 +7958,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-10-10",
+      "endDate": "1998-10-09",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "jamil-mahuad--1998-10-01--USA",
+      "id": "jamil-mahuad--1998-10-09--USA",
       "officialId": "jamil-mahuad",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Discussed the Ecuador-Peru border dispute with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-10-01",
+      "startDate": "1998-10-09",
       "statusHint": null,
       "type": "conference"
     },
@@ -7974,8 +8092,12 @@
       "eventName": "Border Funding Summit",
       "id": "jamil-mahuad--1999-02-03--USA",
       "officialId": "jamil-mahuad",
-      "purpose": "Attended Border Funding Summit",
+      "purpose": "Discussed implementation of Ecuador-Peru border agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9000,13 +9122,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2020-02-13",
+      "endDate": "2020-02-12",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
       "id": "lenin-moreno--2020-02-12--USA",
       "officialId": "lenin-moreno",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9075,19 +9201,48 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-02-14",
+      "endDate": "1986-01-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "leon-febres-cordero--1986-01-12--USA",
+      "officialId": "leon-febres-cordero",
+      "purpose": "State Visit. In U.S. January 16–18; visited Los Angeles.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-01-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-02-12",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "lucio-gutierrez--2003-02-10--USA",
+      "id": "lucio-gutierrez--2003-02-09--USA",
       "officialId": "lucio-gutierrez",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-02-10",
+      "startDate": "2003-02-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9621,6 +9776,31 @@
       "startDate": "2005-01-16",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "osvaldo-hurtado--1983-04-07--USA",
+      "officialId": "osvaldo-hurtado",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-04-07",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14386,13 +14566,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-07-25",
+      "endDate": "1990-07-24",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "rodrigo-borja-cevallos--1990-07-22--USA",
       "officialId": "rodrigo-borja-cevallos",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14636,13 +14820,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-02-01",
+      "endDate": "1992-01-30",
       "engagements": ["Gave a public address"],
-      "eventName": "UN Security Council Summit",
+      "eventName": "Met with President Bush while attending a U.N. Security Council Summit in New York City.",
       "id": "rodrigo-borja-cevallos--1992-01-30--USA",
       "officialId": "rodrigo-borja-cevallos",
-      "purpose": "Attended UN Security Council Summit",
+      "purpose": "Met with President Bush while attending a U.N. Security Council Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14661,19 +14849,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-02-28",
+      "endDate": "1992-02-27",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
-      "eventName": "San Antonio Drug Summit",
-      "id": "rodrigo-borja-cevallos--1992-02-25--USA",
+      "eventName": "Attended Drug Summit in San Antonio, Texas.",
+      "id": "rodrigo-borja-cevallos--1992-02-26--USA",
       "officialId": "rodrigo-borja-cevallos",
-      "purpose": "Attended San Antonio Drug Summit",
+      "purpose": "Attended Drug Summit in San Antonio, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-02-25",
+      "startDate": "1992-02-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -14989,19 +15181,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-12",
+      "endDate": "1994-12-11",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "sixto-duran-ballen--1994-12-07--USA",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "sixto-duran-ballen--1994-12-09--USA",
       "officialId": "sixto-duran-ballen",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-12-07",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -15279,6 +15475,31 @@
       "startDate": "1996-03-07",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "sixto-duran-ballen--1996-06-23--USA",
+      "officialId": "sixto-duran-ballen",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1996-06-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

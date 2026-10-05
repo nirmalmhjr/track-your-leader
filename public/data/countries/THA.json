@@ -824,6 +824,33 @@
       "wikidataId": "Q298079"
     },
     {
+      "aliases": [],
+      "countryCode": "THA",
+      "fullName": "Thaksin Chinnawat",
+      "id": "thaksin-chinnawat",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "2005-09-19",
+          "id": "thaksin-chinnawat-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2005-09-19",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["H.E. Dr Thaksin Shinawatra", "Tony Woodsome"],
       "countryCode": "THA",
       "fullName": "Thaksin Shinawatra",
@@ -7861,19 +7888,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-12-20",
+      "endDate": "1991-12-17",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "anand-panyarachun--1991-12-11--USA",
+      "id": "anand-panyarachun--1991-12-15--USA",
       "officialId": "anand-panyarachun",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Later visited Los Angeles.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-12-11",
+      "startDate": "1991-12-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8260,6 +8291,829 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Saigon",
+        "coordinates": [106.701944444, 10.775555555],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "1959-12-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1959-12-18--VNM",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Vietnam",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1959-12-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Jakarta",
+        "coordinates": [106.826944444, -6.175277777],
+        "countryCode": "IDN",
+        "region": "Asia"
+      },
+      "endDate": "1960-02-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-02-08--IDN",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Indonesia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-02-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Yangon",
+        "coordinates": [96.16, 16.795],
+        "countryCode": "MMR",
+        "region": "Asia"
+      },
+      "endDate": "1960-03-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-03-02--MMR",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Myanmar",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-03-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Honolulu",
+        "coordinates": [-157.857222222, 21.304722222],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1960-07-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-06-28--USA",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-06-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1275, 51.507222222],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1960-07-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-07-19--GBR",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-07-19",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bonn",
+        "coordinates": [7.102222222, 50.735277777],
+        "countryCode": "DEU",
+        "region": "Europe"
+      },
+      "endDate": "1960-08-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-07-25--DEU",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Germany",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-07-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [-9.139016, 38.708042],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "1960-08-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-08-22--PRT",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-08-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bern",
+        "coordinates": [7.44743, 46.94798],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "1960-08-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-08-29--CHE",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Switzerland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-08-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "region": "Europe"
+      },
+      "endDate": "1960-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-09-06--DNK",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "region": "Europe"
+      },
+      "endDate": "1960-09-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-09-19--NOR",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "visited by King Bhumibol Adulyadej and Queen Sirikit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1960-09-19",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "region": "Europe"
+      },
+      "endDate": "1960-09-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-09-23--SWE",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-09-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.482777777, 41.893055555],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "1960-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-09-28--ITA",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Italy",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-09-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [12.453, 41.904],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1960-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-10-01--VAT",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-10-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.3525, 50.846666666],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "1960-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-10-04--BEL",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Belgium",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-10-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "1960-10-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-10-11--FRA",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to France",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-10-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Luxembourg",
+        "coordinates": [6.13, 49.611388888],
+        "countryCode": "LUX",
+        "region": "Europe"
+      },
+      "endDate": "1960-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-10-17--LUX",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Luxembourg",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-10-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1960-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-10-24--NLD",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1960-11-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1960-11-03--ESP",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1960-11-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Karachi",
+        "coordinates": [67.01, 24.86],
+        "countryCode": "PAK",
+        "region": "Asia"
+      },
+      "endDate": "1962-03-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1962-03-11--PAK",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Pakistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1962-03-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [101.695277777, 3.147777777],
+        "countryCode": "MYS",
+        "region": "Asia"
+      },
+      "endDate": "1962-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1962-06-20--MYS",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Malaysia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1962-06-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [174.777222222, -41.288888888],
+        "countryCode": "NZL",
+        "region": "Oceania"
+      },
+      "endDate": "1962-08-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1962-08-18--NZL",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to New Zealand",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1962-08-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [149.126944444, -35.293055555],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "1962-09-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1962-08-26--AUS",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Australia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1962-08-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.691666666, 35.689444444],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "1963-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1963-05-27--JPN",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1963-05-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Taipei",
+        "coordinates": [121.5625, 25.0375],
+        "countryCode": "TWN",
+        "region": "Asia"
+      },
+      "endDate": "1963-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1963-06-05--TWN",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Taiwan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1963-06-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [120.977222222, 14.595833333],
+        "countryCode": "PHL",
+        "region": "Asia"
+      },
+      "endDate": "1963-07-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1963-07-09--PHL",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1963-07-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "region": "Europe"
+      },
+      "endDate": "1964-10-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1964-09-12--GRC",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Greece",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1964-09-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "region": "Europe"
+      },
+      "endDate": "1964-12-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1964-09-29--AUT",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Austria",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1964-09-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bonn",
+        "coordinates": [7.102222222, 50.735277777],
+        "countryCode": "DEU",
+        "region": "Europe"
+      },
+      "endDate": "1966-08-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1966-08-22--DEU",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Germany",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1966-08-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "region": "Europe"
+      },
+      "endDate": "1966-10-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1966-09-29--AUT",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Austria",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1966-09-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [51.389722222, 35.688888888],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "1967-04-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1967-04-23--IRN",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1967-04-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington, D.C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1967-06-06--USA",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1967-06-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [-75.695, 45.424722222],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1967-06-21--CAN",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1967-06-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1967-06-27--USA",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-06-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vientiane",
+        "coordinates": [102.63, 17.98],
+        "countryCode": "LAO",
+        "region": "Asia"
+      },
+      "endDate": "1994-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "bhumibol-adulyadej--1994-04-08--LAO",
+      "officialId": "bhumibol-adulyadej",
+      "purpose": "Visit to Laos",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Bhumibol_Adulyadej"
+        }
+      ],
+      "startDate": "1994-04-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [139.6917, 35.6895],
         "countryCode": "JPN",
@@ -8419,7 +9273,7 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-06-14",
+      "endDate": "1990-06-15",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
@@ -8427,8 +9281,12 @@
       "eventName": null,
       "id": "chatchai-chunhawan--1990-06-13--USA",
       "officialId": "chatchai-chunhawan",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Private visit to New York City afterwards",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9162,13 +10020,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-11-21",
+      "endDate": "1993-11-22",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended APEC meeting in Seattle.",
       "id": "chuan-leekpai--1993-11-17--USA",
       "officialId": "chuan-leekpai",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended APEC meeting in Seattle.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9543,19 +10405,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-03-17",
+      "endDate": "1998-03-14",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "chuan-leekpai--1998-03-11--USA",
+      "id": "chuan-leekpai--1998-03-12--USA",
       "officialId": "chuan-leekpai",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-03-11",
+      "startDate": "1998-03-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10096,6 +10962,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-02-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "kriangsak-chamanan--1979-02-04--USA",
+      "officialId": "kriangsak-chamanan",
+      "purpose": "Official visit. Afterwards visited New York City, Palm Springs, Los Angeles, and Honolulu. Departed February 16.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-02-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Doha",
         "coordinates": [51.529444444, 25.286111111],
         "countryCode": "QAT",
@@ -10489,6 +11380,31 @@
       "startDate": "2025-07-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "plaek-phibunsongkhram--1955-05-02--USA",
+      "officialId": "plaek-phibunsongkhram",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-05-02",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11259,16 +12175,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-02-17",
+      "endDate": "2016-02-18",
       "engagements": [
         "Prayut attended the ASEAN–US Commemorative Summit 2016 where he met with Vietnamese Prime Minister Nguyễn Tấn Dũng.",
         "Met President Barack Obama"
       ],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "prayut-chanocha--2016-02-14--USA",
+      "eventName": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "id": "prayut-chanocha--2016-02-16--USA",
       "officialId": "prayut-chanocha",
-      "purpose": "Working visit.",
+      "purpose": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Prayut_Chan-o-cha"
@@ -11278,7 +12198,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-02-14",
+      "startDate": "2016-02-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -11323,17 +12243,21 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Prayut attended the 2016 Nuclear Security Summit."],
-      "eventName": null,
-      "id": "prayut-chanocha--2016-03-29--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "prayut-chanocha--2016-03-31--USA",
       "officialId": "prayut-chanocha",
-      "purpose": "Working visit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Prayut_Chan-o-cha"
         }
       ],
-      "startDate": "2016-03-29",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -11714,16 +12638,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2017-10-04",
+      "endDate": "2017-10-03",
       "engagements": [
         "Invited by President Donald Trump.",
         "Where he met with President Donald Trump."
       ],
       "eventName": null,
-      "id": "prayut-chanocha--2017-10-01--USA",
+      "id": "prayut-chanocha--2017-10-02--USA",
       "officialId": "prayut-chanocha",
-      "purpose": "Working visit.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Prayut_Chan-o-cha"
@@ -11733,7 +12661,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-10-01",
+      "startDate": "2017-10-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12710,15 +13638,19 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-05-15",
+      "endDate": "2022-05-13",
       "engagements": [
         "Prayut attended the ASEAN–US Commemorative Summit 2022 where he met with US Defense Secretary Lloyd Austin."
       ],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "prayut-chanocha--2022-05-11--USA",
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "prayut-chanocha--2022-05-12--USA",
       "officialId": "prayut-chanocha",
-      "purpose": "Working visit.",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Prayut_Chan-o-cha"
@@ -12728,7 +13660,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-11",
+      "startDate": "2022-05-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -12855,6 +13787,56 @@
       "startDate": "2022-12-12",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "prem-tinsulanonda--1981-10-03--USA",
+      "officialId": "prem-tinsulanonda",
+      "purpose": "Private visit. Met with President Reagan October 6.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-10-03",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-04-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "prem-tinsulanonda--1984-04-12--USA",
+      "officialId": "prem-tinsulanonda",
+      "purpose": "Official working visit. Private visit to New York City afterwards.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-04-12",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13589,11 +14571,15 @@
         "Srettha attended the APEC United States 2023 where he met with Japanese Prime Minister Fumio Kishida, Canadian Prime Minister Justin Trudeau, Australian Prime Minister Anthony Alb…",
         "Srettha also made a visit to Stanford University, and Tesla Fremont Factory."
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "id": "srettha-thavisin--2023-11-12--USA",
       "officialId": "srettha-thavisin",
-      "purpose": "Working visit.",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Srettha_Thavisin"
@@ -14399,6 +15385,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-09-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "thaksin-chinnawat--2005-09-19--USA",
+      "officialId": "thaksin-chinnawat",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-09-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kuala Lumpur",
         "coordinates": [101.695277777, 3.147777777],
         "countryCode": "MYS",
@@ -14823,13 +15834,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-12-18",
+      "endDate": "2001-12-15",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "thaksin-shinawatra--2001-12-13--USA",
       "officialId": "thaksin-shinawatra",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15443,19 +16458,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-06-10",
+      "endDate": "2003-06-11",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "thaksin-shinawatra--2003-06-06--USA",
+      "id": "thaksin-shinawatra--2003-06-09--USA",
       "officialId": "thaksin-shinawatra",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-06-06",
+      "startDate": "2003-06-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16966,6 +17985,31 @@
       "startDate": "2006-09-17",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "thanom-kittikachorn--1968-05-08--USA",
+      "officialId": "thanom-kittikachorn",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-05-08",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

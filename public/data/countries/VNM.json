@@ -1461,6 +1461,131 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1951-09-05",
+      "engagements": [],
+      "eventName": "Attended the Japanese Peace Conference in San Francisco.",
+      "id": "ho-chi-minh--1951-09-03--USA",
+      "officialId": "ho-chi-minh",
+      "purpose": "Attended the Japanese Peace Conference in San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1951-09-03",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1957-05-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "ho-chi-minh--1957-05-08--USA",
+      "officialId": "ho-chi-minh",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1957-05-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-02-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "ho-chi-minh--1966-02-06--USA",
+      "officialId": "ho-chi-minh",
+      "purpose": "Official visit. Conferred with President Johnson in Honolulu on military and economic assistance to Vietnam.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-02-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-07-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "ho-chi-minh--1968-07-19--USA",
+      "officialId": "ho-chi-minh",
+      "purpose": "Discussed military developments in Vietnam and political developments in Paris with President Johnson in Honolulu.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-07-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "ho-chi-minh--1969-06-08--USA",
+      "officialId": "ho-chi-minh",
+      "purpose": "Met with President Nixon at Midway Island.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-06-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Vientiane",
         "coordinates": [102.63, 17.98],
         "countryCode": "LAO",
@@ -2081,19 +2206,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-06-25",
+      "endDate": "2007-06-22",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "nguyen-minh-triet--2007-06-19--USA",
+      "id": "nguyen-minh-triet--2007-06-20--USA",
       "officialId": "nguyen-minh-triet",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-06-19",
+      "startDate": "2007-06-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -2192,13 +2321,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2007-11-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2996,6 +3129,131 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-06-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "nguyen-tan-dung--2008-06-22--USA",
+      "officialId": "nguyen-tan-dung",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-06-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-04-13",
+      "engagements": [],
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "nguyen-tan-dung--2010-04-12--USA",
+      "officialId": "nguyen-tan-dung",
+      "purpose": "Attended the Nuclear Security Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2010-04-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-02-18",
+      "engagements": [],
+      "eventName": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "id": "nguyen-tan-dung--2016-02-16--USA",
+      "officialId": "nguyen-tan-dung",
+      "purpose": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2016-02-16",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-05-13",
+      "engagements": [],
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "nguyen-tan-dung--2022-05-12--USA",
+      "officialId": "nguyen-tan-dung",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2022-05-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2017-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "nguyen-xuan-phuc--2017-05-31--USA",
+      "officialId": "nguyen-xuan-phuc",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2017-05-31",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Vientiane",
         "coordinates": [102.63, 17.98],
         "countryCode": "LAO",
@@ -3726,6 +3984,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-06-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "phan-van-khai--2005-06-21--USA",
+      "officialId": "phan-van-khai",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-06-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Vientiane",
         "coordinates": [102.63, 17.98],
         "countryCode": "LAO",
@@ -3813,37 +4096,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New York",
-        "coordinates": [-74.006111111, 40.712777777],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2024-09-25",
-      "engagements": [
-        "Attended the 79th United Nations General Assembly",
-        "Met President Joe Biden"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "to-lam--2024-09-22--USA",
-      "officialId": "to-lam",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_T%C3%B4_L%C3%A2m"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2024-09-22",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Havana",
         "coordinates": [-82.358888888, 23.136666666],
         "countryCode": "CUB",
@@ -3868,6 +4120,41 @@
       "startDate": "2024-09-25",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York",
+        "coordinates": [-74.006111111, 40.712777777],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2024-09-25",
+      "engagements": [
+        "Attended the 79th United Nations General Assembly",
+        "Met President Joe Biden"
+      ],
+      "eventName": "Met with President Biden at the UN General Assembly in New York City.",
+      "id": "to-lam--2024-09-25--USA",
+      "officialId": "to-lam",
+      "purpose": "Met with President Biden at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_T%C3%B4_L%C3%A2m"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2024-09-25",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -4398,7 +4685,9 @@
         "region": "Asia"
       },
       "endDate": "2026-05-08",
-      "engagements": [],
+      "engagements": [
+        "State visit at the invitation of President Anura Kumara Dissanayake."
+      ],
       "eventName": null,
       "id": "to-lam--2026-05-07--LKA",
       "officialId": "to-lam",
@@ -4406,7 +4695,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_T%C3%B4_L%C3%A2m"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
         }
       ],
       "startDate": "2026-05-07",
@@ -4654,6 +4943,31 @@
       "startDate": "2026-10-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-04-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "ton-uc-thang--1973-04-02--USA",
+      "officialId": "ton-uc-thang",
+      "purpose": "Official visit at San Clemente (Calif.), and Washington, D.C.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-04-02",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -5034,13 +5348,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-05-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5438,13 +5756,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2000-09-08",
+      "endDate": "2000-09-06",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "UN Millenium Summit",
+      "eventName": "Met with President Clinton at the UN Millenium Summit in New York City.",
       "id": "tran-uc-luong--2000-09-06--USA",
       "officialId": "tran-uc-luong",
-      "purpose": "Attended UN Millenium Summit",
+      "purpose": "Met with President Clinton at the UN Millenium Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6345,11 +6667,15 @@
       },
       "endDate": "2011-11-13",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "id": "truong-tan-sang--2011-11-10--USA",
       "officialId": "truong-tan-sang",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6524,13 +6850,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-07-26",
+      "endDate": "2013-07-25",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "truong-tan-sang--2013-07-24--USA",
       "officialId": "truong-tan-sang",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6624,7 +6954,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-03-18",
+      "endDate": "2014-03-19",
       "engagements": ["Met Prime Minister Abe Shinzo", "Gave a public address"],
       "eventName": null,
       "id": "truong-tan-sang--2014-03-16--JPN",
@@ -6632,13 +6962,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2014-03-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7160,17 +7494,21 @@
       },
       "endDate": "2023-11-17",
       "engagements": [],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "vo-van-thuong--2023-11-14--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "vo-van-thuong--2023-11-12--USA",
       "officialId": "vo-van-thuong",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-14",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },

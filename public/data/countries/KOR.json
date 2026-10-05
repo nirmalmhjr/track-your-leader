@@ -218,7 +218,7 @@
       "fullName": "Moon Jae-in",
       "id": "moon-jae-in",
       "party": "Democratic Party of Korea",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Moon_Jae_In.jpg?width=160",
       "positions": [
         {
           "categories": ["head_of_state", "head_of_government"],
@@ -1472,7 +1472,7 @@
           "url": "https://en.wikipedia.org/wiki/Kim_Min-seok_(politician)"
         }
       ],
-      "summary": "Kim Min-seok is a South Korean politician, activist and educator who served as the prime minister of South Korea from 2025 to 2026. A member of the Democratic Party of Korea (DPK), he served as the party's leader since 2026, and as member of the National Assembly for Yeongdeungpo District B from 1996 to 2002 and again since 2020.",
+      "summary": "Kim Min-seok is a South Korean politician, activist and educator who has served as the prime minister of South Korea from 2025 to 2026 and as the leader of the Democratic Party of Korea (DPK) since 2026. He has been a member of the National Assembly for Yeongdeungpo District B from 1996 to 2002 and again since 2020.",
       "wikidataId": "Q12587400"
     },
     {
@@ -7125,6 +7125,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1984-09-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "chun-doo-hwan--1984-09-06--JPN",
+      "officialId": "chun-doo-hwan",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1984-09-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [-0.1276, 51.5072],
         "countryCode": "GBR",
@@ -7189,13 +7214,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1998-10-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7824,13 +7853,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-03-11",
+      "endDate": "2001-03-09",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "kim-dae-jung--2001-03-06--USA",
       "officialId": "kim-dae-jung",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Later visited Chicago.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8169,13 +8202,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1994-03-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9899,8 +9936,12 @@
       "eventName": null,
       "id": "lee-myung-bak--2008-04-16--USA",
       "officialId": "lee-myung-bak",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Met with President Bush at Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10074,11 +10115,15 @@
       },
       "endDate": "2008-11-15",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "lee-myung-bak--2008-11-14--USA",
       "officialId": "lee-myung-bak",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10759,19 +10804,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-14",
+      "endDate": "2010-04-13",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "lee-myung-bak--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "lee-myung-bak--2010-04-12--USA",
       "officialId": "lee-myung-bak",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -11318,21 +11367,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-10-15",
+      "endDate": "2011-10-14",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
-      "id": "lee-myung-bak--2011-10-11--USA",
+      "id": "lee-myung-bak--2011-10-12--USA",
       "officialId": "lee-myung-bak",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit. Also visited Lake Orion, Michigan",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-11",
+      "startDate": "2011-10-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11343,19 +11396,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-11-14",
+      "endDate": "2011-11-13",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "lee-myung-bak--2011-11-11--USA",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
+      "id": "lee-myung-bak--2011-11-10--USA",
       "officialId": "lee-myung-bak",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-11",
+      "startDate": "2011-11-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -13269,10 +13326,14 @@
         "Moon was the second foreign leader to visit Biden at the White House."
       ],
       "eventName": "World Political Forum",
-      "id": "moon-jae-in--2021-05-20--USA",
+      "id": "moon-jae-in--2021-05-21--USA",
       "officialId": "moon-jae-in",
-      "purpose": "Working visit.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Moon_Jae-in"
@@ -13282,7 +13343,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-05-20",
+      "startDate": "2021-05-21",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13368,7 +13429,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Moon_Jae-in"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
         },
         {
           "label": "COLT dataset",
@@ -13664,16 +13725,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2013-05-09",
+      "endDate": "2013-05-08",
       "engagements": [
         "During summit talks at the White House, she and U.S.",
         "President Barack Obama adopted a joint declaration for the American-South Korean alliance and discussed ways to further develop the bilateral relations in a future-forward manner."
       ],
       "eventName": null,
-      "id": "park-geun-hye--2013-05-05--USA",
+      "id": "park-geun-hye--2013-05-06--USA",
       "officialId": "park-geun-hye",
-      "purpose": "She traveled to Washington, D.C., New York City, and Los Angeles.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Park_Geun-hye"
@@ -13683,9 +13748,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-05-05",
+      "startDate": "2013-05-06",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13877,18 +13942,22 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "park-geun-hye--2013-11-04--GBR",
+      "id": "park-geun-hye--2013-11-05--GBR",
       "officialId": "park-geun-hye",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-11-04",
+      "startDate": "2013-11-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -14511,16 +14580,20 @@
       "endDate": "2015-10-16",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "park-geun-hye--2015-10-13--USA",
+      "id": "park-geun-hye--2015-10-16--USA",
       "officialId": "park-geun-hye",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-10-13",
+      "startDate": "2015-10-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14658,19 +14731,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-04-02",
+      "endDate": "2016-04-01",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "park-geun-hye--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "park-geun-hye--2016-03-31--USA",
       "officialId": "park-geun-hye",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -14939,13 +15016,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-05-17",
+      "endDate": "2003-05-16",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "roh-moo-hyun--2003-05-12--USA",
       "officialId": "roh-moo-hyun",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Visited New York City May 12 and San Francisco May 15.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14975,13 +15056,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2003-06-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -15267,7 +15352,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2004-12-02",
+      "endDate": "2004-12-03",
       "engagements": ["Met Prime Minister Tony Blair"],
       "eventName": null,
       "id": "roh-moo-hyun--2004-12-01--GBR",
@@ -15275,13 +15360,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2004-12-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -15442,19 +15531,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-06-11",
+      "endDate": "2005-06-10",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "roh-moo-hyun--2005-06-09--USA",
+      "id": "roh-moo-hyun--2005-06-10--USA",
       "officialId": "roh-moo-hyun",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-06-09",
+      "startDate": "2005-06-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16318,13 +16411,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1990-05-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16335,21 +16432,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-06-07",
+      "endDate": "1990-06-06",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "roh-tae-woo--1990-06-03--USA",
+      "id": "roh-tae-woo--1990-06-06--USA",
       "officialId": "roh-tae-woo",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit. Had met with Soviet President Gorbachev in San Francisco, June 4.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-06-03",
+      "startDate": "1990-06-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16416,18 +16517,22 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "roh-tae-woo--1991-06-29--USA",
+      "id": "roh-tae-woo--1991-07-01--USA",
       "officialId": "roh-tae-woo",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-06-29",
+      "startDate": "1991-07-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16851,16 +16956,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-04-29",
+      "endDate": "2023-04-26",
       "engagements": [
         "Yoon met with President Joe Biden.",
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "yoon-suk-yeol--2023-04-24--USA",
+      "id": "yoon-suk-yeol--2023-04-26--USA",
       "officialId": "yoon-suk-yeol",
-      "purpose": "State visit.",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Yoon_Suk_Yeol"
@@ -16870,7 +16979,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-04-24",
+      "startDate": "2023-04-26",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -17070,11 +17179,15 @@
         "Yoon attended the United States–Japan–South Korea trilateral summit with President Joe Biden and Japanese Prime Minister Fumio Kishida.",
         "Met President Joe Biden"
       ],
-      "eventName": "Japan-South Korea-United States Summit",
+      "eventName": "Attended Trilateral Summit at Camp David, MD.",
       "id": "yoon-suk-yeol--2023-08-18--USA",
       "officialId": "yoon-suk-yeol",
-      "purpose": "Working visit.",
+      "purpose": "Attended Trilateral Summit at Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Yoon_Suk_Yeol"
@@ -17457,13 +17570,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2024-07-12",
+      "endDate": "2024-07-11",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "yoon-suk-yeol--2024-07-08--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "yoon-suk-yeol--2024-07-10--USA",
       "officialId": "yoon-suk-yeol",
-      "purpose": "Yoon attended the NATO summit.",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Yoon_Suk_Yeol"
@@ -17473,7 +17590,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-08",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },

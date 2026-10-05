@@ -1826,17 +1826,21 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "Summit of the Americas",
-      "id": "chan-santokhi--2022-06-06--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "chan-santokhi--2022-06-08--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-06",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -4311,6 +4315,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-02-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "ronald-venetiaan--1992-02-03--USA",
+      "officialId": "ronald-venetiaan",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1992-02-03",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brasília",
         "coordinates": [-47.8825, -15.7942],
         "countryCode": "BRA",
@@ -4444,11 +4473,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "ronald-venetiaan--1994-12-09--USA",
       "officialId": "ronald-venetiaan",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

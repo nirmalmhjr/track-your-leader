@@ -2514,6 +2514,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-10-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "akwasi-afrifa--1969-10-20--USA",
+      "officialId": "akwasi-afrifa",
+      "purpose": "Private visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-10-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-akufo-addo--1970-10-24--USA",
+      "officialId": "edward-akufo-addo",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-11-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-akufo-addo--1971-11-03--USA",
+      "officialId": "edward-akufo-addo",
+      "purpose": "Private visit while en route to Mexico.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-11-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Banjul",
         "coordinates": [-16.5775, 13.453055555],
         "countryCode": "GMB",
@@ -3126,13 +3201,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-03-10",
+      "endDate": "1995-03-09",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "jerry-rawlings--1995-03-08--USA",
       "officialId": "jerry-rawlings",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4456,8 +4535,12 @@
       "eventName": null,
       "id": "jerry-rawlings--1999-02-23--USA",
       "officialId": "jerry-rawlings",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4465,7 +4548,7 @@
       ],
       "startDate": "1999-02-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6059,8 +6142,12 @@
       "eventName": null,
       "id": "john-evans-atta-mills--2012-03-07--USA",
       "officialId": "john-evans-atta-mills",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6234,8 +6321,12 @@
       "eventName": "Partnership to Cut Hunger in Africa",
       "id": "john-kufuor--2001-06-27--USA",
       "officialId": "john-kufuor",
-      "purpose": "Attended Partnership to Cut Hunger in Africa",
+      "purpose": "Working visit; attended a forum of the Partnership to Cut Hunger in Africa.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6243,7 +6334,7 @@
       ],
       "startDate": "2001-06-27",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -7032,6 +7123,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-09-24",
+      "engagements": [],
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "john-kufuor--2003-09-24--USA",
+      "officialId": "john-kufuor",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-09-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [139.6917, 35.6895],
         "countryCode": "JPN",
@@ -7341,19 +7457,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-06-12",
+      "endDate": "2004-06-10",
       "engagements": [],
-      "eventName": "G8 Summit",
-      "id": "john-kufuor--2004-06-10--USA",
+      "eventName": "Met with President Bush at the G-8 Economic Summit in Sea Island, Georgia.",
+      "id": "john-kufuor--2004-06-09--USA",
       "officialId": "john-kufuor",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Met with President Bush at the G-8 Economic Summit in Sea Island, Georgia.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-06-10",
+      "startDate": "2004-06-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -7866,21 +7986,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-06-15",
+      "endDate": "2005-06-13",
       "engagements": ["Met President George W. Bush"],
       "eventName": "Botswana-Ghana-Mozambique-Niger-United States Multilateral Meeting",
-      "id": "john-kufuor--2005-06-13--USA",
+      "id": "john-kufuor--2005-06-12--USA",
       "officialId": "john-kufuor",
-      "purpose": "Attended Botswana-Ghana-Mozambique-Niger-United States Multilateral Meeting",
+      "purpose": "Working visit. Discussed African Growth and Opportunity Act.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-06-13",
+      "startDate": "2005-06-12",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8119,16 +8243,20 @@
       "endDate": "2005-10-26",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "john-kufuor--2005-10-23--USA",
+      "id": "john-kufuor--2005-10-26--USA",
       "officialId": "john-kufuor",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-10-23",
+      "startDate": "2005-10-26",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8271,8 +8399,12 @@
       "eventName": null,
       "id": "john-kufuor--2006-04-11--USA",
       "officialId": "john-kufuor",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8769,21 +8901,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2007-03-14",
+      "endDate": "2007-03-15",
       "engagements": ["Met Prime Minister Tony Blair"],
       "eventName": null,
-      "id": "john-kufuor--2007-03-12--GBR",
+      "id": "john-kufuor--2007-03-13--GBR",
       "officialId": "john-kufuor",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-03-12",
+      "startDate": "2007-03-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9749,21 +9885,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-13",
+      "endDate": "2008-09-17",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "john-kufuor--2008-09-11--USA",
+      "id": "john-kufuor--2008-09-14--USA",
       "officialId": "john-kufuor",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-11",
+      "startDate": "2008-09-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10964,19 +11104,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-10",
+      "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "john-mahama--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "john-mahama--2014-08-05--USA",
       "officialId": "john-mahama",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -13375,6 +13519,106 @@
       "startDate": "2025-12-14",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "joseph-arthur-ankrah--1967-10-10--USA",
+      "officialId": "joseph-arthur-ankrah",
+      "purpose": "Private visit. In U.S. October 9–14; visited Tampa, Cape Kennedy, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-10-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-07-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "kwame-nkrumah--1958-07-23--USA",
+      "officialId": "kwame-nkrumah",
+      "purpose": "Official visit. Afterwards visited Hershey, Harrisburg and Philadelphia (Pennyslvania), New York City, and Chicago. Departed U.S. August 2.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-07-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-09-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "kwame-nkrumah--1960-09-22--USA",
+      "officialId": "kwame-nkrumah",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-09-22",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-03-08",
+      "engagements": [],
+      "eventName": "Informal visit while attending a UN meeting.",
+      "id": "kwame-nkrumah--1961-03-08--USA",
+      "officialId": "kwame-nkrumah",
+      "purpose": "Informal visit while attending a UN meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-03-08",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -17055,19 +17299,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-17",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "nana-akufo-addo--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "nana-akufo-addo--2022-12-13--USA",
       "officialId": "nana-akufo-addo",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },

@@ -332,46 +332,6 @@
     },
     {
       "aliases": [
-        "Dahng Síupìhng",
-        "Dang Hei-jin",
-        "Dang Siu-ping",
-        "Deng Syauping",
-        "Deng Xixian",
-        "Teng Hsiao-p'ing",
-        "Thèn Séu-phìn",
-        "Tēng Siáu-pêng"
-      ],
-      "countryCode": "CHN",
-      "fullName": "Deng Xiaoping",
-      "id": "deng-xiaoping",
-      "party": "Chinese Communist Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deng_Xiaoping_and_Jimmy_Carter_at_the_arrival_ceremony_for_the_Vice_Premier_of_China._-_NARA_-_183157-restored(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": ["head_of_government"],
-          "endDate": "1979-02-09",
-          "id": "deng-xiaoping-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1979-01-31",
-          "title": "Paramount Leader"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
-        }
-      ],
-      "summary": "Deng Xiaoping (22 August 1904 – 19 February 1997) was a Chinese statesman, revolutionary, and political theorist who served as the paramount leader of the People's Republic of China (PRC) from 1978 to 1989. Emerging as China's most influential figure after Mao Zedong's death in 1976, Deng consolidated political power and guided the country into an era of reform and opening up that transitioned the nation toward a socialist market economy.",
-      "wikidataId": "Q16977"
-    },
-    {
-      "aliases": [
         "Chairman Hua",
         "Chairman Hua Guofeng",
         "Hua Guo Feng",
@@ -531,6 +491,33 @@
       "wikidataId": "Q4414390"
     },
     {
+      "aliases": [],
+      "countryCode": "CHN",
+      "fullName": "Soong",
+      "id": "soong",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1945-06-14",
+          "id": "soong-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1945-04-26",
+          "title": "Head of government"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Jiabao Wen", "温家宝总理"],
       "countryCode": "CHN",
       "fullName": "Wen Jiabao",
@@ -569,6 +556,37 @@
       ],
       "summary": "Wen Jiabao is a retired Chinese politician and geologist who served as the premier of China from 2003 to 2013 and the third-ranking member of the Politburo Standing Committee of the Chinese Communist Party from 2002 to 2012. Born in Tianjin, Wen joined the Chinese Communist Party in 1965.",
       "wikidataId": "Q16628"
+    },
+    {
+      "aliases": ["Zhao Zi Yang", "Zhaoziyang"],
+      "countryCode": "CHN",
+      "fullName": "Zhao Ziyang",
+      "id": "zhao-ziyang",
+      "party": "Chinese Communist Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bezoek_Chinese_premier_Zhao_Ziyang_%2C_met_premier_Lubbers_tijdens_regeringsdiner%2C_Bestanddeelnr_933-3563_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1984-01-12",
+          "id": "zhao-ziyang-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1984-01-10",
+          "title": "Head of government"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Zhao_Ziyang"
+        }
+      ],
+      "summary": "Zhao Ziyang (17 October 1919 – 17 January 2005) was a Chinese politician. He served as the premier of China from 1980 to 1987, as vice chairman of the Chinese Communist Party (CCP) from 1981 to 1982, and as the general secretary of the Chinese Communist Party from 1987 to 1989.",
+      "wikidataId": "Q99829"
     },
     {
       "aliases": ["Chou En-lai", "Enlai Zhou", "Premier Zhou"],
@@ -742,6 +760,46 @@
       ],
       "summary": "Chen Yun (13 June 1905 – 10 April 1995) was a statesman of the Chinese Communist Party and the People's Republic of China. He was one of the most prominent leaders during the periods when China was governed by Mao Zedong and later by Deng Xiaoping.",
       "wikidataId": "Q557233"
+    },
+    {
+      "aliases": [
+        "Dahng Síupìhng",
+        "Dang Hei-jin",
+        "Dang Siu-ping",
+        "Deng Syauping",
+        "Deng Xixian",
+        "Teng Hsiao-p'ing",
+        "Thèn Séu-phìn",
+        "Tēng Siáu-pêng"
+      ],
+      "countryCode": "CHN",
+      "fullName": "Deng Xiaoping",
+      "id": "deng-xiaoping",
+      "party": "Chinese Communist Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deng_Xiaoping_and_Jimmy_Carter_at_the_arrival_ceremony_for_the_Vice_Premier_of_China._-_NARA_-_183157-restored(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": ["deputy_leader"],
+          "endDate": "1979-02-05",
+          "id": "deng-xiaoping-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1979-01-29",
+          "title": "Deputy Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Deng_Xiaoping"
+        }
+      ],
+      "summary": "Deng Xiaoping (22 August 1904 – 19 February 1997) was a Chinese statesman, revolutionary, and political theorist who served as the paramount leader of the People's Republic of China (PRC) from 1978 to 1989. Emerging as China's most influential figure after Mao Zedong's death in 1976, Deng consolidated political power and guided the country into an era of reform and opening up that transitioned the nation toward a socialist market economy.",
+      "wikidataId": "Q16977"
     },
     {
       "aliases": [],
@@ -3406,46 +3464,21 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1979-02-06",
-      "engagements": ["Met President Jimmy Carter", "Gave a public address"],
+      "endDate": "1979-02-05",
+      "engagements": [],
       "eventName": null,
-      "id": "deng-xiaoping--1979-01-31--USA",
+      "id": "deng-xiaoping--1979-01-29--USA",
       "officialId": "deng-xiaoping",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Carter and attended a State Dinner. Also traveled to Atlanta, Houston, Seattle, and Los Angeles during his visit.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "1979-01-31",
+      "startDate": "1979-01-29",
       "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tokyo",
-        "coordinates": [139.6917, 35.6895],
-        "countryCode": "JPN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1979-02-09",
-      "engagements": ["Met Prime Minister Ohira Masayoshi"],
-      "eventName": null,
-      "id": "deng-xiaoping--1979-02-06--JPN",
-      "officialId": "deng-xiaoping",
-      "purpose": "Visit to Japan",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1979-02-06",
-      "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4421,11 +4454,15 @@
         "Met with President George W.",
         "Met President George W. Bush"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
       "id": "hu-jintao--2005-09-13--USA",
       "officialId": "hu-jintao",
-      "purpose": "Visited the United Nations General Assembly.",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -4535,7 +4572,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2005-11-09",
+      "endDate": "2005-11-10",
       "engagements": [
         "Met with Queen Elizabeth II and Prime Minister Tony Blair.",
         "Met Prime Minister Tony Blair"
@@ -4664,8 +4701,12 @@
       "eventName": null,
       "id": "hu-jintao--2006-04-20--USA",
       "officialId": "hu-jintao",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit. Arrived in Seattle April 18. Visited New Haven April 21.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -5352,7 +5393,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         },
         {
           "label": "COLT dataset",
@@ -5523,7 +5564,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
         },
         {
           "label": "COLT dataset",
@@ -5666,11 +5707,15 @@
       },
       "endDate": "2008-11-15",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "hu-jintao--2008-11-14--USA",
       "officialId": "hu-jintao",
-      "purpose": "Attended the G20 summit.",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -6129,11 +6174,15 @@
         "Met with US President Barack Obama.",
         "Attended the G20 summit."
       ],
-      "eventName": "G20 Summit",
-      "id": "hu-jintao--2009-09-21--USA",
+      "eventName": "Met with President Obama at the UN General Assembly in New York City.",
+      "id": "hu-jintao--2009-09-22--USA",
       "officialId": "hu-jintao",
-      "purpose": "Visited the United Nations General Assembly.",
+      "purpose": "Met with President Obama at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -6143,9 +6192,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-09-21",
+      "startDate": "2009-09-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -6272,13 +6321,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-14",
+      "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "hu-jintao--2010-04-10--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "hu-jintao--2010-04-12--USA",
       "officialId": "hu-jintao",
-      "purpose": "Attended the 1st Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -6288,7 +6341,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-10",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -6564,13 +6617,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2011-01-21",
+      "endDate": "2011-01-20",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "hu-jintao--2011-01-18--USA",
       "officialId": "hu-jintao",
-      "purpose": "State visit.",
+      "purpose": "State Visit. Also visited Chicago, Illinois, Jan. 20–21.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -6738,13 +6795,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2011-11-14",
+      "endDate": "2011-11-13",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "id": "hu-jintao--2011-11-10--USA",
       "officialId": "hu-jintao",
-      "purpose": "Attended the 19th APEC meeting.",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
@@ -7075,6 +7136,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-02-06",
+      "engagements": ["Met President Jimmy Carter", "Gave a public address"],
+      "eventName": null,
+      "id": "hua-guofeng--1979-01-31--USA",
+      "officialId": "hua-guofeng",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1979-01-31",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1979-02-09",
+      "engagements": ["Met Prime Minister Ohira Masayoshi"],
+      "eventName": null,
+      "id": "hua-guofeng--1979-02-06--JPN",
+      "officialId": "hua-guofeng",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1979-02-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Pyongyang",
         "coordinates": [125.7475, 39.016666666],
         "countryCode": "PRK",
@@ -7170,11 +7281,15 @@
       },
       "endDate": "1993-11-21",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "jiang-zemin--1993-11-17--USA",
+      "eventName": "Attended APEC meeting in Seattle.",
+      "id": "jiang-zemin--1993-11-18--USA",
       "officialId": "jiang-zemin",
-      "purpose": "Attended the 5th APEC meeting.",
+      "purpose": "Attended APEC meeting in Seattle.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Jiang_Zemin"
@@ -7184,7 +7299,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1993-11-17",
+      "startDate": "1993-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -7601,13 +7716,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-10-25",
+      "endDate": "1995-10-24",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "jiang-zemin--1995-10-21--USA",
+      "eventName": "Met with President Clinton at the UN General Assembly in New York City.",
+      "id": "jiang-zemin--1995-10-24--USA",
       "officialId": "jiang-zemin",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Clinton at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Jiang_Zemin"
@@ -7617,7 +7736,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-10-21",
+      "startDate": "1995-10-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -8187,13 +8306,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1997-11-03",
+      "endDate": "1997-10-30",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "jiang-zemin--1997-10-26--USA",
+      "id": "jiang-zemin--1997-10-28--USA",
       "officialId": "jiang-zemin",
-      "purpose": "State visit.",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Jiang_Zemin"
@@ -8203,7 +8326,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-10-26",
+      "startDate": "1997-10-28",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -8428,7 +8551,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Jiang_Zemin"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
         },
         {
           "label": "COLT dataset",
@@ -9100,13 +9223,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2000-09-10",
+      "endDate": "2000-09-08",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "UN Millenium Summit",
-      "id": "jiang-zemin--2000-09-04--USA",
+      "eventName": "Met with President Clinton at the UN Millenium Summit in New York City.",
+      "id": "jiang-zemin--2000-09-07--USA",
       "officialId": "jiang-zemin",
-      "purpose": "Attended the United Nations Millennium Summit.",
+      "purpose": "Met with President Clinton at the UN Millenium Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Jiang_Zemin"
@@ -9116,7 +9243,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-09-04",
+      "startDate": "2000-09-07",
       "statusHint": null,
       "type": "summit"
     },
@@ -10080,8 +10207,12 @@
       "eventName": null,
       "id": "jiang-zemin--2002-10-22--USA",
       "officialId": "jiang-zemin",
-      "purpose": "Working visit.",
+      "purpose": "Official Working visit. Met with President Bush at Crawford, Texas. Arrived in the U.S. October 22; also visited Chicago and Houston.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Jiang_Zemin"
@@ -11077,21 +11208,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-09-22",
+      "endDate": "2016-09-19",
       "engagements": [
         "Attended the seventy-first session of the United Nations General Assembly."
       ],
-      "eventName": null,
-      "id": "li-keqiang--2016-09-18--USA",
+      "eventName": "Met with President Obama at the UN General Assembly meeting in New York City.",
+      "id": "li-keqiang--2016-09-19--USA",
       "officialId": "li-keqiang",
-      "purpose": "Official visit.",
+      "purpose": "Met with President Obama at the UN General Assembly meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_premieral_trips_made_by_Li_Keqiang"
         }
       ],
-      "startDate": "2016-09-18",
+      "startDate": "2016-09-19",
       "statusHint": null,
       "type": "conference"
     },
@@ -12479,13 +12614,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-02-01",
+      "endDate": "1992-01-31",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Met with President Bush during a U.N. Security Council Summit in New York City.",
       "id": "li-peng--1992-01-31--USA",
       "officialId": "li-peng",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a U.N. Security Council Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Li_Peng"
@@ -12493,7 +12632,7 @@
       ],
       "startDate": "1992-01-31",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -14703,7 +14842,7 @@
         "region": "Asia"
       },
       "endDate": "2025-10-11",
-      "engagements": [],
+      "engagements": ["Li also met with General Secretary Kim Jong Un."],
       "eventName": null,
       "id": "li-qiang--2025-10-09--PRK",
       "officialId": "li-qiang",
@@ -14716,7 +14855,7 @@
       ],
       "startDate": "2025-10-09",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14852,7 +14991,7 @@
       "eventName": null,
       "id": "li-qiang--2026-11-16--PHL",
       "officialId": "li-qiang",
-      "purpose": "Li is plan to the 29th ASEAN-China Summit and 21th East Asia summit also he representative of President Xi Jinping.",
+      "purpose": "Li is plan to the 29th ASEAN-China Summit and 21th East Asia summit.",
       "sources": [
         {
           "label": "Wikipedia",
@@ -14862,6 +15001,131 @@
       "startDate": "2026-11-16",
       "statusHint": "planned",
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-07-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "li-xiannian--1985-07-22--USA",
+      "officialId": "li-xiannian",
+      "purpose": "State Visit. In U.S. July 21–31; visited Niagara Falls, Chicago, Los Angeles, and Honolulu.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-07-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-02-22",
+      "engagements": [],
+      "eventName": "Bilateral Meeting.",
+      "id": "liu-he--2019-02-22--USA",
+      "officialId": "liu-he",
+      "purpose": "Bilateral Meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2019-02-22",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-04-04",
+      "engagements": [],
+      "eventName": "Bilateral Meeting.",
+      "id": "liu-he--2019-04-04--USA",
+      "officialId": "liu-he",
+      "purpose": "Bilateral Meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2019-04-04",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-10-11",
+      "engagements": [],
+      "eventName": "Bilateral Meeting.",
+      "id": "liu-he--2019-10-11--USA",
+      "officialId": "liu-he",
+      "purpose": "Bilateral Meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2019-10-11",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-06-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "soong--1945-04-26--USA",
+      "officialId": "soong",
+      "purpose": "Led Chinese delegation to the United Nations Conference in San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-04-26",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -14922,21 +15186,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2003-12-10",
+      "endDate": "2003-12-09",
       "engagements": [],
       "eventName": null,
-      "id": "wen-jiabao--2003-12-07--USA",
+      "id": "wen-jiabao--2003-12-09--USA",
       "officialId": "wen-jiabao",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_premieral_trips_made_by_Wen_Jiabao"
         }
       ],
-      "startDate": "2003-12-07",
+      "startDate": "2003-12-09",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -16636,19 +16904,23 @@
       },
       "endDate": "2010-09-23",
       "engagements": [],
-      "eventName": null,
-      "id": "wen-jiabao--2010-09-21--USA",
+      "eventName": "Met with President Obama at the U.N. General Assembly in New York City.",
+      "id": "wen-jiabao--2010-09-23--USA",
       "officialId": "wen-jiabao",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Obama at the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_premieral_trips_made_by_Wen_Jiabao"
         }
       ],
-      "startDate": "2010-09-21",
+      "startDate": "2010-09-23",
       "statusHint": null,
-      "type": "other"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -17822,7 +18094,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2013-06-09",
+      "endDate": "2013-06-08",
       "engagements": [
         "Also met with California Governor Jerry Brown at Indian Wells and Palm Springs.",
         "Met President Barack Obama"
@@ -17830,8 +18102,12 @@
       "eventName": null,
       "id": "xi-jinping--2013-06-07--USA",
       "officialId": "xi-jinping",
-      "purpose": "Met with President Barack Obama at Sunnylands Estate in Rancho Mirage in a 'shirtsleeves summit', although this was not considered a formal…",
+      "purpose": "Met with President Obama at Rancho Mirage, California.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
@@ -17843,7 +18119,7 @@
       ],
       "startDate": "2013-06-07",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18096,7 +18372,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
         },
         {
           "label": "COLT dataset",
@@ -18811,16 +19087,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2015-09-28",
+      "endDate": "2015-09-25",
       "engagements": [
         "Met with President Barack Obama.",
         "This was his first state visit to the United States."
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "xi-jinping--2015-09-22--USA",
+      "id": "xi-jinping--2015-09-24--USA",
       "officialId": "xi-jinping",
-      "purpose": "State visit.",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
@@ -18830,7 +19110,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-22",
+      "startDate": "2015-09-24",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -19199,11 +19479,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "xi-jinping--2016-03-31--USA",
       "officialId": "xi-jinping",
-      "purpose": "Attendance to the 4th Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
@@ -19595,13 +19879,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2017-04-09",
+      "endDate": "2017-04-07",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
       "id": "xi-jinping--2017-04-06--USA",
       "officialId": "xi-jinping",
-      "purpose": "Met with President Donald Trump at Mar-a-Lago, although this was not considered a formal state visit.",
+      "purpose": "Met with President Trump at Mar-a-Lago, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
@@ -19613,7 +19901,7 @@
       ],
       "startDate": "2017-04-06",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20036,7 +20324,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
         },
         {
           "label": "COLT dataset",
@@ -20743,11 +21031,15 @@
       },
       "endDate": "2023-11-17",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "xi-jinping--2023-11-14--USA",
+      "eventName": "Offsite Meeting at Woodside, CA.",
+      "id": "xi-jinping--2023-11-12--USA",
       "officialId": "xi-jinping",
-      "purpose": "Met with President Joe Biden at Filoli Estate in Woodside, although this was not considered a formal state visit.",
+      "purpose": "Offsite Meeting at Woodside, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Xi_Jinping"
@@ -20757,9 +21049,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-14",
+      "startDate": "2023-11-12",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -21224,6 +21516,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [79.8612, 6.9271],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-12-18",
+      "engagements": ["Three-day official visit."],
+      "eventName": null,
+      "id": "xi-jinping--2025-12-16--LKA",
+      "officialId": "xi-jinping",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-12-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [79.8612, 6.9271],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-12-26",
+      "engagements": ["Three-day official visit."],
+      "eventName": null,
+      "id": "xi-jinping--2025-12-23--LKA",
+      "officialId": "xi-jinping",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-12-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Pyongyang",
         "coordinates": [125.7475, 39.016666666],
         "countryCode": "PRK",
@@ -21376,6 +21718,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-01-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "zhao-ziyang--1984-01-10--USA",
+      "officialId": "zhao-ziyang",
+      "purpose": "Official visit. In U.S. January 7–16; visited Honolulu, Williamsburg (Va.), San Francisco, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-01-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [-0.1275, 51.507222222],
         "countryCode": "GBR",
@@ -21453,19 +21820,23 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1999-04-14",
+      "endDate": "1999-04-10",
       "engagements": [],
       "eventName": null,
-      "id": "zhu-rongji--1999-04-06--USA",
+      "id": "zhu-rongji--1999-04-07--USA",
       "officialId": "zhu-rongji",
       "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_premieral_trips_made_by_Zhu_Rongji"
         }
       ],
-      "startDate": "1999-04-06",
+      "startDate": "1999-04-07",
       "statusHint": null,
       "type": "official_visit"
     },

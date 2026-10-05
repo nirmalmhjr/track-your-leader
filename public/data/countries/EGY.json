@@ -1823,7 +1823,7 @@
       "fullName": "Ahmad Ismail Ali",
       "id": "ahmad-ismail-ali",
       "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Field_Marshal_Ahmed_Ismail_Ali.jpg?width=160",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Field_Marshal_Ahmed_Ismail.jpg?width=160",
       "positions": [
         {
           "categories": ["minister"],
@@ -4695,13 +4695,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2014-09-26",
+      "endDate": "2014-09-25",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "abdel-fattah-el-sisi--2014-09-21--USA",
+      "eventName": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "id": "abdel-fattah-el-sisi--2014-09-25--USA",
       "officialId": "abdel-fattah-el-sisi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly Meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
@@ -4711,7 +4715,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-21",
+      "startDate": "2014-09-25",
       "statusHint": null,
       "type": "conference"
     },
@@ -6169,21 +6173,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2017-04-06",
+      "endDate": "2017-04-03",
       "engagements": [],
       "eventName": null,
-      "id": "abdel-fattah-el-sisi--2017-04-01--USA",
+      "id": "abdel-fattah-el-sisi--2017-04-03--USA",
       "officialId": "abdel-fattah-el-sisi",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
         }
       ],
-      "startDate": "2017-04-01",
+      "startDate": "2017-04-03",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7340,13 +7348,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-04-09",
+      "endDate": "2019-04-10",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
       "id": "abdel-fattah-el-sisi--2019-04-08--USA",
       "officialId": "abdel-fattah-el-sisi",
-      "purpose": "Met with President Donald Trump",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
@@ -7358,7 +7370,7 @@
       ],
       "startDate": "2019-04-08",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8783,11 +8795,15 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
       "id": "abdel-fattah-el-sisi--2022-12-13--USA",
       "officialId": "abdel-fattah-el-sisi",
-      "purpose": "Attended the US-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
@@ -10502,6 +10518,31 @@
     {
       "datePrecision": "month",
       "destination": {
+        "city": "Seoul",
+        "coordinates": [126.978, 37.5665],
+        "countryCode": "KOR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdel-fattah-el-sisi--2026-10-01--KOR",
+      "officialId": "abdel-fattah-el-sisi",
+      "purpose": "El Sisi is scheduled to make a state visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
+        }
+      ],
+      "startDate": "2026-10-01",
+      "statusHint": "planned",
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
         "city": "Antalya",
         "coordinates": [30.69556, 36.90812],
         "countryCode": "TUR",
@@ -10770,6 +10811,31 @@
       "startDate": "2014-03-25",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-05-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmed-nazif--2005-05-17--USA",
+      "officialId": "ahmed-nazif",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-05-17",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11414,8 +11480,12 @@
       "eventName": null,
       "id": "anwar-sadat--1975-10-27--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Met with President Gerald Ford.",
+      "purpose": "State visit; also met with President Ford in Jacksonville, Florida on November 2.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11423,7 +11493,7 @@
       ],
       "startDate": "1975-10-27",
       "statusHint": null,
-      "type": "conference"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11585,8 +11655,12 @@
       "eventName": null,
       "id": "anwar-sadat--1977-04-03--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11594,7 +11668,7 @@
       ],
       "startDate": "1977-04-03",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "month",
@@ -11754,8 +11828,12 @@
       "eventName": null,
       "id": "anwar-sadat--1978-02-03--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11763,7 +11841,7 @@
       ],
       "startDate": "1978-02-03",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11827,8 +11905,12 @@
       "eventName": null,
       "id": "anwar-sadat--1978-09-05--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Camp David Accords",
+      "purpose": "Official visit (Camp David summit talks).",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11836,7 +11918,7 @@
       ],
       "startDate": "1978-09-05",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -11851,8 +11933,12 @@
       "eventName": null,
       "id": "anwar-sadat--1979-03-24--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Egypt–Israel peace treaty",
+      "purpose": "Official visit. Signed Egyptian-Israeli Peace Treaty March 26.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11860,7 +11946,7 @@
       ],
       "startDate": "1979-03-24",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11924,8 +12010,12 @@
       "eventName": null,
       "id": "anwar-sadat--1980-04-07--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Met with President Jimmy Carter",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11933,7 +12023,7 @@
       ],
       "startDate": "1980-04-07",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11948,8 +12038,12 @@
       "eventName": null,
       "id": "anwar-sadat--1981-08-04--USA",
       "officialId": "anwar-sadat",
-      "purpose": "Met with President Ronald Reagan",
+      "purpose": "State visit; visited New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Anwar_Sadat"
@@ -11957,7 +12051,7 @@
       ],
       "startDate": "1981-08-04",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12320,28 +12414,32 @@
       "type": "state_visit"
     },
     {
-      "datePrecision": "month",
+      "datePrecision": "day",
       "destination": {
         "city": "New York",
         "coordinates": [-74.006111111, 40.712777777],
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1960-09-30",
+      "endDate": "1960-09-26",
       "engagements": [],
       "eventName": null,
-      "id": "gamal-abdel-nasser--1960-09-01--USA",
+      "id": "gamal-abdel-nasser--1960-09-26--USA",
       "officialId": "gamal-abdel-nasser",
-      "purpose": "UNGA participation",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gamal_Abdel_Nasser"
         }
       ],
-      "startDate": "1960-09-01",
+      "startDate": "1960-09-26",
       "statusHint": null,
-      "type": "other"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -12895,6 +12993,281 @@
       "startDate": "1970-09-01",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-02-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1982-02-02--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-02-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-01-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1983-01-26--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-01-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1983-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1983-04-05--JPN",
+      "officialId": "hosni-mubarak",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1983-04-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1983-09-29--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-09-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-02-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1984-02-11--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-02-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-03-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1985-03-11--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-03-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1985-09-21--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Private Visit. Met with President Reagan September 23. Afterwards visited New York City, September 24–28.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-09-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1986-11-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1986-11-01--SWE",
+      "officialId": "hosni-mubarak",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1986-11-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-01-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1988-01-26--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "State Visit; visited Dallas January 30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-01-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-04-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1989-04-01--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Official Visit. Private visit to New York City afterwards.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-04-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "hosni-mubarak--1989-10-01--USA",
+      "officialId": "hosni-mubarak",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-10-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13878,13 +14251,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1991-07-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -14857,13 +15234,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-04-07",
+      "endDate": "1993-04-06",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "hosni-mubarak--1993-04-03--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14871,7 +15252,7 @@
       ],
       "startDate": "1993-04-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15168,8 +15549,12 @@
       "eventName": null,
       "id": "hosni-mubarak--1993-10-23--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15177,7 +15562,7 @@
       ],
       "startDate": "1993-10-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15851,13 +16236,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1995-03-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -15893,13 +16282,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-04-06",
+      "endDate": "1995-04-05",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "hosni-mubarak--1995-04-01--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16043,19 +16436,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-09-29",
+      "endDate": "1995-09-30",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "hosni-mubarak--1995-09-27--USA",
+      "id": "hosni-mubarak--1995-09-28--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Attended signing of Israeli-Palestinian Interim Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-09-27",
+      "startDate": "1995-09-28",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16349,16 +16746,20 @@
       "endDate": "1996-07-31",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "hosni-mubarak--1996-07-29--USA",
+      "id": "hosni-mubarak--1996-07-28--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-07-29",
+      "startDate": "1996-07-28",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16573,13 +16974,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-03-11",
+      "endDate": "1997-03-13",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "hosni-mubarak--1997-03-08--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17710,8 +18115,12 @@
       "eventName": null,
       "id": "hosni-mubarak--1999-06-26--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18062,8 +18471,12 @@
       "eventName": null,
       "id": "hosni-mubarak--2000-03-24--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18510,13 +18923,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-04-09",
+      "endDate": "2001-04-04",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "hosni-mubarak--2001-03-30--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19045,8 +19462,12 @@
       "eventName": null,
       "id": "hosni-mubarak--2002-03-02--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19095,8 +19516,12 @@
       "eventName": null,
       "id": "hosni-mubarak--2002-06-05--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush in Washington and Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19104,7 +19529,7 @@
       ],
       "startDate": "2002-06-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20096,13 +20521,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-04-14",
+      "endDate": "2004-04-15",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "hosni-mubarak--2004-04-09--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Official select visit. Met with President Bush April 12 at Crawford, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20110,7 +20539,7 @@
       ],
       "startDate": "2004-04-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22942,8 +23371,12 @@
       "eventName": null,
       "id": "hosni-mubarak--2009-08-17--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23471,8 +23904,12 @@
       "eventName": "Middle East Peace Negotiations",
       "id": "hosni-mubarak--2010-09-01--USA",
       "officialId": "hosni-mubarak",
-      "purpose": "Attended Middle East Peace Negotiations",
+      "purpose": "Attended Middle East peace talks.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23480,7 +23917,7 @@
       ],
       "startDate": "2010-09-01",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23682,6 +24119,31 @@
         }
       ],
       "startDate": "2010-12-21",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-08-06",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "ibrahim-mahlab--2014-08-05--USA",
+      "officialId": "ibrahim-mahlab",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -24013,6 +24475,56 @@
         }
       ],
       "startDate": "2013-05-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-12-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "mustafa-khalil--1978-12-01--USA",
+      "officialId": "mustafa-khalil",
+      "purpose": "Private visit to discuss progress of peace negotiations between Egypt and Israel.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-12-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-02-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "mustafa-khalil--1979-02-20--USA",
+      "officialId": "mustafa-khalil",
+      "purpose": "Official visit. Second Camp David Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-02-20",
       "statusHint": null,
       "type": "summit"
     }

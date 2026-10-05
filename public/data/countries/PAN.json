@@ -72,6 +72,33 @@
       "wikidataId": "Q603836"
     },
     {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Chiari",
+      "id": "chiari",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1962-06-14",
+          "id": "chiari-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1962-06-12",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Daniel Chanis Pinzon"],
       "countryCode": "PAN",
       "fullName": "Daniel Chanis Pinzón",
@@ -101,6 +128,37 @@
       ],
       "summary": "Daniel Chanis Pinzón (20 November 1892 – 22 January 1961) was a Panamanian politician and physician. As First Vice President of Domingo Díaz Arosemena, he became President of Panama on July 28, 1949, and served until November 20, 1949, when he was forcibly ousted by police chief José (\"Chichi\") Remón.",
       "wikidataId": "Q338997"
+    },
+    {
+      "aliases": ["Demetrio Basilio Lakas Bahas"],
+      "countryCode": "PAN",
+      "fullName": "Demetrio B. Lakas",
+      "id": "demetrio-basilio-lakas-bahas",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Demetrio_Lakas_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1970-10-25",
+          "id": "demetrio-basilio-lakas-bahas-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1970-10-24",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Demetrio_B._Lakas"
+        }
+      ],
+      "summary": "Demetrio Basilio Lakas Bahas (August 29, 1925 – November 2, 1999) was the 27th President of Panama from December 19, 1969 to October 11, 1978.",
+      "wikidataId": "Q888447"
     },
     {
       "aliases": ["Domingo Diaz Arosemena"],
@@ -212,7 +270,7 @@
           "id": "ernesto-perez-balladares-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "1994-09-09",
+          "startDate": "1994-12-01",
           "title": "President"
         }
       ],
@@ -220,6 +278,10 @@
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
           "label": "Wikipedia",
@@ -447,6 +509,33 @@
       "wikidataId": "Q231946"
     },
     {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "Remon",
+      "id": "remon",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1953-10-01",
+          "id": "remon-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1953-09-28",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Ricardo Arias", "Ricardo Manuel Arias Espinosa"],
       "countryCode": "PAN",
       "fullName": "Ricardo Arias Espinosa",
@@ -476,6 +565,37 @@
       ],
       "summary": "Ricardo Manuel Arias Espinosa (5 April 1912 – 15 March 1993) was the 29th President of Panama.",
       "wikidataId": "Q176091"
+    },
+    {
+      "aliases": ["Ricardo de la Espriella Toral"],
+      "countryCode": "PAN",
+      "fullName": "Ricardo de la Espriella",
+      "id": "ricardo-de-la-espriella",
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/De-la-espriella-crop.jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1982-10-02",
+          "id": "ricardo-de-la-espriella-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1982-09-29",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ricardo_de_la_Espriella"
+        }
+      ],
+      "summary": "Ricardo de la Espriella Toral (born 5 September 1934) is a Panamanian politician who was the President of Panama from 31 July 1982 to 13 February 1984.",
+      "wikidataId": "Q888903"
     },
     {
       "aliases": ["Ricardo Alberto Martinelli Berrocal"],
@@ -1712,58 +1832,135 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "PAN",
+      "fullName": "General Omar Torrijos Herrera",
+      "id": "general-omar-torrijos-herrera",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "1977-10-14",
+          "id": "general-omar-torrijos-herrera-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1977-09-06",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     }
   ],
   "trips": [
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
-        "coordinates": [-47.8825, -15.7942],
-        "countryCode": "BRA",
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-09-10",
+      "endDate": "1979-05-11",
       "engagements": [],
-      "eventName": "Rio Group Summit",
-      "id": "ernesto-perez-balladares--1994-09-09--BRA",
-      "officialId": "ernesto-perez-balladares",
-      "purpose": "Attended Rio Group Summit",
+      "eventName": null,
+      "id": "aristides-royo--1979-05-08--USA",
+      "officialId": "aristides-royo",
+      "purpose": "Private visit. Met with President Carter May 10.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "1994-09-09",
+      "startDate": "1979-05-08",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Managua",
-        "coordinates": [-86.273725, 12.154680555],
-        "countryCode": "NIC",
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1980-03-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "aristides-royo--1980-03-23--JPN",
+      "officialId": "aristides-royo",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1980-03-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-10-12",
+      "endDate": "1962-06-14",
       "engagements": [],
-      "eventName": "Central America Ecological Summit",
-      "id": "ernesto-perez-balladares--1994-10-11--NIC",
-      "officialId": "ernesto-perez-balladares",
-      "purpose": "Attended Central America Ecological Summit",
+      "eventName": null,
+      "id": "chiari--1962-06-12--USA",
+      "officialId": "chiari",
+      "purpose": "Official visit. In U.S. June 11–16, visiting Miami (Florida), Williamsburg (Virginia), and New York City.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "1994-10-11",
+      "startDate": "1962-06-12",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "demetrio-basilio-lakas-bahas--1970-10-24--USA",
+      "officialId": "demetrio-basilio-lakas-bahas",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N; met privately with President Nixon October 25.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -1799,19 +1996,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-12",
+      "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "ernesto-perez-balladares--1994-12-05--USA",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "ernesto-perez-balladares--1994-12-09--USA",
       "officialId": "ernesto-perez-balladares",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-12-05",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -1874,13 +2075,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-09-08",
+      "endDate": "1995-09-07",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "ernesto-perez-balladares--1995-09-05--USA",
       "officialId": "ernesto-perez-balladares",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2799,6 +3004,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "general-omar-torrijos-herrera--1977-09-06--USA",
+      "officialId": "general-omar-torrijos-herrera",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-10-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "general-omar-torrijos-herrera--1977-10-13--USA",
+      "officialId": "general-omar-torrijos-herrera",
+      "purpose": "Discussed ratification of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-10-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "San José",
         "coordinates": [-84.079613888, 9.932738888],
         "countryCode": "CRI",
@@ -2855,13 +3110,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-05-01",
+      "endDate": "1990-05-02",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "guillermo-endara--1990-04-29--USA",
       "officialId": "guillermo-endara",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Private visit to New York City afterwards.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3474,6 +3733,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "guillermo-endara--1993-11-30--USA",
+      "officialId": "guillermo-endara",
+      "purpose": "Attended working brunch with President Clinton.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-11-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tegucigalpa",
         "coordinates": [-87.204705555, 14.105783333],
         "countryCode": "HND",
@@ -3593,6 +3877,56 @@
         }
       ],
       "startDate": "1994-08-18",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [-47.8825, -15.7942],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-09-10",
+      "engagements": [],
+      "eventName": "Rio Group Summit",
+      "id": "guillermo-endara--1994-09-09--BRA",
+      "officialId": "guillermo-endara",
+      "purpose": "Attended Rio Group Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-09-09",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Managua",
+        "coordinates": [-86.273725, 12.154680555],
+        "countryCode": "NIC",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-10-12",
+      "engagements": [],
+      "eventName": "Central America Ecological Summit",
+      "id": "guillermo-endara--1994-10-11--NIC",
+      "officialId": "guillermo-endara",
+      "purpose": "Attended Central America Ecological Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-10-11",
       "statusHint": null,
       "type": "summit"
     },
@@ -5006,19 +5340,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-06-22",
+      "endDate": "2017-06-19",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
-      "id": "juan-carlos-varela--2017-06-18--USA",
+      "id": "juan-carlos-varela--2017-06-19--USA",
       "officialId": "juan-carlos-varela",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-06-18",
+      "startDate": "2017-06-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6643,19 +6981,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-04-29",
+      "endDate": "2005-04-28",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "martin-torrijos--2005-04-27--USA",
+      "id": "martin-torrijos--2005-04-28--USA",
       "officialId": "martin-torrijos",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-04-27",
+      "startDate": "2005-04-28",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7393,19 +7735,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-02-17",
+      "endDate": "2007-02-16",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "martin-torrijos--2007-02-15--USA",
+      "id": "martin-torrijos--2007-02-14--USA",
       "officialId": "martin-torrijos",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-02-15",
+      "startDate": "2007-02-14",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7874,19 +8220,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-05-09",
+      "endDate": "2008-05-08",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "martin-torrijos--2008-05-06--USA",
+      "id": "martin-torrijos--2008-05-05--USA",
       "officialId": "martin-torrijos",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-05-06",
+      "startDate": "2008-05-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8049,21 +8399,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-24",
+      "endDate": "2008-09-17",
       "engagements": ["Met President George W. Bush"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "martin-torrijos--2008-09-17--USA",
+      "id": "martin-torrijos--2008-09-15--USA",
       "officialId": "martin-torrijos",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-17",
+      "startDate": "2008-09-15",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8354,8 +8708,12 @@
       "eventName": null,
       "id": "mireya-moscoso--1999-10-18--USA",
       "officialId": "mireya-moscoso",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9233,19 +9591,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-06-26",
+      "endDate": "2003-06-27",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "mireya-moscoso--2003-06-23--USA",
+      "id": "mireya-moscoso--2003-06-24--USA",
       "officialId": "mireya-moscoso",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-06-23",
+      "startDate": "2003-06-24",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9548,6 +9910,56 @@
       "startDate": "2004-08-17",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1953-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "remon--1953-09-28--USA",
+      "officialId": "remon",
+      "purpose": "Afterwards made an unofficial visit to New York City. Departed U.S. October 7.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1953-09-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-10-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "ricardo-de-la-espriella--1982-09-29--USA",
+      "officialId": "ricardo-de-la-espriella",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-09-29",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10208,19 +10620,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-04-29",
+      "endDate": "2011-04-28",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "ricardo-martinelli--2011-04-26--USA",
+      "id": "ricardo-martinelli--2011-04-28--USA",
       "officialId": "ricardo-martinelli",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-04-26",
+      "startDate": "2011-04-28",
       "statusHint": null,
       "type": "official_visit"
     },

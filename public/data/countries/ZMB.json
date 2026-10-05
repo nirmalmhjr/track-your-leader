@@ -4931,21 +4931,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-02-18",
+      "endDate": "1992-02-19",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "frederick-chiluba--1992-02-16--USA",
+      "id": "frederick-chiluba--1992-02-19--USA",
       "officialId": "frederick-chiluba",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-02-16",
+      "startDate": "1992-02-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7975,11 +7979,15 @@
         "Hichilema attended the US-Africa Summit hosted by President Joe Biden.",
         "At the visit, Hichilema announced that would invest $150m in the Mingomba copper-cobalt mine in Zambia."
       ],
-      "eventName": "United States–Africa Leaders Summit 2022",
-      "id": "hakainde-hichilema--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "hakainde-hichilema--2022-12-13--USA",
       "officialId": "hakainde-hichilema",
-      "purpose": "United States–Africa Leaders Summit 2022",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Hakainde_Hichilema"
@@ -7989,7 +7997,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -9551,6 +9559,231 @@
       "startDate": "2026-09-29",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-04-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1975-04-18--USA",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Private visit. Met with President Ford April 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-04-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1978-05-17--USA",
+      "officialId": "kenneth-kaunda",
+      "purpose": "State visit. In U.S. May 16–23; visited Williamsburg, Atlanta, Houston, and Los Angeles. Private visit to New York City, May 21–23.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1980-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1980-09-17--JPN",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1980-09-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1983-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1983-03-22--GBR",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1983-03-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-04-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1983-03-29--USA",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-03-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1985-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1985-02-12--SWE",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1985-02-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1985-02-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1985-02-14--NOR",
+      "officialId": "kenneth-kaunda",
+      "purpose": "visited by President Kenneth Kaunda and Betty Kaunda",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1985-02-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-10-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1987-10-07--USA",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-10-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-kaunda--1989-06-07--USA",
+      "officialId": "kenneth-kaunda",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-06-07",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

@@ -3985,6 +3985,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "beji-caid-essebsi--2011-10-07--USA",
+      "officialId": "beji-caid-essebsi",
+      "purpose": "Working visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2011-10-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Addis Ababa",
         "coordinates": [38.7525, 9.035833333],
         "countryCode": "ETH",
@@ -4100,16 +4125,20 @@
       "endDate": "2015-05-21",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "beji-caid-essebsi--2015-05-19--USA",
+      "id": "beji-caid-essebsi--2015-05-20--USA",
       "officialId": "beji-caid-essebsi",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-05-19",
+      "startDate": "2015-05-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4233,13 +4262,17 @@
       "purpose": "Visit to Sweden",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-11-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4850,6 +4883,181 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "habib-bourguiba--1961-05-03--USA",
+      "officialId": "habib-bourguiba",
+      "purpose": "State visit. Addressed Congress May 4. Afterwards visited Knoxville (Tennessee), Dallas (Texas), and New York City. Departed U.S. May 13.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-05-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1963-06-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "habib-bourguiba--1963-06-17--NOR",
+      "officialId": "habib-bourguiba",
+      "purpose": "visited by President Habib Bourguiba and Wassila Bourguiba",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1963-06-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-05-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "habib-bourguiba--1968-05-15--USA",
+      "officialId": "habib-bourguiba",
+      "purpose": "State visit. In U.S. May 12–21; visited Williamsburg (private), Houston, San Antonio, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-05-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-04-01",
+      "engagements": [],
+      "eventName": "Attended funeral of former President Eisenhower; met with President Nixon April 1.",
+      "id": "habib-bourguiba--1969-03-31--USA",
+      "officialId": "habib-bourguiba",
+      "purpose": "Attended funeral of former President Eisenhower; met with President Nixon April 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-03-31",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-06-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "habib-bourguiba--1985-06-14--USA",
+      "officialId": "habib-bourguiba",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-06-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "hedi-amara-nouira--1975-05-01--USA",
+      "officialId": "hedi-amara-nouira",
+      "purpose": "Official visit. In U.S. April 29–May 6; visited Williamsburg and Atlanta.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-12-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "hedi-amara-nouira--1978-11-28--USA",
+      "officialId": "hedi-amara-nouira",
+      "purpose": "Official visit. Afterwards visited Dallas, Phoenix, Fresno, and New York City. Departed U.S. December 5.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-11-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Muscat",
         "coordinates": [58.592222222, 23.613888888],
         "countryCode": "OMN",
@@ -5289,11 +5497,15 @@
         "Met with Secretary of State Antony Blinken.",
         "Gave a public address"
       ],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
       "id": "kais-saied--2022-12-13--USA",
       "officialId": "kais-saied",
-      "purpose": "Attended the United States–Africa Leaders Summit 2022.",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kais_Saied"
@@ -5573,6 +5785,56 @@
       "startDate": "2025-09-03",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-04-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "mehdi-jomaa--2014-04-03--USA",
+      "officialId": "mehdi-jomaa",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2014-04-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-04-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohamed-mzali--1982-04-26--USA",
+      "officialId": "mohamed-mzali",
+      "purpose": "Official working visit. In U.S. April 24; visited Princeton. Private visit afterwards to Chicago and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-04-26",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6331,24 +6593,27 @@
       "datePrecision": "day",
       "destination": {
         "city": "Tokyo",
-        "coordinates": [139.6917, 35.6895],
+        "coordinates": [139.691666666, 35.689444444],
         "countryCode": "JPN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-06-03",
+      "endDate": "2013-05-30",
       "engagements": ["Met Prime Minister Abe Shinzo", "Gave a public address"],
       "eventName": "Tokyo International Conference on African Development",
-      "id": "moncef-marzouki--2013-05-31--JPN",
+      "id": "moncef-marzouki--2013-05-30--JPN",
       "officialId": "moncef-marzouki",
       "purpose": "Attended Tokyo International Conference on African Development",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Moncef_Marzouki"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-05-31",
+      "startDate": "2013-05-30",
       "statusHint": null,
       "type": "conference"
     },
@@ -6760,13 +7025,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2014-08-04",
+      "endDate": "2014-08-06",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "moncef-marzouki--2014-08-04--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "moncef-marzouki--2014-08-05--USA",
       "officialId": "moncef-marzouki",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Moncef_Marzouki"
@@ -6776,7 +7045,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-04",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -6892,6 +7161,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-11-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "zine-el-abidine-ben-ali--1989-11-14--USA",
+      "officialId": "zine-el-abidine-ben-ali",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-11-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Cairo",
         "coordinates": [31.2357, 30.0444],
         "countryCode": "EGY",
@@ -6928,8 +7222,12 @@
       "eventName": "United Nations (UN) General Assembly",
       "id": "zine-el-abidine-ben-ali--1990-05-14--USA",
       "officialId": "zine-el-abidine-ben-ali",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6937,7 +7235,7 @@
       ],
       "startDate": "1990-05-14",
       "statusHint": null,
-      "type": "conference"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7236,13 +7534,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1996-07-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7926,8 +8228,12 @@
       "eventName": null,
       "id": "zine-el-abidine-ben-ali--2004-02-15--USA",
       "officialId": "zine-el-abidine-ben-ali",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

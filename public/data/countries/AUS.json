@@ -3615,7 +3615,7 @@
           "url": "https://en.wikipedia.org/wiki/Penny_Wong"
         }
       ],
-      "summary": "Penelope Ying-Yen Wong (born 5 November 1968) is an Australian politician who has been a senator for South Australia since 2002. A member of the Labor Party, she has served as the minister for foreign affairs and the leader of the Government in the Senate since 2022, and served as a minister in the Rudd, Gillard, and second Rudd governments.",
+      "summary": "Penelope Ying-Yen Wong (born 5 November 1968) is an Australian politician who has served as the minister for foreign affairs and the leader of the Government in the Senate in the Albanese government since 2022. A member of the Labor Party, she has been a senator for South Australia since 2002, and served as a minister in the Rudd, Gillard, and second Rudd governments.",
       "wikidataId": "Q456759"
     },
     {
@@ -4661,16 +4661,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-03-14",
+      "endDate": "2023-03-13",
       "engagements": [
         "Albanese also held bilateral meetings with both leaders.",
         "Met President Joe Biden"
       ],
-      "eventName": null,
-      "id": "anthony-albanese--2023-03-11--USA",
+      "eventName": "Attended AUKUS Summit at Point Loma, CA.",
+      "id": "anthony-albanese--2023-03-13--USA",
       "officialId": "anthony-albanese",
-      "purpose": "Albanese visited the United States to reveal Australia's preferred nuclear submarine for AUKUS, alongside President Joe Biden and British p…",
+      "purpose": "Attended AUKUS Summit at Point Loma, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Anthony_Albanese"
@@ -4680,9 +4684,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-03-11",
+      "startDate": "2023-03-13",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -5022,16 +5026,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-10-26",
+      "endDate": "2023-10-25",
       "engagements": [
         "He also met Congressional leaders and visited Arlington National Cemetery.",
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "anthony-albanese--2023-10-23--USA",
+      "id": "anthony-albanese--2023-10-25--USA",
       "officialId": "anthony-albanese",
-      "purpose": "Albanese attended a state dinner hosted by President Joe Biden at the White House.",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Anthony_Albanese"
@@ -5041,7 +5049,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-23",
+      "startDate": "2023-10-25",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5135,11 +5143,15 @@
       },
       "endDate": "2023-11-17",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "anthony-albanese--2023-11-15--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "anthony-albanese--2023-11-12--USA",
       "officialId": "anthony-albanese",
-      "purpose": "Albanese attended the APEC Forum.",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Anthony_Albanese"
@@ -5149,7 +5161,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-15",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -5219,11 +5231,15 @@
       },
       "endDate": "2024-09-21",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "Quad Leaders' Summit",
-      "id": "anthony-albanese--2024-09-20--USA",
+      "eventName": "Attended Quad Leaders' Summit in Claymont, DE.",
+      "id": "anthony-albanese--2024-09-21--USA",
       "officialId": "anthony-albanese",
-      "purpose": "Albanese attended the Quad Leaders meeting.",
+      "purpose": "Attended Quad Leaders' Summit in Claymont, DE.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Anthony_Albanese"
@@ -5233,7 +5249,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-09-20",
+      "startDate": "2024-09-21",
       "statusHint": null,
       "type": "summit"
     },
@@ -6287,6 +6303,156 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1946-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "ben-chifley--1946-05-06--USA",
+      "officialId": "ben-chifley",
+      "purpose": "Guest of U.S. Government on return from Conference of Commonwealth Prime Ministers in London.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1946-05-06",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "bob-hawke--1983-06-11--USA",
+      "officialId": "bob-hawke",
+      "purpose": "Official working visit. Private visit to New York City afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-06-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-02-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "bob-hawke--1985-02-05--USA",
+      "officialId": "bob-hawke",
+      "purpose": "Official Working Visit. Private visit to New York City afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-02-05",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-04-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "bob-hawke--1986-04-15--USA",
+      "officialId": "bob-hawke",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-04-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-06-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "bob-hawke--1988-06-22--USA",
+      "officialId": "bob-hawke",
+      "purpose": "Official Working Visit. Addressed joint meeting of U.S. Congress June 23. Private visit to Texas afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-06-22",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "bob-hawke--1989-06-24--USA",
+      "officialId": "bob-hawke",
+      "purpose": "Official Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-06-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ankara",
         "coordinates": [32.8597, 39.9334],
         "countryCode": "TUR",
@@ -6433,6 +6599,206 @@
       "startDate": "1991-10-13",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-07-30",
+      "engagements": [],
+      "eventName": "Private visit while en route to Commonwealth meeting in Canada.",
+      "id": "gough-whitlam--1973-07-30--USA",
+      "officialId": "gough-whitlam",
+      "purpose": "Private visit while en route to Commonwealth meeting in Canada.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-07-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-10-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "gough-whitlam--1974-10-04--USA",
+      "officialId": "gough-whitlam",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-10-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "gough-whitlam--1975-05-07--USA",
+      "officialId": "gough-whitlam",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "harold-holt--1966-06-28--USA",
+      "officialId": "harold-holt",
+      "purpose": "Informal visit while en route to London. Also visited New York City. Departed U.S. July 6",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-06-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-07-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "harold-holt--1966-07-13--USA",
+      "officialId": "harold-holt",
+      "purpose": "Informal visit during return trip from London.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-07-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "harold-holt--1967-06-01--USA",
+      "officialId": "harold-holt",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-06-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-05-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-gorton--1968-05-26--USA",
+      "officialId": "john-gorton",
+      "purpose": "Official visit. In U.S. May 23–31; visited Honolulu, San Francisco, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-05-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-gorton--1969-05-05--USA",
+      "officialId": "john-gorton",
+      "purpose": "Official visit. In U.S. May 1–8; visited Williamsburg.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-05-05",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6899,19 +7265,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-07-18",
+      "endDate": "1999-07-13",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "john-howard--1999-07-10--USA",
+      "id": "john-howard--1999-07-09--USA",
       "officialId": "john-howard",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-07-10",
+      "startDate": "1999-07-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7352,13 +7722,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-09-14",
+      "endDate": "2001-09-12",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "john-howard--2001-09-08--USA",
       "officialId": "john-howard",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Commemorated the 50th anniversary of the ANZUS Treaty.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7558,19 +7932,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-06-15",
+      "endDate": "2002-06-13",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "International Democratic Union Conference",
-      "id": "john-howard--2002-06-08--USA",
+      "eventName": "Addressed a Joint Session of Congress.",
+      "id": "john-howard--2002-06-11--USA",
       "officialId": "john-howard",
-      "purpose": "Attended International Democratic Union Conference",
+      "purpose": "Addressed a Joint Session of Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-06-08",
+      "startDate": "2002-06-11",
       "statusHint": null,
       "type": "conference"
     },
@@ -7933,19 +8311,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-02-13",
+      "endDate": "2003-02-10",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "john-howard--2003-02-09--USA",
+      "id": "john-howard--2003-02-08--USA",
       "officialId": "john-howard",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-02-09",
+      "startDate": "2003-02-08",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8008,13 +8390,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-05-06",
+      "endDate": "2003-05-03",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "john-howard--2003-05-01--USA",
       "officialId": "john-howard",
-      "purpose": "Visit to United States",
+      "purpose": "Official select visit at Crawford, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8470,19 +8856,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-06-05",
+      "endDate": "2004-06-04",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "john-howard--2004-06-01--USA",
+      "id": "john-howard--2004-06-02--USA",
       "officialId": "john-howard",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-06-01",
+      "startDate": "2004-06-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8910,21 +9300,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-07-20",
+      "endDate": "2005-07-19",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "International Democratic Union Conference",
-      "id": "john-howard--2005-07-15--USA",
+      "id": "john-howard--2005-07-17--USA",
       "officialId": "john-howard",
-      "purpose": "Attended International Democratic Union Conference",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-07-15",
+      "startDate": "2005-07-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9218,8 +9612,12 @@
       "eventName": null,
       "id": "john-howard--2006-05-12--USA",
       "officialId": "john-howard",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9847,21 +10245,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-03-12",
+      "endDate": "2011-03-07",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "julia-gillard--2011-03-06--USA",
+      "id": "julia-gillard--2011-03-07--USA",
       "officialId": "julia-gillard",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Addressed a Joint Meeting of Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-03-06",
+      "startDate": "2011-03-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -10049,17 +10451,21 @@
       },
       "endDate": "2011-11-13",
       "engagements": ["Gave a public address"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "julia-gillard--2011-11-11--USA",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
+      "id": "julia-gillard--2011-11-10--USA",
       "officialId": "julia-gillard",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-11",
+      "startDate": "2011-11-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -10175,19 +10581,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-23",
+      "endDate": "2012-05-21",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "NATO Summit",
-      "id": "julia-gillard--2012-05-19--USA",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "id": "julia-gillard--2012-05-20--USA",
       "officialId": "julia-gillard",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-05-19",
+      "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -10734,19 +11144,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-04-02",
+      "endDate": "2008-04-01",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "kevin-rudd--2008-03-28--USA",
+      "id": "kevin-rudd--2008-03-27--USA",
       "officialId": "kevin-rudd",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-03-28",
+      "startDate": "2008-03-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11102,13 +11516,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-11-17",
+      "endDate": "2008-11-15",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "kevin-rudd--2008-11-14--USA",
       "officialId": "kevin-rudd",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11227,13 +11645,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-03-27",
+      "endDate": "2009-03-24",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
       "id": "kevin-rudd--2009-03-24--USA",
       "officialId": "kevin-rudd",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11405,19 +11827,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-09-27",
+      "endDate": "2009-09-25",
       "engagements": ["Gave a public address"],
-      "eventName": "G20 Summit",
-      "id": "kevin-rudd--2009-09-20--USA",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
+      "id": "kevin-rudd--2009-09-24--USA",
       "officialId": "kevin-rudd",
-      "purpose": "Attended G20 Summit and UN Climate Change Summit and Clinton Global Initiative Forum",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-09-20",
+      "startDate": "2009-09-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -11608,13 +12034,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-12-01",
+      "endDate": "2009-11-30",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "kevin-rudd--2009-11-30--USA",
       "officialId": "kevin-rudd",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11757,6 +12187,156 @@
       "startDate": "2013-07-27",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-07-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "malcolm-fraser--1976-07-27--USA",
+      "officialId": "malcolm-fraser",
+      "purpose": "Official visit. Afterwards made a private visit to New York City and Boston.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-07-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "malcolm-fraser--1977-06-21--USA",
+      "officialId": "malcolm-fraser",
+      "purpose": "Official visit. Private visit to New York City afterwards.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-06-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-01-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "malcolm-fraser--1979-01-01--USA",
+      "officialId": "malcolm-fraser",
+      "purpose": "Private visit. Met with President Carter January 2.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-01-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-01-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "malcolm-fraser--1980-01-31--USA",
+      "officialId": "malcolm-fraser",
+      "purpose": "Private visit while en route to Europe. Met again with President Carter February 7, on return.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-01-31",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-07-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "malcolm-fraser--1981-06-29--USA",
+      "officialId": "malcolm-fraser",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-06-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-05-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "malcolm-fraser--1982-05-16--USA",
+      "officialId": "malcolm-fraser",
+      "purpose": "Private visit. Met with President Reagan May 17",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-05-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12121,8 +12701,12 @@
       "eventName": null,
       "id": "malcolm-turnbull--2016-01-19--USA",
       "officialId": "malcolm-turnbull",
-      "purpose": "Working lunch and bilateral meeting with President Barack Obama at the White House.",
+      "purpose": "Working Lunch.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Malcolm_Turnbull"
@@ -12312,16 +12896,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-09-20",
+      "endDate": "2016-09-19",
       "engagements": [
         "Met with President Barack Obama.",
         "Met President Barack Obama"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Obama at the UN General Assembly meeting in New York City.",
       "id": "malcolm-turnbull--2016-09-19--USA",
       "officialId": "malcolm-turnbull",
-      "purpose": "Attended the general debate of the seventy-first session of the United Nations General Assembly.",
+      "purpose": "Met with President Obama at the UN General Assembly meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Malcolm_Turnbull"
@@ -12539,8 +13127,12 @@
       "eventName": null,
       "id": "malcolm-turnbull--2017-05-04--USA",
       "officialId": "malcolm-turnbull",
-      "purpose": "Met with President Donald Trump aboard the USS Intrepid.",
+      "purpose": "Met with President Trump at the U.S.S. Intrepid Museum in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Malcolm_Turnbull"
@@ -12925,8 +13517,12 @@
       "eventName": null,
       "id": "malcolm-turnbull--2018-02-21--USA",
       "officialId": "malcolm-turnbull",
-      "purpose": "Official working visit.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Malcolm_Turnbull"
@@ -13366,21 +13962,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-09-16",
+      "endDate": "1993-09-15",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "paul-keating--1993-09-13--USA",
+      "id": "paul-keating--1993-09-12--USA",
       "officialId": "paul-keating",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1993-09-13",
+      "startDate": "1993-09-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13521,17 +14121,21 @@
       },
       "endDate": "1993-11-21",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "paul-keating--1993-11-16--USA",
+      "eventName": "Attended APEC meeting in Seattle.",
+      "id": "paul-keating--1993-11-18--USA",
       "officialId": "paul-keating",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended APEC meeting in Seattle.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1993-11-16",
+      "startDate": "1993-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -14078,6 +14682,331 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1950-08-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1950-07-27--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Met with President Truman en route to London.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1950-07-27",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-05-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1952-05-16--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Informal discussions en route to London.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-05-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-12-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1952-12-17--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Met with President-elect Eisenhower in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-12-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1955-03-13--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Official visit. In New York City March 5–9; visited Canada March 9–13. Addressed U.S. Congress March 16. Private visit after March 17.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-03-13",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1956-08-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1956-07-31--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Unofficial visit following Commonwealth Prime Ministers’ Conference in London. In New York City July 21–26.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1956-07-31",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1956-09-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1956-09-14--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Discussed the Suez Crisis with President Eisenhower and senior U.S. officials.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1956-09-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-10-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1960-10-01--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Met with President Eisenhower; discussed East-West disarmament talks.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-10-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-02-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1961-02-24--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Informal visit; discussed Laos crisis with President Kennedy. In U.S. February 22–27.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-02-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-06-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1962-06-17--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Informal visit. In the U.S. June 14–21; visited New York City and San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-06-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-09-26",
+      "engagements": [],
+      "eventName": "Informal visit while attending UN General Assembly.",
+      "id": "robert-menzies--1962-09-24--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Informal visit while attending UN General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-09-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-07-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1963-07-08--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Informal visit. Arrived in U.S. July 2, visited New York City and Charlottesville (Virginia).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-07-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-06-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1965-06-06--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Informal visit. Afterwards visited New York City. Departed U.S. June 13.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-06-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-07-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-menzies--1965-07-06--USA",
+      "officialId": "robert-menzies",
+      "purpose": "Met informally with President Johnson while returning from Commonwealth Prime Ministers’ Conference in London.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-07-06",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [106.826944444, -6.175277777],
         "countryCode": "IDN",
@@ -14576,13 +15505,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2019-09-27",
+      "endDate": "2019-09-22",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "scott-morrison--2019-09-19--USA",
       "officialId": "scott-morrison",
-      "purpose": "Morrison attended a state dinner hosted by President Donald Trump at the White House, opened a Visy paper mill in Ohio alongside Trump and…",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Scott_Morrison"
@@ -14594,7 +15527,7 @@
       ],
       "startDate": "2019-09-19",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14857,7 +15790,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2021-09-27",
+      "endDate": "2021-09-24",
       "engagements": [
         "He then met with British Prime Minister Boris Johnson for dinner at Washington, D.C., and attended the Quad leader's summit.",
         "Met President Joe Biden"
@@ -14865,8 +15798,12 @@
       "eventName": "United Nations (UN) General Assembly",
       "id": "scott-morrison--2021-09-21--USA",
       "officialId": "scott-morrison",
-      "purpose": "Morrison attended the seventy-sixth session of the United Nations General Assembly, and met with President Joe Biden after the assembly.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Scott_Morrison"
@@ -14878,7 +15815,7 @@
       ],
       "startDate": "2021-09-21",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -15408,16 +16345,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2014-06-15",
+      "endDate": "2014-06-12",
       "engagements": [
         "Discussed the Australia–United States alliance, economic ties and international security.",
         "Met President Barack Obama"
       ],
       "eventName": null,
-      "id": "tony-abbott--2014-06-09--USA",
+      "id": "tony-abbott--2014-06-12--USA",
       "officialId": "tony-abbott",
-      "purpose": "Met with senior United States officials and business leaders.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Tony_Abbott"
@@ -15427,9 +16368,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-06-09",
+      "startDate": "2014-06-12",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -15954,6 +16895,31 @@
       "startDate": "2015-09-09",
       "statusHint": null,
       "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-11-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-mcmahon--1971-10-30--USA",
+      "officialId": "william-mcmahon",
+      "purpose": "Informal visit. Met with President Nixon November 2.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-10-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

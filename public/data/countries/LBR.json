@@ -96,33 +96,6 @@
     {
       "aliases": [],
       "countryCode": "LBR",
-      "fullName": "David Kpomakpor",
-      "id": "david-kpomakpor",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "1995-08-05",
-          "id": "david-kpomakpor-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1994-09-11",
-          "title": "Chairman of the Council of State"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "LBR",
       "fullName": "David Nimley",
       "id": "david-nimley",
       "party": null,
@@ -3310,8 +3283,8 @@
       "endDate": "1994-09-12",
       "engagements": ["Signed agreements"],
       "eventName": null,
-      "id": "david-kpomakpor--1994-09-11--GHA",
-      "officialId": "david-kpomakpor",
+      "id": "david-d-kpormakpor--1994-09-11--GHA",
+      "officialId": "david-d-kpormakpor",
       "purpose": "Visit to Ghana",
       "sources": [
         {
@@ -3335,8 +3308,8 @@
       "endDate": "1995-08-05",
       "engagements": ["Gave a public address"],
       "eventName": "Economic Community of West African States (ECOWAS) Summit",
-      "id": "david-kpomakpor--1995-08-03--GHA",
-      "officialId": "david-kpomakpor",
+      "id": "david-d-kpormakpor--1995-08-03--GHA",
+      "officialId": "david-d-kpormakpor",
       "purpose": "Attended Economic Community of West African States (ECOWAS) Summit",
       "sources": [
         {
@@ -3509,11 +3482,15 @@
       },
       "endDate": "2006-03-23",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": null,
+      "eventName": "Addressed Joint Session of Congress March 15.",
       "id": "ellen-johnson-sirleaf--2006-03-15--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Visit to United States",
+      "purpose": "Addressed Joint Session of Congress March 15.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3521,7 +3498,7 @@
       ],
       "startDate": "2006-03-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -3916,8 +3893,12 @@
       "eventName": null,
       "id": "ellen-johnson-sirleaf--2007-02-12--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4369,13 +4350,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-10-26",
+      "endDate": "2007-10-28",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "ellen-johnson-sirleaf--2007-10-17--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5009,18 +4994,22 @@
       "endDate": "2008-10-22",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "ellen-johnson-sirleaf--2008-10-21--USA",
+      "id": "ellen-johnson-sirleaf--2008-10-20--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Also addressed the White House Summit on International Development, October 21.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-10-21",
+      "startDate": "2008-10-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -5687,19 +5676,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-06-02",
+      "endDate": "2010-05-27",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "ellen-johnson-sirleaf--2010-05-14--USA",
+      "id": "ellen-johnson-sirleaf--2010-05-27--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-05-14",
+      "startDate": "2010-05-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8313,16 +8306,20 @@
       "endDate": "2015-02-27",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "ellen-johnson-sirleaf--2015-02-22--USA",
+      "id": "ellen-johnson-sirleaf--2015-02-27--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-02-22",
+      "startDate": "2015-02-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8410,13 +8407,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-04-18",
+      "endDate": "2015-04-15",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
-      "eventName": "African Union (AU) Summit",
+      "eventName": "Attended the Africa Leaders Ebola Meeting.",
       "id": "ellen-johnson-sirleaf--2015-04-15--USA",
       "officialId": "ellen-johnson-sirleaf",
-      "purpose": "Attended African Union (AU) Summit",
+      "purpose": "Attended the Africa Leaders Ebola Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11841,11 +11842,15 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "george-weah--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "george-weah--2022-12-13--USA",
       "officialId": "george-weah",
-      "purpose": "Attended the United States–Africa Leaders Summit.",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_George_Weah"
@@ -11855,7 +11860,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -12186,18 +12191,22 @@
       "endDate": "2004-02-12",
       "engagements": [],
       "eventName": null,
-      "id": "gyude-bryant--2004-02-05--USA",
+      "id": "gyude-bryant--2004-02-09--USA",
       "officialId": "gyude-bryant",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-02-05",
+      "startDate": "2004-02-09",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13586,6 +13595,231 @@
       "startDate": "1997-06-06",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-08-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "samuel-doe--1982-08-16--USA",
+      "officialId": "samuel-doe",
+      "purpose": "Official working visit. Private visit afterwards to Los Angeles.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-08-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-richard-tolbert--1973-06-05--USA",
+      "officialId": "william-richard-tolbert",
+      "purpose": "Private visit. In U.S. June 4–8.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-06-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-richard-tolbert--1974-11-05--USA",
+      "officialId": "william-richard-tolbert",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-11-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-09-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-richard-tolbert--1976-09-21--USA",
+      "officialId": "william-richard-tolbert",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-09-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-10-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-richard-tolbert--1979-09-25--USA",
+      "officialId": "william-richard-tolbert",
+      "purpose": "Private visit. Met with President Carter October 2.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-09-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-tubman--1954-10-18--USA",
+      "officialId": "william-tubman",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-10-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-tubman--1961-10-19--USA",
+      "officialId": "william-tubman",
+      "purpose": "Official visit. In U.S. October 17–24; visited New York City and Rutherford (New Jersey).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-10-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1962-07-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-tubman--1962-07-10--GBR",
+      "officialId": "william-tubman",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1962-07-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-03-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-tubman--1968-03-27--USA",
+      "officialId": "william-tubman",
+      "purpose": "Official visit. In U.S. March 23–April 3; visited New York City, Baltimore, and Cedar Rapids (Ia.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-03-27",
+      "statusHint": null,
+      "type": "official_visit"
     }
   ]
 }

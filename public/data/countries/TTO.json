@@ -1685,18 +1685,22 @@
         "Gave a public address"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "a-n-r-robinson--1990-10-04--USA",
+      "id": "a-n-r-robinson--1990-10-09--USA",
       "officialId": "a-n-r-robinson",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-10-04",
+      "startDate": "1990-10-09",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2325,6 +2329,31 @@
       "startDate": "2001-07-30",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-02-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "eric-williams--1975-02-21--USA",
+      "officialId": "eric-williams",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-02-21",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -5191,8 +5220,12 @@
       "eventName": null,
       "id": "patrick-manning--1992-05-11--USA",
       "officialId": "patrick-manning",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5200,7 +5233,7 @@
       ],
       "startDate": "1992-05-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5386,13 +5419,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-08-31",
+      "endDate": "1993-08-30",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "patrick-manning--1993-08-30--USA",
       "officialId": "patrick-manning",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "purpose": "Attended a CARICOM working luncheon.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5438,11 +5475,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "patrick-manning--1994-12-09--USA",
       "officialId": "patrick-manning",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

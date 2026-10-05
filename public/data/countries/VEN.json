@@ -1,6 +1,33 @@
 {
   "officials": [
     {
+      "aliases": [],
+      "countryCode": "VEN",
+      "fullName": "Betancourt",
+      "id": "betancourt",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1963-02-21",
+          "id": "betancourt-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1963-02-19",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["CAP", "Carlos Andres Perez"],
       "countryCode": "VEN",
       "fullName": "Carlos Andrés Pérez",
@@ -2249,6 +2276,239 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-02-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "betancourt--1963-02-19--USA",
+      "officialId": "betancourt",
+      "purpose": "Official visit. In U.S. February 18–23, visited San Juan (Puerto Rico), New York City, and Miami.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-02-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [-77.0375, -12.06],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "1974-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1974-12-01--PER",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Conmemoración de la Batalla de Ayacucho.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1974-12-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscú",
+        "coordinates": [37.6175, 55.750555555],
+        "countryCode": "RUS",
+        "region": "Europe"
+      },
+      "endDate": "1976-11-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1976-11-24--RUS",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Invitación del gobierno soviético.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1976-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Williamsburg",
+        "coordinates": [-76.7069, 37.2708],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1977-06-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1977-06-28--USA",
+      "officialId": "carlos-andres-perez",
+      "purpose": "State visit. In U.S. June 27–July 2; visited Williamsburg, New York City, Philadelphia, and Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1977-06-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington D. C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1977-09-06--USA",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [-74.08175, 4.60971],
+        "countryCode": "COL",
+        "region": "Americas"
+      },
+      "endDate": "1978-08-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1978-08-06--COL",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Participación en reunión cumbre con los presidentes Alfonso López Michelsen, de Colombia; Daniel Oduber, de Costa Rica, José López Portillo…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1978-08-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Davos",
+        "coordinates": [9.839833333, 46.809055555],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "1989-02-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1989-02-01--CHE",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Cumbre del Foro Económico Mundial.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1989-02-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Atlanta",
+        "coordinates": [-84.389722222, 33.754444444],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1989-04-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1989-03-30--USA",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Met with President Bush during a private visit. Also attended Consultation on a New Hemispheric Agenda in Atlanta.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1989-03-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1989-09-25",
+      "engagements": [],
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "carlos-andres-perez--1989-09-25--USA",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1989-09-25",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tegucigalpa",
         "coordinates": [-87.204705555, 14.105783333],
         "countryCode": "HND",
@@ -2349,27 +2609,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "1990-04-26",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "carlos-andres-perez--1990-04-26--USA",
+      "id": "carlos-andres-perez--1990-04-25--USA",
       "officialId": "carlos-andres-perez",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit. Private visit to New York City afterwards.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-04-26",
+      "startDate": "1990-04-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2455,25 +2722,28 @@
         "city": "Madrid",
         "coordinates": [-3.703333333, 40.416944444],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1990-06-07",
+      "endDate": "1990-06-06",
       "engagements": [
         "Met Prime Minister Felipe Gonzalez",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "carlos-andres-perez--1990-06-05--ESP",
+      "id": "carlos-andres-perez--1990-06-06--ESP",
       "officialId": "carlos-andres-perez",
-      "purpose": "Visit to Spain",
+      "purpose": "​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-06-05",
+      "startDate": "1990-06-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -2555,19 +2825,26 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-10-01",
+      "endDate": "1990-09-30",
       "engagements": ["Signed agreements"],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
       "id": "carlos-andres-perez--1990-09-30--USA",
       "officialId": "carlos-andres-perez",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2708,27 +2985,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Houston",
+        "coordinates": [-95.383055555, 29.762777777],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-05-05",
+      "endDate": "1991-05-03",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "carlos-andres-perez--1991-05-02--USA",
+      "id": "carlos-andres-perez--1991-05-03--USA",
       "officialId": "carlos-andres-perez",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit. Later visited Houston, Tulsa, and Palo Alto (Calif.)",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-05-02",
+      "startDate": "1991-05-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2911,10 +3195,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
-        "coordinates": [-99.1332, 19.4326],
+        "city": "Guadalajara",
+        "coordinates": [-103.342222222, 20.676388888],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "1991-07-19",
@@ -2922,8 +3205,12 @@
       "eventName": "Ibero-American Summit",
       "id": "carlos-andres-perez--1991-07-18--MEX",
       "officialId": "carlos-andres-perez",
-      "purpose": "Attended Ibero-American Summit",
+      "purpose": "I Cumbre Iberoamericana",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2961,19 +3248,26 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-09-25",
+      "endDate": "1991-09-24",
       "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "id": "carlos-andres-perez--1991-09-24--USA",
       "officialId": "carlos-andres-perez",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3086,10 +3380,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
-        "coordinates": [-99.1332, 19.4326],
+        "city": "Ciudad de México",
+        "coordinates": [-99.13589, 19.353773],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "1992-01-16",
@@ -3097,8 +3390,12 @@
       "eventName": null,
       "id": "carlos-andres-perez--1992-01-16--MEX",
       "officialId": "carlos-andres-perez",
-      "purpose": "Visit to Mexico",
+      "purpose": "Acuerdos de Paz de Chapultepec",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3119,11 +3416,15 @@
       },
       "endDate": "1992-01-31",
       "engagements": ["Gave a public address"],
-      "eventName": "UN Security Council Summit",
+      "eventName": "Met with President Bush during a U.N. Security Council Summit in New York City.",
       "id": "carlos-andres-perez--1992-01-31--USA",
       "officialId": "carlos-andres-perez",
-      "purpose": "Attended UN Security Council Summit",
+      "purpose": "Met with President Bush during a U.N. Security Council Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3161,6 +3462,30 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Nueva York",
+        "coordinates": [-74.006111111, 40.712777777],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1992-05-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-andres-perez--1992-05-03--USA",
+      "officialId": "carlos-andres-perez",
+      "purpose": "Cumbre del Consejo de Seguridad de las Naciones Unidas.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Carlos_Andr%C3%A9s_P%C3%A9rez"
+        }
+      ],
+      "startDate": "1992-05-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Berlin",
         "coordinates": [13.405, 52.52],
         "countryCode": "DEU",
@@ -3180,6 +3505,30 @@
         }
       ],
       "startDate": "1992-10-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Países Bajos",
+        "coordinates": [5.55, 52.316666666],
+        "countryCode": "NLD",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "delcy-rodriguez--2026-05-01--NLD",
+      "officialId": "delcy-rodriguez",
+      "purpose": "Audiencias en la Corte Internacional de Justicia sobre la Guayana Esequiba.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_Delcy_Rodr%C3%ADguez"
+        }
+      ],
+      "startDate": "2026-05-01",
       "statusHint": null,
       "type": "other"
     },
@@ -3286,10 +3635,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
-        "coordinates": [-99.1332, 19.4326],
+        "city": "Ciudad de México",
+        "coordinates": [-99.13589, 19.353773],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "1999-05-29",
@@ -3297,8 +3645,12 @@
       "eventName": "Rio Group Summit",
       "id": "hugo-chavez--1999-05-28--MEX",
       "officialId": "hugo-chavez",
-      "purpose": "Attended Rio Group Summit",
+      "purpose": "XXI Cumbre del Grupo de Río",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Hugo_Ch%C3%A1vez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3448,8 +3800,12 @@
       "eventName": "United Nations (UN) General Assembly",
       "id": "hugo-chavez--1999-09-21--USA",
       "officialId": "hugo-chavez",
-      "purpose": "Attended the annual United Nations General Assembly.",
+      "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Hugo_Ch%C3%A1vez"
@@ -3765,6 +4121,65 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1999-10-26",
+      "engagements": [
+        "Met with King Juan Carlos I and Prime Minister José María Aznar.",
+        "During this trip, he defended his political reforms at a press conference."
+      ],
+      "eventName": null,
+      "id": "hugo-chavez--1999-10-23--ESP",
+      "officialId": "hugo-chavez",
+      "purpose": "​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Hugo_Ch%C3%A1vez"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-10-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "París",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "1999-10-26",
+      "engagements": ["Met President Jacques Chirac"],
+      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "id": "hugo-chavez--1999-10-23--FRA",
+      "officialId": "hugo-chavez",
+      "purpose": "​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Hugo_Ch%C3%A1vez"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-10-23",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New Delhi",
         "coordinates": [77.209, 28.6139],
         "countryCode": "IND",
@@ -3786,65 +4201,6 @@
       "startDate": "1999-10-23",
       "statusHint": null,
       "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Madrid",
-        "coordinates": [-3.703333333, 40.416944444],
-        "countryCode": "ESP",
-        "region": "Europe"
-      },
-      "endDate": "1999-10-25",
-      "engagements": [
-        "Met with King Juan Carlos I and Prime Minister José María Aznar.",
-        "During this trip, he defended his political reforms at a press conference."
-      ],
-      "eventName": null,
-      "id": "hugo-chavez--1999-10-24--ESP",
-      "officialId": "hugo-chavez",
-      "purpose": "Two-day official visit following a tour of Asian countries.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Hugo_Ch%C3%A1vez"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1999-10-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Paris",
-        "coordinates": [2.352222222, 48.856666666],
-        "countryCode": "FRA",
-        "region": "Europe"
-      },
-      "endDate": "1999-10-26",
-      "engagements": ["Met President Jacques Chirac"],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "hugo-chavez--1999-10-26--FRA",
-      "officialId": "hugo-chavez",
-      "purpose": "Stopover in Paris on his return journey from Spain to Venezuela after an Asian tour.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Hugo_Ch%C3%A1vez"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1999-10-26",
-      "statusHint": null,
-      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6514,19 +6870,22 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
-        "coordinates": [-99.1332, 19.4326],
+        "city": "Monterrey",
+        "coordinates": [-100.318055555, 25.684444444],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-01-14",
+      "endDate": "2004-01-13",
       "engagements": ["Signed agreements"],
       "eventName": "Summit of the Americas (SOA)",
       "id": "hugo-chavez--2004-01-12--MEX",
       "officialId": "hugo-chavez",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Invitado en la Cumbre Extraordinaria de las Américas de Monterrey",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Hugo_Ch%C3%A1vez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6539,10 +6898,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Havana",
+        "city": "La Habana",
         "coordinates": [-82.358888888, 23.136666666],
         "countryCode": "CUB",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2004-01-14",
@@ -6550,8 +6908,12 @@
       "eventName": null,
       "id": "hugo-chavez--2004-01-14--CUB",
       "officialId": "hugo-chavez",
-      "purpose": "Visit to Cuba",
+      "purpose": "Visita de trabajo",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Hugo_Ch%C3%A1vez"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12497,6 +12859,276 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington D. C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1984-12-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1984-12-03--USA",
+      "officialId": "jaime-lusinchi",
+      "purpose": "State visit. Afterwards visited San Francisco. Departed U.S. December 8.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Jaime_Lusinchi"
+        }
+      ],
+      "startDate": "1984-12-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cancún",
+        "coordinates": [-86.824811111, 21.161416111],
+        "countryCode": "MEX",
+        "region": "Americas"
+      },
+      "endDate": "1986-01-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1986-01-31--MEX",
+      "officialId": "jaime-lusinchi",
+      "purpose": "Discusión sobre precios del petróleo con el presidente Miguel de la Madrid.​​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Jaime_Lusinchi"
+        }
+      ],
+      "startDate": "1986-01-31",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Roma",
+        "coordinates": [12.482777777, 41.893055555],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "1986-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1986-06-08--ITA",
+      "officialId": "jaime-lusinchi",
+      "purpose": "Visita al Instituto Italo - Latino Americano.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Jaime_Lusinchi"
+        }
+      ],
+      "startDate": "1986-06-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1986-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1986-10-05--ESP",
+      "officialId": "jaime-lusinchi",
+      "purpose": "​​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Jaime_Lusinchi"
+        }
+      ],
+      "startDate": "1986-10-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ciudad de México",
+        "coordinates": [-99.13589, 19.353773],
+        "countryCode": "MEX",
+        "region": "Americas"
+      },
+      "endDate": "1987-07-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1987-07-27--MEX",
+      "officialId": "jaime-lusinchi",
+      "purpose": "Instalación del Comité Patrocinador de las Jornadas de Evaluación del Exilio Venezolano en México.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Jaime_Lusinchi"
+        }
+      ],
+      "startDate": "1987-07-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Acapulco",
+        "coordinates": [-99.8901, 16.86336],
+        "countryCode": "MEX",
+        "region": "Americas"
+      },
+      "endDate": "1987-11-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1987-11-27--MEX",
+      "officialId": "jaime-lusinchi",
+      "purpose": "Cumbre conjunta de los Grupos Contadora y Apoyo a Contadora. En la cumbre se concretaría la creación del Grupo de Río.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Jaime_Lusinchi"
+        }
+      ],
+      "startDate": "1987-11-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1988-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-lusinchi--1988-04-05--JPN",
+      "officialId": "jaime-lusinchi",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1988-04-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cancún",
+        "coordinates": [-86.824811111, 21.161416111],
+        "countryCode": "MEX",
+        "region": "Americas"
+      },
+      "endDate": "1981-10-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-herrera-campins--1981-10-22--MEX",
+      "officialId": "luis-herrera-campins",
+      "purpose": "Cumbre Norte-Sur.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Luis_Herrera_Camp%C3%ADns"
+        }
+      ],
+      "startDate": "1981-10-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-11-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-herrera-campins--1981-11-16--USA",
+      "officialId": "luis-herrera-campins",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-11-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [-74.08175, 4.60971],
+        "countryCode": "COL",
+        "region": "Americas"
+      },
+      "endDate": "1983-12-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-herrera-campins--1983-12-18--COL",
+      "officialId": "luis-herrera-campins",
+      "purpose": "Cumbre bolivariana de líderes latinoamericanos.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Luis_Herrera_Camp%C3%ADns"
+        }
+      ],
+      "startDate": "1983-12-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisboa",
+        "coordinates": [-9.139016, 38.708042],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2013-01-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolas-maduro--2013-01-16--PRT",
+      "officialId": "nicolas-maduro",
+      "purpose": "Escala, revisión de acuerdos bilaterales.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_Nicol%C3%A1s_Maduro"
+        }
+      ],
+      "startDate": "2013-01-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Lima",
         "coordinates": [-77.0375, -12.06],
         "countryCode": "PER",
@@ -15457,6 +16089,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2020-02-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolas-maduro--2020-02-05--USA",
+      "officialId": "nicolas-maduro",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2020-02-05",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Mexico City",
         "coordinates": [-99.1332, 19.4326],
         "countryCode": "MEX",
@@ -16175,6 +16832,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington D. C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1970-06-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "rafael-caldera--1970-06-02--USA",
+      "officialId": "rafael-caldera",
+      "purpose": "State visit. Addressed Joint Session of U.S. Congress June 3. Afterwards visited Houston. Departed U.S. June 5.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Rafael_Caldera"
+        }
+      ],
+      "startDate": "1970-06-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bogotá",
         "coordinates": [-74.08175, 4.60971],
         "countryCode": "COL",
@@ -16275,19 +16960,26 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
+        "city": "Miami",
+        "coordinates": [-80.193611111, 25.774166666],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-10",
+      "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "rafael-caldera--1994-12-09--USA",
       "officialId": "rafael-caldera",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Rafael_Caldera"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16350,19 +17042,22 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
-        "coordinates": [12.4964, 41.9028],
+        "city": "Roma",
+        "coordinates": [12.482777777, 41.893055555],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1995-05-09",
+      "endDate": "1995-05-07",
       "engagements": [],
       "eventName": null,
       "id": "rafael-caldera--1995-05-07--ITA",
       "officialId": "rafael-caldera",
-      "purpose": "Visit to Italy",
+      "purpose": "Beatificación de María de San José.​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Rafael_Caldera"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16453,7 +17148,6 @@
         "city": "Bogotá",
         "coordinates": [-74.08175, 4.60971],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "1995-09-06",
@@ -16461,8 +17155,12 @@
       "eventName": null,
       "id": "rafael-caldera--1995-09-06--COL",
       "officialId": "rafael-caldera",
-      "purpose": "Visit to Colombia",
+      "purpose": "Reunión con el presidente Ernesto Samper.​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Rafael_Caldera"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16578,22 +17276,25 @@
         "city": "Madrid",
         "coordinates": [-3.703333333, 40.416944444],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1996-09-27",
+      "endDate": "1996-09-25",
       "engagements": ["Met Prime Minister Jose Maria Aznar"],
       "eventName": null,
-      "id": "rafael-caldera--1996-09-21--ESP",
+      "id": "rafael-caldera--1996-09-25--ESP",
       "officialId": "rafael-caldera",
-      "purpose": "Visit to Spain",
+      "purpose": "​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Rafael_Caldera"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-09-21",
+      "startDate": "1996-09-25",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16781,19 +17482,22 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
-        "coordinates": [2.3522, 48.8566],
+        "city": "París",
+        "coordinates": [2.352222222, 48.856666666],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1998-03-21",
+      "endDate": "1998-03-20",
       "engagements": ["Met President Jacques Chirac"],
       "eventName": null,
       "id": "rafael-caldera--1998-03-20--FRA",
       "officialId": "rafael-caldera",
-      "purpose": "Visit to France",
+      "purpose": "​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Rafael_Caldera"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17027,6 +17731,103 @@
       "startDate": "1993-10-15",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [-74.08175, 4.60971],
+        "countryCode": "COL",
+        "region": "Americas"
+      },
+      "endDate": "1966-08-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "raul-leoni--1966-08-01--COL",
+      "officialId": "raul-leoni",
+      "purpose": "Visita oficial junto con el presidente de Chile Eduardo Frei. Incluye banquete en el Palacio de San Carlos.​​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Ra%C3%BAl_Leoni"
+        }
+      ],
+      "startDate": "1966-08-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Punta del Este",
+        "coordinates": [-54.93811503, -34.955738532],
+        "countryCode": "URY",
+        "region": "Americas"
+      },
+      "endDate": "1967-04-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "raul-leoni--1967-04-12--URY",
+      "officialId": "raul-leoni",
+      "purpose": "Conferencia de Presidentes de los Estados americanos.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Ra%C3%BAl_Leoni"
+        }
+      ],
+      "startDate": "1967-04-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington D. C.",
+        "coordinates": [-77.036666666, 38.895],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "1963-02-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "romulo-betancourt--1963-02-18--USA",
+      "officialId": "romulo-betancourt",
+      "purpose": "Visita oficial.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_R%C3%B3mulo_Betancourt"
+        }
+      ],
+      "startDate": "1963-02-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1948-07-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "romulo-gallegos--1948-07-01--USA",
+      "officialId": "romulo-gallegos",
+      "purpose": "Met with President Truman in Washington and Bolivar (Missouri).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1948-07-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

@@ -196,6 +196,42 @@
       "wikidataId": "Q186525"
     },
     {
+      "aliases": [],
+      "countryCode": "TZA",
+      "fullName": "Nyerere",
+      "id": "nyerere",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1963-07-17",
+          "id": "nyerere-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1963-07-15",
+          "title": "President"
+        },
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1961-07-17",
+          "id": "nyerere-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1961-07-17",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Mama Samia", "Samia Hassan Suluhu"],
       "countryCode": "TZA",
       "fullName": "Samia Suluhu Hassan",
@@ -2104,6 +2140,31 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1989-12-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-hassan-mwinyi--1989-12-17--JPN",
+      "officialId": "ali-hassan-mwinyi",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1989-12-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -4630,21 +4691,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-09-26",
+      "endDate": "1999-09-21",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "benjamin-mkapa--1999-09-12--USA",
+      "id": "benjamin-mkapa--1999-09-21--USA",
       "officialId": "benjamin-mkapa",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-09-12",
+      "startDate": "1999-09-21",
       "statusHint": null,
-      "type": "other"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -7488,13 +7553,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-09-25",
+      "endDate": "2006-09-18",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "jakaya-mrisho-kikwete--2006-09-23--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "jakaya-mrisho-kikwete--2006-09-18--USA",
       "officialId": "jakaya-mrisho-kikwete",
-      "purpose": "Attended the Sixty-first session of the United Nations General Assembly.",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
@@ -7504,7 +7573,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-09-23",
+      "startDate": "2006-09-18",
       "statusHint": null,
       "type": "conference"
     },
@@ -8299,7 +8368,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2008-08-29",
+      "endDate": "2008-08-31",
       "engagements": [
         "Met with President George W.",
         "Bush at the white house."
@@ -8307,8 +8376,12 @@
       "eventName": null,
       "id": "jakaya-mrisho-kikwete--2008-08-26--USA",
       "officialId": "jakaya-mrisho-kikwete",
-      "purpose": "State visit.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
@@ -8320,7 +8393,7 @@
       ],
       "startDate": "2008-08-26",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8381,13 +8454,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-25",
+      "endDate": "2008-09-23",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
       "id": "jakaya-mrisho-kikwete--2008-09-23--USA",
       "officialId": "jakaya-mrisho-kikwete",
-      "purpose": "Attended the Sixty-third session of the United Nations General Assembly.",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
@@ -8645,7 +8722,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2009-05-24",
+      "endDate": "2009-05-21",
       "engagements": [
         "Met with Rodney Bent acting CEO of Millennium Challenge Corporation.",
         "Met President Barack Obama"
@@ -8653,8 +8730,12 @@
       "eventName": null,
       "id": "jakaya-mrisho-kikwete--2009-05-21--USA",
       "officialId": "jakaya-mrisho-kikwete",
-      "purpose": "State visit.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
@@ -8666,7 +8747,7 @@
       ],
       "startDate": "2009-05-21",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10529,11 +10610,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "jakaya-mrisho-kikwete--2014-08-05--USA",
       "officialId": "jakaya-mrisho-kikwete",
-      "purpose": "Attended the first United States–Africa Leaders Summit.",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
@@ -11546,6 +11631,156 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1975-11-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "julius-nyerere--1975-11-18--GBR",
+      "officialId": "julius-nyerere",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1975-11-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1976-04-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "julius-nyerere--1976-04-28--NOR",
+      "officialId": "julius-nyerere",
+      "purpose": "visited by President Julius Nyerere",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1976-04-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-08-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "julius-nyerere--1977-08-03--USA",
+      "officialId": "julius-nyerere",
+      "purpose": "State visit. Afterwards visited Sioux City (Ia.), San Francisco, Los Angeles, Nashville, and Atlanta. Departed U.S. August 10.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-08-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1981-03-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "julius-nyerere--1981-03-17--JPN",
+      "officialId": "julius-nyerere",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1981-03-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-07-17",
+      "engagements": [],
+      "eventName": "Informal visit after attending UN Trusteeship Council meeting.",
+      "id": "nyerere--1961-07-17--USA",
+      "officialId": "nyerere",
+      "purpose": "Informal visit after attending UN Trusteeship Council meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-07-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-07-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "nyerere--1963-07-15--USA",
+      "officialId": "nyerere",
+      "purpose": "Official visit. In U.S. July 14–20, visited Boston and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-07-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kampala",
         "coordinates": [32.581111111, 0.313611111],
         "countryCode": "UGA",
@@ -12379,11 +12614,15 @@
         "Samia Suluhu attended the US-Africa Summit 2022 hosted by US President Joe Biden.",
         "The summit was attended by 40+ African Heads of state."
       ],
-      "eventName": "United States–Africa Leaders Summit 2022",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
       "id": "samia-suluhu-hassan--2022-12-13--USA",
       "officialId": "samia-suluhu-hassan",
-      "purpose": "United States–Africa Leaders Summit 2022",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Samia_Suluhu_Hassan"

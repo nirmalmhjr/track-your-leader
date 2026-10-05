@@ -183,35 +183,8 @@
           "url": "https://en.wikipedia.org/wiki/Mahamat_D%C3%A9by"
         }
       ],
-      "summary": "Mahamat Idriss Déby Itno (born 4 April 1984), also known by the nickname Kaka, is a Chadian politician and military officer who has been the seventh president of Chad since 2024, having previously served in this role in a transitional capacity from 2022 and was also Chad's de facto head of state and president of the Transitional Military Council from 2021 until his appointment as transitional president. Déby also previously served as the second in-command of the military for the Chadian Intervention in Northern Mali (FATIM).",
+      "summary": "Mahamat Idriss Déby Itno (born 4 April 1984), also known by the nickname Kaka, is a Chadian politician and military officer who has led Chad under various titles since 2021. Since 2024, he has served as the seventh president of Chad.",
       "wikidataId": "Q16206405"
-    },
-    {
-      "aliases": [],
-      "countryCode": "TCD",
-      "fullName": "Mahamat Idriss Deby Itno",
-      "id": "mahamat-idriss-deby-itno",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "2021-06-03",
-          "id": "mahamat-idriss-deby-itno-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2021-05-10",
-          "title": "Chairman of the Transitional Military Council"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": ["Abakar Rozzi Teguil", "M. ABAKAR ROZZI TEGUIL"],
@@ -2161,6 +2134,81 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-10-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "francois-tombalbaye--1968-10-02--USA",
+      "officialId": "francois-tombalbaye",
+      "purpose": "Official visit; visited San Antonio, Lubbock, Cape Kennedy, and New York City. Private visit after October 6.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-10-02",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "francois-tombalbaye--1970-10-24--USA",
+      "officialId": "francois-tombalbaye",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "hissene-habre--1987-06-18--USA",
+      "officialId": "hissene-habre",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-06-18",
+      "statusHint": null,
+      "type": "official_visit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -8929,19 +8977,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-07",
+      "endDate": "2014-08-06",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Summit",
-      "id": "idriss-deby--2014-08-03--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "idriss-deby--2014-08-05--USA",
       "officialId": "idriss-deby",
-      "purpose": "Attended United States-Africa Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-03",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -12462,6 +12514,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Niamey",
+        "coordinates": [2.1175, 13.515],
+        "countryCode": "NER",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2021-05-10",
+      "engagements": ["Met President Mohamed Bazoum"],
+      "eventName": "World Climate Change Conference",
+      "id": "mahamat-deby--2021-05-10--NER",
+      "officialId": "mahamat-deby",
+      "purpose": "Attended World Climate Change Conference and Cameroon-Chad-Egypt-Guinea-Mali-Mauritania-Niger-Niue-Senegal",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2021-05-10",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abuja",
+        "coordinates": [7.3986, 9.0765],
+        "countryCode": "NGA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2021-05-14",
+      "engagements": ["Met President Muhammadu Buhari"],
+      "eventName": "World Health Forum",
+      "id": "mahamat-deby--2021-05-14--NGA",
+      "officialId": "mahamat-deby",
+      "purpose": "Attended World Health Forum",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2021-05-14",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abuja",
+        "coordinates": [7.3986, 9.0765],
+        "countryCode": "NGA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2021-05-25",
+      "engagements": ["Met President Muhammadu Buhari"],
+      "eventName": "World Water Forum",
+      "id": "mahamat-deby--2021-05-25--NGA",
+      "officialId": "mahamat-deby",
+      "purpose": "Attended World Water Forum",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2021-05-25",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Luanda",
+        "coordinates": [13.234444444, -8.838333333],
+        "countryCode": "AGO",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2021-06-03",
+      "engagements": ["Met President Joao Lourenco"],
+      "eventName": null,
+      "id": "mahamat-deby--2021-06-02--AGO",
+      "officialId": "mahamat-deby",
+      "purpose": "Visit to Angola",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2021-06-02",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -13075,17 +13227,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "mahamat-deby--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "mahamat-deby--2022-12-13--USA",
       "officialId": "mahamat-deby",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -14219,106 +14375,6 @@
         }
       ],
       "startDate": "2025-11-06",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Niamey",
-        "coordinates": [2.1175, 13.515],
-        "countryCode": "NER",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2021-05-10",
-      "engagements": ["Met President Mohamed Bazoum"],
-      "eventName": "World Climate Change Conference",
-      "id": "mahamat-idriss-deby-itno--2021-05-10--NER",
-      "officialId": "mahamat-idriss-deby-itno",
-      "purpose": "Attended World Climate Change Conference and Cameroon-Chad-Egypt-Guinea-Mali-Mauritania-Niger-Niue-Senegal",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2021-05-10",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Abuja",
-        "coordinates": [7.3986, 9.0765],
-        "countryCode": "NGA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2021-05-14",
-      "engagements": ["Met President Muhammadu Buhari"],
-      "eventName": "World Health Forum",
-      "id": "mahamat-idriss-deby-itno--2021-05-14--NGA",
-      "officialId": "mahamat-idriss-deby-itno",
-      "purpose": "Attended World Health Forum",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2021-05-14",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Abuja",
-        "coordinates": [7.3986, 9.0765],
-        "countryCode": "NGA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2021-05-25",
-      "engagements": ["Met President Muhammadu Buhari"],
-      "eventName": "World Water Forum",
-      "id": "mahamat-idriss-deby-itno--2021-05-25--NGA",
-      "officialId": "mahamat-idriss-deby-itno",
-      "purpose": "Attended World Water Forum",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2021-05-25",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Luanda",
-        "coordinates": [13.234444444, -8.838333333],
-        "countryCode": "AGO",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2021-06-03",
-      "engagements": ["Met President Joao Lourenco"],
-      "eventName": null,
-      "id": "mahamat-idriss-deby-itno--2021-06-02--AGO",
-      "officialId": "mahamat-idriss-deby-itno",
-      "purpose": "Visit to Angola",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2021-06-02",
       "statusHint": null,
       "type": "official_visit"
     }

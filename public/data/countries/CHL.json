@@ -4733,6 +4733,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "augusto-pinochet--1977-09-06--USA",
+      "officialId": "augusto-pinochet",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1965-07-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "eduardo-frei-montalva--1965-07-13--GBR",
+      "officialId": "eduardo-frei-montalva",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1965-07-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bogotá",
         "coordinates": [-74.08175, 4.60971],
         "countryCode": "COL",
@@ -4767,16 +4817,20 @@
       "endDate": "1994-06-28",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "eduardo-frei-ruiz-tagle--1994-06-26--USA",
+      "id": "eduardo-frei-ruiz-tagle--1994-06-27--USA",
       "officialId": "eduardo-frei-ruiz-tagle",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-06-26",
+      "startDate": "1994-06-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5019,11 +5073,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "eduardo-frei-ruiz-tagle--1994-12-09--USA",
       "officialId": "eduardo-frei-ruiz-tagle",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5656,8 +5714,12 @@
       "eventName": null,
       "id": "eduardo-frei-ruiz-tagle--1997-02-25--USA",
       "officialId": "eduardo-frei-ruiz-tagle",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit. Addressed a joint session of Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5665,7 +5727,7 @@
       ],
       "startDate": "1997-02-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6400,19 +6462,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-06-11",
+      "endDate": "2022-06-10",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas",
-      "id": "gabriel-boric--2022-06-07--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "gabriel-boric--2022-06-08--USA",
       "officialId": "gabriel-boric",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-07",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -6758,11 +6824,15 @@
       },
       "endDate": "2023-11-03",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "Americas Partnership for Economic Prosperity (APEP) Summit",
+      "eventName": "Attended the APEP Leaders' Summit.",
       "id": "gabriel-boric--2023-11-02--USA",
       "officialId": "gabriel-boric",
-      "purpose": "Attended Americas Partnership for Economic Prosperity (APEP) Summit",
+      "purpose": "Met with President Biden for a bilateral meeting alongside the Americas Partnership for Economic Prosperity Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6781,19 +6851,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-11-16",
+      "endDate": "2023-11-17",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "gabriel-boric--2023-11-15--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "gabriel-boric--2023-11-12--USA",
       "officialId": "gabriel-boric",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-15",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -7480,6 +7554,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1950-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "gabriel-gonzales-videla--1950-04-12--USA",
+      "officialId": "gabriel-gonzales-videla",
+      "purpose": "At invitation of the President.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1950-04-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-12-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "jorge-alessandri--1962-12-11--USA",
+      "officialId": "jorge-alessandri",
+      "purpose": "Presidential guest. In U.S. December 10–17, visiting Miami (Florida), Philadelphia (Pennsylvania), and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-12-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-10-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "juan-antonio-rios--1945-10-11--USA",
+      "officialId": "juan-antonio-rios",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-10-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Buenos Aires",
         "coordinates": [-58.381944444, -34.599722222],
         "countryCode": "ARG",
@@ -7714,8 +7863,12 @@
       "eventName": null,
       "id": "michelle-bachelet--2006-06-08--USA",
       "officialId": "michelle-bachelet",
-      "purpose": "Official working visit.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
@@ -8804,13 +8957,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2008-09-25",
+      "endDate": "2008-09-24",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "michelle-bachelet--2008-09-23--USA",
+      "id": "michelle-bachelet--2008-09-24--USA",
       "officialId": "michelle-bachelet",
-      "purpose": "Participated in the 63rd UN General Assembly and met with UNASUR presidents.",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
@@ -8820,9 +8977,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-23",
+      "startDate": "2008-09-24",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9203,10 +9360,14 @@
       "endDate": "2009-06-23",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "michelle-bachelet--2009-06-22--USA",
+      "id": "michelle-bachelet--2009-06-23--USA",
       "officialId": "michelle-bachelet",
-      "purpose": "Met with President Barack Obama.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
@@ -9216,9 +9377,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-06-22",
+      "startDate": "2009-06-23",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9747,10 +9908,14 @@
         "Scheduled to meet with President Barack Obama at the White House on 30 June."
       ],
       "eventName": null,
-      "id": "michelle-bachelet--2014-06-29--USA",
+      "id": "michelle-bachelet--2014-06-30--USA",
       "officialId": "michelle-bachelet",
       "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
@@ -9760,7 +9925,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-06-29",
+      "startDate": "2014-06-30",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9952,13 +10117,17 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2014-10-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10484,13 +10653,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-03-30",
+      "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "michelle-bachelet--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "michelle-bachelet--2016-03-31--USA",
       "officialId": "michelle-bachelet",
-      "purpose": "Attended the 2016 Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
@@ -10500,7 +10673,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -10524,7 +10697,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         },
         {
           "label": "COLT dataset",
@@ -11492,24 +11665,28 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-10-03",
+      "endDate": "1990-10-02",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "patricio-aylwin--1990-09-28--USA",
+      "id": "patricio-aylwin--1990-10-02--USA",
       "officialId": "patricio-aylwin",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-09-28",
+      "startDate": "1990-10-02",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -11896,8 +12073,12 @@
       "eventName": null,
       "id": "patricio-aylwin--1992-05-12--USA",
       "officialId": "patricio-aylwin",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11905,7 +12086,7 @@
       ],
       "startDate": "1992-05-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12786,8 +12967,12 @@
       "eventName": null,
       "id": "ricardo-lagos--2001-04-15--USA",
       "officialId": "ricardo-lagos",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14363,8 +14548,12 @@
       "eventName": null,
       "id": "ricardo-lagos--2004-07-18--USA",
       "officialId": "ricardo-lagos",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15271,11 +15460,15 @@
         "Held his first bilateral meeting with President Barack Obama.",
         "Met President Barack Obama"
       ],
-      "eventName": "Nuclear Security Summit",
-      "id": "sebastian-pinera--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "sebastian-pinera--2010-04-12--USA",
       "officialId": "sebastian-pinera",
-      "purpose": "Attended the 2010 Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sebasti%C3%A1n_Pi%C3%B1era"
@@ -15285,7 +15478,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -15959,11 +16152,15 @@
         "Signed the Chile–Vietnam Free Trade Agreement with President Trương Tấn Sang.",
         "Met President Barack Obama"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "id": "sebastian-pinera--2011-11-10--USA",
       "officialId": "sebastian-pinera",
-      "purpose": "Participated in the 2011 APEC Summit.",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sebasti%C3%A1n_Pi%C3%B1era"
@@ -16531,6 +16728,10 @@
       "purpose": "Working visit.",
       "sources": [
         {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sebasti%C3%A1n_Pi%C3%B1era"
         },
@@ -16991,10 +17192,14 @@
         "Met President Donald Trump"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "sebastian-pinera--2018-09-25--USA",
+      "id": "sebastian-pinera--2018-09-28--USA",
       "officialId": "sebastian-pinera",
-      "purpose": "Participed in the 73rd UN General Assembly.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sebasti%C3%A1n_Pi%C3%B1era"
@@ -17004,9 +17209,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-25",
+      "startDate": "2018-09-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

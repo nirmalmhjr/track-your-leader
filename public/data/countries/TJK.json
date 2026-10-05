@@ -2539,21 +2539,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-04-26",
+      "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": null,
-      "id": "emomali-rahmon--1999-04-18--USA",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "emomali-rahmon--1999-04-23--USA",
       "officialId": "emomali-rahmon",
-      "purpose": "Visit to United States",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-04-18",
+      "startDate": "1999-04-23",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -3632,13 +3636,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-12-11",
+      "endDate": "2002-12-10",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "emomali-rahmon--2002-12-08--USA",
       "officialId": "emomali-rahmon",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10248,19 +10256,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-09-20",
+      "endDate": "2023-09-21",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly'C5+1 Summit",
-      "id": "emomali-rahmon--2023-09-19--USA",
+      "id": "emomali-rahmon--2023-09-21--USA",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended United Nations (UN) General Assembly'C5+1 Summit",
+      "purpose": "Participated in C5+1 Presidential Summit Meeting with President Biden at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-19",
+      "startDate": "2023-09-21",
       "statusHint": null,
       "type": "summit"
     },

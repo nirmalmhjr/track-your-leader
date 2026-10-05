@@ -3095,13 +3095,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-04-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4243,13 +4247,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2024-09-26",
+      "endDate": "2024-09-23",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
       "id": "mohammed-bin-zayed-al-nahyan--2024-09-23--USA",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Met with President Joe Biden and Vice President and presidential candidate Kamala Harris, the visit was the first state visit of a sitting…",
+      "purpose": "Offical Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
@@ -5471,6 +5479,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1989-07-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "zayed-bin-sultan-al-nahyan--1989-07-18--GBR",
+      "officialId": "zayed-bin-sultan-al-nahyan",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1989-07-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Cairo",
         "coordinates": [31.2357, 30.0444],
         "countryCode": "EGY",
@@ -5530,7 +5563,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1990-05-16",
+      "endDate": "1990-05-19",
       "engagements": ["Met Prime Minister Kaifu Toshiki"],
       "eventName": null,
       "id": "zayed-bin-sultan-al-nahyan--1990-05-13--JPN",
@@ -5538,13 +5571,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1990-05-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

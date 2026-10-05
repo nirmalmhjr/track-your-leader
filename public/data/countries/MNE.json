@@ -105,42 +105,6 @@
     {
       "aliases": [],
       "countryCode": "MNE",
-      "fullName": "Milo Djukanovic",
-      "id": "milo-djukanovic",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "2023-02-28",
-          "id": "milo-djukanovic-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2018-06-04",
-          "title": "President"
-        },
-        {
-          "categories": ["head_of_government"],
-          "endDate": "2016-09-22",
-          "id": "milo-djukanovic-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2006-05-28",
-          "title": "Prime Minister"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "MNE",
       "fullName": "Milo Đukanović",
       "id": "milo-ukanovic",
       "party": "Democratic Party of Socialists of Montenegro",
@@ -2693,13 +2657,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": ["Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "igor-luksic--2012-05-20--USA",
       "officialId": "igor-luksic",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5260,8 +5228,8 @@
       "endDate": "2006-05-29",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2006-05-28--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2006-05-28--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -5285,8 +5253,8 @@
       "endDate": "2006-07-10",
       "engagements": [],
       "eventName": "Croatia Summit",
-      "id": "milo-djukanovic--2006-07-09--HRV",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2006-07-09--HRV",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Croatia Summit",
       "sources": [
         {
@@ -5310,8 +5278,8 @@
       "endDate": "2006-08-28",
       "engagements": ["Met President Vladimir Putin"],
       "eventName": null,
-      "id": "milo-djukanovic--2006-08-28--RUS",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2006-08-28--RUS",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Russia",
       "sources": [
         {
@@ -5335,8 +5303,8 @@
       "endDate": "2006-09-01",
       "engagements": ["Met President Tarja Halonen", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2006-09-01--FIN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2006-09-01--FIN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Finland",
       "sources": [
         {
@@ -5360,8 +5328,8 @@
       "endDate": "2006-09-20",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "milo-djukanovic--2006-09-20--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2006-09-20--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -5385,8 +5353,8 @@
       "endDate": "2006-09-27",
       "engagements": ["Met Prime Minister Sali Berisha"],
       "eventName": null,
-      "id": "milo-djukanovic--2006-09-27--ALB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2006-09-27--ALB",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Albania",
       "sources": [
         {
@@ -5410,8 +5378,8 @@
       "endDate": "2008-04-01",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2008-04-01--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-04-01--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -5435,8 +5403,8 @@
       "endDate": "2008-05-20",
       "engagements": ["Met Prime Minister Ferenc Gyurcsany"],
       "eventName": null,
-      "id": "milo-djukanovic--2008-05-20--HUN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-05-20--HUN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Hungary",
       "sources": [
         {
@@ -5460,8 +5428,8 @@
       "endDate": "2008-07-13",
       "engagements": ["Signed agreements"],
       "eventName": "Paris Summit for the Mediterranean",
-      "id": "milo-djukanovic--2008-07-13--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-07-13--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Paris Summit for the Mediterranean",
       "sources": [
         {
@@ -5485,8 +5453,8 @@
       "endDate": "2008-07-17",
       "engagements": ["Met Prime Minister Silvio Berlusconi"],
       "eventName": null,
-      "id": "milo-djukanovic--2008-07-16--ITA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-07-16--ITA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Italy",
       "sources": [
         {
@@ -5510,8 +5478,8 @@
       "endDate": "2008-09-27",
       "engagements": ["Met Premier Wen Jiabao"],
       "eventName": "World Economic Forum (WEF)",
-      "id": "milo-djukanovic--2008-09-27--CHN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-09-27--CHN",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended World Economic Forum (WEF)",
       "sources": [
         {
@@ -5535,8 +5503,8 @@
       "endDate": "2008-11-05",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2008-11-05--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-11-05--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -5560,8 +5528,8 @@
       "endDate": "2008-12-01",
       "engagements": ["Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2008-12-01--BIH",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-12-01--BIH",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Bosnia and Herzegovina",
       "sources": [
         {
@@ -5585,8 +5553,8 @@
       "endDate": "2008-12-15",
       "engagements": ["Met President Nicolas Sarkozy", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2008-12-15--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2008-12-15--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -5610,8 +5578,8 @@
       "endDate": "2009-02-17",
       "engagements": ["Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2009-02-16--QAT",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-02-16--QAT",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Qatar",
       "sources": [
         {
@@ -5635,8 +5603,8 @@
       "endDate": "2009-03-09",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2009-03-09--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-03-09--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -5660,8 +5628,8 @@
       "endDate": "2009-05-07",
       "engagements": ["Met Prime Minister Lee Hsien Loong"],
       "eventName": null,
-      "id": "milo-djukanovic--2009-05-05--SGP",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-05-05--SGP",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Singapore",
       "sources": [
         {
@@ -5685,8 +5653,8 @@
       "endDate": "2009-07-23",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2009-07-23--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-07-23--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -5710,8 +5678,8 @@
       "endDate": "2009-09-23",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "UN Climate Change Conference",
-      "id": "milo-djukanovic--2009-09-22--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-09-22--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended UN Climate Change Conference",
       "sources": [
         {
@@ -5735,8 +5703,8 @@
       "endDate": "2009-09-26",
       "engagements": [],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "milo-djukanovic--2009-09-26--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-09-26--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -5760,8 +5728,8 @@
       "endDate": "2009-12-14",
       "engagements": ["Met Pope Benedict XVI"],
       "eventName": null,
-      "id": "milo-djukanovic--2009-12-14--VAT",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-12-14--VAT",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -5785,8 +5753,8 @@
       "endDate": "2009-12-17",
       "engagements": ["Gave a public address"],
       "eventName": "UN Climate Change Conference",
-      "id": "milo-djukanovic--2009-12-17--DNK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2009-12-17--DNK",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended UN Climate Change Conference",
       "sources": [
         {
@@ -5810,8 +5778,8 @@
       "endDate": "2010-01-18",
       "engagements": ["Met Prime Minister Robert Fico"],
       "eventName": null,
-      "id": "milo-djukanovic--2010-01-18--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-01-18--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Slovakia",
       "sources": [
         {
@@ -5835,8 +5803,8 @@
       "endDate": "2010-01-22",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2010-01-19--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-01-19--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to United States",
       "sources": [
         {
@@ -5863,8 +5831,8 @@
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2010-02-06--ITA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-02-06--ITA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Italy",
       "sources": [
         {
@@ -5888,8 +5856,8 @@
       "endDate": "2010-03-21",
       "engagements": [],
       "eventName": "Albania-Bosnia and Herzegovina-Croatia-Kosovo-Montenegro-North Macedonia-Slovenia Multilateral Meeting",
-      "id": "milo-djukanovic--2010-03-20--SVN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-03-20--SVN",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Albania-Bosnia and Herzegovina-Croatia-Kosovo-Montenegro-North Macedonia-Slovenia Multilateral Meeting",
       "sources": [
         {
@@ -5913,8 +5881,8 @@
       "endDate": "2010-06-10",
       "engagements": ["Met Prime Minister Yves Leterme"],
       "eventName": null,
-      "id": "milo-djukanovic--2010-06-09--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-06-09--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -5938,8 +5906,8 @@
       "endDate": "2010-06-22",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2010-06-22--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-06-22--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -5963,8 +5931,8 @@
       "endDate": "2010-10-08",
       "engagements": ["Met Prime Minister Borut Pahor"],
       "eventName": null,
-      "id": "milo-djukanovic--2010-10-08--SVN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-10-08--SVN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Slovenia",
       "sources": [
         {
@@ -5988,8 +5956,8 @@
       "endDate": "2010-10-12",
       "engagements": ["Met President Hosni Mubarak", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2010-10-10--EGY",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-10-10--EGY",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Egypt",
       "sources": [
         {
@@ -6016,8 +5984,8 @@
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2010-10-22--MKD",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2010-10-22--MKD",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
@@ -6041,8 +6009,8 @@
       "endDate": "2013-01-17",
       "engagements": ["Gave a public address"],
       "eventName": "World Future Energy Summit",
-      "id": "milo-djukanovic--2013-01-15--ARE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-01-15--ARE",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended World Future Energy Summit",
       "sources": [
         {
@@ -6066,8 +6034,8 @@
       "endDate": "2013-01-21",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2013-01-21--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-01-21--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -6091,8 +6059,8 @@
       "endDate": "2013-02-03",
       "engagements": [],
       "eventName": "Munich Security Conference",
-      "id": "milo-djukanovic--2013-02-01--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-02-01--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Munich Security Conference",
       "sources": [
         {
@@ -6116,8 +6084,8 @@
       "endDate": "2013-03-17",
       "engagements": ["Gave a public address"],
       "eventName": "Brussels Forum",
-      "id": "milo-djukanovic--2013-03-15--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-03-15--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Brussels Forum",
       "sources": [
         {
@@ -6141,8 +6109,8 @@
       "endDate": "2013-03-26",
       "engagements": ["Gave a public address"],
       "eventName": "North Atlantic Council Meeting",
-      "id": "milo-djukanovic--2013-03-26--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-03-26--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended North Atlantic Council Meeting",
       "sources": [
         {
@@ -6166,8 +6134,8 @@
       "endDate": "2013-04-09",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2013-04-09--BIH",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-04-09--BIH",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Bosnia and Herzegovina",
       "sources": [
         {
@@ -6191,8 +6159,8 @@
       "endDate": "2013-04-20",
       "engagements": ["Gave a public address"],
       "eventName": "GLOBESEC Summit",
-      "id": "milo-djukanovic--2013-04-17--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-04-17--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended GLOBESEC Summit",
       "sources": [
         {
@@ -6216,8 +6184,8 @@
       "endDate": "2013-06-14",
       "engagements": ["Signed agreements"],
       "eventName": "Ukraine and Partners International Business Conference",
-      "id": "milo-djukanovic--2013-06-12--UKR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-06-12--UKR",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Ukraine and Partners International Business Conference",
       "sources": [
         {
@@ -6241,8 +6209,8 @@
       "endDate": "2013-06-18",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2013-06-18--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-06-18--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -6266,8 +6234,8 @@
       "endDate": "2013-09-27",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "milo-djukanovic--2013-09-23--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-09-23--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -6291,8 +6259,8 @@
       "endDate": "2013-11-27",
       "engagements": [],
       "eventName": "China-Central and Eastern European Countries (CEEC) Summit",
-      "id": "milo-djukanovic--2013-11-26--ROU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-11-26--ROU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended China-Central and Eastern European Countries (CEEC) Summit",
       "sources": [
         {
@@ -6319,8 +6287,8 @@
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2013-12-09--SRB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2013-12-09--SRB",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Serbia",
       "sources": [
         {
@@ -6344,8 +6312,8 @@
       "endDate": "2014-02-01",
       "engagements": [],
       "eventName": "Munich Security Conference",
-      "id": "milo-djukanovic--2014-02-01--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-02-01--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Munich Security Conference",
       "sources": [
         {
@@ -6369,8 +6337,8 @@
       "endDate": "2014-02-24",
       "engagements": ["Gave a public address"],
       "eventName": "European Bank for Reconstruction and Development (EBRD) Conference",
-      "id": "milo-djukanovic--2014-02-24--GBR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-02-24--GBR",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended European Bank for Reconstruction and Development (EBRD) Conference",
       "sources": [
         {
@@ -6394,8 +6362,8 @@
       "endDate": "2014-03-25",
       "engagements": ["Gave a public address"],
       "eventName": "Brussels Security Forum",
-      "id": "milo-djukanovic--2014-03-23--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-03-23--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Brussels Security Forum and North Atlantic Council Meeting",
       "sources": [
         {
@@ -6419,8 +6387,8 @@
       "endDate": "2014-04-09",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2014-04-07--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-04-07--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to United States",
       "sources": [
         {
@@ -6444,8 +6412,8 @@
       "endDate": "2014-05-14",
       "engagements": [],
       "eventName": "European Bank for Reconstruction Development Annual Political Meeting",
-      "id": "milo-djukanovic--2014-05-13--POL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-05-13--POL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended European Bank for Reconstruction Development Annual Political Meeting",
       "sources": [
         {
@@ -6469,8 +6437,8 @@
       "endDate": "2014-05-17",
       "engagements": ["Met Prime Minister Robert Fico"],
       "eventName": "GLOBESEC Summit",
-      "id": "milo-djukanovic--2014-05-14--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-05-14--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended GLOBESEC Summit",
       "sources": [
         {
@@ -6494,8 +6462,8 @@
       "endDate": "2014-06-02",
       "engagements": ["Met Prime Minister Zoran Milanovic"],
       "eventName": null,
-      "id": "milo-djukanovic--2014-06-01--HRV",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-06-01--HRV",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Croatia",
       "sources": [
         {
@@ -6521,8 +6489,8 @@
         "Met Chairman of the Presidency of the Republic Bakir Izetbegovic"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2014-06-03--BIH",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-06-03--BIH",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Bosnia and Herzegovina",
       "sources": [
         {
@@ -6546,8 +6514,8 @@
       "endDate": "2014-06-14",
       "engagements": ["Met President Petro Poroshenko", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2014-06-13--UKR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-06-13--UKR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Ukraine",
       "sources": [
         {
@@ -6571,8 +6539,8 @@
       "endDate": "2014-08-28",
       "engagements": ["Met Chancellor Angela Merkel"],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2014-08-28--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-08-28--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -6596,8 +6564,8 @@
       "endDate": "2014-09-05",
       "engagements": ["Gave a public address"],
       "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "milo-djukanovic--2014-09-04--GBR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-09-04--GBR",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
       "sources": [
         {
@@ -6621,8 +6589,8 @@
       "endDate": "2014-09-19",
       "engagements": ["Met President Ilham Aliyev"],
       "eventName": null,
-      "id": "milo-djukanovic--2014-09-17--AZE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-09-17--AZE",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Azerbaijan",
       "sources": [
         {
@@ -6646,8 +6614,8 @@
       "endDate": "2014-11-24",
       "engagements": ["Signed agreements", "Gave a public address"],
       "eventName": "Central European Initiative (CEI) Summit",
-      "id": "milo-djukanovic--2014-11-24--AUT",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-11-24--AUT",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Central European Initiative (CEI) Summit",
       "sources": [
         {
@@ -6671,8 +6639,8 @@
       "endDate": "2014-12-12",
       "engagements": ["Met President Francois Hollande"],
       "eventName": null,
-      "id": "milo-djukanovic--2014-12-10--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-12-10--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -6699,8 +6667,8 @@
         "Signed agreements"
       ],
       "eventName": "Central and Eastern European (CEEC)-China Summit",
-      "id": "milo-djukanovic--2014-12-16--SRB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2014-12-16--SRB",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Central and Eastern European (CEEC)-China Summit",
       "sources": [
         {
@@ -6724,8 +6692,8 @@
       "endDate": "2015-03-12",
       "engagements": ["Signed agreements", "Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2015-03-11--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-03-11--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Germany",
       "sources": [
         {
@@ -6749,8 +6717,8 @@
       "endDate": "2015-04-15",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2015-04-14--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-04-14--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -6774,8 +6742,8 @@
       "endDate": "2015-04-21",
       "engagements": ["Gave a public address"],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2015-04-21--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-04-21--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -6799,8 +6767,8 @@
       "endDate": "2015-05-07",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2015-05-06--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-05-06--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Germany",
       "sources": [
         {
@@ -6824,8 +6792,8 @@
       "endDate": "2015-05-28",
       "engagements": ["Met Prime Minister Edi Rama", "Gave a public address"],
       "eventName": "Vienna Economic Forum",
-      "id": "milo-djukanovic--2015-05-28--ALB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-05-28--ALB",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Vienna Economic Forum",
       "sources": [
         {
@@ -6852,8 +6820,8 @@
         "Gave a public address"
       ],
       "eventName": "GLOBESEC Summit",
-      "id": "milo-djukanovic--2015-06-19--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-06-19--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended GLOBESEC Summit",
       "sources": [
         {
@@ -6877,8 +6845,8 @@
       "endDate": "2015-07-02",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2015-07-02--CZE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-07-02--CZE",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Czechia",
       "sources": [
         {
@@ -6902,8 +6870,8 @@
       "endDate": "2015-08-27",
       "engagements": ["Gave a public address"],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2015-08-27--AUT",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-08-27--AUT",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -6927,8 +6895,8 @@
       "endDate": "2015-10-26",
       "engagements": ["Met Prime Minister Miro Cerar"],
       "eventName": null,
-      "id": "milo-djukanovic--2015-10-26--SVN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-10-26--SVN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Slovenia",
       "sources": [
         {
@@ -6952,8 +6920,8 @@
       "endDate": "2015-10-28",
       "engagements": ["Met President Ilham Aliyev", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2015-10-27--AZE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-10-27--AZE",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Azerbaijan",
       "sources": [
         {
@@ -6977,8 +6945,8 @@
       "endDate": "2015-11-26",
       "engagements": ["Met General Secretary Xi Jinping"],
       "eventName": "Central and Eastern European (CEEC)-China Summit",
-      "id": "milo-djukanovic--2015-11-24--CHN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2015-11-24--CHN",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Central and Eastern European (CEEC)-China Summit",
       "sources": [
         {
@@ -7002,8 +6970,8 @@
       "endDate": "2016-03-30",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2016-03-29--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-03-29--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -7027,8 +6995,8 @@
       "endDate": "2016-05-19",
       "engagements": ["Signed agreements"],
       "eventName": "North Atlantic Treaty Organization (NATO) Foreign Ministers Meeting",
-      "id": "milo-djukanovic--2016-05-19--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-05-19--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended North Atlantic Treaty Organization (NATO) Foreign Ministers Meeting",
       "sources": [
         {
@@ -7052,8 +7020,8 @@
       "endDate": "2016-06-08",
       "engagements": ["Met President Mauricio Macri", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2016-06-05--ARG",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-06-05--ARG",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Argentina",
       "sources": [
         {
@@ -7080,8 +7048,8 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2016-06-28--ISL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-06-28--ISL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Iceland",
       "sources": [
         {
@@ -7105,8 +7073,8 @@
       "endDate": "2016-07-04",
       "engagements": ["Met President Francois Hollande", "Signed agreements"],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2016-07-04--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-07-04--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -7130,8 +7098,8 @@
       "endDate": "2016-07-09",
       "engagements": ["Gave a public address"],
       "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "milo-djukanovic--2016-07-08--POL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-07-08--POL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit and GLOBESEC Summit",
       "sources": [
         {
@@ -7155,8 +7123,8 @@
       "endDate": "2016-09-15",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2016-09-14--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-09-14--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -7180,8 +7148,8 @@
       "endDate": "2016-09-22",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "milo-djukanovic--2016-09-18--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2016-09-18--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -7205,8 +7173,8 @@
       "endDate": "2018-06-05",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2018-06-04--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-06-04--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -7230,8 +7198,8 @@
       "endDate": "2018-07-18",
       "engagements": ["Gave a public address"],
       "eventName": "NATO Summit",
-      "id": "milo-djukanovic--2018-07-12--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-07-12--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended NATO Summit",
       "sources": [
         {
@@ -7255,8 +7223,8 @@
       "endDate": "2018-10-02",
       "engagements": ["Gave a public address"],
       "eventName": "European Council Summit",
-      "id": "milo-djukanovic--2018-10-02--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-10-02--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended European Council Summit",
       "sources": [
         {
@@ -7280,8 +7248,8 @@
       "endDate": "2018-10-08",
       "engagements": ["Met Pope Francis"],
       "eventName": null,
-      "id": "milo-djukanovic--2018-10-08--VAT",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-10-08--VAT",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -7305,8 +7273,8 @@
       "endDate": "2018-11-11",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2018-11-10--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-11-10--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to France",
       "sources": [
         {
@@ -7330,8 +7298,8 @@
       "endDate": "2018-12-10",
       "engagements": ["Met President Mauricio Macri", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2018-12-10--ARG",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-12-10--ARG",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Argentina",
       "sources": [
         {
@@ -7355,8 +7323,8 @@
       "endDate": "2018-12-13",
       "engagements": ["Met President Mario Abdo Benitez", "Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2018-12-11--PRY",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2018-12-11--PRY",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Paraguay",
       "sources": [
         {
@@ -7380,8 +7348,8 @@
       "endDate": "2019-01-15",
       "engagements": [],
       "eventName": "Abu Dhabi Sustainability Week",
-      "id": "milo-djukanovic--2019-01-13--ARE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-01-13--ARE",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Abu Dhabi Sustainability Week",
       "sources": [
         {
@@ -7405,8 +7373,8 @@
       "endDate": "2019-02-16",
       "engagements": [],
       "eventName": "Munich Security Conference",
-      "id": "milo-djukanovic--2019-02-15--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-02-15--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Munich Security Conference",
       "sources": [
         {
@@ -7430,8 +7398,8 @@
       "endDate": "2019-03-06",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2019-03-05--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-03-05--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -7455,8 +7423,8 @@
       "endDate": "2019-03-14",
       "engagements": ["Met President Ilham Aliyev", "Gave a public address"],
       "eventName": "Baku Global Forum",
-      "id": "milo-djukanovic--2019-03-13--AZE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-03-13--AZE",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Baku Global Forum",
       "sources": [
         {
@@ -7483,8 +7451,8 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2019-03-17--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-03-17--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Germany",
       "sources": [
         {
@@ -7508,8 +7476,8 @@
       "endDate": "2019-03-28",
       "engagements": ["Met Prime Minister Benjamin Netanyahu"],
       "eventName": null,
-      "id": "milo-djukanovic--2019-03-27--ISR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-03-27--ISR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Israel",
       "sources": [
         {
@@ -7533,8 +7501,8 @@
       "endDate": "2019-04-30",
       "engagements": [],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2019-04-29--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-04-29--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -7558,8 +7526,8 @@
       "endDate": "2019-05-03",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2019-05-02--GBR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-05-02--GBR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
@@ -7583,8 +7551,8 @@
       "endDate": "2019-05-05",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2019-05-03--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-05-03--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to United States",
       "sources": [
         {
@@ -7608,8 +7576,8 @@
       "endDate": "2019-05-08",
       "engagements": ["Gave a public address"],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2019-05-07--BIH",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-05-07--BIH",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -7633,8 +7601,8 @@
       "endDate": "2019-05-09",
       "engagements": ["Met President Ilir Meta", "Gave a public address"],
       "eventName": "Brdo-Brijuni Process Summit",
-      "id": "milo-djukanovic--2019-05-08--ALB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-05-08--ALB",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Brdo-Brijuni Process Summit",
       "sources": [
         {
@@ -7658,8 +7626,8 @@
       "endDate": "2019-05-11",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2019-05-10--ITA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-05-10--ITA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Italy",
       "sources": [
         {
@@ -7683,8 +7651,8 @@
       "endDate": "2019-06-08",
       "engagements": ["Gave a public address"],
       "eventName": "GLOBESEC Summit",
-      "id": "milo-djukanovic--2019-06-07--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-06-07--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended GLOBESEC Summit",
       "sources": [
         {
@@ -7708,8 +7676,8 @@
       "endDate": "2019-07-10",
       "engagements": ["Gave a public address"],
       "eventName": "Southeastern Europe Cooperation Process (SEECP) Summit",
-      "id": "milo-djukanovic--2019-07-09--BIH",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-07-09--BIH",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Southeastern Europe Cooperation Process (SEECP) Summit",
       "sources": [
         {
@@ -7733,8 +7701,8 @@
       "endDate": "2019-09-02",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2019-09-01--POL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-09-01--POL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Poland",
       "sources": [
         {
@@ -7758,8 +7726,8 @@
       "endDate": "2019-09-25",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "milo-djukanovic--2019-09-24--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-09-24--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -7783,8 +7751,8 @@
       "endDate": "2019-10-03",
       "engagements": ["Met Prime Minister Zoran Zaev"],
       "eventName": null,
-      "id": "milo-djukanovic--2019-10-02--MKD",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-10-02--MKD",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
@@ -7808,8 +7776,8 @@
       "endDate": "2019-10-23",
       "engagements": ["Met Prime Minister Abe Shinzo"],
       "eventName": null,
-      "id": "milo-djukanovic--2019-10-22--JPN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-10-22--JPN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Japan",
       "sources": [
         {
@@ -7833,8 +7801,8 @@
       "endDate": "2019-10-30",
       "engagements": [],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2019-10-29--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-10-29--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -7858,8 +7826,8 @@
       "endDate": "2019-11-25",
       "engagements": ["Signed agreements"],
       "eventName": null,
-      "id": "milo-djukanovic--2019-11-24--ARE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-11-24--ARE",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to United Arab Emirates",
       "sources": [
         {
@@ -7883,8 +7851,8 @@
       "endDate": "2019-12-22",
       "engagements": [],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2019-12-21--ALB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2019-12-21--ALB",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -7908,8 +7876,8 @@
       "endDate": "2020-01-24",
       "engagements": [],
       "eventName": "World Holocaust Forum",
-      "id": "milo-djukanovic--2020-01-23--ISR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-01-23--ISR",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended World Holocaust Forum",
       "sources": [
         {
@@ -7933,8 +7901,8 @@
       "endDate": "2020-02-16",
       "engagements": [],
       "eventName": "Munich Security Conference",
-      "id": "milo-djukanovic--2020-02-14--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-02-14--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Munich Security Conference",
       "sources": [
         {
@@ -7961,8 +7929,8 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2020-03-08--LTU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-03-08--LTU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Lithuania",
       "sources": [
         {
@@ -7986,8 +7954,8 @@
       "endDate": "2020-03-10",
       "engagements": ["Met Prime Minister Juri Ratas"],
       "eventName": null,
-      "id": "milo-djukanovic--2020-03-10--EST",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-03-10--EST",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Estonia",
       "sources": [
         {
@@ -8011,8 +7979,8 @@
       "endDate": "2020-03-11",
       "engagements": ["Met Prime Minister Krisjanis Karins"],
       "eventName": null,
-      "id": "milo-djukanovic--2020-03-11--LVA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-03-11--LVA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Latvia",
       "sources": [
         {
@@ -8036,8 +8004,8 @@
       "endDate": "2020-06-09",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2020-06-09--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-06-09--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -8061,8 +8029,8 @@
       "endDate": "2020-07-11",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2020-07-11--BIH",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-07-11--BIH",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Bosnia and Herzegovina",
       "sources": [
         {
@@ -8086,8 +8054,8 @@
       "endDate": "2020-10-08",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2020-10-07--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-10-07--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Germany",
       "sources": [
         {
@@ -8111,8 +8079,8 @@
       "endDate": "2020-12-10",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2020-12-10--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2020-12-10--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Germany",
       "sources": [
         {
@@ -8136,8 +8104,8 @@
       "endDate": "2021-05-18",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2021-05-17--SVN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-05-17--SVN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Slovenia",
       "sources": [
         {
@@ -8161,8 +8129,8 @@
       "endDate": "2021-05-19",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2021-05-18--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-05-18--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -8186,8 +8154,8 @@
       "endDate": "2021-06-10",
       "engagements": [],
       "eventName": "Tirana Economic Summit",
-      "id": "milo-djukanovic--2021-06-10--ALB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-06-10--ALB",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Tirana Economic Summit",
       "sources": [
         {
@@ -8214,8 +8182,8 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2021-06-17--TUR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-06-17--TUR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Türkiye",
       "sources": [
         {
@@ -8239,8 +8207,8 @@
       "endDate": "2021-07-02",
       "engagements": ["Met Prime Minister Zoran Zaev"],
       "eventName": "Prespa Forum",
-      "id": "milo-djukanovic--2021-07-01--MKD",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-07-01--MKD",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Prespa Forum",
       "sources": [
         {
@@ -8264,8 +8232,8 @@
       "endDate": "2021-07-16",
       "engagements": ["Met Prime Minister Eduard Heger"],
       "eventName": null,
-      "id": "milo-djukanovic--2021-07-15--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-07-15--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Slovakia",
       "sources": [
         {
@@ -8289,8 +8257,8 @@
       "endDate": "2021-09-16",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2021-09-16--HRV",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-09-16--HRV",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Croatia",
       "sources": [
         {
@@ -8314,8 +8282,8 @@
       "endDate": "2021-09-25",
       "engagements": [],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "milo-djukanovic--2021-09-21--USA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-09-21--USA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -8339,8 +8307,8 @@
       "endDate": "2021-10-06",
       "engagements": ["Met Prime Minister Janez Jansa"],
       "eventName": "Western Balkans Summit",
-      "id": "milo-djukanovic--2021-10-06--SVN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-10-06--SVN",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Western Balkans Summit",
       "sources": [
         {
@@ -8364,8 +8332,8 @@
       "endDate": "2021-10-08",
       "engagements": ["Met Prime Minister Irakli Garibashvili"],
       "eventName": null,
-      "id": "milo-djukanovic--2021-10-07--GEO",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-10-07--GEO",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Georgia",
       "sources": [
         {
@@ -8392,8 +8360,8 @@
         "Gave a public address"
       ],
       "eventName": "Conference of the Parties (COP)",
-      "id": "milo-djukanovic--2021-10-31--GBR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-10-31--GBR",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Conference of the Parties (COP)",
       "sources": [
         {
@@ -8417,8 +8385,8 @@
       "endDate": "2021-11-12",
       "engagements": ["Met President Emmanuel Macron"],
       "eventName": "Paris Peace Forum",
-      "id": "milo-djukanovic--2021-11-11--FRA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-11-11--FRA",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Paris Peace Forum",
       "sources": [
         {
@@ -8445,8 +8413,8 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "milo-djukanovic--2021-12-20--HRV",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2021-12-20--HRV",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Croatia",
       "sources": [
         {
@@ -8470,8 +8438,8 @@
       "endDate": "2022-02-09",
       "engagements": ["Met Prime Minister Kyriakos Mitsotakis"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-02-08--GRC",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-02-08--GRC",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Greece",
       "sources": [
         {
@@ -8495,8 +8463,8 @@
       "endDate": "2022-02-19",
       "engagements": [],
       "eventName": "Munich Security Conference",
-      "id": "milo-djukanovic--2022-02-18--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-02-18--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Munich Security Conference",
       "sources": [
         {
@@ -8520,8 +8488,8 @@
       "endDate": "2022-02-21",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2022-02-21--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-02-21--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -8545,8 +8513,8 @@
       "endDate": "2022-03-03",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2022-03-03--ITA",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-03-03--ITA",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Italy",
       "sources": [
         {
@@ -8570,8 +8538,8 @@
       "endDate": "2022-03-04",
       "engagements": ["Met Captain Regent Francesco Mussoni"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-03-04--SMR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-03-04--SMR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to San Marino",
       "sources": [
         {
@@ -8595,8 +8563,8 @@
       "endDate": "2022-03-24",
       "engagements": [],
       "eventName": "NATO Summit",
-      "id": "milo-djukanovic--2022-03-23--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-03-23--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended NATO Summit",
       "sources": [
         {
@@ -8620,8 +8588,8 @@
       "endDate": "2022-05-17",
       "engagements": [],
       "eventName": null,
-      "id": "milo-djukanovic--2022-05-17--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-05-17--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Germany",
       "sources": [
         {
@@ -8645,8 +8613,8 @@
       "endDate": "2022-06-04",
       "engagements": ["Gave a public address"],
       "eventName": "GLOBESEC Summit",
-      "id": "milo-djukanovic--2022-06-02--SVK",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-06-02--SVK",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended GLOBESEC Summit",
       "sources": [
         {
@@ -8670,8 +8638,8 @@
       "endDate": "2022-06-07",
       "engagements": ["Gave a public address"],
       "eventName": "Eurasian Economic Council (EEC) Summit",
-      "id": "milo-djukanovic--2022-06-06--TUR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-06-06--TUR",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Eurasian Economic Council (EEC) Summit",
       "sources": [
         {
@@ -8698,8 +8666,8 @@
         "Gave a public address"
       ],
       "eventName": "Southeast European Cooperation Process (SEECP) Summit",
-      "id": "milo-djukanovic--2022-06-10--GRC",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-06-10--GRC",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Southeast European Cooperation Process (SEECP) Summit",
       "sources": [
         {
@@ -8723,8 +8691,8 @@
       "endDate": "2022-06-17",
       "engagements": ["Gave a public address"],
       "eventName": "Prespa Forum for Dialogue",
-      "id": "milo-djukanovic--2022-06-16--MKD",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-06-16--MKD",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Prespa Forum for Dialogue",
       "sources": [
         {
@@ -8748,8 +8716,8 @@
       "endDate": "2022-06-24",
       "engagements": ["Gave a public address"],
       "eventName": "EU-Western Balkans Summit",
-      "id": "milo-djukanovic--2022-06-23--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-06-23--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended EU-Western Balkans Summit",
       "sources": [
         {
@@ -8773,8 +8741,8 @@
       "endDate": "2022-06-29",
       "engagements": ["Met Prime Minister Pedro Sanchez"],
       "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "milo-djukanovic--2022-06-28--ESP",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-06-28--ESP",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
       "sources": [
         {
@@ -8798,8 +8766,8 @@
       "endDate": "2022-07-10",
       "engagements": ["Met Prime Minister Viktor Orban"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-07-10--HUN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-07-10--HUN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Hungary",
       "sources": [
         {
@@ -8823,8 +8791,8 @@
       "endDate": "2022-10-06",
       "engagements": ["Met President Milos Zeman", "Gave a public address"],
       "eventName": "European Political Community (EPC) Meeting",
-      "id": "milo-djukanovic--2022-10-06--CZE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-10-06--CZE",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended European Political Community (EPC) Meeting",
       "sources": [
         {
@@ -8848,8 +8816,8 @@
       "endDate": "2022-10-27",
       "engagements": ["Met President Andrzej Duda"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-10-27--POL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-10-27--POL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Poland",
       "sources": [
         {
@@ -8873,8 +8841,8 @@
       "endDate": "2022-11-07",
       "engagements": ["Gave a public address"],
       "eventName": "Conference of the Parties (COP)",
-      "id": "milo-djukanovic--2022-11-06--EGY",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-11-06--EGY",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Conference of the Parties (COP)",
       "sources": [
         {
@@ -8898,8 +8866,8 @@
       "endDate": "2022-11-23",
       "engagements": ["Met Prime Minister Alexander De Croo"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-11-22--BEL",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-11-22--BEL",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Belgium",
       "sources": [
         {
@@ -8926,8 +8894,8 @@
         "Gave a public address"
       ],
       "eventName": "Conference of the Socialist International",
-      "id": "milo-djukanovic--2022-11-25--ESP",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-11-25--ESP",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Conference of the Socialist International",
       "sources": [
         {
@@ -8951,8 +8919,8 @@
       "endDate": "2022-12-06",
       "engagements": ["Signed agreements"],
       "eventName": "European Council-Western Balkans Summit",
-      "id": "milo-djukanovic--2022-12-06--ALB",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-12-06--ALB",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended European Council-Western Balkans Summit",
       "sources": [
         {
@@ -8976,8 +8944,8 @@
       "endDate": "2022-12-07",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-12-07--AUT",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-12-07--AUT",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Austria",
       "sources": [
         {
@@ -9001,8 +8969,8 @@
       "endDate": "2022-12-30",
       "engagements": ["Met President Recep Tayyip Erdogan"],
       "eventName": null,
-      "id": "milo-djukanovic--2022-12-30--TUR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2022-12-30--TUR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Türkiye",
       "sources": [
         {
@@ -9026,8 +8994,8 @@
       "endDate": "2023-01-12",
       "engagements": ["Met Prime Minister Viktor Orban"],
       "eventName": null,
-      "id": "milo-djukanovic--2023-01-12--HUN",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2023-01-12--HUN",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Hungary",
       "sources": [
         {
@@ -9051,8 +9019,8 @@
       "endDate": "2023-02-19",
       "engagements": [],
       "eventName": "Munich Security Conference",
-      "id": "milo-djukanovic--2023-02-17--DEU",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2023-02-17--DEU",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended Munich Security Conference",
       "sources": [
         {
@@ -9076,8 +9044,8 @@
       "endDate": "2023-02-20",
       "engagements": ["Met President Rumen Radev"],
       "eventName": null,
-      "id": "milo-djukanovic--2023-02-19--BGR",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2023-02-19--BGR",
+      "officialId": "milo-ukanovic",
       "purpose": "Visit to Bulgaria",
       "sources": [
         {
@@ -9101,8 +9069,8 @@
       "endDate": "2023-02-28",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) Human Rights Council Summit",
-      "id": "milo-djukanovic--2023-02-27--CHE",
-      "officialId": "milo-djukanovic",
+      "id": "milo-ukanovic--2023-02-27--CHE",
+      "officialId": "milo-ukanovic",
       "purpose": "Attended United Nations (UN) Human Rights Council Summit",
       "sources": [
         {
@@ -9111,6 +9079,31 @@
         }
       ],
       "startDate": "2023-02-27",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2024-07-11",
+      "engagements": [],
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "milojko-spajic--2024-07-10--USA",
+      "officialId": "milojko-spajic",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },

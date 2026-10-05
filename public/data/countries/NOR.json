@@ -3457,6 +3457,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1951-05-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "einar-gerhardsen--1951-05-25--USA",
+      "officialId": "einar-gerhardsen",
+      "purpose": "In the U.S. May 15–29, visiting New York City and ethnic communities in the Midwest and Far West.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1951-05-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "einar-gerhardsen--1958-05-08--USA",
+      "officialId": "einar-gerhardsen",
+      "purpose": "Unofficial visit; attended Minnesota Statehood Centennial in Minneapolis and St. Paul.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-05-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "einar-gerhardsen--1962-05-09--USA",
+      "officialId": "einar-gerhardsen",
+      "purpose": "Presidential guest. In U.S. May 8–18, visiting Cape Canaveral and St. Augustine (Florida), and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-05-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Berlin",
         "coordinates": [13.405, 52.52],
         "countryCode": "DEU",
@@ -4305,11 +4380,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Signed agreements"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "erna-solberg--2016-03-31--USA",
       "officialId": "erna-solberg",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4408,11 +4487,15 @@
       },
       "endDate": "2016-05-13",
       "engagements": [],
-      "eventName": "United States-Nordic Leaders Meeting",
+      "eventName": "Attended the U.S.- Nordic Leaders Summit.",
       "id": "erna-solberg--2016-05-13--USA",
       "officialId": "erna-solberg",
-      "purpose": "Attended United States-Nordic Leaders Meeting",
+      "purpose": "Attended the U.S.- Nordic Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4934,19 +5017,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-01-12",
+      "endDate": "2018-01-10",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "erna-solberg--2018-01-07--USA",
+      "id": "erna-solberg--2018-01-09--USA",
       "officialId": "erna-solberg",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-01-07",
+      "startDate": "2018-01-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6343,6 +6430,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "gro-harlem-brundtland--1989-05-02--USA",
+      "officialId": "gro-harlem-brundtland",
+      "purpose": "Met with President Bush May 3 during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-02",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -6574,22 +6686,26 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-09-27",
+      "endDate": "1991-09-24",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "gro-harlem-brundtland--1991-09-23--USA",
+      "eventName": "Met with President Bush while attending the U.N. General Assembly in New York City.",
+      "id": "gro-harlem-brundtland--1991-09-24--USA",
       "officialId": "gro-harlem-brundtland",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-09-23",
+      "startDate": "1991-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -6902,21 +7018,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-06-04",
+      "endDate": "1992-06-05",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "gro-harlem-brundtland--1992-06-04--USA",
+      "id": "gro-harlem-brundtland--1992-06-05--USA",
       "officialId": "gro-harlem-brundtland",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-06-04",
+      "startDate": "1992-06-05",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7480,21 +7600,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-05-21",
+      "endDate": "1994-05-19",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "gro-harlem-brundtland--1994-05-17--USA",
+      "id": "gro-harlem-brundtland--1994-05-16--USA",
       "officialId": "gro-harlem-brundtland",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-05-17",
+      "startDate": "1994-05-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8270,6 +8394,1710 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1906-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1906-10-03--DNK",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Frederik VIII (his father) and Queen Lovisa",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1906-10-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1906-11-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1906-11-14--GBR",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Edward VII (his uncle and father-in-law) and Queen Alexandra",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1906-11-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1907-05-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1907-05-27--FRA",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting President Armand Fallières",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1907-05-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1913-06-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1913-06-11--DNK",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Christian X (his brother) and Queen Alexandrine",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1913-06-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1918-09-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1918-09-15--SWE",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Gustaf V (his mother's first cousin) and Queen Victoria",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1918-09-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1923-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1923-06-05--NLD",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting Queen Wilhelmina and Prince Hendrik",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1923-06-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1923-06-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1923-06-08--BEL",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Albert I and Queen Elisabeth",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1923-06-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Helsinki",
+        "coordinates": [24.9375, 60.170833333],
+        "countryCode": "FIN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1928-06-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1928-06-02--FIN",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting President Lauri Kristian Relander",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1928-06-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1948-02-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1948-02-17--DNK",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Frederik IX (his nephew) and Queen Ingrid",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1948-02-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1951-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1951-06-05--GBR",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King George VI (his wife's nephew) and Queen Elizabeth",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1951-06-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1953-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1953-03-23--SWE",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting King Gustaf VI Adolf (his second cousin) and Queen Louise",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1953-03-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1954-08-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "haakon-vii-of-norway--1954-08-12--NLD",
+      "officialId": "haakon-vii-of-norway",
+      "purpose": "Visiting Queen Juliana and Prince Bernhard",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1954-08-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1991-10-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1991-10-28--DNK",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Queen Margrethe II and Prince Henrik",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1991-10-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1992-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1992-05-12--SWE",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting King Carl XVI Gustaf and Queen Silvia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1992-05-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Reykjavík",
+        "coordinates": [-21.935, 64.1475],
+        "countryCode": "ISL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1992-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1992-09-07--ISL",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Vigdís Finnbogadóttir",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1992-09-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Helsinki",
+        "coordinates": [24.9375, 60.170833333],
+        "countryCode": "FIN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1993-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1993-03-23--FIN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Mauno Koivisto",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1993-03-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1994-04-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1994-04-18--DEU",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Richard von Weizsäcker and Marianne von Weizsäcker",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1994-04-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1994-07-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1994-07-05--GBR",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Queen Elizabeth II and Prince Philip",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1994-07-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-04-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1995-04-25--ESP",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting King Juan Carlos and Queen Sofia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1995-04-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1995-10-12--USA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-10-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1995-10-30--USA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1995-10-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-04-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1996-04-15--NLD",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Queen Beatrix and Prince Claus",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1996-04-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Luxembourg",
+        "coordinates": [6.13, 49.611388888],
+        "countryCode": "LUX",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-04-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1996-04-18--LUX",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Grand Duke Jean and Grand Duchess Josephine-Charlotte",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1996-04-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-08-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1996-08-28--AUT",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Thomas Klestil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1996-08-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [21.011111111, 52.23],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1996-10-14--POL",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Aleksander Kwaśniewski and Jolanta Kwaśniewska",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1996-10-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Prague",
+        "coordinates": [14.421388888, 50.0875],
+        "countryCode": "CZE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1997-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1997-03-18--CZE",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Václav Havel and Dagmar Havlová",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1997-03-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.4074, 39.9042],
+        "countryCode": "CHN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-10-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1997-10-23--CHN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Jiāng Zémín and Wang Yeping",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1997-10-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pretoria",
+        "coordinates": [28.2293, -25.7479],
+        "countryCode": "ZAF",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1998-02-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1998-02-22--ZAF",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Nelson Mandela",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1998-02-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [37.6175, 55.750555555],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-05-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1998-05-25--RUS",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Boris Yeltsin and Naina Yeltsina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1998-05-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tallinn",
+        "coordinates": [24.745, 59.437222222],
+        "countryCode": "EST",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-09-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1998-08-31--EST",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Lennart Meri and Helle Meri",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1998-08-31",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Riga",
+        "coordinates": [24.106944444, 56.9475],
+        "countryCode": "LVA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-09-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1998-09-02--LVA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Guntis Ulmanis and Aina Ulmane",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1998-09-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vilnius",
+        "coordinates": [25.28, 54.687222222],
+        "countryCode": "LTU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-09-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1998-09-04--LTU",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Valdas Adamkus and Alma Adamkus",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1998-09-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bucharest",
+        "coordinates": [26.097777777, 44.413361111],
+        "countryCode": "ROU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-09-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--1999-09-20--ROU",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Emil Constantinescu and Nadina Ileana Constantinescu",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "1999-09-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-03-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2000-03-01--FRA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Jacques Chirac and Bernadette Chirac",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2000-03-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-04-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2000-04-26--USA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Met with President Clinton during a private visit; dedicated an exhibit about the Vikings at the Smithsonian Institution.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2000-04-26",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2001-03-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2001-03-25--JPN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Emperor Akihito and Empress Michiko",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2001-03-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2001-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2001-10-23--ITA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Carlo Azeglio Ciampi and Franca Ciampi",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2001-10-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [12.453, 41.904],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2001-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2001-10-25--VAT",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Pope John Paul II",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2001-10-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [-75.6972, 45.4215],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2002-05-06--CAN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Governor General Adrienne Clarkson and John Ralston Saul",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2002-05-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Budapest",
+        "coordinates": [19.040833333, 47.498333333],
+        "countryCode": "HUN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2002-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2002-10-08--HUN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Ferenc Mádl and Dalma Mádl",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2002-10-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-06-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2003-06-20--BEL",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting King Albert II and Queen Paola",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2003-06-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [-47.8825, -15.7942],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-10-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2003-10-07--BRA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Luiz Inácio Lula da Silva and Marisa Letícia Lula da Silva",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2003-10-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [23.728055555, 37.984166666],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2004-06-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2004-06-08--GRC",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Konstantinos Stephanopoulos",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2004-06-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [103.8, 1.3],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2004-10-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2004-10-28--SGP",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Sellapan Rama Nathan and Urmila Nandey",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2004-10-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [105.84117, 21.0245],
+        "countryCode": "VNM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2004-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2004-11-01--VNM",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Trần Đức Lương",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2004-11-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-03-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2005-03-06--USA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-03-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bern",
+        "coordinates": [7.44743, 46.94798],
+        "countryCode": "CHE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-04-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2006-04-05--CHE",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Moritz Leuenberger",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2006-04-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Dublin",
+        "coordinates": [-6.260277777, 53.349722222],
+        "countryCode": "IRL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2006-09-18--IRL",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Mary McAleese and Martin McAleese",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2006-09-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Helsinki",
+        "coordinates": [24.9375, 60.170833333],
+        "countryCode": "FIN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2007-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2007-06-05--FIN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Tarja Halonen and Pentti Arajärvi",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2007-06-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2007-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2007-10-15--DEU",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Horst Köhler and Eva Bohnet",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2007-10-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [-9.139016, 38.708042],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-05-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2008-05-27--PRT",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Aníbal Cavaco Silva and Maria Cavaco Silva",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2008-05-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pretoria",
+        "coordinates": [28.2293, -25.7479],
+        "countryCode": "ZAF",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2009-11-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2009-11-24--ZAF",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Jacob Zuma",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2009-11-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bratislava",
+        "coordinates": [17.1093063, 48.1516988],
+        "countryCode": "SVK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2010-10-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2010-10-26--SVK",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Ivan Gašparovič and Silvia Gašparovičová",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2010-10-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ljubljana",
+        "coordinates": [14.506111111, 46.051388888],
+        "countryCode": "SVN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2011-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2011-05-09--SVN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Danilo Türk and Barbara Türk",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2011-05-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Zagreb",
+        "coordinates": [15.977222222, 45.813055555],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2011-05-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2011-05-12--HRV",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Ivo Josipović and Tatjana Josipović",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2011-05-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [21.011111111, 52.23],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2012-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2012-05-09--POL",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Bronisław Komorowski and Anna Komorowska",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2012-05-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ankara",
+        "coordinates": [32.8597, 39.9334],
+        "countryCode": "TUR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-07",
+      "engagements": ["Hayrünnisa Gül"],
+      "eventName": null,
+      "id": "harald-v-of-norway--2013-11-05--TUR",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Abdullah Gül and Mrs.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2013-11-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Naypyidaw",
+        "coordinates": [96.115, 19.7475],
+        "countryCode": "MMR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-12-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2014-12-01--MMR",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Thein Sein",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2014-12-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [149.13, -35.2809],
+        "countryCode": "AUS",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2015-02-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2015-02-23--AUS",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Governor General Sir Peter Cosgrove and Lady Hazel Cosgrove",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2015-02-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-04-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2016-04-06--ITA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Sergio Mattarella",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2016-04-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [-58.381944444, -34.599722222],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2018-03-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2018-03-06--ARG",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Mauricio Macri and Juliana Awada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2018-03-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.4074, 39.9042],
+        "countryCode": "CHN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2018-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2018-10-11--CHN",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Xi Jinping and Peng Liyuan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2018-10-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [-70.65, -33.4375],
+        "countryCode": "CHL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-03-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2019-03-26--CHL",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Sebastián Piñera and Cecilia Morel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2019-03-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amman",
+        "coordinates": [35.926084, 31.930983],
+        "countryCode": "JOR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-03-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2020-03-02--JOR",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting King Abdullah II of Jordan and Queen Rania of Jordan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2020-03-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2022-09-11--DNK",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Queen Margrethe II",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2022-09-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-06-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2023-06-15--DNK",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting Queen Margrethe II",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2023-06-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-02-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2026-02-06--ITA",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting President Sergio Mattarella",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2026-02-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-02-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "harald-v-of-norway--2026-02-24--ESP",
+      "officialId": "harald-v-of-norway",
+      "purpose": "Visiting King Felipe VI and Queen Letizia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Harald_V"
+        }
+      ],
+      "startDate": "2026-02-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [-77.0369, 38.9072],
         "countryCode": "USA",
@@ -8282,16 +10110,20 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "jan-p-syse--1990-02-22--USA",
+      "id": "jan-p-syse--1990-02-23--USA",
       "officialId": "jan-p-syse",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-02-22",
+      "startDate": "1990-02-23",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10058,17 +11890,21 @@
       },
       "endDate": "2010-04-13",
       "engagements": ["Gave a public address"],
-      "eventName": "Nuclear Security Summit",
-      "id": "jens-stoltenberg--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "jens-stoltenberg--2010-04-12--USA",
       "officialId": "jens-stoltenberg",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -10271,6 +12107,31 @@
       "startDate": "2011-09-20",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-10-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "jens-stoltenberg--2011-10-20--USA",
+      "officialId": "jens-stoltenberg",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2011-10-20",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10484,13 +12345,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": ["Gave a public address"],
-      "eventName": "NATO Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "jens-stoltenberg--2012-05-20--USA",
       "officialId": "jens-stoltenberg",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12343,11 +14208,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "jonas-gahr-st-re--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "jonas-gahr-st-re--2024-07-10--USA",
       "officialId": "jonas-gahr-st-re",
-      "purpose": "Støre attended the 2024 NATO summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jonas_Gahr_St%C3%B8re"
@@ -12357,7 +14226,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -13582,6 +15451,30 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New York City",
+        "coordinates": [-74.006111111, 40.712777777],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2026-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "jonas-gahr-st-re--2026-09-23--USA",
+      "officialId": "jonas-gahr-st-re",
+      "purpose": "Støre attended the 81st United Nations General Assembly.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jonas_Gahr_St%C3%B8re"
+        }
+      ],
+      "startDate": "2026-09-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Budapest",
         "coordinates": [19.040833333, 47.498333333],
         "countryCode": "HUN",
@@ -13674,6 +15567,56 @@
       "startDate": "2026-12-14",
       "statusHint": "planned",
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-02-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "kare-willoch--1983-02-16--USA",
+      "officialId": "kare-willoch",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-02-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "kare-willoch--1984-09-23--USA",
+      "officialId": "kare-willoch",
+      "purpose": "Private visit. Met with President Reagan at U.N. General Assembly reception in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-09-23",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -14021,21 +15964,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-04-22",
+      "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": null,
-      "id": "kjell-magne-bondevik--1999-04-22--USA",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "kjell-magne-bondevik--1999-04-23--USA",
       "officialId": "kjell-magne-bondevik",
-      "purpose": "Visit to United States",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-04-22",
+      "startDate": "1999-04-23",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -14089,6 +16036,31 @@
       "startDate": "1999-09-20",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-10-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "kjell-magne-bondevik--1999-10-14--USA",
+      "officialId": "kjell-magne-bondevik",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-10-14",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14257,8 +16229,12 @@
       "eventName": null,
       "id": "kjell-magne-bondevik--2001-12-03--USA",
       "officialId": "kjell-magne-bondevik",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush December 5 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14266,7 +16242,7 @@
       ],
       "startDate": "2001-12-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14557,8 +16533,12 @@
       "eventName": null,
       "id": "kjell-magne-bondevik--2003-05-16--USA",
       "officialId": "kjell-magne-bondevik",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15626,6 +17606,1090 @@
       "startDate": "2005-09-16",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "odvar-nordli--1978-05-30--USA",
+      "officialId": "odvar-nordli",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-06-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "odvar-nordli--1979-06-10--USA",
+      "officialId": "odvar-nordli",
+      "purpose": "Private visit. Met with President Carter June 12.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-06-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-12-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "odvar-nordli--1979-12-06--USA",
+      "officialId": "odvar-nordli",
+      "purpose": "Private visit. Met with President Carter December 7.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-12-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1958-09-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1958-09-11--DNK",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting King Frederik IX and Queen Ingrid",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1958-09-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1959-04-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1959-04-23--SWE",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting King Gustaf VI Adolf and Queen Louise",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1959-04-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Reykjavík",
+        "coordinates": [-21.935, 64.1475],
+        "countryCode": "ISL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1961-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1961-05-31--ISL",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Ásgeir Ásgeirsson",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1961-05-31",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Helsinki",
+        "coordinates": [24.9375, 60.170833333],
+        "countryCode": "FIN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1961-07-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1961-07-05--FIN",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Urho Kekkonen",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1961-07-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.3522, 48.8566],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1962-09-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1962-09-26--FRA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Charles de Gaulle",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1962-09-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Holyrood Palace",
+        "coordinates": [-3.17229, 55.9527],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1962-10-19",
+      "engagements": [
+        "This state visit was made to Scotland in order to express gratitude for the Scottish people's help during World War II."
+      ],
+      "eventName": null,
+      "id": "olav-v-of-norway--1962-10-16--GBR",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Queen Elizabeth II and Prince Philip.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1962-10-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1964-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1964-09-09--NLD",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Queen Juliana and Prince Bernhard",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1964-09-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Luxembourg",
+        "coordinates": [6.13, 49.611388888],
+        "countryCode": "LUX",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1964-09-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1964-09-14--LUX",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Grand Duchess Charlotte and Prince Felix",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1964-09-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1964-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1964-09-21--BEL",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting King Baudouin I and Queen Fabiola",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1964-09-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [51.389722222, 35.688888888],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1965-01-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1965-01-07--IRN",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Shah Mohammad Reza Pahlavi and Empress Farah Pahlavi",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1965-01-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bangkok",
+        "coordinates": [100.516666666, 13.75],
+        "countryCode": "THA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1965-01-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1965-01-15--THA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting King Bhumibol Adulyadej and Queen Sirikit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1965-01-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Addis Ababa",
+        "coordinates": [38.7525, 9.035833333],
+        "countryCode": "ETH",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1966-01-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1966-01-10--ETH",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Emperor Haile Selassie I",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1966-01-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Belgrade",
+        "coordinates": [20.456944444, 44.817777777],
+        "countryCode": "SRB",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1966-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1966-09-05--SRB",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Josip Broz Tito",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1966-09-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1966-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1966-09-12--AUT",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Franz Jonas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1966-09-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1967-04-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1967-04-26--ITA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Giuseppe Saragat",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1967-04-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [-47.8825, -15.7942],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1967-09-06--BRA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Artur da Costa e Silva",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1967-09-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [-70.65, -33.4375],
+        "countryCode": "CHL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1967-09-13--CHL",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Eduardo Frei Montalva",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1967-09-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [-58.381944444, -34.599722222],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1967-09-18--ARG",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Juan Carlos Onganía",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1967-09-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bern",
+        "coordinates": [7.44743, 46.94798],
+        "countryCode": "CHE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1968-04-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1968-04-01--CHE",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Willy Spühler",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1968-04-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-04-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1968-04-25--USA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1968-04-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tunis",
+        "coordinates": [10.18, 36.800833333],
+        "countryCode": "TUN",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1969-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1969-05-05--TUN",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Habib Bourguiba",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1969-05-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-09-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1971-09-21--USA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-09-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1973-06-04--DEU",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Gustav Heinemann",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1973-06-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Reykjavík",
+        "coordinates": [-21.935, 64.1475],
+        "countryCode": "ISL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1974-06-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1974-06-04--ISL",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Kristján Eldjárn",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1974-06-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [12.568888888, 55.676111111],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1974-09-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1974-09-11--DNK",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Queen Margrethe II and Prince Henrik",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1974-09-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1975-10-10--USA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1975-10-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1975-11-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1975-11-25--SWE",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting King Carl XVI Gustaf and Queen Silvia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1975-11-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [-9.139016, 38.708042],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1978-02-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1978-02-21--PRT",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President António dos Santos Ramalho Eanes",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1978-02-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Helsinki",
+        "coordinates": [24.9375, 60.170833333],
+        "countryCode": "FIN",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1980-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1980-10-07--FIN",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Urho Kekkonen",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1980-10-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [16.3725, 48.208333333],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1982-09-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1982-09-13--AUT",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting President Rudolf Kirchschläger",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1982-09-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-10-19",
+      "engagements": [],
+      "eventName": "Private visit. Addressed U.N. General Assembly. Met with President Reagan October 18.",
+      "id": "olav-v-of-norway--1982-10-17--USA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Private visit. Addressed U.N. General Assembly. Met with President Reagan October 18.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-10-17",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1983-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1983-10-17--JPN",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Emperor Hirohito and Empress Nagako",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1983-10-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [-3.703333333, 40.416944444],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1984-03-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1984-03-29--ESP",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting King Juan Carlos and Queen Sofia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1984-03-29",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [-75.6972, 45.4215],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-11-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1987-11-23--CAN",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Governor General Jeanne Sauvé",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1987-11-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1987-11-30--USA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Met with President Reagan during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-11-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1988-04-12--GBR",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Visiting Queen Elizabeth II and Prince Philip",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1988-04-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "olav-v-of-norway--1989-05-08--USA",
+      "officialId": "olav-v-of-norway",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-09-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "oscar-torp--1952-09-22--USA",
+      "officialId": "oscar-torp",
+      "purpose": "In U.S.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1952-09-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-11-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "oscar-torp--1954-11-23--USA",
+      "officialId": "oscar-torp",
+      "purpose": "Arrived in U.S.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-11-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "per-borten--1970-10-24--USA",
+      "officialId": "per-borten",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

@@ -4087,6 +4087,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "bill-rowling--1975-05-07--USA",
+      "officialId": "bill-rowling",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Canberra",
         "coordinates": [149.126944444, -35.293055555],
         "countryCode": "AUS",
@@ -4627,11 +4652,15 @@
         "Later that day, Luxon met with Ukrainian President Volodymyr Zelenskyy, Japanese Prime Minister Fumio Kishida, South Korean President Yoon Suk Yeol, and Australian Deputy Prime Mi…",
         "During his trip to the United States, Luxon also committed NZ$16 million to support Ukraine in its war against Russia."
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "christopher-luxon--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "christopher-luxon--2024-07-10--USA",
       "officialId": "christopher-luxon",
-      "purpose": "Luxon attended the 2024 Nato summit as an Indo-Pacific ally, where he attended a White House dinner and spoke to US President Joe Biden, Br…",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Christopher_Luxon"
@@ -4641,7 +4670,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -5976,21 +6005,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-03-29",
+      "endDate": "2002-03-26",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "helen-clark--2002-03-25--USA",
+      "id": "helen-clark--2002-03-26--USA",
       "officialId": "helen-clark",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-03-25",
+      "startDate": "2002-03-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7382,19 +7415,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-03-23",
+      "endDate": "2007-03-21",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "helen-clark--2007-03-19--USA",
+      "id": "helen-clark--2007-03-20--USA",
       "officialId": "helen-clark",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-03-19",
+      "startDate": "2007-03-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9373,21 +9410,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-02-16",
+      "endDate": "1999-02-15",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": null,
-      "id": "jenny-shipley--1999-02-12--USA",
+      "eventName": "Private visit; attended Global Forum on Reinventing Government.",
+      "id": "jenny-shipley--1999-02-13--USA",
       "officialId": "jenny-shipley",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit; attended Global Forum on Reinventing Government.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-02-12",
+      "startDate": "1999-02-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -10126,21 +10167,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-03-30",
+      "endDate": "1995-03-29",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "jim-bolger--1995-03-22--USA",
+      "id": "jim-bolger--1995-03-25--USA",
       "officialId": "jim-bolger",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-03-22",
+      "startDate": "1995-03-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10888,19 +10933,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-14",
+      "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "john-key--2010-04-11--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "john-key--2010-04-12--USA",
       "officialId": "john-key",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-11",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -11241,21 +11290,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-07-24",
+      "endDate": "2011-07-22",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "john-key--2011-07-20--USA",
+      "id": "john-key--2011-07-22--USA",
       "officialId": "john-key",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-07-20",
+      "startDate": "2011-07-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11950,19 +12003,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-01-05",
+      "endDate": "2014-01-02",
       "engagements": ["Met President Barack Obama"],
-      "eventName": null,
-      "id": "john-key--2014-01-01--USA",
+      "eventName": "Informal meeting at Kanoehe Bay, Hawaii.",
+      "id": "john-key--2014-01-02--USA",
       "officialId": "john-key",
-      "purpose": "Visit to United States",
+      "purpose": "Informal meeting at Kanoehe Bay, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-01-01",
+      "startDate": "2014-01-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12106,19 +12163,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-06-22",
+      "endDate": "2014-06-20",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "john-key--2014-06-18--USA",
+      "id": "john-key--2014-06-20--USA",
       "officialId": "john-key",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-06-18",
+      "startDate": "2014-06-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12540,19 +12601,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-04-02",
+      "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "john-key--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "john-key--2016-03-31--USA",
       "officialId": "john-key",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -12734,6 +12799,156 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-03-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "keith-holyoake--1961-03-03--USA",
+      "officialId": "keith-holyoake",
+      "purpose": "Informal visit; discussed Laos crisis with President Kennedy. In U.S. March 2–4.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-03-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-09-28",
+      "engagements": [],
+      "eventName": "Informal visit while attending UN General Assembly.",
+      "id": "keith-holyoake--1962-09-27--USA",
+      "officialId": "keith-holyoake",
+      "purpose": "Informal visit while attending UN General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-09-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-07-20",
+      "engagements": [],
+      "eventName": "Attended ANZUS Council meeting.",
+      "id": "keith-holyoake--1964-07-17--USA",
+      "officialId": "keith-holyoake",
+      "purpose": "Attended ANZUS Council meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-07-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "keith-holyoake--1968-10-09--USA",
+      "officialId": "keith-holyoake",
+      "purpose": "Official visit. In U.S. October 6–16; attended ANZUS Council meeting and visited Los Angeles, New York City, and Seattle.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-10-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-09-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "keith-holyoake--1969-09-15--USA",
+      "officialId": "keith-holyoake",
+      "purpose": "Official visit. In U.S. September 14–21; visited Los Angeles and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-09-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-04-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "keith-holyoake--1971-04-08--USA",
+      "officialId": "keith-holyoake",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-04-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Apia",
         "coordinates": [-171.833333333, -13.833333333],
         "countryCode": "WSM",
@@ -12811,21 +13026,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1973-10-01",
+      "endDate": "1973-09-29",
       "engagements": [],
       "eventName": null,
-      "id": "norman-kirk--1973-09-25--USA",
+      "id": "norman-kirk--1973-09-26--USA",
       "officialId": "norman-kirk",
-      "purpose": "Kirk spoke at the United Nations General Assembly and met president Richard Nixon.",
+      "purpose": "Official visit; fifth to the U.S.; first as Head of Government.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Norman_Kirk"
         }
       ],
-      "startDate": "1973-09-25",
+      "startDate": "1973-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13070,6 +13289,231 @@
       "startDate": "1974-01-06",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-06-26",
+      "engagements": [],
+      "eventName": "Led New Zealand delegation to the United Nations Conference in San Francisco.",
+      "id": "peter-fraser--1945-04-25--USA",
+      "officialId": "peter-fraser",
+      "purpose": "Led New Zealand delegation to the United Nations Conference in San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-04-25",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-muldoon--1977-11-08--USA",
+      "officialId": "robert-muldoon",
+      "purpose": "Official visit. Private visit afterwards to LaGrange (Ga.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-11-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-09-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-muldoon--1978-09-28--USA",
+      "officialId": "robert-muldoon",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-09-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-muldoon--1979-09-18--USA",
+      "officialId": "robert-muldoon",
+      "purpose": "Private visit. Opened new Chancery.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-09-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-07-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-muldoon--1981-07-23--USA",
+      "officialId": "robert-muldoon",
+      "purpose": "Private visit. Met with President Reagan July 24; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-07-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-02-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-muldoon--1984-02-22--USA",
+      "officialId": "robert-muldoon",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-02-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1951-02-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "sidney-holland--1951-02-05--USA",
+      "officialId": "sidney-holland",
+      "purpose": "Met with President Truman February 8 while returning from a Commonwealth conference in London.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1951-02-05",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1953-05-20",
+      "engagements": [],
+      "eventName": "Met with President Eisenhower en route to London for the coronation of Queen Elizabeth II.",
+      "id": "sidney-holland--1953-05-17--USA",
+      "officialId": "sidney-holland",
+      "purpose": "Met with President Eisenhower en route to London for the coronation of Queen Elizabeth II.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1953-05-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-01-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "sidney-holland--1955-01-20--USA",
+      "officialId": "sidney-holland",
+      "purpose": "Unofficial visit. Left New York City January 27.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-01-20",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

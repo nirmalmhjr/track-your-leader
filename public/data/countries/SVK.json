@@ -3360,6 +3360,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ivan-gasparovic--2008-10-07--USA",
+      "officialId": "ivan-gasparovic",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-10-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "id": "ivan-gasparovic--2012-05-20--USA",
+      "officialId": "ivan-gasparovic",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2012-05-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -4338,6 +4388,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-04-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "michal-kovac--1993-04-20--USA",
+      "officialId": "michal-kovac",
+      "purpose": "Attended dedication of the Holocaust Memorial Museum and met with President Clinton on April 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-04-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-06-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "michal-kovac--1994-06-20--USA",
+      "officialId": "michal-kovac",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1994-06-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "michal-kovac--1995-10-21--USA",
+      "officialId": "michal-kovac",
+      "purpose": "Attended dedication of the Czech and Slovak Museum and Library in Cedar Rapids, Iowa.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-10-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -4700,19 +4825,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-04-26",
+      "endDate": "1999-04-25",
       "engagements": ["Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "mikulas-dzurinda--1999-04-22--USA",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "mikulas-dzurinda--1999-04-23--USA",
       "officialId": "mikulas-dzurinda",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-04-22",
+      "startDate": "1999-04-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -4900,19 +5029,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-09-22",
+      "endDate": "1999-09-21",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mikulas-dzurinda--1999-09-19--USA",
+      "id": "mikulas-dzurinda--1999-09-21--USA",
       "officialId": "mikulas-dzurinda",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-09-19",
+      "startDate": "1999-09-21",
       "statusHint": null,
       "type": "conference"
     },
@@ -5055,8 +5188,12 @@
       "eventName": null,
       "id": "mikulas-dzurinda--1999-11-07--USA",
       "officialId": "mikulas-dzurinda",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7468,18 +7605,22 @@
       "endDate": "2004-03-29",
       "engagements": [],
       "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "mikulas-dzurinda--2004-03-29--USA",
+      "id": "mikulas-dzurinda--2004-03-27--USA",
       "officialId": "mikulas-dzurinda",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Working visit. Attended NATO Accession ceremony.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-03-29",
+      "startDate": "2004-03-27",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8290,13 +8431,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-03-15",
+      "endDate": "2006-03-13",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "mikulas-dzurinda--2006-03-12--USA",
       "officialId": "mikulas-dzurinda",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8643,16 +8788,20 @@
       "endDate": "2019-05-03",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "peter-pellegrini--2019-05-02--USA",
+      "id": "peter-pellegrini--2019-05-01--USA",
       "officialId": "peter-pellegrini",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-05-02",
+      "startDate": "2019-05-01",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9537,17 +9686,21 @@
       },
       "endDate": "2024-07-11",
       "engagements": [],
-      "eventName": null,
-      "id": "peter-pellegrini--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "peter-pellegrini--2024-07-10--USA",
       "officialId": "peter-pellegrini",
-      "purpose": "NATO Summit Washington 2024",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Peter_Pellegrini"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -16723,6 +16876,56 @@
       "startDate": "2025-12-17",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "rudolf-schuster--2002-06-07--USA",
+      "officialId": "rudolf-schuster",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2002-06-07",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "rudolf-schuster--2003-04-08--USA",
+      "officialId": "rudolf-schuster",
+      "purpose": "Working visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-04-08",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

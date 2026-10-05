@@ -36,33 +36,6 @@
       "wikidataId": "Q57352"
     },
     {
-      "aliases": [],
-      "countryCode": "BHR",
-      "fullName": "Isa bin Salman Al Khalifa",
-      "id": "isa-bin-salman-al-khalifa",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "1999-02-08",
-          "id": "isa-bin-salman-al-khalifa-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1999-01-20",
-          "title": "Emir"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": ["Isa II bin Salman Al Khalifa"],
       "countryCode": "BHR",
       "fullName": "Isa II of Bahrain",
@@ -1048,6 +1021,33 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "BHR",
+      "fullName": "Sheikh Haya Rashed al-Khalifa",
+      "id": "sheikh-haya-rashed-al-khalifa",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "2006-09-19",
+          "id": "sheikh-haya-rashed-al-khalifa-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2006-09-19",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     }
   ],
   "trips": [
@@ -1935,13 +1935,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-05-13",
+      "endDate": "2001-05-08",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "hamad-ii-of-bahrain--2001-05-06--USA",
       "officialId": "hamad-ii-of-bahrain",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2665,8 +2669,12 @@
       "eventName": null,
       "id": "hamad-ii-of-bahrain--2003-02-03--USA",
       "officialId": "hamad-ii-of-bahrain",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3335,19 +3343,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-12-05",
+      "endDate": "2004-11-29",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "hamad-ii-of-bahrain--2004-11-28--USA",
+      "id": "hamad-ii-of-bahrain--2004-11-29--USA",
       "officialId": "hamad-ii-of-bahrain",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-11-28",
+      "startDate": "2004-11-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4835,13 +4847,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-04-02",
+      "endDate": "2008-03-25",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "hamad-ii-of-bahrain--2008-03-22--USA",
       "officialId": "hamad-ii-of-bahrain",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10693,52 +10709,52 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amman",
-        "coordinates": [35.926084, 31.930983],
-        "countryCode": "JOR",
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
         "precision": "country",
-        "region": "Asia"
+        "region": "Americas"
       },
-      "endDate": "1999-01-21",
+      "endDate": "1983-07-22",
       "engagements": [],
-      "eventName": "Arab League Summit",
-      "id": "isa-bin-salman-al-khalifa--1999-01-20--JOR",
-      "officialId": "isa-bin-salman-al-khalifa",
-      "purpose": "Attended Arab League Summit",
+      "eventName": null,
+      "id": "isa-ii-of-bahrain--1983-07-17--USA",
+      "officialId": "isa-ii-of-bahrain",
+      "purpose": "State visit.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "1999-01-20",
+      "startDate": "1983-07-17",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amman",
-        "coordinates": [35.926084, 31.930983],
-        "countryCode": "JOR",
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
         "precision": "country",
-        "region": "Asia"
+        "region": "Europe"
       },
-      "endDate": "1999-02-08",
+      "endDate": "1984-04-13",
       "engagements": [],
       "eventName": null,
-      "id": "isa-bin-salman-al-khalifa--1999-02-08--JOR",
-      "officialId": "isa-bin-salman-al-khalifa",
-      "purpose": "Visit to Jordan",
+      "id": "isa-ii-of-bahrain--1984-04-10--GBR",
+      "officialId": "isa-ii-of-bahrain",
+      "purpose": "Visit to United Kingdom",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
         }
       ],
-      "startDate": "1999-02-08",
+      "startDate": "1984-04-10",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10852,18 +10868,22 @@
       "endDate": "1991-10-15",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "isa-ii-of-bahrain--1991-10-12--USA",
+      "id": "isa-ii-of-bahrain--1991-10-15--USA",
       "officialId": "isa-ii-of-bahrain",
-      "purpose": "Visit to United States",
+      "purpose": "State visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-10-12",
+      "startDate": "1991-10-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11002,16 +11022,20 @@
       "endDate": "1998-06-03",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "isa-ii-of-bahrain--1998-05-29--USA",
+      "id": "isa-ii-of-bahrain--1998-05-31--USA",
       "officialId": "isa-ii-of-bahrain",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-05-29",
+      "startDate": "1998-05-31",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11064,6 +11088,106 @@
       "startDate": "1998-12-06",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amman",
+        "coordinates": [35.926084, 31.930983],
+        "countryCode": "JOR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1999-01-21",
+      "engagements": [],
+      "eventName": "Arab League Summit",
+      "id": "isa-ii-of-bahrain--1999-01-20--JOR",
+      "officialId": "isa-ii-of-bahrain",
+      "purpose": "Attended Arab League Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-01-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amman",
+        "coordinates": [35.926084, 31.930983],
+        "countryCode": "JOR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1999-02-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "isa-ii-of-bahrain--1999-02-08--JOR",
+      "officialId": "isa-ii-of-bahrain",
+      "purpose": "Visit to Jordan",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-02-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-09-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "salman-bin-hamad-crown-prince-of-bahrain--2019-09-15--USA",
+      "officialId": "salman-bin-hamad-crown-prince-of-bahrain",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2019-09-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-09-19",
+      "engagements": [],
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "sheikh-haya-rashed-al-khalifa--2006-09-19--USA",
+      "officialId": "sheikh-haya-rashed-al-khalifa",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2006-09-19",
+      "statusHint": null,
+      "type": "conference"
     }
   ]
 }

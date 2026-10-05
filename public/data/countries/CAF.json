@@ -639,7 +639,7 @@
           "url": "https://en.wikipedia.org/wiki/F%C3%A9lix_Moloua"
         }
       ],
-      "summary": "Félix Moloua (born 1 June 1957) is a Central African politician and mathematician who has served as the prime minister of the Central African Republic since 7 February 2022. He was the previous minister of planning, economy and cooperation of the Central African Republic.",
+      "summary": "Félix Moloua (born 1 June 1957) is a Central African politician and mathematician who has served as the prime minister of the Central African Republic from 7 February 2022 and 12 May 2026. He was the previous minister of planning, economy and cooperation of the Central African Republic.",
       "wikidataId": "Q88310768"
     },
     {
@@ -2971,12 +2971,20 @@
       "wikidataId": "Q108292459"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Arnaud Djoubane Abazene",
+        "Arnaud Djoubane Abazène",
+        "Arnaud Djoubane-Abazène",
+        "Arnaud Djoubaye Abazene",
+        "Arnaud Djoubaye-Abazene",
+        "Arnauld Djoubaye Abazène",
+        "Djoubaye Abazene"
+      ],
       "countryCode": "CAF",
-      "fullName": "Arnaud Djoubaye-Abazene",
+      "fullName": "Arnaud Djoubaye Abazène",
       "id": "arnaud-djoubaye-abazene",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Le-ministre-dEtat-en-charge-de-la-justice-Arnaud-Djoubaye-Abazene-copyright-CNC.jpg?width=160",
       "positions": [
         {
           "categories": ["junior_minister"],
@@ -2992,10 +3000,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/central-african-republic/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Arnaud_Djoubaye_Abaz%C3%A8ne"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Arnaud Djoubaye Abazène (born 20 October 1968) is a Central African politician from Vakaga who is currently serving as the minister of justice and the founder of RPRC.",
+      "wikidataId": "Q108782689"
     },
     {
       "aliases": [],
@@ -3739,13 +3751,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-10-22",
+      "endDate": "1995-10-19",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "ange-felix-patasse--1995-10-19--USA",
       "officialId": "ange-felix-patasse",
-      "purpose": "Visit to United States",
+      "purpose": "Attended Africare dinner with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8574,17 +8590,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "faustin-archange-touadera--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "faustin-archange-touadera--2022-12-13--USA",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },

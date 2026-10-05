@@ -2581,6 +2581,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-10-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmed-sekou-toure--1959-10-26--USA",
+      "officialId": "ahmed-sekou-toure",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-10-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmed-sekou-toure--1962-10-10--USA",
+      "officialId": "ahmed-sekou-toure",
+      "purpose": "Informal visit. In U.S. October 9–12; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-10-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-08-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmed-sekou-toure--1979-08-08--USA",
+      "officialId": "ahmed-sekou-toure",
+      "purpose": "Private visit. Met with President Carter August 8. Also visited Los Angeles, Denver, Pittsburgh, and New York City. Departed U.S. August 15.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-08-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-07-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmed-sekou-toure--1982-06-26--USA",
+      "officialId": "ahmed-sekou-toure",
+      "purpose": "Private visit. Met with President Reagan June 30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-06-26",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ouagadougou",
         "coordinates": [-1.5275, 12.368611111],
         "countryCode": "BFA",
@@ -2942,13 +3042,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-08-02",
+      "endDate": "2011-07-29",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "alpha-conde--2011-07-29--USA",
       "officialId": "alpha-conde",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4275,11 +4379,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "alpha-conde--2014-08-05--USA",
       "officialId": "alpha-conde",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4573,19 +4681,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-04-19",
+      "endDate": "2015-04-15",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
-      "eventName": "African Union (AU) Summit",
-      "id": "alpha-conde--2015-04-13--USA",
+      "eventName": "Attended the Africa Leaders Ebola Meeting",
+      "id": "alpha-conde--2015-04-15--USA",
       "officialId": "alpha-conde",
-      "purpose": "Attended African Union (AU) Summit",
+      "purpose": "Attended the Africa Leaders Ebola Meeting",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-13",
+      "startDate": "2015-04-15",
       "statusHint": null,
       "type": "summit"
     },

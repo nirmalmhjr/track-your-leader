@@ -176,9 +176,18 @@
           "title": "President of Mauritius"
         },
         {
-          "categories": ["minister"],
+          "categories": ["deputy_leader"],
           "endDate": "2000-09-17",
           "id": "kailash-purryag-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1997-12-22",
+          "title": "Deputy Prime Minister of Mauritius"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "2000-09-17",
+          "id": "kailash-purryag-p3",
           "ministry": "Ministry of Foreign Affairs of Mauritius",
           "portfolio": "foreign_affairs",
           "startDate": "1997-07-01",
@@ -1726,8 +1735,12 @@
       "eventName": null,
       "id": "anerood-jugnauth--1991-06-04--USA",
       "officialId": "anerood-jugnauth",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Private visit to New York afterward.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2424,21 +2437,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-06-26",
+      "endDate": "2003-06-27",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "anerood-jugnauth--2003-06-22--USA",
+      "id": "anerood-jugnauth--2003-06-23--USA",
       "officialId": "anerood-jugnauth",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Also attended United States-Africa Business Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-06-22",
+      "startDate": "2003-06-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -4826,17 +4843,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "navin-ramgoolam--2014-08-02--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "navin-ramgoolam--2014-08-05--USA",
       "officialId": "navin-ramgoolam",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-02",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -6036,17 +6057,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "pravind-jugnauth--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "pravind-jugnauth--2022-12-13--USA",
       "officialId": "pravind-jugnauth",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -6199,6 +6224,131 @@
       "startDate": "2024-07-24",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-05-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "seewoosagur-ramgoolam--1968-05-08--USA",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Informal visit. Afterwards visited Cape Kennedy. Departed U.S. May 10.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-05-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-09-18",
+      "engagements": [],
+      "eventName": "Met with President Nixon in New York City while attending a U.N. General Assembly session.",
+      "id": "seewoosagur-ramgoolam--1969-09-18--USA",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Met with President Nixon in New York City while attending a U.N. General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-09-18",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "seewoosagur-ramgoolam--1970-10-24--USA",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-09-30",
+      "engagements": [],
+      "eventName": "Private visit while attending U.N. General Assembly session.",
+      "id": "seewoosagur-ramgoolam--1975-09-30--USA",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Private visit while attending U.N. General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-09-30",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "seewoosagur-ramgoolam--1981-10-12--USA",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Private visit. Met with President Reagan October 16.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-10-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

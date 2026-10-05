@@ -753,13 +753,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-06-15",
+      "endDate": "1990-06-12",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "amata-kabua--1990-06-12--USA",
       "officialId": "amata-kabua",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -828,13 +832,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-10-29",
+      "endDate": "1990-10-27",
       "engagements": [],
-      "eventName": "Pacific Island Nations-United States Summit",
+      "eventName": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "id": "amata-kabua--1990-10-27--USA",
       "officialId": "amata-kabua",
-      "purpose": "Attended Pacific Island Nations-United States Summit",
+      "purpose": "Attended Pacific Island Nations-United States Summit in Honolulu, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -953,19 +961,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-09-27",
+      "endDate": "1991-09-24",
       "engagements": ["Met President George H.W. Bush"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "amata-kabua--1991-09-23--USA",
+      "eventName": "Met with President Bush while attending the U.N. General Assembly in New York City.",
+      "id": "amata-kabua--1991-09-24--USA",
       "officialId": "amata-kabua",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-09-23",
+      "startDate": "1991-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -2034,21 +2046,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-09-27",
+      "endDate": "2022-09-28",
       "engagements": [],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "david-kabua--2022-09-19--USA",
+      "eventName": "Attended the U.S.-Pacific Island Country Summit.",
+      "id": "david-kabua--2022-09-28--USA",
       "officialId": "david-kabua",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Attended the U.S.-Pacific Island Country Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-09-19",
+      "startDate": "2022-09-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -2125,6 +2141,31 @@
         }
       ],
       "startDate": "2023-09-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-09-25",
+      "engagements": [],
+      "eventName": "Attended the Pacific Islands Countries Summit.",
+      "id": "david-kabua--2023-09-25--USA",
+      "officialId": "david-kabua",
+      "purpose": "Attended the Pacific Islands Countries Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2023-09-25",
       "statusHint": null,
       "type": "summit"
     },
@@ -2990,18 +3031,22 @@
       "endDate": "2019-05-21",
       "engagements": ["Met President Donald Trump"],
       "eventName": "United States-Freely Associated States (FAS) Expanded Bilateral Meeting",
-      "id": "hilda-heine--2019-05-20--USA",
+      "id": "hilda-heine--2019-05-21--USA",
       "officialId": "hilda-heine",
-      "purpose": "Attended United States-Freely Associated States (FAS) Expanded Bilateral Meeting",
+      "purpose": "Working Visit (Leaders of the Freely Associated States).",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-05-20",
+      "startDate": "2019-05-21",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3465,19 +3510,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-09-27",
+      "endDate": "2024-09-24",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "hilda-heine--2024-09-25--USA",
+      "eventName": "Met with President Biden at the UN General Assembly in New York City.",
+      "id": "hilda-heine--2024-09-24--USA",
       "officialId": "hilda-heine",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Biden at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-09-25",
+      "startDate": "2024-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -3764,13 +3813,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-11-24",
+      "endDate": "1998-11-23",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "imata-kabua--1998-11-23--USA",
       "officialId": "imata-kabua",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton at Agana, Guam.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3778,7 +3831,7 @@
       ],
       "startDate": "1998-11-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

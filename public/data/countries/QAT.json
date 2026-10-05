@@ -1346,31 +1346,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1997-06-14",
-      "engagements": ["Met President Bill Clinton"],
-      "eventName": null,
-      "id": "hamad-bin-khalifa-al-thani--1997-06-09--USA",
-      "officialId": "hamad-bin-khalifa-al-thani",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1997-06-09",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Dakar",
         "coordinates": [-17.432, 14.672555555],
         "countryCode": "SEN",
@@ -1384,6 +1359,35 @@
       "officialId": "hamad-bin-khalifa-al-thani",
       "purpose": "Visit to Senegal",
       "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1997-06-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1997-06-13",
+      "engagements": ["Met President Bill Clinton"],
+      "eventName": null,
+      "id": "hamad-bin-khalifa-al-thani--1997-06-10--USA",
+      "officialId": "hamad-bin-khalifa-al-thani",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2686,16 +2690,20 @@
       "endDate": "2001-10-05",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "hamad-bin-khalifa-al-thani--2001-10-01--USA",
+      "id": "hamad-bin-khalifa-al-thani--2001-10-02--USA",
       "officialId": "hamad-bin-khalifa-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-10-01",
+      "startDate": "2001-10-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3461,16 +3469,20 @@
       "endDate": "2003-05-09",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "hamad-bin-khalifa-al-thani--2003-05-07--USA",
+      "id": "hamad-bin-khalifa-al-thani--2003-05-08--USA",
       "officialId": "hamad-bin-khalifa-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-05-07",
+      "startDate": "2003-05-08",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7162,13 +7174,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-10-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7482,16 +7498,20 @@
       "endDate": "2011-04-14",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "hamad-bin-khalifa-al-thani--2011-04-08--USA",
+      "id": "hamad-bin-khalifa-al-thani--2011-04-13--USA",
       "officialId": "hamad-bin-khalifa-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-04-08",
+      "startDate": "2011-04-13",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8744,13 +8764,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-04-24",
+      "endDate": "2013-04-23",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "hamad-bin-khalifa-al-thani--2013-04-23--USA",
       "officialId": "hamad-bin-khalifa-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8759,6 +8783,81 @@
       "startDate": "2013-04-23",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-05-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "hamad-bin-khalifa-al-thani--2015-05-13--USA",
+      "officialId": "hamad-bin-khalifa-al-thani",
+      "purpose": "Attended a Summit at Camp David, MD, for Gulf Cooperation Council Members on Countering Violent Extremism.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2015-05-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1984-04-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "khalifa-bin-hamad-al-thani--1984-04-22--JPN",
+      "officialId": "khalifa-bin-hamad-al-thani",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1984-04-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1985-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "khalifa-bin-hamad-al-thani--1985-11-12--GBR",
+      "officialId": "khalifa-bin-hamad-al-thani",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1985-11-12",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10050,13 +10149,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-02-26",
+      "endDate": "2015-02-24",
       "engagements": ["Met President Barack Obama", "Signed agreements"],
       "eventName": null,
       "id": "tamim-bin-hamad-al-thani--2015-02-24--USA",
       "officialId": "tamim-bin-hamad-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11917,19 +12020,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-04-13",
+      "endDate": "2018-04-10",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "tamim-bin-hamad-al-thani--2018-04-06--USA",
+      "id": "tamim-bin-hamad-al-thani--2018-04-10--USA",
       "officialId": "tamim-bin-hamad-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-06",
+      "startDate": "2018-04-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12798,19 +12905,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-07-11",
+      "endDate": "2019-07-12",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "tamim-bin-hamad-al-thani--2019-07-08--USA",
+      "id": "tamim-bin-hamad-al-thani--2019-07-07--USA",
       "officialId": "tamim-bin-hamad-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-07-08",
+      "startDate": "2019-07-07",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13435,19 +13546,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-02-01",
+      "endDate": "2022-01-31",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "tamim-bin-hamad-al-thani--2022-01-30--USA",
+      "id": "tamim-bin-hamad-al-thani--2022-01-31--USA",
       "officialId": "tamim-bin-hamad-al-thani",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-01-30",
+      "startDate": "2022-01-31",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13593,13 +13708,17 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2022-05-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -15309,27 +15428,30 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
-        "coordinates": [-0.1276, 51.5072],
+        "city": "Buckingham Palace",
+        "coordinates": [-0.142, 51.501],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-12-05",
+      "endDate": "2024-12-04",
       "engagements": ["Met Prime Minister Keir Starmer", "Signed agreements"],
       "eventName": null,
-      "id": "tamim-bin-hamad-al-thani--2024-12-02--GBR",
+      "id": "tamim-bin-hamad-al-thani--2024-12-03--GBR",
       "officialId": "tamim-bin-hamad-al-thani",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Charles_III"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-12-02",
+      "startDate": "2024-12-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

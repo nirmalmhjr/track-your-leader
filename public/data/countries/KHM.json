@@ -2670,6 +2670,60 @@
     {
       "aliases": [],
       "countryCode": "KHM",
+      "fullName": "Acting Prime Minister Sirik Matak",
+      "id": "acting-prime-minister-sirik-matak",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "1971-08-11",
+          "id": "acting-prime-minister-sirik-matak-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1971-08-10",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "KHM",
+      "fullName": "Chief of State Cheng Heng",
+      "id": "chief-of-state-cheng-heng",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "1970-10-25",
+          "id": "chief-of-state-cheng-heng-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1970-10-24",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "KHM",
       "fullName": "Mao Havannall",
       "id": "mao-havannall",
       "party": null,
@@ -2723,6 +2777,56 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-08-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "acting-prime-minister-sirik-matak--1971-08-10--USA",
+      "officialId": "acting-prime-minister-sirik-matak",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-08-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "chief-of-state-cheng-heng--1970-10-24--USA",
+      "officialId": "chief-of-state-cheng-heng",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.; met privately with President Nixon October 25.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -7322,19 +7426,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-02-17",
+      "endDate": "2016-02-18",
       "engagements": ["Signed agreements"],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2016-02-15--USA",
+      "eventName": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
+      "id": "hun-sen--2016-02-16--USA",
       "officialId": "hun-sen",
-      "purpose": "Attended United States-Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the ASEAN Leaders Summit at Sunnylands, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-02-15",
+      "startDate": "2016-02-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -8873,19 +8981,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-05-15",
+      "endDate": "2022-05-13",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2022-05-10--USA",
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "hun-sen--2022-05-12--USA",
       "officialId": "hun-sen",
-      "purpose": "Attended United States-Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-10",
+      "startDate": "2022-05-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -9169,6 +9281,31 @@
       "startDate": "2023-05-09",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "norodom-kantol--1963-11-24--USA",
+      "officialId": "norodom-kantol",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -9650,6 +9787,1777 @@
       "startDate": "1997-07-04",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2004-10-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2004-10-18--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit with President Hu on 18 October, prior to King Sihamoni's coronation on 29 October",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2004-10-18",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2005-08-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2005-08-10--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to China",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2005-08-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vientiane",
+        "coordinates": [102.63, 17.98],
+        "countryCode": "LAO",
+        "region": "Asia"
+      },
+      "endDate": "2006-03-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-03-14--LAO",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Laos",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-03-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [105.84117, 21.0245],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2006-03-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-03-16--VNM",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Vietnam",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-03-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [101.695277777, 3.147777777],
+        "countryCode": "MYS",
+        "region": "Asia"
+      },
+      "endDate": "2006-03-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-03-27--MYS",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Malaysia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-03-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [103.8, 1.3],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-03-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-03-29--SGP",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Singapore",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-03-29",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pyongyang",
+        "coordinates": [125.7475, 39.016666666],
+        "countryCode": "PRK",
+        "region": "Asia"
+      },
+      "endDate": "2006-04-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-04-17--PRK",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to North Korea",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-04-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bangkok",
+        "coordinates": [100.516666666, 13.75],
+        "countryCode": "THA",
+        "region": "Asia"
+      },
+      "endDate": "2006-06-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-06-11--THA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to commemorate the 60th anniversary of King Bhumibol Adulyadej's accession to the throne, including royal banquet",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-06-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Prague",
+        "coordinates": [14.421388888, 50.0875],
+        "countryCode": "CZE",
+        "region": "Europe"
+      },
+      "endDate": "2006-09-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-09-18--CZE",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Czechia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-09-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bratislava",
+        "coordinates": [17.1093063, 48.1516988],
+        "countryCode": "SVK",
+        "region": "Europe"
+      },
+      "endDate": "2006-09-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-09-25--SVK",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Slovakia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-09-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2006-11-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-11-20--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to France",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-11-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bonn",
+        "coordinates": [7.102222222, 50.735277777],
+        "countryCode": "DEU",
+        "region": "Europe"
+      },
+      "endDate": "2006-12-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-12-14--DEU",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-12-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "He Fei",
+        "coordinates": [117.28083, 31.86389],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2006-12-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2006-12-24--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2006-12-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Zürich",
+        "coordinates": [8.541111111, 47.374444444],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2007-06-01",
+      "engagements": [
+        "Visits to Bern on 29 May, including official reception by President Calmy-Rey and to Zürich on 31 May"
+      ],
+      "eventName": null,
+      "id": "norodom-sihamoni--2007-05-27--CHE",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Private/ Official visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2007-05-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2007-12-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2007-11-28--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2007-11-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bandar Seri Begawan",
+        "coordinates": [114.916666666, 4.916666666],
+        "countryCode": "BRN",
+        "region": "Asia"
+      },
+      "endDate": "2008-03-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2008-03-24--BRN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Brunei",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2008-03-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [105.84117, 21.0245],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2008-06-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2008-06-24--VNM",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2008-06-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2008-08-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2008-08-01--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the 2008 Summer Olympics",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2008-08-01",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Quebec",
+        "coordinates": [-72, 52],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "2008-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2008-10-15--CAN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the XII summit of the Organisation internationale de la Francophonie",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2008-10-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2009-02-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2009-02-04--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2009-02-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2009-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2009-09-03--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Vice President Xi on 16 September",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2009-09-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2010-03-31",
+      "engagements": [
+        "Visits to Fujian province, including the cities of Fuzhou on 1 March, Quanzhou on 3 March."
+      ],
+      "eventName": null,
+      "id": "norodom-sihamoni--2010-02-22--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Congress Chairman Wu on 23 February.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2010-02-22",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2010-03-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2010-03-11--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit for the induction ceremony of King Sihamoni into the Academy of Inscriptions and Belles-Lettres",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2010-03-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Prague",
+        "coordinates": [14.421388888, 50.0875],
+        "countryCode": "CZE",
+        "region": "Europe"
+      },
+      "endDate": "2010-03-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2010-03-14--CZE",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Private/ official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2010-03-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.691666666, 35.689444444],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2010-05-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2010-05-16--JPN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "State visit from 16 – 20 May in Tokyo, then visit to the Nenbutsushu Sampozan Muryojuji Head Temple from May 20 to 22 in Kato",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2010-05-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2010-10-10",
+      "engagements": ["Attendance of the Shanghai World Expo on 1 October"],
+      "eventName": null,
+      "id": "norodom-sihamoni--2010-09-27--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Chairman Wu on 2 October.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2010-09-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2011-05-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2011-04-18--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2011-04-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2011-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2011-08-08--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2011-08-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2012-02-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2012-01-19--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the Premier on 20 January",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2012-01-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [105.84117, 21.0245],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2012-09-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2012-09-24--VNM",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Vietnam",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2012-09-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2012-10-17",
+      "engagements": [
+        "Condolence visit from Premier Wen on the same day.",
+        "Further visits from the Premier, along with President Hu on 17 October."
+      ],
+      "eventName": null,
+      "id": "norodom-sihamoni--2012-10-15--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Private/ official visit, accompanied by Prime Minister Hun Sen to escort the body of former King Norodom Sihanouk who died in Beijing on 15…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2012-10-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2013-03-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2013-02-21--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the Premier on 21 February.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2013-02-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2013-09-11",
+      "engagements": [
+        "Attendance of the Asian Youth Games on 16 August in Nanjing, including meeting with provincial and local leaders"
+      ],
+      "eventName": null,
+      "id": "norodom-sihamoni--2013-08-12--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the Foreign Minister on 1 September.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2013-08-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2014-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2014-02-19--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; state dinner on 21 March",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2014-02-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2014-05-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2014-04-19--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to the Organisation internationale de la Francophonie on 7 May and attendance at a special function organized by the Académi…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2014-04-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2014-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2014-08-25--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the President and First Lady on 25 September",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2014-08-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.691666666, 35.689444444],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2014-12-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2014-12-08--JPN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the VI World Buddhist Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2014-12-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2015-05-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2015-03-05--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Chairman Yu on 17 April",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2015-03-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2015-09-27",
+      "engagements": [
+        "Attendance of the Victory Day Parade on 3 September in Beijing hosted by the First Couple.",
+        "Visits to Jiangxi province, namely the cities of Nanchang and Jiujiang between 7 and 9 September"
+      ],
+      "eventName": null,
+      "id": "norodom-sihamoni--2015-08-14--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with President Xi on 31 August.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2015-08-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2015-12-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2015-11-22--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the United Nations Climate Change Conference (COP 21)",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2015-11-22",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vientiane",
+        "coordinates": [102.63, 17.98],
+        "countryCode": "LAO",
+        "region": "Asia"
+      },
+      "endDate": "2015-12-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2015-12-21--LAO",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2015-12-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2016-06-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2016-06-02--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to China",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2016-06-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2016-08-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2016-07-05--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2016-07-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2017-04-11",
+      "engagements": ["Visits to Hangzhou and Ningbo between 5 and 8 April"],
+      "eventName": null,
+      "id": "norodom-sihamoni--2017-03-03--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the President and First Lady on 6 March in Beijing.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2017-03-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2017-10-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2017-07-23--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2017-07-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2018-04-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2018-02-22--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with State Councilor Yang on 25 February",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2018-02-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kato",
+        "coordinates": [134.973361111, 34.918611111],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2018-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2018-04-06--JPN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the commemoration of the 4th International Buddhist Day and the inauguration ceremony of Nalanda Mahavihara (monas…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2018-04-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2018-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2018-09-10--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the President and First Lady on 19 September and national day reception on 1 October",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2018-09-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [105.84117, 21.0245],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2018-12-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2018-12-18--VNM",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Visit to Vietnam",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2018-12-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2019-04-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2019-03-17--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2019-03-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2019-05-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2019-05-13--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the Conference on Dialogue of Asian Civilizations on 15 May; formal meeting held with President Xi on 14 May.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2019-05-13",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2019-05-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2019-05-23--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the 25th Anniversary of the International Coordinating Committee for the Safeguarding and Development of the Histo…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2019-05-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2019-09-10--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Chairman Wang on 27 September",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2019-09-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.691666666, 35.689444444],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2019-10-21--JPN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the enthronement ceremony of Emperor Naruhito on 22 October, along with meeting the Prime Minister, Shinzo Abe",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2019-10-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2020-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2020-04-01--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Councilor/ Foreign Minister on 8 May",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2020-04-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Yan'an",
+        "coordinates": [109.48628, 36.59523],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-08",
+      "engagements": [
+        "Attendance of Friendship Medal presentation ceremony to Queen-Mother Norodom Monineath, along with courtesy call with the President and First Lady on 6 November"
+      ],
+      "eventName": null,
+      "id": "norodom-sihamoni--2020-10-06--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; official visits to Yan'an and Xi'an on 1 November meeting with provincial leaders.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2020-10-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Shanghai",
+        "coordinates": [121.469166666, 31.2325],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2021-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2021-03-01--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; official visits to Shanghai and Jiaxing on 16 March.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2021-03-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2021-09-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2021-08-16--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2021-08-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2021-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2021-11-10--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to commemorate the 75th anniversary of UNESCO on 12 November",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2021-11-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2022-02-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2022-02-03--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit to attend the 2022 Winter Olympics, including the state banquet on 5 February.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2022-02-03",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2022-04-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2022-03-04--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2022-03-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2022-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2022-08-21--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; Official reception commemorating the 100th anniversary since the birth of former King Norodom Sihanouk on 15 September.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2022-08-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2023-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2023-02-12--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with the President and First Lady on 24 February",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2023-02-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [77.208888888, 28.613888888],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2023-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2023-05-29--IND",
+      "officialId": "norodom-sihamoni",
+      "purpose": "State visit; to commemorate 70th anniversary of Indo-Cambodian diplomatic relations",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2023-05-29",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2023-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2023-08-28--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with President Xi on 23 September alongside attendance for the Asian Games in Hangzhou",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2023-08-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [2.352222222, 48.856666666],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2023-11-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2023-11-12--FRA",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit; meeting with President Macron on 13 November and attendance of UNESCO's 4th Intergovernmental Conference on Angkor on 15 No…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2023-11-12",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Fuzhou",
+        "coordinates": [119.291666666, 26.076944444],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2023-12-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2023-12-19--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Official visit; attendance of the 30th Anniversary Exhibition of the 3820 Strategic Plan (also referred to as the Strategic Vision for Fuzh…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2023-12-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.407526, 39.90403],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2024-03-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2024-02-26--CHN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "Routine visit; courtesy call with Vice President Han on 21 March",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2024-02-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Osaka",
+        "coordinates": [135.502111111, 34.69375],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2024-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihamoni--2024-04-05--JPN",
+      "officialId": "norodom-sihamoni",
+      "purpose": "State visit and to partake in International Buddhist Day celebrations on 8 April",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Norodom_Sihamoni"
+        }
+      ],
+      "startDate": "2024-04-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1953-04-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihanouk--1953-04-17--USA",
+      "officialId": "norodom-sihanouk",
+      "purpose": "En route from Europe to Cambodia; visited New York City and San Francisco. Departed U.S. April 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1953-04-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihanouk--1958-09-28--USA",
+      "officialId": "norodom-sihanouk",
+      "purpose": "Unofficial visit to Washington while attending UN General Assembly. Arrived in U.S. September 12.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-09-28",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "norodom-sihanouk--1960-09-27--USA",
+      "officialId": "norodom-sihanouk",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-09-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-09-25",
+      "engagements": [],
+      "eventName": "Met with President Kennedy in New York City while attending UN General Assembly session.",
+      "id": "norodom-sihanouk--1961-09-25--USA",
+      "officialId": "norodom-sihanouk",
+      "purpose": "Met with President Kennedy in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-09-25",
+      "statusHint": null,
+      "type": "conference"
     }
   ]
 }

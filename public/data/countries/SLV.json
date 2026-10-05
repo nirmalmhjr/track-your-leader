@@ -161,6 +161,37 @@
       "wikidataId": "Q715119"
     },
     {
+      "aliases": ["Carlos Humberto Romero Mena"],
+      "countryCode": "SLV",
+      "fullName": "Carlos Humberto Romero",
+      "id": "carlos-humberto-romero-mena",
+      "party": "National Coalition Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Humberto_Romero_President_of_the_Republic_of_El_Salvador._-_NARA_-_176138_(cropped).tiff?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1977-09-09",
+          "id": "carlos-humberto-romero-mena-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1977-09-06",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carlos_Humberto_Romero"
+        }
+      ],
+      "summary": "Carlos Humberto Romero Mena (29 February 1924 – 27 February 2017) was a Salvadoran general and politician who served as the 34th President of El Salvador from 1 July 1977 until his overthrow on 15 October 1979. Romero was the final president of the El Salvador's military dictatorship that had ruled since 1931.",
+      "wikidataId": "Q880982"
+    },
+    {
       "aliases": ["Fidel Sanchez Hernandez"],
       "countryCode": "SLV",
       "fullName": "Fidel Sánchez Hernández",
@@ -252,6 +283,33 @@
       ],
       "summary": "José Napoleón Duarte Fuentes (23 November 1925 – 23 February 1990) was a Salvadoran politician who served as the 36th President of El Salvador from 1984 to 1989 during the Salvadoran Civil War. He was mayor of San Salvador before running for president in 1972.",
       "wikidataId": "Q360283"
+    },
+    {
+      "aliases": [],
+      "countryCode": "SLV",
+      "fullName": "Lemus",
+      "id": "lemus",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1959-03-13",
+          "id": "lemus-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1959-03-10",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": ["Carlos Mauricio Funes Cartagena", "Don Wicho"],
@@ -1530,19 +1588,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-02-04",
+      "endDate": "1990-02-01",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "alfredo-cristiani--1990-01-30--USA",
+      "id": "alfredo-cristiani--1990-02-01--USA",
       "officialId": "alfredo-cristiani",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-01-30",
+      "startDate": "1990-02-01",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -1632,17 +1694,21 @@
       },
       "endDate": "1990-10-01",
       "engagements": ["Met President George H.W. Bush"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "alfredo-cristiani--1990-09-23--USA",
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "alfredo-cristiani--1990-10-01--USA",
       "officialId": "alfredo-cristiani",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-09-23",
+      "startDate": "1990-10-01",
       "statusHint": null,
       "type": "conference"
     },
@@ -1680,7 +1746,7 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-06-14",
+      "endDate": "1991-06-13",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
@@ -1688,8 +1754,12 @@
       "eventName": null,
       "id": "alfredo-cristiani--1991-06-11--USA",
       "officialId": "alfredo-cristiani",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit. Afterwards visited Miami.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1697,7 +1767,7 @@
       ],
       "startDate": "1991-06-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -1785,17 +1855,21 @@
       },
       "endDate": "1991-09-23",
       "engagements": ["Met President George H.W. Bush"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "alfredo-cristiani--1991-09-18--USA",
+      "eventName": "Met with President Bush while attending the U.N. General Assembly in New York City.",
+      "id": "alfredo-cristiani--1991-09-23--USA",
       "officialId": "alfredo-cristiani",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush while attending the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-09-18",
+      "startDate": "1991-09-23",
       "statusHint": null,
       "type": "conference"
     },
@@ -1889,7 +1963,7 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-02-25",
+      "endDate": "1992-02-24",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
@@ -1897,8 +1971,12 @@
       "eventName": null,
       "id": "alfredo-cristiani--1992-02-24--USA",
       "officialId": "alfredo-cristiani",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1906,7 +1984,7 @@
       ],
       "startDate": "1992-02-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2047,8 +2125,12 @@
       "eventName": null,
       "id": "alfredo-cristiani--1993-11-30--USA",
       "officialId": "alfredo-cristiani",
-      "purpose": "Visit to United States",
+      "purpose": "Attended working brunch with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2092,13 +2174,42 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1983-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "alvaro-magana--1983-06-16--USA",
+      "officialId": "alvaro-magana",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-06-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2004-07-13",
       "engagements": [],
       "eventName": null,
       "id": "antonio-saca--2004-07-12--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2106,7 +2217,7 @@
       ],
       "startDate": "2004-07-12",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -2272,8 +2383,12 @@
       "eventName": "Costa-Rica-El Salvador-Guatemala-Honduras-Nicaragua-United States Summit",
       "id": "antonio-saca--2005-05-10--USA",
       "officialId": "antonio-saca",
-      "purpose": "Attended Costa-Rica-El Salvador-Guatemala-Honduras-Nicaragua-United States Summit",
+      "purpose": "Working visit. Discussed Central American and Dominican Republic Free Trade Agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2281,7 +2396,7 @@
       ],
       "startDate": "2005-05-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -2397,8 +2512,12 @@
       "eventName": null,
       "id": "antonio-saca--2005-07-15--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2622,8 +2741,12 @@
       "eventName": null,
       "id": "antonio-saca--2006-02-23--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2742,13 +2865,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-09-19",
+      "endDate": "2006-09-18",
       "engagements": ["Met President George W. Bush"],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
       "id": "antonio-saca--2006-09-18--USA",
       "officialId": "antonio-saca",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2945,16 +3072,20 @@
       "endDate": "2007-02-28",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "antonio-saca--2007-02-27--USA",
+      "id": "antonio-saca--2007-02-26--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-02-27",
+      "startDate": "2007-02-26",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3375,8 +3506,12 @@
       "eventName": null,
       "id": "antonio-saca--2007-11-26--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3673,18 +3808,22 @@
       "endDate": "2008-09-24",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "antonio-saca--2008-09-22--USA",
+      "id": "antonio-saca--2008-09-24--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-22",
+      "startDate": "2008-09-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3750,8 +3889,12 @@
       "eventName": null,
       "id": "antonio-saca--2008-12-14--USA",
       "officialId": "antonio-saca",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3972,11 +4115,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "armando-calderon-sol--1994-12-09--USA",
       "officialId": "armando-calderon-sol",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4581,8 +4728,12 @@
       "eventName": "Conference on Central American Reconstruction",
       "id": "armando-calderon-sol--1998-12-09--USA",
       "officialId": "armando-calderon-sol",
-      "purpose": "Attended Conference on Central American Reconstruction and Costa Rica-El Salvador-Honduras-Nicaragua-United States Meeting",
+      "purpose": "Attended conference on Central American reconstruction at the Inter-American Development Bank.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4691,6 +4842,31 @@
       "startDate": "1999-04-17",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-humberto-romero-mena--1977-09-06--USA",
+      "officialId": "carlos-humberto-romero-mena",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -5184,8 +5360,12 @@
       "eventName": null,
       "id": "francisco-flores--2001-02-28--USA",
       "officialId": "francisco-flores",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit. Met with President Bush March 2.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5193,7 +5373,7 @@
       ],
       "startDate": "2001-02-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5734,8 +5914,12 @@
       "eventName": "Costa-Rica-El Salvador-Guatemala-Honduras-Nicaragua-United States Summit",
       "id": "francisco-flores--2003-04-10--USA",
       "officialId": "francisco-flores",
-      "purpose": "Attended Costa-Rica-El Salvador-Guatemala-Honduras-Nicaragua-United States Summit",
+      "purpose": "Working visit. Discussed negotiations for a Central American free trade agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5743,7 +5927,7 @@
       ],
       "startDate": "2003-04-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -5959,8 +6143,12 @@
       "eventName": null,
       "id": "francisco-flores--2004-05-25--USA",
       "officialId": "francisco-flores",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5969,6 +6157,156 @@
       "startDate": "2004-05-25",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-napoleon-duarte--1981-09-19--USA",
+      "officialId": "jose-napoleon-duarte",
+      "purpose": "Private visit. Met with President Reagan September 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-09-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-07-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-napoleon-duarte--1984-07-23--USA",
+      "officialId": "jose-napoleon-duarte",
+      "purpose": "Private visit. Met with President Reagan.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-07-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-05-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-napoleon-duarte--1985-05-15--USA",
+      "officialId": "jose-napoleon-duarte",
+      "purpose": "Private Visit. Met with President Reagan May 16. Departed U.S. May 25.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-05-15",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-napoleon-duarte--1985-10-30--USA",
+      "officialId": "jose-napoleon-duarte",
+      "purpose": "Private Visit. Met with President Reagan October 31.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-10-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-10-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-napoleon-duarte--1987-10-13--USA",
+      "officialId": "jose-napoleon-duarte",
+      "purpose": "State Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-10-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-03-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "lemus--1959-03-10--USA",
+      "officialId": "lemus",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-03-10",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6154,13 +6492,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-03-09",
+      "endDate": "2010-03-08",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "mauricio-funes--2010-03-08--USA",
       "officialId": "mauricio-funes",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8026,16 +8368,20 @@
       "endDate": "2014-07-25",
       "engagements": [],
       "eventName": "El Salvador-Guatemala-Honduras-United States Quadrilateral Meeting on Migration",
-      "id": "salvador-sanchez-ceren--2014-07-24--USA",
+      "id": "salvador-sanchez-ceren--2014-07-25--USA",
       "officialId": "salvador-sanchez-ceren",
-      "purpose": "Attended El Salvador-Guatemala-Honduras-United States Quadrilateral Meeting on Migration",
+      "purpose": "Discussed migration of unaccompanied minors.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-24",
+      "startDate": "2014-07-25",
       "statusHint": null,
       "type": "multilateral_meeting"
     },

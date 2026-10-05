@@ -6133,19 +6133,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-04",
+      "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "African Union (AU) Summit",
-      "id": "mohamed-ould-abdel-aziz--2014-08-02--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "mohamed-ould-abdel-aziz--2014-08-05--USA",
       "officialId": "mohamed-ould-abdel-aziz",
-      "purpose": "Attended African Union (AU) Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-02",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -9089,11 +9093,15 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
       "id": "mohamed-ould-ghazouani--2022-12-13--USA",
       "officialId": "mohamed-ould-ghazouani",
-      "purpose": "Attended the 2022 United States–Africa Leaders Summit.",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_Ould_Ghazouani"
@@ -11120,6 +11128,56 @@
       "startDate": "2026-07-14",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-12-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "moktar-ould-daddah--1960-12-12--USA",
+      "officialId": "moktar-ould-daddah",
+      "purpose": "Met President Eisenhower.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-12-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-09-28",
+      "engagements": [],
+      "eventName": "Private visit to Washington while attending session of the U.N. General Assembly.",
+      "id": "moktar-ould-daddah--1971-09-28--USA",
+      "officialId": "moktar-ould-daddah",
+      "purpose": "Private visit to Washington while attending session of the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-09-28",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",

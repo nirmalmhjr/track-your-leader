@@ -168,33 +168,6 @@
     {
       "aliases": [],
       "countryCode": "LKA",
-      "fullName": "Mahinda Rajapakse",
-      "id": "mahinda-rajapakse",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state", "head_of_government"],
-          "endDate": "2014-11-24",
-          "id": "mahinda-rajapakse-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2005-12-27",
-          "title": "President"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "LKA",
       "fullName": "Ranasinghe Premadasa",
       "id": "ranasinghe-premadasa",
       "party": "United National Party",
@@ -253,6 +226,60 @@
       ],
       "summary": "William Gopallawa was a Sri Lankan politician and statesman who served as the last Governor-General of Ceylon from 1962 to 1972. That year, Ceylon became a republic, and changed its name to Sri Lanka; he would serve as the first and only non-executive President of Sri Lanka until 1978.",
       "wikidataId": "Q205993"
+    },
+    {
+      "aliases": [],
+      "countryCode": "LKA",
+      "fullName": "Kotelawala",
+      "id": "kotelawala",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1954-12-09",
+          "id": "kotelawala-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1954-12-06",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "LKA",
+      "fullName": "Sirimavo R. D. Bandaranaike",
+      "id": "sirimavo-r-d-bandaranaike",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1971-10-19",
+          "id": "sirimavo-r-d-bandaranaike-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1971-10-19",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": ["Mohamed Uvais Mohamed Ali Sabry"],
@@ -3199,6 +3226,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-07-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "chandrika-kumaratunga--2002-07-20--USA",
+      "officialId": "chandrika-kumaratunga",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2002-07-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kuala Lumpur",
         "coordinates": [101.695277777, 3.147777777],
         "countryCode": "MYS",
@@ -4067,7 +4119,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_J._R._Jayewardene"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
         }
       ],
       "startDate": "1979-09-11",
@@ -4362,8 +4414,12 @@
       "eventName": null,
       "id": "junius-richard-jayewardene--1984-06-17--USA",
       "officialId": "junius-richard-jayewardene",
-      "purpose": "State visit",
+      "purpose": "State visit. In U.S. June 16–23; visited Williamsburg, Santa Fe, Niagara Falls, and New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_J._R._Jayewardene"
@@ -4645,6 +4701,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-12-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "kotelawala--1954-12-06--USA",
+      "officialId": "kotelawala",
+      "purpose": "Official visit. Afterwards visited Akron (Ohio), Los Angeles, San Francisco, and Honolulu (Hawaii).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-12-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New Delhi",
         "coordinates": [77.209, 28.6139],
         "countryCode": "IND",
@@ -4654,8 +4735,8 @@
       "endDate": "2005-12-30",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2005-12-27--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2005-12-27--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -4679,8 +4760,8 @@
       "endDate": "2006-04-03",
       "engagements": ["Met Prime Minister Shaukat Aziz"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2006-03-31--PAK",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2006-03-31--PAK",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Pakistan",
       "sources": [
         {
@@ -4704,8 +4785,8 @@
       "endDate": "2006-08-31",
       "engagements": ["Met Prime Minister Tony Blair"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2006-08-29--GBR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2006-08-29--GBR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
@@ -4729,8 +4810,8 @@
       "endDate": "2006-09-16",
       "engagements": [],
       "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "mahinda-rajapakse--2006-09-14--CUB",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2006-09-14--CUB",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Non-Aligned Movement (NAM) Summit",
       "sources": [
         {
@@ -4754,8 +4835,8 @@
       "endDate": "2006-09-21",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2006-09-19--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2006-09-19--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -4779,8 +4860,8 @@
       "endDate": "2006-11-29",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2006-11-25--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2006-11-25--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -4804,8 +4885,8 @@
       "endDate": "2007-02-13",
       "engagements": ["Met President Maumoon Abdul Gayoom"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-02-11--MDV",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-02-11--MDV",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Maldives",
       "sources": [
         {
@@ -4829,8 +4910,8 @@
       "endDate": "2007-03-04",
       "engagements": ["Met General Secretary Hu Jintao"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-02-26--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-02-26--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to China",
       "sources": [
         {
@@ -4854,8 +4935,8 @@
       "endDate": "2007-04-04",
       "engagements": [],
       "eventName": "South Asian Association for Regional Cooperation (SAARC) Summit",
-      "id": "mahinda-rajapakse--2007-04-03--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-04-03--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended South Asian Association for Regional Cooperation (SAARC) Summit",
       "sources": [
         {
@@ -4879,8 +4960,8 @@
       "endDate": "2007-04-22",
       "engagements": ["Met Pope Benedict XVI"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-04-20--VAT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-04-20--VAT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -4904,8 +4985,8 @@
       "endDate": "2007-06-16",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-06-13--CHE",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-06-13--CHE",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Switzerland",
       "sources": [
         {
@@ -4929,8 +5010,8 @@
       "endDate": "2007-09-26",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2007-09-22--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-09-22--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -4954,8 +5035,8 @@
       "endDate": "2007-10-14",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-10-13--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-10-13--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -4979,8 +5060,8 @@
       "endDate": "2007-10-26",
       "engagements": ["Met President Mahmoud Ahmadinejad"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-10-24--IRN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-10-24--IRN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Iran",
       "sources": [
         {
@@ -5004,8 +5085,8 @@
       "endDate": "2007-11-26",
       "engagements": [],
       "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "mahinda-rajapakse--2007-11-22--UGA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-11-22--UGA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
       "sources": [
         {
@@ -5029,8 +5110,8 @@
       "endDate": "2007-11-28",
       "engagements": ["Met Supreme Leader Ayatollah Sayyed Ali Khamenei"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-11-26--IRN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-11-26--IRN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Iran",
       "sources": [
         {
@@ -5054,8 +5135,8 @@
       "endDate": "2007-12-11",
       "engagements": ["Met Prime Minister Fukuda Yasuo"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2007-12-08--JPN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2007-12-08--JPN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Japan",
       "sources": [
         {
@@ -5079,8 +5160,8 @@
       "endDate": "2008-01-14",
       "engagements": ["Met Pope Benedict XVI"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2008-01-12--VAT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-01-12--VAT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -5104,8 +5185,8 @@
       "endDate": "2008-04-12",
       "engagements": ["Met General Secretary Hu Jintao"],
       "eventName": "Boao Forum",
-      "id": "mahinda-rajapakse--2008-04-07--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-04-07--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Boao Forum",
       "sources": [
         {
@@ -5129,8 +5210,8 @@
       "endDate": "2008-07-13",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2008-07-11--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-07-11--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -5154,8 +5235,8 @@
       "endDate": "2008-08-10",
       "engagements": ["Met General Secretary Hu Jintao"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2008-08-07--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-08-07--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to China",
       "sources": [
         {
@@ -5179,8 +5260,8 @@
       "endDate": "2008-09-25",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2008-09-23--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-09-23--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -5204,8 +5285,8 @@
       "endDate": "2008-11-14",
       "engagements": [],
       "eventName": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) Summit",
-      "id": "mahinda-rajapakse--2008-11-13--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-11-13--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) Summit",
       "sources": [
         {
@@ -5229,8 +5310,8 @@
       "endDate": "2008-12-03",
       "engagements": ["Met Pope Benedict XVI"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2008-12-01--VAT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2008-12-01--VAT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -5254,8 +5335,8 @@
       "endDate": "2009-03-03",
       "engagements": ["Met Prime Minister Pushpa Kamal Dahal"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2009-03-02--NPL",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2009-03-02--NPL",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Nepal",
       "sources": [
         {
@@ -5279,8 +5360,8 @@
       "endDate": "2009-05-18",
       "engagements": [],
       "eventName": "World Economic Forum (WEF)",
-      "id": "mahinda-rajapakse--2009-05-15--JOR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2009-05-15--JOR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended World Economic Forum (WEF)",
       "sources": [
         {
@@ -5304,8 +5385,8 @@
       "endDate": "2009-06-16",
       "engagements": ["Met Prime Minister Thein Sein"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2009-06-14--MMR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2009-06-14--MMR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Myanmar",
       "sources": [
         {
@@ -5329,8 +5410,8 @@
       "endDate": "2009-07-20",
       "engagements": [],
       "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "mahinda-rajapakse--2009-07-18--EGY",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2009-07-18--EGY",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Non-Aligned Movement (NAM) Summit",
       "sources": [
         {
@@ -5354,8 +5435,8 @@
       "endDate": "2009-09-05",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2009-09-03--LBY",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2009-09-03--LBY",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Libya",
       "sources": [
         {
@@ -5379,8 +5460,8 @@
       "endDate": "2009-10-31",
       "engagements": ["Met President Ram Baran Yadav"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2009-10-29--NPL",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2009-10-29--NPL",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Nepal",
       "sources": [
         {
@@ -5404,8 +5485,8 @@
       "endDate": "2010-01-26",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-01-25--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-01-25--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -5429,8 +5510,8 @@
       "endDate": "2010-02-11",
       "engagements": ["Met President Dmitry Medvedev", "Signed agreements"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-02-08--RUS",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-02-08--RUS",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Russia",
       "sources": [
         {
@@ -5454,8 +5535,8 @@
       "endDate": "2010-04-30",
       "engagements": [],
       "eventName": "South Asian Association for Regional Cooperation (SAARC) Summit",
-      "id": "mahinda-rajapakse--2010-04-28--BTN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-04-28--BTN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended South Asian Association for Regional Cooperation (SAARC) Summit",
       "sources": [
         {
@@ -5479,8 +5560,8 @@
       "endDate": "2010-05-19",
       "engagements": [],
       "eventName": "G15 Summit",
-      "id": "mahinda-rajapakse--2010-05-17--IRN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-05-17--IRN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended G15 Summit",
       "sources": [
         {
@@ -5504,8 +5585,8 @@
       "endDate": "2010-06-11",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-06-08--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-06-08--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -5529,8 +5610,8 @@
       "endDate": "2010-07-03",
       "engagements": ["Met President Viktor Yanukovych"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-06-29--UKR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-06-29--UKR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Ukraine",
       "sources": [
         {
@@ -5554,8 +5635,8 @@
       "endDate": "2010-07-08",
       "engagements": ["Met President Mohamed Nasheed"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-07-07--MDV",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-07-07--MDV",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Maldives",
       "sources": [
         {
@@ -5579,8 +5660,8 @@
       "endDate": "2010-09-29",
       "engagements": [],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2010-09-15--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-09-15--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -5604,8 +5685,8 @@
       "endDate": "2010-10-14",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-10-13--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-10-13--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -5629,8 +5710,8 @@
       "endDate": "2010-11-02",
       "engagements": ["Met Premier Wen Jiabao"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-10-30--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-10-30--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to China",
       "sources": [
         {
@@ -5654,8 +5735,8 @@
       "endDate": "2010-12-03",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2010-12-01--GBR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2010-12-01--GBR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
@@ -5679,8 +5760,8 @@
       "endDate": "2011-04-21",
       "engagements": ["Met Prime Minister Hasina Wajed"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2011-04-19--BGD",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2011-04-19--BGD",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Bangladesh",
       "sources": [
         {
@@ -5704,8 +5785,8 @@
       "endDate": "2011-06-21",
       "engagements": [],
       "eventName": "St. Petersburg International Economic Forum (SPIEF)",
-      "id": "mahinda-rajapakse--2011-06-17--RUS",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2011-06-17--RUS",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended St. Petersburg International Economic Forum (SPIEF)",
       "sources": [
         {
@@ -5729,8 +5810,8 @@
       "endDate": "2011-08-15",
       "engagements": ["Signed agreements"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2011-08-09--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2011-08-09--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to China",
       "sources": [
         {
@@ -5754,8 +5835,8 @@
       "endDate": "2011-09-27",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2011-09-21--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2011-09-21--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -5779,8 +5860,8 @@
       "endDate": "2011-10-28",
       "engagements": [],
       "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "mahinda-rajapakse--2011-10-26--AUS",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2011-10-26--AUS",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
       "sources": [
         {
@@ -5804,8 +5885,8 @@
       "endDate": "2011-11-12",
       "engagements": [],
       "eventName": "South Asian Association for Regional Cooperation (SAARC) Summit",
-      "id": "mahinda-rajapakse--2011-11-10--MDV",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2011-11-10--MDV",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended South Asian Association for Regional Cooperation (SAARC) Summit",
       "sources": [
         {
@@ -5829,8 +5910,8 @@
       "endDate": "2012-02-12",
       "engagements": ["Met Prime Minister Yousaf Raza Gilani"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-02-10--PAK",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-02-10--PAK",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Pakistan",
       "sources": [
         {
@@ -5854,8 +5935,8 @@
       "endDate": "2012-02-19",
       "engagements": ["Met President Tony Tan"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-02-17--SGP",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-02-17--SGP",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Singapore",
       "sources": [
         {
@@ -5879,8 +5960,8 @@
       "endDate": "2012-04-26",
       "engagements": ["Met President Lee Myung-bak"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-04-23--KOR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-04-23--KOR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to South Korea",
       "sources": [
         {
@@ -5904,8 +5985,8 @@
       "endDate": "2012-05-23",
       "engagements": ["Met Emir Hamad bin Khalifa Al Thani"],
       "eventName": "Middle East Economic Future Conference",
-      "id": "mahinda-rajapakse--2012-05-20--QAT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-05-20--QAT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Middle East Economic Future Conference",
       "sources": [
         {
@@ -5929,8 +6010,8 @@
       "endDate": "2012-06-03",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-05-31--THA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-05-31--THA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Thailand",
       "sources": [
         {
@@ -5954,8 +6035,8 @@
       "endDate": "2012-06-08",
       "engagements": ["Met Queen Elizabeth II"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-06-06--GBR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-06-06--GBR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
@@ -5979,8 +6060,8 @@
       "endDate": "2012-06-10",
       "engagements": ["Met Pope Benedict XVI"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-06-08--VAT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-06-08--VAT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -6004,8 +6085,8 @@
       "endDate": "2012-06-25",
       "engagements": [],
       "eventName": "UN Conference on Sustainable Development (RIO+20)",
-      "id": "mahinda-rajapakse--2012-06-22--BRA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-06-22--BRA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended UN Conference on Sustainable Development (RIO+20)",
       "sources": [
         {
@@ -6029,8 +6110,8 @@
       "endDate": "2012-08-31",
       "engagements": ["Met President Mahmoud Ahmadinejad"],
       "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "mahinda-rajapakse--2012-08-30--IRN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-08-30--IRN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Non-Aligned Movement (NAM) Summit",
       "sources": [
         {
@@ -6054,8 +6135,8 @@
       "endDate": "2012-09-23",
       "engagements": ["Met Prime Minister Manmohan Singh"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-09-20--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-09-20--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -6082,8 +6163,8 @@
         "Gave a public address"
       ],
       "eventName": "Asia Cooperation Dialogue (ACD)",
-      "id": "mahinda-rajapakse--2012-10-15--KWT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-10-15--KWT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Asia Cooperation Dialogue (ACD)",
       "sources": [
         {
@@ -6107,8 +6188,8 @@
       "endDate": "2012-10-25",
       "engagements": [],
       "eventName": "World Power Forum",
-      "id": "mahinda-rajapakse--2012-10-23--ARE",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-10-23--ARE",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended World Power Forum",
       "sources": [
         {
@@ -6132,8 +6213,8 @@
       "endDate": "2012-11-21",
       "engagements": ["Met President Nursultan Nazarbayev"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2012-11-19--KAZ",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2012-11-19--KAZ",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Kazakhstan",
       "sources": [
         {
@@ -6157,8 +6238,8 @@
       "endDate": "2013-02-09",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-02-08--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-02-08--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -6182,8 +6263,8 @@
       "endDate": "2013-03-15",
       "engagements": ["Met Prime Minister Abe Shinzo"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-03-12--JPN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-03-12--JPN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Japan",
       "sources": [
         {
@@ -6207,8 +6288,8 @@
       "endDate": "2013-05-16",
       "engagements": ["Met President Yoweri Museveni"],
       "eventName": "Commonwealth Local Government Conference",
-      "id": "mahinda-rajapakse--2013-05-12--UGA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-05-12--UGA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Commonwealth Local Government Conference",
       "sources": [
         {
@@ -6232,8 +6313,8 @@
       "endDate": "2013-05-30",
       "engagements": ["Met General Secretary Xi Jinping"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-05-27--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-05-27--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to China",
       "sources": [
         {
@@ -6257,8 +6338,8 @@
       "endDate": "2013-06-29",
       "engagements": ["Met President Jakaya Kikwete"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-06-28--TZA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-06-28--TZA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Tanzania",
       "sources": [
         {
@@ -6282,8 +6363,8 @@
       "endDate": "2013-06-30",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-06-29--SYC",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-06-29--SYC",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Seychelles",
       "sources": [
         {
@@ -6307,8 +6388,8 @@
       "endDate": "2013-08-27",
       "engagements": ["Met President Alyaksandr Lukashenka"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-08-25--BLR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-08-25--BLR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Belarus",
       "sources": [
         {
@@ -6332,8 +6413,8 @@
       "endDate": "2013-09-27",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2013-09-23--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-09-23--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -6357,8 +6438,8 @@
       "endDate": "2013-12-12",
       "engagements": [],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-12-11--ZAF",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-12-11--ZAF",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to South Africa",
       "sources": [
         {
@@ -6382,8 +6463,8 @@
       "endDate": "2013-12-15",
       "engagements": ["Met President Uhuru Kenyatta"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2013-12-12--KEN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2013-12-12--KEN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Kenya",
       "sources": [
         {
@@ -6407,8 +6488,8 @@
       "endDate": "2014-03-04",
       "engagements": [],
       "eventName": "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) Summit",
-      "id": "mahinda-rajapakse--2014-03-03--MMR",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-03-03--MMR",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) Summit",
       "sources": [
         {
@@ -6432,8 +6513,8 @@
       "endDate": "2014-05-22",
       "engagements": ["Met General Secretary Xi Jinping"],
       "eventName": "Conference on Interaction and Confidence-Building Measures in Asia (CICA)",
-      "id": "mahinda-rajapakse--2014-05-20--CHN",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-05-20--CHN",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended Conference on Interaction and Confidence-Building Measures in Asia (CICA)",
       "sources": [
         {
@@ -6457,8 +6538,8 @@
       "endDate": "2014-05-27",
       "engagements": ["Met Prime Minister Narendra Modi"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2014-05-26--IND",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-05-26--IND",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to India",
       "sources": [
         {
@@ -6482,8 +6563,8 @@
       "endDate": "2014-06-16",
       "engagements": ["Met President Evo Morales", "Gave a public address"],
       "eventName": "G77 Summit",
-      "id": "mahinda-rajapakse--2014-06-13--BOL",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-06-13--BOL",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended G77 Summit",
       "sources": [
         {
@@ -6507,8 +6588,8 @@
       "endDate": "2014-09-30",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "mahinda-rajapakse--2014-09-24--USA",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-09-24--USA",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
         {
@@ -6532,8 +6613,8 @@
       "endDate": "2014-10-04",
       "engagements": ["Met Pope Francis"],
       "eventName": null,
-      "id": "mahinda-rajapakse--2014-10-02--VAT",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-10-02--VAT",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Visit to Vatican City",
       "sources": [
         {
@@ -6557,8 +6638,8 @@
       "endDate": "2014-11-24",
       "engagements": [],
       "eventName": "South Asian Association for Regional Cooperation (SAARC) Summit",
-      "id": "mahinda-rajapakse--2014-11-22--NPL",
-      "officialId": "mahinda-rajapakse",
+      "id": "mahinda-rajapaksa--2014-11-22--NPL",
+      "officialId": "mahinda-rajapaksa",
       "purpose": "Attended South Asian Association for Regional Cooperation (SAARC) Summit",
       "sources": [
         {
@@ -8164,6 +8245,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-04-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "ranasinghe-premadasa--1983-04-10--USA",
+      "officialId": "ranasinghe-premadasa",
+      "purpose": "Private visit. Met with President Reagan April 13.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-04-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Islamabad",
         "coordinates": [73.036944444, 33.698888888],
         "countryCode": "PAK",
@@ -8446,6 +8552,31 @@
       "startDate": "1993-04-10",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "ranil-wickremesinghe--2003-11-02--USA",
+      "officialId": "ranil-wickremesinghe",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-11-02",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9682,6 +9813,31 @@
       "startDate": "2024-05-19",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-10-19",
+      "engagements": [],
+      "eventName": "Private visit to Washington after attending session of the U.N. General Assembly.",
+      "id": "sirimavo-r-d-bandaranaike--1971-10-19--USA",
+      "officialId": "sirimavo-r-d-bandaranaike",
+      "purpose": "Private visit to Washington after attending session of the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-10-19",
+      "statusHint": null,
+      "type": "conference"
     }
   ]
 }

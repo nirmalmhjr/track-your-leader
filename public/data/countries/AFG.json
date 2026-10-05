@@ -90,6 +90,10 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         },
         {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Hamid_Karzai"
         }
@@ -140,6 +144,33 @@
       ],
       "summary": "Hibatullah Akhundzada (born 20 October 1967) is an Afghan politician and cleric who is serving as the supreme leader of Afghanistan under the Taliban government. He has led the Taliban since 2016, and came to power with its victory over U.S.-backed forces in the 2001–2021 war.",
       "wikidataId": "Q24237654"
+    },
+    {
+      "aliases": [],
+      "countryCode": "AFG",
+      "fullName": "Mohammed Zaher",
+      "id": "mohammed-zaher",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1963-09-07",
+          "id": "mohammed-zaher-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1963-09-05",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": ["Maulvi Abdul Kabir", "Mawlawi Abdul Kabir"],
@@ -414,41 +445,6 @@
       "wikidataId": "Q1317228"
     },
     {
-      "aliases": [
-        "Dr. Najib",
-        "Mohamed Najibullah",
-        "Mohammad Najibullah Ahmadzai"
-      ],
-      "countryCode": "AFG",
-      "fullName": "Mohammad Najibullah",
-      "id": "mohammad-najibullah",
-      "party": "People’s Democratic Party of Afghanistan",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Najibullah_1986.jpg?width=160",
-      "positions": [
-        {
-          "categories": ["head_of_government"],
-          "endDate": "1990-11-22",
-          "id": "mohammad-najibullah-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1990-08-28",
-          "title": "General Secretary"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Najibullah"
-        }
-      ],
-      "summary": "Mohammad Najibullah Ahmadzai (6 August 1947 – 27 September 1996) was an Afghan military officer and politician who served as the fifth president of Afghanistan from 1987 until his resignation in April 1992, shortly after the Afghan mujahideen's takeover of Kabul. He was also the General Secretary of the People's Democratic Party of Afghanistan (PDPA) from 1986 to 1992.",
-      "wikidataId": "Q207728"
-    },
-    {
       "aliases": [],
       "countryCode": "AFG",
       "fullName": "Mohammad Rabbani",
@@ -587,6 +583,33 @@
       ],
       "summary": "Muhammad Umar Mujahid (c. 1950 to 1962 – 23 April 2013), commonly known as Mullah Omar or Muhammad Omar, was an Afghan militant and religious leader who served as the first supreme leader of Afghanistan from 1996 to 2001. He founded the Taliban, an Islamist militant organization, in 1994 and served as its first supreme leader until his death in 2013.",
       "wikidataId": "Q193968"
+    },
+    {
+      "aliases": [],
+      "countryCode": "AFG",
+      "fullName": "Muhammad Hashim Maiwandwal",
+      "id": "muhammad-hashim-maiwandwal",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1967-03-30",
+          "id": "muhammad-hashim-maiwandwal-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1967-03-28",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -1912,6 +1935,33 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "AFG",
+      "fullName": "Chairman Hamid Karzai",
+      "id": "chairman-hamid-karzai",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "2002-01-30",
+          "id": "chairman-hamid-karzai-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2002-01-27",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     }
   ],
   "trips": [
@@ -2878,13 +2928,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-03-27",
+      "endDate": "2015-03-24",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
       "id": "ashraf-ghani--2015-03-23--USA",
       "officialId": "ashraf-ghani",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4792,19 +4846,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2021-06-26",
+      "endDate": "2021-06-25",
       "engagements": ["Met President Joe Biden"],
       "eventName": null,
-      "id": "ashraf-ghani--2021-06-24--USA",
+      "id": "ashraf-ghani--2021-06-25--USA",
       "officialId": "ashraf-ghani",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-06-24",
+      "startDate": "2021-06-25",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4958,6 +5016,81 @@
         }
       ],
       "startDate": "2001-11-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-01-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "chairman-hamid-karzai--2002-01-27--USA",
+      "officialId": "chairman-hamid-karzai",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2002-01-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [77.209, 28.6139],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1990-08-30",
+      "engagements": ["Met Prime Minister Vishwanath Pratap Singh"],
+      "eventName": null,
+      "id": "fazal-khaliq--1990-08-28--IND",
+      "officialId": "fazal-khaliq",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1990-08-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bern",
+        "coordinates": [7.44743, 46.94798],
+        "countryCode": "CHE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1990-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "fazal-khaliq--1990-11-19--CHE",
+      "officialId": "fazal-khaliq",
+      "purpose": "Visit to Switzerland",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1990-11-19",
       "statusHint": null,
       "type": "other"
     },
@@ -5470,19 +5603,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-09-15",
+      "endDate": "2002-09-12",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "hamid-karzai--2002-09-09--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "hamid-karzai--2002-09-12--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-09-09",
+      "startDate": "2002-09-12",
       "statusHint": null,
       "type": "conference"
     },
@@ -5648,16 +5785,20 @@
       "endDate": "2003-02-28",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "hamid-karzai--2003-02-26--USA",
+      "id": "hamid-karzai--2003-02-25--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-02-26",
+      "startDate": "2003-02-25",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5904,19 +6045,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-09-26",
+      "endDate": "2003-09-23",
       "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "hamid-karzai--2003-09-21--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "hamid-karzai--2003-09-23--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-21",
+      "startDate": "2003-09-23",
       "statusHint": null,
       "type": "conference"
     },
@@ -6032,21 +6177,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-06-15",
+      "endDate": "2004-06-16",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "hamid-karzai--2004-06-08--USA",
+      "id": "hamid-karzai--2004-06-09--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-06-08",
+      "startDate": "2004-06-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6157,19 +6306,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-09-24",
+      "endDate": "2004-09-22",
       "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "hamid-karzai--2004-09-21--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "hamid-karzai--2004-09-22--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-09-21",
+      "startDate": "2004-09-22",
       "statusHint": null,
       "type": "conference"
     },
@@ -6432,19 +6585,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-05-26",
+      "endDate": "2005-05-23",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "hamid-karzai--2005-05-21--USA",
+      "id": "hamid-karzai--2005-05-23--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-05-21",
+      "startDate": "2005-05-23",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7069,21 +7226,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-09-28",
+      "endDate": "2006-09-27",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "Afghanistan-Pakistan-United States Trilateral Meeting",
-      "id": "hamid-karzai--2006-09-25--USA",
+      "id": "hamid-karzai--2006-09-24--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended Afghanistan-Pakistan-United States Trilateral Meeting",
+      "purpose": "Working visit. Also met with Pakistani President Musharraf on September 27.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-09-25",
+      "startDate": "2006-09-24",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7350,13 +7511,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-08-07",
+      "endDate": "2007-08-06",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "hamid-karzai--2007-08-05--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Met with President Bush at Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7402,17 +7567,21 @@
       },
       "endDate": "2007-09-26",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "hamid-karzai--2007-09-23--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "hamid-karzai--2007-09-26--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-09-23",
+      "startDate": "2007-09-26",
       "statusHint": null,
       "type": "conference"
     },
@@ -7893,21 +8062,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-09-28",
+      "endDate": "2008-09-26",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "hamid-karzai--2008-09-22--USA",
+      "id": "hamid-karzai--2008-09-26--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-22",
+      "startDate": "2008-09-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8171,21 +8344,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-05-08",
+      "endDate": "2009-05-06",
       "engagements": ["Gave a public address"],
       "eventName": "Afghanistan-Pakistan-United States Trilateral Meeting",
-      "id": "hamid-karzai--2009-05-05--USA",
+      "id": "hamid-karzai--2009-05-06--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended Afghanistan-Pakistan-United States Trilateral Meeting",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-05-05",
+      "startDate": "2009-05-06",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -8583,19 +8760,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-05-14",
+      "endDate": "2010-05-13",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "hamid-karzai--2010-05-09--USA",
+      "id": "hamid-karzai--2010-05-10--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-05-09",
+      "startDate": "2010-05-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9198,19 +9379,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-09-21",
+      "endDate": "2011-09-20",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "hamid-karzai--2011-09-19--USA",
+      "eventName": "Met with President Obama at the UN General Assembly in New York City.",
+      "id": "hamid-karzai--2011-09-20--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-09-19",
+      "startDate": "2011-09-20",
       "statusHint": null,
       "type": "conference"
     },
@@ -9529,19 +9714,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "hamid-karzai--2012-05-18--USA",
+      "eventName": "Met with President Obama at the NATO Summit Meeting in Chicago, IL.",
+      "id": "hamid-karzai--2012-05-21--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Met with President Obama at the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-05-18",
+      "startDate": "2012-05-21",
       "statusHint": null,
       "type": "summit"
     },
@@ -9816,16 +10005,20 @@
       "endDate": "2013-01-11",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": null,
-      "id": "hamid-karzai--2013-01-07--USA",
+      "id": "hamid-karzai--2013-01-10--USA",
       "officialId": "hamid-karzai",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-01-07",
+      "startDate": "2013-01-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10506,56 +10699,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
-        "coordinates": [77.209, 28.6139],
-        "countryCode": "IND",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1990-08-30",
-      "engagements": ["Met Prime Minister Vishwanath Pratap Singh"],
-      "eventName": null,
-      "id": "mohammad-najibullah--1990-08-28--IND",
-      "officialId": "mohammad-najibullah",
-      "purpose": "Visit to India",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1990-08-28",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bern",
-        "coordinates": [7.44743, 46.94798],
-        "countryCode": "CHE",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1990-11-22",
-      "engagements": [],
-      "eventName": null,
-      "id": "mohammad-najibullah--1990-11-19--CHE",
-      "officialId": "mohammad-najibullah",
-      "purpose": "Visit to Switzerland",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1990-11-19",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Tehran",
         "coordinates": [51.389722222, 35.688888888],
         "countryCode": "IRN",
@@ -10577,6 +10720,131 @@
       "startDate": "1999-12-21",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-daoud-khan--1958-06-24--USA",
+      "officialId": "mohammed-daoud-khan",
+      "purpose": "Official visit; signed a cultural agreement.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-06-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-09-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-zaher--1963-09-05--USA",
+      "officialId": "mohammed-zaher",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-09-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-03-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "muhammad-hashim-maiwandwal--1967-03-28--USA",
+      "officialId": "muhammad-hashim-maiwandwal",
+      "purpose": "Official visit. In U.S. March 25–April 9; visited New York City, Santa Barbara (Calif.), and Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-03-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1947-08-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "prince-shah-mahmud-khan-of-afghanistan--1947-08-07--USA",
+      "officialId": "prince-shah-mahmud-khan-of-afghanistan",
+      "purpose": "Unofficial visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1947-08-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1951-04-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "prince-shah-mahmud-khan-of-afghanistan--1951-04-20--USA",
+      "officialId": "prince-shah-mahmud-khan-of-afghanistan",
+      "purpose": "Unofficial visit. Had come to Baltimore (Maryland) in February for medical treatment at Johns Hopkins Hospital.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1951-04-20",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

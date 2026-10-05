@@ -2365,13 +2365,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-10-29",
+      "endDate": "1995-10-19",
       "engagements": [],
       "eventName": null,
       "id": "bakili-muluzi--1995-10-19--USA",
       "officialId": "bakili-muluzi",
-      "purpose": "Visit to United States",
+      "purpose": "Attended Africare dinner with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7754,6 +7758,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "hastings-banda--1967-06-08--USA",
+      "officialId": "hastings-banda",
+      "purpose": "Private visit. In U.S. June 2–11; visited Amherst (Mass.), and Kansas City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-06-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1985-04-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "hastings-banda--1985-04-16--GBR",
+      "officialId": "hastings-banda",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1985-04-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Harare",
         "coordinates": [31.052222222, -17.829166666],
         "countryCode": "ZWE",
@@ -8363,19 +8417,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-03-29",
+      "endDate": "2013-03-28",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "African Union (AU) Summit",
-      "id": "joyce-banda--2013-03-26--USA",
+      "eventName": "Attended African Leaders Summit.",
+      "id": "joyce-banda--2013-03-28--USA",
       "officialId": "joyce-banda",
-      "purpose": "Attended African Union (AU) Summit",
+      "purpose": "Attended African Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-03-26",
+      "startDate": "2013-03-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -9644,19 +9702,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-19",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "lazarus-chakwera--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "lazarus-chakwera--2022-12-13--USA",
       "officialId": "lazarus-chakwera",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -10515,19 +10577,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-10",
+      "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "peter-mutharika--2014-08-02--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "peter-mutharika--2014-08-05--USA",
       "officialId": "peter-mutharika",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-02",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },

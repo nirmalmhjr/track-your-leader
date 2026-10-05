@@ -3776,19 +3776,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "hage-geingob--2022-12-10--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "hage-geingob--2022-12-13--USA",
       "officialId": "hage-geingob",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-10",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -4226,21 +4230,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-06-17",
+      "endDate": "2005-06-13",
       "engagements": [],
       "eventName": null,
-      "id": "hifikepunye-pohamba--2005-06-10--USA",
+      "id": "hifikepunye-pohamba--2005-06-12--USA",
       "officialId": "hifikepunye-pohamba",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Discussed African Growth and Opportunity Act.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-06-10",
+      "startDate": "2005-06-12",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6807,21 +6815,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-08",
+      "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Business Forum",
-      "id": "hifikepunye-pohamba--2014-08-02--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "hifikepunye-pohamba--2014-08-05--USA",
       "officialId": "hifikepunye-pohamba",
-      "purpose": "Attended United States-Africa Business Forum",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-02",
+      "startDate": "2014-08-05",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7805,19 +7817,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-06-22",
+      "endDate": "1990-06-19",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
       "eventName": "UN Donors Conference",
-      "id": "sam-nujoma--1990-06-15--USA",
+      "id": "sam-nujoma--1990-06-19--USA",
       "officialId": "sam-nujoma",
-      "purpose": "Attended UN Donors Conference",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-06-15",
+      "startDate": "1990-06-19",
       "statusHint": null,
       "type": "conference"
     },
@@ -8736,13 +8752,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-06-17",
+      "endDate": "1993-06-19",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "sam-nujoma--1993-06-16--USA",
       "officialId": "sam-nujoma",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8750,7 +8770,7 @@
       ],
       "startDate": "1993-06-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

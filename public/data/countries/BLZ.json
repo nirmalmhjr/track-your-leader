@@ -281,11 +281,11 @@
       "wikidataId": "Q109930990"
     },
     {
-      "aliases": [],
+      "aliases": ["Anthony Glenford Sylvestre", "Anthony Sylvestre"],
       "countryCode": "BLZ",
-      "fullName": "Anthony Sylvestre",
+      "fullName": "Anthony Sylvestre Jr.",
       "id": "anthony-sylvestre",
-      "party": null,
+      "party": "People's United Party",
       "photoUrl": null,
       "positions": [
         {
@@ -304,8 +304,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/belize/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Belizean politician.",
+      "wikidataId": "Q97253185"
     },
     {
       "aliases": [],
@@ -899,18 +899,22 @@
       "endDate": "2008-03-20",
       "engagements": [],
       "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "dean-barrow--2008-03-20--USA",
+      "id": "dean-barrow--2008-03-19--USA",
       "officialId": "dean-barrow",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-03-20",
+      "startDate": "2008-03-19",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -2265,6 +2269,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "george-cadle-price--1983-05-11--USA",
+      "officialId": "george-cadle-price",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-05-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tegucigalpa",
         "coordinates": [-87.204705555, 14.105783333],
         "countryCode": "HND",
@@ -3027,13 +3056,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-06-11",
+      "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "Summit of the Americas",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
       "id": "johnny-briceno--2022-06-08--USA",
       "officialId": "johnny-briceno",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4074,6 +4107,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-esquivel--1993-11-30--USA",
+      "officialId": "manuel-esquivel",
+      "purpose": "Attended working brunch with President Clinton.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-11-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tegucigalpa",
         "coordinates": [-87.204705555, 14.105783333],
         "countryCode": "HND",
@@ -4205,13 +4263,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-12",
+      "endDate": "1994-12-11",
       "engagements": ["Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "manuel-esquivel--1994-12-09--USA",
       "officialId": "manuel-esquivel",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

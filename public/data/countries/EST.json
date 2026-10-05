@@ -10247,17 +10247,21 @@
       },
       "endDate": "2012-05-21",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "andrus-ansip--2012-05-19--USA",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "id": "andrus-ansip--2012-05-20--USA",
       "officialId": "andrus-ansip",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-05-19",
+      "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -12971,8 +12975,12 @@
       "eventName": null,
       "id": "juhan-parts--2004-03-28--USA",
       "officialId": "juhan-parts",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Attended NATO Accession ceremony.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19712,11 +19720,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "kaja-kallas--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "kaja-kallas--2024-07-10--USA",
       "officialId": "kaja-kallas",
-      "purpose": "Kallas attended the 34th NATO summit.",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Kaja_Kallas"
@@ -19726,7 +19738,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -20678,21 +20690,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2018-04-05",
+      "endDate": "2018-04-03",
       "engagements": [],
-      "eventName": null,
-      "id": "kersti-kaljulaid--2018-04-02--USA",
+      "eventName": "U.S.-Baltic Leaders Summit.",
+      "id": "kersti-kaljulaid--2018-04-03--USA",
       "officialId": "kersti-kaljulaid",
-      "purpose": "Working Visit",
+      "purpose": "U.S.-Baltic Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kersti_Kaljulaid"
         }
       ],
-      "startDate": "2018-04-02",
+      "startDate": "2018-04-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -24175,6 +24191,131 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-09-27",
+      "engagements": [],
+      "eventName": "Met with President Clinton at the U.N. General Assembly in New York City.",
+      "id": "lennart-meri--1993-09-27--USA",
+      "officialId": "lennart-meri",
+      "purpose": "Met with President Clinton at the U.N. General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-09-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-09-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "lennart-meri--1995-09-11--SWE",
+      "officialId": "lennart-meri",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1995-09-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "lennart-meri--1996-06-25--USA",
+      "officialId": "lennart-meri",
+      "purpose": "Working visit. Afterwards visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1996-06-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-01-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "lennart-meri--1998-01-14--USA",
+      "officialId": "lennart-meri",
+      "purpose": "Working visit. Signed U.S.-Baltic Charter of Partnership.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1998-01-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-04-25",
+      "engagements": [],
+      "eventName": "Attended NATO’s 50th Anniversary Summit. Arrived April 22.",
+      "id": "lennart-meri--1999-04-23--USA",
+      "officialId": "lennart-meri",
+      "purpose": "Attended NATO’s 50th Anniversary Summit. Arrived April 22.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-04-23",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Helsinki",
         "coordinates": [24.9375, 60.170833333],
         "countryCode": "FIN",
@@ -27123,19 +27264,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-09-05",
+      "endDate": "2002-09-04",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "siim-kallas--2002-09-03--USA",
+      "id": "siim-kallas--2002-09-04--USA",
       "officialId": "siim-kallas",
       "purpose": "Visit to United States",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-09-03",
+      "startDate": "2002-09-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -30569,6 +30714,81 @@
         }
       ],
       "startDate": "1997-02-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "toomas-hendrik-ilves--2007-06-24--USA",
+      "officialId": "toomas-hendrik-ilves",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2007-06-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2011-01-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "toomas-hendrik-ilves--2011-01-18--SWE",
+      "officialId": "toomas-hendrik-ilves",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2011-01-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-08-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "toomas-hendrik-ilves--2013-08-30--USA",
+      "officialId": "toomas-hendrik-ilves",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2013-08-30",
       "statusHint": null,
       "type": "official_visit"
     }

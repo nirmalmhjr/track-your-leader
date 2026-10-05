@@ -541,6 +541,33 @@
       "wikidataId": "Q354695"
     },
     {
+      "aliases": [],
+      "countryCode": "NGA",
+      "fullName": "Balewa",
+      "id": "balewa",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1961-07-28",
+          "id": "balewa-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1960-10-08",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Alex Ekweme", "Alexander Ifeanyichukwu Ekwueme"],
       "countryCode": "NGA",
       "fullName": "Alex Ifeanyichukwu Ekwueme",
@@ -4438,6 +4465,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-10-08",
+      "engagements": [],
+      "eventName": "Met with President Eisenhower in Washington while attending UN General Assembly.",
+      "id": "balewa--1960-10-08--USA",
+      "officialId": "balewa",
+      "purpose": "Met with President Eisenhower in Washington while attending UN General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-10-08",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-07-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "balewa--1961-07-25--USA",
+      "officialId": "balewa",
+      "purpose": "Official visit. In U.S. July 24–August 1, visiting New York City, Chicago, and Knoxville (Tennessee).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-07-25",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Nairobi",
         "coordinates": [36.8219, -1.2921],
         "countryCode": "KEN",
@@ -5360,6 +5437,30 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Windsor Castle",
+        "coordinates": [-0.604444444, 51.483888888],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "2026-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "bola-tinubu--2026-03-18--GBR",
+      "officialId": "bola-tinubu",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Charles_III"
+        }
+      ],
+      "startDate": "2026-03-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Nicosia",
         "coordinates": [33.365, 35.1725],
         "countryCode": "CYP",
@@ -5379,6 +5480,31 @@
         }
       ],
       "startDate": "1993-10-21",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-04-13",
+      "engagements": [],
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "goodluck-jonathan--2010-04-11--USA",
+      "officialId": "goodluck-jonathan",
+      "purpose": "Attended the Nuclear Security Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2010-04-11",
       "statusHint": null,
       "type": "summit"
     },
@@ -5769,21 +5895,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-06-10",
+      "endDate": "2011-06-08",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "UN Security Council Summit",
-      "id": "goodluck-jonathan--2011-06-06--USA",
+      "id": "goodluck-jonathan--2011-06-08--USA",
       "officialId": "goodluck-jonathan",
-      "purpose": "Attended UN Security Council Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-06-06",
+      "startDate": "2011-06-08",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7153,19 +7283,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-09-25",
+      "endDate": "2013-09-23",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "goodluck-jonathan--2013-09-21--USA",
+      "eventName": "Met with President Obama at the UN General Assembly in New York City.",
+      "id": "goodluck-jonathan--2013-09-23--USA",
       "officialId": "goodluck-jonathan",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-09-21",
+      "startDate": "2013-09-23",
       "statusHint": null,
       "type": "conference"
     },
@@ -7783,17 +7917,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "goodluck-jonathan--2014-08-03--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "goodluck-jonathan--2014-08-05--USA",
       "officialId": "goodluck-jonathan",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-03",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -8149,6 +8287,31 @@
       "startDate": "2015-05-18",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1989-05-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "ibrahim-babangida--1989-05-09--GBR",
+      "officialId": "ibrahim-babangida",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1989-05-09",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8907,16 +9070,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2015-07-23",
+      "endDate": "2015-07-21",
       "engagements": [
         "Buhari held talks with various high level US officials and on 20 July had a private meeting with Barack Obama.",
         "Buhari sought US help in the combat against terrorism in Nigeria and asked for further military assistance in terms of technology and intelligence."
       ],
       "eventName": null,
-      "id": "muhammadu-buhari--2015-07-19--USA",
+      "id": "muhammadu-buhari--2015-07-20--USA",
       "officialId": "muhammadu-buhari",
-      "purpose": "State Visit",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Muhammadu_Buhari"
@@ -8926,9 +9093,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-07-19",
+      "startDate": "2015-07-20",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9600,13 +9767,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-04-03",
+      "endDate": "2016-04-01",
       "engagements": ["Buhari attends the 4th Nuclear Security Summit."],
-      "eventName": "4th Nuclear Security Summit",
-      "id": "muhammadu-buhari--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "muhammadu-buhari--2016-03-31--USA",
       "officialId": "muhammadu-buhari",
-      "purpose": "4th Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Muhammadu_Buhari"
@@ -9616,7 +9787,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -10386,16 +10557,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2018-05-04",
+      "endDate": "2018-05-01",
       "engagements": [
         "Buhari hold bilateral talks with his US counterpart Donald Trump.",
         "Buhari was the first African leader to make a state visit to the United States after Trump was elected in 2016."
       ],
       "eventName": null,
-      "id": "muhammadu-buhari--2018-04-28--USA",
+      "id": "muhammadu-buhari--2018-04-29--USA",
       "officialId": "muhammadu-buhari",
-      "purpose": "Working Visit",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Muhammadu_Buhari"
@@ -10405,7 +10580,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-28",
+      "startDate": "2018-04-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12237,16 +12412,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-12-18",
+      "endDate": "2022-12-15",
       "engagements": [
         "Buhari attended the United States–Africa Leaders Summit 2022 along with 49 other African leaders.",
         "Signed agreements"
       ],
-      "eventName": "US Summit",
-      "id": "muhammadu-buhari--2022-12-10--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "muhammadu-buhari--2022-12-13--USA",
       "officialId": "muhammadu-buhari",
-      "purpose": "US Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Muhammadu_Buhari"
@@ -12256,7 +12435,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-10",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -12461,6 +12640,31 @@
       "startDate": "2023-05-05",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-10-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "olusegun-obasanjo--1977-10-10--USA",
+      "officialId": "olusegun-obasanjo",
+      "purpose": "State Visit. Afterwards visited New York City. Departed U.S. September 15.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-10-10",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12823,13 +13027,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-10-31",
+      "endDate": "1999-10-30",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "olusegun-obasanjo--1999-10-27--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14331,13 +14539,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-05-13",
+      "endDate": "2001-05-12",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "olusegun-obasanjo--2001-05-10--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14987,13 +15199,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-11-04",
+      "endDate": "2001-11-02",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "olusegun-obasanjo--2001-11-02--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15001,7 +15217,7 @@
       ],
       "startDate": "2001-11-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15562,13 +15778,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-06-22",
+      "endDate": "2002-06-20",
       "engagements": ["Met President George W. Bush"],
       "eventName": "Leon Sullivan Summit Dinner",
       "id": "olusegun-obasanjo--2002-06-20--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Attended Leon Sullivan Summit Dinner",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15576,7 +15796,7 @@
       ],
       "startDate": "2002-06-20",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17220,16 +17440,20 @@
       "endDate": "2004-06-11",
       "engagements": [],
       "eventName": "G8 Summit",
-      "id": "olusegun-obasanjo--2004-06-09--USA",
+      "id": "olusegun-obasanjo--2004-06-10--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Met with President Bush during the G-8 Economic Summit at Sea Island, Georgia. Attended the funeral of Former President Reagan.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-06-09",
+      "startDate": "2004-06-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -17851,13 +18075,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-12-08",
+      "endDate": "2004-12-03",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "olusegun-obasanjo--2004-12-02--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18528,13 +18756,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-05-06",
+      "endDate": "2005-05-05",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "olusegun-obasanjo--2005-05-05--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19785,21 +20017,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-03-31",
+      "endDate": "2006-03-29",
       "engagements": ["Met President George W. Bush"],
       "eventName": "African Fertilizer Summit",
-      "id": "olusegun-obasanjo--2006-03-29--USA",
+      "id": "olusegun-obasanjo--2006-03-28--USA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Attended African Fertilizer Summit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-03-29",
+      "startDate": "2006-03-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -20804,6 +21040,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-10-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "shehu-shagari--1980-10-03--USA",
+      "officialId": "shehu-shagari",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-10-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1981-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "shehu-shagari--1981-03-17--GBR",
+      "officialId": "shehu-shagari",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1981-03-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Berlin",
         "coordinates": [13.405, 52.52],
         "countryCode": "DEU",
@@ -21010,19 +21296,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-12-16",
+      "endDate": "2007-12-15",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "umaru-musa-yar-adua--2007-12-13--USA",
+      "id": "umaru-musa-yar-adua--2007-12-12--USA",
       "officialId": "umaru-musa-yar-adua",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-12-13",
+      "startDate": "2007-12-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -21456,6 +21746,31 @@
       "startDate": "2009-11-18",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "yakubu-gowon--1973-06-12--GBR",
+      "officialId": "yakubu-gowon",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1973-06-12",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

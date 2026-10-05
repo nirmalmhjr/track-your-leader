@@ -32,33 +32,6 @@
       "wikidataId": "Q319912"
     },
     {
-      "aliases": [],
-      "countryCode": "AZE",
-      "fullName": "Ayaz Mutalibov",
-      "id": "ayaz-mutalibov",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "1992-02-04",
-          "id": "ayaz-mutalibov-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1991-08-16",
-          "title": "President"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
         "Ayaz Mütəllibov",
         "Ayaz Niyazi oghlu Mutallibov",
@@ -2052,8 +2025,8 @@
       "endDate": "1991-08-17",
       "engagements": [],
       "eventName": null,
-      "id": "ayaz-mutalibov--1991-08-16--IRN",
-      "officialId": "ayaz-mutalibov",
+      "id": "ayaz-mutallibov--1991-08-16--IRN",
+      "officialId": "ayaz-mutallibov",
       "purpose": "Visit to Iran",
       "sources": [
         {
@@ -2077,8 +2050,8 @@
       "endDate": "1991-10-20",
       "engagements": ["Met President Islam Karimov", "Signed agreements"],
       "eventName": null,
-      "id": "ayaz-mutalibov--1991-10-19--UZB",
-      "officialId": "ayaz-mutalibov",
+      "id": "ayaz-mutallibov--1991-10-19--UZB",
+      "officialId": "ayaz-mutallibov",
       "purpose": "Visit to Uzbekistan",
       "sources": [
         {
@@ -2102,8 +2075,8 @@
       "endDate": "1991-11-27",
       "engagements": [],
       "eventName": "Armenia-Azerbaijan-Russia Trilateral Meeting",
-      "id": "ayaz-mutalibov--1991-11-27--RUS",
-      "officialId": "ayaz-mutalibov",
+      "id": "ayaz-mutallibov--1991-11-27--RUS",
+      "officialId": "ayaz-mutallibov",
       "purpose": "Attended Armenia-Azerbaijan-Russia Trilateral Meeting",
       "sources": [
         {
@@ -2127,8 +2100,8 @@
       "endDate": "1991-12-21",
       "engagements": ["Signed agreements"],
       "eventName": "Alma-Ata Summit",
-      "id": "ayaz-mutalibov--1991-12-20--KAZ",
-      "officialId": "ayaz-mutalibov",
+      "id": "ayaz-mutallibov--1991-12-20--KAZ",
+      "officialId": "ayaz-mutallibov",
       "purpose": "Attended Alma-Ata Summit",
       "sources": [
         {
@@ -2152,8 +2125,8 @@
       "endDate": "1992-01-26",
       "engagements": ["Met President Turgut Ozal", "Signed agreements"],
       "eventName": null,
-      "id": "ayaz-mutalibov--1992-01-23--TUR",
-      "officialId": "ayaz-mutalibov",
+      "id": "ayaz-mutallibov--1992-01-23--TUR",
+      "officialId": "ayaz-mutallibov",
       "purpose": "Visit to Türkiye",
       "sources": [
         {
@@ -2177,8 +2150,8 @@
       "endDate": "1992-02-04",
       "engagements": [],
       "eventName": "World Economic Forum (WEF)",
-      "id": "ayaz-mutalibov--1992-02-02--CHE",
-      "officialId": "ayaz-mutalibov",
+      "id": "ayaz-mutallibov--1992-02-02--CHE",
+      "officialId": "ayaz-mutallibov",
       "purpose": "Attended World Economic Forum (WEF)",
       "sources": [
         {
@@ -2640,11 +2613,15 @@
       },
       "endDate": "1994-09-26",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Met with President Clinton at at the U.N. General Assembly.",
       "id": "heydar-aliyev--1994-09-26--USA",
       "officialId": "heydar-aliyev",
-      "purpose": "Working visit",
+      "purpose": "Met with President Clinton at at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Heydar_Aliyev"
@@ -2652,7 +2629,7 @@
       ],
       "startDate": "1994-09-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -3893,13 +3870,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1997-08-07",
+      "endDate": "1997-08-01",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "heydar-aliyev--1997-07-27--USA",
+      "id": "heydar-aliyev--1997-07-29--USA",
       "officialId": "heydar-aliyev",
-      "purpose": "Official visit",
+      "purpose": "Official working visit. Later visited New York City, Houston, and Chicago. Departed the U.S. August 6.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Heydar_Aliyev"
@@ -3909,7 +3890,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-07-27",
+      "startDate": "1997-07-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4343,11 +4324,15 @@
       },
       "endDate": "1999-04-26",
       "engagements": ["Signed agreements"],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit and discussed the Caucasus situation.",
       "id": "heydar-aliyev--1999-04-23--USA",
       "officialId": "heydar-aliyev",
-      "purpose": "1999 Washington summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit and discussed the Caucasus situation.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Heydar_Aliyev"
@@ -4687,8 +4672,12 @@
       "eventName": null,
       "id": "heydar-aliyev--2000-02-12--USA",
       "officialId": "heydar-aliyev",
-      "purpose": "Private visit",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Heydar_Aliyev"
@@ -4700,7 +4689,7 @@
       ],
       "startDate": "2000-02-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5003,10 +4992,14 @@
       "endDate": "2001-04-11",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "heydar-aliyev--2001-04-03--USA",
+      "id": "heydar-aliyev--2001-04-07--USA",
       "officialId": "heydar-aliyev",
-      "purpose": "Meeting with Robert Kocharyan",
+      "purpose": "Met with President Bush April 9 during a private visit after peace talks in Key West, Florida, beginning April 3.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Heydar_Aliyev"
@@ -5016,7 +5009,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-04-03",
+      "startDate": "2001-04-07",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -5554,8 +5547,12 @@
       "eventName": null,
       "id": "heydar-aliyev--2003-02-23--USA",
       "officialId": "heydar-aliyev",
-      "purpose": "Working visit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Heydar_Aliyev"
@@ -7024,8 +7021,12 @@
       "eventName": null,
       "id": "ilham-aliyev--2006-04-25--USA",
       "officialId": "ilham-aliyev",
-      "purpose": "Discussion of issues of democracy, energy and cooperation in the Caucasus, as well as security issues",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Ilham_Aliyev"
@@ -9637,13 +9638,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-09-27",
+      "endDate": "2010-09-24",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "ilham-aliyev--2010-09-22--USA",
+      "eventName": "Met with President Obama at the U.N. General Assembly in New York City.",
+      "id": "ilham-aliyev--2010-09-24--USA",
       "officialId": "ilham-aliyev",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the U.N. General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Ilham_Aliyev"
@@ -9653,7 +9658,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-09-22",
+      "startDate": "2010-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -10476,13 +10481,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "ilham-aliyev--2012-05-20--USA",
       "officialId": "ilham-aliyev",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12278,13 +12287,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-04-02",
+      "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
-      "id": "ilham-aliyev--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "ilham-aliyev--2016-03-31--USA",
       "officialId": "ilham-aliyev",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Ilham_Aliyev"
@@ -12294,7 +12307,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },

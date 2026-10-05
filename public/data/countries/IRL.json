@@ -4085,8 +4085,12 @@
       "eventName": null,
       "id": "albert-reynolds--1993-03-16--USA",
       "officialId": "albert-reynolds",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4094,7 +4098,7 @@
       ],
       "startDate": "1993-03-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4463,8 +4467,12 @@
       "eventName": null,
       "id": "albert-reynolds--1994-03-16--USA",
       "officialId": "albert-reynolds",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4808,13 +4816,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-12-16",
+      "endDate": "1997-12-15",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "bertie-ahern--1997-12-15--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4902,31 +4914,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1998-03-17",
-      "engagements": ["Met President Bill Clinton"],
-      "eventName": null,
-      "id": "bertie-ahern--1998-03-15--USA",
-      "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1998-03-15",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "London",
         "coordinates": [-0.1276, 51.5072],
         "countryCode": "GBR",
@@ -4946,6 +4933,35 @@
         }
       ],
       "startDate": "1998-03-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-03-17",
+      "engagements": ["Met President Bill Clinton"],
+      "eventName": null,
+      "id": "bertie-ahern--1998-03-17--USA",
+      "officialId": "bertie-ahern",
+      "purpose": "Private visit. Discussed the peace process in Northern Ireland.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1998-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5411,16 +5427,20 @@
       "endDate": "1999-03-18",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "bertie-ahern--1999-03-11--USA",
+      "id": "bertie-ahern--1999-03-15--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit; also discussed Northern Ireland Peace process with President Clinton and Northern Irish political leaders.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-03-11",
+      "startDate": "1999-03-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5813,8 +5833,12 @@
       "eventName": null,
       "id": "bertie-ahern--2000-03-15--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit; discussed the peace process with Northern Irish political leaders.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5822,7 +5846,7 @@
       ],
       "startDate": "2000-03-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5960,11 +5984,15 @@
       },
       "endDate": "2000-09-08",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "UN Millennium Summit",
+      "eventName": "Met with President Clinton at the UN Millenium Summit in New York City.",
       "id": "bertie-ahern--2000-09-08--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Attended UN Millennium Summit",
+      "purpose": "Met with President Clinton at the UN Millenium Summit in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6163,8 +6191,12 @@
       "eventName": null,
       "id": "bertie-ahern--2001-03-14--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6172,7 +6204,7 @@
       ],
       "startDate": "2001-03-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6358,13 +6390,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-11-10",
+      "endDate": "2001-11-08",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "bertie-ahern--2001-11-08--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6372,7 +6408,7 @@
       ],
       "startDate": "2001-11-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6438,8 +6474,12 @@
       "eventName": null,
       "id": "bertie-ahern--2002-03-12--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6733,19 +6773,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-03-13",
+      "endDate": "2003-03-14",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "bertie-ahern--2003-03-04--USA",
+      "id": "bertie-ahern--2003-03-13--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-03-04",
+      "startDate": "2003-03-13",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7191,8 +7235,12 @@
       "eventName": null,
       "id": "bertie-ahern--2004-03-16--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7641,8 +7689,12 @@
       "eventName": null,
       "id": "bertie-ahern--2005-03-16--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7866,8 +7918,12 @@
       "eventName": null,
       "id": "bertie-ahern--2006-03-15--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8266,8 +8322,12 @@
       "eventName": null,
       "id": "bertie-ahern--2007-03-14--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8541,8 +8601,12 @@
       "eventName": null,
       "id": "bertie-ahern--2008-03-16--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8591,8 +8655,12 @@
       "eventName": null,
       "id": "bertie-ahern--2008-04-29--USA",
       "officialId": "bertie-ahern",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8811,19 +8879,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-03-18",
+      "endDate": "2009-03-17",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "brian-cowen--2009-03-16--USA",
+      "id": "brian-cowen--2009-03-17--USA",
       "officialId": "brian-cowen",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-03-16",
+      "startDate": "2009-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9189,16 +9261,20 @@
       "endDate": "2010-03-18",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "brian-cowen--2010-03-16--USA",
+      "id": "brian-cowen--2010-03-17--USA",
       "officialId": "brian-cowen",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-03-16",
+      "startDate": "2010-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9436,19 +9512,98 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-03-01",
+      "endDate": "1982-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "charles-haughey--1982-03-16--USA",
+      "officialId": "charles-haughey",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-03-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "charles-haughey--1987-03-16--USA",
+      "officialId": "charles-haughey",
+      "purpose": "Met with President Reagan March 17.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-03-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "charles-haughey--1989-03-17--USA",
+      "officialId": "charles-haughey",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-03-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-02-28",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
-      "id": "charles-haughey--1990-02-27--USA",
+      "id": "charles-haughey--1990-02-26--USA",
       "officialId": "charles-haughey",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-02-27",
+      "startDate": "1990-02-26",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9680,6 +9835,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "eamon-de-valera--1963-11-24--USA",
+      "officialId": "eamon-de-valera",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-05-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "eamon-de-valera--1964-05-27--USA",
+      "officialId": "eamon-de-valera",
+      "purpose": "Official visit. Addressed U.S. Congress May 28. In U.S. May 26–30, visited Williamsburg (Virginia) and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-05-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -9711,19 +9916,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-03-18",
+      "endDate": "2011-03-17",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "enda-kenny--2011-03-16--USA",
+      "id": "enda-kenny--2011-03-17--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-03-16",
+      "startDate": "2011-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10216,8 +10425,12 @@
       "eventName": null,
       "id": "enda-kenny--2012-03-19--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10689,19 +10902,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-03-21",
+      "endDate": "2013-03-20",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "enda-kenny--2013-03-18--USA",
+      "id": "enda-kenny--2013-03-19--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-03-18",
+      "startDate": "2013-03-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11014,19 +11231,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-03-15",
+      "endDate": "2014-03-14",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "enda-kenny--2014-03-13--USA",
+      "id": "enda-kenny--2014-03-14--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-03-13",
+      "startDate": "2014-03-14",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11289,19 +11510,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-03-18",
+      "endDate": "2015-03-17",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "enda-kenny--2015-03-15--USA",
+      "id": "enda-kenny--2015-03-17--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-03-15",
+      "startDate": "2015-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11472,8 +11697,12 @@
       "eventName": null,
       "id": "enda-kenny--2016-03-15--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11920,19 +12149,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-03-18",
+      "endDate": "2017-03-17",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
-      "id": "enda-kenny--2017-03-15--USA",
+      "id": "enda-kenny--2017-03-16--USA",
       "officialId": "enda-kenny",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-03-15",
+      "startDate": "2017-03-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12139,6 +12372,181 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "garret-fitzgerald--1984-03-14--USA",
+      "officialId": "garret-fitzgerald",
+      "purpose": "Official working visit. Addressed Joint Session of U.S. Congress March 15.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-03-14",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "garret-fitzgerald--1986-03-17--USA",
+      "officialId": "garret-fitzgerald",
+      "purpose": "Met with President Reagan.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-03-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "jack-lynch--1970-10-24--USA",
+      "officialId": "jack-lynch",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "jack-lynch--1971-03-15--USA",
+      "officialId": "jack-lynch",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-03-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-01-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "jack-lynch--1973-01-05--USA",
+      "officialId": "jack-lynch",
+      "purpose": "Attended memorial services for former President Truman.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-01-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-11-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "jack-lynch--1979-11-08--USA",
+      "officialId": "jack-lynch",
+      "purpose": "Official visit. In U.S. November 7–15; visited Williamsburg, Boston, New Orleans, Houston, Chicago, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-11-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1956-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-a-costello--1956-03-14--USA",
+      "officialId": "john-a-costello",
+      "purpose": "Afterwards visited New York City, Philadelphia (Pennsylvania), and New Haven (Connecticut). Departed U.S. March 29.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1956-03-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [-0.1276, 51.5072],
         "countryCode": "GBR",
@@ -12195,13 +12603,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-03-24",
+      "endDate": "1995-03-18",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "john-bruton--1995-03-16--USA",
       "officialId": "john-bruton",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Later visited New York, Chicago, and St. Louis; departed March 24.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12600,8 +13012,12 @@
       "eventName": null,
       "id": "john-bruton--1996-03-14--USA",
       "officialId": "john-bruton",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12609,7 +13025,7 @@
       ],
       "startDate": "1996-03-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12747,11 +13163,15 @@
       },
       "endDate": "1996-09-12",
       "engagements": ["Met President Bill Clinton"],
-      "eventName": null,
+      "eventName": "Met with President Clinton during a private visit. Addressed joint session of Congress.",
       "id": "john-bruton--1996-09-08--USA",
       "officialId": "john-bruton",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit. Addressed joint session of Congress.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12759,7 +13179,7 @@
       ],
       "startDate": "1996-09-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -12975,8 +13395,12 @@
       "eventName": null,
       "id": "john-bruton--1996-12-15--USA",
       "officialId": "john-bruton",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Attended U.S.-European Union Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12984,7 +13408,7 @@
       ],
       "startDate": "1996-12-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -13025,8 +13449,12 @@
       "eventName": null,
       "id": "john-bruton--1997-03-17--USA",
       "officialId": "john-bruton",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13034,7 +13462,7 @@
       ],
       "startDate": "1997-03-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13426,21 +13854,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-03-17",
+      "endDate": "2018-03-16",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "leo-varadkar--2018-03-11--USA",
+      "id": "leo-varadkar--2018-03-13--USA",
       "officialId": "leo-varadkar",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-11",
+      "startDate": "2018-03-13",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14079,19 +14511,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-03-16",
+      "endDate": "2019-03-15",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
-      "id": "leo-varadkar--2019-03-13--USA",
+      "id": "leo-varadkar--2019-03-12--USA",
       "officialId": "leo-varadkar",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-03-13",
+      "startDate": "2019-03-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14732,16 +15168,20 @@
       "endDate": "2020-03-12",
       "engagements": ["Met President Donald Trump", "Gave a public address"],
       "eventName": null,
-      "id": "leo-varadkar--2020-03-11--USA",
+      "id": "leo-varadkar--2020-03-12--USA",
       "officialId": "leo-varadkar",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2020-03-11",
+      "startDate": "2020-03-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14804,19 +15244,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-03-18",
+      "endDate": "2023-03-17",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": null,
-      "id": "leo-varadkar--2023-03-15--USA",
+      "id": "leo-varadkar--2023-03-17--USA",
       "officialId": "leo-varadkar",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-03-15",
+      "startDate": "2023-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -15510,19 +15954,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-03-17",
+      "endDate": "2024-03-15",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": null,
-      "id": "leo-varadkar--2024-03-11--USA",
+      "id": "leo-varadkar--2024-03-15--USA",
       "officialId": "leo-varadkar",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-03-11",
+      "startDate": "2024-03-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -15550,6 +15998,206 @@
       "startDate": "2024-03-22",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "liam-cosgrave--1976-03-17--USA",
+      "officialId": "liam-cosgrave",
+      "purpose": "Official visit; addressed a joint session of U.S.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-03-17",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-06-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "mary-mcaleese--1998-06-22--USA",
+      "officialId": "mary-mcaleese",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1998-06-22",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-06-11",
+      "engagements": [],
+      "eventName": "Attended the funeral of Former President Reagan.",
+      "id": "mary-mcaleese--2004-06-11--USA",
+      "officialId": "mary-mcaleese",
+      "purpose": "Attended the funeral of Former President Reagan.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-06-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-05-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "mary-robinson--1993-05-12--USA",
+      "officialId": "mary-robinson",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-05-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1995-02-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "mary-robinson--1995-02-20--JPN",
+      "officialId": "mary-robinson",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1995-02-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "mary-robinson--1996-06-12--USA",
+      "officialId": "mary-robinson",
+      "purpose": "State Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1996-06-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1997-04-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "mary-robinson--1997-04-15--SWE",
+      "officialId": "mary-robinson",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1997-04-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-04-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "michael-d-higgins--2014-04-08--GBR",
+      "officialId": "michael-d-higgins",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "2014-04-08",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16234,21 +16882,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-03-18",
+      "endDate": "2022-03-17",
       "engagements": [],
       "eventName": null,
-      "id": "micheal-martin--2022-03-16--USA",
+      "id": "micheal-martin--2022-03-17--USA",
       "officialId": "micheal-martin",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-03-16",
+      "startDate": "2022-03-17",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -18118,6 +18770,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1983-09-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "patrick-hillery--1983-09-11--JPN",
+      "officialId": "patrick-hillery",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1983-09-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "sean-lemass--1963-10-15--USA",
+      "officialId": "sean-lemass",
+      "purpose": "Official visit. In U.S. October 11–20, visited Philadelphia, Chicago, New York City, and Boston.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-10-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "sean-t-o-kelly--1959-03-17--USA",
+      "officialId": "sean-t-o-kelly",
+      "purpose": "At the invitation of the President.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-03-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -18463,8 +19190,12 @@
       "eventName": null,
       "id": "simon-harris--2024-10-09--USA",
       "officialId": "simon-harris",
-      "purpose": "Met with President Joe Biden.",
+      "purpose": "Offical Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Simon_Harris"

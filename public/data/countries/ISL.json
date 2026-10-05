@@ -1908,6 +1908,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1955-05-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "asgeir-asgeirsson--1955-05-25--NOR",
+      "officialId": "asgeir-asgeirsson",
+      "purpose": "visited by President Ásgeir Ásgeirsson and Dóra Þórhallsdóttir",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1955-05-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-07-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "asgeir-asgeirsson--1967-07-17--USA",
+      "officialId": "asgeir-asgeirsson",
+      "purpose": "Informal visit. In U.S. July 17–August 5; visited New York City and Boston. Travelled to Canada July 28–August 2.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-07-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-08-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "bjarni-benediktsson--1964-08-18--USA",
+      "officialId": "bjarni-benediktsson",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-08-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-04-11",
+      "engagements": [],
+      "eventName": "Met with President Nixon April 11 after NATO Ministerial Meeting.",
+      "id": "bjarni-benediktsson--1969-04-10--USA",
+      "officialId": "bjarni-benediktsson",
+      "purpose": "Met with President Nixon April 11 after NATO Ministerial Meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-04-10",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [-77.0369, 38.9072],
         "countryCode": "USA",
@@ -2094,17 +2194,21 @@
       },
       "endDate": "2024-07-11",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "bjarni-benediktsson-isl--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "bjarni-benediktsson-isl--2024-07-10--USA",
       "officialId": "bjarni-benediktsson-isl",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -2180,6 +2284,31 @@
         }
       ],
       "startDate": "1991-09-11",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-09-24",
+      "engagements": [],
+      "eventName": "Met with President Bush while attending the U.N. General Assembly in New York City.",
+      "id": "davi-oddsson--1991-09-24--USA",
+      "officialId": "davi-oddsson",
+      "purpose": "Met with President Bush while attending the U.N. General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1991-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -2767,19 +2896,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-04-24",
+      "endDate": "1999-04-25",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "NATO Summit",
-      "id": "davi-oddsson--1999-04-21--USA",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "davi-oddsson--1999-04-23--USA",
       "officialId": "davi-oddsson",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-04-21",
+      "startDate": "1999-04-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -3320,19 +3453,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-07-06",
+      "endDate": "2004-07-07",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "davi-oddsson--2004-07-06--USA",
+      "id": "davi-oddsson--2004-07-05--USA",
       "officialId": "davi-oddsson",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-07-06",
+      "startDate": "2004-07-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3942,6 +4079,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "geir-hallgrimsson--1978-05-30--USA",
+      "officialId": "geir-hallgrimsson",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-01-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "gu-ni-johannesson--2018-01-17--SWE",
+      "officialId": "gu-ni-johannesson",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2018-01-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -4525,11 +4712,15 @@
       },
       "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "johanna-sigur-ardottir--2012-05-20--USA",
       "officialId": "johanna-sigur-ardottir",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6029,6 +6220,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1971-05-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "kristjan-eldjarn--1971-05-03--NOR",
+      "officialId": "kristjan-eldjarn",
+      "purpose": "visited by President Kristján Eldjárn and Halldóra Eldjárn",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1971-05-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Munich",
         "coordinates": [11.575, 48.1375],
         "countryCode": "DEU",
@@ -6742,6 +6958,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-11-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "olafur-ragnar-grimsson--1998-11-24--SWE",
+      "officialId": "olafur-ragnar-grimsson",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1998-11-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-04-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "olafur-ragnar-grimsson--2000-04-28--USA",
+      "officialId": "olafur-ragnar-grimsson",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2000-04-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-08-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "orsteinn-palsson--1988-08-09--USA",
+      "officialId": "orsteinn-palsson",
+      "purpose": "Official Working Visit. Private visit to Orlando (Fla.) afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-08-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Oslo",
         "coordinates": [10.738888888, 59.913333333],
         "countryCode": "NOR",
@@ -7248,13 +7539,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-05-14",
+      "endDate": "2016-05-13",
       "engagements": [],
-      "eventName": "Nordic-United States Summit",
+      "eventName": "Attended the U.S.-Nordic Leaders Summit.",
       "id": "sigur-ur-ingi-johannsson--2016-05-13--USA",
       "officialId": "sigur-ur-ingi-johannsson",
-      "purpose": "Attended Nordic-United States Summit",
+      "purpose": "Attended the U.S.-Nordic Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7363,6 +7658,181 @@
       "startDate": "1990-07-05",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1981-10-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1981-10-21--NOR",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "visited by President Vigdís Finnbogadóttir",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1981-10-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1981-10-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1981-10-26--SWE",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1981-10-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-09-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1982-09-04--USA",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Official working visit. Private visit afterwards to Minneapolis, New York City, Seattle, and Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-09-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-01-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1988-01-26--USA",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Met with President Reagan during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-01-26",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1989-05-23--USA",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1991-10-08--USA",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Attended symposium on explorations at the Smithsonian Institution, and commemoration of Viking explorers; met with President Bush Oct. 9.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1991-10-08",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1994-10-05--USA",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1994-10-05",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

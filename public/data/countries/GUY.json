@@ -40,19 +40,19 @@
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Cheddi_Jagan.png?width=160",
       "positions": [
         {
-          "categories": ["head_of_state", "head_of_government"],
-          "endDate": "1996-11-17",
+          "categories": ["head_of_state"],
+          "endDate": "1994-12-11",
           "id": "cheddi-jagan-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "1992-10-28",
+          "startDate": "1993-08-30",
           "title": "President"
         }
       ],
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
           "label": "Wikipedia",
@@ -1875,19 +1875,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-09-29",
+      "endDate": "2003-09-24",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "bharrat-jagdeo--2003-09-23--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "bharrat-jagdeo--2003-09-24--USA",
       "officialId": "bharrat-jagdeo",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-23",
+      "startDate": "2003-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -4827,534 +4831,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Port of Spain",
-        "coordinates": [-61.516666666, 10.666666666],
-        "countryCode": "TTO",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1992-10-30",
-      "engagements": [
-        "Met Prime Minister Patrick Manning",
-        "Gave a public address"
-      ],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1992-10-28--TTO",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1992-10-28",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Washington",
         "coordinates": [-77.0369, 38.9072],
         "countryCode": "USA",
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-12-10",
-      "engagements": ["Gave a public address"],
-      "eventName": "Miami Conference on the Caribbean Basin",
-      "id": "cheddi-jagan--1992-11-30--USA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Miami Conference on the Caribbean Basin",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1992-11-30",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Caracas",
-        "coordinates": [-66.914444444, 10.506111111],
-        "countryCode": "VEN",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-02-18",
-      "engagements": ["Met President Carlos Andres Perez", "Signed agreements"],
-      "eventName": null,
-      "id": "cheddi-jagan--1993-02-17--VEN",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Venezuela",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-02-17",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Roseau",
-        "coordinates": [-61.383333333, 15.3],
-        "countryCode": "DMA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-03-23",
-      "engagements": ["Gave a public address"],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1993-03-22--DMA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-03-22",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Berlin",
-        "coordinates": [13.405, 52.52],
-        "countryCode": "DEU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1993-04-02",
-      "engagements": ["Gave a public address"],
-      "eventName": "Inter-American Development Bank (IDB) Meeting",
-      "id": "cheddi-jagan--1993-03-28--DEU",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Inter-American Development Bank (IDB) Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-03-28",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Nassau",
-        "coordinates": [-77.338611111, 25.078055555],
-        "countryCode": "BHS",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-07-08",
-      "engagements": [],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1993-07-05--BHS",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-07-05",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-09-02",
-      "engagements": ["Met President Bill Clinton"],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1993-08-29--USA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-08-29",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kingston",
-        "coordinates": [-76.793055555, 17.971388888],
-        "countryCode": "JAM",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-09-20",
+      "endDate": "1993-08-30",
       "engagements": [],
       "eventName": null,
-      "id": "cheddi-jagan--1993-09-16--JAM",
+      "id": "cheddi-jagan--1993-08-30--USA",
       "officialId": "cheddi-jagan",
-      "purpose": "Visit to Jamaica",
+      "purpose": "Attended a CARICOM working luncheon.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "1993-09-16",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-10-04",
-      "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "cheddi-jagan--1993-09-29--USA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-09-29",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Port of Spain",
-        "coordinates": [-61.516666666, 10.666666666],
-        "countryCode": "TTO",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-10-13",
-      "engagements": [
-        "Met Prime Minister Patrick Manning",
-        "Gave a public address"
-      ],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1993-10-12--TTO",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit and G3 Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-10-12",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Brasília",
-        "coordinates": [-47.8825, -15.7942],
-        "countryCode": "BRA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1993-11-18",
-      "engagements": ["Met President Itamar Franco"],
-      "eventName": null,
-      "id": "cheddi-jagan--1993-11-16--BRA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Brazil",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-11-16",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Beijing",
-        "coordinates": [116.4074, 39.9042],
-        "countryCode": "CHN",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1993-12-17",
-      "engagements": ["Met General Secretary Jiang Zemin"],
-      "eventName": null,
-      "id": "cheddi-jagan--1993-12-12--CHN",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to China",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-12-12",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kuala Lumpur",
-        "coordinates": [101.695277777, 3.147777777],
-        "countryCode": "MYS",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1993-12-21",
-      "engagements": ["Met Prime Minister Mahathir bin Mohamad"],
-      "eventName": null,
-      "id": "cheddi-jagan--1993-12-17--MYS",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Malaysia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-12-17",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Singapore",
-        "coordinates": [103.8, 1.3],
-        "countryCode": "SGP",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1993-12-23",
-      "engagements": ["Met Prime Minister Goh Chok Tong"],
-      "eventName": null,
-      "id": "cheddi-jagan--1993-12-21--SGP",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Singapore",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-12-21",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New Delhi",
-        "coordinates": [77.209, 28.6139],
-        "countryCode": "IND",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1994-01-02",
-      "engagements": ["Met Prime Minister P.V. Narasimha Rao"],
-      "eventName": null,
-      "id": "cheddi-jagan--1993-12-23--IND",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to India",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1993-12-23",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kingstown",
-        "coordinates": [-61.22742, 13.15527],
-        "countryCode": "VCT",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1994-03-12",
-      "engagements": [],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1994-03-11--VCT",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-03-11",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bogotá",
-        "coordinates": [-74.08175, 4.60971],
-        "countryCode": "COL",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1994-04-05",
-      "engagements": ["Met President Cesar Gaviria Trujillo"],
-      "eventName": null,
-      "id": "cheddi-jagan--1994-04-03--COL",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Colombia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-04-03",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Gaborone",
-        "coordinates": [25.908611111, -24.656944444],
-        "countryCode": "BWA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1994-05-13",
-      "engagements": ["Met President Quett Masire"],
-      "eventName": null,
-      "id": "cheddi-jagan--1994-05-11--BWA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Botswana",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-05-11",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Paramaribo",
-        "coordinates": [-55.166666666, 5.866666666],
-        "countryCode": "SUR",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1994-06-23",
-      "engagements": [
-        "Met President Ronald Venetiaan",
-        "Gave a public address"
-      ],
-      "eventName": null,
-      "id": "cheddi-jagan--1994-06-20--SUR",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Suriname",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-06-20",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bridgetown",
-        "coordinates": [-59.616666666, 13.0975],
-        "countryCode": "BRB",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1994-07-09",
-      "engagements": [],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1994-07-07--BRB",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-07-07",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Port of Spain",
-        "coordinates": [-61.516666666, 10.666666666],
-        "countryCode": "TTO",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1994-07-21",
-      "engagements": [],
-      "eventName": null,
-      "id": "cheddi-jagan--1994-07-19--TTO",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Trinidad and Tobago",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-07-19",
+      "startDate": "1993-08-30",
       "statusHint": null,
       "type": "other"
     },
@@ -5368,418 +4863,18 @@
         "region": "Americas"
       },
       "endDate": "1994-12-11",
-      "engagements": ["Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "cheddi-jagan--1994-12-08--USA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Summit of the Americas (SOA)",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-12-08",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Belmopan",
-        "coordinates": [-88.7675, 17.25],
-        "countryCode": "BLZ",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-02-17",
       "engagements": [],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1995-02-16--BLZ",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
+      "id": "cheddi-jagan--1994-12-09--USA",
       "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "1995-02-16",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Amsterdam",
-        "coordinates": [4.883333333, 52.366666666],
-        "countryCode": "NLD",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1995-03-12",
-      "engagements": [],
-      "eventName": "UN World Summit for Social Development",
-      "id": "cheddi-jagan--1995-03-05--NLD",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended UN World Summit for Social Development",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-03-05",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Port of Spain",
-        "coordinates": [-61.516666666, 10.666666666],
-        "countryCode": "TTO",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-08-18",
-      "engagements": [],
-      "eventName": "Association of Caribbean States (ACS) Summit",
-      "id": "cheddi-jagan--1995-08-17--TTO",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Association of Caribbean States (ACS) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-08-17",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bogotá",
-        "coordinates": [-74.08175, 4.60971],
-        "countryCode": "COL",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-10-20",
-      "engagements": [],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "cheddi-jagan--1995-10-19--COL",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-10-19",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-10-25",
-      "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "cheddi-jagan--1995-10-23--USA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-10-23",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Wellington",
-        "coordinates": [174.7762, -41.2865],
-        "countryCode": "NZL",
-        "precision": "country",
-        "region": "Oceania"
-      },
-      "endDate": "1995-11-13",
-      "engagements": ["Gave a public address"],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "cheddi-jagan--1995-11-03--NZL",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-11-03",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Panama City",
-        "coordinates": [-79.534722222, 8.971111111],
-        "countryCode": "PAN",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-02-16",
-      "engagements": [],
-      "eventName": null,
-      "id": "cheddi-jagan--1996-02-15--PAN",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Panama",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-02-15",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [-77.0369, 38.9072],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-03-06",
-      "engagements": [],
-      "eventName": null,
-      "id": "cheddi-jagan--1996-02-16--USA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-02-16",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "St. George's",
-        "coordinates": [-61.753055555, 12.0525],
-        "countryCode": "GRD",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-03-05",
-      "engagements": [],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1996-03-03--GRD",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-03-03",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Ottawa",
-        "coordinates": [-75.6972, 45.4215],
-        "countryCode": "CAN",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-06-25",
-      "engagements": ["Met Prime Minister Jean Chretien"],
-      "eventName": null,
-      "id": "cheddi-jagan--1996-06-14--CAN",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Canada",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-06-14",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bridgetown",
-        "coordinates": [-59.616666666, 13.0975],
-        "countryCode": "BRB",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-07-06",
-      "engagements": ["Gave a public address"],
-      "eventName": "Caribbean Community (CARICOM) Summit",
-      "id": "cheddi-jagan--1996-07-03--BRB",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Caribbean Community (CARICOM) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-07-03",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kingston",
-        "coordinates": [-76.793055555, 17.971388888],
-        "countryCode": "JAM",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-09-18",
-      "engagements": [],
-      "eventName": "Barbados-Guyana-Jamaica-Saint Lucia-Trinidad and Tobago Multilateral Meeting",
-      "id": "cheddi-jagan--1996-09-17--JAM",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended Barbados-Guyana-Jamaica-Saint Lucia-Trinidad and Tobago Multilateral Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-09-17",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Damascus",
-        "coordinates": [36.292, 33.513],
-        "countryCode": "SYR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1996-11-05",
-      "engagements": ["Met President Hafez al-Assad"],
-      "eventName": null,
-      "id": "cheddi-jagan--1996-11-03--SYR",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Syria",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-03",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Manama",
-        "coordinates": [50.583333333, 26.216666666],
-        "countryCode": "BHR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1996-11-08",
-      "engagements": ["Met Emir Isa bin Salman Al Khalifa"],
-      "eventName": null,
-      "id": "cheddi-jagan--1996-11-05--BHR",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to Bahrain",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-05",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Abu Dhabi",
-        "coordinates": [54.396944444, 24.451111111],
-        "countryCode": "ARE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1996-11-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "cheddi-jagan--1996-11-08--ARE",
-      "officialId": "cheddi-jagan",
-      "purpose": "Visit to United Arab Emirates",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-08",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Rome",
-        "coordinates": [12.4964, 41.9028],
-        "countryCode": "ITA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1996-11-17",
-      "engagements": ["Gave a public address"],
-      "eventName": "FAO World Food Summit",
-      "id": "cheddi-jagan--1996-11-13--ITA",
-      "officialId": "cheddi-jagan",
-      "purpose": "Attended FAO World Food Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-13",
+      "startDate": "1994-12-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -6986,6 +6081,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-09-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "desmond-hoyte--1988-09-13--USA",
+      "officialId": "desmond-hoyte",
+      "purpose": "Discussed bilateral relations and trade preferences under the Caribbean Basin Initiative.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-09-13",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-06-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "desmond-hoyte--1989-06-19--USA",
+      "officialId": "desmond-hoyte",
+      "purpose": "Met with President Bush during a private visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-06-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [-0.1276, 51.5072],
         "countryCode": "GBR",
@@ -8139,6 +7284,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-07-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "forbes-burnham--1966-07-21--USA",
+      "officialId": "forbes-burnham",
+      "purpose": "Informal visit. Afterwards visited San Francisco, Los Angeles, Houston, and Austin. Departed U.S. July 30.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-07-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-07-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "forbes-burnham--1968-07-26--USA",
+      "officialId": "forbes-burnham",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-07-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paramaribo",
         "coordinates": [-55.166666666, 5.866666666],
         "countryCode": "SUR",
@@ -8434,17 +7629,21 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden"],
-      "eventName": "Summit of the Americas",
-      "id": "irfaan-ali--2022-06-06--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "irfaan-ali--2022-06-08--USA",
       "officialId": "irfaan-ali",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-06",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -9797,6 +8996,965 @@
       "startDate": "1999-07-21",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port of Spain",
+        "coordinates": [-61.516666666, 10.666666666],
+        "countryCode": "TTO",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-10-30",
+      "engagements": [
+        "Met Prime Minister Patrick Manning",
+        "Gave a public address"
+      ],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1992-10-28--TTO",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1992-10-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-12-10",
+      "engagements": ["Gave a public address"],
+      "eventName": "Miami Conference on the Caribbean Basin",
+      "id": "sam-hinds--1992-11-30--USA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Miami Conference on the Caribbean Basin",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1992-11-30",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Caracas",
+        "coordinates": [-66.914444444, 10.506111111],
+        "countryCode": "VEN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-02-18",
+      "engagements": ["Met President Carlos Andres Perez", "Signed agreements"],
+      "eventName": null,
+      "id": "sam-hinds--1993-02-17--VEN",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Venezuela",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-02-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Roseau",
+        "coordinates": [-61.383333333, 15.3],
+        "countryCode": "DMA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-03-23",
+      "engagements": ["Gave a public address"],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1993-03-22--DMA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-03-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Berlin",
+        "coordinates": [13.405, 52.52],
+        "countryCode": "DEU",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1993-04-02",
+      "engagements": ["Gave a public address"],
+      "eventName": "Inter-American Development Bank (IDB) Meeting",
+      "id": "sam-hinds--1993-03-28--DEU",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Inter-American Development Bank (IDB) Meeting",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-03-28",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nassau",
+        "coordinates": [-77.338611111, 25.078055555],
+        "countryCode": "BHS",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-07-08",
+      "engagements": [],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1993-07-05--BHS",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-07-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-09-02",
+      "engagements": ["Met President Bill Clinton"],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1993-08-29--USA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-08-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [-76.793055555, 17.971388888],
+        "countryCode": "JAM",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "sam-hinds--1993-09-16--JAM",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Jamaica",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-09-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-10-04",
+      "engagements": ["Gave a public address"],
+      "eventName": "United Nations (UN) General Assembly",
+      "id": "sam-hinds--1993-09-29--USA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended United Nations (UN) General Assembly",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-09-29",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port of Spain",
+        "coordinates": [-61.516666666, 10.666666666],
+        "countryCode": "TTO",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-10-13",
+      "engagements": [
+        "Met Prime Minister Patrick Manning",
+        "Gave a public address"
+      ],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1993-10-12--TTO",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit and G3 Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-10-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [-47.8825, -15.7942],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-11-18",
+      "engagements": ["Met President Itamar Franco"],
+      "eventName": null,
+      "id": "sam-hinds--1993-11-16--BRA",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-11-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [116.4074, 39.9042],
+        "countryCode": "CHN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1993-12-17",
+      "engagements": ["Met General Secretary Jiang Zemin"],
+      "eventName": null,
+      "id": "sam-hinds--1993-12-12--CHN",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to China",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-12-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [101.695277777, 3.147777777],
+        "countryCode": "MYS",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1993-12-21",
+      "engagements": ["Met Prime Minister Mahathir bin Mohamad"],
+      "eventName": null,
+      "id": "sam-hinds--1993-12-17--MYS",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Malaysia",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-12-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [103.8, 1.3],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1993-12-23",
+      "engagements": ["Met Prime Minister Goh Chok Tong"],
+      "eventName": null,
+      "id": "sam-hinds--1993-12-21--SGP",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Singapore",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-12-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [77.209, 28.6139],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1994-01-02",
+      "engagements": ["Met Prime Minister P.V. Narasimha Rao"],
+      "eventName": null,
+      "id": "sam-hinds--1993-12-23--IND",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1993-12-23",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingstown",
+        "coordinates": [-61.22742, 13.15527],
+        "countryCode": "VCT",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-03-12",
+      "engagements": [],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1994-03-11--VCT",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-03-11",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [-74.08175, 4.60971],
+        "countryCode": "COL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-04-05",
+      "engagements": ["Met President Cesar Gaviria Trujillo"],
+      "eventName": null,
+      "id": "sam-hinds--1994-04-03--COL",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Colombia",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-04-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Gaborone",
+        "coordinates": [25.908611111, -24.656944444],
+        "countryCode": "BWA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1994-05-13",
+      "engagements": ["Met President Quett Masire"],
+      "eventName": null,
+      "id": "sam-hinds--1994-05-11--BWA",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Botswana",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-05-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paramaribo",
+        "coordinates": [-55.166666666, 5.866666666],
+        "countryCode": "SUR",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-06-23",
+      "engagements": [
+        "Met President Ronald Venetiaan",
+        "Gave a public address"
+      ],
+      "eventName": null,
+      "id": "sam-hinds--1994-06-20--SUR",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Suriname",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-06-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bridgetown",
+        "coordinates": [-59.616666666, 13.0975],
+        "countryCode": "BRB",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-07-09",
+      "engagements": [],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1994-07-07--BRB",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-07-07",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port of Spain",
+        "coordinates": [-61.516666666, 10.666666666],
+        "countryCode": "TTO",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-07-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "sam-hinds--1994-07-19--TTO",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Trinidad and Tobago",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-07-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-11",
+      "engagements": ["Gave a public address"],
+      "eventName": "Summit of the Americas (SOA)",
+      "id": "sam-hinds--1994-12-08--USA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Summit of the Americas (SOA)",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1994-12-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Belmopan",
+        "coordinates": [-88.7675, 17.25],
+        "countryCode": "BLZ",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-02-17",
+      "engagements": [],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1995-02-16--BLZ",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-02-16",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-03-12",
+      "engagements": [],
+      "eventName": "UN World Summit for Social Development",
+      "id": "sam-hinds--1995-03-05--NLD",
+      "officialId": "sam-hinds",
+      "purpose": "Attended UN World Summit for Social Development",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-03-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port of Spain",
+        "coordinates": [-61.516666666, 10.666666666],
+        "countryCode": "TTO",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-08-18",
+      "engagements": [],
+      "eventName": "Association of Caribbean States (ACS) Summit",
+      "id": "sam-hinds--1995-08-17--TTO",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Association of Caribbean States (ACS) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-08-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [-74.08175, 4.60971],
+        "countryCode": "COL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-20",
+      "engagements": [],
+      "eventName": "Non-Aligned Movement (NAM) Summit",
+      "id": "sam-hinds--1995-10-19--COL",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-10-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-25",
+      "engagements": ["Gave a public address"],
+      "eventName": "United Nations (UN) General Assembly",
+      "id": "sam-hinds--1995-10-23--USA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended United Nations (UN) General Assembly",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-10-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [174.7762, -41.2865],
+        "countryCode": "NZL",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "1995-11-13",
+      "engagements": ["Gave a public address"],
+      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "id": "sam-hinds--1995-11-03--NZL",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-11-03",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Panama City",
+        "coordinates": [-79.534722222, 8.971111111],
+        "countryCode": "PAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-02-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "sam-hinds--1996-02-15--PAN",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Panama",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-02-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-03-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "sam-hinds--1996-02-16--USA",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-02-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "St. George's",
+        "coordinates": [-61.753055555, 12.0525],
+        "countryCode": "GRD",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-03-05",
+      "engagements": [],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1996-03-03--GRD",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-03-03",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [-75.6972, 45.4215],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-06-25",
+      "engagements": ["Met Prime Minister Jean Chretien"],
+      "eventName": null,
+      "id": "sam-hinds--1996-06-14--CAN",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-06-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bridgetown",
+        "coordinates": [-59.616666666, 13.0975],
+        "countryCode": "BRB",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-07-06",
+      "engagements": ["Gave a public address"],
+      "eventName": "Caribbean Community (CARICOM) Summit",
+      "id": "sam-hinds--1996-07-03--BRB",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-07-03",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [-76.793055555, 17.971388888],
+        "countryCode": "JAM",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-09-18",
+      "engagements": [],
+      "eventName": "Barbados-Guyana-Jamaica-Saint Lucia-Trinidad and Tobago Multilateral Meeting",
+      "id": "sam-hinds--1996-09-17--JAM",
+      "officialId": "sam-hinds",
+      "purpose": "Attended Barbados-Guyana-Jamaica-Saint Lucia-Trinidad and Tobago Multilateral Meeting",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-09-17",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Damascus",
+        "coordinates": [36.292, 33.513],
+        "countryCode": "SYR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-11-05",
+      "engagements": ["Met President Hafez al-Assad"],
+      "eventName": null,
+      "id": "sam-hinds--1996-11-03--SYR",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Syria",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manama",
+        "coordinates": [50.583333333, 26.216666666],
+        "countryCode": "BHR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-11-08",
+      "engagements": ["Met Emir Isa bin Salman Al Khalifa"],
+      "eventName": null,
+      "id": "sam-hinds--1996-11-05--BHR",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to Bahrain",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-05",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [54.396944444, 24.451111111],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "sam-hinds--1996-11-08--ARE",
+      "officialId": "sam-hinds",
+      "purpose": "Visit to United Arab Emirates",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.4964, 41.9028],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-11-17",
+      "engagements": ["Gave a public address"],
+      "eventName": "FAO World Food Summit",
+      "id": "sam-hinds--1996-11-13--ITA",
+      "officialId": "sam-hinds",
+      "purpose": "Attended FAO World Food Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-13",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

@@ -1712,13 +1712,142 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdou-diouf--1970-10-24--USA",
+      "officialId": "abdou-diouf",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-08-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdou-diouf--1983-08-09--USA",
+      "officialId": "abdou-diouf",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-08-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-04-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdou-diouf--1985-04-13--USA",
+      "officialId": "abdou-diouf",
+      "purpose": "Private Visit. Met with President Reagan April 16.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-04-13",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1988-07-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdou-diouf--1988-06-28--JPN",
+      "officialId": "abdou-diouf",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1988-06-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdou-diouf--1988-11-08--GBR",
+      "officialId": "abdou-diouf",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1988-11-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1990-05-14",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "abdou-diouf--1990-05-14--USA",
       "officialId": "abdou-diouf",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1892,8 +2021,12 @@
       "eventName": null,
       "id": "abdou-diouf--1991-09-09--USA",
       "officialId": "abdou-diouf",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1901,7 +2034,7 @@
       ],
       "startDate": "1991-09-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2117,8 +2250,12 @@
       "eventName": null,
       "id": "abdou-diouf--1994-05-21--USA",
       "officialId": "abdou-diouf",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2126,7 +2263,7 @@
       ],
       "startDate": "1994-05-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3971,19 +4108,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-06-29",
+      "endDate": "2001-06-28",
       "engagements": ["Met President George W. Bush"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "abdoulaye-wade--2001-06-27--USA",
+      "id": "abdoulaye-wade--2001-06-28--USA",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Working visit; attended a forum of the Partnership to Cut Hunger in Africa.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-06-27",
+      "startDate": "2001-06-28",
       "statusHint": null,
       "type": "conference"
     },
@@ -4496,13 +4637,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-06-19",
+      "endDate": "2002-06-18",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
       "id": "abdoulaye-wade--2002-06-18--USA",
       "officialId": "abdoulaye-wade",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4510,7 +4655,7 @@
       ],
       "startDate": "2002-06-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6106,11 +6251,15 @@
       },
       "endDate": "2004-06-10",
       "engagements": ["Met President George W. Bush"],
-      "eventName": "G8 Summit",
+      "eventName": "Met with President Bush at the G-8 Economic Summit at Sea Island, Georgia.",
       "id": "abdoulaye-wade--2004-06-09--USA",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Met with President Bush at the G-8 Economic Summit at Sea Island, Georgia.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6484,8 +6633,12 @@
       "eventName": null,
       "id": "abdoulaye-wade--2004-12-05--USA",
       "officialId": "abdoulaye-wade",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12581,6 +12734,181 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-11-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1961-11-03--USA",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Official visit. In U.S. October 30–November 4. Also visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-11-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-09-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1966-09-28--USA",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "State Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-09-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1971-06-18--USA",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Private visit. In the U.S. June 12–18. Also visited Cambridge, Mass.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-06-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1975-05-22--USA",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1978-06-08--USA",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-06-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1979-04-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1979-04-16--JPN",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1979-04-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-04-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1980-04-05--USA",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Private visit. Met with President Carter April 8.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-04-05",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Banjul",
         "coordinates": [-16.5775, 13.453055555],
         "countryCode": "GMB",
@@ -13290,13 +13618,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-03-29",
+      "endDate": "2013-03-28",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended African Leaders Summit.",
       "id": "macky-sall--2013-03-28--USA",
       "officialId": "macky-sall",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended African Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14140,13 +14472,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-09",
+      "endDate": "2014-08-06",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United States-Africa Business Forum",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "macky-sall--2014-08-05--USA",
       "officialId": "macky-sall",
-      "purpose": "Attended United States-Africa Business Forum and United States-Africa Business Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19872,19 +20208,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "macky-sall--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "macky-sall--2022-12-13--USA",
       "officialId": "macky-sall",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },

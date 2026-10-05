@@ -3809,12 +3809,12 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2019-06-10",
+          "endDate": "2018-06-27",
           "id": "james-gordon-carr-p1",
           "ministry": null,
-          "portfolio": "trade",
-          "startDate": "2018-07-24",
-          "title": "Minister of International Trade Diversification"
+          "portfolio": null,
+          "startDate": "2015-11-15",
+          "title": "Minister, Natural Resources Canada"
         }
       ],
       "sources": [
@@ -5280,7 +5280,7 @@
           "url": "https://en.wikipedia.org/wiki/Marc_Miller_(politician)"
         }
       ],
-      "summary": "Marc Miller (born March 12, 1973) is a Canadian lawyer and politician who has been Minister of Canadian Identity and Culture, and the Minister responsible for Official Languages since 2025. A member of the Liberal Party, Miller was elected as the member of Parliament (MP) for Ville-Marie—Le Sud-Ouest—Île-des-Sœurs in the 2015 federal election.",
+      "summary": "Marc Miller (born March 12, 1973) is a Canadian lawyer and politician who has been Minister of Canadian Identity and Culture, and Minister responsible for Official Languages since 2025. A member of the Liberal Party, Miller was elected as the member of Parliament (MP) for Ville-Marie—Le Sud-Ouest—Île-des-Sœurs in the 2015 federal election.",
       "wikidataId": "Q22279214"
     },
     {
@@ -7657,6 +7657,64 @@
     {
       "aliases": [],
       "countryCode": "CAN",
+      "fullName": "Earl of Athlone",
+      "id": "earl-of-athlone",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1945-03-24",
+          "id": "earl-of-athlone-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1945-03-22",
+          "title": "Governor-General"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "CAN",
+      "fullName": "Massey",
+      "id": "massey",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1954-05-05",
+          "id": "massey-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1954-05-03",
+          "title": "Governor-General"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "CAN",
       "fullName": "Shafqat Ali",
       "id": "shafqat-ali",
       "party": "Liberal Party of Canada",
@@ -7722,6 +7780,35 @@
       ],
       "summary": "Steven Garrett MacKinnon (born September 28, 1966) is a Canadian politician who has been the member of Parliament (MP) for Gatineau since 2015. A member of the Liberal Party, MacKinnon is the Government House Leader and Minister of Transport.",
       "wikidataId": "Q21266477"
+    },
+    {
+      "aliases": [],
+      "countryCode": "CAN",
+      "fullName": "Viscount Alexander",
+      "id": "viscount-alexander",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1947-02-06",
+          "id": "viscount-alexander-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1947-02-04",
+          "title": "Governor-General"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     }
   ],
   "trips": [
@@ -14605,18 +14692,22 @@
         "Met with President Ronald Reagan to discuss bilateral relations and trade."
       ],
       "eventName": null,
-      "id": "brian-mulroney--1984-09-25--USA",
+      "id": "brian-mulroney--1984-09-24--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Official visit.",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
         }
       ],
-      "startDate": "1984-09-25",
+      "startDate": "1984-09-24",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "month",
@@ -14677,6 +14768,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "brian-mulroney--1985-10-24--USA",
+      "officialId": "brian-mulroney",
+      "purpose": "Met with President Reagan in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-10-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington, D.C.",
         "coordinates": [
           -77.036666666,
@@ -14685,19 +14804,23 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1986-03-18",
+      "endDate": "1986-03-20",
       "engagements": [],
       "eventName": null,
-      "id": "brian-mulroney--1986-03-18--USA",
+      "id": "brian-mulroney--1986-03-17--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Official visit.",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
         }
       ],
-      "startDate": "1986-03-18",
+      "startDate": "1986-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -14847,21 +14970,53 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1988-04-27",
+      "endDate": "1988-04-28",
       "engagements": [],
       "eventName": null,
-      "id": "brian-mulroney--1988-04-27--USA",
+      "id": "brian-mulroney--1988-04-26--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Official visit.",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
         }
       ],
-      "startDate": "1988-04-27",
+      "startDate": "1988-04-26",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-05-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "brian-mulroney--1989-05-04--USA",
+      "officialId": "brian-mulroney",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-05-04",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14893,6 +15048,34 @@
       "startDate": "1989-07-14",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-08-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "brian-mulroney--1989-08-30--USA",
+      "officialId": "brian-mulroney",
+      "purpose": "Met with President Bush during a private visit to Kennebunkport (Me.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-08-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14950,6 +15133,34 @@
       "startDate": "1989-11-26",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-11-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "brian-mulroney--1989-11-29--USA",
+      "officialId": "brian-mulroney",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-11-29",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -15059,11 +15270,15 @@
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
-      "id": "brian-mulroney--1990-07-09--USA",
+      "eventName": "Attended Economic Summit Meeting in Houston, Texas.",
+      "id": "brian-mulroney--1990-07-08--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Attended the 16th G7 summit.",
+      "purpose": "Attended Economic Summit Meeting in Houston, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
@@ -15073,7 +15288,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-07-09",
+      "startDate": "1990-07-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -15096,8 +15311,12 @@
       "eventName": null,
       "id": "brian-mulroney--1990-08-27--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush at Kennebunkport, Maine.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15105,7 +15324,7 @@
       ],
       "startDate": "1990-08-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15119,22 +15338,26 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-09-28",
+      "endDate": "1990-09-29",
       "engagements": [
         "Met President George H.W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "brian-mulroney--1990-09-28--USA",
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "brian-mulroney--1990-09-29--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1990-09-28",
+      "startDate": "1990-09-29",
       "statusHint": null,
       "type": "conference"
     },
@@ -15433,11 +15656,15 @@
       "engagements": [
         "Met President George H.W. Bush"
       ],
-      "eventName": null,
+      "eventName": "Informal meeting with President Bush at Kennebunkport, Me.",
       "id": "brian-mulroney--1991-08-26--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Visit to United States",
+      "purpose": "Informal meeting with President Bush at Kennebunkport, Me.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15445,7 +15672,7 @@
       ],
       "startDate": "1991-08-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15675,8 +15902,12 @@
       "eventName": null,
       "id": "brian-mulroney--1992-05-19--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15828,8 +16059,12 @@
       "eventName": "NAFTA Signing",
       "id": "brian-mulroney--1992-10-07--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Initialed the NAFTA agreement.",
+      "purpose": "Attended the initialling of the North American Free Trade Agreement in San Antonio, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
@@ -15921,8 +16156,12 @@
       "eventName": null,
       "id": "brian-mulroney--1993-02-04--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Met with President Bill Clinton.",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
@@ -16112,8 +16351,12 @@
       "eventName": null,
       "id": "brian-mulroney--1993-06-01--USA",
       "officialId": "brian-mulroney",
-      "purpose": "Met with President Bill Clinton.",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Brian_Mulroney"
@@ -24464,6 +24707,34 @@
       "startDate": "2026-08-10",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "earl-of-athlone--1945-03-22--USA",
+      "officialId": "earl-of-athlone",
+      "purpose": "Met with President Roosevelt in Washington.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-03-22",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -34409,11 +34680,15 @@
       "engagements": [
         "Met President Bill Clinton"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended APEC meeting in Seattle.",
       "id": "jean-chretien--1993-11-19--USA",
       "officialId": "jean-chretien",
-      "purpose": "Attended the APEC United States 1993 summit.",
+      "purpose": "Attended APEC meeting in Seattle.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jean_Chr%C3%A9tien"
@@ -34965,11 +35240,15 @@
         "Met President Bill Clinton",
         "Signed agreements"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "jean-chretien--1994-12-09--USA",
       "officialId": "jean-chretien",
-      "purpose": "Attended the 1st Summit of the Americas.",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jean_Chr%C3%A9tien"
@@ -36119,8 +36398,12 @@
       "eventName": null,
       "id": "jean-chretien--1997-04-07--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -36145,11 +36428,15 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "Attended the Economic Summit Meeting in Denver, Colorado.",
       "id": "jean-chretien--1997-06-20--USA",
       "officialId": "jean-chretien",
-      "purpose": "Attended the 23rd G8 summit.",
+      "purpose": "Attended the Economic Summit Meeting in Denver, Colorado.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jean_Chr%C3%A9tien"
@@ -36891,11 +37178,15 @@
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "jean-chretien--1999-04-23--USA",
       "officialId": "jean-chretien",
-      "purpose": "Attended the 50th Anniversary NATO Summit.",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jean_Chr%C3%A9tien"
@@ -37266,8 +37557,12 @@
       "eventName": null,
       "id": "jean-chretien--2000-01-23--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit with President Clinton while returning from Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -37741,7 +38036,7 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2000-12-03",
+      "endDate": "2000-12-02",
       "engagements": [
         "Met President Bill Clinton",
         "Gave a public address"
@@ -37749,8 +38044,12 @@
       "eventName": null,
       "id": "jean-chretien--2000-12-02--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -37758,7 +38057,7 @@
       ],
       "startDate": "2000-12-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -37779,8 +38078,12 @@
       "eventName": null,
       "id": "jean-chretien--2001-02-04--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Also addressed Permanent Council of the OAS.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -37992,8 +38295,12 @@
       "eventName": null,
       "id": "jean-chretien--2001-09-23--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -38243,8 +38550,12 @@
       "eventName": null,
       "id": "jean-chretien--2002-03-14--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -38252,7 +38563,7 @@
       ],
       "startDate": "2002-03-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -38727,8 +39038,12 @@
       "eventName": null,
       "id": "jean-chretien--2002-09-09--USA",
       "officialId": "jean-chretien",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Discussed the Iraq crisis with President Bush in Detroit, Michigan.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -45607,6 +45922,146 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1957-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-diefenbaker--1957-10-16--USA",
+      "officialId": "john-diefenbaker",
+      "purpose": "Accompanied Queen Elizabeth II.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1957-10-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-06-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-diefenbaker--1960-06-03--USA",
+      "officialId": "john-diefenbaker",
+      "purpose": "Official visit to Washington.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-06-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-diefenbaker--1960-09-27--USA",
+      "officialId": "john-diefenbaker",
+      "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-09-27",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-01-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-diefenbaker--1961-01-16--USA",
+      "officialId": "john-diefenbaker",
+      "purpose": "Signed Treaty on Cooperative Development of the Water Resources of the Columbia River Basin.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-01-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-02-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-diefenbaker--1961-02-20--USA",
+      "officialId": "john-diefenbaker",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-02-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [
           139.6917,
@@ -47679,7 +48134,7 @@
         "Trudeau met with Indonesian president Joko Widodo, German chancellor Angela Merkel, Mexican president Enrique Peña Nieto, Chinese president Xi Jinping, and Italian prime minister…",
         "Met President Recep Tayyip Erdogan"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20",
       "id": "justin-trudeau--2015-11-14--TUR",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Antalya to attend the G-20 summit.",
@@ -47905,16 +48360,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2016-03-11",
+      "endDate": "2016-03-10",
       "engagements": [
         "Trudeau attended the State Dinner at the White House.",
         "Met President Barack Obama"
       ],
       "eventName": null,
-      "id": "justin-trudeau--2016-03-09--USA",
+      "id": "justin-trudeau--2016-03-10--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to meet with President Barack Obama.",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -47924,20 +48383,19 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-09",
+      "startDate": "2016-03-10",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Nueva York",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2016-03-17",
@@ -47948,7 +48406,7 @@
       "eventName": null,
       "id": "justin-trudeau--2016-03-16--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to New York City to visit the UN Headquarters.",
+      "purpose": "Visita a la Sede de la Organización de las Naciones Unidas​",
       "sources": [
         {
           "label": "Wikipedia",
@@ -47966,13 +48424,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Washington D. C.",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -77.036666666,
+          38.895
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2016-04-01",
@@ -47980,11 +48437,15 @@
         "Trudeau met with Argentine president Mauricio Macri, British prime minister David Cameron and Indian prime minister Narendra Modi.",
         "Trudeau attended a working luncheon given by Japanese prime minister Shinzō Abe."
       ],
-      "eventName": "Nuclear Security Summit",
-      "id": "justin-trudeau--2016-03-30--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "justin-trudeau--2016-03-31--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to attend the 2016 Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -47994,7 +48455,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-30",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -48014,7 +48475,7 @@
         "Trudeau met with representatives from Honda and Toyota as well as other industry leaders.",
         "Trudeau later attended the G7 summit in Shima, Mie Prefecture with other G7 leaders, including French president François Hollande."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "42.ª Cumbre del G7",
       "id": "justin-trudeau--2016-05-22--JPN",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Tokyo to meet with Emperor Akihito and Empress Michiko and Prime Minister Shinzō Abe.",
@@ -48147,7 +48608,7 @@
         "Trudeau later attended the G-20 summit in Hangzhou.",
         "Trudeau was nicknamed \"小土豆 xiao tudou\" (Potato Jr) by the Chinese public."
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20 de Hangzhou",
       "id": "justin-trudeau--2016-08-30--CHN",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Beijing to meet with President Xi Jinping and Premier Li Keqiang.",
@@ -48168,13 +48629,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Nueva York",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2016-09-20",
@@ -48184,7 +48644,7 @@
       "eventName": "United Nations (UN) General Assembly",
       "id": "justin-trudeau--2016-09-19--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to New York City to participate in the General Debate of the seventy-first session of the United Nations General Assembly.",
+      "purpose": "Participación en el Debate General del 71° período de sesiones de la Asamblea General de las Naciones Unidas",
       "sources": [
         {
           "label": "Wikipedia",
@@ -48215,7 +48675,7 @@
         "Trudeau led the Canadian delegation.",
         "Met Prime Minister Benjamin Netanyahu"
       ],
-      "eventName": null,
+      "eventName": "Funeral del expresidente Shimon Peres",
       "id": "justin-trudeau--2016-09-29--ISR",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Jerusalem to attend the memorial service for former president Shimon Peres.",
@@ -48468,13 +48928,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Washington D. C.",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -77.036666666,
+          38.895
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2017-02-13",
@@ -48485,8 +48944,12 @@
       "eventName": null,
       "id": "justin-trudeau--2017-02-13--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to meet with President Donald Trump.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -48498,7 +48961,7 @@
       ],
       "startDate": "2017-02-13",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -48537,13 +49000,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
+        "city": "París",
         "coordinates": [
-          2.3522,
-          48.8566
+          2.352222222,
+          48.856666666
         ],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2017-02-16",
@@ -48553,7 +49015,7 @@
       "eventName": null,
       "id": "justin-trudeau--2017-02-16--FRA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Paris to address the European Parliament.",
+      "purpose": "Discurso ante el Parlamento Europeo",
       "sources": [
         {
           "label": "Wikipedia",
@@ -48635,13 +49097,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Nueva York",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2017-04-06",
@@ -48651,7 +49112,7 @@
       "eventName": null,
       "id": "justin-trudeau--2017-04-06--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to New York City to attend the Women in the World summit.",
+      "purpose": "Participación en la Cumbre Women in the World",
       "sources": [
         {
           "label": "Wikipedia",
@@ -48776,7 +49237,7 @@
         "Trudeau met with French president Emmanuel Macron.",
         "Trudeau later visited Amatrice since it was devastated by the powerful earthquake in August 2016."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "43.ª Cumbre del G7",
       "id": "justin-trudeau--2017-05-26--ITA",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Taormina, Sicily to attend the G7 summit.",
@@ -48911,7 +49372,7 @@
         "Trudeau met with French president Emmanuel Macron, Indian prime minister Narendra Modi and Mexican president Enrique Peña Nieto.",
         "Trudeau also addressed the Global Citizen Festival."
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20",
       "id": "justin-trudeau--2017-07-06--DEU",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Hamburg to attend the G-20 summit.",
@@ -48965,13 +49426,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Nueva York",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2017-09-20",
@@ -48981,7 +49441,7 @@
       "eventName": "United Nations (UN) General Assembly",
       "id": "justin-trudeau--2017-09-19--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to New York City to participate in the General Debate of the seventy-second session of the United Nations General Assembl…",
+      "purpose": "Participación en el Debate General del 72° período de sesiones de la Asamblea General de las Naciones Unidas",
       "sources": [
         {
           "label": "Wikipedia",
@@ -49013,10 +49473,14 @@
         "Met President Donald Trump"
       ],
       "eventName": null,
-      "id": "justin-trudeau--2017-10-10--USA",
+      "id": "justin-trudeau--2017-10-11--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to participate in a keynote conversation at the Fortune Most Powerful Women Summit.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -49026,9 +49490,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-10-10",
+      "startDate": "2017-10-11",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -49676,7 +50140,7 @@
         "Trudeau met with British prime minister Theresa May, French president Emmanuel Macron and South African president Cyril Ramaphosa.",
         "Trudeau also signed the United States Mexico Canada Agreement with outgoing Mexican president Enrique Peña Nieto and United States president Donald Trump."
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20",
       "id": "justin-trudeau--2018-11-29--ARG",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Buenos Aires to attend the G20 summit.",
@@ -49900,10 +50364,14 @@
         "Met President Donald Trump"
       ],
       "eventName": null,
-      "id": "justin-trudeau--2019-06-20--USA",
+      "id": "justin-trudeau--2019-06-19--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to meet with President Donald Trump.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -49913,9 +50381,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-06-20",
+      "startDate": "2019-06-19",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -49933,7 +50401,7 @@
         "Trudeau met with South Korean president Moon Jae-in.",
         "Signed agreements"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20",
       "id": "justin-trudeau--2019-06-27--JPN",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Osaka to attend the G20 summit.",
@@ -49967,7 +50435,7 @@
         "Trudeau met with British prime minister Boris Johnson, German chancellor Angela Merkel, Japanese prime minister Shinzō Abe and United States president Donald Trump.",
         "Met President Emmanuel Macron"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "45.ª Cumbre del G7",
       "id": "justin-trudeau--2019-08-23--FRA",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Biarritz to attend the G7 summit.",
@@ -50195,7 +50663,7 @@
         "Trudeau met with British prime minister Boris Johnson French president Emmanuel Macron, German chancellor Angela Merkel, Italian prime minister Mario Draghi and Japanese prime min…",
         "Met Prime Minister Boris Johnson"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "47.ª Cumbre del G7",
       "id": "justin-trudeau--2021-06-10--GBR",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Carbis Bay to attend the G7 summit.",
@@ -50262,7 +50730,7 @@
         "Trudeau met with British prime minister Boris Johnson.",
         "Met Prime Minister Mario Draghi"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G20",
       "id": "justin-trudeau--2021-10-29--ITA",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Rome to attend the G20 summit.",
@@ -50283,13 +50751,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amsterdam",
+        "city": "Países Bajos",
         "coordinates": [
-          4.883333333,
-          52.366666666
+          5.55,
+          52.316666666
         ],
         "countryCode": "NLD",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2021-10-29",
@@ -50300,7 +50767,7 @@
       "eventName": null,
       "id": "justin-trudeau--2021-10-29--NLD",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to The Hague to meet with Prime Minister Mark Rutte.",
+      "purpose": "Reunión con el P.M. Mark Rutte",
       "sources": [
         {
           "label": "Wikipedia",
@@ -50366,10 +50833,14 @@
         "Met President Joe Biden"
       ],
       "eventName": "North American Leaders Summit",
-      "id": "justin-trudeau--2021-11-17--USA",
+      "id": "justin-trudeau--2021-11-18--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to attend the North American Leaders' Summit with President Joe Biden and Mexican president Andrés Ma…",
+      "purpose": "Working Visit; North American Leaders’ Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -50379,7 +50850,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-11-17",
+      "startDate": "2021-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -50594,16 +51065,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-06-11",
+      "endDate": "2022-06-10",
       "engagements": [
         "Trudeau met with President Joe Biden.",
         "Met President Joe Biden"
       ],
-      "eventName": "Summit of the Americas",
-      "id": "justin-trudeau--2022-06-07--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "justin-trudeau--2022-06-08--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Los Angeles to attend the Summit of the Americas.",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -50613,7 +51088,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-07",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -50766,7 +51241,7 @@
         "Trudeau met with new monarch King Charles III and also held bilateral meetings with Prime Minister Liz Truss and Australian prime minister Anthony Albanese.",
         "Met Prime Minister Liz Truss"
       ],
-      "eventName": null,
+      "eventName": "Funeral de estado de la reina Isabel II",
       "id": "justin-trudeau--2022-09-16--GBR",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau and others, including Governor General Mary Simon, attended the state funeral of Queen Elizabeth II.",
@@ -50865,7 +51340,7 @@
       "engagements": [
         "Met President Joko Widodo"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20",
       "id": "justin-trudeau--2022-11-14--IDN",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Bali to attend the G20 summit.",
@@ -51467,7 +51942,7 @@
         "Met Prime Minister Narendra Modi",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20",
       "id": "justin-trudeau--2023-09-09--IND",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to New Delhi to attend the G20 summit.",
@@ -51534,11 +52009,15 @@
         "Met President Joe Biden",
         "Gave a public address"
       ],
-      "eventName": "Americas Partnership for Economic Prosperity (APEP) Summit",
+      "eventName": "Attended the APEP Leaders' Summit.",
       "id": "justin-trudeau--2023-11-03--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. to attend the Americas Partnership for Economic Prosperity Leaders’ Summit.",
+      "purpose": "Attended the APEP Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -51568,11 +52047,15 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "id": "justin-trudeau--2023-11-14--USA",
       "officialId": "justin-trudeau",
       "purpose": "Right Honourable Justin Trudeau travels to government events in Vancouver and San Francisco",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Government of Canada open data",
           "url": "https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce"
@@ -51771,7 +52254,7 @@
         "Met Prime Minister Giorgia Meloni",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "50.ª cumbre del G7",
       "id": "justin-trudeau--2024-06-12--ITA",
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to Apulia to attend the G7 summit.",
@@ -51838,11 +52321,15 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "justin-trudeau--2024-07-08--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "justin-trudeau--2024-07-10--USA",
       "officialId": "justin-trudeau",
-      "purpose": "Trudeau travelled to Washington, D.C. for trade meetings with U.S. politicians and business leaders.",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -51852,7 +52339,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-08",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -54888,6 +55375,174 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "lester-b-pearson--1963-05-10--USA",
+      "officialId": "lester-b-pearson",
+      "purpose": "Informal visit at Hyannis Port (Massachusetts).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-05-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "lester-b-pearson--1963-11-24--USA",
+      "officialId": "lester-b-pearson",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-01-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "lester-b-pearson--1964-01-21--USA",
+      "officialId": "lester-b-pearson",
+      "purpose": "Official visit. Signed Colombia River Treaty and agreement establishing Campobello International Park.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-01-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "lester-b-pearson--1964-09-16--USA",
+      "officialId": "lester-b-pearson",
+      "purpose": "Ceremonial visits at Great Falls (Montana), and Blaine (Washington).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-09-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-01-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "lester-b-pearson--1965-01-15--USA",
+      "officialId": "lester-b-pearson",
+      "purpose": "Informal visit at LBJ Ranch (Texas). Signed agreement on trade in automotive products.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-01-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-04-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "lester-b-pearson--1965-04-03--USA",
+      "officialId": "lester-b-pearson",
+      "purpose": "Informal visit at Camp David (Maryland).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-04-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Geneva",
         "coordinates": [
           6.15,
@@ -55566,6 +56221,90 @@
       "startDate": "2015-04-30",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1949-02-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "louis-st-laurent--1949-02-11--USA",
+      "officialId": "louis-st-laurent",
+      "purpose": "Informal visit to Washington.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1949-02-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1953-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "louis-st-laurent--1953-05-07--USA",
+      "officialId": "louis-st-laurent",
+      "purpose": "Guest of the President. Discussed bilateral relations.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1953-05-07",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1956-03-28",
+      "engagements": [],
+      "eventName": "Attended a Heads of Government meeting in White Sulphur Springs (West Virginia).",
+      "id": "louis-st-laurent--1956-03-26--USA",
+      "officialId": "louis-st-laurent",
+      "purpose": "Attended a Heads of Government meeting in White Sulphur Springs (West Virginia).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1956-03-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -61683,6 +62422,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-05-05",
+      "engagements": [],
+      "eventName": "Addressed U.S. Congress May 4.",
+      "id": "massey--1954-05-03--USA",
+      "officialId": "massey",
+      "purpose": "Addressed U.S. Congress May 4.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-05-03",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Sydney",
         "coordinates": [
           151.21,
@@ -65152,8 +65919,12 @@
       "eventName": null,
       "id": "paul-martin--2004-04-28--USA",
       "officialId": "paul-martin",
-      "purpose": "Working visit",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Paul_Martin"
@@ -65182,11 +65953,15 @@
       "engagements": [
         "Met President George W. Bush"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "Attended G-8 Economic Summit at Sea Island, Georgia.",
       "id": "paul-martin--2004-06-08--USA",
       "officialId": "paul-martin",
-      "purpose": "30th G8 summit",
+      "purpose": "Attended G-8 Economic Summit at Sea Island, Georgia.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Paul_Martin"
@@ -65783,8 +66558,12 @@
       "eventName": "Canada-Mexico-United States Trilateral Meeting",
       "id": "paul-martin--2005-03-23--USA",
       "officialId": "paul-martin",
-      "purpose": "Working visit",
+      "purpose": "Met with President Bush in Crawford and Waco, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Paul_Martin"
@@ -65796,7 +66575,7 @@
       ],
       "startDate": "2005-03-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -67734,6 +68513,398 @@
       "startDate": "2005-04-28",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1969-03-24--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-03-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-12-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1971-12-06--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Informal working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-12-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-12-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1974-12-04--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-12-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-06-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1976-06-16--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-06-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-06-28",
+      "engagements": [],
+      "eventName": "Attended Economic Summit Meeting in Dorado Beach, Puerto Rico.",
+      "id": "pierre-trudeau--1976-06-26--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Attended Economic Summit Meeting in Dorado Beach, Puerto Rico.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-06-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-02-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1977-02-21--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-02-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1977-09-06--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "pierre-trudeau--1978-05-30--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-03-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1979-03-03--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Private visit. Discussed plans for the Northern Gas Pipeline with President Carter.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-03-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-07-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1981-07-10--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-07-10",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-09-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1981-09-17--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Informal meeting at the dedication of the Gerald R. Ford Presidential Museum and Library, Grand Rapids (Mich.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-09-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-04-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1983-04-27--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-04-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-05-31",
+      "engagements": [],
+      "eventName": "Attended Economic Summit Meeting, Williamsburg (Va.).",
+      "id": "pierre-trudeau--1983-05-28--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Attended Economic Summit Meeting, Williamsburg (Va.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-05-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-12-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-trudeau--1983-12-15--USA",
+      "officialId": "pierre-trudeau",
+      "purpose": "Private visit. Discussed proposals for nuclear arms limitations.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-12-15",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -70679,10 +71850,14 @@
         "Met President George W. Bush"
       ],
       "eventName": null,
-      "id": "stephen-harper--2006-07-06--USA",
+      "id": "stephen-harper--2006-07-05--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to meet with President George W.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -70692,9 +71867,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-07-06",
+      "startDate": "2006-07-05",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -71418,11 +72593,15 @@
         "Bush and Mexican President Felipe Calderón.",
         "Met President George W. Bush"
       ],
-      "eventName": "North American Leaders Summit",
+      "eventName": "Attended the North American Leaders Summit in New Orleans, Louisiana.",
       "id": "stephen-harper--2008-04-21--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to New Orleans to attend the North American Leaders' Summit with President George W.",
+      "purpose": "Attended the North American Leaders Summit in New Orleans, Louisiana.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -71610,6 +72789,10 @@
       "purpose": "Met with President Bush at the Council of the Americas in New York City.",
       "sources": [
         {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
         },
@@ -71635,11 +72818,15 @@
       },
       "endDate": "2008-11-15",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "stephen-harper--2008-11-14--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to attend the G-20 summit.",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -72099,8 +73286,12 @@
       "eventName": null,
       "id": "stephen-harper--2009-09-16--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to meet with President Barack Obama.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -72112,7 +73303,7 @@
       ],
       "startDate": "2009-09-16",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -72127,11 +73318,15 @@
       },
       "endDate": "2009-09-25",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "id": "stephen-harper--2009-09-24--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Pittsburgh to attend the G-20 summit.",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -72384,11 +73579,15 @@
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Nuclear Proliferation Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "stephen-harper--2010-04-12--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to attend the Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -72766,8 +73965,12 @@
       "eventName": null,
       "id": "stephen-harper--2011-02-04--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to meet with President Barack Obama.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -72779,7 +73982,7 @@
       ],
       "startDate": "2011-02-04",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -73138,11 +74341,15 @@
       "engagements": [
         "Met President Barack Obama"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "stephen-harper--2011-11-12--USA",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
+      "id": "stephen-harper--2011-11-10--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Honolulu to attend the APEC Summit.",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -73152,7 +74359,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-12",
+      "startDate": "2011-11-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -73174,8 +74381,12 @@
       "eventName": null,
       "id": "stephen-harper--2011-12-07--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to meet with President Barack Obama.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -73187,7 +74398,7 @@
       ],
       "startDate": "2011-12-07",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -73331,11 +74542,15 @@
         "Met President Barack Obama",
         "Signed agreements"
       ],
-      "eventName": "North American Leaders Summit",
+      "eventName": "Attended North American Leaders’ Summit.",
       "id": "stephen-harper--2012-04-02--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to Washington, D.C. to attend the North American Leaders' Summit with President Barack Obama and Mexican President Felipe…",
+      "purpose": "Attended North American Leaders’ Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -73426,11 +74641,15 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "Attended the G-8 Economic Summit at Camp David, MD.",
       "id": "stephen-harper--2012-05-18--USA",
       "officialId": "stephen-harper",
-      "purpose": "Harper travelled to the United States to attend the G8 summit and the 24th NATO summit.",
+      "purpose": "Attended the G-8 Economic Summit at Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
@@ -77841,6 +79060,174 @@
       "startDate": "2005-11-08",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1947-02-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "viscount-alexander--1947-02-04--USA",
+      "officialId": "viscount-alexander",
+      "purpose": "Guest of U.S. Government. Afterwards visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1947-02-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-03-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-lyon-mackenzie-king--1945-03-13--USA",
+      "officialId": "william-lyon-mackenzie-king",
+      "purpose": "Discussed economic policies and the Canadian role in the United Nations with President Roosevelt.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-03-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-06-26",
+      "engagements": [],
+      "eventName": "Led Canadian delegation to the United Nations Conference in San Francisco.",
+      "id": "william-lyon-mackenzie-king--1945-04-25--USA",
+      "officialId": "william-lyon-mackenzie-king",
+      "purpose": "Led Canadian delegation to the United Nations Conference in San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-04-25",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1945-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-lyon-mackenzie-king--1945-11-10--USA",
+      "officialId": "william-lyon-mackenzie-king",
+      "purpose": "Informal discussions on international control of atomic energy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1945-11-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1946-10-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-lyon-mackenzie-king--1946-10-27--USA",
+      "officialId": "william-lyon-mackenzie-king",
+      "purpose": "At the invitation of the President.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1946-10-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1947-04-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-lyon-mackenzie-king--1947-04-21--USA",
+      "officialId": "william-lyon-mackenzie-king",
+      "purpose": "Informal meeting with President Truman. Arrived in U.S. March 28; also visited Virginia Beach and Williamsburg (Virginia).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1947-04-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

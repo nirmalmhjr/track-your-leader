@@ -1,6 +1,33 @@
 {
   "officials": [
     {
+      "aliases": [],
+      "countryCode": "BEN",
+      "fullName": "Emile D. Zinsou",
+      "id": "emile-d-zinsou",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1969-03-05",
+          "id": "emile-d-zinsou-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1969-03-05",
+          "title": "President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": ["Chaad Mathieu Kérékou", "Mathieu Kerekou"],
       "countryCode": "BEN",
       "fullName": "Mathieu Kérékou",
@@ -1774,6 +1801,81 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-03-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "emile-d-zinsou--1969-03-05--USA",
+      "officialId": "emile-d-zinsou",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-03-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "hubert-maga--1970-10-24--USA",
+      "officialId": "hubert-maga",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-12-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "hubert-maga--1971-12-09--USA",
+      "officialId": "hubert-maga",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1971-12-09",
+      "statusHint": null,
+      "type": "other"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -4357,6 +4459,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-11-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicephore-soglo--1991-11-04--USA",
+      "officialId": "nicephore-soglo",
+      "purpose": "Official Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1991-11-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [2.3522, 48.8566],
         "countryCode": "FRA",
@@ -4978,6 +5105,31 @@
       "startDate": "1994-08-05",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-07-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicephore-soglo--1995-07-12--USA",
+      "officialId": "nicephore-soglo",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1995-07-12",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6768,17 +6920,21 @@
       },
       "endDate": "2022-12-15",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "patrice-talon--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "patrice-talon--2022-12-13--USA",
       "officialId": "patrice-talon",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -8093,18 +8249,22 @@
       "endDate": "2006-12-14",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "thomas-boni-yayi--2006-12-14--USA",
+      "id": "thomas-boni-yayi--2006-12-11--USA",
       "officialId": "thomas-boni-yayi",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Also attended White House Summit on Malaria.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-12-14",
+      "startDate": "2006-12-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -10329,8 +10489,12 @@
       "eventName": "Benin-Cote d'Ivoire-Guinea-Niger-United States Multilateral Meeting",
       "id": "thomas-boni-yayi--2011-07-29--USA",
       "officialId": "thomas-boni-yayi",
-      "purpose": "Attended Benin-Cote d'Ivoire-Guinea-Niger-United States Multilateral Meeting",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10338,7 +10502,7 @@
       ],
       "startDate": "2011-07-29",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -12554,17 +12718,21 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "thomas-boni-yayi--2014-08-06--USA",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "thomas-boni-yayi--2014-08-05--USA",
       "officialId": "thomas-boni-yayi",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-06",
+      "startDate": "2014-08-05",
       "statusHint": null,
       "type": "summit"
     },

@@ -5168,6 +5168,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-08-06",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "gabriel-costa--2014-08-05--USA",
+      "officialId": "gabriel-costa",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2014-08-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kigali",
         "coordinates": [30.115, -1.9525],
         "countryCode": "RWA",
@@ -7350,6 +7375,31 @@
         }
       ],
       "startDate": "2001-07-03",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-12-15",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "patrice-trovoada--2022-12-13--USA",
+      "officialId": "patrice-trovoada",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     }

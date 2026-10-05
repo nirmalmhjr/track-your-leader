@@ -2718,6 +2718,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "eric-gairy--1977-09-06--USA",
+      "officialId": "eric-gairy",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-10-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "herbert-blaize--1985-10-21--USA",
+      "officialId": "herbert-blaize",
+      "purpose": "Private Visit. Met with President Reagan October 22.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-10-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Port of Spain",
         "coordinates": [-61.516666666, 10.666666666],
         "countryCode": "TTO",
@@ -3651,19 +3701,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-09-25",
+      "endDate": "2003-09-24",
       "engagements": ["Met President George W. Bush"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "keith-mitchell--2003-09-23--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "keith-mitchell--2003-09-24--USA",
       "officialId": "keith-mitchell",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-09-23",
+      "startDate": "2003-09-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -3728,11 +3782,15 @@
       },
       "endDate": "2004-06-11",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Attended the funeral of Former President Reagan.",
       "id": "keith-mitchell--2004-06-11--USA",
       "officialId": "keith-mitchell",
-      "purpose": "Visit to United States",
+      "purpose": "Attended the funeral of Former President Reagan.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5960,6 +6018,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1984-07-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicholas-brathwaite--1984-07-17--USA",
+      "officialId": "nicholas-brathwaite",
+      "purpose": "Attended meeting of Caribbean Heads of Government in Charleston (S.C.). Met with President Reagan July 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-07-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1990-12-07",
       "engagements": ["Gave a public address"],
       "eventName": "Miami Conference on the Caribbean Basin",
@@ -6137,11 +6220,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "nicholas-brathwaite--1994-12-09--USA",
       "officialId": "nicholas-brathwaite",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6218,8 +6305,12 @@
       "eventName": null,
       "id": "tillman-thomas--2008-10-07--USA",
       "officialId": "tillman-thomas",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

@@ -42,33 +42,6 @@
       "wikidataId": "Q2494"
     },
     {
-      "aliases": [],
-      "countryCode": "VAT",
-      "fullName": "Francis",
-      "id": "francis-vat",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state", "head_of_government"],
-          "endDate": "2025-04-17",
-          "id": "francis-vat-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2025-04-17",
-          "title": "Pope"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
         "Albino Luciani",
         "Blessed John Paul I",
@@ -1018,13 +991,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2008-04-21",
+      "endDate": "2008-04-18",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "benedict-xvi--2008-04-15--USA",
       "officialId": "benedict-xvi",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Pastoral visit. Met with President Bush at the White House. Also visited New York City April 18–20 and addressed the UN General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -1657,13 +1634,17 @@
       "purpose": "Visit to United Kingdom",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-09-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2121,26 +2102,52 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
-        "coordinates": [12.482777777, 41.893055555],
-        "countryCode": "ITA",
-        "region": "Europe"
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
       },
-      "endDate": "2025-04-17",
+      "endDate": "1979-10-07",
       "engagements": [],
       "eventName": null,
-      "id": "francis-vat--2025-04-17--ITA",
-      "officialId": "francis-vat",
-      "purpose": "Visit to Italy",
+      "id": "john-paul-ii--1979-10-06--USA",
+      "officialId": "john-paul-ii",
+      "purpose": "Pastoral visit.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "2025-04-17",
+      "startDate": "1979-10-06",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-paul-ii--1987-09-10--USA",
+      "officialId": "john-paul-ii",
+      "purpose": "Pastoral visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1987-09-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3457,13 +3464,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-08-15",
+      "endDate": "1993-08-12",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "john-paul-ii--1993-08-12--USA",
       "officialId": "john-paul-ii",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton in Denver, CO, celebrated World Youth Day. Departed August 15.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3471,7 +3482,7 @@
       ],
       "startDate": "1993-08-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4060,13 +4071,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-10-09",
+      "endDate": "1995-10-04",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "john-paul-ii--1995-10-04--USA",
       "officialId": "john-paul-ii",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Pastoral visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6159,6 +6174,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [79.8612, 6.9271],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-11-08",
+      "engagements": ["Five-day official visit."],
+      "eventName": null,
+      "id": "leo-xiv--2025-11-03--LKA",
+      "officialId": "leo-xiv",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-11-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Rome",
         "coordinates": [12.482777777, 41.893055555],
         "countryCode": "ITA",
@@ -6305,6 +6345,31 @@
       "startDate": "2025-12-13",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-10-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-vi--1965-10-04--USA",
+      "officialId": "paul-vi",
+      "purpose": "Met President Johnson in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-10-04",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -6955,13 +7020,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-09-27",
+      "endDate": "2015-09-24",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "pope-francis--2015-09-22--USA",
       "officialId": "pope-francis",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6969,7 +7038,7 @@
       ],
       "startDate": "2015-09-22",
       "statusHint": null,
-      "type": "conference"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9439,6 +9508,30 @@
         }
       ],
       "startDate": "2025-02-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [12.482777777, 41.893055555],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "2025-04-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "pope-francis--2025-04-17--ITA",
+      "officialId": "pope-francis",
+      "purpose": "Visit to Italy",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-04-17",
       "statusHint": null,
       "type": "other"
     }

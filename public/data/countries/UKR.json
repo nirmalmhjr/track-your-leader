@@ -3364,6 +3364,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-03-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "arsenii-yatseniuk--2014-03-12--USA",
+      "officialId": "arsenii-yatseniuk",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2014-03-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-07-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "arsenii-yatseniuk--2015-07-13--USA",
+      "officialId": "arsenii-yatseniuk",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2015-07-13",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Minsk",
         "coordinates": [27.561837, 53.902246],
         "countryCode": "BLR",
@@ -3610,13 +3660,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1992-05-10",
+      "endDate": "1992-05-07",
       "engagements": ["Met President George H.W. Bush", "Signed agreements"],
       "eventName": null,
       "id": "leonid-kravchuk--1992-05-05--USA",
       "officialId": "leonid-kravchuk",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4241,16 +4295,20 @@
       "endDate": "1994-03-05",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "leonid-kravchuk--1994-03-04--USA",
+      "id": "leonid-kravchuk--1994-03-03--USA",
       "officialId": "leonid-kravchuk",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-03-04",
+      "startDate": "1994-03-03",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -4291,18 +4349,22 @@
       "endDate": "1994-11-23",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "leonid-kuchma--1994-11-19--USA",
+      "id": "leonid-kuchma--1994-11-21--USA",
       "officialId": "leonid-kuchma",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-11-19",
+      "startDate": "1994-11-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5047,13 +5109,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-02-23",
+      "endDate": "1996-02-22",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
       "id": "leonid-kuchma--1996-02-20--USA",
       "officialId": "leonid-kuchma",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5061,7 +5127,7 @@
       ],
       "startDate": "1996-02-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5711,11 +5777,15 @@
       },
       "endDate": "1997-05-16",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
-      "eventName": null,
+      "eventName": "Attended meeting of the U.S.-Ukraine Binational Commission.",
       "id": "leonid-kuchma--1997-05-14--USA",
       "officialId": "leonid-kuchma",
-      "purpose": "Visit to United States",
+      "purpose": "Attended meeting of the U.S.-Ukraine Binational Commission.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6609,6 +6679,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "leonid-kuchma--1999-03-23--SWE",
+      "officialId": "leonid-kuchma",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1999-03-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Moscow",
         "coordinates": [37.6175, 55.750555555],
         "countryCode": "RUS",
@@ -6692,11 +6787,15 @@
       },
       "endDate": "1999-04-25",
       "engagements": ["Gave a public address"],
-      "eventName": "NATO Anniversary Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "leonid-kuchma--1999-04-23--USA",
       "officialId": "leonid-kuchma",
-      "purpose": "Attended NATO Anniversary Summit and Ukraine-NATO Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6951,8 +7050,12 @@
       "eventName": null,
       "id": "leonid-kuchma--1999-12-07--USA",
       "officialId": "leonid-kuchma",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10349,10 +10452,14 @@
         "Met President Barack Obama"
       ],
       "eventName": null,
-      "id": "petro-poroshenko--2014-09-17--USA",
+      "id": "petro-poroshenko--2014-09-18--USA",
       "officialId": "petro-poroshenko",
-      "purpose": "President Petro Poroshenko met with President of the United States Barack Obama, US Secretary of State John Kerry, had lunch with Vice Pres…",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Petro_Poroshenko"
@@ -10362,9 +10469,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-17",
+      "startDate": "2014-09-18",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11544,11 +11651,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Gave a public address"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "petro-poroshenko--2016-03-31--USA",
       "officialId": "petro-poroshenko",
-      "purpose": "President Petro Poroshenko attended the Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Petro_Poroshenko"
@@ -12521,8 +12632,12 @@
       "eventName": null,
       "id": "petro-poroshenko--2017-06-20--USA",
       "officialId": "petro-poroshenko",
-      "purpose": "Met with President Donald Trump, Vice President Mike Pence, Secretary of State Rex Tillerson and Defense Secretary Jim Mattis.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Petro_Poroshenko"
@@ -12534,7 +12649,7 @@
       ],
       "startDate": "2017-06-20",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13901,11 +14016,15 @@
       },
       "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "viktor-yanukovych--2010-04-12--USA",
       "officialId": "viktor-yanukovych",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Viktor_Yanukovych"
@@ -15327,11 +15446,15 @@
       },
       "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
-      "id": "viktor-yanukovych--2012-05-21--USA",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "id": "viktor-yanukovych--2012-05-20--USA",
       "officialId": "viktor-yanukovych",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Viktor_Yanukovych"
@@ -15341,7 +15464,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-05-21",
+      "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -16563,19 +16686,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-04-06",
+      "endDate": "2005-04-05",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "viktor-yushchenko--2005-04-03--USA",
+      "id": "viktor-yushchenko--2005-04-04--USA",
       "officialId": "viktor-yushchenko",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-04-03",
+      "startDate": "2005-04-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -17778,18 +17905,22 @@
       "endDate": "2008-09-29",
       "engagements": ["Met President George W. Bush"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "viktor-yushchenko--2008-09-24--USA",
+      "id": "viktor-yushchenko--2008-09-28--USA",
       "officialId": "viktor-yushchenko",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-24",
+      "startDate": "2008-09-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -19371,7 +19502,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2021-09-01",
+      "endDate": "2021-08-31",
       "engagements": [
         "Met with President Joe Biden at the White House.",
         "Visited the Arlington National Cemetery."
@@ -19379,8 +19510,12 @@
       "eventName": null,
       "id": "volodymyr-zelenskyy--2021-08-31--USA",
       "officialId": "volodymyr-zelenskyy",
-      "purpose": "Working visit.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Volodymyr_Zelenskyy"
@@ -19545,13 +19680,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2022-12-22",
+      "endDate": "2022-12-21",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": null,
       "id": "volodymyr-zelenskyy--2022-12-21--USA",
       "officialId": "volodymyr-zelenskyy",
-      "purpose": "First international trip since the beginning of the Russian invasion of Ukraine.Met with President Joe Biden at the White House.Addressed a…",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Volodymyr_Zelenskyy"
@@ -19563,7 +19702,7 @@
       ],
       "startDate": "2022-12-21",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -20324,16 +20463,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-09-22",
+      "endDate": "2023-09-21",
       "engagements": [
         "Met with President of South Africa Cyril Ramaphosa, President of Kenya William Ruto, President of the European CouncilCharles Michel, United Nations secretary-general António Gute…",
         "Met with President Joe Biden at the White House."
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "volodymyr-zelenskyy--2023-09-18--USA",
+      "id": "volodymyr-zelenskyy--2023-09-21--USA",
       "officialId": "volodymyr-zelenskyy",
-      "purpose": "Attended the 78th session of the UN General Assembly.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Volodymyr_Zelenskyy"
@@ -20343,9 +20486,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-18",
+      "startDate": "2023-09-21",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -20591,10 +20734,14 @@
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "volodymyr-zelenskyy--2023-12-11--USA",
+      "id": "volodymyr-zelenskyy--2023-12-12--USA",
       "officialId": "volodymyr-zelenskyy",
-      "purpose": "Met with President Joe Biden at the White House.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Volodymyr_Zelenskyy"
@@ -20604,9 +20751,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-12-11",
+      "startDate": "2023-12-12",
       "statusHint": null,
-      "type": "conference"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -21401,11 +21548,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "volodymyr-zelenskyy--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "volodymyr-zelenskyy--2024-07-10--USA",
       "officialId": "volodymyr-zelenskyy",
-      "purpose": "Attended the 2024 Washington summit as an invited guest and met with the various leaders of NATO member states.",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Volodymyr_Zelenskyy"
@@ -21415,7 +21566,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -21540,16 +21691,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2024-09-29",
+      "endDate": "2024-09-26",
       "engagements": [
         "Met with President Joe Biden and Vice President Kamala Harris at the White House.",
         "Met with former president Donald Trump in the Trump Tower in New York City."
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "volodymyr-zelenskyy--2024-09-23--USA",
+      "eventName": "Met with President Biden at the UN General Assembly in New York City.",
+      "id": "volodymyr-zelenskyy--2024-09-25--USA",
       "officialId": "volodymyr-zelenskyy",
-      "purpose": "Attended the 79th United Nations General Assembly.",
+      "purpose": "Met with President Biden at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Volodymyr_Zelenskyy"
@@ -21559,7 +21714,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-09-23",
+      "startDate": "2024-09-25",
       "statusHint": null,
       "type": "conference"
     },

@@ -398,7 +398,7 @@
       "positions": [
         {
           "categories": ["head_of_government"],
-          "endDate": "1991-09-13",
+          "endDate": "1991-07-19",
           "id": "vyachaslau-kebich-p1",
           "ministry": null,
           "portfolio": null,
@@ -2222,7 +2222,14 @@
       "wikidataId": "Q2346880"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Sergey Kovalchuk",
+        "Sergey Vladimirovich Kovalchuk",
+        "Siarhiej Kavaĺčuk",
+        "Syarhey Uladzimiravich Kavalchuk",
+        "Syarhyey Kavalchuk",
+        "Syarhyey Uladzimiravich Kavalchuk"
+      ],
       "countryCode": "BLR",
       "fullName": "Syarhey Kavalchuk",
       "id": "syarhey-kavalchuk",
@@ -2243,10 +2250,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/belarus/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Syarhey_Kavalchuk"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Syarhey Kavalchuk is a retired Belarusian professional footballer. His latest club was Krumkachy Minsk in 2015.",
+      "wikidataId": "Q2332994"
     },
     {
       "aliases": [],
@@ -2589,6 +2600,33 @@
       ],
       "summary": "Andrei Ivanovich Shved is a Belarusian politician serving as prosecutor general since 2020. From 2013 to 2020, he served as chairman of the State Forensic Examination Committee.",
       "wikidataId": "Q99004968"
+    },
+    {
+      "aliases": [],
+      "countryCode": "BLR",
+      "fullName": "Chairman Stanislav Shushkevich",
+      "id": "chairman-stanislav-shushkevich",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["senior_official"],
+          "endDate": "1993-07-23",
+          "id": "chairman-stanislav-shushkevich-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1993-07-21",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -3186,9 +3224,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Star City",
-        "coordinates": [38.1105, 55.8806],
+        "city": "Moscow",
+        "coordinates": [37.6175, 55.750555555],
         "countryCode": "RUS",
+        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1996-01-01",
@@ -10818,10 +10857,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
-        "coordinates": [37.6175, 55.750555555],
+        "city": "Svobodny",
+        "coordinates": [128.133333333, 51.383333333],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2022-04-12",
@@ -12820,6 +12858,56 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1993-07-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "chairman-stanislav-shushkevich--1993-07-21--USA",
+      "officialId": "chairman-stanislav-shushkevich",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-07-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Seoul",
+        "coordinates": [126.978, 37.5665],
+        "countryCode": "KOR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1991-09-13",
+      "engagements": ["Met President Roh Tae-woo", "Signed agreements"],
+      "eventName": null,
+      "id": "viacas-aw-kiebic--1991-09-06--KOR",
+      "officialId": "viacas-aw-kiebic",
+      "purpose": "Visit to South Korea",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1991-09-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1990-09-28",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
@@ -12983,31 +13071,6 @@
         }
       ],
       "startDate": "1991-07-17",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Seoul",
-        "coordinates": [126.978, 37.5665],
-        "countryCode": "KOR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1991-09-13",
-      "engagements": ["Met President Roh Tae-woo", "Signed agreements"],
-      "eventName": null,
-      "id": "vyachaslau-kebich--1991-09-06--KOR",
-      "officialId": "vyachaslau-kebich",
-      "purpose": "Visit to South Korea",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-09-06",
       "statusHint": null,
       "type": "official_visit"
     }

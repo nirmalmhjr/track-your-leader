@@ -5759,13 +5759,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-04-22",
+      "endDate": "1998-04-23",
       "engagements": ["Signed agreements", "Gave a public address"],
       "eventName": null,
       "id": "saparmyrat-nyyazow--1998-04-21--USA",
       "officialId": "saparmyrat-nyyazow",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Arrived in the U.S. April 20. Also visited New York City and Chicago. Departed the U.S. April 24.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5773,7 +5777,7 @@
       ],
       "startDate": "1998-04-21",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7046,13 +7050,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-09-20",
+      "endDate": "2023-09-21",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "serdar-berdimuhamedow--2023-09-17--USA",
+      "id": "serdar-berdimuhamedow--2023-09-21--USA",
       "officialId": "serdar-berdimuhamedow",
-      "purpose": "Attended to the 78th United Nations General Assembly",
+      "purpose": "Participated in C5+1 Presidential Summit Meeting with President Biden at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serdar_Berdimuhamedow"
@@ -7062,9 +7070,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-17",
+      "startDate": "2023-09-21",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",

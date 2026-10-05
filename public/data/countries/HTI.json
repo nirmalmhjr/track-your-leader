@@ -3568,13 +3568,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1990-05-28",
+      "endDate": "1990-05-24",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "ertha-pascal-trouillot--1990-05-24--USA",
       "officialId": "ertha-pascal-trouillot",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3692,6 +3696,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1986-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-namphy--1986-11-20--USA",
+      "officialId": "henri-namphy",
+      "purpose": "Private Visit. Met with President Reagan November 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-11-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1991-09-29",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
@@ -3732,6 +3761,31 @@
       "startDate": "1991-09-30",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean-bertrand-aristide--1993-03-16--USA",
+      "officialId": "jean-bertrand-aristide",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-03-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3817,13 +3871,42 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-12-12",
+      "endDate": "1994-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean-bertrand-aristide--1994-09-16--USA",
+      "officialId": "jean-bertrand-aristide",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1994-09-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-11",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "jean-bertrand-aristide--1994-12-09--USA",
       "officialId": "jean-bertrand-aristide",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5726,16 +5809,20 @@
       "endDate": "2014-02-07",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
-      "id": "joseph-michel-martelly--2014-02-05--USA",
+      "id": "joseph-michel-martelly--2014-02-04--USA",
       "officialId": "joseph-michel-martelly",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-02-05",
+      "startDate": "2014-02-04",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6779,13 +6866,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2019-03-23",
+      "endDate": "2019-03-22",
       "engagements": ["Met President Donald Trump"],
-      "eventName": "United States-Caribbean Community (CARICOM) Summit",
+      "eventName": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "id": "jovenel-moise--2019-03-22--USA",
       "officialId": "jovenel-moise",
-      "purpose": "Attended United States-Caribbean Community (CARICOM) Summit",
+      "purpose": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6793,7 +6884,7 @@
       ],
       "startDate": "2019-03-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -7218,6 +7309,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-01-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-magloire--1955-01-26--USA",
+      "officialId": "paul-magloire",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-01-26",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Taipei",
         "coordinates": [121.5625, 25.0375],
         "countryCode": "TWN",
@@ -7274,13 +7390,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-03-23",
+      "endDate": "1996-03-22",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
       "id": "rene-preval--1996-03-19--USA",
       "officialId": "rene-preval",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7899,13 +8019,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2000-02-05",
+      "endDate": "2000-02-04",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "Organization of American States (OAS) Plenary Council",
       "id": "rene-preval--2000-02-03--USA",
       "officialId": "rene-preval",
-      "purpose": "Attended Organization of American States (OAS) Plenary Council",
+      "purpose": "Met with President Clinton during a private visit; attended Congressional Prayer Breakfast.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7913,7 +8037,7 @@
       ],
       "startDate": "2000-02-03",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8452,16 +8576,20 @@
       "endDate": "2007-05-11",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "rene-preval--2007-05-07--USA",
+      "id": "rene-preval--2007-05-06--USA",
       "officialId": "rene-preval",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-05-07",
+      "startDate": "2007-05-06",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8774,6 +8902,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "2010-03-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "rene-preval--2010-03-09--USA",
+      "officialId": "rene-preval",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2010-03-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2010-03-31",
       "engagements": ["Gave a public address"],
       "eventName": "International Conference on Rebuilding Haiti",
@@ -8889,6 +9042,31 @@
       "startDate": "2011-04-06",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-12-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-malval--1993-12-01--USA",
+      "officialId": "robert-malval",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-12-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

@@ -245,6 +245,37 @@
       "wikidataId": "Q282359"
     },
     {
+      "aliases": ["Mwambutsa IV", "Mwambutsa IV Bangiricenge"],
+      "countryCode": "BDI",
+      "fullName": "Mwambutsa IV Bangiricenge of Burundi",
+      "id": "mwambutsa-iv",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mwambutsa_1962.jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1964-05-19",
+          "id": "mwambutsa-iv-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1964-05-19",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mwambutsa_IV_of_Burundi"
+        }
+      ],
+      "summary": "Mwambutsa IV Bangiricenge (6 May 1912 – 26 March 1977) was the penultimate king (mwami) of Burundi who ruled between 1915 and 1966. He succeeded to the throne on the death of his father Mutaga IV Mbikije (reigned 1908–15).",
+      "wikidataId": "Q627267"
+    },
+    {
       "aliases": [],
       "countryCode": "BDI",
       "fullName": "Pascal Nyabenda",
@@ -3975,19 +4006,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "evariste-ndayishimiye--2022-12-11--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "evariste-ndayishimiye--2022-12-13--USA",
       "officialId": "evariste-ndayishimiye",
-      "purpose": "Attended United States-Africa Leaders Summit and Angola-Burundi-Kenya-Rwanda-Tanzania-Uganda Multilateral Meeting",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-11",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -5438,6 +5473,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "mwambutsa-iv--1964-05-19--USA",
+      "officialId": "mwambutsa-iv",
+      "purpose": "Private visit. In U.S. May 17–28; dedicated Africa Pavillion at the New York World’s Fair.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-05-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kigali",
         "coordinates": [30.115, -1.9525],
         "countryCode": "RWA",
@@ -6719,19 +6779,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1998-09-26",
+      "endDate": "1998-09-25",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "pierre-buyoya--1998-09-19--USA",
+      "id": "pierre-buyoya--1998-09-23--USA",
       "officialId": "pierre-buyoya",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Clinton during a private visit after the meeting of the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-09-19",
+      "startDate": "1998-09-23",
       "statusHint": null,
       "type": "conference"
     },
@@ -10964,13 +11028,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-08-07",
+      "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
       "id": "pierre-nkurunziza--2014-08-05--USA",
       "officialId": "pierre-nkurunziza",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

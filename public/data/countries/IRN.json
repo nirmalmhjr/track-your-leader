@@ -249,6 +249,33 @@
     {
       "aliases": [],
       "countryCode": "IRN",
+      "fullName": "Mohammad Reza Pahlavi",
+      "id": "mohammad-reza-pahlavi",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_state"],
+          "endDate": "1977-11-16",
+          "id": "mohammad-reza-pahlavi-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1958-06-30",
+          "title": "Monarch"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "IRN",
       "fullName": "Mohammad-Ali Rajai",
       "id": "mohammad-ali-rajai",
       "party": "Islamic Republican Party",
@@ -280,33 +307,110 @@
     {
       "aliases": [],
       "countryCode": "IRN",
-      "fullName": "Mohammad Mokhber",
-      "id": "mohammad-mokhber",
-      "party": "independent politician",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MMokhber.png?width=160",
+      "fullName": "Mohammed Reza Pahlavi",
+      "id": "mohammed-reza-pahlavi",
+      "party": null,
+      "photoUrl": null,
       "positions": [
         {
-          "categories": ["head_of_government"],
-          "endDate": "2024-07-05",
-          "id": "mohammad-mokhber-p1",
+          "categories": ["head_of_state"],
+          "endDate": "1964-06-05",
+          "id": "mohammed-reza-pahlavi-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2024-07-04",
-          "title": "President"
+          "startDate": "1949-11-16",
+          "title": "Monarch"
         }
       ],
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mohammad_Mokhber"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "summary": "Mohammad Mokhber (born 26 June 1955) is an Iranian politician who served as the acting president of Iran in 2024 following the death of President Ebrahim Raisi in the Varzaqan helicopter crash, having been the first vice president of Iran from 2021 to 2024 under Raisi. He has been a member of the Expediency Discernment Council since September 2022 and serving as an advisor and aide to the Supreme Leader of Iran since September 2024.",
-      "wikidataId": "Q5703610"
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "IRN",
+      "fullName": "Amir Abbas Hoveyda",
+      "id": "amir-abbas-hoveyda",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1968-12-06",
+          "id": "amir-abbas-hoveyda-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1968-12-05",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "IRN",
+      "fullName": "Eghbal",
+      "id": "eghbal",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1959-10-09",
+          "id": "eghbal-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1959-10-07",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "IRN",
+      "fullName": "Mossadeq",
+      "id": "mossadeq",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1951-11-18",
+          "id": "mossadeq-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1951-10-23",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": ["Attaollah Mohajerani"],
@@ -5037,6 +5141,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-12-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "amir-abbas-hoveyda--1968-12-05--USA",
+      "officialId": "amir-abbas-hoveyda",
+      "purpose": "Official visit. In U.S. December 3–16; visited New York City, Cape Kennedy, Palm Beach, Los Angeles, and Honolulu.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-12-05",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Dushanbe",
         "coordinates": [68.786388888, 38.573055555],
         "countryCode": "TJK",
@@ -5693,6 +5822,31 @@
       "startDate": "2024-05-19",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-10-09",
+      "engagements": [],
+      "eventName": "Attended CENTO Ministerial Meeting.",
+      "id": "eghbal--1959-10-07--USA",
+      "officialId": "eghbal",
+      "purpose": "Attended CENTO Ministerial Meeting.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-10-07",
+      "statusHint": null,
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -10359,6 +10513,30 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Astana",
+        "coordinates": [71.433333333, 51.133333333],
+        "countryCode": "KAZ",
+        "region": "Asia"
+      },
+      "endDate": "2024-07-05",
+      "engagements": ["Gave a public address"],
+      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "id": "masoud-pezeshkian--2024-07-04--KAZ",
+      "officialId": "masoud-pezeshkian",
+      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2024-07-04",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Baghdad",
         "coordinates": [44.366111111, 33.315277777],
         "countryCode": "IRQ",
@@ -12405,26 +12583,327 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Astana",
-        "coordinates": [71.433333333, 51.133333333],
-        "countryCode": "KAZ",
-        "region": "Asia"
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
       },
-      "endDate": "2024-07-05",
-      "engagements": ["Gave a public address"],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "mohammad-mokhber--2024-07-04--KAZ",
-      "officialId": "mohammad-mokhber",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "endDate": "1958-07-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1958-06-30--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Informal visit.",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
         }
       ],
-      "startDate": "2024-07-04",
+      "startDate": "1958-06-30",
       "statusHint": null,
-      "type": "summit"
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-08-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1967-08-22--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Official visit. Arrived in New York City August 21.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-08-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1968-06-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1968-06-12--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Private visit. In U.S. June 10–16; visited New York City, St. Louis, Cambridge (Mass.), and Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1968-06-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-04-01",
+      "engagements": [],
+      "eventName": "Attended funeral of former President Eisenhower; met with President Nixon April 1.",
+      "id": "mohammad-reza-pahlavi--1969-03-31--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Attended funeral of former President Eisenhower; met with President Nixon April 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-03-31",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-10-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1969-10-21--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Official visit. In U.S. October 17; visited Williamsburg and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-10-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-07-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1973-07-24--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "State visit. In U.S. July 23–27; visited Williamsburg.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1973-07-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1975-05-15--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "State visit. In U.S. May 15; visited Williamsburg.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-05-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-11-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1977-11-15--USA",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "State visit. In U.S. November 14; visited Williamsburg.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-11-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1949-11-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-reza-pahlavi--1949-11-16--USA",
+      "officialId": "mohammed-reza-pahlavi",
+      "purpose": "Good will visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1949-11-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-12-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-reza-pahlavi--1954-12-13--USA",
+      "officialId": "mohammed-reza-pahlavi",
+      "purpose": "Unofficial visit. Afterwards visited San Francisco, Sun Valley (Idaho), and New York City. Departed U.S. February 11, 1955.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-12-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-04-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-reza-pahlavi--1962-04-11--USA",
+      "officialId": "mohammed-reza-pahlavi",
+      "purpose": "State visit at Washington and Onslow Beach (North Carolina).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-04-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-06-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-reza-pahlavi--1964-06-05--USA",
+      "officialId": "mohammed-reza-pahlavi",
+      "purpose": "Private visit. In U.S. June 4–14; visited New York City and Los Angeles.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-06-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1951-11-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "mossadeq--1951-10-23--USA",
+      "officialId": "mossadeq",
+      "purpose": "Discussed the Anglo-Iranian oil dispute after appearing at the UN Arrived in U.S. October 8.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1951-10-23",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

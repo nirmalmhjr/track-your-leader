@@ -2049,6 +2049,56 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1948-12-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-prio-socarras--1948-12-08--USA",
+      "officialId": "carlos-prio-socarras",
+      "purpose": "Also visited Annapolis (Maryland) and New York City. Departed U.S. December 12.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1948-12-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-04-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "fidel-castro--1959-04-15--USA",
+      "officialId": "fidel-castro",
+      "purpose": "Unofficial visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-04-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1960-10-13",
       "engagements": [
         "Met President Dwight Eisenhower",
@@ -3422,19 +3472,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-01-01",
+      "endDate": "2003-01-03",
       "engagements": [],
       "eventName": null,
-      "id": "fidel-castro--2003-01-01--BRA",
+      "id": "fidel-castro--2002-12-31--BRA",
       "officialId": "fidel-castro",
-      "purpose": "Visit to Brazil",
+      "purpose": "Invitado a la toma de posesión de Luiz Inacio Lula Da Silva.​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_Fidel_Castro"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-01-01",
+      "startDate": "2002-12-31",
       "statusHint": null,
       "type": "other"
     },
@@ -6304,17 +6358,21 @@
       },
       "endDate": "2015-09-29",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "raul-castro--2015-09-25--USA",
+      "eventName": "Met with President Obama at the UN General Assembly Meeting in New York City.",
+      "id": "raul-castro--2015-09-29--USA",
       "officialId": "raul-castro",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Obama at the UN General Assembly Meeting in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-25",
+      "startDate": "2015-09-29",
       "statusHint": null,
       "type": "conference"
     },

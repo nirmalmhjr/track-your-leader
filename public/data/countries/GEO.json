@@ -147,7 +147,7 @@
           "id": "nino-burjanadze-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2003-12-01",
+          "startDate": "2003-12-15",
           "title": "President (Acting)"
         }
       ],
@@ -2850,6 +2850,31 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1994-03-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "eduard-shevardnadze--1994-03-06--USA",
+      "officialId": "eduard-shevardnadze",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1994-03-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1994-03-19",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": "United Nations (UN) General Assembly",
@@ -3225,19 +3250,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-07-19",
+      "endDate": "1997-07-20",
       "engagements": ["Met President Bill Clinton", "Signed agreements"],
       "eventName": null,
-      "id": "eduard-shevardnadze--1997-07-17--USA",
+      "id": "eduard-shevardnadze--1997-07-16--USA",
       "officialId": "eduard-shevardnadze",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-07-17",
+      "startDate": "1997-07-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3400,13 +3429,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-04-25",
+      "endDate": "1999-04-26",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
-      "eventName": "NATO Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit and discussed the Caucasus situation.",
       "id": "eduard-shevardnadze--1999-04-23--USA",
       "officialId": "eduard-shevardnadze",
-      "purpose": "Attended NATO Summit and Euro-Atlantic Partnership Council",
+      "purpose": "Attended NATO’s 50th Anniversary Summit and discussed the Caucasus situation.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3453,16 +3486,20 @@
       "endDate": "1999-09-23",
       "engagements": ["Met President Bill Clinton"],
       "eventName": null,
-      "id": "eduard-shevardnadze--1999-09-23--USA",
+      "id": "eduard-shevardnadze--1999-09-22--USA",
       "officialId": "eduard-shevardnadze",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-09-23",
+      "startDate": "1999-09-22",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3669,6 +3706,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2001-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "eduard-shevardnadze--2001-11-03--USA",
+      "officialId": "eduard-shevardnadze",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2001-11-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Moscow",
         "coordinates": [37.6175, 55.750555555],
         "countryCode": "RUS",
@@ -3865,6 +3927,56 @@
       "startDate": "2003-09-18",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [4.883333333, 52.366666666],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-12-01",
+      "engagements": [],
+      "eventName": "Organization for Security and Cooperation in Europe (OSCE) Meeting",
+      "id": "eduard-shevardnadze--2003-12-01--NLD",
+      "officialId": "eduard-shevardnadze",
+      "purpose": "Attended Organization for Security and Cooperation in Europe (OSCE) Meeting",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2003-12-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [4.351666666, 50.846666666],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-12-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "eduard-shevardnadze--2003-12-02--BEL",
+      "officialId": "eduard-shevardnadze",
+      "purpose": "Visit to Belgium",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2003-12-02",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -5225,6 +5337,31 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-04-01",
+      "engagements": [],
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "giorgi-marghvilashvili--2016-03-31--USA",
+      "officialId": "giorgi-marghvilashvili",
+      "purpose": "Attended the Nuclear Security Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2016-03-31",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Baku",
         "coordinates": [49.835183333, 40.366655555],
         "countryCode": "AZE",
@@ -5386,8 +5523,12 @@
       "eventName": null,
       "id": "irakli-garibashvili--2014-02-24--USA",
       "officialId": "irakli-garibashvili",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9068,19 +9209,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-02-25",
+      "endDate": "2004-02-26",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "mikheil-saakashvili--2004-02-23--USA",
+      "id": "mikheil-saakashvili--2004-02-22--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-02-23",
+      "startDate": "2004-02-22",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10018,19 +10163,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-07-07",
+      "endDate": "2006-07-06",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "mikheil-saakashvili--2006-07-05--USA",
+      "id": "mikheil-saakashvili--2006-07-02--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-07-05",
+      "startDate": "2006-07-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10846,16 +10995,20 @@
       "endDate": "2008-03-20",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "mikheil-saakashvili--2008-03-19--USA",
+      "id": "mikheil-saakashvili--2008-03-18--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-03-19",
+      "startDate": "2008-03-18",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11768,13 +11921,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-04-13",
+      "endDate": "2010-04-14",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "mikheil-saakashvili--2010-04-12--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12093,19 +12250,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-01-13",
+      "endDate": "2011-01-14",
       "engagements": ["Gave a public address"],
       "eventName": null,
-      "id": "mikheil-saakashvili--2011-01-13--USA",
+      "id": "mikheil-saakashvili--2011-01-14--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Visit to United States",
+      "purpose": "Attended the Richard Holbrooke Memorial Service.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-01-13",
+      "startDate": "2011-01-14",
       "statusHint": null,
       "type": "other"
     },
@@ -12418,13 +12579,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-02-02",
+      "endDate": "2012-02-01",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "mikheil-saakashvili--2012-01-30--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12493,19 +12658,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-05-22",
+      "endDate": "2012-05-21",
       "engagements": [],
-      "eventName": "NATO Summit",
-      "id": "mikheil-saakashvili--2012-05-21--USA",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
+      "id": "mikheil-saakashvili--2012-05-20--USA",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-05-21",
+      "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -12906,56 +13075,6 @@
         }
       ],
       "startDate": "2013-10-29",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Amsterdam",
-        "coordinates": [4.883333333, 52.366666666],
-        "countryCode": "NLD",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2003-12-01",
-      "engagements": [],
-      "eventName": "Organization for Security and Cooperation in Europe (OSCE) Meeting",
-      "id": "nino-burjanadze--2003-12-01--NLD",
-      "officialId": "nino-burjanadze",
-      "purpose": "Attended Organization for Security and Cooperation in Europe (OSCE) Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2003-12-01",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Brussels",
-        "coordinates": [4.351666666, 50.846666666],
-        "countryCode": "BEL",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2003-12-02",
-      "engagements": [],
-      "eventName": null,
-      "id": "nino-burjanadze--2003-12-02--BEL",
-      "officialId": "nino-burjanadze",
-      "purpose": "Visit to Belgium",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2003-12-02",
       "statusHint": null,
       "type": "other"
     },

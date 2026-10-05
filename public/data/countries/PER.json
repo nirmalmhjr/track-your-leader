@@ -5217,13 +5217,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-10-11",
+      "endDate": "2006-10-10",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "alan-garcia--2006-10-09--USA",
       "officialId": "alan-garcia",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5295,13 +5299,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-04-25",
+      "endDate": "2007-04-24",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "alan-garcia--2007-04-22--USA",
       "officialId": "alan-garcia",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5395,19 +5403,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-12-15",
+      "endDate": "2007-12-14",
       "engagements": ["Met President George W. Bush", "Signed agreements"],
       "eventName": null,
-      "id": "alan-garcia--2007-12-14--USA",
+      "id": "alan-garcia--2007-12-13--USA",
       "officialId": "alan-garcia",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-12-14",
+      "startDate": "2007-12-13",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5560,6 +5572,31 @@
       "startDate": "2008-09-18",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-09-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "alan-garcia--2008-09-24--USA",
+      "officialId": "alan-garcia",
+      "purpose": "Met with President Bush at the Council of the Americas in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2008-09-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5970,13 +6007,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-06-02",
+      "endDate": "2010-06-01",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "alan-garcia--2010-06-01--USA",
       "officialId": "alan-garcia",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6370,13 +6411,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1991-09-18",
+      "endDate": "1991-09-19",
       "engagements": ["Met President George H.W. Bush"],
       "eventName": null,
       "id": "alberto-fujimori--1991-09-16--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit. Private visit to New York City afterward.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6728,11 +6773,15 @@
       },
       "endDate": "1992-02-27",
       "engagements": ["Met President George H.W. Bush"],
-      "eventName": "San Antonio Drug Summit",
+      "eventName": "Attended Drug Summit in San Antonio, Texas.",
       "id": "alberto-fujimori--1992-02-26--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Attended San Antonio Drug Summit",
+      "purpose": "Attended Drug Summit in San Antonio, Texas.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6751,7 +6800,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1992-03-22",
+      "endDate": "1992-03-21",
       "engagements": ["Met Prime Minister Miyazawa Kiichi"],
       "eventName": null,
       "id": "alberto-fujimori--1992-03-15--JPN",
@@ -6759,13 +6808,17 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1992-03-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7334,11 +7387,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Signed agreements"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "alberto-fujimori--1994-12-09--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7766,21 +7823,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1996-05-22",
+      "endDate": "1996-05-21",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": "Pacific Basin Economic Council International General Assembly",
-      "id": "alberto-fujimori--1996-05-20--USA",
+      "id": "alberto-fujimori--1996-05-18--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Attended Pacific Basin Economic Council International General Assembly",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-05-20",
+      "startDate": "1996-05-18",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8072,16 +8133,20 @@
       "endDate": "1997-02-03",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
-      "id": "alberto-fujimori--1997-02-01--USA",
+      "id": "alberto-fujimori--1997-02-03--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Visit to United States",
+      "purpose": "Arrived in Washington February to attend international meeting on small business lending.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-02-01",
+      "startDate": "1997-02-03",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8908,8 +8973,12 @@
       "eventName": null,
       "id": "alberto-fujimori--1998-10-09--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Visit to United States",
+      "purpose": "Discussed the Ecuador-Peru border dispute with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9058,8 +9127,12 @@
       "eventName": "Meeting for aid to support cross-border projects and project aid",
       "id": "alberto-fujimori--1999-02-04--USA",
       "officialId": "alberto-fujimori",
-      "purpose": "Attended Meeting for aid to support cross-border projects and project aid",
+      "purpose": "Discussed implementation of Ecuador-Peru border agreement.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9858,11 +9931,15 @@
       },
       "endDate": "2002-09-16",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Private visit. Addressed OAS Meeting.",
       "id": "alejandro-toledo--2002-09-10--USA",
       "officialId": "alejandro-toledo",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit. Addressed OAS Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10821,16 +10898,20 @@
       "endDate": "2006-03-10",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "alejandro-toledo--2006-03-09--USA",
+      "id": "alejandro-toledo--2006-03-08--USA",
       "officialId": "alejandro-toledo",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-03-09",
+      "startDate": "2006-03-08",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -10968,21 +11049,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-07-11",
+      "endDate": "2006-07-12",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
       "eventName": null,
-      "id": "alejandro-toledo--2006-07-07--USA",
+      "id": "alejandro-toledo--2006-07-09--USA",
       "officialId": "alejandro-toledo",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush July 11 during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-07-07",
+      "startDate": "2006-07-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -11001,8 +11086,12 @@
       "eventName": "Amazon Cooperation Treaty Organization (ACTO) Summit",
       "id": "dina-boluarte--2023-08-07--BRA",
       "officialId": "dina-boluarte",
-      "purpose": "Attended Amazon Cooperation Treaty Organization (ACTO) Summit",
+      "purpose": "Amparada en la ley que la autoriza despachar de manera remota, Boluarte realizó su primer viaje internacional a la ciudad de Belém do Pará,…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11010,7 +11099,7 @@
       ],
       "startDate": "2023-08-07",
       "statusHint": null,
-      "type": "summit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -11021,13 +11110,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-09-19",
+      "endDate": "2023-09-21",
       "engagements": [],
       "eventName": "United Nations (UN) General Assembly",
       "id": "dina-boluarte--2023-09-17--USA",
       "officialId": "dina-boluarte",
-      "purpose": "Attended United Nations (UN) General Assembly and Sustainable Development Goals (SDG) Summit and Concordia Annual Summit",
+      "purpose": "El 17 de septiembre, Boluarte llegó a Nueva York para participar en la 78° Asamblea General de la ONU,​ tras ser aprobada su viaje por el c…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11046,13 +11139,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-10-13",
-      "engagements": ["Gave a public address"],
+      "endDate": "2023-10-15",
+      "engagements": [
+        "En El Vaticano, Boluarte se reunió con el Papa Francisco y Pietro Parolin, llegándose a hablar sobre las relaciones entre la Iglesia Católica y el Perú, la situación sociopolítica…",
+        "Gave a public address"
+      ],
       "eventName": null,
       "id": "dina-boluarte--2023-10-11--DEU",
       "officialId": "dina-boluarte",
-      "purpose": "Visit to Germany",
+      "purpose": "Con autorización del congreso, Boluarte viajó hacia Alemania, Italia y El Vaticano.​ En Alemania, como invitada por el \"Día de América Lati…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11071,19 +11171,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-10-14",
-      "engagements": [],
+      "endDate": "2023-10-15",
+      "engagements": [
+        "En El Vaticano, Boluarte se reunió con el Papa Francisco y Pietro Parolin, llegándose a hablar sobre las relaciones entre la Iglesia Católica y el Perú, la situación sociopolítica…"
+      ],
       "eventName": null,
-      "id": "dina-boluarte--2023-10-13--ITA",
+      "id": "dina-boluarte--2023-10-11--ITA",
       "officialId": "dina-boluarte",
-      "purpose": "Visit to Italy",
+      "purpose": "Con autorización del congreso, Boluarte viajó hacia Alemania, Italia y El Vaticano.​ En Alemania, como invitada por el \"Día de América Lati…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-13",
+      "startDate": "2023-10-11",
       "statusHint": null,
       "type": "other"
     },
@@ -11097,18 +11203,25 @@
         "region": "Europe"
       },
       "endDate": "2023-10-15",
-      "engagements": ["Met Pope Francis"],
+      "engagements": [
+        "En El Vaticano, Boluarte se reunió con el Papa Francisco y Pietro Parolin, llegándose a hablar sobre las relaciones entre la Iglesia Católica y el Perú, la situación sociopolítica…",
+        "Met Pope Francis"
+      ],
       "eventName": null,
-      "id": "dina-boluarte--2023-10-14--VAT",
+      "id": "dina-boluarte--2023-10-11--VAT",
       "officialId": "dina-boluarte",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Con autorización del congreso, Boluarte viajó hacia Alemania, Italia y El Vaticano.​ En Alemania, como invitada por el \"Día de América Lati…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-14",
+      "startDate": "2023-10-11",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11121,21 +11234,31 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-11-04",
-      "engagements": [],
-      "eventName": "Leaders of the Alliance of the Americas for Economic Prosperity (APEP)",
-      "id": "dina-boluarte--2023-11-01--USA",
+      "endDate": "2023-11-03",
+      "engagements": [
+        "C. y al estado de Maryland para participar en la Cumbre Inaugural de Líderes de la Alianza de las Américas para la Prosperidad Económica (APEP).​ En el transcurso del mismo, Bolua…"
+      ],
+      "eventName": "Attended the APEP Leaders' Summit.",
+      "id": "dina-boluarte--2023-11-03--USA",
       "officialId": "dina-boluarte",
-      "purpose": "Attended Leaders of the Alliance of the Americas for Economic Prosperity (APEP)",
+      "purpose": "Attended the APEP Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-01",
+      "startDate": "2023-11-03",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -11146,19 +11269,27 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2023-11-18",
+      "endDate": "2023-11-17",
       "engagements": ["Gave a public address"],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "dina-boluarte--2023-11-14--USA",
+      "eventName": "Attended the APEC Leaders' Summit at San Francisco, CA.",
+      "id": "dina-boluarte--2023-11-12--USA",
       "officialId": "dina-boluarte",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Leaders' Summit at San Francisco, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-11-14",
+      "startDate": "2023-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -11171,21 +11302,25 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2024-06-29",
+      "endDate": "2024-06-30",
       "engagements": ["Met General Secretary Xi Jinping", "Signed agreements"],
       "eventName": null,
-      "id": "dina-boluarte--2024-06-24--CHN",
+      "id": "dina-boluarte--2024-06-23--CHN",
       "officialId": "dina-boluarte",
-      "purpose": "Visit to China",
+      "purpose": "Invitada por el presidente de China, Xi Jinping, Boluarte viajó al país asiático donde mantuvo una reunión bilateral en Pekín con Xi y firm…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-06-24",
+      "startDate": "2024-06-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -11225,8 +11360,12 @@
       "eventName": "World Economic Forum (WEF) Davos",
       "id": "dina-boluarte--2025-01-20--CHE",
       "officialId": "dina-boluarte",
-      "purpose": "Attended World Economic Forum (WEF) Davos",
+      "purpose": "Tras aprobación del congreso,​ Boluarte viajó a Davos para participar en el Foro Económico Mundial 2025 donde dio un discurso.​​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11235,6 +11374,37 @@
       "startDate": "2025-01-20",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [12.453, 41.904],
+        "countryCode": "VAT",
+        "region": "Europe"
+      },
+      "endDate": "2025-05-19",
+      "engagements": [
+        "En el transcurso de las actividades, Boluarte participó en la misa de honras por la memoria del Papa Francisco y la misa de entronización de León XIV​",
+        "Met Pope Leo XIV"
+      ],
+      "eventName": null,
+      "id": "dina-boluarte--2025-05-16--VAT",
+      "officialId": "dina-boluarte",
+      "purpose": "Con aprobación del congreso,​ Boluarte viajó al Vaticano para participar en la ceremonia de entronización del Papa León XIV, quien posee la…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-05-16",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11263,30 +11433,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Vatican City",
-        "coordinates": [12.453, 41.904],
-        "countryCode": "VAT",
-        "region": "Europe"
-      },
-      "endDate": "2025-05-18",
-      "engagements": ["Met Pope Leo XIV"],
-      "eventName": null,
-      "id": "dina-boluarte--2025-05-18--VAT",
-      "officialId": "dina-boluarte",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-05-18",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Quito",
         "coordinates": [-78.5125, -0.22],
         "countryCode": "ECU",
@@ -11297,8 +11443,12 @@
       "eventName": null,
       "id": "dina-boluarte--2025-05-24--ECU",
       "officialId": "dina-boluarte",
-      "purpose": "Visit to Ecuador",
+      "purpose": "Boluarte viajó a Quito para la ceremonia de toma de mando de Daniel Noboa como presidente de dicha nación.​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11316,45 +11466,25 @@
         "countryCode": "FRA",
         "region": "Europe"
       },
-      "endDate": "2025-06-10",
+      "endDate": "2025-06-11",
       "engagements": ["Met President Emmanuel Macron", "Signed agreements"],
       "eventName": "United Nations (UN) Oceans Conference",
-      "id": "dina-boluarte--2025-06-08--FRA",
+      "id": "dina-boluarte--2025-06-07--FRA",
       "officialId": "dina-boluarte",
-      "purpose": "Attended United Nations (UN) Oceans Conference",
+      "purpose": "Boluarte viajó a Niza para participar en la III Conferencia de las Naciones Unidas sobre el Océano (UNOC3), con aprobación del congreso.​ E…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-06-08",
+      "startDate": "2025-06-07",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Osaka",
-        "coordinates": [135.502111111, 34.69375],
-        "countryCode": "JPN",
-        "region": "Asia"
-      },
-      "endDate": "2025-08-10",
-      "engagements": ["Met Prime Minister Ishiba Shigeru", "Signed agreements"],
-      "eventName": null,
-      "id": "dina-boluarte--2025-08-06--JPN",
-      "officialId": "dina-boluarte",
-      "purpose": "Visit to Japan",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-08-06",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -11365,18 +11495,56 @@
         "region": "Asia"
       },
       "endDate": "2025-08-12",
-      "engagements": ["Met President Prabowo Subianto"],
+      "engagements": [
+        "Naruhito le agradeció el recibimiento que le dio Boluarte a la princesa Kako en Perú en el año 2023.",
+        "Además, Boluarte se reunió con el primer ministro Shigeru Ishiba a quien le habló de la implementación de un plan en ciencia y tecnología con enfoque en robótica y la inteligencia…"
+      ],
       "eventName": null,
-      "id": "dina-boluarte--2025-08-10--IDN",
+      "id": "dina-boluarte--2025-08-05--IDN",
       "officialId": "dina-boluarte",
-      "purpose": "Visit to Indonesia",
+      "purpose": "Tras autorización del congreso, Boluarte viajó a Indonesia y Japón.​ En Japón, Boluarte se reunió con más de 60 empresarios inaugurando la…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-08-10",
+      "startDate": "2025-08-05",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Osaka",
+        "coordinates": [135.502111111, 34.69375],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2025-08-12",
+      "engagements": [
+        "Naruhito le agradeció el recibimiento que le dio Boluarte a la princesa Kako en Perú en el año 2023.",
+        "Además, Boluarte se reunió con el primer ministro Shigeru Ishiba a quien le habló de la implementación de un plan en ciencia y tecnología con enfoque en robótica y la inteligencia…"
+      ],
+      "eventName": null,
+      "id": "dina-boluarte--2025-08-05--JPN",
+      "officialId": "dina-boluarte",
+      "purpose": "Tras autorización del congreso, Boluarte viajó a Indonesia y Japón.​ En Japón, Boluarte se reunió con más de 60 empresarios inaugurando la…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-08-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11389,12 +11557,19 @@
         "region": "Americas"
       },
       "endDate": "2025-09-25",
-      "engagements": ["Gave a public address"],
+      "engagements": [
+        "Sin embargo, su discurso, que no fue traducido a otros idiomas, fue interrumpido debido a que excedió el tiempo hablando mientras el micrófono estaba apagado.",
+        "A pesar de ello, Boluarte siguió hablando a la par que Annalena Baerbock, presidenta de la Asamblea General, intentó dar por finalizada su intervención."
+      ],
       "eventName": "United Nations (UN) General Assembly",
       "id": "dina-boluarte--2025-09-21--USA",
       "officialId": "dina-boluarte",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Con autorización del congreso, Boluarte viajó a Estados Unidos para participar en el 80° periodo de sesiones de la Asamblea General de las…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_de_la_presidenta_Dina_Boluarte"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11403,6 +11578,56 @@
       "startDate": "2025-09-21",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "fernando-belaunde--1984-09-25--USA",
+      "officialId": "fernando-belaunde",
+      "purpose": "Private visit. Accompanied by Prime Minister Mariategui. Met with President Reagan September 27.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-09-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "francisco-morales-bermudez--1977-09-06--USA",
+      "officialId": "francisco-morales-bermudez",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -11427,6 +11652,81 @@
       "startDate": "2025-12-12",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "juan-velasco-alvarado--1970-10-24--USA",
+      "officialId": "juan-velasco-alvarado",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1961-05-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-prado-ugarteche--1961-05-10--JPN",
+      "officialId": "manuel-prado-ugarteche",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1961-05-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-09-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-prado-ugarteche--1961-09-19--USA",
+      "officialId": "manuel-prado-ugarteche",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-09-19",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11690,7 +11990,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-03-01",
+      "endDate": "2019-02-28",
       "engagements": ["Met Prime Minister Pedro Sanchez", "Signed agreements"],
       "eventName": null,
       "id": "martin-vizcarra--2019-02-27--ESP",
@@ -11698,13 +11998,17 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2019-02-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11840,19 +12144,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2011-11-14",
+      "endDate": "2011-11-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "ollanta-humala--2011-11-11--USA",
+      "eventName": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
+      "id": "ollanta-humala--2011-11-10--USA",
       "officialId": "ollanta-humala",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the Asia-Pacific Economic and Cooperation Summit at Honolulu and Kapolei, Hawaii.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-11",
+      "startDate": "2011-11-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -12351,8 +12659,12 @@
       "eventName": null,
       "id": "ollanta-humala--2013-06-10--USA",
       "officialId": "ollanta-humala",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13138,13 +13450,17 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-07-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -13494,8 +13810,12 @@
       "eventName": "Community of Latin American and Caribbean States (CELAC) Summit",
       "id": "pedro-castillo--2021-09-17--MEX",
       "officialId": "pedro-castillo",
-      "purpose": "Attended Community of Latin American and Caribbean States (CELAC) Summit",
+      "purpose": "Participó en la VI Cumbre de Jefas y Jefes de Estado y de Gobierno de la Comunidad de Estados Latinoamericanos y Caribeños (Celac).​ Se reu…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13514,13 +13834,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2021-09-22",
+      "endDate": "2021-09-21",
       "engagements": ["Gave a public address"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "pedro-castillo--2021-09-19--USA",
       "officialId": "pedro-castillo",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Participó de la sesión del Consejo Permanente de la OEA​ y en el Debate General de la 76.° Asamblea General de la ONU.​ Se reunió con el se…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13544,8 +13868,12 @@
       "eventName": null,
       "id": "pedro-castillo--2021-10-30--BOL",
       "officialId": "pedro-castillo",
-      "purpose": "Visit to Bolivia",
+      "purpose": "Participó del Encuentro Presidencial y VI Gabinete Binacional de Ministros Perú-Bolivia.​ Viajó acompañado de la presidenta del Consejo de…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13565,12 +13893,19 @@
         "region": "Americas"
       },
       "endDate": "2022-01-13",
-      "engagements": ["Met President Ivan Duque", "Signed agreements"],
+      "engagements": [
+        "Viajó acompañado de la primera dama, Lilia Paredes; la presidenta del Consejo de Ministros, Mirtha Vásquez y otros siete miembros del gabinete ministerial.​​",
+        "Met President Ivan Duque"
+      ],
       "eventName": null,
       "id": "pedro-castillo--2022-01-13--COL",
       "officialId": "pedro-castillo",
-      "purpose": "Visit to Colombia",
+      "purpose": "Participó del Encuentro Presidencial y VI Reunión del Gabinete Binacional de Ministros Perú-Colombia.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13589,13 +13924,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-01-27",
+      "endDate": "2022-01-26",
       "engagements": ["Signed agreements"],
       "eventName": "Pacific Alliance Leaders Meeting (PALM8)",
       "id": "pedro-castillo--2022-01-26--COL",
       "officialId": "pedro-castillo",
-      "purpose": "Attended Pacific Alliance Leaders Meeting (PALM8)",
+      "purpose": "Asistió a la XVI Cumbre de la Alianza del Pacífico.​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13604,6 +13943,31 @@
       "startDate": "2022-01-26",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [-47.8825, -15.7942],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-02-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "pedro-castillo--2022-02-03--BRA",
+      "officialId": "pedro-castillo",
+      "purpose": "Se reunió con su homólogo de Brasil, Jair Bolsonaro.​",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        }
+      ],
+      "startDate": "2022-02-03",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -13619,8 +13983,12 @@
       "eventName": null,
       "id": "pedro-castillo--2022-03-10--CHL",
       "officialId": "pedro-castillo",
-      "purpose": "Visit to Chile",
+      "purpose": "Asistió a la ceremonia de toma de mando presidencial de Gabriel Boric.​ Se reunió con su homólogo de Ecuador, Guillermo Lasso;​ de Bolivia,…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13644,8 +14012,12 @@
       "eventName": null,
       "id": "pedro-castillo--2022-04-29--ECU",
       "officialId": "pedro-castillo",
-      "purpose": "Visit to Ecuador",
+      "purpose": "Participó del Encuentro Presidencial y XIV Reunión de Gabinete Binacional de Ministros Perú-Ecuador.​",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13666,17 +14038,25 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "Summit of the Americas",
-      "id": "pedro-castillo--2022-06-06--USA",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
+      "id": "pedro-castillo--2022-06-08--USA",
       "officialId": "pedro-castillo",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-06",
+      "startDate": "2022-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -13696,6 +14076,10 @@
       "officialId": "pedro-castillo",
       "purpose": "Attended United Nations (UN) General Assembly",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Pedro_Castillo"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13839,13 +14223,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-02-26",
+      "endDate": "2017-02-24",
       "engagements": ["Met President Donald Trump"],
       "eventName": null,
       "id": "pedro-pablo-kuczynski--2017-02-24--USA",
       "officialId": "pedro-pablo-kuczynski",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

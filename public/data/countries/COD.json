@@ -8463,6 +8463,30 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Houston",
+        "coordinates": [-95.383055555, 29.762777777],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2026-06-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "felix-tshisekedi--2026-06-16--USA",
+      "officialId": "felix-tshisekedi",
+      "purpose": "Attended the DR Congo national team's opening group match against Portugal at the 2026 FIFA World Cup, which was the country's first World…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_F%C3%A9lix_Tshisekedi"
+        }
+      ],
+      "startDate": "2026-06-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brazzaville",
         "coordinates": [15.271111111, -4.269444444],
         "countryCode": "COG",
@@ -15226,6 +15250,56 @@
       "startDate": "2001-01-04",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1971-04-06--JPN",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1971-04-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-12-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1973-12-11--GBR",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1973-12-11",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

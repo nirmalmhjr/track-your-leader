@@ -5303,21 +5303,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2013-03-29",
+      "endDate": "2013-03-28",
       "engagements": ["Met President Barack Obama"],
-      "eventName": null,
-      "id": "ernest-bai-koroma--2013-03-27--USA",
+      "eventName": "Attended African Leaders Summit.",
+      "id": "ernest-bai-koroma--2013-03-28--USA",
       "officialId": "ernest-bai-koroma",
-      "purpose": "Visit to United States",
+      "purpose": "Attended African Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-03-27",
+      "startDate": "2013-03-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -5778,19 +5782,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-04-19",
+      "endDate": "2015-04-15",
       "engagements": ["Met President Barack Obama", "Gave a public address"],
-      "eventName": null,
-      "id": "ernest-bai-koroma--2015-04-14--USA",
+      "eventName": "Attended the Africa Leaders Ebola Meeting.",
+      "id": "ernest-bai-koroma--2015-04-15--USA",
       "officialId": "ernest-bai-koroma",
-      "purpose": "Visit to United States",
+      "purpose": "Attended the Africa Leaders Ebola Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-14",
+      "startDate": "2015-04-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8843,19 +8851,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2022-12-16",
+      "endDate": "2022-12-15",
       "engagements": ["Gave a public address"],
-      "eventName": "United States-Africa Leaders Summit",
-      "id": "julius-maada-bio--2022-12-12--USA",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "julius-maada-bio--2022-12-13--USA",
       "officialId": "julius-maada-bio",
-      "purpose": "Attended United States-Africa Leaders Summit and Congo-Kinshasa-Gabon-Liberia-Madagascar-Nigeria-Sierra Leone-United States Multilateral Meeting",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-12",
+      "startDate": "2022-12-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -10914,6 +10926,56 @@
       "startDate": "2025-12-13",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "siaka-stevens--1969-05-19--USA",
+      "officialId": "siaka-stevens",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-05-19",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-09-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "siaka-stevens--1980-09-25--USA",
+      "officialId": "siaka-stevens",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-09-25",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

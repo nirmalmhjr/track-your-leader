@@ -1521,18 +1521,22 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "haitham-bin-tarik-al-said--2025-04-14--NLD",
+      "id": "haitham-bin-tarik-al-said--2025-04-15--NLD",
       "officialId": "haitham-bin-tarik-al-said",
       "purpose": "Visit to Netherlands",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-04-14",
+      "startDate": "2025-04-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -1668,18 +1672,22 @@
       "endDate": "2025-11-05",
       "engagements": ["Met Prime Minister Pedro Sanchez", "Signed agreements"],
       "eventName": null,
-      "id": "haitham-bin-tarik-al-said--2025-11-04--ESP",
+      "id": "haitham-bin-tarik-al-said--2025-11-03--ESP",
       "officialId": "haitham-bin-tarik-al-said",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Felipe_VI"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-04",
+      "startDate": "2025-11-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -1704,6 +1712,105 @@
       "startDate": "2025-12-03",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Windsor Castle",
+        "coordinates": [-0.604444444, 51.483888888],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "2026-10-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "haitham-bin-tarik-al-said--2026-10-20--GBR",
+      "officialId": "haitham-bin-tarik-al-said",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Charles_III"
+        }
+      ],
+      "startDate": "2026-10-20",
+      "statusHint": "planned",
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-01-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "qaboos-bin-said-al-said--1975-01-09--USA",
+      "officialId": "qaboos-bin-said-al-said",
+      "purpose": "Private visit. Departed U.S. January 11.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-01-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1982-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "qaboos-bin-said-al-said--1982-03-16--GBR",
+      "officialId": "qaboos-bin-said-al-said",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1982-03-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "qaboos-bin-said-al-said--1983-04-11--USA",
+      "officialId": "qaboos-bin-said-al-said",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-04-11",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

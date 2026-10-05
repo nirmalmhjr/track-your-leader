@@ -3882,13 +3882,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-03-27",
+      "endDate": "2002-03-25",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "anders-fogh-rasmussen--2002-03-25--USA",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3896,7 +3900,7 @@
       ],
       "startDate": "2002-03-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5135,16 +5139,20 @@
       "endDate": "2003-05-12",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "anders-fogh-rasmussen--2003-05-07--USA",
+      "id": "anders-fogh-rasmussen--2003-05-12--USA",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-05-07",
+      "startDate": "2003-05-12",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5682,19 +5690,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-05-29",
+      "endDate": "2004-05-28",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "anders-fogh-rasmussen--2004-05-28--USA",
+      "id": "anders-fogh-rasmussen--2004-05-27--USA",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-05-28",
+      "startDate": "2004-05-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6157,13 +6169,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-05-24",
+      "endDate": "2005-05-20",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
       "id": "anders-fogh-rasmussen--2005-05-20--USA",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6507,19 +6523,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2006-06-13",
+      "endDate": "2006-06-11",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "anders-fogh-rasmussen--2006-06-09--USA",
+      "id": "anders-fogh-rasmussen--2006-06-08--USA",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-06-09",
+      "startDate": "2006-06-08",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7460,16 +7480,20 @@
       "endDate": "2008-03-01",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "anders-fogh-rasmussen--2008-02-29--USA",
+      "id": "anders-fogh-rasmussen--2008-02-27--USA",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Met with President Bush in Crawford, TX.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-02-29",
+      "startDate": "2008-02-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8301,6 +8325,256 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-11-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "anker-j-rgensen--1975-11-13--USA",
+      "officialId": "anker-j-rgensen",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-11-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-02-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "anker-j-rgensen--1978-02-21--USA",
+      "officialId": "anker-j-rgensen",
+      "purpose": "Official visit. Private visit afterwards to Colorado, California, and Washington State.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-02-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "anker-j-rgensen--1978-05-30--USA",
+      "officialId": "anker-j-rgensen",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1947-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-ix-of-denmark--1947-09-29--NOR",
+      "officialId": "frederik-ix-of-denmark",
+      "purpose": "visited by King Frederik IX (his nephew) and Queen Ingrid",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Haakon_VII"
+        }
+      ],
+      "startDate": "1947-09-29",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1951-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-ix-of-denmark--1951-05-08--GBR",
+      "officialId": "frederik-ix-of-denmark",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_George_VI"
+        }
+      ],
+      "startDate": "1951-05-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1960-02-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-ix-of-denmark--1960-02-11--NOR",
+      "officialId": "frederik-ix-of-denmark",
+      "purpose": "visited by King Frederik IX and Queen Ingrid",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1960-02-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-10-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-ix-of-denmark--1960-10-11--USA",
+      "officialId": "frederik-ix-of-denmark",
+      "purpose": "State visit. In U.S. October 4–17, visiting Los Angeles, San Francisco, Chicago, New York City, and Albany (New York).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-10-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-x-of-denmark--2024-05-06--SWE",
+      "officialId": "frederik-x-of-denmark",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2024-05-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "h-c-hansen--1958-05-08--USA",
+      "officialId": "h-c-hansen",
+      "purpose": "Unofficial visit; attended Minnesota Statehood Centennial in Minneapolis and St. Paul.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-05-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-11-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "hans-hedtoft--1954-11-23--USA",
+      "officialId": "hans-hedtoft",
+      "purpose": "Arrived in U.S.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-11-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -8957,13 +9231,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-02-26",
+      "endDate": "2012-02-24",
       "engagements": ["Met President Barack Obama"],
       "eventName": null,
       "id": "helle-thorning-schmidt--2012-02-24--USA",
       "officialId": "helle-thorning-schmidt",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9084,11 +9362,15 @@
       },
       "endDate": "2012-05-21",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "NATO Summit",
+      "eventName": "Attended the NATO Summit Meeting in Chicago, IL.",
       "id": "helle-thorning-schmidt--2012-05-20--USA",
       "officialId": "helle-thorning-schmidt",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the NATO Summit Meeting in Chicago, IL.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10926,6 +11208,206 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-04-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "hilmar-baunsgaard--1970-04-14--USA",
+      "officialId": "hilmar-baunsgaard",
+      "purpose": "Official visit. In U.S. April 12–19; visited Williamsburg, and afterwards made a private visit to New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-04-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-10-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "hilmar-baunsgaard--1970-10-24--USA",
+      "officialId": "hilmar-baunsgaard",
+      "purpose": "Attended White House dinner on 25th Anniversary of the U.N.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "jens-otto-krag--1963-11-24--USA",
+      "officialId": "jens-otto-krag",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-06-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "jens-otto-krag--1964-06-09--USA",
+      "officialId": "jens-otto-krag",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-06-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-04-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "jens-otto-krag--1966-04-22--USA",
+      "officialId": "jens-otto-krag",
+      "purpose": "Private visit. Arrived in U.S. April 20; visited New York City and Omaha. Met with President Johnson April 27.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-04-22",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-06-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "jens-otto-krag--1967-06-22--USA",
+      "officialId": "jens-otto-krag",
+      "purpose": "Informal visit. Discussed the Middle East crisis with President Johnson.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-06-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "jens-otto-krag--1967-09-27--USA",
+      "officialId": "jens-otto-krag",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-09-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-03-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "lars-l-kke-rasmussen--2011-03-14--USA",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2011-03-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -11934,11 +12416,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "lars-lokke-rasmussen--2016-03-31--USA",
       "officialId": "lars-lokke-rasmussen",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12007,13 +12493,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-05-14",
+      "endDate": "2016-05-13",
       "engagements": [],
-      "eventName": "Nordic Council Summit",
+      "eventName": "Attended the U.S.-Nordic Leaders Summit.",
       "id": "lars-lokke-rasmussen--2016-05-13--USA",
       "officialId": "lars-lokke-rasmussen",
-      "purpose": "Attended Nordic Council Summit",
+      "purpose": "Attended the U.S.-Nordic Leaders Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13829,6 +14319,206 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Oslo",
+        "coordinates": [10.738888888, 59.913333333],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1973-02-12--NOR",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "visited by Queen Margrethe II and Prince Henrik",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1973-02-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1974-05-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1974-04-30--GBR",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1974-04-30",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1976-05-10--USA",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Luncheon at the White House during a private visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-05-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1981-04-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1981-04-21--JPN",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1981-04-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1985-09-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1985-09-03--SWE",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1985-09-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-02-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1991-02-19--USA",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "State Visit. Private visit to New York City afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1991-02-19",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [-0.1276, 51.5072],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-02-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--2000-02-16--GBR",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "2000-02-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2004-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--2004-11-15--JPN",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2004-11-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [4.351666666, 50.846666666],
         "countryCode": "BEL",
@@ -15542,8 +16232,12 @@
       "eventName": null,
       "id": "mette-frederiksen--2023-06-05--USA",
       "officialId": "mette-frederiksen",
-      "purpose": "Met with President Joe Biden.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mette_Frederiksen"
@@ -15555,7 +16249,7 @@
       ],
       "startDate": "2023-06-05",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -16543,11 +17237,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": ["Gave a public address"],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "mette-frederiksen--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "mette-frederiksen--2024-07-10--USA",
       "officialId": "mette-frederiksen",
-      "purpose": "Attended 2024 NATO summit",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mette_Frederiksen"
@@ -16557,7 +17255,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -18421,19 +19119,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1993-05-08",
+      "endDate": "1993-05-07",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "United States-European Council Summit",
-      "id": "poul-nyrup-rasmussen--1993-05-07--USA",
+      "id": "poul-nyrup-rasmussen--1993-05-06--USA",
       "officialId": "poul-nyrup-rasmussen",
-      "purpose": "Attended United States-European Council Summit",
+      "purpose": "Accompanied EC President Delors to discuss the Bosnian crisis with President Clinton.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1993-05-07",
+      "startDate": "1993-05-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -19448,11 +20150,15 @@
       },
       "endDate": "1999-04-25",
       "engagements": [],
-      "eventName": "NATO Anniversary Summit",
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
       "id": "poul-nyrup-rasmussen--1999-04-23--USA",
       "officialId": "poul-nyrup-rasmussen",
-      "purpose": "Attended NATO Anniversary Summit",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19665,6 +20371,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-12-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "poul-schluter--1982-12-12--USA",
+      "officialId": "poul-schluter",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-12-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "poul-schluter--1985-09-09--USA",
+      "officialId": "poul-schluter",
+      "purpose": "Official Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-09-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-08-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "poul-schluter--1989-08-28--USA",
+      "officialId": "poul-schluter",
+      "purpose": "Met with President Bush during a private visit to Kennebunkport (Me.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-08-28",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Stockholm",
         "coordinates": [18.068611111, 59.329444444],
         "countryCode": "SWE",
@@ -19761,6 +20542,31 @@
       "startDate": "1992-12-11",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-02-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "viggo-kampmann--1961-02-14--USA",
+      "officialId": "viggo-kampmann",
+      "purpose": "Informal visit. In U.S. February 11–19, visiting New York City, Mystic (Connecticut), Chicago, and San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-02-14",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

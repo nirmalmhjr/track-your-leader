@@ -3580,8 +3580,12 @@
       "eventName": null,
       "id": "angela-merkel--2006-01-12--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President George W.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -3593,7 +3597,7 @@
       ],
       "startDate": "2006-01-12",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3789,6 +3793,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Nueva York",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2006-04-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "angela-merkel--2006-04-04--USA",
+      "officialId": "angela-merkel",
+      "purpose": "Reunión con el presidente George Bush",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2006-04-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tomsk",
         "coordinates": [
           84.952222222,
@@ -3830,16 +3861,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2006-05-05",
+      "endDate": "2006-05-04",
       "engagements": [
         "Merkel delivered the speech to American and German entrepreneurs.",
         "Merkel also delivered the speech at the 100th anniversary celebration of the American Jewish Committee."
       ],
       "eventName": null,
-      "id": "angela-merkel--2006-05-04--USA",
+      "id": "angela-merkel--2006-05-03--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President George W.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -3849,9 +3884,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-05-04",
+      "startDate": "2006-05-03",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -4266,13 +4301,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amsterdam",
+        "city": "Países Bajos",
         "coordinates": [
-          4.883333333,
-          52.366666666
+          5.55,
+          52.316666666
         ],
         "countryCode": "NLD",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2006-10-27",
@@ -4282,7 +4316,7 @@
       "eventName": null,
       "id": "angela-merkel--2006-10-27--NLD",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with Prime Minister Jan Peter Balkenende and Queen Beatrix.",
+      "purpose": "Reunión con la reina Beatriz I y con el P. M. Jan Peter Balkenende",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4547,15 +4581,19 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2007-01-05",
+      "endDate": "2007-01-04",
       "engagements": [
         "Met President George W. Bush"
       ],
       "eventName": null,
-      "id": "angela-merkel--2007-01-05--USA",
+      "id": "angela-merkel--2007-01-04--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President George W.",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -4565,9 +4603,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-01-05",
+      "startDate": "2007-01-04",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -5200,11 +5238,15 @@
       "engagements": [
         "Met President George W. Bush"
       ],
-      "eventName": "United States-European Council Summit",
+      "eventName": "Attended U.S.-EU Summit meeting.",
       "id": "angela-merkel--2007-04-29--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the EU-US summit.",
+      "purpose": "Attended U.S.-EU Summit meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -5476,6 +5518,33 @@
       "startDate": "2007-08-17",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ilulissat",
+        "coordinates": [
+          -51.1,
+          69.216666666
+        ],
+        "countryCode": "GRL",
+        "region": "Americas"
+      },
+      "endDate": "2007-08-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "angela-merkel--2007-08-17--GRL",
+      "officialId": "angela-merkel",
+      "purpose": "Reunión con el P. M. Anders Fogh RasmussenVisita a la costa occidental de Groenlandia en el marco del Cambio climático",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2007-08-17",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -5863,8 +5932,12 @@
       "eventName": null,
       "id": "angela-merkel--2007-11-09--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President George W.",
+      "purpose": "Working visit. Met with President Bush in Crawford, TX.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -5876,7 +5949,7 @@
       ],
       "startDate": "2007-11-09",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6270,6 +6343,33 @@
       "startDate": "2008-04-14",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bruselas",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "angela-merkel--2008-04-15--BEL",
+      "officialId": "angela-merkel",
+      "purpose": "Discurso en el Parlamento Europeo",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2008-04-15",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -7006,7 +7106,7 @@
       "eventName": "European Council Summit",
       "id": "angela-merkel--2008-10-16--BEL",
       "officialId": "angela-merkel",
-      "purpose": "Attended European Council Summit",
+      "purpose": "Participación en el Consejo Europeo",
       "sources": [
         {
           "label": "Wikipedia",
@@ -7164,11 +7264,15 @@
       },
       "endDate": "2008-11-15",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "angela-merkel--2008-11-14--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the G20 summit.",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -7520,7 +7624,7 @@
       "eventName": "European Council Summit",
       "id": "angela-merkel--2009-03-20--BEL",
       "officialId": "angela-merkel",
-      "purpose": "Attended European Council Summit",
+      "purpose": "Participación en el Consejo Europeo",
       "sources": [
         {
           "label": "Wikipedia",
@@ -7546,11 +7650,11 @@
         "countryCode": "GBR",
         "region": "Europe"
       },
-      "endDate": "2009-04-01",
+      "endDate": "2009-04-02",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "II Cumbre del G-20",
       "id": "angela-merkel--2009-04-01--GBR",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the G20 summit.",
@@ -7571,7 +7675,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Strasbourg",
+        "city": "Estrasburgo",
         "coordinates": [
           7.752222222,
           48.573333333
@@ -7585,20 +7689,20 @@
         "Signed agreements"
       ],
       "eventName": "NATO Summit",
-      "id": "angela-merkel--2009-04-04--FRA",
+      "id": "angela-merkel--2009-04-03--FRA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the 2009 NATO summit.",
+      "purpose": "Participación en la XXI Cumbre de la OTAN",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-04-04",
+      "startDate": "2009-04-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -7787,7 +7891,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington, D.C.",
+        "city": "Washington D. C.",
         "coordinates": [
           -77.036666666,
           38.895
@@ -7802,11 +7906,15 @@
       "eventName": null,
       "id": "angela-merkel--2009-06-26--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Barack Obama.",
+      "purpose": "Working Visit.",
       "sources": [
         {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
@@ -7815,7 +7923,7 @@
       ],
       "startDate": "2009-06-26",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7994,11 +8102,15 @@
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "id": "angela-merkel--2009-09-24--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the G20 summit.",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -8060,10 +8172,14 @@
         "Met President Barack Obama"
       ],
       "eventName": null,
-      "id": "angela-merkel--2009-11-02--USA",
+      "id": "angela-merkel--2009-11-03--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Barack Obama.",
+      "purpose": "Working Visit. Addressed joint session of Congress November 3.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -8073,7 +8189,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-11-02",
+      "startDate": "2009-11-03",
       "statusHint": null,
       "type": "conference"
     },
@@ -8305,13 +8421,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amsterdam",
+        "city": "Países Bajos",
         "coordinates": [
-          4.883333333,
-          52.366666666
+          5.55,
+          52.316666666
         ],
         "countryCode": "NLD",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2010-03-11",
@@ -8319,7 +8434,7 @@
       "eventName": null,
       "id": "angela-merkel--2010-03-11--NLD",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with Queen Beatrix and Prime Minister Jan Peter Balkenende.",
+      "purpose": "Reunión con la reina Beatriz I y con el P. M. Jan Peter Balkenende",
       "sources": [
         {
           "label": "Wikipedia",
@@ -8441,13 +8556,17 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2010-04-15",
+      "endDate": "2010-04-13",
       "engagements": [],
-      "eventName": "Nuclear Security Summit",
+      "eventName": "Attended the Nuclear Security Summit.",
       "id": "angela-merkel--2010-04-12--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the 2010 Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -8631,7 +8750,7 @@
         "countryCode": "ARE",
         "region": "Asia"
       },
-      "endDate": "2010-05-24",
+      "endDate": "2010-05-25",
       "engagements": [
         "Met President Khalifa bin Zayed Al Nahyan",
         "Signed agreements"
@@ -8707,7 +8826,7 @@
       "eventName": null,
       "id": "angela-merkel--2010-05-26--QAT",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Qatar",
+      "purpose": "Reunión con el emir Hamad Al ThaniDiscurso en el Museo de Arte Islámico",
       "sources": [
         {
           "label": "Wikipedia",
@@ -8797,9 +8916,9 @@
         "countryCode": "CAN",
         "region": "Americas"
       },
-      "endDate": "2010-06-27",
+      "endDate": "2010-06-28",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "IV Cumbre del G-20",
       "id": "angela-merkel--2010-06-25--CAN",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the 36th G8 summit.",
@@ -9101,7 +9220,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New York City",
+        "city": "Nueva York",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -9114,20 +9233,20 @@
         "Gave a public address"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "angela-merkel--2010-09-20--USA",
+      "id": "angela-merkel--2010-09-19--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel participated in the United Nations General Assembly summit on the Millennium Development Goals.",
+      "purpose": "Participación en la Cumbre Mundial sobre los Objetivos de Desarrollo del Milenio",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-09-20",
+      "startDate": "2010-09-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -9142,7 +9261,7 @@
         "countryCode": "BEL",
         "region": "Europe"
       },
-      "endDate": "2010-10-04",
+      "endDate": "2010-10-05",
       "engagements": [],
       "eventName": "Asia-Europe Meeting (ASEM)",
       "id": "angela-merkel--2010-10-04--BEL",
@@ -9330,6 +9449,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Brujas",
+        "coordinates": [
+          3.224166666,
+          51.208888888
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "angela-merkel--2010-11-02--BEL",
+      "officialId": "angela-merkel",
+      "purpose": "Reunión con el rey Alberto II y con el P. M. Yves Leterme",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2010-11-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Seoul",
         "coordinates": [
           126.99,
@@ -9343,7 +9489,7 @@
         "Met President Lee Myung-bak",
         "Signed agreements"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "V Cumbre del G-20",
       "id": "angela-merkel--2010-11-11--KOR",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the G20 summit.",
@@ -9806,24 +9952,27 @@
           48.1516988
         ],
         "countryCode": "SVK",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2011-02-16",
+      "endDate": "2011-02-15",
       "engagements": [
         "Met Prime Minister Iveta Radicova"
       ],
       "eventName": null,
-      "id": "angela-merkel--2011-02-16--SVK",
+      "id": "angela-merkel--2011-02-15--SVK",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Slovakia",
+      "purpose": "Reunión con los P.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-02-16",
+      "startDate": "2011-02-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9986,7 +10135,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
+        "city": "Nueva Delhi",
         "coordinates": [
           77.208888888,
           28.613888888
@@ -10000,20 +10149,20 @@
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "angela-merkel--2011-05-31--IND",
+      "id": "angela-merkel--2011-05-30--IND",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with Prime Minister Manmohan Singh.",
+      "purpose": "Reunión con el P. M. Manmohan SinghRecibimiento del Premio Jawaharlal Nehru",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-05-31",
+      "startDate": "2011-05-30",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -10062,16 +10211,20 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2011-06-08",
+      "endDate": "2011-06-07",
       "engagements": [
         "Merkel received the award of the Presidential Medal of Freedom.",
         "Met President Barack Obama"
       ],
       "eventName": null,
-      "id": "angela-merkel--2011-06-07--USA",
+      "id": "angela-merkel--2011-06-06--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Barack Obama.",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -10081,9 +10234,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-06-07",
+      "startDate": "2011-06-06",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -10234,7 +10387,7 @@
       "eventName": null,
       "id": "angela-merkel--2011-07-12--KEN",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Kenya",
+      "purpose": "Reunión con el presidente Mwai Kibaki y con el P. M. Raila OdingaDiscurso en la Universidad de Nairobi",
       "sources": [
         {
           "label": "Wikipedia",
@@ -10268,7 +10421,7 @@
       "eventName": null,
       "id": "angela-merkel--2011-07-13--AGO",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Angola",
+      "purpose": "Reunión con el presidente José Eduardo dos Santos",
       "sources": [
         {
           "label": "Wikipedia",
@@ -10302,7 +10455,7 @@
       "eventName": null,
       "id": "angela-merkel--2011-07-14--NGA",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Nigeria",
+      "purpose": "Reunión con el presidente Goodluck Jonathan",
       "sources": [
         {
           "label": "Wikipedia",
@@ -10562,7 +10715,7 @@
       "eventName": null,
       "id": "angela-merkel--2011-10-05--BEL",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Belgium",
+      "purpose": "Reunión con el presidente del Parlamento Europeo José Manuel Durão Barroso",
       "sources": [
         {
           "label": "Wikipedia",
@@ -10588,7 +10741,7 @@
         "countryCode": "VNM",
         "region": "Asia"
       },
-      "endDate": "2011-10-11",
+      "endDate": "2011-10-12",
       "engagements": [
         "Met Prime Minister Nguyen Tan Dung",
         "Signed agreements"
@@ -10596,7 +10749,7 @@
       "eventName": null,
       "id": "angela-merkel--2011-10-10--VNM",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Vietnam",
+      "purpose": "Reunión con el P. M. Nguyễn Tấn Dũng",
       "sources": [
         {
           "label": "Wikipedia",
@@ -10630,7 +10783,7 @@
       "eventName": null,
       "id": "angela-merkel--2011-10-12--MNG",
       "officialId": "angela-merkel",
-      "purpose": "Visit to Mongolia",
+      "purpose": "Reunión con el P. M. Süjbaataryn Batbold",
       "sources": [
         {
           "label": "Wikipedia",
@@ -10687,9 +10840,9 @@
         "countryCode": "FRA",
         "region": "Europe"
       },
-      "endDate": "2011-11-03",
+      "endDate": "2011-11-05",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "VI Cumbre del G-20",
       "id": "angela-merkel--2011-11-02--FRA",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the G20 summit.",
@@ -10773,6 +10926,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Pristina",
+        "coordinates": [
+          21.166666666,
+          42.666666666
+        ],
+        "countryCode": "SRB",
+        "region": "Europe"
+      },
+      "endDate": "2011-12-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "angela-merkel--2011-12-19--SRB",
+      "officialId": "angela-merkel",
+      "purpose": "Reunión con el presidente Hashim ThaçiVisita al cuartel general de la KFOR (Kosovo Force, la fuerza militar multinacional liderada por la O…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2011-12-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Davos",
         "coordinates": [
           9.839833333,
@@ -10847,7 +11027,7 @@
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2012-02-02",
+      "endDate": "2012-02-03",
       "engagements": [
         "Met Premier Wen Jiabao"
       ],
@@ -11041,15 +11221,19 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2012-05-20",
+      "endDate": "2012-05-21",
       "engagements": [
         "Met President Barack Obama"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "Attended the G-8 Economic Summit at Camp David, MD.",
       "id": "angela-merkel--2012-05-18--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the 38th G8 summit.",
+      "purpose": "Attended the G-8 Economic Summit at Camp David, MD.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -11133,11 +11317,11 @@
         "countryCode": "MEX",
         "region": "Americas"
       },
-      "endDate": "2012-06-19",
+      "endDate": "2012-06-20",
       "engagements": [
         "Met President Felipe Calderon"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "VII Cumbre del G-20",
       "id": "angela-merkel--2012-06-18--MEX",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the G20 summit.",
@@ -11412,7 +11596,7 @@
         "countryCode": "CAN",
         "region": "Americas"
       },
-      "endDate": "2012-08-16",
+      "endDate": "2012-08-17",
       "engagements": [
         "Met Prime Minister Stephen Harper",
         "Gave a public address"
@@ -11480,7 +11664,7 @@
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2012-08-30",
+      "endDate": "2012-08-31",
       "engagements": [
         "Met Premier Wen Jiabao",
         "Signed agreements"
@@ -11973,26 +12157,26 @@
         "countryCode": "CHL",
         "region": "Americas"
       },
-      "endDate": "2013-01-27",
+      "endDate": "2013-01-28",
       "engagements": [
         "Merkel attended the EU summit with Latin American and Caribbean countries.",
         "Met President Sebastian Pinera"
       ],
       "eventName": "European Council-Latin America and the Carribean (LAC) Summit",
-      "id": "angela-merkel--2013-01-26--CHL",
+      "id": "angela-merkel--2013-01-25--CHL",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Sebastián Piñera.",
+      "purpose": "Reunión con el presidente Sebastián PiñeraParticipación en la I Cumbre CELAC-UE",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-01-26",
+      "startDate": "2013-01-25",
       "statusHint": null,
       "type": "summit"
     },
@@ -12557,9 +12741,9 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brussels",
+        "city": "Bruselas",
         "coordinates": [
-          4.3525,
+          4.351666666,
           50.846666666
         ],
         "countryCode": "BEL",
@@ -12570,20 +12754,20 @@
         "Gave a public address"
       ],
       "eventName": "European Council Summit",
-      "id": "angela-merkel--2013-06-28--BEL",
+      "id": "angela-merkel--2013-06-27--BEL",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the European Council summit.",
+      "purpose": "Participación en el Consejo Europeo",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-06-28",
+      "startDate": "2013-06-27",
       "statusHint": null,
       "type": "summit"
     },
@@ -12600,7 +12784,7 @@
       },
       "endDate": "2013-09-06",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "VIII Cumbre del G-20",
       "id": "angela-merkel--2013-09-05--RUS",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the G20 summit.",
@@ -13076,13 +13260,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amsterdam",
+        "city": "Países Bajos",
         "coordinates": [
-          4.883333333,
-          52.366666666
+          5.55,
+          52.316666666
         ],
         "countryCode": "NLD",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-03-25",
@@ -13092,7 +13275,7 @@
       "eventName": "Nuclear Security Summit",
       "id": "angela-merkel--2014-03-24--NLD",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the 2014 Nuclear Security Summit.",
+      "purpose": "Participación en la III Cumbre sobre Seguridad NuclearReunión con el rey Guillermo Alejandro",
       "sources": [
         {
           "label": "Wikipedia",
@@ -13176,7 +13359,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington D.C.",
+        "city": "Washington",
         "coordinates": [
           -77.036666666,
           38.895
@@ -13192,11 +13375,15 @@
       "eventName": null,
       "id": "angela-merkel--2014-05-02--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Barack Obama.",
+      "purpose": "Working visit.",
       "sources": [
         {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
@@ -13205,7 +13392,7 @@
       ],
       "startDate": "2014-05-02",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13255,7 +13442,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "XL Cumbre del G7",
       "id": "angela-merkel--2014-06-04--BEL",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the 40th G7 summit.",
@@ -13407,10 +13594,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Chengdu",
         "coordinates": [
-          116.407526,
-          39.90403
+          104.063333333,
+          30.66
         ],
         "countryCode": "CHN",
         "region": "Asia"
@@ -13421,20 +13608,20 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "angela-merkel--2014-07-06--CHN",
+      "id": "angela-merkel--2014-07-05--CHN",
       "officialId": "angela-merkel",
-      "purpose": "Visit to China",
+      "purpose": "Reunión con el presidente Xi Jinping y con el P. M. Li KeqiangVisita a una planta de la VolkswagenDiscurso en la Universidad Tsinghua",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-06",
+      "startDate": "2014-07-05",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13671,7 +13858,7 @@
         "countryCode": "BEL",
         "region": "Europe"
       },
-      "endDate": "2014-08-30",
+      "endDate": "2014-08-31",
       "engagements": [],
       "eventName": "European Council Summit",
       "id": "angela-merkel--2014-08-30--BEL",
@@ -13725,13 +13912,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "Milán",
         "coordinates": [
-          12.4964,
-          41.9028
+          9.19,
+          45.466944444
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-10-08",
@@ -13739,8 +13925,12 @@
       "eventName": "Younth Unemployment Conference",
       "id": "angela-merkel--2014-10-08--ITA",
       "officialId": "angela-merkel",
-      "purpose": "Attended Younth Unemployment Conference",
+      "purpose": "Participación en la Conferencia de la UE sobre el empleo juvenil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13749,6 +13939,33 @@
       "startDate": "2014-10-08",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brisbane",
+        "coordinates": [
+          153.027777777,
+          -27.467777777
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2014-10-17",
+      "engagements": [],
+      "eventName": "IX Cumbre del G-20",
+      "id": "angela-merkel--2014-10-14--AUS",
+      "officialId": "angela-merkel",
+      "purpose": "Participación en la IX Cumbre del G-20Reunión con el P. M. Tony AbbottVisita a la sede de NICTAVisita a la Ópera de Sídney",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2014-10-14",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -14271,40 +14488,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington D.C.",
-        "coordinates": [
-          -77.036666666,
-          38.895
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2015-02-09",
-      "engagements": [
-        "Merkel also met with World Bank President Jim Yong Kim.",
-        "Met President Barack Obama"
-      ],
-      "eventName": null,
-      "id": "angela-merkel--2015-02-08--USA",
-      "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Barack Obama.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-02-08",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Ottawa",
         "coordinates": [
           -75.695,
@@ -14334,6 +14517,44 @@
       "startDate": "2015-02-09",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington D.C.",
+        "coordinates": [
+          -77.036666666,
+          38.895
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2015-02-09",
+      "engagements": [
+        "Merkel also met with World Bank President Jim Yong Kim.",
+        "Met President Barack Obama"
+      ],
+      "eventName": null,
+      "id": "angela-merkel--2015-02-09--USA",
+      "officialId": "angela-merkel",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2015-02-09",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -14532,7 +14753,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tokyo",
+        "city": "Tokio",
         "coordinates": [
           139.691666666,
           35.689444444
@@ -14546,20 +14767,20 @@
         "Met Prime Minister Abe Shinzo"
       ],
       "eventName": null,
-      "id": "angela-merkel--2015-03-09--JPN",
+      "id": "angela-merkel--2015-03-08--JPN",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with Emperor Akihito and Prime Minister Shinzō Abe.",
+      "purpose": "Reunión con el emperador Akihito y con el P.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-03-09",
+      "startDate": "2015-03-08",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -15060,7 +15281,7 @@
         "countryCode": "SRB",
         "region": "Europe"
       },
-      "endDate": "2015-07-08",
+      "endDate": "2015-07-09",
       "engagements": [
         "Met President Tomislav Nikolic"
       ],
@@ -15164,7 +15385,7 @@
       "engagements": [
         "Met Prime Minister Matteo Renzi"
       ],
-      "eventName": null,
+      "eventName": "Expo 2015",
       "id": "angela-merkel--2015-08-17--ITA",
       "officialId": "angela-merkel",
       "purpose": "Merkel visited the Expo 2015, along with Prime Minister Matteo Renzi.",
@@ -15193,7 +15414,7 @@
         "countryCode": "BRA",
         "region": "Americas"
       },
-      "endDate": "2015-08-20",
+      "endDate": "2015-08-21",
       "engagements": [
         "Merkel met with President Dilma Rousseff.",
         "Met President Dilma Rousseff"
@@ -15414,6 +15635,33 @@
       "startDate": "2015-10-04",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bruselas",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2015-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "angela-merkel--2015-10-07--BEL",
+      "officialId": "angela-merkel",
+      "purpose": "Discurso en el Parlamento Europeo conjuntamente con el presidente François Hollande",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        }
+      ],
+      "startDate": "2015-10-07",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -15684,7 +15932,7 @@
       },
       "endDate": "2015-11-16",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "Cumbre del G-20 de 2015",
       "id": "angela-merkel--2015-11-15--TUR",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the G20 summit.",
@@ -16091,13 +16339,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Amsterdam",
+        "city": "Países Bajos",
         "coordinates": [
-          4.883333333,
-          52.366666666
+          5.55,
+          52.316666666
         ],
         "countryCode": "NLD",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2016-04-21",
@@ -16108,7 +16355,7 @@
       "eventName": null,
       "id": "angela-merkel--2016-04-21--NLD",
       "officialId": "angela-merkel",
-      "purpose": "Merkel participated in the 2nd German-Dutch intergovernmental consultations.",
+      "purpose": "Reunión con el P. M. Mark Rutte",
       "sources": [
         {
           "label": "Wikipedia",
@@ -16298,7 +16545,7 @@
       },
       "endDate": "2016-05-27",
       "engagements": [],
-      "eventName": "G7 Summit",
+      "eventName": "42.ª Cumbre del G7",
       "id": "angela-merkel--2016-05-26--JPN",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the 42nd G7 summit.",
@@ -16783,21 +17030,21 @@
       },
       "endDate": "2016-09-05",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "angela-merkel--2016-09-04--CHN",
+      "eventName": "Cumbre del G-20",
+      "id": "angela-merkel--2016-09-03--CHN",
       "officialId": "angela-merkel",
-      "purpose": "Merkel attended the G20 summit.",
+      "purpose": "Participación en la Cumbre del G-20Reunión con el presidente Xi Jinping",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-04",
+      "startDate": "2016-09-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -17406,8 +17653,12 @@
       "eventName": null,
       "id": "angela-merkel--2017-03-17--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Donald Trump.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -17419,7 +17670,7 @@
       ],
       "startDate": "2017-03-17",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -17623,6 +17874,39 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Roma",
+        "coordinates": [
+          12.482777777,
+          41.893055555
+        ],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "2017-05-27",
+      "engagements": [
+        "Signed agreements"
+      ],
+      "eventName": "XLIII Cumbre del G7",
+      "id": "angela-merkel--2017-05-24--ITA",
+      "officialId": "angela-merkel",
+      "purpose": "Participación en la celebración del 60.º aniversario de la firma de los Tratados de Roma",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_de_la_canciller_Angela_Merkel"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2017-05-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.3525,
@@ -17650,39 +17934,6 @@
         }
       ],
       "startDate": "2017-05-25",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Taormina",
-        "coordinates": [
-          15.28565,
-          37.85179
-        ],
-        "countryCode": "ITA",
-        "region": "Europe"
-      },
-      "endDate": "2017-05-27",
-      "engagements": [
-        "Signed agreements"
-      ],
-      "eventName": "G7 Summit",
-      "id": "angela-merkel--2017-05-26--ITA",
-      "officialId": "angela-merkel",
-      "purpose": "Merkel attended the 43rd G7 summit.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2017-05-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -18460,8 +18711,12 @@
       "eventName": null,
       "id": "angela-merkel--2018-04-27--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Donald Trump.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -18469,7 +18724,7 @@
       ],
       "startDate": "2018-04-27",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -21797,8 +22052,12 @@
       "eventName": null,
       "id": "angela-merkel--2021-07-15--USA",
       "officialId": "angela-merkel",
-      "purpose": "Merkel met with President Joe Biden.",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
@@ -21810,7 +22069,7 @@
       ],
       "startDate": "2021-07-15",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -25838,12 +26097,12 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Frank-Walter_Steinmeier"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
         }
       ],
       "startDate": "2021-09-07",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -27186,8 +27445,12 @@
       "eventName": null,
       "id": "frank-walter-steinmeier--2023-10-06--USA",
       "officialId": "frank-walter-steinmeier",
-      "purpose": "Visit to United States",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Frank-Walter_Steinmeier"
@@ -27195,7 +27458,7 @@
       ],
       "startDate": "2023-10-06",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -28385,7 +28648,7 @@
       ],
       "startDate": "2025-12-03",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -28624,12 +28887,12 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Frank-Walter_Steinmeier"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
         }
       ],
       "startDate": "2026-06-09",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -38063,6 +38326,566 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-02-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--1999-02-11--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-02-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-04-25",
+      "engagements": [],
+      "eventName": "Attended NATO’s 50th Anniversary Summit.",
+      "id": "gerhard-schroder-deu--1999-04-23--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Attended NATO’s 50th Anniversary Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1999-04-23",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2001-03-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--2001-03-28--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2001-03-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2001-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--2001-10-09--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2001-10-09",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-01-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--2002-01-30--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Working visit. Also attended World Economic Forum in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2002-01-30",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-09-24",
+      "engagements": [],
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "gerhard-schroder-deu--2003-09-24--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2003-09-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-02-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--2004-02-26--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-02-26",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-06-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--2004-06-08--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Attended G-8 Economic Summit at Sea Island, Georgia. Attended the funeral of Former President Reagan.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2004-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-06-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerhard-schroder-deu--2005-06-27--USA",
+      "officialId": "gerhard-schroder-deu",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2005-06-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1970-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "gustav-heinemann--1970-09-09--NOR",
+      "officialId": "gustav-heinemann",
+      "purpose": "visited by President Gustav Heinemann and Hilda Heinemann",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1970-09-09",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1972-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "gustav-heinemann--1972-10-24--GBR",
+      "officialId": "gustav-heinemann",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1972-10-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1963-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "heinrich-lubke--1963-11-06--JPN",
+      "officialId": "heinrich-lubke",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1963-11-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "heinrich-lubke--1963-11-24--USA",
+      "officialId": "heinrich-lubke",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-11-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1982-11-14--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-11-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1983-04-14--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-04-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-05-31",
+      "engagements": [],
+      "eventName": "Attended Economic Summit Meeting, Williamsburg (Va.).",
+      "id": "helmut-kohl--1983-05-28--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Attended Economic Summit Meeting, Williamsburg (Va.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-05-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-03-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1984-03-03--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-03-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1984-11-29--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-11-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1985-10-25--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Met with President Reagan in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-10-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-10-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1986-10-20--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official Visit; visited Chicago.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-10-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Copenhagen",
         "coordinates": [
           12.568888888,
@@ -38117,6 +38940,202 @@
         }
       ],
       "startDate": "1988-02-11",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-02-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1988-02-17--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-02-17",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1988-11-15--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Official Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1988-11-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-02-25",
+      "engagements": [],
+      "eventName": "Informal meeting at Camp David, Md.",
+      "id": "helmut-kohl--1990-02-24--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Informal meeting at Camp David, Md.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-02-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-05-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1990-05-17--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-05-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-06-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1990-06-08--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Private visit. Had also visited New York City and Boston.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-06-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-06-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-kohl--1990-06-11--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-06-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-07-11",
+      "engagements": [],
+      "eventName": "Attended Economic Summit Meeting in Houston, Texas.",
+      "id": "helmut-kohl--1990-07-08--USA",
+      "officialId": "helmut-kohl",
+      "purpose": "Attended Economic Summit Meeting in Houston, Texas.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-07-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -38287,8 +39306,12 @@
       "eventName": null,
       "id": "helmut-kohl--1991-05-19--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Official Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -38402,16 +39425,20 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "helmut-kohl--1991-09-11--USA",
+      "id": "helmut-kohl--1991-09-16--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1991-09-11",
+      "startDate": "1991-09-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -38582,19 +39609,23 @@
       "engagements": [
         "Met President George H.W. Bush"
       ],
-      "eventName": null,
-      "id": "helmut-kohl--1992-03-21--USA",
+      "eventName": "Informal meeting with President Bush at Camp David, Md.",
+      "id": "helmut-kohl--1992-03-20--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Informal meeting with President Bush at Camp David, Md.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1992-03-21",
+      "startDate": "1992-03-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -39182,8 +40213,12 @@
       "eventName": null,
       "id": "helmut-kohl--1993-03-25--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -39191,7 +40226,7 @@
       ],
       "startDate": "1993-03-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -39538,8 +40573,12 @@
       "eventName": null,
       "id": "helmut-kohl--1994-01-30--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -39775,8 +40814,12 @@
       "eventName": null,
       "id": "helmut-kohl--1995-02-09--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -40583,8 +41626,12 @@
       "eventName": null,
       "id": "helmut-kohl--1996-05-22--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit in Milwaukee and Washington, D.C.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -41507,11 +42554,15 @@
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "Attended the Economic Summit Meeting in Denver, Colorado.",
       "id": "helmut-kohl--1997-06-20--USA",
       "officialId": "helmut-kohl",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the Economic Summit Meeting in Denver, Colorado.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -42136,6 +43187,342 @@
       "startDate": "1998-10-20",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-12-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1974-12-04--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Official visit. Afterwards visited New York City. Departed U.S. December 7.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-12-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-10-03",
+      "engagements": [],
+      "eventName": "Working meeting and luncheon at White House with President Ford during a private visit.",
+      "id": "helmut-schmidt--1975-10-03--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Working meeting and luncheon at White House with President Ford during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-10-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-06-28",
+      "engagements": [],
+      "eventName": "Attended Economic Summit Meeting in Dorado Beach, Puerto Rico.",
+      "id": "helmut-schmidt--1976-06-26--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Attended Economic Summit Meeting in Dorado Beach, Puerto Rico.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-06-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1976-07-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1976-07-15--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Official visit. In U.S. July 14–20; visited Williamsburg, Baltimore, and Philadelphia; private visit to San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1976-07-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-07-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1977-07-13--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-07-13",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1978-05-31",
+      "engagements": [],
+      "eventName": "Attended North Atlantic Alliance Summit conference.",
+      "id": "helmut-schmidt--1978-05-30--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Attended North Atlantic Alliance Summit conference.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1978-05-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-06-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1979-06-06--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Private visit. In U.S. June 6–8. Met with President Carter June 6; visited Cambridge (Mass.), Columbia (S.C.), and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-06-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-03-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1980-03-04--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-03-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-11-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1980-11-18--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Private visit. Met with President Carter and President-elect Reagan November 20.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-11-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-05-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1981-05-20--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-05-20",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-01-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1982-01-04--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Private visit. Met with President Reagan January 5.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-01-04",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-07-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "helmut-schmidt--1982-07-20--USA",
+      "officialId": "helmut-schmidt",
+      "purpose": "Private visit. Met with Secretary of State Shultz at Bohemian Grove (Calif.).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1982-07-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -44097,21 +45484,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2015-10-08",
+      "endDate": "2015-10-07",
       "engagements": [],
       "eventName": null,
-      "id": "joachim-gauck--2015-10-05--USA",
+      "id": "joachim-gauck--2015-10-07--USA",
       "officialId": "joachim-gauck",
-      "purpose": "Visit to United States",
+      "purpose": "Official Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joachim_Gauck"
         }
       ],
-      "startDate": "2015-10-05",
+      "startDate": "2015-10-07",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -44873,6 +46264,594 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-05-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "johannes-rau--2003-05-20--SWE",
+      "officialId": "johannes-rau",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2003-05-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1981-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "karl-carstens--1981-05-26--JPN",
+      "officialId": "karl-carstens",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1981-05-26",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-10-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "karl-carstens--1983-10-03--USA",
+      "officialId": "karl-carstens",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-10-03",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1953-04-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1953-04-07--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Guest of the President. In U.S. April 6–18. Visited San Francisco, Carmel (California), Chicago, New York City, and Boston (Massachusetts).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1953-04-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-10-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1954-10-27--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Signed Treaty of Friendship, Commerce and Navigation. Afterwards visited New York City. Departed U.S. November 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-10-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1955-06-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1955-06-13--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Unofficial visit. Also visited Boston (Massachusetts) and New York City. Departed the U.S. June 18.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1955-06-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1956-06-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1956-06-11--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "In U.S. June 9–15, visiting New York City, New Haven (Connecticut), Chicago and Milwaukee (Wisconsin). Departed U.S. June 15.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1956-06-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1957-05-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1957-05-27--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Official visit. Private visit to New York City and Greenwich (Connecticut) May 24–25.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1957-05-27",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1960-03-15--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Informal meeting with President Eisenhower en route to Japan.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1960-03-15",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-04-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1961-04-11--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Informal visit. Afterwards visited Austin and the LBJ Ranch (Texas). Departed U.S. April 17.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-04-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-11-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1961-11-19--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Informal visit; discussed Berlin Crisis with President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-11-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-11-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "konrad-adenauer--1962-11-13--USA",
+      "officialId": "konrad-adenauer",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-11-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-08-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "kurt-georg-kiesinger--1967-08-13--USA",
+      "officialId": "kurt-georg-kiesinger",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1967-08-13",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-04-01",
+      "engagements": [],
+      "eventName": "Attended funeral of former President Eisenhower; met with President Nixon April 1.",
+      "id": "kurt-georg-kiesinger--1969-03-31--USA",
+      "officialId": "kurt-georg-kiesinger",
+      "purpose": "Attended funeral of former President Eisenhower; met with President Nixon April 1.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-03-31",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1969-08-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "kurt-georg-kiesinger--1969-08-07--USA",
+      "officialId": "kurt-georg-kiesinger",
+      "purpose": "Official visit. In U.S. August 5–9; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1969-08-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-11-25",
+      "engagements": [],
+      "eventName": "Attended funeral of President Kennedy.",
+      "id": "ludwig-erhard--1963-11-24--USA",
+      "officialId": "ludwig-erhard",
+      "purpose": "Attended funeral of President Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-12-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "ludwig-erhard--1963-12-28--USA",
+      "officialId": "ludwig-erhard",
+      "purpose": "Informal visit at LBJ Ranch.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1963-12-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-06-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "ludwig-erhard--1964-06-12--USA",
+      "officialId": "ludwig-erhard",
+      "purpose": "Informal visit. Arrived in U.S. June 11; visited Cambridge (Massachusetts) and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1964-06-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-06-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "ludwig-erhard--1965-06-04--USA",
+      "officialId": "ludwig-erhard",
+      "purpose": "Informal visit. Arrived in U.S. May 31; visited New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-06-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-12-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "ludwig-erhard--1965-12-19--USA",
+      "officialId": "ludwig-erhard",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1965-12-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "ludwig-erhard--1966-09-26--USA",
+      "officialId": "ludwig-erhard",
+      "purpose": "Informal visit. In U.S. September 24–27; visited Cape Kennedy.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1966-09-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.3525,
@@ -45083,8 +47062,12 @@
       "eventName": null,
       "id": "olaf-scholz--2022-02-07--USA",
       "officialId": "olaf-scholz",
-      "purpose": "Scholz met with President Joe Biden.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Olaf_Scholz"
@@ -45096,7 +47079,7 @@
       ],
       "startDate": "2022-02-07",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -47055,15 +49038,19 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-03-04",
+      "endDate": "2023-03-03",
       "engagements": [
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "olaf-scholz--2023-03-02--USA",
+      "id": "olaf-scholz--2023-03-03--USA",
       "officialId": "olaf-scholz",
-      "purpose": "Scholz met with President Joe Biden.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Olaf_Scholz"
@@ -47073,9 +49060,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-03-02",
+      "startDate": "2023-03-03",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -48220,10 +50207,14 @@
         "Met President Joe Biden"
       ],
       "eventName": null,
-      "id": "olaf-scholz--2024-02-08--USA",
+      "id": "olaf-scholz--2024-02-09--USA",
       "officialId": "olaf-scholz",
-      "purpose": "Scholz met with President Joe Biden.",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Olaf_Scholz"
@@ -48233,9 +50224,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-02-08",
+      "startDate": "2024-02-09",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -48855,11 +50846,15 @@
       },
       "endDate": "2024-07-11",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "olaf-scholz--2024-07-09--USA",
+      "eventName": "Attended NATO 75th Anniversary Summit in Washington, DC.",
+      "id": "olaf-scholz--2024-07-10--USA",
       "officialId": "olaf-scholz",
-      "purpose": "Scholz attended the 2024 NATO summit.",
+      "purpose": "Attended NATO 75th Anniversary Summit in Washington, DC.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Olaf_Scholz"
@@ -48869,7 +50864,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-09",
+      "startDate": "2024-07-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -49942,6 +51937,397 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1986-07-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "richard-von-weizsacker--1986-07-01--GBR",
+      "officialId": "richard-von-weizsacker",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1986-07-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1986-09-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "richard-von-weizsacker--1986-09-24--NOR",
+      "officialId": "richard-von-weizsacker",
+      "purpose": "visited by President Richard von Weizsäcker and Marianne von Weizsäcker",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1986-09-24",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-06-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "richard-von-weizsacker--1988-05-31--SWE",
+      "officialId": "richard-von-weizsacker",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1988-05-31",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-06-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "richard-von-weizsacker--1989-06-06--USA",
+      "officialId": "richard-von-weizsacker",
+      "purpose": "Met with President Bush during a private visit",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-06-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-05-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "richard-von-weizsacker--1992-04-28--USA",
+      "officialId": "richard-von-weizsacker",
+      "purpose": "State Visit. Addressed Joint Meeting of Congress April 29. Afterwards visited Atlanta, Ga.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1992-04-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-05-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "richard-von-weizsacker--1993-05-23--USA",
+      "officialId": "richard-von-weizsacker",
+      "purpose": "Visited Holocaust Memorial Museum and met with President Clinton on May 24.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-05-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-04-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "roman-herzog--1997-04-05--JPN",
+      "officialId": "roman-herzog",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1997-04-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1997-07-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "roman-herzog--1997-07-22--USA",
+      "officialId": "roman-herzog",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1997-07-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-07-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "roman-herzog--1998-07-13--BEL",
+      "officialId": "roman-herzog",
+      "purpose": "visited by President Roman Herzog and Christiane Herzog",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Albert_II_of_Belgium"
+        }
+      ],
+      "startDate": "1998-07-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1998-12-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "roman-herzog--1998-12-01--GBR",
+      "officialId": "roman-herzog",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1998-12-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1958-06-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "theodor-heuss--1958-06-04--USA",
+      "officialId": "theodor-heuss",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1958-06-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Buckingham Palace",
+        "coordinates": [
+          -0.142,
+          51.501
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1958-10-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "theodor-heuss--1958-10-21--GBR",
+      "officialId": "theodor-heuss",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1958-10-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "walter-scheel--1975-06-16--USA",
+      "officialId": "walter-scheel",
+      "purpose": "State visit. In U.S. June 15–20; visited Williamsburg, Chicago, and New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1975-06-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1978-04-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "walter-scheel--1978-04-16--JPN",
+      "officialId": "walter-scheel",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1978-04-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Amsterdam",
         "coordinates": [
           4.883333333,
@@ -50089,18 +52475,22 @@
       "endDate": "1970-04-11",
       "engagements": [],
       "eventName": null,
-      "id": "willy-brandt--1970-04-04--USA",
+      "id": "willy-brandt--1970-04-07--USA",
       "officialId": "willy-brandt",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit. U.S. April 4; visited El Paso and Cape Kennedy.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Willy_Brandt"
         }
       ],
-      "startDate": "1970-04-04",
+      "startDate": "1970-04-07",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -50330,19 +52720,23 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1971-06-18",
+      "endDate": "1971-06-16",
       "engagements": [],
       "eventName": null,
-      "id": "willy-brandt--1971-06-13--USA",
+      "id": "willy-brandt--1971-06-15--USA",
       "officialId": "willy-brandt",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit. Arrived in U.S. June 14; also visited Hartford, Conn.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Willy_Brandt"
         }
       ],
-      "startDate": "1971-06-13",
+      "startDate": "1971-06-15",
       "statusHint": null,
       "type": "other"
     },
@@ -50443,8 +52837,12 @@
       "eventName": null,
       "id": "willy-brandt--1971-12-28--USA",
       "officialId": "willy-brandt",
-      "purpose": "Visit to United States",
+      "purpose": "Informal visit at Key Biscayne (Fla.).",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Willy_Brandt"
@@ -50681,21 +53079,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1973-05-03",
+      "endDate": "1973-05-02",
       "engagements": [],
       "eventName": null,
-      "id": "willy-brandt--1973-04-29--USA",
+      "id": "willy-brandt--1973-05-01--USA",
       "officialId": "willy-brandt",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Willy_Brandt"
         }
       ],
-      "startDate": "1973-04-29",
+      "startDate": "1973-05-01",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -50735,21 +53137,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "1973-10-01",
+      "endDate": "1973-09-29",
       "engagements": [],
       "eventName": null,
-      "id": "willy-brandt--1973-09-23--USA",
+      "id": "willy-brandt--1973-09-29--USA",
       "officialId": "willy-brandt",
-      "purpose": "Visit to United States",
+      "purpose": "Private visit; met with President Nixon at the White House.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Willy_Brandt"
         }
       ],
-      "startDate": "1973-09-23",
+      "startDate": "1973-09-29",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

@@ -72,33 +72,6 @@
       "wikidataId": "Q2821079"
     },
     {
-      "aliases": [],
-      "countryCode": "DZA",
-      "fullName": "Abdelkader Bensalah",
-      "id": "abdelkader-bensalah",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": ["head_of_state"],
-          "endDate": "2019-10-26",
-          "id": "abdelkader-bensalah-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2019-07-19",
-          "title": "President (Acting)"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": ["Abd al-Majid Tabboun"],
       "countryCode": "DZA",
       "fullName": "Abdelmadjid Tebboune",
@@ -785,6 +758,33 @@
       ],
       "summary": "Aymen Benabderrahmane is an Algerian politician who served as Prime Minister of Algeria from 30 June 2021 to 11 November 2023. He had served as Minister of Finance from June 2020 to February 2022.",
       "wikidataId": "Q96612848"
+    },
+    {
+      "aliases": [],
+      "countryCode": "DZA",
+      "fullName": "Ben Bella",
+      "id": "ben-bella",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1962-10-15",
+          "id": "ben-bella-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1962-10-14",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -4747,8 +4747,12 @@
       "eventName": null,
       "id": "abd-al-aziz-boutafliqa--2001-07-11--USA",
       "officialId": "abd-al-aziz-boutafliqa",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4920,18 +4924,22 @@
       "endDate": "2001-11-05",
       "engagements": ["Met President George W. Bush"],
       "eventName": "United States-Africa Leaders Summit",
-      "id": "abd-al-aziz-boutafliqa--2001-11-01--USA",
+      "id": "abd-al-aziz-boutafliqa--2001-11-05--USA",
       "officialId": "abd-al-aziz-boutafliqa",
-      "purpose": "Attended United States-Africa Leaders Summit",
+      "purpose": "Met with President Bush during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-11-01",
+      "startDate": "2001-11-05",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5927,11 +5935,15 @@
       },
       "endDate": "2004-06-10",
       "engagements": ["Met President George W. Bush"],
-      "eventName": "G8 Summit",
+      "eventName": "Met with President Bush during the G-8 Economic Summit at Sea Island, Georgia.",
       "id": "abd-al-aziz-boutafliqa--2004-06-09--USA",
       "officialId": "abd-al-aziz-boutafliqa",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Met with President Bush during the G-8 Economic Summit at Sea Island, Georgia.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8213,6 +8225,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-08-06",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "abd-al-malek-selal--2014-08-05--USA",
+      "officialId": "abd-al-malek-selal",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2014-08-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-04-01",
+      "engagements": [],
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "abd-al-malek-selal--2016-03-31--USA",
+      "officialId": "abd-al-malek-selal",
+      "purpose": "Attended the Nuclear Security Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2016-03-31",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Cairo",
         "coordinates": [31.2357, 30.0444],
         "countryCode": "EGY",
@@ -8222,8 +8284,8 @@
       "endDate": "2019-07-19",
       "engagements": [],
       "eventName": null,
-      "id": "abdelkader-bensalah--2019-07-19--EGY",
-      "officialId": "abdelkader-bensalah",
+      "id": "abd-al-qadir-ibn-saleh--2019-07-19--EGY",
+      "officialId": "abd-al-qadir-ibn-saleh",
       "purpose": "Visit to Egypt",
       "sources": [
         {
@@ -8247,8 +8309,8 @@
       "endDate": "2019-07-27",
       "engagements": [],
       "eventName": null,
-      "id": "abdelkader-bensalah--2019-07-27--TUN",
-      "officialId": "abdelkader-bensalah",
+      "id": "abd-al-qadir-ibn-saleh--2019-07-27--TUN",
+      "officialId": "abd-al-qadir-ibn-saleh",
       "purpose": "Visit to Tunisia",
       "sources": [
         {
@@ -8272,8 +8334,8 @@
       "endDate": "2019-10-25",
       "engagements": ["Met President Vladimir Putin"],
       "eventName": "Russia-Africa Summit",
-      "id": "abdelkader-bensalah--2019-10-24--RUS",
-      "officialId": "abdelkader-bensalah",
+      "id": "abd-al-qadir-ibn-saleh--2019-10-24--RUS",
+      "officialId": "abd-al-qadir-ibn-saleh",
       "purpose": "Attended Russia-Africa Summit",
       "sources": [
         {
@@ -8297,8 +8359,8 @@
       "endDate": "2019-10-26",
       "engagements": ["Met President Ilham Aliyev"],
       "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "abdelkader-bensalah--2019-10-25--AZE",
-      "officialId": "abdelkader-bensalah",
+      "id": "abd-al-qadir-ibn-saleh--2019-10-25--AZE",
+      "officialId": "abd-al-qadir-ibn-saleh",
       "purpose": "Attended Non-Aligned Movement (NAM) Summit",
       "sources": [
         {
@@ -9214,6 +9276,106 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-12-15",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
+      "id": "ayman-ibn-abd-ar-rahman--2022-12-13--USA",
+      "officialId": "ayman-ibn-abd-ar-rahman",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2022-12-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-10-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "ben-bella--1962-10-14--USA",
+      "officialId": "ben-bella",
+      "purpose": "Informal visit to Washington while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1962-10-14",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-04-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "chadli-bendjedid--1985-04-16--USA",
+      "officialId": "chadli-bendjedid",
+      "purpose": "State Visit. In U.S. April 16–22; visited Los Angeles, Fresno, and San Francisco.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-04-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [18.068611111, 59.329444444],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1986-04-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "chadli-bendjedid--1986-04-22--SWE",
+      "officialId": "chadli-bendjedid",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1986-04-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tunis",
         "coordinates": [10.18, 36.800833333],
         "countryCode": "TUN",
@@ -9560,6 +9722,31 @@
       "startDate": "1991-12-09",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-04-11",
+      "engagements": [],
+      "eventName": "Private visit to Washington while attending U.N. General Assembly session.",
+      "id": "houari-boumediene--1974-04-11--USA",
+      "officialId": "houari-boumediene",
+      "purpose": "Private visit to Washington while attending U.N. General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1974-04-11",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",

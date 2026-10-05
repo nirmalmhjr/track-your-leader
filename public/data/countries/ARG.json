@@ -3151,11 +3151,15 @@
       },
       "endDate": "2022-06-10",
       "engagements": ["Met President Joe Biden", "Signed agreements"],
-      "eventName": "Summit of the Americas",
+      "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
       "id": "alberto-fernandez--2022-06-08--USA",
       "officialId": "alberto-fernandez",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the Summit of the Americas in Los Angeles, CA.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3427,18 +3431,22 @@
       "endDate": "2023-03-29",
       "engagements": ["Met President Joe Biden", "Gave a public address"],
       "eventName": "Summit for Democracy",
-      "id": "alberto-fernandez--2023-03-27--USA",
+      "id": "alberto-fernandez--2023-03-29--USA",
       "officialId": "alberto-fernandez",
-      "purpose": "Attended Summit for Democracy",
+      "purpose": "Working Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-03-27",
+      "startDate": "2023-03-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3780,6 +3788,231 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-01-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "arturo-frondizi--1959-01-20--USA",
+      "officialId": "arturo-frondizi",
+      "purpose": "State visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1959-01-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-09-26",
+      "engagements": [],
+      "eventName": "Met with President Kennedy in New York City while attending UN General Assembly session.",
+      "id": "arturo-frondizi--1961-09-26--USA",
+      "officialId": "arturo-frondizi",
+      "purpose": "Met with President Kennedy in New York City while attending UN General Assembly session.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-09-26",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1961-12-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "arturo-frondizi--1961-12-13--JPN",
+      "officialId": "arturo-frondizi",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1961-12-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-12-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "arturo-frondizi--1961-12-24--USA",
+      "officialId": "arturo-frondizi",
+      "purpose": "Met with President Kennedy at Palm Beach (Florida). In U.S. December 21–25; visiting Honolulu and New Orleans (Louisiana).",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1961-12-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-09-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-menem--1989-09-27--USA",
+      "officialId": "carlos-menem",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1989-09-27",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-10-01",
+      "engagements": [],
+      "eventName": "Met with President Bush at the U.N. General Assembly.",
+      "id": "carlos-menem--1990-10-01--USA",
+      "officialId": "carlos-menem",
+      "purpose": "Met with President Bush at the U.N. General Assembly.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1990-10-01",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-11-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-menem--1991-11-13--USA",
+      "officialId": "carlos-menem",
+      "purpose": "State Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1991-11-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-06-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-menem--1993-06-28--USA",
+      "officialId": "carlos-menem",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1993-06-28",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-06-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-menem--1994-06-24--USA",
+      "officialId": "carlos-menem",
+      "purpose": "Met with President Clinton during a private visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1994-06-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Mexico City",
         "coordinates": [-99.1332, 19.4326],
         "countryCode": "MEX",
@@ -3813,11 +4046,15 @@
       },
       "endDate": "1994-12-11",
       "engagements": ["Signed agreements", "Gave a public address"],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "Attended the Summit of the Americas in Miami, Florida.",
       "id": "carlos-menem--1994-12-09--USA",
       "officialId": "carlos-menem",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the Summit of the Americas in Miami, Florida.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4444,8 +4681,12 @@
       "eventName": null,
       "id": "carlos-menem--1996-12-04--USA",
       "officialId": "carlos-menem",
-      "purpose": "Visit to United States",
+      "purpose": "Met with President Clinton during a private visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4453,7 +4694,7 @@
       ],
       "startDate": "1996-12-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4976,18 +5217,22 @@
       "endDate": "1998-05-28",
       "engagements": ["Met Prime Minister Goran Persson", "Signed agreements"],
       "eventName": null,
-      "id": "carlos-menem--1998-05-25--SWE",
+      "id": "carlos-menem--1998-05-26--SWE",
       "officialId": "carlos-menem",
       "purpose": "Visit to Sweden",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-05-25",
+      "startDate": "1998-05-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5373,21 +5618,25 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1998-12-02",
+      "endDate": "1998-12-04",
       "engagements": ["Met Prime Minister Obuchi Keizo", "Signed agreements"],
       "eventName": null,
-      "id": "carlos-menem--1998-11-29--JPN",
+      "id": "carlos-menem--1998-12-01--JPN",
       "officialId": "carlos-menem",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-11-29",
+      "startDate": "1998-12-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5453,8 +5702,12 @@
       "eventName": null,
       "id": "carlos-menem--1999-01-11--USA",
       "officialId": "carlos-menem",
-      "purpose": "Visit to United States",
+      "purpose": "State Visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5462,7 +5715,7 @@
       ],
       "startDate": "1999-01-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5729,13 +5982,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1999-09-22",
+      "endDate": "1999-09-21",
       "engagements": ["Met President Bill Clinton"],
       "eventName": "United Nations (UN) General Assembly",
       "id": "carlos-menem--1999-09-21--USA",
       "officialId": "carlos-menem",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6234,11 +6491,15 @@
       },
       "endDate": "2008-11-15",
       "engagements": ["Met President George W. Bush"],
-      "eventName": "G20 Summit",
+      "eventName": "Attended the G-20 Economic Summit Meeting.",
       "id": "cristina-fernandez-de-kirchner--2008-11-14--USA",
       "officialId": "cristina-fernandez-de-kirchner",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit Meeting.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6795,17 +7056,21 @@
       },
       "endDate": "2009-09-25",
       "engagements": ["Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "cristina-fernandez-de-kirchner--2009-09-21--USA",
+      "eventName": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
+      "id": "cristina-fernandez-de-kirchner--2009-09-24--USA",
       "officialId": "cristina-fernandez-de-kirchner",
-      "purpose": "Attended United Nations (UN) General Assembly and G20 Summit",
+      "purpose": "Attended the G-20 Economic Summit in Pittsburgh, Pennsylvania.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-09-21",
+      "startDate": "2009-09-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -7145,17 +7410,21 @@
       },
       "endDate": "2010-04-13",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "cristina-fernandez-de-kirchner--2010-04-10--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "cristina-fernandez-de-kirchner--2010-04-12--USA",
       "officialId": "cristina-fernandez-de-kirchner",
-      "purpose": "Attended Nuclear Security Summit",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-04-10",
+      "startDate": "2010-04-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -9372,8 +9641,12 @@
       "eventName": null,
       "id": "fernando-de-la-rua--2000-06-12--USA",
       "officialId": "fernando-de-la-rua",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9804,16 +10077,20 @@
       "endDate": "2001-04-19",
       "engagements": ["Met President George W. Bush"],
       "eventName": null,
-      "id": "fernando-de-la-rua--2001-04-16--USA",
+      "id": "fernando-de-la-rua--2001-04-19--USA",
       "officialId": "fernando-de-la-rua",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-04-16",
+      "startDate": "2001-04-19",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -9954,19 +10231,23 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2001-11-13",
+      "endDate": "2001-11-11",
       "engagements": ["Met President George W. Bush", "Gave a public address"],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "fernando-de-la-rua--2001-11-10--USA",
+      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
+      "id": "fernando-de-la-rua--2001-11-11--USA",
       "officialId": "fernando-de-la-rua",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-11-10",
+      "startDate": "2001-11-11",
       "statusHint": null,
       "type": "conference"
     },
@@ -10398,7 +10679,7 @@
         "There, Milei met with heads of state of the G7 such as French President Emmanuel Macron and U.S.",
         "President Joe Biden, as well as other invited leaders."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "G7",
       "id": "javier-milei--2024-06-13--ITA",
       "officialId": "javier-milei",
       "purpose": "Argentina was one of the countries invited to the 50th G7 summit hosted by Italy at the Borgo Egnazia resort in Apulia.",
@@ -10575,7 +10856,7 @@
       },
       "endDate": "2024-07-14",
       "engagements": ["Gave a public address"],
-      "eventName": null,
+      "eventName": "Invitado en la Allen & Co. Sun Valley Conference.​",
       "id": "javier-milei--2024-07-12--USA",
       "officialId": "javier-milei",
       "purpose": "Milei travelled to Sun Valley, Idaho as an invitee to the Allen & Company meeting with business and technology executives.",
@@ -10747,7 +11028,7 @@
       "engagements": [
         "He also held bilateral meetings with Chinese president Xi Jinping, Indian prime minister Narendra Modi, and IMF head Kristalina Georgieva."
       ],
-      "eventName": "G20 Summit",
+      "eventName": "G20",
       "id": "javier-milei--2024-11-18--BRA",
       "officialId": "javier-milei",
       "purpose": "Attended the 2024 G20 Rio de Janeiro summit.",
@@ -10968,7 +11249,7 @@
       },
       "endDate": "2025-04-26",
       "engagements": ["Met Prime Minister Giorgia Meloni"],
-      "eventName": null,
+      "eventName": "Funeral",
       "id": "javier-milei--2025-04-25--ITA",
       "officialId": "javier-milei",
       "purpose": "Attended the funeral of Pope Francis together with several ministers and secretaries, and held a private meeting with Italian prime ministe…",
@@ -10996,7 +11277,7 @@
       },
       "endDate": "2025-04-26",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Funeral",
       "id": "javier-milei--2025-04-25--VAT",
       "officialId": "javier-milei",
       "purpose": "Attended the funeral of Pope Francis together with several ministers and secretaries, and held a private meeting with Italian prime ministe…",
@@ -11334,7 +11615,7 @@
       },
       "endDate": "2025-11-08",
       "engagements": ["Gave a public address"],
-      "eventName": null,
+      "eventName": "Participante en el \"America Business Forum\"​",
       "id": "javier-milei--2025-11-05--USA",
       "officialId": "javier-milei",
       "purpose": "Participated in the \"America Business Forum\".",
@@ -11605,31 +11886,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ramat Gan",
-        "coordinates": [34.823541, 32.070007],
+        "city": "Jerusalén",
+        "coordinates": [35.234156, 31.776679],
         "countryCode": "ISR",
         "region": "Asia"
       },
       "endDate": "2026-04-22",
       "engagements": [],
       "eventName": null,
-      "id": "javier-milei--2026-04-19--ISR",
+      "id": "javier-milei--2026-04-18--ISR",
       "officialId": "javier-milei",
-      "purpose": "Visit to Israel",
+      "purpose": "Festejos por el 78º aniversario de la creación del Estado de Israel, visita al Muro de las lamentaciones y al Santo sepulcro, Recibimiento…",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Javier_Milei"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Javier_Milei"
         }
       ],
-      "startDate": "2026-04-19",
+      "startDate": "2026-04-18",
       "statusHint": null,
       "type": "other"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Los Angeles",
+        "city": "Los Ángeles",
         "coordinates": [-118.24368, 34.05223],
         "countryCode": "USA",
         "region": "Americas"
@@ -11639,16 +11920,16 @@
         "Along with Milei, Foreign Minister Quirno and Ambassador to the US Alec Oxenford participated in the events."
       ],
       "eventName": null,
-      "id": "javier-milei--2026-05-06--USA",
+      "id": "javier-milei--2026-05-05--USA",
       "officialId": "javier-milei",
-      "purpose": "Attended a conference of the Milken Institute in Beverly Hills.",
+      "purpose": "Encuentro con Michael Milken y conferencia en el Instituto Milken.​",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Javier_Milei"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Javier_Milei"
         }
       ],
-      "startDate": "2026-05-06",
+      "startDate": "2026-05-05",
       "statusHint": null,
       "type": "conference"
     },
@@ -11682,26 +11963,26 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "São Paulo",
+        "city": "Sao Paulo",
         "coordinates": [-46.633947222, -23.550394444],
         "countryCode": "BRA",
         "region": "Americas"
       },
-      "endDate": "2026-07-25",
+      "endDate": "2026-07-27",
       "engagements": [
         "Milei was bestowed with the Order of Ipiranga by the Governor of São Paulo Tarcísio de Freitas."
       ],
       "eventName": null,
-      "id": "javier-milei--2026-07-25--BRA",
+      "id": "javier-milei--2026-07-24--BRA",
       "officialId": "javier-milei",
-      "purpose": "Visited presidential candidate Flávio Bolsonaro and endorsed his candidacy for president of Brazil, strongly criticizing President Luiz Iná…",
+      "purpose": "Manifestar públicamente su apoyo a Flávio Bolsonaro, líder del Partido Liberal y recibir la Orden de Ipiranga en el grado de Gran Cruz.​",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Javier_Milei"
+          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Javier_Milei"
         }
       ],
-      "startDate": "2026-07-25",
+      "startDate": "2026-07-24",
       "statusHint": null,
       "type": "other"
     },
@@ -11818,7 +12099,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2026-09-23",
+      "endDate": "2026-09-25",
       "engagements": [
         "He also plans to meet with President Donald Trump and seek further support from the US regarding Argentina's claim on the Falkland Islands after suspending his trip to the UK amid…"
       ],
@@ -11913,6 +12194,56 @@
       "startDate": "2026-10-13",
       "statusHint": "planned",
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-09-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "jorge-rafael-videla--1977-09-06--USA",
+      "officialId": "jorge-rafael-videla",
+      "purpose": "Attended signing of the Panama Canal Treaty.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1977-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1979-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "jorge-rafael-videla--1979-10-08--JPN",
+      "officialId": "jorge-rafael-videla",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1979-10-08",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12077,11 +12408,15 @@
       },
       "endDate": "2016-04-01",
       "engagements": ["Met President Barack Obama"],
-      "eventName": "Nuclear Security Summit",
-      "id": "mauricio-macri--2016-04-01--USA",
+      "eventName": "Attended the Nuclear Security Summit.",
+      "id": "mauricio-macri--2016-03-31--USA",
       "officialId": "mauricio-macri",
-      "purpose": "President Macri traveled to the U.S. on the occasion of the 2016 Nuclear Security Summit.",
+      "purpose": "Attended the Nuclear Security Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mauricio_Macri"
@@ -12091,7 +12426,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-04-01",
+      "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -12635,10 +12970,14 @@
         "Trump decided to lift the import embargo of Argentine lemons and agreed to support Argentina's decision to join the OECD."
       ],
       "eventName": null,
-      "id": "mauricio-macri--2017-04-26--USA",
+      "id": "mauricio-macri--2017-04-27--USA",
       "officialId": "mauricio-macri",
-      "purpose": "Macri visited the plants of Tenaris and Dow in Houston.",
+      "purpose": "Working luncheon.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mauricio_Macri"
@@ -12648,7 +12987,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-04-26",
+      "startDate": "2017-04-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13692,8 +14031,12 @@
       "eventName": null,
       "id": "nestor-kirchner--2003-07-22--USA",
       "officialId": "nestor-kirchner",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14982,6 +15325,131 @@
       "startDate": "2007-11-08",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "raul-alfonsin--1984-09-23--USA",
+      "officialId": "raul-alfonsin",
+      "purpose": "Private visit. Met with President Reagan at U.N. General Assembly reception in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-09-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-03-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "raul-alfonsin--1985-03-18--USA",
+      "officialId": "raul-alfonsin",
+      "purpose": "State Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1985-03-18",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1986-07-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "raul-alfonsin--1986-07-13--JPN",
+      "officialId": "raul-alfonsin",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1986-07-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-11-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "raul-alfonsin--1986-11-16--USA",
+      "officialId": "raul-alfonsin",
+      "purpose": "Private Visit. Met with President Reagan November 17.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1986-11-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-03-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "roberto-eduardo-viola--1981-03-15--USA",
+      "officialId": "roberto-eduardo-viola",
+      "purpose": "Private visit. Met with President Reagan March 17.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1981-03-15",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     }
   ]
 }

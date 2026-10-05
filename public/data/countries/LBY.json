@@ -3692,6 +3692,56 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-08-06",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Africa Leaders Summit.",
+      "id": "abdullah-al-thani--2014-08-05--USA",
+      "officialId": "abdullah-al-thani",
+      "purpose": "Attended the U.S.-Africa Leaders Summit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2014-08-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-03-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdurrahim-el-keib--2012-03-07--USA",
+      "officialId": "abdurrahim-el-keib",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2012-03-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ankara",
         "coordinates": [32.8597, 39.9334],
         "countryCode": "TUR",
@@ -7408,11 +7458,15 @@
       },
       "endDate": "2022-12-15",
       "engagements": [],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "Attended the U.S.-Africa Leaders' Summit.",
       "id": "mohamed-al-menfi--2022-12-13--USA",
       "officialId": "mohamed-al-menfi",
-      "purpose": "Met with President Joe Biden and First Lady Jill Biden and attended the United States–Africa Leaders Summit.",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_al-Menfi"
@@ -14187,6 +14241,31 @@
       "startDate": "2012-04-15",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1954-07-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "mustafa-ben-halim--1954-07-13--USA",
+      "officialId": "mustafa-ben-halim",
+      "purpose": "Unofficial visit. Discussed U.S. military base rights and economic assistance.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1954-07-13",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

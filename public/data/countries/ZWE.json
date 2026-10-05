@@ -62,8 +62,17 @@
         },
         {
           "categories": ["minister"],
-          "endDate": "1996-01-01",
+          "endDate": "2013-09-11",
           "id": "emmerson-mnangagwa-p3",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2009-02-13",
+          "title": "Defence Minister of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "1996-01-01",
+          "id": "emmerson-mnangagwa-p4",
           "ministry": null,
           "portfolio": "finance",
           "startDate": "1995-01-01",
@@ -99,6 +108,15 @@
           "portfolio": null,
           "startDate": "1987-12-31",
           "title": "President of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "1985-01-01",
+          "id": "robert-mugabe-p2",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "1980-01-01",
+          "title": "Defence Minister of Zimbabwe"
         }
       ],
       "sources": [
@@ -113,6 +131,37 @@
       ],
       "summary": "Robert Gabriel Mugabe (21 February 1924 – 6 September 2019) was a Zimbabwean revolutionary and politician who led Zimbabwe from 1980 until 2017. He served as the country's first Prime Minister from 1980 to 1987 and as its second President from 1987 to 2017.",
       "wikidataId": "Q10707"
+    },
+    {
+      "aliases": ["Abel Tendekayi Muzorewa"],
+      "countryCode": "ZWE",
+      "fullName": "Abel Muzorewa",
+      "id": "abel-muzorewa",
+      "party": "United African National Council",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Muzorewa_1978_b.jpg?width=160",
+      "positions": [
+        {
+          "categories": ["head_of_government"],
+          "endDate": "1979-07-11",
+          "id": "abel-muzorewa-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1979-07-09",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abel_Muzorewa"
+        }
+      ],
+      "summary": "Abel Tendekayi Muzorewa (14 April 1925 – 8 April 2010), also commonly referred to as Bishop Muzorewa, was a Zimbabwean bishop and politician who served as the first and only Prime Minister of Zimbabwe Rhodesia from the Internal Settlement to the Lancaster House Agreement in 1979. A United Methodist Church bishop and nationalist leader, he held office for less than a year.",
+      "wikidataId": "Q318479"
     },
     {
       "aliases": [
@@ -177,6 +226,15 @@
           "portfolio": null,
           "startDate": "2017-12-28",
           "title": "Vice President of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "2018-09-11",
+          "id": "constantine-chiwenga-p3",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2017-12-29",
+          "title": "Defence Minister of Zimbabwe"
         }
       ],
       "sources": [
@@ -349,6 +407,15 @@
           "portfolio": null,
           "startDate": "2017-12-28",
           "title": "Second Vice President of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "2017-12-29",
+          "id": "kembo-mohadi-p3",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2017-11-30",
+          "title": "Defence Minister of Zimbabwe"
         }
       ],
       "sources": [
@@ -830,8 +897,17 @@
       "positions": [
         {
           "categories": ["minister"],
-          "endDate": "1983-01-01",
+          "endDate": "1990-01-01",
           "id": "enos-nkala-p1",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "1985-01-01",
+          "title": "Defence Minister of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "1983-01-01",
+          "id": "enos-nkala-p2",
           "ministry": null,
           "portfolio": "finance",
           "startDate": "1980-01-01",
@@ -1189,6 +1265,37 @@
       "wikidataId": "Q111283579"
     },
     {
+      "aliases": ["Moven Enock Mahachi"],
+      "countryCode": "ZWE",
+      "fullName": "Moven Mahachi",
+      "id": "moven-mahachi",
+      "party": "Zimbabwe African National Union – Patriotic Front",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["minister"],
+          "endDate": "2001-05-26",
+          "id": "moven-mahachi-p1",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "1992-01-01",
+          "title": "Defence Minister of Zimbabwe"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q14922135"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Moven_Mahachi"
+        }
+      ],
+      "summary": "Moven Enock Mahachi (13 June 1948 – 26 May 2001) served as the Minister of Defence of the Republic of Zimbabwe. He was a close ally of Robert Mugabe within Z.A.N.U.-P.F. Before becoming Defence Minister Mahachi served as M.P. for Makoni West.",
+      "wikidataId": "Q14922135"
+    },
+    {
       "aliases": [],
       "countryCode": "ZWE",
       "fullName": "Mthuli Ncube",
@@ -1326,17 +1433,26 @@
       "wikidataId": "Q85115570"
     },
     {
-      "aliases": [],
+      "aliases": ["Oppah Muchinguri Kashiri"],
       "countryCode": "ZWE",
-      "fullName": "Oppah Muchinguri-Kashiri",
-      "id": "oppah-muchinguri-kashiri",
-      "party": null,
-      "photoUrl": null,
+      "fullName": "Oppah Muchinguri",
+      "id": "oppah-muchinguri",
+      "party": "Zimbabwe African National Union – Patriotic Front",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oppah_Muchinguri.png?width=160",
       "positions": [
         {
           "categories": ["minister"],
           "endDate": null,
-          "id": "oppah-muchinguri-kashiri-p1",
+          "id": "oppah-muchinguri-p1",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2018-09-11",
+          "title": "Defence Minister of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": null,
+          "id": "oppah-muchinguri-p2",
           "ministry": "Ministry of Defense",
           "portfolio": "defence",
           "startDate": null,
@@ -1345,12 +1461,20 @@
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7095508"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/zimbabwe/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oppah_Muchinguri-Kashiri"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Oppah Chamu Zvipange Muchinguri-Kashiri (born 14 December 1958) is a Zimbabwean politician who serves as minister of defence in the cabinet of Zimbabwe since 2018. She has also served as Minister of Higher Education and Minister of Women's Affairs.",
+      "wikidataId": "Q7095508"
     },
     {
       "aliases": ["Patrick Antony Chinamasa"],
@@ -1462,6 +1586,33 @@
       ],
       "summary": "Polite Kambamura is a Zimbabwean politician. He is the current Minister of Mines and Mining Development of Zimbabwe and a member of parliament.",
       "wikidataId": "Q111292069"
+    },
+    {
+      "aliases": [],
+      "countryCode": "ZWE",
+      "fullName": "Richard Hove",
+      "id": "richard-hove",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["minister"],
+          "endDate": "1992-01-01",
+          "id": "richard-hove-p1",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "1990-01-01",
+          "title": "Defence Minister of Zimbabwe"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111313847"
+        }
+      ],
+      "summary": "Zimbabwean politician.",
+      "wikidataId": "Q111313847"
     },
     {
       "aliases": [],
@@ -1657,6 +1808,46 @@
       ],
       "summary": "Isaak Stanislaus Gorerazvo Mudenge (17 December 1941 – 4 October 2012) was a Zimbabwean politician who served in the government of Zimbabwe as Minister of Foreign Affairs from 1995 to 2005 and as Minister of Higher Education from 2005 to 2012.",
       "wikidataId": "Q2112402"
+    },
+    {
+      "aliases": ["Sydney Tigere Sekeramayi"],
+      "countryCode": "ZWE",
+      "fullName": "Sydney Sekeramayi",
+      "id": "sydney-sekeramayi",
+      "party": "Zimbabwe African National Union – Patriotic Front",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": ["minister"],
+          "endDate": "2017-11-27",
+          "id": "sydney-sekeramayi-p1",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2013-09-11",
+          "title": "Defence Minister of Zimbabwe"
+        },
+        {
+          "categories": ["minister"],
+          "endDate": "2009-02-13",
+          "id": "sydney-sekeramayi-p2",
+          "ministry": null,
+          "portfolio": "defence",
+          "startDate": "2001-01-01",
+          "title": "Defence Minister of Zimbabwe"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7660136"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Sekeramayi"
+        }
+      ],
+      "summary": "Sydney Tigere Sekeramayi (born 30 March 1944) is a Zimbabwean politician who served in the government of Zimbabwe as Minister of Defence between 2013 and 2017. He has been a minister in the Cabinet since independence in 1980, serving as Minister of Defence from 2001 to 2009 and Minister of State Security from 2009 to 2013.",
+      "wikidataId": "Q7660136"
     },
     {
       "aliases": [],
@@ -1877,6 +2068,31 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-07-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "abel-muzorewa--1979-07-09--USA",
+      "officialId": "abel-muzorewa",
+      "purpose": "Unofficial visit. Met with President Carter July 11.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1979-07-09",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -5775,6 +5991,81 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-08-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-mugabe--1980-08-21--USA",
+      "officialId": "robert-mugabe",
+      "purpose": "Official visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1980-08-21",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-09-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-mugabe--1983-09-12--USA",
+      "officialId": "robert-mugabe",
+      "purpose": "Official working visit. Private visit to Detroit afterward.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1983-09-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [139.6917, 35.6895],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1989-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-mugabe--1989-10-15--JPN",
+      "officialId": "robert-mugabe",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1989-10-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Lusaka",
         "coordinates": [28.283333333, -15.416666666],
         "countryCode": "ZMB",
@@ -6167,8 +6458,12 @@
       "eventName": null,
       "id": "robert-mugabe--1991-07-23--USA",
       "officialId": "robert-mugabe",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7040,21 +7335,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1994-05-19",
+      "endDate": "1994-05-20",
       "engagements": [],
       "eventName": null,
-      "id": "robert-mugabe--1994-05-19--GBR",
+      "id": "robert-mugabe--1994-05-17--GBR",
       "officialId": "robert-mugabe",
       "purpose": "Visit to United Kingdom",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-05-19",
+      "startDate": "1994-05-17",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7240,13 +7539,17 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-05-21",
+      "endDate": "1995-05-19",
       "engagements": ["Met President Bill Clinton", "Gave a public address"],
       "eventName": null,
       "id": "robert-mugabe--1995-05-17--USA",
       "officialId": "robert-mugabe",
-      "purpose": "Visit to United States",
+      "purpose": "Official working visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13487,6 +13790,31 @@
       "startDate": "2009-05-21",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [-77.0369, 38.9072],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2009-06-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-mugabe--2009-06-12--USA",
+      "officialId": "robert-mugabe",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2009-06-12",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
