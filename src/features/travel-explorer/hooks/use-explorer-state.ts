@@ -44,14 +44,6 @@ const TEXT_INPUT_DEBOUNCE_MS = 300;
 /** Date range applied when drilling into a country from the world view with no range set. */
 export const COUNTRY_DEFAULT_DATE_PRESET: DatePreset = "past30";
 
-export interface SelectCountryOptions {
-    /**
-     * Whether entering a country from the world view starts on `COUNTRY_DEFAULT_DATE_PRESET`.
-     * `useOpenCountry` turns it off for countries with no trips in that window.
-     */
-    applyDefaultRange?: boolean;
-}
-
 const parseAsIsoDateString = createParser<IsoDate>({
     parse: (value) => (isIsoDate(value) ? value : null),
     serialize: (value) => value,
@@ -160,17 +152,13 @@ export function useExplorerState() {
     }
 
     const selectCountry = useCallback(
-        (
-            country: CountryCode | null,
-            view: CountryView = "officials",
-            { applyDefaultRange = true }: SelectCountryOptions = {}
-        ) =>
+        (country: CountryCode | null, view: CountryView = "officials") =>
             setState((current) => {
                 const isEnteringCountry = current.country === null && country !== null;
                 const hasDateRange = current.from !== null || current.to !== null;
                 // Opening a country starts on recent travel; a range the user chose is kept.
                 const dateRange =
-                    applyDefaultRange && isEnteringCountry && !hasDateRange
+                    isEnteringCountry && !hasDateRange
                         ? getPresetRange(COUNTRY_DEFAULT_DATE_PRESET, toIsoDate(new Date()))
                         : {};
                 return { country, official: null, trip: null, view, ...dateRange };
