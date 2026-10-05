@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { type ChangeEvent, useCallback, useMemo, useState } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { TravelStatusBadge } from "@/components/shared/travel-status";
 import { Empty, EmptyDescription, EmptyHeader, EmptyTitle } from "@/components/ui/empty";
 import { InputGroup, InputGroupAddon, InputGroupInput } from "@/components/ui/input-group";
 import {
@@ -16,31 +17,27 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import { StatList } from "@/features/travel-explorer/components/stat-list";
-import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-status";
 import {
     COUNTRY_SORTS,
     OVERVIEW_UPCOMING_LIMIT,
 } from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { CountrySort } from "@/features/travel-explorer/types/explorer.types";
-import type { TrackedCountry, TravelRecord } from "@/features/travel-explorer/types/travel.types";
-import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
 import { createSearchEntry, rankSearchEntry } from "@/features/travel-explorer/utils/search.utils";
-import {
-    countTrips,
-    isFutureStatus,
-    summarizeTravel,
-} from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { countTrips } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
+import { isFutureStatus, summarizeTravel } from "@/lib/travel/travel-summary.utils";
+import { normalizeSearchText } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
+import type { TrackedCountry, TravelRecord } from "@/types/travel.types";
 
 function UpcomingTripRow({ record }: { record: TravelRecord }) {
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { officialById, today } = useExplorerData();
     const { selectTrip } = useExplorerState();
     const official = officialById.get(record.officialId);
@@ -109,7 +106,7 @@ const createCountrySorters = (
 
 function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
     const t = useTranslations("Explorer.overview");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const openCountry = useOpenCountry();
     const setHoveredCountry = useExplorerUiStore((state) => state.setHoveredCountry);
     const reference = getCountryReference(country.code);
@@ -153,7 +150,7 @@ function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
 export function OverviewView() {
     const t = useTranslations("Explorer.overview");
     const locale = useLocale();
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { countries, matchingOfficialIds, matchingRecords, today } = useExplorerData();
     const [query, setQuery] = useState("");
     const handleQueryChange = useCallback(

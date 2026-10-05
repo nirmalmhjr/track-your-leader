@@ -1,7 +1,7 @@
 import { z } from "zod";
 
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 import type { Coordinates } from "@/types/geo.types";
+import type { IsoDate } from "@/types/travel.types";
 
 import { chunk } from "../lib/collections";
 import { fetchJson, withQuery } from "../lib/http";

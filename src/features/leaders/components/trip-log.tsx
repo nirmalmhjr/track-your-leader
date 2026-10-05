@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import { useCallback, useMemo, useState } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { ShowMoreButton } from "@/components/shared/show-more-button";
+import { TravelStatusBadge } from "@/components/shared/travel-status";
 import {
     Select,
     SelectContent,
@@ -15,18 +17,12 @@ import {
 } from "@/components/ui/select";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
-import { ShowMoreButton } from "@/features/travel-explorer/components/panel/show-more-button";
-import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-status";
-import { ROUTE_STYLES } from "@/features/travel-explorer/constants/map-style.constants";
-import type {
-    IsoDate,
-    TravelRecord,
-    TravelStatus,
-} from "@/features/travel-explorer/types/travel.types";
-import { groupByYear } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { ROUTE_STYLES } from "@/lib/travel/travel.constants";
+import { groupByYear } from "@/lib/travel/travel-summary.utils";
 import { cn } from "@/lib/utils";
+import type { IsoDate, TravelRecord, TravelStatus } from "@/types/travel.types";
 
 const STATUS_ORDER: readonly TravelStatus[] = ["completed", "upcoming", "planned", "cancelled"];
 const ALL = "all";
@@ -62,7 +58,7 @@ interface TripEntryProps {
 function TripEntry({ record, today, currentTitle }: TripEntryProps) {
     const t = useTranslations("Leaders.profile");
     const tTypes = useTranslations("Explorer.travelTypes");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const reference = getCountryReference(record.destination.countryCode);
     const details = [tTypes(record.type), record.eventName].filter(Boolean).join(" · ");
     const showsEarlierTitle = record.positionTitle && record.positionTitle !== currentTitle;
@@ -130,7 +126,7 @@ interface TripLogProps {
 export function TripLog({ records, today, currentTitle }: TripLogProps) {
     const t = useTranslations("Leaders.profile");
     const tStatus = useTranslations("Explorer.statuses");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const [status, setStatus] = useState<TravelStatus | typeof ALL>(ALL);
     const [year, setYear] = useState<string>(ALL);
     const [shown, setShown] = useState(TRIP_PAGE_SIZE);

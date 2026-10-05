@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { type ChangeEvent, useCallback } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { RouteLineKey } from "@/components/shared/travel-status";
 import {
     Accordion,
     AccordionContent,
@@ -39,22 +40,21 @@ import {
     DatePresetList,
 } from "@/features/travel-explorer/components/filters/date-range-fields";
 import { DestinationCountryFilter } from "@/features/travel-explorer/components/filters/destination-country-filter";
-import { RouteLineKey } from "@/features/travel-explorer/components/travel-status";
+import { DESTINATION_REGIONS } from "@/features/travel-explorer/constants/explorer.constants";
+import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
+import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import { useFilterSetter } from "@/features/travel-explorer/hooks/use-filter-setter";
+import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
+import { countActiveFilters } from "@/features/travel-explorer/utils/filters.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { getCountryReference } from "@/lib/geo/country-reference";
 import {
-    DESTINATION_REGIONS,
     OFFICE_TENURES,
     PORTFOLIOS,
     ROLE_CATEGORIES,
     TRAVEL_STATUSES,
     TRAVEL_TYPES,
-} from "@/features/travel-explorer/constants/explorer.constants";
-import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
-import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import { useFilterSetter } from "@/features/travel-explorer/hooks/use-filter-setter";
-import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
-import { countActiveFilters } from "@/features/travel-explorer/utils/filters.utils";
-import { getCountryReference } from "@/lib/geo/country-reference";
+} from "@/lib/travel/travel.constants";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
 const ANY_VALUE = "any";
@@ -82,7 +82,7 @@ function DateSection() {
 
 function OriginCountryField() {
     const t = useTranslations("Explorer.filters");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { countries } = useExplorerData();
     const { selection } = useExplorerState();
     const openCountry = useOpenCountry();
@@ -374,7 +374,7 @@ function DestinationSection() {
  */
 export function FiltersView() {
     const t = useTranslations("Explorer.filters");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { filters, resetFilters, selection } = useExplorerState();
     const { matchingRecords, recordsByDestination, recordsByOrigin } = useExplorerData();
     const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);

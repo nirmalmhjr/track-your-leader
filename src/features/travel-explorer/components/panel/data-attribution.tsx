@@ -3,12 +3,12 @@
 import { useTranslations } from "next-intl";
 
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 
 /** Credits the data sources (required by the Wikipedia, GOV.UK and Canadian licences) or flags the fictional samples. */
 export function DataAttribution() {
     const t = useTranslations("Explorer.panel");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { dataSource, updatedOn } = useExplorerData();
 
     if (dataSource === "sample") {

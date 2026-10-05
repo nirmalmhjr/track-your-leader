@@ -87,9 +87,9 @@ export function handleApiError<T extends FieldValues>({
     const summaryMessages: string[] = [];
     let firstErrorField: Path<T> | null = null;
 
-    for (const { key, message } of errors) {
+    for (const { key, message: fieldMessage } of errors) {
         const fields = normalizeArray(key);
-        const messages = normalizeArray(message);
+        const messages = normalizeArray(fieldMessage);
         const msg = messages.join(", ");
 
         if (fields.length === 0) {

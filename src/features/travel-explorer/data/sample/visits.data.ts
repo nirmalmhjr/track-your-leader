@@ -1,4 +1,4 @@
-import type { IsoDate, TravelType } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate, TravelType } from "@/types/travel.types";
 
 import type { SampleCityKey } from "./cities.data";
 

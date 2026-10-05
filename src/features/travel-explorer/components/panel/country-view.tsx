@@ -12,16 +12,16 @@ import { StatList } from "@/features/travel-explorer/components/stat-list";
 import { TravelTimeline } from "@/features/travel-explorer/components/travel-timeline";
 import { COUNTRY_VIEWS } from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { CountryCode } from "@/types/geo.types";
 
 /** Country dossier: who travels, where they went and who came to visit. */
 export function CountryView({ countryCode }: { countryCode: CountryCode }) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const {
         countryByCode,
         matchingOfficialIds,

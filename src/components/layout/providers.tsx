@@ -6,11 +6,10 @@ import { NextIntlClientProvider } from "next-intl";
 import NextTopLoader from "nextjs-toploader";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
+import { ActiveThemeProvider } from "@/components/themes/active-theme";
 import { ThemeProvider } from "@/components/themes/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import type { TLocales } from "@/i18n/routing";
-
-import { ActiveThemeProvider } from "../themes/active-theme";
 
 interface ProvidersProps {
     activeThemeValue: string;

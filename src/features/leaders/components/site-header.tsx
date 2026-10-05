@@ -4,18 +4,20 @@ import { IconMap2, IconRoute, IconUsers } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 
-import { LEADERS_PATH } from "@/features/leaders/utils/leaders-paths";
-import { ExplorerSettingsMenu } from "@/features/travel-explorer/components/header/explorer-settings-menu";
+import { SettingsMenu } from "@/components/shared/settings-menu";
+import { ROUTES } from "@/configs/routes";
 import { Link, usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 const NAV_ITEMS = [
-    { href: "/", icon: IconMap2, key: "map" },
-    { href: LEADERS_PATH, icon: IconUsers, key: "leaders" },
+    { href: ROUTES.HOME, icon: IconMap2, key: "map" },
+    { href: ROUTES.LEADERS, icon: IconUsers, key: "leaders" },
 ] as const;
 
 const isActive = (pathname: string, href: string): boolean =>
-    href === "/" ? pathname === "/" : pathname === href || pathname.startsWith(`${href}/`);
+    href === ROUTES.HOME
+        ? pathname === ROUTES.HOME
+        : pathname === href || pathname.startsWith(`${href}/`);
 
 /** Application bar for the directory pages: brand, the two sections and settings. */
 export function SiteHeader() {
@@ -27,7 +29,7 @@ export function SiteHeader() {
         <header className="flex h-14 shrink-0 items-center gap-3 border-b bg-sidebar px-3 md:px-4">
             <Link
                 className="flex min-w-0 items-center gap-2 rounded-md outline-none focus-visible:ring-3 focus-visible:ring-ring/50"
-                href="/"
+                href={ROUTES.HOME}
             >
                 <span
                     aria-hidden
@@ -63,7 +65,7 @@ export function SiteHeader() {
             <div className="ml-auto flex items-center">
                 {/* The menu reads the query string, which would otherwise opt the page out of static rendering. */}
                 <Suspense fallback={null}>
-                    <ExplorerSettingsMenu />
+                    <SettingsMenu />
                 </Suspense>
             </div>
         </header>

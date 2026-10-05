@@ -1,4 +1,4 @@
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate } from "@/types/travel.types";
 
 const pad = (value: number): string => String(value).padStart(2, "0");
 /** Four-digit years keep ISO dates sortable as text, including medieval ones ("0947"). */

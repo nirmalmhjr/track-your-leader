@@ -1,8 +1,4 @@
-import type {
-    DatePrecision,
-    IsoDate,
-    TravelStatus,
-} from "@/features/travel-explorer/types/travel.types";
+import type { DatePrecision, IsoDate, TravelStatus } from "@/types/travel.types";
 
 /** What a source says about a trip's status beyond its dates. */
 export type TravelStatusHint = "cancelled" | "planned" | null;

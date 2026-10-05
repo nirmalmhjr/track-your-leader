@@ -18,9 +18,9 @@ import {
 } from "@/components/ui/combobox";
 import { Field, FieldLabel } from "@/components/ui/field";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { useFilterSetter } from "@/features/travel-explorer/hooks/use-filter-setter";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import type { CountryCode } from "@/types/geo.types";
 
@@ -35,7 +35,7 @@ const isSameCountry = (item: CountryItem, value: CountryItem): boolean =>
 /** Multi-select of visited countries, rendered as removable chips. */
 export function DestinationCountryFilter() {
     const t = useTranslations("Explorer.filters");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { filters } = useExplorerState();
     const setDestinations = useFilterSetter("destinations");
     const handleChange = useCallback(

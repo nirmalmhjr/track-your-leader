@@ -4,23 +4,22 @@ import { IconChevronRight } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import { type ReactNode, useCallback, useMemo, useState } from "react";
 
+import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { ShowMoreButton } from "@/features/travel-explorer/components/panel/show-more-button";
-import { OFFICE_GROUPS } from "@/features/travel-explorer/constants/explorer.constants";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
-import type { OfficeGroup } from "@/features/travel-explorer/types/explorer.types";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import {
     getHeldOfficeKeys,
     groupOffices,
     groupPastTermsByYear,
     type Office,
     type OfficeTerm,
-} from "@/features/travel-explorer/utils/offices.utils";
+} from "@/lib/travel/offices.utils";
+import { OFFICE_GROUPS } from "@/lib/travel/travel.constants";
 import { cn } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
+import type { OfficeGroup, Official } from "@/types/travel.types";
 
 /** Years rendered per page in the year-by-year view. */
 const YEAR_PAGE_SIZE = 8;
@@ -28,7 +27,7 @@ const YEAR_PAGE_SIZE = 8;
 /** "2019 – 2021", or a single year for a stint that started and ended in it. */
 function useTermYears(term: OfficeTerm): string {
     const t = useTranslations("Explorer.official");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { startDate, endDate } = term.position;
 
     const endYear = endDate ? format.year(endDate.slice(0, 4)) : "";
@@ -89,7 +88,7 @@ function TimelineTerm({ term }: { term: OfficeTerm }) {
 /** An office that unfolds into everyone who held it before, most recent first. */
 function OfficeHistory({ office }: { office: Office }) {
     const t = useTranslations("Explorer.country");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const formerCount = new Set(office.past.map((term) => term.official.id)).size;
 
     return (
@@ -186,7 +185,7 @@ function YearTerm({ term }: { term: OfficeTerm }) {
 /** The past, year by year: who left which office in each year, newest first. */
 export function FormerByYear({ officials }: { officials: readonly Official[] }) {
     const t = useTranslations("Explorer.country");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const years = useMemo(() => groupPastTermsByYear(officials), [officials]);
     const [limit, setLimit] = useState(YEAR_PAGE_SIZE);
     const showMore = useCallback(() => setLimit((current) => current + YEAR_PAGE_SIZE), []);

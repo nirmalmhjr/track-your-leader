@@ -18,19 +18,14 @@ import type {
     TravelDataSource,
 } from "@/features/travel-explorer/data/travel-dataset";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type {
-    IsoDate,
-    Official,
-    TrackedCountry,
-    TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
-import { toIsoDate } from "@/features/travel-explorer/utils/date.utils";
 import {
     hasTravelFilters,
     matchesOfficialFilters,
     matchesTravelFilters,
 } from "@/features/travel-explorer/utils/filters.utils";
+import { toIsoDate } from "@/lib/travel/date.utils";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Official, TrackedCountry, TravelRecord } from "@/types/travel.types";
 
 const groupRecords = (
     records: readonly TravelRecord[],

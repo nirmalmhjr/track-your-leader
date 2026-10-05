@@ -1,5 +1,5 @@
-import type { Place } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { Place } from "@/types/travel.types";
 
 import {
     type CityLookup,

@@ -10,9 +10,9 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Kbd } from "@/components/ui/kbd";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import { createSearchEntry, searchEntries } from "@/features/travel-explorer/utils/search.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { ALL_COUNTRY_REFERENCES } from "@/lib/geo/country-reference";
 import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
 import type { CountryCode } from "@/types/geo.types";
@@ -70,7 +70,7 @@ const isEditableTarget = (target: EventTarget | null): boolean =>
  */
 export function ExplorerSearch() {
     const t = useTranslations("Explorer.search");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { countryByCode } = useExplorerData();
     const openCountry = useOpenCountry();
     const [isOpen, setIsOpen] = useState(false);

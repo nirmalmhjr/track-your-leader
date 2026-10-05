@@ -1,10 +1,10 @@
 import { z } from "zod";
 
-import {
-    PORTFOLIOS,
-    ROLE_CATEGORIES,
-    TRAVEL_TYPES,
-} from "@/features/travel-explorer/constants/explorer.constants";
+import { resolvePositionTitle } from "@/features/travel-explorer/utils/positions.utils";
+import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
+import { getCountryReference, getCountryRegion } from "@/lib/geo/country-reference";
+import { PORTFOLIOS, ROLE_CATEGORIES, TRAVEL_TYPES } from "@/lib/travel/travel.constants";
+import type { CountryCode } from "@/types/geo.types";
 import type {
     DatePrecision,
     IsoDate,
@@ -12,11 +12,7 @@ import type {
     Place,
     TrackedCountry,
     TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
-import { resolvePositionTitle } from "@/features/travel-explorer/utils/positions.utils";
-import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
-import { getCountryReference, getCountryRegion } from "@/lib/geo/country-reference";
-import type { CountryCode } from "@/types/geo.types";
+} from "@/types/travel.types";
 
 import {
     type GeneratedOfficial,

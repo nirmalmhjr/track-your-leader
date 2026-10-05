@@ -3,21 +3,18 @@
 import { useTranslations } from "next-intl";
 import { useCallback, useMemo, useState } from "react";
 
+import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { OfficialCard } from "@/features/travel-explorer/components/official-card";
-import { ShowMoreButton } from "@/features/travel-explorer/components/panel/show-more-button";
-import { OFFICIAL_GROUPS } from "@/features/travel-explorer/constants/explorer.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type {
-    OfficialGroup,
-    OfficialSort,
-    TravelSummary,
-} from "@/features/travel-explorer/types/explorer.types";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
-import { getOfficialGroup, getOfficialRank } from "@/features/travel-explorer/utils/filters.utils";
-import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import type { OfficialSort } from "@/features/travel-explorer/types/explorer.types";
+import { getOfficialGroup } from "@/features/travel-explorer/utils/filters.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { getOfficialRank } from "@/lib/travel/officials.utils";
+import { OFFICIAL_GROUPS } from "@/lib/travel/travel.constants";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { CountryCode } from "@/types/geo.types";
+import type { Official, OfficialGroup, TravelSummary } from "@/types/travel.types";
 
 interface OfficialRow {
     official: Official;
@@ -65,7 +62,7 @@ interface OfficialsListProps {
 /** Officials of a country matching the filters, grouped by seniority or sorted on demand. */
 export function OfficialsList({ countryCode, officials, sort }: OfficialsListProps) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { recordsByOfficial } = useExplorerData();
     const { selectOfficial } = useExplorerState();
 

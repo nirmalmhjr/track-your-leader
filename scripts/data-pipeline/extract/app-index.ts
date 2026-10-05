@@ -7,7 +7,7 @@ import {
     serializeTravelIndex,
     travelIndexSchema,
 } from "@/features/travel-explorer/data/travel-index";
-import type { IsoDate, Place, TrackedCountry } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate, Place, TrackedCountry } from "@/types/travel.types";
 
 import { PIPELINE_CONFIG } from "../config";
 import { log } from "../lib/log";

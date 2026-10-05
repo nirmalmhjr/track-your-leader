@@ -1,8 +1,8 @@
 import { getLocale } from "next-intl/server";
 
+import { CountryNamesProvider } from "@/components/shared/country-names-provider";
 import { SiteHeader } from "@/features/leaders/components/site-header";
-import { buildCountryNames } from "@/features/leaders/data/country-names.server";
-import { CountryNamesProvider } from "@/features/leaders/hooks/use-directory-format";
+import { buildCountryNames } from "@/lib/travel/country-names.server";
 
 /**
  * Pages beside the map (the leaders directory). The document body never scrolls, for the map's

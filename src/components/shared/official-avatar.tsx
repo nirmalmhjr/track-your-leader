@@ -1,6 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
 import { cn, getInitials } from "@/lib/utils";
+import type { Official } from "@/types/travel.types";
 
 interface OfficialAvatarProps {
     className?: string;

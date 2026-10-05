@@ -4,31 +4,28 @@ import { IconChevronDown, IconId } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { OfficialAvatar } from "@/components/shared/official-avatar";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { getProfilePath } from "@/features/leaders/utils/leaders-paths";
-import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
+import { ROUTES } from "@/configs/routes";
 import { ClearFiltersEmpty } from "@/features/travel-explorer/components/panel/clear-filters-empty";
 import { StatList } from "@/features/travel-explorer/components/stat-list";
 import { TravelTimeline } from "@/features/travel-explorer/components/travel-timeline";
 import { useDateRangeLabel } from "@/features/travel-explorer/hooks/use-date-range-label";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { Official, Position } from "@/features/travel-explorer/types/travel.types";
-import {
-    getCurrentPosition,
-    getPrimaryPosition,
-} from "@/features/travel-explorer/utils/filters.utils";
-import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getCurrentPosition, getPrimaryPosition } from "@/lib/travel/officials.utils";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
+import type { Official, Position } from "@/types/travel.types";
 
 /** Tenure line for a position; sources sometimes list an office holder without a start date. */
 function PositionTenure({ position }: { position: Position }) {
     const t = useTranslations("Explorer.official");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { startDate, endDate } = position;
 
     let label: string | null = null;
@@ -110,7 +107,7 @@ function PositionHistory({ official }: { official: Official }) {
 /** Profile and chronological travel history of one official. */
 export function OfficialView({ officialId }: { officialId: string }) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
     const { officialById, recordsByOfficial } = useExplorerData();
     const { filters, selectTrip } = useExplorerState();
@@ -166,7 +163,7 @@ export function OfficialView({ officialId }: { officialId: string }) {
                             size: "sm",
                             variant: "outline",
                         })}
-                        href={getProfilePath(official.countryCode, official.id)}
+                        href={ROUTES.leadersProfile(official.countryCode, official.id)}
                     >
                         <IconId data-icon="inline-start" />
                         {t("official.fullProfile")}

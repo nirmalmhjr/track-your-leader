@@ -1,9 +1,9 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { ALL_COUNTRY_REFERENCES } from "../../../lib/geo/country-reference";
-import { getCountrySearchTerms } from "../../../lib/geo/country-search-terms";
-import { createSearchEntry, searchEntries } from "./search.utils";
+import { createSearchEntry, searchEntries } from "@/features/travel-explorer/utils/search.utils";
+import { ALL_COUNTRY_REFERENCES } from "@/lib/geo/country-reference";
+import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
 
 const entries = [
     createSearchEntry("nepal", "Nepal", ["NPL"], { isCurrent: true }),

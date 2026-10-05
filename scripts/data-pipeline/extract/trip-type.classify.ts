@@ -1,4 +1,4 @@
-import type { TravelType } from "@/features/travel-explorer/types/travel.types";
+import type { TravelType } from "@/types/travel.types";
 
 /**
  * Infers a trip's type from the purpose written in the source ("State visit", "G20 summit",

@@ -1,50 +1,4 @@
-import type {
-    OfficeTenure,
-    Portfolio,
-    RoleCategory,
-    TravelStatus,
-    TravelType,
-} from "@/features/travel-explorer/types/travel.types";
 import type { WorldRegion } from "@/types/geo.types";
-
-export const ROLE_CATEGORIES = [
-    "head_of_state",
-    "head_of_government",
-    "deputy_leader",
-    "minister",
-    "junior_minister",
-    "senior_official",
-] as const satisfies readonly RoleCategory[];
-
-export const PORTFOLIOS = [
-    "foreign_affairs",
-    "finance",
-    "trade",
-    "defence",
-    "home_affairs",
-    "environment",
-    "energy",
-] as const satisfies readonly Portfolio[];
-
-export const OFFICE_TENURES = ["current", "former"] as const satisfies readonly OfficeTenure[];
-
-export const TRAVEL_TYPES = [
-    "state_visit",
-    "official_visit",
-    "diplomatic_visit",
-    "summit",
-    "conference",
-    "bilateral_meeting",
-    "multilateral_meeting",
-    "other",
-] as const satisfies readonly TravelType[];
-
-export const TRAVEL_STATUSES = [
-    "completed",
-    "upcoming",
-    "planned",
-    "cancelled",
-] as const satisfies readonly TravelStatus[];
 
 export const DESTINATION_REGIONS = [
     "Africa",
@@ -62,27 +16,8 @@ export const OFFICIAL_SORTS = ["rank", "trips", "recent", "name"] as const;
 /** Orders of the overview country index; the first is the default. */
 export const COUNTRY_SORTS = ["name", "trips"] as const;
 
-/** Lower rank sorts first when ordering officials by seniority. */
-export const ROLE_RANK: Readonly<Record<RoleCategory, number>> = {
-    deputy_leader: 2,
-    head_of_government: 1,
-    head_of_state: 0,
-    junior_minister: 4,
-    minister: 3,
-    senior_official: 5,
-};
-
-/** Groups shown in the officials list, in display order. */
-export const OFFICIAL_GROUPS = ["leadership", "ministers", "officials", "former"] as const;
-
-/** Sections of the offices list; `vacant` holds offices nobody tracked currently holds. */
-export const OFFICE_GROUPS = ["leadership", "ministers", "officials", "vacant"] as const;
-
 /** Ways to look back at a country's former officials; the first is the default. */
 export const FORMER_LAYOUTS = ["position", "year", "person"] as const;
-
-/** Statuses that represent trips which have not happened yet. */
-export const FUTURE_STATUSES: readonly TravelStatus[] = ["upcoming", "planned"];
 
 /** Number of steps in the sequential map shading scale. */
 export const SEQUENTIAL_STEPS = 5;

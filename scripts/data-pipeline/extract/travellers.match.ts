@@ -1,5 +1,5 @@
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate } from "@/types/travel.types";
 
 import { chunk, groupBy } from "../lib/collections";
 import { addDaysIso } from "../lib/dates";

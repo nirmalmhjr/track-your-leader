@@ -8,19 +8,12 @@ import type {
     YearCount,
 } from "@/features/leaders/types/leaders.types";
 import type { TravelBase } from "@/features/travel-explorer/data/travel-index";
-import type {
-    IsoDate,
-    Official,
-    TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
-import { addMonths } from "@/features/travel-explorer/utils/date.utils";
-import {
-    getCurrentPosition,
-    getOfficialRank,
-} from "@/features/travel-explorer/utils/filters.utils";
-import { countTenure } from "@/features/travel-explorer/utils/offices.utils";
-import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { addMonths } from "@/lib/travel/date.utils";
+import { countTenure } from "@/lib/travel/offices.utils";
+import { getCurrentPosition, getOfficialRank } from "@/lib/travel/officials.utils";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Official, TravelRecord } from "@/types/travel.types";
 
 const COUNTRY_PARAM_PATTERN = /^[a-z]{3}$/i;
 const TOP_TRAVELLER_LIMIT = 12;

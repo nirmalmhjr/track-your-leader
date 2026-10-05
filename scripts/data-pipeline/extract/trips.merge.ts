@@ -1,6 +1,6 @@
 import type { GeneratedTrip } from "@/features/travel-explorer/data/generated-data.schema";
-import type { SourceRef } from "@/features/travel-explorer/types/travel.types";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import type { SourceRef } from "@/types/travel.types";
 
 import { groupBy } from "../lib/collections";
 import { addDaysIso } from "../lib/dates";

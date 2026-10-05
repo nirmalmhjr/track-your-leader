@@ -1,24 +1,8 @@
-import { ROLE_RANK } from "@/features/travel-explorer/constants/explorer.constants";
-import type {
-    ExplorerFilters,
-    OfficialGroup,
-} from "@/features/travel-explorer/types/explorer.types";
-import type {
-    Official,
-    Position,
-    RoleCategory,
-    TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
-import { rangesOverlap } from "@/features/travel-explorer/utils/date.utils";
-
-const DIACRITICS_PATTERN = /\p{Diacritic}/gu;
-
-const LEADERSHIP_CATEGORIES = new Set<RoleCategory>([
-    "head_of_state",
-    "head_of_government",
-    "deputy_leader",
-]);
-const MINISTER_CATEGORIES = new Set<RoleCategory>(["minister", "junior_minister"]);
+import type { ExplorerFilters } from "@/features/travel-explorer/types/explorer.types";
+import { rangesOverlap } from "@/lib/travel/date.utils";
+import { getCategoryGroup, getCurrentPosition } from "@/lib/travel/officials.utils";
+import { normalizeSearchText } from "@/lib/utils";
+import type { Official, OfficialGroup, TravelRecord } from "@/types/travel.types";
 
 export const EMPTY_FILTERS: ExplorerFilters = {
     city: "",
@@ -34,60 +18,6 @@ export const EMPTY_FILTERS: ExplorerFilters = {
     tenure: null,
     to: null,
     types: [],
-};
-
-/**
- * Normalises text for accent- and case-insensitive matching.
- *
- * @param value - Raw text.
- * @returns Lower-cased text without diacritics.
- */
-export const normalizeSearchText = (value: string): string =>
-    value.normalize("NFD").replace(DIACRITICS_PATTERN, "").toLowerCase().trim();
-
-/**
- * Returns the position an official currently holds, if any.
- *
- * @param official - Official to inspect.
- * @returns The most recent open-ended position, or `null` for former office holders.
- */
-export const getCurrentPosition = (official: Official): Position | null =>
-    official.positions.find((position) => position.endDate === null) ?? null;
-
-/**
- * Returns the position that best describes an official: the current one, otherwise the latest.
- *
- * @param official - Official to inspect.
- * @returns The representative position.
- */
-export const getPrimaryPosition = (official: Official): Position =>
-    getCurrentPosition(official) ?? official.positions[0];
-
-/**
- * Seniority rank used for sorting, where lower is more senior.
- *
- * @param official - Official to rank.
- * @returns Rank derived from the primary position's most senior category.
- */
-export const getOfficialRank = (official: Official): number =>
-    Math.min(...getPrimaryPosition(official).categories.map((category) => ROLE_RANK[category]));
-
-/**
- * Classifies a position by its most senior kind of office.
- *
- * @param categories - Categories of the position.
- * @returns Leadership, ministers or (senior) officials.
- */
-export const getCategoryGroup = (
-    categories: readonly RoleCategory[]
-): Exclude<OfficialGroup, "former"> => {
-    if (categories.some((category) => LEADERSHIP_CATEGORIES.has(category))) {
-        return "leadership";
-    }
-    if (categories.some((category) => MINISTER_CATEGORIES.has(category))) {
-        return "ministers";
-    }
-    return "officials";
 };
 
 /**

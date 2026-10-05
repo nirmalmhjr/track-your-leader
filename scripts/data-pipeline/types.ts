@@ -1,3 +1,4 @@
+import type { CountryCode } from "@/types/geo.types";
 import type {
     DatePrecision,
     IsoDate,
@@ -6,8 +7,7 @@ import type {
     RoleCategory,
     SourceRef,
     TravelType,
-} from "@/features/travel-explorer/types/travel.types";
-import type { CountryCode } from "@/types/geo.types";
+} from "@/types/travel.types";
 
 /** A country's Wikidata identity and the offices of its leaders. */
 export interface CountryContext {

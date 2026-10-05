@@ -4,8 +4,8 @@ import {
     type GeneratedTrip,
     generatedTripsSchema,
 } from "@/features/travel-explorer/data/generated-data.schema";
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate } from "@/types/travel.types";
 
 import { countrySourceFor, PIPELINE_CONFIG } from "./config";
 import { writeAppIndex } from "./extract/app-index";

@@ -14,11 +14,6 @@ import { useCallback, useMemo } from "react";
 import {
     COUNTRY_VIEWS,
     DESTINATION_REGIONS,
-    OFFICE_TENURES,
-    PORTFOLIOS,
-    ROLE_CATEGORIES,
-    TRAVEL_STATUSES,
-    TRAVEL_TYPES,
 } from "@/features/travel-explorer/constants/explorer.constants";
 import type {
     CountryView,
@@ -26,18 +21,21 @@ import type {
     ExplorerLevel,
     ExplorerSelection,
 } from "@/features/travel-explorer/types/explorer.types";
-import type {
-    IsoDate,
-    Official,
-    TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
-import { isIsoDate, toIsoDate } from "@/features/travel-explorer/utils/date.utils";
 import {
     type DatePreset,
     getPresetRange,
 } from "@/features/travel-explorer/utils/date-presets.utils";
 import { EMPTY_FILTERS } from "@/features/travel-explorer/utils/filters.utils";
+import { isIsoDate, toIsoDate } from "@/lib/travel/date.utils";
+import {
+    OFFICE_TENURES,
+    PORTFOLIOS,
+    ROLE_CATEGORIES,
+    TRAVEL_STATUSES,
+    TRAVEL_TYPES,
+} from "@/lib/travel/travel.constants";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Official, TravelRecord } from "@/types/travel.types";
 
 const TEXT_INPUT_DEBOUNCE_MS = 300;
 

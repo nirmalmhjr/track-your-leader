@@ -1,15 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import type { TravelBase } from "../../travel-explorer/data/travel-index";
-import type {
-    Official,
-    Place,
-    Position,
-    TrackedCountry,
-    TravelRecord,
-    TravelStatus,
-} from "../../travel-explorer/types/travel.types";
 import {
     buildCountryDirectory,
     buildCountryList,
@@ -18,7 +9,16 @@ import {
     groupRecordsByOfficial,
     parseCountryParam,
     rankDestinations,
-} from "./leaders.utils";
+} from "@/features/leaders/utils/leaders.utils";
+import type { TravelBase } from "@/features/travel-explorer/data/travel-index";
+import type {
+    Official,
+    Place,
+    Position,
+    TrackedCountry,
+    TravelRecord,
+    TravelStatus,
+} from "@/types/travel.types";
 
 const place = (countryCode: string, city: string): Place => ({
     city,

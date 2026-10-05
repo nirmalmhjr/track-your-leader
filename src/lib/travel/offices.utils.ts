@@ -1,15 +1,7 @@
-import {
-    OFFICE_GROUPS,
-    PORTFOLIOS,
-    ROLE_RANK,
-} from "@/features/travel-explorer/constants/explorer.constants";
-import type { OfficeGroup } from "@/features/travel-explorer/types/explorer.types";
-import type { Official, Position } from "@/features/travel-explorer/types/travel.types";
-import {
-    getCategoryGroup,
-    getCurrentPosition,
-    normalizeSearchText,
-} from "@/features/travel-explorer/utils/filters.utils";
+import { getCategoryGroup, getCurrentPosition } from "@/lib/travel/officials.utils";
+import { OFFICE_GROUPS, PORTFOLIOS, ROLE_RANK } from "@/lib/travel/travel.constants";
+import { normalizeSearchText } from "@/lib/utils";
+import type { OfficeGroup, Official, Position } from "@/types/travel.types";
 
 /** One stint of one official in an office. */
 export interface OfficeTerm {

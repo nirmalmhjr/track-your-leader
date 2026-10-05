@@ -1,7 +1,7 @@
-import { ROLE_RANK } from "@/features/travel-explorer/constants/explorer.constants";
 import type { GeneratedOfficial } from "@/features/travel-explorer/data/generated-data.schema";
-import type { SourceRef } from "@/features/travel-explorer/types/travel.types";
+import { ROLE_RANK } from "@/lib/travel/travel.constants";
 import type { CountryCode } from "@/types/geo.types";
+import type { SourceRef } from "@/types/travel.types";
 
 import { capitalize, cleanText, normalizeName, slugify, stripParenthetical } from "../lib/text";
 import type { WarehouseOfficial } from "../lib/warehouse";

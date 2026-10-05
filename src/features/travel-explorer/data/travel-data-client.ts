@@ -1,5 +1,5 @@
-import type { IsoDate, TrackedCountry } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, TrackedCountry } from "@/types/travel.types";
 
 import {
     type LoadedCountryDetail,

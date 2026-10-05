@@ -1,26 +1,19 @@
-"use client";
-
-import { IconChevronRight, IconLink, IconMap2 } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
-import { useCallback } from "react";
-import { toast } from "sonner";
+import { IconChevronRight, IconMap2 } from "@tabler/icons-react";
+import { getTranslations } from "next-intl/server";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { badgeVariants } from "@/components/ui/badge";
+import { buttonVariants } from "@/components/ui/button";
+import { ROUTES } from "@/configs/routes";
+import { CopyLinkButton } from "@/features/leaders/components/copy-link-button";
 import { StatTiles } from "@/features/leaders/components/stat-tiles";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
-import { getCountryPath, getMapHref, LEADERS_PATH } from "@/features/leaders/utils/leaders-paths";
-import type { TravelSummary } from "@/features/travel-explorer/types/explorer.types";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
-import {
-    getCurrentPosition,
-    getPrimaryPosition,
-} from "@/features/travel-explorer/utils/filters.utils";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getCurrentPosition, getPrimaryPosition } from "@/lib/travel/officials.utils";
+import { getTravelFormat } from "@/lib/travel/travel-format.server";
 import { cn, getInitials } from "@/lib/utils";
+import type { Official, TravelSummary } from "@/types/travel.types";
 
 const PHOTO_WIDTH_PATTERN = /width=\d+/;
 /** Commons serves thumbnails at any width; the hero shows the photo at up to 144px. */
@@ -42,9 +35,8 @@ const FLAG_WASH_STYLE = {
 const toHeroPhoto = (url: string): string =>
     url.replace(PHOTO_WIDTH_PATTERN, `width=${HERO_PHOTO_WIDTH}`);
 
-function Breadcrumb({ official }: { official: Official }) {
-    const t = useTranslations("Leaders");
-    const format = useDirectoryFormat();
+async function Breadcrumb({ official }: { official: Official }) {
+    const [t, format] = await Promise.all([getTranslations("Leaders"), getTravelFormat()]);
     const reference = getCountryReference(official.countryCode);
     const linkClass =
         "rounded-sm outline-none hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50";
@@ -53,7 +45,7 @@ function Breadcrumb({ official }: { official: Official }) {
         <nav aria-label={t("profile.breadcrumb")}>
             <ol className="flex min-w-0 items-center gap-1.5 text-muted-foreground text-sm">
                 <li>
-                    <Link className={linkClass} href={LEADERS_PATH}>
+                    <Link className={linkClass} href={ROUTES.LEADERS}>
                         {t("nav.leaders")}
                     </Link>
                 </li>
@@ -61,7 +53,7 @@ function Breadcrumb({ official }: { official: Official }) {
                 <li>
                     <Link
                         className={cn(linkClass, "flex items-center gap-1.5")}
-                        href={getCountryPath(official.countryCode)}
+                        href={ROUTES.leadersCountry(official.countryCode)}
                     >
                         <CountryFlag alpha2={reference?.alpha2} size="sm" />
                         {format.countryName(official.countryCode)}
@@ -82,22 +74,15 @@ interface ProfileHeroProps {
 }
 
 /** Who the official is, at a glance: photo, office, country, party and travel figures. */
-export function ProfileHero({ official, summary }: ProfileHeroProps) {
-    const t = useTranslations("Leaders.profile");
-    const tExplorer = useTranslations("Explorer");
-    const format = useDirectoryFormat();
+export async function ProfileHero({ official, summary }: ProfileHeroProps) {
+    const [t, tExplorer, format] = await Promise.all([
+        getTranslations("Leaders.profile"),
+        getTranslations("Explorer"),
+        getTravelFormat(),
+    ]);
     const position = getPrimaryPosition(official);
     const isInOffice = getCurrentPosition(official) !== null;
     const reference = getCountryReference(official.countryCode);
-
-    const copyLink = useCallback(async () => {
-        try {
-            await navigator.clipboard.writeText(window.location.href);
-            toast.success(t("copied"));
-        } catch {
-            // Clipboard access can be refused; the address bar still has the link.
-        }
-    }, [t]);
 
     return (
         <div className="flex flex-col gap-4">
@@ -132,13 +117,20 @@ export function ProfileHero({ official, summary }: ProfileHeroProps) {
 
                     <div className="flex min-w-0 flex-1 flex-col gap-3">
                         <div className="flex flex-wrap gap-1.5">
-                            <Badge variant={isInOffice ? "default" : "secondary"}>
+                            <span
+                                className={badgeVariants({
+                                    variant: isInOffice ? "default" : "secondary",
+                                })}
+                            >
                                 {isInOffice ? t("inOffice") : t("former")}
-                            </Badge>
+                            </span>
                             {position.categories.map((category) => (
-                                <Badge key={category} variant="outline">
+                                <span
+                                    className={badgeVariants({ variant: "outline" })}
+                                    key={category}
+                                >
                                     {tExplorer(`roles.${category}`)}
-                                </Badge>
+                                </span>
                             ))}
                         </div>
                         <div className="flex flex-col gap-1">
@@ -165,15 +157,12 @@ export function ProfileHero({ official, summary }: ProfileHeroProps) {
                         <div className="flex flex-wrap gap-2 pt-1">
                             <Link
                                 className={buttonVariants({ size: "sm", variant: "outline" })}
-                                href={getMapHref(official.countryCode, official.id)}
+                                href={ROUTES.map(official.countryCode, official.id)}
                             >
                                 <IconMap2 data-icon="inline-start" />
                                 {t("showOnMap")}
                             </Link>
-                            <Button onClick={copyLink} size="sm" variant="ghost">
-                                <IconLink data-icon="inline-start" />
-                                {t("copyLink")}
-                            </Button>
+                            <CopyLinkButton />
                         </div>
                     </div>
                 </div>

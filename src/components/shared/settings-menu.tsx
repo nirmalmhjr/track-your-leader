@@ -37,7 +37,7 @@ const LOCALE_NAMES: Readonly<Partial<Record<TLocales, string>>> = {
 };
 
 /** Appearance and language settings, switching language without losing the current view. */
-export function ExplorerSettingsMenu() {
+export function SettingsMenu() {
     const t = useTranslations("Explorer.settings");
     const { theme, setTheme } = useTheme();
     const { activeTheme, setActiveTheme } = useThemeConfig();

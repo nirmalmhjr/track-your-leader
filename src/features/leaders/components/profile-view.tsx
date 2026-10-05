@@ -1,8 +1,5 @@
-"use client";
-
 import { IconExternalLink } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
-import { useMemo } from "react";
+import { getTranslations } from "next-intl/server";
 
 import { CareerTimeline } from "@/features/leaders/components/career-timeline";
 import { DirectoryFooter } from "@/features/leaders/components/directory-footer";
@@ -15,8 +12,8 @@ import {
 import { TripLog } from "@/features/leaders/components/trip-log";
 import type { DirectoryContext, OfficialProfile } from "@/features/leaders/types/leaders.types";
 import { countTripsByYear, rankDestinations } from "@/features/leaders/utils/leaders.utils";
-import { getPrimaryPosition } from "@/features/travel-explorer/utils/filters.utils";
-import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { getPrimaryPosition } from "@/lib/travel/officials.utils";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 
 const TOP_DESTINATION_LIMIT = 8;
 
@@ -26,13 +23,12 @@ interface ProfileViewProps {
 }
 
 /** An official's profile: who they are, the offices they held and everywhere they travelled. */
-export function ProfileView({ profile, context }: ProfileViewProps) {
-    const t = useTranslations("Leaders.profile");
+export async function ProfileView({ profile, context }: ProfileViewProps) {
+    const t = await getTranslations("Leaders.profile");
     const { official, records } = profile;
-
-    const summary = useMemo(() => summarizeTravel(records), [records]);
-    const years = useMemo(() => countTripsByYear(records), [records]);
-    const destinations = useMemo(() => rankDestinations(records, TOP_DESTINATION_LIMIT), [records]);
+    const summary = summarizeTravel(records);
+    const years = countTripsByYear(records);
+    const destinations = rankDestinations(records, TOP_DESTINATION_LIMIT);
 
     return (
         <>

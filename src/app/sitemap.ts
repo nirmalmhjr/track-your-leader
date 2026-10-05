@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next";
 
+import { ROUTES } from "@/configs/routes";
 import { leadersData } from "@/features/leaders/data/leaders-data.server";
-import { getCountryPath, LEADERS_PATH } from "@/features/leaders/utils/leaders-paths";
 import { routing } from "@/i18n/routing";
-import { getBaseUrl } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/base-url";
 
 /**
  * The `sitemap` function is used for sitemap.xml metadata used by search engines
@@ -16,12 +16,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     return [
         { changeFrequency: "daily", lastModified, priority: 0.7, url: `${baseUrl}/` },
-        { changeFrequency: "daily", lastModified, priority: 0.6, url: `${baseUrl}${LEADERS_PATH}` },
+        {
+            changeFrequency: "daily",
+            lastModified,
+            priority: 0.6,
+            url: `${baseUrl}${ROUTES.LEADERS}`,
+        },
         ...countries.map((country) => ({
             changeFrequency: "weekly" as const,
             lastModified,
             priority: 0.5,
-            url: `${baseUrl}${getCountryPath(country.code)}`,
+            url: `${baseUrl}${ROUTES.leadersCountry(country.code)}`,
         })),
     ];
 }

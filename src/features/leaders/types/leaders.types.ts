@@ -1,12 +1,12 @@
-import type { TravelSummary } from "@/features/travel-explorer/types/explorer.types";
+import type { TenureBreakdown } from "@/lib/travel/offices.utils";
+import type { CountryCode } from "@/types/geo.types";
 import type {
     IsoDate,
     Official,
     TrackedCountry,
     TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
-import type { TenureBreakdown } from "@/features/travel-explorer/utils/offices.utils";
-import type { CountryCode } from "@/types/geo.types";
+    TravelSummary,
+} from "@/types/travel.types";
 
 /** One row of the country rail. Names are localised in the browser from the code. */
 export interface CountryListItem {

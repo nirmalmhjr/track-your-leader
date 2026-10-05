@@ -3,10 +3,9 @@ import type {
     COUNTRY_VIEWS,
     DESTINATION_REGIONS,
     FORMER_LAYOUTS,
-    OFFICE_GROUPS,
-    OFFICIAL_GROUPS,
     OFFICIAL_SORTS,
 } from "@/features/travel-explorer/constants/explorer.constants";
+import type { CountryCode } from "@/types/geo.types";
 import type {
     IsoDate,
     OfficeTenure,
@@ -16,15 +15,12 @@ import type {
     TravelRecord,
     TravelStatus,
     TravelType,
-} from "@/features/travel-explorer/types/travel.types";
-import type { CountryCode } from "@/types/geo.types";
+} from "@/types/travel.types";
 
 export type CountrySort = (typeof COUNTRY_SORTS)[number];
 export type CountryView = (typeof COUNTRY_VIEWS)[number];
 export type DestinationRegion = (typeof DESTINATION_REGIONS)[number];
 export type OfficialSort = (typeof OFFICIAL_SORTS)[number];
-export type OfficialGroup = (typeof OFFICIAL_GROUPS)[number];
-export type OfficeGroup = (typeof OFFICE_GROUPS)[number];
 export type FormerLayout = (typeof FORMER_LAYOUTS)[number];
 
 /** Every filter the explorer understands. Mirrors the URL query parameters one-to-one. */
@@ -55,15 +51,6 @@ export interface ExplorerSelection {
 
 /** Explorer depth, from the world overview down to a single trip. */
 export type ExplorerLevel = "world" | "country" | "official" | "trip";
-
-export interface TravelSummary {
-    countryCount: number;
-    daysAbroad: number;
-    lastTrip: TravelRecord | null;
-    nextTrip: TravelRecord | null;
-    tripCount: number;
-    upcomingCount: number;
-}
 
 /** Trips sharing a destination city, used to draw one route and node per city. */
 export interface DestinationAggregate {

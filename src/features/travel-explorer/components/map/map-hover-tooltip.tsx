@@ -4,11 +4,11 @@ import { useTranslations } from "next-intl";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import type { MapCountryShape } from "@/features/travel-explorer/utils/map-geometry.utils";
 import type { MapNode, MapScene } from "@/features/travel-explorer/utils/map-scene.utils";
-import { isFutureStatus } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { isFutureStatus } from "@/lib/travel/travel-summary.utils";
 
 export type MapHoverTarget =
     | { kind: "country"; shape: MapCountryShape; x: number; y: number }
@@ -27,7 +27,7 @@ const TOOLTIP_HEIGHT = 84;
 
 function CountryTooltipBody({ shape, scene }: { shape: MapCountryShape; scene: MapScene }) {
     const t = useTranslations("Explorer.map.tooltip");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { countryByCode, officialsByCountry, recordsByDestination } = useExplorerData();
     const { reference } = shape;
     const code = reference?.alpha3;
@@ -86,7 +86,7 @@ function CountryTooltipBody({ shape, scene }: { shape: MapCountryShape; scene: M
 
 function NodeTooltipBody({ node }: { node: MapNode }) {
     const t = useTranslations("Explorer.map.tooltip");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const [next] = node.records
         .filter((record) => isFutureStatus(record.status))
         .sort((a, b) => a.startDate.localeCompare(b.startDate));

@@ -20,17 +20,17 @@ import {
 import { OfficialsList } from "@/features/travel-explorer/components/panel/officials-list";
 import {
     FORMER_LAYOUTS,
-    OFFICE_TENURES,
     OFFICIAL_SORTS,
 } from "@/features/travel-explorer/constants/explorer.constants";
 import { useCountryOfficials } from "@/features/travel-explorer/hooks/use-country-officials";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import type { OfficialSort } from "@/features/travel-explorer/types/explorer.types";
-import type { OfficeTenure, Official } from "@/features/travel-explorer/types/travel.types";
-import { getCurrentPosition } from "@/features/travel-explorer/utils/filters.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { getCurrentPosition } from "@/lib/travel/officials.utils";
+import { OFFICE_TENURES } from "@/lib/travel/travel.constants";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 import type { CountryCode } from "@/types/geo.types";
+import type { OfficeTenure, Official } from "@/types/travel.types";
 
 interface CompactSelectProps {
     items: readonly { label: string; value: string }[];
@@ -76,7 +76,7 @@ interface InOfficeListProps {
  */
 function InOfficeList({ countryCode, sort, total, travelling }: InOfficeListProps) {
     const t = useTranslations("Explorer.country");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const labels = {
         shownLabel: format.number(travelling.length),
         totalLabel: format.number(total),
@@ -108,7 +108,7 @@ function InOfficeList({ countryCode, sort, total, travelling }: InOfficeListProp
  */
 export function CountryOfficials({ countryCode }: { countryCode: CountryCode }) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { roster, travelling } = useCountryOfficials(countryCode);
     const { officialsByCountry } = useExplorerData();
     const formerLayout = useExplorerUiStore((state) => state.formerLayout);

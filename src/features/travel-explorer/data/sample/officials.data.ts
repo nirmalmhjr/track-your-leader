@@ -1,11 +1,5 @@
-import type {
-    IsoDate,
-    Official,
-    Portfolio,
-    Position,
-    RoleCategory,
-} from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Official, Portfolio, Position, RoleCategory } from "@/types/travel.types";
 
 interface PositionSeed {
     categories: readonly RoleCategory[];

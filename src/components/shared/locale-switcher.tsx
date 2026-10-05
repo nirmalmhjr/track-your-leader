@@ -37,16 +37,16 @@ export const LocaleSwitcher = () => {
         router.refresh();
     };
 
-    const items = routing.locales.map((locale) => {
-        const meta = localeMeta[locale] ?? {
+    const items = routing.locales.map((code) => {
+        const meta = localeMeta[code] ?? {
             flag: "",
-            label: locale.toUpperCase(),
+            label: code.toUpperCase(),
         };
 
         return {
             flag: meta.flag,
             label: `${meta.flag} ${meta.label}`,
-            value: locale,
+            value: code,
         };
     });
 

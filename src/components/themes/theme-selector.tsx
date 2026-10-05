@@ -1,5 +1,8 @@
 "use client";
 
+import { useCallback } from "react";
+
+import { Icons } from "@/components/shared/icons";
 import { useThemeConfig } from "@/components/themes/active-theme";
 import { Label } from "@/components/ui/label";
 import {
@@ -12,17 +15,19 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 
-import { Icons } from "../shared/icons";
 import { THEMES } from "./theme.config";
 
 export function ThemeSelector() {
     const { activeTheme, setActiveTheme } = useThemeConfig();
 
-    const handleThemeChange = (value: string | null) => {
-        if (value !== null) {
-            setActiveTheme(value);
-        }
-    };
+    const handleThemeChange = useCallback(
+        (value: string | null) => {
+            if (value !== null) {
+                setActiveTheme(value);
+            }
+        },
+        [setActiveTheme]
+    );
 
     return (
         <div className="flex items-center gap-2">

@@ -7,9 +7,9 @@ import { type ReactNode, useCallback } from "react";
 import { CountryFlag } from "@/components/shared/country-flag";
 import { Button } from "@/components/ui/button";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import type { ExplorerLevel } from "@/features/travel-explorer/types/explorer.types";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { cn } from "@/lib/utils";
 
@@ -43,7 +43,7 @@ function CrumbLink({
 /** Shows where the user is in the drill-down and lets them jump back to any level. */
 export function PanelBreadcrumb() {
     const t = useTranslations("Explorer.breadcrumb");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { officialById } = useExplorerData();
     const { selection, level, goToLevel, goUp } = useExplorerState();
 

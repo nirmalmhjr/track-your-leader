@@ -4,12 +4,12 @@ import { useTranslations } from "next-intl";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import type {
     CalloutLayout,
     MapCountryShape,
 } from "@/features/travel-explorer/utils/map-geometry.utils";
-import { summarizeTravel } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import { cn } from "@/lib/utils";
 
 interface MapCountryCalloutProps {
@@ -25,7 +25,7 @@ interface MapCountryCalloutProps {
  */
 export function MapCountryCallout({ shape, layout, width, height }: MapCountryCalloutProps) {
     const t = useTranslations("Explorer.map.callout");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const {
         countryByCode,
         matchingOfficialIds,

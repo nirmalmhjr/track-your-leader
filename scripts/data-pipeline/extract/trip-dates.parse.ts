@@ -1,4 +1,4 @@
-import type { DatePrecision, IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { DatePrecision, IsoDate } from "@/types/travel.types";
 
 import { daysInMonth, isoFromParts, isValidDay } from "../lib/dates";
 

@@ -30,31 +30,6 @@ export function cn(...inputs: ClassValue[]): string {
     return twMerge(clsx(inputs));
 }
 
-/**
- * Returns the base URL of the application.
- *
- * Resolution order:
- * 1. Uses `NEXT_PUBLIC_APP_URL` environment variable (recommended for production)
- * 2. Falls back to `http://localhost:3000` (development default)
- *
- * Why this exists:
- * - Enables environment-based URL configuration
- * - Prevents hardcoding production URLs
- * - Supports deployment flexibility (Vercel, Docker, etc.)
- *
- * Note:
- * `NEXT_PUBLIC_` prefix makes the variable available on the client side.
- *
- * @returns The resolved base URL string
- */
-export const getBaseUrl = (): string => {
-    if (process.env.NEXT_PUBLIC_APP_URL) {
-        return process.env.NEXT_PUBLIC_APP_URL;
-    }
-
-    return "http://localhost:3000";
-};
-
 export const NAME_SPLIT_REGEX = /\s+/;
 
 /**
@@ -74,3 +49,14 @@ export function getInitials(name: string): string {
 
     return `${parts[0][0]}${parts.at(-1)?.[0] ?? ""}`.toUpperCase();
 }
+
+const DIACRITICS_PATTERN = /\p{Diacritic}/gu;
+
+/**
+ * Normalises text for accent- and case-insensitive matching.
+ *
+ * @param value - Raw text.
+ * @returns Lower-cased text without diacritics.
+ */
+export const normalizeSearchText = (value: string): string =>
+    value.normalize("NFD").replace(DIACRITICS_PATTERN, "").toLowerCase().trim();

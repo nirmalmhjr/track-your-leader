@@ -1,5 +1,5 @@
-import type { IsoDate, Portfolio, TravelType } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Portfolio, TravelType } from "@/types/travel.types";
 
 import type { SampleCityKey } from "./cities.data";
 

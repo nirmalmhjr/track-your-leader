@@ -3,15 +3,15 @@
 import { useTranslations } from "next-intl";
 
 import { CountryFlag } from "@/components/shared/country-flag";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
+import { OfficialAvatar } from "@/components/shared/official-avatar";
+import { ROUTES } from "@/configs/routes";
 import type { LeaderEntry } from "@/features/leaders/types/leaders.types";
-import { getProfilePath } from "@/features/leaders/utils/leaders-paths";
-import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
-import type { TravelRecord } from "@/features/travel-explorer/types/travel.types";
-import { getPrimaryPosition } from "@/features/travel-explorer/utils/filters.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getPrimaryPosition } from "@/lib/travel/officials.utils";
 import { cn } from "@/lib/utils";
+import type { TravelRecord } from "@/types/travel.types";
 
 interface LeaderCardProps {
     entry: LeaderEntry;
@@ -30,7 +30,7 @@ function TripLine({
     record: TravelRecord;
     tone: "past" | "future";
 }) {
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
 
     return (
         <div className="flex min-w-0 items-baseline gap-2">
@@ -59,7 +59,7 @@ function TripLine({
 /** A leader as a card linking to their profile, with their travel at a glance. */
 export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardProps) {
     const t = useTranslations("Leaders.card");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const { official, summary } = entry;
     const position = getPrimaryPosition(official);
     const reference = getCountryReference(official.countryCode);
@@ -67,7 +67,7 @@ export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardPro
     return (
         <Link
             className="group flex h-full flex-col gap-4 rounded-xl border bg-card p-4 outline-none transition-colors hover:border-foreground/20 hover:bg-accent/30 focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50"
-            href={getProfilePath(official.countryCode, official.id)}
+            href={ROUTES.leadersProfile(official.countryCode, official.id)}
         >
             <div className="flex items-start gap-3">
                 <OfficialAvatar official={official} size="xl" />

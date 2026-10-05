@@ -1,13 +1,13 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import type { Official, Position } from "../types/travel.types";
 import {
     countTenure,
     getHeldOfficeKeys,
     groupOffices,
     groupPastTermsByYear,
-} from "./offices.utils";
+} from "@/lib/travel/offices.utils";
+import type { Official, Position } from "@/types/travel.types";
 
 const position = (overrides: Partial<Position> & Pick<Position, "title">): Position => ({
     categories: ["minister"],

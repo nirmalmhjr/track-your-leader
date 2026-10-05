@@ -121,3 +121,18 @@ Biome's linter will catch most issues automatically. Focus your attention on:
 ---
 
 Most formatting and common issues are automatically fixed by Biome. Run `pnpm dlx ultracite fix` before committing to ensure compliance.
+
+---
+
+# Project Frontend Rules
+
+Always follow the project's frontend rules, imported here:
+
+@../.cursor/rules/frontend.mdc
+
+Project decisions that refine those rules:
+
+- **File names stay kebab-case** (`leader-card.tsx`), matching the existing codebase, rather than PascalCase.
+- **The API and TanStack Query rules are deferred until the backend exists.** Data is currently static JSON in `public/data/`, loaded by `src/features/travel-explorer/data/`. Do not move it into `src/services`, add endpoints, query keys or query options, or switch its loading to React Query until a real API is ready.
+- **Shared code lives outside features:** domain types in `src/types/travel.types.ts`, domain helpers and constants in `src/lib/travel/`, shared components in `src/components/shared/`, shared hooks in `src/hooks/`, routes in `src/configs/routes.ts`.
+- For implementation work, structure the answer as the rules ask: CODE_REVIEW, PLANNING, SECURITY_REVIEW (when applicable), then implementation.

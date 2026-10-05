@@ -15,17 +15,17 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { IsoDate, TravelRecord } from "@/features/travel-explorer/types/travel.types";
-import { getCalendarRange, isIsoDate } from "@/features/travel-explorer/utils/date.utils";
 import {
     DATE_PRESETS,
     type DatePreset,
     findMatchingPreset,
     getPresetRange,
 } from "@/features/travel-explorer/utils/date-presets.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { getCalendarRange, isIsoDate } from "@/lib/travel/date.utils";
 import { cn } from "@/lib/utils";
+import type { IsoDate, TravelRecord } from "@/types/travel.types";
 
 const ALL_MONTHS = "all";
 const MONTH_INDEXES = Array.from({ length: 12 }, (_, index) => index);
@@ -169,7 +169,7 @@ const resolveCalendarPeriod = (from: IsoDate | null, to: IsoDate | null): Calend
 export function CalendarPeriodFields() {
     const { allRecords } = useExplorerData();
     const t = useTranslations("Explorer.dates");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { filters, setFilters } = useExplorerState();
 
     const period = resolveCalendarPeriod(filters.from, filters.to);

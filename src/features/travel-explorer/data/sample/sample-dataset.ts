@@ -1,3 +1,10 @@
+import {
+    isPositionActiveOn,
+    resolvePositionTitle,
+} from "@/features/travel-explorer/utils/positions.utils";
+import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
+import { getCountryReference } from "@/lib/geo/country-reference";
+import type { CountryCode } from "@/types/geo.types";
 import type {
     IsoDate,
     Official,
@@ -6,14 +13,7 @@ import type {
     TravelDataset,
     TravelRecord,
     TravelType,
-} from "@/features/travel-explorer/types/travel.types";
-import {
-    isPositionActiveOn,
-    resolvePositionTitle,
-} from "@/features/travel-explorer/utils/positions.utils";
-import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
-import { getCountryReference } from "@/lib/geo/country-reference";
-import type { CountryCode } from "@/types/geo.types";
+} from "@/types/travel.types";
 
 import { SAMPLE_CITIES } from "./cities.data";
 import { SAMPLE_COUNTRY_SEEDS, type SampleCountrySeed } from "./countries.data";

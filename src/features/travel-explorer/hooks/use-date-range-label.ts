@@ -3,9 +3,9 @@
 import { useTranslations } from "next-intl";
 
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
 import { findMatchingPreset } from "@/features/travel-explorer/utils/date-presets.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import type { IsoDate } from "@/types/travel.types";
 
 /**
  * Human-readable description of a date range, preferring preset names such as "Past 12 months".
@@ -14,7 +14,7 @@ import { findMatchingPreset } from "@/features/travel-explorer/utils/date-preset
  */
 export function useDateRangeLabel() {
     const t = useTranslations("Explorer.dates");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { today } = useExplorerData();
 
     return (from: IsoDate | null, to: IsoDate | null): string => {

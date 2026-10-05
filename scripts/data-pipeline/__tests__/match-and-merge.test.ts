@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import type { Place } from "@/features/travel-explorer/types/travel.types";
+import type { Place } from "@/types/travel.types";
 
 import { matchTravellers } from "../extract/travellers.match";
 import { mergeClaims } from "../extract/trips.merge";

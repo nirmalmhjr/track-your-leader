@@ -1,4 +1,4 @@
-import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
+import { normalizeSearchText } from "@/lib/utils";
 
 /**
  * Search over countries and officials. Entries are prepared once (names normalised and split

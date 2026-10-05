@@ -1,16 +1,14 @@
-"use client";
-
 import { IconMap2 } from "@tabler/icons-react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import { CountryFlag } from "@/components/shared/country-flag";
 import { buttonVariants } from "@/components/ui/button";
+import { ROUTES } from "@/configs/routes";
 import { StatTiles } from "@/features/leaders/components/stat-tiles";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
 import type { CountryDirectory } from "@/features/leaders/types/leaders.types";
-import { getMapHref } from "@/features/leaders/utils/leaders-paths";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getTravelFormat } from "@/lib/travel/travel-format.server";
 import { cn } from "@/lib/utils";
 
 /**
@@ -25,9 +23,8 @@ const FLAG_WASH_STYLE = {
 } as const;
 
 /** The country's banner: flag, name, capital and how many officials and trips are on record. */
-export function CountryHero({ directory }: { directory: CountryDirectory }) {
-    const t = useTranslations("Leaders.country");
-    const format = useDirectoryFormat();
+export async function CountryHero({ directory }: { directory: CountryDirectory }) {
+    const [t, format] = await Promise.all([getTranslations("Leaders.country"), getTravelFormat()]);
     const { country, tenure, tripCount } = directory;
     const reference = getCountryReference(country.code);
     const name = format.countryName(country.code);
@@ -68,7 +65,7 @@ export function CountryHero({ directory }: { directory: CountryDirectory }) {
                     </div>
                     <Link
                         className={buttonVariants({ size: "sm", variant: "outline" })}
-                        href={getMapHref(country.code)}
+                        href={ROUTES.map(country.code)}
                     >
                         <IconMap2 data-icon="inline-start" />
                         {t("openOnMap")}

@@ -11,20 +11,20 @@ import { useTranslations } from "next-intl";
 import { type ReactNode, useCallback } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { OfficialAvatar } from "@/components/shared/official-avatar";
+import { TravelStatusBadge } from "@/components/shared/travel-status";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
 import { ClearFiltersEmpty } from "@/features/travel-explorer/components/panel/clear-filters-empty";
-import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-status";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import type { Place } from "@/features/travel-explorer/types/travel.types";
-import { countDaysInclusive } from "@/features/travel-explorer/utils/date.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { countDaysInclusive } from "@/lib/travel/date.utils";
+import type { Place } from "@/types/travel.types";
 
 function RouteEnd({ place, label }: { place: Place; label: string }) {
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
 
     return (
         <div className="flex min-w-0 flex-1 flex-col gap-1">
@@ -56,7 +56,7 @@ function DetailRow({ label, children }: { label: string; children: ReactNode }) 
 /** Full details of a single trip, with stepping to the official's previous and next trips. */
 export function TripView({ recordId }: { recordId: string }) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { officialById, recordById, recordsByOfficial, matchingRecords, today } =
         useExplorerData();
     const { selectOfficial, selectTrip } = useExplorerState();

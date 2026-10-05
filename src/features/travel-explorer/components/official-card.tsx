@@ -4,18 +4,14 @@ import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
-import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
+import { OfficialAvatar } from "@/components/shared/official-avatar";
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
-import type { TravelSummary } from "@/features/travel-explorer/types/explorer.types";
-import type { Official, TravelRecord } from "@/features/travel-explorer/types/travel.types";
-import {
-    getCurrentPosition,
-    getPrimaryPosition,
-} from "@/features/travel-explorer/utils/filters.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getCurrentPosition, getPrimaryPosition } from "@/lib/travel/officials.utils";
 import { cn } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
+import type { Official, TravelRecord, TravelSummary } from "@/types/travel.types";
 
 interface OfficialCardProps {
     official: Official;
@@ -32,7 +28,7 @@ function TripLine({
     record: TravelRecord;
     tone: "past" | "future";
 }) {
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
 
     return (
         <div className="flex min-w-0 items-baseline gap-2">
@@ -63,7 +59,7 @@ function TripLine({
 /** Result card for an official, summarising their travel within the active filters. */
 export function OfficialCard({ official, summary, onSelect }: OfficialCardProps) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const setHoveredOfficialId = useExplorerUiStore((state) => state.setHoveredOfficialId);
 
     const handleSelect = useCallback(() => onSelect(official), [onSelect, official]);

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import type { Place } from "@/features/travel-explorer/types/travel.types";
+import type { Place } from "@/types/travel.types";
 
 import { isMinisterTitle, normalizeCanadianName } from "../extract/claims/canada.claims";
 import { claimFromColtRow, excelSerialToIso } from "../extract/claims/colt.claims";

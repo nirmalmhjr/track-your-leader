@@ -3,22 +3,22 @@
 import { useTranslations } from "next-intl";
 import { useCallback, useMemo, useState } from "react";
 
+import { OfficialAvatar } from "@/components/shared/official-avatar";
+import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { Button } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
+import { ROUTES } from "@/configs/routes";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
-import { getProfilePath } from "@/features/leaders/utils/leaders-paths";
-import { OfficialAvatar } from "@/features/travel-explorer/components/official-avatar";
-import { ShowMoreButton } from "@/features/travel-explorer/components/panel/show-more-button";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { Link } from "@/i18n/navigation";
 import {
     getHeldOfficeKeys,
     groupOffices,
     groupPastTermsByYear,
     type Office,
     type OfficeTerm,
-} from "@/features/travel-explorer/utils/offices.utils";
-import { Link } from "@/i18n/navigation";
+} from "@/lib/travel/offices.utils";
+import type { Official } from "@/types/travel.types";
 
 const LAYOUTS = ["office", "year"] as const;
 type Layout = (typeof LAYOUTS)[number];
@@ -32,7 +32,7 @@ const TERMS_PREVIEW = 5;
 /** "2019 – 2021", a single year for a stint within one year, or "Until 2021" without a start. */
 function useTermYears(term: OfficeTerm): string {
     const t = useTranslations("Explorer.official");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const { startDate, endDate } = term.position;
 
     const endYear = endDate ? format.year(endDate.slice(0, 4)) : "";
@@ -47,7 +47,7 @@ function OfficialLink({ official }: { official: Official }) {
     return (
         <Link
             className="truncate rounded-sm font-medium outline-none hover:underline hover:underline-offset-2 focus-visible:ring-3 focus-visible:ring-ring/50"
-            href={getProfilePath(official.countryCode, official.id)}
+            href={ROUTES.leadersProfile(official.countryCode, official.id)}
         >
             {official.fullName}
         </Link>
@@ -72,7 +72,7 @@ function OfficeTimelineTerm({ term }: { term: OfficeTerm }) {
 /** One office: who holds it now, and its earlier holders on a timeline. */
 function OfficeCard({ office }: { office: Office }) {
     const t = useTranslations("Leaders.country");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const [isExpanded, setExpanded] = useState(false);
     const toggle = useCallback(() => setExpanded((expanded) => !expanded), []);
     const terms = isExpanded ? office.past : office.past.slice(0, TERMS_PREVIEW);
@@ -122,7 +122,7 @@ function ByOffice({
     allOfficials: Official[];
 }) {
     const t = useTranslations("Leaders.country");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const [shown, setShown] = useState(OFFICE_PAGE_SIZE);
     const offices = useMemo(
         () =>
@@ -176,7 +176,7 @@ function YearTerm({ term }: { term: OfficeTerm }) {
 
 function ByYear({ officials }: { officials: Official[] }) {
     const t = useTranslations("Leaders.country");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const [shown, setShown] = useState(YEAR_PAGE_SIZE);
     const years = useMemo(() => groupPastTermsByYear(officials), [officials]);
     const showMore = useCallback(() => setShown((count) => count + YEAR_PAGE_SIZE), []);

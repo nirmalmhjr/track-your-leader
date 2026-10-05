@@ -5,7 +5,6 @@ import path from "node:path";
 
 import { cache } from "react";
 
-import { buildCountryNames } from "@/features/leaders/data/country-names.server";
 import type {
     CountryDirectory,
     CountryListItem,
@@ -28,9 +27,10 @@ import {
     sampleBase,
 } from "@/features/travel-explorer/data/travel-dataset";
 import { decodeTravelIndex, travelIndexSchema } from "@/features/travel-explorer/data/travel-index";
-import type { IsoDate, TravelRecord } from "@/features/travel-explorer/types/travel.types";
-import { toIsoDate } from "@/features/travel-explorer/utils/date.utils";
+import { buildCountryNames } from "@/lib/travel/country-names.server";
+import { toIsoDate } from "@/lib/travel/date.utils";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, TravelRecord } from "@/types/travel.types";
 
 /**
  * What the leaders pages read. Today it is backed by the files the pipeline publishes in
@@ -43,6 +43,8 @@ export interface LeadersDataSource {
     getCountryList: (locale: string) => Promise<CountryListItem[]>;
     getOfficialProfile: (code: CountryCode, officialId: string) => Promise<OfficialProfile | null>;
     getOverview: () => Promise<DirectoryOverview>;
+    /** Whether the official is on record for the country; answered from the index alone. */
+    hasOfficial: (code: CountryCode, officialId: string) => Promise<boolean>;
 }
 
 const DATA_DIRECTORY = path.join(process.cwd(), "public", "data");
@@ -214,10 +216,18 @@ const getOfficialProfile = cache(
     }
 );
 
+const hasOfficial = cache(async (code: CountryCode, officialId: string) => {
+    const { loaded } = await getBase();
+    return loaded.base.officials.some(
+        (official) => official.id === officialId && official.countryCode === code
+    );
+});
+
 export const leadersData: LeadersDataSource = {
     getContext,
     getCountryDirectory,
     getCountryList,
     getOfficialProfile,
     getOverview,
+    hasOfficial,
 };

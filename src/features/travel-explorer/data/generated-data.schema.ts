@@ -1,10 +1,6 @@
 import { z } from "zod";
 
-import {
-    PORTFOLIOS,
-    ROLE_CATEGORIES,
-    TRAVEL_TYPES,
-} from "@/features/travel-explorer/constants/explorer.constants";
+import { PORTFOLIOS, ROLE_CATEGORIES, TRAVEL_TYPES } from "@/lib/travel/travel.constants";
 
 /**
  * Shape of the files in `generated/`, written by `scripts/data-pipeline` and read by the app.

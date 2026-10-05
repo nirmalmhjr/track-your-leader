@@ -2,13 +2,13 @@
 
 import { useTranslations } from "next-intl";
 
-import { RouteLineKey } from "@/features/travel-explorer/components/travel-status";
-import { TRAVEL_STATUSES } from "@/features/travel-explorer/constants/explorer.constants";
+import { RouteLineKey } from "@/components/shared/travel-status";
 import { useDateRangeLabel } from "@/features/travel-explorer/hooks/use-date-range-label";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import type { MapScene } from "@/features/travel-explorer/utils/map-scene.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { TRAVEL_STATUSES } from "@/lib/travel/travel.constants";
 
 /**
  * States what the map currently shows: whose travel, how many trips and which dates, so the
@@ -17,7 +17,7 @@ import type { MapScene } from "@/features/travel-explorer/utils/map-scene.utils"
 export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number }) {
     const t = useTranslations("Explorer.map.scope");
     const tStatus = useTranslations("Explorer.statuses");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
     const { officialById } = useExplorerData();
     const { filters, selection } = useExplorerState();

@@ -1,6 +1,6 @@
-import type { Place, TrackedCountry } from "@/features/travel-explorer/types/travel.types";
 import { getCountryRegion } from "@/lib/geo/country-reference";
 import type { CountryCode } from "@/types/geo.types";
+import type { Place, TrackedCountry } from "@/types/travel.types";
 
 const capital = (
     city: string,

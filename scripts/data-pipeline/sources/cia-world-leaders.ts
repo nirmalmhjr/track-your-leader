@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate } from "@/types/travel.types";
 
 import { fetchJson } from "../lib/http";
 

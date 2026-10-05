@@ -1,4 +1,4 @@
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate } from "@/types/travel.types";
 
 const MS_PER_DAY = 86_400_000;
 const ISO_DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;

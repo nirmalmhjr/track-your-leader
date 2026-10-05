@@ -2,49 +2,36 @@
 
 import { IconSearch } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
-import { useCallback, useDeferredValue, useMemo, useState } from "react";
+import { useCallback, useDeferredValue, useState } from "react";
 
+import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { Input } from "@/components/ui/input";
-import { CountryHero } from "@/features/leaders/components/country-hero";
-import { DirectoryFooter } from "@/features/leaders/components/directory-footer";
 import { FormerOfficialsDirectory } from "@/features/leaders/components/former-officials-directory";
 import { LeaderCard } from "@/features/leaders/components/leader-card";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
-import type { CountryDirectory, DirectoryContext } from "@/features/leaders/types/leaders.types";
-import { ShowMoreButton } from "@/features/travel-explorer/components/panel/show-more-button";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
-import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
+import type { CountryDirectory } from "@/features/leaders/types/leaders.types";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { normalizeSearchText } from "@/lib/utils";
+import type { Official } from "@/types/travel.types";
 
 /** Leader cards rendered per page. */
 const CARD_PAGE_SIZE = 12;
 
-interface CountryDirectoryViewProps {
-    context: DirectoryContext;
-    directory: CountryDirectory;
-}
-
 const matchesName = (official: Official, needle: string): boolean =>
     !needle || normalizeSearchText(official.fullName).includes(needle);
 
-/** A country's page: its banner, who holds office now and who held it before. */
-export function CountryDirectoryView({ directory, context }: CountryDirectoryViewProps) {
+/** A country's officials, filterable by name: who holds office now and who held it before. */
+export function CountryDirectoryView({ directory }: { directory: CountryDirectory }) {
     const t = useTranslations("Leaders.country");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const [query, setQuery] = useState("");
     const deferredQuery = useDeferredValue(query);
     const [shownCards, setShownCards] = useState(CARD_PAGE_SIZE);
     const countryName = format.countryName(directory.country.code);
 
     const needle = normalizeSearchText(deferredQuery);
-    const inOffice = useMemo(
-        () => directory.inOffice.filter((entry) => matchesName(entry.official, needle)),
-        [directory.inOffice, needle]
-    );
-    const officials = useMemo(
-        () => directory.officials.filter((official) => matchesName(official, needle)),
-        [directory.officials, needle]
-    );
+    const inOffice = directory.inOffice.filter((entry) => matchesName(entry.official, needle));
+    const officials = directory.officials.filter((official) => matchesName(official, needle));
 
     const handleQueryChange = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
         setQuery(event.target.value);
@@ -56,8 +43,6 @@ export function CountryDirectoryView({ directory, context }: CountryDirectoryVie
 
     return (
         <>
-            <CountryHero directory={directory} />
-
             <div className="relative max-w-sm">
                 <IconSearch
                     aria-hidden
@@ -124,8 +109,6 @@ export function CountryDirectoryView({ directory, context }: CountryDirectoryVie
                     />
                 </>
             )}
-
-            <DirectoryFooter updatedOn={context.updatedOn} />
         </>
     );
 }

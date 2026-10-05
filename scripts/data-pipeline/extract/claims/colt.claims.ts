@@ -1,5 +1,5 @@
-import type { RoleCategory, TravelType } from "@/features/travel-explorer/types/travel.types";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import type { RoleCategory, TravelType } from "@/types/travel.types";
 
 import { countrySourceFor } from "../../config";
 import { COLT_DATASET_URL, type ColtRow, fetchColtRows } from "../../sources/colt";

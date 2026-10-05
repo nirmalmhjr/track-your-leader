@@ -4,12 +4,7 @@ import type { ZoomTransform } from "d3-zoom";
 import { memo, useCallback, useId, useMemo } from "react";
 
 import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
-import {
-    DIMMED_ROUTE_OPACITY,
-    ROUTE_STYLES,
-} from "@/features/travel-explorer/constants/map-style.constants";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
-import type { Place, TravelRecord } from "@/features/travel-explorer/types/travel.types";
+import { DIMMED_ROUTE_OPACITY } from "@/features/travel-explorer/constants/map-style.constants";
 import {
     buildArcPath,
     type Point,
@@ -22,6 +17,9 @@ import type {
     RouteSegment,
     RouteTone,
 } from "@/features/travel-explorer/utils/map-scene.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { ROUTE_STYLES } from "@/lib/travel/travel.constants";
+import type { Place, TravelRecord } from "@/types/travel.types";
 
 interface RouteFocus {
     /** Official whose routes to emphasise (hovered card). */
@@ -210,7 +208,7 @@ export const MapRoutesLayer = memo(function RoutesLayer({
     height,
 }: MapRoutesLayerProps) {
     const maskId = useId();
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const toScreen = useCallback(
         (place: Place): Point | null => {
             const projected = projectCoordinates(place.coordinates);

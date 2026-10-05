@@ -1,34 +1,39 @@
-"use client";
+import { getTranslations } from "next-intl/server";
 
-import { useTranslations } from "next-intl";
-
-import { Badge } from "@/components/ui/badge";
+import { badgeVariants } from "@/components/ui/badge";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
-import type { Position } from "@/features/travel-explorer/types/travel.types";
+import type { TravelFormat } from "@/lib/travel/travel-format";
+import { getTravelFormat } from "@/lib/travel/travel-format.server";
 import { cn } from "@/lib/utils";
+import type { Position } from "@/types/travel.types";
 
-/** "March 2015 – October 2023", "Since …", "Until …" or "Present"-ended, whatever the source gives. */
-function useTenureLabel(position: Position): string {
-    const t = useTranslations("Leaders.profile");
-    const tOfficial = useTranslations("Explorer.official");
-    const format = useDirectoryFormat();
+interface TenureLabels {
+    present: string;
+    unknown: string;
+    until: (date: string) => string;
+}
+
+/** "March 2015 – October 2023", "Until …" or "Present"-ended, whatever the source gives. */
+const formatTenure = (position: Position, format: TravelFormat, labels: TenureLabels): string => {
     const { startDate, endDate } = position;
-
     if (startDate) {
-        const end = endDate ? format.monthYear(endDate) : t("present");
+        const end = endDate ? format.monthYear(endDate) : labels.present;
         return `${format.monthYear(startDate)} – ${end}`;
     }
     if (endDate) {
-        return tOfficial("until", { date: format.monthYear(endDate) });
+        return labels.until(format.monthYear(endDate));
     }
-    return t("dateUnknown");
+    return labels.unknown;
+};
+
+interface CareerEntryProps {
+    currentLabel: string;
+    portfolioLabel: string | null;
+    position: Position;
+    tenure: string;
 }
 
-function CareerEntry({ position }: { position: Position }) {
-    const tOfficial = useTranslations("Explorer.official");
-    const tPortfolio = useTranslations("Explorer.portfolios");
-    const tenure = useTenureLabel(position);
+function CareerEntry({ position, tenure, currentLabel, portfolioLabel }: CareerEntryProps) {
     const isCurrent = position.endDate === null;
 
     return (
@@ -44,25 +49,38 @@ function CareerEntry({ position }: { position: Position }) {
             />
             <div className="flex flex-wrap items-center gap-2">
                 <h3 className="font-medium leading-snug">{position.title}</h3>
-                {isCurrent ? <Badge variant="secondary">{tOfficial("current")}</Badge> : null}
+                {isCurrent ? (
+                    <span className={badgeVariants({ variant: "secondary" })}>{currentLabel}</span>
+                ) : null}
             </div>
             {position.ministry ? (
                 <p className="text-muted-foreground text-sm">{position.ministry}</p>
             ) : null}
             <p className="text-muted-foreground text-xs tabular-nums">{tenure}</p>
-            {position.portfolio ? (
-                <Badge className="mt-1 self-start" variant="outline">
-                    {tPortfolio(position.portfolio)}
-                </Badge>
+            {portfolioLabel ? (
+                <span
+                    className={badgeVariants({ className: "mt-1 self-start", variant: "outline" })}
+                >
+                    {portfolioLabel}
+                </span>
             ) : null}
         </li>
     );
 }
 
 /** Every position the official held, newest first, on a vertical timeline. */
-export function CareerTimeline({ positions }: { positions: readonly Position[] }) {
-    const t = useTranslations("Leaders.profile");
-    const format = useDirectoryFormat();
+export async function CareerTimeline({ positions }: { positions: readonly Position[] }) {
+    const [t, tOfficial, tPortfolio, format] = await Promise.all([
+        getTranslations("Leaders.profile"),
+        getTranslations("Explorer.official"),
+        getTranslations("Explorer.portfolios"),
+        getTravelFormat(),
+    ]);
+    const labels: TenureLabels = {
+        present: t("present"),
+        unknown: t("dateUnknown"),
+        until: (date) => tOfficial("until", { date }),
+    };
 
     return (
         <section aria-labelledby="career" className="flex flex-col gap-5">
@@ -76,7 +94,13 @@ export function CareerTimeline({ positions }: { positions: readonly Position[] }
             />
             <ol className="ml-1.5 border-l pl-6">
                 {positions.map((position) => (
-                    <CareerEntry key={position.id} position={position} />
+                    <CareerEntry
+                        currentLabel={tOfficial("current")}
+                        key={position.id}
+                        portfolioLabel={position.portfolio ? tPortfolio(position.portfolio) : null}
+                        position={position}
+                        tenure={formatTenure(position, format, labels)}
+                    />
                 ))}
             </ol>
         </section>

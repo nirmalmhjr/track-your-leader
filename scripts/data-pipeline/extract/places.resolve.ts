@@ -4,13 +4,13 @@ import { z } from "zod";
 
 import { placeSchema } from "@/features/travel-explorer/data/generated-data.schema";
 import { TRACKED_COUNTRIES } from "@/features/travel-explorer/data/tracked-countries";
-import type { Place } from "@/features/travel-explorer/types/travel.types";
 import {
     ALL_COUNTRY_REFERENCES,
     getCountryReference,
     getCountryRegion,
 } from "@/lib/geo/country-reference";
 import type { Coordinates, CountryCode } from "@/types/geo.types";
+import type { Place } from "@/types/travel.types";
 
 import { PIPELINE_CONFIG } from "../config";
 import { chunk } from "../lib/collections";

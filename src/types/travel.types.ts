@@ -1,3 +1,4 @@
+import type { OFFICE_GROUPS, OFFICIAL_GROUPS } from "@/lib/travel/travel.constants";
 import type { Coordinates, CountryCode, WorldRegion } from "@/types/geo.types";
 
 /** Calendar date without a time component, formatted as `YYYY-MM-DD`. */
@@ -119,4 +120,17 @@ export interface TravelRecord {
     startDate: IsoDate;
     status: TravelStatus;
     type: TravelType;
+}
+
+export type OfficialGroup = (typeof OFFICIAL_GROUPS)[number];
+
+export type OfficeGroup = (typeof OFFICE_GROUPS)[number];
+
+export interface TravelSummary {
+    countryCount: number;
+    daysAbroad: number;
+    lastTrip: TravelRecord | null;
+    nextTrip: TravelRecord | null;
+    tripCount: number;
+    upcomingCount: number;
 }

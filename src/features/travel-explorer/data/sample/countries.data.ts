@@ -1,5 +1,5 @@
-import type { RoleCategory } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { RoleCategory } from "@/types/travel.types";
 
 import type { SampleCityKey } from "./cities.data";
 

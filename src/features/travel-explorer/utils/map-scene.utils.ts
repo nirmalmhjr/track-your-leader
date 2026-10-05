@@ -2,18 +2,13 @@ import type {
     ExplorerSelection,
     SequentialScale,
 } from "@/features/travel-explorer/types/explorer.types";
-import type {
-    Place,
-    TrackedCountry,
-    TravelRecord,
-    TravelStatus,
-} from "@/features/travel-explorer/types/travel.types";
 import {
     buildSequentialScale,
     countTrips,
-    isFutureStatus,
 } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { isFutureStatus } from "@/lib/travel/travel-summary.utils";
 import type { CountryCode } from "@/types/geo.types";
+import type { Place, TrackedCountry, TravelRecord, TravelStatus } from "@/types/travel.types";
 
 export type MapMode = "world" | "outbound" | "inbound";
 export type RouteTone = "past" | "future" | "cancelled";

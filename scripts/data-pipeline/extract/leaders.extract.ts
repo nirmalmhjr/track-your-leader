@@ -1,9 +1,5 @@
-import type {
-    IsoDate,
-    Portfolio,
-    RoleCategory,
-} from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Portfolio, RoleCategory } from "@/types/travel.types";
 
 import { countrySourceFor } from "../config";
 import { chunk, groupBy } from "../lib/collections";

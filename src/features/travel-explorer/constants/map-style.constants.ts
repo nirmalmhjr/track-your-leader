@@ -1,20 +1,3 @@
-import type { TravelStatus } from "@/features/travel-explorer/types/travel.types";
-
-interface RouteStyle {
-    color: string;
-    /** SVG dash pattern; omitted for solid lines. Texture doubles the colour encoding. */
-    dashArray?: string;
-    opacity: number;
-    width: number;
-}
-
-export const ROUTE_STYLES: Readonly<Record<TravelStatus, RouteStyle>> = {
-    cancelled: { color: "var(--travel-cancelled)", dashArray: "2 4", opacity: 0.7, width: 1.2 },
-    completed: { color: "var(--travel-completed)", opacity: 0.9, width: 1.6 },
-    planned: { color: "var(--travel-upcoming)", dashArray: "0.5 4", opacity: 0.9, width: 2 },
-    upcoming: { color: "var(--travel-upcoming)", dashArray: "6 4", opacity: 0.95, width: 1.6 },
-};
-
 /** Sequential fills, lightest (fewest trips) first. */
 export const SEQUENTIAL_FILLS = [
     "var(--map-seq-1)",

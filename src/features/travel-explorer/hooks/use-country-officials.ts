@@ -3,8 +3,8 @@
 import { useMemo } from "react";
 
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import type { Official } from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { Official } from "@/types/travel.types";
 
 interface CountryOfficials {
     /** Officials passing the person-level filters (name, party, role, tenure), in dataset order. */

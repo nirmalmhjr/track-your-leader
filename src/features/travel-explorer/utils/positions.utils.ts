@@ -1,4 +1,4 @@
-import type { IsoDate, Official, Position } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate, Official, Position } from "@/types/travel.types";
 
 /**
  * Checks whether a position was held on a date. Positions without a known start date count as

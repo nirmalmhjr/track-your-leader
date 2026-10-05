@@ -1,10 +1,5 @@
-import type {
-    IsoDate,
-    Official,
-    TrackedCountry,
-    TravelRecord,
-} from "@/features/travel-explorer/types/travel.types";
 import type { CountryCode } from "@/types/geo.types";
+import type { IsoDate, Official, TrackedCountry, TravelRecord } from "@/types/travel.types";
 
 import { buildSampleTravelDataset } from "./sample/sample-dataset";
 import {

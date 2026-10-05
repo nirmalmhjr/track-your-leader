@@ -5,17 +5,17 @@ import { useTranslations } from "next-intl";
 import { Fragment, useCallback } from "react";
 
 import { CountryFlag } from "@/components/shared/country-flag";
+import { TravelStatusBadge } from "@/components/shared/travel-status";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { TravelStatusBadge } from "@/features/travel-explorer/components/travel-status";
-import { ROUTE_STYLES } from "@/features/travel-explorer/constants/map-style.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
-import type { TravelRecord } from "@/features/travel-explorer/types/travel.types";
-import { groupByYear } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { ROUTE_STYLES } from "@/lib/travel/travel.constants";
+import { groupByYear } from "@/lib/travel/travel-summary.utils";
 import { cn } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
+import type { TravelRecord } from "@/types/travel.types";
 
 interface TravelTimelineProps {
     onSelect: (record: TravelRecord) => void;
@@ -56,7 +56,7 @@ function TimelineEntry({
     showOfficial,
 }: Required<Omit<TravelTimelineProps, "records">> & { record: TravelRecord }) {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { officialById, today } = useExplorerData();
     const setHoveredRecordId = useExplorerUiStore((state) => state.setHoveredRecordId);
 
@@ -142,7 +142,7 @@ function YearEntries({
     ...entryOptions
 }: EntryOptions & { dividerRecordId: string | null; records: readonly TravelRecord[] }) {
     const t = useTranslations("Explorer.timeline");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { today } = useExplorerData();
 
     return (
@@ -179,7 +179,7 @@ function CollapsedYear({
     year: string;
 }) {
     const t = useTranslations("Explorer.timeline");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
 
     return (
         <Collapsible>
@@ -222,7 +222,7 @@ export function TravelTimeline({
     showOfficial = false,
 }: TravelTimelineProps) {
     const t = useTranslations("Explorer.timeline");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { today } = useExplorerData();
     const entryOptions = { onSelect, perspective, showOfficial };
     const currentYear = today.slice(0, 4);

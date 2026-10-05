@@ -1,13 +1,11 @@
-"use client";
-
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 import { DirectoryFooter } from "@/features/leaders/components/directory-footer";
 import { LeaderCard } from "@/features/leaders/components/leader-card";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
 import { StatTiles } from "@/features/leaders/components/stat-tiles";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
 import type { DirectoryContext, DirectoryOverview } from "@/features/leaders/types/leaders.types";
+import { getTravelFormat } from "@/lib/travel/travel-format.server";
 
 interface LandingViewProps {
     context: DirectoryContext;
@@ -15,9 +13,8 @@ interface LandingViewProps {
 }
 
 /** The directory's front page: what it holds and who has been travelling most. */
-export function LandingView({ overview, context }: LandingViewProps) {
-    const t = useTranslations("Leaders.landing");
-    const format = useDirectoryFormat();
+export async function LandingView({ overview, context }: LandingViewProps) {
+    const [t, format] = await Promise.all([getTranslations("Leaders.landing"), getTravelFormat()]);
 
     return (
         <>

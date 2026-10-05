@@ -5,9 +5,9 @@ import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 
 import { useDateRangeLabel } from "@/features/travel-explorer/hooks/use-date-range-label";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import type { ExplorerFilters } from "@/features/travel-explorer/types/explorer.types";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 
 interface FilterChip {
     id: string;
@@ -44,7 +44,7 @@ function FilterChipButton({
 /** One removable chip per active filter value, so it is always clear what narrows the data. */
 export function ActiveFilterChips() {
     const t = useTranslations("Explorer");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
     const { filters, setFilters } = useExplorerState();
 

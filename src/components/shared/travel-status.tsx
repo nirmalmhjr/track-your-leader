@@ -10,14 +10,10 @@ import {
 import { useTranslations } from "next-intl";
 
 import { Badge } from "@/components/ui/badge";
-import { ROUTE_STYLES } from "@/features/travel-explorer/constants/map-style.constants";
-import type {
-    IsoDate,
-    TravelRecord,
-    TravelStatus,
-} from "@/features/travel-explorer/types/travel.types";
-import { isTripInProgress } from "@/features/travel-explorer/utils/travel-aggregates.utils";
+import { ROUTE_STYLES } from "@/lib/travel/travel.constants";
+import { isTripInProgress } from "@/lib/travel/travel-summary.utils";
 import { cn } from "@/lib/utils";
+import type { IsoDate, TravelRecord, TravelStatus } from "@/types/travel.types";
 
 const STATUS_ICONS = {
     cancelled: IconCircleX,

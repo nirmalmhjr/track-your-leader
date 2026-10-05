@@ -1,4 +1,4 @@
-import type { IsoDate } from "@/features/travel-explorer/types/travel.types";
+import type { IsoDate } from "@/types/travel.types";
 
 import { mapWithConcurrency } from "../../lib/collections";
 import { isoFromParts, isValidDay } from "../../lib/dates";

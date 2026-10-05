@@ -1,56 +1,18 @@
-"use client";
-
-import { useTranslations } from "next-intl";
-import { useCallback, useState } from "react";
+import { getTranslations } from "next-intl/server";
 
 import { CountryFlag } from "@/components/shared/country-flag";
-import { Button } from "@/components/ui/button";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
+import { ChartCard } from "@/features/leaders/components/chart-card";
 import type { DestinationCount, YearCount } from "@/features/leaders/types/leaders.types";
 import { getCountryReference } from "@/lib/geo/country-reference";
+import { getTravelFormat } from "@/lib/travel/travel-format.server";
 import { cn } from "@/lib/utils";
 
 /** The columns grow with their card; this keeps them readable when the card is short. */
 const CHART_MIN_HEIGHT_PX = 128;
 
-/** Chart card: title, the chart, and a table twin so no value depends on hovering. */
-function ChartCard({
-    title,
-    id,
-    table,
-    children,
-}: {
-    children: React.ReactNode;
-    id: string;
-    table: React.ReactNode;
-    title: string;
-}) {
-    const t = useTranslations("Leaders.profile");
-    const [isTableShown, setTableShown] = useState(false);
-    const toggle = useCallback(() => setTableShown((shown) => !shown), []);
-
-    return (
-        <figure
-            aria-labelledby={id}
-            className="flex h-full flex-col gap-4 rounded-xl border bg-card p-4"
-        >
-            <div className="flex items-center justify-between gap-3">
-                <figcaption className="font-medium text-sm" id={id}>
-                    {title}
-                </figcaption>
-                <Button aria-expanded={isTableShown} onClick={toggle} size="xs" variant="ghost">
-                    {isTableShown ? t("hideTable") : t("showTable")}
-                </Button>
-            </div>
-            {isTableShown ? table : children}
-        </figure>
-    );
-}
-
 /** Trips per calendar year as columns rising from one baseline. */
-export function TripsPerYearChart({ years }: { years: readonly YearCount[] }) {
-    const t = useTranslations("Leaders.profile");
-    const format = useDirectoryFormat();
+export async function TripsPerYearChart({ years }: { years: readonly YearCount[] }) {
+    const [t, format] = await Promise.all([getTranslations("Leaders.profile"), getTravelFormat()]);
     const [first] = years;
     const peak = years.reduce((best, entry) => (entry.count > best.count ? entry : best), first);
     const last = years.at(-1) ?? first;
@@ -139,13 +101,12 @@ export function TripsPerYearChart({ years }: { years: readonly YearCount[] }) {
 }
 
 /** The countries visited most, as a ranked list of horizontal bars. */
-export function TopDestinationsChart({
+export async function TopDestinationsChart({
     destinations,
 }: {
     destinations: readonly DestinationCount[];
 }) {
-    const t = useTranslations("Leaders.profile");
-    const format = useDirectoryFormat();
+    const [t, format] = await Promise.all([getTranslations("Leaders.profile"), getTravelFormat()]);
     const max = destinations[0]?.count ?? 0;
 
     const table = (

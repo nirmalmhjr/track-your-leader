@@ -4,12 +4,12 @@ import { IconRoute, IconUsers } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 
+import { SettingsMenu } from "@/components/shared/settings-menu";
 import { badgeVariants } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
-import { LEADERS_PATH } from "@/features/leaders/utils/leaders-paths";
+import { ROUTES } from "@/configs/routes";
 import { ExplorerSearch } from "@/features/travel-explorer/components/header/explorer-search";
-import { ExplorerSettingsMenu } from "@/features/travel-explorer/components/header/explorer-settings-menu";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { Link } from "@/i18n/navigation";
@@ -63,13 +63,13 @@ export function ExplorerHeader() {
             <div className="ml-auto flex items-center gap-1.5">
                 <Link
                     className={buttonVariants({ size: "sm", variant: "ghost" })}
-                    href={LEADERS_PATH}
+                    href={ROUTES.LEADERS}
                 >
                     <IconUsers data-icon="inline-start" />
                     <span className="sr-only sm:not-sr-only">{tNav("leaders")}</span>
                 </Link>
                 <ExplorerSearch />
-                <ExplorerSettingsMenu />
+                <SettingsMenu />
             </div>
         </header>
     );

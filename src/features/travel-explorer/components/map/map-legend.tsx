@@ -3,18 +3,18 @@
 import { IconChevronDown } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 
+import { RouteLineKey } from "@/components/shared/travel-status";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
-import { RouteLineKey } from "@/features/travel-explorer/components/travel-status";
-import { TRAVEL_STATUSES } from "@/features/travel-explorer/constants/explorer.constants";
 import {
     COUNTRY_FILLS,
     SEQUENTIAL_FILLS,
 } from "@/features/travel-explorer/constants/map-style.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
-import { useExplorerFormat } from "@/features/travel-explorer/hooks/use-explorer-format";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import type { MapScene } from "@/features/travel-explorer/utils/map-scene.utils";
 import { useMediaQuery } from "@/hooks/use-media-query";
+import { useTravelFormat } from "@/hooks/use-travel-format";
+import { TRAVEL_STATUSES } from "@/lib/travel/travel.constants";
 
 function Swatch({ fill, label }: { fill: string; label: string }) {
     return (
@@ -32,7 +32,7 @@ function Swatch({ fill, label }: { fill: string; label: string }) {
 function LegendContent({ scene }: { scene: MapScene }) {
     const t = useTranslations("Explorer.map.legend");
     const tStatus = useTranslations("Explorer.statuses");
-    const format = useExplorerFormat();
+    const format = useTravelFormat();
     const { officialById } = useExplorerData();
     const { selection } = useExplorerState();
 

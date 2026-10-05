@@ -1,4 +1,4 @@
-import type { Portfolio, RoleCategory } from "@/features/travel-explorer/types/travel.types";
+import type { Portfolio, RoleCategory } from "@/types/travel.types";
 
 /**
  * Turns office titles from any source ("Min. of Foreign Affairs", "Chancellor of the Exchequer",

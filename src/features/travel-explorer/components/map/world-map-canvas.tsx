@@ -36,7 +36,6 @@ import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-
 import { type MapInsets, useMapZoom } from "@/features/travel-explorer/hooks/use-map-zoom";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { ExplorerSelection } from "@/features/travel-explorer/types/explorer.types";
-import type { TravelRecord } from "@/features/travel-explorer/types/travel.types";
 import {
     type Bounds,
     combineBounds,
@@ -54,6 +53,7 @@ import {
     type MapScene,
 } from "@/features/travel-explorer/utils/map-scene.utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
+import type { TravelRecord } from "@/types/travel.types";
 
 interface WorldMapCanvasProps {
     height: number;

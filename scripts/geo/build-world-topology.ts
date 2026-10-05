@@ -24,7 +24,7 @@ import { join, resolve } from "node:path";
 
 import type { FeatureCollection, Position } from "geojson";
 
-import { MAP_CONFIG } from "../../src/features/travel-explorer/constants/explorer.constants";
+import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
 
 const SOURCE_URL = "https://naciscdn.org/naturalearth/10m/cultural/ne_10m_admin_0_countries.zip";
 const SOURCE_SHAPEFILE = "ne_10m_admin_0_countries.shp";

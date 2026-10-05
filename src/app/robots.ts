@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { getBaseUrl } from "@/lib/utils";
+import { getBaseUrl } from "@/lib/base-url";
 
 /**
  * The `robots` function is used for robots.txt metadata used by search engines

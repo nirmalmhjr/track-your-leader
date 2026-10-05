@@ -8,14 +8,13 @@ import { CountryFlag } from "@/components/shared/country-flag";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
-import { useDirectoryFormat } from "@/features/leaders/hooks/use-directory-format";
+import { ROUTES } from "@/configs/routes";
 import type { CountryListItem } from "@/features/leaders/types/leaders.types";
-import { getCountryPath } from "@/features/leaders/utils/leaders-paths";
-import { normalizeSearchText } from "@/features/travel-explorer/utils/filters.utils";
+import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
-import { cn } from "@/lib/utils";
+import { cn, normalizeSearchText } from "@/lib/utils";
 import type { CountryCode } from "@/types/geo.types";
 
 const RAIL_SORTS = ["name", "officials", "trips"] as const;
@@ -41,7 +40,7 @@ interface CountryRailProps {
  */
 export function CountryRail({ countries, activeCode }: CountryRailProps) {
     const t = useTranslations("Leaders.rail");
-    const format = useDirectoryFormat();
+    const format = useTravelFormat();
     const [query, setQuery] = useState("");
     const [sort, setSort] = useState<RailSort>("name");
     const [isOpenOnPhone, setOpenOnPhone] = useState(false);
@@ -198,7 +197,7 @@ export function CountryRail({ countries, activeCode }: CountryRailProps) {
                                                 isActive &&
                                                     "bg-muted font-medium before:absolute before:inset-y-2 before:left-0 before:w-0.5 before:rounded-full before:bg-primary"
                                             )}
-                                            href={getCountryPath(row.code)}
+                                            href={ROUTES.leadersCountry(row.code)}
                                             ref={isActive ? activeRef : undefined}
                                         >
                                             <CountryFlag

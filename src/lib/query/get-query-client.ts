@@ -2,11 +2,13 @@ import { defaultShouldDehydrateQuery, isServer, QueryClient } from "@tanstack/re
 import { AxiosError } from "axios";
 import { cache } from "react";
 
+import { env } from "@/env/client";
+
 /**
  * Decide whether a query should retry
  */
 function shouldRetryQuery(failureCount: number, error: unknown) {
-    if (process.env.NODE_ENV === "development") {
+    if (env.NODE_ENV === "development") {
         console.log({ error, failureCount });
         return false;
     }
@@ -31,7 +33,7 @@ function makeQueryClient() {
             },
             queries: {
                 gcTime: 10 * 60 * 1000, // 10 minutes
-                refetchOnWindowFocus: process.env.NODE_ENV === "production",
+                refetchOnWindowFocus: env.NODE_ENV === "production",
                 retry: shouldRetryQuery,
                 staleTime: 5 * 60 * 1000, // 5 minutes
             },
