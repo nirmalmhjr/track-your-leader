@@ -161,6 +161,7 @@ export function WorldMapCanvas({
     const { selection, level, selectTrip, goUp, resetExplorer } = useExplorerState();
     const openCountry = useOpenCountry();
     const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);
+    const setPanelOpen = useExplorerUiStore((state) => state.setPanelOpen);
     // Highlights from the panel redraw the map at low priority, so scrolling and pointing at
     // long lists stay responsive while the map catches up.
     const hoveredCountryNow = useExplorerUiStore((state) => state.hoveredCountry);
@@ -341,6 +342,7 @@ export function WorldMapCanvas({
 
             const node = findNode(event.target);
             if (node) {
+                setPanelOpen(true);
                 selectTrip(node.latest);
                 return;
             }
@@ -374,6 +376,7 @@ export function WorldMapCanvas({
             selectTrip,
             selection.country,
             setFiltersOpen,
+            setPanelOpen,
         ]
     );
 
