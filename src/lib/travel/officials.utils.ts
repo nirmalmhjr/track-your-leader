@@ -11,6 +11,9 @@ const MINISTER_CATEGORIES = new Set<RoleCategory>(["minister", "junior_minister"
 
 const REGIONAL_CATEGORIES = new Set<RoleCategory>(["regional_leader", "local_leader"]);
 
+/** "Minister of ", "Minister for the ": the part of a minister's title before the portfolio. */
+const MINISTER_TITLE_PREFIX = /^minister (?:of|for) (?:the )?/i;
+
 /**
  * Whether a position is held today: it has no end date, and the source dated it at all.
  *
@@ -88,3 +91,46 @@ export const getCategoryGroup = (
     }
     return "officials";
 };
+
+/**
+ * Returns the other offices an official holds today, beside the one that describes them, such
+ * as the ministries a prime minister keeps. Parliamentary seats are left out: most ministers
+ * also sit in parliament, and the seat adds nothing next to their ministry.
+ *
+ * @param official - Official to inspect.
+ * @returns Current positions other than the primary one, newest first.
+ */
+export const getOtherCurrentPositions = (official: Official): Position[] => {
+    const primary = getPrimaryPosition(official);
+    return official.positions.filter(
+        (position) =>
+            position !== primary &&
+            isCurrentPosition(position) &&
+            !position.categories.includes("legislator")
+    );
+};
+
+/**
+ * Shortens a minister's title to the portfolio it names, for lists already headed "Portfolio".
+ *
+ * @param title - Position title, such as "Minister of Finance".
+ * @returns "Finance"; titles that don't follow the "Minister of" pattern come back unchanged.
+ */
+export const getPortfolioName = (title: string): string => {
+    const portfolio = title.replace(MINISTER_TITLE_PREFIX, "");
+    if (portfolio === title || portfolio.length === 0) {
+        return title;
+    }
+    return `${portfolio.charAt(0).toUpperCase()}${portfolio.slice(1)}`;
+};
+
+/**
+ * Returns the most senior kind of office a position carries, for a one-word label.
+ *
+ * @param position - Position to inspect.
+ * @returns Its most senior category, such as `central_banker` or `diplomat`.
+ */
+export const getLeadingCategory = (position: Pick<Position, "categories">): RoleCategory =>
+    position.categories.reduce((best, category) =>
+        ROLE_RANK[category] < ROLE_RANK[best] ? category : best
+    );

@@ -25,6 +25,18 @@ export interface LeaderEntry {
     summary: TravelSummary;
 }
 
+/** The In office tab's sections, each most senior first. */
+export interface InOfficeGroups {
+    /** Heads of state and government and their deputies. */
+    leadership: LeaderEntry[];
+    ministers: LeaderEntry[];
+    /** Everyone else in office: senior officials, diplomats, regional leaders, legislators. */
+    others: LeaderEntry[];
+}
+
+/** Colour class of each party's chip and bar segment, by party name. */
+export type PartyColors = ReadonlyMap<string, string>;
+
 /** A tracked leader ranked by how much they travelled recently. */
 export interface TopTraveller extends LeaderEntry {
     recentTripCount: number;

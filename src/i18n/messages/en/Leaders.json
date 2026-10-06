@@ -55,8 +55,27 @@
       "former": "Former",
       "people": "Everyone on record"
     },
-    "inOfficeTitle": "In office",
-    "inOfficeCaption": "Most senior first",
+    "leadershipTitle": "Leadership",
+    "leadershipCaption": "Head of state, head of government and their deputies",
+    "cabinetTitle": "Cabinet",
+    "cabinetCaption": "{count, plural, one {{countLabel} minister} other {{countLabel} ministers}}",
+    "othersTitle": "Other officials",
+    "othersCaption": "Senior officials, diplomats, regional leaders, legislators and judges",
+    "cabinetColumns": {
+      "portfolio": "Portfolio",
+      "minister": "Minister",
+      "party": "Party",
+      "since": "Since",
+      "trips": "Trips"
+    },
+    "partyBreakdown": {
+      "title": "Cabinet by party",
+      "known": "Party known for {knownLabel} of {totalLabel}",
+      "notRecorded": "Party not recorded"
+    },
+    "notRecorded": "Not recorded",
+    "lastTrip": "Last trip: {place}, {date}",
+    "nextTrip": "Next trip: {place}, {date}",
     "noneInOffice": "No one from {country} is recorded as holding office today.",
     "formerTitle": "Former officials",
     "formerCaption": "Earlier holders of each office",
@@ -71,7 +90,8 @@
     "holders": "{count, plural, one {{countLabel} holder} other {{countLabel} holders}}",
     "showAllTerms": "Show all {countLabel}",
     "showFewerTerms": "Show fewer",
-    "showMoreLeaders": "Show {count, plural, one {{countLabel} more official} other {{countLabel} more officials}}",
+    "showMoreMinisters": "Show {count, plural, one {{countLabel} more minister} other {{countLabel} more ministers}}",
+    "showMoreOfficials": "Show {count, plural, one {{countLabel} more official} other {{countLabel} more officials}}",
     "showMoreOffices": "Show {count, plural, one {{countLabel} more office} other {{countLabel} more offices}}",
     "showMoreYears": "Show {count, plural, one {{countLabel} more year} other {{countLabel} more years}}",
     "leftOffice": "{count, plural, one {{countLabel} term ended} other {{countLabel} terms ended}}",
@@ -96,7 +116,10 @@
     "inOffice": "In office",
     "inOfficeSince": "In office · since {year}",
     "former": "Former",
-    "formerYears": "Former · {years}"
+    "formerYears": "Former · {years}",
+    "since": "Since {year}",
+    "also": "Also",
+    "partyNotRecorded": "Party not recorded"
   },
   "profile": {
     "breadcrumb": "Breadcrumb",

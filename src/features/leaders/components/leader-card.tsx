@@ -5,21 +5,31 @@ import { useTranslations } from "next-intl";
 import { CountryFlag } from "@/components/shared/country-flag";
 import { OfficialAvatar } from "@/components/shared/official-avatar";
 import { ROUTES } from "@/configs/routes";
-import type { LeaderEntry } from "@/features/leaders/types/leaders.types";
+import { PartyChip } from "@/features/leaders/components/party-chip";
+import type { LeaderEntry, PartyColors } from "@/features/leaders/types/leaders.types";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getTermYears } from "@/lib/travel/offices.utils";
-import { getPrimaryPosition, isCurrentPosition } from "@/lib/travel/officials.utils";
+import {
+    getOtherCurrentPositions,
+    getPortfolioName,
+    getPrimaryPosition,
+    isCurrentPosition,
+} from "@/lib/travel/officials.utils";
 import { cn } from "@/lib/utils";
-import type { Position, TravelRecord } from "@/types/travel.types";
+import type { Official, Position, TravelRecord } from "@/types/travel.types";
 
 interface LeaderCardProps {
     entry: LeaderEntry;
     /** Headline figure; defaults to the official's trip count. */
     figure?: { label: string; value: number };
+    /** Colours of the party chips; with them, the party shows as a chip, or as unrecorded. */
+    partyColors?: PartyColors;
     /** Show the official's country; redundant on a country's own page. */
     showCountry?: boolean;
+    /** Say "In office" or "Former" before the years; redundant under an "In office" heading. */
+    showStatus?: boolean;
 }
 
 function TripLine({
@@ -57,8 +67,11 @@ function TripLine({
     );
 }
 
-/** "In office · since 2025" or "Former · 2017 – 2021", falling back to the bare status. */
-function TenureLine({ position }: { position: Position }) {
+/**
+ * "In office · since 2025" or "Former · 2017 – 2021", falling back to the bare status. Without
+ * the status it is just "Since 2025", or nothing when the start isn't recorded.
+ */
+function TenureLine({ position, showStatus }: { position: Position; showStatus: boolean }) {
     const t = useTranslations("Leaders.card");
     const format = useTravelFormat();
     const isInOffice = isCurrentPosition(position);
@@ -66,8 +79,10 @@ function TenureLine({ position }: { position: Position }) {
     const startYear = start ? format.year(start) : null;
     const endYear = end ? format.year(end) : null;
 
-    let label: string;
-    if (isInOffice) {
+    let label: string | null;
+    if (isInOffice && !showStatus) {
+        label = startYear ? t("since", { year: startYear }) : null;
+    } else if (isInOffice) {
         label = startYear ? t("inOfficeSince", { year: startYear }) : t("inOffice");
     } else {
         const years =
@@ -75,6 +90,9 @@ function TenureLine({ position }: { position: Position }) {
                 ? `${startYear} – ${endYear}`
                 : (endYear ?? startYear);
         label = years ? t("formerYears", { years }) : t("former");
+    }
+    if (!label) {
+        return null;
     }
 
     return (
@@ -98,8 +116,32 @@ function TenureLine({ position }: { position: Position }) {
     );
 }
 
+/** "Also Defence · Home Affairs": the other offices an official holds today, if any. */
+function OtherOfficesLine({ official }: { official: Official }) {
+    const t = useTranslations("Leaders.card");
+    const others = getOtherCurrentPositions(official);
+    if (others.length === 0) {
+        return null;
+    }
+
+    return (
+        <span className="line-clamp-2 text-muted-foreground text-xs leading-snug">
+            {t("also")}{" "}
+            <span className="font-medium text-foreground">
+                {others.map((position) => getPortfolioName(position.title)).join(" · ")}
+            </span>
+        </span>
+    );
+}
+
 /** A leader as a card linking to their profile, with their travel at a glance. */
-export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardProps) {
+export function LeaderCard({
+    entry,
+    figure,
+    partyColors,
+    showCountry = false,
+    showStatus = true,
+}: LeaderCardProps) {
     const t = useTranslations("Leaders.card");
     const format = useTravelFormat();
     const { official, summary } = entry;
@@ -120,8 +162,16 @@ export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardPro
                     <span className="line-clamp-2 text-muted-foreground text-sm leading-snug">
                         {position.title}
                     </span>
-                    <TenureLine position={position} />
-                    {showCountry || official.party ? (
+                    <TenureLine position={position} showStatus={showStatus} />
+                    <OtherOfficesLine official={official} />
+                    {partyColors ? (
+                        <PartyChip
+                            className="mt-1 self-start"
+                            colors={partyColors}
+                            party={official.party}
+                        />
+                    ) : null}
+                    {showCountry || (official.party && !partyColors) ? (
                         <span className="mt-1 flex min-w-0 items-center gap-1.5 text-muted-foreground text-xs">
                             {showCountry ? (
                                 <CountryFlag alpha2={reference?.alpha2} size="sm" />
@@ -129,7 +179,7 @@ export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardPro
                             <span className="truncate">
                                 {[
                                     showCountry ? format.countryName(official.countryCode) : null,
-                                    official.party,
+                                    partyColors ? null : official.party,
                                 ]
                                     .filter(Boolean)
                                     .join(" · ")}

@@ -1,16 +1,28 @@
+import {
+    OTHER_PARTY_COLOR_CLASS,
+    PARTY_COLOR_CLASSES,
+} from "@/features/leaders/constants/leaders.constants";
 import type {
     CountryDirectory,
     CountryListItem,
     DestinationCount,
     DirectoryOverview,
+    InOfficeGroups,
     LeaderEntry,
+    PartyColors,
     TopTraveller,
     YearCount,
 } from "@/features/leaders/types/leaders.types";
 import type { TravelBase } from "@/features/travel-explorer/data/travel-index";
 import { addMonths } from "@/lib/travel/date.utils";
 import { countTenure } from "@/lib/travel/offices.utils";
-import { getCurrentPosition, getOfficialRank } from "@/lib/travel/officials.utils";
+import {
+    getCategoryGroup,
+    getCurrentPosition,
+    getOfficialRank,
+    getPrimaryPosition,
+} from "@/lib/travel/officials.utils";
+import type { PartyCount } from "@/lib/travel/party.utils";
 import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { CountryCode } from "@/types/geo.types";
 import type { IsoDate, Official, TravelRecord } from "@/types/travel.types";
@@ -244,3 +256,43 @@ export const sortCountriesByName = (
 /** Newest trip first; ties broken by id so the order is stable. */
 export const compareNewestFirst = (a: TravelRecord, b: TravelRecord): number =>
     b.startDate.localeCompare(a.startDate) || a.id.localeCompare(b.id);
+
+/**
+ * Splits the leaders in office into the In office tab's sections, keeping their order.
+ *
+ * @param entries - Leaders in office, most senior first.
+ * @returns Leadership, ministers, and everyone else.
+ */
+export const splitInOffice = (entries: readonly LeaderEntry[]): InOfficeGroups => {
+    const groups: InOfficeGroups = { leadership: [], ministers: [], others: [] };
+    for (const entry of entries) {
+        const group = getCategoryGroup(getPrimaryPosition(entry.official).categories);
+        if (group === "leadership") {
+            groups.leadership.push(entry);
+        } else if (group === "ministers") {
+            groups.ministers.push(entry);
+        } else {
+            groups.others.push(entry);
+        }
+    }
+    return groups;
+};
+
+/**
+ * Gives each party a colour in the order the counts list them, so the largest parties get the
+ * most distinct colours. A party listed twice keeps its first colour; parties beyond the
+ * palette share a neutral one.
+ *
+ * @param counts - Party counts, most important first; may repeat parties.
+ * @returns Colour class per party name. Unrecorded parties have no entry.
+ */
+export const assignPartyColors = (counts: readonly PartyCount[]): PartyColors => {
+    const colors = new Map<string, string>();
+    for (const { party } of counts) {
+        if (party === null || colors.has(party)) {
+            continue;
+        }
+        colors.set(party, PARTY_COLOR_CLASSES[colors.size] ?? OTHER_PARTY_COLOR_CLASS);
+    }
+    return colors;
+};

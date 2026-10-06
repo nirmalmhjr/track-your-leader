@@ -55,8 +55,27 @@
       "former": "पूर्व",
       "people": "अभिलेखमा रहेका सबै"
     },
-    "inOfficeTitle": "बहालवाला",
-    "inOfficeCaption": "वरिष्ठता अनुसार",
+    "leadershipTitle": "नेतृत्व",
+    "leadershipCaption": "राष्ट्र प्रमुख, सरकार प्रमुख र उपप्रमुखहरू",
+    "cabinetTitle": "मन्त्रिपरिषद्",
+    "cabinetCaption": "{count, plural, other {{countLabel} मन्त्री}}",
+    "othersTitle": "अन्य पदाधिकारी",
+    "othersCaption": "वरिष्ठ अधिकारी, कूटनीतिज्ञ, प्रादेशिक नेता, सांसद र न्यायाधीश",
+    "cabinetColumns": {
+      "portfolio": "मन्त्रालय",
+      "minister": "मन्त्री",
+      "party": "दल",
+      "since": "देखि",
+      "trips": "भ्रमण"
+    },
+    "partyBreakdown": {
+      "title": "दलगत मन्त्रिपरिषद्",
+      "known": "{totalLabel} मध्ये {knownLabel} जनाको दल थाहा छ",
+      "notRecorded": "दल अभिलेखमा छैन"
+    },
+    "notRecorded": "अभिलेखमा छैन",
+    "lastTrip": "पछिल्लो भ्रमण: {place}, {date}",
+    "nextTrip": "अर्को भ्रमण: {place}, {date}",
     "noneInOffice": "{country}बाट अहिले पदमा रहेको कोही अभिलेखमा छैन।",
     "formerTitle": "पूर्व पदाधिकारी",
     "formerCaption": "हरेक पदका पहिलेका पदाधिकारी",
@@ -71,7 +90,8 @@
     "holders": "{count, plural, other {{countLabel} पदाधिकारी}}",
     "showAllTerms": "सबै {countLabel} देखाउनुहोस्",
     "showFewerTerms": "कम देखाउनुहोस्",
-    "showMoreLeaders": "थप {count, plural, other {{countLabel} पदाधिकारी}} देखाउनुहोस्",
+    "showMoreMinisters": "थप {count, plural, other {{countLabel} मन्त्री}} देखाउनुहोस्",
+    "showMoreOfficials": "थप {count, plural, other {{countLabel} पदाधिकारी}} देखाउनुहोस्",
     "showMoreOffices": "थप {count, plural, other {{countLabel} पद}} देखाउनुहोस्",
     "showMoreYears": "थप {count, plural, other {{countLabel} वर्ष}} देखाउनुहोस्",
     "leftOffice": "{count, plural, other {{countLabel} कार्यकाल सकिए}}",
@@ -96,7 +116,10 @@
     "inOffice": "बहालवाला",
     "inOfficeSince": "बहालवाला · {year} देखि",
     "former": "पूर्व",
-    "formerYears": "पूर्व · {years}"
+    "formerYears": "पूर्व · {years}",
+    "since": "{year} देखि",
+    "also": "साथै",
+    "partyNotRecorded": "दल अभिलेखमा छैन"
   },
   "profile": {
     "breadcrumb": "मार्ग",

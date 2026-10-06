@@ -2,6 +2,11 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 
 import {
+    OTHER_PARTY_COLOR_CLASS,
+    PARTY_COLOR_CLASSES,
+} from "@/features/leaders/constants/leaders.constants";
+import {
+    assignPartyColors,
     buildCountryDirectory,
     buildCountryList,
     buildOverview,
@@ -9,8 +14,10 @@ import {
     groupRecordsByOfficial,
     parseCountryParam,
     rankDestinations,
+    splitInOffice,
 } from "@/features/leaders/utils/leaders.utils";
 import type { TravelBase } from "@/features/travel-explorer/data/travel-index";
+import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type {
     Official,
     Place,
@@ -182,4 +189,40 @@ test("rankDestinations orders countries by trips and respects the limit", () => 
         { count: 2, countryCode: "IND" },
         { count: 1, countryCode: "CHN" },
     ]);
+});
+
+test("splitInOffice sorts leaders into leadership, ministers and everyone else", () => {
+    const ambassador = official("ambassador", "NPL", [
+        position({ categories: ["diplomat"], title: "Ambassador" }),
+    ]);
+    const entries = [president, minister, ambassador].map((entry) => ({
+        official: entry,
+        summary: summarizeTravel([]),
+    }));
+    const groups = splitInOffice(entries);
+    assert.deepEqual(
+        groups.leadership.map((entry) => entry.official.id),
+        ["president"]
+    );
+    assert.deepEqual(
+        groups.ministers.map((entry) => entry.official.id),
+        ["minister"]
+    );
+    assert.deepEqual(
+        groups.others.map((entry) => entry.official.id),
+        ["ambassador"]
+    );
+});
+
+test("assignPartyColors keeps each party's first colour and shares one past the palette", () => {
+    const parties = ["A", "B", "C", "D", "E", "F"];
+    const colors = assignPartyColors([
+        ...parties.map((party) => ({ count: 1, party })),
+        { count: 4, party: "A" },
+        { count: 2, party: null },
+    ]);
+    assert.equal(colors.get("A"), PARTY_COLOR_CLASSES[0]);
+    assert.equal(colors.get("E"), PARTY_COLOR_CLASSES[4]);
+    assert.equal(colors.get("F"), OTHER_PARTY_COLOR_CLASS);
+    assert.equal(colors.size, parties.length);
 });

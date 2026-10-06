@@ -1,7 +1,12 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { getPrimaryPosition } from "@/lib/travel/officials.utils";
+import {
+    getLeadingCategory,
+    getOtherCurrentPositions,
+    getPortfolioName,
+    getPrimaryPosition,
+} from "@/lib/travel/officials.utils";
 import type { Official, Position } from "@/types/travel.types";
 
 const position = (overrides: Partial<Position>): Position => ({
@@ -46,4 +51,32 @@ test("undated offices aren't taken for current ones", () => {
     const undated = position({ endDate: null, undated: true });
     const minister = position({ categories: ["minister"], title: "Minister of Finance" });
     assert.equal(getPrimaryPosition(official([undated, minister])), minister);
+});
+
+test("other current offices leave out the primary one, past offices and seats", () => {
+    const pm = position({ categories: ["head_of_government"], endDate: null, title: "PM" });
+    const defence = position({ categories: ["minister"], endDate: null, title: "Defence" });
+    const seat = position({ endDate: null, title: "Member of the House" });
+    const pastMinistry = position({ categories: ["minister"], title: "Home Affairs" });
+    assert.deepEqual(getOtherCurrentPositions(official([pm, defence, seat, pastMinistry])), [
+        defence,
+    ]);
+});
+
+test("a former official holds no other current office", () => {
+    assert.deepEqual(getOtherCurrentPositions(official([position({})])), []);
+});
+
+test("portfolio names drop the minister prefix", () => {
+    assert.equal(getPortfolioName("Minister of Finance"), "Finance");
+    assert.equal(getPortfolioName("Minister for the environment"), "Environment");
+    assert.equal(getPortfolioName("Secretary of State"), "Secretary of State");
+    assert.equal(getPortfolioName("Minister of "), "Minister of ");
+});
+
+test("the leading category is the most senior one", () => {
+    assert.equal(
+        getLeadingCategory(position({ categories: ["legislator", "regional_leader", "minister"] })),
+        "minister"
+    );
 });

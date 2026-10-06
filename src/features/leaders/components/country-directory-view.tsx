@@ -5,13 +5,11 @@ import { useTranslations } from "next-intl";
 import { parseAsStringLiteral, useQueryState } from "nuqs";
 import { useCallback, useDeferredValue, useState } from "react";
 
-import { ShowMoreButton } from "@/components/shared/show-more-button";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CountryPeople } from "@/features/leaders/components/country-people";
 import { FormerOfficialsDirectory } from "@/features/leaders/components/former-officials-directory";
-import { LeaderCard } from "@/features/leaders/components/leader-card";
-import { SectionHeading } from "@/features/leaders/components/section-heading";
+import { InOfficeDirectory } from "@/features/leaders/components/in-office-directory";
 import {
     COUNTRY_TAB_PARAM,
     COUNTRY_TABS,
@@ -22,9 +20,6 @@ import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCurrentPosition } from "@/lib/travel/officials.utils";
 import { normalizeSearchText } from "@/lib/utils";
 import type { Official } from "@/types/travel.types";
-
-/** Leader cards rendered per page. */
-const CARD_PAGE_SIZE = 12;
 
 const tabParser = parseAsStringLiteral(COUNTRY_TABS)
     .withDefault("in-office")
@@ -48,7 +43,6 @@ export function CountryDirectoryView({ directory }: { directory: CountryDirector
     const [tab, setTab] = useQueryState(COUNTRY_TAB_PARAM, tabParser);
     const [query, setQuery] = useState("");
     const deferredQuery = useDeferredValue(query);
-    const [shownCards, setShownCards] = useState(CARD_PAGE_SIZE);
     const countryName = format.countryName(directory.country.code);
 
     const needle = normalizeSearchText(deferredQuery);
@@ -69,10 +63,7 @@ export function CountryDirectoryView({ directory }: { directory: CountryDirector
     );
     const handleQueryChange = useCallback((event: React.ChangeEvent<HTMLInputElement>) => {
         setQuery(event.target.value);
-        setShownCards(CARD_PAGE_SIZE);
     }, []);
-    const showMoreCards = useCallback(() => setShownCards((count) => count + CARD_PAGE_SIZE), []);
-    const remainingCards = inOffice.length - shownCards;
     const noMatch = t("noMatch", { query: deferredQuery.trim() });
 
     return (
@@ -110,35 +101,13 @@ export function CountryDirectoryView({ directory }: { directory: CountryDirector
                 </div>
             </div>
 
-            <TabsContent className="flex flex-col gap-4" keepMounted value="in-office">
-                <SectionHeading
-                    caption={t("inOfficeCaption")}
-                    id="in-office"
-                    title={t("inOfficeTitle")}
+            <TabsContent keepMounted value="in-office">
+                <InOfficeDirectory
+                    allEntries={directory.inOffice}
+                    countryName={countryName}
+                    entries={inOffice}
+                    noMatchLabel={needle ? noMatch : null}
                 />
-                {inOffice.length === 0 ? (
-                    <p className="rounded-xl border border-dashed p-6 text-center text-muted-foreground text-sm">
-                        {needle ? noMatch : t("noneInOffice", { country: countryName })}
-                    </p>
-                ) : (
-                    <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-                        {inOffice.slice(0, shownCards).map((entry) => (
-                            <li key={entry.official.id}>
-                                <LeaderCard entry={entry} />
-                            </li>
-                        ))}
-                    </ul>
-                )}
-                {remainingCards > 0 ? (
-                    <ShowMoreButton
-                        label={t("showMoreLeaders", {
-                            count: remainingCards,
-                            countLabel: format.number(remainingCards),
-                        })}
-                        onShowMore={showMoreCards}
-                        shownCount={shownCards}
-                    />
-                ) : null}
             </TabsContent>
 
             <TabsContent keepMounted value="former">
