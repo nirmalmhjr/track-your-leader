@@ -1899,6 +1899,10 @@
       "purpose": "Visit to Poland",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Poland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -2080,6 +2084,10 @@
       "officialId": "benedict-xvi",
       "purpose": "Visit to Brazil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Holy_See_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3393,6 +3401,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -3745,6 +3757,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-paul-ii--1979-01-01--MEX",
+      "officialId": "john-paul-ii",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1979-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -3771,6 +3811,90 @@
       "startDate": "1979-10-06",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-paul-ii--1980-01-01--BRA",
+      "officialId": "john-paul-ii",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Holy_See_relations"
+        }
+      ],
+      "startDate": "1980-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1982-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-paul-ii--1982-01-01--ARG",
+      "officialId": "john-paul-ii",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Holy_See_relations"
+        }
+      ],
+      "startDate": "1982-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-paul-ii--1985-01-01--PER",
+      "officialId": "john-paul-ii",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "1985-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -4484,6 +4608,10 @@
       "officialId": "john-paul-ii",
       "purpose": "Visit to Poland",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Poland_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9119,6 +9247,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Rio de Janeiro",
+        "coordinates": [
+          -43.205555555,
+          -22.911111111
+        ],
+        "countryCode": "BRA",
+        "region": "Americas"
+      },
+      "endDate": "2024-11-19",
+      "engagements": [],
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "pietro-parolin--2024-11-16--BRA",
+      "officialId": "pietro-parolin",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
+        }
+      ],
+      "startDate": "2024-11-16",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -9195,6 +9350,10 @@
       "officialId": "pope-francis",
       "purpose": "Visit to Brazil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Holy_See_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10116,6 +10275,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10208,6 +10371,10 @@
       "officialId": "pope-francis",
       "purpose": "Visit to Poland",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Poland_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10713,6 +10880,10 @@
       "officialId": "pope-francis",
       "purpose": "Visit to Peru",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Holy_See%E2%80%93Peru_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12359,31 +12530,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "Fasano",
         "coordinates": [
-          12.4964,
-          41.9028
+          17.366666666,
+          40.833333333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-06-14",
+      "endDate": "2024-06-15",
       "engagements": [
         "Met Prime Minister Giorgia Meloni",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
-      "id": "pope-francis--2024-06-14--ITA",
+      "eventName": "50th G7 summit",
+      "id": "pope-francis--2024-06-13--ITA",
       "officialId": "pope-francis",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 50th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/50th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-06-14",
+      "startDate": "2024-06-13",
       "statusHint": null,
       "type": "summit"
     },

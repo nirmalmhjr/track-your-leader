@@ -527,6 +527,50 @@
       "wikidataId": "Q338030"
     },
     {
+      "aliases": [],
+      "countryCode": "SWZ",
+      "fullName": "Mgwagwa Gamedze",
+      "id": "mgwagwa-gamedze",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mgwagwa_Gamedze_2017.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2023-11-04",
+          "id": "mgwagwa-gamedze-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2023-09-28",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2018-01-01",
+          "id": "mgwagwa-gamedze-p2",
+          "ministry": "Ministry of Foreign Affairs",
+          "portfolio": "foreign_affairs",
+          "startDate": "2013-01-01",
+          "title": "Minister of Foreign Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q108461966"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mgwagwa_Gamedze"
+        }
+      ],
+      "summary": "Mgwagwa Gamedze is a statesman from Eswatini who served as acting Prime Minister of Eswatini from 28 September 2023 to 4 November 2023. He was succeeded by Russell Dlamini, the former CEO of the National Disaster Management Agency.",
+      "wikidataId": "Q108461966"
+    },
+    {
       "aliases": [
         "Obed Mfanyana Dlamini",
         "Prince Obed Mfanyana Dlamini"
@@ -829,6 +873,17 @@
           "ministry": null,
           "portfolio": null,
           "startDate": "2020-12-13",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2021-07-19",
+          "id": "themba-nhlanganiso-masuku-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-12-13",
           "title": "Prime Minister of Eswatini"
         },
         {
@@ -836,7 +891,7 @@
             "deputy_leader"
           ],
           "endDate": "2013-01-01",
-          "id": "themba-nhlanganiso-masuku-p3",
+          "id": "themba-nhlanganiso-masuku-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2008-01-01",
@@ -847,7 +902,7 @@
             "minister"
           ],
           "endDate": "1998-11-01",
-          "id": "themba-nhlanganiso-masuku-p4",
+          "id": "themba-nhlanganiso-masuku-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "1996-11-01",
@@ -858,7 +913,7 @@
             "minister"
           ],
           "endDate": "1996-01-01",
-          "id": "themba-nhlanganiso-masuku-p5",
+          "id": "themba-nhlanganiso-masuku-p6",
           "ministry": "Ministry of Economic Planning of Eswatini",
           "portfolio": null,
           "startDate": "1993-01-01",
@@ -1950,39 +2005,6 @@
       ],
       "summary": "",
       "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "SWZ",
-      "fullName": "Mgwagwa Gamedze",
-      "id": "mgwagwa-gamedze",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mgwagwa_Gamedze_2017.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2018-01-01",
-          "id": "mgwagwa-gamedze-p1",
-          "ministry": "Ministry of Foreign Affairs",
-          "portfolio": "foreign_affairs",
-          "startDate": "2013-01-01",
-          "title": "Minister of Foreign Affairs"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q108461966"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Mgwagwa_Gamedze"
-        }
-      ],
-      "summary": "Mgwagwa Gamedze is a statesman from Eswatini who served as acting Prime Minister of Eswatini from 28 September 2023 to 4 November 2023. He was succeeded by Russell Dlamini, the former CEO of the National Disaster Management Agency.",
-      "wikidataId": "Q108461966"
     },
     {
       "aliases": [],
@@ -3207,6 +3229,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "barnabas-sibusiso-dlamini--2011-10-28--AUS",
+      "officialId": "barnabas-sibusiso-dlamini",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "barnabas-sibusiso-dlamini--2013-11-15--LKA",
+      "officialId": "barnabas-sibusiso-dlamini",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -3257,6 +3333,33 @@
       "startDate": "2016-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "2018-04-20",
+      "engagements": [],
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "barnabas-sibusiso-dlamini--2018-04-19--GBR",
+      "officialId": "barnabas-sibusiso-dlamini",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2018-04-19",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -3424,6 +3527,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "lutfo-dlamini--2012-08-26--IRN",
+      "officialId": "lutfo-dlamini",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -3448,6 +3578,115 @@
       "startDate": "1968-09-18",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "makhosini-dlamini--1971-01-14--SGP",
+      "officialId": "makhosini-dlamini",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "makhosini-dlamini--1973-08-02--CAN",
+      "officialId": "makhosini-dlamini",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [
+          -76.793055555,
+          17.971388888
+        ],
+        "countryCode": "JAM",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-06",
+      "engagements": [],
+      "eventName": "1975 Commonwealth Heads of Government Meeting",
+      "id": "makhosini-dlamini--1975-04-29--JAM",
+      "officialId": "makhosini-dlamini",
+      "purpose": "Attended the 1975 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "maphevu-dlamini--1977-06-08--GBR",
+      "officialId": "maphevu-dlamini",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "month",
@@ -4835,6 +5074,33 @@
       "startDate": "2002-02-26",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "mswati-iii--2002-03-02--AUS",
+      "officialId": "mswati-iii",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8037,18 +8303,21 @@
           40.366655555
         ],
         "countryCode": "AZE",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2019-10-28",
+      "endDate": "2019-10-26",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
+      "eventName": "18th Summit of the Non-Aligned Movement",
       "id": "mswati-iii--2019-10-25--AZE",
       "officialId": "mswati-iii",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8097,24 +8366,27 @@
           -1.9525
         ],
         "countryCode": "RWA",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2022-06-27",
+      "endDate": "2022-06-25",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "mswati-iii--2022-06-23--RWA",
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "mswati-iii--2022-06-24--RWA",
       "officialId": "mswati-iii",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-23",
+      "startDate": "2022-06-24",
       "statusHint": null,
       "type": "summit"
     },

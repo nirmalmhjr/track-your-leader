@@ -60,11 +60,22 @@
         },
         {
           "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2003-01-01",
+          "id": "bernard-dowiyogo-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2003-01-01",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
             "head_of_state",
             "head_of_government"
           ],
           "endDate": "2001-03-30",
-          "id": "bernard-dowiyogo-p2",
+          "id": "bernard-dowiyogo-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2000-04-20",
@@ -75,7 +86,7 @@
             "minister"
           ],
           "endDate": "2000-05-01",
-          "id": "bernard-dowiyogo-p3",
+          "id": "bernard-dowiyogo-p4",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "2000-04-01",
@@ -87,7 +98,7 @@
             "head_of_government"
           ],
           "endDate": "1999-04-27",
-          "id": "bernard-dowiyogo-p4",
+          "id": "bernard-dowiyogo-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "1998-06-18",
@@ -99,7 +110,7 @@
             "head_of_government"
           ],
           "endDate": "1996-11-26",
-          "id": "bernard-dowiyogo-p5",
+          "id": "bernard-dowiyogo-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": "1996-11-11",
@@ -111,7 +122,7 @@
             "head_of_government"
           ],
           "endDate": "1995-11-22",
-          "id": "bernard-dowiyogo-p6",
+          "id": "bernard-dowiyogo-p7",
           "ministry": null,
           "portfolio": null,
           "startDate": "1989-12-12",
@@ -123,7 +134,7 @@
             "head_of_government"
           ],
           "endDate": "1978-12-19",
-          "id": "bernard-dowiyogo-p7",
+          "id": "bernard-dowiyogo-p8",
           "ministry": null,
           "portfolio": null,
           "startDate": "1976-12-22",
@@ -431,10 +442,21 @@
         },
         {
           "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2011-11-01",
+          "id": "frederick-pitcher-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-11-01",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
             "minister"
           ],
           "endDate": "2008-01-01",
-          "id": "frederick-pitcher-p2",
+          "id": "frederick-pitcher-p3",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "2006-09-01",
@@ -3249,28 +3271,31 @@
       "destination": {
         "city": "Colombo",
         "coordinates": [
-          79.8612,
-          6.9271
+          79.860555555,
+          6.926666666
         ],
         "countryCode": "LKA",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-11-16",
+      "endDate": "2013-11-17",
       "engagements": [
         "Met President Mahinda Rajapakse"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "baron-waqa--2013-11-12--LKA",
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "baron-waqa--2013-11-15--LKA",
       "officialId": "baron-waqa",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-11-12",
+      "startDate": "2013-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -3934,28 +3959,31 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-19",
+      "endDate": "2018-04-20",
       "engagements": [
         "Met Queen Elizabeth II"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "baron-waqa--2018-04-17--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "baron-waqa--2018-04-19--GBR",
       "officialId": "baron-waqa",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-17",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -4205,16 +4233,19 @@
           -9.478888888
         ],
         "countryCode": "PNG",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2018-11-18",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Papua New Guinea 2018",
       "id": "baron-waqa--2018-11-17--PNG",
       "officialId": "baron-waqa",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6964,6 +6995,60 @@
       "startDate": "2011-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "marcus-stephen--2011-10-28--AUS",
+      "officialId": "marcus-stephen",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "rene-harris--2002-03-02--AUS",
+      "officialId": "rene-harris",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

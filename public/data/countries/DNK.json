@@ -474,6 +474,41 @@
     },
     {
       "aliases": [
+        "Erik Julius Christian Scavenius"
+      ],
+      "countryCode": "DNK",
+      "fullName": "Erik Scavenius",
+      "id": "erik-scavenius",
+      "party": "Danish Social Liberal Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Erik_Scavenius_1_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1945-05-05",
+          "id": "erik-scavenius-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1942-11-09",
+          "title": "Head of government"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q731504"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Erik_Scavenius"
+        }
+      ],
+      "summary": "Erik Julius Christian Scavenius was the Danish foreign minister from 1909 to 1910, 1913 to 1920 and 1940 to 1943, and prime minister from 1942 to 1943, during the occupation of Denmark until the Danish elected government ceased to function. He was the foreign minister during some of the most important periods of Denmark's modern history, including the First World War, the plebiscites over the return of northern Schleswig to Denmark, and the German occupation.",
+      "wikidataId": "Q731504"
+    },
+    {
+      "aliases": [
         "Hans Christian Hansen",
         "Hans Christian Svane Hansen"
       ],
@@ -13169,7 +13204,7 @@
       "aliases": [],
       "countryCode": "DNK",
       "fullName": "Christian Kettel Thomsen",
-      "id": "christian-kettel-thomsen-dnk",
+      "id": "christian-kettel-thomsen",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -13178,7 +13213,7 @@
             "central_banker"
           ],
           "endDate": null,
-          "id": "christian-kettel-thomsen-dnk-p1",
+          "id": "christian-kettel-thomsen-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2026-10-05",
@@ -13189,6 +13224,35 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/denmark/"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "DNK",
+      "fullName": "Prince Joachim of Denmark",
+      "id": "prince-joachim-of-denmark",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2010-12-31",
+          "id": "prince-joachim-of-denmark-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2010-01-01",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
         }
       ],
       "summary": "",
@@ -14767,6 +14831,34 @@
       "startDate": "2001-12-15",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "anders-fogh-rasmussen--2002-01-01--MEX",
+      "officialId": "anders-fogh-rasmussen",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18765,6 +18857,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -19307,24 +19403,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bucharest",
+        "city": "Palace of the Parliament",
         "coordinates": [
-          26.097777777,
-          44.413361111
+          26.0875,
+          44.4275
         ],
         "countryCode": "ROU",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-04-03",
+      "endDate": "2008-04-04",
       "engagements": [
         "Met President Traian Basescu"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2008 Bucharest NATO summit",
       "id": "anders-fogh-rasmussen--2008-04-02--ROU",
       "officialId": "anders-fogh-rasmussen",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20653,6 +20752,62 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-x-of-denmark--2012-01-01--BRA",
+      "officialId": "frederik-x-of-denmark",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
+        }
+      ],
+      "startDate": "2012-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "frederik-x-of-denmark--2013-01-01--MEX",
+      "officialId": "frederik-x-of-denmark",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Stockholm",
@@ -21674,6 +21829,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21819,6 +21978,10 @@
       "officialId": "helle-thorning-schmidt",
       "purpose": "Attended European Council Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23235,24 +23398,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [
         "Met Prime Minister David Cameron"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2014 Wales NATO summit",
       "id": "helle-thorning-schmidt--2014-09-04--GBR",
       "officialId": "helle-thorning-schmidt",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24038,6 +24204,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kristian-jensen--2016-01-01--BRA",
+      "officialId": "kristian-jensen",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
+        }
+      ],
+      "startDate": "2016-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -24175,6 +24369,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "L'Aquila",
+        "coordinates": [
+          13.391991666,
+          42.354008333
+        ],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "2009-07-10",
+      "engagements": [],
+      "eventName": "35th G8 summit",
+      "id": "lars-l-kke-rasmussen--2009-07-08--ITA",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Attended the 35th G8 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/35th_G8_summit"
+        }
+      ],
+      "startDate": "2009-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-20",
+      "engagements": [],
+      "eventName": "2010 Lisbon NATO summit",
+      "id": "lars-l-kke-rasmussen--2010-11-19--PRT",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        }
+      ],
+      "startDate": "2010-11-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -24198,6 +24446,115 @@
       "startDate": "2015-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "region": "Europe"
+      },
+      "endDate": "2016-07-09",
+      "engagements": [],
+      "eventName": "2016 Warsaw NATO summit",
+      "id": "lars-l-kke-rasmussen--2016-07-08--POL",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        }
+      ],
+      "startDate": "2016-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2017-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "lars-l-kke-rasmussen--2017-01-01--MEX",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2017-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2017-05-25",
+      "engagements": [],
+      "eventName": "2017 Brussels NATO summit",
+      "id": "lars-l-kke-rasmussen--2017-05-25--BEL",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Attended the 2017 Brussels NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Brussels_NATO_summit"
+        }
+      ],
+      "startDate": "2017-05-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2018-07-12",
+      "engagements": [],
+      "eventName": "2018 Brussels NATO summit",
+      "id": "lars-l-kke-rasmussen--2018-07-11--BEL",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Attended the 2018 Brussels NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Brussels_NATO_summit"
+        }
+      ],
+      "startDate": "2018-07-11",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -27691,6 +28048,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1966-01-01--MEX",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1966-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Oslo",
@@ -27857,6 +28242,34 @@
       "startDate": "1991-02-19",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "margrethe-ii-of-denmark--1999-01-01--BRA",
+      "officialId": "margrethe-ii-of-denmark",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
+        }
+      ],
+      "startDate": "1999-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -28139,7 +28552,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2019 London NATO summit",
       "id": "mette-frederiksen--2019-12-03--GBR",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen travelled to Watford to attend the 30th NATO summit.",
@@ -28491,7 +28904,7 @@
       },
       "endDate": "2021-06-14",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2021 Brussels NATO summit",
       "id": "mette-frederiksen--2021-06-13--BEL",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen travelled to Brussels to attend the 31st NATO summit.",
@@ -29018,7 +29431,7 @@
       },
       "endDate": "2022-03-24",
       "engagements": [],
-      "eventName": "European Council Summit",
+      "eventName": "2022 Brussels extraordinary NATO summit",
       "id": "mette-frederiksen--2022-03-24--BEL",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen attended an extraordinary NATO summit.",
@@ -29211,7 +29624,7 @@
       },
       "endDate": "2022-06-30",
       "engagements": [],
-      "eventName": "NATO summit",
+      "eventName": "2022 Madrid NATO summit",
       "id": "mette-frederiksen--2022-06-28--ESP",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen attended the NATO summit.",
@@ -30075,7 +30488,7 @@
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2023 Vilnius NATO summit",
       "id": "mette-frederiksen--2023-07-11--LTU",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen travelled to Vilnius to attend the 2023 NATO Vilnius summit.",
@@ -32181,7 +32594,7 @@
         "Met Prime Minister Dick Schoof",
         "Signed agreements"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "mette-frederiksen--2025-06-24--NLD",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen attended the 2025 NATO summit.",
@@ -32849,7 +33262,7 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "mette-frederiksen--2026-07-07--TUR",
       "officialId": "mette-frederiksen",
       "purpose": "Frederiksen attended the 2026 Ankara NATO summit.",
@@ -33112,6 +33525,33 @@
         }
       ],
       "startDate": "2026-11-12",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "mette-frederiksen--2027-01-01--ALB",
+      "officialId": "mette-frederiksen",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
       "statusHint": "planned",
       "type": "summit"
     },
@@ -34108,16 +34548,19 @@
           40.416944444
         ],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1997-07-10",
+      "endDate": "1997-07-09",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "1997 Madrid NATO summit",
       "id": "poul-nyrup-rasmussen--1997-07-08--ESP",
       "officialId": "poul-nyrup-rasmussen",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 1997 Madrid NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -34736,6 +35179,34 @@
       "type": "diplomatic_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "poul-schluter--1989-01-01--MEX",
+      "officialId": "poul-schluter",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Denmark%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1989-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Stockholm",
@@ -34846,6 +35317,34 @@
       "startDate": "1992-12-11",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "prince-joachim-of-denmark--2010-01-01--BRA",
+      "officialId": "prince-joachim-of-denmark",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Denmark_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",

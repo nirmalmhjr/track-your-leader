@@ -94,8 +94,19 @@
           "categories": [
             "head_of_government"
           ],
-          "endDate": "1984-03-08",
+          "endDate": "1992-04-18",
           "id": "maaouya-ould-sid-ahmed-taya-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1984-12-12",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1984-03-08",
+          "id": "maaouya-ould-sid-ahmed-taya-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "1981-04-25",
@@ -833,10 +844,21 @@
         },
         {
           "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1996-01-02",
+          "id": "sidi-mohamed-ould-boubacar-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1992-04-18",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
             "minister"
           ],
           "endDate": "1992-01-01",
-          "id": "sidi-mohamed-ould-boubacar-p2",
+          "id": "sidi-mohamed-ould-boubacar-p3",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "1990-01-01",
@@ -6926,6 +6948,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "ismail-ould-cheikh-ahmed--2019-10-25--AZE",
+      "officialId": "ismail-ould-cheikh-ahmed",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -7030,6 +7079,33 @@
       "startDate": "2017-09-19",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "region": "Asia"
+      },
+      "endDate": "1990-05-30",
+      "engagements": [],
+      "eventName": "1990 Arab League summit (Baghdad)",
+      "id": "maaouya-ould-sid-ahmed-taya--1990-05-28--IRQ",
+      "officialId": "maaouya-ould-sid-ahmed-taya",
+      "purpose": "Attended the 1990 Arab League summit (Baghdad)",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1990_Arab_League_summit_(Baghdad)"
+        }
+      ],
+      "startDate": "1990-05-28",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7884,6 +7960,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Algiers",
+        "coordinates": [
+          3.058611111,
+          36.776388888
+        ],
+        "countryCode": "DZA",
+        "region": "Africa"
+      },
+      "endDate": "2005-03-23",
+      "engagements": [],
+      "eventName": "2005 Arab League summit",
+      "id": "maaouya-ould-sid-ahmed-taya--2005-03-22--DZA",
+      "officialId": "maaouya-ould-sid-ahmed-taya",
+      "purpose": "Attended the 2005 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2005_Arab_League_summit"
+        }
+      ],
+      "startDate": "2005-03-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Aden",
         "coordinates": [
           45.033333333,
@@ -8173,28 +8276,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tripoli",
+        "city": "Sirte",
         "coordinates": [
-          13.1875,
-          32.8875
+          16.6,
+          31.2
         ],
         "countryCode": "LBY",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2010-03-29",
+      "endDate": "2010-03-27",
       "engagements": [],
-      "eventName": "African Union (AU) Summit",
-      "id": "mohamed-ould-abdel-aziz--2010-03-26--LBY",
+      "eventName": "2010 Arab League summit",
+      "id": "mohamed-ould-abdel-aziz--2010-03-27--LBY",
       "officialId": "mohamed-ould-abdel-aziz",
-      "purpose": "Attended African Union (AU) Summit",
+      "purpose": "Attended the 2010 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-03-26",
+      "startDate": "2010-03-27",
       "statusHint": null,
       "type": "summit"
     },
@@ -8619,6 +8725,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "region": "Asia"
+      },
+      "endDate": "2012-03-29",
+      "engagements": [],
+      "eventName": "2012 Arab League summit",
+      "id": "mohamed-ould-abdel-aziz--2012-03-27--IRQ",
+      "officialId": "mohamed-ould-abdel-aziz",
+      "purpose": "Attended the 2012 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+        }
+      ],
+      "startDate": "2012-03-27",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Addis Ababa",
         "coordinates": [
           38.7525,
@@ -8671,6 +8804,33 @@
         }
       ],
       "startDate": "2012-08-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "mohamed-ould-abdel-aziz--2012-08-26--IRN",
+      "officialId": "mohamed-ould-abdel-aziz",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -9267,22 +9427,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Brisbane",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.027777777,
+          -27.467777777
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2014-11-16",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "2014 G20 Brisbane summit",
       "id": "mohamed-ould-abdel-aziz--2014-11-15--AUS",
       "officialId": "mohamed-ould-abdel-aziz",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2014 G20 Brisbane summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_G20_Brisbane_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9973,24 +10136,27 @@
           31.930983
         ],
         "countryCode": "JOR",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-03-29",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Arab League Summit",
-      "id": "mohamed-ould-abdel-aziz--2017-03-28--JOR",
+      "eventName": "2017 Arab League summit",
+      "id": "mohamed-ould-abdel-aziz--2017-03-29--JOR",
       "officialId": "mohamed-ould-abdel-aziz",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2017 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-03-28",
+      "startDate": "2017-03-29",
       "statusHint": null,
       "type": "summit"
     },
@@ -10429,22 +10595,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Riyadh",
+        "city": "Dhahran",
         "coordinates": [
-          46.71,
-          24.65
+          50.15,
+          26.266666666
         ],
         "countryCode": "SAU",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2018-04-15",
       "engagements": [],
-      "eventName": "Arab League Summit",
+      "eventName": "2018 Arab League summit",
       "id": "mohamed-ould-abdel-aziz--2018-04-15--SAU",
       "officialId": "mohamed-ould-abdel-aziz",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2018 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12391,7 +12560,6 @@
           36.776388888
         ],
         "countryCode": "DZA",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2022-11-02",
@@ -12403,6 +12571,10 @@
       "officialId": "mohamed-ould-ghazouani",
       "purpose": "Attended Arab League Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12854,7 +13026,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Arab League Summit",
+      "eventName": "2023 Arab League summit",
       "id": "mohamed-ould-ghazouani--2023-05-18--SAU",
       "officialId": "mohamed-ould-ghazouani",
       "purpose": "State visit.",
@@ -13719,28 +13891,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "Fasano",
         "coordinates": [
-          12.4964,
-          41.9028
+          17.366666666,
+          40.833333333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2024-06-15",
       "engagements": [],
-      "eventName": "G7 Summit",
-      "id": "mohamed-ould-ghazouani--2024-06-14--ITA",
+      "eventName": "50th G7 summit",
+      "id": "mohamed-ould-ghazouani--2024-06-13--ITA",
       "officialId": "mohamed-ould-ghazouani",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 50th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/50th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-06-14",
+      "startDate": "2024-06-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -14003,7 +14178,7 @@
       },
       "endDate": "2024-10-24",
       "engagements": [],
-      "eventName": null,
+      "eventName": "16th BRICS summit",
       "id": "mohamed-ould-ghazouani--2024-10-22--RUS",
       "officialId": "mohamed-ould-ghazouani",
       "purpose": "Attended the 16th BRICS summit.",
@@ -14076,6 +14251,33 @@
       "startDate": "2024-11-11",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rio de Janeiro",
+        "coordinates": [
+          -43.205555555,
+          -22.911111111
+        ],
+        "countryCode": "BRA",
+        "region": "Americas"
+      },
+      "endDate": "2024-11-19",
+      "engagements": [],
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "mohamed-ould-ghazouani--2024-11-16--BRA",
+      "officialId": "mohamed-ould-ghazouani",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
+        }
+      ],
+      "startDate": "2024-11-16",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

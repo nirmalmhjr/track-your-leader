@@ -4272,6 +4272,41 @@
       "wikidataId": null
     },
     {
+      "aliases": [
+        "Kevin Mark Conrad"
+      ],
+      "countryCode": "PNG",
+      "fullName": "Kevin Conrad",
+      "id": "kevin-conrad",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Conrad_(unfccc).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2010-12-31",
+          "id": "kevin-conrad-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2010-01-01",
+          "title": "Special Envoy for the Environment"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Papua_New_Guinea_relations"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kevin_Conrad"
+        }
+      ],
+      "summary": "Kevin Mark Conrad, born in the United States to parents living in Papua New Guinea in 1968, is a Papua New Guinean businessman and environmentalist. He grew up in the Arapesh tribe near Wewak, East Sepik Province and graduated from Ukarumpa High School in the Eastern Highlands Province.",
+      "wikidataId": "Q6396057"
+    },
+    {
       "aliases": [],
       "countryCode": "PNG",
       "fullName": "Ben Micah",
@@ -5813,22 +5848,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Museum of Anthropology at UBC",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -123.25972222,
+          49.26916667
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "1997-11-25",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Canada 1997",
       "id": "bill-skate--1997-11-24--CAN",
       "officialId": "bill-skate",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Canada 1997",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Canada_1997"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6423,6 +6461,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "region": "Americas"
+      },
+      "endDate": "2019-11-17",
+      "engagements": [],
+      "eventName": "APEC Chile 2019",
+      "id": "james-marape--2019-11-16--CHL",
+      "officialId": "james-marape",
+      "purpose": "Attended the APEC Chile 2019",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Chile_2019"
+        }
+      ],
+      "startDate": "2019-11-16",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Suva",
         "coordinates": [
           178.433333333,
@@ -6609,26 +6674,29 @@
           -18.133333333
         ],
         "countryCode": "FJI",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2022-07-14",
       "engagements": [
         "Met Prime Minister Frank Bainimarama"
       ],
-      "eventName": "Pacific Islands Forum (PIF)",
-      "id": "james-marape--2022-07-13--FJI",
+      "eventName": "51st Pacific Islands Forum",
+      "id": "james-marape--2022-07-11--FJI",
       "officialId": "james-marape",
-      "purpose": "Attended Pacific Islands Forum (PIF)",
+      "purpose": "Attended the 51st Pacific Islands Forum",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/51st_Pacific_Islands_Forum"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-07-13",
+      "startDate": "2022-07-11",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6780,22 +6848,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Queen Sirikit National Convention Center",
         "coordinates": [
-          100.516666666,
-          13.75
+          100.559222,
+          13.723992
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2022-11-18",
+      "endDate": "2022-11-19",
       "engagements": [],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Thailand 2022",
       "id": "james-marape--2022-11-16--THA",
       "officialId": "james-marape",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Thailand 2022",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Thailand_2022"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7107,13 +7178,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "San Francisco",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -122.419444444,
+          37.775
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2023-11-17",
@@ -7126,6 +7196,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2023"
         },
         {
           "label": "COLT dataset",
@@ -7971,6 +8045,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Shenzhen",
+        "coordinates": [
+          114.054444444,
+          22.546666666
+        ],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2026-11-19",
+      "engagements": [],
+      "eventName": "APEC China 2026",
+      "id": "james-marape--2026-11-18--CHN",
+      "officialId": "james-marape",
+      "purpose": "Attended the APEC China 2026",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2026"
+        }
+      ],
+      "startDate": "2026-11-18",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Suva",
         "coordinates": [
           178.433333333,
@@ -8024,6 +8125,60 @@
       "startDate": "2023-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lima Convention Center",
+        "coordinates": [
+          -77.000574,
+          -12.086374
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2024-11-16",
+      "engagements": [],
+      "eventName": "APEC Peru 2024",
+      "id": "john-rosso--2024-11-15--PER",
+      "officialId": "john-rosso",
+      "purpose": "Attended the APEC Peru 2024",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Peru_2024"
+        }
+      ],
+      "startDate": "2024-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Gyeongju Hwabaek International Convention Center",
+        "coordinates": [
+          129.2879,
+          35.8383
+        ],
+        "countryCode": "KOR",
+        "region": "Asia"
+      },
+      "endDate": "2025-11-01",
+      "engagements": [],
+      "eventName": "APEC South Korea 2025",
+      "id": "john-rosso--2025-10-31--KOR",
+      "officialId": "john-rosso",
+      "purpose": "Attended the APEC South Korea 2025",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_South_Korea_2025"
+        }
+      ],
+      "startDate": "2025-10-31",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8652,28 +8807,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Subic Bay Freeport Zone",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.274,
+          14.8158
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "1996-11-25",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "julius-chan--1996-11-22--PHL",
+      "eventName": "APEC Philippines 1996",
+      "id": "julius-chan--1996-11-24--PHL",
       "officialId": "julius-chan",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Philippines 1996",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_1996"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-11-22",
+      "startDate": "1996-11-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -8792,6 +8950,34 @@
       "startDate": "1997-03-09",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kevin-conrad--2010-01-01--MEX",
+      "officialId": "kevin-conrad",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Papua_New_Guinea_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -9287,30 +9473,60 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Shanghai",
         "coordinates": [
-          116.4074,
-          39.9042
+          121.469166666,
+          31.2325
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2001-10-21",
       "engagements": [
         "Met General Secretary Jiang Zemin"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC China 2001",
       "id": "mekere-morauta--2001-10-20--CHN",
       "officialId": "mekere-morauta",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC China 2001",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2001"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2001-10-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "mekere-morauta--2002-03-02--AUS",
+      "officialId": "mekere-morauta",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
       "statusHint": null,
       "type": "summit"
     },
@@ -9345,6 +9561,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "michael-somare--1977-06-08--GBR",
+      "officialId": "michael-somare",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "michael-somare--1979-08-01--ZMB",
+      "officialId": "michael-somare",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Suva",
         "coordinates": [
           178.433333333,
@@ -9373,28 +9643,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
+        "city": "Los Cabos",
         "coordinates": [
-          -99.1332,
-          19.4326
+          -109.766666666,
+          23.266666666
         ],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2002-10-27",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "michael-somare--2002-10-22--MEX",
+      "eventName": "APEC Mexico 2002",
+      "id": "michael-somare--2002-10-26--MEX",
       "officialId": "michael-somare",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Mexico 2002",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Mexico_2002"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-10-22",
+      "startDate": "2002-10-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -9902,24 +10175,27 @@
           -33.4375
         ],
         "countryCode": "CHL",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2004-11-24",
+      "endDate": "2004-11-21",
       "engagements": [
         "Met President Ricardo Lagos Escobar"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "michael-somare--2004-11-18--CHL",
+      "eventName": "APEC Chile 2004",
+      "id": "michael-somare--2004-11-20--CHL",
       "officialId": "michael-somare",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Chile 2004",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Chile_2004"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-11-18",
+      "startDate": "2004-11-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -10626,16 +10902,19 @@
           21.0245
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2006-11-21",
+      "endDate": "2006-11-19",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Vietnam 2006",
       "id": "michael-somare--2006-11-18--VNM",
       "officialId": "michael-somare",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2006",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10657,19 +10936,23 @@
         "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2007-09-10",
+      "endDate": "2007-09-09",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "michael-somare--2007-09-06--AUS",
+      "eventName": "APEC Australia 2007",
+      "id": "michael-somare--2007-09-08--AUS",
       "officialId": "michael-somare",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Australia 2007",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Australia_2007"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-09-06",
+      "startDate": "2007-09-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -12682,22 +12965,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
       "id": "peter-o-neill--2011-10-28--AUS",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12710,13 +12996,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Hawaii Convention Center",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -157.836,
+          21.2904
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2011-11-13",
@@ -12729,6 +13014,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2011"
         },
         {
           "label": "COLT dataset",
@@ -13099,24 +13388,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
+        "city": "Bali",
         "coordinates": [
-          106.8456,
-          -6.2088
+          115,
+          -8.5
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-10-09",
+      "endDate": "2013-10-07",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Indonesia 2013",
       "id": "peter-o-neill--2013-10-05--IDN",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Indonesia 2013",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Indonesia_2013"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13394,23 +13686,26 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-11-11",
+      "endDate": "2014-11-12",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC China 2014",
       "id": "peter-o-neill--2014-11-10--CHN",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC China 2014",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2014"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13780,13 +14075,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Philippine International Convention Center",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.982618,
+          14.554257
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-11-19",
@@ -13794,17 +14088,21 @@
         "Met President Benigno Aquino III",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "peter-o-neill--2015-11-16--PHL",
+      "eventName": "APEC Philippines 2015",
+      "id": "peter-o-neill--2015-11-18--PHL",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Philippines 2015",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_2015"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-16",
+      "startDate": "2015-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -13901,31 +14199,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tokyo",
+        "city": "Shima",
         "coordinates": [
-          139.6917,
-          35.6895
+          136.829666666,
+          34.328194444
         ],
         "countryCode": "JPN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2016-05-29",
+      "endDate": "2016-05-27",
       "engagements": [
         "Met Prime Minister Abe Shinzo",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
-      "id": "peter-o-neill--2016-05-25--JPN",
+      "eventName": "42nd G7 summit",
+      "id": "peter-o-neill--2016-05-26--JPN",
       "officialId": "peter-o-neill",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 42nd G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/42nd_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-05-25",
+      "startDate": "2016-05-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -14051,30 +14352,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Lima",
+        "city": "Lima Convention Center",
         "coordinates": [
-          -77.0375,
-          -12.06
+          -77.000574,
+          -12.086374
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-11-21",
+      "endDate": "2016-11-20",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "peter-o-neill--2016-11-17--PER",
+      "eventName": "APEC Peru 2016",
+      "id": "peter-o-neill--2016-11-19--PER",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Peru 2016",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Peru_2016"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-11-17",
+      "startDate": "2016-11-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -14259,31 +14563,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Hanoi",
+        "city": "InterContinental Danang Sun Peninsula Resort",
         "coordinates": [
-          105.84117,
-          21.0245
+          108.306162,
+          16.120502
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-11-12",
+      "endDate": "2017-11-11",
       "engagements": [
         "Met President Tran Dai Quang",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "peter-o-neill--2017-11-08--VNM",
+      "eventName": "APEC Vietnam 2017",
+      "id": "peter-o-neill--2017-11-10--VNM",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2017",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2017"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-11-08",
+      "startDate": "2017-11-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -14380,11 +14687,10 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
@@ -14392,17 +14698,21 @@
         "Met Prime Minister Theresa May",
         "Signed agreements"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "peter-o-neill--2018-04-16--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "peter-o-neill--2018-04-19--GBR",
       "officialId": "peter-o-neill",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-16",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },

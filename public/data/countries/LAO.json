@@ -2608,6 +2608,142 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Mandaue",
+        "coordinates": [
+          123.933333333,
+          10.333333333
+        ],
+        "countryCode": "PHL",
+        "region": "Asia"
+      },
+      "endDate": "2007-01-15",
+      "engagements": [],
+      "eventName": "Second East Asia Summit",
+      "id": "bouasone-bouphavanh--2007-01-15--PHL",
+      "officialId": "bouasone-bouphavanh",
+      "purpose": "Attended the Second East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2007-01-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-11-21",
+      "engagements": [],
+      "eventName": "Third East Asia Summit",
+      "id": "bouasone-bouphavanh--2007-11-21--SGP",
+      "officialId": "bouasone-bouphavanh",
+      "purpose": "Attended the Third East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Third_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2007-11-21",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cha-am",
+        "coordinates": [
+          99.966944444,
+          12.799722222
+        ],
+        "countryCode": "THA",
+        "region": "Asia"
+      },
+      "endDate": "2009-10-25",
+      "engagements": [],
+      "eventName": "Fourth East Asia Summit",
+      "id": "bouasone-bouphavanh--2009-10-23--THA",
+      "officialId": "bouasone-bouphavanh",
+      "purpose": "Attended the Fourth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2009-10-23",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [
+          105.84117,
+          21.0245
+        ],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2010-10-31",
+      "engagements": [],
+      "eventName": "Fifth East Asia Summit",
+      "id": "bouasone-bouphavanh--2010-10-28--VNM",
+      "officialId": "bouasone-bouphavanh",
+      "purpose": "Attended the Fifth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2010-10-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [
+          101.695277777,
+          3.147777777
+        ],
+        "countryCode": "MYS",
+        "region": "Asia"
+      },
+      "endDate": "2005-12-14",
+      "engagements": [],
+      "eventName": "First East Asia Summit",
+      "id": "bounnhang-vorachit--2005-12-14--MYS",
+      "officialId": "bounnhang-vorachit",
+      "purpose": "Attended the First East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2005-12-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Hanoi",
         "coordinates": [
           105.84117,
@@ -2701,24 +2837,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Hangzhou",
         "coordinates": [
-          116.4074,
-          39.9042
+          120.1675,
+          30.25
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2016-09-05",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "2016 G20 Hangzhou summit",
       "id": "bounnhang-vorachit--2016-09-04--CHN",
       "officialId": "bounnhang-vorachit",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2016 G20 Hangzhou summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_G20_Hangzhou_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2819,24 +2958,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Hanoi",
+        "city": "InterContinental Danang Sun Peninsula Resort",
         "coordinates": [
-          105.84117,
-          21.0245
+          108.306162,
+          16.120502
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-11-11",
       "engagements": [
         "Met President Tran Dai Quang"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Vietnam 2017",
       "id": "bounnhang-vorachit--2017-11-10--VNM",
       "officialId": "bounnhang-vorachit",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2017",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2017"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4710,6 +4852,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Bandar Seri Begawan",
+        "coordinates": [
+          114.916666666,
+          4.916666666
+        ],
+        "countryCode": "BRN",
+        "region": "Asia"
+      },
+      "endDate": "2021-10-27",
+      "engagements": [],
+      "eventName": "Sixteenth East Asia Summit",
+      "id": "phankham-viphavanh--2021-10-26--BRN",
+      "officialId": "phankham-viphavanh",
+      "purpose": "Attended the Sixteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2021-10-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Phnom Penh",
+        "coordinates": [
+          104.921027777,
+          11.569583333
+        ],
+        "countryCode": "KHM",
+        "region": "Asia"
+      },
+      "endDate": "2022-11-13",
+      "engagements": [],
+      "eventName": "Seventeenth East Asia Summit",
+      "id": "phankham-viphavanh--2022-11-12--KHM",
+      "officialId": "phankham-viphavanh",
+      "purpose": "Attended the Seventeenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seventeenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2022-11-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -4873,6 +5069,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Jakarta",
+        "coordinates": [
+          106.826944444,
+          -6.175277777
+        ],
+        "countryCode": "IDN",
+        "region": "Asia"
+      },
+      "endDate": "2023-09-07",
+      "engagements": [],
+      "eventName": "Eighteenth East Asia Summit",
+      "id": "sonexay-siphandone--2023-09-06--IDN",
+      "officialId": "sonexay-siphandone",
+      "purpose": "Attended the Eighteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eighteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2023-09-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -4896,6 +5119,33 @@
       "startDate": "2024-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [
+          101.695277777,
+          3.147777777
+        ],
+        "countryCode": "MYS",
+        "region": "Asia"
+      },
+      "endDate": "2025-05-27",
+      "engagements": [],
+      "eventName": "2025 ASEAN Summits",
+      "id": "sonexay-siphandone--2025-05-26--MYS",
+      "officialId": "sonexay-siphandone",
+      "purpose": "Attended the 2025 ASEAN Summits",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_ASEAN_Summits"
+        }
+      ],
+      "startDate": "2025-05-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -5313,6 +5563,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Shima",
+        "coordinates": [
+          136.829666666,
+          34.328194444
+        ],
+        "countryCode": "JPN",
+        "region": "Asia"
+      },
+      "endDate": "2016-05-27",
+      "engagements": [],
+      "eventName": "42nd G7 summit",
+      "id": "thongloun-sisoulith--2016-05-26--JPN",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Attended the 42nd G7 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/42nd_G7_summit"
+        }
+      ],
+      "startDate": "2016-05-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -5336,6 +5613,141 @@
       "startDate": "2016-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "region": "Asia"
+      },
+      "endDate": "2017-04-29",
+      "engagements": [],
+      "eventName": "2017 ASEAN Summits",
+      "id": "thongloun-sisoulith--2017-04-28--PHL",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Attended the 2017 ASEAN Summits",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+        }
+      ],
+      "startDate": "2017-04-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pasay",
+        "coordinates": [
+          120.995,
+          14.543888888
+        ],
+        "countryCode": "PHL",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-14",
+      "engagements": [],
+      "eventName": "Twelfth East Asia Summit",
+      "id": "thongloun-sisoulith--2017-11-13--PHL",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Attended the Twelfth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Twelfth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2017-11-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Suntec Singapore Convention and Exhibition Centre",
+        "coordinates": [
+          103.856944444,
+          1.293611111
+        ],
+        "countryCode": "SGP",
+        "region": "Asia"
+      },
+      "endDate": "2018-11-15",
+      "engagements": [],
+      "eventName": "Thirteenth East Asia Summit",
+      "id": "thongloun-sisoulith--2018-11-14--SGP",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Attended the Thirteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thirteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2018-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bangkok",
+        "coordinates": [
+          100.516666666,
+          13.75
+        ],
+        "countryCode": "THA",
+        "region": "Asia"
+      },
+      "endDate": "2019-11-04",
+      "engagements": [],
+      "eventName": "Fourteenth East Asia Summit",
+      "id": "thongloun-sisoulith--2019-11-04--THA",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Attended the Fourteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2019-11-04",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [
+          105.84117,
+          21.0245
+        ],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": "Fifteenth East Asia Summit",
+      "id": "thongloun-sisoulith--2020-11-14--VNM",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Attended the Fifteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2020-11-14",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -5849,13 +6261,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Kazan",
         "coordinates": [
-          37.6175,
-          55.750555555
+          49.114444444,
+          55.790833333
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2024-10-24",
@@ -5863,11 +6274,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "16th BRICS summit",
       "id": "thongloun-sisoulith--2024-10-22--RUS",
       "officialId": "thongloun-sisoulith",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 16th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6006,11 +6421,15 @@
       },
       "endDate": "2025-09-01",
       "engagements": [],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2025 Tianjin SCO summit",
       "id": "thongloun-sisoulith--2025-08-31--CHN",
       "officialId": "thongloun-sisoulith",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2025 Tianjin SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Tianjin_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6220,6 +6639,141 @@
       "startDate": "2026-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bali",
+        "coordinates": [
+          115,
+          -8.5
+        ],
+        "countryCode": "IDN",
+        "region": "Asia"
+      },
+      "endDate": "2011-11-19",
+      "engagements": [],
+      "eventName": "Sixth East Asia Summit",
+      "id": "thongsing-thammavong--2011-11-18--IDN",
+      "officialId": "thongsing-thammavong",
+      "purpose": "Attended the Sixth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2011-11-18",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Phnom Penh",
+        "coordinates": [
+          104.921027777,
+          11.569583333
+        ],
+        "countryCode": "KHM",
+        "region": "Asia"
+      },
+      "endDate": "2012-11-20",
+      "engagements": [],
+      "eventName": "Seventh East Asia Summit",
+      "id": "thongsing-thammavong--2012-11-19--KHM",
+      "officialId": "thongsing-thammavong",
+      "purpose": "Attended the Seventh East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seventh_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2012-11-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bandar Seri Begawan",
+        "coordinates": [
+          114.916666666,
+          4.916666666
+        ],
+        "countryCode": "BRN",
+        "region": "Asia"
+      },
+      "endDate": "2013-10-10",
+      "engagements": [],
+      "eventName": "Eighth East Asia Summit",
+      "id": "thongsing-thammavong--2013-10-09--BRN",
+      "officialId": "thongsing-thammavong",
+      "purpose": "Attended the Eighth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eighth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2013-10-09",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Nay Pyi Taw",
+        "coordinates": [
+          96.115,
+          19.7475
+        ],
+        "countryCode": "MMR",
+        "region": "Asia"
+      },
+      "endDate": "2014-11-14",
+      "engagements": [],
+      "eventName": "Ninth East Asia Summit",
+      "id": "thongsing-thammavong--2014-11-12--MMR",
+      "officialId": "thongsing-thammavong",
+      "purpose": "Attended the Ninth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ninth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2014-11-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [
+          101.695277777,
+          3.147777777
+        ],
+        "countryCode": "MYS",
+        "region": "Asia"
+      },
+      "endDate": "2015-11-22",
+      "engagements": [],
+      "eventName": "Tenth East Asia Summit",
+      "id": "thongsing-thammavong--2015-11-21--MYS",
+      "officialId": "thongsing-thammavong",
+      "purpose": "Attended the Tenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2015-11-21",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

@@ -6306,7 +6306,7 @@
       "aliases": [],
       "countryCode": "KAZ",
       "fullName": "Gizat Nurdauletov",
-      "id": "gizat-nurdauletov-kaz",
+      "id": "gizat-nurdauletov",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -6315,7 +6315,7 @@
             "senior_official"
           ],
           "endDate": null,
-          "id": "gizat-nurdauletov-kaz-p1",
+          "id": "gizat-nurdauletov-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -6387,6 +6387,35 @@
       ],
       "summary": "Marat Mukhanbetqazyuly Täzhin is a Kazakh politician. He served as the Foreign Minister in the Government of Kazakhstan from 2007 to 2009.",
       "wikidataId": "Q1377798"
+    },
+    {
+      "aliases": [],
+      "countryCode": "KAZ",
+      "fullName": "Nurgali Arystanov",
+      "id": "nurgali-arystanov",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2022-12-31",
+          "id": "nurgali-arystanov-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2022-01-01",
+          "title": "Head of the Americas Department of the Ministry of Foreign Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan%E2%80%93Mexico_relations"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [
@@ -6619,6 +6648,39 @@
       ],
       "summary": "Timur Mūratūly Süleimenov is a Kazakh politician and economist serving as chairman of National Bank since 2023. He previously served as Minister of National Economy from 2016 to 2029 and Minister of Economy and Financial Policy of the Eurasian Economic Commission from 2012 to 2017.",
       "wikidataId": "Q28500626"
+    },
+    {
+      "aliases": [],
+      "countryCode": "KAZ",
+      "fullName": "Yerzhan Ashikbayev",
+      "id": "yerzhan-ashikbayev",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Erjan_A%C5%9Fikbaev_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2015-12-31",
+          "id": "yerzhan-ashikbayev-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2015-01-01",
+          "title": "Foreign Vice Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan%E2%80%93Mexico_relations"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Yerzhan_Ashikbayev"
+        }
+      ],
+      "summary": "Yerzhan Ashikbayev was appointed in April 2021 the Ambassador of the Republic of Kazakhstan to the United States. He served previously as the Deputy Foreign Minister of the Republic of Kazakhstan since 2013.",
+      "wikidataId": "Q17319098"
     },
     {
       "aliases": [
@@ -7422,6 +7484,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "erlan-idrissov--2013-01-01--BRA",
+      "officialId": "erlan-idrissov",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Kazakhstan_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -7447,6 +7537,34 @@
       "startDate": "2013-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "erlan-idrissov--2014-01-01--MEX",
+      "officialId": "erlan-idrissov",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2014-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -8878,7 +8996,7 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2022 Samarkand SCO summit",
       "id": "kassym-jomart-tokayev--2022-09-15--UZB",
       "officialId": "kassym-jomart-tokayev",
       "purpose": "Working visit",
@@ -8960,13 +9078,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tashkent",
+        "city": "Samarkand",
         "coordinates": [
-          69.279722222,
-          41.311111111
+          66.975833333,
+          39.654722222
         ],
         "countryCode": "UZB",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2022-11-11",
@@ -8974,17 +9091,21 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Organization of Turkic States (OTS) Summit",
-      "id": "kassym-jomart-tokayev--2022-11-10--UZB",
+      "eventName": "2022 Organization of Turkic States summit",
+      "id": "kassym-jomart-tokayev--2022-11-11--UZB",
       "officialId": "kassym-jomart-tokayev",
-      "purpose": "Attended Organization of Turkic States (OTS) Summit",
+      "purpose": "Attended the 2022 Organization of Turkic States summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Organization_of_Turkic_States_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-10",
+      "startDate": "2022-11-11",
       "statusHint": null,
       "type": "summit"
     },
@@ -10200,6 +10321,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Kazan",
+        "coordinates": [
+          49.114444444,
+          55.790833333
+        ],
+        "countryCode": "RUS",
+        "region": "Europe"
+      },
+      "endDate": "2024-10-24",
+      "engagements": [],
+      "eventName": "16th BRICS summit",
+      "id": "kassym-jomart-tokayev--2024-10-22--RUS",
+      "officialId": "kassym-jomart-tokayev",
+      "purpose": "Attended the 16th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+        }
+      ],
+      "startDate": "2024-10-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ulaanbaatar",
         "coordinates": [
           106.905515,
@@ -10271,7 +10419,6 @@
           42.866666666
         ],
         "countryCode": "KGZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2024-11-06",
@@ -10279,11 +10426,15 @@
         "Met President Sadyr Japarov",
         "Signed agreements"
       ],
-      "eventName": "Summit of The Organization of Turkic States",
+      "eventName": "2024 Organization of Turkic States summit",
       "id": "kassym-jomart-tokayev--2024-11-06--KGZ",
       "officialId": "kassym-jomart-tokayev",
-      "purpose": "Attended Summit of The Organization of Turkic States",
+      "purpose": "Attended the 2024 Organization of Turkic States summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Organization_of_Turkic_States_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11522,7 +11673,7 @@
       },
       "endDate": "2026-12-15",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 G20 Miami summit",
       "id": "kassym-jomart-tokayev--2026-12-14--USA",
       "officialId": "kassym-jomart-tokayev",
       "purpose": "Tokayev is scheduled to attend the G20 summit.",
@@ -11616,6 +11767,61 @@
       "startDate": "2024-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rio de Janeiro",
+        "coordinates": [
+          -43.205555555,
+          -22.911111111
+        ],
+        "countryCode": "BRA",
+        "region": "Americas"
+      },
+      "endDate": "2025-07-07",
+      "engagements": [],
+      "eventName": "17th BRICS summit",
+      "id": "murat-nurtleu--2025-07-06--BRA",
+      "officialId": "murat-nurtleu",
+      "purpose": "Attended the 17th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/17th_BRICS_summit"
+        }
+      ],
+      "startDate": "2025-07-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "nurgali-arystanov--2022-01-01--MEX",
+      "officialId": "nurgali-arystanov",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2022-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -20237,6 +20443,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Kazakhstan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -20660,6 +20870,10 @@
       "officialId": "nursultan-nazarbaev",
       "purpose": "Visit to France",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/France%E2%80%93Kazakhstan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22629,28 +22843,31 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-06-07",
       "engagements": [
         "Met General Secretary Hu Jintao"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "nursultan-nazarbaev--2012-06-05--CHN",
+      "eventName": "2012 Beijing SCO summit",
+      "id": "nursultan-nazarbaev--2012-06-06--CHN",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2012 Beijing SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Beijing_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-06-05",
+      "startDate": "2012-06-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -23745,19 +23962,22 @@
           38.573055555
         ],
         "countryCode": "TJK",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-09-13",
+      "endDate": "2014-09-12",
       "engagements": [
         "Met President Emomali Rahmon",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2014 Dushanbe SCO summit",
       "id": "nursultan-nazarbaev--2014-09-11--TJK",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2014 Dushanbe SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Dushanbe_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24069,25 +24289,28 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Ufa",
         "coordinates": [
-          37.6175,
-          55.750555555
+          55.9475,
+          54.726111111
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-07-10",
+      "endDate": "2015-07-09",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "7th BRICS summit",
       "id": "nursultan-nazarbaev--2015-07-08--RUS",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 7th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24835,13 +25058,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Hangzhou",
         "coordinates": [
-          116.4074,
-          39.9042
+          120.1675,
+          30.25
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2016-09-05",
@@ -24849,17 +25071,21 @@
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "G20 Summit",
-      "id": "nursultan-nazarbaev--2016-09-01--CHN",
+      "eventName": "2016 G20 Hangzhou summit",
+      "id": "nursultan-nazarbaev--2016-09-04--CHN",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2016 G20 Hangzhou summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_G20_Hangzhou_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-01",
+      "startDate": "2016-09-04",
       "statusHint": null,
       "type": "summit"
     },
@@ -25587,31 +25813,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Qingdao",
         "coordinates": [
-          116.4074,
-          39.9042
+          120.4,
+          36.116666666
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-06-10",
+      "endDate": "2018-06-19",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "nursultan-nazarbaev--2018-06-06--CHN",
+      "eventName": "2018 Qingdao SCO summit",
+      "id": "nursultan-nazarbaev--2018-06-09--CHN",
       "officialId": "nursultan-nazarbaev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2018 Qingdao SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Qingdao_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-06",
+      "startDate": "2018-06-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -25890,6 +26119,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Islamabad",
+        "coordinates": [
+          73.036944444,
+          33.698888888
+        ],
+        "countryCode": "PAK",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-16",
+      "engagements": [],
+      "eventName": "2024 Islamabad SCO summit",
+      "id": "olzhas-bektenov--2024-10-15--PAK",
+      "officialId": "olzhas-bektenov",
+      "purpose": "Attended the 2024 Islamabad SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+        }
+      ],
+      "startDate": "2024-10-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -25940,6 +26196,61 @@
       "startDate": "2010-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "yerzhan-ashikbayev--2015-01-01--MEX",
+      "officialId": "yerzhan-ashikbayev",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kazakhstan%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2015-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "yerzhan-kazykhanov--2012-08-26--IRN",
+      "officialId": "yerzhan-kazykhanov",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

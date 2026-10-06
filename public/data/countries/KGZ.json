@@ -1548,6 +1548,17 @@
           "portfolio": null,
           "startDate": "2021-05-05",
           "title": "Prime Minister of Kyrgyzstan"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2021-02-03",
+          "id": "artyom-novikov-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-11-14",
+          "title": "Head of government"
         }
       ],
       "sources": [
@@ -4564,6 +4575,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Islamabad",
+        "coordinates": [
+          73.036944444,
+          33.698888888
+        ],
+        "countryCode": "PAK",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-16",
+      "engagements": [],
+      "eventName": "2024 Islamabad SCO summit",
+      "id": "akylbek-japarov--2024-10-15--PAK",
+      "officialId": "akylbek-japarov",
+      "purpose": "Attended the 2024 Islamabad SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+        }
+      ],
+      "startDate": "2024-10-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Moscow",
         "coordinates": [
           37.6175,
@@ -4706,6 +4744,10 @@
       "purpose": "Visit to Azerbaijan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Kyrgyzstan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4780,29 +4822,32 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2012-06-09",
+      "endDate": "2012-06-07",
       "engagements": [
         "Met General Secretary Hu Jintao",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "almazbek-atambaev--2012-06-04--CHN",
+      "eventName": "2012 Beijing SCO summit",
+      "id": "almazbek-atambaev--2012-06-06--CHN",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2012 Beijing SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Beijing_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-06-04",
+      "startDate": "2012-06-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -5475,7 +5520,6 @@
           38.573055555
         ],
         "countryCode": "TJK",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2014-09-12",
@@ -5483,11 +5527,15 @@
         "Met President Emomali Rahmon",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2014 Dushanbe SCO summit",
       "id": "almazbek-atambaev--2014-09-11--TJK",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2014 Dushanbe SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Dushanbe_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6004,28 +6052,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Ufa",
         "coordinates": [
-          37.6175,
-          55.750555555
+          55.9475,
+          54.726111111
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-07-10",
+      "endDate": "2015-07-09",
       "engagements": [],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "almazbek-atambaev--2015-07-09--RUS",
+      "eventName": "7th BRICS summit",
+      "id": "almazbek-atambaev--2015-07-08--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 7th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-07-09",
+      "startDate": "2015-07-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -6853,6 +6904,10 @@
       "purpose": "Visit to Uzbekistan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7310,6 +7365,10 @@
       "officialId": "askar-akayev",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8548,6 +8607,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tashkent",
+        "coordinates": [
+          69.279722222,
+          41.311111111
+        ],
+        "countryCode": "UZB",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "askar-akayev--1996-01-01--UZB",
+      "officialId": "askar-akayev",
+      "purpose": "Visit to Uzbekistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
+        }
+      ],
+      "startDate": "1996-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Astana",
@@ -9044,6 +9131,10 @@
       "officialId": "askar-akayev",
       "purpose": "Visit to Azerbaijan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Kyrgyzstan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9582,6 +9673,10 @@
       "purpose": "Visit to Poland",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Poland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9673,6 +9768,10 @@
       "officialId": "askar-akayev",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12472,6 +12571,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "chingiz-aidarbekov--2020-01-01--AZE",
+      "officialId": "chingiz-aidarbekov",
+      "purpose": "Visit to Azerbaijan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Kyrgyzstan_relations"
+        }
+      ],
+      "startDate": "2020-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -12605,6 +12732,34 @@
       "startDate": "2023-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "igor-chudinov--2008-01-01--POL",
+      "officialId": "igor-chudinov",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "2008-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -13271,6 +13426,10 @@
       "officialId": "kurmanbek-bakiyev",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14050,6 +14209,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "roza-otunbayeva--1996-01-01--AZE",
+      "officialId": "roza-otunbayeva",
+      "purpose": "Visit to Azerbaijan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Kyrgyzstan_relations"
+        }
+      ],
+      "startDate": "1996-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Moscow",
@@ -14672,6 +14859,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2021-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ruslan-kazakbayev--2021-01-01--AZE",
+      "officialId": "ruslan-kazakbayev",
+      "purpose": "Visit to Azerbaijan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Kyrgyzstan_relations"
+        }
+      ],
+      "startDate": "2021-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Moscow",
@@ -15180,6 +15395,10 @@
       "purpose": "Visit to Azerbaijan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Azerbaijan%E2%80%93Kyrgyzstan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15288,13 +15507,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tashkent",
+        "city": "Samarkand",
         "coordinates": [
-          69.279722222,
-          41.311111111
+          66.975833333,
+          39.654722222
         ],
         "countryCode": "UZB",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2022-09-16",
@@ -15302,10 +15520,10 @@
         "Met President Shavkat Mirziyoyev",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "sadyr-japarov--2022-09-14--UZB",
+      "eventName": "2022 Samarkand SCO summit",
+      "id": "sadyr-japarov--2022-09-15--UZB",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Attended the 2022 Samarkand SCO summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -15316,9 +15534,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-09-14",
+      "startDate": "2022-09-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -15486,13 +15704,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tashkent",
+        "city": "Samarkand",
         "coordinates": [
-          69.279722222,
-          41.311111111
+          66.975833333,
+          39.654722222
         ],
         "countryCode": "UZB",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2022-11-11",
@@ -15500,17 +15717,21 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Organization of Turkic States (OTS) Summit",
-      "id": "sadyr-japarov--2022-11-10--UZB",
+      "eventName": "2022 Organization of Turkic States summit",
+      "id": "sadyr-japarov--2022-11-11--UZB",
       "officialId": "sadyr-japarov",
-      "purpose": "Attended Organization of Turkic States (OTS) Summit",
+      "purpose": "Attended the 2022 Organization of Turkic States summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Organization_of_Turkic_States_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-10",
+      "startDate": "2022-11-11",
       "statusHint": null,
       "type": "summit"
     },
@@ -15989,6 +16210,33 @@
         }
       ],
       "startDate": "2023-09-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Astana",
+        "coordinates": [
+          71.433333333,
+          51.133333333
+        ],
+        "countryCode": "KAZ",
+        "region": "Asia"
+      },
+      "endDate": "2023-11-03",
+      "engagements": [],
+      "eventName": "2023 Organization of Turkic States summit",
+      "id": "sadyr-japarov--2023-11-03--KAZ",
+      "officialId": "sadyr-japarov",
+      "purpose": "Attended the 2023 Organization of Turkic States summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_Organization_of_Turkic_States_summit"
+        }
+      ],
+      "startDate": "2023-11-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -16482,7 +16730,6 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2024-07-04",
@@ -16490,10 +16737,10 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2024 Astana SCO summit",
       "id": "sadyr-japarov--2024-07-03--KAZ",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Attended the 2024 Astana SCO summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -16506,7 +16753,7 @@
       ],
       "startDate": "2024-07-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -16861,13 +17108,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Kazan",
         "coordinates": [
-          37.6175,
-          55.750555555
+          49.114444444,
+          55.790833333
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2024-10-24",
@@ -16875,17 +17121,21 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "sadyr-japarov--2024-10-23--RUS",
+      "eventName": "16th BRICS summit",
+      "id": "sadyr-japarov--2024-10-22--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 16th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-23",
+      "startDate": "2024-10-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -17578,24 +17828,23 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Tianjin",
         "coordinates": [
-          116.4074,
-          39.9042
+          117.205555555,
+          39.146666666
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2025-09-03",
+      "endDate": "2025-09-01",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2025 Tianjin SCO summit",
       "id": "sadyr-japarov--2025-08-31--CHN",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit for participation in 2025 Tianjin Shanghai Cooperation Organization summit and participation in Beijing 80th victory day para…",
+      "purpose": "Attended the 2025 Tianjin SCO summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -18331,6 +18580,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "sooronbay-jeenbekov--2012-08-26--IRN",
+      "officialId": "sooronbay-jeenbekov",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Moscow",
         "coordinates": [
           37.6175,
@@ -18677,7 +18953,7 @@
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2018 Qingdao SCO summit",
       "id": "sooronbay-jeenbekov--2018-06-06--CHN",
       "officialId": "sooronbay-jeenbekov",
       "purpose": "Took part in an annual summit of the Shanghai Cooperation Organization (SCO).",

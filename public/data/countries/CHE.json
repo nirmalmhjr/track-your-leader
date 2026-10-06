@@ -13079,6 +13079,39 @@
       "wikidataId": "Q121285"
     },
     {
+      "aliases": [],
+      "countryCode": "CHE",
+      "fullName": "Jean-Daniel Gerber",
+      "id": "jean-daniel-gerber",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Daniel_Gerber.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2010-12-31",
+          "id": "jean-daniel-gerber-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2010-01-01",
+          "title": "Secretary"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peru%E2%80%93Switzerland_relations"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean-Daniel_Gerber"
+        }
+      ],
+      "summary": "Jean-Daniel Gerber is a Swiss economist (born 1946). He was a delegate to the World Trade Organization (WTO), and later executive director of the World Bank Board.",
+      "wikidataId": "Q117046"
+    },
+    {
       "aliases": [
         "Karin Keller",
         "Karin Maria Sutter",
@@ -15634,6 +15667,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1997-07-09",
+      "engagements": [],
+      "eventName": "1997 Madrid NATO summit",
+      "id": "adolf-ogi--1997-07-08--ESP",
+      "officialId": "adolf-ogi",
+      "purpose": "Attended the 1997 Madrid NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        }
+      ],
+      "startDate": "1997-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Rome",
         "coordinates": [
           12.4964,
@@ -17382,6 +17442,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "didier-burkhalter--2013-01-01--PER",
+      "officialId": "didier-burkhalter",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peru%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Vienna",
@@ -18177,30 +18265,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "NATO Summit",
-      "id": "didier-burkhalter--2014-09-05--GBR",
+      "eventName": "2014 Wales NATO summit",
+      "id": "didier-burkhalter--2014-09-04--GBR",
       "officialId": "didier-burkhalter",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-05",
+      "startDate": "2014-09-04",
       "statusHint": null,
       "type": "summit"
     },
@@ -19707,6 +19798,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Palace of the Parliament",
+        "coordinates": [
+          26.0875,
+          44.4275
+        ],
+        "countryCode": "ROU",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-04",
+      "engagements": [],
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "eveline-widmer-schlumpf--2008-04-02--ROU",
+      "officialId": "eveline-widmer-schlumpf",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        }
+      ],
+      "startDate": "2008-04-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -20473,6 +20591,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "region": "Europe"
+      },
+      "endDate": "2016-07-09",
+      "engagements": [],
+      "eventName": "2016 Warsaw NATO summit",
+      "id": "guy-parmelin--2016-07-08--POL",
+      "officialId": "guy-parmelin",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        }
+      ],
+      "startDate": "2016-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Vienna",
         "coordinates": [
           16.3725,
@@ -20911,6 +21056,34 @@
         }
       ],
       "startDate": "2021-11-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2026-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "guy-parmelin--2026-01-01--MEX",
+      "officialId": "guy-parmelin",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "2026-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -22211,6 +22384,62 @@
       "type": "conference"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean-daniel-gerber--2010-01-01--PER",
+      "officialId": "jean-daniel-gerber",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peru%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean-pascal-delamuraz--1995-01-01--MEX",
+      "officialId": "jean-pascal-delamuraz",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "1995-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Pretoria",
@@ -22358,6 +22587,34 @@
         }
       ],
       "startDate": "1996-10-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "johann-schneider-ammann--2013-01-01--MEX",
+      "officialId": "johann-schneider-ammann",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -23446,6 +23703,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -24363,6 +24624,34 @@
       "startDate": "2002-12-15",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "micheline-calmy-rey--2005-01-01--PER",
+      "officialId": "micheline-calmy-rey",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peru%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "2005-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -26155,6 +26444,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "pascal-couchepin--1998-01-01--MEX",
+      "officialId": "pascal-couchepin",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "1998-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Athens",
@@ -26376,11 +26693,15 @@
       },
       "endDate": "2003-06-03",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "29th G8 summit",
       "id": "pascal-couchepin--2003-06-01--FRA",
       "officialId": "pascal-couchepin",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 29th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/29th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -27016,6 +27337,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2009-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "pascal-couchepin--2009-01-01--PER",
+      "officialId": "pascal-couchepin",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Peru%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "2009-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -27041,6 +27390,62 @@
       "startDate": "2008-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-aubert--1984-01-01--MEX",
+      "officialId": "pierre-aubert",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "1984-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rene-felber--1989-01-01--MEX",
+      "officialId": "rene-felber",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Switzerland_relations"
+        }
+      ],
+      "startDate": "1989-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -28499,6 +28904,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "2012 Chicago NATO summit",
+      "id": "ueli-maurer--2012-05-20--USA",
+      "officialId": "ueli-maurer",
+      "purpose": "Attended the 2012 Chicago NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        }
+      ],
+      "startDate": "2012-05-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Vienna",
         "coordinates": [
           16.3725,
@@ -28674,6 +29107,33 @@
       "startDate": "2013-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hamburg",
+        "coordinates": [
+          10,
+          53.55
+        ],
+        "countryCode": "DEU",
+        "region": "Europe"
+      },
+      "endDate": "2017-07-08",
+      "engagements": [],
+      "eventName": "2017 G20 Hamburg summit",
+      "id": "ueli-maurer--2017-07-07--DEU",
+      "officialId": "ueli-maurer",
+      "purpose": "Attended the 2017 G20 Hamburg summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_G20_Hamburg_summit"
+        }
+      ],
+      "startDate": "2017-07-07",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

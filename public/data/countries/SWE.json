@@ -2995,7 +2995,7 @@
       "aliases": [],
       "countryCode": "SWE",
       "fullName": "Camilla Waltersson Gronvall",
-      "id": "camilla-waltersson-gronvall-swe",
+      "id": "camilla-waltersson-gronvall",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -3004,7 +3004,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "camilla-waltersson-gronvall-swe-p1",
+          "id": "camilla-waltersson-gronvall-p1",
           "ministry": "Ministry of Social Services",
           "portfolio": "social_affairs",
           "startDate": null,
@@ -4204,7 +4204,7 @@
       "aliases": [],
       "countryCode": "SWE",
       "fullName": "Gunnar Strommer",
-      "id": "gunnar-strommer-swe",
+      "id": "gunnar-strommer",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -4213,7 +4213,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "gunnar-strommer-swe-p1",
+          "id": "gunnar-strommer-p1",
           "ministry": "Ministry of Justice",
           "portfolio": "justice",
           "startDate": null,
@@ -4233,7 +4233,7 @@
       "aliases": [],
       "countryCode": "SWE",
       "fullName": "Gunnar Strömmer",
-      "id": "gunnar-strommer",
+      "id": "gunnar-strommer-swe",
       "party": "Moderate Party",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gunnar_Str%C3%B6mmer_Sweden_Minister_of_Justice_in_2024_(cropped).jpg?width=160",
       "positions": [
@@ -4242,7 +4242,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "gunnar-strommer-p1",
+          "id": "gunnar-strommer-swe-p1",
           "ministry": "Ministry of Justice",
           "portfolio": "justice",
           "startDate": "2022-10-18",
@@ -12381,6 +12381,46 @@
     },
     {
       "aliases": [
+        "Queen Silvia",
+        "Queen Silvia Renate of Sweden",
+        "Silvia Renate Sommerlath",
+        "Silvia Renate, Queen of Sweden",
+        "Silvia Sommerlath",
+        "Silvia of Sweden"
+      ],
+      "countryCode": "SWE",
+      "fullName": "Queen Silvia of Sweden",
+      "id": "queen-silvia-of-sweden",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Queen_Silvia_of_Sweden_in_2018.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "queen-silvia-of-sweden-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1976-06-19",
+          "title": "Queen Consort of Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q152308"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Queen_Silvia_of_Sweden"
+        }
+      ],
+      "summary": "Silvia is Queen of Sweden as the wife of King Carl XVI Gustaf. She has held this title since her marriage to Carl XVI Gustaf in 1976.",
+      "wikidataId": "Q152308"
+    },
+    {
+      "aliases": [
         "Thomas Lennart Bodström"
       ],
       "countryCode": "SWE",
@@ -12468,6 +12508,35 @@
       ],
       "summary": "Thomas Lennart Bodström (born 9 April 1962) is a Swedish former politician of the Swedish Social Democratic Party. He served as the Swedish Minister for Justice in the two governments of Prime Minister Göran Persson, from 2000 to 2006.",
       "wikidataId": "Q3141607"
+    },
+    {
+      "aliases": [],
+      "countryCode": "SWE",
+      "fullName": "Victoria",
+      "id": "victoria",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2002-12-31",
+          "id": "victoria-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2002-01-01",
+          "title": "Crown Princess"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Sweden_relations"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
     },
     {
       "aliases": [],
@@ -36506,6 +36575,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "carl-bildt--2010-01-01--BRA",
+      "officialId": "carl-bildt",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -36553,7 +36650,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Carl_XVI_Gustaf"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
         }
       ],
       "startDate": "1974-10-08",
@@ -36665,7 +36762,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Carl_XVI_Gustaf"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
         }
       ],
       "startDate": "1975-07-08",
@@ -37817,7 +37914,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Carl_XVI_Gustaf"
+          "url": "https://fr.wikipedia.org/wiki/Liste_des_visites_d'%C3%89tat_re%C3%A7ues_par_le_roi_Albert_II_de_Belgique"
         }
       ],
       "startDate": "2001-05-08",
@@ -40637,30 +40734,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bucharest",
+        "city": "Palace of the Parliament",
         "coordinates": [
-          26.097777777,
-          44.413361111
+          26.0875,
+          44.4275
         ],
         "countryCode": "ROU",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-04-03",
+      "endDate": "2008-04-04",
       "engagements": [],
-      "eventName": null,
-      "id": "fredrik-reinfeldt--2008-04-03--ROU",
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "fredrik-reinfeldt--2008-04-02--ROU",
       "officialId": "fredrik-reinfeldt",
-      "purpose": "Visit to Romania",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-04-03",
+      "startDate": "2008-04-02",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -41555,22 +41655,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "L'Aquila",
         "coordinates": [
-          12.4964,
-          41.9028
+          13.391991666,
+          42.354008333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2009-07-10",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "35th G8 summit",
       "id": "fredrik-reinfeldt--2009-07-08--ITA",
       "officialId": "fredrik-reinfeldt",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 35th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/35th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -42444,16 +42547,19 @@
           38.708042
         ],
         "countryCode": "PRT",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2010-11-21",
+      "endDate": "2010-11-20",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2010 Lisbon NATO summit",
       "id": "fredrik-reinfeldt--2010-11-19--PRT",
       "officialId": "fredrik-reinfeldt",
-      "purpose": "Attended NATO Summit and United States-European Council Summit",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -42576,6 +42682,34 @@
       "startDate": "2010-12-16",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "fredrik-reinfeldt--2011-01-01--CHL",
+      "officialId": "fredrik-reinfeldt",
+      "purpose": "Visit to Chile",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "2011-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -42854,6 +42988,10 @@
       "officialId": "fredrik-reinfeldt",
       "purpose": "Visit to Brazil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Sweden_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -43488,6 +43626,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
         },
         {
           "label": "COLT dataset",
@@ -44183,6 +44325,10 @@
       "officialId": "fredrik-reinfeldt",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Sweden_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -45111,6 +45257,33 @@
       "startDate": "1997-02-07",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1997-07-09",
+      "engagements": [],
+      "eventName": "1997 Madrid NATO summit",
+      "id": "goran-persson--1997-07-08--ESP",
+      "officialId": "goran-persson",
+      "purpose": "Attended the 1997 Madrid NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        }
+      ],
+      "startDate": "1997-07-08",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -48852,6 +49025,10 @@
       "purpose": "Visit to Chile",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Sweden_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -51524,6 +51701,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ingvar-carlsson--1986-01-01--MEX",
+      "officialId": "ingvar-carlsson",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "1986-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -53367,7 +53572,7 @@
         "On 28 June, she met with President of Turkey Recep Tayyip Erdoğan, along with President of Finland Sauli Niinistö, where they signed an agreement in which Turkey officially endors…",
         "Signed agreements"
       ],
-      "eventName": "Finland-North Atlantic Treaty Organization (NATO)-Sweden-Turkey Multilateral Meeting",
+      "eventName": "2022 Madrid NATO summit",
       "id": "magdalena-andersson--2022-06-28--ESP",
       "officialId": "magdalena-andersson",
       "purpose": "Andersson travelled to Spain to attend the NATO 2022 Madrid summit.",
@@ -53485,6 +53690,33 @@
       "startDate": "2022-10-06",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "magdalena-andersson--2027-01-01--ALB",
+      "officialId": "magdalena-andersson",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
+      "statusHint": "planned",
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -53786,6 +54018,62 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "olof-palme--1984-01-01--MEX",
+      "officialId": "olof-palme",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "1984-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "queen-silvia-of-sweden--1984-01-01--BRA",
+      "officialId": "queen-silvia-of-sweden",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "1984-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Rome",
@@ -54066,6 +54354,10 @@
       "officialId": "stefan-lofven",
       "purpose": "Visit to Brazil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Sweden_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -55254,24 +55546,27 @@
           52.23
         ],
         "countryCode": "POL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2016-07-09",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "stefan-lofven--2016-07-07--POL",
+      "eventName": "2016 Warsaw NATO summit",
+      "id": "stefan-lofven--2016-07-08--POL",
       "officialId": "stefan-lofven",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-07-07",
+      "startDate": "2016-07-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -56388,16 +56683,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-07-12",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2018 Brussels NATO summit",
       "id": "stefan-lofven--2018-07-11--BEL",
       "officialId": "stefan-lofven",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2018 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -57881,6 +58179,34 @@
         }
       ],
       "startDate": "1963-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "thorbjorn-falldin--1981-01-01--MEX",
+      "officialId": "thorbjorn-falldin",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "1981-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -60863,7 +61189,7 @@
       "engagements": [
         "He met, among other, with Turkish President Recep Tayyip Erdoğan and NATO Secretary General Jens Stoltenberg, culminating in Erdoğans commitment to ratify Sweden's entry into NATO."
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2023 Vilnius NATO summit",
       "id": "ulf-kristersson--2023-07-10--LTU",
       "officialId": "ulf-kristersson",
       "purpose": "Kristersson travelled to Vilnius to attend the 2023 NATO Vilnius summit.",
@@ -62813,7 +63139,7 @@
         "Met Prime Minister Dick Schoof",
         "Signed agreements"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "ulf-kristersson--2025-06-24--NLD",
       "officialId": "ulf-kristersson",
       "purpose": "Kristersson attended the 2025 NATO summit.",
@@ -63535,7 +63861,7 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "ulf-kristersson--2026-07-07--TUR",
       "officialId": "ulf-kristersson",
       "purpose": "Kristersson attended the 2026 Ankara NATO summit.",
@@ -63627,6 +63953,34 @@
         }
       ],
       "startDate": "2026-09-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "victoria--2002-01-01--BRA",
+      "officialId": "victoria",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
       "statusHint": null,
       "type": "other"
     }

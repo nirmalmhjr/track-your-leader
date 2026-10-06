@@ -2103,7 +2103,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Ana Maria Vesga",
-      "id": "ana-maria-vesga-col",
+      "id": "ana-maria-vesga",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2112,7 +2112,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ana-maria-vesga-col-p1",
+          "id": "ana-maria-vesga-p1",
           "ministry": "Ministry of Health",
           "portfolio": "health",
           "startDate": null,
@@ -2132,7 +2132,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Ana María Vesga",
-      "id": "ana-maria-vesga",
+      "id": "ana-maria-vesga-col",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2141,7 +2141,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ana-maria-vesga-p1",
+          "id": "ana-maria-vesga-col-p1",
           "ministry": "Ministry of Health and Social Protection",
           "portfolio": "health",
           "startDate": "2026-08-07",
@@ -6706,7 +6706,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Ivan Cancino",
-      "id": "ivan-cancino-col",
+      "id": "ivan-cancino",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -6715,7 +6715,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ivan-cancino-col-p1",
+          "id": "ivan-cancino-p1",
           "ministry": "Ministry of Justice and Law",
           "portfolio": "justice",
           "startDate": null,
@@ -6735,7 +6735,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Iván Cancino",
-      "id": "ivan-cancino",
+      "id": "ivan-cancino-col",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -6744,7 +6744,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ivan-cancino-p1",
+          "id": "ivan-cancino-col-p1",
           "ministry": "Ministry of Justice and Law of Colombia",
           "portfolio": "justice",
           "startDate": "2026-08-07",
@@ -8079,7 +8079,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Juliana Gutierrez",
-      "id": "juliana-gutierrez-col",
+      "id": "juliana-gutierrez",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -8088,7 +8088,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "juliana-gutierrez-col-p1",
+          "id": "juliana-gutierrez-p1",
           "ministry": "Ministry of Sport",
           "portfolio": "youth",
           "startDate": null,
@@ -8108,7 +8108,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Juliana Gutiérrez",
-      "id": "juliana-gutierrez",
+      "id": "juliana-gutierrez-col",
       "party": "We Belive Colombia",
       "photoUrl": null,
       "positions": [
@@ -8117,7 +8117,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "juliana-gutierrez-p1",
+          "id": "juliana-gutierrez-col-p1",
           "ministry": "Ministry of Sport",
           "portfolio": "youth",
           "startDate": "2026-01-01",
@@ -10028,7 +10028,7 @@
       "aliases": [],
       "countryCode": "COL",
       "fullName": "Mauricio Gomez-Amin",
-      "id": "mauricio-gomez-amin-col",
+      "id": "mauricio-gomez-amin",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -10037,7 +10037,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "mauricio-gomez-amin-col-p1",
+          "id": "mauricio-gomez-amin-p1",
           "ministry": "Ministry of Trade, Industry and Tourism",
           "portfolio": "trade",
           "startDate": null,
@@ -14991,6 +14991,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Port-au-Prince",
+        "coordinates": [
+          -72.340277777,
+          18.546944444
+        ],
+        "countryCode": "HTI",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "alvaro-leyva--2023-01-01--HTI",
+      "officialId": "alvaro-leyva",
+      "purpose": "Visit to Haiti",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Haiti_relations"
+        }
+      ],
+      "startDate": "2023-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -16262,6 +16290,10 @@
       "purpose": "Visit to China",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China%E2%80%93Colombia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16408,6 +16440,10 @@
       "officialId": "alvaro-uribe-velez",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17574,6 +17610,10 @@
       "purpose": "Visit to France",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93France_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18193,22 +18233,25 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2009-04-18",
+      "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "alvaro-uribe-velez--2009-04-18--TTO",
+      "eventName": "5th Summit of the Americas",
+      "id": "alvaro-uribe-velez--2009-04-17--TTO",
       "officialId": "alvaro-uribe-velez",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-04-18",
+      "startDate": "2009-04-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -18776,6 +18819,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18993,13 +19040,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Huntsville",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -79.216666666,
+          45.333333333
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2010-06-26",
@@ -19007,17 +19053,21 @@
         "Met Prime Minister Stephen Harper",
         "Gave a public address"
       ],
-      "eventName": "G8 Summit",
-      "id": "alvaro-uribe-velez--2010-06-24--CAN",
+      "eventName": "36th G8 summit",
+      "id": "alvaro-uribe-velez--2010-06-25--CAN",
       "officialId": "alvaro-uribe-velez",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 36th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/36th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-06-24",
+      "startDate": "2010-06-25",
       "statusHint": null,
       "type": "summit"
     },
@@ -19286,6 +19336,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -19375,6 +19429,10 @@
       "officialId": "andres-pastrana-arango",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19529,6 +19587,10 @@
       "officialId": "andres-pastrana-arango",
       "purpose": "Visit to China",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China%E2%80%93Colombia_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20046,6 +20108,10 @@
       "purpose": "Visit to France",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93France_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -20263,6 +20329,10 @@
       "officialId": "andres-pastrana-arango",
       "purpose": "Attended Summit of the Americas (SOA)",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Colombia_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20611,6 +20681,117 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Vienna",
+        "coordinates": [
+          16.3725,
+          48.208333333
+        ],
+        "countryCode": "AUT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2011-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "angelino-garzon--2011-01-01--AUT",
+      "officialId": "angelino-garzon",
+      "purpose": "Visit to Austria",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "2011-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Port of Spain",
+        "coordinates": [
+          -61.516666666,
+          10.666666666
+        ],
+        "countryCode": "TTO",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "angelino-garzon--2012-01-01--TTO",
+      "officialId": "angelino-garzon",
+      "purpose": "Visit to Trinidad and Tobago",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Trinidad_and_Tobago_relations"
+        }
+      ],
+      "startDate": "2012-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "angelino-garzon--2012-08-26--IRN",
+      "officialId": "angelino-garzon",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "belisario-betancur--1983-01-01--MEX",
+      "officialId": "belisario-betancur",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1983-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -20639,6 +20820,62 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [
+          54.396944444,
+          24.451111111
+        ],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2018-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-holmes-trujillo--2018-01-01--ARE",
+      "officialId": "carlos-holmes-trujillo",
+      "purpose": "Visit to United Arab Emirates",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93United_Arab_Emirates_relations"
+        }
+      ],
+      "startDate": "2018-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "carlos-holmes-trujillo--2019-01-01--SWE",
+      "officialId": "carlos-holmes-trujillo",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "2019-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -20665,6 +20902,34 @@
       "startDate": "1969-06-12",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "cesar-gaviria--1990-01-01--MEX",
+      "officialId": "cesar-gaviria",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1990-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -21031,6 +21296,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21299,6 +21568,34 @@
         }
       ],
       "startDate": "1994-07-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ernesto-samper--1994-01-01--MEX",
+      "officialId": "ernesto-samper",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1994-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -21623,6 +21920,10 @@
       "purpose": "Visit to China",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China%E2%80%93Colombia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21690,6 +21991,34 @@
       "startDate": "1996-10-25",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Algiers",
+        "coordinates": [
+          3.058611111,
+          36.776388888
+        ],
+        "countryCode": "DZA",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "1997-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ernesto-samper--1997-01-01--DZA",
+      "officialId": "ernesto-samper",
+      "purpose": "Visit to Algeria",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Algeria%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "1997-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -22075,6 +22404,62 @@
       "startDate": "1998-06-26",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Beijing",
+        "coordinates": [
+          116.4074,
+          39.9042
+        ],
+        "countryCode": "CHN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "francisco-santos--2006-01-01--CHN",
+      "officialId": "francisco-santos",
+      "purpose": "Visit to China",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/China%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "german-vargas-lleras--2015-01-01--CAN",
+      "officialId": "german-vargas-lleras",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "2015-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -22473,6 +22858,34 @@
       "startDate": "2023-01-01",
       "statusHint": null,
       "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gustavo-petro--2023-01-01--SWE",
+      "officialId": "gustavo-petro",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Sweden_relations"
+        }
+      ],
+      "startDate": "2023-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -23688,7 +24101,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gustavo_Petro"
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2023"
         },
         {
           "label": "COLT dataset",
@@ -24471,6 +24884,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -24536,7 +24953,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rio De Janeiro",
+        "city": "Rio de Janeiro",
         "coordinates": [
           -43.205555555,
           -22.911111111
@@ -24544,25 +24961,25 @@
         "countryCode": "BRA",
         "region": "Americas"
       },
-      "endDate": "2024-11-20",
+      "endDate": "2024-11-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "gustavo-petro--2024-11-18--BRA",
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "gustavo-petro--2024-11-16--BRA",
       "officialId": "gustavo-petro",
-      "purpose": "Participación en la cumbre G20 como invitado Especial Reunión bilateral con el presidente de Francia Emmanuel Macron Reunión bilateral con…",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Gustavo_Petro"
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-11-18",
+      "startDate": "2024-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -25637,6 +26054,34 @@
       "startDate": "2026-07-31",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [
+          54.396944444,
+          24.451111111
+        ],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2023-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "irene-velez-torres--2023-01-01--ARE",
+      "officialId": "irene-velez-torres",
+      "purpose": "Visit to United Arab Emirates",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93United_Arab_Emirates_relations"
+        }
+      ],
+      "startDate": "2023-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -27718,7 +28163,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Iv%C3%A1n_Duque"
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
         },
         {
           "label": "COLT dataset",
@@ -29458,6 +29903,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -30116,28 +30565,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Fortaleza",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -38.5275,
+          -3.7275
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-07-18",
+      "endDate": "2014-07-16",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "juan-manuel-santos--2014-07-16--BRA",
+      "eventName": "6th BRICS summit",
+      "id": "juan-manuel-santos--2014-07-14--BRA",
       "officialId": "juan-manuel-santos",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 6th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-16",
+      "startDate": "2014-07-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -30431,6 +30883,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -30595,18 +31051,21 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [
         "Met President Juan Carlos Varela"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "juan-manuel-santos--2015-04-10--PAN",
       "officialId": "juan-manuel-santos",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -30922,30 +31381,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Philippine International Convention Center",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.982618,
+          14.554257
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-11-19",
       "engagements": [
         "Met President Benigno Aquino III"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "juan-manuel-santos--2015-11-16--PHL",
+      "eventName": "APEC Philippines 2015",
+      "id": "juan-manuel-santos--2015-11-18--PHL",
       "officialId": "juan-manuel-santos",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Philippines 2015",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_2015"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-16",
+      "startDate": "2015-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -31596,24 +32058,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Lima",
+        "city": "Lima Convention Center",
         "coordinates": [
-          -77.0375,
-          -12.06
+          -77.000574,
+          -12.086374
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-11-21",
+      "endDate": "2016-11-20",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Peru 2016",
       "id": "juan-manuel-santos--2016-11-19--PER",
       "officialId": "juan-manuel-santos",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Peru 2016",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Peru_2016"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -32194,6 +32659,10 @@
       "purpose": "Visit to United Arab Emirates",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93United_Arab_Emirates_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -32285,6 +32754,10 @@
       "purpose": "Visit to Austria",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Colombia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -32333,24 +32806,27 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-04-14",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "juan-manuel-santos--2018-04-14--PER",
+      "eventName": "8th Summit of the Americas",
+      "id": "juan-manuel-santos--2018-04-13--PER",
       "officialId": "juan-manuel-santos",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-14",
+      "startDate": "2018-04-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -32434,6 +32910,10 @@
       "officialId": "juan-manuel-santos",
       "purpose": "Visit to Hungary",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Hungary_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -32622,6 +33102,174 @@
       "startDate": "2018-07-23",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Abu Dhabi",
+        "coordinates": [
+          54.396944444,
+          24.451111111
+        ],
+        "countryCode": "ARE",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2022-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "marta-lucia-ramirez--2022-01-01--ARE",
+      "officialId": "marta-lucia-ramirez",
+      "purpose": "Visit to United Arab Emirates",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93United_Arab_Emirates_relations"
+        }
+      ],
+      "startDate": "2022-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [
+          4.883333333,
+          52.366666666
+        ],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "marta-lucia-ramirez--2022-01-01--NLD",
+      "officialId": "marta-lucia-ramirez",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Netherlands_relations"
+        }
+      ],
+      "startDate": "2022-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "noemi-sanin--1992-01-01--CAN",
+      "officialId": "noemi-sanin",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "1992-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rodrigo-hernan-lloreda-caicedo--1984-01-01--CAN",
+      "officialId": "rodrigo-hernan-lloreda-caicedo",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "1984-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "virgilio-barco-vargas--1987-01-01--MEX",
+      "officialId": "virgilio-barco-vargas",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1987-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "virgilio-barco-vargas--1988-01-01--ESP",
+      "officialId": "virgilio-barco-vargas",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colombia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

@@ -1542,7 +1542,7 @@
       "aliases": [],
       "countryCode": "ARM",
       "fullName": "Arsen Torosyan",
-      "id": "arsen-torosyan-arm",
+      "id": "arsen-torosyan",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1551,7 +1551,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "arsen-torosyan-arm-p1",
+          "id": "arsen-torosyan-p1",
           "ministry": "Ministry of Labor and Welfare",
           "portfolio": "labour",
           "startDate": null,
@@ -4357,6 +4357,33 @@
   ],
   "trips": [
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1997-07-09",
+      "engagements": [],
+      "eventName": "1997 Madrid NATO summit",
+      "id": "alexander-arzoumanian--1997-07-08--ESP",
+      "officialId": "alexander-arzoumanian",
+      "purpose": "Attended the 1997 Madrid NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        }
+      ],
+      "startDate": "1997-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -4438,6 +4465,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "andranik-margaryan--2002-01-01--MEX",
+      "officialId": "andranik-margaryan",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -4463,6 +4518,90 @@
       "startDate": "2023-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2024-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ararat-mirzoyan--2024-01-01--ARG",
+      "officialId": "ararat-mirzoyan",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        }
+      ],
+      "startDate": "2024-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Montevideo",
+        "coordinates": [
+          -56.191311111,
+          -34.905916666
+        ],
+        "countryCode": "URY",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2024-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ararat-mirzoyan--2024-01-01--URY",
+      "officialId": "ararat-mirzoyan",
+      "purpose": "Visit to Uruguay",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Uruguay_relations"
+        }
+      ],
+      "startDate": "2024-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2024-07-11",
+      "engagements": [],
+      "eventName": "2024 Washington NATO summit",
+      "id": "ararat-mirzoyan--2024-07-09--USA",
+      "officialId": "ararat-mirzoyan",
+      "purpose": "Attended the 2024 Washington NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Washington_NATO_summit"
+        }
+      ],
+      "startDate": "2024-07-09",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6669,6 +6808,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ashgabat",
+        "coordinates": [
+          58.383333333,
+          37.95
+        ],
+        "countryCode": "TKM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2009-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-nalbandyan--2009-01-01--TKM",
+      "officialId": "edward-nalbandyan",
+      "purpose": "Visit to Turkmenistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Turkmenistan_relations"
+        }
+      ],
+      "startDate": "2009-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -6725,6 +6892,116 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-20",
+      "engagements": [],
+      "eventName": "2010 Lisbon NATO summit",
+      "id": "edward-nalbandyan--2010-11-19--PRT",
+      "officialId": "edward-nalbandyan",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        }
+      ],
+      "startDate": "2010-11-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-nalbandyan--2011-01-01--ARG",
+      "officialId": "edward-nalbandyan",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        }
+      ],
+      "startDate": "2011-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-nalbandyan--2012-01-01--MEX",
+      "officialId": "edward-nalbandyan",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2012-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "edward-nalbandyan--2012-08-26--IRN",
+      "officialId": "edward-nalbandyan",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -6748,6 +7025,34 @@
       "startDate": "2012-10-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Yerevan",
+        "coordinates": [
+          44.514444444,
+          40.181388888
+        ],
+        "countryCode": "ARM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-06-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "edward-nalbandyan--2013-05-01--ARM",
+      "officialId": "edward-nalbandyan",
+      "purpose": "Visit to Armenia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2013-05-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -6802,6 +7107,34 @@
       "startDate": "2016-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ashgabat",
+        "coordinates": [
+          58.383333333,
+          37.95
+        ],
+        "countryCode": "TKM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "karen-karapetyan--2017-01-01--TKM",
+      "officialId": "karen-karapetyan",
+      "purpose": "Visit to Turkmenistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Turkmenistan_relations"
+        }
+      ],
+      "startDate": "2017-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -6947,6 +7280,34 @@
       "startDate": "1991-12-29",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "levon-ter-petrosyan--1992-01-01--ARG",
+      "officialId": "levon-ter-petrosyan",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        }
+      ],
+      "startDate": "1992-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -7146,6 +7507,10 @@
       "purpose": "Visit to Uruguay",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Uruguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7176,6 +7541,10 @@
       "officialId": "levon-ter-petrosyan",
       "purpose": "Attended United Nations (UN) Earth Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Brazil_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7442,6 +7811,10 @@
       "officialId": "levon-ter-petrosyan",
       "purpose": "Visit to Turkmenistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Turkmenistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8545,7 +8918,7 @@
       "engagements": [
         "Held a bilateral meeting with Emmanuel Macron and met with Donald Trump."
       ],
-      "eventName": null,
+      "eventName": "2018 Brussels NATO summit",
       "id": "nikol-pashinyan--2018-07-11--BEL",
       "officialId": "nikol-pashinyan",
       "purpose": "Attended the NATO summit.",
@@ -11810,17 +12183,17 @@
       },
       "endDate": "2024-10-24",
       "engagements": [],
-      "eventName": null,
-      "id": "nikol-pashinyan--2024-10-24--RUS",
+      "eventName": "16th BRICS summit",
+      "id": "nikol-pashinyan--2024-10-22--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Attended the BRICS summit.",
+      "purpose": "Attended the 16th BRICS summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
         }
       ],
-      "startDate": "2024-10-24",
+      "startDate": "2024-10-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -12337,7 +12710,7 @@
       "engagements": [
         "Attended the SCO summit and 2025 China Victory Day Parade."
       ],
-      "eventName": null,
+      "eventName": "2025 Tianjin SCO summit",
       "id": "nikol-pashinyan--2025-08-31--CHN",
       "officialId": "nikol-pashinyan",
       "purpose": "Working visit.",
@@ -13198,6 +13571,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "raffi-hovannisian--1991-01-01--ARG",
+      "officialId": "raffi-hovannisian",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Moscow",
@@ -13867,6 +14268,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ashgabat",
+        "coordinates": [
+          58.383333333,
+          37.95
+        ],
+        "countryCode": "TKM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2001-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-kocharyan--2001-01-01--TKM",
+      "officialId": "robert-kocharyan",
+      "purpose": "Visit to Turkmenistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Turkmenistan_relations"
+        }
+      ],
+      "startDate": "2001-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Paris",
@@ -14248,6 +14677,10 @@
       "purpose": "Visit to Argentina",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14279,6 +14712,10 @@
       "purpose": "Visit to Uruguay",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Uruguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14309,6 +14746,10 @@
       "officialId": "robert-kocharyan",
       "purpose": "Visit to Brazil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Brazil_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15878,6 +16319,33 @@
         }
       ],
       "startDate": "2008-02-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Palace of the Parliament",
+        "coordinates": [
+          26.0875,
+          44.4275
+        ],
+        "countryCode": "ROU",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-04",
+      "engagements": [],
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "robert-kocharyan--2008-04-02--ROU",
+      "officialId": "robert-kocharyan",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        }
+      ],
+      "startDate": "2008-04-02",
       "statusHint": null,
       "type": "summit"
     },
@@ -19077,6 +19545,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "2012 Chicago NATO summit",
+      "id": "serzh-sargsyan--2012-05-20--USA",
+      "officialId": "serzh-sargsyan",
+      "purpose": "Attended the 2012 Chicago NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        }
+      ],
+      "startDate": "2012-05-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [
           139.691666666,
@@ -20461,23 +20957,22 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
-      "id": "serzh-sargsyan--2014-09-03--GBR",
+      "eventName": "2014 Wales NATO summit",
+      "id": "serzh-sargsyan--2014-09-04--GBR",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -20488,9 +20983,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-03",
+      "startDate": "2014-09-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -21055,27 +21550,27 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2015-07-10",
+      "endDate": "2015-07-09",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2015-07-09--RUS",
+      "eventName": "7th BRICS summit",
+      "id": "serzh-sargsyan--2015-07-08--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Attended the 7th BRICS summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
+          "url": "https://en.wikipedia.org/wiki/7th_BRICS_summit"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-07-09",
+      "startDate": "2015-07-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -21755,15 +22250,14 @@
           52.23
         ],
         "countryCode": "POL",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-07-08",
+      "endDate": "2016-07-09",
       "engagements": [],
-      "eventName": null,
-      "id": "serzh-sargsyan--2016-07-07--POL",
+      "eventName": "2016 Warsaw NATO summit",
+      "id": "serzh-sargsyan--2016-07-08--POL",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -21774,9 +22268,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-07-07",
+      "startDate": "2016-07-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -23402,6 +23896,10 @@
       "purpose": "Visit to Argentina",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -23431,6 +23929,10 @@
       "officialId": "vahagn-khachatryan",
       "purpose": "Visit to Uruguay",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Uruguay_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23820,6 +24322,10 @@
       "purpose": "Visit to Uruguay",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Uruguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -24200,6 +24706,118 @@
       "startDate": "2025-12-11",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "vartan-oskanian--2000-01-01--ARG",
+      "officialId": "vartan-oskanian",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Armenia_relations"
+        }
+      ],
+      "startDate": "2000-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Montevideo",
+        "coordinates": [
+          -56.191311111,
+          -34.905916666
+        ],
+        "countryCode": "URY",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "vartan-oskanian--2000-01-01--URY",
+      "officialId": "vartan-oskanian",
+      "purpose": "Visit to Uruguay",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Uruguay_relations"
+        }
+      ],
+      "startDate": "2000-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Yerevan",
+        "coordinates": [
+          44.514444444,
+          40.181388888
+        ],
+        "countryCode": "ARM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "vartan-oskanian--2000-11-01--ARM",
+      "officialId": "vartan-oskanian",
+      "purpose": "Visit to Armenia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2000-11-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "vartan-oskanian--2002-01-01--MEX",
+      "officialId": "vartan-oskanian",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

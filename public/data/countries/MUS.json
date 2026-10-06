@@ -125,6 +125,17 @@
           "id": "barlen-vyapoory-p1",
           "ministry": null,
           "portfolio": null,
+          "startDate": "2018-03-24",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2019-11-26",
+          "id": "barlen-vyapoory-p2",
+          "ministry": null,
+          "portfolio": null,
           "startDate": "2018-03-23",
           "title": "President of Mauritius"
         },
@@ -133,7 +144,7 @@
             "deputy_leader"
           ],
           "endDate": "2019-11-26",
-          "id": "barlen-vyapoory-p2",
+          "id": "barlen-vyapoory-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2016-03-29",
@@ -3523,6 +3534,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "anerood-jugnauth--2002-03-02--AUS",
+      "officialId": "anerood-jugnauth",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -4344,6 +4382,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "arvin-boolell--2012-08-26--IRN",
+      "officialId": "arvin-boolell",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -4367,6 +4432,33 @@
       "startDate": "2012-10-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "arvin-boolell--2013-11-15--LKA",
+      "officialId": "arvin-boolell",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6306,22 +6398,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
       "id": "navin-ramgoolam--2011-10-28--AUS",
       "officialId": "navin-ramgoolam",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7788,28 +7883,31 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "pravind-jugnauth--2018-04-16--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "pravind-jugnauth--2018-04-19--GBR",
       "officialId": "pravind-jugnauth",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-16",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -8265,16 +8363,19 @@
           -1.9525
         ],
         "countryCode": "RWA",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2022-06-25",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
       "id": "pravind-jugnauth--2022-06-24--RWA",
       "officialId": "pravind-jugnauth",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8384,28 +8485,31 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-09-10",
       "engagements": [
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": "G20 Summit",
-      "id": "pravind-jugnauth--2023-09-07--IND",
+      "eventName": "2023 G20 New Delhi summit",
+      "id": "pravind-jugnauth--2023-09-09--IND",
       "officialId": "pravind-jugnauth",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2023 G20 New Delhi summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-07",
+      "startDate": "2023-09-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -8675,6 +8779,88 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "seewoosagur-ramgoolam--1971-01-14--SGP",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "seewoosagur-ramgoolam--1973-08-02--CAN",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [
+          -76.793055555,
+          17.971388888
+        ],
+        "countryCode": "JAM",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-06",
+      "engagements": [],
+      "eventName": "1975 Commonwealth Heads of Government Meeting",
+      "id": "seewoosagur-ramgoolam--1975-04-29--JAM",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Attended the 1975 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -8699,6 +8885,60 @@
       "startDate": "1975-09-30",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "seewoosagur-ramgoolam--1977-06-08--GBR",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "seewoosagur-ramgoolam--1979-08-01--ZMB",
+      "officialId": "seewoosagur-ramgoolam",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

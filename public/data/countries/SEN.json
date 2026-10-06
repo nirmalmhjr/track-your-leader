@@ -572,6 +572,17 @@
           "ministry": null,
           "portfolio": null,
           "startDate": "2014-07-06",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2019-05-14",
+          "id": "mahammed-dionne-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2014-07-06",
           "title": "Prime Minister of Senegal"
         }
       ],
@@ -4676,7 +4687,7 @@
       "aliases": [],
       "countryCode": "SEN",
       "fullName": "Mouhamadou Makhtar Cisse",
-      "id": "mouhamadou-makhtar-cisse-sen",
+      "id": "mouhamadou-makhtar-cisse",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -4685,7 +4696,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "mouhamadou-makhtar-cisse-sen-p1",
+          "id": "mouhamadou-makhtar-cisse-p1",
           "ministry": "Ministry of the Interior and Public Security",
           "portfolio": "home_affairs",
           "startDate": null,
@@ -4705,7 +4716,7 @@
       "aliases": [],
       "countryCode": "SEN",
       "fullName": "Mouhamadou Makhtar Cissé",
-      "id": "mouhamadou-makhtar-cisse",
+      "id": "mouhamadou-makhtar-cisse-sen",
       "party": null,
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mouhammadou_Makhtar_Ciss%C3%A9.jpg?width=160",
       "positions": [
@@ -4714,7 +4725,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "mouhamadou-makhtar-cisse-p1",
+          "id": "mouhamadou-makhtar-cisse-sen-p1",
           "ministry": "Ministry of the Interior of Senegal",
           "portfolio": "home_affairs",
           "startDate": "2026-06-01",
@@ -6795,6 +6806,34 @@
       "startDate": "1985-04-13",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "abdou-diouf--1987-01-01--CAN",
+      "officialId": "abdou-diouf",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Senegal_relations"
+        }
+      ],
+      "startDate": "1987-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -10076,6 +10115,10 @@
       "purpose": "Attended UN International Conference on Financing and Development",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Senegal_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10264,22 +10307,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Kananaskis",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -114.9,
+          50.6
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2002-06-27",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "28th G8 summit",
       "id": "abdoulaye-wade--2002-06-26--CAN",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 28th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/28th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10948,6 +10994,34 @@
         }
       ],
       "startDate": "2003-05-31",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-06-03",
+      "engagements": [],
+      "eventName": "29th G8 summit",
+      "id": "abdoulaye-wade--2003-06-01--FRA",
+      "officialId": "abdoulaye-wade",
+      "purpose": "Attended the 29th G8 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/29th_G8_summit"
+        }
+      ],
+      "startDate": "2003-06-01",
       "statusHint": null,
       "type": "summit"
     },
@@ -12040,13 +12114,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Sea Island",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -81.3331508,
+          31.2002314
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2004-06-10",
@@ -12061,6 +12134,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/30th_G8_summit"
         },
         {
           "label": "COLT dataset",
@@ -14419,22 +14496,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
+        "city": "Bad Doberan",
         "coordinates": [
-          13.405,
-          52.52
+          11.905277777,
+          54.106944444
         ],
         "countryCode": "DEU",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2007-06-08",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "33rd G8 summit",
       "id": "abdoulaye-wade--2007-06-06--DEU",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 33rd G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/33rd_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15516,19 +15596,23 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2008-07-08",
+      "endDate": "2008-07-09",
       "engagements": [],
-      "eventName": "G8 Summit",
-      "id": "abdoulaye-wade--2008-07-06--JPN",
+      "eventName": "34th G8 summit",
+      "id": "abdoulaye-wade--2008-07-07--JPN",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 34th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/34th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-07-06",
+      "startDate": "2008-07-07",
       "statusHint": null,
       "type": "summit"
     },
@@ -16374,22 +16458,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "L'Aquila",
         "coordinates": [
-          12.4964,
-          41.9028
+          13.391991666,
+          42.354008333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2009-07-10",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "35th G8 summit",
       "id": "abdoulaye-wade--2009-07-08--ITA",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 35th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/35th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17194,22 +17281,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Huntsville",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -79.216666666,
+          45.333333333
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2010-06-26",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "36th G8 summit",
       "id": "abdoulaye-wade--2010-06-25--CAN",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 36th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/36th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17877,22 +17967,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
+        "city": "Deauville",
         "coordinates": [
-          2.3522,
-          48.8566
+          0.074444444,
+          49.359166666
         ],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2011-05-27",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "37th G8 summit",
       "id": "abdoulaye-wade--2011-05-26--FRA",
       "officialId": "abdoulaye-wade",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 37th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/37th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19771,6 +19864,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "djibo-leyti-ka--2010-01-01--MEX",
+      "officialId": "djibo-leyti-ka",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Senegal_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -19880,6 +20001,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1966-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1966-01-01--CAN",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Senegal_relations"
+        }
+      ],
+      "startDate": "1966-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -19932,6 +20081,34 @@
         }
       ],
       "startDate": "1971-06-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "leopold-sedar-senghor--1975-01-01--MEX",
+      "officialId": "leopold-sedar-senghor",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Senegal_relations"
+        }
+      ],
+      "startDate": "1975-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -20368,6 +20545,33 @@
         }
       ],
       "startDate": "2012-08-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "macky-sall--2012-08-26--IRN",
+      "officialId": "macky-sall",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -22104,28 +22308,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Brisbane",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.027777777,
+          -27.467777777
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2014-11-16",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "macky-sall--2014-11-14--AUS",
+      "eventName": "2014 G20 Brisbane summit",
+      "id": "macky-sall--2014-11-15--AUS",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2014 G20 Brisbane summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_G20_Brisbane_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-11-14",
+      "startDate": "2014-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -22750,11 +22957,15 @@
       },
       "endDate": "2015-06-08",
       "engagements": [],
-      "eventName": "G7 Summit",
+      "eventName": "41st G7 summit",
       "id": "macky-sall--2015-06-07--DEU",
       "officialId": "macky-sall",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 41st G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/41st_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -23118,30 +23329,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ankara",
+        "city": "Serik",
         "coordinates": [
-          32.8597,
-          39.9334
+          31.1,
+          36.916666666
         ],
         "countryCode": "TUR",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2015-11-16",
+      "endDate": "2015-11-17",
       "engagements": [
         "Met President Recep Tayyip Erdogan"
       ],
-      "eventName": "G20 Summit",
-      "id": "macky-sall--2015-11-13--TUR",
+      "eventName": "2015 G20 Antalya summit",
+      "id": "macky-sall--2015-11-15--TUR",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2015 G20 Antalya summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2015_G20_Antalya_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-13",
+      "startDate": "2015-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -23727,30 +23941,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Hangzhou",
         "coordinates": [
-          116.4074,
-          39.9042
+          120.1675,
+          30.25
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2016-09-05",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "G20 Summit",
-      "id": "macky-sall--2016-09-01--CHN",
+      "eventName": "2016 G20 Hangzhou summit",
+      "id": "macky-sall--2016-09-04--CHN",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2016 G20 Hangzhou summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_G20_Hangzhou_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-01",
+      "startDate": "2016-09-04",
       "statusHint": null,
       "type": "summit"
     },
@@ -23806,6 +24023,10 @@
       "officialId": "macky-sall",
       "purpose": "Attended Replenishment Conference of the Global Fund to Fight AIDS, Tuberculosis and Malaria",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Senegal_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24580,22 +24801,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
+        "city": "Hamburg",
         "coordinates": [
-          13.405,
-          52.52
+          10,
+          53.55
         ],
         "countryCode": "DEU",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-07-09",
+      "endDate": "2017-07-08",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "2017 G20 Hamburg summit",
       "id": "macky-sall--2017-07-07--DEU",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2017 G20 Hamburg summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_G20_Hamburg_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -25030,30 +25254,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "La Malbaie",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -70.149444444,
+          47.652222222
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-06-09",
       "engagements": [
         "Met Prime Minister Justin Trudeau"
       ],
-      "eventName": "G7 Summit",
-      "id": "macky-sall--2018-06-09--CAN",
+      "eventName": "44th G7 summit",
+      "id": "macky-sall--2018-06-08--CAN",
       "officialId": "macky-sall",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 44th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/44th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-09",
+      "startDate": "2018-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -25270,24 +25497,27 @@
           -34.599722222
         ],
         "countryCode": "ARG",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-12-01",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "G20 Summit",
-      "id": "macky-sall--2018-11-29--ARG",
+      "eventName": "2018 G20 Buenos Aires summit",
+      "id": "macky-sall--2018-11-30--ARG",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2018 G20 Buenos Aires summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_G20_Buenos_Aires_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-29",
+      "startDate": "2018-11-30",
       "statusHint": null,
       "type": "summit"
     },
@@ -25680,30 +25910,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tokyo",
+        "city": "Osaka",
         "coordinates": [
-          139.6917,
-          35.6895
+          135.502111111,
+          34.69375
         ],
         "countryCode": "JPN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-06-29",
       "engagements": [
         "Met Prime Minister Abe Shinzo"
       ],
-      "eventName": "G20 Summit",
-      "id": "macky-sall--2019-06-25--JPN",
+      "eventName": "2019 G20 Osaka summit",
+      "id": "macky-sall--2019-06-28--JPN",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2019 G20 Osaka summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2019_G20_Osaka_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-06-25",
+      "startDate": "2019-06-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -25850,28 +26083,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
+        "city": "Biarritz",
         "coordinates": [
-          2.3522,
-          48.8566
+          -1.557222222,
+          43.480555555
         ],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2019-08-26",
       "engagements": [],
-      "eventName": "G7 Summit",
-      "id": "macky-sall--2019-08-14--FRA",
+      "eventName": "45th G7 summit",
+      "id": "macky-sall--2019-08-24--FRA",
       "officialId": "macky-sall",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 45th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/45th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-08-14",
+      "startDate": "2019-08-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -27984,11 +28220,15 @@
       "engagements": [
         "Met Chancellor Olaf Scholz"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "48th G7 summit",
       "id": "macky-sall--2022-06-26--DEU",
       "officialId": "macky-sall",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 48th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/48th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -28417,30 +28657,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
+        "city": "Nusa Dua",
         "coordinates": [
-          106.8456,
-          -6.2088
+          115.2275,
+          -8.8025
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2022-11-16",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "macky-sall--2022-11-14--IDN",
+      "eventName": "2022 G20 Bali summit",
+      "id": "macky-sall--2022-11-15--IDN",
       "officialId": "macky-sall",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2022 G20 Bali summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_G20_Bali_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-14",
+      "startDate": "2022-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -29270,24 +29513,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
+        "city": "Johannesburg",
         "coordinates": [
-          28.2293,
-          -25.7479
+          28.041638888,
+          -26.204361111
         ],
         "countryCode": "ZAF",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2023-08-24",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "15th BRICS summit",
       "id": "macky-sall--2023-08-22--ZAF",
       "officialId": "macky-sall",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

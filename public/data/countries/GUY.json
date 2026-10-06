@@ -1169,6 +1169,35 @@
       "wikidataId": "Q113455554"
     },
     {
+      "aliases": [],
+      "countryCode": "GUY",
+      "fullName": "F R Wills",
+      "id": "f-r-wills",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1977-06-15",
+          "id": "f-r-wills-p1",
+          "ministry": null,
+          "portfolio": "foreign_affairs",
+          "startDate": "1977-06-08",
+          "title": "Minister of Foreign Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Dr Frank Anthony",
         "Frank Anthony",
@@ -1402,6 +1431,54 @@
       ],
       "summary": "Juan Anthony Edghill (born 25 December 1964) is a Guyanese pastor and politician. He is the founder and presiding bishop of Zadok Ministers Fellowship.",
       "wikidataId": "Q62733847"
+    },
+    {
+      "aliases": [],
+      "countryCode": "GUY",
+      "fullName": "Karen Cummings",
+      "id": "karen-cummings",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karen_Cummings.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-10-26",
+          "id": "karen-cummings-p1",
+          "ministry": null,
+          "portfolio": "foreign_affairs",
+          "startDate": "2019-10-25",
+          "title": "Minister of Foreign Affairs and International Cooperation"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2019-09-28",
+          "id": "karen-cummings-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2019-09-28",
+          "title": "Foreign Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karen_Cummings"
+        }
+      ],
+      "summary": "Karen Roslyn Vanessa Cummings is a Guyanese politician who was the country's Foreign Minister from May 2019 to August 2020.",
+      "wikidataId": "Q62733595"
     },
     {
       "aliases": [],
@@ -2196,39 +2273,6 @@
     {
       "aliases": [],
       "countryCode": "GUY",
-      "fullName": "Karen Cummings",
-      "id": "karen-cummings",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karen_Cummings.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2019-09-28",
-          "id": "karen-cummings-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2019-09-28",
-          "title": "Foreign Minister"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Karen_Cummings"
-        }
-      ],
-      "summary": "Karen Roslyn Vanessa Cummings is a Guyanese politician who was the country's Foreign Minister from May 2019 to August 2020.",
-      "wikidataId": "Q62733595"
-    },
-    {
-      "aliases": [],
-      "countryCode": "GUY",
       "fullName": "Robert Montgomery Persaud",
       "id": "robert-montgomery-persaud",
       "party": null,
@@ -2904,24 +2948,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Coolum Beach",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.1,
+          -26.5333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2002-03-05",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
       "id": "bharrat-jagdeo--2002-03-02--AUS",
       "officialId": "bharrat-jagdeo",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5602,22 +5649,25 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "bharrat-jagdeo--2009-04-16--TTO",
+      "eventName": "5th Summit of the Americas",
+      "id": "bharrat-jagdeo--2009-04-17--TTO",
       "officialId": "bharrat-jagdeo",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-04-16",
+      "startDate": "2009-04-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -6505,6 +6555,34 @@
       "type": "conference"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "bharrat-jagdeo--2011-01-01--MEX",
+      "officialId": "bharrat-jagdeo",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guyana%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2011-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New Delhi",
@@ -6765,6 +6843,33 @@
       "startDate": "2018-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "carolyn-rodrigues-birkett--2011-10-28--AUS",
+      "officialId": "carolyn-rodrigues-birkett",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8480,6 +8585,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Belmopan",
+        "coordinates": [
+          -88.7675,
+          17.25
+        ],
+        "countryCode": "BLZ",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2017-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "david-a-granger--2017-01-01--BLZ",
+      "officialId": "david-a-granger",
+      "purpose": "Visit to Belize",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Belize%E2%80%93Guyana_relations"
+        }
+      ],
+      "startDate": "2017-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Santo Domingo",
@@ -8904,30 +9037,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2018-04-14",
+      "engagements": [],
+      "eventName": "8th Summit of the Americas",
+      "id": "david-a-granger--2018-04-13--PER",
+      "officialId": "david-a-granger",
+      "purpose": "Attended the 8th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2018-04-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-19",
+      "endDate": "2018-04-20",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "david-a-granger--2018-04-17--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "david-a-granger--2018-04-19--GBR",
       "officialId": "david-a-granger",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-17",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -9827,28 +9990,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "donald-ramotar--2012-04-13--COL",
+      "eventName": "6th Summit of the Americas",
+      "id": "donald-ramotar--2012-04-14--COL",
       "officialId": "donald-ramotar",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-13",
+      "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -10417,20 +10583,23 @@
       "destination": {
         "city": "Colombo",
         "coordinates": [
-          79.8612,
-          6.9271
+          79.860555555,
+          6.926666666
         ],
         "countryCode": "LKA",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-11-18",
+      "endDate": "2013-11-17",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
       "id": "donald-ramotar--2013-11-15--LKA",
       "officialId": "donald-ramotar",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10520,6 +10689,10 @@
       "purpose": "Attended Association of Caribbean States (ACS) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guyana%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10559,28 +10732,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Fortaleza",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -38.5275,
+          -3.7275
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2014-07-16",
       "engagements": [],
-      "eventName": "Union of South American Nations (UNASUR) Meeting,Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "donald-ramotar--2014-07-15--BRA",
+      "eventName": "6th BRICS summit",
+      "id": "donald-ramotar--2014-07-14--BRA",
       "officialId": "donald-ramotar",
-      "purpose": "Attended Union of South American Nations (UNASUR) Meeting,Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 6th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-15",
+      "startDate": "2014-07-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -10685,22 +10861,52 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "donald-ramotar--2015-04-10--PAN",
       "officialId": "donald-ramotar",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-04-10",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "f-r-wills--1977-06-08--GBR",
+      "officialId": "f-r-wills",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -10757,6 +10963,116 @@
         }
       ],
       "startDate": "1968-07-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "forbes-burnham--1971-01-14--SGP",
+      "officialId": "forbes-burnham",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "forbes-burnham--1973-08-02--CAN",
+      "officialId": "forbes-burnham",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [
+          -76.793055555,
+          17.971388888
+        ],
+        "countryCode": "JAM",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-06",
+      "engagements": [],
+      "eventName": "1975 Commonwealth Heads of Government Meeting",
+      "id": "forbes-burnham--1975-04-29--JAM",
+      "officialId": "forbes-burnham",
+      "purpose": "Attended the 1975 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "forbes-burnham--1981-01-01--MEX",
+      "officialId": "forbes-burnham",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guyana%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1981-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -10867,6 +11183,10 @@
       "officialId": "irfaan-ali",
       "purpose": "Attended Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guyana%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11052,6 +11372,10 @@
       "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Belize%E2%80%93Guyana_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11154,13 +11478,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -11177,11 +11500,42 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2022-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kigali",
+        "coordinates": [
+          30.115,
+          -1.9525
+        ],
+        "countryCode": "RWA",
+        "region": "Africa"
+      },
+      "endDate": "2022-06-25",
+      "engagements": [],
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "irfaan-ali--2022-06-24--RWA",
+      "officialId": "irfaan-ali",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2022-06-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -12839,6 +13193,88 @@
       "startDate": "2019-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "karen-cummings--2019-10-25--AZE",
+      "officialId": "karen-cummings",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "moses-nagamootoo--2015-01-01--MEX",
+      "officialId": "moses-nagamootoo",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guyana%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2015-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "rashleigh-jackson--1979-08-01--ZMB",
+      "officialId": "rashleigh-jackson",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

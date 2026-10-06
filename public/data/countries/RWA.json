@@ -2012,7 +2012,7 @@
       "aliases": [],
       "countryCode": "RWA",
       "fullName": "Jean Damascene Bizimana",
-      "id": "jean-damascene-bizimana-rwa",
+      "id": "jean-damascene-bizimana",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2021,7 +2021,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jean-damascene-bizimana-rwa-p1",
+          "id": "jean-damascene-bizimana-p1",
           "ministry": "Ministry of National Unity and Civic Engagement",
           "portfolio": null,
           "startDate": null,
@@ -2147,7 +2147,7 @@
       "aliases": [],
       "countryCode": "RWA",
       "fullName": "Jean-Damascène Bizimana",
-      "id": "jean-damascene-bizimana",
+      "id": "jean-damascene-bizimana-rwa",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2156,7 +2156,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jean-damascene-bizimana-p1",
+          "id": "jean-damascene-bizimana-rwa-p1",
           "ministry": "Ministry of National Unity and Civic Engagement",
           "portfolio": null,
           "startDate": null,
@@ -11074,28 +11074,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2011-10-28",
+      "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "paul-kagame--2011-10-26--AUS",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "paul-kagame--2011-10-28--AUS",
       "officialId": "paul-kagame",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-26",
+      "startDate": "2011-10-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -12354,22 +12357,25 @@
       "destination": {
         "city": "Colombo",
         "coordinates": [
-          79.8612,
-          6.9271
+          79.860555555,
+          6.926666666
         ],
         "countryCode": "LKA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2013-11-17",
       "engagements": [
         "Met President Mahinda Rajapakse"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
       "id": "paul-kagame--2013-11-15--LKA",
       "officialId": "paul-kagame",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15336,29 +15342,32 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-19",
+      "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May",
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "paul-kagame--2018-04-16--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "paul-kagame--2018-04-19--GBR",
       "officialId": "paul-kagame",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-16",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -15544,24 +15553,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "La Malbaie",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -70.149444444,
+          47.652222222
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-06-10",
+      "endDate": "2018-06-09",
       "engagements": [
         "Met Prime Minister Justin Trudeau"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "44th G7 summit",
       "id": "paul-kagame--2018-06-08--CAN",
       "officialId": "paul-kagame",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 44th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/44th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15993,22 +16005,25 @@
           -34.599722222
         ],
         "countryCode": "ARG",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-12-01",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "paul-kagame--2018-11-29--ARG",
+      "eventName": "2018 G20 Buenos Aires summit",
+      "id": "paul-kagame--2018-11-30--ARG",
       "officialId": "paul-kagame",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2018 G20 Buenos Aires summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_G20_Buenos_Aires_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-29",
+      "startDate": "2018-11-30",
       "statusHint": null,
       "type": "summit"
     },
@@ -17123,13 +17138,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
+        "city": "Biarritz",
         "coordinates": [
-          2.3522,
-          48.8566
+          -1.557222222,
+          43.480555555
         ],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2019-08-26",
@@ -17137,11 +17151,15 @@
         "Met President Emmanuel Macron",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "45th G7 summit",
       "id": "paul-kagame--2019-08-24--FRA",
       "officialId": "paul-kagame",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 45th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/45th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17936,26 +17954,29 @@
       "destination": {
         "city": "Rome",
         "coordinates": [
-          12.4964,
-          41.9028
+          12.482777777,
+          41.893055555
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2021-10-31",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "paul-kagame--2021-10-29--ITA",
+      "eventName": "2021 G20 Rome summit",
+      "id": "paul-kagame--2021-10-30--ITA",
       "officialId": "paul-kagame",
-      "purpose": "Attended G20 Summit and European Council-African Union (AU) Summit",
+      "purpose": "Attended the 2021 G20 Rome summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_G20_Rome_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-10-29",
+      "startDate": "2021-10-30",
       "statusHint": null,
       "type": "summit"
     },
@@ -18918,30 +18939,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
+        "city": "Nusa Dua",
         "coordinates": [
-          106.8456,
-          -6.2088
+          115.2275,
+          -8.8025
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2022-11-15",
+      "endDate": "2022-11-16",
       "engagements": [
         "Met President Joko Widodo"
       ],
-      "eventName": "G20 Summit",
-      "id": "paul-kagame--2022-11-14--IDN",
+      "eventName": "2022 G20 Bali summit",
+      "id": "paul-kagame--2022-11-15--IDN",
       "officialId": "paul-kagame",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2022 G20 Bali summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_G20_Bali_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-14",
+      "startDate": "2022-11-15",
       "statusHint": null,
       "type": "summit"
     },

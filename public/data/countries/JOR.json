@@ -2203,6 +2203,43 @@
       "wikidataId": "Q28089396"
     },
     {
+      "aliases": [
+        "El Hassan bin Talal",
+        "Hassan bin Talal",
+        "Prince Hassan bin Talal"
+      ],
+      "countryCode": "JOR",
+      "fullName": "Prince El Hassan bin Talal of Jordan",
+      "id": "hassan-bin-talal",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Prince_Hassan_bin_Al_Talal-2.JPG?width=160",
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2012-08-31",
+          "id": "hassan-bin-talal-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-08-26",
+          "title": "Deputy Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prince_Hassan_bin_Talal"
+        }
+      ],
+      "summary": "Prince Hassan bin Talal (Arabic: الحسن بن طلال, born 20 March 1947) is a member of the Jordanian royal family who was previously Crown Prince from 1965 to 1999, being removed just three weeks before King Hussein's death.",
+      "wikidataId": "Q689964"
+    },
+    {
       "aliases": [],
       "countryCode": "JOR",
       "fullName": "Q23907958",
@@ -18277,13 +18314,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Sea Island",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -81.3331508,
+          31.2002314
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2004-06-16",
@@ -18291,7 +18327,7 @@
         "Met President George W. Bush",
         "Gave a public address"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "30th G8 summit",
       "id": "abdullah-ii-of-jordan--2004-06-08--USA",
       "officialId": "abdullah-ii-of-jordan",
       "purpose": "Working visit. Met with President Bush at the G-8 Economic Summit in Sea Island, Georgia. Attended the funeral of Former President Reagan.",
@@ -18299,6 +18335,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/30th_G8_summit"
         },
         {
           "label": "COLT dataset",
@@ -23504,7 +23544,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-03-17",
+      "endDate": "2009-03-16",
       "engagements": [
         "Met President Anibal Cavaco Silva",
         "Gave a public address"
@@ -23514,6 +23554,10 @@
       "officialId": "abdullah-ii-of-jordan",
       "purpose": "Visit to Portugal",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jordan%E2%80%93Portugal_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24646,28 +24690,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tripoli",
+        "city": "Sirte",
         "coordinates": [
-          13.1875,
-          32.8875
+          16.6,
+          31.2
         ],
         "countryCode": "LBY",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2010-03-28",
+      "endDate": "2010-03-27",
       "engagements": [],
-      "eventName": "Arab League Summit",
-      "id": "abdullah-ii-of-jordan--2010-03-26--LBY",
+      "eventName": "2010 Arab League summit",
+      "id": "abdullah-ii-of-jordan--2010-03-27--LBY",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2010 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-03-26",
+      "startDate": "2010-03-27",
       "statusHint": null,
       "type": "summit"
     },
@@ -27934,30 +27981,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [
         "Met Prime Minister David Cameron"
       ],
-      "eventName": "NATO Summit",
-      "id": "abdullah-ii-of-jordan--2014-09-03--GBR",
+      "eventName": "2014 Wales NATO summit",
+      "id": "abdullah-ii-of-jordan--2014-09-04--GBR",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-09-03",
+      "startDate": "2014-09-04",
       "statusHint": null,
       "type": "summit"
     },
@@ -34819,6 +34869,33 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Algiers",
+        "coordinates": [
+          3.058611111,
+          36.776388888
+        ],
+        "countryCode": "DZA",
+        "region": "Africa"
+      },
+      "endDate": "2022-11-30",
+      "engagements": [],
+      "eventName": "2022 Arab League summit",
+      "id": "abdullah-ii-of-jordan--2022-11-01--DZA",
+      "officialId": "abdullah-ii-of-jordan",
+      "purpose": "Attended the 2022 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Arab_League_summit"
+        }
+      ],
+      "startDate": "2022-11-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Cairo",
@@ -35479,24 +35556,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Riyadh",
+        "city": "Jeddah",
         "coordinates": [
-          46.71,
-          24.65
+          39.161111111,
+          21.529166666
         ],
         "countryCode": "SAU",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-05-20",
+      "endDate": "2023-05-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Arab League Summit",
+      "eventName": "2023 Arab League summit",
       "id": "abdullah-ii-of-jordan--2023-05-19--SAU",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2023 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -36479,30 +36559,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "Fasano",
         "coordinates": [
-          12.4964,
-          41.9028
+          17.366666666,
+          40.833333333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-06-14",
+      "endDate": "2024-06-15",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
-      "id": "abdullah-ii-of-jordan--2024-06-14--ITA",
+      "eventName": "50th G7 summit",
+      "id": "abdullah-ii-of-jordan--2024-06-13--ITA",
       "officialId": "abdullah-ii-of-jordan",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 50th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/50th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-06-14",
+      "startDate": "2024-06-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -38086,6 +38169,88 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "ayman-al-safadi--2019-10-25--AZE",
+      "officialId": "ayman-al-safadi",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2021-05-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "ayman-al-safadi--2021-05-27--PRT",
+      "officialId": "ayman-al-safadi",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jordan%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2021-05-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Algiers",
+        "coordinates": [
+          3.058611111,
+          36.776388888
+        ],
+        "countryCode": "DZA",
+        "region": "Africa"
+      },
+      "endDate": "2005-03-23",
+      "engagements": [],
+      "eventName": "2005 Arab League summit",
+      "id": "faisal-al-fayez--2005-03-22--DZA",
+      "officialId": "faisal-al-fayez",
+      "purpose": "Attended the 2005 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2005_Arab_League_summit"
+        }
+      ],
+      "startDate": "2005-03-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -38165,6 +38330,33 @@
       "startDate": "2024-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "hassan-bin-talal--2012-08-26--IRN",
+      "officialId": "hassan-bin-talal",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -38253,6 +38445,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Cairo",
+        "coordinates": [
+          31.235833333,
+          30.044444444
+        ],
+        "countryCode": "EGY",
+        "region": "Africa"
+      },
+      "endDate": "1964-01-16",
+      "engagements": [],
+      "eventName": "1964 Arab League summit (Cairo)",
+      "id": "hussein-i-of-jordan--1964-01-13--EGY",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Attended the 1964 Arab League summit (Cairo)",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1964_Arab_League_summit_(Cairo)"
+        }
+      ],
+      "startDate": "1964-01-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -38277,6 +38496,33 @@
       "startDate": "1964-04-14",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Casablanca",
+        "coordinates": [
+          -7.62,
+          33.599166666
+        ],
+        "countryCode": "MAR",
+        "region": "Africa"
+      },
+      "endDate": "1965-09-13",
+      "engagements": [],
+      "eventName": "1965 Arab League summit",
+      "id": "hussein-i-of-jordan--1965-09-13--MAR",
+      "officialId": "hussein-i-of-jordan",
+      "purpose": "Attended the 1965 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1965_Arab_League_summit"
+        }
+      ],
+      "startDate": "1965-09-13",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -41987,6 +42233,33 @@
       "type": "other"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "region": "Asia"
+      },
+      "endDate": "2025-05-31",
+      "engagements": [],
+      "eventName": "2025 Arab League summit",
+      "id": "jafar-hassan--2025-05-01--IRQ",
+      "officialId": "jafar-hassan",
+      "purpose": "Attended the 2025 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Arab_League_summit"
+        }
+      ],
+      "startDate": "2025-05-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -42012,6 +42285,33 @@
       "startDate": "2009-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "region": "Europe"
+      },
+      "endDate": "2016-07-09",
+      "engagements": [],
+      "eventName": "2016 Warsaw NATO summit",
+      "id": "nasser-judeh--2016-07-08--POL",
+      "officialId": "nasser-judeh",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        }
+      ],
+      "startDate": "2016-07-08",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "month",
@@ -42066,6 +42366,33 @@
       "startDate": "2008-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-20",
+      "engagements": [],
+      "eventName": "2010 Lisbon NATO summit",
+      "id": "samir-rifai--2010-11-19--PRT",
+      "officialId": "samir-rifai",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        }
+      ],
+      "startDate": "2010-11-19",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

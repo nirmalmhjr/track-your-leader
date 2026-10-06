@@ -4786,6 +4786,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Hanoi",
+        "coordinates": [
+          105.84117,
+          21.0245
+        ],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": "Fifteenth East Asia Summit",
+      "id": "aun-porn-moniroth--2020-11-14--VNM",
+      "officialId": "aun-porn-moniroth",
+      "purpose": "Attended the Fifteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2020-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -5057,13 +5084,39 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "hor-namhong--2019-10-25--AZE",
+      "officialId": "hor-namhong",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [
-          106.8456,
-          -6.2088
+          106.826944444,
+          -6.175277777
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-09-07",
@@ -5071,17 +5124,21 @@
         "Met President Joko Widodo",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-manet--2023-09-04--IDN",
+      "eventName": "Eighteenth East Asia Summit",
+      "id": "hun-manet--2023-09-06--IDN",
       "officialId": "hun-manet",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Eighteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eighteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-04",
+      "startDate": "2023-09-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -5490,7 +5547,6 @@
           17.98
         ],
         "countryCode": "LAO",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2024-10-11",
@@ -5498,17 +5554,21 @@
         "Met General Secretary Thongloun Sisoulith",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-manet--2024-10-08--LAO",
+      "eventName": "Nineteenth East Asia Summit",
+      "id": "hun-manet--2024-10-10--LAO",
       "officialId": "hun-manet",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Nineteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nineteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-08",
+      "startDate": "2024-10-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -5674,17 +5734,21 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-manet--2025-05-25--MYS",
+      "eventName": "2025 ASEAN Summits",
+      "id": "hun-manet--2025-05-26--MYS",
       "officialId": "hun-manet",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 2025 ASEAN Summits",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_ASEAN_Summits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-05-25",
+      "startDate": "2025-05-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -5792,17 +5856,21 @@
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "hun-manet--2025-08-30--CHN",
+      "eventName": "2025 Tianjin SCO summit",
+      "id": "hun-manet--2025-08-31--CHN",
       "officialId": "hun-manet",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2025 Tianjin SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Tianjin_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-08-30",
+      "startDate": "2025-08-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -8439,24 +8507,27 @@
           3.147777777
         ],
         "countryCode": "MYS",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2005-12-15",
+      "endDate": "2005-12-14",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2005-12-10--MYS",
+      "eventName": "First East Asia Summit",
+      "id": "hun-sen--2005-12-14--MYS",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the First East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-12-10",
+      "startDate": "2005-12-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -8586,28 +8657,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Mandaue",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          123.933333333,
+          10.333333333
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2007-01-15",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2007-01-12--PHL",
+      "eventName": "Second East Asia Summit",
+      "id": "hun-sen--2007-01-15--PHL",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Second East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-01-12",
+      "startDate": "2007-01-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -8740,22 +8814,26 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-11-22",
+      "endDate": "2007-11-21",
       "engagements": [
         "Met Prime Minister Lee Hsien Loong",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2007-11-17--SGP",
+      "eventName": "Third East Asia Summit",
+      "id": "hun-sen--2007-11-21--SGP",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Third East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Third_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-11-17",
+      "startDate": "2007-11-21",
       "statusHint": null,
       "type": "summit"
     },
@@ -9189,22 +9267,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Cha-am",
         "coordinates": [
-          100.516666666,
-          13.75
+          99.966944444,
+          12.799722222
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2009-10-25",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Fourth East Asia Summit",
       "id": "hun-sen--2009-10-23--THA",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fourth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9460,16 +9541,19 @@
           21.0245
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-10-30",
+      "endDate": "2010-10-31",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Fifth East Asia Summit",
       "id": "hun-sen--2010-10-28--VNM",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fifth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9573,13 +9657,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
+        "city": "Bali",
         "coordinates": [
-          106.8456,
-          -6.2088
+          115,
+          -8.5
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2011-11-19",
@@ -9587,17 +9670,21 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2011-11-17--IDN",
+      "eventName": "Sixth East Asia Summit",
+      "id": "hun-sen--2011-11-18--IDN",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Sixth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-17",
+      "startDate": "2011-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -9626,6 +9713,60 @@
         }
       ],
       "startDate": "2011-12-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "San José del Cabo",
+        "coordinates": [
+          -109.711388888,
+          23.061666666
+        ],
+        "countryCode": "MEX",
+        "region": "Americas"
+      },
+      "endDate": "2012-06-19",
+      "engagements": [],
+      "eventName": "2012 G20 Los Cabos summit",
+      "id": "hun-sen--2012-06-18--MEX",
+      "officialId": "hun-sen",
+      "purpose": "Attended the 2012 G20 Los Cabos summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_G20_Los_Cabos_summit"
+        }
+      ],
+      "startDate": "2012-06-18",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "hun-sen--2012-08-26--IRN",
+      "officialId": "hun-sen",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -9758,22 +9899,25 @@
           4.916666666
         ],
         "countryCode": "BRN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-10-12",
+      "endDate": "2013-10-10",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2013-10-08--BRN",
+      "eventName": "Eighth East Asia Summit",
+      "id": "hun-sen--2013-10-09--BRN",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Eighth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eighth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-10-08",
+      "startDate": "2013-10-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -10112,28 +10256,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Naypyidaw",
+        "city": "Nay Pyi Taw",
         "coordinates": [
           96.115,
           19.7475
         ],
         "countryCode": "MMR",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-11-13",
+      "endDate": "2014-11-14",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2014-11-11--MMR",
+      "eventName": "Ninth East Asia Summit",
+      "id": "hun-sen--2014-11-12--MMR",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Ninth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ninth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-11-11",
+      "startDate": "2014-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -10386,16 +10533,19 @@
           3.147777777
         ],
         "countryCode": "MYS",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-11-22",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Tenth East Asia Summit",
       "id": "hun-sen--2015-11-21--MYS",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Tenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10632,22 +10782,25 @@
           17.98
         ],
         "countryCode": "LAO",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2016-09-08",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2016-09-05--LAO",
+      "eventName": "Eleventh East Asia Summit",
+      "id": "hun-sen--2016-09-06--LAO",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Eleventh East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eleventh_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-05",
+      "startDate": "2016-09-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -10895,22 +11048,25 @@
           14.595833333
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-04-30",
+      "endDate": "2017-04-29",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2017-04-27--PHL",
+      "eventName": "2017 ASEAN Summits",
+      "id": "hun-sen--2017-04-28--PHL",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 2017 ASEAN Summits",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-04-27",
+      "startDate": "2017-04-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -11034,59 +11190,65 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Hanoi",
+        "city": "InterContinental Danang Sun Peninsula Resort",
         "coordinates": [
-          105.84117,
-          21.0245
+          108.306162,
+          16.120502
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-11-11",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hun-sen--2017-11-06--VNM",
+      "eventName": "APEC Vietnam 2017",
+      "id": "hun-sen--2017-11-10--VNM",
       "officialId": "hun-sen",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2017",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2017"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-11-06",
+      "startDate": "2017-11-10",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Pasay",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.995,
+          14.543888888
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-11-15",
+      "endDate": "2017-11-14",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2017-11-11--PHL",
+      "eventName": "Twelfth East Asia Summit",
+      "id": "hun-sen--2017-11-13--PHL",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Twelfth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Twelfth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-11-11",
+      "startDate": "2017-11-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -11537,28 +11699,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Singapore",
+        "city": "Suntec Singapore Convention and Exhibition Centre",
         "coordinates": [
-          103.8,
-          1.3
+          103.856944444,
+          1.293611111
         ],
         "countryCode": "SGP",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2018-11-15",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2018-11-13--SGP",
+      "eventName": "Thirteenth East Asia Summit",
+      "id": "hun-sen--2018-11-14--SGP",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Thirteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thirteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-13",
+      "startDate": "2018-11-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -12032,22 +12197,25 @@
           13.75
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-11-04",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hun-sen--2019-11-01--THA",
+      "eventName": "Fourteenth East Asia Summit",
+      "id": "hun-sen--2019-11-04--THA",
       "officialId": "hun-sen",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fourteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-11-01",
+      "startDate": "2019-11-04",
       "statusHint": null,
       "type": "summit"
     },
@@ -12198,6 +12366,33 @@
       "startDate": "2021-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bandar Seri Begawan",
+        "coordinates": [
+          114.916666666,
+          4.916666666
+        ],
+        "countryCode": "BRN",
+        "region": "Asia"
+      },
+      "endDate": "2021-10-27",
+      "engagements": [],
+      "eventName": "Sixteenth East Asia Summit",
+      "id": "hun-sen--2021-10-26--BRN",
+      "officialId": "hun-sen",
+      "purpose": "Attended the Sixteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2021-10-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -15268,6 +15463,33 @@
       "startDate": "1960-09-27",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Belgrade",
+        "coordinates": [
+          20.456944444,
+          44.817777777
+        ],
+        "countryCode": "SRB",
+        "region": "Europe"
+      },
+      "endDate": "1961-09-06",
+      "engagements": [],
+      "eventName": "1st Summit of the Non-Aligned Movement",
+      "id": "norodom-sihanouk--1961-09-01--SRB",
+      "officialId": "norodom-sihanouk",
+      "purpose": "Attended the 1st Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "1961-09-01",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

@@ -2470,6 +2470,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "denzil-douglas--2002-03-02--AUS",
+      "officialId": "denzil-douglas",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Mexico City",
         "coordinates": [
           -99.1332,
@@ -4481,16 +4508,19 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "denzil-douglas--2009-04-17--TTO",
       "officialId": "denzil-douglas",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4637,6 +4667,10 @@
       "officialId": "denzil-douglas",
       "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Saint_Kitts_and_Nevis_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5109,22 +5143,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
       "id": "denzil-douglas--2011-10-28--AUS",
       "officialId": "denzil-douglas",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5335,22 +5372,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [],
-      "eventName": "Organization of the Americas (OAS) Summit",
+      "eventName": "6th Summit of the Americas",
       "id": "denzil-douglas--2012-04-14--COL",
       "officialId": "denzil-douglas",
-      "purpose": "Attended Organization of the Americas (OAS) Summit",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5859,26 +5899,29 @@
       "destination": {
         "city": "Colombo",
         "coordinates": [
-          79.8612,
-          6.9271
+          79.860555555,
+          6.926666666
         ],
         "countryCode": "LKA",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-11-14",
+      "endDate": "2013-11-17",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "denzil-douglas--2013-11-13--LKA",
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "denzil-douglas--2013-11-15--LKA",
       "officialId": "denzil-douglas",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-11-13",
+      "startDate": "2013-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -7097,6 +7140,34 @@
       "startDate": "1995-02-16",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2017-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "mark-brantley--2017-01-01--MEX",
+      "officialId": "mark-brantley",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Saint_Kitts_and_Nevis_relations"
+        }
+      ],
+      "startDate": "2017-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -9105,6 +9176,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Panama City",
+        "coordinates": [
+          -79.534722222,
+          8.971111111
+        ],
+        "countryCode": "PAN",
+        "region": "Americas"
+      },
+      "endDate": "2015-04-11",
+      "engagements": [],
+      "eventName": "7th Summit of the Americas",
+      "id": "timothy-harris--2015-04-10--PAN",
+      "officialId": "timothy-harris",
+      "purpose": "Attended the 7th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2015-04-10",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -9771,30 +9869,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2018-04-14",
+      "engagements": [],
+      "eventName": "8th Summit of the Americas",
+      "id": "timothy-harris--2018-04-13--PER",
+      "officialId": "timothy-harris",
+      "purpose": "Attended the 8th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2018-04-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-19",
+      "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "timothy-harris--2018-04-17--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "timothy-harris--2018-04-19--GBR",
       "officialId": "timothy-harris",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-17",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },

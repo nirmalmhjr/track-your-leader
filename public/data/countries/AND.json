@@ -1054,7 +1054,7 @@
       "aliases": [],
       "countryCode": "AND",
       "fullName": "Jordi Torres Falco",
-      "id": "jordi-torres-falco-and",
+      "id": "jordi-torres-falco",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1063,7 +1063,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jordi-torres-falco-and-p1",
+          "id": "jordi-torres-falco-p1",
           "ministry": "Ministry of Territorial Planning",
           "portfolio": null,
           "startDate": null,
@@ -1083,7 +1083,7 @@
       "aliases": [],
       "countryCode": "AND",
       "fullName": "Jordi Torres Falcó",
-      "id": "jordi-torres-falco",
+      "id": "jordi-torres-falco-and",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1092,7 +1092,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jordi-torres-falco-p1",
+          "id": "jordi-torres-falco-and-p1",
           "ministry": "Ministry of Tourism of Andorra",
           "portfolio": "tourism",
           "startDate": "2021-05-20",
@@ -2844,6 +2844,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "albert-pintat--2006-01-01--PRT",
+      "officialId": "albert-pintat",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Paris",
@@ -3182,6 +3210,10 @@
       "officialId": "albert-pintat",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Chile_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4446,6 +4478,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Colombia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4667,6 +4703,34 @@
       "startDate": "2017-12-12",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "antoni-marti--2018-01-01--PRT",
+      "officialId": "antoni-marti",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2018-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -4927,6 +4991,62 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [
+          -74.08175,
+          4.60971
+        ],
+        "countryCode": "COL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gilbert-saboya-sunye--2013-01-01--COL",
+      "officialId": "gilbert-saboya-sunye",
+      "purpose": "Visit to Colombia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gilbert-saboya-sunye--2014-01-01--CHL",
+      "officialId": "gilbert-saboya-sunye",
+      "purpose": "Visit to Chile",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Chile_relations"
+        }
+      ],
+      "startDate": "2014-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Belgrade",
@@ -4951,6 +5071,34 @@
         }
       ],
       "startDate": "2015-12-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gilbert-saboya-sunye--2016-01-01--PRT",
+      "officialId": "gilbert-saboya-sunye",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2016-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -5027,6 +5175,10 @@
       "officialId": "jaume-bartumeu-cassany",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Portugal_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6052,6 +6204,10 @@
       "officialId": "xavier-espot-zamora",
       "purpose": "Visit to Portugal",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Andorra%E2%80%93Portugal_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

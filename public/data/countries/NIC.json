@@ -1803,7 +1803,7 @@
       "aliases": [],
       "countryCode": "NIC",
       "fullName": "Jose de Jesus Bermudez Carvajal",
-      "id": "jose-de-jesus-bermudez-carvajal-nic",
+      "id": "jose-de-jesus-bermudez-carvajal",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1812,7 +1812,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jose-de-jesus-bermudez-carvajal-nic-p1",
+          "id": "jose-de-jesus-bermudez-carvajal-p1",
           "ministry": "Ministry of Industry, Development and Commerce",
           "portfolio": "trade",
           "startDate": null,
@@ -1834,7 +1834,7 @@
       ],
       "countryCode": "NIC",
       "fullName": "José de Jesús Bermúdez Carvajal",
-      "id": "jose-de-jesus-bermudez-carvajal",
+      "id": "jose-de-jesus-bermudez-carvajal-nic",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1843,7 +1843,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jose-de-jesus-bermudez-carvajal-p1",
+          "id": "jose-de-jesus-bermudez-carvajal-nic-p1",
           "ministry": "Ministry of Development, Industry and Trade",
           "portfolio": "trade",
           "startDate": "2022-01-03",
@@ -3403,6 +3403,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nicaragua_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4188,6 +4192,62 @@
       "type": "conference"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-ortega--1985-01-01--MEX",
+      "officialId": "daniel-ortega",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nicaragua_relations"
+        }
+      ],
+      "startDate": "1985-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-ortega--1988-01-01--ESP",
+      "officialId": "daniel-ortega",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicaragua%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Santiago",
@@ -4212,6 +4272,34 @@
         }
       ],
       "startDate": "1990-03-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-ortega--2007-01-01--PER",
+      "officialId": "daniel-ortega",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicaragua%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2007-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -5214,18 +5302,21 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "daniel-ortega--2009-04-17--TTO",
       "officialId": "daniel-ortega",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6139,16 +6230,19 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [],
-      "eventName": "Central American Integration System (SICA) Summit",
+      "eventName": "7th Summit of the Americas",
       "id": "daniel-ortega--2015-04-10--PAN",
       "officialId": "daniel-ortega",
-      "purpose": "Attended Central American Integration System (SICA) Summit",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6332,6 +6426,33 @@
         }
       ],
       "startDate": "2018-03-05",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2018-04-14",
+      "engagements": [],
+      "eventName": "8th Summit of the Americas",
+      "id": "daniel-ortega--2018-04-13--PER",
+      "officialId": "daniel-ortega",
+      "purpose": "Attended the 8th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2018-04-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -6760,6 +6881,34 @@
       "startDate": "2025-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-06-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "enrique-bolanos--2002-03-01--MEX",
+      "officialId": "enrique-bolanos",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nicaragua_relations"
+        }
+      ],
+      "startDate": "2002-03-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -7254,6 +7403,10 @@
       "officialId": "enrique-bolanos",
       "purpose": "Attended Central American States Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicaragua%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8075,6 +8228,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1966-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rene-schick--1966-01-01--ESP",
+      "officialId": "rene-schick",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicaragua%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1966-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -8185,6 +8366,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "samuel-santos-lopez--2012-08-26--IRN",
+      "officialId": "samuel-santos-lopez",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -8262,6 +8470,34 @@
       "startDate": "2014-09-30",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "sergio-ramirez--1988-01-01--ESP",
+      "officialId": "sergio-ramirez",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicaragua%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -8392,6 +8628,10 @@
       "officialId": "violeta-chamorro",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nicaragua_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8858,6 +9098,10 @@
       "officialId": "violeta-chamorro",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nicaragua%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

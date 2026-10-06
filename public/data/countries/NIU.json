@@ -626,6 +626,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Suva",
+        "coordinates": [
+          178.433333333,
+          -18.133333333
+        ],
+        "countryCode": "FJI",
+        "region": "Oceania"
+      },
+      "endDate": "2022-07-14",
+      "engagements": [],
+      "eventName": "51st Pacific Islands Forum",
+      "id": "dalton-tagelagi--2022-07-11--FJI",
+      "officialId": "dalton-tagelagi",
+      "purpose": "Attended the 51st Pacific Islands Forum",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/51st_Pacific_Islands_Forum"
+        }
+      ],
+      "startDate": "2022-07-11",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -648,6 +675,33 @@
         }
       ],
       "startDate": "2023-09-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port Moresby",
+        "coordinates": [
+          147.149444444,
+          -9.478888888
+        ],
+        "countryCode": "PNG",
+        "region": "Oceania"
+      },
+      "endDate": "2018-11-18",
+      "engagements": [],
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "toke-talagi--2018-11-17--PNG",
+      "officialId": "toke-talagi",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        }
+      ],
+      "startDate": "2018-11-17",
       "statusHint": null,
       "type": "summit"
     }

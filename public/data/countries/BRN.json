@@ -1929,6 +1929,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "erywan-yusof--2019-10-25--AZE",
+      "officialId": "erywan-yusof",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -2061,6 +2088,33 @@
       "startDate": "1984-04-05",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [
+          149.126944444,
+          -35.293055555
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "1989-11-07",
+      "engagements": [],
+      "eventName": "APEC Australia 1989",
+      "id": "hassanal-bolkiah-i-of-brunei--1989-11-05--AUS",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the APEC Australia 1989",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Australia_1989"
+        }
+      ],
+      "startDate": "1989-11-05",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -2760,22 +2814,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Subic Bay Freeport Zone",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.274,
+          14.8158
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "1996-11-25",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Philippines 1996",
       "id": "hassanal-bolkiah-i-of-brunei--1996-11-24--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Philippines 1996",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_1996"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2965,30 +3022,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Museum of Anthropology at UBC",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -123.25972222,
+          49.26916667
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1997-11-26",
+      "endDate": "1997-11-25",
       "engagements": [
         "Met Prime Minister Jean Chretien"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--1997-11-22--CAN",
+      "eventName": "APEC Canada 1997",
+      "id": "hassanal-bolkiah-i-of-brunei--1997-11-24--CAN",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Canada 1997",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Canada_1997"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-11-22",
+      "startDate": "1997-11-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -4288,24 +4348,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Shanghai",
         "coordinates": [
-          116.4074,
-          39.9042
+          121.469166666,
+          31.2325
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2001-10-21",
       "engagements": [
         "Met General Secretary Jiang Zemin"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC China 2001",
       "id": "hassanal-bolkiah-i-of-brunei--2001-10-20--CHN",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC China 2001",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2001"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4492,28 +4555,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
+        "city": "Los Cabos",
         "coordinates": [
-          -99.1332,
-          19.4326
+          -109.766666666,
+          23.266666666
         ],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2002-10-27",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2002-10-25--MEX",
+      "eventName": "APEC Mexico 2002",
+      "id": "hassanal-bolkiah-i-of-brunei--2002-10-26--MEX",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Mexico 2002",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Mexico_2002"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-10-25",
+      "startDate": "2002-10-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -5152,22 +5218,25 @@
           -33.4375
         ],
         "countryCode": "CHL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2004-11-21",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2004-11-19--CHL",
+      "eventName": "APEC Chile 2004",
+      "id": "hassanal-bolkiah-i-of-brunei--2004-11-20--CHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Chile 2004",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Chile_2004"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2004-11-19",
+      "startDate": "2004-11-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -5589,22 +5658,25 @@
           3.147777777
         ],
         "countryCode": "MYS",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2005-12-13",
+      "endDate": "2005-12-14",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2005-12-10--MYS",
+      "eventName": "First East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2005-12-14--MYS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the First East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/First_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-12-10",
+      "startDate": "2005-12-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -5849,37 +5921,39 @@
           21.0245
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2006-11-19",
       "engagements": [
         "Met President Nguyen Minh Triet"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2006-11-16--VNM",
+      "eventName": "APEC Vietnam 2006",
+      "id": "hassanal-bolkiah-i-of-brunei--2006-11-18--VNM",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2006",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-11-16",
+      "startDate": "2006-11-18",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Mandaue",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          123.933333333,
+          10.333333333
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2007-01-15",
@@ -5887,17 +5961,21 @@
         "Met President Gloria Macapagal Arroyo",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2007-01-12--PHL",
+      "eventName": "Second East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2007-01-15--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Second East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-01-12",
+      "startDate": "2007-01-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -6006,17 +6084,21 @@
       "engagements": [
         "Met Prime Minister John Howard"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2007-09-06--AUS",
+      "eventName": "APEC Australia 2007",
+      "id": "hassanal-bolkiah-i-of-brunei--2007-09-08--AUS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Australia 2007",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Australia_2007"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-09-06",
+      "startDate": "2007-09-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -6032,22 +6114,26 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-11-22",
+      "endDate": "2007-11-21",
       "engagements": [
         "Met Prime Minister Lee Hsien Loong",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2007-11-19--SGP",
+      "eventName": "Third East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2007-11-21--SGP",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Third East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Third_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-11-19",
+      "startDate": "2007-11-21",
       "statusHint": null,
       "type": "summit"
     },
@@ -6733,22 +6819,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Cha-am",
         "coordinates": [
-          100.516666666,
-          13.75
+          99.966944444,
+          12.799722222
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2009-10-25",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Fourth East Asia Summit",
       "id": "hassanal-bolkiah-i-of-brunei--2009-10-23--THA",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fourth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6884,16 +6973,19 @@
           21.0245
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-10-30",
+      "endDate": "2010-10-31",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Fifth East Asia Summit",
       "id": "hassanal-bolkiah-i-of-brunei--2010-10-28--VNM",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fifth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7055,22 +7147,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2011-10-29",
+      "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
       "id": "hassanal-bolkiah-i-of-brunei--2011-10-28--AUS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7083,13 +7178,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Hawaii Convention Center",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -157.836,
+          21.2904
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2011-11-13",
@@ -7106,6 +7200,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2011"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7117,28 +7215,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
+        "city": "Bali",
         "coordinates": [
-          106.8456,
-          -6.2088
+          115,
+          -8.5
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2011-11-19",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2011-11-16--IDN",
+      "eventName": "Sixth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2011-11-18--IDN",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Sixth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-16",
+      "startDate": "2011-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -7468,24 +7569,27 @@
           11.569583333
         ],
         "countryCode": "KHM",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-11-20",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2012-11-18--KHM",
+      "eventName": "Seventh East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2012-11-19--KHM",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Seventh East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seventh_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-11-18",
+      "startDate": "2012-11-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -7795,28 +7899,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jakarta",
+        "city": "Bali",
         "coordinates": [
-          106.8456,
-          -6.2088
+          115,
+          -8.5
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2013-10-08",
+      "endDate": "2013-10-07",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2013-10-06--IDN",
+      "eventName": "APEC Indonesia 2013",
+      "id": "hassanal-bolkiah-i-of-brunei--2013-10-05--IDN",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Indonesia 2013",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Indonesia_2013"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-10-06",
+      "startDate": "2013-10-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -7885,26 +7992,29 @@
       "destination": {
         "city": "Colombo",
         "coordinates": [
-          79.8612,
-          6.9271
+          79.860555555,
+          6.926666666
         ],
         "countryCode": "LKA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2013-11-17",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "hassanal-bolkiah-i-of-brunei--2013-11-14--LKA",
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "hassanal-bolkiah-i-of-brunei--2013-11-15--LKA",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-11-14",
+      "startDate": "2013-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -8119,56 +8229,62 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-11-11",
+      "endDate": "2014-11-12",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2014-11-06--CHN",
+      "eventName": "APEC China 2014",
+      "id": "hassanal-bolkiah-i-of-brunei--2014-11-10--CHN",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC China 2014",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2014"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-11-06",
+      "startDate": "2014-11-10",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Naypyidaw",
+        "city": "Nay Pyi Taw",
         "coordinates": [
           96.115,
           19.7475
         ],
         "countryCode": "MMR",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-11-13",
+      "endDate": "2014-11-14",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2014-11-11--MMR",
+      "eventName": "Ninth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2014-11-12--MMR",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Ninth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ninth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-11-11",
+      "startDate": "2014-11-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -8347,28 +8463,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Philippine International Convention Center",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.982618,
+          14.554257
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-11-19",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2015-11-17--PHL",
+      "eventName": "APEC Philippines 2015",
+      "id": "hassanal-bolkiah-i-of-brunei--2015-11-18--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Philippines 2015",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_2015"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-17",
+      "startDate": "2015-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -8381,18 +8500,21 @@
           3.147777777
         ],
         "countryCode": "MYS",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2015-11-23",
+      "endDate": "2015-11-22",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Tenth East Asia Summit",
       "id": "hassanal-bolkiah-i-of-brunei--2015-11-21--MYS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Tenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8503,22 +8625,25 @@
           17.98
         ],
         "countryCode": "LAO",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2016-09-08",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2016-09-05--LAO",
+      "eventName": "Eleventh East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2016-09-06--LAO",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Eleventh East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eleventh_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-05",
+      "startDate": "2016-09-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -8553,28 +8678,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Lima",
+        "city": "Lima Convention Center",
         "coordinates": [
-          -77.0375,
-          -12.06
+          -77.000574,
+          -12.086374
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2016-11-21",
+      "endDate": "2016-11-20",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2016-11-18--PER",
+      "eventName": "APEC Peru 2016",
+      "id": "hassanal-bolkiah-i-of-brunei--2016-11-19--PER",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Peru 2016",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Peru_2016"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-11-18",
+      "startDate": "2016-11-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -8615,7 +8743,6 @@
           14.595833333
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-04-29",
@@ -8623,17 +8750,21 @@
         "Met President Rodrigo Duterte",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2017-04-26--PHL",
+      "eventName": "2017 ASEAN Summits",
+      "id": "hassanal-bolkiah-i-of-brunei--2017-04-28--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 2017 ASEAN Summits",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-04-26",
+      "startDate": "2017-04-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -8729,43 +8860,45 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Hanoi",
+        "city": "InterContinental Danang Sun Peninsula Resort",
         "coordinates": [
-          105.84117,
-          21.0245
+          108.306162,
+          16.120502
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-11-12",
+      "endDate": "2017-11-11",
       "engagements": [
         "Met President Tran Dai Quang"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2017-11-09--VNM",
+      "eventName": "APEC Vietnam 2017",
+      "id": "hassanal-bolkiah-i-of-brunei--2017-11-10--VNM",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2017",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2017"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-11-09",
+      "startDate": "2017-11-10",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Pasay",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.995,
+          14.543888888
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-11-14",
@@ -8773,17 +8906,21 @@
         "Met President Rodrigo Duterte",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2017-11-12--PHL",
+      "eventName": "Twelfth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2017-11-13--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Twelfth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Twelfth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-11-12",
+      "startDate": "2017-11-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -8896,6 +9033,33 @@
         }
       ],
       "startDate": "2018-03-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "2018-04-20",
+      "engagements": [],
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "hassanal-bolkiah-i-of-brunei--2018-04-19--GBR",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -9019,30 +9183,60 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Singapore",
+        "city": "Suntec Singapore Convention and Exhibition Centre",
         "coordinates": [
-          103.8,
-          1.3
+          103.856944444,
+          1.293611111
         ],
         "countryCode": "SGP",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-11-16",
+      "endDate": "2018-11-15",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "ASEAN Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2018-11-13--SGP",
+      "eventName": "Thirteenth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2018-11-14--SGP",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended ASEAN Summit",
+      "purpose": "Attended the Thirteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thirteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-13",
+      "startDate": "2018-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port Moresby",
+        "coordinates": [
+          147.149444444,
+          -9.478888888
+        ],
+        "countryCode": "PNG",
+        "region": "Oceania"
+      },
+      "endDate": "2018-11-18",
+      "engagements": [],
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "hassanal-bolkiah-i-of-brunei--2018-11-17--PNG",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        }
+      ],
+      "startDate": "2018-11-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -9294,7 +9488,6 @@
           13.75
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-11-04",
@@ -9302,17 +9495,48 @@
         "Met Prime Minister Prayuth Chan-o-cha",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2019-11-01--THA",
+      "eventName": "Fourteenth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2019-11-04--THA",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fourteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-11-01",
+      "startDate": "2019-11-04",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "region": "Americas"
+      },
+      "endDate": "2019-11-17",
+      "engagements": [],
+      "eventName": "APEC Chile 2019",
+      "id": "hassanal-bolkiah-i-of-brunei--2019-11-16--CHL",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the APEC Chile 2019",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Chile_2019"
+        }
+      ],
+      "startDate": "2019-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -9468,6 +9692,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Hanoi",
+        "coordinates": [
+          105.84117,
+          21.0245
+        ],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": "Fifteenth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2020-11-14--VNM",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the Fifteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2020-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [
           106.8456,
@@ -9498,26 +9749,29 @@
       "destination": {
         "city": "Rome",
         "coordinates": [
-          12.4964,
-          41.9028
+          12.482777777,
+          41.893055555
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2021-11-01",
+      "endDate": "2021-10-31",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2021-10-29--ITA",
+      "eventName": "2021 G20 Rome summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2021-10-30--ITA",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2021 G20 Rome summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_G20_Rome_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-10-29",
+      "startDate": "2021-10-30",
       "statusHint": null,
       "type": "summit"
     },
@@ -9622,18 +9876,21 @@
           -1.9525
         ],
         "countryCode": "RWA",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2022-06-25",
       "engagements": [
         "Met President Paul Kagame"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
       "id": "hassanal-bolkiah-i-of-brunei--2022-06-24--RWA",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9742,55 +9999,61 @@
           11.569583333
         ],
         "countryCode": "KHM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2022-11-14",
+      "endDate": "2022-11-13",
       "engagements": [
         "Met Prime Minister Hun Sen",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2022-11-08--KHM",
+      "eventName": "Seventeenth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2022-11-12--KHM",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Seventeenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seventeenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-08",
+      "startDate": "2022-11-12",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Queen Sirikit National Convention Center",
         "coordinates": [
-          100.516666666,
-          13.75
+          100.559222,
+          13.723992
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2022-11-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2022-11-17--THA",
+      "eventName": "APEC Thailand 2022",
+      "id": "hassanal-bolkiah-i-of-brunei--2022-11-16--THA",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Thailand 2022",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Thailand_2022"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-17",
+      "startDate": "2022-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -10128,41 +10391,43 @@
       "destination": {
         "city": "Jakarta",
         "coordinates": [
-          106.8456,
-          -6.2088
+          106.826944444,
+          -6.175277777
         ],
         "countryCode": "IDN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-09-06",
+      "endDate": "2023-09-07",
       "engagements": [
         "Met President Joko Widodo"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2023-09-04--IDN",
+      "eventName": "Eighteenth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2023-09-06--IDN",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Eighteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eighteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-04",
+      "startDate": "2023-09-06",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "San Francisco",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -122.419444444,
+          37.775
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2023-11-17",
@@ -10175,6 +10440,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2023"
         },
         {
           "label": "COLT dataset",
@@ -10464,24 +10733,27 @@
           17.98
         ],
         "countryCode": "LAO",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2024-10-11",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2024-10-08--LAO",
+      "eventName": "Nineteenth East Asia Summit",
+      "id": "hassanal-bolkiah-i-of-brunei--2024-10-10--LAO",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Nineteenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nineteenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-08",
+      "startDate": "2024-10-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -10518,13 +10790,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Lima",
+        "city": "Lima Convention Center",
         "coordinates": [
-          -77.0375,
-          -12.06
+          -77.000574,
+          -12.086374
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-11-16",
@@ -10532,17 +10803,21 @@
         "Met President Dina Boluarte",
         "Signed agreements"
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2024-11-12--PER",
+      "eventName": "APEC Peru 2024",
+      "id": "hassanal-bolkiah-i-of-brunei--2024-11-15--PER",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Peru 2024",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Peru_2024"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-11-12",
+      "startDate": "2024-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -10647,22 +10922,26 @@
         "countryCode": "MYS",
         "region": "Asia"
       },
-      "endDate": "2025-06-03",
+      "endDate": "2025-05-27",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2025-05-25--MYS",
+      "eventName": "2025 ASEAN Summits",
+      "id": "hassanal-bolkiah-i-of-brunei--2025-05-26--MYS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 2025 ASEAN Summits",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_ASEAN_Summits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-05-25",
+      "startDate": "2025-05-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -10784,6 +11063,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Gyeongju Hwabaek International Convention Center",
+        "coordinates": [
+          129.2879,
+          35.8383
+        ],
+        "countryCode": "KOR",
+        "region": "Asia"
+      },
+      "endDate": "2025-11-01",
+      "engagements": [],
+      "eventName": "APEC South Korea 2025",
+      "id": "hassanal-bolkiah-i-of-brunei--2025-10-31--KOR",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the APEC South Korea 2025",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_South_Korea_2025"
+        }
+      ],
+      "startDate": "2025-10-31",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Budapest",
         "coordinates": [
           19.040833333,
@@ -10836,6 +11142,33 @@
       "startDate": "2025-11-30",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Shenzhen",
+        "coordinates": [
+          114.054444444,
+          22.546666666
+        ],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2026-11-19",
+      "engagements": [],
+      "eventName": "APEC China 2026",
+      "id": "hassanal-bolkiah-i-of-brunei--2026-11-18--CHN",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the APEC China 2026",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2026"
+        }
+      ],
+      "startDate": "2026-11-18",
+      "statusHint": "planned",
+      "type": "summit"
     },
     {
       "datePrecision": "month",
@@ -10948,6 +11281,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "prince-mohamed-bolkiah-of-brunei--2002-03-02--AUS",
+      "officialId": "prince-mohamed-bolkiah-of-brunei",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -10998,6 +11358,33 @@
       "startDate": "2010-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "prince-mohamed-bolkiah-of-brunei--2012-08-26--IRN",
+      "officialId": "prince-mohamed-bolkiah-of-brunei",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "month",

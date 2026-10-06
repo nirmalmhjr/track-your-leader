@@ -566,7 +566,7 @@
       "aliases": [],
       "countryCode": "WSM",
       "fullName": "Ale Vena Ale",
-      "id": "ale-vena-ale-wsm",
+      "id": "ale-vena-ale",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -575,7 +575,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ale-vena-ale-wsm-p1",
+          "id": "ale-vena-ale-p1",
           "ministry": "Ministry of Natural Resources and Environment",
           "portfolio": "environment",
           "startDate": null,
@@ -1333,6 +1333,39 @@
     {
       "aliases": [],
       "countryCode": "WSM",
+      "fullName": "Vaovasamanaia Filipo",
+      "id": "vaovasamanaia-filipo",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1979-08-07",
+          "id": "vaovasamanaia-filipo-p1",
+          "ministry": null,
+          "portfolio": "finance",
+          "startDate": "1979-08-01",
+          "title": "Minister of Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Vaovasamanaia_Filipo"
+        }
+      ],
+      "summary": "Vaovasamanaia Reginald Filipo (also known as Reginald Paul Phillips) (died 1993) was a Samoan politician, Cabinet Minister, and Judge. He was the first Samoan appointed Chief Justice of Samoa.",
+      "wikidataId": "Q96248480"
+    },
+    {
+      "aliases": [],
+      "countryCode": "WSM",
       "fullName": "Maiva Atalina Emma Ainnu-Enari",
       "id": "maiva-atalina-emma-ainnu-enari",
       "party": null,
@@ -1838,10 +1871,21 @@
         },
         {
           "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2007-06-16",
+          "id": "tuila-epa-sa-ilele-malielegaoi-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1998-11-23",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
             "legislator"
           ],
           "endDate": null,
-          "id": "tuila-epa-sa-ilele-malielegaoi-p3",
+          "id": "tuila-epa-sa-ilele-malielegaoi-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -1864,6 +1908,60 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "fiame-mata-afa-faumuina-mulinu-u-ii--1973-08-02--CAN",
+      "officialId": "fiame-mata-afa-faumuina-mulinu-u-ii",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [
+          -76.793055555,
+          17.971388888
+        ],
+        "countryCode": "JAM",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-06",
+      "engagements": [],
+      "eventName": "1975 Commonwealth Heads of Government Meeting",
+      "id": "fiame-mata-afa-faumuina-mulinu-u-ii--1975-04-29--JAM",
+      "officialId": "fiame-mata-afa-faumuina-mulinu-u-ii",
+      "purpose": "Attended the 1975 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "summit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -1952,6 +2050,33 @@
       "startDate": "2022-06-14",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kigali",
+        "coordinates": [
+          30.115,
+          -1.9525
+        ],
+        "countryCode": "RWA",
+        "region": "Africa"
+      },
+      "endDate": "2022-06-25",
+      "engagements": [],
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "fiame-naomi-mata-afa--2022-06-24--RWA",
+      "officialId": "fiame-naomi-mata-afa",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2022-06-24",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -3303,6 +3428,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "tufuga-efi--1977-06-08--GBR",
+      "officialId": "tufuga-efi",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Wellington",
         "coordinates": [
           174.7762,
@@ -3566,6 +3718,33 @@
       "startDate": "2001-11-11",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "tuila-epa-sa-ilele-malielegaoi--2002-03-02--AUS",
+      "officialId": "tuila-epa-sa-ilele-malielegaoi",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -4288,28 +4467,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "tuila-epa-sa-ilele-malielegaoi--2011-10-25--AUS",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "tuila-epa-sa-ilele-malielegaoi--2011-10-28--AUS",
       "officialId": "tuila-epa-sa-ilele-malielegaoi",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-25",
+      "startDate": "2011-10-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -4644,6 +4826,33 @@
       "startDate": "2013-11-07",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "tuila-epa-sa-ilele-malielegaoi--2013-11-15--LKA",
+      "officialId": "tuila-epa-sa-ilele-malielegaoi",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -5125,22 +5334,25 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
       "id": "tuila-epa-sa-ilele-malielegaoi--2018-04-19--GBR",
       "officialId": "tuila-epa-sa-ilele-malielegaoi",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit and Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5427,22 +5639,25 @@
           -9.478888888
         ],
         "countryCode": "PNG",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2018-11-18",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "tuila-epa-sa-ilele-malielegaoi--2018-11-15--PNG",
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "tuila-epa-sa-ilele-malielegaoi--2018-11-17--PNG",
       "officialId": "tuila-epa-sa-ilele-malielegaoi",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-15",
+      "startDate": "2018-11-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -5687,6 +5902,61 @@
         }
       ],
       "startDate": "2020-02-20",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "tupua-tamasese-lealofi-iv--1971-01-14--SGP",
+      "officialId": "tupua-tamasese-lealofi-iv",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "vaovasamanaia-filipo--1979-08-01--ZMB",
+      "officialId": "vaovasamanaia-filipo",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
       "statusHint": null,
       "type": "summit"
     }

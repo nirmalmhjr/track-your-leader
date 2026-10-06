@@ -477,7 +477,7 @@
       "aliases": [],
       "countryCode": "TKM",
       "fullName": "Begenc Gundogdyyew",
-      "id": "begenc-gundogdyyew-tkm",
+      "id": "begenc-gundogdyyew",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -486,7 +486,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "begenc-gundogdyyew-tkm-p1",
+          "id": "begenc-gundogdyyew-p1",
           "ministry": "Ministry of Defense",
           "portfolio": "defence",
           "startDate": null,
@@ -497,7 +497,7 @@
             "senior_official"
           ],
           "endDate": null,
-          "id": "begenc-gundogdyyew-tkm-p2",
+          "id": "begenc-gundogdyyew-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -519,7 +519,7 @@
       ],
       "countryCode": "TKM",
       "fullName": "Begenç Gündogdyýew",
-      "id": "begenc-gundogdyyew",
+      "id": "begenc-gundogdyyew-tkm",
       "party": "Democratic Party of Turkmenistan",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Begench_Gundogdyev_(cropped).jpg?width=160",
       "positions": [
@@ -528,7 +528,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "begenc-gundogdyyew-p1",
+          "id": "begenc-gundogdyyew-tkm-p1",
           "ministry": "Ministry of Defense of Turkmenistan",
           "portfolio": "defence",
           "startDate": "2018-06-14",
@@ -539,7 +539,7 @@
             "minister"
           ],
           "endDate": "2015-10-05",
-          "id": "begenc-gundogdyyew-p2",
+          "id": "begenc-gundogdyyew-tkm-p2",
           "ministry": "Ministry of Defense of Turkmenistan",
           "portfolio": "defence",
           "startDate": "2011-03-29",
@@ -4154,22 +4154,25 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2012-06-08",
+      "endDate": "2012-06-07",
       "engagements": [
         "Met General Secretary Hu Jintao"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2012 Beijing SCO summit",
       "id": "gurbanguly-berdimuhamedow--2012-06-06--CHN",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2012 Beijing SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Beijing_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4246,7 +4249,6 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-08-31",
@@ -4254,17 +4256,21 @@
         "Met President Mahmoud Ahmadinejad",
         "Gave a public address"
       ],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "gurbanguly-berdimuhamedow--2012-08-30--IRN",
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "gurbanguly-berdimuhamedow--2012-08-26--IRN",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-08-30",
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -4351,6 +4357,10 @@
       "officialId": "gurbanguly-berdimuhamedow",
       "purpose": "Visit to Armenia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Turkmenistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6064,7 +6074,6 @@
           40.366655555
         ],
         "countryCode": "AZE",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-10-26",
@@ -6072,11 +6081,15 @@
         "Met President Ilham Aliyev",
         "Gave a public address"
       ],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
+      "eventName": "18th Summit of the Non-Aligned Movement",
       "id": "gurbanguly-berdimuhamedow--2019-10-25--AZE",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6449,6 +6462,87 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Samarkand",
+        "coordinates": [
+          66.975833333,
+          39.654722222
+        ],
+        "countryCode": "UZB",
+        "region": "Asia"
+      },
+      "endDate": "2022-11-11",
+      "engagements": [],
+      "eventName": "2022 Organization of Turkic States summit",
+      "id": "gurbanguly-berdimuhamedow--2022-11-11--UZB",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "Attended the 2022 Organization of Turkic States summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Organization_of_Turkic_States_summit"
+        }
+      ],
+      "startDate": "2022-11-11",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Astana",
+        "coordinates": [
+          71.433333333,
+          51.133333333
+        ],
+        "countryCode": "KAZ",
+        "region": "Asia"
+      },
+      "endDate": "2023-11-03",
+      "engagements": [],
+      "eventName": "2023 Organization of Turkic States summit",
+      "id": "gurbanguly-berdimuhamedow--2023-11-03--KAZ",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "Attended the 2023 Organization of Turkic States summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_Organization_of_Turkic_States_summit"
+        }
+      ],
+      "startDate": "2023-11-03",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Astana",
+        "coordinates": [
+          71.433333333,
+          51.133333333
+        ],
+        "countryCode": "KAZ",
+        "region": "Asia"
+      },
+      "endDate": "2024-07-04",
+      "engagements": [],
+      "eventName": "2024 Astana SCO summit",
+      "id": "gurbanguly-berdimuhamedow--2024-07-03--KAZ",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "Attended the 2024 Astana SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Astana_SCO_summit"
+        }
+      ],
+      "startDate": "2024-07-03",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -6634,6 +6728,33 @@
       "startDate": "2024-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Islamabad",
+        "coordinates": [
+          73.036944444,
+          33.698888888
+        ],
+        "countryCode": "PAK",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-16",
+      "engagements": [],
+      "eventName": "2024 Islamabad SCO summit",
+      "id": "rasit-meredow--2024-10-15--PAK",
+      "officialId": "rasit-meredow",
+      "purpose": "Attended the 2024 Islamabad SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+        }
+      ],
+      "startDate": "2024-10-15",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8230,6 +8351,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Yerevan",
+        "coordinates": [
+          44.514444444,
+          40.181388888
+        ],
+        "countryCode": "ARM",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2001-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "saparmyrat-nyyazow--2001-01-01--ARM",
+      "officialId": "saparmyrat-nyyazow",
+      "purpose": "Visit to Armenia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Armenia%E2%80%93Turkmenistan_relations"
+        }
+      ],
+      "startDate": "2001-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Ankara",
@@ -8881,7 +9030,7 @@
         "Met with President Shavkat Mirziyoyev and President of China Xi Jinping.",
         "Met President Shavkat Mirziyoyev"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2022 Samarkand SCO summit",
       "id": "serdar-berdimuhamedow--2022-09-15--UZB",
       "officialId": "serdar-berdimuhamedow",
       "purpose": "Attended the 2022 SCO summit.",
@@ -9874,7 +10023,7 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "16th BRICS summit",
       "id": "serdar-berdimuhamedow--2024-10-22--RUS",
       "officialId": "serdar-berdimuhamedow",
       "purpose": "Attended the 16th BRICS summit.",
@@ -10172,7 +10321,7 @@
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2025 Tianjin SCO summit",
       "id": "serdar-berdimuhamedow--2025-08-31--CHN",
       "officialId": "serdar-berdimuhamedow",
       "purpose": "Attended the SCO summit.",

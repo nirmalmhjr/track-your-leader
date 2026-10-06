@@ -1366,7 +1366,7 @@
       "aliases": [],
       "countryCode": "PRY",
       "fullName": "Carlos Fernandez Valdovinos",
-      "id": "carlos-fernandez-valdovinos-pry",
+      "id": "carlos-fernandez-valdovinos",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1375,7 +1375,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "carlos-fernandez-valdovinos-pry-p1",
+          "id": "carlos-fernandez-valdovinos-p1",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": null,
@@ -2809,6 +2809,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "alfredo-stroessner--1973-01-01--ESP",
+      "officialId": "alfredo-stroessner",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1973-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -3505,6 +3533,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -3711,6 +3743,34 @@
         }
       ],
       "startDate": "2012-12-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "federico-franco--2013-01-01--ESP",
+      "officialId": "federico-franco",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -3984,6 +4044,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Paraguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4231,16 +4295,19 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "fernando-lugo--2009-04-17--TTO",
       "officialId": "fernando-lugo",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4904,6 +4971,10 @@
       "officialId": "fernando-lugo",
       "purpose": "Attended European Council-Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5666,30 +5737,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "fernando-lugo--2012-04-13--COL",
+      "eventName": "6th Summit of the Americas",
+      "id": "fernando-lugo--2012-04-14--COL",
       "officialId": "fernando-lugo",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-13",
+      "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -6323,28 +6397,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Fortaleza",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -38.5275,
+          -3.7275
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2014-07-16",
       "engagements": [],
-      "eventName": "Union of South American Nations (UNASUR)-Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "horacio-cartes--2014-07-16--BRA",
+      "eventName": "6th BRICS summit",
+      "id": "horacio-cartes--2014-07-14--BRA",
       "officialId": "horacio-cartes",
-      "purpose": "Attended Union of South American Nations (UNASUR)-Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 6th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-16",
+      "startDate": "2014-07-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -6545,6 +6622,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Paraguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -6646,24 +6727,27 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-04-10",
+      "endDate": "2015-04-11",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "horacio-cartes--2015-04-09--PAN",
+      "eventName": "7th Summit of the Americas",
+      "id": "horacio-cartes--2015-04-10--PAN",
       "officialId": "horacio-cartes",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-09",
+      "startDate": "2015-04-10",
       "statusHint": null,
       "type": "summit"
     },
@@ -6688,6 +6772,10 @@
       "officialId": "horacio-cartes",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7732,6 +7820,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2018-04-14",
+      "engagements": [],
+      "eventName": "8th Summit of the Americas",
+      "id": "horacio-cartes--2018-04-13--PER",
+      "officialId": "horacio-cartes",
+      "purpose": "Attended the 8th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2018-04-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jerusalem",
         "coordinates": [
           35.234156,
@@ -8396,6 +8511,10 @@
       "officialId": "juan-carlos-wasmosy",
       "purpose": "Attended Ibero-American Summit and Spain Towards the 21st Century Conference",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9429,6 +9548,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Paraguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9811,6 +9934,34 @@
       "startDate": "1999-12-08",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-gonzalez-macchi--2000-01-01--ESP",
+      "officialId": "luis-gonzalez-macchi",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2000-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -11196,6 +11347,10 @@
       "purpose": "Attended Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Paraguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11382,13 +11537,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -11403,6 +11557,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
         },
         {
           "label": "COLT dataset",
@@ -11558,6 +11716,10 @@
       "officialId": "mario-abdo-benitez",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12216,6 +12378,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Paraguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12860,6 +13026,10 @@
       "officialId": "nicanor-duarte",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Paraguay%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14930,6 +15100,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Paraguay_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14971,28 +15145,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Rio de Janeiro",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -43.205555555,
+          -22.911111111
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-11-19",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "santiago-pena-palacios--2024-11-17--BRA",
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "santiago-pena-palacios--2024-11-16--BRA",
       "officialId": "santiago-pena-palacios",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-11-17",
+      "startDate": "2024-11-16",
       "statusHint": null,
       "type": "summit"
     },

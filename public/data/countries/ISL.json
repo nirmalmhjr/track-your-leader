@@ -2084,7 +2084,7 @@
       "aliases": [],
       "countryCode": "ISL",
       "fullName": "Eyjolfur Armannsson",
-      "id": "eyjolfur-armannsson-isl",
+      "id": "eyjolfur-armannsson",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2093,7 +2093,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "eyjolfur-armannsson-isl-p1",
+          "id": "eyjolfur-armannsson-p1",
           "ministry": "Ministry of Infrastructure",
           "portfolio": null,
           "startDate": null,
@@ -3495,7 +3495,7 @@
       "aliases": [],
       "countryCode": "ISL",
       "fullName": "Johann Pall Johannsson",
-      "id": "johann-pall-johannsson-isl",
+      "id": "johann-pall-johannsson",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -3504,7 +3504,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "johann-pall-johannsson-isl-p1",
+          "id": "johann-pall-johannsson-p1",
           "ministry": "Ministry of the Environment, Energy and Climate",
           "portfolio": "energy",
           "startDate": null,
@@ -4196,7 +4196,7 @@
       "aliases": [],
       "countryCode": "ISL",
       "fullName": "Logi Mar Einarsson",
-      "id": "logi-mar-einarsson-isl",
+      "id": "logi-mar-einarsson",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -4205,7 +4205,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "logi-mar-einarsson-isl-p1",
+          "id": "logi-mar-einarsson-p1",
           "ministry": "Ministry of Nordic Cooperation",
           "portfolio": null,
           "startDate": null,
@@ -4216,7 +4216,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "logi-mar-einarsson-isl-p2",
+          "id": "logi-mar-einarsson-p2",
           "ministry": "Ministry of Culture, Innovation and Higher Education",
           "portfolio": "education",
           "startDate": null,
@@ -10929,6 +10929,62 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "asgeir-asgeirsson--1961-01-01--CAN",
+      "officialId": "asgeir-asgeirsson",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        }
+      ],
+      "startDate": "1961-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1966-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "asgeir-asgeirsson--1966-01-01--ISR",
+      "officialId": "asgeir-asgeirsson",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Israel_relations"
+        }
+      ],
+      "startDate": "1966-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -10953,6 +11009,62 @@
         }
       ],
       "startDate": "1967-07-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1964-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "bjarni-benediktsson--1964-01-01--CAN",
+      "officialId": "bjarni-benediktsson",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        }
+      ],
+      "startDate": "1964-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1964-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "bjarni-benediktsson--1964-01-01--ISR",
+      "officialId": "bjarni-benediktsson",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Israel_relations"
+        }
+      ],
+      "startDate": "1964-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -11051,16 +11163,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2017-05-25",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2017 Brussels NATO summit",
       "id": "bjarni-benediktsson-isl--2017-05-25--BEL",
       "officialId": "bjarni-benediktsson-isl",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2017 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11241,6 +11356,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Washington_NATO_summit"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11417,6 +11536,10 @@
       "purpose": "Visit to Israel",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Israel_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11558,6 +11681,10 @@
       "officialId": "davi-oddsson",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Japan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11892,18 +12019,21 @@
           40.416944444
         ],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1997-07-09",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "1997 Madrid NATO summit",
       "id": "davi-oddsson--1997-07-08--ESP",
       "officialId": "davi-oddsson",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 1997 Madrid NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11992,6 +12122,10 @@
       "officialId": "davi-oddsson",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12114,6 +12248,10 @@
       "purpose": "Visit to Canada",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12144,6 +12282,10 @@
       "officialId": "davi-oddsson",
       "purpose": "Visit to Latvia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Latvia_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12934,6 +13076,10 @@
       "purpose": "Visit to Canada",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13021,6 +13167,10 @@
       "officialId": "geir-haarde",
       "purpose": "Visit to Ireland",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Ireland_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13201,6 +13351,33 @@
       "startDate": "2008-03-22",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Palace of the Parliament",
+        "coordinates": [
+          26.0875,
+          44.4275
+        ],
+        "countryCode": "ROU",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-04",
+      "engagements": [],
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "geir-haarde--2008-04-02--ROU",
+      "officialId": "geir-haarde",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        }
+      ],
+      "startDate": "2008-04-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -13623,6 +13800,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gu-ni-johannesson--2023-01-01--CAN",
+      "officialId": "gu-ni-johannesson",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        }
+      ],
+      "startDate": "2023-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -13839,6 +14044,10 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Japan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13868,6 +14077,10 @@
       "officialId": "halldor-asgrimsson",
       "purpose": "Visit to Canada",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14053,6 +14266,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Riga",
+        "coordinates": [
+          24.106944444,
+          56.9475
+        ],
+        "countryCode": "LVA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-09-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "ingibjorg-solrun-gisladottir--2008-09-08--LVA",
+      "officialId": "ingibjorg-solrun-gisladottir",
+      "purpose": "Visit to Latvia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Latvia_relations"
+        }
+      ],
+      "startDate": "2008-09-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Stockholm",
         "coordinates": [
           18.068611111,
@@ -14199,16 +14440,19 @@
           38.708042
         ],
         "countryCode": "PRT",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2010-11-20",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2010 Lisbon NATO summit",
       "id": "johanna-sigur-ardottir--2010-11-19--PRT",
       "officialId": "johanna-sigur-ardottir",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14412,6 +14656,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
         },
         {
           "label": "COLT dataset",
@@ -14714,16 +14962,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-07-12",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2018 Brussels NATO summit",
       "id": "katrin-jakobsdottir--2018-07-11--BEL",
       "officialId": "katrin-jakobsdottir",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2018 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15176,13 +15427,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Watford",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.395833333,
+          51.655277777
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2019-12-04",
@@ -15190,11 +15440,15 @@
         "Met Prime Minister Boris Johnson",
         "Gave a public address"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2019 London NATO summit",
       "id": "katrin-jakobsdottir--2019-12-03--GBR",
       "officialId": "katrin-jakobsdottir",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2019 London NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2019_London_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15243,16 +15497,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2021-06-14",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2021 Brussels NATO summit",
       "id": "katrin-jakobsdottir--2021-06-14--BEL",
       "officialId": "katrin-jakobsdottir",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2021 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15388,16 +15645,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2022-03-24",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2022 Brussels extraordinary NATO summit",
       "id": "katrin-jakobsdottir--2022-03-24--BEL",
       "officialId": "katrin-jakobsdottir",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2022 Brussels extraordinary NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Brussels_extraordinary_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15474,18 +15734,21 @@
           40.416944444
         ],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2022-06-30",
       "engagements": [
         "Met Prime Minister Pedro Sanchez"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2022 Madrid NATO summit",
       "id": "katrin-jakobsdottir--2022-06-29--ESP",
       "officialId": "katrin-jakobsdottir",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the 2022 Madrid NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Madrid_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15919,18 +16182,21 @@
           54.687222222
         ],
         "countryCode": "LTU",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2023-07-12",
       "engagements": [
         "Met Prime Minister Ingrida Simonyte"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2023 Vilnius NATO summit",
       "id": "katrin-jakobsdottir--2023-07-11--LTU",
       "officialId": "katrin-jakobsdottir",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the 2023 Vilnius NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_Vilnius_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16230,6 +16496,34 @@
       "startDate": "1971-05-03",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kristjan-eldjarn--1975-01-01--CAN",
+      "officialId": "kristjan-eldjarn",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        }
+      ],
+      "startDate": "1975-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -16620,7 +16914,7 @@
         "Met Prime Minister Dick Schoof",
         "Signed agreements"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "kristrun-mjoll-frostadottir--2025-06-24--NLD",
       "officialId": "kristrun-mjoll-frostadottir",
       "purpose": "Frostadóttir attended the 2025 NATO summit",
@@ -16971,7 +17265,7 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "kristrun-mjoll-frostadottir--2026-07-07--TUR",
       "officialId": "kristrun-mjoll-frostadottir",
       "purpose": "Frostadóttir attended the 2026 Ankara NATO summit.",
@@ -17094,6 +17388,33 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "kristrun-mjoll-frostadottir--2027-01-01--ALB",
+      "officialId": "kristrun-mjoll-frostadottir",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -17119,6 +17440,62 @@
       "startDate": "2016-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "olafur-ragnar-grimsson--1991-01-01--CAN",
+      "officialId": "olafur-ragnar-grimsson",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "olafur-ragnar-grimsson--1998-01-01--MEX",
+      "officialId": "olafur-ragnar-grimsson",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1998-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -17558,6 +17935,10 @@
       "purpose": "Visit to Canada",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Iceland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -17685,22 +18066,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2014 Wales NATO summit",
       "id": "sigmundur-davi-gunnlaugsson--2014-09-04--GBR",
       "officialId": "sigmundur-davi-gunnlaugsson",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18067,16 +18451,19 @@
           52.23
         ],
         "countryCode": "POL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2016-07-09",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2016 Warsaw NATO summit",
       "id": "sigur-ur-ingi-johannsson--2016-07-08--POL",
       "officialId": "sigur-ur-ingi-johannsson",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18085,6 +18472,34 @@
       "startDate": "2016-07-08",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "steingrimur-hermannsson--1985-01-01--MEX",
+      "officialId": "steingrimur-hermannsson",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1985-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18362,6 +18777,34 @@
       "startDate": "1989-05-23",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Dublin",
+        "coordinates": [
+          -6.260277777,
+          53.349722222
+        ],
+        "countryCode": "IRL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "vigdis-finnbogadottir--1991-01-01--IRL",
+      "officialId": "vigdis-finnbogadottir",
+      "purpose": "Visit to Ireland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iceland%E2%80%93Ireland_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

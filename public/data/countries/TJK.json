@@ -401,7 +401,7 @@
       "aliases": [],
       "countryCode": "TJK",
       "fullName": "Hokim Kholiqzoda",
-      "id": "hokim-kholiqzoda-tjk",
+      "id": "hokim-kholiqzoda",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -410,7 +410,7 @@
             "deputy_leader"
           ],
           "endDate": null,
-          "id": "hokim-kholiqzoda-tjk-p1",
+          "id": "hokim-kholiqzoda-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -3864,6 +3864,10 @@
       "officialId": "emomali-rahmon",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tajikistan%E2%80%93Uzbekistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9648,11 +9652,10 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-06-07",
@@ -9660,17 +9663,21 @@
         "Met General Secretary Hu Jintao",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "emomali-rahmon--2012-06-01--CHN",
+      "eventName": "2012 Beijing SCO summit",
+      "id": "emomali-rahmon--2012-06-06--CHN",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2012 Beijing SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Beijing_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-06-01",
+      "startDate": "2012-06-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -9805,22 +9812,25 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2012-09-01",
+      "endDate": "2012-08-31",
       "engagements": [],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "emomali-rahmon--2012-08-29--IRN",
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "emomali-rahmon--2012-08-26--IRN",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-08-29",
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -10808,24 +10818,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Ufa",
         "coordinates": [
-          37.6175,
-          55.750555555
+          55.9475,
+          54.726111111
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-07-10",
+      "endDate": "2015-07-09",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "7th BRICS summit",
       "id": "emomali-rahmon--2015-07-08--RUS",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 7th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11195,6 +11208,10 @@
       "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tajikistan%E2%80%93Uzbekistan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11255,6 +11272,10 @@
       "officialId": "emomali-rahmon",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tajikistan%E2%80%93Uzbekistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11601,13 +11622,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Xiamen",
         "coordinates": [
-          116.4074,
-          39.9042
+          118.081944444,
+          24.479722222
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-09-05",
@@ -11615,17 +11635,21 @@
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "emomali-rahmon--2017-08-30--CHN",
+      "eventName": "9th BRICS summit",
+      "id": "emomali-rahmon--2017-09-03--CHN",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 9th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-08-30",
+      "startDate": "2017-09-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -11818,25 +11842,28 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Qingdao",
         "coordinates": [
-          116.4074,
-          39.9042
+          120.4,
+          36.116666666
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-06-11",
+      "endDate": "2018-06-19",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2018 Qingdao SCO summit",
       "id": "emomali-rahmon--2018-06-09--CHN",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2018 Qingdao SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Qingdao_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11957,6 +11984,10 @@
       "officialId": "emomali-rahmon",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tajikistan%E2%80%93Uzbekistan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12915,13 +12946,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tashkent",
+        "city": "Samarkand",
         "coordinates": [
-          69.279722222,
-          41.311111111
+          66.975833333,
+          39.654722222
         ],
         "countryCode": "UZB",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2022-09-16",
@@ -12929,11 +12959,15 @@
         "Met President Shavkat Mirziyoyev",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2022 Samarkand SCO summit",
       "id": "emomali-rahmon--2022-09-15--UZB",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2022 Samarkand SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Samarkand_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13947,7 +13981,6 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2024-07-04",
@@ -13955,11 +13988,15 @@
         "Met President Kasymzhomart Tokayev",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2024 Astana SCO summit",
       "id": "emomali-rahmon--2024-07-03--KAZ",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2024 Astana SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Astana_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14180,31 +14217,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Kazan",
         "coordinates": [
-          37.6175,
-          55.750555555
+          49.114444444,
+          55.790833333
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-10-25",
+      "endDate": "2024-10-24",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "emomali-rahmon--2024-10-23--RUS",
+      "eventName": "16th BRICS summit",
+      "id": "emomali-rahmon--2024-10-22--RUS",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 16th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-23",
+      "startDate": "2024-10-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -14607,16 +14647,20 @@
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2025-09-03",
+      "endDate": "2025-09-01",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2025 Tianjin SCO summit",
       "id": "emomali-rahmon--2025-08-31--CHN",
       "officialId": "emomali-rahmon",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2025 Tianjin SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Tianjin_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14898,6 +14942,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Tashkent",
+        "coordinates": [
+          69.279722222,
+          41.311111111
+        ],
+        "countryCode": "UZB",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-03-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "emomali-rahmon--2026-03-01--UZB",
+      "officialId": "emomali-rahmon",
+      "purpose": "Visit to Uzbekistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tajikistan%E2%80%93Uzbekistan_relations"
+        }
+      ],
+      "startDate": "2026-03-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -15004,6 +15076,33 @@
       "startDate": "2019-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Islamabad",
+        "coordinates": [
+          73.036944444,
+          33.698888888
+        ],
+        "countryCode": "PAK",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-16",
+      "engagements": [],
+      "eventName": "2024 Islamabad SCO summit",
+      "id": "kokhir-rasulzoda--2024-10-15--PAK",
+      "officialId": "kokhir-rasulzoda",
+      "purpose": "Attended the 2024 Islamabad SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+        }
+      ],
+      "startDate": "2024-10-15",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "month",

@@ -99,10 +99,21 @@
         },
         {
           "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2020-06-23",
+          "id": "evariste-ndayishimiye-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-06-18",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
             "minister"
           ],
           "endDate": "2007-11-14",
-          "id": "evariste-ndayishimiye-p2",
+          "id": "evariste-ndayishimiye-p3",
           "ministry": "Ministry of Internal Affairs of Burundi",
           "portfolio": "home_affairs",
           "startDate": "2006-03-17",
@@ -113,7 +124,7 @@
             "minister"
           ],
           "endDate": "2007-02-22",
-          "id": "evariste-ndayishimiye-p3",
+          "id": "evariste-ndayishimiye-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2006-08-13",
@@ -349,39 +360,6 @@
       ],
       "summary": "Mwambutsa IV Bangiricenge (6 May 1912 – 26 March 1977) was the penultimate king (mwami) of Burundi who ruled between 1915 and 1966. He succeeded to the throne on the death of his father Mutaga IV Mbikije (reigned 1908–15).",
       "wikidataId": "Q627267"
-    },
-    {
-      "aliases": [],
-      "countryCode": "BDI",
-      "fullName": "Pascal Nyabenda",
-      "id": "pascal-nyabenda",
-      "party": "National Council for the Defense of Democracy–Forces for the Defense of Democracy",
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "head_of_state"
-          ],
-          "endDate": "2020-06-18",
-          "id": "pascal-nyabenda-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2020-06-08",
-          "title": "President of Burundi"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16873213"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Pascal_Nyabenda"
-        }
-      ],
-      "summary": "Pascal Nyabenda (born 12 April 1966) is a Burundian politician, who served as President of the National Assembly of Burundi from July 2015 to August 2020. He has been president of the ruling National Council for the Defense of Democracy – Forces for the Defense of Democracy since March 2012 (as well as heading the party's parliamentary group prior) and previously served as Governor of Bubanza Province.",
-      "wikidataId": "Q16873213"
     },
     {
       "aliases": [],
@@ -973,6 +951,50 @@
       ],
       "summary": "Nestor Ntahontuye (born 1978) is a Burundian politician who is the current Prime Minister of Burundi serving since 5 August 2025. He previously served as Minister of Finance and Economic Planning from December 2024 until his appointment as Prime Minister.",
       "wikidataId": "Q135650664"
+    },
+    {
+      "aliases": [],
+      "countryCode": "BDI",
+      "fullName": "Pascal Nyabenda",
+      "id": "pascal-nyabenda",
+      "party": "National Council for the Defense of Democracy–Forces for the Defense of Democracy",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2020-06-18",
+          "id": "pascal-nyabenda-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-06-10",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2020-06-18",
+          "id": "pascal-nyabenda-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-06-08",
+          "title": "President of Burundi"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16873213"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pascal_Nyabenda"
+        }
+      ],
+      "summary": "Pascal Nyabenda (born 12 April 1966) is a Burundian politician, who served as President of the National Assembly of Burundi from July 2015 to August 2020. He has been president of the ruling National Council for the Defense of Democracy – Forces for the Defense of Democracy since March 2012 (as well as heading the party's parliamentary group prior) and previously served as Governor of Bubanza Province.",
+      "wikidataId": "Q16873213"
     },
     {
       "aliases": [],
@@ -4985,6 +5007,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Amsterdam",
+        "coordinates": [
+          4.883333333,
+          52.366666666
+        ],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-07-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "domitien-ndayizeye--2003-07-14--NLD",
+      "officialId": "domitien-ndayizeye",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Burundi%E2%80%93Netherlands_relations"
+        }
+      ],
+      "startDate": "2003-07-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Dodoma",
         "coordinates": [
           35.746,
@@ -7181,31 +7231,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
+        "city": "Johannesburg",
         "coordinates": [
-          28.2293,
-          -25.7479
+          28.041638888,
+          -26.204361111
         ],
         "countryCode": "ZAF",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2023-08-25",
+      "endDate": "2023-08-24",
       "engagements": [
         "Met President Cyril Ramaphosa",
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "evariste-ndayishimiye--2023-08-23--ZAF",
+      "eventName": "15th BRICS summit",
+      "id": "evariste-ndayishimiye--2023-08-22--ZAF",
       "officialId": "evariste-ndayishimiye",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-08-23",
+      "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -8458,6 +8511,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2026-09-13",
+      "engagements": [],
+      "eventName": "18th BRICS summit",
+      "id": "evariste-ndayishimiye--2026-09-12--IND",
+      "officialId": "evariste-ndayishimiye",
+      "purpose": "Attended the 18th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_BRICS_summit"
+        }
+      ],
+      "startDate": "2026-09-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -8535,6 +8615,33 @@
       "startDate": "2019-09-30",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "ezechiel-nibigira--2019-10-25--AZE",
+      "officialId": "ezechiel-nibigira",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

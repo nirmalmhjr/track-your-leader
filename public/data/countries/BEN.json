@@ -274,6 +274,17 @@
           "ministry": null,
           "portfolio": null,
           "startDate": "2015-06-18",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2016-04-06",
+          "id": "lionel-zinsou-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2015-06-18",
           "title": "Prime Minister of Benin"
         }
       ],
@@ -1734,7 +1745,7 @@
       "aliases": [],
       "countryCode": "BEN",
       "fullName": "Jose Didier Tonato",
-      "id": "jose-didier-tonato-ben",
+      "id": "jose-didier-tonato",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1743,7 +1754,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jose-didier-tonato-ben-p1",
+          "id": "jose-didier-tonato-p1",
           "ministry": "Ministry of Environment and Sustainable Development",
           "portfolio": "environment",
           "startDate": null,
@@ -1763,7 +1774,7 @@
       "aliases": [],
       "countryCode": "BEN",
       "fullName": "José Didier Tonato",
-      "id": "jose-didier-tonato",
+      "id": "jose-didier-tonato-ben",
       "party": null,
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/COP30_-_Jos%C3%A9_Didier_Tonato_03_(cropped).jpg?width=160",
       "positions": [
@@ -1772,7 +1783,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jose-didier-tonato-p1",
+          "id": "jose-didier-tonato-ben-p1",
           "ministry": "Ministry of Living Environment and Sustainable Development of Benin",
           "portfolio": "environment",
           "startDate": "2016-04-07",
@@ -1783,7 +1794,7 @@
             "minister"
           ],
           "endDate": "2017-10-27",
-          "id": "jose-didier-tonato-p2",
+          "id": "jose-didier-tonato-ben-p2",
           "ministry": "Ministry of Infrastructure and Transport",
           "portfolio": "transport",
           "startDate": "2017-09-18",
@@ -3498,10 +3509,21 @@
         },
         {
           "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2013-08-08",
+          "id": "pascal-koupaki-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2011-05-28",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "pascal-koupaki-p3",
+          "id": "pascal-koupaki-p4",
           "ministry": "Ministry of Finance of Chile",
           "portfolio": "finance",
           "startDate": null,
@@ -3510,6 +3532,10 @@
         }
       ],
       "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q29035"
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/benin/"
@@ -3783,7 +3809,7 @@
           "url": "https://en.wikipedia.org/wiki/Patrice_Talon"
         }
       ],
-      "summary": "Patrice Guillaume Athanase Talon (born 1 May 1958) is a Beninese politician and businessman who serves as the first president of the Senate since 2026. He previously served as the eighth president of Benin from 2016 to 2026.",
+      "summary": "Patrice Guillaume Athanase Talon (born 1 May 1958) is a Beninese politician and businessman who has been the first president of the Senate since 2026. He previously served as the eighth president of Benin from 2016 to 2026.",
       "wikidataId": "Q16669148"
     },
     {
@@ -15671,6 +15697,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "San José del Cabo",
+        "coordinates": [
+          -109.711388888,
+          23.061666666
+        ],
+        "countryCode": "MEX",
+        "region": "Americas"
+      },
+      "endDate": "2012-06-19",
+      "engagements": [],
+      "eventName": "2012 G20 Los Cabos summit",
+      "id": "thomas-boni-yayi--2012-06-18--MEX",
+      "officialId": "thomas-boni-yayi",
+      "purpose": "Attended the 2012 G20 Los Cabos summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_G20_Los_Cabos_summit"
+        }
+      ],
+      "startDate": "2012-06-18",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Yamoussoukro",
         "coordinates": [
           -5.274166666,
@@ -15901,22 +15954,25 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-08-31",
       "engagements": [],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "thomas-boni-yayi--2012-08-31--IRN",
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "thomas-boni-yayi--2012-08-26--IRN",
       "officialId": "thomas-boni-yayi",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-08-31",
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },

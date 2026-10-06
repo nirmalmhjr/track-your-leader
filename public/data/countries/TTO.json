@@ -1348,7 +1348,7 @@
       "aliases": [],
       "countryCode": "TTO",
       "fullName": "Dominic Smith",
-      "id": "dominic-smith-tto",
+      "id": "dominic-smith",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1357,7 +1357,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "dominic-smith-tto-p1",
+          "id": "dominic-smith-p1",
           "ministry": "Ministry of Public Administration and Artificial Intelligence",
           "portfolio": null,
           "startDate": null,
@@ -3800,7 +3800,7 @@
       "aliases": [],
       "countryCode": "TTO",
       "fullName": "Alvin Hilaire",
-      "id": "alvin-hilaire-tto",
+      "id": "alvin-hilaire",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -3809,7 +3809,7 @@
             "central_banker"
           ],
           "endDate": null,
-          "id": "alvin-hilaire-tto-p1",
+          "id": "alvin-hilaire-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2026-10-05",
@@ -5045,6 +5045,53 @@
       ],
       "summary": "Surujrattan Rambachan (born April 14, 1949) is a Trinidad and Tobago politician, academic and cultural activist. He was the Works and Infrastructure Minister of Trinidad and Tobago and deputy political leader of the United National Congress Party (UNC) and member of parliament for Tabaquite.",
       "wikidataId": "Q7647000"
+    },
+    {
+      "aliases": [
+        "Karl Terrence Hudson-Phillips"
+      ],
+      "countryCode": "TTO",
+      "fullName": "Karl Hudson-Phillips",
+      "id": "karl-hudson-phillips",
+      "party": "National Alliance for Reconstruction",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "judiciary"
+          ],
+          "endDate": "1973-01-01",
+          "id": "karl-hudson-phillips-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1969-01-01",
+          "title": "Attorney-General of Trinidad and Tobago"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "karl-hudson-phillips-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the House of Representatives of Trinidad and Tobago",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1569043"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_Hudson-Phillips"
+        }
+      ],
+      "summary": "Karl Terrence Hudson-Phillips, ORTT, QC (20 April 1933 – 16 January 2014) was an Attorney-General of Trinidad and Tobago and a judge of the International Criminal Court. He was also lead counsel in the murder trial of Grenadian Prime Minister Maurice Bishop.",
+      "wikidataId": "Q1569043"
     }
   ],
   "trips": [
@@ -5625,6 +5672,10 @@
       "officialId": "basdeo-panday",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Trinidad_and_Tobago_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6490,28 +6541,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "kamla-persad-bissessar--2011-10-25--AUS",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "kamla-persad-bissessar--2011-10-28--AUS",
       "officialId": "kamla-persad-bissessar",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-25",
+      "startDate": "2011-10-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -6636,22 +6690,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "6th Summit of the Americas",
       "id": "kamla-persad-bissessar--2012-04-14--COL",
       "officialId": "kamla-persad-bissessar",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7274,16 +7331,19 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "kamla-persad-bissessar--2015-04-10--PAN",
       "officialId": "kamla-persad-bissessar",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7383,6 +7443,34 @@
       "startDate": "2026-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "karl-hudson-phillips--1971-01-14--SGP",
+      "officialId": "karl-hudson-phillips",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7850,13 +7938,39 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2018-04-14",
+      "engagements": [],
+      "eventName": "8th Summit of the Americas",
+      "id": "keith-rowley--2018-04-13--PER",
+      "officialId": "keith-rowley",
+      "purpose": "Attended the 8th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2018-04-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
@@ -7864,17 +7978,21 @@
         "Met Prime Minister Theresa May",
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "keith-rowley--2018-04-18--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "keith-rowley--2018-04-19--GBR",
       "officialId": "keith-rowley",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-18",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -8678,13 +8796,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -8692,11 +8809,15 @@
         "Met President Joe Biden",
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas",
+      "eventName": "9th Summit of the Americas",
       "id": "keith-rowley--2022-06-06--USA",
       "officialId": "keith-rowley",
-      "purpose": "Attended Summit of the Americas",
+      "purpose": "Attended the 9th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9904,6 +10025,33 @@
       "startDate": "2002-01-20",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "patrick-manning--2002-03-02--AUS",
+      "officialId": "patrick-manning",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -11668,6 +11816,10 @@
       "purpose": "Attended World Economic Forum (WEF)",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Trinidad_and_Tobago_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12533,6 +12685,33 @@
       "startDate": "2012-10-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "winston-dookeran--2013-11-15--LKA",
+      "officialId": "winston-dookeran",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

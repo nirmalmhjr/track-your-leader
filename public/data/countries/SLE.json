@@ -522,6 +522,69 @@
     },
     {
       "aliases": [
+        "David M. Sengeh",
+        "David Moinina Sengeh",
+        "Dr. David Moinina Sengeh"
+      ],
+      "countryCode": "SLE",
+      "fullName": "David Sengeh",
+      "id": "david-sengeh",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Moinina_Sengeh_in_Boston_in_2013_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": null,
+          "id": "david-sengeh-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2023-01-01",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "regional_leader"
+          ],
+          "endDate": null,
+          "id": "david-sengeh-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Chief Minister"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-07-10",
+          "id": "david-sengeh-p3",
+          "ministry": "Ministry of Education of Sierra Leone",
+          "portfolio": "education",
+          "startDate": "2019-11-20",
+          "title": "Minister of Education of Sierra Leone"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q23728768"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sierra-leone/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/David_Moinina_Sengeh"
+        }
+      ],
+      "summary": "David Moinina Sengeh is a Sierra Leonean politician who has served as the chief minister of Sierra Leone after being appointed by President Julius Maada Bio in 2023. He previously served as the minister of basic and senior secondary education and chief innovation officer for the Directorate of Science, Technology and Innovation.",
+      "wikidataId": "Q23728768"
+    },
+    {
+      "aliases": [
         "Mr. Jacob Jusu Saffa"
       ],
       "countryCode": "SLE",
@@ -4624,54 +4687,6 @@
       "wikidataId": "Q4663554"
     },
     {
-      "aliases": [
-        "David M. Sengeh",
-        "David Moinina Sengeh",
-        "Dr. David Moinina Sengeh"
-      ],
-      "countryCode": "SLE",
-      "fullName": "David Sengeh",
-      "id": "david-sengeh",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Moinina_Sengeh_in_Boston_in_2013_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "regional_leader"
-          ],
-          "endDate": null,
-          "id": "david-sengeh-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Chief Minister"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2023-07-10",
-          "id": "david-sengeh-p2",
-          "ministry": "Ministry of Education of Sierra Leone",
-          "portfolio": "education",
-          "startDate": "2019-11-20",
-          "title": "Minister of Education of Sierra Leone"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sierra-leone/"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/David_Moinina_Sengeh"
-        }
-      ],
-      "summary": "David Moinina Sengeh is a Sierra Leonean politician who has served as the chief minister of Sierra Leone after being appointed by President Julius Maada Bio in 2023. He previously served as the minister of basic and senior secondary education and chief innovation officer for the Directorate of Science, Technology and Innovation.",
-      "wikidataId": "Q23728768"
-    },
-    {
       "aliases": [],
       "countryCode": "SLE",
       "fullName": "Sorie Ibrahim Koroma",
@@ -4774,6 +4789,33 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "ahmed-ramadan-dumbuya--2002-03-02--AUS",
+      "officialId": "ahmed-ramadan-dumbuya",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
+      "statusHint": null,
+      "type": "summit"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -6845,6 +6887,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "cyril-foray--1971-01-14--SGP",
+      "officialId": "cyril-foray",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Dakar",
         "coordinates": [
           -17.432,
@@ -8111,28 +8181,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2011-10-31",
+      "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "ernest-bai-koroma--2011-10-27--AUS",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "ernest-bai-koroma--2011-10-28--AUS",
       "officialId": "ernest-bai-koroma",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-27",
+      "startDate": "2011-10-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -10351,22 +10424,25 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
       "id": "julius-maada-bio--2018-04-19--GBR",
       "officialId": "julius-maada-bio",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12440,24 +12516,27 @@
           -1.9525
         ],
         "countryCode": "RWA",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2022-06-25",
       "engagements": [
         "Met President Paul Kagame"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "julius-maada-bio--2022-06-23--RWA",
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "julius-maada-bio--2022-06-24--RWA",
       "officialId": "julius-maada-bio",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-23",
+      "startDate": "2022-06-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -15018,17 +15097,21 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "julius-maada-bio--2025-11-21--ZAF",
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "julius-maada-bio--2025-11-22--ZAF",
       "officialId": "julius-maada-bio",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-21",
+      "startDate": "2025-11-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -15203,6 +15286,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "samura-kamara--2013-11-15--LKA",
+      "officialId": "samura-kamara",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -15281,6 +15391,114 @@
       "startDate": "1969-05-19",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "siaka-stevens--1973-08-02--CAN",
+      "officialId": "siaka-stevens",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [
+          -76.793055555,
+          17.971388888
+        ],
+        "countryCode": "JAM",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-06",
+      "engagements": [],
+      "eventName": "1975 Commonwealth Heads of Government Meeting",
+      "id": "siaka-stevens--1975-04-29--JAM",
+      "officialId": "siaka-stevens",
+      "purpose": "Attended the 1975 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "siaka-stevens--1977-06-08--GBR",
+      "officialId": "siaka-stevens",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "siaka-stevens--1979-08-01--ZMB",
+      "officialId": "siaka-stevens",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

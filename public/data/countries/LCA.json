@@ -913,7 +913,7 @@
       "aliases": [],
       "countryCode": "LCA",
       "fullName": "Jeremiah Norbert",
-      "id": "jeremiah-norbert-lca",
+      "id": "jeremiah-norbert",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -922,7 +922,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "jeremiah-norbert-lca-p1",
+          "id": "jeremiah-norbert-p1",
           "ministry": "Ministry of Home Affairs, Crime Prevention, Conflict Resolution and People with Disabilities",
           "portfolio": "home_affairs",
           "startDate": null,
@@ -1183,7 +1183,7 @@
       "aliases": [],
       "countryCode": "LCA",
       "fullName": "Leslie Mondesir",
-      "id": "leslie-mondesir-lca",
+      "id": "leslie-mondesir",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1192,7 +1192,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "leslie-mondesir-lca-p1",
+          "id": "leslie-mondesir-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -2518,6 +2518,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Saint_Lucia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -2684,16 +2688,19 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-04-14",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "8th Summit of the Americas",
       "id": "allen-chastanet--2018-04-13--PER",
       "officialId": "allen-chastanet",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2708,28 +2715,31 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-19",
+      "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "allen-chastanet--2018-04-17--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "allen-chastanet--2018-04-19--GBR",
       "officialId": "allen-chastanet",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-17",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -3957,6 +3967,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "alva-romanus-baptiste--2013-11-15--LKA",
+      "officialId": "alva-romanus-baptiste",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -4034,6 +4071,33 @@
       "startDate": "2025-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "george-odlum--1979-08-01--ZMB",
+      "officialId": "george-odlum",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -4548,6 +4612,33 @@
         }
       ],
       "startDate": "2007-02-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Coolum Beach",
+        "coordinates": [
+          153.1,
+          -26.5333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2002-03-05",
+      "engagements": [],
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "julian-hunte--2002-03-02--AUS",
+      "officialId": "julian-hunte",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2002-03-02",
       "statusHint": null,
       "type": "summit"
     },
@@ -6110,30 +6201,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "kenny-anthony--2012-04-13--COL",
+      "eventName": "6th Summit of the Americas",
+      "id": "kenny-anthony--2012-04-14--COL",
       "officialId": "kenny-anthony",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-13",
+      "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -6727,16 +6821,19 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "kenny-anthony--2015-04-10--PAN",
       "officialId": "kenny-anthony",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7140,6 +7237,10 @@
       "purpose": "Attended Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Saint_Lucia_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7266,13 +7367,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -7287,6 +7387,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
         },
         {
           "label": "COLT dataset",
@@ -7306,22 +7410,25 @@
           -1.9525
         ],
         "countryCode": "RWA",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2022-06-24",
+      "endDate": "2022-06-25",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "philip-j-pierre--2022-06-22--RWA",
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "philip-j-pierre--2022-06-24--RWA",
       "officialId": "philip-j-pierre",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-22",
+      "startDate": "2022-06-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -9198,16 +9305,19 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "stephenson-king--2009-04-17--TTO",
       "officialId": "stephenson-king",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9244,6 +9354,34 @@
       "startDate": "2009-09-07",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "stephenson-king--2010-01-01--MEX",
+      "officialId": "stephenson-king",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Saint_Lucia_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

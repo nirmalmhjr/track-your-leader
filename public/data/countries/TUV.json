@@ -6138,28 +6138,31 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-19",
+      "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "enele-sopoaga--2018-04-18--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "enele-sopoaga--2018-04-19--GBR",
       "officialId": "enele-sopoaga",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-18",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -6293,22 +6296,25 @@
           -9.478888888
         ],
         "countryCode": "PNG",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2018-11-19",
+      "endDate": "2018-11-18",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "enele-sopoaga--2018-11-16--PNG",
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "enele-sopoaga--2018-11-17--PNG",
       "officialId": "enele-sopoaga",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-16",
+      "startDate": "2018-11-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -7174,24 +7180,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Coolum Beach",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.1,
+          -26.5333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2002-03-03",
+      "endDate": "2002-03-05",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
       "id": "koloa-talake--2002-03-02--AUS",
       "officialId": "koloa-talake",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7751,6 +7760,33 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kigali",
+        "coordinates": [
+          30.115,
+          -1.9525
+        ],
+        "countryCode": "RWA",
+        "region": "Africa"
+      },
+      "endDate": "2022-06-25",
+      "engagements": [],
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "simon-kofe--2022-06-24--RWA",
+      "officialId": "simon-kofe",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2022-06-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -7776,6 +7812,33 @@
       "startDate": "2007-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "sir-iakoba-italeli--2013-11-15--LKA",
+      "officialId": "sir-iakoba-italeli",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "month",
@@ -8108,6 +8171,33 @@
       "startDate": "2011-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "willy-telavi--2011-10-28--AUS",
+      "officialId": "willy-telavi",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

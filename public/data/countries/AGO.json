@@ -7492,6 +7492,34 @@
   ],
   "trips": [
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "assuncao-dos-anjos--2008-01-01--PRT",
+      "officialId": "assuncao-dos-anjos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2008-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -7517,6 +7545,34 @@
       "startDate": "2009-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "georges-chikoti--2006-01-01--MEX",
+      "officialId": "georges-chikoti",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -7546,6 +7602,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "georges-chikoti--2011-01-01--BRA",
+      "officialId": "georges-chikoti",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "2011-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -7571,6 +7655,34 @@
       "startDate": "2011-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "georges-chikoti--2013-01-01--ARG",
+      "officialId": "georges-chikoti",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Argentina_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -10830,31 +10942,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Rio de Janeiro",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -43.205555555,
+          -22.911111111
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-11-20",
+      "endDate": "2024-11-19",
       "engagements": [
         "Met President Luiz Inacio Lula da Silva",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "joao-lourenco--2024-11-17--BRA",
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "joao-lourenco--2024-11-16--BRA",
       "officialId": "joao-lourenco",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-11-17",
+      "startDate": "2024-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -11572,21 +11687,25 @@
         "countryCode": "ZAF",
         "region": "Africa"
       },
-      "endDate": "2025-11-22",
+      "endDate": "2025-11-23",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "joao-lourenco--2025-11-21--ZAF",
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "joao-lourenco--2025-11-22--ZAF",
       "officialId": "joao-lourenco",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-21",
+      "startDate": "2025-11-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -11673,6 +11792,34 @@
       "startDate": "2026-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1987-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-eduardo-dos-santos--1987-01-01--PRT",
+      "officialId": "jose-eduardo-dos-santos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "1987-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -14223,6 +14370,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Brazil_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14875,6 +15026,10 @@
       "officialId": "jose-eduardo-dos-santos",
       "purpose": "Visit to Argentina",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Argentina_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15682,22 +15837,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "L'Aquila",
         "coordinates": [
-          12.4964,
-          41.9028
+          13.391991666,
+          42.354008333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2009-07-10",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "35th G8 summit",
       "id": "jose-eduardo-dos-santos--2009-07-08--ITA",
       "officialId": "jose-eduardo-dos-santos",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 35th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/35th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16953,6 +17111,90 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-domingos-augusto--2015-01-01--ARG",
+      "officialId": "manuel-domingos-augusto",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Argentina_relations"
+        }
+      ],
+      "startDate": "2015-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2018-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-domingos-augusto--2018-01-01--MEX",
+      "officialId": "manuel-domingos-augusto",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2018-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-domingos-augusto--2019-01-01--BRA",
+      "officialId": "manuel-domingos-augusto",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "2019-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -17034,6 +17276,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-vicente--2016-01-01--BRA",
+      "officialId": "manuel-vicente",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "2016-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -17059,6 +17329,62 @@
       "startDate": "2016-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "nando-dos-santos--2006-01-01--MEX",
+      "officialId": "nando-dos-santos",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "nando-dos-santos--2006-01-01--PRT",
+      "officialId": "nando-dos-santos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Angola%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

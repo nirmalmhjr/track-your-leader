@@ -2299,7 +2299,7 @@
       "fullName": "Hodabalo Awate",
       "id": "hodabalo-awate",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lancement_challenge_Langues_locales_au_Togo.png?width=160",
       "positions": [
         {
           "categories": [
@@ -7296,6 +7296,10 @@
       "officialId": "faure-essozimna-gnassingbe",
       "purpose": "Visit to Gabon",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gabon%E2%80%93Togo_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12755,7 +12759,7 @@
         "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2019-05-08",
+      "endDate": "2019-05-07",
       "engagements": [
         "Met President Ali Bongo Ondimba"
       ],
@@ -12764,6 +12768,10 @@
       "officialId": "faure-essozimna-gnassingbe",
       "purpose": "Visit to Gabon",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gabon%E2%80%93Togo_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13232,6 +13240,34 @@
       "startDate": "2020-01-23",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Libreville",
+        "coordinates": [
+          9.440277777,
+          0.407777777
+        ],
+        "countryCode": "GAB",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2020-07-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "faure-essozimna-gnassingbe--2020-07-13--GAB",
+      "officialId": "faure-essozimna-gnassingbe",
+      "purpose": "Visit to Gabon",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gabon%E2%80%93Togo_relations"
+        }
+      ],
+      "startDate": "2020-07-13",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

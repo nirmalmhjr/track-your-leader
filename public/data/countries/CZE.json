@@ -339,6 +339,41 @@
       "wikidataId": "Q10819807"
     },
     {
+      "aliases": [
+        "Lubomir Strougal"
+      ],
+      "countryCode": "CZE",
+      "fullName": "Lubomír Štrougal",
+      "id": "lubomir-strougal",
+      "party": "Communist Party of Czechoslovakia",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lubom%C3%ADr_%C5%A0trougal_-_P1059081.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1988-12-31",
+          "id": "lubomir-strougal-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1988-01-01",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lubom%C3%ADr_%C5%A0trougal"
+        }
+      ],
+      "summary": "Lubomír Štrougal (19 October 1924 – 6 February 2023) was a Czech politician who was the prime minister of Czechoslovakia from 1970 to 1988.",
+      "wikidataId": "Q683269"
+    },
+    {
       "aliases": [],
       "countryCode": "CZE",
       "fullName": "Marian Calfa",
@@ -2772,7 +2807,7 @@
       "aliases": [],
       "countryCode": "CZE",
       "fullName": "Ivan Bednarik",
-      "id": "ivan-bednarik-cze",
+      "id": "ivan-bednarik",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2781,7 +2816,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ivan-bednarik-cze-p1",
+          "id": "ivan-bednarik-p1",
           "ministry": "Ministry of Transport",
           "portfolio": "transport",
           "startDate": null,
@@ -2803,7 +2838,7 @@
       ],
       "countryCode": "CZE",
       "fullName": "Ivan Bednárik",
-      "id": "ivan-bednarik",
+      "id": "ivan-bednarik-cze",
       "party": null,
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bednarik_(cropped).jpg?width=160",
       "positions": [
@@ -2812,7 +2847,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ivan-bednarik-p1",
+          "id": "ivan-bednarik-cze-p1",
           "ministry": "Ministry of Transport of the Czech Republic",
           "portfolio": "transport",
           "startDate": "2025-12-15",
@@ -7836,6 +7871,63 @@
       ],
       "summary": "Dana Kuchtová (born 18 June 1961, Český Krumlov, Czechoslovakia) is a Czech politician, teacher and former environmental and anti-nuclear activist. Kuchova was a leader of the Czech Green Party and was Czech Minister of Education for 10 months in 2007 in the government of Mirek Topolánek.",
       "wikidataId": "Q5214769"
+    },
+    {
+      "aliases": [
+        "Dominik Jaroslav Duka"
+      ],
+      "countryCode": "CZE",
+      "fullName": "Dominik Duka",
+      "id": "dominik-duka",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominik_Duka_2014.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2022-05-13",
+          "id": "dominik-duka-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2010-02-13",
+          "title": "Roman Catholic Archbishop of Prague"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2020-01-01",
+          "id": "dominik-duka-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2010-01-01",
+          "title": "President of the Czech Bishops' Conference"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2010-02-13",
+          "id": "dominik-duka-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1998-06-06",
+          "title": "Roman Catholic Bishop of Hradec Králové"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45146"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dominik_Duka"
+        }
+      ],
+      "summary": "Dominik Jaroslav Duka, O.P. (26 April 1943 – 4 November 2025) was a Czech Catholic prelate who served as Archbishop of Prague from 2010 to 2022. He was made a cardinal in 2012.",
+      "wikidataId": "Q45146"
     },
     {
       "aliases": [
@@ -17692,6 +17784,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "alexandr-vondra--1993-01-01--PER",
+      "officialId": "alexandr-vondra",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "1993-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -17749,6 +17869,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Ankara",
+        "coordinates": [
+          32.83869,
+          39.93576
+        ],
+        "countryCode": "TUR",
+        "region": "Asia"
+      },
+      "endDate": "2026-07-08",
+      "engagements": [],
+      "eventName": "2026 Ankara NATO summit",
+      "id": "andrej-babis--2026-07-07--TUR",
+      "officialId": "andrej-babis",
+      "purpose": "Attended the 2026 Ankara NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Ankara_NATO_summit"
+        }
+      ],
+      "startDate": "2026-07-07",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -17801,6 +17948,62 @@
       "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "dominik-duka--2012-01-01--PER",
+      "officialId": "dominik-duka",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2012-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "eduard-zeman--2000-01-01--PER",
+      "officialId": "eduard-zeman",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2000-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -17939,6 +18142,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jiri-paroubek--2006-01-01--BRA",
+      "officialId": "jiri-paroubek",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -17964,6 +18195,62 @@
       "startDate": "2013-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jiri-sedivy--1998-01-01--BRA",
+      "officialId": "jiri-sedivy",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        }
+      ],
+      "startDate": "1998-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "josef-zieleniec--1995-01-01--BRA",
+      "officialId": "josef-zieleniec",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        }
+      ],
+      "startDate": "1995-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18018,6 +18305,34 @@
       "startDate": "2013-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "lubomir-strougal--1988-01-01--BRA",
+      "officialId": "lubomir-strougal",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18102,6 +18417,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "martin-stropnicky--2013-01-01--PER",
+      "officialId": "martin-stropnicky",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -18156,6 +18499,34 @@
       "startDate": "2001-11-07",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-04-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "milos-zeman--2002-04-01--MEX",
+      "officialId": "milos-zeman",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-04-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18599,22 +18970,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2014 Wales NATO summit",
       "id": "milos-zeman--2014-09-04--GBR",
       "officialId": "milos-zeman",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19193,16 +19567,19 @@
           52.23
         ],
         "countryCode": "POL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2016-07-09",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2016 Warsaw NATO summit",
       "id": "milos-zeman--2016-07-08--POL",
       "officialId": "milos-zeman",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19457,22 +19834,25 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2017-05-25",
       "engagements": [],
-      "eventName": "NATO Summit",
-      "id": "milos-zeman--2017-05-24--BEL",
+      "eventName": "2017 Brussels NATO summit",
+      "id": "milos-zeman--2017-05-25--BEL",
       "officialId": "milos-zeman",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2017 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-05-24",
+      "startDate": "2017-05-25",
       "statusHint": null,
       "type": "summit"
     },
@@ -19786,16 +20166,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-07-12",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2018 Brussels NATO summit",
       "id": "milos-zeman--2018-07-11--BEL",
       "officialId": "milos-zeman",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2018 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20192,22 +20575,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Watford",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.395833333,
+          51.655277777
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2019-12-04",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2019 London NATO summit",
       "id": "milos-zeman--2019-12-03--GBR",
       "officialId": "milos-zeman",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2019 London NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2019_London_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20284,24 +20670,27 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2021-06-14",
       "engagements": [],
-      "eventName": null,
-      "id": "milos-zeman--2021-06-13--BEL",
+      "eventName": "2021 Brussels NATO summit",
+      "id": "milos-zeman--2021-06-14--BEL",
       "officialId": "milos-zeman",
-      "purpose": "Visit to Belgium",
+      "purpose": "Attended the 2021 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-06-13",
+      "startDate": "2021-06-14",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -20447,6 +20836,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "mirek-topolanek--2008-01-01--PER",
+      "officialId": "mirek-topolanek",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2008-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -20473,6 +20890,33 @@
       "startDate": "2008-02-25",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Palace of the Parliament",
+        "coordinates": [
+          26.0875,
+          44.4275
+        ],
+        "countryCode": "ROU",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-04",
+      "engagements": [],
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "mirek-topolanek--2008-04-02--ROU",
+      "officialId": "mirek-topolanek",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        }
+      ],
+      "startDate": "2008-04-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -20630,7 +21074,7 @@
       "engagements": [
         "He also attended the European Council."
       ],
-      "eventName": null,
+      "eventName": "2022 Brussels extraordinary NATO summit",
       "id": "petr-fiala--2022-03-24--BEL",
       "officialId": "petr-fiala",
       "purpose": "Fiala attended an extraordinary NATO summit.",
@@ -20744,7 +21188,7 @@
       },
       "endDate": "2022-06-30",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2022 Madrid NATO summit",
       "id": "petr-fiala--2022-06-28--ESP",
       "officialId": "petr-fiala",
       "purpose": "Fiala attended the NATO summit.",
@@ -21567,6 +22011,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-20",
+      "engagements": [],
+      "eventName": "2010 Lisbon NATO summit",
+      "id": "petr-necas--2010-11-19--PRT",
+      "officialId": "petr-necas",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        }
+      ],
+      "startDate": "2010-11-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -21591,6 +22062,34 @@
       "startDate": "2011-10-27",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "2012 Chicago NATO summit",
+      "id": "petr-necas--2012-05-20--USA",
+      "officialId": "petr-necas",
+      "purpose": "Attended the 2012 Chicago NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        }
+      ],
+      "startDate": "2012-05-20",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -21969,7 +22468,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2023 Vilnius NATO summit",
       "id": "petr-pavel--2023-07-11--LTU",
       "officialId": "petr-pavel",
       "purpose": "2023 Vilnius summit, NATO Public Forum",
@@ -23438,7 +23937,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "petr-pavel--2025-06-24--NLD",
       "officialId": "petr-pavel",
       "purpose": "Attended 2025 The Hague summit.",
@@ -24315,6 +24814,33 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "petr-pavel--2027-01-01--ALB",
+      "officialId": "petr-pavel",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -24340,6 +24866,34 @@
       "startDate": "2014-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "tomas-petricek--2019-10-01--MEX",
+      "officialId": "tomas-petricek",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2019-10-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -24570,6 +25124,10 @@
       "officialId": "vaclav-havel",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -25368,6 +25926,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -25579,6 +26141,33 @@
         }
       ],
       "startDate": "1997-06-07",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1997-07-09",
+      "engagements": [],
+      "eventName": "1997 Madrid NATO summit",
+      "id": "vaclav-havel--1997-07-08--ESP",
+      "officialId": "vaclav-havel",
+      "purpose": "Attended the 1997 Madrid NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        }
+      ],
+      "startDate": "1997-07-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -26918,6 +27507,34 @@
         }
       ],
       "startDate": "2003-01-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "vaclav-klaus--1994-01-01--BRA",
+      "officialId": "vaclav-klaus",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Czech_Republic_relations"
+        }
+      ],
+      "startDate": "1994-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -30099,6 +30716,10 @@
       "purpose": "Visit to Peru",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -31375,6 +31996,34 @@
       "startDate": "2013-02-26",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "vladimir-spidla--2003-01-01--PER",
+      "officialId": "vladimir-spidla",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2003-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

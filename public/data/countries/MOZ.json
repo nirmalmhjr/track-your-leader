@@ -9802,7 +9802,7 @@
       "aliases": [],
       "countryCode": "MOZ",
       "fullName": "Rogerio Zandamela",
-      "id": "rogerio-zandamela-moz",
+      "id": "rogerio-zandamela",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -9811,7 +9811,7 @@
             "regional_leader"
           ],
           "endDate": null,
-          "id": "rogerio-zandamela-moz-p1",
+          "id": "rogerio-zandamela-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2026-10-05",
@@ -10242,6 +10242,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Kigali",
+        "coordinates": [
+          30.115,
+          -1.9525
+        ],
+        "countryCode": "RWA",
+        "region": "Africa"
+      },
+      "endDate": "2022-06-25",
+      "engagements": [],
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "adriano-maleiane--2022-06-24--RWA",
+      "officialId": "adriano-maleiane",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2022-06-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -10265,6 +10292,62 @@
       "startDate": "2022-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "aires-ali--2012-01-01--BRA",
+      "officialId": "aires-ali",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Mozambique_relations"
+        }
+      ],
+      "startDate": "2012-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "alcinda-abreu--2010-01-01--MEX",
+      "officialId": "alcinda-abreu",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Mozambique_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -11228,6 +11311,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Mozambique_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12083,6 +12170,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "armando-guebuza--2011-10-28--AUS",
+      "officialId": "armando-guebuza",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Lisbon",
         "coordinates": [
           -9.139016,
@@ -12249,6 +12363,33 @@
       "startDate": "2012-07-27",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "armando-guebuza--2012-08-26--IRN",
+      "officialId": "armando-guebuza",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -13936,6 +14077,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "esperanca-bias--2023-01-01--BRA",
+      "officialId": "esperanca-bias",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Mozambique_relations"
+        }
+      ],
+      "startDate": "2023-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Lusaka",
@@ -14647,11 +14816,10 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
@@ -14659,17 +14827,21 @@
         "Met Queen Elizabeth II",
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "filipe-nyusi--2018-04-18--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "filipe-nyusi--2018-04-19--GBR",
       "officialId": "filipe-nyusi",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-18",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -16976,30 +17148,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
+        "city": "Johannesburg",
         "coordinates": [
-          28.2293,
-          -25.7479
+          28.041638888,
+          -26.204361111
         ],
         "countryCode": "ZAF",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2023-08-24",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "filipe-nyusi--2023-08-24--ZAF",
+      "eventName": "15th BRICS summit",
+      "id": "filipe-nyusi--2023-08-22--ZAF",
       "officialId": "filipe-nyusi",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-08-24",
+      "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -21168,6 +21343,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Mozambique_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21474,22 +21653,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Coolum Beach",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.1,
+          -26.5333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2002-03-05",
       "engagements": [],
-      "eventName": "Commonwealth Summit",
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
       "id": "joaquim-chissano--2002-03-02--AUS",
       "officialId": "joaquim-chissano",
-      "purpose": "Attended Commonwealth Summit",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22957,6 +23139,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-ibraimo-abudo--2015-01-01--MEX",
+      "officialId": "jose-ibraimo-abudo",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Mozambique_relations"
+        }
+      ],
+      "startDate": "2015-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -23009,6 +23219,34 @@
       "startDate": "2015-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "oldemiro-baloi--2008-01-01--BRA",
+      "officialId": "oldemiro-baloi",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Mozambique_relations"
+        }
+      ],
+      "startDate": "2008-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -23094,6 +23332,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "oldemiro-baloi--2013-11-15--LKA",
+      "officialId": "oldemiro-baloi",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -23117,6 +23382,34 @@
       "startDate": "2014-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "pascoal-mocumbi--2002-01-01--MEX",
+      "officialId": "pascoal-mocumbi",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Mozambique_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",

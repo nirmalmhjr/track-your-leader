@@ -1,33 +1,42 @@
 {
   "officials": [
     {
-      "aliases": [],
+      "aliases": [
+        "Abdourahmane Tchiani",
+        "General Omar Tiani",
+        "Omar Tchiani",
+        "Omar Tiani"
+      ],
       "countryCode": "NER",
-      "fullName": "Abdourahamane Tchiani",
-      "id": "abdourahamane-tchiani",
+      "fullName": "Abdourahamane Tiani",
+      "id": "abdourahamane-tiani",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdourahamane_Tchiani_in_2025_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
             "head_of_state"
           ],
           "endDate": null,
-          "id": "abdourahamane-tchiani-p1",
+          "id": "abdourahamane-tiani-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2025-09-30",
-          "title": "President"
+          "startDate": "2023-07-28",
+          "title": "Head of state"
         }
       ],
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q120965176"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Abdourahamane_Tiani"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Abdourahamane Tiani is a Nigerien military officer and politician who has served as the 11th president of Niger since 2025. Known for his anti-imperialist, pan-Africanist and Hausa nationalist views, Tiani served as the chief of the Nigerien presidential guard from 2011 to 2023 when he overthrew president Mohamed Bazoum in a coup, becoming the leader of a junta.",
+      "wikidataId": "Q120965176"
     },
     {
       "aliases": [],
@@ -5369,8 +5378,8 @@
         "Met President Ibrahim Traore"
       ],
       "eventName": null,
-      "id": "abdourahamane-tchiani--2025-09-30--BFA",
-      "officialId": "abdourahamane-tchiani",
+      "id": "abdourahamane-tiani--2025-09-30--BFA",
+      "officialId": "abdourahamane-tiani",
       "purpose": "Visit to Burkina Faso",
       "sources": [
         {
@@ -5398,8 +5407,8 @@
         "Met President (Acting) Assimi Goita"
       ],
       "eventName": null,
-      "id": "abdourahamane-tchiani--2025-09-30--MLI",
-      "officialId": "abdourahamane-tchiani",
+      "id": "abdourahamane-tiani--2025-09-30--MLI",
+      "officialId": "abdourahamane-tiani",
       "purpose": "Visit to Mali",
       "sources": [
         {
@@ -5428,8 +5437,8 @@
         "Signed agreements"
       ],
       "eventName": "Alliance of Sahel States (AES) Summit",
-      "id": "abdourahamane-tchiani--2025-12-22--MLI",
-      "officialId": "abdourahamane-tchiani",
+      "id": "abdourahamane-tiani--2025-12-22--MLI",
+      "officialId": "abdourahamane-tiani",
       "purpose": "Attended Alliance of Sahel States (AES) Summit",
       "sources": [
         {
@@ -8420,22 +8429,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
+        "city": "Deauville",
         "coordinates": [
-          2.3522,
-          48.8566
+          0.074444444,
+          49.359166666
         ],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2011-05-27",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "37th G8 summit",
       "id": "mahamadou-issoufou--2011-05-26--FRA",
       "officialId": "mahamadou-issoufou",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 37th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/37th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11781,30 +11793,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "Taormina",
         "coordinates": [
-          12.4964,
-          41.9028
+          15.28565,
+          37.85179
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2017-05-27",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
-      "id": "mahamadou-issoufou--2017-05-25--ITA",
+      "eventName": "43rd G7 summit",
+      "id": "mahamadou-issoufou--2017-05-26--ITA",
       "officialId": "mahamadou-issoufou",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 43rd G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/43rd_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-05-25",
+      "startDate": "2017-05-26",
       "statusHint": null,
       "type": "summit"
     },

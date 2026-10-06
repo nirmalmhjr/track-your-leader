@@ -5656,7 +5656,7 @@
       "aliases": [],
       "countryCode": "IDN",
       "fullName": "Maman Abdurrahman",
-      "id": "maman-abdurrahman-idn",
+      "id": "maman-abdurrahman",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -5665,7 +5665,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "maman-abdurrahman-idn-p1",
+          "id": "maman-abdurrahman-p1",
           "ministry": "Ministry of Micro, Small and Medium Enterprises",
           "portfolio": null,
           "startDate": null,
@@ -12433,6 +12433,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13200,6 +13204,33 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "boediono--2012-08-26--IRN",
+      "officialId": "boediono",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -13364,6 +13395,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Johannesburg",
+        "coordinates": [
+          28.041638888,
+          -26.204361111
+        ],
+        "countryCode": "ZAF",
+        "region": "Africa"
+      },
+      "endDate": "2025-11-23",
+      "engagements": [],
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "gibran-rakabuming-raka--2025-11-22--ZAF",
+      "officialId": "gibran-rakabuming-raka",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        }
+      ],
+      "startDate": "2025-11-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -13431,7 +13489,7 @@
         "Met General Secretary Xi Jinping",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC China 2014",
       "id": "joko-widodo--2014-11-08--CHN",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the APEC China 2014 as his first international conference.",
@@ -13464,7 +13522,7 @@
       "engagements": [
         "Met President Thein Sein"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Ninth East Asia Summit",
       "id": "joko-widodo--2014-11-12--MMR",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended his first ASEAN Summit, in addition to the China-ASEAN conference.",
@@ -14053,26 +14111,29 @@
           3.147777777
         ],
         "countryCode": "MYS",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-11-22",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": null,
-      "id": "joko-widodo--2015-11-20--MYS",
+      "eventName": "Tenth East Asia Summit",
+      "id": "joko-widodo--2015-11-21--MYS",
       "officialId": "joko-widodo",
-      "purpose": "Visit to Malaysia",
+      "purpose": "Attended the Tenth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tenth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-20",
+      "startDate": "2015-11-21",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -14465,7 +14526,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Eleventh East Asia Summit",
       "id": "joko-widodo--2016-09-06--LAO",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the ASEAN summit.",
@@ -14601,7 +14662,7 @@
         "Met President Rodrigo Duterte",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "2017 ASEAN Summits",
       "id": "joko-widodo--2017-04-28--PHL",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the ASEAN Summit and conducted bilateral talks with Filipino president Rodrigo Duterte, in addition to inaugurating a new s…",
@@ -14892,7 +14953,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Vietnam 2017",
       "id": "joko-widodo--2017-11-10--VNM",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the APEC Vietnam 2017 summit.",
@@ -14923,7 +14984,7 @@
       },
       "endDate": "2017-11-16",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Twelfth East Asia Summit",
       "id": "joko-widodo--2017-11-12--PHL",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the ASEAN summit.",
@@ -15366,23 +15427,22 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Singapore",
+        "city": "Suntec Singapore Convention and Exhibition Centre",
         "coordinates": [
-          103.8,
-          1.3
+          103.856944444,
+          1.293611111
         ],
         "countryCode": "SGP",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2018-11-15",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "joko-widodo--2018-11-13--SGP",
+      "eventName": "Thirteenth East Asia Summit",
+      "id": "joko-widodo--2018-11-14--SGP",
       "officialId": "joko-widodo",
-      "purpose": "Jokowi attended the 33rd ASEAN Summit and held bilateral meetings with Russian president Vladimir Putin, Chilean president Michelle Bachele…",
+      "purpose": "Attended the Thirteenth East Asia Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -15393,7 +15453,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-13",
+      "startDate": "2018-11-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -15412,7 +15472,7 @@
       "engagements": [
         "Met Prime Minister Peter O'Neill"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Papua New Guinea 2018",
       "id": "joko-widodo--2018-11-15--PNG",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the APEC Papua New Guinea 2018 summit.",
@@ -15699,7 +15759,7 @@
       "engagements": [
         "First international trip following his second inauguration."
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Fourteenth East Asia Summit",
       "id": "joko-widodo--2019-11-02--THA",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the ASEAN Summit and the East Asia Summit.",
@@ -15714,6 +15774,33 @@
         }
       ],
       "startDate": "2019-11-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "region": "Americas"
+      },
+      "endDate": "2019-11-17",
+      "engagements": [],
+      "eventName": "APEC Chile 2019",
+      "id": "joko-widodo--2019-11-16--CHL",
+      "officialId": "joko-widodo",
+      "purpose": "Attended the APEC Chile 2019",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Chile_2019"
+        }
+      ],
+      "startDate": "2019-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -15788,6 +15875,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Hanoi",
+        "coordinates": [
+          105.84117,
+          21.0245
+        ],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": "Fifteenth East Asia Summit",
+      "id": "joko-widodo--2020-11-14--VNM",
+      "officialId": "joko-widodo",
+      "purpose": "Attended the Fifteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2020-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -15811,6 +15925,33 @@
       "startDate": "2021-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bandar Seri Begawan",
+        "coordinates": [
+          114.916666666,
+          4.916666666
+        ],
+        "countryCode": "BRN",
+        "region": "Asia"
+      },
+      "endDate": "2021-10-27",
+      "engagements": [],
+      "eventName": "Sixteenth East Asia Summit",
+      "id": "joko-widodo--2021-10-26--BRN",
+      "officialId": "joko-widodo",
+      "purpose": "Attended the Sixteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2021-10-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -16037,7 +16178,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joko_Widodo"
+          "url": "https://en.wikipedia.org/wiki/48th_G7_summit"
         },
         {
           "label": "COLT dataset",
@@ -16310,10 +16451,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Queen Sirikit National Convention Center",
         "coordinates": [
-          100.516666666,
-          13.75
+          100.559222,
+          13.723992
         ],
         "countryCode": "THA",
         "region": "Asia"
@@ -16322,21 +16463,21 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
-      "id": "joko-widodo--2022-11-18--THA",
+      "eventName": "APEC Thailand 2022",
+      "id": "joko-widodo--2022-11-16--THA",
       "officialId": "joko-widodo",
-      "purpose": "Jokowi attended the APEC Thailand 2022 summit.",
+      "purpose": "Attended the APEC Thailand 2022",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joko_Widodo"
+          "url": "https://en.wikipedia.org/wiki/APEC_Thailand_2022"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-11-18",
+      "startDate": "2022-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -16485,7 +16626,7 @@
       "engagements": [
         "Met Prime Minister Kishida Fumio"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "49th G7 summit",
       "id": "joko-widodo--2023-05-19--JPN",
       "officialId": "joko-widodo",
       "purpose": "Jokowi attended the 49th G7 summit as Indonesia assumed ASEAN Presidency in 2023 and conducted bilateral talks with Japanese PM Fumio Kishi…",
@@ -16788,21 +16929,21 @@
       },
       "endDate": "2023-08-24",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "joko-widodo--2023-08-23--ZAF",
+      "eventName": "15th BRICS summit",
+      "id": "joko-widodo--2023-08-22--ZAF",
       "officialId": "joko-widodo",
-      "purpose": "Jokowi attended the 15th BRICS summit and conducted bilateral talks with the Prime Minister of the Democratic Republic of the Congo Jean-Mi…",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joko_Widodo"
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-08-23",
+      "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -16940,10 +17081,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington, D.C.",
+        "city": "San Francisco",
         "coordinates": [
-          -77.036666666,
-          38.895
+          -122.419444444,
+          37.775
         ],
         "countryCode": "USA",
         "region": "Americas"
@@ -16964,7 +17105,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joko_Widodo"
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2023"
         },
         {
           "label": "COLT dataset",
@@ -17268,6 +17409,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Philippine International Convention Center",
+        "coordinates": [
+          120.982618,
+          14.554257
+        ],
+        "countryCode": "PHL",
+        "region": "Asia"
+      },
+      "endDate": "2015-11-19",
+      "engagements": [],
+      "eventName": "APEC Philippines 2015",
+      "id": "jusuf-kalla--2015-11-18--PHL",
+      "officialId": "jusuf-kalla",
+      "purpose": "Attended the APEC Philippines 2015",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_2015"
+        }
+      ],
+      "startDate": "2015-11-18",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -17291,6 +17459,33 @@
       "startDate": "2016-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lima Convention Center",
+        "coordinates": [
+          -77.000574,
+          -12.086374
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2016-11-20",
+      "engagements": [],
+      "eventName": "APEC Peru 2016",
+      "id": "jusuf-kalla--2016-11-19--PER",
+      "officialId": "jusuf-kalla",
+      "purpose": "Attended the APEC Peru 2016",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Peru_2016"
+        }
+      ],
+      "startDate": "2016-11-19",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -17349,6 +17544,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "region": "Americas"
+      },
+      "endDate": "2018-12-01",
+      "engagements": [],
+      "eventName": "2018 G20 Buenos Aires summit",
+      "id": "jusuf-kalla--2018-11-30--ARG",
+      "officialId": "jusuf-kalla",
+      "purpose": "Attended the 2018 G20 Buenos Aires summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_G20_Buenos_Aires_summit"
+        }
+      ],
+      "startDate": "2018-11-30",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -17372,6 +17594,61 @@
       "startDate": "2019-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Kinshasa",
+        "coordinates": [
+          15.311944444,
+          -4.321944444
+        ],
+        "countryCode": "COD",
+        "precision": "country",
+        "region": "Africa"
+      },
+      "endDate": "2023-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "luhut-binsar-panjaitan--2023-01-01--COD",
+      "officialId": "luhut-binsar-panjaitan",
+      "purpose": "Visit to DR Congo",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo%E2%80%93Indonesia_relations"
+        }
+      ],
+      "startDate": "2023-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vientiane",
+        "coordinates": [
+          102.63,
+          17.98
+        ],
+        "countryCode": "LAO",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-11",
+      "engagements": [],
+      "eventName": "Nineteenth East Asia Summit",
+      "id": "ma-ruf-amin--2024-10-10--LAO",
+      "officialId": "ma-ruf-amin",
+      "purpose": "Attended the Nineteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nineteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2024-10-10",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -17426,6 +17703,34 @@
       "startDate": "2011-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "marty-natalegawa--2013-01-01--MEX",
+      "officialId": "marty-natalegawa",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -17793,31 +18098,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Beijing",
+        "city": "Shanghai",
         "coordinates": [
-          116.4074,
-          39.9042
+          121.469166666,
+          31.2325
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2001-10-22",
+      "endDate": "2001-10-21",
       "engagements": [
         "Met General Secretary Jiang Zemin",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "megawati-soekarnoputri--2001-10-18--CHN",
+      "eventName": "APEC China 2001",
+      "id": "megawati-soekarnoputri--2001-10-20--CHN",
       "officialId": "megawati-soekarnoputri",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC China 2001",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2001"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2001-10-18",
+      "startDate": "2001-10-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -18401,30 +18709,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
+        "city": "Los Cabos",
         "coordinates": [
-          -99.1332,
-          19.4326
+          -109.766666666,
+          23.266666666
         ],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2002-10-28",
+      "endDate": "2002-10-27",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "megawati-soekarnoputri--2002-10-24--MEX",
+      "eventName": "APEC Mexico 2002",
+      "id": "megawati-soekarnoputri--2002-10-26--MEX",
       "officialId": "megawati-soekarnoputri",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Mexico 2002",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Mexico_2002"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-10-24",
+      "startDate": "2002-10-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -19124,7 +19435,7 @@
         "Later, he paid an official visit to the Government Palace.",
         "He spoke with Peruvian president Dina Boluarte about enhancing ties between the two nations."
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Peru 2024",
       "id": "prabowo-subianto--2024-11-13--PER",
       "officialId": "prabowo-subianto",
       "purpose": "On 14 November, Prabowo held a breakfast meeting with Australian prime minister Anthony Albanese in Lima.",
@@ -19158,7 +19469,7 @@
         "On 17 November, accompanied by several ministers and Indonesian businessmen, he attended the Indonesia-Brazil Business Forum.",
         "He also held bilateral meetings with UN secretary general António Guterres, Tanzanian president Samia Suluhu Hassan, Indian prime minister Narendra Modi, French president Emmanuel…"
       ],
-      "eventName": "G20 Summit",
+      "eventName": "2024 G20 Rio de Janeiro summit",
       "id": "prabowo-subianto--2024-11-16--BRA",
       "officialId": "prabowo-subianto",
       "purpose": "Prabowo attended the G20 Summit in Rio de Janeiro.",
@@ -19660,7 +19971,7 @@
         "He also held bilateral meetings with Laotian prime minister Sonexay Siphandone and Singaporean prime minister Lawrence Wong.",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "2025 ASEAN Summits",
       "id": "prabowo-subianto--2025-05-25--MYS",
       "officialId": "prabowo-subianto",
       "purpose": "Prabowo attended several important regional gatherings, including the 46th ASEAN Summit, the 2nd ASEAN-GCC Summit, the ASEAN-GCC-China Summ…",
@@ -19711,6 +20022,33 @@
       "startDate": "2025-06-15",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kananaskis",
+        "coordinates": [
+          -114.9,
+          50.6
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "2025-06-17",
+      "engagements": [],
+      "eventName": "51st G7 summit",
+      "id": "prabowo-subianto--2025-06-16--CAN",
+      "officialId": "prabowo-subianto",
+      "purpose": "Attended the 51st G7 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/51st_G7_summit"
+        }
+      ],
+      "startDate": "2025-06-16",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -19830,7 +20168,7 @@
         "During the summit, he introduced a soft power-based strategy, portraying his country as a bridge connecting the Global North and South.",
         "On 9 July, Prabowo met with Brazilian president Luiz Inácio Lula da Silva in a bilateral discussion in the Palácio do Planalto to talk about enhancing the two nations' strategic c…"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "17th BRICS summit",
       "id": "prabowo-subianto--2025-07-05--BRA",
       "officialId": "prabowo-subianto",
       "purpose": "Prabowo attended the 17th BRICS summit at the Museum of Modern Art, where he participated in a plenary discussion about global peace, secur…",
@@ -20290,7 +20628,7 @@
         "Met President Lee Jae-myung",
         "Gave a public address"
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC South Korea 2025",
       "id": "prabowo-subianto--2025-10-30--KOR",
       "officialId": "prabowo-subianto",
       "purpose": "Prabowo attended the APEC South Korea 2025 He also held a bilateral meeting with New Zealand prime minister Christopher Luxon and South Kor…",
@@ -20887,7 +21225,7 @@
       },
       "endDate": "2026-09-13",
       "engagements": [],
-      "eventName": null,
+      "eventName": "18th BRICS summit",
       "id": "prabowo-subianto--2026-09-11--IND",
       "officialId": "prabowo-subianto",
       "purpose": "Prabowo attended the 18th BRICS summit, reflecting Indonesia's commitment to enhancing its role in multilateral cooperation.",
@@ -20899,6 +21237,60 @@
       ],
       "startDate": "2026-09-11",
       "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Shenzhen",
+        "coordinates": [
+          114.054444444,
+          22.546666666
+        ],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2026-11-19",
+      "engagements": [],
+      "eventName": "APEC China 2026",
+      "id": "prabowo-subianto--2026-11-18--CHN",
+      "officialId": "prabowo-subianto",
+      "purpose": "Attended the APEC China 2026",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_China_2026"
+        }
+      ],
+      "startDate": "2026-11-18",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Miami",
+        "coordinates": [
+          -80.193611111,
+          25.774166666
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2026-12-15",
+      "engagements": [],
+      "eventName": "2026 G20 Miami summit",
+      "id": "prabowo-subianto--2026-12-14--USA",
+      "officialId": "prabowo-subianto",
+      "purpose": "Attended the 2026 G20 Miami summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_G20_Miami_summit"
+        }
+      ],
+      "startDate": "2026-12-14",
+      "statusHint": "planned",
       "type": "summit"
     },
     {
@@ -20981,6 +21373,60 @@
       "startDate": "2024-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kazan",
+        "coordinates": [
+          49.114444444,
+          55.790833333
+        ],
+        "countryCode": "RUS",
+        "region": "Europe"
+      },
+      "endDate": "2024-10-24",
+      "engagements": [],
+      "eventName": "16th BRICS summit",
+      "id": "sugiono--2024-10-22--RUS",
+      "officialId": "sugiono",
+      "purpose": "Attended the 16th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+        }
+      ],
+      "startDate": "2024-10-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tianjin",
+        "coordinates": [
+          117.205555555,
+          39.146666666
+        ],
+        "countryCode": "CHN",
+        "region": "Asia"
+      },
+      "endDate": "2025-09-01",
+      "engagements": [],
+      "eventName": "2025 Tianjin SCO summit",
+      "id": "sugiono--2025-08-31--CHN",
+      "officialId": "sugiono",
+      "purpose": "Attended the 2025 Tianjin SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Tianjin_SCO_summit"
+        }
+      ],
+      "startDate": "2025-08-31",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -21148,6 +21594,33 @@
       "startDate": "1989-06-09",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [
+          149.126944444,
+          -35.293055555
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "1989-11-07",
+      "engagements": [],
+      "eventName": "APEC Australia 1989",
+      "id": "suharto--1989-11-05--AUS",
+      "officialId": "suharto",
+      "purpose": "Attended the APEC Australia 1989",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Australia_1989"
+        }
+      ],
+      "startDate": "1989-11-05",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -21413,6 +21886,10 @@
       "officialId": "suharto",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22599,22 +23076,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Subic Bay Freeport Zone",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          120.274,
+          14.8158
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "1996-11-25",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Philippines 1996",
       "id": "suharto--1996-11-24--PHL",
       "officialId": "suharto",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Philippines 1996",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_1996"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22771,6 +23251,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Museum of Anthropology at UBC",
+        "coordinates": [
+          -123.25972222,
+          49.26916667
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1997-11-25",
+      "engagements": [],
+      "eventName": "APEC Canada 1997",
+      "id": "suharto--1997-11-24--CAN",
+      "officialId": "suharto",
+      "purpose": "Attended the APEC Canada 1997",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Canada_1997"
+        }
+      ],
+      "startDate": "1997-11-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Cairo",
         "coordinates": [
           31.2357,
@@ -22823,6 +23330,62 @@
       "startDate": "1956-05-16",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "sukarno--1959-01-01--ARG",
+      "officialId": "sukarno",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Indonesia_relations"
+        }
+      ],
+      "startDate": "1959-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1959-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "sukarno--1959-01-01--MEX",
+      "officialId": "sukarno",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1959-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -22911,6 +23474,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Belgrade",
+        "coordinates": [
+          20.456944444,
+          44.817777777
+        ],
+        "countryCode": "SRB",
+        "region": "Europe"
+      },
+      "endDate": "1961-09-06",
+      "engagements": [],
+      "eventName": "1st Summit of the Non-Aligned Movement",
+      "id": "sukarno--1961-09-01--SRB",
+      "officialId": "sukarno",
+      "purpose": "Attended the 1st Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "1961-09-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -22979,7 +23569,7 @@
         "Met President Ricardo Lagos Escobar",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Chile 2004",
       "id": "susilo-bambang-yudhoyono--2004-11-18--CHL",
       "officialId": "susilo-bambang-yudhoyono",
       "purpose": "SBY attended APEC Chile 2004 as his first international conference.",
@@ -23591,7 +24181,7 @@
         "Met Prime Minister Abdullah Ahmad Badawi",
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "First East Asia Summit",
       "id": "susilo-bambang-yudhoyono--2005-12-11--MYS",
       "officialId": "susilo-bambang-yudhoyono",
       "purpose": "SBY attended the ASEAN Summit and the East Asia Summit.",
@@ -24109,22 +24699,25 @@
           21.0245
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2006-11-19",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "susilo-bambang-yudhoyono--2006-11-17--VNM",
+      "eventName": "APEC Vietnam 2006",
+      "id": "susilo-bambang-yudhoyono--2006-11-18--VNM",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Vietnam 2006",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Vietnam_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-11-17",
+      "startDate": "2006-11-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -24196,30 +24789,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
+        "city": "Mandaue",
         "coordinates": [
-          120.977222222,
-          14.595833333
+          123.933333333,
+          10.333333333
         ],
         "countryCode": "PHL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2007-01-15",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "susilo-bambang-yudhoyono--2007-01-12--PHL",
+      "eventName": "Second East Asia Summit",
+      "id": "susilo-bambang-yudhoyono--2007-01-15--PHL",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Second East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Second_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-01-12",
+      "startDate": "2007-01-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -24266,19 +24862,23 @@
         "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2007-09-08",
+      "endDate": "2007-09-09",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "susilo-bambang-yudhoyono--2007-09-07--AUS",
+      "eventName": "APEC Australia 2007",
+      "id": "susilo-bambang-yudhoyono--2007-09-08--AUS",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Australia 2007",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Australia_2007"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-09-07",
+      "startDate": "2007-09-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -24380,22 +24980,26 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-11-22",
+      "endDate": "2007-11-21",
       "engagements": [
         "Met Prime Minister Lee Hsien Loong",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "susilo-bambang-yudhoyono--2007-11-19--SGP",
+      "eventName": "Third East Asia Summit",
+      "id": "susilo-bambang-yudhoyono--2007-11-21--SGP",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Third East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Third_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-11-19",
+      "startDate": "2007-11-21",
       "statusHint": null,
       "type": "summit"
     },
@@ -24566,17 +25170,21 @@
         "Met Prime Minister Abe Shinzo",
         "Signed agreements"
       ],
-      "eventName": "G8 Summit",
-      "id": "susilo-bambang-yudhoyono--2008-07-06--JPN",
+      "eventName": "34th G8 summit",
+      "id": "susilo-bambang-yudhoyono--2008-07-07--JPN",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 34th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/34th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-07-06",
+      "startDate": "2008-07-07",
       "statusHint": null,
       "type": "summit"
     },
@@ -24665,6 +25273,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_G20_Washington_summit"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -24695,6 +25307,10 @@
       "officialId": "susilo-bambang-yudhoyono",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Indonesia%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24800,29 +25416,32 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-04-02",
+      "endDate": "2009-04-05",
       "engagements": [
         "Met Prime Minister Gordon Brown",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "susilo-bambang-yudhoyono--2009-03-30--GBR",
+      "eventName": "2009 G20 London summit",
+      "id": "susilo-bambang-yudhoyono--2009-04-01--GBR",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2009 G20 London summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2009_G20_London_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-03-30",
+      "startDate": "2009-04-01",
       "statusHint": null,
       "type": "summit"
     },
@@ -24860,13 +25479,39 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "L'Aquila",
         "coordinates": [
-          -77.0369,
-          38.9072
+          13.391991666,
+          42.354008333
+        ],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "2009-07-10",
+      "engagements": [],
+      "eventName": "35th G8 summit",
+      "id": "susilo-bambang-yudhoyono--2009-07-08--ITA",
+      "officialId": "susilo-bambang-yudhoyono",
+      "purpose": "Attended the 35th G8 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/35th_G8_summit"
+        }
+      ],
+      "startDate": "2009-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Pittsburgh",
+        "coordinates": [
+          -80,
+          40.441666666
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-09-25",
@@ -24883,6 +25528,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2009_G20_Pittsburgh_summit"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -24894,28 +25543,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Cha-am",
         "coordinates": [
-          100.516666666,
-          13.75
+          99.966944444,
+          12.799722222
         ],
         "countryCode": "THA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2009-10-25",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "susilo-bambang-yudhoyono--2009-10-24--THA",
+      "eventName": "Fourth East Asia Summit",
+      "id": "susilo-bambang-yudhoyono--2009-10-23--THA",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fourth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-10-24",
+      "startDate": "2009-10-23",
       "statusHint": null,
       "type": "summit"
     },
@@ -25255,28 +25907,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Toronto",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -79.386666666,
+          43.670277777
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-06-28",
+      "endDate": "2010-06-27",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "susilo-bambang-yudhoyono--2010-06-24--CAN",
+      "eventName": "2010 G20 Toronto summit",
+      "id": "susilo-bambang-yudhoyono--2010-06-26--CAN",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2010 G20 Toronto summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_G20_Toronto_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-06-24",
+      "startDate": "2010-06-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -25378,53 +26033,55 @@
           21.0245
         ],
         "countryCode": "VNM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-10-27",
+      "endDate": "2010-10-31",
       "engagements": [
         "Met President Nguyen Minh Triet",
         "Gave a public address"
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "susilo-bambang-yudhoyono--2010-10-26--VNM",
+      "eventName": "Fifth East Asia Summit",
+      "id": "susilo-bambang-yudhoyono--2010-10-28--VNM",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the Fifth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-10-26",
+      "startDate": "2010-10-28",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Hanoi",
+        "city": "Seoul",
         "coordinates": [
-          105.84117,
-          21.0245
+          126.99,
+          37.56
         ],
-        "countryCode": "VNM",
-        "precision": "country",
+        "countryCode": "KOR",
         "region": "Asia"
       },
-      "endDate": "2010-10-31",
+      "endDate": "2010-11-13",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "susilo-bambang-yudhoyono--2010-10-30--VNM",
+      "eventName": "2010 G20 Seoul summit",
+      "id": "susilo-bambang-yudhoyono--2010-11-11--KOR",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 2010 G20 Seoul summit",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_G20_Seoul_summit"
         }
       ],
-      "startDate": "2010-10-30",
+      "startDate": "2010-11-11",
       "statusHint": null,
       "type": "summit"
     },
@@ -25583,41 +26240,43 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
+        "city": "Lyon",
         "coordinates": [
-          2.3522,
-          48.8566
+          4.835,
+          45.7675
         ],
         "countryCode": "FRA",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2011-11-05",
+      "endDate": "2011-11-06",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "susilo-bambang-yudhoyono--2011-11-01--FRA",
+      "eventName": "2011 G20 Cannes summit",
+      "id": "susilo-bambang-yudhoyono--2011-11-03--FRA",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2011 G20 Cannes summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_G20_Cannes_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-11-01",
+      "startDate": "2011-11-03",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Hawaii Convention Center",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -157.836,
+          21.2904
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2011-11-13",
@@ -25632,6 +26291,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2011"
         },
         {
           "label": "COLT dataset",
@@ -25707,30 +26370,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Mexico City",
+        "city": "San José del Cabo",
         "coordinates": [
-          -99.1332,
-          19.4326
+          -109.711388888,
+          23.061666666
         ],
         "countryCode": "MEX",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2012-06-20",
+      "endDate": "2012-06-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "susilo-bambang-yudhoyono--2012-06-16--MEX",
+      "eventName": "2012 G20 Los Cabos summit",
+      "id": "susilo-bambang-yudhoyono--2012-06-18--MEX",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2012 G20 Los Cabos summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_G20_Los_Cabos_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-06-16",
+      "startDate": "2012-06-18",
       "statusHint": null,
       "type": "summit"
     },
@@ -25982,6 +26648,33 @@
       "startDate": "2012-11-03",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Phnom Penh",
+        "coordinates": [
+          104.921027777,
+          11.569583333
+        ],
+        "countryCode": "KHM",
+        "region": "Asia"
+      },
+      "endDate": "2012-11-20",
+      "engagements": [],
+      "eventName": "Seventh East Asia Summit",
+      "id": "susilo-bambang-yudhoyono--2012-11-19--KHM",
+      "officialId": "susilo-bambang-yudhoyono",
+      "purpose": "Attended the Seventh East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Seventh_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2012-11-19",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -26502,16 +27195,19 @@
           4.916666666
         ],
         "countryCode": "BRN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2013-10-10",
       "engagements": [],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Eighth East Asia Summit",
       "id": "susilo-bambang-yudhoyono--2013-10-09--BRN",
       "officialId": "susilo-bambang-yudhoyono",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit and East Asia Summit (EAS)",
+      "purpose": "Attended the Eighth East Asia Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eighth_East_Asia_Summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

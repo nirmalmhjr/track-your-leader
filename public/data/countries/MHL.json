@@ -3921,30 +3921,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "La Malbaie",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -70.149444444,
+          47.652222222
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-06-09",
       "engagements": [
         "Met Prime Minister Justin Trudeau"
       ],
-      "eventName": "G7 Summit",
-      "id": "hilda-heine--2018-06-09--CAN",
+      "eventName": "44th G7 summit",
+      "id": "hilda-heine--2018-06-08--CAN",
       "officialId": "hilda-heine",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 44th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/44th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-09",
+      "startDate": "2018-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -4124,6 +4127,33 @@
       "startDate": "2018-10-28",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port Moresby",
+        "coordinates": [
+          147.149444444,
+          -9.478888888
+        ],
+        "countryCode": "PNG",
+        "region": "Oceania"
+      },
+      "endDate": "2018-11-18",
+      "engagements": [],
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "hilda-heine--2018-11-17--PNG",
+      "officialId": "hilda-heine",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        }
+      ],
+      "startDate": "2018-11-17",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

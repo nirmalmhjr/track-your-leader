@@ -908,6 +908,65 @@
       "wikidataId": "Q158123"
     },
     {
+      "aliases": [
+        "Alfred \"Fred\" Sinowatz"
+      ],
+      "countryCode": "AUT",
+      "fullName": "Fred Sinowatz",
+      "id": "fred-sinowatz",
+      "party": "Social Democratic Party of Austria",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fred_Sinowatz.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1986-06-16",
+          "id": "fred-sinowatz-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1983-05-24",
+          "title": "Head of government"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "fred-sinowatz-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the Landtag of Burgenland",
+          "undated": true
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "fred-sinowatz-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the National Council of Austria",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q84190"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fred_Sinowatz"
+        }
+      ],
+      "summary": "Alfred Sinowatz (5 February 1929 – 11 August 2008) was an Austrian historian and politician of the Social Democratic Party (SPÖ), who served as Chancellor of Austria from 1983 to 1986. Prior to becoming Chancellor, he had served as Minister of Education from 1971 to 1983 and Vice-Chancellor from 1981 to 1983.",
+      "wikidataId": "Q84190"
+    },
+    {
       "aliases": [],
       "countryCode": "AUT",
       "fullName": "Hartwig Löger",
@@ -17125,6 +17184,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -20107,6 +20170,10 @@
       "purpose": "Attended UN Conference on Sustainable Development",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21134,6 +21201,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "region": "Europe"
+      },
+      "endDate": "2016-07-09",
+      "engagements": [],
+      "eventName": "2016 Warsaw NATO summit",
+      "id": "hans-peter-doskozil--2016-07-08--POL",
+      "officialId": "hans-peter-doskozil",
+      "purpose": "Attended the 2016 Warsaw NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2016_Warsaw_NATO_summit"
+        }
+      ],
+      "startDate": "2016-07-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -21156,6 +21250,144 @@
         }
       ],
       "startDate": "2019-05-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "heinz-fischer--2005-01-01--BRA",
+      "officialId": "heinz-fischer",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "2005-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "heinz-fischer--2005-01-01--MEX",
+      "officialId": "heinz-fischer",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2005-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Palace of the Parliament",
+        "coordinates": [
+          26.0875,
+          44.4275
+        ],
+        "countryCode": "ROU",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-04",
+      "engagements": [],
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "heinz-fischer--2008-04-02--ROU",
+      "officialId": "heinz-fischer",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        }
+      ],
+      "startDate": "2008-04-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-20",
+      "engagements": [],
+      "eventName": "2010 Lisbon NATO summit",
+      "id": "heinz-fischer--2010-11-19--PRT",
+      "officialId": "heinz-fischer",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        }
+      ],
+      "startDate": "2010-11-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "2012 Chicago NATO summit",
+      "id": "heinz-fischer--2012-05-20--USA",
+      "officialId": "heinz-fischer",
+      "purpose": "Attended the 2012 Chicago NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        }
+      ],
+      "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
     },
@@ -21185,6 +21417,34 @@
       "startDate": "2013-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Bogotá",
+        "coordinates": [
+          -74.08175,
+          4.60971
+        ],
+        "countryCode": "COL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2016-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "heinz-fischer--2016-01-01--COL",
+      "officialId": "heinz-fischer",
+      "purpose": "Visit to Colombia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Colombia_relations"
+        }
+      ],
+      "startDate": "2016-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -21296,6 +21556,34 @@
       "startDate": "2018-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1952-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "karl-gruber--1952-01-01--BRA",
+      "officialId": "karl-gruber",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "1952-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -21713,18 +22001,21 @@
           40.416944444
         ],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2022-06-29",
+      "endDate": "2022-06-30",
       "engagements": [
         "Met President Pedro Sanchez"
       ],
-      "eventName": "EU-NATO Meeting",
+      "eventName": "2022 Madrid NATO summit",
       "id": "karl-nehammer--2022-06-29--ESP",
       "officialId": "karl-nehammer",
-      "purpose": "Attended EU-NATO Meeting",
+      "purpose": "Attended the 2022 Madrid NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Madrid_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21732,7 +22023,7 @@
       ],
       "startDate": "2022-06-29",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -23193,6 +23484,34 @@
       "startDate": "2009-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "michael-spindelegger--2010-01-01--BRA",
+      "officialId": "michael-spindelegger",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -26090,6 +26409,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "thomas-klestil--1991-01-01--BRA",
+      "officialId": "thomas-klestil",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -26199,6 +26546,33 @@
       "startDate": "2008-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "1997-07-09",
+      "engagements": [],
+      "eventName": "1997 Madrid NATO summit",
+      "id": "viktor-klima--1997-07-08--ESP",
+      "officialId": "viktor-klima",
+      "purpose": "Attended the 1997 Madrid NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        }
+      ],
+      "startDate": "1997-07-08",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -26522,6 +26896,34 @@
       "startDate": "1998-12-18",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "viktor-klima--1999-01-01--BRA",
+      "officialId": "viktor-klima",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "1999-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -29564,6 +29966,62 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "willibald-pahr--1980-01-01--BRA",
+      "officialId": "willibald-pahr",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Brazil_relations"
+        }
+      ],
+      "startDate": "1980-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "willibald-pahr--1981-01-01--MEX",
+      "officialId": "willibald-pahr",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1981-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Lisbon",
@@ -30779,6 +31237,34 @@
       "startDate": "2003-12-12",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "wolfgang-schussel--2004-01-01--MEX",
+      "officialId": "wolfgang-schussel",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Austria%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2004-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

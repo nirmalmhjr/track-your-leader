@@ -5296,6 +5296,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "alvaro-garcia-linera--2012-08-26--IRN",
+      "officialId": "alvaro-garcia-linera",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Panama City",
         "coordinates": [
           -79.534722222,
@@ -6019,6 +6046,10 @@
       "officialId": "eduardo-rodriguez",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6763,6 +6794,10 @@
       "officialId": "evo-morales",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Japan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8107,16 +8142,19 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "evo-morales--2009-04-17--TTO",
       "officialId": "evo-morales",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8528,6 +8566,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8676,6 +8718,10 @@
       "officialId": "evo-morales",
       "purpose": "Attended Rio Group Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10013,28 +10059,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [],
-      "eventName": "Social Actors Forum",
-      "id": "evo-morales--2012-04-13--COL",
+      "eventName": "6th Summit of the Americas",
+      "id": "evo-morales--2012-04-14--COL",
       "officialId": "evo-morales",
-      "purpose": "Attended Social Actors Forum and Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-13",
+      "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -11562,28 +11611,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Fortaleza",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -38.5275,
+          -3.7275
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-07-17",
+      "endDate": "2014-07-16",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "evo-morales--2014-07-16--BRA",
+      "eventName": "6th BRICS summit",
+      "id": "evo-morales--2014-07-14--BRA",
       "officialId": "evo-morales",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 6th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-16",
+      "startDate": "2014-07-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -11916,34 +11968,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Panama City",
-        "coordinates": [
-          -79.534722222,
-          8.971111111
-        ],
-        "countryCode": "PAN",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-04-11",
-      "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "evo-morales--2015-04-09--PAN",
-      "officialId": "evo-morales",
-      "purpose": "Attended Summit of the Americas (SOA)",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-04-09",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Caracas",
         "coordinates": [
           -66.914444444,
@@ -11968,6 +11992,37 @@
       "startDate": "2015-04-09",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Panama City",
+        "coordinates": [
+          -79.534722222,
+          8.971111111
+        ],
+        "countryCode": "PAN",
+        "region": "Americas"
+      },
+      "endDate": "2015-04-11",
+      "engagements": [],
+      "eventName": "7th Summit of the Americas",
+      "id": "evo-morales--2015-04-10--PAN",
+      "officialId": "evo-morales",
+      "purpose": "Attended the 7th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2015-04-10",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -13540,7 +13595,6 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-04-14",
@@ -13548,11 +13602,15 @@
         "Met President Martin Vizcarra",
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "8th Summit of the Americas",
       "id": "evo-morales--2018-04-13--PER",
       "officialId": "evo-morales",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15108,6 +15166,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1996-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gonzalo-sanchez-de-lozada--1996-01-01--JPN",
+      "officialId": "gonzalo-sanchez-de-lozada",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Japan_relations"
+        }
+      ],
+      "startDate": "1996-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -15573,6 +15659,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15754,6 +15844,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1983-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "hernan-siles-zuazo--1983-01-01--ESP",
+      "officialId": "hernan-siles-zuazo",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1983-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -15836,6 +15954,34 @@
       "startDate": "1997-12-15",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "hugo-banzer--1998-01-01--MEX",
+      "officialId": "hugo-banzer",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1998-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -16353,6 +16499,34 @@
       "startDate": "1989-09-25",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-paz-zamora--1990-01-01--MEX",
+      "officialId": "jaime-paz-zamora",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1990-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -16876,6 +17050,10 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Japan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16913,6 +17091,34 @@
       "startDate": "1991-11-22",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1992-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-paz-zamora--1992-01-01--ESP",
+      "officialId": "jaime-paz-zamora",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1992-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -17341,6 +17547,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2001-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jorge-quiroga--2001-01-01--ESP",
+      "officialId": "jorge-quiroga",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2001-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -17425,6 +17659,34 @@
       "startDate": "2001-12-06",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jorge-quiroga--2002-01-01--MEX",
+      "officialId": "jorge-quiroga",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -17566,6 +17828,10 @@
       "officialId": "luis-arce",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18250,28 +18516,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
+        "city": "Johannesburg",
         "coordinates": [
-          28.2293,
-          -25.7479
+          28.041638888,
+          -26.204361111
         ],
         "countryCode": "ZAF",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2023-08-24",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "luis-arce--2023-08-23--ZAF",
+      "eventName": "15th BRICS summit",
+      "id": "luis-arce--2023-08-22--ZAF",
       "officialId": "luis-arce",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-08-23",
+      "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -18577,25 +18846,28 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Kazan",
         "coordinates": [
-          37.6175,
-          55.750555555
+          49.114444444,
+          55.790833333
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-10-25",
+      "endDate": "2024-10-24",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "16th BRICS summit",
       "id": "luis-arce--2024-10-22--RUS",
       "officialId": "luis-arce",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 16th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18608,28 +18880,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Rio de Janeiro",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -43.205555555,
+          -22.911111111
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2024-11-19",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "luis-arce--2024-11-17--BRA",
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "luis-arce--2024-11-16--BRA",
       "officialId": "luis-arce",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-11-17",
+      "startDate": "2024-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -18792,11 +19067,15 @@
       },
       "endDate": "2025-07-07",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "17th BRICS summit",
       "id": "luis-arce--2025-07-06--BRA",
       "officialId": "luis-arce",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 17th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/17th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19173,6 +19452,61 @@
       "startDate": "2026-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Los Angeles",
+        "coordinates": [
+          -118.24368,
+          34.05223
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2022-06-10",
+      "engagements": [],
+      "eventName": "9th Summit of the Americas",
+      "id": "rogelio-mayta--2022-06-06--USA",
+      "officialId": "rogelio-mayta",
+      "purpose": "Attended the 9th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2022-06-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "victor-paz-estenssoro--1963-01-01--MEX",
+      "officialId": "victor-paz-estenssoro",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bolivia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1963-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

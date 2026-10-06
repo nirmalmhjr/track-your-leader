@@ -1393,6 +1393,42 @@
       "wikidataId": "Q23771906"
     },
     {
+      "aliases": [
+        "Taomati T. Iuta"
+      ],
+      "countryCode": "KIR",
+      "fullName": "Taomati Iuta",
+      "id": "taomati-iuta",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2%D0%B0%D0%BE%D0%BC%D0%B0%D1%82%D0%B8_%D0%98%D1%83%D1%82%D0%B0.png?width=160",
+      "positions": [
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "taomati-iuta-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Speaker of the House of Assembly of Kiribati",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3560981"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taomati_Iuta"
+        }
+      ],
+      "summary": "Taomati T. Iuta (2 May 1939 on Beru Island – 5 June 2016) was an I-Kiribati politician. He was Speaker of the House of Assembly of Kiribati for the Ninth Parliament (2011–2015).",
+      "wikidataId": "Q3560981"
+    },
+    {
       "aliases": [],
       "countryCode": "KIR",
       "fullName": "Teima Onorio",
@@ -4720,6 +4756,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "ieremia-tabai--1979-08-01--ZMB",
+      "officialId": "ieremia-tabai",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Wellington",
         "coordinates": [
           174.7762,
@@ -5222,22 +5285,25 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
       "id": "taneti-maamau--2018-04-19--GBR",
       "officialId": "taneti-maamau",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5368,6 +5434,33 @@
       "startDate": "2018-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port Moresby",
+        "coordinates": [
+          147.149444444,
+          -9.478888888
+        ],
+        "countryCode": "PNG",
+        "region": "Oceania"
+      },
+      "endDate": "2018-11-18",
+      "engagements": [],
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "taneti-maamau--2018-11-17--PNG",
+      "officialId": "taneti-maamau",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        }
+      ],
+      "startDate": "2018-11-17",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -6254,6 +6347,33 @@
       "startDate": "2026-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "taomati-iuta--2011-10-28--AUS",
+      "officialId": "taomati-iuta",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

@@ -10486,6 +10486,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11007,6 +11011,10 @@
       "officialId": "daniel-noboa",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12631,6 +12639,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1951-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "galo-plaza--1951-01-01--MEX",
+      "officialId": "galo-plaza",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1951-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -12826,6 +12862,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12950,6 +12990,10 @@
       "officialId": "guillermo-lasso",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13177,13 +13221,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -13199,6 +13242,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
         },
         {
           "label": "COLT dataset",
@@ -14251,6 +14298,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14520,6 +14571,10 @@
       "officialId": "gustavo-noboa",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Japan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15091,6 +15146,10 @@
       "purpose": "Attended Rio Group Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15332,6 +15391,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "lenin-moreno--2012-08-26--IRN",
+      "officialId": "lenin-moreno",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -15414,6 +15500,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15490,22 +15580,25 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-04-13",
+      "endDate": "2018-04-14",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "lenin-moreno--2018-04-12--PER",
+      "eventName": "8th Summit of the Americas",
+      "id": "lenin-moreno--2018-04-13--PER",
       "officialId": "lenin-moreno",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-12",
+      "startDate": "2018-04-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -15621,6 +15714,10 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Japan_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15709,6 +15806,10 @@
       "officialId": "lenin-moreno",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16331,6 +16432,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1985-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "leon-febres-cordero--1985-01-01--MEX",
+      "officialId": "leon-febres-cordero",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1985-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -16706,6 +16835,10 @@
       "officialId": "lucio-gutierrez",
       "purpose": "Attended Summit of the Americas (SOA)",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17285,6 +17418,10 @@
       "officialId": "rafael-correa",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17952,6 +18089,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18504,6 +18645,39 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Port of Spain",
+        "coordinates": [
+          -61.516666666,
+          10.666666666
+        ],
+        "countryCode": "TTO",
+        "region": "Americas"
+      },
+      "endDate": "2009-04-19",
+      "engagements": [
+        "Gave a public address"
+      ],
+      "eventName": "5th Summit of the Americas",
+      "id": "rafael-correa--2009-04-17--TTO",
+      "officialId": "rafael-correa",
+      "purpose": "Attended the 5th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2009-04-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Madrid",
         "coordinates": [
           -3.703333333,
@@ -18521,36 +18695,6 @@
       "id": "rafael-correa--2009-04-18--ESP",
       "officialId": "rafael-correa",
       "purpose": "Attended Summit of the Americas (SOA)",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2009-04-18",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Port of Spain",
-        "coordinates": [
-          -61.516666666,
-          10.666666666
-        ],
-        "countryCode": "TTO",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2009-04-19",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "Summit of the Americas",
-      "id": "rafael-correa--2009-04-18--TTO",
-      "officialId": "rafael-correa",
-      "purpose": "Attended Summit of the Americas",
       "sources": [
         {
           "label": "COLT dataset",
@@ -19685,6 +19829,10 @@
       "officialId": "rafael-correa",
       "purpose": "Visit to Japan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Japan_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21615,28 +21763,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Fortaleza",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -38.5275,
+          -3.7275
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2014-07-17",
+      "endDate": "2014-07-16",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "rafael-correa--2014-07-16--BRA",
+      "eventName": "6th BRICS summit",
+      "id": "rafael-correa--2014-07-14--BRA",
       "officialId": "rafael-correa",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 6th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-16",
+      "startDate": "2014-07-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -21911,18 +22062,21 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "rafael-correa--2015-04-10--PAN",
       "officialId": "rafael-correa",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22632,6 +22786,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1989-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rodrigo-borja-cevallos--1989-01-01--ESP",
+      "officialId": "rodrigo-borja-cevallos",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1989-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Lima",
@@ -22750,6 +22932,34 @@
       "startDate": "1990-11-29",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rodrigo-borja-cevallos--1991-01-01--MEX",
+      "officialId": "rodrigo-borja-cevallos",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -23130,6 +23340,10 @@
       "officialId": "sixto-duran-ballen",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ecuador%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

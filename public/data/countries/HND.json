@@ -427,7 +427,7 @@
           "url": "https://en.wikipedia.org/wiki/Nasry_Asfura"
         }
       ],
-      "summary": "Nasry Juan Asfura is a Honduran politician and construction businessman serving as the president of Honduras since 2026. A member of the National Party of Honduras (PNH), he previously served as the mayor of Tegucigalpa from 2014 to 2022.",
+      "summary": "Nasry Juan Asfura Zablah is a Honduran politician and construction businessman serving as the president of Honduras since 2026. A member of the National Party of Honduras (PNH), he previously served as the mayor of Tegucigalpa from 2014 to 2022.",
       "wikidataId": "Q16146159"
     },
     {
@@ -3497,6 +3497,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5006,6 +5010,62 @@
       "type": "diplomatic_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-azcona-del-hoyo--1988-01-01--MEX",
+      "officialId": "jose-azcona-del-hoyo",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1989-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-azcona-del-hoyo--1989-01-01--ESP",
+      "officialId": "jose-azcona-del-hoyo",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1989-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Havana",
@@ -5181,6 +5241,10 @@
       "officialId": "juan-orlando-hernandez",
       "purpose": "Attended Association of Caribbean States (ACS) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5510,6 +5574,10 @@
       "officialId": "juan-orlando-hernandez",
       "purpose": "Visit to Spain",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5857,7 +5925,6 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
@@ -5865,11 +5932,15 @@
         "Signed agreements",
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "juan-orlando-hernandez--2015-04-10--PAN",
       "officialId": "juan-orlando-hernandez",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5962,6 +6033,10 @@
       "officialId": "juan-orlando-hernandez",
       "purpose": "Visit to Peru",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Peru_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6925,7 +7000,6 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-04-14",
@@ -6933,17 +7007,21 @@
         "Met President Martin Vizcarra",
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "juan-orlando-hernandez--2018-04-12--PER",
+      "eventName": "8th Summit of the Americas",
+      "id": "juan-orlando-hernandez--2018-04-13--PER",
       "officialId": "juan-orlando-hernandez",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-12",
+      "startDate": "2018-04-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -8808,6 +8886,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9752,6 +9834,10 @@
       "purpose": "Attended World Economic Forum (WEF)",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10649,16 +10735,19 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "manuel-zelaya--2009-04-17--TTO",
       "officialId": "manuel-zelaya",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11039,6 +11128,34 @@
       "type": "conference"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "oswaldo-lopez-arellano--1965-01-01--MEX",
+      "officialId": "oswaldo-lopez-arellano",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1965-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -11172,6 +11289,10 @@
       "officialId": "porfirio-lobo-sosa",
       "purpose": "Attended Central American States-European Council Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11437,6 +11558,10 @@
       "officialId": "porfirio-lobo-sosa",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11720,24 +11845,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "6th Summit of the Americas",
       "id": "porfirio-lobo-sosa--2012-04-14--COL",
       "officialId": "porfirio-lobo-sosa",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12697,6 +12825,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13116,6 +13248,10 @@
       "officialId": "rafael-leonardo-callejas-romero",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13757,6 +13893,10 @@
       "purpose": "Attended UN International Conference on Financing for Development",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13965,6 +14105,34 @@
       "startDate": "2002-11-16",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ricardo-maduro--2003-01-01--ESP",
+      "officialId": "ricardo-maduro",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Honduras%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2003-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

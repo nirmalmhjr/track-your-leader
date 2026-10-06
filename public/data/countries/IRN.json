@@ -550,12 +550,31 @@
           "portfolio": null,
           "startDate": "1958-06-30",
           "title": "Monarch"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1966-12-31",
+          "id": "mohammad-reza-pahlavi-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1965-01-01",
+          "title": "Shah"
         }
       ],
       "sources": [
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Iran_relations"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Poland_relations"
         }
       ],
       "summary": "",
@@ -678,6 +697,71 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Ayatollah Khamenei",
+        "Ayatollah Mojtaba Hosseini Khamenei",
+        "Ayatollah Mojtaba Khamenei",
+        "Ayatollah Seyyed Mojtaba Hosseini Khamenei",
+        "Ayatollah Seyyed Mojtaba Khamenei",
+        "Khamenei Jr",
+        "Mojtaba Hosseini Khamenei",
+        "Seyyed Mojtaba Hosseini Khamenei",
+        "Seyyed Mojtaba Khamenei"
+      ],
+      "countryCode": "IRN",
+      "fullName": "Mojtaba Khamenei",
+      "id": "mojtaba-khamenei",
+      "party": "independent politician",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Mojtaba_Khamenei.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": null,
+          "id": "mojtaba-khamenei-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-03-08",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
+            "military_leader"
+          ],
+          "endDate": null,
+          "id": "mojtaba-khamenei-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-03-08",
+          "title": "Commander-in-Chief of the Iranian Armed Forces"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "mojtaba-khamenei-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-03-08",
+          "title": "Supreme Leader of Iran"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2919350"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mojtaba_Khamenei"
+        }
+      ],
+      "summary": "Mojtaba Hosseini Khamenei (born 8 September 1969) is an Iranian politician and Shia cleric who has served as the supreme leader of Iran since 2026. A member of the Khamenei family and the second son of second supreme leader Ali Khamenei, he previously served as Vakil of the Supreme Leader during his father's rule from 2008 to 2026.",
+      "wikidataId": "Q2919350"
     },
     {
       "aliases": [
@@ -13950,6 +14034,65 @@
       "wikidataId": "Q3319157"
     },
     {
+      "aliases": [
+        "Ayatollah Khomeini",
+        "Ruhollah Mostafavi Musavi Khomeini",
+        "Ruhollāh Mostafavi Xomeyni"
+      ],
+      "countryCode": "IRN",
+      "fullName": "Ruhollah Khomeini",
+      "id": "ruhollah-khomeini",
+      "party": "Islamic Republican Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruhollah_Khomeini_portrait_2_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "military_leader"
+          ],
+          "endDate": "1989-06-03",
+          "id": "ruhollah-khomeini-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1981-06-10",
+          "title": "Commander-in-Chief of the Iranian Armed Forces"
+        },
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "1989-06-03",
+          "id": "ruhollah-khomeini-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1979-12-03",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1989-06-03",
+          "id": "ruhollah-khomeini-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1979-12-03",
+          "title": "Supreme Leader of Iran"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q38823"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ruhollah_Khomeini"
+        }
+      ],
+      "summary": "Ruhollah Mostafavi Khomeini (17 May 1900 – 3 June 1989) was an Iranian politician and Shia cleric who served as the first supreme leader of Iran from 1979 until his death in 1989. He was the leader of the Iranian Revolution, which overthrew Mohammad Reza Pahlavi, ended the Pahlavi era, and transformed the country into an Islamic republic.",
+      "wikidataId": "Q38823"
+    },
+    {
       "aliases": [],
       "countryCode": "IRN",
       "fullName": "Tahmasb Mazaheri",
@@ -16709,6 +16852,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Rio de Janeiro",
+        "coordinates": [
+          -43.205555555,
+          -22.911111111
+        ],
+        "countryCode": "BRA",
+        "region": "Americas"
+      },
+      "endDate": "2025-07-07",
+      "engagements": [],
+      "eventName": "17th BRICS summit",
+      "id": "abbas-araghchi--2025-07-06--BRA",
+      "officialId": "abbas-araghchi",
+      "purpose": "Attended the 17th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/17th_BRICS_summit"
+        }
+      ],
+      "startDate": "2025-07-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kuala Lumpur",
         "coordinates": [
           101.695277777,
@@ -18098,6 +18268,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "amir-abbas-hoveyda--1973-01-01--POL",
+      "officialId": "amir-abbas-hoveyda",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "1973-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -18395,22 +18593,26 @@
         "countryCode": "UZB",
         "region": "Asia"
       },
-      "endDate": "2022-09-17",
+      "endDate": "2022-09-16",
       "engagements": [
         "Met President Shavkat Mirziyoyev",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "ebrahim-raisi--2022-09-14--UZB",
+      "eventName": "2022 Samarkand SCO summit",
+      "id": "ebrahim-raisi--2022-09-15--UZB",
       "officialId": "ebrahim-raisi",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2022 Samarkand SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Samarkand_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-09-14",
+      "startDate": "2022-09-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -18758,21 +18960,25 @@
         "countryCode": "ZAF",
         "region": "Africa"
       },
-      "endDate": "2023-08-25",
+      "endDate": "2023-08-24",
       "engagements": [
         "Met President Cyril Ramaphosa"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "ebrahim-raisi--2023-08-23--ZAF",
+      "eventName": "15th BRICS summit",
+      "id": "ebrahim-raisi--2023-08-22--ZAF",
       "officialId": "ebrahim-raisi",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-08-23",
+      "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -19511,7 +19717,7 @@
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "7th BRICS summit",
       "id": "hassan-rouhani--2015-07-08--RUS",
       "officialId": "hassan-rouhani",
       "purpose": "7th BRICS summitShanghai Cooperation Organisation",
@@ -20296,7 +20502,7 @@
       "engagements": [
         "Met President Recep Tayyip Erdogan"
       ],
-      "eventName": "Organization of Islamic Cooperation (OIC) Summit",
+      "eventName": "Sixth Extraordinary Session of the Islamic Summit Conference",
       "id": "hassan-rouhani--2017-12-13--TUR",
       "officialId": "hassan-rouhani",
       "purpose": "6th Extraordinary OIC Summits",
@@ -20526,7 +20732,7 @@
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2018 Qingdao SCO summit",
       "id": "hassan-rouhani--2018-06-09--CHN",
       "officialId": "hassan-rouhani",
       "purpose": "18th SCO Summits",
@@ -20955,7 +21161,7 @@
         "Met President Ilham Aliyev",
         "Gave a public address"
       ],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
+      "eventName": "18th Summit of the Non-Aligned Movement",
       "id": "hassan-rouhani--2019-10-23--AZE",
       "officialId": "hassan-rouhani",
       "purpose": "Non-Aligned Movement",
@@ -21058,6 +21264,34 @@
       "startDate": "2013-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-01-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamal-kharazi--2003-01-07--PRT",
+      "officialId": "kamal-kharazi",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2003-01-07",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -24021,29 +24255,32 @@
       "destination": {
         "city": "Beijing",
         "coordinates": [
-          116.4074,
-          39.9042
+          116.407526,
+          39.90403
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2012-06-08",
+      "endDate": "2012-06-07",
       "engagements": [
         "Met General Secretary Hu Jintao",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "mahmoud-ahmadinejad--2012-06-05--CHN",
+      "eventName": "2012 Beijing SCO summit",
+      "id": "mahmoud-ahmadinejad--2012-06-06--CHN",
       "officialId": "mahmoud-ahmadinejad",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2012 Beijing SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Beijing_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-06-05",
+      "startDate": "2012-06-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -24587,6 +24824,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2010-07-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "manouchehr-mottaki--2010-07-13--PRT",
+      "officialId": "manouchehr-mottaki",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2010-07-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "اربیل",
         "coordinates": [
           44.009444444,
@@ -24732,7 +24997,7 @@
       },
       "endDate": "2024-10-24",
       "engagements": [],
-      "eventName": null,
+      "eventName": "16th BRICS summit",
       "id": "masoud-pezeshkian--2024-10-22--RUS",
       "officialId": "masoud-pezeshkian",
       "purpose": "شرکت در نشست سران عضو بریکس",
@@ -24744,7 +25009,7 @@
       ],
       "startDate": "2024-10-22",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -25062,7 +25327,7 @@
         "Met General Secretary Xi Jinping",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "2025 Tianjin SCO summit",
       "id": "masoud-pezeshkian--2025-08-31--CHN",
       "officialId": "masoud-pezeshkian",
       "purpose": "دیدار دوجانبه و امضای تفاهم‌نامه های همکاری و شرکت در اجلاس سران سازمان همکاری شانگهای",
@@ -25216,6 +25481,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2026-09-13",
+      "engagements": [],
+      "eventName": "18th BRICS summit",
+      "id": "masoud-pezeshkian--2026-09-12--IND",
+      "officialId": "masoud-pezeshkian",
+      "purpose": "Attended the 18th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_BRICS_summit"
+        }
+      ],
+      "startDate": "2026-09-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -25239,6 +25531,117 @@
       "startDate": "2026-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1989-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "mir-hossein-mousavi--1989-01-01--POL",
+      "officialId": "mir-hossein-mousavi",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "1989-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1990-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "mir-hossein-mousavi--1990-01-01--ARG",
+      "officialId": "mir-hossein-mousavi",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Iran_relations"
+        }
+      ],
+      "startDate": "1990-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Islamabad",
+        "coordinates": [
+          73.036944444,
+          33.698888888
+        ],
+        "countryCode": "PAK",
+        "region": "Asia"
+      },
+      "endDate": "2024-10-16",
+      "engagements": [],
+      "eventName": "2024 Islamabad SCO summit",
+      "id": "mohammad-atabak--2024-10-15--PAK",
+      "officialId": "mohammad-atabak",
+      "purpose": "Attended the 2024 Islamabad SCO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+        }
+      ],
+      "startDate": "2024-10-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-javad-zarif--2015-04-15--PRT",
+      "officialId": "mohammad-javad-zarif",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2015-04-15",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -27173,21 +27576,25 @@
         "countryCode": "KAZ",
         "region": "Asia"
       },
-      "endDate": "2024-07-05",
+      "endDate": "2024-07-04",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "mohammad-mokhber--2024-07-04--KAZ",
+      "eventName": "2024 Astana SCO summit",
+      "id": "mohammad-mokhber--2024-07-03--KAZ",
       "officialId": "mohammad-mokhber",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Attended the 2024 Astana SCO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_Astana_SCO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-07-04",
+      "startDate": "2024-07-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -27244,6 +27651,62 @@
         }
       ],
       "startDate": "1958-06-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1965-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1965-01-01--ARG",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Iran_relations"
+        }
+      ],
+      "startDate": "1965-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1966-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammad-reza-pahlavi--1966-01-01--POL",
+      "officialId": "mohammad-reza-pahlavi",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "1966-01-01",
       "statusHint": null,
       "type": "other"
     },

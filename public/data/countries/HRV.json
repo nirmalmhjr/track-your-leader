@@ -37,6 +37,54 @@
       "wikidataId": "Q12751554"
     },
     {
+      "aliases": [
+        "Franjo Tudjman",
+        "Franjo Tudman"
+      ],
+      "countryCode": "HRV",
+      "fullName": "Franjo Tuđman",
+      "id": "franjo-tudjman",
+      "party": "Croatian Democratic Union",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Franjo_Tudjman_1995.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "1999-12-10",
+          "id": "franjo-tudjman-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1990-05-30",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "franjo-tudjman-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Representative in the Croatian Parliament",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q183703"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man"
+        }
+      ],
+      "summary": "Franjo Tuđman (14 May 1922 – 10 December 1999) was a Croatian politician and historian who became the first president of Croatia, from 1990 until his death in 1999. He served following the country's independence from Yugoslavia.",
+      "wikidataId": "Q183703"
+    },
+    {
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Ivo Josipović",
@@ -1030,7 +1078,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Branko Bacic",
-      "id": "branko-bacic-hrv",
+      "id": "branko-bacic",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1039,7 +1087,7 @@
             "deputy_leader"
           ],
           "endDate": null,
-          "id": "branko-bacic-hrv-p1",
+          "id": "branko-bacic-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -2564,7 +2612,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Irena Hrstic",
-      "id": "irena-hrstic-hrv",
+      "id": "irena-hrstic",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2573,7 +2621,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "irena-hrstic-hrv-p1",
+          "id": "irena-hrstic-p1",
           "ministry": "Ministry of Health",
           "portfolio": "health",
           "startDate": null,
@@ -2593,7 +2641,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Irena Hrstić",
-      "id": "irena-hrstic",
+      "id": "irena-hrstic-hrv",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2602,7 +2650,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "irena-hrstic-p1",
+          "id": "irena-hrstic-hrv-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2024-05-17",
@@ -2879,7 +2927,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Ivan Sipic",
-      "id": "ivan-sipic-hrv",
+      "id": "ivan-sipic",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2888,7 +2936,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "ivan-sipic-hrv-p1",
+          "id": "ivan-sipic-p1",
           "ministry": "Ministry of Demography and Immigration",
           "portfolio": null,
           "startDate": null,
@@ -3430,7 +3478,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Marija Vuckovic",
-      "id": "marija-vuckovic-hrv",
+      "id": "marija-vuckovic",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -3439,7 +3487,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "marija-vuckovic-hrv-p1",
+          "id": "marija-vuckovic-p1",
           "ministry": "Ministry of Environmental Protection and Green Transition",
           "portfolio": "environment",
           "startDate": null,
@@ -3459,7 +3507,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Marija Vučković",
-      "id": "marija-vuckovic",
+      "id": "marija-vuckovic-hrv",
       "party": "Croatian Democratic Union",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/EPP_Political_Assembly%2C_04-05_May%2C_Munich_(52869630312)_(cropped).jpg?width=160",
       "positions": [
@@ -3468,7 +3516,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "marija-vuckovic-p1",
+          "id": "marija-vuckovic-hrv-p1",
           "ministry": "Ministry of Agriculture",
           "portfolio": "agriculture",
           "startDate": "2019-07-22",
@@ -4139,7 +4187,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Nina Obuljen Korzinek",
-      "id": "nina-obuljen-korzinek-hrv",
+      "id": "nina-obuljen-korzinek",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -4148,7 +4196,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "nina-obuljen-korzinek-hrv-p1",
+          "id": "nina-obuljen-korzinek-p1",
           "ministry": "Ministry of Culture and Media",
           "portfolio": "culture",
           "startDate": null,
@@ -4168,7 +4216,7 @@
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Nina Obuljen Koržinek",
-      "id": "nina-obuljen-korzinek",
+      "id": "nina-obuljen-korzinek-hrv",
       "party": "independent politician",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nina_OBULJEN_KOR%C5%BDINEK14-5-2024.jpg?width=160",
       "positions": [
@@ -4177,7 +4225,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "nina-obuljen-korzinek-p1",
+          "id": "nina-obuljen-korzinek-hrv-p1",
           "ministry": "Ministry of Culture",
           "portfolio": "culture",
           "startDate": "2016-10-19",
@@ -5284,6 +5332,41 @@
       "wikidataId": null
     },
     {
+      "aliases": [
+        "Budimir Loncar"
+      ],
+      "countryCode": "HRV",
+      "fullName": "Budimir Lončar",
+      "id": "budimir-loncar",
+      "party": "League of Communists of Yugoslavia",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stevan_Kragujevic%2C_Budimir_Loncar%2C_jugoslovenski_i_hrvatski_politicar_i_diplomata.JPG?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2012-08-31",
+          "id": "budimir-loncar-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-08-26",
+          "title": "Advisor to the President"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Budimir_Lon%C4%8Dar"
+        }
+      ],
+      "summary": "Budimir Lončar (1 April 1924 – 1 September 2024) was a Yugoslav and Croatian official and diplomat most notable for serving as Minister of Foreign Affairs of Yugoslavia from 1987 until 1991. Lončar also served as ambassador of Yugoslavia to Indonesia, Germany and the United States.",
+      "wikidataId": "Q835217"
+    },
+    {
       "aliases": [],
       "countryCode": "HRV",
       "fullName": "Pjer Simunovic",
@@ -5546,43 +5629,6 @@
       ],
       "summary": "Đurđa Adlešič is a former Croatian politician and former leader of the center-right Croatian Social Liberal Party (HSLS). Adlešič entered politics in 1990 and was one of the founders of Croatian Social Liberal Party in her hometown.",
       "wikidataId": "Q342153"
-    },
-    {
-      "aliases": [
-        "Franjo Tudjman",
-        "Franjo Tudman"
-      ],
-      "countryCode": "HRV",
-      "fullName": "Franjo Tuđman",
-      "id": "franjo-tudjman",
-      "party": "Croatian Democratic Union",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Franjo_Tudjman_1995.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "franjo-tudjman-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Representative in the Croatian Parliament",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q183703"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Franjo_Tu%C4%91man"
-        }
-      ],
-      "summary": "Franjo Tuđman (14 May 1922 – 10 December 1999) was a Croatian politician and historian who became the first president of Croatia, from 1990 until his death in 1999. He served following the country's independence from Yugoslavia.",
-      "wikidataId": "Q183703"
     },
     {
       "aliases": [],
@@ -8725,7 +8771,7 @@
       },
       "endDate": "2019-12-04",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2019 London NATO summit",
       "id": "andrej-plenkovic--2019-12-03--GBR",
       "officialId": "andrej-plenkovic",
       "purpose": "Plenković travelled to Watford to attend the 30th NATO summit.",
@@ -14750,6 +14796,61 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "budimir-loncar--2012-08-26--IRN",
+      "officialId": "budimir-loncar",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "davor-bozinovic--2010-01-01--MEX",
+      "officialId": "davor-bozinovic",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Helsinki",
         "coordinates": [
           24.9375,
@@ -15040,6 +15141,62 @@
         }
       ],
       "startDate": "1993-11-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "franjo-tudjman--1994-01-01--ARG",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Croatia_relations"
+        }
+      ],
+      "startDate": "1994-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "franjo-tudjman--1994-01-01--CHL",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to Chile",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Croatia_relations"
+        }
+      ],
+      "startDate": "1994-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -15410,6 +15567,192 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1995-10-24",
+      "engagements": [
+        "Met President Bill Clinton",
+        "Signed agreements"
+      ],
+      "eventName": "Met with President Clinton at the UN General Assembly in New York City.",
+      "id": "franjo-tudjman--1995-10-24--USA",
+      "officialId": "franjo-tudjman",
+      "purpose": "Met with President Clinton at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-10-24",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-12-15",
+      "engagements": [
+        "Signed agreements",
+        "Gave a public address"
+      ],
+      "eventName": null,
+      "id": "franjo-tudjman--1995-12-14--FRA",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to France",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1995-12-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Sarajevo",
+        "coordinates": [
+          18.413055555,
+          43.856388888
+        ],
+        "countryCode": "BIH",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-01-04",
+      "engagements": [
+        "Met Chairman of the State Presidency Alija Izetbegovic"
+      ],
+      "eventName": null,
+      "id": "franjo-tudjman--1996-01-04--BIH",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to Bosnia and Herzegovina",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-01-04",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-08-02",
+      "engagements": [
+        "Met President Bill Clinton"
+      ],
+      "eventName": null,
+      "id": "franjo-tudjman--1996-08-01--USA",
+      "officialId": "franjo-tudjman",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-08-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Athens",
+        "coordinates": [
+          23.728055555,
+          37.984166666
+        ],
+        "countryCode": "GRC",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-08-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "franjo-tudjman--1996-08-07--GRC",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to Greece",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-08-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-11-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "franjo-tudjman--1996-11-08--USA",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1996-11-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [
           2.3522,
@@ -15585,6 +15928,122 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-10-28",
+      "engagements": [
+        "Met Pope John Paul II"
+      ],
+      "eventName": null,
+      "id": "franjo-tudjman--1999-10-28--VAT",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-10-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Rome",
+        "coordinates": [
+          12.4964,
+          41.9028
+        ],
+        "countryCode": "ITA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-10-29",
+      "engagements": [
+        "Met President Carlo Azeglio Ciampi"
+      ],
+      "eventName": null,
+      "id": "franjo-tudjman--1999-10-29--ITA",
+      "officialId": "franjo-tudjman",
+      "purpose": "Visit to Italy",
+      "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "1999-10-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Buenos Aires",
+        "coordinates": [
+          -58.381944444,
+          -34.599722222
+        ],
+        "countryCode": "ARG",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2024-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gordan-grlic-radman--2024-01-01--ARG",
+      "officialId": "gordan-grlic-radman",
+      "purpose": "Visit to Argentina",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Croatia_relations"
+        }
+      ],
+      "startDate": "2024-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2024-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "gordan-grlic-radman--2024-01-01--PER",
+      "officialId": "gordan-grlic-radman",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "2024-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -15598,8 +16057,8 @@
       "endDate": "2025-05-31",
       "engagements": [],
       "eventName": "World Health Assembly",
-      "id": "irena-hrstic-hrv--2025-05-01--CHE",
-      "officialId": "irena-hrstic-hrv",
+      "id": "irena-hrstic--2025-05-01--CHE",
+      "officialId": "irena-hrstic",
       "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA78)",
       "sources": [
         {
@@ -16281,6 +16740,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2001-10-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "ivica-racan--2001-10-25--ESP",
+      "officialId": "ivica-racan",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2001-10-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Oslo",
         "coordinates": [
           10.738888888,
@@ -16850,6 +17337,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "region": "Europe"
+      },
+      "endDate": "2010-11-20",
+      "engagements": [],
+      "eventName": "2010 Lisbon NATO summit",
+      "id": "ivo-josipovic--2010-11-19--PRT",
+      "officialId": "ivo-josipovic",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        }
+      ],
+      "startDate": "2010-11-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -16873,6 +17387,34 @@
       "startDate": "2011-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "2012 Chicago NATO summit",
+      "id": "ivo-josipovic--2012-05-20--USA",
+      "officialId": "ivo-josipovic",
+      "purpose": "Attended the 2012 Chicago NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        }
+      ],
+      "startDate": "2012-05-20",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -16904,6 +17446,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Newport",
+        "coordinates": [
+          -2.997777777,
+          51.588611111
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "2014-09-05",
+      "engagements": [],
+      "eventName": "2014 Wales NATO summit",
+      "id": "ivo-josipovic--2014-09-04--GBR",
+      "officialId": "ivo-josipovic",
+      "purpose": "Attended the 2014 Wales NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        }
+      ],
+      "startDate": "2014-09-04",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -16927,192 +17496,6 @@
       "startDate": "2014-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-10-24",
-      "engagements": [
-        "Met President Bill Clinton",
-        "Signed agreements"
-      ],
-      "eventName": "Met with President Clinton at the UN General Assembly in New York City.",
-      "id": "ivo-sanader--1995-10-24--USA",
-      "officialId": "ivo-sanader",
-      "purpose": "Met with President Clinton at the UN General Assembly in New York City.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-10-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Paris",
-        "coordinates": [
-          2.3522,
-          48.8566
-        ],
-        "countryCode": "FRA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1995-12-15",
-      "engagements": [
-        "Signed agreements",
-        "Gave a public address"
-      ],
-      "eventName": null,
-      "id": "ivo-sanader--1995-12-14--FRA",
-      "officialId": "ivo-sanader",
-      "purpose": "Visit to France",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1995-12-14",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Sarajevo",
-        "coordinates": [
-          18.413055555,
-          43.856388888
-        ],
-        "countryCode": "BIH",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1996-01-04",
-      "engagements": [
-        "Met Chairman of the State Presidency Alija Izetbegovic"
-      ],
-      "eventName": null,
-      "id": "ivo-sanader--1996-01-04--BIH",
-      "officialId": "ivo-sanader",
-      "purpose": "Visit to Bosnia and Herzegovina",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-01-04",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-08-02",
-      "engagements": [
-        "Met President Bill Clinton"
-      ],
-      "eventName": null,
-      "id": "ivo-sanader--1996-08-01--USA",
-      "officialId": "ivo-sanader",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-08-01",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Athens",
-        "coordinates": [
-          23.728055555,
-          37.984166666
-        ],
-        "countryCode": "GRC",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1996-08-07",
-      "engagements": [],
-      "eventName": null,
-      "id": "ivo-sanader--1996-08-07--GRC",
-      "officialId": "ivo-sanader",
-      "purpose": "Visit to Greece",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-08-07",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-11-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "ivo-sanader--1996-11-08--USA",
-      "officialId": "ivo-sanader",
-      "purpose": "Visit to United States",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1996-11-08",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -25305,7 +25688,7 @@
       },
       "endDate": "2016-07-10",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2016 Warsaw NATO summit",
       "id": "kolinda-grabar-kitarovic--2016-07-08--POL",
       "officialId": "kolinda-grabar-kitarovic",
       "purpose": "Attending the 27th NATO Summit",
@@ -25734,15 +26117,14 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2017-05-25",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2017 Brussels NATO summit",
       "id": "kolinda-grabar-kitarovic--2017-05-25--BEL",
       "officialId": "kolinda-grabar-kitarovic",
-      "purpose": "28th NATO summit",
+      "purpose": "Attended the 2017 Brussels NATO summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -26341,6 +26723,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2018-07-12",
+      "engagements": [],
+      "eventName": "2018 Brussels NATO summit",
+      "id": "kolinda-grabar-kitarovic--2018-07-11--BEL",
+      "officialId": "kolinda-grabar-kitarovic",
+      "purpose": "Attended the 2018 Brussels NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Brussels_NATO_summit"
+        }
+      ],
+      "startDate": "2018-07-11",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Riga",
         "coordinates": [
           24.106944444,
@@ -26449,6 +26858,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1994-06-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "mate-granic--1994-06-28--ESP",
+      "officialId": "mate-granic",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1994-06-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2004-06-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "miomir-zuzul--2004-06-09--ESP",
+      "officialId": "miomir-zuzul",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2004-06-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -26473,6 +26938,145 @@
       "startDate": "2000-08-07",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "stjepan-mesic--2000-10-10--ESP",
+      "officialId": "stjepan-mesic",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2000-10-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "stjepan-mesic--2002-01-01--MEX",
+      "officialId": "stjepan-mesic",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2005-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "stjepan-mesic--2005-01-01--CHL",
+      "officialId": "stjepan-mesic",
+      "purpose": "Visit to Chile",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Croatia_relations"
+        }
+      ],
+      "startDate": "2005-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2005-03-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "stjepan-mesic--2005-03-08--ESP",
+      "officialId": "stjepan-mesic",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "2005-03-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Palace of the Parliament",
+        "coordinates": [
+          26.0875,
+          44.4275
+        ],
+        "countryCode": "ROU",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-04",
+      "engagements": [],
+      "eventName": "2008 Bucharest NATO summit",
+      "id": "stjepan-mesic--2008-04-02--ROU",
+      "officialId": "stjepan-mesic",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        }
+      ],
+      "startDate": "2008-04-02",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -26962,62 +27566,58 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Vatican City",
+        "city": "Madrid",
         "coordinates": [
-          12.453,
-          41.904
+          -3.703333333,
+          40.416944444
         ],
-        "countryCode": "VAT",
+        "countryCode": "ESP",
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1999-10-28",
-      "engagements": [
-        "Met Pope John Paul II"
-      ],
+      "endDate": "2001-03-01",
+      "engagements": [],
       "eventName": null,
-      "id": "vlatko-pavletic--1999-10-28--VAT",
-      "officialId": "vlatko-pavletic",
-      "purpose": "Visit to Vatican City",
+      "id": "tonino-picula--2001-03-01--ESP",
+      "officialId": "tonino-picula",
+      "purpose": "Visit to Spain",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
         }
       ],
-      "startDate": "1999-10-28",
+      "startDate": "2001-03-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "other"
     },
     {
-      "datePrecision": "day",
+      "datePrecision": "year",
       "destination": {
-        "city": "Rome",
+        "city": "Santiago",
         "coordinates": [
-          12.4964,
-          41.9028
+          -70.65,
+          -33.4375
         ],
-        "countryCode": "ITA",
+        "countryCode": "CHL",
         "precision": "country",
-        "region": "Europe"
+        "region": "Americas"
       },
-      "endDate": "1999-10-29",
-      "engagements": [
-        "Met President Carlo Azeglio Ciampi"
-      ],
+      "endDate": "2013-12-31",
+      "engagements": [],
       "eventName": null,
-      "id": "vlatko-pavletic--1999-10-29--ITA",
-      "officialId": "vlatko-pavletic",
-      "purpose": "Visit to Italy",
+      "id": "vesna-pusic--2013-01-01--CHL",
+      "officialId": "vesna-pusic",
+      "purpose": "Visit to Chile",
       "sources": [
         {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Croatia_relations"
         }
       ],
-      "startDate": "1999-10-29",
+      "startDate": "2013-01-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -27044,6 +27644,34 @@
         }
       ],
       "startDate": "1996-04-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1997-07-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "zlatko-matesa--1997-07-21--ESP",
+      "officialId": "zlatko-matesa",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Croatia%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1997-07-21",
       "statusHint": null,
       "type": "other"
     },
@@ -27871,6 +28499,10 @@
       "officialId": "zoran-milanovic",
       "purpose": "Attended European Union (EU)-Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chile%E2%80%93Croatia_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -30238,6 +30870,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2021-06-14",
+      "engagements": [],
+      "eventName": "2021 Brussels NATO summit",
+      "id": "zoran-milanovic--2021-06-14--BEL",
+      "officialId": "zoran-milanovic",
+      "purpose": "Attended the 2021 Brussels NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2021_Brussels_NATO_summit"
+        }
+      ],
+      "startDate": "2021-06-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bratislava",
         "coordinates": [
           17.1093063,
@@ -30372,6 +31031,60 @@
       "startDate": "2021-11-16",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "region": "Europe"
+      },
+      "endDate": "2022-03-24",
+      "engagements": [],
+      "eventName": "2022 Brussels extraordinary NATO summit",
+      "id": "zoran-milanovic--2022-03-24--BEL",
+      "officialId": "zoran-milanovic",
+      "purpose": "Attended the 2022 Brussels extraordinary NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Brussels_extraordinary_NATO_summit"
+        }
+      ],
+      "startDate": "2022-03-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "region": "Europe"
+      },
+      "endDate": "2022-06-30",
+      "engagements": [],
+      "eventName": "2022 Madrid NATO summit",
+      "id": "zoran-milanovic--2022-06-29--ESP",
+      "officialId": "zoran-milanovic",
+      "purpose": "Attended the 2022 Madrid NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Madrid_NATO_summit"
+        }
+      ],
+      "startDate": "2022-06-29",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -30538,6 +31251,33 @@
       "startDate": "2023-05-25",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vilnius",
+        "coordinates": [
+          25.28,
+          54.687222222
+        ],
+        "countryCode": "LTU",
+        "region": "Europe"
+      },
+      "endDate": "2023-07-12",
+      "engagements": [],
+      "eventName": "2023 Vilnius NATO summit",
+      "id": "zoran-milanovic--2023-07-11--LTU",
+      "officialId": "zoran-milanovic",
+      "purpose": "Attended the 2023 Vilnius NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_Vilnius_NATO_summit"
+        }
+      ],
+      "startDate": "2023-07-11",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -30772,6 +31512,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Amsterdam",
+        "coordinates": [
+          4.883333333,
+          52.366666666
+        ],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-06-25",
+      "engagements": [],
+      "eventName": "2025 The Hague NATO summit",
+      "id": "zoran-milanovic--2025-06-24--NLD",
+      "officialId": "zoran-milanovic",
+      "purpose": "Attended the 2025 The Hague NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_The_Hague_NATO_summit"
+        }
+      ],
+      "startDate": "2025-06-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -30958,7 +31726,7 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "zoran-milanovic--2026-07-07--TUR",
       "officialId": "zoran-milanovic",
       "purpose": "Attended the 36th NATO summit.",
@@ -31000,6 +31768,33 @@
       "startDate": "2026-07-09",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "zoran-milanovic--2027-01-01--ALB",
+      "officialId": "zoran-milanovic",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
+      "statusHint": "planned",
+      "type": "summit"
     }
   ]
 }

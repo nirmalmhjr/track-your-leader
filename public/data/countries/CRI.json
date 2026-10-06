@@ -3704,6 +3704,10 @@
       "purpose": "Attended Summit of the Americas",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -3820,6 +3824,10 @@
       "officialId": "abel-pacheco",
       "purpose": "Attended Central America-Spain Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5198,6 +5206,10 @@
       "purpose": "Attended Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5444,6 +5456,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5477,6 +5493,34 @@
         }
       ],
       "startDate": "2022-03-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1976-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-oduber-quiros--1976-01-01--ESP",
+      "officialId": "daniel-oduber-quiros",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1976-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -5591,6 +5635,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1956-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-figueres-ferrer--1956-01-01--ESP",
+      "officialId": "jose-figueres-ferrer",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1956-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -5615,6 +5687,62 @@
         }
       ],
       "startDate": "1970-10-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-figueres-ferrer--1971-01-01--MEX",
+      "officialId": "jose-figueres-ferrer",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1971-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1967-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-joaquin-trejos-fernandez--1967-01-01--MEX",
+      "officialId": "jose-joaquin-trejos-fernandez",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1967-01-01",
       "statusHint": null,
       "type": "other"
     },
@@ -7738,6 +7866,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7928,28 +8060,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "laura-chinchilla--2012-04-13--COL",
+      "eventName": "6th Summit of the Americas",
+      "id": "laura-chinchilla--2012-04-14--COL",
       "officialId": "laura-chinchilla",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-13",
+      "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -8356,6 +8491,10 @@
       "officialId": "laura-chinchilla",
       "purpose": "Attended Ibero-American Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8832,6 +8971,34 @@
       "type": "conference"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1984-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-alberto-monge--1984-01-01--ESP",
+      "officialId": "luis-alberto-monge",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1984-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -9175,6 +9342,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9251,18 +9422,21 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2015-04-11",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "7th Summit of the Americas",
       "id": "luis-guillermo-solis--2015-04-10--PAN",
       "officialId": "luis-guillermo-solis",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10158,6 +10332,10 @@
       "purpose": "Visit to Spain",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10384,22 +10562,25 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-04-14",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
-      "id": "luis-guillermo-solis--2018-04-11--PER",
+      "eventName": "8th Summit of the Americas",
+      "id": "luis-guillermo-solis--2018-04-13--PER",
       "officialId": "luis-guillermo-solis",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-11",
+      "startDate": "2018-04-13",
       "statusHint": null,
       "type": "summit"
     },
@@ -11041,6 +11222,10 @@
       "purpose": "Visit to Mexico",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -11626,6 +11811,10 @@
       "officialId": "miguel-angel-rodriguez-echeverria",
       "purpose": "Attended Inter-American Development Bank (IDB) Consultative Group Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12225,6 +12414,62 @@
       "startDate": "1986-12-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Madrid",
+        "coordinates": [
+          -3.703333333,
+          40.416944444
+        ],
+        "countryCode": "ESP",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1987-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "oscar-arias-sanchez--1987-01-01--ESP",
+      "officialId": "oscar-arias-sanchez",
+      "purpose": "Visit to Spain",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        }
+      ],
+      "startDate": "1987-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "oscar-arias-sanchez--1987-01-01--MEX",
+      "officialId": "oscar-arias-sanchez",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1987-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -13506,16 +13751,19 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "oscar-arias-sanchez--2009-04-17--TTO",
       "officialId": "oscar-arias-sanchez",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13960,6 +14208,10 @@
       "officialId": "rafael-angel-calderon",
       "purpose": "Attended Regional free-trade Agreement Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14550,6 +14802,10 @@
       "purpose": "Attended Ibero-American Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Spain_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15127,6 +15383,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rodrigo-carazo-odio--1979-01-01--MEX",
+      "officialId": "rodrigo-carazo-odio",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Costa_Rica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1979-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -15187,13 +15471,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -15206,6 +15489,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
         },
         {
           "label": "COLT dataset",

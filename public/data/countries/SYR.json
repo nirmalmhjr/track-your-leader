@@ -215,7 +215,7 @@
           "url": "https://en.wikipedia.org/wiki/Bashar_al-Assad"
         }
       ],
-      "summary": "Bashar Hafez al-Assad (born 11 September 1965) is a former Syrian politician, medical doctor, military officer, and dictator who served as the president of Syria from 2000 until his overthrow in 2024 after the Syrian civil war. He is the son of Hafez al-Assad, who ruled Syria from 1970 to 2000.",
+      "summary": "Bashar Hafez al-Assad (born 11 September 1965) is a Syrian former politician, medical doctor, military officer, and dictator who served as the president of Syria from 2000 until his overthrow in 2024 after the Syrian civil war. He is the son of dictator Hafez al-Assad, who ruled Syria from 1970 to 2000.",
       "wikidataId": "Q44329"
     },
     {
@@ -4975,6 +4975,35 @@
     {
       "aliases": [],
       "countryCode": "SYR",
+      "fullName": "Kawkab Sabah al-Daya",
+      "id": "kawkab-sabah-al-daya",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2010-12-31",
+          "id": "kawkab-sabah-al-daya-p1",
+          "ministry": null,
+          "portfolio": "environment",
+          "startDate": "2010-01-01",
+          "title": "Minister of the Environment"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Syria_relations"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "SYR",
       "fullName": "Kenan Yaghi",
       "id": "kenan-yaghi",
       "party": null,
@@ -8715,6 +8744,35 @@
       "wikidataId": "Q111209612"
     },
     {
+      "aliases": [],
+      "countryCode": "SYR",
+      "fullName": "Kofi Annan",
+      "id": "kofi-annan",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2012-03-29",
+          "id": "kofi-annan-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-03-27",
+          "title": "United Nations \\ Arab League Special Envoy on"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Akram Al-Hourani"
       ],
@@ -10076,6 +10134,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Paris",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-06-17",
+      "engagements": [],
+      "eventName": "52nd G7 summit",
+      "id": "ahmed-al-sharaa--2026-06-15--FRA",
+      "officialId": "ahmed-al-sharaa",
+      "purpose": "Attended the 52nd G7 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/52nd_G7_summit"
+        }
+      ],
+      "startDate": "2026-06-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ankara",
         "coordinates": [
           32.83869,
@@ -10086,17 +10172,17 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
-      "id": "ahmed-al-sharaa--2026-07-08--TUR",
+      "eventName": "2026 Ankara NATO summit",
+      "id": "ahmed-al-sharaa--2026-07-07--TUR",
       "officialId": "ahmed-al-sharaa",
-      "purpose": "President al-Sharaa arrived at the Presidential Complex in Ankara to attend the NATO Summit.",
+      "purpose": "Attended the 2026 Ankara NATO summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Ahmed_al-Sharaa"
+          "url": "https://en.wikipedia.org/wiki/2026_Ankara_NATO_summit"
         }
       ],
-      "startDate": "2026-07-08",
+      "startDate": "2026-07-07",
       "statusHint": null,
       "type": "summit"
     },
@@ -10287,6 +10373,87 @@
       ],
       "startDate": "2027-06-23",
       "statusHint": "planned",
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cairo",
+        "coordinates": [
+          31.235833333,
+          30.044444444
+        ],
+        "countryCode": "EGY",
+        "region": "Africa"
+      },
+      "endDate": "1964-01-16",
+      "engagements": [],
+      "eventName": "1964 Arab League summit (Cairo)",
+      "id": "amin-al-hafez--1964-01-13--EGY",
+      "officialId": "amin-al-hafez",
+      "purpose": "Attended the 1964 Arab League summit (Cairo)",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1964_Arab_League_summit_(Cairo)"
+        }
+      ],
+      "startDate": "1964-01-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Casablanca",
+        "coordinates": [
+          -7.62,
+          33.599166666
+        ],
+        "countryCode": "MAR",
+        "region": "Africa"
+      },
+      "endDate": "1965-09-13",
+      "engagements": [],
+      "eventName": "1965 Arab League summit",
+      "id": "amin-al-hafez--1965-09-13--MAR",
+      "officialId": "amin-al-hafez",
+      "purpose": "Attended the 1965 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1965_Arab_League_summit"
+        }
+      ],
+      "startDate": "1965-09-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "region": "Asia"
+      },
+      "endDate": "2025-05-31",
+      "engagements": [],
+      "eventName": "2025 Arab League summit",
+      "id": "asaad-al-shaibani--2025-05-01--IRQ",
+      "officialId": "asaad-al-shaibani",
+      "purpose": "Attended the 2025 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Arab_League_summit"
+        }
+      ],
+      "startDate": "2025-05-01",
+      "statusHint": null,
       "type": "summit"
     },
     {
@@ -11924,21 +12091,21 @@
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Arab League Summit",
-      "id": "bashar-donkey--2005-03-21--DZA",
+      "eventName": "2005 Arab League summit",
+      "id": "bashar-donkey--2005-03-22--DZA",
       "officialId": "bashar-donkey",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2005 Arab League summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Bashar_al-Assad"
+          "url": "https://en.wikipedia.org/wiki/2005_Arab_League_summit"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-03-21",
+      "startDate": "2005-03-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -14804,6 +14971,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Baku",
+        "coordinates": [
+          49.835183333,
+          40.366655555
+        ],
+        "countryCode": "AZE",
+        "region": "Asia"
+      },
+      "endDate": "2019-10-26",
+      "engagements": [],
+      "eventName": "18th Summit of the Non-Aligned Movement",
+      "id": "faisal-miqdad--2019-10-25--AZE",
+      "officialId": "faisal-miqdad",
+      "purpose": "Attended the 18th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2019-10-25",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -17630,6 +17824,61 @@
       "type": "diplomatic_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kawkab-sabah-al-daya--2010-01-01--MEX",
+      "officialId": "kawkab-sabah-al-daya",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Syria_relations"
+        }
+      ],
+      "startDate": "2010-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "region": "Asia"
+      },
+      "endDate": "2012-03-29",
+      "engagements": [],
+      "eventName": "2012 Arab League summit",
+      "id": "kofi-annan--2012-03-27--IRQ",
+      "officialId": "kofi-annan",
+      "purpose": "Attended the 2012 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+        }
+      ],
+      "startDate": "2012-03-27",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Riyadh",
@@ -17890,6 +18139,33 @@
       "startDate": "2025-05-10",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "wael-al-halqi--2012-08-26--IRN",
+      "officialId": "wael-al-halqi",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

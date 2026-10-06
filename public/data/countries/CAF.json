@@ -2198,7 +2198,7 @@
       "aliases": [],
       "countryCode": "CAF",
       "fullName": "Bienvenu Zokoue",
-      "id": "bienvenu-zokoue-caf",
+      "id": "bienvenu-zokoue",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2207,7 +2207,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "bienvenu-zokoue-caf-p1",
+          "id": "bienvenu-zokoue-p1",
           "ministry": "Ministry of the Interior and Public Security",
           "portfolio": "home_affairs",
           "startDate": null,
@@ -2227,7 +2227,7 @@
       "aliases": [],
       "countryCode": "CAF",
       "fullName": "Bienvenu Zokoué",
-      "id": "bienvenu-zokoue",
+      "id": "bienvenu-zokoue-caf",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2236,7 +2236,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "bienvenu-zokoue-p1",
+          "id": "bienvenu-zokoue-caf-p1",
           "ministry": "Ministry of Interior and Public Security",
           "portfolio": "home_affairs",
           "startDate": "2026-05-21",
@@ -16320,30 +16320,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
+        "city": "Johannesburg",
         "coordinates": [
-          28.2293,
-          -25.7479
+          28.041638888,
+          -26.204361111
         ],
         "countryCode": "ZAF",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2023-08-24",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "faustin-archange-touadera--2023-08-23--ZAF",
+      "eventName": "15th BRICS summit",
+      "id": "faustin-archange-touadera--2023-08-22--ZAF",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-08-23",
+      "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -21325,24 +21328,27 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-08-31",
       "engagements": [
         "Met President Mahmoud Ahmadinejad"
       ],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "francois-bozize--2012-08-30--IRN",
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "francois-bozize--2012-08-26--IRN",
       "officialId": "francois-bozize",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-08-30",
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },

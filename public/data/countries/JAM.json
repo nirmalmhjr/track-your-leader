@@ -461,6 +461,17 @@
           "portfolio": null,
           "startDate": "2009-09-26",
           "title": "Deputy Prime Minister"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2008-12-31",
+          "id": "kenneth-baugh-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2008-01-01",
+          "title": "Foreign Minister"
         }
       ],
       "sources": [
@@ -471,6 +482,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jamaica%E2%80%93Mexico_relations"
         },
         {
           "label": "Wikipedia",
@@ -1055,7 +1070,7 @@
       "aliases": [],
       "countryCode": "JAM",
       "fullName": "Derrick Mckoy",
-      "id": "derrick-mckoy-jam",
+      "id": "derrick-mckoy",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1064,7 +1079,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "derrick-mckoy-jam-p1",
+          "id": "derrick-mckoy-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -1087,7 +1102,7 @@
       ],
       "countryCode": "JAM",
       "fullName": "Derrick McKoy",
-      "id": "derrick-mckoy",
+      "id": "derrick-mckoy-jam",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1096,7 +1111,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "derrick-mckoy-p1",
+          "id": "derrick-mckoy-jam-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2022-01-11",
@@ -1120,7 +1135,7 @@
       "aliases": [],
       "countryCode": "JAM",
       "fullName": "Desmond Mckenzie",
-      "id": "desmond-mckenzie-jam",
+      "id": "desmond-mckenzie",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1129,7 +1144,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "desmond-mckenzie-jam-p1",
+          "id": "desmond-mckenzie-p1",
           "ministry": "Ministry of Local Govt. and Rural Development",
           "portfolio": null,
           "startDate": null,
@@ -1149,7 +1164,7 @@
       "aliases": [],
       "countryCode": "JAM",
       "fullName": "Desmond McKenzie",
-      "id": "desmond-mckenzie",
+      "id": "desmond-mckenzie-jam",
       "party": "Jamaica Labour Party",
       "photoUrl": null,
       "positions": [
@@ -1158,7 +1173,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "desmond-mckenzie-p1",
+          "id": "desmond-mckenzie-jam-p1",
           "ministry": "Ministry of Local Government and Rural Development",
           "portfolio": null,
           "startDate": "2016-03-07",
@@ -1169,7 +1184,7 @@
             "local_leader"
           ],
           "endDate": "2012-01-01",
-          "id": "desmond-mckenzie-p2",
+          "id": "desmond-mckenzie-jam-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "2003-01-01",
@@ -4605,18 +4620,21 @@
           -12.06
         ],
         "countryCode": "PER",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2018-04-14",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "8th Summit of the Americas",
       "id": "andrew-holness--2018-04-13--PER",
       "officialId": "andrew-holness",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 8th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4661,59 +4679,65 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-21",
+      "endDate": "2018-04-20",
       "engagements": [
         "Met Prime Minister Theresa May"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "andrew-holness--2018-04-17--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "andrew-holness--2018-04-19--GBR",
       "officialId": "andrew-holness",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-17",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "La Malbaie",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -70.149444444,
+          47.652222222
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-06-11",
+      "endDate": "2018-06-09",
       "engagements": [
         "Met Prime Minister Justin Trudeau",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
-      "id": "andrew-holness--2018-06-09--CAN",
+      "eventName": "44th G7 summit",
+      "id": "andrew-holness--2018-06-08--CAN",
       "officialId": "andrew-holness",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 44th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/44th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-09",
+      "startDate": "2018-06-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -4851,22 +4875,25 @@
           -34.599722222
         ],
         "countryCode": "ARG",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2018-12-02",
+      "endDate": "2018-12-01",
       "engagements": [],
-      "eventName": "G20 Summit",
-      "id": "andrew-holness--2018-12-01--ARG",
+      "eventName": "2018 G20 Buenos Aires summit",
+      "id": "andrew-holness--2018-11-30--ARG",
       "officialId": "andrew-holness",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2018 G20 Buenos Aires summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_G20_Buenos_Aires_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-12-01",
+      "startDate": "2018-11-30",
       "statusHint": null,
       "type": "summit"
     },
@@ -5387,13 +5414,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Los Angeles",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -118.24368,
+          34.05223
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-06-10",
@@ -5409,6 +5435,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/9th_Summit_of_the_Americas"
         },
         {
           "label": "COLT dataset",
@@ -5428,22 +5458,25 @@
           -1.9525
         ],
         "countryCode": "RWA",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2022-06-24",
+      "endDate": "2022-06-25",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "andrew-holness--2022-06-23--RWA",
+      "eventName": "2022 Commonwealth Heads of Government Meeting",
+      "id": "andrew-holness--2022-06-24--RWA",
       "officialId": "andrew-holness",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2022 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-23",
+      "startDate": "2022-06-24",
       "statusHint": null,
       "type": "summit"
     },
@@ -6139,22 +6172,26 @@
         "countryCode": "ZAF",
         "region": "Africa"
       },
-      "endDate": "2025-11-24",
+      "endDate": "2025-11-23",
       "engagements": [
         "Met President Cyril Ramaphosa",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "andrew-holness--2025-11-20--ZAF",
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "andrew-holness--2025-11-22--ZAF",
       "officialId": "andrew-holness",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-20",
+      "startDate": "2025-11-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -6713,18 +6750,21 @@
           10.666666666
         ],
         "countryCode": "TTO",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2009-04-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Summit of the Americas (SOA)",
+      "eventName": "5th Summit of the Americas",
       "id": "bruce-golding--2009-04-17--TTO",
       "officialId": "bruce-golding",
-      "purpose": "Attended Summit of the Americas (SOA)",
+      "purpose": "Attended the 5th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/5th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7084,22 +7124,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Huntsville",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -79.216666666,
+          45.333333333
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-06-28",
+      "endDate": "2010-06-26",
       "engagements": [],
-      "eventName": "G20 Summit",
+      "eventName": "36th G8 summit",
       "id": "bruce-golding--2010-06-25--CAN",
       "officialId": "bruce-golding",
-      "purpose": "Attended G20 Summit and G8 Summit",
+      "purpose": "Attended the 36th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/36th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7571,6 +7614,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "hugh-shearer--1971-01-14--SGP",
+      "officialId": "hugh-shearer",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -7594,6 +7665,34 @@
       "startDate": "2017-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2021-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamina-johnson-smith--2021-01-01--MEX",
+      "officialId": "kamina-johnson-smith",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jamaica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2021-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -7677,6 +7776,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kenneth-baugh--2008-01-01--MEX",
+      "officialId": "kenneth-baugh",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jamaica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2008-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -7733,6 +7860,88 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "michael-manley--1973-08-02--CAN",
+      "officialId": "michael-manley",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1975-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "michael-manley--1975-01-01--MEX",
+      "officialId": "michael-manley",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jamaica%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1975-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "michael-manley--1977-06-08--GBR",
+      "officialId": "michael-manley",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -7757,6 +7966,33 @@
       "startDate": "1977-12-16",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "michael-manley--1979-08-01--ZMB",
+      "officialId": "michael-manley",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -8753,6 +8989,10 @@
       "officialId": "p-j-patterson",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jamaica%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11762,30 +12002,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bogotá",
+        "city": "Cartagena",
         "coordinates": [
-          -74.08175,
-          4.60971
+          -75.525277777,
+          10.423611111
         ],
         "countryCode": "COL",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2012-04-15",
       "engagements": [
         "Met President Juan Manuel Santos"
       ],
-      "eventName": "Organization of American States (OAS) Summit",
-      "id": "portia-simpson-miller--2012-04-12--COL",
+      "eventName": "6th Summit of the Americas",
+      "id": "portia-simpson-miller--2012-04-14--COL",
       "officialId": "portia-simpson-miller",
-      "purpose": "Attended Organization of American States (OAS) Summit",
+      "purpose": "Attended the 6th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/6th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-12",
+      "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
     },
@@ -12361,6 +12604,10 @@
       "purpose": "Attended Association of Caribbean States (ACS) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jamaica%E2%80%93Mexico_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12702,24 +12949,27 @@
           8.971111111
         ],
         "countryCode": "PAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2015-04-12",
+      "endDate": "2015-04-11",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Organization of American States (OAS) Summit",
-      "id": "portia-simpson-miller--2015-04-11--PAN",
+      "eventName": "7th Summit of the Americas",
+      "id": "portia-simpson-miller--2015-04-10--PAN",
       "officialId": "portia-simpson-miller",
-      "purpose": "Attended Organization of American States (OAS) Summit",
+      "purpose": "Attended the 7th Summit of the Americas",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/7th_Summit_of_the_Americas"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-11",
+      "startDate": "2015-04-10",
       "statusHint": null,
       "type": "summit"
     },

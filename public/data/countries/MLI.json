@@ -1665,7 +1665,7 @@
       "aliases": [],
       "countryCode": "MLI",
       "fullName": "Amadou Keita",
-      "id": "amadou-keita-mli",
+      "id": "amadou-keita",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1674,7 +1674,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "amadou-keita-mli-p1",
+          "id": "amadou-keita-p1",
           "ministry": "Ministry of Mines",
           "portfolio": null,
           "startDate": null,
@@ -1696,7 +1696,7 @@
       ],
       "countryCode": "MLI",
       "fullName": "Amadou Keïta",
-      "id": "amadou-keita",
+      "id": "amadou-keita-mli",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1705,7 +1705,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "amadou-keita-p1",
+          "id": "amadou-keita-mli-p1",
           "ministry": "Ministry of Higher Education and Scientific Research",
           "portfolio": "education",
           "startDate": "2021-06-11",
@@ -2094,7 +2094,7 @@
       "aliases": [],
       "countryCode": "MLI",
       "fullName": "Dembele Madina Sissoko",
-      "id": "dembele-madina-sissoko-mli",
+      "id": "dembele-madina-sissoko",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2103,7 +2103,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "dembele-madina-sissoko-mli-p1",
+          "id": "dembele-madina-sissoko-p1",
           "ministry": "Ministry of Transport and Infrastructure",
           "portfolio": "transport",
           "startDate": null,
@@ -2126,7 +2126,7 @@
       ],
       "countryCode": "MLI",
       "fullName": "Dembéle Madina Sissoko",
-      "id": "dembele-madina-sissoko",
+      "id": "dembele-madina-sissoko-mli",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2135,7 +2135,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "dembele-madina-sissoko-p1",
+          "id": "dembele-madina-sissoko-mli-p1",
           "ministry": "Ministry of Transport and Infrastructure",
           "portfolio": "transport",
           "startDate": "2021-06-11",
@@ -9473,22 +9473,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "Genoa",
         "coordinates": [
-          12.4964,
-          41.9028
+          8.933888888,
+          44.407222222
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2001-07-22",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "27th G8 summit",
       "id": "alpha-oumar-konare--2001-07-19--ITA",
       "officialId": "alpha-oumar-konare",
-      "purpose": "Attended G8 Summit and Algeria-Mali-Nigeria Trilateral Meeting",
+      "purpose": "Attended the 27th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/27th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20811,6 +20814,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Belgrade",
+        "coordinates": [
+          20.456944444,
+          44.817777777
+        ],
+        "countryCode": "SRB",
+        "region": "Europe"
+      },
+      "endDate": "1961-09-06",
+      "engagements": [],
+      "eventName": "1st Summit of the Non-Aligned Movement",
+      "id": "modibo-keita--1961-09-01--SRB",
+      "officialId": "modibo-keita",
+      "purpose": "Attended the 1st Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "1961-09-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -21344,6 +21374,33 @@
       "startDate": "2013-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "tieman-hubert-coulibaly--2012-08-26--IRN",
+      "officialId": "tieman-hubert-coulibaly",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     }
   ]
 }

@@ -3590,30 +3590,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Coolum Beach",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.1,
+          -26.5333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2002-03-05",
       "engagements": [
         "Met Prime Minster John Howard"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "allan-kemakeza--2002-03-04--AUS",
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "allan-kemakeza--2002-03-02--AUS",
       "officialId": "allan-kemakeza",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-03-04",
+      "startDate": "2002-03-02",
       "statusHint": null,
       "type": "summit"
     },
@@ -5646,26 +5649,29 @@
       "destination": {
         "city": "Colombo",
         "coordinates": [
-          79.8612,
-          6.9271
+          79.860555555,
+          6.926666666
         ],
         "countryCode": "LKA",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2013-11-17",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "gordon-darcy-lilo--2013-11-16--LKA",
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "gordon-darcy-lilo--2013-11-15--LKA",
       "officialId": "gordon-darcy-lilo",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-11-16",
+      "startDate": "2013-11-15",
       "statusHint": null,
       "type": "summit"
     },
@@ -7239,26 +7245,29 @@
           -18.133333333
         ],
         "countryCode": "FJI",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2022-07-14",
       "engagements": [
         "Met Prime Minister Frank Bainimarama"
       ],
-      "eventName": "Pacific Islands Forum (PIF)",
-      "id": "manasseh-sogavare--2022-07-12--FJI",
+      "eventName": "51st Pacific Islands Forum",
+      "id": "manasseh-sogavare--2022-07-11--FJI",
       "officialId": "manasseh-sogavare",
-      "purpose": "Attended Pacific Islands Forum (PIF)",
+      "purpose": "Attended the 51st Pacific Islands Forum",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/51st_Pacific_Islands_Forum"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-07-12",
+      "startDate": "2022-07-11",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7629,6 +7638,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lusaka",
+        "coordinates": [
+          28.283333333,
+          -15.416666666
+        ],
+        "countryCode": "ZMB",
+        "region": "Africa"
+      },
+      "endDate": "1979-08-07",
+      "engagements": [],
+      "eventName": "1979 Commonwealth Heads of Government Meeting",
+      "id": "peter-kenilorea--1979-08-01--ZMB",
+      "officialId": "peter-kenilorea",
+      "purpose": "Attended the 1979 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1979_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1979-08-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -7652,6 +7688,33 @@
       "startDate": "2010-09-27",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Perth",
+        "coordinates": [
+          115.859722222,
+          -31.955833333
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "2011-10-30",
+      "engagements": [],
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "peter-shannel-agovaka--2011-10-28--AUS",
+      "officialId": "peter-shannel-agovaka",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2011-10-28",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7685,26 +7748,29 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-04-18",
+      "endDate": "2018-04-20",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "rick-hou--2018-04-17--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "rick-hou--2018-04-19--GBR",
       "officialId": "rick-hou",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-17",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -7925,22 +7991,25 @@
           -9.478888888
         ],
         "countryCode": "PNG",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2018-11-20",
+      "endDate": "2018-11-18",
       "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "rick-hou--2018-11-19--PNG",
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "rick-hou--2018-11-17--PNG",
       "officialId": "rick-hou",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-19",
+      "startDate": "2018-11-17",
       "statusHint": null,
       "type": "summit"
     },

@@ -6172,7 +6172,7 @@
       "aliases": [],
       "countryCode": "GRC",
       "fullName": "Christos Dimas",
-      "id": "christos-dimas-grc",
+      "id": "christos-dimas",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -6181,7 +6181,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "christos-dimas-grc-p1",
+          "id": "christos-dimas-p1",
           "ministry": "Ministry of Infrastructure and Transport",
           "portfolio": "transport",
           "startDate": null,
@@ -13177,7 +13177,7 @@
       "aliases": [],
       "countryCode": "GRC",
       "fullName": "Niki Kerameos",
-      "id": "niki-kerameos-grc",
+      "id": "niki-kerameos",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -13186,7 +13186,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "niki-kerameos-grc-p1",
+          "id": "niki-kerameos-p1",
           "ministry": "Ministry of Labor and Social Security",
           "portfolio": "labour",
           "startDate": null,
@@ -45935,7 +45935,7 @@
       ],
       "countryCode": "GRC",
       "fullName": "Níki Keraméos",
-      "id": "niki-kerameos",
+      "id": "niki-kerameos-grc",
       "party": "New Democracy",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Niki_KERAMEUS_(cropped).jpg?width=160",
       "positions": [
@@ -45944,7 +45944,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "niki-kerameos-p1",
+          "id": "niki-kerameos-grc-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2015-09-20",
@@ -45955,7 +45955,7 @@
             "minister"
           ],
           "endDate": "2023-05-26",
-          "id": "niki-kerameos-p2",
+          "id": "niki-kerameos-grc-p2",
           "ministry": "Ministry of National Education and Religious Affairs of Greece",
           "portfolio": "education",
           "startDate": "2019-07-09",
@@ -45966,7 +45966,7 @@
             "legislator"
           ],
           "endDate": "2015-08-28",
-          "id": "niki-kerameos-p3",
+          "id": "niki-kerameos-grc-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2015-01-25",
@@ -54159,6 +54159,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1954-10-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "alexandros-papagos--1954-10-27--PRT",
+      "officialId": "alexandros-papagos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "1954-10-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Nicosia",
         "coordinates": [
           33.365,
@@ -55732,7 +55760,7 @@
       "engagements": [
         "Met with US President Barack Obama."
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2016 Warsaw NATO summit",
       "id": "alexis-tsipras--2016-07-08--POL",
       "officialId": "alexis-tsipras",
       "purpose": "Joined the NATO summit.",
@@ -56506,16 +56534,19 @@
           50.846666666
         ],
         "countryCode": "BEL",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2017-05-25",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2017 Brussels NATO summit",
       "id": "alexis-tsipras--2017-05-25--BEL",
       "officialId": "alexis-tsipras",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2017 Brussels NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Brussels_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -57311,7 +57342,7 @@
       },
       "endDate": "2018-07-12",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2018 Brussels NATO summit",
       "id": "alexis-tsipras--2018-07-11--BEL",
       "officialId": "alexis-tsipras",
       "purpose": "Joined the NATO summit.",
@@ -58355,6 +58386,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "andreas-papandreou--1986-01-01--MEX",
+      "officialId": "andreas-papandreou",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1986-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Brussels",
@@ -58813,6 +58872,34 @@
       "startDate": "2018-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "antonis-samaras--1991-01-01--MEX",
+      "officialId": "antonis-samaras",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -60342,22 +60429,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "London",
+        "city": "Newport",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -2.997777777,
+          51.588611111
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-09-05",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2014 Wales NATO summit",
       "id": "antonis-samaras--2014-09-04--GBR",
       "officialId": "antonis-samaras",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2014 Wales NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2014_Wales_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -60643,6 +60733,34 @@
       "startDate": "2015-01-11",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1987-05-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "christos-sartzetakis--1987-05-06--PRT",
+      "officialId": "christos-sartzetakis",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "1987-05-06",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -61033,16 +61151,19 @@
           40.416944444
         ],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1997-07-09",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "1997 Madrid NATO summit",
       "id": "costas-simitis--1997-07-08--ESP",
       "officialId": "costas-simitis",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 1997 Madrid NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -62989,6 +63110,10 @@
       "purpose": "Visit to Poland",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Poland_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -63101,11 +63226,15 @@
       },
       "endDate": "2003-06-03",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "29th G8 summit",
       "id": "costas-simitis--2003-06-01--FRA",
       "officialId": "costas-simitis",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 29th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/29th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -64884,16 +65013,19 @@
           38.708042
         ],
         "countryCode": "PRT",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2010-11-20",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2010 Lisbon NATO summit",
       "id": "giorgos-papandreou--2010-11-19--PRT",
       "officialId": "giorgos-papandreou",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -65778,6 +65910,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "karolos-papoulias--2013-01-01--POL",
+      "officialId": "karolos-papoulias",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -65860,6 +66020,34 @@
       "startDate": "1978-05-30",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1981-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-karamanlis--1981-06-24--PRT",
+      "officialId": "konstantinos-karamanlis",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "1981-06-24",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -68565,6 +68753,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-12-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-stephanopoulos--1999-12-01--PRT",
+      "officialId": "konstantinos-stephanopoulos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "1999-12-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [
+          174.7762,
+          -41.2865
+        ],
+        "countryCode": "NZL",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2002-06-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-stephanopoulos--2002-06-01--NZL",
+      "officialId": "konstantinos-stephanopoulos",
+      "purpose": "Visit to New Zealand",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93New_Zealand_relations"
+        }
+      ],
+      "startDate": "2002-06-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -70359,6 +70603,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [
+          174.7762,
+          -41.2865
+        ],
+        "countryCode": "NZL",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "2007-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "kostas-karamanlis--2007-05-01--NZL",
+      "officialId": "kostas-karamanlis",
+      "purpose": "Visit to New Zealand",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93New_Zealand_relations"
+        }
+      ],
+      "startDate": "2007-05-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Canberra",
@@ -70441,6 +70713,10 @@
       "officialId": "kostas-karamanlis",
       "purpose": "Visit to Portugal",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -70857,22 +71133,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bucharest",
+        "city": "Palace of the Parliament",
         "coordinates": [
-          26.097777777,
-          44.413361111
+          26.0875,
+          44.4275
         ],
         "countryCode": "ROU",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-04-03",
+      "endDate": "2008-04-04",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2008 Bucharest NATO summit",
       "id": "kostas-karamanlis--2008-04-02--ROU",
       "officialId": "kostas-karamanlis",
-      "purpose": "Attended North Atlantic Treaty Organization (NATO) Summit",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -72042,7 +72321,7 @@
       },
       "endDate": "2019-12-04",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2019 London NATO summit",
       "id": "kyriakos-mitsotakis--2019-12-03--GBR",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Joined the 70th anniversary of NATO's creation.",
@@ -72965,7 +73244,7 @@
         "Had meetings with Boris Johnson, Edi Rama and Recep Tayyip Erdoğan.",
         "Gave a public address"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2021 Brussels NATO summit",
       "id": "kyriakos-mitsotakis--2021-06-14--BEL",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Joined the NATO summit.",
@@ -73846,7 +74125,7 @@
       },
       "endDate": "2022-03-24",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2022 Brussels extraordinary NATO summit",
       "id": "kyriakos-mitsotakis--2022-03-24--BEL",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Mitsotakis attended an extraordinary NATO summit.",
@@ -74121,7 +74400,7 @@
       "engagements": [
         "Met Prime Minister Pedro Sanchez"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2022 Madrid NATO summit",
       "id": "kyriakos-mitsotakis--2022-06-28--ESP",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Mitsotakis attended the NATO summit.",
@@ -74850,7 +75129,7 @@
       },
       "endDate": "2023-07-12",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2023 Vilnius NATO summit",
       "id": "kyriakos-mitsotakis--2023-07-11--LTU",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Mitsotakis attended the NATO summit.",
@@ -77247,7 +77526,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "kyriakos-mitsotakis--2025-06-23--NLD",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Mitsotakis attended the 2025 NATO summit.",
@@ -77889,7 +78168,7 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "kyriakos-mitsotakis--2026-07-07--TUR",
       "officialId": "kyriakos-mitsotakis",
       "purpose": "Mitsotakis attended the 2026 Ankara NATO summit.",
@@ -78091,6 +78370,33 @@
         }
       ],
       "startDate": "2026-11-15",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "kyriakos-mitsotakis--2027-01-01--ALB",
+      "officialId": "kyriakos-mitsotakis",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
       "statusHint": "planned",
       "type": "summit"
     },
@@ -78327,6 +78633,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2021-01-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "nikos-dendias--2021-01-13--PRT",
+      "officialId": "nikos-dendias",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2021-01-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -78350,6 +78684,34 @@
       "startDate": "2017-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-05-21",
+      "engagements": [],
+      "eventName": "2012 Chicago NATO summit",
+      "id": "panagiotis-pikrammenos--2012-05-20--USA",
+      "officialId": "panagiotis-pikrammenos",
+      "purpose": "Attended the 2012 Chicago NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        }
+      ],
+      "startDate": "2012-05-20",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -78404,6 +78766,34 @@
         }
       ],
       "startDate": "1953-10-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-09-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "prokopis-pavlopoulos--2017-09-06--PRT",
+      "officialId": "prokopis-pavlopoulos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "2017-09-06",
       "statusHint": null,
       "type": "other"
     },
@@ -78487,6 +78877,90 @@
       "startDate": "2022-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-09-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "theodoros-pangalos--1996-09-06--PRT",
+      "officialId": "theodoros-pangalos",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Portugal_relations"
+        }
+      ],
+      "startDate": "1996-09-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "theodoros-pangalos--1998-01-01--MEX",
+      "officialId": "theodoros-pangalos",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1998-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Wellington",
+        "coordinates": [
+          174.7762,
+          -41.2865
+        ],
+        "countryCode": "NZL",
+        "precision": "country",
+        "region": "Oceania"
+      },
+      "endDate": "1993-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "viron-polydoras--1993-01-01--NZL",
+      "officialId": "viron-polydoras",
+      "purpose": "Visit to New Zealand",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Greece%E2%80%93New_Zealand_relations"
+        }
+      ],
+      "startDate": "1993-01-01",
+      "statusHint": null,
+      "type": "official_visit"
     }
   ]
 }

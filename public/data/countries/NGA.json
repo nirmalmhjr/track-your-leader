@@ -17472,6 +17472,90 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Singapore",
+        "coordinates": [
+          103.8,
+          1.3
+        ],
+        "countryCode": "SGP",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-01-22",
+      "engagements": [],
+      "eventName": "1971 Commonwealth Heads of Government Meeting",
+      "id": "arikpo-okoi--1971-01-14--SGP",
+      "officialId": "arikpo-okoi",
+      "purpose": "Attended the 1971 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1971_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1971-01-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1974-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "arikpo-okoi--1974-01-01--BRA",
+      "officialId": "arikpo-okoi",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "1974-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "atiku-abubakar--2000-01-01--BRA",
+      "officialId": "atiku-abubakar",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2000-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Nairobi",
         "coordinates": [
           36.8219,
@@ -17533,11 +17617,10 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-09-10",
@@ -17545,17 +17628,21 @@
         "Met Prime Minister Narendra Modi",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "bola-tinubu--2023-09-05--IND",
+      "eventName": "2023 G20 New Delhi summit",
+      "id": "bola-tinubu--2023-09-09--IND",
       "officialId": "bola-tinubu",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2023 G20 New Delhi summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-05",
+      "startDate": "2023-09-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -18131,30 +18218,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Brasília",
+        "city": "Rio de Janeiro",
         "coordinates": [
-          -47.8825,
-          -15.7942
+          -43.205555555,
+          -22.911111111
         ],
         "countryCode": "BRA",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2024-11-24",
+      "endDate": "2024-11-19",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "bola-tinubu--2024-11-18--BRA",
+      "eventName": "2024 G20 Rio de Janeiro summit",
+      "id": "bola-tinubu--2024-11-16--BRA",
       "officialId": "bola-tinubu",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2024 G20 Rio de Janeiro summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-11-18",
+      "startDate": "2024-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -18453,21 +18543,25 @@
         "countryCode": "BRA",
         "region": "Americas"
       },
-      "endDate": "2025-07-12",
+      "endDate": "2025-07-07",
       "engagements": [
         "Met President Luiz Inacio Lula da Silva"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
-      "id": "bola-tinubu--2025-07-05--BRA",
+      "eventName": "17th BRICS summit",
+      "id": "bola-tinubu--2025-07-06--BRA",
       "officialId": "bola-tinubu",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 17th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/17th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-07-05",
+      "startDate": "2025-07-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -18558,6 +18652,33 @@
       "startDate": "2025-10-12",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Johannesburg",
+        "coordinates": [
+          28.041638888,
+          -26.204361111
+        ],
+        "countryCode": "ZAF",
+        "region": "Africa"
+      },
+      "endDate": "2025-11-23",
+      "engagements": [],
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "bola-tinubu--2025-11-22--ZAF",
+      "officialId": "bola-tinubu",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        }
+      ],
+      "startDate": "2025-11-22",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -18667,6 +18788,62 @@
       "startDate": "2006-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "geoffrey-onyeama--2016-01-01--POL",
+      "officialId": "geoffrey-onyeama",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nigeria%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "2016-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2018-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "geoffrey-onyeama--2018-01-01--BRA",
+      "officialId": "geoffrey-onyeama",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2018-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18845,31 +19022,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Huntsville",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -79.216666666,
+          45.333333333
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2010-06-26",
+      "endDate": "2010-06-27",
       "engagements": [
         "Met Prime Minister Stephen Harper",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "goodluck-jonathan--2010-06-24--CAN",
+      "eventName": "36th G8 summit",
+      "id": "goodluck-jonathan--2010-06-25--CAN",
       "officialId": "goodluck-jonathan",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 36th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/36th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-06-24",
+      "startDate": "2010-06-25",
       "statusHint": null,
       "type": "summit"
     },
@@ -19132,6 +19312,33 @@
       "startDate": "2011-05-21",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Deauville",
+        "coordinates": [
+          0.074444444,
+          49.359166666
+        ],
+        "countryCode": "FRA",
+        "region": "Europe"
+      },
+      "endDate": "2011-05-27",
+      "engagements": [],
+      "eventName": "37th G8 summit",
+      "id": "goodluck-jonathan--2011-05-26--FRA",
+      "officialId": "goodluck-jonathan",
+      "purpose": "Attended the 37th G8 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/37th_G8_summit"
+        }
+      ],
+      "startDate": "2011-05-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -19412,31 +19619,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2011-10-31",
+      "endDate": "2011-10-30",
       "engagements": [
         "Met Prime Minister Julia Gillard",
         "Gave a public address"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "goodluck-jonathan--2011-10-23--AUS",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
+      "id": "goodluck-jonathan--2011-10-28--AUS",
       "officialId": "goodluck-jonathan",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-23",
+      "startDate": "2011-10-28",
       "statusHint": null,
       "type": "summit"
     },
@@ -19727,6 +19937,10 @@
       "officialId": "goodluck-jonathan",
       "purpose": "Attended UN Conference on Sustainable Development",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22727,6 +22941,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ike-nwachukwu--1988-01-01--BRA",
+      "officialId": "ike-nwachukwu",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -22808,6 +23050,61 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1977-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "joseph-nanven-garba--1977-01-01--BRA",
+      "officialId": "joseph-nanven-garba",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "1977-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Johannesburg",
+        "coordinates": [
+          28.041638888,
+          -26.204361111
+        ],
+        "countryCode": "ZAF",
+        "region": "Africa"
+      },
+      "endDate": "2023-08-24",
+      "engagements": [],
+      "eventName": "15th BRICS summit",
+      "id": "kashim-shettima--2023-08-22--ZAF",
+      "officialId": "kashim-shettima",
+      "purpose": "Attended the 15th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        }
+      ],
+      "startDate": "2023-08-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -22864,6 +23161,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Johannesburg",
+        "coordinates": [
+          28.041638888,
+          -26.204361111
+        ],
+        "countryCode": "ZAF",
+        "region": "Africa"
+      },
+      "endDate": "2025-11-23",
+      "engagements": [],
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "kashim-shettima--2025-11-22--ZAF",
+      "officialId": "kashim-shettima",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        }
+      ],
+      "startDate": "2025-11-22",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2026-09-13",
+      "engagements": [],
+      "eventName": "18th BRICS summit",
+      "id": "kashim-shettima--2026-09-12--IND",
+      "officialId": "kashim-shettima",
+      "purpose": "Attended the 18th BRICS summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_BRICS_summit"
+        }
+      ],
+      "startDate": "2026-09-12",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -22887,6 +23238,34 @@
       "startDate": "2026-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "martin-ihoeghian-uhomoibhi--2014-01-01--POL",
+      "officialId": "martin-ihoeghian-uhomoibhi",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nigeria%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "2014-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -27043,6 +27422,116 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "namadi-sambo--2012-08-26--IRN",
+      "officialId": "namadi-sambo",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "namadi-sambo--2013-01-01--BRA",
+      "officialId": "namadi-sambo",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "namadi-sambo--2013-11-15--LKA",
+      "officialId": "namadi-sambo",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ngozi-okonjo-iweala--2014-01-01--MEX",
+      "officialId": "ngozi-okonjo-iweala",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2014-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -27095,6 +27584,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2013-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "olugbenga-ashiru--2013-01-01--BRA",
+      "officialId": "olugbenga-ashiru",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -27121,6 +27638,34 @@
       "startDate": "1977-10-10",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1978-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "olusegun-obasanjo--1978-01-01--POL",
+      "officialId": "olusegun-obasanjo",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nigeria%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "1978-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -28091,6 +28636,10 @@
       "officialId": "olusegun-obasanjo",
       "purpose": "Visit to Canada",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Nigeria_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -30216,30 +30765,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Coolum Beach",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.1,
+          -26.5333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
-      "endDate": "2002-03-04",
+      "endDate": "2002-03-05",
       "engagements": [
         "Met Prime Minister John Howard"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "olusegun-obasanjo--2002-02-26--AUS",
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "olusegun-obasanjo--2002-03-02--AUS",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-02-26",
+      "startDate": "2002-03-02",
       "statusHint": null,
       "type": "summit"
     },
@@ -30350,6 +30902,10 @@
       "officialId": "olusegun-obasanjo",
       "purpose": "Attended UN Conference on Financing for Development",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nigeria_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -30834,30 +31390,33 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Ottawa",
+        "city": "Kananaskis",
         "coordinates": [
-          -75.6972,
-          45.4215
+          -114.9,
+          50.6
         ],
         "countryCode": "CAN",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2002-06-27",
       "engagements": [
         "Met Prime Minister Jean Chretien"
       ],
-      "eventName": "G8 Summit",
-      "id": "olusegun-obasanjo--2002-06-25--CAN",
+      "eventName": "28th G8 summit",
+      "id": "olusegun-obasanjo--2002-06-26--CAN",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 28th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/28th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-06-25",
+      "startDate": "2002-06-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -31752,11 +32311,15 @@
       },
       "endDate": "2003-06-03",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "29th G8 summit",
       "id": "olusegun-obasanjo--2003-06-01--FRA",
       "officialId": "olusegun-obasanjo",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 29th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/29th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -32664,18 +33227,17 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Sea Island",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -81.3331508,
+          31.2002314
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2004-06-11",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "30th G8 summit",
       "id": "olusegun-obasanjo--2004-06-10--USA",
       "officialId": "olusegun-obasanjo",
       "purpose": "Met with President Bush during the G-8 Economic Summit at Sea Island, Georgia. Attended the funeral of Former President Reagan.",
@@ -32683,6 +33245,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/30th_G8_summit"
         },
         {
           "label": "COLT dataset",
@@ -35113,6 +35679,10 @@
       "purpose": "Visit to Brazil",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -36471,6 +37041,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2006-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "oluyemi-adeniji--2006-01-01--BRA",
+      "officialId": "oluyemi-adeniji",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -37095,6 +37693,61 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1275,
+          51.507222222
+        ],
+        "countryCode": "GBR",
+        "region": "Europe"
+      },
+      "endDate": "1977-06-15",
+      "engagements": [],
+      "eventName": "1977 Commonwealth Heads of Government Meeting",
+      "id": "shehu-musa-yar-adua--1977-06-08--GBR",
+      "officialId": "shehu-musa-yar-adua",
+      "purpose": "Attended the 1977 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1977_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1977-06-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Brasília",
+        "coordinates": [
+          -47.8825,
+          -15.7942
+        ],
+        "countryCode": "BRA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "shehu-musa-yar-adua--1979-01-01--BRA",
+      "officialId": "shehu-musa-yar-adua",
+      "purpose": "Visit to Brazil",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "1979-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -37119,6 +37772,34 @@
       "startDate": "1980-10-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "shehu-shagari--1981-01-01--MEX",
+      "officialId": "shehu-shagari",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mexico%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "1981-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -37149,24 +37830,55 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "sule-lamido--2000-01-01--POL",
+      "officialId": "sule-lamido",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nigeria%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "2000-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
+        "city": "Bad Doberan",
         "coordinates": [
-          13.405,
-          52.52
+          11.905277777,
+          54.106944444
         ],
         "countryCode": "DEU",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2007-06-08",
       "engagements": [],
-      "eventName": "G8 Summit",
+      "eventName": "33rd G8 summit",
       "id": "umaru-musa-yar-adua--2007-06-06--DEU",
       "officialId": "umaru-musa-yar-adua",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 33rd G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/33rd_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -37631,17 +38343,21 @@
         "Met Prime Minister Yasuo Fukuda",
         "Gave a public address"
       ],
-      "eventName": "G8 Summit",
-      "id": "umaru-musa-yar-adua--2008-07-06--JPN",
+      "eventName": "34th G8 summit",
+      "id": "umaru-musa-yar-adua--2008-07-07--JPN",
       "officialId": "umaru-musa-yar-adua",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 34th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/34th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-07-06",
+      "startDate": "2008-07-07",
       "statusHint": null,
       "type": "summit"
     },
@@ -37706,28 +38422,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Rome",
+        "city": "L'Aquila",
         "coordinates": [
-          12.4964,
-          41.9028
+          13.391991666,
+          42.354008333
         ],
         "countryCode": "ITA",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2009-07-10",
       "engagements": [],
-      "eventName": "G8 Summit",
-      "id": "umaru-musa-yar-adua--2009-07-09--ITA",
+      "eventName": "35th G8 summit",
+      "id": "umaru-musa-yar-adua--2009-07-08--ITA",
       "officialId": "umaru-musa-yar-adua",
-      "purpose": "Attended G8 Summit",
+      "purpose": "Attended the 35th G8 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/35th_G8_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-07-09",
+      "startDate": "2009-07-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -37809,6 +38528,10 @@
       "officialId": "umaru-musa-yar-adua",
       "purpose": "Visit to Brazil",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93Nigeria_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -37905,6 +38628,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Warsaw",
+        "coordinates": [
+          21.011111111,
+          52.23
+        ],
+        "countryCode": "POL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "viola-onwuliri--2014-01-01--POL",
+      "officialId": "viola-onwuliri",
+      "purpose": "Visit to Poland",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nigeria%E2%80%93Poland_relations"
+        }
+      ],
+      "startDate": "2014-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "London",
@@ -37931,6 +38682,115 @@
       "startDate": "1973-06-12",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.695,
+          45.424722222
+        ],
+        "countryCode": "CAN",
+        "region": "Americas"
+      },
+      "endDate": "1973-08-10",
+      "engagements": [],
+      "eventName": "1973 Commonwealth Heads of Government Meeting",
+      "id": "yakubu-gowon--1973-08-02--CAN",
+      "officialId": "yakubu-gowon",
+      "purpose": "Attended the 1973 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1973_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1973-08-02",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Kingston",
+        "coordinates": [
+          -76.793055555,
+          17.971388888
+        ],
+        "countryCode": "JAM",
+        "region": "Americas"
+      },
+      "endDate": "1975-05-06",
+      "engagements": [],
+      "eventName": "1975 Commonwealth Heads of Government Meeting",
+      "id": "yakubu-gowon--1975-04-29--JAM",
+      "officialId": "yakubu-gowon",
+      "purpose": "Attended the 1975 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1975_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "1975-04-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Taormina",
+        "coordinates": [
+          15.28565,
+          37.85179
+        ],
+        "countryCode": "ITA",
+        "region": "Europe"
+      },
+      "endDate": "2017-05-27",
+      "engagements": [],
+      "eventName": "43rd G7 summit",
+      "id": "yemi-osinbajo--2017-05-26--ITA",
+      "officialId": "yemi-osinbajo",
+      "purpose": "Attended the 43rd G7 summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/43rd_G7_summit"
+        }
+      ],
+      "startDate": "2017-05-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Ottawa",
+        "coordinates": [
+          -75.6972,
+          45.4215
+        ],
+        "countryCode": "CAN",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "yemi-osinbajo--2022-01-01--CAN",
+      "officialId": "yemi-osinbajo",
+      "purpose": "Visit to Canada",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Canada%E2%80%93Nigeria_relations"
+        }
+      ],
+      "startDate": "2022-01-01",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

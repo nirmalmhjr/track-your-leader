@@ -1,6 +1,144 @@
 {
   "officials": [
     {
+      "aliases": [
+        "Grand Duke Guillaume",
+        "Grand Duke Guillaume V",
+        "Guillaume Jean Joseph Marie de Nassau, Prince de Luxembourg",
+        "Guillaume Jean Joseph Marie, Hereditary Grand Duke of Luxembourg",
+        "Guillaume V",
+        "Guillaume, Grand Duke of Luxembourg",
+        "Prince Guillaume Jean Joseph Marie, Hereditary Grand Duke of Luxembourg",
+        "Prince Guillaume, Hereditary Grand Duke of Luxembourg"
+      ],
+      "countryCode": "LUX",
+      "fullName": "Guillaume V, Grand Duke of Luxembourg",
+      "id": "guillaume-v-grand-duke-of-luxembourg",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Duke_Guillaume%2C_February_2026_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": null,
+          "id": "guillaume-v-grand-duke-of-luxembourg-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2025-10-03",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "guillaume-v-grand-duke-of-luxembourg-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2025-10-03",
+          "title": "Monarch of Luxembourg"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2025-10-03",
+          "id": "guillaume-v-grand-duke-of-luxembourg-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2000-10-07",
+          "title": "Hereditary Grand Duke of Luxembourg"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2024-10-08",
+          "id": "guillaume-v-grand-duke-of-luxembourg-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2005-06-10",
+          "title": "Member of the Council of State"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q161319"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guillaume_V_of_Luxembourg"
+        }
+      ],
+      "summary": "Guillaume V is Grand Duke of Luxembourg, reigning since 3 October 2025. The eldest son of Grand Duke Henri and Grand Duchess Maria Teresa, he acceded to the throne upon the abdication of his father.",
+      "wikidataId": "Q161319"
+    },
+    {
+      "aliases": [
+        "Henri",
+        "Henri Albert Gabriel Félix Marie Guillaume",
+        "Henri Albert Gabriel Félix Marie Guillaume de Nassau",
+        "Henri I",
+        "Henry Albert Gabriel Felix Mary William of Nassau",
+        "Henry of Luxembourg",
+        "His Royal Highness Grand Duke Henri"
+      ],
+      "countryCode": "LUX",
+      "fullName": "Henri I, Grand Duke of Luxembourg",
+      "id": "henri-i-grand-duke-of-luxembourg",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saeimas_priek%C5%A1s%C4%93d%C4%93t%C4%81js_Edvards_Smilt%C4%93ns_tiekas_ar_Luksemburgas_lielhercogu_-_52744479271_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2025-10-03",
+          "id": "henri-i-grand-duke-of-luxembourg-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2000-10-07",
+          "title": "Head of state"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2025-10-03",
+          "id": "henri-i-grand-duke-of-luxembourg-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2000-10-07",
+          "title": "Monarch of Luxembourg"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1998-03-09",
+          "id": "henri-i-grand-duke-of-luxembourg-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1980-12-04",
+          "title": "Member of the Council of State"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16004"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Henri%2C_Grand_Duke_of_Luxembourg"
+        }
+      ],
+      "summary": "Henri is a member of the grand ducal family of Luxembourg who reigned as Grand Duke of Luxembourg from 2000 until his abdication in 2025. Henri was born during the reign of his paternal grandmother, Grand Duchess Charlotte, as the second child and eldest son of the future Grand Duke Jean and Princess Joséphine-Charlotte of Belgium.",
+      "wikidataId": "Q16004"
+    },
+    {
       "aliases": [],
       "countryCode": "LUX",
       "fullName": "Jacques Santer",
@@ -2446,7 +2584,7 @@
       "aliases": [],
       "countryCode": "LUX",
       "fullName": "Leon Gloden",
-      "id": "leon-gloden-lux",
+      "id": "leon-gloden",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2455,7 +2593,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "leon-gloden-lux-p1",
+          "id": "leon-gloden-p1",
           "ministry": "Ministry of Home Affairs",
           "portfolio": "home_affairs",
           "startDate": null,
@@ -2475,7 +2613,7 @@
       "aliases": [],
       "countryCode": "LUX",
       "fullName": "Léon Gloden",
-      "id": "leon-gloden",
+      "id": "leon-gloden-lux",
       "party": "Christian Social People's Party",
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leon_Gloden_Portr%C3%A4tfoto.jpg?width=160",
       "positions": [
@@ -2484,7 +2622,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "leon-gloden-p1",
+          "id": "leon-gloden-lux-p1",
           "ministry": "Ministry of Home Affairs",
           "portfolio": "home_affairs",
           "startDate": "2023-11-17",
@@ -2495,7 +2633,7 @@
             "legislator"
           ],
           "endDate": "2023-11-17",
-          "id": "leon-gloden-p2",
+          "id": "leon-gloden-lux-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "2018-10-30",
@@ -2506,7 +2644,7 @@
             "legislator"
           ],
           "endDate": "2018-10-30",
-          "id": "leon-gloden-p3",
+          "id": "leon-gloden-lux-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2013-11-13",
@@ -2517,7 +2655,7 @@
             "legislator"
           ],
           "endDate": "2013-10-06",
-          "id": "leon-gloden-p4",
+          "id": "leon-gloden-lux-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-07-28",
@@ -2528,7 +2666,7 @@
             "senior_official"
           ],
           "endDate": null,
-          "id": "leon-gloden-p5",
+          "id": "leon-gloden-lux-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -4096,122 +4234,6 @@
       ],
       "summary": "",
       "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Grand Duke Guillaume",
-        "Grand Duke Guillaume V",
-        "Guillaume Jean Joseph Marie de Nassau, Prince de Luxembourg",
-        "Guillaume Jean Joseph Marie, Hereditary Grand Duke of Luxembourg",
-        "Guillaume V",
-        "Guillaume, Grand Duke of Luxembourg",
-        "Prince Guillaume Jean Joseph Marie, Hereditary Grand Duke of Luxembourg",
-        "Prince Guillaume, Hereditary Grand Duke of Luxembourg"
-      ],
-      "countryCode": "LUX",
-      "fullName": "Guillaume V, Grand Duke of Luxembourg",
-      "id": "guillaume-v-grand-duke-of-luxembourg",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Duke_Guillaume%2C_February_2026_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": null,
-          "id": "guillaume-v-grand-duke-of-luxembourg-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2025-10-03",
-          "title": "Monarch of Luxembourg"
-        },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2025-10-03",
-          "id": "guillaume-v-grand-duke-of-luxembourg-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2000-10-07",
-          "title": "Hereditary Grand Duke of Luxembourg"
-        },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2024-10-08",
-          "id": "guillaume-v-grand-duke-of-luxembourg-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2005-06-10",
-          "title": "Member of the Council of State"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q161319"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Guillaume_V_of_Luxembourg"
-        }
-      ],
-      "summary": "Guillaume V is Grand Duke of Luxembourg, reigning since 3 October 2025. The eldest son of Grand Duke Henri and Grand Duchess Maria Teresa, he acceded to the throne upon the abdication of his father.",
-      "wikidataId": "Q161319"
-    },
-    {
-      "aliases": [
-        "Henri",
-        "Henri Albert Gabriel Félix Marie Guillaume",
-        "Henri Albert Gabriel Félix Marie Guillaume de Nassau",
-        "Henri I",
-        "Henry Albert Gabriel Felix Mary William of Nassau",
-        "Henry of Luxembourg",
-        "His Royal Highness Grand Duke Henri"
-      ],
-      "countryCode": "LUX",
-      "fullName": "Henri I, Grand Duke of Luxembourg",
-      "id": "henri-i-grand-duke-of-luxembourg",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saeimas_priek%C5%A1s%C4%93d%C4%93t%C4%81js_Edvards_Smilt%C4%93ns_tiekas_ar_Luksemburgas_lielhercogu_-_52744479271_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2025-10-03",
-          "id": "henri-i-grand-duke-of-luxembourg-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2000-10-07",
-          "title": "Monarch of Luxembourg"
-        },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "1998-03-09",
-          "id": "henri-i-grand-duke-of-luxembourg-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1980-12-04",
-          "title": "Member of the Council of State"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q16004"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Henri%2C_Grand_Duke_of_Luxembourg"
-        }
-      ],
-      "summary": "Henri is a member of the grand ducal family of Luxembourg who reigned as Grand Duke of Luxembourg from 2000 until his abdication in 2025. Henri was born during the reign of his paternal grandmother, Grand Duchess Charlotte, as the second child and eldest son of the future Grand Duke Jean and Princess Joséphine-Charlotte of Belgium.",
-      "wikidataId": "Q16004"
     },
     {
       "aliases": [],
@@ -6212,6 +6234,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "guillaume-v-grand-duke-of-luxembourg--1984-11-12--USA",
+      "officialId": "guillaume-v-grand-duke-of-luxembourg",
+      "purpose": "State visit; visited Colorado Springs, San Jose, San Francisco, and Chicago. Departed U.S. November 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-11-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -6239,6 +6289,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2007-03-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2007-03-20--BEL",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Belgium",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://fr.wikipedia.org/wiki/Liste_des_visites_d'%C3%89tat_re%C3%A7ues_par_le_roi_Albert_II_de_Belgique"
+        }
+      ],
+      "startDate": "2007-03-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2008-04-15--SWE",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "2008-04-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -6262,6 +6368,62 @@
       "startDate": "2012-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2017-11-25--JPN",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "2017-11-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jacques-poos--1991-01-01--MEX",
+      "officialId": "jacques-poos",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -6897,32 +7059,32 @@
       "type": "summit"
     },
     {
-      "datePrecision": "day",
+      "datePrecision": "year",
       "destination": {
-        "city": "Washington",
+        "city": "Mexico City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -99.1332,
+          19.4326
         ],
-        "countryCode": "USA",
+        "countryCode": "MEX",
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1984-11-15",
+      "endDate": "1996-12-31",
       "engagements": [],
       "eventName": null,
-      "id": "jean--1984-11-12--USA",
+      "id": "jean--1996-01-01--MEX",
       "officialId": "jean",
-      "purpose": "State visit; visited Colorado Springs, San Jose, San Francisco, and Chicago. Departed U.S. November 19.",
+      "purpose": "Visit to Mexico",
       "sources": [
         {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg%E2%80%93Mexico_relations"
         }
       ],
-      "startDate": "1984-11-12",
+      "startDate": "1996-01-01",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -7312,6 +7474,10 @@
       "purpose": "Visit to Japan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japan%E2%80%93Luxembourg_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7413,16 +7579,19 @@
           40.416944444
         ],
         "countryCode": "ESP",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1997-07-09",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "1997 Madrid NATO summit",
       "id": "jean-claude-juncker--1997-07-08--ESP",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 1997 Madrid NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1997_Madrid_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12887,22 +13056,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bucharest",
+        "city": "Palace of the Parliament",
         "coordinates": [
-          26.097777777,
-          44.413361111
+          26.0875,
+          44.4275
         ],
         "countryCode": "ROU",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-04-03",
+      "endDate": "2008-04-04",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2008 Bucharest NATO summit",
       "id": "jean-claude-juncker--2008-04-02--ROU",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2008 Bucharest NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2008_Bucharest_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15345,16 +15517,19 @@
           38.708042
         ],
         "countryCode": "PRT",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2010-11-20",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2010 Lisbon NATO summit",
       "id": "jean-claude-juncker--2010-11-19--PRT",
       "officialId": "jean-claude-juncker",
-      "purpose": "Attended NATO Summit",
+      "purpose": "Attended the 2010 Lisbon NATO summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Lisbon_NATO_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16762,6 +16937,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -17739,6 +17918,34 @@
       "startDate": "2013-11-29",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2012-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "luc-frieden--2012-01-01--MEX",
+      "officialId": "luc-frieden",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2012-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -19324,7 +19531,7 @@
         "Met Prime Minister Dick Schoof",
         "Signed agreements"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "luc-frieden--2025-06-24--NLD",
       "officialId": "luc-frieden",
       "purpose": "Frieden attended the NATO summit.",
@@ -20212,7 +20419,7 @@
       },
       "endDate": "2026-07-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "luc-frieden--2026-07-07--TUR",
       "officialId": "luc-frieden",
       "purpose": "Frieden attended the 2026 Ankara NATO summit.",
@@ -20367,6 +20574,33 @@
       "type": "summit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "luc-frieden--2027-01-01--ALB",
+      "officialId": "luc-frieden",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -20500,6 +20734,34 @@
       "startDate": "2018-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "lydie-polfer--2002-01-01--MEX",
+      "officialId": "lydie-polfer",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2002-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -20662,6 +20924,34 @@
       "startDate": "2023-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Mexico City",
+        "coordinates": [
+          -99.1332,
+          19.4326
+        ],
+        "countryCode": "MEX",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1980-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "pierre-werner--1980-01-01--MEX",
+      "officialId": "pierre-werner",
+      "purpose": "Visit to Mexico",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "1980-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -21266,7 +21556,7 @@
       },
       "endDate": "2014-09-05",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2014 Wales NATO summit",
       "id": "xavier-bettel--2014-09-04--GBR",
       "officialId": "xavier-bettel",
       "purpose": "Bettel attended the 2014 Wales NATO summit.",
@@ -22579,7 +22869,7 @@
       },
       "endDate": "2016-07-10",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2016 Warsaw NATO summit",
       "id": "xavier-bettel--2016-07-08--POL",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Warsaw to attend the 27th NATO Summit.",
@@ -23326,7 +23616,7 @@
       },
       "endDate": "2017-05-26",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2017 Brussels NATO summit",
       "id": "xavier-bettel--2017-05-24--BEL",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Brussels to attend the 28th NATO summit.",
@@ -24295,7 +24585,7 @@
       },
       "endDate": "2018-07-12",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2018 Brussels NATO summit",
       "id": "xavier-bettel--2018-07-11--BEL",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Brussels to attend the 29th NATO summit.",
@@ -24715,6 +25005,10 @@
       "officialId": "xavier-bettel",
       "purpose": "Visit to Mexico",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Luxembourg%E2%80%93Mexico_relations"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -25189,7 +25483,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2019 London NATO summit",
       "id": "xavier-bettel--2019-12-03--GBR",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Watford to attend the 30th NATO summit.",
@@ -25646,7 +25940,7 @@
       },
       "endDate": "2021-06-14",
       "engagements": [],
-      "eventName": "NATO Summit",
+      "eventName": "2021 Brussels NATO summit",
       "id": "xavier-bettel--2021-06-13--BEL",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Brussels to attend the 31st NATO summit.",
@@ -26026,7 +26320,7 @@
       "engagements": [
         "He also attended the European Council."
       ],
-      "eventName": "European Council Summit",
+      "eventName": "2022 Brussels extraordinary NATO summit",
       "id": "xavier-bettel--2022-03-23--BEL",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Brussels to attend the extraordinary NATO summit to discuss the Russian invasion of Ukraine.",
@@ -26270,7 +26564,7 @@
       },
       "endDate": "2022-06-30",
       "engagements": [],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2022 Madrid NATO summit",
       "id": "xavier-bettel--2022-06-28--ESP",
       "officialId": "xavier-bettel",
       "purpose": "Bettel travelled to Madrid to attend the 32nd NATO summit.",
@@ -27408,7 +27702,7 @@
       "engagements": [
         "Met Prime Minister Ingrida Simonyte"
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2023 Vilnius NATO summit",
       "id": "xavier-bettel--2023-07-11--LTU",
       "officialId": "xavier-bettel",
       "purpose": "Bettel attended the 33rd NATO summit.",

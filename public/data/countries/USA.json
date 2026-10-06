@@ -1540,7 +1540,7 @@
       "aliases": [],
       "countryCode": "USA",
       "fullName": "Woodrow Wilson",
-      "id": "woodrow-wilson-usa",
+      "id": "woodrow-wilson",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1550,7 +1550,7 @@
             "head_of_government"
           ],
           "endDate": "1919-06-28",
-          "id": "woodrow-wilson-usa-p1",
+          "id": "woodrow-wilson-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "1912-11-18",
@@ -7072,7 +7072,7 @@
       "aliases": [],
       "countryCode": "USA",
       "fullName": "Cordell Hull",
-      "id": "cordell-hull-usa",
+      "id": "cordell-hull-q202979",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -7081,7 +7081,7 @@
             "minister"
           ],
           "endDate": "1943-10-17",
-          "id": "cordell-hull-usa-p1",
+          "id": "cordell-hull-q202979-p1",
           "ministry": null,
           "portfolio": "foreign_affairs",
           "startDate": "1933-06-08",
@@ -13398,7 +13398,7 @@
           "url": "https://en.wikipedia.org/wiki/Harold_L._Ickes"
         }
       ],
-      "summary": "Harold LeClair Ickes was an American administrator, politician and lawyer. He served as United States Secretary of the Interior for nearly 13 years from 1933 to 1946, the longest tenure of anyone to hold the office, and the second longest-serving Cabinet member in U.S. history after James Wilson.",
+      "summary": "Harold LeClair Ickes was an American administrator, politician and lawyer. He served as the United States secretary of the interior for nearly 13 years from 1933 to 1946, the longest tenure of anyone to hold the office, and the second longest-serving Cabinet member in U.S. history after James Wilson.",
       "wikidataId": "Q1400386"
     },
     {
@@ -35640,6 +35640,42 @@
     },
     {
       "aliases": [
+        "George Frost Kennan",
+        "George Kennan"
+      ],
+      "countryCode": "USA",
+      "fullName": "George F. Kennan",
+      "id": "george-f-kennan",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/George_F._Kennan_1947.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "1961-09-06",
+          "id": "george-f-kennan-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1961-09-01",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/George_F._Kennan"
+        }
+      ],
+      "summary": "George Frost Kennan (February 16, 1904 – March 17, 2005) was an American diplomat and historian. He was best known as an advocate of a policy of containment of Soviet expansion during the Cold War.",
+      "wikidataId": "Q156058"
+    },
+    {
+      "aliases": [
         "James A. Baker III",
         "James Addison Baker",
         "James Addison Baker III"
@@ -36836,6 +36872,77 @@
       ],
       "summary": "John William Middendorf II (September 22, 1924 – October 24, 2025) was an American diplomat who was the 62nd Secretary of the Navy from 1974 to 1977 and the United States Ambassador to the European Communities from 1985 to 1987. He wrote books and articles on politics, security, and history.",
       "wikidataId": "Q382493"
+    },
+    {
+      "aliases": [
+        "Martin Palous"
+      ],
+      "countryCode": "USA",
+      "fullName": "Martin Palouš",
+      "id": "martin-palous",
+      "party": "Civic Forum",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Palou%C5%A1_(2019).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2005-01-01",
+          "id": "martin-palous-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2001-10-10",
+          "title": "Czech Ambassador to the United States"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6776343"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Martin_Palou%C5%A1"
+        }
+      ],
+      "summary": "Martin Palouš (born 14 October 1950 in Prague, Czechoslovakia) is the ex-Permanent Representative to the United Nations for the Czech Republic. He presented his credentials to UN Secretary-General Kofi Annan on 11 September 2006.",
+      "wikidataId": "Q6776343"
+    },
+    {
+      "aliases": [
+        "Robert Charles O'Brien Jr.",
+        "Robert O'Brien"
+      ],
+      "countryCode": "USA",
+      "fullName": "Robert C. O'Brien",
+      "id": "robert-c-o-brien",
+      "party": "Republican Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_C._O'Brien.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2019-10-03",
+          "id": "robert-c-o-brien-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2018-05-25",
+          "title": "Special Envoy for Hostage Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7342642"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Robert_C._O'Brien"
+        }
+      ],
+      "summary": "Robert Charles O'Brien Jr. (born June 18, 1966) is an American attorney who was the twenty-seventh United States national security advisor from 2019 to 2021.",
+      "wikidataId": "Q7342642"
     },
     {
       "aliases": [
@@ -38518,6 +38625,116 @@
       ],
       "summary": "Mary Elizabeth Alexander Dole is an American attorney, author, and politician who served as a United States senator from North Carolina from 2003 to 2009. A member of the Republican Party, she previously served in five presidential administrations, including as U.S. Secretary of Transportation under Ronald Reagan from 1983 to 1987 and as U.S. Secretary of Labor under Reagan's successor, George H. W. Bush, from 1989 until 1990.",
       "wikidataId": "Q239571"
+    },
+    {
+      "aliases": [],
+      "countryCode": "USA",
+      "fullName": "Ellen Tauscher",
+      "id": "ellen-tauscher",
+      "party": "Democratic Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ellen_Tauscher.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2009-06-26",
+          "id": "ellen-tauscher-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2009-01-06",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2009-06-26",
+          "id": "ellen-tauscher-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1997-01-03",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2009-01-03",
+          "id": "ellen-tauscher-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2007-01-04",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2007-01-03",
+          "id": "ellen-tauscher-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2005-01-04",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2005-01-03",
+          "id": "ellen-tauscher-p5",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2003-01-07",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2003-01-03",
+          "id": "ellen-tauscher-p6",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2001-01-03",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2001-01-03",
+          "id": "ellen-tauscher-p7",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1999-01-06",
+          "title": "United States representative"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "1999-01-03",
+          "id": "ellen-tauscher-p8",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1997-01-07",
+          "title": "United States representative"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q459624"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ellen_Tauscher"
+        }
+      ],
+      "summary": "Ellen O'Kane Tauscher (November 15, 1951 – April 29, 2019) was an American businesswoman, diplomat, and Democratic Party politician who was the U.S. representative for California's 10th congressional district from 1997 to 2009. From 2009 to 2012, she served as the Under Secretary of State for Arms Control and International Security Affairs.",
+      "wikidataId": "Q459624"
     },
     {
       "aliases": [],
@@ -42530,6 +42747,34 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "al-gore--1996-01-01--PRT",
+      "officialId": "al-gore",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portugal%E2%80%93United_States_relations"
+        }
+      ],
+      "startDate": "1996-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
     {
       "datePrecision": "day",
       "destination": {
@@ -52291,7 +52536,7 @@
         "Met Prime Minister Silvio Berlusconi.",
         "Also met with President Giorgio Napolitano."
       ],
-      "eventName": "G8 Summit",
+      "eventName": "35th G8 summit",
       "id": "barack-obama--2009-07-08--ITA",
       "officialId": "barack-obama",
       "purpose": "Attended the G-8 Summit Meeting.",
@@ -53742,7 +53987,7 @@
         "Met with Prime Minister Hun Sen.",
         "Became the first U.S. president to visit the country."
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Seventh East Asia Summit",
       "id": "barack-obama--2012-11-19--KHM",
       "officialId": "barack-obama",
       "purpose": "Met with Prime Minister Hun Sen and a U.S.-ASEAN Leaders’ meeting, a Trans-Pacific Partnership meeting, and the East Asia Summit meeting.",
@@ -54029,7 +54274,7 @@
         "Also spoke to a group of students in Belfast about the legacy of the Northern Ireland peace process and the Good Friday Agreement.",
         "Met Prime Minister David Cameron"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "39th G8 summit",
       "id": "barack-obama--2013-06-17--GBR",
       "officialId": "barack-obama",
       "purpose": "Attended the 39th G8 summit in County Fermanagh, Northern Ireland, and held a held a bilateral meeting with Russian president Vladimir Puti…",
@@ -54705,7 +54950,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Barack_Obama"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
         },
         {
           "label": "COLT dataset",
@@ -55065,7 +55310,7 @@
       "engagements": [
         "Met Prime Minister David Cameron"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "2014 Wales NATO summit",
       "id": "barack-obama--2014-09-03--GBR",
       "officialId": "barack-obama",
       "purpose": "Attended the NATO summit.",
@@ -55099,7 +55344,7 @@
         "Met with President & CCP general secretary Xi Jinping, Premier Li Keqiang and NPC Chairman Zhang Dejiang.",
         "Also met with Australian prime minister Tony Abbott, and Indonesian president Joko Widodo."
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC China 2014",
       "id": "barack-obama--2014-11-10--CHN",
       "officialId": "barack-obama",
       "purpose": "Reunión con el presidente Xi Jinping y con el P.",
@@ -56472,7 +56717,7 @@
         "Also hosted a Young Leaders of the Americas Initiative town hall at the Pontifical Catholic University of Peru.",
         "Met President Pedro Pablo Kuczynski"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Peru 2016",
       "id": "barack-obama--2016-11-18--PER",
       "officialId": "barack-obama",
       "purpose": "Met with President Pedro Pablo Kuczynski and attended Trans-Pacific Partnership and APEC Summit Meetings.",
@@ -56575,7 +56820,7 @@
         "Met with Russian President Boris Yeltsin.",
         "Met Prime Minister Miyazawa Kiichi"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "19th G7 summit",
       "id": "bill-clinton--1993-07-06--JPN",
       "officialId": "bill-clinton",
       "purpose": "Attended Economic Summit Meeting with the Heads of State and Government of Canada, France, Germany, Italy, Japan, and the United Kingdom.",
@@ -57158,7 +57403,7 @@
       "engagements": [
         "Met with Italian prime minister Silvio Berlusconi, Japanese prime minister Tomiichi Murayama, Canadian prime minister Jean Chrétien and Russian president Boris Yeltsin."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "20th G7 summit",
       "id": "bill-clinton--1994-07-07--ITA",
       "officialId": "bill-clinton",
       "purpose": "Met with the Prime Ministers of Italy, Japan, and Canada. Attended G-7 Economic Summit Meeting and met with President Yeltsin.",
@@ -57722,7 +57967,7 @@
         "Met with Russian President Boris Yeltsin.",
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "21st G7 summit",
       "id": "bill-clinton--1995-06-15--CAN",
       "officialId": "bill-clinton",
       "purpose": "Attended Economic Summit Meeting with the Heads of State and Government of Canada, France, Germany, Italy, Japan, and the United Kingdom.",
@@ -58252,7 +58497,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Bill_Clinton"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
         },
         {
           "label": "COLT dataset",
@@ -58317,7 +58562,7 @@
         "Met with Russian prime minister Viktor Chernomyrdin and UN secretary-general Boutros Boutros-Ghali.",
         "Met President Jacques Chirac"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "22nd G7 summit",
       "id": "bill-clinton--1996-06-27--FRA",
       "officialId": "bill-clinton",
       "purpose": "Attended the G-7 Economic Summit Meeting and met with Russian Prime Minister Chernomyrdin and UN Secretary-General Boutrous-Ghali.",
@@ -58736,7 +58981,7 @@
         "Attended the NATO Summit Meeting in Madrid.",
         "Met Prime Minister Jose Maria Aznar"
       ],
-      "eventName": "NATO Summit",
+      "eventName": "1997 Madrid NATO summit",
       "id": "bill-clinton--1997-07-04--ESP",
       "officialId": "bill-clinton",
       "purpose": "Vacationed with King Juan Carlos I and Queen Sophia and attended a NATO Summit Meeting in Madrid.",
@@ -60166,13 +60411,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
+        "city": "Cologne",
         "coordinates": [
-          13.405,
-          52.52
+          6.957777777,
+          50.942222222
         ],
         "countryCode": "DEU",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1999-06-21",
@@ -77312,8 +77556,8 @@
       "endDate": "1933-07-27",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1933-06-08--GBR",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1933-06-08--GBR",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Chairman of U.S. Delegation to the Monetary and Economic Conference. Left U.S. May 31; returned August 1.",
       "sources": [
         {
@@ -77340,8 +77584,8 @@
       "endDate": "1933-11-25",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1933-11-24--BRA",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1933-11-24--BRA",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Vargas and Foreign Minister de Mello Franco en route to Inter-American Conference in Montevideo.",
       "sources": [
         {
@@ -77367,8 +77611,8 @@
       "endDate": "1933-12-26",
       "engagements": [],
       "eventName": "Attended 7th International Conference of American States.",
-      "id": "cordell-hull-usa--1933-11-28--URY",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1933-11-28--URY",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Attended 7th International Conference of American States.",
       "sources": [
         {
@@ -77394,8 +77638,8 @@
       "endDate": "1933-12-31",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1933-12-27--ARG",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1933-12-27--ARG",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Justo and addressed the American Club. Toured Argentine Lakes District en route to Chile.",
       "sources": [
         {
@@ -77422,8 +77666,8 @@
       "endDate": "1934-01-08",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1934-01-01--CHL",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1934-01-01--CHL",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Alessandri, addressed the Senate, and delivered several public addresses.",
       "sources": [
         {
@@ -77450,8 +77694,8 @@
       "endDate": "1934-01-13",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1934-01-09--PER",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1934-01-09--PER",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Benvenidez and Foreign Minister Solon Polo and delivered several public addresses.",
       "sources": [
         {
@@ -77478,8 +77722,8 @@
       "endDate": "1934-01-14",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1934-01-13--ECU",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1934-01-13--ECU",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with Ecuadorean officials and delivered public addresses.",
       "sources": [
         {
@@ -77505,8 +77749,8 @@
       "endDate": "1934-01-15",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1934-01-15--COL",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1934-01-15--COL",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with Colombian officials and delivered public addresses.",
       "sources": [
         {
@@ -77532,8 +77776,8 @@
       "endDate": "1934-01-17",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1934-01-17--PAN",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1934-01-17--PAN",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Arias and Foreign Minister Arosemena. Returned to U.S. January 19.",
       "sources": [
         {
@@ -77560,8 +77804,8 @@
       "endDate": "1936-11-21",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1936-11-19--BRA",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1936-11-19--BRA",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Vargas and Foreign Minister Macedo Soares en route to Inter-American Conference for the Maintenance of Peace.",
       "sources": [
         {
@@ -77587,8 +77831,8 @@
       "endDate": "1936-11-24",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1936-11-24--URY",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1936-11-24--URY",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Terra and delivered a public address.",
       "sources": [
         {
@@ -77614,8 +77858,8 @@
       "endDate": "1936-12-26",
       "engagements": [],
       "eventName": "Attended Inter-American Conference for the Maintenance of Peace.",
-      "id": "cordell-hull-usa--1936-11-25--ARG",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1936-11-25--ARG",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Attended Inter-American Conference for the Maintenance of Peace.",
       "sources": [
         {
@@ -77642,8 +77886,8 @@
       "endDate": "1936-12-31",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1936-12-29--BRA",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1936-12-29--BRA",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Vargas and delivered public addresses while returning to U.S.",
       "sources": [
         {
@@ -77670,8 +77914,8 @@
       "endDate": "1937-01-08",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1937-01-08--GBR",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1937-01-08--GBR",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Stopped while returning to to U.S. Returned January 13, 1937.",
       "sources": [
         {
@@ -77697,8 +77941,8 @@
       "endDate": "1937-10-23",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1937-10-22--CAN",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1937-10-22--CAN",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Returned visit by Prime Minister Mackenzie King.",
       "sources": [
         {
@@ -77724,8 +77968,8 @@
       "endDate": "1938-12-01",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1938-11-30--PAN",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1938-11-30--PAN",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Arosemena and addressed a conference of Foreign Service officers while en route to conference in Lima.",
       "sources": [
         {
@@ -77751,8 +77995,8 @@
       "endDate": "1938-12-02",
       "engagements": [],
       "eventName": "Delivered a public address en route to conference in Lima.",
-      "id": "cordell-hull-usa--1938-12-02--COL",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1938-12-02--COL",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Delivered a public address en route to conference in Lima.",
       "sources": [
         {
@@ -77778,8 +78022,8 @@
       "endDate": "1938-12-04",
       "engagements": [],
       "eventName": "Delivered a public address en route to conference in Lima.",
-      "id": "cordell-hull-usa--1938-12-04--ECU",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1938-12-04--ECU",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Delivered a public address en route to conference in Lima.",
       "sources": [
         {
@@ -77806,8 +78050,8 @@
       "endDate": "1938-12-27",
       "engagements": [],
       "eventName": "Attended 8th International Conference of American States.",
-      "id": "cordell-hull-usa--1938-12-07--PER",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1938-12-07--PER",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Attended 8th International Conference of American States.",
       "sources": [
         {
@@ -77833,8 +78077,8 @@
       "endDate": "1938-12-30",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1938-12-30--ECU",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1938-12-30--ECU",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Delivered a public address while returning to U.S.",
       "sources": [
         {
@@ -77860,8 +78104,8 @@
       "endDate": "1939-01-01",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1939-01-01--COL",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1939-01-01--COL",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Delivered a public address while returning to U.S.",
       "sources": [
         {
@@ -77887,8 +78131,8 @@
       "endDate": "1939-01-03",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1939-01-03--PAN",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1939-01-03--PAN",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with President Arosemena. Returned to U.S. January 9, 1939.",
       "sources": [
         {
@@ -77914,8 +78158,8 @@
       "endDate": "1940-07-30",
       "engagements": [],
       "eventName": "Attended Conference of American States. Left U.S. July 19; returned August 1.",
-      "id": "cordell-hull-usa--1940-07-20--CUB",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1940-07-20--CUB",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Attended Conference of American States. Left U.S. July 19; returned August 1.",
       "sources": [
         {
@@ -77941,8 +78185,8 @@
       "endDate": "1943-08-24",
       "engagements": [],
       "eventName": "Attended Quebec Conference with President Roosevelt.",
-      "id": "cordell-hull-usa--1943-08-20--CAN",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1943-08-20--CAN",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Attended Quebec Conference with President Roosevelt.",
       "sources": [
         {
@@ -77969,8 +78213,8 @@
       "endDate": "1943-10-15",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1943-10-15--FRA",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1943-10-15--FRA",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with Generals Eisenhower and De Gaulle.",
       "sources": [
         {
@@ -77996,8 +78240,8 @@
       "endDate": "1943-10-15",
       "engagements": [],
       "eventName": "Disembarked en route to Moscow Conference. Left U.S. October 7.",
-      "id": "cordell-hull-usa--1943-10-15--MAR",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1943-10-15--MAR",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Disembarked en route to Moscow Conference. Left U.S. October 7.",
       "sources": [
         {
@@ -78023,8 +78267,8 @@
       "endDate": "1943-10-16",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1943-10-16--EGY",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1943-10-16--EGY",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with King Farouk, King George of Greece and King Peter of Yugoslavia.",
       "sources": [
         {
@@ -78050,8 +78294,8 @@
       "endDate": "1943-10-17",
       "engagements": [],
       "eventName": null,
-      "id": "cordell-hull-usa--1943-10-17--IRN",
-      "officialId": "cordell-hull-usa",
+      "id": "cordell-hull-q202979--1943-10-17--IRN",
+      "officialId": "cordell-hull-q202979",
       "purpose": "Met with Shah Mohammed Reza Pahlavi and with British Foreign Secretary Eden.",
       "sources": [
         {
@@ -84439,6 +84683,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "region": "Asia"
+      },
+      "endDate": "2017-04-29",
+      "engagements": [],
+      "eventName": "2017 ASEAN Summits",
+      "id": "donald-trump--2017-04-28--PHL",
+      "officialId": "donald-trump",
+      "purpose": "Attended the 2017 ASEAN Summits",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+        }
+      ],
+      "startDate": "2017-04-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Riyadh",
         "coordinates": [
           46.71,
@@ -85014,7 +85285,7 @@
         "Also held bilateral meetings with prime minister Justin Trudeau and French president Emmanuel Macron.",
         "Trump left the summit several hours early."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "44th G7 summit",
       "id": "donald-trump--2018-06-09--CAN",
       "officialId": "donald-trump",
       "purpose": "Attended the G–7 meetings.",
@@ -85382,7 +85653,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Donald_Trump"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Naruhito"
         },
         {
           "label": "COLT dataset",
@@ -85420,7 +85691,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Donald_Trump"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
         },
         {
           "label": "COLT dataset",
@@ -85643,6 +85914,61 @@
         }
       ],
       "startDate": "2019-08-24",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-09-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-trump--2019-09-01--USA",
+      "officialId": "donald-trump",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/New_Zealand%E2%80%93United_States_relations"
+        }
+      ],
+      "startDate": "2019-09-01",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Santiago",
+        "coordinates": [
+          -70.65,
+          -33.4375
+        ],
+        "countryCode": "CHL",
+        "region": "Americas"
+      },
+      "endDate": "2019-11-17",
+      "engagements": [],
+      "eventName": "APEC Chile 2019",
+      "id": "donald-trump--2019-11-16--CHL",
+      "officialId": "donald-trump",
+      "purpose": "Attended the APEC Chile 2019",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Chile_2019"
+        }
+      ],
+      "startDate": "2019-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -85995,6 +86321,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Kuala Lumpur",
+        "coordinates": [
+          101.695277777,
+          3.147777777
+        ],
+        "countryCode": "MYS",
+        "region": "Asia"
+      },
+      "endDate": "2025-05-27",
+      "engagements": [],
+      "eventName": "2025 ASEAN Summits",
+      "id": "donald-trump--2025-05-26--MYS",
+      "officialId": "donald-trump",
+      "purpose": "Attended the 2025 ASEAN Summits",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_ASEAN_Summits"
+        }
+      ],
+      "startDate": "2025-05-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Kananaskis",
         "coordinates": [
           -114.9,
@@ -86008,7 +86361,7 @@
         "Held bilateral meetings with Prime Minister Mark Carney, German chancellor Friedrich Merz and British prime minister Keir Starmer.",
         "Trump left the summit a day early."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "51st G7 summit",
       "id": "donald-trump--2025-06-15--CAN",
       "officialId": "donald-trump",
       "purpose": "Attended the 51st G7 summit.",
@@ -86073,7 +86426,7 @@
         "Met with King Willem-Alexander and Queen Máxima at Huis ten Bosch.",
         "Held bilateral meetings with Prime Minister Dick Schoof and NATO Secretary General Mark Rutte."
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2025 The Hague NATO summit",
       "id": "donald-trump--2025-06-24--NLD",
       "officialId": "donald-trump",
       "purpose": "Attended the 35th NATO summit at the World Forum.",
@@ -86128,10 +86481,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Windsor",
+        "city": "Windsor Castle",
         "coordinates": [
-          -0.6,
-          51.483333333
+          -0.604444444,
+          51.483888888
         ],
         "countryCode": "GBR",
         "region": "Europe"
@@ -86148,7 +86501,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Donald_Trump"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Charles_III"
         },
         {
           "label": "COLT dataset",
@@ -86344,7 +86697,7 @@
         "Was awarded the Grand Order of Mugunghwa.",
         "Delivered remarks at the APEC CEO Luncheon at Gyeongju Arts Center and participated in a U.S.–APEC Leaders Working Dinner at Hilton Hotel Gyeongju."
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC South Korea 2025",
       "id": "donald-trump--2025-10-29--KOR",
       "officialId": "donald-trump",
       "purpose": "Met with President Lee Jae Myung at the Gyeongju National Museum.",
@@ -86359,6 +86712,33 @@
         }
       ],
       "startDate": "2025-10-29",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Johannesburg",
+        "coordinates": [
+          28.041638888,
+          -26.204361111
+        ],
+        "countryCode": "ZAF",
+        "region": "Africa"
+      },
+      "endDate": "2025-11-23",
+      "engagements": [],
+      "eventName": "2025 G20 Johannesburg summit",
+      "id": "donald-trump--2025-11-22--ZAF",
+      "officialId": "donald-trump",
+      "purpose": "Attended the 2025 G20 Johannesburg summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_G20_Johannesburg_summit"
+        }
+      ],
+      "startDate": "2025-11-22",
       "statusHint": null,
       "type": "summit"
     },
@@ -86525,7 +86905,7 @@
         "He held bilateral meetings with French President Emmanuel Macron, Qatari Emir Tamim bin Hamad Al Thani, Emirati President Mohamed bin Zayed Al Nahyan, Egyptian President Abdel Fat…",
         "Attended a dinner with French President Emmanuel Macron at the Palace of Versailles and festivities celebrating the United States Semiquincentennial."
       ],
-      "eventName": null,
+      "eventName": "52nd G7 summit",
       "id": "donald-trump--2026-06-15--FRA",
       "officialId": "donald-trump",
       "purpose": "Attended the 52nd G7 summit.",
@@ -86555,7 +86935,7 @@
         "He held bilateral meetings with Turkish President Recep Erdoğan, NATO Secretary General Mark Rutte, Ukrainian President Volodymyr Zelenskyy, and Syrian President Ahmed al-Sharaa.",
         "On the return trip, President Trump initially boarded the older Air Force One at Ankara Airport before secretly transferring to a Boeing C-32A via an airport catering truck amid a…"
       ],
-      "eventName": null,
+      "eventName": "2026 Ankara NATO summit",
       "id": "donald-trump--2026-07-07--TUR",
       "officialId": "donald-trump",
       "purpose": "Attended the 36th NATO summit at the Presidential Complex of Turkey.",
@@ -86638,7 +87018,7 @@
       },
       "endDate": "2026-11-19",
       "engagements": [],
-      "eventName": null,
+      "eventName": "APEC China 2026",
       "id": "donald-trump--2026-11-18--CHN",
       "officialId": "donald-trump",
       "purpose": "President Trump plans to attend APEC China 2026",
@@ -86649,6 +87029,33 @@
         }
       ],
       "startDate": "2026-11-18",
+      "statusHint": "planned",
+      "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tirana",
+        "coordinates": [
+          19.818055555,
+          41.328333333
+        ],
+        "countryCode": "ALB",
+        "region": "Europe"
+      },
+      "endDate": "2027-12-31",
+      "engagements": [],
+      "eventName": "2027 Tirana NATO summit",
+      "id": "donald-trump--2027-01-01--ALB",
+      "officialId": "donald-trump",
+      "purpose": "Attended the 2027 Tirana NATO summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2027_Tirana_NATO_summit"
+        }
+      ],
+      "startDate": "2027-01-01",
       "statusHint": "planned",
       "type": "summit"
     },
@@ -87661,6 +88068,10 @@
           "url": "https://history.state.gov/departmenthistory/travels/president/eisenhower-dwight-d"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93United_States_relations"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -87879,6 +88290,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/travels/president/eisenhower-dwight-d"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portugal%E2%80%93United_States_relations"
         },
         {
           "label": "COLT dataset",
@@ -88815,6 +89230,34 @@
       "startDate": "1907-09-29",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-07-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ellen-tauscher--2007-07-01--USA",
+      "officialId": "ellen-tauscher",
+      "purpose": "Visit to United States",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/New_Zealand%E2%80%93United_States_relations"
+        }
+      ],
+      "startDate": "2007-07-01",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -90767,6 +91210,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Belgrade",
+        "coordinates": [
+          20.456944444,
+          44.817777777
+        ],
+        "countryCode": "SRB",
+        "region": "Europe"
+      },
+      "endDate": "1961-09-06",
+      "engagements": [],
+      "eventName": "1st Summit of the Non-Aligned Movement",
+      "id": "george-f-kennan--1961-09-01--SRB",
+      "officialId": "george-f-kennan",
+      "purpose": "Attended the 1st Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "1961-09-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ottawa",
         "coordinates": [
           -75.695,
@@ -91184,7 +91654,7 @@
         "Also attended ceremonies for the bicentennial of the French Revolution.",
         "Met with Ivorian president Félix Houphouët-Boigny."
       ],
-      "eventName": "Economic Summit",
+      "eventName": "15th G7 summit",
       "id": "george-h-w-bush--1989-07-13--FRA",
       "officialId": "george-h-w-bush",
       "purpose": "Attended Economic Summit Meeting of the Heads of State and Government of Canada, France, the Federal Republic of Germany, Italy, Japan, and…",
@@ -91277,6 +91747,33 @@
         }
       ],
       "startDate": "1989-10-27",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Canberra",
+        "coordinates": [
+          149.126944444,
+          -35.293055555
+        ],
+        "countryCode": "AUS",
+        "region": "Oceania"
+      },
+      "endDate": "1989-11-07",
+      "engagements": [],
+      "eventName": "APEC Australia 1989",
+      "id": "george-h-w-bush--1989-11-05--AUS",
+      "officialId": "george-h-w-bush",
+      "purpose": "Attended the APEC Australia 1989",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Australia_1989"
+        }
+      ],
+      "startDate": "1989-11-05",
       "statusHint": null,
       "type": "summit"
     },
@@ -92343,7 +92840,7 @@
         "Also met with Soviet President Mikhail Gorbachev.",
         "Signed agreements"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "17th G7 summit",
       "id": "george-h-w-bush--1991-07-14--GBR",
       "officialId": "george-h-w-bush",
       "purpose": "Attended Economic Summit Meeting with the Heads of State and Government of Canada, France, Germany, Italy, Japan, and the United Kingdom.",
@@ -92840,7 +93337,7 @@
       },
       "endDate": "1992-07-08",
       "engagements": [],
-      "eventName": "Economic Summit",
+      "eventName": "18th G7 summit",
       "id": "george-h-w-bush--1992-07-05--DEU",
       "officialId": "george-h-w-bush",
       "purpose": "Attended an Economic Summit Meeting with the Heads of State and Government of Canada, France, Germany, Italy, Japan, and the United Kingdom.",
@@ -92848,6 +93345,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/travels/president/bush-george-h-w"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_G7_summit"
         },
         {
           "label": "COLT dataset",
@@ -93114,6 +93615,34 @@
       "startDate": "1993-01-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lisbon",
+        "coordinates": [
+          -9.139016,
+          38.708042
+        ],
+        "countryCode": "PRT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1994-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "george-h-w-bush--1994-01-01--PRT",
+      "officialId": "george-h-w-bush",
+      "purpose": "Visit to Portugal",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portugal%E2%80%93United_States_relations"
+        }
+      ],
+      "startDate": "1994-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -100055,7 +100584,7 @@
         "Met with Pope John Paul II.",
         "Also met with Prime Minister Silvio Berlusconi and President Carlo Azeglio Ciampi."
       ],
-      "eventName": "G8 Summit",
+      "eventName": "27th G8 summit",
       "id": "george-w-bush--2001-07-20--ITA",
       "officialId": "george-w-bush",
       "purpose": "Attended the G-8 Economic Summit.",
@@ -100066,7 +100595,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_George_W._Bush"
+          "url": "https://en.wikipedia.org/wiki/27th_G8_summit"
         },
         {
           "label": "COLT dataset",
@@ -101515,7 +102044,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_George_W._Bush"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
         },
         {
           "label": "COLT dataset",
@@ -102904,13 +103433,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
+        "city": "Saint Petersburg",
         "coordinates": [
-          37.6175,
-          55.750555555
+          30.316666666,
+          59.95
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2006-07-17",
@@ -102918,7 +103446,7 @@
         "Met with Chinese President Hu Jintao, Brazilian President Luiz Inácio Lula da Silva and Indian Prime Minister Manmohan Singh.",
         "Met President Vladimir Putin"
       ],
-      "eventName": "G8 Summit",
+      "eventName": "32nd G8 summit",
       "id": "george-w-bush--2006-07-14--RUS",
       "officialId": "george-w-bush",
       "purpose": "Attended the G-8 Economic Summit.",
@@ -104252,7 +104780,7 @@
         "Met President Traian Basescu",
         "Gave a public address"
       ],
-      "eventName": "Bucharest Nine (B9) Summit",
+      "eventName": "2008 Bucharest NATO summit",
       "id": "george-w-bush--2008-04-02--ROU",
       "officialId": "george-w-bush",
       "purpose": "Met with President Basescu and Prime Minister Popescu-Tariceanu.",
@@ -104704,7 +105232,7 @@
       "engagements": [
         "Met with Tanzanian president Kikwete, Indian prime minister Manmohan Singh, Chinese president Hu Jintao and South Korean president Lee Myung-bak."
       ],
-      "eventName": "G8 Summit",
+      "eventName": "34th G8 summit",
       "id": "george-w-bush--2008-07-06--JPN",
       "officialId": "george-w-bush",
       "purpose": "Attended the G-8 Economic Summit.",
@@ -105801,6 +106329,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/travels/president/truman-harry-s"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Brazil%E2%80%93United_States_relations"
         },
         {
           "label": "COLT dataset",
@@ -114136,7 +114668,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hillary_Clinton_as_United_States_Secretary_of_State"
+          "url": "https://en.wikipedia.org/wiki/Fifth_East_Asia_Summit"
         }
       ],
       "startDate": "2010-10-29",
@@ -124528,7 +125060,7 @@
         "Also met with the prime ministers of Greece, Belgium, Turkey, Norway, the Netherlands and Luxembourg, and with the President of Portugal.",
         "Addressed NATO Ministers meeting."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "3rd G7 summit",
       "id": "jimmy-carter--1977-05-05--GBR",
       "officialId": "jimmy-carter",
       "purpose": "Attended Economic Summit Meeting May 7-8 of the Heads of State and Government of Canada, France, the Federal Republic of Germany, Italy, Ja…",
@@ -125037,13 +125569,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
+        "city": "Bonn",
         "coordinates": [
-          13.405,
-          52.52
+          7.102222222,
+          50.735277777
         ],
         "countryCode": "DEU",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1978-07-15",
@@ -125051,7 +125582,7 @@
         "Met with President Walter Scheel and Chancellor Helmut Schmidt.",
         "Addressed U.S. and German military personnel."
       ],
-      "eventName": null,
+      "eventName": "4th G7 summit",
       "id": "jimmy-carter--1978-07-15--DEU",
       "officialId": "jimmy-carter",
       "purpose": "Spoke at the Airlift Memorial.",
@@ -125067,7 +125598,7 @@
       ],
       "startDate": "1978-07-15",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -125368,7 +125899,7 @@
         "State visit.",
         "Met with Emperor Hirohito and Prime Minister Masayoshi Ōhira."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "5th G7 summit",
       "id": "jimmy-carter--1979-06-24--JPN",
       "officialId": "jimmy-carter",
       "purpose": "State visit; met with Emperor Hirohito and Prime Minister Ohira.",
@@ -125444,7 +125975,7 @@
         "State visit.",
         "Met with President Sandro Pertini."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "6th G7 summit",
       "id": "jimmy-carter--1980-06-19--ITA",
       "officialId": "jimmy-carter",
       "purpose": "State visit; met with President Pertini.",
@@ -125767,6 +126298,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Bandar Seri Begawan",
+        "coordinates": [
+          114.916666666,
+          4.916666666
+        ],
+        "countryCode": "BRN",
+        "region": "Asia"
+      },
+      "endDate": "2021-10-27",
+      "engagements": [],
+      "eventName": "Sixteenth East Asia Summit",
+      "id": "joe-biden--2021-10-26--BRN",
+      "officialId": "joe-biden",
+      "purpose": "Attended the Sixteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sixteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2021-10-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Rome",
         "coordinates": [
           12.482777777,
@@ -125780,7 +126338,7 @@
         "On October 30, attended the G20 summit at La Nuvola in Rome.",
         "Met with Italian prime minister Mario Draghi, took the customary photo with other world leaders, and attended an event on supporting women-owned businesses."
       ],
-      "eventName": "G20 Summit",
+      "eventName": "2021 G20 Rome summit",
       "id": "joe-biden--2021-10-29--ITA",
       "officialId": "joe-biden",
       "purpose": "Attended the G20 Leader's Summit.",
@@ -126112,7 +126670,7 @@
         "Attended the 32nd NATO Summit at IFEMA.",
         "Held trilateral meeting with Japanese prime minister Fumio Kishida and South Korean president Yoon Suk-yeol."
       ],
-      "eventName": "North Atlantic Treaty Organization (NATO) Summit",
+      "eventName": "2022 Madrid NATO summit",
       "id": "joe-biden--2022-06-28--ESP",
       "officialId": "joe-biden",
       "purpose": "Met with Prime Minister Pedro Sánchez Perez-Castejon and participated in the Madrid NATO Summit.",
@@ -126353,7 +126911,7 @@
         "Met with Prime Minister Hun Sen.",
         "Held bilateral meetings Japanese prime minister Fumio Kishida and South Korean president Yoon Suk-yeol."
       ],
-      "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
+      "eventName": "Seventeenth East Asia Summit",
       "id": "joe-biden--2022-11-12--KHM",
       "officialId": "joe-biden",
       "purpose": "Participated in the U.S.-ASEAN and East Asia Summits.",
@@ -127053,7 +127611,7 @@
         "Met with President Dina Boluarte, Japanese prime minister Shigeru Ishiba, South Korean president Yoon Suk Yeol and CCP General Secretary Xi Jinping.",
         "Met President Dina Boluarte"
       ],
-      "eventName": "Asia Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "APEC Peru 2024",
       "id": "joe-biden--2024-11-15--PER",
       "officialId": "joe-biden",
       "purpose": "Met with President Dina Boluarte and with President Xi Jinping of China.",
@@ -127078,10 +127636,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manaus",
+        "city": "Rio de Janeiro",
         "coordinates": [
-          -60.021666666,
-          -3.118888888
+          -43.205555555,
+          -22.911111111
         ],
         "countryCode": "BRA",
         "region": "Americas"
@@ -127102,7 +127660,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joe_Biden"
+          "url": "https://en.wikipedia.org/wiki/2024_G20_Rio_de_Janeiro_summit"
         },
         {
           "label": "COLT dataset",
@@ -132558,7 +133116,7 @@
       "engagements": [
         "Signed Nuclear Risk Reduction Agreement with Russian Foreign Minister Sergey Lavrov."
       ],
-      "eventName": null,
+      "eventName": "APEC Indonesia 2013",
       "id": "john-kerry--2013-10-04--IDN",
       "officialId": "john-kerry",
       "purpose": "Attended the APEC Ministerial Meeting and the APEC CEO Summit Meeting.",
@@ -135278,7 +135836,7 @@
       },
       "endDate": "2014-09-05",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2014 Wales NATO summit",
       "id": "john-kerry--2014-09-04--GBR",
       "officialId": "john-kerry",
       "purpose": "Accompanied President Obama to the NATO Summit Meeting.",
@@ -142006,27 +142564,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bangkok",
+        "city": "Queen Sirikit National Convention Center",
         "coordinates": [
-          100.516666666,
-          13.75
+          100.559222,
+          13.723992
         ],
         "countryCode": "THA",
         "region": "Asia"
       },
-      "endDate": "2022-11-20",
+      "endDate": "2022-11-19",
       "engagements": [],
-      "eventName": null,
-      "id": "kamala-harris--2022-11-18--THA",
+      "eventName": "APEC Thailand 2022",
+      "id": "kamala-harris--2022-11-16--THA",
       "officialId": "kamala-harris",
-      "purpose": "Vice President Harris attended the APEC summit and met with regional leaders.",
+      "purpose": "Attended the APEC Thailand 2022",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_vice_presidential_trips_made_by_Kamala_Harris"
+          "url": "https://en.wikipedia.org/wiki/APEC_Thailand_2022"
         }
       ],
-      "startDate": "2022-11-18",
+      "startDate": "2022-11-16",
       "statusHint": null,
       "type": "summit"
     },
@@ -142214,7 +142772,7 @@
         "Durante o evento, Harris afirmou o apoio estadunidense à manutenção da segurança e paz regional e ao diálogo diplomático aberto entre os países-membros da organização.",
         "Harris também realizou reuniões bilaterais com o Presidente da Indonésia Joko Widodo e o Presidente das Filipinas Bongbong Marcos para debater temas como os efeitos econômicos da…"
       ],
-      "eventName": null,
+      "eventName": "Eighteenth East Asia Summit",
       "id": "kamala-harris--2023-09-04--IDN",
       "officialId": "kamala-harris",
       "purpose": "Harris viajou à Bali para representar Joe Biden na 43.ª Cúpula da Associação de Nações do Sudeste Asiático, evento considerado altamente es…",
@@ -153471,6 +154029,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "martin-palous--1999-01-01--PER",
+      "officialId": "martin-palous",
+      "purpose": "Visit to Peru",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Czech_Republic%E2%80%93Peru_relations"
+        }
+      ],
+      "startDate": "1999-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -153496,6 +154082,87 @@
       "startDate": "2007-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Lima",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ],
+        "countryCode": "PER",
+        "region": "Americas"
+      },
+      "endDate": "2018-04-14",
+      "engagements": [],
+      "eventName": "8th Summit of the Americas",
+      "id": "mike-pence--2018-04-13--PER",
+      "officialId": "mike-pence",
+      "purpose": "Attended the 8th Summit of the Americas",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_Summit_of_the_Americas"
+        }
+      ],
+      "startDate": "2018-04-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Suntec Singapore Convention and Exhibition Centre",
+        "coordinates": [
+          103.856944444,
+          1.293611111
+        ],
+        "countryCode": "SGP",
+        "region": "Asia"
+      },
+      "endDate": "2018-11-15",
+      "engagements": [],
+      "eventName": "Thirteenth East Asia Summit",
+      "id": "mike-pence--2018-11-14--SGP",
+      "officialId": "mike-pence",
+      "purpose": "Attended the Thirteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Thirteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2018-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Port Moresby",
+        "coordinates": [
+          147.149444444,
+          -9.478888888
+        ],
+        "countryCode": "PNG",
+        "region": "Oceania"
+      },
+      "endDate": "2018-11-18",
+      "engagements": [],
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "mike-pence--2018-11-17--PNG",
+      "officialId": "mike-pence",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        }
+      ],
+      "startDate": "2018-11-17",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -161886,6 +162553,60 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Bangkok",
+        "coordinates": [
+          100.516666666,
+          13.75
+        ],
+        "countryCode": "THA",
+        "region": "Asia"
+      },
+      "endDate": "2019-11-04",
+      "engagements": [],
+      "eventName": "Fourteenth East Asia Summit",
+      "id": "robert-c-o-brien--2019-11-04--THA",
+      "officialId": "robert-c-o-brien",
+      "purpose": "Attended the Fourteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fourteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2019-11-04",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Hanoi",
+        "coordinates": [
+          105.84117,
+          21.0245
+        ],
+        "countryCode": "VNM",
+        "region": "Asia"
+      },
+      "endDate": "2020-11-14",
+      "engagements": [],
+      "eventName": "Fifteenth East Asia Summit",
+      "id": "robert-c-o-brien--2020-11-14--VNM",
+      "officialId": "robert-c-o-brien",
+      "purpose": "Attended the Fifteenth East Asia Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fifteenth_East_Asia_Summit"
+        }
+      ],
+      "startDate": "2020-11-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [
           2.352222222,
@@ -161990,7 +162711,7 @@
       "engagements": [
         "Met Prime Minister Pierre Trudeau"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "7th G7 summit",
       "id": "ronald-reagan--1981-07-19--CAN",
       "officialId": "ronald-reagan",
       "purpose": "Attended Economic Summit Conference of the Heads of State and Government of Canada, France, the Federal Republic of Germany, Italy, Japan,…",
@@ -162142,7 +162863,7 @@
         "Met with President François Mitterrand and Prime Minister Pierre Mauroy.",
         "Met President Francois Mitterrand"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "8th G7 summit",
       "id": "ronald-reagan--1982-06-02--FRA",
       "officialId": "ronald-reagan",
       "purpose": "State visit; met with President Mitterrand and Prime Minister Mauroy.",
@@ -162562,7 +163283,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Ronald_Reagan"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
         },
         {
           "label": "COLT dataset",
@@ -162699,7 +163420,7 @@
         "Met Prime Minister Margaret Thatcher",
         "Signed agreements"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "10th G7 summit",
       "id": "ronald-reagan--1984-06-04--GBR",
       "officialId": "ronald-reagan",
       "purpose": "Met with Queen Elizabeth II and Prime Minister Thatcher.",
@@ -162800,36 +163521,36 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bergen-Belsen",
+        "city": "Bonn",
         "coordinates": [
-          9.907099,
-          52.758899
+          7.102222222,
+          50.735277777
         ],
         "countryCode": "DEU",
         "region": "Europe"
       },
-      "endDate": "1985-05-06",
+      "endDate": "1985-05-04",
       "engagements": [
         "Attended ceremonies commemorating 40th anniversary of the end of World War II in Europe.",
         "Met Chancellor Helmut Kohl"
       ],
-      "eventName": "G7 Summit",
-      "id": "ronald-reagan--1985-05-05--DEU",
+      "eventName": "11th G7 summit",
+      "id": "ronald-reagan--1985-05-02--DEU",
       "officialId": "ronald-reagan",
-      "purpose": "State visit.",
+      "purpose": "Attended the 11th G7 summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Ronald_Reagan"
+          "url": "https://en.wikipedia.org/wiki/11th_G7_summit"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1985-05-05",
+      "startDate": "1985-05-02",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -163150,7 +163871,7 @@
         "Met Prime Minister Nakasone Yasuhiro",
         "Signed agreements"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "12th G7 summit",
       "id": "ronald-reagan--1986-05-02--JPN",
       "officialId": "ronald-reagan",
       "purpose": "Attended Economic Summit Meeting of the Heads of State and Government of Canada, France, the Federal Republic of Germany, Italy, Japan, and…",
@@ -163263,7 +163984,7 @@
       "engagements": [
         "Met with President Francesco Cossiga and Prime Minister Amintore Fanfani in Rome."
       ],
-      "eventName": "G7 Summit",
+      "eventName": "13th G7 summit",
       "id": "ronald-reagan--1987-06-03--ITA",
       "officialId": "ronald-reagan",
       "purpose": "Attended Economic Summit Meeting (June 8-10) of the Heads of State and Government of Canada, France, the Federal Republic of Germany, Italy…",
@@ -163542,7 +164263,7 @@
       },
       "endDate": "1988-06-21",
       "engagements": [],
-      "eventName": "G7 Summit",
+      "eventName": "14th G7 summit",
       "id": "ronald-reagan--1988-06-19--CAN",
       "officialId": "ronald-reagan",
       "purpose": "Attended Economic Summit Meeting of the Heads of State and Government of Canada, France, the Federal Republic of Germany, Italy, Japan, and…",
@@ -163561,6 +164282,33 @@
         }
       ],
       "startDate": "1988-06-19",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Gyeongju Hwabaek International Convention Center",
+        "coordinates": [
+          129.2879,
+          35.8383
+        ],
+        "countryCode": "KOR",
+        "region": "Asia"
+      },
+      "endDate": "2025-11-01",
+      "engagements": [],
+      "eventName": "APEC South Korea 2025",
+      "id": "scott-bessent--2025-10-31--KOR",
+      "officialId": "scott-bessent",
+      "purpose": "Attended the APEC South Korea 2025",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_South_Korea_2025"
+        }
+      ],
+      "startDate": "2025-10-31",
       "statusHint": null,
       "type": "summit"
     },
@@ -173482,8 +174230,8 @@
       "endDate": "1912-12-13",
       "engagements": [],
       "eventName": null,
-      "id": "woodrow-wilson-usa--1912-11-18--GBR",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1912-11-18--GBR",
+      "officialId": "woodrow-wilson",
       "purpose": "Vacation. [Visit made as President-elect.]",
       "sources": [
         {
@@ -173510,8 +174258,8 @@
       "endDate": "1918-12-25",
       "engagements": [],
       "eventName": "Attended Preliminary to the Paris Peace Conference. Departed the U.S. December 4.",
-      "id": "woodrow-wilson-usa--1918-12-14--FRA",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1918-12-14--FRA",
+      "officialId": "woodrow-wilson",
       "purpose": "Attended Preliminary to the Paris Peace Conference. Departed the U.S. December 4.",
       "sources": [
         {
@@ -173538,8 +174286,8 @@
       "endDate": "1918-12-31",
       "engagements": [],
       "eventName": null,
-      "id": "woodrow-wilson-usa--1918-12-26--GBR",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1918-12-26--GBR",
+      "officialId": "woodrow-wilson",
       "purpose": "Met with Prime Minister Lloyd George and King George V.",
       "sources": [
         {
@@ -173565,8 +174313,8 @@
       "endDate": "1919-01-01",
       "engagements": [],
       "eventName": null,
-      "id": "woodrow-wilson-usa--1918-12-31--FRA",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1918-12-31--FRA",
+      "officialId": "woodrow-wilson",
       "purpose": "Stopover en route to Italy.",
       "sources": [
         {
@@ -173592,8 +174340,8 @@
       "endDate": "1919-01-06",
       "engagements": [],
       "eventName": null,
-      "id": "woodrow-wilson-usa--1919-01-04--ITA",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1919-01-04--ITA",
+      "officialId": "woodrow-wilson",
       "purpose": "Audience with Pope Benedict XV",
       "sources": [
         {
@@ -173619,8 +174367,8 @@
       "endDate": "1919-02-14",
       "engagements": [],
       "eventName": "Attended Paris Peace Conference. Arrived In the U.S. February 24.",
-      "id": "woodrow-wilson-usa--1919-01-07--FRA",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1919-01-07--FRA",
+      "officialId": "woodrow-wilson",
       "purpose": "Attended Paris Peace Conference. Arrived In the U.S. February 24.",
       "sources": [
         {
@@ -173646,8 +174394,8 @@
       "endDate": "1919-06-18",
       "engagements": [],
       "eventName": "Attended Paris Peace Conference. Departed the U.S. March 5.",
-      "id": "woodrow-wilson-usa--1919-03-14--FRA",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1919-03-14--FRA",
+      "officialId": "woodrow-wilson",
       "purpose": "Attended Paris Peace Conference. Departed the U.S. March 5.",
       "sources": [
         {
@@ -173674,8 +174422,8 @@
       "endDate": "1919-06-19",
       "engagements": [],
       "eventName": null,
-      "id": "woodrow-wilson-usa--1919-06-18--BEL",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1919-06-18--BEL",
+      "officialId": "woodrow-wilson",
       "purpose": "Met with King Albert, addressed Parliament.",
       "sources": [
         {
@@ -173701,8 +174449,8 @@
       "endDate": "1919-06-28",
       "engagements": [],
       "eventName": "Attended Paris Peace Conference. Returned to U.S. July 8.",
-      "id": "woodrow-wilson-usa--1919-06-20--FRA",
-      "officialId": "woodrow-wilson-usa",
+      "id": "woodrow-wilson--1919-06-20--FRA",
+      "officialId": "woodrow-wilson",
       "purpose": "Attended Paris Peace Conference. Returned to U.S. July 8.",
       "sources": [
         {

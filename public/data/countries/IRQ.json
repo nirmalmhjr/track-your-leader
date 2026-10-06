@@ -18677,6 +18677,33 @@
       "type": "other"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Algiers",
+        "coordinates": [
+          3.058611111,
+          36.776388888
+        ],
+        "countryCode": "DZA",
+        "region": "Africa"
+      },
+      "endDate": "2022-11-30",
+      "engagements": [],
+      "eventName": "2022 Arab League summit",
+      "id": "abdul-latif-rashid--2022-11-01--DZA",
+      "officialId": "abdul-latif-rashid",
+      "purpose": "Attended the 2022 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Arab_League_summit"
+        }
+      ],
+      "startDate": "2022-11-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -18702,6 +18729,60 @@
       "startDate": "2025-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Casablanca",
+        "coordinates": [
+          -7.62,
+          33.599166666
+        ],
+        "countryCode": "MAR",
+        "region": "Africa"
+      },
+      "endDate": "1965-09-13",
+      "engagements": [],
+      "eventName": "1965 Arab League summit",
+      "id": "abdul-rahman-arif--1965-09-13--MAR",
+      "officialId": "abdul-rahman-arif",
+      "purpose": "Attended the 1965 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1965_Arab_League_summit"
+        }
+      ],
+      "startDate": "1965-09-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Cairo",
+        "coordinates": [
+          31.235833333,
+          30.044444444
+        ],
+        "countryCode": "EGY",
+        "region": "Africa"
+      },
+      "endDate": "1964-01-16",
+      "engagements": [],
+      "eventName": "1964 Arab League summit (Cairo)",
+      "id": "abdul-salam-arif--1964-01-13--EGY",
+      "officialId": "abdul-salam-arif",
+      "purpose": "Attended the 1964 Arab League summit (Cairo)",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1964_Arab_League_summit_(Cairo)"
+        }
+      ],
+      "startDate": "1964-01-13",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -20094,18 +20175,44 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Dhahran",
         "coordinates": [
-          -77.0369,
-          38.9072
+          50.15,
+          26.266666666
+        ],
+        "countryCode": "SAU",
+        "region": "Asia"
+      },
+      "endDate": "2018-04-15",
+      "engagements": [],
+      "eventName": "2018 Arab League summit",
+      "id": "fuad-masum--2018-04-15--SAU",
+      "officialId": "fuad-masum",
+      "purpose": "Attended the 2018 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Arab_League_summit"
+        }
+      ],
+      "startDate": "2018-04-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Sea Island",
+        "coordinates": [
+          -81.3331508,
+          31.2002314
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2004-06-11",
       "engagements": [],
-      "eventName": null,
+      "eventName": "30th G8 summit",
       "id": "ghazi-mashal-ajil-al-yawer--2004-06-09--USA",
       "officialId": "ghazi-mashal-ajil-al-yawer",
       "purpose": "Working visit.",
@@ -20113,6 +20220,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/30th_G8_summit"
         }
       ],
       "startDate": "2004-06-09",
@@ -20146,6 +20257,33 @@
       "startDate": "2004-12-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Algiers",
+        "coordinates": [
+          3.058611111,
+          36.776388888
+        ],
+        "countryCode": "DZA",
+        "region": "Africa"
+      },
+      "endDate": "2005-03-23",
+      "engagements": [],
+      "eventName": "2005 Arab League summit",
+      "id": "ghazi-mashal-ajil-al-yawer--2005-03-22--DZA",
+      "officialId": "ghazi-mashal-ajil-al-yawer",
+      "purpose": "Attended the 2005 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2005_Arab_League_summit"
+        }
+      ],
+      "startDate": "2005-03-22",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -20566,11 +20704,15 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "41st G7 summit",
       "id": "haider-al-abadi--2015-06-07--DEU",
       "officialId": "haider-al-abadi",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 41st G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/41st_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20908,24 +21050,27 @@
           31.930983
         ],
         "countryCode": "JOR",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-03-29",
       "engagements": [
         "Met King Abdullah II bin Al-Hussein"
       ],
-      "eventName": "Arab League Summit",
-      "id": "haider-al-abadi--2017-03-28--JOR",
+      "eventName": "2017 Arab League summit",
+      "id": "haider-al-abadi--2017-03-29--JOR",
       "officialId": "haider-al-abadi",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2017 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-03-28",
+      "startDate": "2017-03-29",
       "statusHint": null,
       "type": "summit"
     },
@@ -21409,6 +21554,60 @@
       "startDate": "2018-08-14",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Belgrade",
+        "coordinates": [
+          20.456944444,
+          44.817777777
+        ],
+        "countryCode": "SRB",
+        "region": "Europe"
+      },
+      "endDate": "1961-09-06",
+      "engagements": [],
+      "eventName": "1st Summit of the Non-Aligned Movement",
+      "id": "hashem-jawad--1961-09-01--SRB",
+      "officialId": "hashem-jawad",
+      "purpose": "Attended the 1st Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/1st_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "1961-09-01",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Sirte",
+        "coordinates": [
+          16.6,
+          31.2
+        ],
+        "countryCode": "LBY",
+        "region": "Africa"
+      },
+      "endDate": "2010-03-27",
+      "engagements": [],
+      "eventName": "2010 Arab League summit",
+      "id": "hoshyar-zebari--2010-03-27--LBY",
+      "officialId": "hoshyar-zebari",
+      "purpose": "Attended the 2010 Arab League summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Arab_League_summit"
+        }
+      ],
+      "startDate": "2010-03-27",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -22330,22 +22529,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Riyadh",
+        "city": "Jeddah",
         "coordinates": [
-          46.71,
-          24.65
+          39.161111111,
+          21.529166666
         ],
         "countryCode": "SAU",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-05-21",
+      "endDate": "2023-05-19",
       "engagements": [],
-      "eventName": "Arab League Summit",
+      "eventName": "2023 Arab League summit",
       "id": "muhammad-shia-al-sudani--2023-05-19--SAU",
       "officialId": "muhammad-shia-al-sudani",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2023 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -25727,6 +25929,33 @@
       "startDate": "2012-04-22",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "nouri-al-maliki--2012-08-26--IRN",
+      "officialId": "nouri-al-maliki",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

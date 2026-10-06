@@ -895,7 +895,7 @@
       "aliases": [],
       "countryCode": "VUT",
       "fullName": "Johnny Koanapo",
-      "id": "johnny-koanapo-vut",
+      "id": "johnny-koanapo",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -904,7 +904,7 @@
             "deputy_leader"
           ],
           "endDate": null,
-          "id": "johnny-koanapo-vut-p1",
+          "id": "johnny-koanapo-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -915,7 +915,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "johnny-koanapo-vut-p2",
+          "id": "johnny-koanapo-p2",
           "ministry": "Ministry of Finance and Economic Management",
           "portfolio": "finance",
           "startDate": null,
@@ -1366,7 +1366,7 @@
       ],
       "countryCode": "VUT",
       "fullName": "Johnny Koanapo",
-      "id": "johnny-koanapo",
+      "id": "johnny-koanapo-vut",
       "party": null,
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister_Johnny_Koanapo's_visit_to_Mount_Ainsile_(000148530)_(cropped).jpg?width=160",
       "positions": [
@@ -1375,7 +1375,7 @@
             "minister"
           ],
           "endDate": "2022-11-04",
-          "id": "johnny-koanapo-p1",
+          "id": "johnny-koanapo-vut-p1",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "2020-04-20",
@@ -1763,7 +1763,7 @@
       "aliases": [],
       "countryCode": "VUT",
       "fullName": "Simeon Malachi Athy",
-      "id": "simeon-malachi-athy-vut",
+      "id": "simeon-malachi-athy",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1772,7 +1772,7 @@
             "central_banker"
           ],
           "endDate": null,
-          "id": "simeon-malachi-athy-vut-p1",
+          "id": "simeon-malachi-athy-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2026-10-05",
@@ -2487,26 +2487,29 @@
           -18.133333333
         ],
         "countryCode": "FJI",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2022-07-14",
       "engagements": [
         "Met Prime Minister Frank Bainimarama"
       ],
-      "eventName": "Pacific Islands Forum (PIF)",
-      "id": "bob-loughman--2022-07-12--FJI",
+      "eventName": "51st Pacific Islands Forum",
+      "id": "bob-loughman--2022-07-11--FJI",
       "officialId": "bob-loughman",
-      "purpose": "Attended Pacific Islands Forum (PIF)",
+      "purpose": "Attended the 51st Pacific Islands Forum",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/51st_Pacific_Islands_Forum"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-07-12",
+      "startDate": "2022-07-11",
       "statusHint": null,
-      "type": "conference"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -2923,28 +2926,31 @@
       "destination": {
         "city": "London",
         "coordinates": [
-          -0.1276,
-          51.5072
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2018-04-20",
       "engagements": [
         "Met Queen Elizabeth II"
       ],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "charlot-salwai--2018-04-18--GBR",
+      "eventName": "2018 Commonwealth Heads of Government Meeting",
+      "id": "charlot-salwai--2018-04-19--GBR",
       "officialId": "charlot-salwai",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2018 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2018_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-04-18",
+      "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
     },
@@ -3201,24 +3207,27 @@
           -9.478888888
         ],
         "countryCode": "PNG",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2018-11-18",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "charlot-salwai--2018-11-16--PNG",
+      "eventName": "APEC Papua New Guinea 2018",
+      "id": "charlot-salwai--2018-11-17--PNG",
       "officialId": "charlot-salwai",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Attended the APEC Papua New Guinea 2018",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/APEC_Papua_New_Guinea_2018"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-11-16",
+      "startDate": "2018-11-17",
       "statusHint": null,
       "type": "summit"
     },
@@ -3909,28 +3918,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Coolum Beach",
         "coordinates": [
-          149.13,
-          -35.2809
+          153.1,
+          -26.5333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2002-03-05",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
-      "id": "edward-natapei--2002-03-04--AUS",
+      "eventName": "2002 Commonwealth Heads of Government Meeting",
+      "id": "edward-natapei--2002-03-02--AUS",
       "officialId": "edward-natapei",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2002 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2002_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2002-03-04",
+      "startDate": "2002-03-02",
       "statusHint": null,
       "type": "summit"
     },
@@ -6052,6 +6064,33 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.860555555,
+          6.926666666
+        ],
+        "countryCode": "LKA",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-17",
+      "engagements": [],
+      "eventName": "2013 Commonwealth Heads of Government Meeting",
+      "id": "moana-carcasses-kalosil--2013-11-15--LKA",
+      "officialId": "moana-carcasses-kalosil",
+      "purpose": "Attended the 2013 Commonwealth Heads of Government Meeting",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2013_Commonwealth_Heads_of_Government_Meeting"
+        }
+      ],
+      "startDate": "2013-11-15",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bern",
         "coordinates": [
           7.44743,
@@ -6228,22 +6267,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Canberra",
+        "city": "Perth",
         "coordinates": [
-          149.13,
-          -35.2809
+          115.859722222,
+          -31.955833333
         ],
         "countryCode": "AUS",
-        "precision": "country",
         "region": "Oceania"
       },
       "endDate": "2011-10-30",
       "engagements": [],
-      "eventName": "Commonwealth Heads of Government Meeting (CHOGM)",
+      "eventName": "2011 Commonwealth Heads of Government Meeting",
       "id": "sato-kilman--2011-10-28--AUS",
       "officialId": "sato-kilman",
-      "purpose": "Attended Commonwealth Heads of Government Meeting (CHOGM)",
+      "purpose": "Attended the 2011 Commonwealth Heads of Government Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2011_Commonwealth_Heads_of_Government_Meeting"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

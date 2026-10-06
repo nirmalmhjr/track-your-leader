@@ -4697,28 +4697,31 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tripoli",
+        "city": "Sirte",
         "coordinates": [
-          13.1875,
-          32.8875
+          16.6,
+          31.2
         ],
         "countryCode": "LBY",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2010-03-27",
       "engagements": [],
-      "eventName": "Arab League Summit",
-      "id": "ahmed-abdallah-mohamed-sambi--2010-03-25--LBY",
+      "eventName": "2010 Arab League summit",
+      "id": "ahmed-abdallah-mohamed-sambi--2010-03-27--LBY",
       "officialId": "ahmed-abdallah-mohamed-sambi",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2010 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2010_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-03-25",
+      "startDate": "2010-03-27",
       "statusHint": null,
       "type": "summit"
     },
@@ -6052,16 +6055,19 @@
           31.930983
         ],
         "countryCode": "JOR",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-03-31",
+      "endDate": "2017-03-29",
       "engagements": [],
-      "eventName": "Arab League Summit",
+      "eventName": "2017 Arab League summit",
       "id": "azali-assoumani--2017-03-29--JOR",
       "officialId": "azali-assoumani",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2017 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2017_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7248,7 +7254,6 @@
           36.776388888
         ],
         "countryCode": "DZA",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2022-11-02",
@@ -7261,6 +7266,10 @@
       "officialId": "azali-assoumani",
       "purpose": "Attended Arab League Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2022_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7751,24 +7760,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tokyo",
+        "city": "Hiroshima",
         "coordinates": [
-          139.6917,
-          35.6895
+          132.455305555,
+          34.38525
         ],
         "countryCode": "JPN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-05-21",
       "engagements": [
         "Met Prime Minister Kishida Fumio"
       ],
-      "eventName": "G7 Summit",
+      "eventName": "49th G7 summit",
       "id": "azali-assoumani--2023-05-19--JPN",
       "officialId": "azali-assoumani",
-      "purpose": "Attended G7 Summit",
+      "purpose": "Attended the 49th G7 summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/49th_G7_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8238,11 +8250,10 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-09-10",
@@ -8250,17 +8261,21 @@
         "Met Prime Minister Narendra Modi",
         "Gave a public address"
       ],
-      "eventName": "G20 Summit",
-      "id": "azali-assoumani--2023-09-08--IND",
+      "eventName": "2023 G20 New Delhi summit",
+      "id": "azali-assoumani--2023-09-09--IND",
       "officialId": "azali-assoumani",
-      "purpose": "Attended G20 Summit",
+      "purpose": "Attended the 2023 G20 New Delhi summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-08",
+      "startDate": "2023-09-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -10140,16 +10155,19 @@
           33.315277777
         ],
         "countryCode": "IRQ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-03-29",
       "engagements": [],
-      "eventName": "Arab League Summit",
+      "eventName": "2012 Arab League summit",
       "id": "ikililou-dhoinine--2012-03-27--IRQ",
       "officialId": "ikililou-dhoinine",
-      "purpose": "Attended Arab League Summit",
+      "purpose": "Attended the 2012 Arab League summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10968,6 +10986,33 @@
       "startDate": "1998-10-30",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "region": "Asia"
+      },
+      "endDate": "2012-08-31",
+      "engagements": [],
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "nourdine-bourhane--2012-08-26--IRN",
+      "officialId": "nourdine-bourhane",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        }
+      ],
+      "startDate": "2012-08-26",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

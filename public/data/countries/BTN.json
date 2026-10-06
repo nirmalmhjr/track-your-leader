@@ -3970,7 +3970,6 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2012-08-31",
@@ -3978,17 +3977,21 @@
         "Met President Mahmoud Ahmadinejad",
         "Gave a public address"
       ],
-      "eventName": "Non-Aligned Movement (NAM) Summit",
-      "id": "jigme-thinley--2012-08-30--IRN",
+      "eventName": "16th Summit of the Non-Aligned Movement",
+      "id": "jigme-thinley--2012-08-26--IRN",
       "officialId": "jigme-thinley",
-      "purpose": "Attended Non-Aligned Movement (NAM) Summit",
+      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-08-30",
+      "startDate": "2012-08-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -4801,26 +4804,29 @@
       "destination": {
         "city": "Kathmandu",
         "coordinates": [
-          85.324,
-          27.7172
+          85.32,
+          27.71
         ],
         "countryCode": "NPL",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2014-11-27",
       "engagements": [],
-      "eventName": "South Asian Association for Regional Cooperation (SAARC) Summit",
-      "id": "tshering-tobgay--2014-11-25--NPL",
+      "eventName": "18th SAARC summit",
+      "id": "tshering-tobgay--2014-11-26--NPL",
       "officialId": "tshering-tobgay",
-      "purpose": "Attended South Asian Association for Regional Cooperation (SAARC) Summit",
+      "purpose": "Attended the 18th SAARC summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/18th_SAARC_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-11-25",
+      "startDate": "2014-11-26",
       "statusHint": null,
       "type": "summit"
     },
@@ -5213,24 +5219,27 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
+        "city": "Benaulim",
         "coordinates": [
-          77.209,
-          28.6139
+          73.92,
+          15.25
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2016-10-17",
+      "endDate": "2016-10-16",
       "engagements": [
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "8th BRICS summit",
       "id": "tshering-tobgay--2016-10-15--IND",
       "officialId": "tshering-tobgay",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 8th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/8th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

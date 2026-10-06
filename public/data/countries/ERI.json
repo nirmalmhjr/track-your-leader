@@ -1822,7 +1822,7 @@
       "aliases": [],
       "countryCode": "ERI",
       "fullName": "Kibreab Woldemariam",
-      "id": "kibreab-woldemariam-eri",
+      "id": "kibreab-woldemariam",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1831,7 +1831,7 @@
             "regional_leader"
           ],
           "endDate": null,
-          "id": "kibreab-woldemariam-eri-p1",
+          "id": "kibreab-woldemariam-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2026-10-05",
@@ -5464,25 +5464,28 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pretoria",
+        "city": "Johannesburg",
         "coordinates": [
-          28.2293,
-          -25.7479
+          28.041638888,
+          -26.204361111
         ],
         "countryCode": "ZAF",
-        "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2023-08-26",
+      "endDate": "2023-08-24",
       "engagements": [
         "Met President Cyril Ramaphosa",
         "Gave a public address"
       ],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "15th BRICS summit",
       "id": "isaias-afwerki--2023-08-22--ZAF",
       "officialId": "isaias-afwerki",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Attended the 15th BRICS summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/15th_BRICS_summit"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
