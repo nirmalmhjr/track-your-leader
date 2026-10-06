@@ -4,6 +4,7 @@ import { test } from "node:test";
 import {
     classifyOffice,
     type Holding,
+    isEnvoyPostedTo,
     type OfficeInfo,
     positionFromHolding,
 } from "../extract/people.extract";
@@ -13,6 +14,8 @@ import type { CountryContext } from "../types";
 
 const nepal: CountryContext = {
     code: "NPL",
+    formerHeadOfGovernmentOffices: [],
+    formerHeadOfStateOffices: ["Q19700527"],
     headOfGovernmentOffice: "Q2099",
     headOfStateOffice: "Q2100",
     wikidataId: "Q837",
@@ -72,13 +75,37 @@ test("an embassy counts for the sending state, not the host", () => {
             "Q1",
             office({
                 kinds: new Set(["diplomat"]),
-                label: "Ambassador of the United Kingdom to Nepal",
+                label: "Ambassador extraordinary and plenipotentiary",
                 parentJurisdictions: new Set([sender]),
             }),
             nepal
         );
     assert.equal(envoy("Q145"), null);
     assert.equal(envoy("Q837")?.categories[0], "diplomat");
+});
+
+test("an envoy whose title posts them to the country for another state is left out", () => {
+    // Wikidata often records neither the sending state nor the envoy's citizenship.
+    assert.equal(isEnvoyPostedTo("Ambassador of Israel to Nepal", "NPL"), true);
+    assert.equal(isEnvoyPostedTo("Ambassador of the European Union to Nepal", "NPL"), true);
+    assert.equal(isEnvoyPostedTo("High Commissioner of India in Nepal", "NPL"), true);
+    assert.equal(isEnvoyPostedTo("Ambassador of Nepal to the United States", "NPL"), false);
+    assert.equal(
+        isEnvoyPostedTo("Permanent Representative of Nepal to the United Nations", "NPL"),
+        false
+    );
+    assert.equal(isEnvoyPostedTo("Ambassador of Nepal to Israel", "ISR"), true);
+
+    const role = (label: string) =>
+        classifyOffice("Q1", office({ kinds: new Set(["diplomat"]), label }), nepal)?.categories[0];
+    assert.equal(role("Ambassador of Israel to Nepal"), undefined);
+    assert.equal(role("Ambassador of Nepal to India"), "diplomat");
+});
+
+test("the leader offices of the state a country succeeded count as its leaders", () => {
+    // "King of Nepal", the head of state of the Kingdom of Nepal.
+    const role = classifyOffice("Q19700527", office({ label: "King of Nepal" }), nepal);
+    assert.deepEqual(role?.categories, ["head_of_state"]);
 });
 
 const holding = (overrides: Partial<Holding>): Holding => ({

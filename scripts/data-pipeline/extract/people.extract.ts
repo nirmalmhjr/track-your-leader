@@ -8,6 +8,8 @@ import { capitalize, stripParenthetical } from "../lib/text";
 import { runQlever } from "../sources/qlever";
 import { commonsImageUrl, wikidataUrl } from "../sources/wikidata";
 import type { CountryContext, OfficialDraft, PositionDraft } from "../types";
+import { leaderCategoriesOf } from "./leaders.extract";
+import { countryCodeOfName } from "./places.resolve";
 import { classifyTitle, type RoleInfo } from "./roles";
 
 /**
@@ -270,6 +272,29 @@ const fetchOffices = async (
     return offices;
 };
 
+/** "… to Nepal", "… in the United States": the country an envoy is posted to. */
+const ENVOY_HOST = /\b(?:to|in)\s+(.+)$/i;
+/** "Ambassador of Israel to …": the state that sends the envoy. */
+const ENVOY_SENDER = /\bof\s+(.+?)\s+(?:to|in)\s/i;
+
+/**
+ * Whether a diplomatic title names a post in this country held for another state, such as
+ * "Ambassador of Israel to Nepal" for Nepal. Wikidata files such posts under the host and often
+ * records neither the sending state nor the envoy's citizenship, so the title is the only clue.
+ *
+ * @param title - Office title.
+ * @param code - Country whose officials are being collected.
+ * @returns `true` for a foreign envoy posted to the country.
+ */
+export const isEnvoyPostedTo = (title: string, code: CountryCode): boolean => {
+    const host = title.match(ENVOY_HOST)?.[1];
+    if (!host || countryCodeOfName(host) !== code) {
+        return false;
+    }
+    const sender = title.match(ENVOY_SENDER)?.[1];
+    return !sender || countryCodeOfName(sender) !== code;
+};
+
 /**
  * Turns an office into a role, or `null` for offices that aren't politically exposed (academic
  * posts, honorary titles) and offices of small towns.
@@ -289,10 +314,9 @@ export const classifyOffice = (
     }
     const title = capitalize(stripParenthetical(office.label));
     const fromTitle = classifyTitle(title);
-    if (officeId === context.headOfStateOffice || officeId === context.headOfGovernmentOffice) {
-        const category =
-            officeId === context.headOfStateOffice ? "head_of_state" : "head_of_government";
-        return { ...fromTitle, categories: [category], ministry: null, portfolio: null };
+    const [leaderCategory] = leaderCategoriesOf(officeId, context);
+    if (leaderCategory) {
+        return { ...fromTitle, categories: [leaderCategory], ministry: null, portfolio: null };
     }
     const [titleCategory] = fromTitle.categories;
     const titleIsSpecific = titleCategory !== "senior_official";
@@ -307,7 +331,7 @@ export const classifyOffice = (
         category === "diplomat" &&
         office.parentJurisdictions.size > 0 &&
         !office.parentJurisdictions.has(context.wikidataId);
-    if (isForeignEnvoy) {
+    if (isForeignEnvoy || (category === "diplomat" && isEnvoyPostedTo(title, context.code))) {
         return null;
     }
     const isLocal = category === "local_leader";

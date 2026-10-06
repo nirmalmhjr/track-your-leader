@@ -2,7 +2,7 @@
 
 import { IconUsers } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
-import { type ReactNode, useCallback, useMemo, useState } from "react";
+import { type ReactNode, useCallback, useEffect, useMemo, useState } from "react";
 
 import { OfficialAvatar } from "@/components/shared/official-avatar";
 import { ShowMoreButton } from "@/components/shared/show-more-button";
@@ -101,6 +101,8 @@ function PersonRow({ code, person }: { code: CountryCode; person: Official }) {
 interface CountryPeopleProps {
     code: CountryCode;
     countryName: string;
+    /** Whether the list is on screen; it starts loading the first time it is. */
+    isActive: boolean;
     /** Name filter shared with the rest of the directory, already normalised. */
     needle: string;
 }
@@ -108,15 +110,21 @@ interface CountryPeopleProps {
 /**
  * Everyone else on record for a country: legislators, regional and city leaders, judges,
  * diplomats and others with no recorded trips. The list can run to tens of thousands, so it
- * loads when asked for and renders a page at a time.
+ * loads the first time it is shown and renders a page at a time.
  */
-export function CountryPeople({ code, countryName, needle }: CountryPeopleProps) {
+export function CountryPeople({ code, countryName, isActive, needle }: CountryPeopleProps) {
     const t = useTranslations("Leaders.country");
     const tGroups = useTranslations("Explorer.roleGroups");
     const format = useTravelFormat();
     const { load, people, status } = useCountryPeople(code);
     const [group, setGroup] = useState<GroupFilter>(ALL_GROUPS);
     const [shown, setShown] = useState(PAGE_SIZE);
+
+    useEffect(() => {
+        if (isActive && status === "idle") {
+            load();
+        }
+    }, [isActive, load, status]);
 
     const sorted = useMemo(() => [...people].sort(comparePeople), [people]);
     const named = useMemo(
@@ -148,21 +156,17 @@ export function CountryPeople({ code, countryName, needle }: CountryPeopleProps)
     const remaining = visible.length - shown;
 
     let body: ReactNode;
-    if (status === "idle" || status === "error") {
+    if (status === "error") {
         body = (
             <div className="flex flex-col items-start gap-3 rounded-xl border border-dashed p-5">
-                <p className="text-muted-foreground text-sm">
-                    {status === "error"
-                        ? t("peopleError")
-                        : t("peopleIntro", { country: countryName })}
-                </p>
+                <p className="text-muted-foreground text-sm">{t("peopleError")}</p>
                 <Button onClick={load} size="sm" variant="outline">
                     <IconUsers data-icon="inline-start" />
-                    {status === "error" ? t("peopleRetry") : t("peopleLoad")}
+                    {t("peopleRetry")}
                 </Button>
             </div>
         );
-    } else if (status === "loading") {
+    } else if (status === "idle" || status === "loading") {
         body = <p className="text-muted-foreground text-sm">{t("peopleLoading")}</p>;
     } else if (named.length === 0) {
         body = (

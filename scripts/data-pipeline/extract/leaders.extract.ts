@@ -14,6 +14,7 @@ import {
     wikidataUrl,
 } from "../sources/wikidata";
 import type { CountryContext, OfficeTerm, OfficialDraft, PositionDraft } from "../types";
+import { LEADER_TERM_OVERRIDES } from "./leaders.overrides";
 import { classifyTitle } from "./roles";
 
 /** `nature of statement: acting` — caretakers are not recorded as office holders. */
@@ -57,8 +58,87 @@ const calendarDate = (value: string | undefined): IsoDate | null => {
 };
 
 /**
- * Looks up each tracked country's Wikidata item and the offices of its head of state and
- * head of government.
+ * Binds `?state` to the states `?country` alone succeeded: the Kingdom of Nepal for Nepal, but
+ * not the Soviet Union, which fifteen states succeeded.
+ */
+const SOLE_PREDECESSOR_PATTERN = `?state wdt:P1366 ?country .
+            FILTER NOT EXISTS { ?state wdt:P1366 ?other . FILTER(?other != ?country) }`;
+
+/** Historical country, sovereign state: rules out princely states and other subdivisions. */
+const SOVEREIGN_STATE_CLASSES = "wd:Q3024240 wd:Q3624078";
+/** Predecessor states per offices query; India alone has hundreds of princely states. */
+const STATE_BATCH_SIZE = 50;
+
+/**
+ * Adds the leader offices of the states each country alone succeeded, such as "King of Nepal"
+ * from the Kingdom of Nepal. Only sovereign predecessors count, and only offices that belong to
+ * them or to the country: the Dominion of India names the generic "prime minister" and the
+ * Raj's Governor-General, neither of which is India's own office.
+ */
+const withFormerLeaderOffices = async (
+    contexts: Map<CountryCode, CountryContext>
+): Promise<Map<CountryCode, CountryContext>> => {
+    const countryItems = new Set([...contexts.values()].map((context) => context.wikidataId));
+    const predecessors = [...(await fetchStateItems(contexts))].filter(
+        ([state]) => !countryItems.has(state)
+    );
+    const rows = (
+        await Promise.all(
+            chunk(predecessors.map(([state]) => state).sort(), STATE_BATCH_SIZE).map((batch) =>
+                runSparql(`
+                    SELECT ?state ?hos ?hosPlace ?hog ?hogPlace WHERE {
+                        VALUES ?state { ${batch.map((id) => `wd:${id}`).join(" ")} }
+                        FILTER EXISTS { ?state wdt:P31 ?type .
+                            VALUES ?type { ${SOVEREIGN_STATE_CLASSES} } }
+                        OPTIONAL { ?state wdt:P1906 ?hos . ?hos wdt:P1001 ?hosPlace }
+                        OPTIONAL { ?state wdt:P1313 ?hog . ?hog wdt:P1001 ?hogPlace }
+                    }`)
+            )
+        )
+    ).flat();
+
+    const codeOfState = new Map(predecessors);
+    const former = new Map<CountryCode, { hog: Set<string>; hos: Set<string> }>();
+    for (const row of rows) {
+        const state = entityId(row.state) ?? "";
+        const context = contexts.get(codeOfState.get(state) ?? "");
+        if (!context) {
+            continue;
+        }
+        const belongsHere = (place: string | undefined): boolean =>
+            [state, context.wikidataId].includes(entityId(place) ?? "");
+        const offices = former.get(context.code) ?? { hog: new Set(), hos: new Set() };
+        const hos = entityId(row.hos);
+        const hog = entityId(row.hog);
+        if (hos && belongsHere(row.hosPlace) && countrySourceFor(context.code).includeHeadOfState) {
+            offices.hos.add(hos);
+        }
+        if (hog && belongsHere(row.hogPlace)) {
+            offices.hog.add(hog);
+        }
+        former.set(context.code, offices);
+    }
+    for (const [code, offices] of former) {
+        const context = contexts.get(code);
+        if (context) {
+            const current = [context.headOfStateOffice, context.headOfGovernmentOffice];
+            contexts.set(code, {
+                ...context,
+                formerHeadOfGovernmentOffices: [...offices.hog].filter(
+                    (office) => !current.includes(office)
+                ),
+                formerHeadOfStateOffices: [...offices.hos].filter(
+                    (office) => !current.includes(office)
+                ),
+            });
+        }
+    }
+    return contexts;
+};
+
+/**
+ * Looks up each tracked country's Wikidata item, the offices of its head of state and head of
+ * government, and the leader offices of the states it alone succeeded ("King of Nepal").
  *
  * @param codes - ISO alpha-3 codes of tracked countries.
  * @returns Context per country code.
@@ -83,12 +163,43 @@ export const fetchCountryContexts = async (
         }
         contexts.set(code, {
             code,
+            formerHeadOfGovernmentOffices: [],
+            formerHeadOfStateOffices: [],
             headOfGovernmentOffice: entityId(row.hog),
             headOfStateOffice: countrySourceFor(code).includeHeadOfState ? entityId(row.hos) : null,
             wikidataId,
         });
     }
-    return contexts;
+
+    return withFormerLeaderOffices(contexts);
+};
+
+/**
+ * The leader categories an office stands for in a country: head of state, head of government,
+ * both (one office in presidential systems) or neither.
+ *
+ * @param officeId - Office item.
+ * @param context - The country's leader offices, current and former.
+ * @returns The categories, head of state first.
+ */
+export const leaderCategoriesOf = (
+    officeId: string,
+    context: CountryContext
+): ("head_of_state" | "head_of_government")[] => {
+    const categories: ("head_of_state" | "head_of_government")[] = [];
+    if (
+        officeId === context.headOfStateOffice ||
+        context.formerHeadOfStateOffices.includes(officeId)
+    ) {
+        categories.push("head_of_state");
+    }
+    if (
+        officeId === context.headOfGovernmentOffice ||
+        context.formerHeadOfGovernmentOffices.includes(officeId)
+    ) {
+        categories.push("head_of_government");
+    }
+    return categories;
 };
 
 /**
@@ -231,17 +342,9 @@ const positionFromTerm = (
     context: CountryContext,
     officeRole: OfficeRole | undefined
 ): PositionDraft => {
-    const isHeadOfState = term.officeId === context.headOfStateOffice;
-    const isHeadOfGovernment = term.officeId === context.headOfGovernmentOffice;
     const classified = classifyTitle(title);
     const role = officeRole ? { ...classified, ...officeRole } : classified;
-    const categories: PositionDraft["categories"] = [];
-    if (isHeadOfState) {
-        categories.push("head_of_state");
-    }
-    if (isHeadOfGovernment) {
-        categories.push("head_of_government");
-    }
+    const categories: PositionDraft["categories"] = leaderCategoriesOf(term.officeId, context);
 
     return {
         categories: categories.length > 0 ? categories : role.categories,
@@ -265,7 +368,32 @@ type LeaderKind = keyof typeof LEADER_KINDS;
 interface LeaderStatement extends OfficeTerm {
     code: CountryCode;
     kind: LeaderKind;
+    /** Office title, when known; otherwise the generic "Head of state" or "Head of government". */
+    title?: string;
 }
+
+/** Terms Wikidata lacks, from `LEADER_TERM_OVERRIDES`, for the countries being collected. */
+const overrideStatements = (
+    contexts: ReadonlyMap<CountryCode, CountryContext>
+): LeaderStatement[] =>
+    LEADER_TERM_OVERRIDES.flatMap((override): LeaderStatement[] => {
+        const isTracked =
+            contexts.has(override.code) &&
+            (override.kind === "hog" || countrySourceFor(override.code).includeHeadOfState);
+        return isTracked
+            ? [
+                  {
+                      code: override.code,
+                      endDate: override.endDate,
+                      kind: override.kind,
+                      officeId: `${override.kind}:${override.code}`,
+                      personId: override.personId,
+                      startDate: override.startDate,
+                      title: override.title,
+                  },
+              ]
+            : [];
+    });
 
 /**
  * Each country's item, plus predecessor states that it alone succeeded (the Kingdom of Nepal
@@ -281,8 +409,7 @@ const fetchStateItems = async (
     const rows = await runSparql(`
         SELECT ?country ?state WHERE {
             VALUES ?country { ${[...codeByCountry.keys()].map((id) => `wd:${id}`).join(" ")} }
-            ?state wdt:P1366 ?country .
-            FILTER NOT EXISTS { ?state wdt:P1366 ?other . FILTER(?other != ?country) }
+            ${SOLE_PREDECESSOR_PATTERN}
         }`);
     for (const row of rows) {
         const code = codeByCountry.get(entityId(row.country) ?? "");
@@ -361,6 +488,7 @@ export const fetchLeaderStatements = async (
                   }))
                 : [];
         })
+        .concat(overrideStatements(contexts))
         .filter((term) => term.endDate === null || term.endDate >= since);
 };
 
@@ -408,7 +536,7 @@ const addStatementTerms = async (
             ministry: null,
             portfolio: null,
             startDate: term.startDate,
-            title,
+            title: term.title ?? title,
         });
         drafts.set(term.personId, draft);
     }
@@ -441,6 +569,8 @@ export const extractLeaders = async ({
         const offices = [
             context.headOfStateOffice,
             context.headOfGovernmentOffice,
+            ...context.formerHeadOfStateOffices,
+            ...context.formerHeadOfGovernmentOffices,
             ...(extraOffices.get(context.code) ?? []),
         ];
         for (const office of offices) {
@@ -456,11 +586,23 @@ export const extractLeaders = async ({
         ["labels", "aliases"]
     );
 
+    // Offices of a predecessor state come last, so a person who also led another country (George
+    // VI, King of India as well as of the United Kingdom) stays filed under that country.
+    const formerOffices = new Set(
+        [...contexts.values()].flatMap((context) => [
+            ...context.formerHeadOfStateOffices,
+            ...context.formerHeadOfGovernmentOffices,
+        ])
+    );
+    const isFormer = (term: OfficeTerm): number => Number(formerOffices.has(term.officeId));
     const drafts = new Map<string, OfficialDraft>();
-    for (const term of terms) {
+    for (const term of terms.toSorted((a, b) => isFormer(a) - isFormer(b))) {
         const context = countryByOffice.get(term.officeId);
         const officeLabel = people.get(term.officeId)?.label;
-        if (!(context && officeLabel)) {
+        const known = drafts.get(term.personId);
+        const isAnotherCountrysLeader =
+            known !== undefined && context !== undefined && known.countryCode !== context.code;
+        if (!(context && officeLabel) || (isFormer(term) && isAnotherCountrysLeader)) {
             continue;
         }
         const draft: OfficialDraft = drafts.get(term.personId) ?? {

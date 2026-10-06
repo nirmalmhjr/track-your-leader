@@ -1,871 +1,1050 @@
 {
   "cabinets": {
-    "ABW": {
-      "asOf": "2022-11-17",
-      "status": "stale"
-    },
-    "AFG": {
-      "asOf": "2026-09-03",
-      "status": "ok"
-    },
-    "AGO": {
-      "asOf": "2026-05-12",
-      "status": "ok"
-    },
-    "ALB": {
-      "asOf": "2024-07-31",
-      "status": "ok"
-    },
-    "AND": {
-      "asOf": "2021-03-10",
-      "status": "ok"
-    },
-    "ARE": {
-      "asOf": "2025-06-25",
-      "status": "ok"
-    },
-    "ARG": {
-      "asOf": "2026-08-06",
-      "status": "ok"
-    },
-    "ARM": {
-      "asOf": "2026-09-11",
-      "status": "ok"
-    },
-    "ATG": {
-      "asOf": "2026-05-07",
-      "status": "ok"
-    },
-    "AUS": {
-      "asOf": "2026-08-17",
-      "status": "ok"
-    },
-    "AUT": {
-      "asOf": "2025-07-29",
-      "status": "ok"
-    },
-    "AZE": {
-      "asOf": "2026-05-12",
-      "status": "ok"
-    },
-    "BDI": {
-      "asOf": "2026-05-05",
-      "status": "ok"
-    },
-    "BEL": {
-      "asOf": "2026-05-08",
-      "status": "ok"
-    },
-    "BEN": {
-      "asOf": "2025-12-15",
-      "status": "ok"
-    },
-    "BFA": {
-      "asOf": "2026-05-27",
-      "status": "ok"
-    },
-    "BGD": {
-      "asOf": "2026-08-31",
-      "status": "ok"
-    },
-    "BGR": {
-      "asOf": "2026-07-02",
-      "status": "ok"
-    },
-    "BHR": {
-      "asOf": "2022-09-22",
-      "status": "ok"
-    },
-    "BHS": {
-      "asOf": "2026-06-30",
-      "status": "ok"
-    },
-    "BIH": {
-      "asOf": "2023-12-05",
-      "status": "ok"
-    },
-    "BLR": {
-      "asOf": "2025-07-15",
-      "status": "ok"
-    },
-    "BLZ": {
-      "asOf": "2026-07-14",
-      "status": "ok"
-    },
-    "BMU": {
-      "asOf": "2022-07-05",
-      "status": "ok"
-    },
-    "BOL": {
-      "asOf": "2026-08-04",
-      "status": "ok"
-    },
-    "BRA": {
-      "asOf": "2026-05-11",
-      "status": "ok"
-    },
-    "BRB": {
-      "asOf": "2026-03-03",
-      "status": "ok"
-    },
-    "BRN": {
-      "asOf": "2025-05-23",
-      "status": "ok"
-    },
-    "BTN": {
-      "asOf": "2026-06-01",
-      "status": "ok"
-    },
-    "BWA": {
-      "asOf": "2026-05-20",
-      "status": "ok"
-    },
-    "CAF": {
-      "asOf": "2026-07-29",
-      "status": "ok"
-    },
-    "CAN": {
-      "asOf": "2025-05-14",
-      "status": "ok"
-    },
-    "CHE": {
-      "asOf": "2025-04-30",
-      "status": "ok"
-    },
-    "CHL": {
-      "asOf": "2026-07-08",
-      "status": "ok"
-    },
-    "CHN": {
-      "asOf": "2025-08-07",
-      "status": "ok"
-    },
-    "CIV": {
-      "asOf": "2024-06-05",
-      "status": "ok"
-    },
-    "CMR": {
-      "asOf": "2024-06-05",
-      "status": "ok"
-    },
-    "COD": {
-      "asOf": "2025-08-15",
-      "status": "ok"
-    },
-    "COG": {
-      "asOf": "2026-06-23",
-      "status": "ok"
-    },
-    "COK": {
-      "asOf": "2024-02-22",
-      "status": "ok"
-    },
-    "COL": {
-      "asOf": "2026-09-17",
-      "status": "ok"
-    },
-    "COM": {
-      "asOf": "2026-02-11",
-      "status": "ok"
-    },
-    "CPV": {
-      "asOf": "2022-09-21",
-      "status": "stale"
-    },
-    "CRI": {
-      "asOf": "2026-07-27",
-      "status": "ok"
-    },
-    "CUB": {
-      "asOf": "2026-04-17",
-      "status": "ok"
-    },
-    "CYP": {
-      "asOf": "2026-09-22",
-      "status": "ok"
-    },
-    "CZE": {
-      "asOf": "2026-02-25",
-      "status": "ok"
-    },
-    "DEU": {
-      "asOf": "2025-05-09",
-      "status": "ok"
-    },
-    "DJI": {
-      "asOf": "2025-08-08",
-      "status": "ok"
-    },
-    "DMA": {
-      "asOf": "2024-09-25",
-      "status": "ok"
-    },
-    "DNK": {
-      "asOf": "2026-07-23",
-      "status": "ok"
-    },
-    "DOM": {
-      "asOf": "2026-08-18",
-      "status": "ok"
-    },
-    "DZA": {
-      "asOf": "2026-04-20",
-      "status": "ok"
-    },
-    "ECU": {
-      "asOf": "2026-08-25",
-      "status": "ok"
-    },
-    "EGY": {
-      "asOf": "2026-06-02",
-      "status": "ok"
-    },
-    "ERI": {
-      "asOf": "2024-10-07",
-      "status": "ok"
-    },
-    "ESP": {
-      "asOf": "2025-01-17",
-      "status": "ok"
-    },
-    "EST": {
-      "asOf": "2025-02-18",
-      "status": "ok"
-    },
-    "ETH": {
-      "asOf": "2025-03-10",
-      "status": "ok"
-    },
-    "FIN": {
-      "asOf": "2026-08-20",
-      "status": "ok"
-    },
-    "FJI": {
-      "asOf": "2026-08-05",
-      "status": "ok"
-    },
-    "FRA": {
-      "asOf": "2025-11-18",
-      "status": "ok"
-    },
-    "FSM": {
-      "asOf": "2026-05-20",
-      "status": "ok"
-    },
-    "GAB": {
-      "asOf": "2026-01-05",
-      "status": "ok"
-    },
-    "GBR": {
-      "asOf": "2026-07-23",
-      "status": "ok"
-    },
-    "GEO": {
-      "asOf": "2026-09-25",
-      "status": "ok"
-    },
-    "GHA": {
-      "asOf": "2025-12-15",
-      "status": "ok"
-    },
-    "GIN": {
-      "asOf": "2026-07-29",
-      "status": "ok"
-    },
-    "GMB": {
-      "asOf": "2024-04-05",
-      "status": "ok"
-    },
-    "GNB": {
-      "asOf": "2026-06-04",
-      "status": "ok"
-    },
-    "GNQ": {
-      "asOf": "2025-07-07",
-      "status": "ok"
-    },
-    "GRC": {
-      "asOf": "2026-04-23",
-      "status": "ok"
-    },
-    "GRD": {
-      "asOf": "2025-11-04",
-      "status": "ok"
-    },
-    "GTM": {
-      "asOf": "2026-07-14",
-      "status": "ok"
-    },
-    "GUY": {
-      "asOf": "2025-09-25",
-      "status": "ok"
-    },
-    "HND": {
-      "asOf": "2026-09-17",
-      "status": "ok"
-    },
-    "HRV": {
-      "asOf": "2026-06-24",
-      "status": "ok"
-    },
-    "HTI": {
-      "asOf": "2026-03-10",
-      "status": "ok"
-    },
-    "HUN": {
-      "asOf": "2026-07-02",
-      "status": "stale"
-    },
-    "IDN": {
-      "asOf": "2025-08-21",
-      "status": "ok"
-    },
-    "IND": {
-      "asOf": "2026-08-07",
-      "status": "ok"
-    },
-    "IRL": {
-      "asOf": "2025-11-20",
-      "status": "ok"
-    },
-    "IRN": {
-      "asOf": "2024-10-10",
-      "status": "stale"
-    },
-    "IRQ": {
-      "asOf": "2026-09-02",
-      "status": "ok"
-    },
-    "ISL": {
-      "asOf": "2026-01-16",
-      "status": "ok"
-    },
-    "ISR": {
-      "asOf": "2024-11-12",
-      "status": "ok"
-    },
-    "ITA": {
-      "asOf": "2025-03-14",
-      "status": "ok"
-    },
-    "JAM": {
-      "asOf": "2025-06-04",
-      "status": "ok"
-    },
-    "JOR": {
-      "asOf": "2025-12-04",
-      "status": "ok"
-    },
-    "JPN": {
-      "asOf": "2025-05-23",
-      "status": "stale"
-    },
-    "KAZ": {
-      "asOf": "2026-05-07",
-      "status": "ok"
-    },
-    "KEN": {
-      "asOf": "2025-08-08",
-      "status": "ok"
-    },
-    "KGZ": {
-      "asOf": "2026-09-16",
-      "status": "ok"
-    },
-    "KHM": {
-      "asOf": "2025-01-03",
-      "status": "ok"
-    },
-    "KIR": {
-      "asOf": "2024-12-02",
-      "status": "ok"
-    },
-    "KNA": {
-      "asOf": "2024-08-29",
-      "status": "ok"
-    },
-    "KOR": {
-      "asOf": "2026-07-24",
-      "status": "ok"
-    },
-    "KWT": {
-      "asOf": "2024-07-10",
-      "status": "ok"
-    },
-    "LAO": {
-      "asOf": "2026-04-15",
-      "status": "ok"
-    },
-    "LBN": {
-      "asOf": "2025-03-27",
-      "status": "ok"
-    },
-    "LBR": {
-      "asOf": "2026-03-11",
-      "status": "ok"
-    },
-    "LBY": {
-      "asOf": "2026-04-28",
-      "status": "ok"
-    },
-    "LCA": {
-      "asOf": "2025-12-22",
-      "status": "ok"
-    },
-    "LIE": {
-      "asOf": "2022-09-21",
-      "status": "stale"
-    },
-    "LKA": {
-      "asOf": "2026-04-23",
-      "status": "ok"
-    },
-    "LSO": {
-      "asOf": "2026-06-05",
-      "status": "ok"
-    },
-    "LTU": {
-      "asOf": "2025-12-15",
-      "status": "stale"
-    },
-    "LUX": {
-      "asOf": "2025-12-15",
-      "status": "ok"
-    },
-    "LVA": {
-      "asOf": "2025-02-19",
-      "status": "stale"
-    },
-    "MAR": {
-      "asOf": "2024-11-20",
-      "status": "stale"
-    },
-    "MCO": {
-      "asOf": "2022-09-13",
-      "status": "ok"
-    },
-    "MDA": {
-      "asOf": "2026-09-25",
-      "status": "ok"
-    },
-    "MDG": {
-      "asOf": "2026-08-10",
-      "status": "ok"
-    },
-    "MDV": {
-      "asOf": "2026-04-16",
-      "status": "ok"
-    },
-    "MEX": {
-      "asOf": "2026-06-23",
-      "status": "ok"
-    },
-    "MHL": {
-      "asOf": "2026-09-02",
-      "status": "ok"
-    },
-    "MKD": {
-      "asOf": "2025-06-30",
-      "status": "ok"
-    },
-    "MLI": {
-      "asOf": "2026-08-24",
-      "status": "ok"
-    },
-    "MLT": {
-      "asOf": "2024-04-05",
-      "status": "ok"
-    },
-    "MMR": {
-      "asOf": "2026-09-21",
-      "status": "ok"
-    },
-    "MNE": {
-      "asOf": "2026-08-03",
-      "status": "ok"
-    },
-    "MNG": {
-      "asOf": "2026-09-24",
-      "status": "ok"
-    },
-    "MOZ": {
-      "asOf": "2025-02-13",
-      "status": "ok"
-    },
-    "MRT": {
-      "asOf": "2026-04-01",
-      "status": "ok"
-    },
-    "MUS": {
-      "asOf": "2025-09-25",
-      "status": "ok"
-    },
-    "MWI": {
-      "asOf": "2026-08-25",
-      "status": "ok"
-    },
-    "MYS": {
-      "asOf": "2025-08-21",
-      "status": "ok"
-    },
-    "NAM": {
-      "asOf": "2026-04-15",
-      "status": "ok"
-    },
-    "NER": {
-      "asOf": "2025-06-17",
-      "status": "ok"
-    },
-    "NGA": {
-      "asOf": "2026-05-05",
-      "status": "ok"
-    },
-    "NIC": {
-      "asOf": "2026-09-18",
-      "status": "ok"
-    },
-    "NIU": {
-      "asOf": "2026-05-20",
-      "status": "ok"
-    },
-    "NLD": {
-      "asOf": "2026-05-08",
-      "status": "ok"
-    },
-    "NOR": {
-      "asOf": "2026-09-25",
-      "status": "ok"
-    },
     "NPL": {
       "asOf": "2026-06-02",
       "status": "ok"
-    },
-    "NRU": {
-      "asOf": "2026-01-16",
-      "status": "ok"
-    },
-    "NZL": {
-      "asOf": "2026-08-17",
-      "status": "ok"
-    },
-    "OMN": {
-      "asOf": "2025-06-05",
-      "status": "ok"
-    },
-    "PAK": {
-      "asOf": "2025-09-09",
-      "status": "ok"
-    },
-    "PAN": {
-      "asOf": "2026-09-14",
-      "status": "ok"
-    },
-    "PER": {
-      "asOf": "2026-07-29",
-      "status": "ok"
-    },
-    "PHL": {
-      "asOf": "2024-10-09",
-      "status": "ok"
-    },
-    "PLW": {
-      "asOf": "2025-06-04",
-      "status": "ok"
-    },
-    "PNG": {
-      "asOf": "2026-07-15",
-      "status": "ok"
-    },
-    "POL": {
-      "asOf": "2025-08-06",
-      "status": "ok"
-    },
-    "PRK": {
-      "asOf": "2023-01-04",
-      "status": "ok"
-    },
-    "PRT": {
-      "asOf": "2025-01-17",
-      "status": "stale"
-    },
-    "PRY": {
-      "asOf": "2024-09-20",
-      "status": "ok"
-    },
-    "PSE": {
-      "asOf": null,
-      "status": "not-covered"
-    },
-    "QAT": {
-      "asOf": "2023-03-08",
-      "status": "ok"
-    },
-    "ROU": {
-      "asOf": "2026-03-05",
-      "status": "ok"
-    },
-    "RUS": {
-      "asOf": "2024-06-18",
-      "status": "ok"
-    },
-    "RWA": {
-      "asOf": "2026-06-23",
-      "status": "ok"
-    },
-    "SAU": {
-      "asOf": "2022-09-15",
-      "status": "ok"
-    },
-    "SDN": {
-      "asOf": "2022-09-12",
-      "status": "ok"
-    },
-    "SEN": {
-      "asOf": "2026-06-03",
-      "status": "ok"
-    },
-    "SGP": {
-      "asOf": "2025-05-27",
-      "status": "ok"
-    },
-    "SLB": {
-      "asOf": "2026-09-09",
-      "status": "ok"
-    },
-    "SLE": {
-      "asOf": "2024-12-27",
-      "status": "ok"
-    },
-    "SLV": {
-      "asOf": "2025-06-06",
-      "status": "ok"
-    },
-    "SMR": {
-      "asOf": "2021-03-11",
-      "status": "ok"
-    },
-    "SOM": {
-      "asOf": "2025-08-07",
-      "status": "ok"
-    },
-    "SRB": {
-      "asOf": "2025-04-17",
-      "status": "stale"
-    },
-    "SSD": {
-      "asOf": "2026-09-24",
-      "status": "ok"
-    },
-    "STP": {
-      "asOf": "2026-02-09",
-      "status": "ok"
-    },
-    "SUR": {
-      "asOf": "2025-09-25",
-      "status": "ok"
-    },
-    "SVK": {
-      "asOf": "2026-02-25",
-      "status": "ok"
-    },
-    "SVN": {
-      "asOf": "2026-06-11",
-      "status": "ok"
-    },
-    "SWE": {
-      "asOf": "2025-09-12",
-      "status": "ok"
-    },
-    "SWZ": {
-      "asOf": "2024-06-24",
-      "status": "ok"
-    },
-    "SYC": {
-      "asOf": "2025-11-17",
-      "status": "ok"
-    },
-    "SYR": {
-      "asOf": "2025-12-12",
-      "status": "ok"
-    },
-    "TCD": {
-      "asOf": "2025-02-12",
-      "status": "ok"
-    },
-    "TGO": {
-      "asOf": "2025-12-15",
-      "status": "ok"
-    },
-    "THA": {
-      "asOf": "2026-04-07",
-      "status": "ok"
-    },
-    "TJK": {
-      "asOf": "2025-12-18",
-      "status": "ok"
-    },
-    "TKM": {
-      "asOf": "2026-03-10",
-      "status": "ok"
-    },
-    "TLS": {
-      "asOf": "2024-10-23",
-      "status": "ok"
-    },
-    "TON": {
-      "asOf": "2026-08-20",
-      "status": "ok"
-    },
-    "TTO": {
-      "asOf": "2025-09-15",
-      "status": "ok"
-    },
-    "TUN": {
-      "asOf": "2025-07-28",
-      "status": "ok"
-    },
-    "TUR": {
-      "asOf": "2026-02-25",
-      "status": "ok"
-    },
-    "TUV": {
-      "asOf": "2024-02-28",
-      "status": "ok"
-    },
-    "TWN": {
-      "asOf": "2026-07-14",
-      "status": "ok"
-    },
-    "TZA": {
-      "asOf": "2026-02-02",
-      "status": "ok"
-    },
-    "UGA": {
-      "asOf": "2026-08-20",
-      "status": "ok"
-    },
-    "UKR": {
-      "asOf": "2026-09-04",
-      "status": "ok"
-    },
-    "URY": {
-      "asOf": "2025-05-27",
-      "status": "ok"
-    },
-    "USA": {
-      "asOf": null,
-      "status": "not-covered"
-    },
-    "UZB": {
-      "asOf": "2026-08-07",
-      "status": "ok"
-    },
-    "VAT": {
-      "asOf": "2022-07-14",
-      "status": "ok"
-    },
-    "VCT": {
-      "asOf": "2026-03-03",
-      "status": "ok"
-    },
-    "VEN": {
-      "asOf": "2026-08-26",
-      "status": "ok"
-    },
-    "VNM": {
-      "asOf": "2025-06-23",
-      "status": "stale"
-    },
-    "VUT": {
-      "asOf": "2026-07-31",
-      "status": "ok"
-    },
-    "WSM": {
-      "asOf": "2026-08-27",
-      "status": "ok"
-    },
-    "XKX": {
-      "asOf": "2026-08-10",
-      "status": "ok"
-    },
-    "YEM": {
-      "asOf": "2025-05-12",
-      "status": "stale"
-    },
-    "ZAF": {
-      "asOf": "2026-07-07",
-      "status": "ok"
-    },
-    "ZMB": {
-      "asOf": "2026-09-18",
-      "status": "ok"
-    },
-    "ZWE": {
-      "asOf": "2026-02-13",
-      "status": "ok"
     }
   },
+  "droppedPhotos": [
+    {
+      "file": "ओनसरी घर्तिमगर पतिसँग.jpg",
+      "wikidataIds": [
+        "Q15427968"
+      ]
+    }
+  ],
   "sources": {
     "au-ipea": {
-      "claims": 1513,
-      "matched": 1513,
+      "claims": 0,
+      "matched": 0,
       "newOfficials": 0,
-      "skipped": [],
-      "skippedCount": 0,
+      "skipped": [
+        {
+          "reason": "destination not found",
+          "text": "AYRES: Pap. New Guinea 2024-06-18"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CICCONE: Utd.Arab Emir. 2025-11-18"
+        },
+        {
+          "reason": "destination not found",
+          "text": "GREEN: Pap. New Guinea 2025-10-11"
+        },
+        {
+          "reason": "destination not found",
+          "text": "MARLES: Pap. New Guinea 2025-12-02"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CONROY: Pap. New Guinea 2025-09-15"
+        },
+        {
+          "reason": "destination not found",
+          "text": "KEOGH: Pap. New Guinea 2026-04-22"
+        },
+        {
+          "reason": "destination not found",
+          "text": "WILSON: Pap. New Guinea 2026-05-05"
+        },
+        {
+          "reason": "destination not found",
+          "text": "ALBANESE: Pap. New Guinea 2025-09-01"
+        },
+        {
+          "reason": "destination not found",
+          "text": "MARLES: Pap. New Guinea 2025-09-15"
+        },
+        {
+          "reason": "destination not found",
+          "text": "ROWLAND: Pap. New Guinea 2025-09-09"
+        },
+        {
+          "reason": "destination not found",
+          "text": "FARRELL: Utd.Arab Emir. 2024-02-23"
+        },
+        {
+          "reason": "destination not found",
+          "text": "HILL: Bosnia-Herz., Utd.Arab Emir. 2025-07-09"
+        },
+        {
+          "reason": "destination not found",
+          "text": "SHOEBRIDGE: Pap. New Guinea 2024-12-08"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CLAYDON: Pap. New Guinea 2022-12-05"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CONROY: Pap. New Guinea 2024-10-13"
+        },
+        {
+          "reason": "destination not found",
+          "text": "DREYFUS: Pap. New Guinea 2024-06-17"
+        },
+        {
+          "reason": "destination not found",
+          "text": "MARLES: Pap. New Guinea 2024-06-19"
+        },
+        {
+          "reason": "destination not found",
+          "text": "O'NEIL: Pap. New Guinea 2024-06-18"
+        },
+        {
+          "reason": "destination not found",
+          "text": "WATT: Pap. New Guinea 2024-06-18"
+        },
+        {
+          "reason": "destination not found",
+          "text": "WONG: Pap. New Guinea 2024-06-18"
+        },
+        {
+          "reason": "destination not found",
+          "text": "SCAMPS: Pap. New Guinea 2022-12-04"
+        },
+        {
+          "reason": "destination not found",
+          "text": "ALBANESE: Pap. New Guinea 2023-01-12"
+        },
+        {
+          "reason": "destination not found",
+          "text": "AYRES: Pap. New Guinea 2023-05-15"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CONROY: Pap. New Guinea 2023-01-12"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CONROY: Pap. New Guinea 2023-04-24"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CONROY: Pap. New Guinea 2023-05-21"
+        },
+        {
+          "reason": "destination not found",
+          "text": "GREEN: Pap. New Guinea 2023-01-12"
+        },
+        {
+          "reason": "destination not found",
+          "text": "LINES: Pap. New Guinea 2022-12-04"
+        },
+        {
+          "reason": "destination not found",
+          "text": "PATERSON: Pap. New Guinea 2022-07-11"
+        },
+        {
+          "reason": "destination not found",
+          "text": "BOWEN: Utd.Arab Emir. 2023-12-06"
+        },
+        {
+          "reason": "destination not found",
+          "text": "GORMAN: Marshall Islnds 2024-01-21"
+        },
+        {
+          "reason": "destination not found",
+          "text": "KEARNEY: Utd.Arab Emir. 2023-12-02"
+        },
+        {
+          "reason": "destination not found",
+          "text": "MCALLISTER: Utd.Arab Emir. 2023-10-28"
+        },
+        {
+          "reason": "destination not found",
+          "text": "MCALLISTER: Utd.Arab Emir. 2023-12-06"
+        },
+        {
+          "reason": "destination not found",
+          "text": "SHELDON: Pap. New Guinea 2022-07-11"
+        },
+        {
+          "reason": "destination not found",
+          "text": "SWANSON: Pap. New Guinea 2022-07-11"
+        },
+        {
+          "reason": "destination not found",
+          "text": "THISTLETHWAITE: Pap. New Guinea 2023-11-02"
+        },
+        {
+          "reason": "destination not found",
+          "text": "BURNS: Pap. New Guinea 2022-12-04"
+        },
+        {
+          "reason": "destination not found",
+          "text": "CONROY: Pap. New Guinea 2022-10-31"
+        },
+        {
+          "reason": "destination not found",
+          "text": "FARUQI: Pap. New Guinea 2022-12-04"
+        }
+      ],
+      "skippedCount": 48,
       "unmatched": 0
     },
     "canada": {
-      "claims": 1916,
-      "matched": 1916,
-      "newOfficials": 61,
-      "skipped": [],
-      "skippedCount": 0,
+      "claims": 0,
+      "matched": 0,
+      "newOfficials": 0,
+      "skipped": [
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-10-06–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-10-14–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-10-17–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-08-18–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-08-03–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-08-18–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-07-07–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-08-11–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-06-05–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-05-09–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-01-24–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2005-01-27–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-03-05–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-05-20–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2004-11-03–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2004-11-08–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2004-11-12–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2004-09-29–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2004-08-13–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Jacques Saada: 2004-08-16–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-05-17–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-05-18–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-04-13–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-03-26–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Lucienne Robillard: 2004-02-12–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Findlay, Kerry-Lynne: 2015-02-13–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-01-22–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-04-27–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-04-21–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-06-22–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-06-30–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-06-09–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2010-01-18–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Blackburn, Jean-Pierre: 2009-12-10–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Ashfield, Keith: 2010-07-25–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Ashfield, Keith: 2010-06-11–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Ashfield, Keith: 2010-08-20–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Ashfield, Keith: 2010-06-18–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Ashfield, Keith: 2010-07-27–"
+        },
+        {
+          "reason": "date not understood",
+          "text": "Ashfield, Keith: 2010-08-19–"
+        }
+      ],
+      "skippedCount": 74,
       "unmatched": 0
     },
     "colt": {
-      "claims": 77705,
-      "matched": 77705,
-      "newOfficials": 1675,
-      "skipped": [],
-      "skippedCount": 0,
+      "claims": 133,
+      "matched": 133,
+      "newOfficials": 0,
+      "skipped": [
+        {
+          "reason": "destination not found",
+          "text": "224-AFG-SUN-33083 → SUN"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Nkosazana Dlamini-Zuma (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Mahamoud Ali Youssouf (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Amara Essy (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Nkosazana Dlamini-Zuma (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Nkosazana Dlamini-Zuma (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Mahamoud Ali Youssouf (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Mahamoud Ali Youssouf (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Mahamoud Ali Youssouf (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Mahamoud Ali Youssouf (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Moussa Faki (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Nkosazana Dlamini-Zuma (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Jean Ping (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Nkosazana Dlamini-Zuma (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        },
+        {
+          "reason": "not a national leader",
+          "text": "Alpha Oumar Konare (I, XAU)"
+        }
+      ],
+      "skippedCount": 8534,
       "unmatched": 0
     },
     "gov-uk": {
-      "claims": 4239,
-      "matched": 4239,
-      "newOfficials": 329,
-      "skipped": [],
-      "skippedCount": 0,
+      "claims": 0,
+      "matched": 0,
+      "newOfficials": 0,
+      "skipped": [
+        {
+          "reason": "date not understood",
+          "text": "2025-09-15 (https://assets.publishing.service.gov.uk/media/693c55125cc812f50aa4213f/desnz-july-sep-ministers-overseas-travel.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": " (https://assets.publishing.service.gov.uk/media/685a87a272588f4188620727/HMT_s_ministerial_overseas_travel__October_to_December_2024.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14/15 Feb 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "24/25 Feb 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "09/11 Mar 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "1-2 Feb 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7-8 Mar (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14-18 Mar 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "27 Feb 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "4-6 Mar 012 (https://assets.publishing.service.gov.uk/media/5a7993cfe5274a3864fd814c/DCMSMinisters-overseastravel-Jan-March2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9-12 Apr 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "15-18 Apr 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9-10 May 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "16-18 May 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "18-20 May 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "9-10 May 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "20-21 May 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "8-13 Jun 12 (https://assets.publishing.service.gov.uk/media/5a78d9c4ed915d07d35b2eb6/DCMS-Ministerial-overseas-travel-1-April-30-June-2012.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "31 August – 05 September (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "30-Sep (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "11 – 17 September (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "29 - 30 September (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "10-Sep (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "19 – 20 September (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "30-Sep (https://assets.publishing.service.gov.uk/media/5a78d21040f0b62b22cbd0f3/foi-ministerial-overseas-travel-aug-sep.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "27 - 30 July (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "25 - 26 May (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "27 - 30 July (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "7 - 8 June (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "30-Jun (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "14-Jul (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "31-May (https://assets.publishing.service.gov.uk/media/5a798abb40f0b642860d8ebd/foi-ministerial-overseas-travel-may-july.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28/10/2025 (https://assets.publishing.service.gov.uk/media/67e521abbb6002588a90d5d9/Ministers_-_Overseas_Travel.csv)"
+        },
+        {
+          "reason": "no date/destination columns",
+          "text": "https://assets.publishing.service.gov.uk/media/69c28d62b920af63be1c7760/MEETINGS_Oct-Dec_25_Ministers_Overseas_Travel__Meetings_Transparency.csv"
+        },
+        {
+          "reason": "no date/destination columns",
+          "text": "https://assets.publishing.service.gov.uk/media/693fd6945cc812f50aa42159/Leader_of_the_House_of_Commons_and_Whips__ministerial_overseas_travel__July_to_September_2025.csv"
+        },
+        {
+          "reason": "date not understood",
+          "text": "21/05/2025 (https://assets.publishing.service.gov.uk/media/68d51019275fc9339a248cb8/HMT_ministerial_overseas_travel_Apr_to_Jun_25.csv)"
+        },
+        {
+          "reason": "no date/destination columns",
+          "text": "https://assets.publishing.service.gov.uk/media/5a7f9e16e5274a2e87db6ef8/overseas-return-q1.csv"
+        },
+        {
+          "reason": "date not understood",
+          "text": "28 Nov - Dec 2011 (https://assets.publishing.service.gov.uk/media/5a797a37e5274a6846909dbb/Ministers_disclosure_overseas_travel_Oct_Dec_2011.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "13 Dec 011 (https://assets.publishing.service.gov.uk/media/5a797a37e5274a6846909dbb/Ministers_disclosure_overseas_travel_Oct_Dec_2011.csv)"
+        },
+        {
+          "reason": "date not understood",
+          "text": "19 Oct 011 (https://assets.publishing.service.gov.uk/media/5a797a37e5274a6846909dbb/Ministers_disclosure_overseas_travel_Oct_Dec_2011.csv)"
+        }
+      ],
+      "skippedCount": 285,
       "unmatched": 0
     },
     "historian": {
-      "claims": 3981,
-      "matched": 3981,
-      "newOfficials": 92,
-      "skipped": [],
-      "skippedCount": 0,
+      "claims": 0,
+      "matched": 0,
+      "newOfficials": 0,
+      "skipped": [
+        {
+          "reason": "destination not found",
+          "text": "Korea, South (Seoul)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "West Bank (Ramallah)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Beijing)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn, Mainz)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "U.S.S.R. (Moscow, Kiev)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Palestinian Authority (Ramallah, Bethlehem)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn, Wiesbaden-Erbenheim Air Base, Frankfurt)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bosnia-Herzegovina (Tuzla)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bosnia-Herzegovina (Sarajevo, Tuzla)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Xian, Beijing, Shanghai, Guilin, Hong Kong)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Palestinian Authority (Gaza, Bethlehem, Erez)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Macedonia, Former Yugoslav Republic of (Skopje)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bosnia-Herzegovina (Sarajevo)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Serbia-Montenegro (Kosovo) (Pristina, Urosevac, Camp Bondsteel)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Brunei Darussalam (Bandar Seri Begawan)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "U.S.S.R. (Vladivostok)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn, Linz)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Peking)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn, Cologne, Frankfurt, Wiesbaden)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Shanghai, Peking, Hangchow)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "U.S.S.R. (Moscow, Leningrad, Kiev)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "U.S.S.R. (Moscow, Minsk, Oreanda)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Shanghai, Beijing)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Palestinian Authority (Ramallah, Al-Bireh, Bethlehem)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Beijing)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Hangzhou)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Beijing, Xian, Shanghai)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn, Bergen-Belsen, Bitburg, Hambach Castle)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Germany, Federal Republic of (Bonn)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "U.S.S.R. (Moscow)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "U.S.S.R. (Yalta)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Palestinian Authority (Bethlehem)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "China, People’s Republic of (Beijing)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Korea, South (Seoul)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Bosnia (Sarajevo, Brcko, Banja Luka)"
+        },
+        {
+          "reason": "destination not found",
+          "text": "Palestinian Authority (Ramallah)"
+        }
+      ],
+      "skippedCount": 273,
       "unmatched": 0
     },
     "historian-visits": {
-      "claims": 3055,
-      "matched": 3055,
-      "newOfficials": 103,
-      "skipped": [],
-      "skippedCount": 0,
+      "claims": 5,
+      "matched": 5,
+      "newOfficials": 0,
+      "skipped": [
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Roxas"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Ospina"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Berreta"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Kubitschek"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Ydigoras"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Echandi"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Congo, Republic of"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Valencia"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Bosch"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Diaz Ordaz"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Arthur da Costa e Silva"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Anastasio Somoza Debayle"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Luis Echeverria"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Jose Lopez Portillo"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Jaime Roldos"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Salvador Jorge Blanco"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Miguel de la Madrid"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Jose Napoleon Duarte"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Leon Febres Cordero"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "St. Christopher and Nevis"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Nicolas Ardito Barletta"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Tancredo Neves"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-Elect Carlos Salinas de Gortari"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Alfredo Cristiani Buckard"
+        },
+        {
+          "reason": "visiting country not found",
+          "text": "Korea"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Fernando Collor de Mello"
+        },
+        {
+          "reason": "visitor not in office",
+          "text": "President-elect Luis Alberto Lacalle Herrera"
+        }
+      ],
+      "skippedCount": 98,
       "unmatched": 0
     },
     "nepal-mofa": {
       "claims": 5,
       "matched": 5,
       "newOfficials": 0,
-      "skipped": [],
-      "skippedCount": 0,
+      "skipped": [
+        {
+          "reason": "destination not found",
+          "text": "Hon. Foreign Minister to Attend the 9th Indian Ocean Conference in Port Louis"
+        }
+      ],
+      "skippedCount": 1,
       "unmatched": 0
     },
     "relations": {
-      "claims": 3004,
-      "matched": 3004,
-      "newOfficials": 112,
+      "claims": 0,
+      "matched": 0,
+      "newOfficials": 0,
       "skipped": [
         {
           "reason": "no linked visitor",
@@ -1032,9 +1211,9 @@
       "unmatched": 0
     },
     "summits": {
-      "claims": 3638,
-      "matched": 3638,
-      "newOfficials": 65,
+      "claims": 5,
+      "matched": 5,
+      "newOfficials": 0,
       "skipped": [
         {
           "reason": "held online",
@@ -1201,29 +1380,185 @@
       "unmatched": 0
     },
     "uk-parliament": {
-      "claims": 441,
-      "matched": 441,
-      "newOfficials": 8,
+      "claims": 0,
+      "matched": 0,
+      "newOfficials": 0,
       "skipped": [],
       "skippedCount": 0,
       "unmatched": 0
     },
     "un-general-debate": {
-      "claims": 3415,
-      "matched": 3415,
-      "newOfficials": 119,
+      "claims": 18,
+      "matched": 18,
+      "newOfficials": 1,
       "skipped": [
         {
-          "reason": "domestic travel",
-          "text": "18 trips"
+          "reason": "speaker not linked",
+          "text": "United Nations – 74th Session of the United Nations General Assembly - President Tijjani Muhammad-Bande (Opening statement)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Austria (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Tunisia (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Brunei (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Togo (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Burundi (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Uruguay (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "North Korea – Permanent Representative Kim Song"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Canada (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Togo – Permanent Representative Kokou Kpayedo"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Benin (Scheduled)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Benin – Permanent Representative Jean-Claude Félix do Rego"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Sri Lanka – Foreign Secretary Ravinatha Aryasinha"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "No representative for Uzbekistan was on the agenda of the General Debate."
+        },
+        {
+          "reason": "country not recognised",
+          "text": "United Nations"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "European Union"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "United Nations – 77th Session of the United Nations General Assembly - President Csaba Kőrösi (Opening statement)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Bulgaria – Caretaker Minister of Foreign Affairs Nikolay Milkov"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Benin – Permanent Representative Marc Gninadoou Araba"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "North Korea – Permanent Representative Kim Song"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Oman – Permanent Representative Mohammed Al Hassan"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Djibouti – Permanent Representative Mohamed Siad Doualeh"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Nauru – Permanent Representative Josie Ann Dongobir"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "United Nations – 77th Session of the United Nations General Assembly - President Csaba Kőrösi (Closing statement)"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "No representatives for Afghanistan, Myanmar, and São Tomé and Príncipe were on the agenda of the general debate."
+        },
+        {
+          "reason": "country not recognised",
+          "text": "United Nations"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "European Union"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Kyrgyzstan – State Secretary Nur Uulu Dosbol"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Cambodia – Secretary of State Ouch Borith"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Mauritius – Chairperson of the Delegation Somduth Soborun"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Mauritania – Chairperson of the Delegation Abderrahim Ould Hadrami"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "United Nations"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "United Nations"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "History of Libya under Muammar Gaddafi"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "United Nations"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Germany – Chairman Thomas Matussek"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Republic of Moldova – Chair of the Delegation Alexandru Cujba"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Greece – Chair of the Delegation Anastassis Mitsialis"
+        },
+        {
+          "reason": "speaker not linked",
+          "text": "Botswana – Chair of the Delegation Charles Thembani Ntwaaggae"
+        },
+        {
+          "reason": "country not recognised",
+          "text": "United Nations"
         }
       ],
-      "skippedCount": 1,
+      "skippedCount": 210,
       "unmatched": 0
     },
     "who-assembly": {
-      "claims": 3414,
-      "matched": 996,
+      "claims": 17,
+      "matched": 1,
       "newOfficials": 0,
       "skipped": [
         {
@@ -1232,18 +1567,25 @@
         }
       ],
       "skippedCount": 1,
-      "unmatched": 2418
+      "unmatched": 16
     },
     "wikipedia": {
-      "claims": 31792,
-      "matched": 31766,
+      "claims": 0,
+      "matched": 0,
       "newOfficials": 0,
       "skipped": [],
       "skippedCount": 0,
-      "unmatched": 26
+      "unmatched": 0
     }
   },
-  "tripPages": [],
+  "tripPages": [
+    {
+      "official": "Birendra of Nepal",
+      "records": 0,
+      "rowsSkipped": [],
+      "title": "List of official overseas trips made by Birendra of Nepal"
+    }
+  ],
   "unmatchedOfficials": [
     "AFG: Abdul Ghani Berader (Acting)",
     "AFG: Abdul Hakim Sharai (Acting)",

@@ -1,3 +1,4 @@
+import type { COUNTRY_TABS } from "@/features/leaders/constants/leaders.constants";
 import type { TenureBreakdown } from "@/lib/travel/offices.utils";
 import type { CountryCode } from "@/types/geo.types";
 import type {
@@ -7,6 +8,8 @@ import type {
     TravelRecord,
     TravelSummary,
 } from "@/types/travel.types";
+
+export type CountryTab = (typeof COUNTRY_TABS)[number];
 
 /** One row of the country rail. Names are localised in the browser from the code. */
 export interface CountryListItem {

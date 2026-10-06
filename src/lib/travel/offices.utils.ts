@@ -158,3 +158,20 @@ export const groupPastTermsByYear = (officials: readonly Official[]): YearTerms[
     }
     return years;
 };
+
+/** The calendar years a term started and ended, where the source records them. */
+export interface TermYears {
+    end: string | null;
+    start: string | null;
+}
+
+/**
+ * Reads the start and end years of a position, for short tenure labels such as "2017 – 2021".
+ *
+ * @param position - Position to read.
+ * @returns Four-digit years, `null` where a date isn't recorded or the term hasn't ended.
+ */
+export const getTermYears = (position: Pick<Position, "startDate" | "endDate">): TermYears => ({
+    end: position.endDate ? position.endDate.slice(0, 4) : null,
+    start: position.startDate ? position.startDate.slice(0, 4) : null,
+});

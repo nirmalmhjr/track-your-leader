@@ -12,6 +12,12 @@ import type {
 /** A country's Wikidata identity and the offices of its leaders. */
 export interface CountryContext {
     code: CountryCode;
+    /**
+     * Leader offices of the state this country alone succeeded, such as "King of Nepal" for the
+     * Kingdom of Nepal: their holders since the horizon are the country's former leaders.
+     */
+    formerHeadOfGovernmentOffices: readonly string[];
+    formerHeadOfStateOffices: readonly string[];
     headOfGovernmentOffice: string | null;
     headOfStateOffice: string | null;
     wikidataId: string;
@@ -121,6 +127,8 @@ export interface SourceReport {
 /** Problems worth a human look, written to the warehouse's `report.json` after each run. */
 export interface PipelineReport {
     cabinets: Record<CountryCode, { asOf: IsoDate | null; status: string }>;
+    /** Photos shared by several people that were taken away from those they may not show. */
+    droppedPhotos: { file: string; wikidataIds: string[] }[];
     sources: Partial<Record<TripSourceId, SourceReport>>;
     tripPages: {
         official: string;

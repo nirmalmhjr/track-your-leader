@@ -49,6 +49,12 @@
       "trips": "Trips"
     },
     "filter": "Filter by name",
+    "tabs": {
+      "label": "Officials",
+      "inOffice": "In office",
+      "former": "Former",
+      "people": "Everyone on record"
+    },
     "inOfficeTitle": "In office",
     "inOfficeCaption": "Most senior first",
     "noneInOffice": "No one from {country} is recorded as holding office today.",
@@ -71,8 +77,6 @@
     "leftOffice": "{count, plural, one {{countLabel} term ended} other {{countLabel} terms ended}}",
     "peopleTitle": "Everyone on record",
     "peopleCaption": "Legislators, regional and city leaders, judges, diplomats and others without recorded trips",
-    "peopleIntro": "Members of parliament, governors, mayors of large cities, judges, diplomats and other public office holders from {country}, as recorded on Wikidata.",
-    "peopleLoad": "Show everyone on record",
     "peopleLoading": "Loading everyone on record…",
     "peopleError": "The list couldn't be loaded.",
     "peopleRetry": "Try again",
@@ -88,7 +92,11 @@
     "trips": "{count, plural, one {trip} other {trips}}",
     "last": "Last",
     "next": "Next",
-    "noTrips": "No recorded trips"
+    "noTrips": "No recorded trips",
+    "inOffice": "In office",
+    "inOfficeSince": "In office · since {year}",
+    "former": "Former",
+    "formerYears": "Former · {years}"
   },
   "profile": {
     "breadcrumb": "Breadcrumb",

@@ -4,6 +4,7 @@ import { test } from "node:test";
 import {
     countTenure,
     getHeldOfficeKeys,
+    getTermYears,
     groupOffices,
     groupPastTermsByYear,
 } from "@/lib/travel/offices.utils";
@@ -128,4 +129,19 @@ test("an office stays held when its current holder is filtered out", () => {
         ["Minister of Finance", "ministers"],
         ["Minister of Peace", "vacant"],
     ]);
+});
+
+test("term years read the start and end year, leaving missing dates empty", () => {
+    assert.deepEqual(
+        getTermYears(position({ endDate: "2021-01-20", startDate: "2017-01-20", title: "A" })),
+        { end: "2021", start: "2017" }
+    );
+    assert.deepEqual(getTermYears(position({ startDate: "2025-01-20", title: "B" })), {
+        end: null,
+        start: "2025",
+    });
+    assert.deepEqual(getTermYears(position({ endDate: "1990-05-01", title: "C" })), {
+        end: "1990",
+        start: null,
+    });
 });

@@ -37,6 +37,7 @@ import { assembleDrafts, enrichOfficials } from "./extract/officials.extract";
 import { buildPeopleRows, idRecordsOf, isPromoted, mergePeople } from "./extract/people.assemble";
 import { writePeopleFiles } from "./extract/people.export";
 import { extractPeople, type PersonDraft } from "./extract/people.extract";
+import { findUnreliablePhotos } from "./extract/photos.check";
 import {
     type CityLookup,
     createCityLookup,
@@ -483,6 +484,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     const today = todayIso();
     const report: PipelineReport = {
         cabinets: {},
+        droppedPhotos: [],
         sources: {},
         tripPages: [],
         unmatchedOfficials: [],
@@ -544,13 +546,26 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     ).map((record) => record.id);
 
     log.step("Officials: photos, parties, biographies");
-    const { idOf, officials } = await enrichOfficials(
+    const { idOf, officials: enriched } = await enrichOfficials(
         [...drafts, ...matches.newDrafts, ...promoted],
         [...previous, ...previousPeople],
         new Set([...reserved, ...reservedPeople])
     );
+    const photos = findUnreliablePhotos([
+        ...enriched.map((official) => ({ ...official, name: official.fullName })),
+        ...rest,
+    ]);
+    report.droppedPhotos = photos.dropped;
+    log.info(`${photos.ids.size} photos dropped as shared with someone else`);
+    const hasUnreliablePhoto = (wikidataId: string | null): boolean =>
+        wikidataId !== null && photos.ids.has(wikidataId);
+    const officials = enriched.map((official) =>
+        hasUnreliablePhoto(official.wikidataId) ? { ...official, photoUrl: null } : official
+    );
     const peopleByCountry = buildPeopleRows({
-        people: rest,
+        people: rest.map((person) =>
+            hasUnreliablePhoto(person.wikidataId) ? { ...person, photoUrl: null } : person
+        ),
         previous: [...previous, ...previousPeople],
         reserved: new Set([
             ...reserved,

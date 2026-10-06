@@ -6,7 +6,15 @@ import { buttonVariants } from "@/components/ui/button";
 import { ROUTES } from "@/configs/routes";
 import { CountryDownloadButton } from "@/features/leaders/components/country-download-button";
 import { StatTiles } from "@/features/leaders/components/stat-tiles";
-import type { CountryDirectory, DirectoryContext } from "@/features/leaders/types/leaders.types";
+import {
+    COUNTRY_TAB_PARAM,
+    COUNTRY_TABS_ANCHOR,
+} from "@/features/leaders/constants/leaders.constants";
+import type {
+    CountryDirectory,
+    CountryTab,
+    DirectoryContext,
+} from "@/features/leaders/types/leaders.types";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getTravelFormat } from "@/lib/travel/travel-format.server";
@@ -23,6 +31,10 @@ const FLAG_WASH_STYLE = {
     width: "100%",
 } as const;
 
+/** Link to one tab of the country page, scrolled to the tabs. */
+const tabHref = (path: string, tab: CountryTab): string =>
+    `${path}?${COUNTRY_TAB_PARAM}=${tab}#${COUNTRY_TABS_ANCHOR}`;
+
 interface CountryHeroProps {
     context: DirectoryContext;
     directory: CountryDirectory;
@@ -34,6 +46,7 @@ export async function CountryHero({ directory, context }: CountryHeroProps) {
     const { country, tenure, tripCount } = directory;
     const reference = getCountryReference(country.code);
     const name = format.countryName(country.code);
+    const path = ROUTES.leadersCountry(country.code);
 
     return (
         <section
@@ -94,8 +107,16 @@ export async function CountryHero({ directory, context }: CountryHeroProps) {
                             label: t("stats.officials"),
                             value: format.number(tenure.current + tenure.former),
                         },
-                        { label: t("stats.inOffice"), value: format.number(tenure.current) },
-                        { label: t("stats.former"), value: format.number(tenure.former) },
+                        {
+                            href: tabHref(path, "in-office"),
+                            label: t("stats.inOffice"),
+                            value: format.number(tenure.current),
+                        },
+                        {
+                            href: tabHref(path, "former"),
+                            label: t("stats.former"),
+                            value: format.number(tenure.former),
+                        },
                         { label: t("stats.trips"), value: format.number(tripCount) },
                     ]}
                 />

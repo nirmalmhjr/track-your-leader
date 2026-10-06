@@ -227,6 +227,8 @@ interface FormerOfficialsDirectoryProps {
     /** Every official of the country, so offices held by someone filtered out still count as held. */
     allOfficials: Official[];
     countryName: string;
+    /** Shown instead of "no former officials" while a name filter matches nobody. */
+    noMatchLabel: string | null;
     /** Officials matching the name filter. */
     officials: Official[];
 }
@@ -236,6 +238,7 @@ export function FormerOfficialsDirectory({
     officials,
     allOfficials,
     countryName,
+    noMatchLabel,
 }: FormerOfficialsDirectoryProps) {
     const t = useTranslations("Leaders.country");
     const [layout, setLayout] = useState<Layout>("office");
@@ -281,7 +284,7 @@ export function FormerOfficialsDirectory({
             />
             {hasPast ? null : (
                 <p className="rounded-xl border border-dashed p-6 text-center text-muted-foreground text-sm">
-                    {t("noFormer", { country: countryName })}
+                    {noMatchLabel ?? t("noFormer", { country: countryName })}
                 </p>
             )}
             {hasPast && layout === "office" ? (

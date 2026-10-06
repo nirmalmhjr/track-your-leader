@@ -350,3 +350,67 @@ test("trips at home aren't international travel", () => {
     assert.equal(isAbroad(abroad), true);
     assert.equal(isAbroad(home), false);
 });
+
+test("a visit naming a leader by one name goes to whoever held the office then", async () => {
+    const leader = (
+        name: string,
+        category: "head_of_state" | "head_of_government",
+        startDate: string,
+        endDate: string
+    ) =>
+        draft({
+            name,
+            positions: [
+                {
+                    categories: [category],
+                    endDate,
+                    ministry: null,
+                    portfolio: null,
+                    startDate,
+                    title:
+                        category === "head_of_state" ? "King of Nepal" : "Prime Minister of Nepal",
+                },
+            ],
+            wikidataId: name,
+        });
+    const mahendra = leader("Mahendra I of Nepal", "head_of_state", "1955-03-13", "1972-01-31");
+    const birendra = leader("Birendra of Nepal", "head_of_state", "1972-01-31", "2001-06-01");
+    const matrika = leader(
+        "Matrika Prasad Koirala",
+        "head_of_government",
+        "1951-11-16",
+        "1952-08-14"
+    );
+    const bp = leader("B. P. Koirala", "head_of_government", "1959-05-27", "1960-12-15");
+    const visit = (name: string, category: "head_of_state" | "head_of_government", date: string) =>
+        claim({
+            source: "historian-visits",
+            startDate: date,
+            traveller: {
+                categories: [category],
+                countryCode: "NPL",
+                familyName: null,
+                name,
+                portfolio: null,
+                title: null,
+                wikidataId: null,
+            },
+        });
+    const claims = [
+        visit("Birendra", "head_of_state", "1983-12-05"),
+        visit("Mahendra", "head_of_state", "1960-04-27"),
+        visit("Koirala", "head_of_government", "1960-09-22"),
+    ];
+
+    const { draftOf, newDrafts } = await matchTravellers(
+        claims,
+        [mahendra, birendra, matrika, bp],
+        new Map(),
+        TODAY
+    );
+    assert.equal(newDrafts.length, 0);
+    assert.deepEqual(
+        claims.map((entry) => draftOf.get(entry)?.name),
+        ["Birendra of Nepal", "Mahendra I of Nepal", "B. P. Koirala"]
+    );
+});

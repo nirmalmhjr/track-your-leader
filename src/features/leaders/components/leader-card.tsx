@@ -9,9 +9,10 @@ import type { LeaderEntry } from "@/features/leaders/types/leaders.types";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { Link } from "@/i18n/navigation";
 import { getCountryReference } from "@/lib/geo/country-reference";
-import { getPrimaryPosition } from "@/lib/travel/officials.utils";
+import { getTermYears } from "@/lib/travel/offices.utils";
+import { getPrimaryPosition, isCurrentPosition } from "@/lib/travel/officials.utils";
 import { cn } from "@/lib/utils";
-import type { TravelRecord } from "@/types/travel.types";
+import type { Position, TravelRecord } from "@/types/travel.types";
 
 interface LeaderCardProps {
     entry: LeaderEntry;
@@ -56,6 +57,47 @@ function TripLine({
     );
 }
 
+/** "In office · since 2025" or "Former · 2017 – 2021", falling back to the bare status. */
+function TenureLine({ position }: { position: Position }) {
+    const t = useTranslations("Leaders.card");
+    const format = useTravelFormat();
+    const isInOffice = isCurrentPosition(position);
+    const { start, end } = getTermYears(position);
+    const startYear = start ? format.year(start) : null;
+    const endYear = end ? format.year(end) : null;
+
+    let label: string;
+    if (isInOffice) {
+        label = startYear ? t("inOfficeSince", { year: startYear }) : t("inOffice");
+    } else {
+        const years =
+            startYear && endYear && startYear !== endYear
+                ? `${startYear} – ${endYear}`
+                : (endYear ?? startYear);
+        label = years ? t("formerYears", { years }) : t("former");
+    }
+
+    return (
+        <span className="flex min-w-0 items-center gap-1.5 text-xs">
+            <span
+                aria-hidden
+                className={cn(
+                    "size-1.5 shrink-0 rounded-full",
+                    isInOffice ? "bg-primary" : "bg-muted-foreground/50"
+                )}
+            />
+            <span
+                className={cn(
+                    "truncate tabular-nums",
+                    isInOffice ? "font-medium text-primary" : "text-muted-foreground"
+                )}
+            >
+                {label}
+            </span>
+        </span>
+    );
+}
+
 /** A leader as a card linking to their profile, with their travel at a glance. */
 export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardProps) {
     const t = useTranslations("Leaders.card");
@@ -78,6 +120,7 @@ export function LeaderCard({ entry, figure, showCountry = false }: LeaderCardPro
                     <span className="line-clamp-2 text-muted-foreground text-sm leading-snug">
                         {position.title}
                     </span>
+                    <TenureLine position={position} />
                     {showCountry || official.party ? (
                         <span className="mt-1 flex min-w-0 items-center gap-1.5 text-muted-foreground text-xs">
                             {showCountry ? (
