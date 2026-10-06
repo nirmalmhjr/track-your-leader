@@ -342,3 +342,33 @@ export const wikidataUrl = (id: string): string => `https://www.wikidata.org/wik
  */
 export const commonsImageUrl = (fileName: string, width: number): string =>
     `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(fileName.replaceAll(" ", "_"))}?width=${width}`;
+
+const HUMAN_BATCH_SIZE = 200;
+
+/**
+ * Of the given items, those that are people (instance of human), so links to offices,
+ * governments or events are never taken for a person.
+ *
+ * @param items - Item ids.
+ * @returns The ids of people.
+ */
+export const fetchHumans = async (items: readonly string[]): Promise<Set<string>> => {
+    const humans = new Set<string>();
+    const batches = chunk([...new Set(items)].sort(), HUMAN_BATCH_SIZE);
+    const results = await Promise.all(
+        batches.map((batch) =>
+            runSparql(`
+                SELECT ?item WHERE {
+                    VALUES ?item { ${batch.map((id) => `wd:${id}`).join(" ")} }
+                    ?item wdt:P31 wd:${HUMAN} .
+                }`)
+        )
+    );
+    for (const row of results.flat()) {
+        const id = entityId(row.item);
+        if (id) {
+            humans.add(id);
+        }
+    }
+    return humans;
+};

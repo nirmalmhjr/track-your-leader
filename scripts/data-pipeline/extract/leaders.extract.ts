@@ -5,7 +5,14 @@ import { countrySourceFor } from "../config";
 import { chunk, groupBy } from "../lib/collections";
 import { addDaysIso, isoFromParts, isValidDay } from "../lib/dates";
 import { capitalize } from "../lib/text";
-import { entityId, fetchEntities, HUMAN, runSparql, wikidataUrl } from "../sources/wikidata";
+import {
+    entityId,
+    fetchEntities,
+    HUMAN,
+    runSparql,
+    type SparqlRow,
+    wikidataUrl,
+} from "../sources/wikidata";
 import type { CountryContext, OfficeTerm, OfficialDraft, PositionDraft } from "../types";
 import { classifyTitle } from "./roles";
 
@@ -246,6 +253,167 @@ const positionFromTerm = (
     };
 };
 
+/** Countries per statements query. */
+const STATEMENT_BATCH_SIZE = 10;
+const LEADER_KINDS = {
+    hog: { category: "head_of_government", property: "P6", title: "Head of government" },
+    hos: { category: "head_of_state", property: "P35", title: "Head of state" },
+} as const;
+type LeaderKind = keyof typeof LEADER_KINDS;
+
+/** A dated "head of state" or "head of government" statement on a country's own item. */
+interface LeaderStatement extends OfficeTerm {
+    code: CountryCode;
+    kind: LeaderKind;
+}
+
+/**
+ * Each country's item, plus predecessor states that it alone succeeded (the Kingdom of Nepal
+ * for Nepal; not the Soviet Union, which fifteen states succeeded).
+ */
+const fetchStateItems = async (
+    contexts: ReadonlyMap<CountryCode, CountryContext>
+): Promise<Map<string, CountryCode>> => {
+    const codeByCountry = new Map(
+        [...contexts.values()].map((context) => [context.wikidataId, context.code])
+    );
+    const states = new Map(codeByCountry);
+    const rows = await runSparql(`
+        SELECT ?country ?state WHERE {
+            VALUES ?country { ${[...codeByCountry.keys()].map((id) => `wd:${id}`).join(" ")} }
+            ?state wdt:P1366 ?country .
+            FILTER NOT EXISTS { ?state wdt:P1366 ?other . FILTER(?other != ?country) }
+        }`);
+    for (const row of rows) {
+        const code = codeByCountry.get(entityId(row.country) ?? "");
+        const state = entityId(row.state);
+        if (code && state && !states.has(state)) {
+            states.set(state, code);
+        }
+    }
+    return states;
+};
+
+/**
+ * Leaders recorded on the countries' own items (P35 head of state, P6 head of government) with
+ * a start date. Wikidata models some leader offices too loosely to find by class, such as
+ * "Monarch of Afghanistan" with no country, so these statements fill the gaps.
+ *
+ * @param contexts - Country contexts.
+ * @param sinceYear - Terms that ended before this year are left out.
+ * @returns Normalised terms per country and kind.
+ */
+export const fetchLeaderStatements = async (
+    contexts: ReadonlyMap<CountryCode, CountryContext>,
+    sinceYear: number
+): Promise<LeaderStatement[]> => {
+    const since = `${sinceYear}-01-01`;
+    const states = await fetchStateItems(contexts);
+    const items = chunk([...states.keys()].sort(), STATEMENT_BATCH_SIZE);
+    // One property per query keeps each one well inside the query service's time limit.
+    const batches = await Promise.all(
+        (Object.keys(LEADER_KINDS) as LeaderKind[]).flatMap((kind) =>
+            items.map(async (batch) =>
+                (
+                    await runSparql(`
+                        SELECT ?state ?person ?start ?end WHERE {
+                            VALUES ?state { ${batch.map((id) => `wd:${id}`).join(" ")} }
+                            ?state p:${LEADER_KINDS[kind].property} ?statement .
+                            ?statement ps:${LEADER_KINDS[kind].property} ?person ;
+                                pq:P580 ?start ; wikibase:rank ?rank .
+                            FILTER(?rank != wikibase:DeprecatedRank)
+                            ?person wdt:P31 wd:${HUMAN} .
+                            OPTIONAL { ?statement pq:P582 ?end }
+                        }`)
+                ).map((row): SparqlRow & { kind: LeaderKind } => ({ ...row, kind }))
+            )
+        )
+    );
+    const statements = batches.flat().flatMap((row): LeaderStatement[] => {
+        const code = states.get(entityId(row.state) ?? "");
+        const personId = entityId(row.person);
+        const startDate = calendarDate(row.start);
+        const kind = row.kind === "hos" || row.kind === "hog" ? row.kind : null;
+        const context = code ? contexts.get(code) : undefined;
+        const isTracked =
+            kind === "hog" || (context && countrySourceFor(context.code).includeHeadOfState);
+        return code && personId && startDate && kind && isTracked
+            ? [
+                  {
+                      code,
+                      endDate: calendarDate(row.end),
+                      kind,
+                      officeId: `${kind}:${code}`,
+                      personId,
+                      startDate,
+                  },
+              ]
+            : [];
+    });
+    return [...groupBy(statements, (statement) => statement.officeId).values()]
+        .flatMap((group) => {
+            const [first] = group;
+            return first
+                ? normalizeTerms(group).map((term) => ({
+                      ...term,
+                      code: first.code,
+                      kind: first.kind,
+                  }))
+                : [];
+        })
+        .filter((term) => term.endDate === null || term.endDate >= since);
+};
+
+/** Whether a draft already holds a position of that kind overlapping the term. */
+const hasOverlapping = (draft: OfficialDraft, term: LeaderStatement): boolean =>
+    draft.positions.some(
+        (position) =>
+            position.categories.includes(LEADER_KINDS[term.kind].category) &&
+            (position.startDate === null ||
+                term.endDate === null ||
+                position.startDate <= term.endDate) &&
+            (position.endDate === null || position.endDate >= term.startDate)
+    );
+
+/**
+ * Adds the leaders recorded only on country items: new people, or terms the office query
+ * missed. Their title is the generic "Head of state" or "Head of government".
+ */
+const addStatementTerms = async (
+    drafts: Map<string, OfficialDraft>,
+    statements: readonly LeaderStatement[]
+): Promise<void> => {
+    const newPeople = await fetchEntities(
+        [...new Set(statements.map((term) => term.personId))].filter((id) => !drafts.has(id)),
+        ["labels", "aliases"]
+    );
+    for (const term of statements) {
+        const known = drafts.get(term.personId);
+        if (known && hasOverlapping(known, term)) {
+            continue;
+        }
+        const person = newPeople.get(term.personId);
+        const draft: OfficialDraft = known ?? {
+            aliases: [...(person?.aliases ?? [])],
+            countryCode: term.code,
+            name: person?.label ?? term.personId,
+            positions: [],
+            sources: [{ label: "Wikidata", url: wikidataUrl(term.personId) }],
+            wikidataId: term.personId,
+        };
+        const { category, title } = LEADER_KINDS[term.kind];
+        draft.positions.push({
+            categories: [category],
+            endDate: term.endDate,
+            ministry: null,
+            portfolio: null,
+            startDate: term.startDate,
+            title,
+        });
+        drafts.set(term.personId, draft);
+    }
+};
+
 interface LeaderSources {
     contexts: ReadonlyMap<CountryCode, CountryContext>;
     /** Extra offices per country (ministers, the US cabinet), already resolved to item ids. */
@@ -308,6 +476,7 @@ export const extractLeaders = async ({
         );
         drafts.set(term.personId, draft);
     }
+    await addStatementTerms(drafts, await fetchLeaderStatements(contexts, sinceYear));
     return drafts;
 };
 

@@ -17,6 +17,8 @@ import { extractColtClaims } from "./extract/claims/colt.claims";
 import { extractHistorianClaims } from "./extract/claims/historian.claims";
 import { extractHistorianVisitClaims } from "./extract/claims/historian-visits.claims";
 import { extractNepalMofaClaims } from "./extract/claims/nepal-mofa.claims";
+import { extractRelationsClaims } from "./extract/claims/relations.claims";
+import { extractSummitClaims } from "./extract/claims/summits.claims";
 import { extractUkClaims } from "./extract/claims/uk.claims";
 import { extractUkParliamentClaims } from "./extract/claims/uk-parliament.claims";
 import { extractGeneralDebateClaims } from "./extract/claims/un-general-debate.claims";
@@ -231,6 +233,10 @@ const extractSource = async (source: TripSourceId, input: ClaimsInput): Promise<
             return extractUkParliamentClaims({ cities, places });
         case "au-ipea":
             return extractIpeaClaims({ cities, places });
+        case "summits":
+            return extractSummitClaims({ cities, places });
+        case "relations":
+            return extractRelationsClaims(places);
         default:
             return { claims: [], skipped: [] };
     }

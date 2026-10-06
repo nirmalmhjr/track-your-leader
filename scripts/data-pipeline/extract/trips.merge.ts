@@ -21,6 +21,8 @@ const SOURCE_RANK: Readonly<Record<TripSourceId, number>> = {
     historian: 0,
     "historian-visits": 0,
     "nepal-mofa": 1,
+    relations: 1,
+    summits: 1,
     "uk-parliament": 0,
     "un-general-debate": 1,
     "who-assembly": 0,

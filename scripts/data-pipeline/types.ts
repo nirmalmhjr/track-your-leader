@@ -61,6 +61,8 @@ export const TRIP_SOURCES = [
     "who-assembly",
     "uk-parliament",
     "au-ipea",
+    "summits",
+    "relations",
 ] as const;
 
 export type TripSourceId = (typeof TRIP_SOURCES)[number];

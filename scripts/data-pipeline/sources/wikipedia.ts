@@ -50,6 +50,7 @@ const parseResponseSchema = z.object({
 });
 
 const searchResponseSchema = z.object({
+    continue: z.object({ sroffset: z.number() }).optional(),
     query: z.object({ search: z.array(z.object({ title: z.string() })) }),
 });
 
@@ -91,6 +92,43 @@ export const searchTitles = async (
         })
     );
     return searchResponseSchema.parse(json).query.search.map((result) => result.title);
+};
+
+/** The search API serves at most this many results for one query. */
+const MAX_SEARCH_RESULTS = 10_000;
+
+/**
+ * Full-text search that follows the result pages, for queries matching more than 500 articles.
+ *
+ * @param query - CirrusSearch query, e.g. `intitle:relations "high-level visits"`.
+ * @param language - Wikipedia language.
+ * @returns Every matching article title.
+ */
+export const searchAllTitles = async (
+    query: string,
+    language: WikiLanguage = "en"
+): Promise<string[]> => {
+    const titles: string[] = [];
+    let offset: number | undefined = 0;
+    while (offset !== undefined && offset < MAX_SEARCH_RESULTS) {
+        // biome-ignore lint/performance/noAwaitInLoops: each page of results names where the next one starts.
+        const json = await fetchJson(
+            withQuery(apiEndpoint(language), {
+                action: "query",
+                format: "json",
+                formatversion: "2",
+                list: "search",
+                srlimit: String(MAX_SEARCH_LIMIT),
+                srnamespace: "0",
+                sroffset: String(offset),
+                srsearch: query,
+            })
+        );
+        const page = searchResponseSchema.parse(json);
+        titles.push(...page.query.search.map((result) => result.title));
+        offset = page.continue?.sroffset;
+    }
+    return titles;
 };
 
 const allPagesResponseSchema = z.object({

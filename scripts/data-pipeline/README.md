@@ -54,6 +54,9 @@ concurrency group, so they never write at the same time.
 | Trips of heads of state and government of 200+ countries since 1945 | [COLT](https://doi.org/10.7910/DVN/HJK7DN) (Diplometrics, University of Denver), Harvard Dataverse | CC0 |
 | Trips of US presidents and secretaries of state | [US Office of the Historian](https://github.com/HistoryAtState/travels) | Public domain (CC0) |
 | Visits to the US by foreign leaders of every country, since 1874 | [US Office of the Historian](https://github.com/HistoryAtState/visits) | Public domain (CC0) |
+| Summit attendance since 1945 (Non-Aligned Movement, Arab League, Commonwealth, G7/G20, BRICS, SCO, SAARC, ASEAN, APEC, NATO, Summit of the Americas…) | Wikipedia summit pages, attendee lists with flags | CC BY-SA |
+| High-level visits between pairs of countries | Wikipedia "<country>–<country> relations" pages, visit lists under "visits from X to Y" headings | CC BY-SA |
+| Leaders missing from office records (e.g. King Zahir Shah) | Wikidata "head of state" / "head of government" statements on country items and sole predecessor states | CC0 |
 | Trips of every UK minister, quarterly since about 2010 | GOV.UK ministerial transparency CSVs | Open Government Licence v3.0 |
 | Trips of Canadian ministers | [Proactive Disclosure – Travel Expenses](https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce) | Open Government Licence – Canada |
 | Current trips of Nepal's President, VP, PM and Foreign Minister | [mofa.gov.np](https://mofa.gov.np) press releases | Government website |
