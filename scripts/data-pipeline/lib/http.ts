@@ -1,10 +1,11 @@
 import { createHash } from "node:crypto";
-import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rename, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { setTimeout as sleep } from "node:timers/promises";
 
 import { PIPELINE_CONFIG } from "../config";
 import { log } from "./log";
+import { countRequest } from "./progress";
 
 /** Minimum gap between requests to one host. Public APIs ask clients to stay gentle. */
 const HOST_INTERVAL_MS: Readonly<Record<string, number>> = {
@@ -42,14 +43,19 @@ export interface RequestOptions {
     ttlHours?: number;
 }
 
-let bypassCache = false;
+/** `refresh` ignores cached responses; `resume` takes any cached copy, however old. */
+type CacheMode = "normal" | "refresh" | "resume";
+let cacheMode: CacheMode = "normal";
 const nextSlotByHost = new Map<string, number>();
 /** Gaps widened after a host throttled this run. */
 const intervalByHost = new Map<string, number>();
 
-/** Ignore cached responses for the rest of the run (`--refresh`). */
-export const setCacheBypass = (value: boolean): void => {
-    bypassCache = value;
+/**
+ * How cached responses are used for the rest of the run: ignored (`--refresh`), or all reused
+ * whatever their age (`--resume`), so a run stopped part-way picks up where it left off.
+ */
+export const setCacheMode = (mode: CacheMode): void => {
+    cacheMode = mode;
 };
 
 class HttpError extends Error {
@@ -105,12 +111,12 @@ const cachePathFor = (url: string, options: RequestOptions, extension: string): 
 };
 
 const isFresh = async (file: string, ttlHours: number): Promise<boolean> => {
-    if (bypassCache) {
+    if (cacheMode === "refresh") {
         return false;
     }
     try {
         const info = await stat(file);
-        return (Date.now() - info.mtimeMs) / MS_PER_HOUR < ttlHours;
+        return cacheMode === "resume" || (Date.now() - info.mtimeMs) / MS_PER_HOUR < ttlHours;
     } catch {
         return false;
     }
@@ -142,6 +148,7 @@ const download = async (
 ): Promise<string> => {
     const cacheFile = cachePathFor(url, options, extension);
     if (await isFresh(cacheFile, options.ttlHours ?? PIPELINE_CONFIG.cacheTtlHours)) {
+        countRequest("cached");
         return cacheFile;
     }
 
@@ -151,7 +158,12 @@ const download = async (
             // biome-ignore lint/performance/noAwaitInLoops: retries must wait for the previous attempt.
             const body = await read(await send(url, options));
             await mkdir(path.dirname(cacheFile), { recursive: true });
-            await writeFile(cacheFile, body);
+            // Written aside, then renamed: a run stopped mid-write leaves no truncated file
+            // that a later run would take for a fresh copy.
+            const partFile = `${cacheFile}.${process.pid}.part`;
+            await writeFile(partFile, body);
+            await rename(partFile, cacheFile);
+            countRequest("downloaded");
             return cacheFile;
         } catch (error) {
             lastError = error;
@@ -173,6 +185,7 @@ const download = async (
             if (throttled) {
                 slowDownHost(host);
             }
+            countRequest("retried");
             log.warn(`Retrying in ${delay / MS_PER_SECOND}s: ${(error as Error).message}`);
             await sleep(delay);
         }

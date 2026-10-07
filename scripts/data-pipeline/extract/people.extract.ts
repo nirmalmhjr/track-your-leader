@@ -5,7 +5,7 @@ import { chunk, groupBy } from "../lib/collections";
 import { addDaysIso, isoFromParts, isValidDay } from "../lib/dates";
 import { log } from "../lib/log";
 import { capitalize, stripParenthetical } from "../lib/text";
-import { runQlever } from "../sources/qlever";
+import { type QleverRow, runQlever } from "../sources/qlever";
 import { commonsImageUrl, wikidataUrl } from "../sources/wikidata";
 import type { CountryContext, OfficialDraft, PositionDraft } from "../types";
 import { leaderCategoriesOf } from "./leaders.extract";
@@ -75,6 +75,12 @@ const SHARED_OFFICE_ROLES: ReadonlySet<RoleCategory> = new Set([
     "judiciary",
     "diplomat",
 ]);
+
+/** Wikidata classes that tell a territory from a body that merely sits in a country. */
+const INTERNATIONAL_ORGANIZATION = "Q484652";
+const TERRITORIAL_ENTITY = "Q56061"; // administrative territorial entity
+const STATE = "Q7275";
+const SOVEREIGN_STATE = "Q3624078";
 
 /** City offices count from this population, or in a capital. */
 const LOCAL_POPULATION_MIN = 100_000;
@@ -216,7 +222,11 @@ const fetchHoldings = async (countryId: string): Promise<Holding[]> => {
 // --- Offices --------------------------------------------------------------------------------
 
 export interface OfficeInfo {
+    /** Countries the office itself names (`P17`). */
+    countries: Set<string>;
     isCapital: boolean;
+    /** Its jurisdictions (`P1001`): places, or bodies such as the Council of Europe. */
+    jurisdictions: Set<string>;
     kinds: Set<RootKind>;
     label: string | null;
     /**
@@ -226,7 +236,57 @@ export interface OfficeInfo {
      */
     parentJurisdictions: Set<string>;
     population: number;
+    /** Whether a jurisdiction is an international body (the UN, NATO), not a territory. */
+    servesInternationalBody: boolean;
+    /** Sovereign states among its countries. */
+    states: Set<string>;
 }
+
+/**
+ * Adds one row of the offices query to what is known of the office.
+ *
+ * @param known - The office so far, or `undefined` on its first row.
+ * @param row - The row; its `pos` is the office.
+ * @param classKinds - Kinds per class id.
+ * @returns The office, updated.
+ */
+const addOfficeRow = (
+    known: OfficeInfo | undefined,
+    row: QleverRow,
+    classKinds: ReadonlyMap<string, ReadonlySet<RootKind>>
+): OfficeInfo => {
+    const office = known ?? {
+        countries: new Set<string>(),
+        isCapital: false,
+        jurisdictions: new Set<string>(),
+        kinds: new Set(classKinds.get(row.pos ?? "") ?? []),
+        label: null,
+        parentJurisdictions: new Set<string>(),
+        population: 0,
+        servesInternationalBody: false,
+        states: new Set<string>(),
+    };
+    office.label = office.label ?? row.en ?? row.mul ?? null;
+    for (const kind of (row.cls && classKinds.get(row.cls)) || []) {
+        office.kinds.add(kind);
+    }
+    if (row.parentPlace) {
+        office.parentJurisdictions.add(row.parentPlace);
+    }
+    if (row.place) {
+        office.jurisdictions.add(row.place);
+    }
+    if (row.country) {
+        office.countries.add(row.country);
+        if (row.state !== undefined) {
+            office.states.add(row.country);
+        }
+    }
+    office.population = Math.max(office.population, Number(row.pop) || 0);
+    office.isCapital ||= row.capital !== undefined;
+    office.servesInternationalBody ||= row.international !== undefined;
+    return office;
+};
 
 const fetchOffices = async (
     ids: readonly string[],
@@ -236,37 +296,27 @@ const fetchOffices = async (
     for (const batch of chunk([...new Set(ids)].sort(), POSITION_BATCH_SIZE)) {
         // biome-ignore lint/performance/noAwaitInLoops: one query at a time keeps QLever happy.
         const rows = await runQlever(
-            `SELECT ?pos ?en ?mul ?cls ?parentPlace ?pop ?capital WHERE {
+            `SELECT ?pos ?en ?mul ?cls ?parentPlace ?place ?pop ?capital ?international
+                ?country ?state WHERE {
                 VALUES ?pos { ${values(batch)} }
                 OPTIONAL { ?pos rdfs:label ?en FILTER(LANG(?en) = "en") }
                 OPTIONAL { ?pos rdfs:label ?mul FILTER(LANG(?mul) = "mul") }
                 OPTIONAL { ?pos wdt:P31|wdt:P279 ?cls OPTIONAL { ?cls wdt:P1001 ?parentPlace } }
                 OPTIONAL { ?pos wdt:P1001 ?place . OPTIONAL { ?place wdt:P1082 ?pop }
-                    OPTIONAL { ?anyCountry wdt:P36 ?place BIND(1 AS ?capital) } }
+                    OPTIONAL { ?anyCountry wdt:P36 ?place BIND(1 AS ?capital) }
+                    OPTIONAL { ?place wdt:P31/wdt:P279* wd:${INTERNATIONAL_ORGANIZATION}
+                        FILTER NOT EXISTS { ?place wdt:P31/wdt:P279* wd:${TERRITORIAL_ENTITY} }
+                        FILTER NOT EXISTS { ?place wdt:P31/wdt:P279* wd:${STATE} }
+                        BIND(1 AS ?international) } }
+                OPTIONAL { ?pos wdt:P17 ?country
+                    OPTIONAL { ?country wdt:P31 wd:${SOVEREIGN_STATE} BIND(1 AS ?state) } }
             }`,
             POSITION_TTL_HOURS
         );
         for (const row of rows) {
-            if (!row.pos) {
-                continue;
+            if (row.pos) {
+                offices.set(row.pos, addOfficeRow(offices.get(row.pos), row, classKinds));
             }
-            const office = offices.get(row.pos) ?? {
-                isCapital: false,
-                kinds: new Set(classKinds.get(row.pos) ?? []),
-                label: null,
-                parentJurisdictions: new Set<string>(),
-                population: 0,
-            };
-            office.label = office.label ?? row.en ?? row.mul ?? null;
-            for (const kind of (row.cls && classKinds.get(row.cls)) || []) {
-                office.kinds.add(kind);
-            }
-            if (row.parentPlace) {
-                office.parentJurisdictions.add(row.parentPlace);
-            }
-            office.population = Math.max(office.population, Number(row.pop) || 0);
-            office.isCapital ||= row.capital !== undefined;
-            offices.set(row.pos, office);
         }
     }
     return offices;
@@ -296,8 +346,31 @@ export const isEnvoyPostedTo = (title: string, code: CountryCode): boolean => {
 };
 
 /**
+ * Whether an office is the country's own. Offices are collected when their jurisdiction merely
+ * lies in the country, and Wikidata gives bodies a country too: the Council of Europe lies in
+ * France (it sits in Strasbourg), and the Islamic Community of India in India, Nepal, Sri Lanka
+ * and the Maldives. So an office tied to the country only through its jurisdiction doesn't count
+ * when that jurisdiction is an international body, or when the office names another sovereign
+ * state as its own ("Grand Mufti of India" names India). Offices of territories (Gibraltar, Hong
+ * Kong) and of former states (the Soviet Union) stay with the country they lie in.
+ *
+ * @param office - What Wikidata says about the office.
+ * @param context - The country whose officials are being collected.
+ * @returns `false` for another state's office, or an international body's.
+ */
+export const isOfficeOfCountry = (office: OfficeInfo, context: CountryContext): boolean => {
+    const country = context.wikidataId;
+    const isTiedDirectly =
+        office.countries.has(country) ||
+        office.jurisdictions.has(country) ||
+        office.parentJurisdictions.has(country);
+    return isTiedDirectly || !(office.servesInternationalBody || office.states.size > 0);
+};
+
+/**
  * Turns an office into a role, or `null` for offices that aren't politically exposed (academic
- * posts, honorary titles) and offices of small towns.
+ * posts, honorary titles), offices of other states and international bodies, and offices of
+ * small towns.
  *
  * @param officeId - Office item.
  * @param office - What Wikidata says about it.
@@ -317,6 +390,9 @@ export const classifyOffice = (
     const [leaderCategory] = leaderCategoriesOf(officeId, context);
     if (leaderCategory) {
         return { ...fromTitle, categories: [leaderCategory], ministry: null, portfolio: null };
+    }
+    if (!isOfficeOfCountry(office, context)) {
+        return null;
     }
     const [titleCategory] = fromTitle.categories;
     const titleIsSpecific = titleCategory !== "senior_official";

@@ -50,9 +50,10 @@ import { matchTravellers } from "./extract/travellers.match";
 import { mergeClaims } from "./extract/trips.merge";
 import { groupBy } from "./lib/collections";
 import { isValidDay, todayIso } from "./lib/dates";
-import { setCacheBypass } from "./lib/http";
+import { setCacheMode } from "./lib/http";
 import { readJsonFile, writeJsonFile } from "./lib/json-file";
 import { log } from "./lib/log";
+import { startHeartbeat } from "./lib/progress";
 import {
     type CountryFile,
     readAllPeople,
@@ -85,6 +86,8 @@ export interface PipelineOptions {
     force: boolean;
     /** Ignore the local HTTP cache. */
     refresh: boolean;
+    /** Reuse every cached response, however old: continues a run that was stopped. */
+    resume: boolean;
     /** Offices held since this year are collected. */
     sinceYear: number;
     /** Sources fetched this run; the others reuse the claims they reported last time. */
@@ -480,7 +483,12 @@ const writeWarehouse = async ({
  * @param options - What to collect.
  */
 export const runPipeline = async (options: PipelineOptions): Promise<void> => {
-    setCacheBypass(options.refresh);
+    startHeartbeat();
+    if (options.refresh) {
+        setCacheMode("refresh");
+    } else if (options.resume) {
+        setCacheMode("resume");
+    }
     const today = todayIso();
     const report: PipelineReport = {
         cabinets: {},
@@ -655,6 +663,7 @@ export const parseOptions = (
         countries: countrySelection,
         force: argv.includes("--force") || defaults.force,
         refresh: argv.includes("--refresh") || defaults.refresh,
+        resume: argv.includes("--resume") || defaults.resume,
         sinceYear: Number.isFinite(since) && since > 0 ? since : defaults.sinceYear,
         sources: sourceIds ? new Set(sourceIds) : defaults.sources,
     };

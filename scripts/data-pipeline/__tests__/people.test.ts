@@ -5,6 +5,7 @@ import {
     classifyOffice,
     type Holding,
     isEnvoyPostedTo,
+    isOfficeOfCountry,
     type OfficeInfo,
     positionFromHolding,
 } from "../extract/people.extract";
@@ -22,11 +23,15 @@ const nepal: CountryContext = {
 };
 
 const office = (overrides: Partial<OfficeInfo>): OfficeInfo => ({
+    countries: new Set(),
     isCapital: false,
+    jurisdictions: new Set(),
     kinds: new Set(),
     label: "Some office",
     parentJurisdictions: new Set(),
     population: 0,
+    servesInternationalBody: false,
+    states: new Set(),
     ...overrides,
 });
 
@@ -100,6 +105,43 @@ test("an envoy whose title posts them to the country for another state is left o
         classifyOffice("Q1", office({ kinds: new Set(["diplomat"]), label }), nepal)?.categories[0];
     assert.equal(role("Ambassador of Israel to Nepal"), undefined);
     assert.equal(role("Ambassador of Nepal to India"), "diplomat");
+});
+
+test("an office reached through a body that merely lies in the country is left out", () => {
+    // "Grand Mufti of India" (P17 India), whose jurisdiction, the Islamic Community of India,
+    // Wikidata places in India, Nepal, Sri Lanka and the Maldives.
+    const mufti = office({
+        countries: new Set(["Q668"]),
+        jurisdictions: new Set(["Q78496124"]),
+        label: "Grand Mufti of India",
+        states: new Set(["Q668"]),
+    });
+    assert.equal(isOfficeOfCountry(mufti, nepal), false);
+    assert.equal(isOfficeOfCountry(mufti, { ...nepal, code: "IND", wikidataId: "Q668" }), true);
+
+    // The Parliamentary Assembly of the Council of Europe, which Wikidata places in France.
+    const assembly = office({ jurisdictions: new Set(["Q8908"]), servesInternationalBody: true });
+    assert.equal(isOfficeOfCountry(assembly, { ...nepal, code: "FRA", wikidataId: "Q142" }), false);
+    const delegate = office({
+        ...assembly,
+        countries: new Set(["Q142"]),
+        states: new Set(["Q142"]),
+    });
+    assert.equal(isOfficeOfCountry(delegate, { ...nepal, code: "FRA", wikidataId: "Q142" }), true);
+});
+
+test("offices of a country's territories and former states stay with it", () => {
+    const mayor = office({ jurisdictions: new Set(["Q3037"]), label: "Mayor of Kathmandu" });
+    assert.equal(isOfficeOfCountry(mayor, nepal), true);
+    // Gibraltar and the Soviet Union aren't sovereign states (now).
+    const territorial = office({
+        countries: new Set(["Q1410"]),
+        jurisdictions: new Set(["Q1410"]),
+    });
+    assert.equal(
+        isOfficeOfCountry(territorial, { ...nepal, code: "GBR", wikidataId: "Q145" }),
+        true
+    );
 });
 
 test("the leader offices of the state a country succeeded count as its leaders", () => {

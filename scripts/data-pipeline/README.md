@@ -26,8 +26,9 @@ pnpm data:people                        # unpack the people store into public/da
 pnpm data:test                          # parser tests
 ```
 
-Both commands accept `--refresh` (ignore the local HTTP cache) and `--force` (write even if
-counts dropped sharply — read the report first). A cold `data:collect` takes about an hour,
+Both commands accept `--refresh` (ignore the local HTTP cache), `--resume` (reuse every cached
+response however old, so a run that was stopped picks up where it left off) and `--force` (write
+even if counts dropped sharply — read the report first). A cold `data:collect` takes about an hour,
 mostly polite waiting between requests.
 
 Two GitHub Actions commit any changes, and the hosting platform redeploys on each commit:

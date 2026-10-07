@@ -364,19 +364,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2017-03-09",
-          "id": "didier-guillaume-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2017-01-23",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2015-04-02",
-          "id": "didier-guillaume-p5",
+          "id": "didier-guillaume-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2004-04-01",
@@ -387,7 +376,7 @@
             "local_leader"
           ],
           "endDate": "2004-04-01",
-          "id": "didier-guillaume-p6",
+          "id": "didier-guillaume-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "1995-06-19",
@@ -398,7 +387,7 @@
             "legislator"
           ],
           "endDate": "1998-03-15",
-          "id": "didier-guillaume-p7",
+          "id": "didier-guillaume-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": "1992-03-27",
@@ -1217,7 +1206,7 @@
       "aliases": [],
       "countryCode": "MCO",
       "fullName": "Celine Caron-Dagioni",
-      "id": "celine-caron-dagioni",
+      "id": "celine-caron-dagioni-mco",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1226,7 +1215,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "celine-caron-dagioni-p1",
+          "id": "celine-caron-dagioni-mco-p1",
           "ministry": "Ministry of Public Works, the Environment and Urban Development",
           "portfolio": "environment",
           "startDate": null,
@@ -1246,7 +1235,7 @@
       "aliases": [],
       "countryCode": "MCO",
       "fullName": "Céline Caron-Dagioni",
-      "id": "celine-caron-dagioni-mco",
+      "id": "celine-caron-dagioni",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1255,7 +1244,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "celine-caron-dagioni-mco-p1",
+          "id": "celine-caron-dagioni-p1",
           "ministry": "Ministry of Public Works, the Environment and Urban Development",
           "portfolio": "environment",
           "startDate": "2021-09-01",
@@ -1493,17 +1482,6 @@
           "portfolio": null,
           "startDate": "2015-01-01",
           "title": "Ambassador of Monaco"
-        },
-        {
-          "categories": [
-            "judiciary"
-          ],
-          "endDate": "2015-08-01",
-          "id": "isabelle-berro-amadei-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2006-06-27",
-          "title": "Judge of the European Court of Human Rights"
         }
       ],
       "sources": [
@@ -2378,6 +2356,41 @@
       ],
       "summary": "Paul Dijoud is an ex-minister of state for Monaco. He was in office from 1994 to 1997.",
       "wikidataId": "Q3371082"
+    },
+    {
+      "aliases": [
+        "Jose Badia"
+      ],
+      "countryCode": "MCO",
+      "fullName": "José Badia",
+      "id": "jose-badia",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jos%C3%A9_Badia_May_2014_(14090450716).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "jose-badia-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2018-01-01",
+          "title": "Member of the National Council of Monaco"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3186188"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jos%C3%A9_Badia"
+        }
+      ],
+      "summary": "José Badia (born 2 January 1945, Monaco) is a Monegasque politician. Since 2018, he is a member of the National Council of Monaco from Priority Monaco (Primo!) political group and the president of the External Relations Commission.",
+      "wikidataId": "Q3186188"
     },
     {
       "aliases": [
@@ -3349,6 +3362,87 @@
         }
       ],
       "startDate": "2009-02-09",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2011-09-26",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-badia--2011-09-26--USA",
+      "officialId": "jose-badia",
+      "purpose": "Addressed the general debate of the sixty-sixth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2011-09-26",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2012-09-28",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-badia--2012-09-28--USA",
+      "officialId": "jose-badia",
+      "purpose": "Addressed the general debate of the sixty-seventh session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-seventh_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2012-09-28",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New York City",
+        "coordinates": [
+          -74.006111111,
+          40.712777777
+        ],
+        "countryCode": "USA",
+        "region": "Americas"
+      },
+      "endDate": "2014-09-29",
+      "engagements": [],
+      "eventName": "UN General Assembly general debate",
+      "id": "jose-badia--2014-09-29--USA",
+      "officialId": "jose-badia",
+      "purpose": "Addressed the general debate of the sixty-ninth session of the UN General Assembly",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+        }
+      ],
+      "startDate": "2014-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
     },

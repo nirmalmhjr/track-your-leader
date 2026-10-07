@@ -46,3 +46,6 @@ scripts/data-pipeline/.cache
 
 # generated from data/warehouse/people by `pnpm data:people` (run before every build)
 /public/data/people/
+
+# data pipeline run logs
+scripts/data-pipeline/.logs

@@ -916,7 +916,7 @@
       "aliases": [],
       "countryCode": "GRD",
       "fullName": "Gloria Ann Thomas",
-      "id": "gloria-ann-thomas",
+      "id": "gloria-ann-thomas-grd",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -925,7 +925,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "gloria-ann-thomas-p1",
+          "id": "gloria-ann-thomas-grd-p1",
           "ministry": "Ministry of Social and Community Development, Housing and Gender Affairs",
           "portfolio": "women",
           "startDate": null,
@@ -1558,7 +1558,7 @@
       ],
       "countryCode": "GRD",
       "fullName": "Gloria Ann Thomas",
-      "id": "gloria-ann-thomas-grd",
+      "id": "gloria-ann-thomas",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1567,7 +1567,7 @@
             "junior_minister"
           ],
           "endDate": null,
-          "id": "gloria-ann-thomas-grd-p1",
+          "id": "gloria-ann-thomas-p1",
           "ministry": null,
           "portfolio": "women",
           "startDate": "2022-06-29",
@@ -1679,72 +1679,6 @@
     {
       "aliases": [],
       "countryCode": "GRD",
-      "fullName": "Karl Hood",
-      "id": "karl-hood",
-      "party": "National Democratic Congress",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Hood.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "diplomat"
-          ],
-          "endDate": null,
-          "id": "karl-hood-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2016-01-08",
-          "title": "High commissioner of Grenada to the United Kingdom"
-        },
-        {
-          "categories": [
-            "diplomat"
-          ],
-          "endDate": "2016-01-08",
-          "id": "karl-hood-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2013-04-27",
-          "title": "Ambassador of Grenada to China"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "2013-02-13",
-          "id": "karl-hood-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2008-07-08",
-          "title": "Member of the House of Representatives of Grenada"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2012-05-18",
-          "id": "karl-hood-p4",
-          "ministry": "Ministry of Foreign Affairs",
-          "portfolio": "foreign_affairs",
-          "startDate": "2010-11-26",
-          "title": "Minister of Foreign Affairs"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6371912"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Karl_Hood"
-        }
-      ],
-      "summary": "Ignatius Joachim Karl Hood, known as Karl Hood, is a politician from the island nation of Grenada. He served as an MP, Minister of Labour, Social Security and Ecclesiastical Affairs (2008–2010) and as Minister of Foreign Affairs (2010–2012) in a government led by former prime minister Tillman Thomas.",
-      "wikidataId": "Q6371912"
-    },
-    {
-      "aliases": [],
-      "countryCode": "GRD",
       "fullName": "Tarlie Francis",
       "id": "tarlie-francis",
       "party": null,
@@ -1836,6 +1770,50 @@
       ],
       "summary": "Elvin G. Nimrod (27 August 1943 – 6 February 2021) was a politician from the island of Carriacou. He served in the House of Representatives of Grenada as Parliamentary Representative for Carriacou and Petite Martinique, and has in the past served as Deputy Prime Minister, and Minister of Foreign Affairs, International Trade, Legal Affairs, Labour, Local Government, Carriacou and Petite Martinique Affairs and Attorney General.",
       "wikidataId": "Q58224"
+    },
+    {
+      "aliases": [],
+      "countryCode": "GRD",
+      "fullName": "Karl Hood",
+      "id": "karl-hood",
+      "party": "National Democratic Congress",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl_Hood.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2013-02-13",
+          "id": "karl-hood-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2008-07-08",
+          "title": "Member of the House of Representatives of Grenada"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2012-05-18",
+          "id": "karl-hood-p2",
+          "ministry": "Ministry of Foreign Affairs",
+          "portfolio": "foreign_affairs",
+          "startDate": "2010-11-26",
+          "title": "Minister of Foreign Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6371912"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Karl_Hood"
+        }
+      ],
+      "summary": "Ignatius Joachim Karl Hood, known as Karl Hood, is a politician from the island nation of Grenada. He served as an MP, Minister of Labour, Social Security and Ecclesiastical Affairs (2008–2010) and as Minister of Foreign Affairs (2010–2012) in a government led by former prime minister Tillman Thomas.",
+      "wikidataId": "Q6371912"
     }
   ],
   "trips": [

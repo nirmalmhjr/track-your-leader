@@ -170,19 +170,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "1996-09-23",
-          "id": "olafur-ragnar-grimsson-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1995-06-26",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "1996-08-01",
-          "id": "olafur-ragnar-grimsson-p3",
+          "id": "olafur-ragnar-grimsson-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "1991-04-20",
@@ -193,7 +182,7 @@
             "minister"
           ],
           "endDate": "1991-05-13",
-          "id": "olafur-ragnar-grimsson-p4",
+          "id": "olafur-ragnar-grimsson-p3",
           "ministry": "Ministry of Finance and Economic Affairs (Iceland)",
           "portfolio": "finance",
           "startDate": "1988-10-10",
@@ -203,19 +192,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "1984-05-01",
-          "id": "olafur-ragnar-grimsson-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1980-04-21",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "1983-04-23",
-          "id": "olafur-ragnar-grimsson-p6",
+          "id": "olafur-ragnar-grimsson-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "1978-06-25",
@@ -822,6 +800,65 @@
     },
     {
       "aliases": [
+        "Stefan Johann Stefansson",
+        "Stefan Jon Stefansson"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Stefán Jóhann Stefánsson",
+      "id": "stefan-johann-stefansson",
+      "party": "Social Democratic Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stef%C3%A1n_J%C3%B3hann_Stef%C3%A1nsson.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1949-12-06",
+          "id": "stefan-johann-stefansson-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1947-02-04",
+          "title": "Prime Minister of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1949-12-05",
+          "id": "stefan-johann-stefansson-p2",
+          "ministry": "Ministry of Social Affairs",
+          "portfolio": "social_affairs",
+          "startDate": "1947-02-04",
+          "title": "Minister of Social Affairs"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "stefan-johann-stefansson-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the Althing",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q962257"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stef%C3%A1n_J%C3%B3hann_Stef%C3%A1nsson"
+        }
+      ],
+      "summary": "Stefán Jóhann Stefánsson (20 July 1894 – 20 October 1980) was the first actual minister of Foreign Affairs in Iceland from 18 November 1941 to 17 January 1942. He was prime minister of Iceland from 4 February 1947 to 6 December 1949.",
+      "wikidataId": "Q962257"
+    },
+    {
+      "aliases": [
         "Steingrimur Hermannsson"
       ],
       "countryCode": "ISL",
@@ -1045,12 +1082,15 @@
       "wikidataId": "Q4720139"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Alma Dagbjört Möller",
+        "Alma Moller"
+      ],
       "countryCode": "ISL",
-      "fullName": "Alma Moller",
+      "fullName": "Alma Möller",
       "id": "alma-moller",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alma_M%C3%B6ller_2025.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1068,10 +1108,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alma_M%C3%B6ller"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Alma Dagbjört Möller (born 24 June 1961) is an Icelandic doctor and politician. On 1 April 2018 she became the first woman to serve as the Director of Health since the office was established in 1760.",
+      "wikidataId": "Q85970017"
     },
     {
       "aliases": [
@@ -1396,6 +1440,35 @@
     {
       "aliases": [],
       "countryCode": "ISL",
+      "fullName": "Bjarni Ásgeirsson",
+      "id": "bjarni-asgeirsson",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1949-12-05",
+          "id": "bjarni-asgeirsson-p1",
+          "ministry": "Ministry of Agriculture",
+          "portfolio": "agriculture",
+          "startDate": "1947-02-04",
+          "title": "Minister of Agriculture"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12345705"
+        }
+      ],
+      "summary": "Icelandic politician.",
+      "wikidataId": "Q12345705"
+    },
+    {
+      "aliases": [],
+      "countryCode": "ISL",
       "fullName": "Björn Jónsson",
       "id": "bjorn-jonsson",
       "party": null,
@@ -1555,17 +1628,6 @@
           "portfolio": "trade",
           "startDate": "1979-10-15",
           "title": "Minister of Industry of Iceland"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1973-05-01",
-          "id": "bragi-sigurjonsson-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1967-09-25",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
         }
       ],
       "sources": [
@@ -1884,17 +1946,6 @@
           "portfolio": "environment",
           "startDate": "1991-05-13",
           "title": "Minister for the Environment"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1991-04-26",
-          "id": "ei-ur-svanberg-gu-nason-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1989-09-21",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
         }
       ],
       "sources": [
@@ -2081,10 +2132,56 @@
       "wikidataId": "Q631523"
     },
     {
+      "aliases": [
+        "Eyjolfur Armannsson"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Eyjólfur Ármannsson",
+      "id": "eyjolfur-armannsson-isl",
+      "party": "People's Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eyj%C3%B3lfur_%C3%81rmannsson_2025.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "eyjolfur-armannsson-isl-p1",
+          "ministry": "Ministry of Infrastructure",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Infrastructure"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "eyjolfur-armannsson-isl-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-09-25",
+          "title": "Member of the 2021– Parliament of Iceland"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eyj%C3%B3lfur_%C3%81rmannsson"
+        }
+      ],
+      "summary": "Eyjólfur Ármannsson (born 23 July 1969) is an Icelandic politician and lawyer currently serving as Minister of Infrastructure since 15 March 2025, and formerly as Minister of Transport and Local Government from 21 December 2024 to 15 March 2025. He has been a member of the Althing since 2021, representing the People's Party.",
+      "wikidataId": "Q108856354"
+    },
+    {
       "aliases": [],
       "countryCode": "ISL",
-      "fullName": "Eyjolfur Armannsson",
-      "id": "eyjolfur-armannsson",
+      "fullName": "Eysteinn Jónsson",
+      "id": "eysteinn-jonsson",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2092,22 +2189,70 @@
           "categories": [
             "minister"
           ],
-          "endDate": null,
-          "id": "eyjolfur-armannsson-p1",
-          "ministry": "Ministry of Infrastructure",
+          "endDate": "1958-12-23",
+          "id": "eysteinn-jonsson-p1",
+          "ministry": "Ministry of Finance of Iceland",
+          "portfolio": "finance",
+          "startDate": "1950-03-14",
+          "title": "Minister of Finance of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1958-12-23",
+          "id": "eysteinn-jonsson-p2",
+          "ministry": "Ministry of Transport",
+          "portfolio": "transport",
+          "startDate": "1956-10-10",
+          "title": "Minister of Transport"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1949-12-05",
+          "id": "eysteinn-jonsson-p3",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "1947-02-04",
+          "title": "Minister of Education"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1949-05-18",
+          "id": "eysteinn-jonsson-p4",
+          "ministry": "Ministry of Ecclesiastical Affairs of Iceland",
           "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Infrastructure"
+          "startDate": "1948-10-11",
+          "title": "Minister of Ecclesiastical Affairs of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1949-05-18",
+          "id": "eysteinn-jonsson-p5",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "1948-10-11",
+          "title": "Minister of Health"
         }
       ],
       "sources": [
         {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12347563"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Eysteinn_J%C3%B3nsson"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Eysteinn Jónsson (13 November 1906 – 11 August 1993) was an Icelandic politician and former minister. He was one of the biggest politicians and figures of Icelandic politics in the 20th century.",
+      "wikidataId": "Q12347563"
     },
     {
       "aliases": [
@@ -2194,6 +2339,64 @@
       ],
       "summary": "Icelandic politician.",
       "wikidataId": "Q55374888"
+    },
+    {
+      "aliases": [
+        "Fridjon Skarphedinsson",
+        "Fridjón Skarphédinsson"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Friðjón Skarphéðinsson",
+      "id": "fri-jon-skarphe-insson",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1959-08-16",
+          "id": "fri-jon-skarphe-insson-p1",
+          "ministry": "Ministry of Justice",
+          "portfolio": "justice",
+          "startDate": "1958-12-23",
+          "title": "Minister of Justice"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1959-05-15",
+          "id": "fri-jon-skarphe-insson-p2",
+          "ministry": "Ministry of Agriculture",
+          "portfolio": "agriculture",
+          "startDate": "1958-12-23",
+          "title": "Minister of Agriculture"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1959-05-15",
+          "id": "fri-jon-skarphe-insson-p3",
+          "ministry": "Ministry of Social Affairs",
+          "portfolio": "social_affairs",
+          "startDate": "1958-12-23",
+          "title": "Minister of Social Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5505087"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fri%C3%B0j%C3%B3n_Skarph%C3%A9%C3%B0insson"
+        }
+      ],
+      "summary": "Friðjón Skarphéðinsson (15 April 1909 – 31 March 1996) was an Icelandic politician and former minister for social affairs from December 1958 to November 1959. He served as speaker of the Althing from 1959 to 1963.",
+      "wikidataId": "Q5505087"
     },
     {
       "aliases": [
@@ -2687,21 +2890,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": "1995-06-26",
-          "id": "gu-mundur-kristjan-bjarnason-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1991-06-25",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
             "minister"
           ],
           "endDate": "1991-05-13",
-          "id": "gu-mundur-kristjan-bjarnason-p4",
+          "id": "gu-mundur-kristjan-bjarnason-p3",
           "ministry": "Ministry of Health",
           "portfolio": "health",
           "startDate": "1987-10-10",
@@ -2984,19 +3176,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "1987-05-01",
-          "id": "halldor-blondal-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1984-05-07",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": null,
-          "id": "halldor-blondal-p4",
+          "id": "halldor-blondal-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -3169,6 +3350,96 @@
       ],
       "summary": "Hannibal Gísli Valdimarsson (13 January 1903 – 1 September 1991) was an Icelandic politician.",
       "wikidataId": "Q3480195"
+    },
+    {
+      "aliases": [
+        "Hermann Jonasson"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Hermann Jónasson",
+      "id": "hermann-jonasson",
+      "party": "Progressive Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Herman_Jonass%C3%B3n.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1958-12-23",
+          "id": "hermann-jonasson-p1",
+          "ministry": "Ministry of Agriculture",
+          "portfolio": "agriculture",
+          "startDate": "1956-10-10",
+          "title": "Minister of Agriculture"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1958-12-23",
+          "id": "hermann-jonasson-p2",
+          "ministry": "Ministry of Justice",
+          "portfolio": "justice",
+          "startDate": "1956-10-10",
+          "title": "Minister of Justice"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1958-12-23",
+          "id": "hermann-jonasson-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1956-07-24",
+          "title": "Prime Minister of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1953-02-07",
+          "id": "hermann-jonasson-p4",
+          "ministry": "Ministry of Agriculture",
+          "portfolio": "agriculture",
+          "startDate": "1950-03-14",
+          "title": "Minister of Agriculture"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1953-02-07",
+          "id": "hermann-jonasson-p5",
+          "ministry": "Ministry of Ecclesiastical Affairs of Iceland",
+          "portfolio": null,
+          "startDate": "1951-10-01",
+          "title": "Minister of Ecclesiastical Affairs of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1953-02-07",
+          "id": "hermann-jonasson-p6",
+          "ministry": "Ministry of Transport",
+          "portfolio": "transport",
+          "startDate": "1950-03-14",
+          "title": "Minister of Transport"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q165477"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hermann_J%C3%B3nasson"
+        }
+      ],
+      "summary": "Hermann Jónasson (25 December 1896 – 22 January 1976) was an politician from Iceland's Progressive Party who served as prime minister of Iceland from 1934 to 1942 and again from 1956 to 1958. He served his first term from 28 July 1934 to 16 May 1942.",
+      "wikidataId": "Q165477"
     },
     {
       "aliases": [],
@@ -3492,10 +3763,147 @@
       "wikidataId": "Q3480648"
     },
     {
+      "aliases": [
+        "Johann Hafstein"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Jóhann Hafstein",
+      "id": "johann-hafstein",
+      "party": "Independence Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B3hann_Hafstein.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1971-07-14",
+          "id": "johann-hafstein-p1",
+          "ministry": "Ministry of Industry of Iceland",
+          "portfolio": "trade",
+          "startDate": "1963-11-14",
+          "title": "Minister of Industry of Iceland"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "1971-07-14",
+          "id": "johann-hafstein-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1970-07-10",
+          "title": "Prime Minister of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1970-10-10",
+          "id": "johann-hafstein-p3",
+          "ministry": "Ministry of Justice",
+          "portfolio": "justice",
+          "startDate": "1963-11-14",
+          "title": "Minister of Justice"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1970-01-01",
+          "id": "johann-hafstein-p4",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "1963-11-14",
+          "title": "Minister of Health"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1962-01-01",
+          "id": "johann-hafstein-p5",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "1961-10-10",
+          "title": "Minister of Health"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "johann-hafstein-p6",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the Althing",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q984026"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/J%C3%B3hann_Hafstein"
+        }
+      ],
+      "summary": "Jóhann Hafstein (19 September 1915 – 15 May 1980) was elected to the Althingi for the Reykjavík constituency in 1946, which he represented until 1978, when he resigned due to ill health. Jóhann served as prime minister of Iceland from 10 July 1970 to 14 July 1971, for the Independence Party, following the death of prime minister Bjarni Benediktsson, his wife and their 4-year-old grandson, caused by a fire at a government summer house at Þingvellir on 10 July 1970.",
+      "wikidataId": "Q984026"
+    },
+    {
+      "aliases": [
+        "Johann Pall Johannsson"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Jóhann Páll Jóhannsson",
+      "id": "johann-pall-johannsson-isl",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B3hann_P%C3%A1ll_J%C3%B3hannsson_2021.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "johann-pall-johannsson-isl-p1",
+          "ministry": "Ministry of the Environment, Energy and Climate",
+          "portfolio": "energy",
+          "startDate": null,
+          "title": "Minister for the Environment, Energy and Climate"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "johann-pall-johannsson-isl-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-09-25",
+          "title": "Member of the 2021– Parliament of Iceland"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/J%C3%B3hann_P%C3%A1ll_J%C3%B3hannsson"
+        }
+      ],
+      "summary": "Jóhann Páll Jóhannsson (born 31 May 1992) is an Icelandic politician, government minister and member of the Althing. A member of the Social Democratic Alliance, he has represented Reykjavík South since November 2024.",
+      "wikidataId": "Q108881945"
+    },
+    {
       "aliases": [],
       "countryCode": "ISL",
-      "fullName": "Johann Pall Johannsson",
-      "id": "johann-pall-johannsson",
+      "fullName": "Jóhann Þorkell Jósefsson",
+      "id": "johann-orkell-josefsson",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -3503,22 +3911,55 @@
           "categories": [
             "minister"
           ],
-          "endDate": null,
-          "id": "johann-pall-johannsson-p1",
-          "ministry": "Ministry of the Environment, Energy and Climate",
-          "portfolio": "energy",
-          "startDate": null,
-          "title": "Minister for the Environment, Energy and Climate"
+          "endDate": "1950-03-13",
+          "id": "johann-orkell-josefsson-p1",
+          "ministry": "Ministry of Fisheries",
+          "portfolio": "agriculture",
+          "startDate": "1947-02-04",
+          "title": "Minister of Fisheries"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1950-03-13",
+          "id": "johann-orkell-josefsson-p2",
+          "ministry": "Ministry of Industry of Iceland",
+          "portfolio": "trade",
+          "startDate": "1949-12-06",
+          "title": "Minister of Industry of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1950-03-13",
+          "id": "johann-orkell-josefsson-p3",
+          "ministry": "Ministry of Transport",
+          "portfolio": "transport",
+          "startDate": "1949-12-06",
+          "title": "Minister of Transport"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1949-12-05",
+          "id": "johann-orkell-josefsson-p4",
+          "ministry": "Ministry of Finance of Iceland",
+          "portfolio": "finance",
+          "startDate": "1947-02-04",
+          "title": "Minister of Finance of Iceland"
         }
       ],
       "sources": [
         {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q19723993"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Icelandic politician.",
+      "wikidataId": "Q19723993"
     },
     {
       "aliases": [
@@ -3900,19 +4341,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2007-01-22",
-          "id": "jonina-bjartmarz-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2006-03-17",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": null,
-          "id": "jonina-bjartmarz-p4",
+          "id": "jonina-bjartmarz-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -4193,19 +4623,21 @@
       "wikidataId": "Q23753778"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Logi Mar Einarsson"
+      ],
       "countryCode": "ISL",
-      "fullName": "Logi Mar Einarsson",
-      "id": "logi-mar-einarsson",
-      "party": null,
-      "photoUrl": null,
+      "fullName": "Logi Már Einarsson",
+      "id": "logi-mar-einarsson-isl",
+      "party": "Social Democratic Alliance",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Logi_Einarsson_2021.jpg?width=160",
       "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "logi-mar-einarsson-p1",
+          "id": "logi-mar-einarsson-isl-p1",
           "ministry": "Ministry of Nordic Cooperation",
           "portfolio": null,
           "startDate": null,
@@ -4216,21 +4648,59 @@
             "minister"
           ],
           "endDate": null,
-          "id": "logi-mar-einarsson-p2",
+          "id": "logi-mar-einarsson-isl-p2",
           "ministry": "Ministry of Culture, Innovation and Higher Education",
           "portfolio": "education",
           "startDate": null,
           "title": "Minister of Culture, Innovation and Higher Education"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "logi-mar-einarsson-isl-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-10-29",
+          "title": "Member of the 2016-2017 Parliament of Iceland"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "logi-mar-einarsson-isl-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-09-25",
+          "title": "Member of the 2021– Parliament of Iceland"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "logi-mar-einarsson-isl-p5",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-09-25",
+          "title": "Member of the 2017–2021 Parliament of Iceland",
+          "undated": true
         }
       ],
       "sources": [
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Logi_M%C3%A1r_Einarsson"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Logi Már Einarsson (born 21 August 1964) is an Icelandic politician and architect.",
+      "wikidataId": "Q27901964"
     },
     {
       "aliases": [
@@ -4797,17 +5267,6 @@
           "portfolio": null,
           "startDate": "1971-07-14",
           "title": "Prime Minister of Iceland"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1972-01-01",
-          "id": "olafur-johannesson-p7",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1971-10-04",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
         }
       ],
       "sources": [
@@ -5030,6 +5489,73 @@
     {
       "aliases": [],
       "countryCode": "ISL",
+      "fullName": "Ragnar Arnalds",
+      "id": "ragnar-arnalds",
+      "party": "Left-Green Movement",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1983-06-15",
+          "id": "ragnar-arnalds-p1",
+          "ministry": "Ministry of Finance of Iceland",
+          "portfolio": "finance",
+          "startDate": "1980-02-08",
+          "title": "Minister of Finance of Iceland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1979-10-15",
+          "id": "ragnar-arnalds-p2",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "1978-10-10",
+          "title": "Minister of Education"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1979-10-15",
+          "id": "ragnar-arnalds-p3",
+          "ministry": "Ministry of Transport",
+          "portfolio": "transport",
+          "startDate": "1978-10-10",
+          "title": "Minister of Transport"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "ragnar-arnalds-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the Althing",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q338734"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ragnar_Arnalds"
+        }
+      ],
+      "summary": "Ragnar Arnalds (8 July 1938 – 15 September 2022) was an Icelandic MP and twice cabinet minister. He studied literature and philosophy in Sweden from 1959 to 1961 and graduated with a law degree from the University of Iceland in 1968.",
+      "wikidataId": "Q338734"
+    },
+    {
+      "aliases": [],
+      "countryCode": "ISL",
       "fullName": "Ragnar Thor Ingolfsson",
       "id": "ragnar-thor-ingolfsson",
       "party": null,
@@ -5137,6 +5663,64 @@
       ],
       "summary": "Ragnheiður Elín Árnadóttir (born 30 September 1967) is an Icelandic politician who is the director of the OECD Development Centre. She was previously the Minister of Industry and Commerce from 2013 to 2017 and an elected Member of Parliament for the Independence Party between 2007 and 2016.",
       "wikidataId": "Q2127304"
+    },
+    {
+      "aliases": [
+        "Ragnhildur Helgadottir"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Ragnhildur Helgadóttir",
+      "id": "ragnhildur-helgadottir",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1987-10-09",
+          "id": "ragnhildur-helgadottir-p1",
+          "ministry": "Ministry of Health",
+          "portfolio": "health",
+          "startDate": "1985-10-16",
+          "title": "Minister of Health"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1985-10-16",
+          "id": "ragnhildur-helgadottir-p2",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "1983-10-10",
+          "title": "Minister of Education"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "ragnhildur-helgadottir-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the Althing",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q470222"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ragnhildur_Helgad%C3%B3ttir"
+        }
+      ],
+      "summary": "Ragnhildur Helgadóttir was an Icelandic politician. She was a member of the Icelandic parliament, the Althing, first from 1956 for the Independence Party.",
+      "wikidataId": "Q470222"
     },
     {
       "aliases": [
@@ -5563,6 +6147,56 @@
     },
     {
       "aliases": [
+        "Solveig Gudrun Petursdottir",
+        "Solveig Petursdottir",
+        "Sólveig Gudrún Pétursdóttir",
+        "Sólveig Guðrún Pétursdóttir"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Sólveig Pétursdóttir",
+      "id": "solveig-petursdottir",
+      "party": "Independence Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Solveig_Petursdottir%2C_talman_i_det_islandska_parlamentet%2C_talar_vid_sessionens_oppnande.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2003-05-23",
+          "id": "solveig-petursdottir-p1",
+          "ministry": "Ministry of Justice",
+          "portfolio": "justice",
+          "startDate": "1999-05-28",
+          "title": "Minister of Justice"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "solveig-petursdottir-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the Althing",
+          "undated": true
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q546985"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/S%C3%B3lveig_P%C3%A9tursd%C3%B3ttir"
+        }
+      ],
+      "summary": "Sólveig Guðrún Pétursdóttir (born 11 March 1952) is an Icelandic politician and a former speaker of the Althing, the Icelandic parliament, serving from 2005 to 2007. She was a parliament member from 1991, for the Reykjavík Constituency (1991–2003), and the Reykjavik Constituency South (2003–2007).",
+      "wikidataId": "Q546985"
+    },
+    {
+      "aliases": [
         "Steingrimur Steinthorsson",
         "Steingrímur Steinthórsson"
       ],
@@ -5973,6 +6607,41 @@
       ],
       "summary": "Tómas Árnason (21 July 1923 – 24 December 2014) was an Icelandic politician and former minister. He was the Minister of Finance of Iceland from 1978 to 1979.",
       "wikidataId": "Q3482253"
+    },
+    {
+      "aliases": [
+        "Tomas Ingi Olrich"
+      ],
+      "countryCode": "ISL",
+      "fullName": "Tómas Ingi Olrich",
+      "id": "tomas-ingi-olrich",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2003-12-31",
+          "id": "tomas-ingi-olrich-p1",
+          "ministry": "Ministry of Education",
+          "portfolio": "education",
+          "startDate": "2002-03-02",
+          "title": "Minister of Education"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7862293"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/T%C3%B3mas_Ingi_Olrich"
+        }
+      ],
+      "summary": "Tómas Ingi Olrich (born 13 February 1943) is an Icelandic politician and former minister and ambassador.",
+      "wikidataId": "Q7862293"
     },
     {
       "aliases": [
@@ -6588,9 +7257,11 @@
       "wikidataId": "Q4804273"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Anna Johannsdottir"
+      ],
       "countryCode": "ISL",
-      "fullName": "Anna Johannsdottir",
+      "fullName": "Anna María Jóhannsdóttir",
       "id": "anna-johannsdottir",
       "party": null,
       "photoUrl": null,
@@ -6613,8 +7284,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/iceland/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Icelandic singer.",
+      "wikidataId": "Q112135181"
     },
     {
       "aliases": [
@@ -6729,19 +7400,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2013-06-23",
-          "id": "alfhei-ur-ingadottir-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2011-11-25",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2013-04-27",
-          "id": "alfhei-ur-ingadottir-p2",
+          "id": "alfhei-ur-ingadottir-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-04-25",
@@ -6752,7 +7412,7 @@
             "minister"
           ],
           "endDate": "2010-09-02",
-          "id": "alfhei-ur-ingadottir-p3",
+          "id": "alfhei-ur-ingadottir-p2",
           "ministry": "Ministry of Health",
           "portfolio": "health",
           "startDate": "2009-10-01",
@@ -6763,7 +7423,7 @@
             "legislator"
           ],
           "endDate": "2009-04-25",
-          "id": "alfhei-ur-ingadottir-p4",
+          "id": "alfhei-ur-ingadottir-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2007-05-12",
@@ -6774,7 +7434,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "alfhei-ur-ingadottir-p5",
+          "id": "alfhei-ur-ingadottir-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -6922,19 +7582,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2009-05-29",
-          "id": "arni-pall-arnason-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2007-06-25",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2009-04-25",
-          "id": "arni-pall-arnason-p6",
+          "id": "arni-pall-arnason-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "2007-05-12",
@@ -6945,7 +7594,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "arni-pall-arnason-p7",
+          "id": "arni-pall-arnason-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -7340,19 +7989,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "1995-06-26",
-          "id": "bjorn-bjarnason-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1991-06-25",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": null,
-          "id": "bjorn-bjarnason-p5",
+          "id": "bjorn-bjarnason-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -7623,19 +8261,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2012-01-23",
-          "id": "eyglo-har-ardottir-p7",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2009-05-29",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2009-04-25",
-          "id": "eyglo-har-ardottir-p8",
+          "id": "eyglo-har-ardottir-p7",
           "ministry": null,
           "portfolio": null,
           "startDate": "2008-11-17",
@@ -7654,105 +8281,6 @@
       ],
       "summary": "Eygló Harðardóttir (born 12 December 1972) is an Icelandic politician and former cabinet member. She served as Iceland's Minister of Social Affairs and Housing from 2013 to 2017.",
       "wikidataId": "Q1385796"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ISL",
-      "fullName": "Eysteinn Jónsson",
-      "id": "eysteinn-jonsson",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1971-10-04",
-          "id": "eysteinn-jonsson-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1969-07-10",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1969-05-12",
-          "id": "eysteinn-jonsson-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1967-04-24",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1958-12-23",
-          "id": "eysteinn-jonsson-p3",
-          "ministry": "Ministry of Finance of Iceland",
-          "portfolio": "finance",
-          "startDate": "1950-03-14",
-          "title": "Minister of Finance of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1958-12-23",
-          "id": "eysteinn-jonsson-p4",
-          "ministry": "Ministry of Transport",
-          "portfolio": "transport",
-          "startDate": "1956-10-10",
-          "title": "Minister of Transport"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1949-12-05",
-          "id": "eysteinn-jonsson-p5",
-          "ministry": "Ministry of Education",
-          "portfolio": "education",
-          "startDate": "1947-02-04",
-          "title": "Minister of Education"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1949-05-18",
-          "id": "eysteinn-jonsson-p6",
-          "ministry": "Ministry of Ecclesiastical Affairs of Iceland",
-          "portfolio": null,
-          "startDate": "1948-10-11",
-          "title": "Minister of Ecclesiastical Affairs of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1949-05-18",
-          "id": "eysteinn-jonsson-p7",
-          "ministry": "Ministry of Health",
-          "portfolio": "health",
-          "startDate": "1948-10-11",
-          "title": "Minister of Health"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12347563"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Eysteinn_J%C3%B3nsson"
-        }
-      ],
-      "summary": "Eysteinn Jónsson (13 November 1906 – 11 August 1993) was an Icelandic politician and former minister. He was one of the biggest politicians and figures of Icelandic politics in the 20th century.",
-      "wikidataId": "Q12347563"
     },
     {
       "aliases": [
@@ -7869,21 +8397,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": "2013-10-01",
-          "id": "gu-bjartur-hannesson-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2013-06-24",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
             "minister"
           ],
           "endDate": "2013-05-23",
-          "id": "gu-bjartur-hannesson-p3",
+          "id": "gu-bjartur-hannesson-p2",
           "ministry": "Ministry of Welfare",
           "portfolio": "social_affairs",
           "startDate": "2011-01-01",
@@ -7894,7 +8411,7 @@
             "legislator"
           ],
           "endDate": "2013-04-27",
-          "id": "gu-bjartur-hannesson-p4",
+          "id": "gu-bjartur-hannesson-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-04-25",
@@ -7905,7 +8422,7 @@
             "minister"
           ],
           "endDate": "2010-12-31",
-          "id": "gu-bjartur-hannesson-p5",
+          "id": "gu-bjartur-hannesson-p4",
           "ministry": "Ministry of Health",
           "portfolio": "health",
           "startDate": "2010-09-02",
@@ -7916,7 +8433,7 @@
             "minister"
           ],
           "endDate": "2010-12-31",
-          "id": "gu-bjartur-hannesson-p6",
+          "id": "gu-bjartur-hannesson-p5",
           "ministry": "Ministry of Welfare",
           "portfolio": "social_affairs",
           "startDate": "2010-09-02",
@@ -7927,7 +8444,7 @@
             "legislator"
           ],
           "endDate": "2009-04-25",
-          "id": "gu-bjartur-hannesson-p7",
+          "id": "gu-bjartur-hannesson-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": "2007-05-12",
@@ -7938,7 +8455,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "gu-bjartur-hannesson-p8",
+          "id": "gu-bjartur-hannesson-p7",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -8106,19 +8623,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2013-06-23",
-          "id": "gunnar-bragi-sveinsson-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2012-01-23",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2013-04-27",
-          "id": "gunnar-bragi-sveinsson-p6",
+          "id": "gunnar-bragi-sveinsson-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-04-25",
@@ -8129,7 +8635,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "gunnar-bragi-sveinsson-p7",
+          "id": "gunnar-bragi-sveinsson-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": "2016-10-29",
@@ -8208,118 +8714,6 @@
       "wikidataId": "Q2276642"
     },
     {
-      "aliases": [
-        "Hermann Jonasson"
-      ],
-      "countryCode": "ISL",
-      "fullName": "Hermann Jónasson",
-      "id": "hermann-jonasson",
-      "party": "Progressive Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Herman_Jonass%C3%B3n.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1967-04-24",
-          "id": "hermann-jonasson-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1952-05-26",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1958-12-23",
-          "id": "hermann-jonasson-p2",
-          "ministry": "Ministry of Agriculture",
-          "portfolio": "agriculture",
-          "startDate": "1956-10-10",
-          "title": "Minister of Agriculture"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1958-12-23",
-          "id": "hermann-jonasson-p3",
-          "ministry": "Ministry of Justice",
-          "portfolio": "justice",
-          "startDate": "1956-10-10",
-          "title": "Minister of Justice"
-        },
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "1958-12-23",
-          "id": "hermann-jonasson-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1956-07-24",
-          "title": "Prime Minister of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1953-02-07",
-          "id": "hermann-jonasson-p5",
-          "ministry": "Ministry of Agriculture",
-          "portfolio": "agriculture",
-          "startDate": "1950-03-14",
-          "title": "Minister of Agriculture"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1953-02-07",
-          "id": "hermann-jonasson-p6",
-          "ministry": "Ministry of Ecclesiastical Affairs of Iceland",
-          "portfolio": null,
-          "startDate": "1951-10-01",
-          "title": "Minister of Ecclesiastical Affairs of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1953-02-07",
-          "id": "hermann-jonasson-p7",
-          "ministry": "Ministry of Transport",
-          "portfolio": "transport",
-          "startDate": "1950-03-14",
-          "title": "Minister of Transport"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1950-11-18",
-          "id": "hermann-jonasson-p8",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1950-08-07",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q165477"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hermann_J%C3%B3nasson"
-        }
-      ],
-      "summary": "Hermann Jónasson (25 December 1896 – 22 January 1976) was an politician from Iceland's Progressive Party who served as prime minister of Iceland from 1934 to 1942 and again from 1956 to 1958. He served his first term from 28 July 1934 to 16 May 1942.",
-      "wikidataId": "Q165477"
-    },
-    {
       "aliases": [],
       "countryCode": "ISL",
       "fullName": "Ingibjörg Sólrún Gísladóttir",
@@ -8385,247 +8779,6 @@
       ],
       "summary": "Ingibjörg Sólrún Gísladóttir is an Icelandic politician from the Social Democratic Alliance who has served as Minister for Foreign Affairs (2007–2009) and leader of the Alliance (2005–2009). She served as representative of UN Women in Afghanistan from 2012 to 2014 and later in Turkey as designated Regional Director for Europe and Central Asia.",
       "wikidataId": "Q262299"
-    },
-    {
-      "aliases": [
-        "Johann Hafstein"
-      ],
-      "countryCode": "ISL",
-      "fullName": "Jóhann Hafstein",
-      "id": "johann-hafstein",
-      "party": "Independence Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/J%C3%B3hann_Hafstein.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1975-01-29",
-          "id": "johann-hafstein-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1972-05-15",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1971-07-14",
-          "id": "johann-hafstein-p2",
-          "ministry": "Ministry of Industry of Iceland",
-          "portfolio": "trade",
-          "startDate": "1963-11-14",
-          "title": "Minister of Industry of Iceland"
-        },
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "1971-07-14",
-          "id": "johann-hafstein-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1970-07-10",
-          "title": "Prime Minister of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1970-10-10",
-          "id": "johann-hafstein-p4",
-          "ministry": "Ministry of Justice",
-          "portfolio": "justice",
-          "startDate": "1963-11-14",
-          "title": "Minister of Justice"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1970-01-01",
-          "id": "johann-hafstein-p5",
-          "ministry": "Ministry of Health",
-          "portfolio": "health",
-          "startDate": "1963-11-14",
-          "title": "Minister of Health"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1964-04-20",
-          "id": "johann-hafstein-p6",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1961-09-21",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1962-01-01",
-          "id": "johann-hafstein-p7",
-          "ministry": "Ministry of Health",
-          "portfolio": "health",
-          "startDate": "1961-10-10",
-          "title": "Minister of Health"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1961-04-28",
-          "id": "johann-hafstein-p8",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1961-04-24",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1959-04-21",
-          "id": "johann-hafstein-p9",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1957-04-29",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1954-05-29",
-          "id": "johann-hafstein-p10",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1954-05-20",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1951-12-11",
-          "id": "johann-hafstein-p11",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1951-05-05",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "johann-hafstein-p12",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Member of the Althing",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q984026"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/J%C3%B3hann_Hafstein"
-        }
-      ],
-      "summary": "Jóhann Hafstein (19 September 1915 – 15 May 1980) was elected to the Althingi for the Reykjavík constituency in 1946, which he represented until 1978, when he resigned due to ill health. Jóhann served as prime minister of Iceland from 10 July 1970 to 14 July 1971, for the Independence Party, following the death of prime minister Bjarni Benediktsson, his wife and their 4-year-old grandson, caused by a fire at a government summer house at Þingvellir on 10 July 1970.",
-      "wikidataId": "Q984026"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ISL",
-      "fullName": "Jóhann Þorkell Jósefsson",
-      "id": "johann-orkell-josefsson",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1961-09-21",
-          "id": "johann-orkell-josefsson-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1952-05-26",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1951-05-05",
-          "id": "johann-orkell-josefsson-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1950-08-07",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1950-03-13",
-          "id": "johann-orkell-josefsson-p3",
-          "ministry": "Ministry of Fisheries",
-          "portfolio": "agriculture",
-          "startDate": "1947-02-04",
-          "title": "Minister of Fisheries"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1950-03-13",
-          "id": "johann-orkell-josefsson-p4",
-          "ministry": "Ministry of Industry of Iceland",
-          "portfolio": "trade",
-          "startDate": "1949-12-06",
-          "title": "Minister of Industry of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1950-03-13",
-          "id": "johann-orkell-josefsson-p5",
-          "ministry": "Ministry of Transport",
-          "portfolio": "transport",
-          "startDate": "1949-12-06",
-          "title": "Minister of Transport"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1949-12-05",
-          "id": "johann-orkell-josefsson-p6",
-          "ministry": "Ministry of Finance of Iceland",
-          "portfolio": "finance",
-          "startDate": "1947-02-04",
-          "title": "Minister of Finance of Iceland"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q19723993"
-        }
-      ],
-      "summary": "Icelandic politician.",
-      "wikidataId": "Q19723993"
     },
     {
       "aliases": [
@@ -8890,19 +9043,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2018-01-21",
-          "id": "katrin-jakobsdottir-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2017-01-26",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2016-10-29",
-          "id": "katrin-jakobsdottir-p6",
+          "id": "katrin-jakobsdottir-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "2013-04-27",
@@ -8913,7 +9055,7 @@
             "minister"
           ],
           "endDate": "2013-05-23",
-          "id": "katrin-jakobsdottir-p7",
+          "id": "katrin-jakobsdottir-p6",
           "ministry": "Ministry of Nordic Cooperation",
           "portfolio": null,
           "startDate": "2009-05-12",
@@ -8924,7 +9066,7 @@
             "minister"
           ],
           "endDate": "2013-05-23",
-          "id": "katrin-jakobsdottir-p8",
+          "id": "katrin-jakobsdottir-p7",
           "ministry": "Ministry of Education, Science and Culture",
           "portfolio": "education",
           "startDate": "2009-10-01",
@@ -8935,7 +9077,7 @@
             "legislator"
           ],
           "endDate": "2013-04-27",
-          "id": "katrin-jakobsdottir-p9",
+          "id": "katrin-jakobsdottir-p8",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-04-25",
@@ -8946,7 +9088,7 @@
             "minister"
           ],
           "endDate": "2009-09-30",
-          "id": "katrin-jakobsdottir-p10",
+          "id": "katrin-jakobsdottir-p9",
           "ministry": "Ministry of Education",
           "portfolio": "education",
           "startDate": "2009-02-01",
@@ -8957,7 +9099,7 @@
             "legislator"
           ],
           "endDate": "2009-04-25",
-          "id": "katrin-jakobsdottir-p11",
+          "id": "katrin-jakobsdottir-p10",
           "ministry": null,
           "portfolio": null,
           "startDate": "2007-05-12",
@@ -9125,19 +9267,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2003-04-04",
-          "id": "kristjan-l-moller-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2001-11-08",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": null,
-          "id": "kristjan-l-moller-p6",
+          "id": "kristjan-l-moller-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -9482,19 +9613,8 @@
           "categories": [
             "legislator"
           ],
-          "endDate": "2017-01-22",
-          "id": "ogmundur-jonasson-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2013-06-24",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
           "endDate": "2016-10-29",
-          "id": "ogmundur-jonasson-p2",
+          "id": "ogmundur-jonasson-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": "2013-04-27",
@@ -9505,7 +9625,7 @@
             "minister"
           ],
           "endDate": "2013-05-23",
-          "id": "ogmundur-jonasson-p3",
+          "id": "ogmundur-jonasson-p2",
           "ministry": "Ministry of the Interior of Iceland",
           "portfolio": "home_affairs",
           "startDate": "2011-01-01",
@@ -9516,7 +9636,7 @@
             "legislator"
           ],
           "endDate": "2013-04-27",
-          "id": "ogmundur-jonasson-p4",
+          "id": "ogmundur-jonasson-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-04-25",
@@ -9527,7 +9647,7 @@
             "minister"
           ],
           "endDate": "2010-12-31",
-          "id": "ogmundur-jonasson-p5",
+          "id": "ogmundur-jonasson-p4",
           "ministry": "Ministry of Communications",
           "portfolio": null,
           "startDate": "2010-09-02",
@@ -9538,7 +9658,7 @@
             "minister"
           ],
           "endDate": "2010-12-31",
-          "id": "ogmundur-jonasson-p6",
+          "id": "ogmundur-jonasson-p5",
           "ministry": "Ministry of Justice and Human Rights of Iceland",
           "portfolio": "justice",
           "startDate": "2010-09-02",
@@ -9549,7 +9669,7 @@
             "minister"
           ],
           "endDate": "2009-10-01",
-          "id": "ogmundur-jonasson-p7",
+          "id": "ogmundur-jonasson-p6",
           "ministry": "Ministry of Health",
           "portfolio": "health",
           "startDate": "2009-02-01",
@@ -9560,7 +9680,7 @@
             "legislator"
           ],
           "endDate": "2009-04-25",
-          "id": "ogmundur-jonasson-p8",
+          "id": "ogmundur-jonasson-p7",
           "ministry": null,
           "portfolio": null,
           "startDate": "2007-05-12",
@@ -9571,7 +9691,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "ogmundur-jonasson-p9",
+          "id": "ogmundur-jonasson-p8",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -9749,32 +9869,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": "2005-10-04",
-          "id": "ossur-skarphe-insson-p7",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2004-03-02",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "2004-03-02",
-          "id": "ossur-skarphe-insson-p8",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2003-06-23",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
             "minister"
           ],
           "endDate": "1995-04-23",
-          "id": "ossur-skarphe-insson-p9",
+          "id": "ossur-skarphe-insson-p7",
           "ministry": "Ministry of the Environment",
           "portfolio": "environment",
           "startDate": "1993-06-14",
@@ -9785,7 +9883,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "ossur-skarphe-insson-p10",
+          "id": "ossur-skarphe-insson-p8",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -9874,86 +9972,6 @@
       ],
       "summary": "Óttarr Olaf Proppé (born 7 November 1968) is a former Icelandic politician. He is a musician, actor, former Reykjavík City Councilor (Best Party 2010-2014) and former Member of Parliament (Bright Future 2013-2017).",
       "wikidataId": "Q16420871"
-    },
-    {
-      "aliases": [
-        "Ragnhildur Helgadottir"
-      ],
-      "countryCode": "ISL",
-      "fullName": "Ragnhildur Helgadóttir",
-      "id": "ragnhildur-helgadottir",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1991-04-26",
-          "id": "ragnhildur-helgadottir-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1987-11-25",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1987-10-09",
-          "id": "ragnhildur-helgadottir-p2",
-          "ministry": "Ministry of Health",
-          "portfolio": "health",
-          "startDate": "1985-10-16",
-          "title": "Minister of Health"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1985-10-16",
-          "id": "ragnhildur-helgadottir-p3",
-          "ministry": "Ministry of Education",
-          "portfolio": "education",
-          "startDate": "1983-10-10",
-          "title": "Minister of Education"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1963-05-10",
-          "id": "ragnhildur-helgadottir-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1963-05-06",
-          "title": "Substitute member of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "ragnhildur-helgadottir-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Member of the Althing",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q470222"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Ragnhildur_Helgad%C3%B3ttir"
-        }
-      ],
-      "summary": "Ragnhildur Helgadóttir was an Icelandic politician. She was a member of the Icelandic parliament, the Althing, first from 1956 for the Independence Party.",
-      "wikidataId": "Q470222"
     },
     {
       "aliases": [
@@ -10174,21 +10192,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": "2006-03-15",
-          "id": "siv-fri-leifsdottir-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2004-10-04",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
             "minister"
           ],
           "endDate": "2004-09-15",
-          "id": "siv-fri-leifsdottir-p5",
+          "id": "siv-fri-leifsdottir-p4",
           "ministry": "Ministry of Nordic Cooperation",
           "portfolio": null,
           "startDate": "1999-05-28",
@@ -10199,7 +10206,7 @@
             "minister"
           ],
           "endDate": "2004-09-15",
-          "id": "siv-fri-leifsdottir-p6",
+          "id": "siv-fri-leifsdottir-p5",
           "ministry": "Ministry of the Environment",
           "portfolio": "environment",
           "startDate": "1999-05-28",
@@ -10210,7 +10217,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "siv-fri-leifsdottir-p7",
+          "id": "siv-fri-leifsdottir-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -10230,137 +10237,6 @@
       ],
       "summary": "Björg Siv Juhlin Friðleifsdóttir (born 10 August 1962), commonly known as Siv Friðleifsdóttir, is an Icelandic politician. She is half-Norwegian, having partly grown up in Norway, where she spent almost every summer next to the Oslofjord with her grandparents.",
       "wikidataId": "Q437932"
-    },
-    {
-      "aliases": [
-        "Solveig Gudrun Petursdottir",
-        "Solveig Petursdottir",
-        "Sólveig Gudrún Pétursdóttir",
-        "Sólveig Guðrún Pétursdóttir"
-      ],
-      "countryCode": "ISL",
-      "fullName": "Sólveig Pétursdóttir",
-      "id": "solveig-petursdottir",
-      "party": "Independence Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Solveig_Petursdottir%2C_talman_i_det_islandska_parlamentet%2C_talar_vid_sessionens_oppnande.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "2005-10-04",
-          "id": "solveig-petursdottir-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2003-06-23",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2003-05-23",
-          "id": "solveig-petursdottir-p2",
-          "ministry": "Ministry of Justice",
-          "portfolio": "justice",
-          "startDate": "1999-05-28",
-          "title": "Minister of Justice"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "solveig-petursdottir-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Member of the Althing",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q546985"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/S%C3%B3lveig_P%C3%A9tursd%C3%B3ttir"
-        }
-      ],
-      "summary": "Sólveig Guðrún Pétursdóttir (born 11 March 1952) is an Icelandic politician and a former speaker of the Althing, the Icelandic parliament, serving from 2005 to 2007. She was a parliament member from 1991, for the Reykjavík Constituency (1991–2003), and the Reykjavik Constituency South (2003–2007).",
-      "wikidataId": "Q546985"
-    },
-    {
-      "aliases": [
-        "Stefan Johann Stefansson",
-        "Stefan Jon Stefansson"
-      ],
-      "countryCode": "ISL",
-      "fullName": "Stefán Jóhann Stefánsson",
-      "id": "stefan-johann-stefansson",
-      "party": "Social Democratic Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stef%C3%A1n_J%C3%B3hann_Stef%C3%A1nsson.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "1958-05-01",
-          "id": "stefan-johann-stefansson-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1950-08-07",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "1949-12-06",
-          "id": "stefan-johann-stefansson-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1947-02-04",
-          "title": "Prime Minister of Iceland"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1949-12-05",
-          "id": "stefan-johann-stefansson-p3",
-          "ministry": "Ministry of Social Affairs",
-          "portfolio": "social_affairs",
-          "startDate": "1947-02-04",
-          "title": "Minister of Social Affairs"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "stefan-johann-stefansson-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Member of the Althing",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q962257"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Stef%C3%A1n_J%C3%B3hann_Stef%C3%A1nsson"
-        }
-      ],
-      "summary": "Stefán Jóhann Stefánsson (20 July 1894 – 20 October 1980) was the first actual minister of Foreign Affairs in Iceland from 18 November 1941 to 17 January 1942. He was prime minister of Iceland from 4 February 1947 to 6 December 1949.",
-      "wikidataId": "Q962257"
     },
     {
       "aliases": [
@@ -10440,21 +10316,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": "2009-05-29",
-          "id": "steingrimur-j-sigfusson-p7",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2007-06-25",
-          "title": "Representative of the Parliamentary Assembly of the Council of Europe"
-        },
-        {
-          "categories": [
             "minister"
           ],
           "endDate": "2009-05-10",
-          "id": "steingrimur-j-sigfusson-p8",
+          "id": "steingrimur-j-sigfusson-p7",
           "ministry": "Ministry of Food, Fisheries and Agriculture",
           "portfolio": "agriculture",
           "startDate": "2009-02-01",
@@ -10465,7 +10330,7 @@
             "legislator"
           ],
           "endDate": "2009-04-25",
-          "id": "steingrimur-j-sigfusson-p9",
+          "id": "steingrimur-j-sigfusson-p8",
           "ministry": null,
           "portfolio": null,
           "startDate": "2007-05-12",
@@ -10476,7 +10341,7 @@
             "minister"
           ],
           "endDate": "1991-05-13",
-          "id": "steingrimur-j-sigfusson-p10",
+          "id": "steingrimur-j-sigfusson-p9",
           "ministry": "Ministry of Agriculture",
           "portfolio": "agriculture",
           "startDate": "1988-10-10",
@@ -10487,7 +10352,7 @@
             "minister"
           ],
           "endDate": "1991-05-13",
-          "id": "steingrimur-j-sigfusson-p11",
+          "id": "steingrimur-j-sigfusson-p10",
           "ministry": "Ministry of Transport",
           "portfolio": "transport",
           "startDate": "1988-10-10",
@@ -10498,7 +10363,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "steingrimur-j-sigfusson-p12",
+          "id": "steingrimur-j-sigfusson-p11",
           "ministry": null,
           "portfolio": null,
           "startDate": "2016-10-29",
@@ -10510,7 +10375,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "steingrimur-j-sigfusson-p13",
+          "id": "steingrimur-j-sigfusson-p12",
           "ministry": null,
           "portfolio": null,
           "startDate": "2016-10-29",
