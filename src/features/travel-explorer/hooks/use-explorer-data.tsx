@@ -22,7 +22,6 @@ import {
     createTravelMatcher,
     type DateRangeExemption,
     getDateRangeExemption,
-    hasTravelFilters,
     matchesOfficialFilters,
 } from "@/features/travel-explorer/utils/filters.utils";
 import { toIsoDate } from "@/lib/travel/date.utils";
@@ -88,8 +87,6 @@ interface ExplorerData {
     retry: () => void;
     status: DataStatus;
     today: IsoDate;
-    /** Whether trip-level filters are narrowing results. */
-    travelFiltersActive: boolean;
     /** Day the data was last updated, or `null` for the samples. */
     updatedOn: IsoDate | null;
 }
@@ -241,7 +238,6 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
             ),
             recordsByOfficial: groupRecords(matchingRecords, (record) => record.officialId),
             recordsByOrigin: groupRecords(matchingRecords, (record) => record.originCountryCode),
-            travelFiltersActive: hasTravelFilters(filters),
         };
     }, [chosenTenure, dataset, filters, selection]);
 

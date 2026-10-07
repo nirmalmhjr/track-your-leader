@@ -11,7 +11,7 @@ interface CountryOfficials {
     roster: Official[];
     /**
      * The roster narrowed to officials with trips matching the trip filters (dates, destinations,
-     * types…), or the whole roster when no trip filter is active.
+     * types…). Officials with no trips on record are left out even when every date is shown.
      */
     travelling: Official[];
 }
@@ -24,22 +24,13 @@ interface CountryOfficials {
  * @returns The roster and its travelling subset.
  */
 export function useCountryOfficials(countryCode: CountryCode): CountryOfficials {
-    const { matchingOfficialIds, officialsByCountry, recordsByOfficial, travelFiltersActive } =
-        useExplorerData();
+    const { matchingOfficialIds, officialsByCountry, recordsByOfficial } = useExplorerData();
 
     return useMemo(() => {
         const roster = (officialsByCountry.get(countryCode) ?? []).filter((official) =>
             matchingOfficialIds.has(official.id)
         );
-        const travelling = travelFiltersActive
-            ? roster.filter((official) => recordsByOfficial.has(official.id))
-            : roster;
+        const travelling = roster.filter((official) => recordsByOfficial.has(official.id));
         return { roster, travelling };
-    }, [
-        countryCode,
-        matchingOfficialIds,
-        officialsByCountry,
-        recordsByOfficial,
-        travelFiltersActive,
-    ]);
+    }, [countryCode, matchingOfficialIds, officialsByCountry, recordsByOfficial]);
 }

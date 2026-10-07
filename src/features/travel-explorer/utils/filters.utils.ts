@@ -241,22 +241,6 @@ export const matchesTravelFilters = (record: TravelRecord, filters: ExplorerFilt
 };
 
 /**
- * Whether any trip-level filter is active, in which case officials without matching trips are
- * hidden from results.
- *
- * @param filters - Active explorer filters.
- * @returns `true` when at least one travel filter narrows the trips.
- */
-export const hasTravelFilters = (filters: ExplorerFilters): boolean =>
-    filters.from !== null ||
-    filters.to !== null ||
-    filters.types.length > 0 ||
-    filters.statuses.length > 0 ||
-    filters.regions.length > 0 ||
-    filters.destinations.length > 0 ||
-    filters.city.trim() !== "";
-
-/**
  * Counts active filter groups, treating a date range as a single filter.
  *
  * @param filters - Active explorer filters.
