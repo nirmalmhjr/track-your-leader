@@ -2760,6 +2760,35 @@
     {
       "aliases": [],
       "countryCode": "LVA",
+      "fullName": "Juris Iesalnieks",
+      "id": "q126009328",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1995-12-21",
+          "id": "q126009328-p1",
+          "ministry": "Ministry of the Environmental Protection and Regional Development of Latvia",
+          "portfolio": "environment",
+          "startDate": "1994-09-19",
+          "title": "Minister for the Environmental Protection and Regional Development of Latvia"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q126009328"
+        }
+      ],
+      "summary": "Latvian politician.",
+      "wikidataId": "Q126009328"
+    },
+    {
+      "aliases": [],
+      "countryCode": "LVA",
       "fullName": "Juris Radzevičs",
       "id": "juris-radzevics",
       "party": "Latvia's First Party",
@@ -3123,7 +3152,7 @@
       "fullName": "Raimonds Čudars",
       "id": "raimonds-cudars",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Raimonds_%C4%8Cudars_2022.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3702,35 +3731,6 @@
       ],
       "summary": "Žaneta Jaunzeme-Grende (born Žaneta Akantjeva on 10 March 1964) is a Latvian politician and businesswoman. She is a member of the National Alliance, and former Minister for Culture in the Third Dombrovskis cabinet.",
       "wikidataId": "Q2376003"
-    },
-    {
-      "aliases": [],
-      "countryCode": "LVA",
-      "fullName": "Юрис Иесалниекс",
-      "id": "q126009328",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1995-12-21",
-          "id": "q126009328-p1",
-          "ministry": "Ministry of the Environmental Protection and Regional Development of Latvia",
-          "portfolio": "environment",
-          "startDate": "1994-09-19",
-          "title": "Minister for the Environmental Protection and Regional Development of Latvia"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q126009328"
-        }
-      ],
-      "summary": "Latvian politician.",
-      "wikidataId": "Q126009328"
     },
     {
       "aliases": [],
@@ -5481,18 +5481,6 @@
           "portfolio": "education",
           "startDate": "2002-11-07",
           "title": "Minister of Education and Science"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "karlis-sadurskis-p9",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2021-10-25",
-          "title": "Deputy of Saeima",
-          "undated": true
         }
       ],
       "sources": [
@@ -9327,6 +9315,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2012-05-20",
@@ -9382,6 +9374,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2013-08-30",
@@ -9418,6 +9414,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "andris-berzins-lva--2014-09-20--VAT",
+      "officialId": "andris-berzins-lva",
+      "purpose": "Pope Francis met Latvia’s President Bērziņš, discussing strong Church–State relations, the Church’s contributions in education and social w…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-09-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -9441,6 +9465,34 @@
       "startDate": "2014-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "andris-berzins-lva--2015-03-18--NOR",
+      "officialId": "andris-berzins-lva",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "2015-03-18",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10565,6 +10617,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-03-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "edgars-rinkevics--2022-03-14--VAT",
+      "officialId": "edgars-rinkevics",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-03-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tallinn",
         "coordinates": [
           24.745,
@@ -10729,10 +10809,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jerusalem",
+        "city": "Tel Aviv",
         "coordinates": [
-          35.234156,
-          31.776679
+          34.78,
+          32.08
         ],
         "countryCode": "ISR",
         "region": "Asia"
@@ -10968,6 +11048,36 @@
       "startDate": "2024-05-14",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-05-16",
+      "engagements": [
+        "Talks praised good relations, Christian faith’s role, peace efforts for Ukraine, and challenges of AI."
+      ],
+      "eventName": null,
+      "id": "edgars-rinkevics--2024-05-16--VAT",
+      "officialId": "edgars-rinkevics",
+      "purpose": "Pope Francis met Latvian President Edgars Rinkēvičs, then Cardinal Parolin.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-05-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12003,6 +12113,36 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-09-04",
+      "engagements": [
+        "They praised strong bilateral relations and urged greater international effort toward peaceful solutions to the conflict in Ukraine."
+      ],
+      "eventName": null,
+      "id": "edgars-rinkevics--2026-09-04--VAT",
+      "officialId": "edgars-rinkevics",
+      "purpose": "Pope Leo XIV met Latvian President Edgars Rinkēvičs at the Vatican.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-09-04",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Oslo",
         "coordinates": [
           10.738888888,
@@ -12329,6 +12469,34 @@
         }
       ],
       "startDate": "2020-01-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2021-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "egils-levits--2021-05-10--VAT",
+      "officialId": "egils-levits",
+      "purpose": "Pope Francis met Latvia’s President Egils Levits to discuss strong ties, the Church’s role in humanism, dignity, and family, and collaborat…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2021-05-10",
       "statusHint": null,
       "type": "other"
     },
@@ -15460,19 +15628,24 @@
       },
       "endDate": "2025-11-24",
       "engagements": [
+        "They welcomed strong Holy See–Latvia relations, the Church's positive role, and discussed regional issues, especially efforts for peace in Ukraine.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
-      "id": "evika-silina--2025-11-23--VAT",
+      "id": "evika-silina--2025-11-24--VAT",
       "officialId": "evika-silina",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Latvian PM Evika Siliņa.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-23",
+      "startDate": "2025-11-24",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16392,6 +16565,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1993-09-27",
@@ -16420,6 +16597,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1994-05-24",
@@ -16447,7 +16628,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
         }
       ],
       "startDate": "1995-10-16",
@@ -16476,11 +16657,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1996-06-25",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [
+          12.568888888,
+          55.676111111
+        ],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1997-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "guntis-ulmanis--1997-01-01--DNK",
+      "officialId": "guntis-ulmanis",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Danish Royal House",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog"
+        }
+      ],
+      "startDate": "1997-01-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16531,6 +16744,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1998-01-14",
@@ -16587,6 +16804,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1999-04-23",
@@ -16782,6 +17003,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -24848,11 +25073,15 @@
       "eventName": null,
       "id": "maris-kucinskis--2017-11-02--IND",
       "officialId": "maris-kucinskis",
-      "purpose": "Visit to India",
+      "purpose": "Official Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1024/Visit_of_Prime_Minister_of_the_Republic_of_Latvia_to_India_November_0206_2017"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -25558,6 +25787,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "raimonds-vejonis--2017-03-24--VAT",
+      "officialId": "raimonds-vejonis",
+      "purpose": "Pope Francis received EU leaders and their delegations in the Apostolic Palace to mark the 60th anniversary of the Treaties of Rome, highli…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-03-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -25581,6 +25838,34 @@
       "startDate": "2017-05-25",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "raimonds-vejonis--2017-06-02--VAT",
+      "officialId": "raimonds-vejonis",
+      "purpose": "Pope Francis met Latvian President Raimonds Vējonis to discuss strong ties, the Church’s role in society, migrant reception, and the future…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-06-02",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -25631,6 +25916,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2018-04-03",
@@ -25667,6 +25956,90 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Zagreb",
+        "coordinates": [
+          15.977222222,
+          45.813055555
+        ],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-03-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "raimonds-vejonis--2019-03-28--HRV",
+      "officialId": "raimonds-vejonis",
+      "purpose": "Visit to Croatia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        }
+      ],
+      "startDate": "2019-03-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-04-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "raimonds-vejonis--2019-04-25--VAT",
+      "officialId": "raimonds-vejonis",
+      "purpose": "Pope Francis met Latvia’s President Raimonds Vējonis to discuss Church–State ties, Latvia’s social and religious situation, regional peace,…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2019-04-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-09-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "vaira-vike-freiberga--2000-09-20--NOR",
+      "officialId": "vaira-vike-freiberga",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "2000-09-20",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -25686,6 +26059,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2002-02-04",
@@ -25742,6 +26119,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2003-02-15",
@@ -25797,7 +26178,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
         }
       ],
       "startDate": "2005-03-31",
@@ -30339,6 +30720,34 @@
       "startDate": "2009-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2010-07-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "valdis-zatlers--2010-07-14--MKD",
+      "officialId": "valdis-zatlers",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        }
+      ],
+      "startDate": "2010-07-14",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

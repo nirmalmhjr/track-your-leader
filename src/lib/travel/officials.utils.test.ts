@@ -6,6 +6,7 @@ import {
     getOtherCurrentPositions,
     getPortfolioName,
     getPrimaryPosition,
+    groupPositionsByOffice,
 } from "@/lib/travel/officials.utils";
 import type { Official, Position } from "@/types/travel.types";
 
@@ -78,5 +79,34 @@ test("the leading category is the most senior one", () => {
     assert.equal(
         getLeadingCategory(position({ categories: ["legislator", "regional_leader", "minister"] })),
         "minister"
+    );
+});
+
+test("an office held more than once is one entry with every term", () => {
+    const offices = groupPositionsByOffice([
+        position({
+            endDate: "2008-05-28",
+            id: "p1",
+            startDate: "2001-06-04",
+            title: "King of Nepal",
+        }),
+        position({ endDate: "2001-01-01", id: "p2", startDate: "1995-01-01", title: "Minister" }),
+        position({
+            endDate: "1951-02-18",
+            id: "p3",
+            startDate: "1950-11-07",
+            title: "King of Nepal",
+        }),
+    ]);
+    assert.deepEqual(
+        offices.map((office) => [
+            office.title,
+            office.terms.map((term) => term.id),
+            office.isCurrent,
+        ]),
+        [
+            ["King of Nepal", ["p1", "p3"], false],
+            ["Minister", ["p2"], false],
+        ]
     );
 });

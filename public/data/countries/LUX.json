@@ -2,6 +2,44 @@
   "officials": [
     {
       "aliases": [
+        "Charlotte",
+        "Charlotte I",
+        "Charlotte I, Grand Duchess of Luxembourg",
+        "Grand Duchess Charlotte of Luxembourg"
+      ],
+      "countryCode": "LUX",
+      "fullName": "Charlotte, Grand Duchess of Luxembourg",
+      "id": "charlotte",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlotte%2C_Grand_Duchess_of_Luxembourg.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "1964-11-12",
+          "id": "charlotte-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1919-01-14",
+          "title": "Monarch of Luxembourg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q155608"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Charlotte%2C_Grand_Duchess_of_Luxembourg"
+        }
+      ],
+      "summary": "Charlotte was Grand Duchess of Luxembourg from 14 January 1919 until her abdication on 12 November 1964. Her reign is the longest of any Luxembourgish monarch since 1815 when the country was elevated to a Grand Duchy.",
+      "wikidataId": "Q155608"
+    },
+    {
+      "aliases": [
         "Grand Duke Guillaume",
         "Grand Duke Guillaume V",
         "Guillaume Jean Joseph Marie de Nassau, Prince de Luxembourg",
@@ -30,7 +68,7 @@
         },
         {
           "categories": [
-            "senior_official"
+            "head_of_state"
           ],
           "endDate": null,
           "id": "guillaume-v-grand-duke-of-luxembourg-p2",
@@ -104,7 +142,7 @@
         },
         {
           "categories": [
-            "senior_official"
+            "head_of_state"
           ],
           "endDate": "2025-10-03",
           "id": "henri-i-grand-duke-of-luxembourg-p2",
@@ -137,6 +175,46 @@
       ],
       "summary": "Henri is a member of the grand ducal family of Luxembourg who reigned as Grand Duke of Luxembourg from 2000 until his abdication in 2025. Henri was born during the reign of his paternal grandmother, Grand Duchess Charlotte, as the second child and eldest son of the future Grand Duke Jean and Princess Joséphine-Charlotte of Belgium.",
       "wikidataId": "Q16004"
+    },
+    {
+      "aliases": [
+        "Grand Duke Jean I",
+        "Grand Duke Jean I of Luxembourg, Duke of Nassau",
+        "Jean",
+        "Jean Benoît Guillaume Robert Antoine Louis Marie Adolphe Marc d'Aviano",
+        "Jean I, Grand Duke of Luxembourg",
+        "John of Luxembourg"
+      ],
+      "countryCode": "LUX",
+      "fullName": "Jean, Grand Duke of Luxembourg",
+      "id": "jean",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GD_Jean_1967.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2000-10-07",
+          "id": "jean-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1964-11-12",
+          "title": "Monarch of Luxembourg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15988"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jean%2C_Grand_Duke_of_Luxembourg"
+        }
+      ],
+      "summary": "Jean was Grand Duke of Luxembourg from 1964 until his abdication in 2000. He was the first Grand Duke of Luxembourg of French agnatic descent.",
+      "wikidataId": "Q15988"
     },
     {
       "aliases": [],
@@ -1398,7 +1476,10 @@
       "wikidataId": "Q2977816"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "C Meisch",
+        "C. Meisch"
+      ],
       "countryCode": "LUX",
       "fullName": "Claude Meisch",
       "id": "claude-meisch-lux",
@@ -1456,8 +1537,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/luxembourg/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Luxembourgish biologist and zoologist.",
+      "wikidataId": "Q1096934"
     },
     {
       "aliases": [],
@@ -2604,36 +2685,9 @@
       "wikidataId": "Q6268851"
     },
     {
-      "aliases": [],
-      "countryCode": "LUX",
-      "fullName": "Leon Gloden",
-      "id": "leon-gloden-lux",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "leon-gloden-lux-p1",
-          "ministry": "Ministry of Home Affairs",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister for Home Affairs"
-        }
+      "aliases": [
+        "Leon Gloden"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/luxembourg/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "LUX",
       "fullName": "Léon Gloden",
       "id": "leon-gloden",
@@ -2649,6 +2703,17 @@
           "ministry": "Ministry of Home Affairs",
           "portfolio": "home_affairs",
           "startDate": "2023-11-17",
+          "title": "Minister for Home Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "leon-gloden-p2",
+          "ministry": "Ministry of Home Affairs",
+          "portfolio": "home_affairs",
+          "startDate": "2023-11-17",
           "title": "Minister of Home Affairs"
         },
         {
@@ -2656,7 +2721,7 @@
             "legislator"
           ],
           "endDate": "2023-11-17",
-          "id": "leon-gloden-p2",
+          "id": "leon-gloden-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2018-10-30",
@@ -2667,7 +2732,7 @@
             "legislator"
           ],
           "endDate": "2018-10-30",
-          "id": "leon-gloden-p3",
+          "id": "leon-gloden-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2013-11-13",
@@ -2678,7 +2743,7 @@
             "legislator"
           ],
           "endDate": "2013-10-06",
-          "id": "leon-gloden-p4",
+          "id": "leon-gloden-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "2009-07-28",
@@ -2689,7 +2754,7 @@
             "senior_official"
           ],
           "endDate": null,
-          "id": "leon-gloden-p5",
+          "id": "leon-gloden-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -2699,8 +2764,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q13103872"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/luxembourg/"
         },
         {
           "label": "Wikipedia",
@@ -3383,7 +3448,7 @@
       "fullName": "Norbert Dumont",
       "id": "norbert-dumont",
       "party": "Liberal League",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grafplack_Norbert_Dumont%2C_M%C3%A4reler_Kierfecht.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3916,47 +3981,9 @@
       "wikidataId": "Q16440329"
     },
     {
-      "aliases": [],
-      "countryCode": "LUX",
-      "fullName": "Stephanie Obertin",
-      "id": "stephanie-obertin-lux",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "stephanie-obertin-lux-p1",
-          "ministry": "Ministry of Digitalization",
-          "portfolio": "science",
-          "startDate": null,
-          "title": "Minister for Digitalization"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "stephanie-obertin-lux-p2",
-          "ministry": "Ministry of Research and Higher Education",
-          "portfolio": "education",
-          "startDate": null,
-          "title": "Minister for Research and Higher Education"
-        }
+      "aliases": [
+        "Stephanie Obertin"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/luxembourg/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "LUX",
       "fullName": "Stéphanie Obertin",
       "id": "stephanie-obertin",
@@ -3991,16 +4018,38 @@
           ],
           "endDate": null,
           "id": "stephanie-obertin-p3",
+          "ministry": "Ministry of Digitalization",
+          "portfolio": "science",
+          "startDate": null,
+          "title": "Minister for Digitalization"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "stephanie-obertin-p4",
           "ministry": "Ministry of Higher Education and Research",
           "portfolio": "education",
           "startDate": "2023-11-17",
           "title": "Minister for Higher Education and Research"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "stephanie-obertin-p5",
+          "ministry": "Ministry of Research and Higher Education",
+          "portfolio": "education",
+          "startDate": "2023-11-17",
+          "title": "Minister for Research and Higher Education"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q123459991"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/luxembourg/"
         },
         {
           "label": "Wikipedia",
@@ -4149,44 +4198,6 @@
       "wikidataId": "Q92437804"
     },
     {
-      "aliases": [
-        "Charlotte",
-        "Charlotte I",
-        "Charlotte I, Grand Duchess of Luxembourg",
-        "Grand Duchess Charlotte of Luxembourg"
-      ],
-      "countryCode": "LUX",
-      "fullName": "Charlotte, Grand Duchess of Luxembourg",
-      "id": "charlotte",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlotte%2C_Grand_Duchess_of_Luxembourg.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "1964-11-12",
-          "id": "charlotte-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1919-01-14",
-          "title": "Monarch of Luxembourg"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q155608"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Charlotte%2C_Grand_Duchess_of_Luxembourg"
-        }
-      ],
-      "summary": "Charlotte was Grand Duchess of Luxembourg from 14 January 1919 until her abdication on 12 November 1964. Her reign is the longest of any Luxembourgish monarch since 1815 when the country was elevated to a Grand Duchy.",
-      "wikidataId": "Q155608"
-    },
-    {
       "aliases": [],
       "countryCode": "LUX",
       "fullName": "Gaston Reinesch",
@@ -4265,7 +4276,7 @@
       "fullName": "Jean Dupong",
       "id": "jean-dupong",
       "party": "Christian Social People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Graf_Jean_Dupong%2C_M%C3%A4reler_Kierfecht.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4325,46 +4336,6 @@
       ],
       "summary": "Marie Jean Pierre Georges Dupong (18 May 1922 – 6 December 2007) was a Luxembourgish politician. A member of the Christian Social People's Party (CSV), Dupong held a number of positions in government and within the party.",
       "wikidataId": "Q13639184"
-    },
-    {
-      "aliases": [
-        "Grand Duke Jean I",
-        "Grand Duke Jean I of Luxembourg, Duke of Nassau",
-        "Jean",
-        "Jean Benoît Guillaume Robert Antoine Louis Marie Adolphe Marc d'Aviano",
-        "Jean I, Grand Duke of Luxembourg",
-        "John of Luxembourg"
-      ],
-      "countryCode": "LUX",
-      "fullName": "Jean, Grand Duke of Luxembourg",
-      "id": "jean",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/GD_Jean_1967.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2000-10-07",
-          "id": "jean-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1964-11-12",
-          "title": "Monarch of Luxembourg"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q15988"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Jean%2C_Grand_Duke_of_Luxembourg"
-        }
-      ],
-      "summary": "Jean was Grand Duke of Luxembourg from 1964 until his abdication in 2000. He was the first Grand Duke of Luxembourg of French agnatic descent.",
-      "wikidataId": "Q15988"
     },
     {
       "aliases": [],
@@ -4989,18 +4960,6 @@
           "portfolio": "agriculture",
           "startDate": "2013-12-04",
           "title": "Minister of Agriculture of Luxembourg"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "fernand-etgen-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2018-12-06",
-          "title": "Deputy of the Chamber of Deputies of Luxembourg",
-          "undated": true
         }
       ],
       "sources": [
@@ -5334,18 +5293,6 @@
           "portfolio": "health",
           "startDate": "2013-12-04",
           "title": "Minister of Health"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "lydia-mutsch-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2018-12-06",
-          "title": "Deputy of the Chamber of Deputies of Luxembourg",
-          "undated": true
         }
       ],
       "sources": [
@@ -5426,22 +5373,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "lydie-polfer-p6",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2018-10-30",
-          "title": "Deputy of the Chamber of Deputies of Luxembourg",
-          "undated": true
-        },
-        {
-          "categories": [
             "deputy_leader"
           ],
           "endDate": null,
-          "id": "lydie-polfer-p7",
+          "id": "lydie-polfer-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": "2018-10-30",
@@ -5453,7 +5388,7 @@
             "senior_official"
           ],
           "endDate": null,
-          "id": "lydie-polfer-p8",
+          "id": "lydie-polfer-p7",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -5839,6 +5774,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1975-11-12",
@@ -5859,7 +5798,7 @@
       },
       "endDate": "1977-10-05",
       "engagements": [],
-      "eventName": null,
+      "eventName": "U.N. General Assembly",
       "id": "gaston-thorn--1977-10-02--USA",
       "officialId": "gaston-thorn",
       "purpose": "Met with President Carter October 4 in New York City while attending U.N. General Assembly session.",
@@ -5867,6 +5806,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1977-10-02",
@@ -5895,6 +5838,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1978-05-30",
@@ -5904,30 +5851,60 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "Vatican City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          12.453,
+          41.904
         ],
-        "countryCode": "USA",
+        "countryCode": "VAT",
         "precision": "country",
-        "region": "Americas"
+        "region": "Europe"
       },
-      "endDate": "1984-11-15",
+      "endDate": "2013-10-24",
       "engagements": [],
       "eventName": null,
-      "id": "guillaume-v-grand-duke-of-luxembourg--1984-11-12--USA",
+      "id": "guillaume-v-grand-duke-of-luxembourg--2013-10-24--VAT",
       "officialId": "guillaume-v-grand-duke-of-luxembourg",
-      "purpose": "State visit; visited Colorado Springs, San Jose, San Francisco, and Chicago. Departed U.S. November 19.",
+      "purpose": "Visit to Vatican City",
       "sources": [
         {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
         }
       ],
-      "startDate": "1984-11-12",
+      "startDate": "2013-10-24",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-01-23",
+      "engagements": [
+        "Talks highlighted strong ties, Church–State relations, social issues, youth education and Europe."
+      ],
+      "eventName": null,
+      "id": "guillaume-v-grand-duke-of-luxembourg--2026-01-23--VAT",
+      "officialId": "guillaume-v-grand-duke-of-luxembourg",
+      "purpose": "Pope Leo XIV met Luxembourg's Grand Duke Guillaume V and Grand Duchess Stéphanie.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-01-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5955,6 +5932,62 @@
       "startDate": "2026-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [
+          12.568888888,
+          55.676111111
+        ],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2003-01-01--DNK",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Danish Royal House",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog"
+        }
+      ],
+      "startDate": "2003-01-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [
+          4.883333333,
+          52.366666666
+        ],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-04-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2006-04-24--NLD",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Beatrix_der_Nederlanden"
+        }
+      ],
+      "startDate": "2006-04-24",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5996,7 +6029,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-04-16",
+      "endDate": "2008-04-17",
       "engagements": [],
       "eventName": null,
       "id": "henri-i-grand-duke-of-luxembourg--2008-04-15--SWE",
@@ -6009,6 +6042,34 @@
         }
       ],
       "startDate": "2008-04-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2011-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2011-05-31--NOR",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "2011-05-31",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -6042,6 +6103,90 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-09-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2014-09-01--VAT",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-09-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-03-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2016-03-21--VAT",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-03-21",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2017-03-24--VAT",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Pope Francis received EU leaders and their delegations in the Apostolic Palace to mark the 60th anniversary of the Treaties of Rome, highli…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-03-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tokyo",
         "coordinates": [
           139.6917,
@@ -6064,6 +6209,34 @@
         }
       ],
       "startDate": "2017-11-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-04-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "henri-i-grand-duke-of-luxembourg--2024-04-16--BEL",
+      "officialId": "henri-i-grand-duke-of-luxembourg",
+      "purpose": "Visit to Belgium",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Filip_van_Belgi%C3%AB"
+        }
+      ],
+      "startDate": "2024-04-16",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -6729,6 +6902,202 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1971-10-12--IRN",
+      "officialId": "jean",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1972-06-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1972-06-13--GBR",
+      "officialId": "jean",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1972-06-13",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-11-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1984-11-12--USA",
+      "officialId": "jean",
+      "purpose": "State visit; visited Colorado Springs, San Jose, San Francisco, and Chicago. Departed U.S. November 19.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "1984-11-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [
+          12.568888888,
+          55.676111111
+        ],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1988-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1988-01-01--DNK",
+      "officialId": "jean",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Danish Royal House",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog"
+        }
+      ],
+      "startDate": "1988-01-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1990-05-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1990-05-02--NOR",
+      "officialId": "jean",
+      "purpose": "visited by Grand Duke Jean and Grand Duchess Joséphine-Charlotte",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Olav_V"
+        }
+      ],
+      "startDate": "1990-05-02",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1991-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1991-10-15--SWE",
+      "officialId": "jean",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
+        }
+      ],
+      "startDate": "1991-10-15",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [
+          4.883333333,
+          52.366666666
+        ],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1992-05-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1992-05-25--NLD",
+      "officialId": "jean",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Beatrix_der_Nederlanden"
+        }
+      ],
+      "startDate": "1992-05-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -6755,6 +7124,62 @@
       "startDate": "1996-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Brussels",
+        "coordinates": [
+          4.351666666,
+          50.846666666
+        ],
+        "countryCode": "BEL",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-03-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1999-03-16--BEL",
+      "officialId": "jean",
+      "purpose": "visited by Grand Duke Jean and Grand Duchess Josephine-Charlotte, his sister",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_made_and_received_by_Albert_II_of_Belgium"
+        }
+      ],
+      "startDate": "1999-03-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1999-04-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "jean--1999-04-03--JPN",
+      "officialId": "jean",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1999-04-03",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6997,6 +7422,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -7469,6 +7898,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -7973,6 +8406,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -8783,6 +9220,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -10576,6 +11017,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10769,7 +11214,7 @@
       },
       "endDate": "2005-06-20",
       "engagements": [],
-      "eventName": "United States-European Council Summit",
+      "eventName": "U.S.-EU Summit Meeting",
       "id": "jean-claude-juncker--2005-06-20--USA",
       "officialId": "jean-claude-juncker",
       "purpose": "Working visit. Attended the U.S.-EU Summit Meeting.",
@@ -10777,6 +11222,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -12837,6 +13286,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12885,15 +13338,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-04-25",
+      "endDate": "2008-04-24",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "jean-claude-juncker--2008-04-24--RUS",
       "officialId": "jean-claude-juncker",
-      "purpose": "Visit to Russia",
+      "purpose": "Vladimir Putin met with the Prime Minister of Luxembourg, Jean-Claude Juncker",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/44186"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12901,7 +13358,7 @@
       ],
       "startDate": "2008-04-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14996,11 +15453,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Luxembourg Jean-Claude Juncker",
       "id": "jean-claude-juncker--2010-08-24--RUS",
       "officialId": "jean-claude-juncker",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Luxembourg Jean-Claude Juncker",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/8728"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15008,7 +15469,7 @@
       ],
       "startDate": "2010-08-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16636,7 +17097,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -16862,11 +17323,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Luxembourg Jean-Claude Juncker",
       "id": "jean-claude-juncker--2012-09-25--RUS",
       "officialId": "jean-claude-juncker",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Luxembourg Jean-Claude Juncker",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/16532"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16874,7 +17339,7 @@
       ],
       "startDate": "2012-09-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18146,12 +18611,13 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Normandy",
+        "city": "Paris",
         "coordinates": [
-          -0.436644305,
-          49.122339111
+          2.3522,
+          48.8566
         ],
         "countryCode": "FRA",
+        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2024-06-06",
@@ -21105,12 +21571,13 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Normandy",
+        "city": "Paris",
         "coordinates": [
-          -0.436644305,
-          49.122339111
+          2.3522,
+          48.8566
         ],
         "countryCode": "FRA",
+        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2014-06-06",
@@ -22016,11 +22483,11 @@
       "eventName": null,
       "id": "xavier-bettel--2015-09-17--VAT",
       "officialId": "xavier-bettel",
-      "purpose": "Met with Pope Francis to strengthen Holy See-Luxembourg ties, discuss Church-State relations, religious freedom, EU issues, conflicts, migr…",
+      "purpose": "On 17 Sept 2015, Pope Francis met Luxembourg’s PM Bettel to strengthen Holy See-Luxembourg ties, discuss Church-State relations, religious…",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Xavier_Bettel"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
         },
         {
           "label": "COLT dataset",
@@ -22105,11 +22572,15 @@
         "Met with President Vladimir Putin.",
         "The discussion covered bilateral cooperation and the international agenda, as well as prospects for relations between Russia and the EU in view of Luxembourg’s Presidency of the C…"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Luxembourg Xavier Bettel",
       "id": "xavier-bettel--2015-10-06--RUS",
       "officialId": "xavier-bettel",
-      "purpose": "Official visit.",
+      "purpose": "Meeting with Prime Minister of Luxembourg Xavier Bettel",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50438"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Xavier_Bettel"
@@ -22121,7 +22592,7 @@
       ],
       "startDate": "2015-10-06",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -26620,13 +27091,18 @@
       },
       "endDate": "2022-10-29",
       "engagements": [
+        "Talks praised strong ties, Church-State relations, Ukraine peace efforts, and addressed migration, refugee aid, and broader European and international issues.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "xavier-bettel--2022-10-29--VAT",
       "officialId": "xavier-bettel",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Luxembourg’s PM Bettel.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -26634,7 +27110,7 @@
       ],
       "startDate": "2022-10-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -27363,7 +27839,7 @@
         "countryCode": "SRB",
         "region": "Europe"
       },
-      "endDate": "2023-07-04",
+      "endDate": "2023-07-03",
       "engagements": [
         "Met President Aleksandar Vucic"
       ],

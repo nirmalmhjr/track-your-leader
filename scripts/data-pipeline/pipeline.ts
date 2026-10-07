@@ -14,9 +14,11 @@ import { extractCabinet } from "./extract/cabinets.extract";
 import { extractIpeaClaims } from "./extract/claims/au-ipea.claims";
 import { extractCanadaClaims } from "./extract/claims/canada.claims";
 import { extractColtClaims } from "./extract/claims/colt.claims";
+import { extractDanishCourtClaims } from "./extract/claims/danish-court.claims";
 import { extractHistorianClaims } from "./extract/claims/historian.claims";
 import { extractHistorianVisitClaims } from "./extract/claims/historian-visits.claims";
 import { extractMeaClaims } from "./extract/claims/india-mea.claims";
+import { extractKremlinClaims } from "./extract/claims/kremlin.claims";
 import { extractNepalMofaClaims } from "./extract/claims/nepal-mofa.claims";
 import { extractRelationsClaims } from "./extract/claims/relations.claims";
 import { extractSummitClaims } from "./extract/claims/summits.claims";
@@ -35,8 +37,15 @@ import {
     fetchMinisterOffices,
     fetchOfficesByLabel,
 } from "./extract/leaders.extract";
+import { withoutExcludedPositions } from "./extract/leaders.overrides";
 import { assembleDrafts, enrichOfficials } from "./extract/officials.extract";
-import { buildPeopleRows, idRecordsOf, isPromoted, mergePeople } from "./extract/people.assemble";
+import {
+    buildPeopleRows,
+    idRecordsOf,
+    isPromoted,
+    mergeNameTwins,
+    mergePeople,
+} from "./extract/people.assemble";
 import { writePeopleFiles } from "./extract/people.export";
 import { extractPeople, type PersonDraft } from "./extract/people.extract";
 import { findUnreliablePhotos } from "./extract/photos.check";
@@ -233,6 +242,10 @@ const extractSource = async (source: TripSourceId, input: ClaimsInput): Promise<
             return extractNepalMofaClaims(places);
         case "india-mea":
             return extractMeaClaims(places);
+        case "kremlin":
+            return extractKremlinClaims(places);
+        case "danish-court":
+            return extractDanishCourtClaims(places);
         case "un-general-debate":
             return extractGeneralDebateClaims({ cities });
         case "who-assembly":
@@ -537,11 +550,17 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     const people: PersonDraft[] = mergePeople(
         drafts,
         await extractPeople({ contexts, sinceYear: options.sinceYear, today })
+    ).flatMap((person) => withoutExcludedPositions(person) ?? []);
+    // Wrong offices on Wikidata (a council chairman as Sultan of Oman) are left out everywhere.
+    // Officials known only by name are folded into their identified twin, so nobody is listed twice.
+    const officialDrafts = mergeNameTwins(
+        drafts.flatMap((draft) => withoutExcludedPositions(draft) ?? []),
+        people
     );
     log.info(`${people.length} people beyond the leaders and cabinets`);
 
     log.step("Matching trips to officials");
-    const matches = await matchTravellers(claims, [...drafts, ...people], contexts, today);
+    const matches = await matchTravellers(claims, [...officialDrafts, ...people], contexts, today);
     tallyMatches(report, matches);
     log.info(
         `${matches.draftOf.size} trips matched, ${matches.newDrafts.length} new officials, ${matches.unmatched.length} without a traveller`
@@ -559,7 +578,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
 
     log.step("Officials: photos, parties, biographies");
     const { idOf, officials: enriched } = await enrichOfficials(
-        [...drafts, ...matches.newDrafts, ...promoted],
+        [...officialDrafts, ...matches.newDrafts, ...promoted],
         [...previous, ...previousPeople],
         new Set([...reserved, ...reservedPeople])
     );

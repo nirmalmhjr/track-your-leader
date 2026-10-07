@@ -413,7 +413,7 @@
           "url": "https://en.wikipedia.org/wiki/%C5%BDeljka_Cvijanovi%C4%87"
         }
       ],
-      "summary": "Željka Cvijanović is a Bosnian Serb politician who has served as the Serb member of the Presidency of Bosnia and Herzegovina since 2022. She previously served as president of Republika Srpska from 2018 to 2022.",
+      "summary": "Željka Cvijanović is a Bosnian politician who has served as the Serb member of the Presidency of Bosnia and Herzegovina since 2022. She previously served as president of Republika Srpska from 2018 to 2022.",
       "wikidataId": "Q5528031"
     },
     {
@@ -1857,21 +1857,10 @@
         },
         {
           "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "elmedin-konakovic-p2",
-          "ministry": "Ministry of Foreign Affairs",
-          "portfolio": "foreign_affairs",
-          "startDate": "2023-01-25",
-          "title": "Minister of Foreign Affairs"
-        },
-        {
-          "categories": [
             "legislator"
           ],
           "endDate": "2022-12-01",
-          "id": "elmedin-konakovic-p3",
+          "id": "elmedin-konakovic-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "2019-07-01",
@@ -3215,7 +3204,7 @@
       "fullName": "Senad Softić",
       "id": "senad-softic-bih",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Economic_and_Financial_Affairs_Council_EU.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6437,6 +6426,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1993-08-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "alija-izetbegovic--1993-08-08--USA",
+      "officialId": "alija-izetbegovic",
+      "purpose": "Met with President Clinton during a private visit. Arrived in the U.S. Sept. 7; also visited New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1993-08-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Bern",
         "coordinates": [
           7.44743,
@@ -6971,22 +6988,26 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-03-20",
+      "endDate": "1994-03-19",
       "engagements": [
         "Met President Bill Clinton",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "alija-izetbegovic--1994-03-16--USA",
+      "id": "alija-izetbegovic--1994-03-17--USA",
       "officialId": "alija-izetbegovic",
-      "purpose": "Visit to United States",
+      "purpose": "Attended the signing of the Muslim-Croat federation agreement.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-03-16",
+      "startDate": "1994-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7148,23 +7169,27 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1994-09-30",
+      "endDate": "1994-09-25",
       "engagements": [
         "Met President Bill Clinton"
       ],
-      "eventName": null,
-      "id": "alija-izetbegovic--1994-09-26--USA",
+      "eventName": "U.N. General Assembly",
+      "id": "alija-izetbegovic--1994-09-25--USA",
       "officialId": "alija-izetbegovic",
-      "purpose": "Visit to United States",
+      "purpose": "Discussed the Bosnian conflict with President Clinton at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-09-26",
+      "startDate": "1994-09-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -7683,22 +7708,26 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1995-10-26",
+      "endDate": "1995-10-24",
       "engagements": [
         "Met President Bill Clinton",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "alija-izetbegovic--1995-10-23--USA",
+      "eventName": "U.N. General Assembly",
+      "id": "alija-izetbegovic--1995-10-24--USA",
       "officialId": "alija-izetbegovic",
-      "purpose": "Attended United Nations (UN) General Assembly and Bosnia and Herzegovina-Croatia-United States Trilateral Meeting",
+      "purpose": "Met with President Clinton at the U.N. General Assembly.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-10-23",
+      "startDate": "1995-10-24",
       "statusHint": null,
       "type": "conference"
     },
@@ -8146,6 +8175,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1997-05-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "alija-izetbegovic--1997-05-20--USA",
+      "officialId": "alija-izetbegovic",
+      "purpose": "Private visit. Also visited New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1997-05-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Lisbon",
         "coordinates": [
           -9.139016,
@@ -8336,18 +8393,22 @@
       "endDate": "1997-12-11",
       "engagements": [],
       "eventName": "Organization of Islamic Cooperation (OIC) Summit",
-      "id": "alija-izetbegovic--1997-12-10--IRN",
+      "id": "alija-izetbegovic--1997-12-09--IRN",
       "officialId": "alija-izetbegovic",
       "purpose": "Attended Organization of Islamic Cooperation (OIC) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-12-10",
+      "startDate": "1997-12-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8757,7 +8818,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -9316,7 +9377,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2016-10-29",
+      "endDate": "2016-10-25",
       "engagements": [
         "Met President Hassan Rouhani",
         "Signed agreements"
@@ -9327,13 +9388,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2016-10-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9470,6 +9535,10 @@
       "officialId": "bakir-izetbegovic",
       "purpose": "Attended Brdo-Brijuni Process Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10363,6 +10432,121 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-04-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "borjana-kristo--2023-04-03--VAT",
+      "officialId": "borjana-kristo",
+      "purpose": "Pope Francis met Bosnia and Herzegovina’s Borjana Krišto, noting positive ties, Church–state issues, and the need for equality and inclusiv…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2023-04-03",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-03-26",
+      "engagements": [
+        "The situation of the Catholic community in Bosnia and Herzegovina was discussed, as well as some open questions in the relations between the Church and the state.",
+        "Opinions were also exchanged on the expansion of the European Union to the countries of southeastern Europe."
+      ],
+      "eventName": null,
+      "id": "borjana-kristo--2026-03-26--VAT",
+      "officialId": "borjana-kristo",
+      "purpose": "Mutual gratitude for good bilateral relations and the contribution of the local Church to society was emphasized.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-03-26",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "denis-becirovic--2023-09-11--MKD",
+      "officialId": "denis-becirovic",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2023-09-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "denis-becirovic--2023-10-21--VAT",
+      "officialId": "denis-becirovic",
+      "purpose": "Pope Francis met Bosnia’s Presidency member Denis Bećirović, noting positive bilateral ties, discussing domestic peace through equality and…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2023-10-21",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -11041,6 +11225,64 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-12-07",
+      "engagements": [
+        "They discussed EU integration, economic challenges, the Catholic community, and peaceful coexistence."
+      ],
+      "eventName": null,
+      "id": "denis-zvizdic--2017-12-07--VAT",
+      "officialId": "denis-zvizdic",
+      "purpose": "Pope Francis met with Denis Zvizdić, Chairman of Bosnia and Herzegovina’s Council of Ministers.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-12-07",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-03-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "denis-zvizdic--2018-03-12--MKD",
+      "officialId": "denis-zvizdic",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2018-03-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Skopje",
         "coordinates": [
           21.431666666,
@@ -11360,6 +11602,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-12-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "dragan-covic--2014-12-15--VAT",
+      "officialId": "dragan-covic",
+      "purpose": "Pope Francis met Bosnia and Herzegovina’s Dragan Čović, discussing the country’s situation, Catholics’ societal contributions and flood rec…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-12-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Vienna",
         "coordinates": [
           16.3725,
@@ -11467,6 +11737,10 @@
       "officialId": "dragan-covic",
       "purpose": "Attended Brdo-Brijuni Process Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11604,23 +11878,55 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-03-08",
+      "endDate": "2016-03-09",
       "engagements": [
         "Met President Kolinda Grabar-Kitarovic"
       ],
       "eventName": null,
-      "id": "dragan-covic--2016-03-07--HRV",
+      "id": "dragan-covic--2016-03-08--HRV",
       "officialId": "dragan-covic",
       "purpose": "Visit to Croatia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-03-07",
+      "startDate": "2016-03-08",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-06-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "dragan-covic--2017-06-01--VAT",
+      "officialId": "dragan-covic",
+      "purpose": "Pope Francis met Čović of Bosnia and Herzegovina to discuss strong ties, the country's challenges and EU aspirations, peace, reconciliation…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-06-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -12019,13 +12325,18 @@
       },
       "endDate": "2018-02-24",
       "engagements": [
+        "Talks praised strong ties, urged interreligious dialogue, social and economic reforms, EU integration, equality, and regional cooperation.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "dragan-covic--2018-02-24--VAT",
       "officialId": "dragan-covic",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bosnia and Herzegovina’s Presidency.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12033,7 +12344,7 @@
       ],
       "startDate": "2018-02-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12089,6 +12400,34 @@
       "startDate": "2023-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "haris-silajdzic--1994-03-17--USA",
+      "officialId": "haris-silajdzic",
+      "purpose": "Attended the signing of the Muslim-Croat federation agreement.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1994-03-17",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -12897,6 +13236,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1996-05-14",
+      "engagements": [],
+      "eventName": "Federation Forum",
+      "id": "hasan-muratovic--1996-05-14--USA",
+      "officialId": "hasan-muratovic",
+      "purpose": "Met with President Clinton after a meeting of the Federation Forum.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1996-05-14",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2005-09-25",
       "engagements": [],
       "eventName": "United Nations (UN) General Assembly",
@@ -13121,6 +13488,146 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1996-05-14",
+      "engagements": [],
+      "eventName": "Federation Forum",
+      "id": "kresimir-zubak--1996-05-14--USA",
+      "officialId": "kresimir-zubak",
+      "purpose": "Met with President Clinton after a meeting of the Federation Forum.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1996-05-14",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-09-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "milorad-dodik--2014-09-18--RUS",
+      "officialId": "milorad-dodik",
+      "purpose": "Meeting with President of the Republika Srpska entity of Bosnia and Herzegovina Milorad Dodik",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/46637"
+        }
+      ],
+      "startDate": "2014-09-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-09-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "milorad-dodik--2016-09-22--RUS",
+      "officialId": "milorad-dodik",
+      "purpose": "Meeting with President of the Republika Srpska entity of Bosnia and Herzegovina Milorad Dodik",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/52951"
+        }
+      ],
+      "startDate": "2016-09-22",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-05-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "milorad-dodik--2018-05-25--RUS",
+      "officialId": "milorad-dodik",
+      "purpose": "Meeting with President of the Republika Srpska entity of Bosnia and Herzegovina Milorad Dodik",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57558"
+        }
+      ],
+      "startDate": "2018-05-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-09-30",
+      "engagements": [],
+      "eventName": "Meeting with President of Republika Srpska entity of Bosnia and Herzegovina Milorad Dodik",
+      "id": "milorad-dodik--2018-09-30--RUS",
+      "officialId": "milorad-dodik",
+      "purpose": "Meeting with President of Republika Srpska entity of Bosnia and Herzegovina Milorad Dodik",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58662"
+        }
+      ],
+      "startDate": "2018-09-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Moscow",
         "coordinates": [
           37.6175,
@@ -13277,8 +13784,12 @@
       "eventName": null,
       "id": "milorad-dodik--2019-04-26--VAT",
       "officialId": "milorad-dodik",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bosnia and Herzegovina’s President Milorad Dodik to discuss Church presence, social and economic challenges, reconciliatio…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14215,13 +14726,17 @@
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2017-04-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16616,6 +17131,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "vjekoslav-bevanda--2013-11-22--VAT",
+      "officialId": "vjekoslav-bevanda",
+      "purpose": "Pope Francis met Bosnian PM Bevanda, discussing the nation’s goals, open society, and economic challenges, noting strong Church-State ties…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2013-11-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Belgrade",
         "coordinates": [
           20.456944444,
@@ -18224,13 +18767,17 @@
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2011-10-24",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -18698,16 +19245,20 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "zeljko-komsic--2020-02-14--VAT",
+      "id": "zeljko-komsic--2020-02-15--VAT",
       "officialId": "zeljko-komsic",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bosnia and Herzegovina’s Chairman Željko Komšić to discuss strong ties, the Catholic community, citizens’ equality, dialog…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2020-02-14",
+      "startDate": "2020-02-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -18992,15 +19543,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2022-01-18",
+      "endDate": "2022-01-17",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "zeljko-komsic--2022-01-17--VAT",
       "officialId": "zeljko-komsic",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bosnia and Herzegovina’s Presidency Chairman Željko Komšić to discuss bilateral ties, equality among citizens, and regiona…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19008,7 +19563,7 @@
       ],
       "startDate": "2022-01-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -19086,18 +19641,22 @@
       "endDate": "2023-09-11",
       "engagements": [],
       "eventName": "Brdo-Brijuni Process Summit",
-      "id": "zeljko-komsic--2023-09-10--MKD",
+      "id": "zeljko-komsic--2023-09-11--MKD",
       "officialId": "zeljko-komsic",
       "purpose": "Attended Brdo-Brijuni Process Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-09-10",
+      "startDate": "2023-09-11",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19628,6 +20187,36 @@
       "startDate": "2025-12-16",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-03-09",
+      "engagements": [
+        "They also discussed several regional and international matters, including peace and security in the Western Balkans and the repercussions of the ongoing conflicts in Ukraine and t…"
+      ],
+      "eventName": null,
+      "id": "zeljko-komsic--2026-03-09--VAT",
+      "officialId": "zeljko-komsic",
+      "purpose": "The pope and the members of the presidency focused on the need for inclusive and constructive dialogue in order to ensure the stability of…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-03-09",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

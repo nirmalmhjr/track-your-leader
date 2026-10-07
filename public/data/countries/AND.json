@@ -1051,9 +1051,11 @@
       "wikidataId": "Q56403525"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Jordi Torres Falco"
+      ],
       "countryCode": "AND",
-      "fullName": "Jordi Torres Falco",
+      "fullName": "Jordi Torres Falcó",
       "id": "jordi-torres-falco-and",
       "party": null,
       "photoUrl": null,
@@ -1068,31 +1070,13 @@
           "portfolio": null,
           "startDate": null,
           "title": "Minister of Territorial Planning"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/andorra/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "AND",
-      "fullName": "Jordi Torres Falcó",
-      "id": "jordi-torres-falco",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "jordi-torres-falco-p1",
+          "id": "jordi-torres-falco-and-p2",
           "ministry": "Ministry of Tourism of Andorra",
           "portfolio": "tourism",
           "startDate": "2021-05-20",
@@ -1103,6 +1087,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q107981821"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/andorra/"
         }
       ],
       "summary": "Politician in Andorra.",
@@ -1120,8 +1108,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2023-05-15",
+          "endDate": null,
           "id": "josep-maria-rossell-pons-p1",
+          "ministry": "Ministry of Justice and Homeland",
+          "portfolio": "home_affairs",
+          "startDate": null,
+          "title": "Minister of Justice and Homeland"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-05-15",
+          "id": "josep-maria-rossell-pons-p2",
           "ministry": "Ministry of Justice and the Interior",
           "portfolio": "home_affairs",
           "startDate": "2019-05-22",
@@ -1132,39 +1131,14 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q107981779"
-        }
-      ],
-      "summary": "Politician in Andorra.",
-      "wikidataId": "Q107981779"
-    },
-    {
-      "aliases": [],
-      "countryCode": "AND",
-      "fullName": "Josep Maria Rossell Pons",
-      "id": "josep-maria-rossell-pons-and",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "josep-maria-rossell-pons-and-p1",
-          "ministry": "Ministry of Justice and Homeland",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of Justice and Homeland"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/andorra/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Andorra.",
+      "wikidataId": "Q107981779"
     },
     {
       "aliases": [],
@@ -1204,7 +1178,7 @@
       "fullName": "Judith Pallarés Cortés",
       "id": "judith-pallares-cortes",
       "party": "Action for Andorra",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Judith_Pallar%C3%A9s.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1929,36 +1903,9 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
-      "countryCode": "AND",
-      "fullName": "Victor Filloy Franco",
-      "id": "victor-filloy-franco-and",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "victor-filloy-franco-and-p1",
-          "ministry": "Ministry of Social Affairs, Housing and Youth",
-          "portfolio": "youth",
-          "startDate": null,
-          "title": "Minister of Social Affairs, Housing and Youth"
-        }
+      "aliases": [
+        "Victor Filloy Franco"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/andorra/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "AND",
       "fullName": "Víctor Filloy Franco",
       "id": "victor-filloy-franco",
@@ -1969,8 +1916,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2023-05-15",
+          "endDate": null,
           "id": "victor-filloy-franco-p1",
+          "ministry": "Ministry of Social Affairs, Housing and Youth",
+          "portfolio": "youth",
+          "startDate": null,
+          "title": "Minister of Social Affairs, Housing and Youth"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-05-15",
+          "id": "victor-filloy-franco-p2",
           "ministry": "Ministry of Territorial Management and Housing",
           "portfolio": "social_affairs",
           "startDate": "2021-05-20",
@@ -1981,6 +1939,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q107981776"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/andorra/"
         }
       ],
       "summary": "Politician in Andorra.",
@@ -3960,15 +3922,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2014-09-06",
+      "endDate": "2014-09-05",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "antoni-marti--2014-09-05--VAT",
       "officialId": "antoni-marti",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Andorra’s Head of Government Martí, discussing strong Church–State relations, reinforced by the 2008 agreement, and focusi…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

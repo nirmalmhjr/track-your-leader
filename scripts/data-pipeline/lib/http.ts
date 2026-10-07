@@ -11,6 +11,7 @@ import { countRequest } from "./progress";
 const HOST_INTERVAL_MS: Readonly<Record<string, number>> = {
     "api.github.com": 1000,
     "assets.publishing.service.gov.uk": 250,
+    "en.kremlin.ru": 3000,
     "en.wikipedia.org": 400,
     "es.wikipedia.org": 400,
     "fr.wikipedia.org": 400,

@@ -143,7 +143,7 @@
       "fullName": "Celso Torrelio",
       "id": "celso-torrelio",
       "party": "independent politician",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Celso_Torrelio_Villa_en_1970.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2354,7 +2354,7 @@
       "fullName": "César  Ruiz Velarde",
       "id": "cesar-ruiz-velarde",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/C%C3%A9sar_Ruiz_Velarde.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -7582,7 +7582,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2008-09-04",
+      "endDate": "2008-09-01",
       "engagements": [
         "Met President Mahmoud Ahmadinejad"
       ],
@@ -7592,13 +7592,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2008-09-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9443,24 +9447,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-10-27",
+      "endDate": "2010-10-28",
       "engagements": [
         "Met President Mahmoud Ahmadinejad",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "evo-morales--2010-10-24--IRN",
+      "id": "evo-morales--2010-10-25--IRN",
       "officialId": "evo-morales",
       "purpose": "Visit to Iran",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-10-24",
+      "startDate": "2010-10-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11154,8 +11162,12 @@
       "eventName": null,
       "id": "evo-morales--2013-09-06--VAT",
       "officialId": "evo-morales",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bolivian President Evo Morales, discussing Bolivia’s social, economic, and religious issues, Church support in education a…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11611,21 +11623,25 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Fortaleza",
+        "city": "Brasília",
         "coordinates": [
-          -38.5275,
-          -3.7275
+          -47.8825,
+          -15.7942
         ],
         "countryCode": "BRA",
         "region": "Americas"
       },
-      "endDate": "2014-07-16",
+      "endDate": "2014-07-17",
       "engagements": [],
-      "eventName": "6th BRICS summit",
-      "id": "evo-morales--2014-07-14--BRA",
+      "eventName": "Meeting with President of Bolivia Evo Morales",
+      "id": "evo-morales--2014-07-17--BRA",
       "officialId": "evo-morales",
-      "purpose": "Attended the 6th BRICS summit",
+      "purpose": "Meeting with President of Bolivia Evo Morales",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/46234"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/6th_BRICS_summit"
@@ -11635,9 +11651,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-07-14",
+      "startDate": "2014-07-17",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12486,27 +12502,34 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2015-11-24",
+      "endDate": "2015-11-23",
       "engagements": [
         "Met President Hassan Rouhani",
         "Signed agreements"
       ],
-      "eventName": "Gas Exporting Countries Forum Summit",
-      "id": "evo-morales--2015-11-22--IRN",
+      "eventName": "Meeting with President of Bolivia Evo Morales",
+      "id": "evo-morales--2015-11-23--IRN",
       "officialId": "evo-morales",
-      "purpose": "Attended Gas Exporting Countries Forum Summit",
+      "purpose": "Meeting with President of Bolivia Evo Morales",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50769"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-22",
+      "startDate": "2015-11-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12696,7 +12719,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-04-16",
+      "endDate": "2016-04-15",
       "engagements": [
         "Met Pope Francis",
         "Gave a public address"
@@ -12704,8 +12727,12 @@
       "eventName": "World Meeting of Social Movements",
       "id": "evo-morales--2016-04-15--VAT",
       "officialId": "evo-morales",
-      "purpose": "Attended World Meeting of Social Movements and The Urgency of a Moral Economy Conference",
+      "purpose": "Pope Francis met Bolivian President Evo Morales to discuss Bolivia's socio-economic issues, Church-state relations, and shared concerns lik…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13454,15 +13481,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-12-16",
+      "endDate": "2017-12-15",
       "engagements": [
+        "They appreciated the Church’s role in Bolivia’s social and cultural progress and discussed updating bilateral agreements and shared interests.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "evo-morales--2017-12-15--VAT",
       "officialId": "evo-morales",
-      "purpose": "Visit to Vatican City",
+      "purpose": "This morning, Pope Francis received Bolivian President Evo Morales at the Vatican.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13470,7 +13502,7 @@
       ],
       "startDate": "2017-12-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -13690,24 +13722,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-06-15",
+      "endDate": "2018-06-13",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
-      "id": "evo-morales--2018-06-12--RUS",
+      "eventName": "Meeting with President of Bolivia Evo Morales",
+      "id": "evo-morales--2018-06-13--RUS",
       "officialId": "evo-morales",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Bolivia Evo Morales",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57743"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-12",
+      "startDate": "2018-06-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13782,21 +13818,26 @@
       },
       "endDate": "2018-06-30",
       "engagements": [
+        "Talks highlighted strong Holy See–Bolivia relations, progress on bilateral agreements, and included an exchange on regional issues.",
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "evo-morales--2018-06-28--VAT",
+      "id": "evo-morales--2018-06-30--VAT",
       "officialId": "evo-morales",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bolivian President Evo Morales.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-28",
+      "startDate": "2018-06-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -14870,6 +14911,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15515,6 +15560,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15893,6 +15942,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1977-09-06",
@@ -16352,6 +16405,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16494,6 +16551,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1989-09-25",
@@ -16731,6 +16792,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -17175,6 +17240,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -17654,6 +17723,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "2001-12-06",
@@ -18859,11 +18932,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "16th BRICS summit",
-      "id": "luis-arce--2024-10-22--RUS",
+      "eventName": "Meeting with President of Bolivia Luis Alberto Arce Catacora",
+      "id": "luis-arce--2024-10-24--RUS",
       "officialId": "luis-arce",
-      "purpose": "Attended the 16th BRICS summit",
+      "purpose": "Meeting with President of Bolivia Luis Alberto Arce Catacora",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/75389"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
@@ -18873,9 +18950,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-22",
+      "startDate": "2024-10-24",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19229,6 +19306,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1968-07-05",
@@ -19481,6 +19562,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-01-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "rogelio-mayta--2023-01-30--VAT",
+      "officialId": "rogelio-mayta",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2023-01-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -19530,6 +19639,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1963-10-22",

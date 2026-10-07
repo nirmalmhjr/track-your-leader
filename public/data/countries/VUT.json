@@ -140,7 +140,7 @@
       "fullName": "Frederick Karlomuana Timakata",
       "id": "frederick-karlomuana-timakata",
       "party": "Vanua'aku Pati",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Inyeug_2022_10.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -290,7 +290,7 @@
       "fullName": "John Bani",
       "id": "john-bani",
       "party": "Union of Moderate Parties",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/45_Receiving_the_20th_Anniversary_of_Independence_Medal_by_the_president_of_Vanuatu%2C_Rev._John_Bani%2C_on_30.7._2000.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -892,12 +892,15 @@
       "wikidataId": "Q469851"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Johnny Kaonapo",
+        "Johnny Koanapo Rasou"
+      ],
       "countryCode": "VUT",
       "fullName": "Johnny Koanapo",
       "id": "johnny-koanapo-vut",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister_Johnny_Koanapo's_visit_to_Mount_Ainsile_(000148530)_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -920,16 +923,35 @@
           "portfolio": "finance",
           "startDate": null,
           "title": "Minister for Finance and Economic Management"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-11-04",
+          "id": "johnny-koanapo-vut-p3",
+          "ministry": "Ministry of Finance",
+          "portfolio": "finance",
+          "startDate": "2020-04-20",
+          "title": "Minister of Finance"
         }
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q120401334"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/vanuatu/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Johnny_Koanapo"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Johhny Koanapo Rasou is a Ni-Vanuatu politician and a member of the Parliament of Vanuatu from Tanna Constituency as a member of the Vanua'aku Pati. He hails from the island of Tanna.",
+      "wikidataId": "Q120401334"
     },
     {
       "aliases": [
@@ -1222,8 +1244,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2021-06-21",
+          "endDate": null,
           "id": "jack-norris-kalmet-p1",
+          "ministry": "Ministry of Ocean, Fisheries and Maritime",
+          "portfolio": "agriculture",
+          "startDate": null,
+          "title": "Minister for Ocean, Fisheries and Maritime"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2021-06-21",
+          "id": "jack-norris-kalmet-p2",
           "ministry": "Ministry of Lands, Geology and Natural Resources",
           "portfolio": null,
           "startDate": "2020-04-20",
@@ -1234,39 +1267,14 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q109924032"
-        }
-      ],
-      "summary": "Politician in Vanuatu.",
-      "wikidataId": "Q109924032"
-    },
-    {
-      "aliases": [],
-      "countryCode": "VUT",
-      "fullName": "Jack Norris Kalmet",
-      "id": "jack-norris-kalmet-vut",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "jack-norris-kalmet-vut-p1",
-          "ministry": "Ministry of Ocean, Fisheries and Maritime",
-          "portfolio": "agriculture",
-          "startDate": null,
-          "title": "Minister for Ocean, Fisheries and Maritime"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/vanuatu/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Vanuatu.",
+      "wikidataId": "Q109924032"
     },
     {
       "aliases": [],
@@ -1358,42 +1366,6 @@
       ],
       "summary": "",
       "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Johnny Kaonapo",
-        "Johnny Koanapo Rasou"
-      ],
-      "countryCode": "VUT",
-      "fullName": "Johnny Koanapo",
-      "id": "johnny-koanapo",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister_Johnny_Koanapo's_visit_to_Mount_Ainsile_(000148530)_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2022-11-04",
-          "id": "johnny-koanapo-p1",
-          "ministry": "Ministry of Finance",
-          "portfolio": "finance",
-          "startDate": "2020-04-20",
-          "title": "Minister of Finance"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q120401334"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Johnny_Koanapo"
-        }
-      ],
-      "summary": "Johhny Koanapo Rasou is a Ni-Vanuatu politician and a member of the Parliament of Vanuatu from Tanna Constituency as a member of the Vanua'aku Pati. He hails from the island of Tanna.",
-      "wikidataId": "Q120401334"
     },
     {
       "aliases": [
@@ -1748,35 +1720,6 @@
           "portfolio": null,
           "startDate": null,
           "title": "Minister for Infrastructure and Public Utilities"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/vanuatu/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "VUT",
-      "fullName": "Simeon Malachi Athy",
-      "id": "simeon-malachi-athy-vut",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "central_banker"
-          ],
-          "endDate": null,
-          "id": "simeon-malachi-athy-vut-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2026-10-05",
-          "title": "Governor, Reserve Bank of Vanuatu"
         }
       ],
       "sources": [
@@ -2896,28 +2839,32 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-03-12",
+      "endDate": "2018-03-11",
       "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
         "Met Prime Minister Narendra Modi"
       ],
       "eventName": "International Solar Alliance Summit",
-      "id": "charlot-salwai--2018-03-10--IND",
+      "id": "charlot-salwai--2018-03-08--IND",
       "officialId": "charlot-salwai",
-      "purpose": "Attended International Solar Alliance Summit",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-10",
+      "startDate": "2018-03-08",
       "statusHint": null,
       "type": "summit"
     },

@@ -95,45 +95,6 @@
     },
     {
       "aliases": [
-        "Antoinette Louise Alberte Suzanne Grimaldi",
-        "Antoinette, Baroness of Massy",
-        "Antoinette, Princess of Monaco",
-        "Princess Antoinette of Monaco"
-      ],
-      "countryCode": "MCO",
-      "fullName": "Princess Antoinette, Baroness of Massy",
-      "id": "princess-antoinette-baroness-of-massy",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoinette_of_Monaco_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "head_of_state"
-          ],
-          "endDate": null,
-          "id": "princess-antoinette-baroness-of-massy-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Prince of Monaco",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q1111673"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Princess_Antoinette%2C_Baroness_of_Massy"
-        }
-      ],
-      "summary": "Princess Antoinette, Baroness of Massy was a member of the princely family of Monaco. She was the elder sister of Prince Rainier III. Her parents were Princess Charlotte, Duchess of Valentinois and Count Pierre de Polignac.",
-      "wikidataId": "Q1111673"
-    },
-    {
-      "aliases": [
         "Prince Rainier III",
         "Prince Rainier of Monaco",
         "Rainier III",
@@ -1203,9 +1164,11 @@
       "wikidataId": "Q3479546"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Celine Caron-Dagioni"
+      ],
       "countryCode": "MCO",
-      "fullName": "Celine Caron-Dagioni",
+      "fullName": "Céline Caron-Dagioni",
       "id": "celine-caron-dagioni-mco",
       "party": null,
       "photoUrl": null,
@@ -1218,35 +1181,6 @@
           "id": "celine-caron-dagioni-mco-p1",
           "ministry": "Ministry of Public Works, the Environment and Urban Development",
           "portfolio": "environment",
-          "startDate": null,
-          "title": "Minister of Public Works, the Environment and Urban Development"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/monaco/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "MCO",
-      "fullName": "Céline Caron-Dagioni",
-      "id": "celine-caron-dagioni",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "celine-caron-dagioni-p1",
-          "ministry": "Ministry of Public Works, the Environment and Urban Development",
-          "portfolio": "environment",
           "startDate": "2021-09-01",
           "title": "Minister of Public Works, the Environment and Urban Development"
         }
@@ -1255,6 +1189,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q109674486"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/monaco/"
         },
         {
           "label": "Wikipedia",
@@ -2487,6 +2425,34 @@
     {
       "datePrecision": "year",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1999-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "albert-ii-prince-of-monaco--1999-01-01--PHL",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1999-01-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
         "city": "Mexico City",
         "coordinates": [
           -99.1332,
@@ -2511,6 +2477,34 @@
       "startDate": "2002-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2006-04-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "albert-ii-prince-of-monaco--2006-04-18--RUS",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Vladimir Putin met with Prince Albert II of Monaco",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/35402"
+        }
+      ],
+      "startDate": "2006-04-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2569,6 +2563,148 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-10-04",
+      "engagements": [],
+      "eventName": "Meeting with Prince Albert II of Monaco",
+      "id": "albert-ii-prince-of-monaco--2013-10-04--RUS",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Meeting with Prince Albert II of Monaco",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/19364"
+        }
+      ],
+      "startDate": "2013-10-04",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-10-21",
+      "engagements": [],
+      "eventName": "Meeting with Prince of Monaco Albert II",
+      "id": "albert-ii-prince-of-monaco--2015-10-21--RUS",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Meeting with Prince of Monaco Albert II",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50541"
+        }
+      ],
+      "startDate": "2015-10-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-01-18",
+      "engagements": [
+        "Talks covered Church–Monaco ties, environmental protection, humanitarian aid, migration, peace, and the Mediterranean situation."
+      ],
+      "eventName": null,
+      "id": "albert-ii-prince-of-monaco--2016-01-18--VAT",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Pope Francis met Prince Albert II and Princess Charlene of Monaco.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-01-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-04-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "albert-ii-prince-of-monaco--2016-04-06--PHL",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2016-04-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-10-06",
+      "engagements": [],
+      "eventName": "Meeting with Prince Albert II of Monaco",
+      "id": "albert-ii-prince-of-monaco--2016-10-06--RUS",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Meeting with Prince Albert II of Monaco",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/53044"
+        }
+      ],
+      "startDate": "2016-10-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -2598,11 +2734,10 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-02-05",
@@ -2610,11 +2745,15 @@
       "eventName": null,
       "id": "albert-ii-prince-of-monaco--2019-02-04--IND",
       "officialId": "albert-ii-prince-of-monaco",
-      "purpose": "Visit to India",
+      "purpose": "Official visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1148/Official_Visit_of_His_Serene_Highness_Prince_Albert_II_of_Monaco_to_India_February_0405_2019"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2019-02-04",
@@ -2674,6 +2813,34 @@
       "startDate": "2021-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-07-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "albert-ii-prince-of-monaco--2022-07-20--VAT",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-07-20",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -2782,6 +2949,36 @@
       "startDate": "2025-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-01-17",
+      "engagements": [
+        "Talks highlighted strong relations, the Church's role, environment, humanitarian aid, human dignity, and peace, especially in the Middle East and Africa."
+      ],
+      "eventName": null,
+      "id": "albert-ii-prince-of-monaco--2026-01-17--VAT",
+      "officialId": "albert-ii-prince-of-monaco",
+      "purpose": "Pope Leo XIV received Prince Albert II of Monaco.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-01-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4215,6 +4412,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1956-10-11",
@@ -4243,6 +4444,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1961-05-24",
@@ -4280,6 +4485,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "rainier-iii-prince-of-monaco--1971-10-12--IRN",
+      "officialId": "rainier-iii-prince-of-monaco",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -4299,6 +4532,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1976-07-04",
@@ -4327,6 +4564,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1984-02-14",

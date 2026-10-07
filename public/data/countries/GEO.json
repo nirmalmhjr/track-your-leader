@@ -1907,7 +1907,7 @@
       "fullName": "Alexander Chikvaidze",
       "id": "alexander-chikvaidze",
       "party": "Communist Party of the Soviet Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A7%D1%96%D0%BA%D0%B2%D0%B0%D1%97%D0%B4%D0%B7%D0%B5_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%94%D0%B0%D0%B2%D0%B8%D0%B4%D0%BE%D0%B2%D0%B8%D1%87.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2428,7 +2428,7 @@
       "fullName": "David Songulashvili",
       "id": "david-songulashvili",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%E1%83%93%E1%83%90%E1%83%95%E1%83%98%E1%83%97_%E1%83%A1%E1%83%9D%E1%83%9C%E1%83%A6%E1%83%A3%E1%83%9A%E1%83%90%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5867,7 +5867,7 @@
       "fullName": "Mikheil Janelidze",
       "id": "mikheil-janelidze",
       "party": "Georgian Dream",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Georgian_Foreign_Minister_Janelidze_Addresses_Reporters_With_Secretary_Kerry_Before_Their_Meeting_in_Washington_(25695851312).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6535,6 +6535,17 @@
           ],
           "endDate": null,
           "id": "paata-salia-p1",
+          "ministry": "Ministry of Justice and Corrections",
+          "portfolio": "justice",
+          "startDate": "2025-04-01",
+          "title": "Minister of Justice and Corrections"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "paata-salia-p2",
           "ministry": "Ministry of Justice of Georgia",
           "portfolio": "justice",
           "startDate": "2025-04-01",
@@ -6547,41 +6558,16 @@
           "url": "https://www.wikidata.org/wiki/Q137766323"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/georgia/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Paata_Salia"
         }
       ],
       "summary": "Paata Salia is a Georgian lawyer and politician who has served as the minister of justice of Georgia since April 2025. A member of the Georgian Dream party, he was appointed to this role by Prime Minister Irakli Kobakhidze.",
       "wikidataId": "Q137766323"
-    },
-    {
-      "aliases": [],
-      "countryCode": "GEO",
-      "fullName": "Paata Salia",
-      "id": "paata-salia-geo",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "paata-salia-geo-p1",
-          "ministry": "Ministry of Justice and Corrections",
-          "portfolio": "justice",
-          "startDate": null,
-          "title": "Minister of Justice and Corrections"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/georgia/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -6884,31 +6870,13 @@
           "portfolio": "youth",
           "startDate": "2025-01-01",
           "title": "Minister of Sport of Georgia"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q141174875"
-        }
-      ],
-      "summary": "Georgian public official and lawyer (born 1979).",
-      "wikidataId": "Q141174875"
-    },
-    {
-      "aliases": [],
-      "countryCode": "GEO",
-      "fullName": "Shalva Gogoladze",
-      "id": "shalva-gogoladze-geo",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "shalva-gogoladze-geo-p1",
+          "id": "shalva-gogoladze-p2",
           "ministry": "Ministry of Sports",
           "portfolio": "youth",
           "startDate": null,
@@ -6917,12 +6885,16 @@
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q141174875"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/georgia/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Georgian public official and lawyer (born 1979).",
+      "wikidataId": "Q141174875"
     },
     {
       "aliases": [],
@@ -8242,7 +8214,7 @@
       "fullName": "Avtandil Jorbenadze",
       "id": "avtandil-jorbenadze",
       "party": "Union of Citizens of Georgia",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shevardnadze_at_the_GTEP_graduation_Ceremony.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -8713,35 +8685,6 @@
       ],
       "summary": "David Bakradze is a Georgian politician and diplomat who served as the Chairman of the Parliament of Georgia from 7 June 2008 to 21 October 2012. Bakradze's previous assignments include a member of the Parliament from the United National Movement (April 2004-September 2007), Minister for the Conflict Issues (July 2007-January 2008), Minister of Foreign Affairs (January 2008-April 2008), and the President of Georgia's special envoy to NATO and the European Union (April 2008-June 2008).",
       "wikidataId": "Q673705"
-    },
-    {
-      "aliases": [],
-      "countryCode": "GEO",
-      "fullName": "Tamar Taliashvili",
-      "id": "tamar-taliashvili-geo",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "diplomat"
-          ],
-          "endDate": null,
-          "id": "tamar-taliashvili-geo-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2026-10-05",
-          "title": "Ambassador to the US"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/georgia/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [
@@ -10189,6 +10132,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1994-03-06",
@@ -10679,6 +10626,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10889,6 +10840,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10951,6 +10906,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -11213,6 +11172,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2001-11-03",
@@ -12496,7 +12459,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-04-22",
+      "endDate": "2017-04-23",
       "engagements": [],
       "eventName": null,
       "id": "giorgi-kvirikashvili--2017-04-22--IRN",
@@ -12504,13 +12467,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2017-04-22",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -13074,6 +13041,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-04-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "giorgi-marghvilashvili--2015-04-10--VAT",
+      "officialId": "giorgi-marghvilashvili",
+      "purpose": "Pope Francis met Georgian President Giorgi Margvelashvili, discussing bilateral ties, the Catholic Church’s social role, regional tensions,…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2015-04-10",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Brasília",
@@ -13123,6 +13118,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2016-03-31",
@@ -13493,6 +13492,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -16481,6 +16484,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2024-05-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "irakli-kobakhidze--2024-05-22--IRN",
+      "officialId": "irakli-kobakhidze",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2024-05-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Berlin",
         "coordinates": [
           13.405,
@@ -17141,13 +17172,18 @@
       },
       "endDate": "2025-11-24",
       "engagements": [
+        "They affirmed strong Holy See–Georgia ties, discussed the Church's situation, and reviewed bilateral issues, regional developments, and national challenges.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
       "id": "irakli-kobakhidze--2025-11-24--VAT",
       "officialId": "irakli-kobakhidze",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Georgian PM Kobakhidze.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17155,7 +17191,7 @@
       ],
       "startDate": "2025-11-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -17831,6 +17867,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "mikheil-kavelashvili--2025-05-19--VAT",
+      "officialId": "mikheil-kavelashvili",
+      "purpose": "Attending Papal inauguration of Pope Leo XIV",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-05-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -17970,6 +18034,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -19056,18 +19124,22 @@
         "Met President Vladimir Putin"
       ],
       "eventName": "G8 Summit",
-      "id": "mikheil-saakashvili--2006-06-13--RUS",
+      "id": "mikheil-saakashvili--2006-06-14--RUS",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Attended G8 Summit",
+      "purpose": "President Vladimir Putin met with the President of Georgia, Mikhail Saakashvili",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/35724"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-06-13",
+      "startDate": "2006-06-14",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19093,6 +19165,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -20000,15 +20076,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-02-22",
+      "endDate": "2008-02-21",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": "Commonwealth of Independent States (CIS) Summit",
       "id": "mikheil-saakashvili--2008-02-21--RUS",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "President Vladimir Putin met with President of Georgia Mikhail Saakashvili",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43849"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20016,7 +20096,7 @@
       ],
       "startDate": "2008-02-21",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20072,6 +20152,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -20164,8 +20248,12 @@
       "eventName": "Commonwealth of Independent States (CIS) Summit",
       "id": "mikheil-saakashvili--2008-06-06--RUS",
       "officialId": "mikheil-saakashvili",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "President Dmitry Medvedev met with President of Georgia Mikheil Saakashvili",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/44351"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20173,7 +20261,7 @@
       ],
       "startDate": "2008-06-06",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21199,6 +21287,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21618,6 +21710,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -22005,6 +22101,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -22096,7 +22196,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -22805,6 +22905,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "salome-zourabichvili--2016-06-18--VAT",
+      "officialId": "salome-zourabichvili",
+      "purpose": "Pope Francis met Georgia’s President Salomé Zourabichvili to discuss bilateral ties, culture, science, education, the Church’s role, and re…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-06-18",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -23220,6 +23348,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2020-01-23",
@@ -23290,7 +23419,7 @@
       ],
       "startDate": "2021-05-10",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -23458,6 +23587,34 @@
       "startDate": "2021-10-13",
       "statusHint": null,
       "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-04-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "salome-zourabichvili--2022-04-27--USA",
+      "officialId": "salome-zourabichvili",
+      "purpose": "Attended the Madeleine Albright Memorial Service",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "2022-04-27",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",

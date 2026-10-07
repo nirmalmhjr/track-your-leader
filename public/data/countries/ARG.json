@@ -3034,7 +3034,7 @@
       "fullName": "Esteban Righi",
       "id": "esteban-righi",
       "party": "Justicialist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Esteban_Righi%2C_pol%C3%ADtico_argentino.png?width=160",
       "positions": [
         {
           "categories": [
@@ -8338,11 +8338,11 @@
       "eventName": null,
       "id": "alberto-fernandez--2020-01-31--VAT",
       "officialId": "alberto-fernandez",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Argentina’s President Alberto Fernández to discuss strong ties, the economic crisis, poverty, corruption, life protection,…",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Holy_See_relations"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
         },
         {
           "label": "COLT dataset",
@@ -8706,8 +8706,12 @@
       "eventName": null,
       "id": "alberto-fernandez--2021-05-13--VAT",
       "officialId": "alberto-fernandez",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Argentina’s President Alberto Fernández to discuss bilateral ties, the COVID-19 response, economic crisis, poverty, the Ch…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8715,7 +8719,7 @@
       ],
       "startDate": "2021-05-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -8850,15 +8854,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2022-02-04",
+      "endDate": "2022-02-03",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "alberto-fernandez--2022-02-03--RUS",
       "officialId": "alberto-fernandez",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with President of Argentina Alberto Fernandez",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/67704"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Russia_relations"
@@ -8870,7 +8878,7 @@
       ],
       "startDate": "2022-02-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9460,6 +9468,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9693,17 +9705,17 @@
       },
       "endDate": "2023-09-10",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Gave a public address"
+        "There were five leaders who were invited but did not attend (3 G20 members and 2 invitees): The Chinese leader Xi Jinping was represented by Premier Li Qiang.",
+        "The President of Russia Vladimir Putin was represented by Foreign Minister Sergei Lavrov."
       ],
       "eventName": "2023 G20 New Delhi summit",
       "id": "alberto-fernandez--2023-09-09--IND",
       "officialId": "alberto-fernandez",
-      "purpose": "Attended the 2023 G20 New Delhi summit",
+      "purpose": "2023 G20 New Delhi summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -9967,7 +9979,7 @@
       },
       "endDate": "1959-01-23",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Addressed U.S. Congress",
       "id": "arturo-frondizi--1959-01-20--USA",
       "officialId": "arturo-frondizi",
       "purpose": "State visit.",
@@ -9975,6 +9987,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1959-01-20",
@@ -10122,34 +10138,6 @@
       "type": "other"
     },
     {
-      "datePrecision": "year",
-      "destination": {
-        "city": "Manila",
-        "coordinates": [
-          120.977222222,
-          14.595833333
-        ],
-        "countryCode": "PHL",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1961-12-31",
-      "engagements": [],
-      "eventName": null,
-      "id": "arturo-frondizi--1961-01-01--PHL",
-      "officialId": "arturo-frondizi",
-      "purpose": "Visit to Philippines",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93Philippines_relations"
-        }
-      ],
-      "startDate": "1961-01-01",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -10171,11 +10159,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1961-09-26",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1961-12-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "arturo-frondizi--1961-12-11--PHL",
+      "officialId": "arturo-frondizi",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1961-12-11",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10227,6 +10247,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1961-12-24",
@@ -10391,6 +10415,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1989-09-27",
@@ -10531,6 +10559,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1990-10-01",
@@ -10587,6 +10619,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1991-11-13",
@@ -10699,6 +10735,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1993-06-28",
@@ -10783,6 +10823,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1994-06-24",
@@ -10844,6 +10888,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -11604,6 +11652,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12266,7 +12318,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
         },
         {
           "label": "COLT dataset",
@@ -12847,6 +12899,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13168,7 +13224,7 @@
       "engagements": [
         "Met President Bill Clinton"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "United Nations General Assembly",
       "id": "carlos-menem--1999-09-21--USA",
       "officialId": "carlos-menem",
       "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
@@ -13176,6 +13232,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -13802,7 +13862,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2008_G20_Washington_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -14930,6 +14990,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -16108,16 +16172,20 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "cristina-fernandez-de-kirchner--2013-03-17--VAT",
+      "id": "cristina-fernandez-de-kirchner--2013-03-18--VAT",
       "officialId": "cristina-fernandez-de-kirchner",
       "purpose": "Visit to Vatican City",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-03-17",
+      "startDate": "2013-03-18",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16551,16 +16619,20 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "cristina-fernandez-de-kirchner--2014-03-16--VAT",
+      "id": "cristina-fernandez-de-kirchner--2014-03-17--VAT",
       "officialId": "cristina-fernandez-de-kirchner",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis received Argentina’s President Fernández de Kirchner and her delegation at Casa Santa Marta, exchanging greetings and affectio…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-03-16",
+      "startDate": "2014-03-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -16710,6 +16782,10 @@
       "purpose": "Visit to Vatican City",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16858,24 +16934,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-04-24",
+      "endDate": "2015-04-23",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
-      "id": "cristina-fernandez-de-kirchner--2015-04-20--RUS",
+      "eventName": "Meeting with President of Argentina Cristina Fernandez de Kirchner",
+      "id": "cristina-fernandez-de-kirchner--2015-04-23--RUS",
       "officialId": "cristina-fernandez-de-kirchner",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Argentina Cristina Fernandez de Kirchner",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49322"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-20",
+      "startDate": "2015-04-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16919,13 +16999,18 @@
       },
       "endDate": "2015-06-07",
       "engagements": [
+        "In a warm meeting, they discussed national matters, exchanged meaningful gifts, and greeted her delegation.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "cristina-fernandez-de-kirchner--2015-06-07--VAT",
       "officialId": "cristina-fernandez-de-kirchner",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met privately with Argentine President Cristina Fernández de Kirchner.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17055,6 +17140,34 @@
       "startDate": "2015-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-10-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "cristina-fernandez-de-kirchner--2015-10-21--RUS",
+      "officialId": "cristina-fernandez-de-kirchner",
+      "purpose": "Conversation with President of Argentina Cristina Fernandez de Kirchner",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50543"
+        }
+      ],
+      "startDate": "2015-10-21",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "year",
@@ -17919,6 +18032,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18449,6 +18566,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18635,6 +18756,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18812,6 +18937,34 @@
         }
       ],
       "startDate": "2018-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "gerardo-werthein--2025-05-19--VAT",
+      "officialId": "gerardo-werthein",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-05-19",
       "statusHint": null,
       "type": "other"
     },
@@ -19502,36 +19655,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Vatican City",
-        "coordinates": [
-          12.453,
-          41.904
-        ],
-        "countryCode": "VAT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2024-02-12",
-      "engagements": [
-        "Met Pope Francis"
-      ],
-      "eventName": null,
-      "id": "javier-milei--2024-02-11--VAT",
-      "officialId": "javier-milei",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2024-02-11",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Rome",
         "coordinates": [
           12.4964,
@@ -19550,6 +19673,40 @@
       "officialId": "javier-milei",
       "purpose": "Visit to Italy",
       "sources": [
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2024-02-12",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-02-12",
+      "engagements": [
+        "Met Pope Francis"
+      ],
+      "eventName": null,
+      "id": "javier-milei--2024-02-12--VAT",
+      "officialId": "javier-milei",
+      "purpose": "Pope Francis met Argentine President Javier Milei, noting strong Holy See–Argentina ties, discussing the new government’s plans to address…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19769,7 +19926,7 @@
         "There, Milei met with heads of state of the G7 such as French President Emmanuel Macron and U.S.",
         "President Joe Biden, as well as other invited leaders."
       ],
-      "eventName": "G7",
+      "eventName": "50th G7 summit",
       "id": "javier-milei--2024-06-13--ITA",
       "officialId": "javier-milei",
       "purpose": "Argentina was one of the countries invited to the 50th G7 summit hosted by Italy at the Borgo Egnazia resort in Apulia.",
@@ -19970,7 +20127,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Invitado en la Allen & Co. Sun Valley Conference.​",
+      "eventName": null,
       "id": "javier-milei--2024-07-12--USA",
       "officialId": "javier-milei",
       "purpose": "Milei travelled to Sun Valley, Idaho as an invitee to the Allen & Company meeting with business and technology executives.",
@@ -20258,7 +20415,7 @@
         "Met President Donald Trump",
         "Gave a public address"
       ],
-      "eventName": null,
+      "eventName": "Invited to the presidential inauguration",
       "id": "javier-milei--2025-01-19--USA",
       "officialId": "javier-milei",
       "purpose": "Attended the second inauguration of Donald Trump.",
@@ -20424,7 +20581,7 @@
       "engagements": [
         "Met Prime Minister Giorgia Meloni"
       ],
-      "eventName": "Funeral",
+      "eventName": null,
       "id": "javier-milei--2025-04-25--ITA",
       "officialId": "javier-milei",
       "purpose": "Attended the funeral of Pope Francis together with several ministers and secretaries, and held a private meeting with Italian prime ministe…",
@@ -20455,7 +20612,7 @@
       },
       "endDate": "2025-04-26",
       "engagements": [],
-      "eventName": "Funeral",
+      "eventName": null,
       "id": "javier-milei--2025-04-25--VAT",
       "officialId": "javier-milei",
       "purpose": "Attended the funeral of Pope Francis together with several ministers and secretaries, and held a private meeting with Italian prime ministe…",
@@ -20814,7 +20971,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Javier_Milei"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -20840,7 +20997,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Participante en el \"America Business Forum\"​",
+      "eventName": null,
       "id": "javier-milei--2025-11-05--USA",
       "officialId": "javier-milei",
       "purpose": "Participated in the \"America Business Forum\".",
@@ -21018,14 +21175,14 @@
       },
       "endDate": "2026-02-19",
       "engagements": [],
-      "eventName": null,
+      "eventName": "To attend the first meeting of the Board of Peace.",
       "id": "javier-milei--2026-02-19--USA",
       "officialId": "javier-milei",
       "purpose": "Attended the inaugural meeting of the Board of Peace.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Javier_Milei"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "2026-02-19",
@@ -21145,10 +21302,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jerusalén",
+        "city": "Ramat Gan",
         "coordinates": [
-          35.234156,
-          31.776679
+          34.823541,
+          32.070007
         ],
         "countryCode": "ISR",
         "region": "Asia"
@@ -21156,23 +21313,23 @@
       "endDate": "2026-04-22",
       "engagements": [],
       "eventName": null,
-      "id": "javier-milei--2026-04-18--ISR",
+      "id": "javier-milei--2026-04-19--ISR",
       "officialId": "javier-milei",
-      "purpose": "Festejos por el 78º aniversario de la creación del Estado de Israel, visita al Muro de las lamentaciones y al Santo sepulcro, Recibimiento…",
+      "purpose": "Visit to Israel",
       "sources": [
         {
           "label": "Wikipedia",
           "url": "https://es.wikipedia.org/wiki/Anexo%3AViajes_internacionales_del_presidente_Javier_Milei"
         }
       ],
-      "startDate": "2026-04-18",
+      "startDate": "2026-04-19",
       "statusHint": null,
       "type": "other"
     },
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Los Ángeles",
+        "city": "Los Angeles",
         "coordinates": [
           -118.24368,
           34.05223
@@ -21187,7 +21344,7 @@
       "eventName": null,
       "id": "javier-milei--2026-05-05--USA",
       "officialId": "javier-milei",
-      "purpose": "Encuentro con Michael Milken y conferencia en el Instituto Milken.​",
+      "purpose": "Attended a conference of the Milken Institute in Beverly Hills.",
       "sources": [
         {
           "label": "Wikipedia",
@@ -21231,7 +21388,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Sao Paulo",
+        "city": "São Paulo",
         "coordinates": [
           -46.633947222,
           -23.550394444
@@ -21246,7 +21403,7 @@
       "eventName": null,
       "id": "javier-milei--2026-07-24--BRA",
       "officialId": "javier-milei",
-      "purpose": "Manifestar públicamente su apoyo a Flávio Bolsonaro, líder del Partido Liberal y recibir la Orden de Ipiranga en el grado de Gran Cruz.​",
+      "purpose": "Visited presidential candidate Flávio Bolsonaro and endorsed his candidacy for president of Brazil, strongly criticizing President Luiz Iná…",
       "sources": [
         {
           "label": "Wikipedia",
@@ -21621,6 +21778,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1977-09-06",
@@ -21915,13 +22076,11 @@
         "region": "Americas"
       },
       "endDate": "2015-12-05",
-      "engagements": [
-        "Macri afirmou que preferiu o Brasil como seu primeiro destino internacional por conta do volumoso comércio e dos laços político-culturais entre os dois países."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "mauricio-macri--2015-12-05--BRA",
       "officialId": "mauricio-macri",
-      "purpose": "Em 5 de dezembro, Macri realizou sua primeira viagem como Presidente-eleito ao Brasil, onde foi recebido pela Presidente Dilma Rousseff no…",
+      "purpose": "Visit to Brazil",
       "sources": [
         {
           "label": "Wikipedia",
@@ -21949,7 +22108,7 @@
       "eventName": null,
       "id": "mauricio-macri--2015-12-05--CHL",
       "officialId": "mauricio-macri",
-      "purpose": "Macri viajou à capital chilena, onde foi recebido pela Presidente Michelle Bachelet no Palacio de la Moneda.",
+      "purpose": "Visit to Chile",
       "sources": [
         {
           "label": "Wikipedia",
@@ -21999,8 +22158,8 @@
       "destination": {
         "city": "Colonia del Sacramento",
         "coordinates": [
-          -57.843369444,
-          -34.469886111
+          -57.807108,
+          -34.448644
         ],
         "countryCode": "URY",
         "region": "Americas"
@@ -22110,7 +22269,7 @@
       "endDate": "2016-02-27",
       "engagements": [
         "After that, Macri met with Italian Prime Minister, Matteo Renzi.",
-        "Met Pope Francis"
+        "Talks focused on Church–state ties, poverty, human rights, drug trafficking, and the Church’s role in social development amid economic challenges."
       ],
       "eventName": null,
       "id": "mauricio-macri--2016-02-27--VAT",
@@ -22156,7 +22315,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Mauricio_Macri"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -22480,11 +22639,15 @@
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "2016 G20 Hangzhou summit",
-      "id": "mauricio-macri--2016-09-04--CHN",
+      "eventName": "Meeting with President of Argentina Mauricio Macri",
+      "id": "mauricio-macri--2016-09-05--CHN",
       "officialId": "mauricio-macri",
-      "purpose": "President Macri traveled to China to attend the G-20 summit meeting in Hangzhou.",
+      "purpose": "Meeting with President of Argentina Mauricio Macri",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/52833"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mauricio_Macri"
@@ -22494,9 +22657,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-09-04",
+      "startDate": "2016-09-05",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22740,7 +22903,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-03-28",
+      "endDate": "2017-03-29",
       "engagements": [
         "They visited the Anne Frank House, Organisation for the Prohibition of Chemical Weapons and the International Criminal Court.",
         "Met Prime Minister Mark Rutte"
@@ -22752,7 +22915,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Willem-Alexander_of_the_Netherlands"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mauricio_Macri"
         },
         {
           "label": "COLT dataset",
@@ -22761,7 +22924,7 @@
       ],
       "startDate": "2017-03-27",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23262,13 +23425,17 @@
         "precision": "country",
         "region": "Africa"
       },
-      "endDate": "2018-07-27",
+      "endDate": "2018-07-26",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "Meeting with President of Argentina Mauricio Macri",
       "id": "mauricio-macri--2018-07-26--ZAF",
       "officialId": "mauricio-macri",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Meeting with President of Argentina Mauricio Macri",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58108"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Argentina%E2%80%93South_Africa_relations"
@@ -23280,7 +23447,7 @@
       ],
       "startDate": "2018-07-26",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -24051,6 +24218,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -24833,23 +25004,27 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2005-09-16",
+      "endDate": "2005-09-15",
       "engagements": [
         "Gave a public address"
       ],
       "eventName": "United Nations (UN) General Assembly",
-      "id": "nestor-kirchner--2005-09-13--USA",
+      "id": "nestor-kirchner--2005-09-15--USA",
       "officialId": "nestor-kirchner",
-      "purpose": "Attended United Nations (UN) General Assembly",
+      "purpose": "Vladimir Putin met with President of Argentina Nestor Kirchner",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/34071"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-09-13",
+      "startDate": "2005-09-15",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -25758,6 +25933,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1984-08-23",
+      "engagements": [],
+      "eventName": "U.N. General Assembly",
+      "id": "raul-alfonsin--1984-08-23--USA",
+      "officialId": "raul-alfonsin",
+      "purpose": "Private visit. Met with President Reagan at U.N. General Assembly reception in New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        }
+      ],
+      "startDate": "1984-08-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1984-09-23",
       "engagements": [],
       "eventName": null,
@@ -25844,7 +26047,7 @@
       },
       "endDate": "1985-03-20",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Addressed Joint Meeting of U.S. Congress",
       "id": "raul-alfonsin--1985-03-18--USA",
       "officialId": "raul-alfonsin",
       "purpose": "State Visit.",
@@ -25852,6 +26055,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1985-03-18",
@@ -26020,6 +26227,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1986-11-16",
@@ -26160,6 +26371,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1981-03-15",
@@ -26247,6 +26462,34 @@
         }
       ],
       "startDate": "2017-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-10-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "victoria-villarruel--2024-10-14--VAT",
+      "officialId": "victoria-villarruel",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-10-14",
       "statusHint": null,
       "type": "other"
     },

@@ -160,3 +160,10 @@ export interface TravelSummary {
     tripCount: number;
     upcomingCount: number;
 }
+
+/** One office an official held, with every term they served in it (newest first). */
+export interface OfficeTerms {
+    isCurrent: boolean;
+    terms: Position[];
+    title: string;
+}

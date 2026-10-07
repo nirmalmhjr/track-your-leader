@@ -941,7 +941,7 @@
       "fullName": "Joana Rosa",
       "id": "joana-rosa",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joana_Rosa.png?width=160",
       "positions": [
         {
           "categories": [
@@ -2770,6 +2770,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1983-10-03",
@@ -2826,6 +2830,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1992-01-30",
@@ -3220,16 +3228,20 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "jorge-carlos-fonseca--2013-06-02--VAT",
+      "id": "jorge-carlos-fonseca--2013-06-03--VAT",
       "officialId": "jorge-carlos-fonseca",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cape Verde’s President Jorge Fonseca to discuss Church relations, cultural identity, the Church’s role in education and he…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-06-02",
+      "startDate": "2013-06-03",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -3517,6 +3529,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -4493,15 +4509,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-11-17",
+      "endDate": "2019-11-16",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "jorge-carlos-fonseca--2019-11-16--VAT",
       "officialId": "jorge-carlos-fonseca",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cabo Verde’s President Jorge Carlos Fonseca to discuss implementing the 2014 Agreement, moral education, Manuel’s beatific…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4978,6 +4998,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2013-03-28",
@@ -5010,6 +5034,34 @@
       "startDate": "2013-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-04-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-maria-neves--2014-04-03--VAT",
+      "officialId": "jose-maria-neves",
+      "purpose": "Pope Francis met Cape Verde’s PM Neves, followed by the exchange of ratification instruments for the 2013 agreement on the Catholic Church’…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-04-03",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -6252,6 +6304,36 @@
       "startDate": "2024-06-14",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-06-14",
+      "engagements": [
+        "Talks highlighted good relations, social and economic issues, the 2014 agreement, and global security, migration and trafficking."
+      ],
+      "eventName": null,
+      "id": "jose-maria-neves--2024-06-14--VAT",
+      "officialId": "jose-maria-neves",
+      "purpose": "Pope Francis met Cabo Verde President Neves, then Cardinal Parolin.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-06-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9257,6 +9339,34 @@
       "startDate": "2025-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "ulisses-correia-e-silva--2026-02-14--VAT",
+      "officialId": "ulisses-correia-e-silva",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-02-14",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

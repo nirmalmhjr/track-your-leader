@@ -65,54 +65,6 @@
     {
       "aliases": [],
       "countryCode": "XKX",
-      "fullName": "Hashim Thaci",
-      "id": "hashim-thaci",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "2014-10-23",
-          "id": "hashim-thaci-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2008-01-22",
-          "title": "Prime Minister"
-        },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2012-06-30",
-          "id": "hashim-thaci-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2012-06-01",
-          "title": "June : Prime Minister with Minister of Foreign Affairs Enver Hoxhaj, Minister of Education, Science and Technology Ramë Buja and Minister of Finance Bedri Hamza"
-        }
-      ],
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        },
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Japan%E2%80%93Kosovo_relations"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "XKX",
       "fullName": "Isa Mustafa",
       "id": "isa-mustafa",
       "party": null,
@@ -366,6 +318,35 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/kosovo/"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "XKX",
+      "fullName": "Atifete Jahjaga",
+      "id": "atifete-jahjaga",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2015-11-25",
+          "id": "atifete-jahjaga-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2015-11-25",
+          "title": "President of Kosovo"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
         }
       ],
       "summary": "",
@@ -685,6 +666,69 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/kosovo/"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "XKX",
+      "fullName": "Hashim Thaci",
+      "id": "hashim-thaci",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2017-06-01",
+          "id": "hashim-thaci-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2017-06-01",
+          "title": "President of Kosovo"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2014-10-23",
+          "id": "hashim-thaci-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2008-01-22",
+          "title": "Prime Minister"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2012-06-30",
+          "id": "hashim-thaci-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2012-06-01",
+          "title": "June : Prime Minister with Minister of Foreign Affairs Enver Hoxhaj, Minister of Education, Science and Technology Ramë Buja and Minister of Finance Bedri Hamza"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        },
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Japan%E2%80%93Kosovo_relations"
         }
       ],
       "summary": "",
@@ -5203,6 +5247,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Zagreb",
+        "coordinates": [
+          15.977222222,
+          45.813055555
+        ],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-11-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "atifete-jahjaga--2015-11-25--HRV",
+      "officialId": "atifete-jahjaga",
+      "purpose": "Visit to Croatia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        }
+      ],
+      "startDate": "2015-11-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -8858,6 +8930,34 @@
         }
       ],
       "startDate": "2014-10-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Zagreb",
+        "coordinates": [
+          15.977222222,
+          45.813055555
+        ],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-06-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "hashim-thaci--2017-06-01--HRV",
+      "officialId": "hashim-thaci",
+      "purpose": "Visit to Croatia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        }
+      ],
+      "startDate": "2017-06-01",
       "statusHint": null,
       "type": "other"
     },

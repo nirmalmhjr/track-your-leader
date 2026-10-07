@@ -53,7 +53,8 @@ const leaderTerms = (country: CountryCode, officials: readonly WarehouseOfficial
     const terms: Term[] = officials.flatMap((official) =>
         official.positions.flatMap((position) => {
             const [role] = position.categories;
-            if (!(role && LEADER_ROLES.has(role) && position.startDate)) {
+            // Terms of unknown dates (`undated`) say nothing about any year.
+            if (!(role && LEADER_ROLES.has(role) && position.startDate) || position.undated) {
                 return [];
             }
             return [
@@ -152,6 +153,105 @@ export const leaderYears = (
     );
 };
 
+/** Titles of reigning monarchs (and the Pope and Andorra's co-prince, heads of state for life). */
+const MONARCH_TITLE =
+    /\b(?:king|queen|emperor|empress|shah|sultan|emir|amir|grand duke|grand duchess|prince|co-prince|bey|mwami|tsar|negus|monarch|pope|yang di-pertuan agong)\b/i;
+
+/** One reign's trips, for the monarchs section. */
+export interface Reign {
+    country: CountryCode;
+    isCurrent: boolean;
+    official: string;
+    trips: number;
+    years: number;
+}
+
+/**
+ * Every monarch's years in office, summed per monarch: anyone whose head-of-state title is a
+ * monarch's ("King of Nepal", "Sultan of Oman").
+ *
+ * @param entries - Leader-years from `leaderYears`.
+ * @param files - The country files, for the monarchs' titles.
+ * @param today - Today's date.
+ * @returns One entry per monarch, fewest trips per year first.
+ */
+export const monarchReigns = (
+    entries: readonly LeaderYear[],
+    files: ReadonlyMap<CountryCode, { officials: WarehouseOfficial[] }>,
+    today: IsoDate
+): Reign[] => {
+    const monarchs = new Set(
+        [...files.values()].flatMap((file) =>
+            file.officials
+                .filter((official) =>
+                    official.positions.some(
+                        (position) =>
+                            position.categories.includes("head_of_state") &&
+                            MONARCH_TITLE.test(position.title)
+                    )
+                )
+                .map((official) => official.id)
+        )
+    );
+    const currentYear = Number(today.slice(0, 4));
+    const reigns = new Map<string, Reign>();
+    for (const entry of entries) {
+        if (entry.role !== "head_of_state" || !monarchs.has(entry.officialId)) {
+            continue;
+        }
+        const reign = reigns.get(entry.officialId) ?? {
+            country: entry.country,
+            isCurrent: false,
+            official: entry.official,
+            trips: 0,
+            years: 0,
+        };
+        reign.trips += entry.trips;
+        reign.years += 1;
+        reign.isCurrent ||= entry.year === currentYear;
+        reigns.set(entry.officialId, reign);
+    }
+    return [...reigns.values()].sort((a, b) => a.trips / a.years - b.trips / b.years);
+};
+
+const summarizeReigns = (reigns: readonly Reign[]) => {
+    const years = reigns.reduce((total, reign) => total + reign.years, 0);
+    const trips = reigns.reduce((total, reign) => total + reign.trips, 0);
+    return {
+        reigns: reigns.length,
+        tripsPerYear: years ? Math.round((trips / years) * 10) / 10 : 0,
+        years,
+    };
+};
+
+/** Office holders without a photo: by role, and by name for those in office today. */
+export const missingPhotos = (
+    files: ReadonlyMap<CountryCode, { officials: WarehouseOfficial[] }>
+): {
+    byRole: Record<string, { total: number; withoutPhoto: number }>;
+    currentWithoutPhoto: string[];
+} => {
+    const byRole: Record<string, { total: number; withoutPhoto: number }> = {};
+    const currentWithoutPhoto: string[] = [];
+    for (const [country, file] of files) {
+        for (const official of file.officials) {
+            const [first] = official.positions;
+            const role = first?.categories[0] ?? "senior_official";
+            const entry = byRole[role] ?? { total: 0, withoutPhoto: 0 };
+            entry.total += 1;
+            if (!official.photoUrl) {
+                entry.withoutPhoto += 1;
+                const isCurrent = first !== undefined && first.endDate === null && !first.undated;
+                if (isCurrent && LEADER_ROLES.has(role)) {
+                    currentWithoutPhoto.push(`${country} · ${official.fullName} (${first.title})`);
+                }
+            }
+            byRole[role] = entry;
+        }
+    }
+    return { byRole, currentWithoutPhoto: currentWithoutPhoto.sort() };
+};
+
 interface PeriodSummary {
     leaderYears: number;
     period: string;
@@ -171,7 +271,18 @@ const summarize = (period: string, entries: readonly LeaderYear[]): PeriodSummar
  * @returns The summary per period, recent years first.
  */
 export const writeCoverageReport = async (today: IsoDate): Promise<PeriodSummary[]> => {
-    const entries = leaderYears(await readCountries(), today);
+    const files = await readCountries();
+    const entries = leaderYears(files, today);
+    const reigns = monarchReigns(entries, files, today);
+    const monarchs = {
+        current: summarizeReigns(reigns.filter((reign) => reign.isCurrent)),
+        past: summarizeReigns(reigns.filter((reign) => !reign.isCurrent)),
+        // "country · monarch: trips in years (per year)", fewest trips per year first.
+        reigns: reigns.map(
+            (reign) =>
+                `${reign.country} · ${reign.official}${reign.isCurrent ? " (reigning)" : ""}: ${reign.trips} trips in ${reign.years} years (${(reign.trips / reign.years).toFixed(1)}/year)`
+        ),
+    };
     const recent = entries.filter((entry) => entry.year >= RECENT_FROM_YEAR);
     const older = entries.filter((entry) => entry.year < RECENT_FROM_YEAR);
     const summary = [
@@ -200,6 +311,8 @@ export const writeCoverageReport = async (today: IsoDate): Promise<PeriodSummary
     await writeWarehouseFile("coverage.json", {
         byCountry,
         generatedOn: today,
+        monarchs,
+        photos: missingPhotos(files),
         summary,
         thin,
         thinYearMaxTrips: THIN_YEAR_MAX_TRIPS,

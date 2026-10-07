@@ -1091,9 +1091,11 @@
       "wikidataId": "Q111828612"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Americo Muchanga"
+      ],
       "countryCode": "MOZ",
-      "fullName": "Americo Muchanga",
+      "fullName": "Américo Paulo Noé Muchanga",
       "id": "americo-muchanga",
       "party": null,
       "photoUrl": null,
@@ -1116,8 +1118,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Mozambique.",
+      "wikidataId": "Q111841461"
     },
     {
       "aliases": [
@@ -1760,6 +1762,7 @@
     },
     {
       "aliases": [
+        "Beatriz da Consolacao Mateus Buchili",
         "Beatriz da Consolação Mateus Buchili"
       ],
       "countryCode": "MOZ",
@@ -1777,13 +1780,24 @@
           "ministry": null,
           "portfolio": null,
           "startDate": "2014-07-21",
+          "title": "Attorney General"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "beatriz-buchili-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2014-07-21",
           "title": "Attorney General of Mozambique"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q27480289"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
         },
         {
           "label": "Wikipedia",
@@ -1792,35 +1806,6 @@
       ],
       "summary": "Beatriz da Consolação Mateus Buchili is a Mozambican lawyer. She is the first woman to be Attorney General of Mozambique.",
       "wikidataId": "Q27480289"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MOZ",
-      "fullName": "Beatriz da Consolacao Mateus Buchili",
-      "id": "beatriz-da-consolacao-mateus-buchili",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "beatriz-da-consolacao-mateus-buchili-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Attorney General"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [
@@ -1948,11 +1933,14 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Carla Alexandra Louveira",
+        "Carla Alexandra Oreste do Rosário Fernandes Loveira"
+      ],
       "countryCode": "MOZ",
-      "fullName": "Carla Alexandra Louveira",
-      "id": "carla-alexandra-louveira",
-      "party": null,
+      "fullName": "Carla Louveira",
+      "id": "carla-louveira",
+      "party": "FRELIMO",
       "photoUrl": null,
       "positions": [
         {
@@ -1960,21 +1948,37 @@
             "minister"
           ],
           "endDate": null,
-          "id": "carla-alexandra-louveira-p1",
+          "id": "carla-louveira-p1",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": null,
           "title": "Minister of Finance"
+        },
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "carla-louveira-p2",
+          "ministry": null,
+          "portfolio": "finance",
+          "startDate": null,
+          "title": "Deputy Minister of Economy and Finance of Mozambique",
+          "undated": true
         }
       ],
       "sources": [
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Carla_Louveira"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Carla Alexandra Oreste do Rosário Fernandes Louveira has been Mozambican Finance Minister since 17 January 2025. She has a degree in economics from Eduardo Mondlane University.",
+      "wikidataId": "Q111893389"
     },
     {
       "aliases": [],
@@ -4657,33 +4661,76 @@
       "wikidataId": "Q109950528"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Maria Manuela dos Santos Lucas"
+      ],
       "countryCode": "MOZ",
-      "fullName": "Maria Dos Santos Lucas",
-      "id": "maria-dos-santos-lucas",
-      "party": null,
-      "photoUrl": null,
+      "fullName": "Maria Manuela Lucas",
+      "id": "maria-manuela-lucas",
+      "party": "FRELIMO",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria_Manuela_dos_Santos_Lucas_28-4-2025_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "maria-dos-santos-lucas-p1",
+          "id": "maria-manuela-lucas-p1",
           "ministry": "Ministry of Foreign Affairs and Cooperation",
           "portfolio": "foreign_affairs",
-          "startDate": null,
+          "startDate": "2017-12-21",
           "title": "Minister of Foreign Affairs and Cooperation"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": null,
+          "id": "maria-manuela-lucas-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2022-10-05",
+          "title": "High Comissioner of Mozambique to South Africa"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2020-02-06",
+          "id": "maria-manuela-lucas-p3",
+          "ministry": null,
+          "portfolio": "foreign_affairs",
+          "startDate": "2017-12-21",
+          "title": "Deputy Minister of Foreign Affairs and Cooperation of Mozambique"
+        },
+        {
+          "categories": [
+            "diplomat"
+          ],
+          "endDate": "2017-12-21",
+          "id": "maria-manuela-lucas-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2016-04-27",
+          "title": "High Commissioner of Mozambique to Malta"
         }
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111904379"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maria_Manuela_Lucas"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Maria Manuela dos Santos Lucas (born November 9, 1961) is a Mozambican diplomat and politician who has served as the Minister of Foreign Affairs and Cooperation of Mozambique since January 2025. She has held several senior positions in the Mozambican diplomatic service, including Ambassador to Belgium, the Netherlands, Luxembourg, Italy, Spain, and High Commissioner to South Africa.",
+      "wikidataId": "Q111904379"
     },
     {
       "aliases": [
@@ -5483,9 +5530,12 @@
       "wikidataId": "Q111828651"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Salim Vala",
+        "Salim Valá"
+      ],
       "countryCode": "MOZ",
-      "fullName": "Salim Vala",
+      "fullName": "Salim Cripton Valá",
       "id": "salim-vala",
       "party": null,
       "photoUrl": null,
@@ -5508,8 +5558,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Mozambican writer.",
+      "wikidataId": "Q141124139"
     },
     {
       "aliases": [
@@ -5912,18 +5962,6 @@
           "startDate": "1994-01-01",
           "title": "Member of the Assembly of the Republic",
           "undated": true
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "veronica-macamo-p5",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1994-01-01",
-          "title": "Member of the Assembly of the Republic",
-          "undated": true
         }
       ],
       "sources": [
@@ -5999,7 +6037,7 @@
       "fullName": "Zeferino Alexandre Martins",
       "id": "zeferino-alexandre-martins",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Minister_of_Education_of_the_Republic_of_Mozambique%2C_Mr._Zeferino_Alexandre_Martins_meeting_the_Union_Minister_for_Micro%2C_Small_and_Medium_Enterprises%2C_Shri_Virbhadra_Singh%2C_in_New_Delhi_on_July_14%2C_2011.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6570,42 +6608,6 @@
       ],
       "summary": "Politician in Mozambique.",
       "wikidataId": "Q111831566"
-    },
-    {
-      "aliases": [
-        "Carla Alexandra Oreste do Rosário Fernandes Loveira"
-      ],
-      "countryCode": "MOZ",
-      "fullName": "Carla Louveira",
-      "id": "carla-louveira",
-      "party": "FRELIMO",
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "junior_minister"
-          ],
-          "endDate": null,
-          "id": "carla-louveira-p1",
-          "ministry": null,
-          "portfolio": "finance",
-          "startDate": null,
-          "title": "Deputy Minister of Economy and Finance of Mozambique",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q111893389"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Carla_Louveira"
-        }
-      ],
-      "summary": "Carla Alexandra Oreste do Rosário Fernandes Louveira has been Mozambican Finance Minister since 17 January 2025. She has a degree in economics from Eduardo Mondlane University.",
-      "wikidataId": "Q111893389"
     },
     {
       "aliases": [],
@@ -8967,63 +8969,6 @@
       "wikidataId": "Q118613824"
     },
     {
-      "aliases": [
-        "Maria Manuela dos Santos Lucas"
-      ],
-      "countryCode": "MOZ",
-      "fullName": "Maria Manuela Lucas",
-      "id": "maria-manuela-lucas",
-      "party": "FRELIMO",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maria_Manuela_dos_Santos_Lucas_28-4-2025_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "diplomat"
-          ],
-          "endDate": null,
-          "id": "maria-manuela-lucas-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2022-10-05",
-          "title": "High Comissioner of Mozambique to South Africa"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2020-02-06",
-          "id": "maria-manuela-lucas-p2",
-          "ministry": null,
-          "portfolio": "foreign_affairs",
-          "startDate": "2017-12-21",
-          "title": "Deputy Minister of Foreign Affairs and Cooperation of Mozambique"
-        },
-        {
-          "categories": [
-            "diplomat"
-          ],
-          "endDate": "2017-12-21",
-          "id": "maria-manuela-lucas-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2016-04-27",
-          "title": "High Commissioner of Mozambique to Malta"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q111904379"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Maria_Manuela_Lucas"
-        }
-      ],
-      "summary": "Maria Manuela dos Santos Lucas (born November 9, 1961) is a Mozambican diplomat and politician who has served as the Minister of Foreign Affairs and Cooperation of Mozambique since January 2025. She has held several senior positions in the Mozambican diplomatic service, including Ambassador to Belgium, the Netherlands, Luxembourg, Italy, Spain, and High Commissioner to South Africa.",
-      "wikidataId": "Q111904379"
-    },
-    {
       "aliases": [],
       "countryCode": "MOZ",
       "fullName": "Pedro Comissário Afonso",
@@ -9799,9 +9744,12 @@
       "wikidataId": "Q6762420"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Rogerio Zandamela",
+        "Rogério Lucas Zandamela"
+      ],
       "countryCode": "MOZ",
-      "fullName": "Rogerio Zandamela",
+      "fullName": "Rogério Zandamela",
       "id": "rogerio-zandamela-moz",
       "party": null,
       "photoUrl": null,
@@ -9814,6 +9762,17 @@
           "id": "rogerio-zandamela-moz-p1",
           "ministry": null,
           "portfolio": null,
+          "startDate": "2016-08-01",
+          "title": "Governor of the Bank of Mozambique"
+        },
+        {
+          "categories": [
+            "regional_leader"
+          ],
+          "endDate": null,
+          "id": "rogerio-zandamela-moz-p2",
+          "ministry": null,
+          "portfolio": null,
           "startDate": "2026-10-05",
           "title": "Governor, Bank of Mozambique"
         }
@@ -9824,8 +9783,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mozambique/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Governor of the Bank of Mozambique.",
+      "wikidataId": "Q109951850"
     },
     {
       "aliases": [
@@ -10322,6 +10281,36 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-04-11",
+      "engagements": [
+        "They discussed the good bilateral relations and the Church’s contribution to peace and development."
+      ],
+      "eventName": null,
+      "id": "alberto-vaquina--2013-04-11--VAT",
+      "officialId": "alberto-vaquina",
+      "purpose": "Pope Francis received the Prime Minister of Mozambique, Alberto Vaquina.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2013-04-11",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -10690,6 +10679,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -13154,6 +13147,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-11-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "armando-guebuza--2014-11-18--VAT",
+      "officialId": "armando-guebuza",
+      "purpose": "Pope Francis met Senegal’s President Sall, discussing strong Church–State relations, the Church’s role in education, healthcare, and peace-…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-11-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-11-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "armando-guebuza--2014-11-24--VAT",
+      "officialId": "armando-guebuza",
+      "purpose": "Pope Francis met Egypt’s President Al-Sisi, discussing political transition, human rights, religious freedom, interreligious dialogue, peac…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-11-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Rome",
         "coordinates": [
           12.4964,
@@ -13180,6 +13229,34 @@
       "startDate": "2014-12-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-12-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "armando-guebuza--2014-12-04--VAT",
+      "officialId": "armando-guebuza",
+      "purpose": "Pope Francis met Mozambique’s President Guebuza, discussing strong Church–State relations, the Church’s contributions in education, healthc…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-12-04",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -14210,11 +14287,15 @@
       "eventName": null,
       "id": "filipe-nyusi--2015-08-04--IND",
       "officialId": "filipe-nyusi",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/795/State_visit_of_President_of_the_Republic_of_Mozambique_to_India_August_4__8_2015"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -15012,21 +15093,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-09-15",
+      "endDate": "2018-09-14",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "filipe-nyusi--2018-09-13--VAT",
+      "id": "filipe-nyusi--2018-09-14--VAT",
       "officialId": "filipe-nyusi",
       "purpose": "Visit to Vatican City",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-13",
+      "startDate": "2018-09-14",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -17043,15 +17128,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-29",
+      "endDate": "2023-07-27",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Russia-Africa Summit",
+      "eventName": "Meeting with President of Mozambique Filipe Jacinto Nyusi",
       "id": "filipe-nyusi--2023-07-27--RUS",
       "officialId": "filipe-nyusi",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with President of Mozambique Filipe Jacinto Nyusi",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71815"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17059,7 +17148,7 @@
       ],
       "startDate": "2023-07-27",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17426,31 +17515,34 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
+        "city": "Gandhinagar",
         "coordinates": [
-          77.209,
-          28.6139
+          72.65,
+          23.223
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2024-01-12",
+      "endDate": "2024-01-09",
       "engagements": [
         "Met Prime Minister Narendra Modi",
         "Gave a public address"
       ],
-      "eventName": "Vibrant Gujarat Global Summit",
-      "id": "filipe-nyusi--2024-01-08--IND",
+      "eventName": "2024 Vibrant Gujarat Global Summit",
+      "id": "filipe-nyusi--2024-01-09--IND",
       "officialId": "filipe-nyusi",
-      "purpose": "Attended Vibrant Gujarat Global Summit",
+      "purpose": "Attending the 2024 Vibrant Gujarat Global Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-01-08",
+      "startDate": "2024-01-09",
       "statusHint": null,
       "type": "summit"
     },
@@ -18199,6 +18291,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1987-10-05",
@@ -18318,6 +18414,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -19478,6 +19578,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -20793,6 +20897,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21890,6 +21998,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-11-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "joaquim-chissano--2002-11-22--USA",
+      "officialId": "joaquim-chissano",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2002-11-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Addis Ababa",
         "coordinates": [
           38.7525,
@@ -22460,6 +22596,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2003-09-24",
@@ -23518,6 +23658,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1977-10-04",
@@ -23546,6 +23690,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1985-09-17",

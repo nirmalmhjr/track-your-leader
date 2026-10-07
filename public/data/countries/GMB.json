@@ -676,7 +676,7 @@
       "fullName": "Abdoulie Jobe",
       "id": "abdoulie-jobe",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minnikhanov_on_15th_OIC_Summit_21.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -796,7 +796,7 @@
       "fullName": "Alieu N’gum",
       "id": "alieu-n-gum",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alieu_Momodou_Ngum_and_Obama.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1529,7 +1529,7 @@
       "fullName": "Ebrima Sillah",
       "id": "ebrima-sillah",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/WIPO_Director_General_Meets_with_Gambia's_Minister_for_Information.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1569,7 +1569,7 @@
       "fullName": "Fafa Sanyang",
       "id": "fafa-sanyang",
       "party": "National People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DG_Okonjo-Iweala_meets_with_Mr_Fafa_Sanyang%2C_The_Gambia's_Minister_of_Energy_and_Petroleum%2C_and_other_members_of_The_Gambia's_delegation%2C_28_February_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3070,7 +3070,7 @@
       "fullName": "Ousman A. Bah",
       "id": "ousman-a-bah",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minnikhanov_on_15th_OIC_Summit_17.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6667,6 +6667,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1966-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "dawda-kairaba-jawara--1966-10-01--ISR",
+      "officialId": "dawda-kairaba-jawara",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Levi_Eshkol"
+        }
+      ],
+      "startDate": "1966-10-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Singapore",
@@ -6797,6 +6825,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1989-05-15",
@@ -9846,6 +9878,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10478,7 +10514,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2005-06-24",
+      "endDate": "2005-06-25",
       "engagements": [
         "Met President Gloria Macapagal Arroyo",
         "Signed agreements"
@@ -10489,13 +10525,17 @@
       "purpose": "Visit to Philippines",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2005-06-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12221,6 +12261,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12348,6 +12392,34 @@
       "startDate": "2015-02-23",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2015-08-06",
+      "engagements": [],
+      "eventName": "United States–Africa Leaders Summit",
+      "id": "yahya-jammeh--2015-08-05--USA",
+      "officialId": "yahya-jammeh",
+      "purpose": "Attended the United States–Africa Leaders Summit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2015-08-05",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

@@ -1135,7 +1135,7 @@
       "fullName": "Fazila Jeewa-Daureeawoo",
       "id": "fazila-jeewa-daureeawoo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fazila_Jeewa-Daureeawoo%2C_2019.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1208,7 +1208,7 @@
       "fullName": "Georges Pierre Lesjongard",
       "id": "georges-pierre-lesjongard",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Lesjongard_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1310,7 +1310,7 @@
       "fullName": "Ivan Collendavelloo",
       "id": "ivan-collendavelloo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan_Collendavelloo%2C_2018.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1465,7 +1465,7 @@
       "fullName": "Kailesh Jagutpal",
       "id": "kailesh-jagutpal",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kailesh_Jagutpal%2C_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1614,7 +1614,7 @@
       "fullName": "Leela Devi Dookhun",
       "id": "leela-devi-dookhun",
       "party": "Militant Socialist Movement",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Leela_Devi_Dookun%2C_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1942,7 +1942,7 @@
       "fullName": "Mohammad Anwar Husnoo",
       "id": "mohammad-anwar-husnoo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anwar_Husnoo%2C_2022.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2369,7 +2369,7 @@
       "fullName": "Renganaden Padayachy",
       "id": "renganaden-padayachy",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Renganaden_Padayachy_2022.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2891,16 +2891,20 @@
       "eventName": null,
       "id": "ameenah-gurib-fakim--2015-12-06--IND",
       "officialId": "ameenah-gurib-fakim",
-      "purpose": "Visit to India",
+      "purpose": "Official Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/833/Visit_of_President_of_the_Republic_of_Mauritius_to_India_December_0610_2015"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2015-12-06",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3077,6 +3081,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -3936,6 +3944,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4518,6 +4530,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-10-24",
+      "engagements": [],
+      "eventName": "Meeting with Acting President of Mauritius Paramasivum Vyapoory",
+      "id": "barlen-vyapoory--2019-10-24--RUS",
+      "officialId": "barlen-vyapoory",
+      "purpose": "Meeting with Acting President of Mauritius Paramasivum Vyapoory",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61903"
+        }
+      ],
+      "startDate": "2019-10-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -4586,11 +4626,15 @@
       "eventName": null,
       "id": "kailash-purryag--2013-01-03--IND",
       "officialId": "kailash-purryag",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/422/State_visit_of_President_of_Republic_of_Mauritius_HE_Mr_Rajkeswur_Purryag_January_310_2013"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2013-01-03",
@@ -7022,15 +7066,19 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-05-27",
+      "endDate": "2014-05-26",
       "engagements": [
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": null,
+      "eventName": "First oath of office ceremony of Narendra Modi",
       "id": "navin-ramgoolam--2014-05-26--IND",
       "officialId": "navin-ramgoolam",
-      "purpose": "Visit to India",
+      "purpose": "First oath of office ceremony of Narendra Modi",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7038,7 +7086,7 @@
       ],
       "startDate": "2014-05-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7064,6 +7112,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -7281,11 +7333,10 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2025-09-16",
@@ -7296,8 +7347,12 @@
       "eventName": null,
       "id": "navin-ramgoolam--2025-09-09--IND",
       "officialId": "navin-ramgoolam",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7305,7 +7360,7 @@
       ],
       "startDate": "2025-09-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7335,6 +7390,36 @@
       "startDate": "2025-10-26",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2026-02-20",
+      "engagements": [
+        "EU represented by executive VP of the European Commission Henna Virkkunen.",
+        "UK represented by Deputy PM David Lammy."
+      ],
+      "eventName": "AI Impact Summit",
+      "id": "navin-ramgoolam--2026-02-17--IND",
+      "officialId": "navin-ramgoolam",
+      "purpose": "AI Impact Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2026-02-17",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7830,11 +7915,15 @@
       "eventName": null,
       "id": "pravind-jugnauth--2017-05-26--IND",
       "officialId": "pravind-jugnauth",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/990/State_Visit_of_Prime_Minister_of_the_Republic_of_Mauritius_to_India_2628_May_2017"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -8065,26 +8154,29 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-01-28",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Gave a public address"
+        "Attended the PBD Convention in Varanasi, visited the Kumbh Mela in Prayagraj and was the Chief Guest at the Republic Day celebrations in Mumbai.",
+        "Met Prime Minister Narendra Modi"
       ],
       "eventName": null,
       "id": "pravind-jugnauth--2019-01-20--IND",
       "officialId": "pravind-jugnauth",
-      "purpose": "Visit to India",
+      "purpose": "Official visit, 15th Pravasi Bharatiya Divas Convention 2023",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1144/Official_Visit_of_Prime_Minister_of_the_Republic_of_Mauritius_January_20282019"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -8188,22 +8280,26 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-05-31",
       "engagements": [
-        "Met Prime Minister Narendra Modi"
+        "Leaders of 8 countries (all BIMSTEC countries excluding India, plus Kyrgyzstan and Mauritius), were invited to the swearing-in ceremony.",
+        "Thailand was represented by Special envoy Grisada Boonrach."
       ],
-      "eventName": null,
+      "eventName": "Second oath of office ceremony of Prime Minister Narendra Modi",
       "id": "pravind-jugnauth--2019-05-30--IND",
       "officialId": "pravind-jugnauth",
-      "purpose": "Visit to India",
+      "purpose": "Second oath of office ceremony of Prime Minister Narendra Modi",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8211,7 +8307,7 @@
       ],
       "startDate": "2019-05-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8414,13 +8510,17 @@
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1355/Visit_of_Prime_Minister_of_Mauritius_to_India_April_1724_2022"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2022-04-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8561,16 +8661,17 @@
       },
       "endDate": "2023-09-10",
       "engagements": [
-        "Met Prime Minister Narendra Modi"
+        "There were five leaders who were invited but did not attend (3 G20 members and 2 invitees): The Chinese leader Xi Jinping was represented by Premier Li Qiang.",
+        "The President of Russia Vladimir Putin was represented by Foreign Minister Sergei Lavrov."
       ],
       "eventName": "2023 G20 New Delhi summit",
       "id": "pravind-jugnauth--2023-09-09--IND",
       "officialId": "pravind-jugnauth",
-      "purpose": "Attended the 2023 G20 New Delhi summit",
+      "purpose": "2023 G20 New Delhi summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -8678,22 +8779,26 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2024-06-11",
+      "endDate": "2024-06-09",
       "engagements": [
+        "Seychelles was represented by Vice-President Ahmed Afif.",
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": null,
+      "eventName": "Third oath of office ceremony of Prime Minister Modi",
       "id": "pravind-jugnauth--2024-06-09--IND",
       "officialId": "pravind-jugnauth",
-      "purpose": "Visit to India",
+      "purpose": "Third oath of office ceremony of Prime Minister Modi",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8701,7 +8806,7 @@
       ],
       "startDate": "2024-06-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8810,6 +8915,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1968-05-08",
@@ -8838,6 +8947,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1969-09-18",
@@ -8866,6 +8979,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1970-10-24",
@@ -8976,6 +9093,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1975-09-30",
@@ -9058,6 +9179,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1981-10-12",

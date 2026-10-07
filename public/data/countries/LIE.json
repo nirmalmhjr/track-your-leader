@@ -505,7 +505,7 @@
       "fullName": "Alois Wille",
       "id": "alois-wille",
       "party": "Fatherland Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alois_Wille.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -705,19 +705,8 @@
           "categories": [
             "minister"
           ],
-          "endDate": null,
-          "id": "dominique-hasler-p2",
-          "ministry": "Ministry of Foreign Affairs, Education and Sport",
-          "portfolio": "foreign_affairs",
-          "startDate": "2021-03-25",
-          "title": "Minister of Foreign Affairs, Education and Sport"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
           "endDate": "2021-03-25",
-          "id": "dominique-hasler-p3",
+          "id": "dominique-hasler-p2",
           "ministry": "Ministry of Home Affairs, Education and Environment",
           "portfolio": "home_affairs",
           "startDate": "2017-03-30",
@@ -792,7 +781,7 @@
       "fullName": "Franz Xaver Hoop",
       "id": "franz-xaver-hoop",
       "party": "Progressive Citizens' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Franz_Xaver_Hoop_1949_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -940,7 +929,7 @@
       "fullName": "Heinz Frommelt",
       "id": "heinz-frommelt",
       "party": "Fatherland Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Heinz_Frommelt_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1478,35 +1467,6 @@
     {
       "aliases": [],
       "countryCode": "LIE",
-      "fullName": "Georg Wohlwend",
-      "id": "georg-wohlwend-lie",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "central_banker"
-          ],
-          "endDate": null,
-          "id": "georg-wohlwend-lie-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2026-10-05",
-          "title": "Chairman, Liechtenstein National Bank"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/liechtenstein/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "LIE",
       "fullName": "Christian Wenaweser",
       "id": "christian-wenaweser",
       "party": null,
@@ -1612,7 +1572,7 @@
       "fullName": "Alois Vogt",
       "id": "alois-vogt",
       "party": "Fatherland Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alois_Vogt_1945.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6457,6 +6417,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "franz-joseph-ii-prince-of-liechtenstein--1971-10-12--IRN",
+      "officialId": "franz-joseph-ii-prince-of-liechtenstein",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -6476,9 +6464,41 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1979-04-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-04-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "hans-adam-ii-prince-of-liechtenstein--2017-04-22--VAT",
+      "officialId": "hans-adam-ii-prince-of-liechtenstein",
+      "purpose": "Pope Francis met Princes Hans Adam II and Alois of Liechtenstein to discuss strong Holy See–Liechtenstein ties, the Church’s role in the co…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-04-22",
       "statusHint": null,
       "type": "other"
     },

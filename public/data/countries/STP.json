@@ -1167,7 +1167,7 @@
       "fullName": "Alda Alves de Melo dos Santos",
       "id": "alda-alves-de-melo-dos-santos",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Estonia_Established_Diplomatic_Relations_with_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_(3547986965)_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1396,7 +1396,9 @@
       "wikidataId": "Q2939360"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Carlos Stock"
+      ],
       "countryCode": "STP",
       "fullName": "Carlos Olímpio Stock",
       "id": "carlos-olimpio-stock",
@@ -1407,8 +1409,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2016-10-18",
+          "endDate": null,
           "id": "carlos-olimpio-stock-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Attorney General"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2016-10-18",
+          "id": "carlos-olimpio-stock-p2",
           "ministry": "Ministry of National Defence",
           "portfolio": "defence",
           "startDate": "2014-11-25",
@@ -1419,7 +1432,7 @@
             "minister"
           ],
           "endDate": "2012-12-05",
-          "id": "carlos-olimpio-stock-p2",
+          "id": "carlos-olimpio-stock-p3",
           "ministry": "Ministry of National Defence",
           "portfolio": "defence",
           "startDate": "2010-08-14",
@@ -1428,41 +1441,12 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q59572738"
-        }
-      ],
-      "summary": "São Toméan politician.",
-      "wikidataId": "Q59572738"
-    },
-    {
-      "aliases": [],
-      "countryCode": "STP",
-      "fullName": "Carlos Stock",
-      "id": "carlos-stock",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "carlos-stock-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Attorney General"
-        }
-      ],
-      "sources": [
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sao-tome-and-principe/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "São Toméan politician.",
+      "wikidataId": "Q59572738"
     },
     {
       "aliases": [
@@ -4642,8 +4626,12 @@
       "eventName": null,
       "id": "carlos-vila-nova--2025-06-30--VAT",
       "officialId": "carlos-vila-nova",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met President Vila Nova of São Tomé and Príncipe to discuss Church collaboration in healthcare, education, youth formation, an…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10654,6 +10642,34 @@
       "startDate": "2023-09-20",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-02-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "patrice-trovoada--2024-02-01--VAT",
+      "officialId": "patrice-trovoada",
+      "purpose": "Pope Francis met São Tomé and Príncipe PM Patrice Trovoada, praising strong bilateral ties, cooperation in education and health, and discus…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-02-01",
+      "statusHint": null,
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",

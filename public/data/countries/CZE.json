@@ -1457,17 +1457,6 @@
           ],
           "endDate": null,
           "id": "petr-macinka-p4",
-          "ministry": "Ministry of Foreign Affairs",
-          "portfolio": "foreign_affairs",
-          "startDate": "2025-12-15",
-          "title": "Minister of Foreign Affairs"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "petr-macinka-p5",
           "ministry": "Ministry of the Environment",
           "portfolio": "environment",
           "startDate": "2025-12-15",
@@ -1478,7 +1467,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "petr-macinka-p6",
+          "id": "petr-macinka-p5",
           "ministry": null,
           "portfolio": null,
           "startDate": "2025-10-04",
@@ -2804,12 +2793,14 @@
       "wikidataId": "Q44636609"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Ivan Bednarik"
+      ],
       "countryCode": "CZE",
-      "fullName": "Ivan Bednarik",
+      "fullName": "Ivan Bednárik",
       "id": "ivan-bednarik-cze",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bednarik_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2819,35 +2810,15 @@
           "id": "ivan-bednarik-cze-p1",
           "ministry": "Ministry of Transport",
           "portfolio": "transport",
-          "startDate": null,
+          "startDate": "2025-12-15",
           "title": "Minister of Transport"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/czechia/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Ivan Bednarik"
-      ],
-      "countryCode": "CZE",
-      "fullName": "Ivan Bednárik",
-      "id": "ivan-bednarik",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bednarik_(cropped).jpg?width=160",
-      "positions": [
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "ivan-bednarik-p1",
+          "id": "ivan-bednarik-cze-p2",
           "ministry": "Ministry of Transport of the Czech Republic",
           "portfolio": "transport",
           "startDate": "2025-12-15",
@@ -2858,6 +2829,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q103814978"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/czechia/"
         },
         {
           "label": "Wikipedia",
@@ -10800,7 +10775,7 @@
       "fullName": "Helena Válková",
       "id": "helena-valkova",
       "party": "ANO 2011",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Helena_V%C3%A1lkov%C3%A1_in_2019_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -14878,7 +14853,7 @@
       "fullName": "Pavel Dostál",
       "id": "pavel-dostal",
       "party": "Czechoslovak Social Democratic Workers’ Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavel_Dostal_plaque.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -16351,7 +16326,7 @@
       "fullName": "Vladimír Balaš",
       "id": "vladimir-balas",
       "party": "Mayors and Independents",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladim%C3%ADr_Bala%C5%A1_in_2022_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -17747,6 +17722,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2019-03-06",
@@ -17829,6 +17808,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2014-11-17",
@@ -17857,11 +17840,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2016-03-31",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-08-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "bohuslav-sobotka--2017-08-26--IRQ",
+      "officialId": "bohuslav-sobotka",
+      "purpose": "Visit to Iraq",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        }
+      ],
+      "startDate": "2017-08-26",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "year",
@@ -17976,6 +17991,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2009-09-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "jan-fischer--2009-09-06--PHL",
+      "officialId": "jan-fischer",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2009-09-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -17995,6 +18038,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2010-04-12",
@@ -18277,6 +18324,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2021-05-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "lubomir-metnar--2021-05-11--MKD",
+      "officialId": "lubomir-metnar",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2021-05-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Brasília",
@@ -18492,6 +18567,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1999-11-07",
@@ -18520,6 +18599,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2001-11-07",
@@ -19332,18 +19415,22 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "milos-zeman--2015-04-23--VAT",
+      "id": "milos-zeman--2015-04-24--VAT",
       "officialId": "milos-zeman",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Czech President Miloš Zeman, marking 25 years of diplomatic ties, discussing Church–State cooperation in culture, educatio…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-23",
+      "startDate": "2015-04-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19361,11 +19448,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Czech Republic Milos Zeman",
       "id": "milos-zeman--2015-05-09--RUS",
       "officialId": "milos-zeman",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Czech Republic Milos Zeman",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49446"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19373,7 +19464,7 @@
       ],
       "startDate": "2015-05-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19384,16 +19475,19 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2015-09-04",
+      "endDate": "2015-09-03",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with President of the Czech Republic Milos Zeman",
       "id": "milos-zeman--2015-09-03--CHN",
       "officialId": "milos-zeman",
-      "purpose": "Visit to China",
+      "purpose": "Meeting with President of the Czech Republic Milos Zeman",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50225"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19401,7 +19495,7 @@
       ],
       "startDate": "2015-09-03",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19565,24 +19659,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-06-08",
+      "endDate": "2016-06-10",
       "engagements": [
         "Met President Gjorge Ivanov",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "milos-zeman--2016-06-05--MKD",
+      "id": "milos-zeman--2016-06-09--MKD",
       "officialId": "milos-zeman",
       "purpose": "Visit to North Macedonia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-06-05",
+      "startDate": "2016-06-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19793,6 +19891,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "milos-zeman--2017-03-24--VAT",
+      "officialId": "milos-zeman",
+      "purpose": "Pope Francis received EU leaders and their delegations in the Apostolic Palace to mark the 60th anniversary of the Treaties of Rome, highli…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-03-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Zagreb",
         "coordinates": [
           15.977222222,
@@ -19802,7 +19928,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-03-28",
+      "endDate": "2017-03-29",
       "engagements": [
         "Met President Kolinda Grabar-Kitarovic"
       ],
@@ -19811,6 +19937,10 @@
       "officialId": "milos-zeman",
       "purpose": "Visit to Croatia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19829,19 +19959,22 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-05-18",
+      "endDate": "2017-05-14",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Belt and Road Forum for International Cooperation",
+      "eventName": "Meeting with President of the Czech Republic Milos Zeman",
       "id": "milos-zeman--2017-05-14--CHN",
       "officialId": "milos-zeman",
-      "purpose": "Attended Belt and Road Forum for International Cooperation",
+      "purpose": "Meeting with President of the Czech Republic Milos Zeman",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/54493"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19849,7 +19982,7 @@
       ],
       "startDate": "2017-05-14",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20911,6 +21044,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2008-02-25",
@@ -21170,6 +21307,34 @@
         }
       ],
       "startDate": "2022-05-05",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-06-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "petr-fiala--2022-06-09--VAT",
+      "officialId": "petr-fiala",
+      "purpose": "Pope Francis met Czech Prime Minister Petr Fiala to discuss strong bilateral ties, the Church’s role in society, and the impact of the Ukra…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-06-09",
       "statusHint": null,
       "type": "bilateral_meeting"
     },
@@ -21440,7 +21605,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Petr_Fiala"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         }
       ],
       "startDate": "2023-04-16",
@@ -21569,14 +21734,14 @@
       },
       "endDate": "2024-01-11",
       "engagements": [],
-      "eventName": null,
+      "eventName": "2024 Vibrant Gujarat Global Summit",
       "id": "petr-fiala--2024-01-09--IND",
       "officialId": "petr-fiala",
-      "purpose": "Attended 2024 Vibrant Gujarat Global Summit.",
+      "purpose": "Attending the 2024 Vibrant Gujarat Global Summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Petr_Fiala"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2024-01-09",
@@ -21637,7 +21802,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Petr_Fiala"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2024-04-15",
@@ -22083,11 +22248,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2011-10-27",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2012-04-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "petr-necas--2012-04-16--MKD",
+      "officialId": "petr-necas",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2012-04-16",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -22116,6 +22313,34 @@
       "startDate": "2012-05-20",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-05-27",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of the Czech Republic Petr Necas",
+      "id": "petr-necas--2013-05-27--RUS",
+      "officialId": "petr-necas",
+      "purpose": "Meeting with Prime Minister of the Czech Republic Petr Necas",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/18200"
+        }
+      ],
+      "startDate": "2013-05-27",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22709,10 +22934,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Jerusalem",
+        "city": "Beersheba",
         "coordinates": [
-          35.234156,
-          31.776679
+          34.786666666,
+          31.252222222
         ],
         "countryCode": "ISR",
         "region": "Asia"
@@ -22993,8 +23218,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -23053,12 +23278,13 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Normandy",
+        "city": "Paris",
         "coordinates": [
-          -0.436644305,
-          49.122339111
+          2.3522,
+          48.8566
         ],
         "countryCode": "FRA",
+        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2024-06-11",
@@ -24963,7 +25189,7 @@
       },
       "endDate": "1990-02-21",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Addressed Joint Meeting of Congress",
       "id": "vaclav-havel--1990-02-19--USA",
       "officialId": "vaclav-havel",
       "purpose": "Official working visit. Addressed Joint Meeting of Congress February 21. Private visit to New York City afterward.",
@@ -24971,6 +25197,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1990-02-19",
@@ -24999,11 +25229,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1990-09-30",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1991-05-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "vaclav-havel--1991-05-22--SWE",
+      "officialId": "vaclav-havel",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
+        }
+      ],
+      "startDate": "1991-05-22",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -25027,9 +25289,41 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1991-10-21",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1992-04-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "vaclav-havel--1992-04-22--JPN",
+      "officialId": "vaclav-havel",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Akihito"
+        }
+      ],
+      "startDate": "1992-04-22",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -25087,6 +25381,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -25614,24 +25912,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1995-04-07",
+      "endDate": "1995-04-08",
       "engagements": [
         "Met President Fidel Ramos",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "vaclav-havel--1995-04-05--PHL",
+      "id": "vaclav-havel--1995-04-04--PHL",
       "officialId": "vaclav-havel",
       "purpose": "Visit to Philippines",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-04-05",
+      "startDate": "1995-04-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -25743,6 +26045,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -26507,6 +26813,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -26625,6 +26935,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1999-04-23",
@@ -27500,6 +27814,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -27614,6 +27932,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1995-05-03",
@@ -27642,6 +27964,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1996-09-30",
@@ -28194,6 +28520,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -28574,6 +28904,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -30495,23 +30829,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-05-21",
+      "endDate": "2009-05-22",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": "Russia-European Council Summit",
-      "id": "vaclav-klaus--2009-05-21--RUS",
+      "id": "vaclav-klaus--2009-05-22--RUS",
       "officialId": "vaclav-klaus",
-      "purpose": "Attended Russia-European Council Summit",
+      "purpose": "Dmitry Medvedev met with President of the Czech Republic Vaclav Klaus",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/4175"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-05-21",
+      "startDate": "2009-05-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -30681,8 +31019,12 @@
       "eventName": null,
       "id": "vaclav-klaus--2009-10-14--RUS",
       "officialId": "vaclav-klaus",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of the Czech Republic Vaclav Klaus",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/5742"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -30690,7 +31032,7 @@
       ],
       "startDate": "2009-10-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -31026,7 +31368,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2010-06-21",
+      "endDate": "2010-06-22",
       "engagements": [
         "Met President Gjorge Ivanov"
       ],
@@ -31036,13 +31378,17 @@
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-06-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -31688,6 +32034,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -32101,11 +32451,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2003-07-14",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2004-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "vladimir-spidla--2004-03-16--MKD",
+      "officialId": "vladimir-spidla",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2004-03-16",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "month",

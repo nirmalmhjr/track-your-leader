@@ -1921,7 +1921,7 @@
       "fullName": "Francisco Álvarez De Soto",
       "id": "francisco-alvarez-de-soto",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco_Alvarez_De_Soto_(8056606806).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2514,12 +2514,14 @@
       "wikidataId": "Q110628369"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Javier Martinez Acha"
+      ],
       "countryCode": "PAN",
-      "fullName": "Javier Martinez Acha",
+      "fullName": "Javier Martínez-Acha",
       "id": "javier-martinez-acha-pan",
-      "party": null,
-      "photoUrl": null,
+      "party": "Democratic Revolutionary Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Javier_Vasquez%2C_Foreign_Minister_of_Panama_on_17_July_2024_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2537,36 +2539,6 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/panama/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "PAN",
-      "fullName": "Javier Martínez-Acha",
-      "id": "javier-martinez-acha",
-      "party": "Democratic Revolutionary Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Javier_Vasquez%2C_Foreign_Minister_of_Panama_on_17_July_2024_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "javier-martinez-acha-p1",
-          "ministry": "Ministry of Foreign Affairs",
-          "portfolio": "foreign_affairs",
-          "startDate": null,
-          "title": "Minister of Foreign Affairs",
-          "undated": true
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q127602695"
         }
       ],
       "summary": "Panamanian executive and diplomat.",
@@ -4188,7 +4160,7 @@
       "fullName": "Rosario Turner",
       "id": "rosario-turner",
       "party": "Democratic Revolutionary Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosarioturner2024image1.png?width=160",
       "positions": [
         {
           "categories": [
@@ -4491,7 +4463,7 @@
       "fullName": "José Miguel Alemán",
       "id": "jose-miguel-aleman",
       "party": "Panameñista Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Republic_of_Panama_Artemis_Accords_Signing_(NHQ202412110013).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4570,6 +4542,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1979-05-08",
@@ -6286,6 +6262,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7041,6 +7021,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1993-11-30",
@@ -8068,8 +8052,12 @@
       "eventName": null,
       "id": "juan-carlos-varela--2014-09-05--VAT",
       "officialId": "juan-carlos-varela",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Panama’s President Varela, discussing Church–State collaboration on social issues affecting youth and the vulnerable, regi…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8077,7 +8065,7 @@
       ],
       "startDate": "2014-09-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -9052,6 +9040,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9552,23 +9544,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-06-18",
+      "endDate": "2018-06-14",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "juan-carlos-varela--2018-06-13--RUS",
+      "eventName": "Meeting with President of Panama Juan Carlos Varela",
+      "id": "juan-carlos-varela--2018-06-14--RUS",
       "officialId": "juan-carlos-varela",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Panama Juan Carlos Varela",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57781"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-06-13",
+      "startDate": "2018-06-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12306,6 +12302,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "2007-11-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "martin-torrijos--2007-11-14--USA",
+      "officialId": "martin-torrijos",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "2007-11-14",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2007-12-05",
       "engagements": [
         "Gave a public address"
@@ -12438,6 +12462,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -12652,6 +12680,34 @@
         }
       ],
       "startDate": "2008-09-15",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2008-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "martin-torrijos--2008-10-15--USA",
+      "officialId": "martin-torrijos",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "2008-10-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13061,6 +13117,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -14093,6 +14153,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -15377,6 +15441,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16591,6 +16659,34 @@
       "startDate": "2013-10-16",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-10-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "ricardo-martinelli--2013-10-26--VAT",
+      "officialId": "ricardo-martinelli",
+      "purpose": "Pope Francis met Panamanian President Ricardo Martinelli, discussing national social policies, development projects, Church-State relations…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2013-10-26",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

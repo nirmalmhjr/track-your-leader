@@ -1747,7 +1747,7 @@
       "fullName": "Antoine Guimali",
       "id": "antoine-guimali",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mr._Antoine_Guimali%2C_Governor_for_Central_African_Republic%2C_Annual_Meetings%2C_Washington%2C_D.C.%2C_USA.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2195,9 +2195,11 @@
       "wikidataId": "Q112062389"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Bienvenu Zokoue"
+      ],
       "countryCode": "CAF",
-      "fullName": "Bienvenu Zokoue",
+      "fullName": "Bienvenu Zokoué",
       "id": "bienvenu-zokoue-caf",
       "party": null,
       "photoUrl": null,
@@ -2208,45 +2210,31 @@
           ],
           "endDate": null,
           "id": "bienvenu-zokoue-caf-p1",
-          "ministry": "Ministry of the Interior and Public Security",
+          "ministry": "Ministry of Interior and Public Security",
           "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of the Interior and Public Security"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/central-african-republic/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "CAF",
-      "fullName": "Bienvenu Zokoué",
-      "id": "bienvenu-zokoue",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+          "startDate": "2026-05-21",
+          "title": "Minister of Interior and Public Security"
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "bienvenu-zokoue-p1",
-          "ministry": "Ministry of Interior and Public Security",
+          "id": "bienvenu-zokoue-caf-p2",
+          "ministry": "Ministry of the Interior and Public Security",
           "portfolio": "home_affairs",
           "startDate": "2026-05-21",
-          "title": "Minister of Interior and Public Security"
+          "title": "Minister of the Interior and Public Security"
         }
       ],
       "sources": [
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q139915818"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/central-african-republic/"
         }
       ],
       "summary": "Centrafrican policeman and politician.",
@@ -4631,7 +4619,7 @@
       "fullName": "Jean-Pierre Sohahong-Kombet",
       "id": "jean-pierre-sohahong-kombet",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/President_John_F._Kennedy_Meets_with_Ambassador_of_the_Central_African_Republic%2C_Jean-Pierre_Kombet.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -9845,6 +9833,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12730,21 +12722,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-04-20",
+      "endDate": "2016-04-18",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "faustin-archange-touadera--2016-04-16--VAT",
+      "id": "faustin-archange-touadera--2016-04-18--VAT",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met CAR President Touadéra to discuss peace efforts, interfaith dialogue, Church contributions to education and healthcare, an…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-04-16",
+      "startDate": "2016-04-18",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13754,15 +13750,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-01-27",
+      "endDate": "2018-01-25",
       "engagements": [
+        "Talks praised strong ties, peace efforts, and Church support, urging unity and international aid for national reconciliation.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "faustin-archange-touadera--2018-01-25--VAT",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Central African Republic President Touadéra.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13770,7 +13771,7 @@
       ],
       "startDate": "2018-01-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13801,6 +13802,34 @@
       "startDate": "2018-04-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-05-23",
+      "engagements": [],
+      "eventName": "Meeting with President of Central African Republic Faustin Archange Touadera",
+      "id": "faustin-archange-touadera--2018-05-23--RUS",
+      "officialId": "faustin-archange-touadera",
+      "purpose": "Meeting with President of Central African Republic Faustin Archange Touadera",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57534"
+        }
+      ],
+      "startDate": "2018-05-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13966,8 +13995,12 @@
       "eventName": null,
       "id": "faustin-archange-touadera--2019-03-05--VAT",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Central African President Touadéra to discuss Vatican ties, Catholic contributions, national reconciliation, peace, and su…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14339,24 +14372,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-10-24",
+      "endDate": "2019-10-23",
       "engagements": [
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "faustin-archange-touadera--2019-10-22--RUS",
+      "eventName": "Meeting with President of the Central African Republic Faustin Archange Touadera",
+      "id": "faustin-archange-touadera--2019-10-23--RUS",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with President of the Central African Republic Faustin Archange Touadera",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61884"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-10-22",
+      "startDate": "2019-10-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15618,6 +15655,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16268,23 +16309,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-29",
+      "endDate": "2023-07-28",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "faustin-archange-touadera--2023-07-26--RUS",
+      "eventName": "Meeting with President of the Central African Republic Faustin-Archange Touadera",
+      "id": "faustin-archange-touadera--2023-07-28--RUS",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with President of the Central African Republic Faustin-Archange Touadera",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71831"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-26",
+      "startDate": "2023-07-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16968,8 +17013,12 @@
       "eventName": null,
       "id": "faustin-archange-touadera--2024-01-27--VAT",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Central African Republic President Touadéra, praising strong ties and the Church’s role, recalling the 2015 visit, and dis…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17733,23 +17782,27 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-01-18",
+      "endDate": "2025-01-16",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "faustin-archange-touadera--2025-01-15--RUS",
+      "id": "faustin-archange-touadera--2025-01-16--RUS",
       "officialId": "faustin-archange-touadera",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with President of the Central African Republic Faustin-Archange Touadera",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/76114"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-01-15",
+      "startDate": "2025-01-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18290,6 +18343,34 @@
       "startDate": "2026-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-10-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "faustin-archange-touadera--2026-10-01--VAT",
+      "officialId": "faustin-archange-touadera",
+      "purpose": "Relations with the Holy See",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-10-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -21341,7 +21422,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",

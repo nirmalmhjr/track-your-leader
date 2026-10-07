@@ -536,7 +536,7 @@
       "fullName": "Aung Lin Dwe",
       "id": "aung-lin-dwe",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aung_Lin_Dwe_at_the_Pyidaungsu_Hluttaw_in_2026_(1).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -984,8 +984,8 @@
       "countryCode": "MMR",
       "fullName": "Nan Ni Ni Aye",
       "id": "nan-ni-ni-aye",
-      "party": null,
-      "photoUrl": null,
+      "party": "Union Solidarity and Development Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nan_Ni_Ni_Aye.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1003,10 +1003,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Nan_Ni_Ni_Aye"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Nan Ni Ni Aye is a Burmese politician and former educator who has served as the fourth Second Vice President of Myanmar since April 2026. A member of the Union Solidarity and Development Party (USDP), she previously served in the Amyotha Hluttaw as the representative for Kayin State Constituency No.",
+      "wikidataId": "Q56513377"
     },
     {
       "aliases": [],
@@ -1408,6 +1412,17 @@
           "portfolio": "trade",
           "startDate": "2021-05-22",
           "title": "Minister of Industry"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "charlie-than-p2",
+          "ministry": "Ministry of Industry and Micro, Small and Medium Enterprise Development",
+          "portfolio": "trade",
+          "startDate": "2021-05-22",
+          "title": "Minister of Industry and Micro, Small and Medium Enterprise Development"
         }
       ],
       "sources": [
@@ -1416,41 +1431,16 @@
           "url": "https://www.wikidata.org/wiki/Q110192053"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Charlie_Than"
         }
       ],
       "summary": "Charlie Than is the current Union Minister for Ministry of Industry of Myanmar. He is an engineer, retired rector and guest professor.",
       "wikidataId": "Q110192053"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
-      "fullName": "Charlie Than",
-      "id": "charlie-than-mmr",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "charlie-than-mmr-p1",
-          "ministry": "Ministry of Industry and Micro, Small and Medium Enterprise Development",
-          "portfolio": "trade",
-          "startDate": null,
-          "title": "Minister of Industry and Micro, Small and Medium Enterprise Development"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -1655,10 +1645,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Htein_Lin_(artist)"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Htein Lin is a Burmese painter, performance artist, and writer.",
+      "wikidataId": "Q16196512"
     },
     {
       "aliases": [
@@ -1696,12 +1690,53 @@
       "wikidataId": "Q105709676"
     },
     {
+      "aliases": [
+        "General Htun Aung",
+        "General Tun Aung",
+        "General Zayya Kyawhtin Htun Aung",
+        "General Zayya Kyawhtin Tun Aung",
+        "Tun Aung",
+        "Zayya Kyawhtin Htun Aung",
+        "Zayya Kyawhtin Tun Aung"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Htun Aung",
+      "id": "tun-aung",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "tun-aung-p1",
+          "ministry": "Ministry of Defense",
+          "portfolio": "defence",
+          "startDate": null,
+          "title": "Minister of Defense"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Htun_Aung"
+        }
+      ],
+      "summary": "Htun Aung is a Burmese military air force officer who has served as the Minister of Defence since April 2026. A member of the Tatmadaw, he previously served as Commander-in-Chief of Myanmar Air Force from 2022 to 2026.",
+      "wikidataId": "Q116822395"
+    },
+    {
       "aliases": [],
       "countryCode": "MMR",
       "fullName": "Kan Zaw",
       "id": "kan-zaw",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Trade_and_Development_Board_(Item_9)_(9816399094)_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1978,35 +2013,6 @@
     {
       "aliases": [],
       "countryCode": "MMR",
-      "fullName": "Ko Ko Lwin",
-      "id": "ko-ko-lwin",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "ko-ko-lwin-p1",
-          "ministry": "Ministry of Electric Power and Energy",
-          "portfolio": "energy",
-          "startDate": null,
-          "title": "Minister of Electric Power and Energy"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
       "fullName": "Ko Ko Oo",
       "id": "ko-ko-oo",
       "party": null,
@@ -2028,10 +2034,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ko_Ko_Oo"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Ko Ko Oo was a scientist, previously served as Minister for Science and Technology of Myanmar (MOST) from September 2012 to December 2015 until his death. He received his PhD in Nuclear Physics from Osaka University, Japan.",
+      "wikidataId": "Q20991978"
     },
     {
       "aliases": [
@@ -2179,11 +2189,13 @@
       "wikidataId": "Q20992005"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "U Maung Myint"
+      ],
       "countryCode": "MMR",
       "fullName": "Maung Myint",
       "id": "maung-myint",
-      "party": null,
+      "party": "Union Solidarity and Development Party",
       "photoUrl": null,
       "positions": [
         {
@@ -2202,10 +2214,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Maung_Myint"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Maung Myint (Burmese: မောင်မြင့်) or Ye Myint is a Burmese politician and incumbent Pyithu Hluttaw member of parliament for Mingin Township. He previously served as Minister for Industry of Myanmar.",
+      "wikidataId": "Q24004995"
     },
     {
       "aliases": [
@@ -2284,6 +2300,41 @@
       ],
       "summary": "Burmese politician (born 1966).",
       "wikidataId": "Q114268994"
+    },
+    {
+      "aliases": [
+        "Phone Myat"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Min Phone Myat",
+      "id": "phone-myat",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Min_Phone_Myat_Photo.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "phone-myat-p1",
+          "ministry": "Ministry of Border Affairs",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Border Affairs"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Min_Phone_Myat"
+        }
+      ],
+      "summary": "Min Phone Myat is a Burmese television and film actor and singer. He gained popularity among the audiences after starring her role as Maung Phone in MRTV-4 television series Say Ta Lone Maung Phone (2021).",
+      "wikidataId": "Q110601668"
     },
     {
       "aliases": [],
@@ -2435,41 +2486,16 @@
           "url": "https://www.wikidata.org/wiki/Q114837022"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Myint_Kyaing"
         }
       ],
       "summary": "Myint Kyaing is the current union minister of Ministry of Immigration and Population of Myanmar. He also served as union minister of Ministry of Labour and Ministry of Labour, Immigration and Population.",
       "wikidataId": "Q114837022"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
-      "fullName": "Myint Kyaing",
-      "id": "myint-kyaing-mmr",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "myint-kyaing-mmr-p1",
-          "ministry": "Ministry of Immigration and Population",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Immigration and Population"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -2501,7 +2527,9 @@
       "wikidataId": "Q114849621"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "U Myo Thant"
+      ],
       "countryCode": "MMR",
       "fullName": "Myo Thant",
       "id": "myo-thant",
@@ -2526,8 +2554,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Burmese politician (born 1975).",
+      "wikidataId": "Q114268506"
     },
     {
       "aliases": [],
@@ -2555,41 +2583,16 @@
           "url": "https://www.wikidata.org/wiki/Q114849623"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Myo_Thein_Kyaw"
         }
       ],
       "summary": "Brigadier General (Retd.) Dr. Myo Thein Kyaw (မျိုးသိန်းကျော်) is a Burmese military officer and politician currently serving as the Union Minister for Science and Technology.",
       "wikidataId": "Q114849623"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
-      "fullName": "Myo Thein Kyaw",
-      "id": "myo-thein-kyaw-mmr",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "myo-thein-kyaw-mmr-p1",
-          "ministry": "Ministry of Science and Technology",
-          "portfolio": "science",
-          "startDate": null,
-          "title": "Minister of Science and Technology"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -2628,7 +2631,7 @@
       "fullName": "Nai Thuwanna",
       "id": "nai-thuwanna",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nai_Suwunna%2C_NUG.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2722,35 +2725,6 @@
       ],
       "summary": "Nyunt Phay is the Union Minister for Education of Myanmar since 2021 to 2025. He was appointed by the State Administration Council after the 2021 coup.",
       "wikidataId": "Q108081336"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
-      "fullName": "Phone Myat",
-      "id": "phone-myat",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "phone-myat-p1",
-          "ministry": "Ministry of Border Affairs",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Border Affairs"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [
@@ -2973,6 +2947,47 @@
     },
     {
       "aliases": [
+        "Ko Ko Lwin",
+        "Ko Pauk",
+        "Soe Thu Lwin",
+        "U Ko Ko Lwin",
+        "U Ko Pauk",
+        "U Soe Thu",
+        "U Soe Thu Lwin"
+      ],
+      "countryCode": "MMR",
+      "fullName": "Soe Thu",
+      "id": "ko-ko-lwin",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "ko-ko-lwin-p1",
+          "ministry": "Ministry of Electric Power and Energy",
+          "portfolio": "energy",
+          "startDate": null,
+          "title": "Minister of Electric Power and Energy"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Soe_Thu"
+        }
+      ],
+      "summary": "Soe Thu, born Soe Thu Lwin is a Myanmar Academy Award-winning Burmese actor, singer and physician. He has achieved fame and success as an actor and singer.",
+      "wikidataId": "Q19702368"
+    },
+    {
+      "aliases": [
         "U Soe Thura Tun"
       ],
       "countryCode": "MMR",
@@ -3090,9 +3105,12 @@
       "wikidataId": "Q19702386"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Than Maung",
+        "U Than Maung Oo"
+      ],
       "countryCode": "MMR",
-      "fullName": "Than Maung",
+      "fullName": "Than Maung Oo",
       "id": "than-maung",
       "party": null,
       "photoUrl": null,
@@ -3115,8 +3133,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Burmese politician (born 1960).",
+      "wikidataId": "Q114269291"
     },
     {
       "aliases": [],
@@ -3194,35 +3212,6 @@
       "wikidataId": "Q7777802"
     },
     {
-      "aliases": [],
-      "countryCode": "MMR",
-      "fullName": "Thet Khaing Win",
-      "id": "thet-khaing-win",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "thet-khaing-win-p1",
-          "ministry": "Ministry of Health",
-          "portfolio": "health",
-          "startDate": null,
-          "title": "Minister of Health"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
         "Dr. Thet Thet Khine",
         "Thet Thet Khine"
@@ -3291,6 +3280,7 @@
     },
     {
       "aliases": [
+        "Thet Khaing Win",
         "U Thet Win Khaing"
       ],
       "countryCode": "MMR",
@@ -3313,8 +3303,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q114269410"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
         }
       ],
       "summary": "Burmese politician (born 1980).",
@@ -3600,35 +3590,6 @@
     {
       "aliases": [],
       "countryCode": "MMR",
-      "fullName": "Tun Aung",
-      "id": "tun-aung-mmr",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "tun-aung-mmr-p1",
-          "ministry": "Ministry of Defense",
-          "portfolio": "defence",
-          "startDate": null,
-          "title": "Minister of Defense"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/burma/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "MMR",
       "fullName": "Tun Ohn",
       "id": "tun-ohn",
       "party": null,
@@ -3761,7 +3722,7 @@
       "fullName": "Win Aung",
       "id": "win-aung",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D1%96%D0%BD_%D0%90%D1%83%D0%BD.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4455,7 +4416,7 @@
       "fullName": "Moe Zaw Oo",
       "id": "moe-zaw-oo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Institute_of_Peace_hosts_talk_about_Rescuing_Democracy_in_Myanmar_on_24_March_2023_02_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5359,7 +5320,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         },
         {
           "label": "COLT dataset",
@@ -5450,8 +5411,12 @@
       "eventName": null,
       "id": "aung-san-suu-kyi--2017-05-04--VAT",
       "officialId": "aung-san-suu-kyi",
-      "purpose": "Visit to Vatican City",
+      "purpose": "The Holy See and Myanmar have agreed to establish full diplomatic relations, with an Apostolic Nunciature and an Embassy, to strengthen mut…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5459,7 +5424,7 @@
       ],
       "startDate": "2017-05-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5636,7 +5601,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Twelfth_East_Asia_Summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         },
         {
           "label": "COLT dataset",
@@ -5676,6 +5641,35 @@
       "startDate": "2017-12-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2018-01-26",
+      "engagements": [
+        "The leaders of all 10 ASEAN member states were invited as chief guests."
+      ],
+      "eventName": null,
+      "id": "aung-san-suu-kyi--2018-01-25--IND",
+      "officialId": "aung-san-suu-kyi",
+      "purpose": "69th Republic Day parade",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2018-01-25",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6217,6 +6211,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-05-19",
+      "engagements": [],
+      "eventName": "Meeting with President of the Republic of the Union of Myanmar Htin Kyaw",
+      "id": "htin-kyaw--2016-05-19--RUS",
+      "officialId": "htin-kyaw",
+      "purpose": "Meeting with President of the Republic of the Union of Myanmar Htin Kyaw",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/51938"
+        }
+      ],
+      "startDate": "2016-05-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New Delhi",
         "coordinates": [
           77.209,
@@ -6231,11 +6253,15 @@
       "eventName": null,
       "id": "htin-kyaw--2016-08-27--IND",
       "officialId": "htin-kyaw",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/908/State_Visit_of_President_of_Myanmar_to_India_August_2730_2016"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2016-08-27",
@@ -6516,16 +6542,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-03-06",
+      "endDate": "2025-03-04",
       "engagements": [
         "Met with President Vladimir Putin and Prime Minister Mikhail Mishustin.",
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "min-aung-hlaing--2025-03-03--RUS",
+      "id": "min-aung-hlaing--2025-03-04--RUS",
       "officialId": "min-aung-hlaing",
-      "purpose": "State visit.",
+      "purpose": "Talks with Prime Minister of Myanmar Min Aung Hlaing",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/76403"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Min_Aung_Hlaing"
@@ -6535,9 +6565,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-03-03",
+      "startDate": "2025-03-04",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6828,16 +6858,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-09-27",
+      "endDate": "2025-09-25",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Acting President of Myanmar Min Aung Hlaing",
       "id": "min-aung-hlaing--2025-09-25--RUS",
       "officialId": "min-aung-hlaing",
-      "purpose": "Attended the World Atomic Week meeting.",
+      "purpose": "Meeting with Acting President of Myanmar Min Aung Hlaing",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78073"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Min_Aung_Hlaing"
@@ -6849,7 +6883,7 @@
       ],
       "startDate": "2025-09-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6915,13 +6949,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
+        "city": "Bodh Gaya",
         "coordinates": [
-          77.209,
-          28.6139
+          84.9925,
+          24.695
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2026-06-03",
@@ -6931,7 +6964,7 @@
       "eventName": null,
       "id": "min-aung-hlaing--2026-05-30--IND",
       "officialId": "min-aung-hlaing",
-      "purpose": "Official visit.",
+      "purpose": "Official visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
@@ -6939,7 +6972,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Min_Aung_Hlaing"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2026-05-30",
@@ -7011,6 +7044,7 @@
           13.75
         ],
         "countryCode": "THA",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2026-08-07",
@@ -7161,9 +7195,69 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1966-09-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1966-09-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "ne-win--1966-09-19--JPN",
+      "officialId": "ne-win",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1966-09-19",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1970-11-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "ne-win--1970-11-18--PHL",
+      "officialId": "ne-win",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1970-11-18",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -7278,6 +7372,34 @@
       "startDate": "1991-08-20",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-01-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "soe-win-mmr--2007-01-01--PHL",
+      "officialId": "soe-win-mmr",
+      "purpose": "Attended the 12th ASEAN Summit and the Second East Asia Summit in Mandaue",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2007-01-01",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7637,13 +7759,17 @@
       "purpose": "Visit to Philippines",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1998-02-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7748,15 +7874,19 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1999-11-29",
+      "endDate": "1999-11-30",
       "engagements": [
         "Signed agreements"
       ],
       "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
       "id": "than-shwe--1999-11-28--PHL",
       "officialId": "than-shwe",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 3rd ASEAN Informal Summit in Manila",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8171,7 +8301,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-07-29",
+      "endDate": "2010-07-25",
       "engagements": [
         "Met Prime Minister Manmohan Singh",
         "Signed agreements"
@@ -8179,8 +8309,12 @@
       "eventName": null,
       "id": "than-shwe--2010-07-25--IND",
       "officialId": "than-shwe",
-      "purpose": "Visit to India",
+      "purpose": "Economic issues",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8188,7 +8322,7 @@
       ],
       "startDate": "2010-07-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9266,6 +9400,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9417,13 +9555,17 @@
       "purpose": "Visit to Philippines",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-12-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10112,11 +10254,40 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-05-31",
+      "engagements": [
+        "Leaders of 8 countries (all BIMSTEC countries excluding India, plus Kyrgyzstan and Mauritius), were invited to the swearing-in ceremony.",
+        "Thailand was represented by Special envoy Grisada Boonrach."
+      ],
+      "eventName": "Second oath of office ceremony of Prime Minister Narendra Modi",
+      "id": "win-myint--2019-05-30--IND",
+      "officialId": "win-myint",
+      "purpose": "Second oath of office ceremony of Prime Minister Narendra Modi",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2019-05-30",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
         "region": "Asia"
       },
       "endDate": "2020-02-29",
@@ -10124,16 +10295,20 @@
       "eventName": null,
       "id": "win-myint--2020-02-26--IND",
       "officialId": "win-myint",
-      "purpose": "Visit to India",
+      "purpose": "State visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1259/Visit_of_President_of_Myanmar_to_India_February_2629_2020"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2020-02-26",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

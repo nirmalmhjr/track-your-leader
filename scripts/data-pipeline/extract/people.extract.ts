@@ -102,6 +102,8 @@ const HOLDINGS_TTL_HOURS = 6 * HOURS_PER_DAY;
 const PHOTO_WIDTH = 160;
 const DATE_PREFIX = /^(\d{4})-(\d{2})-(\d{2})/;
 const COMMONS_FILE = /Special:FilePath\/(.+)$/;
+/** Names written in Latin letters only (accents allowed). */
+const LATIN_NAME = /^[\p{Script=Latin}\p{M}\s.,'’()-]+$/u;
 /** Name languages tried when a person has no English or multilingual label. */
 const FALLBACK_NAME_LANGUAGES = [
     "es",
@@ -322,6 +324,35 @@ const fetchOffices = async (
     return offices;
 };
 
+/**
+ * "King of …", "Tsar of …", "Mwami of …": titles only reigning monarchs bear, with the realm they
+ * name. Queens, empresses, princes, grand duchesses and emirs are left out: consorts, heirs and
+ * militant leaders ("Emir of the Islamic State of Iraq") bear those titles too, and today's
+ * monarchs who use them hold their country's own leader office anyway.
+ */
+const MONARCH_OF =
+    /^(?:king|emperor|shah|shahanshah|sultan|grand duke|bey|mwami|tsar|negus|monarch|yang di-pertuan agong)\s+of\s+(.+)$/i;
+/** Realms named by their people. */
+const REALM_PEOPLE: Readonly<Record<string, CountryCode>> = {
+    hellenes: "GRC",
+    "the hellenes": "GRC",
+};
+
+/**
+ * Whether a title is the monarch of the given country ("Sultan of the Maldives" for MDV).
+ *
+ * @param title - Office title.
+ * @param code - Country whose officials are being collected.
+ * @returns `true` when the title names the country's monarch.
+ */
+export const isMonarchOf = (title: string, code: CountryCode): boolean => {
+    const realm = title.match(MONARCH_OF)?.[1];
+    return (
+        realm !== undefined &&
+        (REALM_PEOPLE[realm.toLowerCase()] ?? countryCodeOfName(realm)) === code
+    );
+};
+
 /** "… to Nepal", "… in the United States": the country an envoy is posted to. */
 const ENVOY_HOST = /\b(?:to|in)\s+(.+)$/i;
 /** "Ambassador of Israel to …": the state that sends the envoy. */
@@ -393,6 +424,11 @@ export const classifyOffice = (
     }
     if (!isOfficeOfCountry(office, context)) {
         return null;
+    }
+    // "King of Egypt", "Emperor of Ethiopia": the monarch of a kingdom the country was, which
+    // isn't one of its leader offices.
+    if (isMonarchOf(title, context.code)) {
+        return { ...fromTitle, categories: ["head_of_state"], ministry: null, portfolio: null };
     }
     const [titleCategory] = fromTitle.categories;
     const titleIsSpecific = titleCategory !== "senior_official";
@@ -486,9 +522,17 @@ const fetchPeople = async (ids: readonly string[]): Promise<Map<string, PersonIn
         };
         for (const [personId, labels] of groupBy(rows, (row) => row.person ?? "")) {
             const person = people.get(personId);
+            // A name in Latin letters, in any language, reads in the English app ("Bilen Saliu"
+            // in Albanian before "Билен Салиу" in Macedonian).
+            const latinFirst = (label: string | undefined): number =>
+                LATIN_NAME.test(label ?? "") ? 0 : 1;
             const [best] = labels
                 .filter((row) => row.label)
-                .sort((a, b) => preference(a.language) - preference(b.language));
+                .sort(
+                    (a, b) =>
+                        latinFirst(a.label) - latinFirst(b.label) ||
+                        preference(a.language) - preference(b.language)
+                );
             if (person && best?.label) {
                 person.name = best.label;
             }

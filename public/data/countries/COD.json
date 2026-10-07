@@ -6738,7 +6738,7 @@
       "fullName": "Frédéric Kibassa Maliba",
       "id": "frederic-kibassa-maliba",
       "party": "Union for Democracy and Social Progress",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Directors_of_the_Union_pour_la_D%C3%A9mocratie_et_le_Progr%C3%A8s_Social.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -8066,7 +8066,7 @@
       "fullName": "Jason Sendwe",
       "id": "jason-sendwe",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Sendwe.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -10043,7 +10043,7 @@
       "fullName": "Justin Kalumba Mwana Ngongo",
       "id": "justin-kalumba-mwana-ngongo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ministrejustin.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -13814,7 +13814,8 @@
     {
       "aliases": [
         "Pierrette Gene Vugbo",
-        "Pierrette Gene Vungbo Yatalo"
+        "Pierrette Gene Vungbo Yatalo",
+        "Pierrette Genevungbo Yatalo"
       ],
       "countryCode": "COD",
       "fullName": "Pierrette Gene",
@@ -21864,6 +21865,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1962-02-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "cyrille-adoula--1962-02-05--USA",
+      "officialId": "cyrille-adoula",
+      "purpose": "Informal visit. Afterwards visited New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1962-02-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Luanda",
         "coordinates": [
           13.234444444,
@@ -22576,16 +22605,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2019-10-24",
+      "endDate": "2019-10-23",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Russia-Africa Summit",
+      "eventName": "Meeting with President of the Democratic Republic of the Congo Felix Tshisekedi",
       "id": "felix-tshisekedi--2019-10-23--RUS",
       "officialId": "felix-tshisekedi",
-      "purpose": "Attended the 2019 Russia-Africa Summit.",
+      "purpose": "Meeting with President of the Democratic Republic of the Congo Felix Tshisekedi",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61886"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_F%C3%A9lix_Tshisekedi"
@@ -22597,7 +22630,7 @@
       ],
       "startDate": "2019-10-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22858,15 +22891,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2020-01-18",
+      "endDate": "2020-01-17",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "felix-tshisekedi--2020-01-17--VAT",
       "officialId": "felix-tshisekedi",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met DRC President Félix Tshisekedi to discuss bilateral ties, the Church’s role in democracy, education, health, peace in the…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22874,7 +22911,7 @@
       ],
       "startDate": "2020-01-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -24165,6 +24202,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2021-10-28",
@@ -25105,7 +25143,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_F%C3%A9lix_Tshisekedi"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -25362,14 +25400,14 @@
         "Met President Joe Biden",
         "Signed agreements"
       ],
-      "eventName": "United States-Africa Leaders Summit",
+      "eventName": "U.S.-Africa Leaders' Summit",
       "id": "felix-tshisekedi--2022-12-13--USA",
       "officialId": "felix-tshisekedi",
       "purpose": "Attended the United States–Africa Leaders Summit.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_F%C3%A9lix_Tshisekedi"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -28575,6 +28613,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2026-09-01",
@@ -29950,6 +29989,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-08-13",
+      "engagements": [],
+      "eventName": "Met with President Bush at the U.N. General Assembly in New York City.",
+      "id": "joseph-kabila--2002-08-13--USA",
+      "officialId": "joseph-kabila",
+      "purpose": "Met with President Bush at the U.N. General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2002-08-13",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Luanda",
         "coordinates": [
           13.234444444,
@@ -30427,21 +30494,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2003-11-08",
+      "endDate": "2003-12-06",
       "engagements": [
         "Met President George W. Bush"
       ],
       "eventName": null,
-      "id": "joseph-kabila--2003-11-03--USA",
+      "id": "joseph-kabila--2003-11-02--USA",
       "officialId": "joseph-kabila",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit; met with President Bush at the Oval Office.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-11-03",
+      "startDate": "2003-11-02",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -31561,21 +31632,25 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2007-10-27",
+      "endDate": "2007-10-28",
       "engagements": [
         "Met President George W. Bush"
       ],
       "eventName": null,
-      "id": "joseph-kabila--2007-10-23--USA",
+      "id": "joseph-kabila--2007-10-24--USA",
       "officialId": "joseph-kabila",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-10-23",
+      "startDate": "2007-10-24",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -32218,7 +32293,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -33438,11 +33513,15 @@
       },
       "endDate": "2014-08-06",
       "engagements": [],
-      "eventName": "Africa-United States Summit",
+      "eventName": "U.S.-Africa Leaders' Summit",
       "id": "joseph-kabila--2014-08-04--USA",
       "officialId": "joseph-kabila",
-      "purpose": "Attended Africa-United States Summit",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit. Met with Secretary of State John Kerry.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -34143,8 +34222,12 @@
       "eventName": null,
       "id": "joseph-kabila--2016-09-26--VAT",
       "officialId": "joseph-kabila",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met DRC President Kabila to discuss Church contributions to education and healthcare, the recent bilateral agreement, politica…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -34152,7 +34235,7 @@
       ],
       "startDate": "2016-09-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -34577,6 +34660,34 @@
       "startDate": "2018-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1963-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "joseph-kasa-vubu--1963-12-01--ISR",
+      "officialId": "joseph-kasa-vubu",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Levi_Eshkol"
+        }
+      ],
+      "startDate": "1963-12-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -36573,6 +36684,286 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1970-08-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1970-08-03--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Official visit; visited Annapolis, New York City, Fort Bragg, San Francisco, and Los Angeles.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1970-08-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-04-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1971-04-06--JPN",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1971-04-06",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1971-10-12--IRN",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1973-10-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1973-10-10--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Private visit; met with President Nixon at the White House.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1973-10-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1973-12-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1973-12-11--GBR",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1973-12-11",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-08-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1979-08-10--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Private visit; attended an International Monetary Fund meeting. Also met with President Jimmy Carter on September 11.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1979-08-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1981-12-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1981-11-29--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Private visit; met with President Reagan on December 1.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1981-11-29",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1983-08-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1983-08-02--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Official working visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1983-08-02",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-09-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1984-09-23--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Private visit; met with President Reagan at a U.N. General Assembly reception in New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1984-09-23",
+      "statusHint": null,
+      "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1986-12-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1986-12-06--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Official working visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1986-12-06",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Brasília",
@@ -36599,6 +36990,62 @@
       "startDate": "1987-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-06-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1989-06-28--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Official working visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1989-06-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1989-10-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "mobutu-sese-seko--1989-10-04--USA",
+      "officialId": "mobutu-sese-seko",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1989-10-04",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -36655,6 +37102,34 @@
       "startDate": "1973-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1960-07-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "patrice-lumumba--1960-07-27--USA",
+      "officialId": "patrice-lumumba",
+      "purpose": "Met with Secretary of State Christian Herter and United Nations Secretary-General Dag Hammarskjöld.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1960-07-27",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "year",

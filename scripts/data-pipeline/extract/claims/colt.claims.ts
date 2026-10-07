@@ -17,7 +17,8 @@ const MAX_ENGAGEMENTS = 2;
 
 /** COLT's `LeaderRole`: G(overnment), S(tate), both, or a de facto ruler. IGO leaders are skipped. */
 const ROLE_CATEGORIES: Readonly<Record<string, RoleCategory[]>> = {
-    "De Facto": ["head_of_government"],
+    // A de facto ruler leads the state too: Syria's al-Sharaa had no prime minister beside him.
+    "De Facto": ["head_of_state", "head_of_government"],
     G: ["head_of_government"],
     GS: ["head_of_state", "head_of_government"],
     S: ["head_of_state"],

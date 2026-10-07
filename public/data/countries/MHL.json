@@ -568,7 +568,7 @@
       "fullName": "David Paul",
       "id": "david-paul",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister_of_Finance%2C_Banking_and_Postal_Service_of_the_Marshall_Islands_David_Paul.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -829,7 +829,7 @@
       "fullName": "Joe Bejang",
       "id": "joe-bejang",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Bejang_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1105,6 +1105,17 @@
           ],
           "endDate": null,
           "id": "ota-kisino-p1",
+          "ministry": "Ministry of Culture and Internal Affairs",
+          "portfolio": "home_affairs",
+          "startDate": "2022-06-07",
+          "title": "Minister of Culture and Internal Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "ota-kisino-p2",
           "ministry": "Ministry of Internal Affairs",
           "portfolio": "home_affairs",
           "startDate": "2022-06-07",
@@ -1115,39 +1126,14 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q113954300"
-        }
-      ],
-      "summary": "Marshall Islands politician.",
-      "wikidataId": "Q113954300"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MHL",
-      "fullName": "Ota Kisino",
-      "id": "ota-kisino-mhl",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "ota-kisino-mhl-p1",
-          "ministry": "Ministry of Culture and Internal Affairs",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of Culture and Internal Affairs"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/marshall-islands/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Marshall Islands politician.",
+      "wikidataId": "Q113954300"
     },
     {
       "aliases": [],
@@ -1246,7 +1232,7 @@
       "fullName": "Wilbur Heine",
       "id": "wilbur-heine",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MH_grammar_(Wilbur_Heine).jpeg?width=160",
       "positions": [
         {
           "categories": [
@@ -1388,6 +1374,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -1478,6 +1468,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         },
         {
           "label": "COLT dataset",
@@ -1627,6 +1621,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         },
         {
           "label": "COLT dataset",
@@ -1988,6 +1986,34 @@
       "startDate": "1996-11-14",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-11-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "amata-kabua--1998-11-23--USA",
+      "officialId": "amata-kabua",
+      "purpose": "Met with President Clinton at Agana, Guam.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        }
+      ],
+      "startDate": "1998-11-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "month",
@@ -3141,6 +3167,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         }
       ],
       "startDate": "2023-09-25",
@@ -4212,6 +4242,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4541,8 +4575,12 @@
       "eventName": null,
       "id": "hilda-heine--2024-03-07--PHL",
       "officialId": "hilda-heine",
-      "purpose": "Visit to Philippines",
+      "purpose": "Working visit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4789,7 +4827,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-ninth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         },
         {
           "label": "COLT dataset",

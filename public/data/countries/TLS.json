@@ -1623,7 +1623,7 @@
       "fullName": "Gil da Costa Monteiro",
       "id": "gil-da-costa-monteiro",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2020-06-27_Gil_da_Costa_Monteiro.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2627,36 +2627,9 @@
       "wikidataId": "Q111362310"
     },
     {
-      "aliases": [],
-      "countryCode": "TLS",
-      "fullName": "Veronica Das Dores",
-      "id": "veronica-das-dores-tls",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "veronica-das-dores-tls-p1",
-          "ministry": "Ministry of Solidarity, Social and Inclusion",
-          "portfolio": "social_affairs",
-          "startDate": null,
-          "title": "Minister of Solidarity, Social and Inclusion"
-        }
+      "aliases": [
+        "Veronica Das Dores"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/timor-leste/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "TLS",
       "fullName": "Verónica das Dores",
       "id": "veronica-das-dores",
@@ -2673,12 +2646,27 @@
           "portfolio": "social_affairs",
           "startDate": "2023-07-01",
           "title": "Minister of Social Solidarity and Inclusion"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "veronica-das-dores-p2",
+          "ministry": "Ministry of Solidarity, Social and Inclusion",
+          "portfolio": "social_affairs",
+          "startDate": "2023-07-01",
+          "title": "Minister of Solidarity, Social and Inclusion"
         }
       ],
       "sources": [
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q120493550"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/timor-leste/"
         },
         {
           "label": "Wikipedia",
@@ -3105,6 +3093,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2009-01-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-ramos-horta--2009-01-14--PHL",
+      "officialId": "jose-ramos-horta",
+      "purpose": "Lecture visit at the Ateneo de Davao University in Davao City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2009-01-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2009-08-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-ramos-horta--2009-08-05--PHL",
+      "officialId": "jose-ramos-horta",
+      "purpose": "Attended the funeral of former President Corazon Aquino",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2009-08-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -3182,6 +3226,119 @@
       "startDate": "2023-09-21",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2023-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-ramos-horta--2023-11-08--PHL",
+      "officialId": "jose-ramos-horta",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2023-11-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Gandhinagar",
+        "coordinates": [
+          72.65,
+          23.223
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2024-01-10",
+      "engagements": [],
+      "eventName": "2024 Vibrant Gujarat Global Summit",
+      "id": "jose-ramos-horta--2024-01-08--IND",
+      "officialId": "jose-ramos-horta",
+      "purpose": "Attending the 2024 Vibrant Gujarat Global Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2024-01-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-01-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "jose-ramos-horta--2024-01-22--VAT",
+      "officialId": "jose-ramos-horta",
+      "purpose": "Pope Francis met East Timor President Ramos-Horta, praising strong bilateral ties and the Church’s role, and discussing socio-economic issu…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-01-22",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-11-21",
+      "engagements": [
+        "They noted strong ties, the Church's social role, national issues, regional matters, and Timor-Leste's recent ASEAN accession."
+      ],
+      "eventName": null,
+      "id": "jose-ramos-horta--2025-11-21--VAT",
+      "officialId": "jose-ramos-horta",
+      "purpose": "Pope Leo XIV met Timor-Leste's President Ramos-Horta.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-11-21",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -3324,6 +3481,36 @@
       "startDate": "2015-10-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-03-03",
+      "engagements": [
+        "They discussed strong Church–state ties, the Church’s role in education and poverty relief, and ratified a 2015 Accord guaranteeing Church freedoms."
+      ],
+      "eventName": null,
+      "id": "rui-maria-de-araujo--2016-03-03--VAT",
+      "officialId": "rui-maria-de-araujo",
+      "purpose": "Pope Francis met Timor-Leste PM Rui Maria de Araújo.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-03-03",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -3580,6 +3767,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "2002-10-02",
@@ -3723,6 +3914,34 @@
       "startDate": "2012-11-09",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-06-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "xanana-gusmao--2013-06-05--PHL",
+      "officialId": "xanana-gusmao",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2013-06-05",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -4473,6 +4692,62 @@
         }
       ],
       "startDate": "2025-12-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-05-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "xanana-gusmao--2026-05-07--PHL",
+      "officialId": "xanana-gusmao",
+      "purpose": "Attended the 48th ASEAN Summit and related meetings in Lapu-Lapu City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2026-05-07",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "xanana-gusmao--2026-06-18--RUS",
+      "officialId": "xanana-gusmao",
+      "purpose": "Conversation with Prime Minister of the Democratic Republic of Timor-Leste Kay Rala Xanana Gusmão",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80064"
+        }
+      ],
+      "startDate": "2026-06-18",
       "statusHint": null,
       "type": "other"
     },

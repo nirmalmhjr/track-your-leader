@@ -678,7 +678,7 @@
       "fullName": "Ramfis Trujillo",
       "id": "ramfis-trujillo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Magloire_Trujillo_1951.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1493,12 +1493,14 @@
       "wikidataId": "Q16297386"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Carlos Antonio Fernandez Onofre"
+      ],
       "countryCode": "DOM",
-      "fullName": "Carlos Antonio Fernandez Onofre",
+      "fullName": "Carlos Antonio Fernández Onofre",
       "id": "carlos-antonio-fernandez-onofre-dom",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Antonio_Fern%C3%A1ndez_Onofre_2025_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1506,6 +1508,17 @@
           ],
           "endDate": null,
           "id": "carlos-antonio-fernandez-onofre-dom-p1",
+          "ministry": "Ministry of Defence of the Dominican Republic",
+          "portfolio": "defence",
+          "startDate": "2024-08-16",
+          "title": "Minister of Defence of the Dominican Republic"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "carlos-antonio-fernandez-onofre-dom-p2",
           "ministry": "Ministry of Defense",
           "portfolio": "defence",
           "startDate": null,
@@ -1514,37 +1527,12 @@
       ],
       "sources": [
         {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/dominican-republic/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "DOM",
-      "fullName": "Carlos Antonio Fernández Onofre",
-      "id": "carlos-antonio-fernandez-onofre",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "carlos-antonio-fernandez-onofre-p1",
-          "ministry": "Ministry of Defence of the Dominican Republic",
-          "portfolio": "defence",
-          "startDate": "2024-08-16",
-          "title": "Minister of Defence of the Dominican Republic"
-        }
-      ],
-      "sources": [
-        {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q137996117"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/dominican-republic/"
         }
       ],
       "summary": "",
@@ -1928,7 +1916,7 @@
       "fullName": "Eddy Olivares Ortega",
       "id": "eddy-olivares-ortega",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eddy_Olivares_Ortega.png?width=160",
       "positions": [
         {
           "categories": [
@@ -3123,7 +3111,7 @@
       "fullName": "José Ignacio Paliza",
       "id": "jose-ignacio-paliza",
       "party": "Dominican Revolutionary Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Con_el_ministro_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3376,7 +3364,7 @@
       "fullName": "Kelvin Cruz",
       "id": "kelvin-cruz",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kelvin_Cruz_ministro_de_Deportes_Republica_Dominicana_2025.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3695,8 +3683,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2024-08-16",
+          "endDate": null,
           "id": "miguel-ceara-hatton-p1",
+          "ministry": "Ministry of Economy, Planning and Development",
+          "portfolio": "trade",
+          "startDate": null,
+          "title": "Minister of Economy, Planning and Development"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2024-08-16",
+          "id": "miguel-ceara-hatton-p2",
           "ministry": "Ministry of Environment and Natural Resources of the Dominican Republic",
           "portfolio": "environment",
           "startDate": "2022-07-07",
@@ -3707,39 +3706,14 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q113992519"
-        }
-      ],
-      "summary": "Politician in the Dominican Republic.",
-      "wikidataId": "Q113992519"
-    },
-    {
-      "aliases": [],
-      "countryCode": "DOM",
-      "fullName": "Miguel Ceara Hatton",
-      "id": "miguel-ceara-hatton-dom",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "miguel-ceara-hatton-dom-p1",
-          "ministry": "Ministry of Economy, Planning and Development",
-          "portfolio": "trade",
-          "startDate": null,
-          "title": "Minister of Economy, Planning and Development"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/dominican-republic/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in the Dominican Republic.",
+      "wikidataId": "Q113992519"
     },
     {
       "aliases": [
@@ -4446,7 +4420,7 @@
       "fullName": "Héctor Valdez Albizu",
       "id": "hector-valdez-albizu",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/F-HMVA-BCRD.png?width=160",
       "positions": [
         {
           "categories": [
@@ -5466,8 +5440,12 @@
       "eventName": null,
       "id": "danilo-medina--2014-06-13--VAT",
       "officialId": "danilo-medina",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met the Dominican Republic’s President Medina, discussing strong Church–State relations, the Church’s contributions in educati…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6766,6 +6744,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7872,6 +7854,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8377,6 +8363,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1977-09-06",
@@ -8405,6 +8395,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1988-03-24",
@@ -8586,6 +8580,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8646,6 +8644,34 @@
         }
       ],
       "startDate": "1963-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1963-01-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "juan-bosch--1963-01-04--USA",
+      "officialId": "juan-bosch",
+      "purpose": "Private visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1963-01-04",
       "statusHint": null,
       "type": "other"
     },
@@ -9027,6 +9053,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -9571,6 +9601,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -10292,6 +10326,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10791,7 +10829,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -11849,6 +11887,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12054,24 +12096,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2011-02-04",
+      "endDate": "2011-01-30",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
       "eventName": "Delhi Sustainable Development Summit",
-      "id": "leonel-fernandez--2011-01-29--IND",
+      "id": "leonel-fernandez--2011-01-30--IND",
       "officialId": "leonel-fernandez",
       "purpose": "Attended Delhi Sustainable Development Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-01-29",
+      "startDate": "2011-01-30",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -13495,6 +13541,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13545,15 +13595,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-05-28",
+      "endDate": "2024-05-27",
       "engagements": [
+        "Talks praised strong ties, Church’s role in education and charity, and discussed migration and regional issues.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "luis-abinader--2024-05-27--VAT",
       "officialId": "luis-abinader",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Dominican President Luis Abinader, then Cardinal Parolin.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13561,7 +13616,7 @@
       ],
       "startDate": "2024-05-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14238,6 +14293,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-06-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "raquel-pena--2022-06-23--VAT",
+      "officialId": "raquel-pena",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-06-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New Delhi",
         "coordinates": [
           77.209,
@@ -14330,6 +14413,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1982-07-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "salvador-jorge-blanco--1982-07-14--USA",
+      "officialId": "salvador-jorge-blanco",
+      "purpose": "Private visit. Met with President Reagan July 15.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1982-07-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1984-04-11",
       "engagements": [],
       "eventName": null,
@@ -14340,6 +14451,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1984-04-09",

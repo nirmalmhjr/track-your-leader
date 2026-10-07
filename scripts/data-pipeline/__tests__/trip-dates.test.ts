@@ -161,3 +161,16 @@ test("Persian-calendar dates in Persian digits become Gregorian", () => {
         startDate: "2024-09-11",
     });
 });
+
+test("Japanese, Thai and Malay dates, and Swedish year-first dates", () => {
+    const read = (text: string, year: number | null) => {
+        const dates = parseTripDates(text, year);
+        return dates ? `${dates.startDate}..${dates.endDate}` : null;
+    };
+    assert.equal(read("3月19日-20日", 2022), "2022-03-19..2022-03-20");
+    assert.equal(read("9月27日 – 10月14日", 1971), "1971-09-27..1971-10-14");
+    // Thai years are Buddhist Era: 2566 is 2023.
+    assert.equal(read("4–7 พฤษภาคม พ.ศ. 2566", null), "2023-05-04..2023-05-07");
+    assert.equal(read("18–26 Disember", 2020), "2020-12-18..2020-12-26");
+    assert.equal(read("1974, 8–10 oktober", null), "1974-10-08..1974-10-10");
+});

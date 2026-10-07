@@ -2120,6 +2120,35 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2018-03-11",
+      "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…"
+      ],
+      "eventName": "International Solar Alliance Summit",
+      "id": "danny-faure--2018-03-08--IND",
+      "officialId": "danny-faure",
+      "purpose": "International Solar Alliance Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2018-03-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "London",
         "coordinates": [
           -0.1275,
@@ -2186,13 +2215,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
+        "city": "Ahmedabad",
         "coordinates": [
-          77.209,
-          28.6139
+          72.579722222,
+          23.021944444
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2018-06-27",
@@ -2203,11 +2231,15 @@
       "eventName": null,
       "id": "danny-faure--2018-06-22--IND",
       "officialId": "danny-faure",
-      "purpose": "Visit to India",
+      "purpose": "State visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1088/State_Visit_of_President_of_Seychelles_to_India_June_2227_2018"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -2895,6 +2927,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1989-07-20",
@@ -5283,6 +5319,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5426,21 +5466,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-05-01",
+      "endDate": "2015-04-30",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "james-michel--2015-04-28--VAT",
+      "id": "james-michel--2015-04-30--VAT",
       "officialId": "james-michel",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Seychelles’ President Michel, discussing strong Church–State relations, the Church’s contributions in education and welfar…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-04-28",
+      "startDate": "2015-04-30",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -5492,11 +5536,15 @@
       "eventName": null,
       "id": "james-michel--2015-08-25--IND",
       "officialId": "james-michel",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/800/State_visit_of_President_of_the_Republic_of_Seychelles_to_India_August_2527_2015"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2015-08-25",
@@ -5679,13 +5727,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New Delhi",
+        "city": "Chennai",
         "coordinates": [
-          77.209,
-          28.6139
+          80.275,
+          13.0825
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2026-02-10",
@@ -5693,11 +5740,15 @@
       "eventName": null,
       "id": "patrick-herminie--2026-02-05--IND",
       "officialId": "patrick-herminie",
-      "purpose": "Visit to India",
+      "purpose": "State visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1558/State_Visit_of_the_President_of_Seychelles_to_India_February_05__10_2026"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2026-02-05",
@@ -6476,7 +6527,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-seventh_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -6986,21 +7037,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-03-17",
+      "endDate": "2024-03-16",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "wavel-ramkalawan--2024-03-15--VAT",
+      "id": "wavel-ramkalawan--2024-03-16--VAT",
       "officialId": "wavel-ramkalawan",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Seychelles President Ramkalawan, praising strong Holy See–Seychelles ties and the Church’s role, and discussing social iss…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-03-15",
+      "startDate": "2024-03-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7346,21 +7401,25 @@
         "countryCode": "VAT",
         "region": "Europe"
       },
-      "endDate": "2025-08-23",
+      "endDate": "2025-08-22",
       "engagements": [
         "Met Pope Leo XIV"
       ],
       "eventName": null,
-      "id": "wavel-ramkalawan--2025-08-21--VAT",
+      "id": "wavel-ramkalawan--2025-08-22--VAT",
       "officialId": "wavel-ramkalawan",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Seychelles' President Ramkalawan to discuss strong Holy See ties, youth-focused cooperation in education, health, and the…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-08-21",
+      "startDate": "2025-08-22",
       "statusHint": null,
       "type": "official_visit"
     }

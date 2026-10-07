@@ -3684,7 +3684,7 @@
       "fullName": "Giorgos Pamporides",
       "id": "giorgos-pamporides",
       "party": "Democratic Rally",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Informal_meeting_of_health_ministers_(iEPSCO)._Handshake_Jevgeni_Ossinovski_and_George_Pamboridis_(36002446356)_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5140,19 +5140,8 @@
           "categories": [
             "minister"
           ],
-          "endDate": null,
-          "id": "makis-keravnos-p2",
-          "ministry": "Ministry of Finance",
-          "portfolio": "finance",
-          "startDate": "2023-03-01",
-          "title": "Minister of Finance"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
           "endDate": "2005-08-30",
-          "id": "makis-keravnos-p3",
+          "id": "makis-keravnos-p2",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "2004-05-19",
@@ -5163,7 +5152,7 @@
             "minister"
           ],
           "endDate": "2004-05-18",
-          "id": "makis-keravnos-p4",
+          "id": "makis-keravnos-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2003-03-03",
@@ -5826,7 +5815,7 @@
       "fullName": "Natasa Pilides",
       "id": "natasa-pilides",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Natasa_Pilides_Cyprus_Deputy_Minister_of_Shipping_2018.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -7724,7 +7713,7 @@
       "fullName": "Stella Soulioti",
       "id": "stella-soulioti",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%CE%A3%CF%84%CE%AD%CE%BB%CE%BB%CE%B1_%CE%A3%CE%BF%CF%85%CE%BB%CE%B9%CF%8E%CF%84%CE%B7.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -11095,15 +11084,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-11-21",
+      "endDate": "2008-11-19",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
       "id": "dimitris-christofias--2008-11-19--RUS",
       "officialId": "dimitris-christofias",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met at the Kremlin with President of the Republic of Cyprus Demetris Christofias",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/2128"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13585,6 +13578,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1989-10-04",
@@ -13703,6 +13700,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -13941,6 +13942,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14091,6 +14096,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1993-05-20",
@@ -14231,6 +14240,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1996-06-16",
@@ -15125,6 +15138,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1962-06-05",
@@ -15153,6 +15170,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1970-10-24",
@@ -15426,6 +15447,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-05-12",
@@ -15895,6 +15917,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-10-21",
@@ -16117,8 +16140,12 @@
       "eventName": null,
       "id": "nicos-christodoulides--2023-11-24--VAT",
       "officialId": "nicos-christodoulides",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cypriot President Christodoulides, praising positive bilateral ties, discussing Church-State matters, migration, and inter…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16126,7 +16153,7 @@
       ],
       "startDate": "2023-11-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -19377,15 +19404,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2014-02-16",
+      "endDate": "2014-02-15",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "nikos-anastasiades--2014-02-15--VAT",
       "officialId": "nikos-anastasiades",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cyprus President Anastasiades, discussing religious freedom, Cyprus talks, and regional instability, stressing Christian c…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19393,7 +19424,7 @@
       ],
       "startDate": "2014-02-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21042,8 +21073,12 @@
       "eventName": null,
       "id": "nikos-anastasiades--2017-03-24--VAT",
       "officialId": "nikos-anastasiades",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis received EU leaders and their delegations in the Apostolic Palace to mark the 60th anniversary of the Treaties of Rome, highli…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21130,11 +21165,15 @@
       "eventName": null,
       "id": "nikos-anastasiades--2017-04-25--IND",
       "officialId": "nikos-anastasiades",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/961/State_visit_of_President_of_the_Republic_of_Cyprus_to_India_April_2529_2017"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -22426,27 +22465,30 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2019-04-27",
+      "endDate": "2019-04-26",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Belt and Road Forum for International Cooperation",
-      "id": "nikos-anastasiades--2019-04-22--CHN",
+      "eventName": "Meeting with President of Cyprus Nicos Anastasiades",
+      "id": "nikos-anastasiades--2019-04-26--CHN",
       "officialId": "nikos-anastasiades",
-      "purpose": "Attended Belt and Road Forum for International Cooperation",
+      "purpose": "Meeting with President of Cyprus Nicos Anastasiades",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/60389"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-04-22",
+      "startDate": "2019-04-26",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22890,6 +22932,34 @@
       "startDate": "2019-11-22",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-11-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "nikos-anastasiades--2019-11-28--VAT",
+      "officialId": "nikos-anastasiades",
+      "purpose": "Pope Francis met Cyprus’ President Anastasiades to discuss bilateral ties, Cyprus’ reunification, migration, religious freedom, minority ri…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2019-11-28",
+      "statusHint": null,
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -24543,23 +24613,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2022-10-25",
+      "endDate": "2022-10-24",
       "engagements": [
+        "Talks praised strong ties, refugee support, the island’s reunification process, and regional issues, emphasizing resolution through dialogue.",
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "nikos-anastasiades--2022-10-23--VAT",
+      "id": "nikos-anastasiades--2022-10-24--VAT",
       "officialId": "nikos-anastasiades",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cypriot President Nicos Anastasiades.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-10-23",
+      "startDate": "2022-10-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -24938,6 +25013,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1977-10-05",
@@ -24966,6 +25045,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1978-10-06",
@@ -25021,6 +25104,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1981-12-04",
@@ -26240,7 +26327,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2006-01-25",
+      "endDate": "2006-01-23",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
@@ -26248,8 +26335,12 @@
       "eventName": null,
       "id": "tassos-papadopoulos--2006-01-23--RUS",
       "officialId": "tassos-papadopoulos",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with President of Cyprus Tassos Papadopoulos",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/34918"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -26257,7 +26348,7 @@
       ],
       "startDate": "2006-01-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

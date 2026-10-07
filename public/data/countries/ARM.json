@@ -1156,7 +1156,7 @@
       "fullName": "Anahit Avanesian",
       "id": "anahit-avanesyan",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anahit_Avanesyan.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1577,8 +1577,8 @@
       "countryCode": "ARM",
       "fullName": "Arsen Torosyan",
       "id": "arsen-torosyan-arm",
-      "party": null,
-      "photoUrl": null,
+      "party": "Civil Contract",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D4%B1%D6%80%D5%BD%D5%A5%D5%B6_%D4%B9%D5%B8%D6%80%D5%B8%D5%BD%D5%B5%D5%A1%D5%B6.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1590,16 +1590,32 @@
           "portfolio": "labour",
           "startDate": null,
           "title": "Minister of Labor and Welfare"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "arsen-torosyan-arm-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the National Assembly of Armenia",
+          "undated": true
         }
       ],
       "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q53328746"
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/armenia/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Armenian politician.",
+      "wikidataId": "Q53328746"
     },
     {
       "aliases": [],
@@ -2290,7 +2306,7 @@
       "fullName": "Hakob Simidyan",
       "id": "hakob-simidyan",
       "party": "Civil Contract",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D5%80%D5%A1%D5%AF%D5%B8%D5%A2_%D5%8D%D5%AB%D5%B4%D5%AB%D5%A4%D5%B5%D5%A1%D5%B6_(%C2%AB%D4%BB%D5%B4_%D5%94%D5%A1%D5%B5%D5%AC%D5%A8%C2%BB_%D5%A4%D5%A1%D5%B7%D5%AB%D5%B6%D6%84).png?width=160",
       "positions": [
         {
           "categories": [
@@ -4999,8 +5015,8 @@
       "destination": {
         "city": "Telavi",
         "coordinates": [
-          45.476388888,
-          41.916944444
+          45.47315,
+          41.91978
         ],
         "countryCode": "GEO",
         "region": "Asia"
@@ -5163,8 +5179,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -5900,6 +5916,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2020-01-23",
@@ -6141,8 +6158,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -6520,7 +6537,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2021-10-12",
+      "endDate": "2021-10-11",
       "engagements": [
         "Met Pope Francis",
         "Signed agreements"
@@ -6528,8 +6545,12 @@
       "eventName": null,
       "id": "armen-sarkissian--2021-10-11--VAT",
       "officialId": "armen-sarkissian",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Armenia’s President Armen Sarkissian to discuss strong bilateral ties, Armenia’s Christian heritage, and other regional an…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6537,7 +6558,7 @@
       ],
       "startDate": "2021-10-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -7047,6 +7068,34 @@
       "startDate": "2017-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "karen-karapetyan--2017-10-09--IRN",
+      "officialId": "karen-karapetyan",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2017-10-09",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7966,6 +8015,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8674,6 +8727,90 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-04-26",
+      "engagements": [],
+      "eventName": "NATO's 50th Anniversary Summit",
+      "id": "levon-ter-petrosyan--1999-04-23--USA",
+      "officialId": "levon-ter-petrosyan",
+      "purpose": "Attended NATO's 50th Anniversary Summit and discussed the Caucasus situation.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1999-04-23",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2000-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "levon-ter-petrosyan--2000-06-24--USA",
+      "officialId": "levon-ter-petrosyan",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "2000-06-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2001-04-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "levon-ter-petrosyan--2001-04-08--USA",
+      "officialId": "levon-ter-petrosyan",
+      "purpose": "Met with President Bush April 9 during a private visit after peace talks in Key West, beginning April 3.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "2001-04-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Stepanakert",
         "coordinates": [
           46.751944444,
@@ -8715,11 +8852,15 @@
       "engagements": [
         "Met with Vladimir Putin, Sooronbay Jeenbekov, Igor Dodon, Alexander Lukashenko, Tigran Sargsyan."
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2018-05-14--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Attended the regular session of the Eurasian Intergovernmental Council.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57459"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -8770,19 +8911,23 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2018-06-14",
+      "endDate": "2018-06-13",
       "engagements": [],
-      "eventName": null,
-      "id": "nikol-pashinyan--2018-06-14--RUS",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
+      "id": "nikol-pashinyan--2018-06-13--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Attended the opening ceremony of the 2018 FIFA World Cup Met with Vladimir Putin and Ilham Aliyev.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57774"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2018-06-14",
+      "startDate": "2018-06-13",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -8911,11 +9056,15 @@
       },
       "endDate": "2018-09-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2018-09-08--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58491"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -8923,7 +9072,7 @@
       ],
       "startDate": "2018-09-08",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9211,8 +9360,12 @@
       "eventName": null,
       "id": "nikol-pashinyan--2018-12-27--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with Acting Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/59531"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -9220,7 +9373,7 @@
       ],
       "startDate": "2018-12-27",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9617,15 +9770,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2019-06-07",
+      "endDate": "2019-06-06",
       "engagements": [
         "Petersburg International Economic Forum."
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2019-06-06--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit: meeting of the St.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/60679"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -9633,7 +9790,7 @@
       ],
       "startDate": "2019-06-06",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10246,11 +10403,15 @@
       },
       "endDate": "2021-01-11",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2021-01-11--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Trilateral summit with Vladimir Putin and Ilham Aliyev.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/64883"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10258,7 +10419,7 @@
       ],
       "startDate": "2021-01-11",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10300,11 +10461,15 @@
       },
       "endDate": "2021-04-07",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2021-04-07--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/65324"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10312,7 +10477,7 @@
       ],
       "startDate": "2021-04-07",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10408,11 +10573,15 @@
       },
       "endDate": "2021-07-07",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Acting Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2021-07-07--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Acting Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/66161"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10420,7 +10589,7 @@
       ],
       "startDate": "2021-07-07",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10447,7 +10616,7 @@
       ],
       "startDate": "2021-08-05",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10597,11 +10766,15 @@
       },
       "endDate": "2021-10-12",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2021-10-12--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/66912"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10609,7 +10782,7 @@
       ],
       "startDate": "2021-10-12",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10624,11 +10797,15 @@
       },
       "endDate": "2021-11-26",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2021-11-26--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Trilateral summit with Russian President Vladimir Putin and Azerbaijani President Ilham Aliyev.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/67204"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10636,7 +10813,7 @@
       ],
       "startDate": "2021-11-26",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10730,13 +10907,17 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2022-04-20",
+      "endDate": "2022-04-19",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2022-04-19--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68246"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10744,7 +10925,7 @@
       ],
       "startDate": "2022-04-19",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10790,8 +10971,12 @@
       "eventName": null,
       "id": "nikol-pashinyan--2022-05-16--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit",
+      "purpose": "Conversation with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68426"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -10920,21 +11105,25 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2022-09-09",
+      "endDate": "2022-09-07",
       "engagements": [],
-      "eventName": null,
-      "id": "nikol-pashinyan--2022-09-06--RUS",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
+      "id": "nikol-pashinyan--2022-09-07--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69302"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2022-09-06",
+      "startDate": "2022-09-07",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -11073,7 +11262,7 @@
       ],
       "startDate": "2022-11-01",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11118,8 +11307,12 @@
       "eventName": null,
       "id": "nikol-pashinyan--2022-12-09--KGZ",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit",
+      "purpose": "Conversation with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/70060"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -11143,16 +11336,20 @@
       "endDate": "2022-12-27",
       "engagements": [],
       "eventName": null,
-      "id": "nikol-pashinyan--2022-12-26--RUS",
+      "id": "nikol-pashinyan--2022-12-27--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit",
+      "purpose": "Conversation with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/70192"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2022-12-26",
+      "startDate": "2022-12-27",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11360,19 +11557,23 @@
       },
       "endDate": "2023-05-25",
       "engagements": [],
-      "eventName": null,
-      "id": "nikol-pashinyan--2023-05-24--RUS",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
+      "id": "nikol-pashinyan--2023-05-25--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71206"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2023-05-24",
+      "startDate": "2023-05-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -11442,16 +11643,20 @@
       "endDate": "2023-06-09",
       "engagements": [],
       "eventName": null,
-      "id": "nikol-pashinyan--2023-06-07--RUS",
+      "id": "nikol-pashinyan--2023-06-09--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit",
+      "purpose": "Conversation with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71328"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2023-06-07",
+      "startDate": "2023-06-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11877,13 +12082,17 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2024-05-09",
+      "endDate": "2024-05-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2024-05-08--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Attended the EAEU summit.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/73993"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -11891,7 +12100,7 @@
       ],
       "startDate": "2024-05-08",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12066,21 +12275,25 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2024-10-07",
+      "endDate": "2024-10-08",
       "engagements": [],
-      "eventName": null,
-      "id": "nikol-pashinyan--2024-10-07--RUS",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
+      "id": "nikol-pashinyan--2024-10-08--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Attended the CIS summit.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/75286"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2024-10-07",
+      "startDate": "2024-10-08",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12589,7 +12802,7 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2025-08-08",
+      "endDate": "2025-08-09",
       "engagements": [
         "Signed Armenia–Azerbaijan peace agreement with Ilham Aliyev and Donald Trump."
       ],
@@ -12618,15 +12831,19 @@
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2025-09-03",
+      "endDate": "2025-08-31",
       "engagements": [
         "Attended the SCO summit and 2025 China Victory Day Parade."
       ],
-      "eventName": "2025 Tianjin SCO summit",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "id": "nikol-pashinyan--2025-08-31--CHN",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77886"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
@@ -12634,7 +12851,7 @@
       ],
       "startDate": "2025-08-31",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12674,21 +12891,25 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-09-25",
+      "endDate": "2025-09-26",
       "engagements": [],
-      "eventName": null,
-      "id": "nikol-pashinyan--2025-09-25--RUS",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
+      "id": "nikol-pashinyan--2025-09-26--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78075"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2025-09-25",
+      "startDate": "2025-09-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12871,7 +13092,9 @@
         "region": "Europe"
       },
       "endDate": "2025-10-20",
-      "engagements": [],
+      "engagements": [
+        "Talks also addressed Church life and the pursuit of lasting peace in the South Caucasus."
+      ],
       "eventName": null,
       "id": "nikol-pashinyan--2025-10-18--VAT",
       "officialId": "nikol-pashinyan",
@@ -13009,19 +13232,23 @@
       "engagements": [
         "Attended the EAEU summit."
       ],
-      "eventName": null,
-      "id": "nikol-pashinyan--2025-12-21--RUS",
+      "eventName": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
+      "id": "nikol-pashinyan--2025-12-22--RUS",
       "officialId": "nikol-pashinyan",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78834"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2025-12-21",
+      "startDate": "2025-12-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13280,16 +13507,20 @@
       "endDate": "2026-09-01",
       "engagements": [],
       "eventName": null,
-      "id": "nikol-pashinyan--2026-08-31--KGZ",
+      "id": "nikol-pashinyan--2026-09-01--KGZ",
       "officialId": "nikol-pashinyan",
-      "purpose": "Attended the 2026 SCO summit and the opening ceremony of the 6th World Nomad Games.",
+      "purpose": "Conversation with Prime Minister of Armenia Nikol Pashinyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80662"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Nikol_Pashinyan"
         }
       ],
-      "startDate": "2026-08-31",
+      "startDate": "2026-09-01",
       "statusHint": null,
       "type": "summit"
     },
@@ -15714,6 +15945,34 @@
         "precision": "country",
         "region": "Europe"
       },
+      "endDate": "2005-12-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-kocharyan--2005-12-16--RUS",
+      "officialId": "robert-kocharyan",
+      "purpose": "President Vladimir Putin met with President of Armenia Robert Kocharian",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/34676"
+        }
+      ],
+      "startDate": "2005-12-16",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
       "endDate": "2006-01-23",
       "engagements": [
         "Met President Vladimir Putin"
@@ -15845,13 +16104,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2006-07-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -15970,6 +16233,34 @@
       "startDate": "2006-11-28",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2007-01-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "robert-kocharyan--2007-01-24--RUS",
+      "officialId": "robert-kocharyan",
+      "purpose": "President Vladimir Putin met with President of Armenia Robert Kocharian",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/37068"
+        }
+      ],
+      "startDate": "2007-01-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16216,15 +16507,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-02-23",
+      "endDate": "2008-02-22",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": "Commonwealth of Independent States (CIS) Summit",
       "id": "robert-kocharyan--2008-02-22--RUS",
       "officialId": "robert-kocharyan",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "President Vladimir Putin met with the acting President of Armenia, Robert Kocharian",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43858"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16232,7 +16527,7 @@
       ],
       "startDate": "2008-02-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16264,6 +16559,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "serzh-sargsyan--2008-03-24--RUS",
+      "officialId": "serzh-sargsyan",
+      "purpose": "President Vladimir Putin met with President-elect of Armenia Serzh Sargsyan",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/44012"
+        }
+      ],
+      "startDate": "2008-03-24",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Saint Petersburg",
         "coordinates": [
           30.316666666,
@@ -16272,15 +16595,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2008-06-07",
+      "endDate": "2008-06-06",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": "Summit on the Nagorno Karabakh Dispute",
-      "id": "serzh-sargsyan--2008-06-05--RUS",
+      "id": "serzh-sargsyan--2008-06-06--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Participated in the summit of the CIS Heads of State in Saint Petersburg.",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/44353"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -16290,9 +16617,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-06-05",
+      "startDate": "2008-06-06",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16361,13 +16688,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Kyiv",
+        "city": "Yalta",
         "coordinates": [
-          30.5234,
-          50.4501
+          34.155277777,
+          44.499444444
         ],
         "countryCode": "UKR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2008-07-29",
@@ -16437,8 +16763,12 @@
       "eventName": null,
       "id": "serzh-sargsyan--2008-09-02--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit.",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/1290"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -16450,7 +16780,7 @@
       ],
       "startDate": "2008-09-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16769,13 +17099,17 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2009-01-18",
+      "endDate": "2009-01-17",
       "engagements": [],
       "eventName": "Summit on Gas Consumption",
       "id": "serzh-sargsyan--2009-01-17--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Participated in the International gas summit.",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/2883"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -16787,7 +17121,7 @@
       ],
       "startDate": "2009-01-17",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16939,8 +17273,12 @@
       "eventName": null,
       "id": "serzh-sargsyan--2009-04-23--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit.",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3837"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -16952,7 +17290,7 @@
       ],
       "startDate": "2009-04-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16998,13 +17336,17 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2009-06-06",
+      "endDate": "2009-06-04",
       "engagements": [],
       "eventName": null,
       "id": "serzh-sargsyan--2009-06-04--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "He held negotiations with the President of Azerbaijan Ilham Aliyev at the Baltic Star Hotel in Saint Petersburg.",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/4332"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -17016,7 +17358,7 @@
       ],
       "startDate": "2009-06-04",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17303,8 +17645,12 @@
       "eventName": null,
       "id": "serzh-sargsyan--2009-10-12--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit.",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/5716"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -17316,7 +17662,7 @@
       ],
       "startDate": "2009-10-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17618,15 +17964,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2010-01-20",
+      "endDate": "2010-01-18",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
       "id": "serzh-sargsyan--2010-01-18--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/6652"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17634,7 +17984,7 @@
       ],
       "startDate": "2010-01-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17802,8 +18152,8 @@
       "destination": {
         "city": "Damascus",
         "coordinates": [
-          36.292,
-          33.513
+          36.291944444,
+          33.513055555
         ],
         "countryCode": "SYR",
         "region": "Asia"
@@ -17879,16 +18229,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2010-04-21",
+      "endDate": "2010-04-20",
       "engagements": [
         "Met with the President of Russian Dmitry Medvedev.",
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2010-04-20--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit.",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/7512"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -17900,7 +18254,7 @@
       ],
       "startDate": "2010-04-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18013,15 +18367,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2010-06-02",
+      "endDate": "2010-06-01",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": "Russia-European Council Summit",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2010-06-01--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Attended Russia-European Council Summit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/7933"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -18033,7 +18391,7 @@
       ],
       "startDate": "2010-06-01",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18134,13 +18492,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Kyiv",
+        "city": "Yalta",
         "coordinates": [
-          30.5234,
-          50.4501
+          34.155277777,
+          44.499444444
         ],
         "countryCode": "UKR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2010-07-11",
@@ -18233,13 +18590,17 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2010-11-18",
+      "endDate": "2010-11-17",
       "engagements": [],
-      "eventName": null,
-      "id": "serzh-sargsyan--2010-11-16--RUS",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
+      "id": "serzh-sargsyan--2010-11-17--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit.",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/9534"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -18249,9 +18610,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-11-16",
+      "startDate": "2010-11-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18473,11 +18834,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2011-02-25--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/10437"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -18489,7 +18854,7 @@
       ],
       "startDate": "2011-02-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19270,11 +19635,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2012-01-23--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/14345"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -19286,7 +19655,7 @@
       ],
       "startDate": "2012-01-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19660,11 +20029,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2012-08-07--RUS",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
+      "id": "serzh-sargsyan--2012-08-08--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/16176"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -19674,9 +20047,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-08-07",
+      "startDate": "2012-08-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19881,11 +20254,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2013-03-11--RUS",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
+      "id": "serzh-sargsyan--2013-03-12--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/17659"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -19895,9 +20272,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-03-11",
+      "startDate": "2013-03-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20126,7 +20503,7 @@
       ],
       "startDate": "2013-08-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -20145,11 +20522,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2013-09-03--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/19139"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -20161,7 +20542,7 @@
       ],
       "startDate": "2013-09-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20619,11 +21000,15 @@
         "Watched CSTO exercises in the Kremlin.",
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2014-05-07--RUS",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
+      "id": "serzh-sargsyan--2014-05-08--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit.",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/20982"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -20633,9 +21018,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-05-07",
+      "startDate": "2014-05-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20844,15 +21229,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2014-08-10",
+      "endDate": "2014-08-09",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2014-08-08--RUS",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
+      "id": "serzh-sargsyan--2014-08-09--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/46423"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -20862,9 +21251,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-08",
+      "startDate": "2014-08-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21039,8 +21428,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -21499,11 +21888,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2015-09-07--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50250"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -21515,7 +21908,7 @@
       ],
       "startDate": "2015-09-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21817,15 +22210,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-03-11",
+      "endDate": "2016-03-10",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2016-03-10--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/51491"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -21837,7 +22234,7 @@
       ],
       "startDate": "2016-03-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22109,11 +22506,15 @@
       },
       "endDate": "2016-06-20",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2016-06-20--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/52187"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -22121,7 +22522,7 @@
       ],
       "startDate": "2016-06-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22230,11 +22631,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2016-08-10--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/52683"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -22246,7 +22651,7 @@
       ],
       "startDate": "2016-08-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22528,11 +22933,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2017-03-14--RUS",
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
+      "id": "serzh-sargsyan--2017-03-15--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Official Visit",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/54043"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -22542,9 +22951,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-03-14",
+      "startDate": "2017-03-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -22774,7 +23183,7 @@
       ],
       "startDate": "2017-08-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -22791,11 +23200,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2017-08-23--RUS",
       "officialId": "serzh-sargsyan",
-      "purpose": "Met with Vladimir Putin.",
+      "purpose": "Meeting with President of Armenia Serzh Sargsyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/55404"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
@@ -22967,7 +23380,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -23295,7 +23708,10 @@
         "region": "Europe"
       },
       "endDate": "2018-04-06",
-      "engagements": [],
+      "engagements": [
+        "Talks praised strong ties, celebrated St.",
+        "Gregory of Narek, and addressed regional conflicts, Christians’ plight, and international issues."
+      ],
       "eventName": null,
       "id": "serzh-sargsyan--2018-04-04--VAT",
       "officialId": "serzh-sargsyan",
@@ -23391,19 +23807,23 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "St. Petersburg International Economic Forum (SPIEF)",
-      "id": "vahagn-khachatryan--2022-06-15--RUS",
+      "eventName": "Meeting with President of Armenia Vahagn Khachaturyan",
+      "id": "vahagn-khachatryan--2022-06-17--RUS",
       "officialId": "vahagn-khachatryan",
-      "purpose": "Attended St. Petersburg International Economic Forum (SPIEF)",
+      "purpose": "Meeting with President of Armenia Vahagn Khachaturyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68671"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-06-15",
+      "startDate": "2022-06-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

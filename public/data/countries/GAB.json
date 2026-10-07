@@ -975,7 +975,7 @@
       "fullName": "Abdu Razzaq Guy Kambogo",
       "id": "abdu-razzaq-guy-kambogo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdu_Razzaq_Guy_Kambogo.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6443,6 +6443,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -6995,7 +6999,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         }
       ],
       "startDate": "2012-08-26",
@@ -7892,6 +7896,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8736,6 +8744,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9419,29 +9431,32 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2018-03-11",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Gave a public address"
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
+        "Met Prime Minister Narendra Modi"
       ],
-      "eventName": "International Solar Alliance (ISA) Summit",
-      "id": "ali-bongo-ondimba--2018-03-11--IND",
+      "eventName": "International Solar Alliance Summit",
+      "id": "ali-bongo-ondimba--2018-03-08--IND",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Attended International Solar Alliance (ISA) Summit",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-11",
+      "startDate": "2018-03-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -9601,11 +9616,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Gabon Ali Bongo Ondimba",
       "id": "ali-bongo-ondimba--2018-07-14--RUS",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Gabon Ali Bongo Ondimba",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57996"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9613,7 +9632,7 @@
       ],
       "startDate": "2018-07-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10071,18 +10090,22 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "ali-bongo-ondimba--2022-04-26--VAT",
+      "id": "ali-bongo-ondimba--2022-04-28--VAT",
       "officialId": "ali-bongo-ondimba",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Gabon’s President Ali Bongo Ondimba, noting 25 yrs of bilateral ties, the Church’s role in education, and discussing Gabon…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-04-26",
+      "startDate": "2022-04-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -12215,23 +12238,28 @@
         "countryCode": "VAT",
         "region": "Europe"
       },
-      "endDate": "2025-11-01",
+      "endDate": "2025-10-30",
       "engagements": [
+        "Talks with Cardinal Parolin highlighted good relations, cooperation in health, education, youth training, and dialogue for peace and reconciliation.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
-      "id": "brice-clotaire-oligui-nguema--2025-10-29--VAT",
+      "id": "brice-clotaire-oligui-nguema--2025-10-30--VAT",
       "officialId": "brice-clotaire-oligui-nguema",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV received Gabon's President Brice Oligui Nguema.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-10-29",
+      "startDate": "2025-10-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12668,11 +12696,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1973-08-02",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1976-07-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-bongo--1976-07-08--PHL",
+      "officialId": "omar-bongo",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1976-07-08",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12696,6 +12756,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1977-03-03",
@@ -12724,6 +12788,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1977-10-17",
@@ -12752,6 +12820,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1981-06-15",
@@ -12808,6 +12880,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1987-08-03",
@@ -16511,6 +16587,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",

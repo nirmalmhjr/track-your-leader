@@ -110,3 +110,35 @@ test("trip-list titles on the other Wikipedias", () => {
         assert.equal(classifyTripPage(title, language)?.subject ?? null, subject, title);
     }
 });
+
+test("Dutch, Norwegian and Swedish lists of a monarch's state visits", () => {
+    assert.deepEqual(
+        classifyTripPage("Lijst van staatsbezoeken van Willem-Alexander der Nederlanden", "nl"),
+        {
+            direction: "outgoing",
+            subject: "willem alexander der nederlanden",
+        }
+    );
+    assert.deepEqual(classifyTripPage("Liste over statsbesøk under Harald V", "no"), {
+        direction: "outgoing",
+        subject: "harald v",
+    });
+    assert.deepEqual(
+        classifyTripPage("Lista över statsbesök av Carl XVI Gustaf av Sverige", "sv"),
+        {
+            direction: "outgoing",
+            subject: "carl xvi gustaf av sverige",
+        }
+    );
+});
+
+test("Japanese lists name the person first", () => {
+    assert.deepEqual(
+        classifyTripPage("ジョー・バイデン大統領の外遊の一覧", "ja")?.direction,
+        "outgoing"
+    );
+    assert.deepEqual(
+        classifyTripPage("岸田文雄の外遊", "ja")?.subject,
+        classifyTripPage("岸田文雄の外遊の一覧", "ja")?.subject
+    );
+});

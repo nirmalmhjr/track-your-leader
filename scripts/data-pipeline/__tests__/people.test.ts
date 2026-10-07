@@ -5,6 +5,7 @@ import {
     classifyOffice,
     type Holding,
     isEnvoyPostedTo,
+    isMonarchOf,
     isOfficeOfCountry,
     type OfficeInfo,
     positionFromHolding,
@@ -185,4 +186,22 @@ test("undated terms count only for people of the period, and are never current",
     assert.equal(undated?.endDate, null);
     assert.equal(term({ born: "1820-01-01", died: "1890-01-01" }), null);
     assert.equal(term({}), null);
+});
+
+test("monarchs of a kingdom the country was are its heads of state, consorts and heirs aren't", () => {
+    const egypt = {
+        ...nepal,
+        code: "EGY" as const,
+        formerHeadOfStateOffices: [],
+        wikidataId: "Q79",
+    };
+    const role = (label: string) => classifyOffice("Q1", office({ label }), egypt)?.categories[0];
+    assert.equal(role("King of Egypt"), "head_of_state");
+    assert.equal(isMonarchOf("Sultan of the Maldives", "MDV"), true);
+    assert.equal(isMonarchOf("King of the Hellenes", "GRC"), true);
+    assert.equal(isMonarchOf("King of Egypt", "SDN"), false);
+    // Consorts, heirs and militant leaders bear these titles too.
+    assert.equal(isMonarchOf("Empress of Japan", "JPN"), false);
+    assert.equal(isMonarchOf("Prince of Wales", "GBR"), false);
+    assert.equal(isMonarchOf("Emir of the Islamic State of Iraq", "IRQ"), false);
 });

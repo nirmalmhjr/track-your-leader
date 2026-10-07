@@ -31,6 +31,8 @@ const MONTHS: Readonly<Record<string, number>> = {
     april: 4,
     aug: 8,
     august: 8,
+    augusti: 8,
+    augustus: 8,
     avr: 4,
     avril: 4,
     dec: 12,
@@ -43,6 +45,8 @@ const MONTHS: Readonly<Record<string, number>> = {
     // Portuguese
     dezembro: 12,
     diciembre: 12,
+    // Swedish, Danish and Dutch; Malay
+    disember: 12,
     déc: 12,
     décembre: 12,
     enero: 1,
@@ -67,6 +71,7 @@ const MONTHS: Readonly<Record<string, number>> = {
     juillet: 7,
     juin: 6,
     jul: 7,
+    julai: 7,
     julho: 7,
     juli: 7,
     julio: 7,
@@ -77,14 +82,18 @@ const MONTHS: Readonly<Record<string, number>> = {
     juni: 6,
     junio: 6,
     jänner: 1,
+    maart: 3,
+    mac: 3,
     maerz: 3,
     mai: 5,
     maio: 5,
+    maj: 5,
     mar: 3,
     march: 3,
     marco: 3,
     maret: 3,
     mars: 3,
+    marts: 3,
     marzo: 3,
     março: 3,
     may: 5,
@@ -100,6 +109,7 @@ const MONTHS: Readonly<Record<string, number>> = {
     october: 10,
     octobre: 10,
     octubre: 10,
+    ogos: 8,
     okt: 10,
     oktober: 10,
     outubro: 10,
@@ -208,8 +218,63 @@ const spellOut = (text: string): string =>
             (_, year: string, month: string) => `${monthName(Number(month))} ${year}`
         );
 
+const LEADING_YEAR = /^\s*((?:19|20)\d{2}),\s*(.+)$/;
+/** "3月19日-20日": a range within one month. */
+const JA_SAME_MONTH = /(\d{1,2})月(\d{1,2})日\s*[-–~〜～]\s*(\d{1,2})日/g;
+const JA_MONTH_DAY = /(\d{1,2})月(\d{1,2})日/g;
+/** "1971年（昭和46）": the Western year, with the era year after it dropped. */
+const JA_YEAR = /((?:19|20)\d{2})年(?:\s*[（(][^）)]*[）)])?/g;
+/** A sort key before the date in some tables ("01 6月9日"). */
+const JA_SORT_KEY = /^\s*\d{2}\s+(?=\d{1,2}月)/;
+
+/** Thai months, in order; years are Buddhist Era ("พ.ศ. 2566" is 2023). */
+const THAI_MONTHS = [
+    "มกราคม",
+    "กุมภาพันธ์",
+    "มีนาคม",
+    "เมษายน",
+    "พฤษภาคม",
+    "มิถุนายน",
+    "กรกฎาคม",
+    "สิงหาคม",
+    "กันยายน",
+    "ตุลาคม",
+    "พฤศจิกายน",
+    "ธันวาคม",
+] as const;
+const THAI_MONTH = new RegExp(THAI_MONTHS.join("|"), "g");
+const BUDDHIST_ERA_YEAR = /(?:พ\.ศ\.\s*)?\b(2[45]\d{2})\b/g;
+const BUDDHIST_ERA_OFFSET = 543;
+
+/** Thai dates in the forms the other readers know: "4–7 พฤษภาคม พ.ศ. 2566" → "4–7 May 2023". */
+const fromThai = (text: string): string =>
+    text
+        .replace(THAI_MONTH, (month) =>
+            monthName(THAI_MONTHS.indexOf(month as (typeof THAI_MONTHS)[number]) + 1)
+        )
+        .replace(BUDDHIST_ERA_YEAR, (_, year: string) =>
+            String(Number(year) - BUDDHIST_ERA_OFFSET)
+        );
+
+/** Japanese dates in the forms the other readers know: "3月19日-20日" → "19–20 March". */
+const fromJapanese = (text: string): string =>
+    text
+        .replace(JA_SORT_KEY, "")
+        .replace(JA_YEAR, "$1")
+        .replace(
+            JA_SAME_MONTH,
+            (_, month: string, start: string, end: string) =>
+                `${start}–${end} ${monthName(Number(month))}`
+        )
+        .replace(
+            JA_MONTH_DAY,
+            (_, month: string, day: string) => `${day} ${monthName(Number(month))}`
+        );
+
 const normalize = (text: string): string =>
-    spellOut(text)
+    spellOut(fromThai(fromJapanese(text)))
+        // Swedish tables put the year first: "1974, 8–10 oktober".
+        .replace(LEADING_YEAR, "$2 $1")
         .replace(DAY_FULL_STOP, "$1")
         .replace(WEEKDAY, "")
         .replace(ORDINAL_SUFFIX, "$1")

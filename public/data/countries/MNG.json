@@ -392,7 +392,7 @@
       "fullName": "Tsagaanlamyn Dügersüren",
       "id": "tsagaanlamyn-dugersuren",
       "party": "Mongolian People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsagaanlamyn_D%C3%BCgers%C3%BCren.png?width=160",
       "positions": [
         {
           "categories": [
@@ -750,7 +750,7 @@
       "fullName": "Janlavyn Narantsatsralt",
       "id": "janlavyn-narantsatsralt",
       "party": "Democratic Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Janlavyn_Narantsatsralt.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -912,7 +912,7 @@
       "fullName": "Mendsaikhany Enkhsaikhan",
       "id": "mendsaikhany-enkhsaikhan",
       "party": "Democratic Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mendsaikhany_Enkhsaikhan.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -945,7 +945,7 @@
       "fullName": "Puntsagiin Jasrai",
       "id": "puntsagiin-jasrai",
       "party": "Mongolian People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9F%D1%83%D0%BD%D1%86%D0%B0%D0%B3%D0%B8%D0%B9%D0%BD_%D0%96%D0%B0%D1%81%D1%80%D0%B0%D0%B9.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1655,17 +1655,6 @@
           "portfolio": "foreign_affairs",
           "startDate": "2021-01-29",
           "title": "Minister of Foreign Affairs"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "batmunkh-battsetseg-p2",
-          "ministry": "Ministry of Foreign Affairs",
-          "portfolio": "foreign_affairs",
-          "startDate": "2021-01-29",
-          "title": "Minister of Foreign Affairs"
         }
       ],
       "sources": [
@@ -1752,7 +1741,7 @@
       "fullName": "Bazarsad Jargalsaikhan",
       "id": "bazarsad-jargalsaikhan",
       "party": "Mongolian Republican Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bazarsadyn_Jargalsaikhan_in_2008.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2886,7 +2875,7 @@
       "fullName": "Nyam-Osoryn Tuyaa",
       "id": "nyam-osoryn-tuyaa",
       "party": "Democratic Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nyam-Osoryn_Tuyaa.png?width=160",
       "positions": [
         {
           "categories": [
@@ -3414,16 +3403,31 @@
           "portfolio": "labour",
           "startDate": null,
           "title": "Minister of Family, Labor and Social Protection"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "telukhan-aubakir-mng-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-06-30",
+          "title": "Member of the State Great Khural"
         }
       ],
       "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q124660423"
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mongolia/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Mongolian politician.",
+      "wikidataId": "Q124660423"
     },
     {
       "aliases": [],
@@ -4011,7 +4015,7 @@
       "fullName": "Yumjaagiin Tsedenbal",
       "id": "yumjaagiin-tsedenbal",
       "party": "Mongolian People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Altered_portrait_of_Yumjaagiin_Tsedenbal.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4423,6 +4427,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-06-18",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Mongolia Chimed Saikhanbileg",
+      "id": "chimediin-saikhanbileg--2015-06-18--RUS",
+      "officialId": "chimediin-saikhanbileg",
+      "purpose": "Meeting with Prime Minister of Mongolia Chimed Saikhanbileg",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49726"
+        }
+      ],
+      "startDate": "2015-06-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -4479,24 +4511,83 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-09-04",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Mongolia Gombojav Zandanshatar",
+      "id": "gombojavyn-zandanshatar--2025-09-04--RUS",
+      "officialId": "gombojavyn-zandanshatar",
+      "purpose": "Meeting with Prime Minister of Mongolia Gombojav Zandanshatar",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77924"
+        }
+      ],
+      "startDate": "2025-09-04",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-11-18",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Mongolia Gombojavyn Zandanshatar",
+      "id": "gombojavyn-zandanshatar--2025-11-18--RUS",
+      "officialId": "gombojavyn-zandanshatar",
+      "purpose": "Meeting with Prime Minister of Mongolia Gombojavyn Zandanshatar",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78493"
+        }
+      ],
+      "startDate": "2025-11-18",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Budapest",
         "coordinates": [
           19.040833333,
           47.498333333
         ],
         "countryCode": "HUN",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-09-03",
+      "endDate": "2017-08-28",
       "engagements": [
         "Met Prime Minister Viktor Orban"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Mongolia Khaltmaagiin Battulga",
       "id": "khaltmaagiin-battulga--2017-08-28--HUN",
       "officialId": "khaltmaagiin-battulga",
-      "purpose": "Visit to Hungary",
+      "purpose": "Meeting with President of Mongolia Khaltmaagiin Battulga",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/55446"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4504,7 +4595,7 @@
       ],
       "startDate": "2017-08-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4523,19 +4614,23 @@
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "Eastern Economic Forum",
-      "id": "khaltmaagiin-battulga--2017-09-06--RUS",
+      "eventName": "Meeting with President of Mongolia Khaltmaagiin Battulga",
+      "id": "khaltmaagiin-battulga--2017-09-07--RUS",
       "officialId": "khaltmaagiin-battulga",
-      "purpose": "Attended Eastern Economic Forum",
+      "purpose": "Meeting with President of Mongolia Khaltmaagiin Battulga",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/55551"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-06",
+      "startDate": "2017-09-07",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4578,15 +4673,19 @@
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2018-06-19",
+      "endDate": "2018-06-09",
       "engagements": [
         "Signed agreements"
       ],
-      "eventName": "2018 Qingdao SCO summit",
+      "eventName": "Meeting with President of Mongolia Khaltmaagiin Battulga",
       "id": "khaltmaagiin-battulga--2018-06-09--CHN",
       "officialId": "khaltmaagiin-battulga",
-      "purpose": "Attended the 2018 Qingdao SCO summit",
+      "purpose": "Meeting with President of Mongolia Khaltmaagiin Battulga",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57711"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/2018_Qingdao_SCO_summit"
@@ -4598,7 +4697,7 @@
       ],
       "startDate": "2018-06-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4777,6 +4876,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4821,11 +4924,10 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2019-09-23",
@@ -4836,11 +4938,15 @@
       "eventName": null,
       "id": "khaltmaagiin-battulga--2019-09-19--IND",
       "officialId": "khaltmaagiin-battulga",
-      "purpose": "Visit to India",
+      "purpose": "State visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1192/State_Visit_of_President_of_Mongolia_to_India_September_1923_2019"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -4971,6 +5077,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-12-05",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Mongolia Ukhnaagiin Khurelsukh",
+      "id": "khurelsukh-ukhnaa--2019-12-05--RUS",
+      "officialId": "khurelsukh-ukhnaa",
+      "purpose": "Meeting with Prime Minister of Mongolia Ukhnaagiin Khurelsukh",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/62249"
+        }
+      ],
+      "startDate": "2019-12-05",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -5044,7 +5178,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2021-12-17",
+      "endDate": "2021-12-16",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
@@ -5052,8 +5186,12 @@
       "eventName": null,
       "id": "khurelsukh-ukhnaa--2021-12-16--RUS",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with President of Mongolia Ukhnaagiin Khurelsukh",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/67373"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5061,7 +5199,7 @@
       ],
       "startDate": "2021-12-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5074,18 +5212,22 @@
         "countryCode": "UZB",
         "region": "Asia"
       },
-      "endDate": "2022-09-16",
+      "endDate": "2022-09-15",
       "engagements": [
         "Met President Shavkat Mirziyoyev"
       ],
-      "eventName": "2022 Samarkand SCO summit",
+      "eventName": "Meeting with PRC President Xi Jinping and President of Mongolia Ukhnaagiin Khurelsukh",
       "id": "khurelsukh-ukhnaa--2022-09-15--UZB",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Attended the 2022 Samarkand SCO summit",
+      "purpose": "Meeting with PRC President Xi Jinping and President of Mongolia Ukhnaagiin Khurelsukh",
       "sources": [
         {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69357"
+        },
+        {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2022_Samarkand_SCO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -5094,7 +5236,7 @@
       ],
       "startDate": "2022-09-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5352,18 +5494,21 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-10-19",
+      "endDate": "2023-10-17",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "Belt and Road Forum for International Cooperation",
+      "eventName": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
       "id": "khurelsukh-ukhnaa--2023-10-17--CHN",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Attended Belt and Road Forum for International Cooperation",
+      "purpose": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/72519"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5371,7 +5516,7 @@
       ],
       "startDate": "2023-10-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5518,6 +5663,10 @@
       "purpose": "Visit to Uzbekistan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5537,16 +5686,20 @@
         "countryCode": "KAZ",
         "region": "Asia"
       },
-      "endDate": "2024-07-04",
+      "endDate": "2024-07-03",
       "engagements": [
         "Met President Kasymzhomart Tokayev",
         "Gave a public address"
       ],
-      "eventName": "2024 Astana SCO summit",
+      "eventName": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
       "id": "khurelsukh-ukhnaa--2024-07-03--KAZ",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Attended the 2024 Astana SCO summit",
+      "purpose": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/74456"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/2024_Astana_SCO_summit"
@@ -5558,7 +5711,7 @@
       ],
       "startDate": "2024-07-03",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5787,15 +5940,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-05-09",
+      "endDate": "2025-05-07",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
       "id": "khurelsukh-ukhnaa--2025-05-07--RUS",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/76866"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5803,7 +5960,7 @@
       ],
       "startDate": "2025-05-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5951,11 +6108,15 @@
       "eventName": null,
       "id": "khurelsukh-ukhnaa--2025-10-13--IND",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Visit to India",
+      "purpose": "State visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1534/State_Visit_of_the_President_of_Mongolia_to_India_October_1316_2025"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -6009,13 +6170,18 @@
       },
       "endDate": "2025-12-04",
       "engagements": [
+        "They highlighted strong Holy See–Mongolia relations, plans for deeper cooperation—especially culturally—and welcomed the Catholic Church's contributions to education and healthcar…",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
       "id": "khurelsukh-ukhnaa--2025-12-04--VAT",
       "officialId": "khurelsukh-ukhnaa",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Mongolia's President Khürelsükh, followed by talks with Cardinal Parolin.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6023,7 +6189,34 @@
       ],
       "startDate": "2025-12-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Bishkek",
+        "coordinates": [
+          74.566666666,
+          42.866666666
+        ],
+        "countryCode": "KGZ",
+        "region": "Asia"
+      },
+      "endDate": "2026-09-01",
+      "engagements": [],
+      "eventName": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
+      "id": "khurelsukh-ukhnaa--2026-09-01--KGZ",
+      "officialId": "khurelsukh-ukhnaa",
+      "purpose": "Meeting with President of Mongolia Ukhnaagiin Khurelsukh",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80661"
+        }
+      ],
+      "startDate": "2026-09-01",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6055,6 +6248,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-09-07",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Mongolia Oyun-Erdene Luvsannamsrain",
+      "id": "luvsannamsrain-oyun-erdene--2022-09-07--RUS",
+      "officialId": "luvsannamsrain-oyun-erdene",
+      "purpose": "Meeting with Prime Minister of Mongolia Oyun-Erdene Luvsannamsrain",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69304"
+        }
+      ],
+      "startDate": "2022-09-07",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Islamabad",
         "coordinates": [
           73.036944444,
@@ -6072,7 +6293,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Pakistan"
         }
       ],
       "startDate": "2024-10-15",
@@ -6088,24 +6309,27 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2005-07-07",
+      "endDate": "2005-07-05",
       "engagements": [],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "nambaryn-enkhbayar--2005-07-04--KAZ",
+      "eventName": "Vladimir Putin held a meeting with President of Mongolia Nambaryn Enkhbayar",
+      "id": "nambaryn-enkhbayar--2005-07-05--KAZ",
       "officialId": "nambaryn-enkhbayar",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Vladimir Putin held a meeting with President of Mongolia Nambaryn Enkhbayar",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/33701"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-07-04",
+      "startDate": "2005-07-05",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6208,23 +6432,27 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2006-06-16",
+      "endDate": "2006-06-15",
       "engagements": [
         "Met General Secretary Hu Jintao"
       ],
       "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "nambaryn-enkhbayar--2006-06-14--CHN",
+      "id": "nambaryn-enkhbayar--2006-06-15--CHN",
       "officialId": "nambaryn-enkhbayar",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Vladimir Putin met with President of Mongolia Nambaryn Enkhbayar",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/35734"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-06-14",
+      "startDate": "2006-06-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6418,18 +6646,21 @@
           42.866666666
         ],
         "countryCode": "KGZ",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-08-18",
+      "endDate": "2007-08-16",
       "engagements": [
         "Signed agreements"
       ],
       "eventName": "Regional Security Summit",
       "id": "nambaryn-enkhbayar--2007-08-16--KGZ",
       "officialId": "nambaryn-enkhbayar",
-      "purpose": "Attended Regional Security Summit",
+      "purpose": "Vladimir Putin met with President of Mongolia Nambaryn Enkhbayar",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/41940"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6437,7 +6668,7 @@
       ],
       "startDate": "2007-08-16",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6464,6 +6695,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -6662,23 +6897,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-05-18",
+      "endDate": "2008-05-16",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
-      "id": "nambaryn-enkhbayar--2008-05-15--RUS",
+      "id": "nambaryn-enkhbayar--2008-05-16--RUS",
       "officialId": "nambaryn-enkhbayar",
-      "purpose": "Visit to Russia",
+      "purpose": "President Dmitry Medvedev met with President of Mongolia Nambaryn Enkhbayar",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/109"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-05-15",
+      "startDate": "2008-05-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7247,6 +7486,34 @@
       "startDate": "2000-06-06",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2000-09-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "natsagiin-bagabandi--2000-09-01--PHL",
+      "officialId": "natsagiin-bagabandi",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2000-09-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7896,6 +8163,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8115,6 +8386,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-05-23",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Mongolia Norovyn Altankhuyag",
+      "id": "norovyn-altankhuyag--2014-05-23--RUS",
+      "officialId": "norovyn-altankhuyag",
+      "purpose": "Meeting with Prime Minister of Mongolia Norovyn Altankhuyag",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/21082"
+        }
+      ],
+      "startDate": "2014-05-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Beijing",
         "coordinates": [
           116.4074,
@@ -8195,6 +8494,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -8439,6 +8742,34 @@
         }
       ],
       "startDate": "1997-03-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-04-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "sanjaagiin-bayar--2008-04-11--RUS",
+      "officialId": "sanjaagiin-bayar",
+      "purpose": "President Vladimir Putin met at the Kremlin with Prime Minister of Mongolia Sanj Bayar",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/44120"
+        }
+      ],
+      "startDate": "2008-04-11",
       "statusHint": null,
       "type": "other"
     },
@@ -9024,6 +9355,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9355,7 +9690,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",
@@ -9888,23 +10223,27 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2014-05-21",
+      "endDate": "2014-05-20",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": "Conference on Interaction and Confidence-Building Measures in Asia (CICA)",
-      "id": "tsakhiagiin-elbegdorj--2014-05-19--CHN",
+      "eventName": "Meeting with President of Mongolia Tsakhiagiin Elbegdorj",
+      "id": "tsakhiagiin-elbegdorj--2014-05-20--CHN",
       "officialId": "tsakhiagiin-elbegdorj",
-      "purpose": "Attended Conference on Interaction and Confidence-Building Measures in Asia (CICA)",
+      "purpose": "Meeting with President of Mongolia Tsakhiagiin Elbegdorj",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/21053"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-05-19",
+      "startDate": "2014-05-20",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10245,15 +10584,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-05-10",
+      "endDate": "2015-05-07",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Mongolia Tsakhiagiin Elbegdorj",
       "id": "tsakhiagiin-elbegdorj--2015-05-07--RUS",
       "officialId": "tsakhiagiin-elbegdorj",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Mongolia Tsakhiagiin Elbegdorj",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49429"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10261,7 +10604,7 @@
       ],
       "startDate": "2015-05-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10606,19 +10949,22 @@
           41.311111111
         ],
         "countryCode": "UZB",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2016-06-24",
+      "endDate": "2016-06-23",
       "engagements": [
         "Met President Islam Karimov",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "Meeting with Chinese President Xi Jinping and President of Mongolia Tsakhiagiin Elbegdorj",
       "id": "tsakhiagiin-elbegdorj--2016-06-23--UZB",
       "officialId": "tsakhiagiin-elbegdorj",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit and Russia-China-Mongolia Trilateral Meeting",
+      "purpose": "Meeting with Chinese President Xi Jinping and President of Mongolia Tsakhiagiin Elbegdorj",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/52211"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10626,7 +10972,7 @@
       ],
       "startDate": "2016-06-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10759,24 +11105,27 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-06-09",
       "engagements": [],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "tsakhiagiin-elbegdorj--2017-06-08--KAZ",
+      "eventName": "Meeting with President of Mongolia Tsakhiagiin Elbegdorj",
+      "id": "tsakhiagiin-elbegdorj--2017-06-09--KAZ",
       "officialId": "tsakhiagiin-elbegdorj",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Meeting with President of Mongolia Tsakhiagiin Elbegdorj",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/54743"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-06-08",
+      "startDate": "2017-06-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10859,6 +11208,34 @@
       "startDate": "2019-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-09-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "uchral-nyam-osor--2026-09-02--RUS",
+      "officialId": "uchral-nyam-osor",
+      "purpose": "Conversation with Prime Minister of Mongolia Nyam-Osoryn Uchral",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80670"
+        }
+      ],
+      "startDate": "2026-09-02",
+      "statusHint": null,
+      "type": "other"
     }
   ]
 }

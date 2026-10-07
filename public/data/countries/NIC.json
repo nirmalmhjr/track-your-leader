@@ -646,7 +646,7 @@
       "fullName": "Rosalío Cortés",
       "id": "rosalio-cortes",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosalio_Cortes_Sanchez.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1800,9 +1800,12 @@
       "wikidataId": "Q114755852"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Jose de Jesus Bermudez Carvajal",
+        "José De Jesús Bermúdez Carvajal"
+      ],
       "countryCode": "NIC",
-      "fullName": "Jose de Jesus Bermudez Carvajal",
+      "fullName": "José de Jesús Bermúdez Carvajal",
       "id": "jose-de-jesus-bermudez-carvajal-nic",
       "party": null,
       "photoUrl": null,
@@ -1813,47 +1816,31 @@
           ],
           "endDate": null,
           "id": "jose-de-jesus-bermudez-carvajal-nic-p1",
-          "ministry": "Ministry of Industry, Development and Commerce",
+          "ministry": "Ministry of Development, Industry and Trade",
           "portfolio": "trade",
-          "startDate": null,
-          "title": "Minister of Industry, Development and Commerce"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/nicaragua/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "José De Jesús Bermúdez Carvajal"
-      ],
-      "countryCode": "NIC",
-      "fullName": "José de Jesús Bermúdez Carvajal",
-      "id": "jose-de-jesus-bermudez-carvajal",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+          "startDate": "2022-01-03",
+          "title": "Minister of Development, Industry and Trade"
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "jose-de-jesus-bermudez-carvajal-p1",
-          "ministry": "Ministry of Development, Industry and Trade",
+          "id": "jose-de-jesus-bermudez-carvajal-nic-p2",
+          "ministry": "Ministry of Industry, Development and Commerce",
           "portfolio": "trade",
           "startDate": "2022-01-03",
-          "title": "Minister of Development, Industry and Trade"
+          "title": "Minister of Industry, Development and Commerce"
         }
       ],
       "sources": [
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q114755416"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/nicaragua/"
         }
       ],
       "summary": "Nicaraguan politician.",
@@ -2010,6 +1997,7 @@
     },
     {
       "aliases": [
+        "Maria Amelia Coronel Kinloch",
         "María Amelia Coronel Kinloch"
       ],
       "countryCode": "NIC",
@@ -2024,6 +2012,17 @@
           ],
           "endDate": null,
           "id": "maria-amelia-coronel-p1",
+          "ministry": "Ministry of Interior",
+          "portfolio": "home_affairs",
+          "startDate": "2017-01-11",
+          "title": "Minister of Interior"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "maria-amelia-coronel-p2",
           "ministry": "Ministry of the Interior",
           "portfolio": "home_affairs",
           "startDate": "2017-01-11",
@@ -2032,41 +2031,12 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q87069137"
-        }
-      ],
-      "summary": "Politician in Nicaragua.",
-      "wikidataId": "Q87069137"
-    },
-    {
-      "aliases": [],
-      "countryCode": "NIC",
-      "fullName": "Maria Amelia Coronel Kinloch",
-      "id": "maria-amelia-coronel-kinloch",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "maria-amelia-coronel-kinloch-p1",
-          "ministry": "Ministry of Interior",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of Interior"
-        }
-      ],
-      "sources": [
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/nicaragua/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Nicaragua.",
+      "wikidataId": "Q87069137"
     },
     {
       "aliases": [],
@@ -2096,39 +2066,6 @@
       ],
       "summary": "Politician in Nicaragua.",
       "wikidataId": "Q114754975"
-    },
-    {
-      "aliases": [],
-      "countryCode": "NIC",
-      "fullName": "Martha Elena Ruiz Sevilla",
-      "id": "martha-elena-ruiz-sevilla-nic",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2019-08-19",
-          "id": "martha-elena-ruiz-sevilla-nic-p1",
-          "ministry": "Ministry of Defence",
-          "portfolio": "defence",
-          "startDate": "2014-02-19",
-          "title": "Minister of Defence"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q29913348"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Martha_Elena_Ruiz_Sevilla"
-        }
-      ],
-      "summary": "Martha Elena Ruiz Sevilla is a Nicaraguan politician and lawyer who served as Minister of Defence from 2013 to 2019.",
-      "wikidataId": "Q29913348"
     },
     {
       "aliases": [
@@ -2472,35 +2409,13 @@
           "portfolio": "defence",
           "startDate": "2019-08-19",
           "title": "Minister of Defence"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q113189838"
         },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Rosa_Adelina_Barahona_Castro"
-        }
-      ],
-      "summary": "Rosa Adelina Barahona Castro (born 10 May 1957) is a Nicaraguan psychologist and politician who has been the country's Minister of Defence since August 2019.",
-      "wikidataId": "Q113189838"
-    },
-    {
-      "aliases": [],
-      "countryCode": "NIC",
-      "fullName": "Rosa Adelina Barahona Castro",
-      "id": "rosa-adelina-barahona-castro-nic",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "rosa-adelina-barahona-castro-nic-p1",
+          "id": "rosa-adelina-barahona-castro-p2",
           "ministry": "Ministry of Defense",
           "portfolio": "defence",
           "startDate": null,
@@ -2509,12 +2424,20 @@
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q113189838"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/nicaragua/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Rosa_Adelina_Barahona_Castro"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Rosa Adelina Barahona Castro (born 10 May 1957) is a Nicaraguan psychologist and politician who has been the country's Minister of Defence since August 2019.",
+      "wikidataId": "Q113189838"
     },
     {
       "aliases": [],
@@ -2922,7 +2845,7 @@
       "aliases": [],
       "countryCode": "NIC",
       "fullName": "Martha Elena Ruiz Sevilla",
-      "id": "martha-elena-ruiz-sevilla",
+      "id": "martha-elena-ruiz-sevilla-nic",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -2931,21 +2854,40 @@
             "senior_official"
           ],
           "endDate": null,
-          "id": "martha-elena-ruiz-sevilla-p1",
+          "id": "martha-elena-ruiz-sevilla-nic-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
           "title": "Secretary of the Presidency"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2019-08-19",
+          "id": "martha-elena-ruiz-sevilla-nic-p2",
+          "ministry": "Ministry of Defence",
+          "portfolio": "defence",
+          "startDate": "2014-02-19",
+          "title": "Minister of Defence"
         }
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q29913348"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/nicaragua/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Martha_Elena_Ruiz_Sevilla"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Martha Elena Ruiz Sevilla is a Nicaraguan politician and lawyer who served as Minister of Defence from 2013 to 2019.",
+      "wikidataId": "Q29913348"
     },
     {
       "aliases": [],
@@ -3069,6 +3011,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1967-04-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "anastasio-somoza-debayle--1967-04-06--USA",
+      "officialId": "anastasio-somoza-debayle",
+      "purpose": "Informal visit. Arrived in U.S. March 18; visited New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1967-04-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1970-10-24",
       "engagements": [],
       "eventName": null,
@@ -3079,6 +3049,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1970-10-24",
@@ -3107,11 +3081,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1971-06-02",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1939-05-11",
+      "engagements": [],
+      "eventName": "Addressed U.S. Congress",
+      "id": "anastasio-somoza-garcia--1939-05-05--USA",
+      "officialId": "anastasio-somoza-garcia",
+      "purpose": "At the invitation of President Roosevelt.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1939-05-05",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -3135,6 +3141,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1952-05-01",
@@ -3685,6 +3695,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4185,6 +4199,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1979-09-24",
@@ -4546,24 +4564,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-06-12",
+      "endDate": "2007-06-10",
       "engagements": [
         "Met Supreme Leader Ayatollah Sayyed Ali Khamenei",
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "daniel-ortega--2007-06-09--IRN",
+      "id": "daniel-ortega--2007-06-10--IRN",
       "officialId": "daniel-ortega",
       "purpose": "Visit to Iran",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-06-09",
+      "startDate": "2007-06-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7109,6 +7131,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7822,6 +7848,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8284,6 +8314,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1966-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "rene-schick--1966-05-01--ISR",
+      "officialId": "rene-schick",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Levi_Eshkol"
+        }
+      ],
+      "startDate": "1966-05-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -8724,6 +8782,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8916,6 +8978,34 @@
       "startDate": "1991-05-11",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1991-05-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "violeta-chamorro--1991-05-15--USA",
+      "officialId": "violeta-chamorro",
+      "purpose": "State Visit. Afterwards visited Miami.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1991-05-15",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9132,6 +9222,34 @@
         }
       ],
       "startDate": "1992-04-09",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-05-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "violeta-chamorro--1992-05-09--USA",
+      "officialId": "violeta-chamorro",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1992-05-09",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -9457,6 +9575,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9669,6 +9791,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",

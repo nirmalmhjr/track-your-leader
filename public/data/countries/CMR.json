@@ -665,7 +665,7 @@
       "fullName": "Aba Sadou",
       "id": "aba-sadou",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Remplacez_l'image_de_cette_personne.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1171,7 +1171,7 @@
       "fullName": "Basile Atangana Kouna",
       "id": "basile-atangana-kouna",
       "party": "Cameroon People's Democratic Movement",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Basile_Atangana_Kouna.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2927,18 +2927,33 @@
           "id": "galax-yves-landry-etoga-cmr-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": null,
+          "startDate": "2018-03-02",
           "title": "Secretary of State for the Gendarmerie"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "galax-yves-landry-etoga-cmr-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2018-03-02",
+          "title": "Secretary of State to the Minister of Defence in charge of the National Gendarmerie"
         }
       ],
       "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q111387743"
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/cameroon/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Cameroon.",
+      "wikidataId": "Q111387743"
     },
     {
       "aliases": [
@@ -4551,7 +4566,7 @@
       "fullName": "Lakhdar Rakhroukh",
       "id": "lakhdar-rakhroukh",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakhdar_Rekhroukh%2C_September_2023.png?width=160",
       "positions": [
         {
           "categories": [
@@ -7172,7 +7187,7 @@
       "fullName": "Victor Kanga",
       "id": "victor-kanga",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Kanga%2C_1963_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -8152,18 +8167,6 @@
           "portfolio": null,
           "startDate": "1997-05-18",
           "title": "Member of the National Assembly of Cameroon"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "badel-ndanga-ndinga-p6",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2023-04-11",
-          "title": "Senator in Cameroon",
-          "undated": true
         }
       ],
       "sources": [
@@ -8303,6 +8306,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1962-03-13",
@@ -8331,6 +8338,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1967-10-24",
@@ -8377,6 +8388,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1979-10-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmadou-ahidjo--1979-10-09--USA",
+      "officialId": "ahmadou-ahidjo",
+      "purpose": "Private visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1979-10-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1982-07-28",
       "engagements": [],
       "eventName": null,
@@ -8387,6 +8426,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1982-07-25",
@@ -9090,6 +9133,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1986-02-25",
@@ -9208,6 +9255,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -10427,6 +10478,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -10462,6 +10517,34 @@
       "startDate": "2003-05-29",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2003-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-biya--2003-06-22--USA",
+      "officialId": "paul-biya",
+      "purpose": "Attended United States-Africa Business Summit on June 24–27; met with President George W. Bush during a private visit on June 26.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2003-06-22",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -11892,15 +11975,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2013-10-19",
+      "endDate": "2013-10-18",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "paul-biya--2013-10-18--VAT",
       "officialId": "paul-biya",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cameroonian President Paul Biya, praising strong bilateral ties, the Church’s role in education, healthcare, and peace, an…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11908,7 +11995,7 @@
       ],
       "startDate": "2013-10-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -12136,6 +12223,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -12461,8 +12552,12 @@
       "eventName": null,
       "id": "paul-biya--2017-03-23--VAT",
       "officialId": "paul-biya",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Cameroon’s President Biya to discuss strong ties, the Church’s role in education and healthcare, interreligious harmony, n…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12879,6 +12974,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12985,23 +13084,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-29",
+      "endDate": "2023-07-28",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "paul-biya--2023-07-26--RUS",
+      "eventName": "Meeting with President of Cameroon Paul Biya",
+      "id": "paul-biya--2023-07-28--RUS",
       "officialId": "paul-biya",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with President of Cameroon Paul Biya",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71833"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-26",
+      "startDate": "2023-07-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13286,6 +13389,34 @@
       "startDate": "2018-04-19",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-08-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "philemon-yang--2025-08-11--VAT",
+      "officialId": "philemon-yang",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-08-11",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

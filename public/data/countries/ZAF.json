@@ -1233,7 +1233,7 @@
       "fullName": "Anroux Marais",
       "id": "anroux-marais",
       "party": "Democratic Alliance",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Selfie_with_Minister_Anroux_Marais_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1301,7 +1301,7 @@
       "fullName": "Anton Bredell",
       "id": "anton-bredell",
       "party": "Democratic Alliance",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister_Anton_Bredell_speaking%2C_July_2026_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3234,18 +3234,6 @@
           "portfolio": null,
           "startDate": "2019-05-22",
           "title": "Member of the National Assembly of South Africa"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "leon-schreiber-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2019-05-22",
-          "title": "Member of the National Assembly of South Africa",
-          "undated": true
         }
       ],
       "sources": [
@@ -3410,18 +3398,6 @@
           "portfolio": null,
           "startDate": "2014-05-21",
           "title": "Member of the National Assembly of South Africa"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "sindisiwe-chikunga-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2019-05-22",
-          "title": "Member of the National Assembly of South Africa",
-          "undated": true
         }
       ],
       "sources": [
@@ -5059,18 +5035,6 @@
           "portfolio": null,
           "startDate": "2019-05-22",
           "title": "Member of the National Assembly of South Africa"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "siviwe-gwarube-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2019-05-22",
-          "title": "Member of the National Assembly of South Africa",
-          "undated": true
         }
       ],
       "sources": [
@@ -5087,12 +5051,14 @@
       "wikidataId": "Q64399449"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Mmoba Solomon Malatsi"
+      ],
       "countryCode": "ZAF",
       "fullName": "Solly Malatsi",
       "id": "solly-malatsi-zaf",
-      "party": null,
-      "photoUrl": null,
+      "party": "Democratic Alliance",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Solly_Malatsi_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5104,16 +5070,46 @@
           "portfolio": "science",
           "startDate": null,
           "title": "Minister of Communications and Digital Technologies"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "solly-malatsi-zaf-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2019-05-22",
+          "title": "Member of the National Assembly of South Africa"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2019-05-07",
+          "id": "solly-malatsi-zaf-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2014-05-21",
+          "title": "Member of the National Assembly of South Africa"
         }
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q47529927"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/south-africa/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Solly_Malatsi"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Mmoba Solomon \"Solly\" Malatsi (born 22 December 1985) is a South African politician who is currently serving as Minister of Communications and Digital Technologies in the Government of National Unity (GNU) since July 2024. He has been a Member of the National Assembly of South Africa since May 2014.",
+      "wikidataId": "Q47529927"
     },
     {
       "aliases": [
@@ -8273,7 +8269,7 @@
       "fullName": "Nhlanhla Nene",
       "id": "nhlanhla-nene",
       "party": "African National Congress",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nhlanhla_Nene.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -11465,6 +11461,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2018-09-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "cyril-ramaphosa--2018-09-16--USA",
+      "officialId": "cyril-ramaphosa",
+      "purpose": "Working Visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2018-09-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -11947,15 +11971,19 @@
         "countryCode": "JPN",
         "region": "Asia"
       },
-      "endDate": "2019-06-29",
+      "endDate": "2019-06-28",
       "engagements": [
         "Met Prime Minister Abe Shinzo"
       ],
       "eventName": "2019 G20 Osaka summit",
       "id": "cyril-ramaphosa--2019-06-28--JPN",
       "officialId": "cyril-ramaphosa",
-      "purpose": "Attended the 2019 G20 Osaka summit.",
+      "purpose": "Conversation with President of South Africa Cyril Ramaphosa",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/60840"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Cyril_Ramaphosa"
@@ -12240,16 +12268,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2019-10-24",
+      "endDate": "2019-10-23",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Russia-Africa Summit",
+      "eventName": "Meeting with President of South Africa Cyril Ramaphosa",
       "id": "cyril-ramaphosa--2019-10-23--RUS",
       "officialId": "cyril-ramaphosa",
-      "purpose": "Attended the first Russia-Africa Summit.",
+      "purpose": "Meeting with President of South Africa Cyril Ramaphosa",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61881"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Cyril_Ramaphosa"
@@ -12261,7 +12293,7 @@
       ],
       "startDate": "2019-10-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13673,10 +13705,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Buckingham Palace",
+        "city": "London",
         "coordinates": [
-          -0.142,
-          51.501
+          -0.1275,
+          51.507222222
         ],
         "countryCode": "GBR",
         "region": "Europe"
@@ -13693,7 +13725,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Charles_III"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Cyril_Ramaphosa"
         },
         {
           "label": "COLT dataset",
@@ -14169,11 +14201,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "cyril-ramaphosa--2023-07-26--RUS",
+      "eventName": "Meeting with President of South Africa Cyril Ramaphosa",
+      "id": "cyril-ramaphosa--2023-07-29--RUS",
       "officialId": "cyril-ramaphosa",
-      "purpose": "Attended the Russia-Africa Summit 2023.",
+      "purpose": "Meeting with President of South Africa Cyril Ramaphosa",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71837"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Cyril_Ramaphosa"
@@ -14183,9 +14219,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-26",
+      "startDate": "2023-07-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14259,7 +14295,8 @@
       },
       "endDate": "2023-09-10",
       "engagements": [
-        "Gave a public address"
+        "There were five leaders who were invited but did not attend (3 G20 members and 2 invitees): The Chinese leader Xi Jinping was represented by Premier Li Qiang.",
+        "The President of Russia Vladimir Putin was represented by Foreign Minister Sergei Lavrov."
       ],
       "eventName": "2023 G20 New Delhi summit",
       "id": "cyril-ramaphosa--2023-09-08--IND",
@@ -14900,16 +14937,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2024-10-24",
+      "endDate": "2024-10-22",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "16th BRICS summit",
+      "eventName": "Meeting with President of South Africa Cyril Ramaphosa",
       "id": "cyril-ramaphosa--2024-10-22--RUS",
       "officialId": "cyril-ramaphosa",
-      "purpose": "Attended the 16th BRICS summit.",
+      "purpose": "Meeting with President of South Africa Cyril Ramaphosa",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/75369"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Cyril_Ramaphosa"
@@ -14921,7 +14962,7 @@
       ],
       "startDate": "2024-10-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15360,36 +15401,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Colombo",
-        "coordinates": [
-          79.8612,
-          6.9271
-        ],
-        "countryCode": "LKA",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2025-06-29",
-      "engagements": [
-        "Arrives in Sri Lanka on a public engagement visit."
-      ],
-      "eventName": null,
-      "id": "cyril-ramaphosa--2025-06-26--LKA",
-      "officialId": "cyril-ramaphosa",
-      "purpose": "Official visit",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
-        }
-      ],
-      "startDate": "2025-06-26",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Rio de Janeiro",
         "coordinates": [
           -43.205555555,
@@ -15723,21 +15734,26 @@
       },
       "endDate": "2025-11-08",
       "engagements": [
+        "Talks praised the Church's role in education, healthcare, and its efforts to promote dialogue and reconciliation in South African society.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
-      "id": "cyril-ramaphosa--2025-11-07--VAT",
+      "id": "cyril-ramaphosa--2025-11-08--VAT",
       "officialId": "cyril-ramaphosa",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met South African President Cyril Ramaphosa.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-07",
+      "startDate": "2025-11-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15994,27 +16010,33 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.208888888,
-          28.613888888
+          77.209,
+          28.6139
         ],
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2026-09-13",
-      "engagements": [],
-      "eventName": "18th BRICS summit",
-      "id": "cyril-ramaphosa--2026-09-12--IND",
+      "endDate": "2026-09-11",
+      "engagements": [
+        "Leaders of full member countries"
+      ],
+      "eventName": "Meeting with President of the Republic of South Africa Cyril Ramaphosa",
+      "id": "cyril-ramaphosa--2026-09-11--IND",
       "officialId": "cyril-ramaphosa",
-      "purpose": "Attended the 18th BRICS summit",
+      "purpose": "Meeting with President of the Republic of South Africa Cyril Ramaphosa",
       "sources": [
         {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80739"
+        },
+        {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/18th_BRICS_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
-      "startDate": "2026-09-12",
+      "startDate": "2026-09-11",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16121,6 +16143,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1990-09-23",
@@ -16205,6 +16231,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1993-06-30",
@@ -16513,7 +16543,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -16996,7 +17026,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -17621,6 +17651,7 @@
           32.8875
         ],
         "countryCode": "LBY",
+        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2010-11-30",
@@ -18041,10 +18072,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tripoli",
+        "city": "Benghazi",
         "coordinates": [
-          13.1875,
-          32.8875
+          20.066666666,
+          32.116666666
         ],
         "countryCode": "LBY",
         "region": "Africa"
@@ -18144,6 +18175,7 @@
           32.8875
         ],
         "countryCode": "LBY",
+        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2011-05-30",
@@ -18244,11 +18276,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
-      "id": "jacob-zuma--2011-07-03--RUS",
+      "eventName": "Meeting with President of the Republic of South Africa Jacob Zuma",
+      "id": "jacob-zuma--2011-07-04--RUS",
       "officialId": "jacob-zuma",
-      "purpose": "Talks on Libya with Dmitry Medvedev.",
+      "purpose": "Meeting with President of the Republic of South Africa Jacob Zuma",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/11829"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
@@ -18258,7 +18294,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-07-03",
+      "startDate": "2011-07-04",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -19119,19 +19155,23 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.208888888,
-          28.613888888
+          77.209,
+          28.6139
         ],
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2012-03-29",
+      "endDate": "2012-03-28",
       "engagements": [],
-      "eventName": "4th BRICS summit",
-      "id": "jacob-zuma--2012-03-29--IND",
+      "eventName": "Meeting with President of South Africa Jacob Zuma",
+      "id": "jacob-zuma--2012-03-28--IND",
       "officialId": "jacob-zuma",
-      "purpose": "Attended the 4th BRICS summit",
+      "purpose": "Meeting with President of South Africa Jacob Zuma",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/14863"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
@@ -19141,9 +19181,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-03-29",
+      "startDate": "2012-03-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20068,11 +20108,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "jacob-zuma--2013-05-15--RUS",
+      "eventName": "Meeting with President of South Africa Jacob Zuma",
+      "id": "jacob-zuma--2013-05-16--RUS",
       "officialId": "jacob-zuma",
-      "purpose": "State visit.",
+      "purpose": "Meeting with President of South Africa Jacob Zuma",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/18127"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
@@ -20082,9 +20126,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-05-15",
+      "startDate": "2013-05-16",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20887,6 +20931,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -20928,13 +20976,12 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Harare",
+        "city": "Victoria Falls",
         "coordinates": [
-          31.052222222,
-          -17.829166666
+          25.858055555,
+          -17.924777777
         ],
         "countryCode": "ZWE",
-        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2014-08-18",
@@ -20968,15 +21015,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2014-08-29",
+      "endDate": "2014-08-28",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "jacob-zuma--2014-08-24--RUS",
+      "eventName": "Meeting with President of South Africa Jacob Zuma",
+      "id": "jacob-zuma--2014-08-28--RUS",
       "officialId": "jacob-zuma",
-      "purpose": "State visit with Vladimir Putin.",
+      "purpose": "Meeting with President of South Africa Jacob Zuma",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/46503"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
@@ -20986,9 +21037,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-08-24",
+      "startDate": "2014-08-28",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21639,11 +21690,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of South Africa Jacob Zuma",
       "id": "jacob-zuma--2015-05-09--RUS",
       "officialId": "jacob-zuma",
-      "purpose": "70th Anniversary of Victory in the Great Patriotic War.",
+      "purpose": "Meeting with President of South Africa Jacob Zuma",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49449"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
@@ -21655,7 +21710,7 @@
       ],
       "startDate": "2015-05-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23514,16 +23569,20 @@
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2017-09-05",
+      "endDate": "2017-09-04",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Gave a public address"
       ],
-      "eventName": "9th BRICS summit",
-      "id": "jacob-zuma--2017-09-03--CHN",
+      "eventName": "Meeting with President of South Africa Jacob Zuma",
+      "id": "jacob-zuma--2017-09-04--CHN",
       "officialId": "jacob-zuma",
-      "purpose": "9th BRICS summit.",
+      "purpose": "Meeting with President of South Africa Jacob Zuma",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/55522"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jacob_Zuma"
@@ -23533,9 +23592,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-03",
+      "startDate": "2017-09-04",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23854,6 +23913,34 @@
       "startDate": "2018-01-28",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "jacobus-johannes-fouche--1971-10-12--IRN",
+      "officialId": "jacobus-johannes-fouche",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -24216,7 +24303,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2008_G20_Washington_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -25140,7 +25227,7 @@
         "Met President Bill Clinton",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "U.N. General Assembly",
       "id": "nelson-mandela--1994-10-04--USA",
       "officialId": "nelson-mandela",
       "purpose": "State visit.",
@@ -25148,6 +25235,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -25502,24 +25593,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1997-03-02",
+      "endDate": "1997-03-03",
       "engagements": [
         "Met President Fidel Ramos",
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "nelson-mandela--1997-02-28--PHL",
+      "id": "nelson-mandela--1997-03-01--PHL",
       "officialId": "nelson-mandela",
       "purpose": "Visit to Philippines",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1997-02-28",
+      "startDate": "1997-03-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -26445,6 +26540,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -26627,7 +26726,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Netherlands%E2%80%93South_Africa_relations"
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Beatrix_der_Nederlanden"
         },
         {
           "label": "COLT dataset",
@@ -26636,7 +26735,7 @@
       ],
       "startDate": "1999-03-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -26690,6 +26789,10 @@
       "purpose": "Visit to Denmark",
       "sources": [
         {
+          "label": "Danish Royal House",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -26697,6 +26800,34 @@
       "startDate": "1999-03-15",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "nelson-mandela--1999-03-16--NOR",
+      "officialId": "nelson-mandela",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "1999-03-16",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -26719,7 +26850,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
         }
       ],
       "startDate": "1999-03-17",
@@ -26963,6 +27094,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-06-19",
+      "engagements": [],
+      "eventName": "Meeting with Deputy President of the Republic of South Africa Paul Mashatile",
+      "id": "paul-mashatile--2025-06-19--RUS",
+      "officialId": "paul-mashatile",
+      "purpose": "Meeting with Deputy President of the Republic of South Africa Paul Mashatile",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77216"
+        }
+      ],
+      "startDate": "2025-06-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -27128,6 +27287,34 @@
       "startDate": "1997-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1998-09-21",
+      "engagements": [],
+      "eventName": "Met with President Clinton during the U.N. General Assembly in New York City.",
+      "id": "thabo-mbeki--1998-09-21--USA",
+      "officialId": "thabo-mbeki",
+      "purpose": "Met with President Clinton during the U.N. General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1998-09-21",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -27602,6 +27789,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -28087,6 +28278,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -28205,6 +28400,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -28718,6 +28917,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -30236,6 +30439,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2004-07-11",
+      "engagements": [],
+      "eventName": "G8 summit",
+      "id": "thabo-mbeki--2004-07-10--USA",
+      "officialId": "thabo-mbeki",
+      "purpose": "Met with President Bush at the G8 summit in Sea Island, Georgia. Attended the funeral for former President Ronald Reagan.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2004-07-10",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Accra",
         "coordinates": [
           -0.1969,
@@ -31171,6 +31402,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -32729,6 +32964,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -34022,6 +34261,36 @@
         }
       ],
       "startDate": "2008-09-08",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-06-29",
+      "engagements": [
+        "Arrives in Sri Lanka on a public engagement visit."
+      ],
+      "eventName": null,
+      "id": "thabo-mbeki--2025-06-26--LKA",
+      "officialId": "thabo-mbeki",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-06-26",
       "statusHint": null,
       "type": "official_visit"
     }

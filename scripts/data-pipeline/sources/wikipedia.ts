@@ -13,11 +13,57 @@ import { fetchJson, withQuery } from "../lib/http";
  * Wikipedias read for trip lists. English is the default everywhere; the others hold lists
  * English lacks (Portuguese for Latin America, Persian and Arabic for the Middle East…).
  */
-export const WIKI_LANGUAGES = ["en", "es", "fr", "pt", "de", "id", "ko", "ar", "fa"] as const;
+export const WIKI_LANGUAGES = [
+    "en",
+    "es",
+    "fr",
+    "pt",
+    "de",
+    "nl",
+    "no",
+    "sv",
+    "id",
+    "ms",
+    "th",
+    "ko",
+    "ja",
+    "ar",
+    "fa",
+] as const;
 export type WikiLanguage = (typeof WIKI_LANGUAGES)[number];
 
-const apiEndpoint = (language: WikiLanguage): string =>
-    `https://${language}.wikipedia.org/w/api.php`;
+/**
+ * Wikipedias whose articles' lead images fill in missing photos, in order of preference: the
+ * large ones, then those of regions Wikidata's images cover least.
+ */
+export const PHOTO_LANGUAGES = [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "ru",
+    "pt",
+    "it",
+    "ar",
+    "fa",
+    "zh",
+    "ja",
+    "uk",
+    "pl",
+    "nl",
+    "tr",
+    "id",
+    "ko",
+    "vi",
+    "hi",
+    "ne",
+    "bn",
+    "ur",
+    "sw",
+] as const;
+export type PhotoLanguage = (typeof PHOTO_LANGUAGES)[number];
+
+const apiEndpoint = (language: string): string => `https://${language}.wikipedia.org/w/api.php`;
 const TITLE_BATCH_SIZE = 50;
 /** The extracts API returns at most 20 intros per request. */
 const EXTRACT_BATCH_SIZE = 20;
@@ -36,6 +82,7 @@ const pagesResponseSchema = z.object({
                 z.object({
                     extract: z.string().optional(),
                     missing: z.boolean().optional(),
+                    pageimage: z.string().optional(),
                     pageprops: z.object({ wikibase_item: z.string().optional() }).optional(),
                     title: z.string(),
                 })
@@ -227,14 +274,35 @@ const resolveRequestedTitles = (
     return resolved;
 };
 
+/** Servers refuse URLs much longer than this; titles in non-Latin scripts triple when encoded. */
+const MAX_ENCODED_TITLES_LENGTH = 4000;
+
+/** Splits a batch of titles so each request's URL stays short enough. */
+const splitLongBatch = (batch: readonly string[]): string[][] => {
+    const parts: string[][] = [[]];
+    let length = 0;
+    for (const title of batch) {
+        const encoded = encodeURIComponent(title).length + 1;
+        const current = parts.at(-1) ?? [];
+        if (current.length > 0 && length + encoded > MAX_ENCODED_TITLES_LENGTH) {
+            parts.push([title]);
+            length = encoded;
+        } else {
+            current.push(title);
+            length += encoded;
+        }
+    }
+    return parts;
+};
+
 const queryPages = async (
     titles: readonly string[],
     batchSize: number,
     params: Readonly<Record<string, string>>,
-    language: WikiLanguage = "en"
+    language = "en"
 ): Promise<Map<string, PageInfo>> => {
     const pages = new Map<string, PageInfo>();
-    const batches = chunk([...new Set(titles)].sort(), batchSize);
+    const batches = chunk([...new Set(titles)].sort(), batchSize).flatMap(splitLongBatch);
     const responses = await Promise.all(
         batches.map((batch) =>
             fetchJson(
@@ -259,6 +327,44 @@ const queryPages = async (
         }
     }
     return pages;
+};
+
+/** Lead images that aren't portraits: flags, arms, signatures, maps and drawings. */
+const NOT_A_PORTRAIT = /flag|coat[ _]of[ _]arms|emblem|seal|signature|autograph|logo|map|\.svg$/i;
+
+/**
+ * Whether a lead image can be a portrait (not a flag, coat of arms, signature, map or drawing).
+ *
+ * @param file - File name on Wikimedia Commons.
+ * @returns `false` for files that are certainly not a photo of the person.
+ */
+export const isPortraitFile = (file: string): boolean => !NOT_A_PORTRAIT.test(file);
+
+/**
+ * Each article's lead image, when it is freely licensed and looks like a portrait. Articles
+ * about people usually lead with the person's photo; Wikidata often lacks one.
+ *
+ * @param titles - Article titles.
+ * @param language - Wikipedia the titles belong to.
+ * @returns File name (on Wikimedia Commons) per requested title.
+ */
+export const fetchPageImages = async (
+    titles: readonly string[],
+    language: PhotoLanguage
+): Promise<Map<string, string>> => {
+    const pages = await queryPages(
+        titles,
+        TITLE_BATCH_SIZE,
+        { pilicense: "free", piprop: "name", prop: "pageimages" },
+        language
+    );
+    const images = new Map<string, string>();
+    for (const [title, page] of pages) {
+        if (page.pageimage && isPortraitFile(page.pageimage)) {
+            images.set(title, page.pageimage);
+        }
+    }
+    return images;
 };
 
 /**

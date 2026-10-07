@@ -386,76 +386,6 @@
       "wikidataId": "Q2604"
     },
     {
-      "aliases": [
-        "Francis",
-        "Francisco",
-        "Franciscus",
-        "Franciscus I",
-        "François Bergoglio",
-        "Jorge Bergoglio",
-        "Jorge Mario Bergoglio",
-        "Jorge Mario Bergoglio Sivori",
-        "Pope Francesco",
-        "Pope Francis I",
-        "Pope Francisco",
-        "Pope Franciscus",
-        "papa Francesco",
-        "papë Franciscus"
-      ],
-      "countryCode": "VAT",
-      "fullName": "Pope Francis",
-      "id": "pope-francis",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Francis_Korea_Haemi_Castle_19.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "head_of_state"
-          ],
-          "endDate": "2025-04-21",
-          "id": "pope-francis-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2013-03-13",
-          "title": "Pope"
-        },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2013-03-13",
-          "id": "pope-francis-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1998-02-28",
-          "title": "Archbishop of Buenos Aires"
-        },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": "2011-01-01",
-          "id": "pope-francis-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2005-01-01",
-          "title": "President of the Episcopal Conference of Argentina"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q450675"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Pope_Francis"
-        }
-      ],
-      "summary": "Pope Francis was the head of the Catholic Church and sovereign of Vatican City from 13 March 2013 until his death in 2025. He was the first Jesuit pope, the first Latin American, and the first pope born or raised outside Europe since the 8th-century Syrian pope Gregory III. Born and raised in Buenos Aires, Argentina, to a family of Italian origin, Bergoglio was inspired to join the Jesuits in 1958 after recovering from a severe illness.",
-      "wikidataId": "Q450675"
-    },
-    {
       "aliases": [],
       "countryCode": "VAT",
       "fullName": "Giovanni Lajolo",
@@ -1336,6 +1266,17 @@
           "ministry": null,
           "portfolio": null,
           "startDate": "2014-11-08",
+          "title": "Secretary for Relations With States"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "paul-gallagher-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2014-11-08",
           "title": "Secretary for Relations with States of the Holy See"
         }
       ],
@@ -1345,41 +1286,16 @@
           "url": "https://www.wikidata.org/wiki/Q2059716"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/holy-see-vatican-city/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Paul_Gallagher_(bishop)"
         }
       ],
       "summary": "Sir Paul Richard Gallagher (born 23 January 1954) is a British prelate of the Catholic Church who has been Secretary for Relations with States within the Holy See's Secretariat of State since November 2014. He has worked in the diplomatic service of the Holy See since 1984 and has held the rank of archbishop and apostolic nuncio since 2004, serving as nuncio (papal ambassador) in Burundi, Guatemala, and Australia.",
       "wikidataId": "Q2059716"
-    },
-    {
-      "aliases": [],
-      "countryCode": "VAT",
-      "fullName": "Paul Gallagher",
-      "id": "paul-gallagher-vat",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "paul-gallagher-vat-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Secretary for Relations With States"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/holy-see-vatican-city/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [
@@ -1665,35 +1581,6 @@
     {
       "aliases": [],
       "countryCode": "VAT",
-      "fullName": "Francis",
-      "id": "francis",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": null,
-          "id": "francis-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Supreme Pontiff, Roman Catholic Church"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/holy-see-vatican-city/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "VAT",
       "fullName": "Pietro Parolin",
       "id": "pietro-parolin",
       "party": null,
@@ -1719,6 +1606,91 @@
       ],
       "summary": "",
       "wikidataId": null
+    },
+    {
+      "aliases": [
+        "Francis",
+        "Francisco",
+        "Franciscus",
+        "Franciscus I",
+        "François Bergoglio",
+        "Jorge Bergoglio",
+        "Jorge Mario Bergoglio",
+        "Jorge Mario Bergoglio Sivori",
+        "Pope Francesco",
+        "Pope Francis I",
+        "Pope Francisco",
+        "Pope Franciscus",
+        "papa Francesco",
+        "papë Franciscus"
+      ],
+      "countryCode": "VAT",
+      "fullName": "Pope Francis",
+      "id": "pope-francis",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Francis_Korea_Haemi_Castle_19.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "pope-francis-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Supreme Pontiff, Roman Catholic Church"
+        },
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2025-04-21",
+          "id": "pope-francis-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2013-03-13",
+          "title": "Pope"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2013-03-13",
+          "id": "pope-francis-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1998-02-28",
+          "title": "Archbishop of Buenos Aires"
+        },
+        {
+          "categories": [
+            "senior_official"
+          ],
+          "endDate": "2011-01-01",
+          "id": "pope-francis-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2005-01-01",
+          "title": "President of the Episcopal Conference of Argentina"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q450675"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/holy-see-vatican-city/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pope_Francis"
+        }
+      ],
+      "summary": "Pope Francis was the head of the Catholic Church and sovereign of Vatican City from 13 March 2013 until his death in 2025. He was the first Jesuit pope, the first Latin American, and the first pope born or raised outside Europe since the 8th-century Syrian pope Gregory III. Born and raised in Buenos Aires, Argentina, to a family of Italian origin, Bergoglio was inspired to join the Jesuits in 1958 after recovering from a severe illness.",
+      "wikidataId": "Q450675"
     },
     {
       "aliases": [
@@ -2217,7 +2189,7 @@
         "Met President George W. Bush",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "UN General Assembly",
       "id": "benedict-xvi--2008-04-15--USA",
       "officialId": "benedict-xvi",
       "purpose": "Pastoral visit. Met with President Bush at the White House. Also visited New York City April 18–20 and addressed the UN General Assembly.",
@@ -2225,6 +2197,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -3758,6 +3734,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1979-10-06",
@@ -3791,6 +3771,34 @@
       "startDate": "1980-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1981-02-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "john-paul-ii--1981-02-17--PHL",
+      "officialId": "john-paul-ii",
+      "purpose": "Papal visit; visit for the beatification of San Lorenzo Ruiz",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1981-02-17",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",
@@ -3870,6 +3878,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1987-09-10",
@@ -5473,6 +5485,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5773,8 +5789,12 @@
       "eventName": null,
       "id": "john-paul-ii--1995-01-12--PHL",
       "officialId": "john-paul-ii",
-      "purpose": "Visit to Philippines",
+      "purpose": "Visit for the 1995 World Youth Day",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5782,7 +5802,7 @@
       ],
       "startDate": "1995-01-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6193,7 +6213,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "U.N. General Assembly",
       "id": "john-paul-ii--1995-10-04--USA",
       "officialId": "john-paul-ii",
       "purpose": "Pastoral visit.",
@@ -6201,6 +6221,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -8671,36 +8695,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Colombo",
-        "coordinates": [
-          79.8612,
-          6.9271
-        ],
-        "countryCode": "LKA",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2025-11-08",
-      "engagements": [
-        "Five-day official visit."
-      ],
-      "eventName": null,
-      "id": "leo-xiv--2025-11-03--LKA",
-      "officialId": "leo-xiv",
-      "purpose": "Official visit",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
-        }
-      ],
-      "startDate": "2025-11-03",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Rome",
         "coordinates": [
           12.482777777,
@@ -9009,6 +9003,64 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-11-08",
+      "engagements": [
+        "Five-day official visit."
+      ],
+      "eventName": null,
+      "id": "paul-gallagher--2025-11-03--LKA",
+      "officialId": "paul-gallagher",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-11-03",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1964-01-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-vi--1964-01-01--ISR",
+      "officialId": "paul-vi",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Levi_Eshkol"
+        }
+      ],
+      "startDate": "1964-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -9020,7 +9072,7 @@
       },
       "endDate": "1965-10-04",
       "engagements": [],
-      "eventName": null,
+      "eventName": "UN General Assembly",
       "id": "paul-vi--1965-10-04--USA",
       "officialId": "paul-vi",
       "purpose": "Met President Johnson in New York City.",
@@ -9028,11 +9080,71 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1965-10-04",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1970-11-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-vi--1970-11-25--IRN",
+      "officialId": "paul-vi",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1970-11-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1970-11-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "paul-vi--1970-11-27--PHL",
+      "officialId": "paul-vi",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1970-11-27",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9060,6 +9172,34 @@
       "startDate": "2014-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-03-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "pietro-parolin--2016-03-18--MKD",
+      "officialId": "pietro-parolin",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2016-03-18",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9790,8 +9930,12 @@
       "eventName": null,
       "id": "pope-francis--2015-01-15--PHL",
       "officialId": "pope-francis",
-      "purpose": "Visit to Philippines",
+      "purpose": "Papal Apostolic and State Visit; visited Palo and Tacloban to meet with victims of Typhoon Haiyan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9799,7 +9943,7 @@
       ],
       "startDate": "2015-01-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10033,7 +10177,7 @@
         "Met President Barack Obama",
         "Gave a public address"
       ],
-      "eventName": "United Nations (UN) General Assembly",
+      "eventName": "UN General Assembly",
       "id": "pope-francis--2015-09-22--USA",
       "officialId": "pope-francis",
       "purpose": "State Visit.",
@@ -10041,6 +10185,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -11156,13 +11304,17 @@
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2019-05-07",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11597,6 +11749,10 @@
       "officialId": "pope-francis",
       "purpose": "Visit to Iraq",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12748,13 +12904,17 @@
       "purpose": "Visit to Belgium",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Filip_van_Belgi%C3%AB"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2024-09-26",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

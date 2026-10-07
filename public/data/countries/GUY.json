@@ -924,10 +924,21 @@
         },
         {
           "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "ashni-singh-guy-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-11-05",
+          "title": "Senior Minister in the Office of the President with Responsibility for Finance"
+        },
+        {
+          "categories": [
             "minister"
           ],
           "endDate": "2015-05-16",
-          "id": "ashni-singh-guy-p2",
+          "id": "ashni-singh-guy-p3",
           "ministry": "Ministry of Finance",
           "portfolio": "finance",
           "startDate": "2006-08-09",
@@ -938,7 +949,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "ashni-singh-guy-p3",
+          "id": "ashni-singh-guy-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "1992-12-17",
@@ -950,6 +961,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q105715507"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/guyana/"
         },
         {
           "label": "Wikipedia",
@@ -1026,7 +1041,7 @@
       "fullName": "Charles S. Ramson",
       "id": "charles-s-ramson",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Ramson.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2244,35 +2259,6 @@
     {
       "aliases": [],
       "countryCode": "GUY",
-      "fullName": "Ashni Singh",
-      "id": "ashni-singh",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": null,
-          "id": "ashni-singh-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Senior Minister in the Office of the President with Responsibility for Finance"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/guyana/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "GUY",
       "fullName": "Robert Montgomery Persaud",
       "id": "robert-montgomery-persaud",
       "party": null,
@@ -3221,23 +3207,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2003-05-17",
+      "endDate": "2003-05-14",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "bharrat-jagdeo--2003-05-13--RUS",
+      "id": "bharrat-jagdeo--2003-05-14--RUS",
       "officialId": "bharrat-jagdeo",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin had a meeting with President of the Cooperative Republic of Guyana Bharrat Jagdeo",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/28631"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-05-13",
+      "startDate": "2003-05-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3356,6 +3346,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -4622,22 +4616,26 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2007-02-01",
+      "endDate": "2007-01-29",
       "engagements": [
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "bharrat-jagdeo--2007-01-26--RUS",
+      "id": "bharrat-jagdeo--2007-01-29--RUS",
       "officialId": "bharrat-jagdeo",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met at the Kremlin with President of the Cooperative Republic of Guyana Bharrat Jagdeo",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/37095"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-01-26",
+      "startDate": "2007-01-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -6182,23 +6180,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2010-02-07",
+      "endDate": "2010-02-02",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
-      "id": "bharrat-jagdeo--2010-02-01--RUS",
+      "id": "bharrat-jagdeo--2010-02-02--RUS",
       "officialId": "bharrat-jagdeo",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of the Republic of Guyana Bharrat Jagdeo",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/6765"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-02-01",
+      "startDate": "2010-02-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8978,28 +8980,32 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-03-13",
+      "endDate": "2018-03-11",
       "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": "International Solar Alliance (ISA) Founding Conference and Solar Summit",
-      "id": "david-a-granger--2018-03-11--IND",
+      "eventName": "International Solar Alliance Summit",
+      "id": "david-a-granger--2018-03-08--IND",
       "officialId": "david-a-granger",
-      "purpose": "Attended International Solar Alliance (ISA) Founding Conference and Solar Summit",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-11",
+      "startDate": "2018-03-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -9488,6 +9494,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1988-09-13",
@@ -9516,6 +9526,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1989-06-19",
@@ -10841,11 +10855,15 @@
       "eventName": null,
       "id": "donald-ramotar--2015-01-07--IND",
       "officialId": "donald-ramotar",
-      "purpose": "Visit to India",
+      "purpose": "Official Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/739/Official_visit_of_the_President_of_the_Cooperative_Republic_of_Guyana_to_India_January_712_2015"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -10936,6 +10954,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1966-07-21",
@@ -10964,6 +10986,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1968-07-26",
@@ -11681,14 +11707,18 @@
       },
       "endDate": "2023-01-14",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Signed agreements"
+        "The Pravasi Bharatiya Divas (PBD) Convention is held once every two years.",
+        "Met Prime Minister Narendra Modi"
       ],
       "eventName": "Pravasi Bhartiya Divas (PBD) Convention",
       "id": "irfaan-ali--2023-01-08--IND",
       "officialId": "irfaan-ali",
-      "purpose": "Attended Pravasi Bhartiya Divas (PBD) Convention",
+      "purpose": "17th Pravasi Bharatiya Divas Convention 2023",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11696,7 +11726,7 @@
       ],
       "startDate": "2023-01-08",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

@@ -107,6 +107,15 @@ const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
         received: null,
         titleWords: null,
     },
+    ja: {
+        namespace: 0,
+        // "ジョー・バイデン大統領の外遊の一覧", "岸田文雄の外遊": the name comes first, so found by search.
+        outgoing: /^(.+?)(?:大統領|首相|国王|天皇)?の外遊(?:の一覧)?$/u,
+        prefixes: [],
+        received: null,
+        searches: ["intitle:外遊"],
+        titleWords: null,
+    },
     ko: {
         namespace: 0,
         // "이재명의 대통령 순방 목록": the name comes first, so the lists are found by search.
@@ -115,6 +124,41 @@ const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
         received: null,
         searches: ['intitle:"순방 목록"'],
         titleWords: null,
+    },
+    ms: {
+        namespace: 0,
+        // "Senarai lawatan antarabangsa Perdana Menteri oleh Muhyiddin Yassin".
+        outgoing:
+            /^Senarai lawatan (?:antarabangsa|negara|rasmi|luar negara)(?: Perdana Menteri)?(?: oleh)? (.+?)(?: semasa .+)?(?: \([^)]*\))?$/iu,
+        prefixes: ["Senarai lawatan"],
+        received: null,
+        titleWords: null,
+    },
+    nl: {
+        namespace: 0,
+        // "Lijst van staatsbezoeken van Willem-Alexander der Nederlanden": both directions, by heading.
+        outgoing:
+            /^Lijst van (?:staatsbezoeken|buitenlandse reizen|officiële bezoeken) van (.+?)(?: \([^)]*\))?$/i,
+        prefixes: [
+            "Lijst van staatsbezoeken",
+            "Lijst van buitenlandse reizen",
+            "Lijst van officiële bezoeken",
+        ],
+        received: null,
+        titleWords: /^(?:koning|koningin|president)\s+/i,
+    },
+    no: {
+        namespace: 0,
+        // "Liste over statsbesøk under Harald V": both directions, by table.
+        outgoing:
+            /^Liste over (?:statsbesøk|offisielle besøk|utenlandsreiser) (?:under|av|til) (.+?)(?: \([^)]*\))?$/i,
+        prefixes: [
+            "Liste over statsbesøk",
+            "Liste over offisielle besøk",
+            "Liste over utenlandsreiser",
+        ],
+        received: null,
+        titleWords: /^(?:kong|dronning|president)\s+/i,
     },
     pt: {
         namespace: 0,
@@ -126,12 +170,35 @@ const PATTERNS: Readonly<Record<WikiLanguage, TitlePatterns>> = {
         titleWords:
             /^(?:presidente|presidenta|primeiro-ministro|primeira-ministra|rei|rainha|papa)\s+/i,
     },
+    sv: {
+        namespace: 0,
+        // "Lista över statsbesök av Carl XVI Gustaf av Sverige": both directions, by table.
+        outgoing:
+            /^Lista över (?:statsbesök|officiella besök|utlandsresor) (?:av|under|till) (.+?)(?: \([^)]*\))?$/i,
+        prefixes: [
+            "Lista över statsbesök",
+            "Lista över officiella besök",
+            "Lista över utlandsresor",
+        ],
+        received: null,
+        titleWords: /^(?:kung|drottning|president)\s+/i,
+    },
+    th: {
+        namespace: 0,
+        // "การเยือนต่างประเทศของพระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว": a monarch's visits abroad.
+        outgoing: /^การเยือนต่างประเทศของ(.+)$/u,
+        prefixes: ["การเยือนต่างประเทศของ"],
+        received: null,
+        titleWords: null,
+    },
 };
 /**
  * Domestic travel: explicit, or the yearly US "List of presidential trips made by Joe Biden
  * (2022)" pages, which are mostly domestic (the Office of the Historian covers the trips abroad).
  */
 const DOMESTIC = /\bdomestic\b|^List of presidential trips made by .+ \(\d{4}/i;
+/** "received:…" in the overrides marks a list of visits a country received. */
+const RECEIVED_PREFIX = "received:";
 /** "es:Anexo:…" in the overrides names a page on another Wikipedia. */
 const LANGUAGE_PREFIX = /^([a-z]{2}):(.+)$/;
 
@@ -175,22 +242,36 @@ export const classifyTripPage = (
     return outgoing ? { direction: "outgoing", subject: subjectOf(outgoing) } : null;
 };
 
+/** " de …", " av …": the realm after a monarch's name ("Harald V av Norge"). */
+const REALM_SUFFIX = /^ (?:de|av|af|van|der|von) /;
+
 /**
- * Whether a page's subject is the person with this article. Spanish and French titles often
- * add the country to a monarch's name ("Albert II de Belgique" for the article "Albert II
- * (roi des Belges)"), so there a subject may continue with "de …".
+ * Whether a page's subject is the person with this article. Outside English, a monarch's name
+ * often carries the realm on one side only: "Albert II de Belgique" for the article "Albert II
+ * (roi des Belges)", "Harald V" for "Harald V av Norge".
  */
 const isSubject = (subject: string, article: string, language: WikiLanguage): boolean => {
     const name = normalizeName(stripParenthetical(article));
-    return subject === name || (language !== "en" && subject.startsWith(`${name} de `));
+    if (subject === name || language === "en") {
+        return subject === name;
+    }
+    const [longer, shorter] = subject.length > name.length ? [subject, name] : [name, subject];
+    return longer.startsWith(shorter) && REALM_SUFFIX.test(longer.slice(shorter.length));
 };
 
 /** Pages named in the overrides, with the Wikipedia they are on. */
-const overridePages = (titles: readonly string[]): [WikiLanguage, string][] =>
-    titles.map((entry) => {
+const overridePages = (
+    titles: readonly string[]
+): { direction: TripPageDirection | null; language: WikiLanguage; title: string }[] =>
+    titles.map((raw) => {
+        const isReceived = raw.startsWith(RECEIVED_PREFIX);
+        const entry = isReceived ? raw.slice(RECEIVED_PREFIX.length) : raw;
         const [, code, title] = entry.match(LANGUAGE_PREFIX) ?? [];
         const language = WIKI_LANGUAGES.find((known) => known === code);
-        return language && title ? [language, title] : ["en", entry];
+        const direction = isReceived ? "received" : null;
+        return language && title
+            ? { direction, language, title }
+            : { direction, language: "en", title: entry };
     });
 
 /**
@@ -236,8 +317,8 @@ export const discoverTripPages = async (
             return article !== undefined && isSubject(subject, article, language);
         });
         const override = TRIP_PAGE_OVERRIDES[key];
-        const added = overridePages(override?.add ?? []).map(([language, title]) => ({
-            direction: classifyTripPage(title, language)?.direction ?? "outgoing",
+        const added = overridePages(override?.add ?? []).map(({ direction, language, title }) => ({
+            direction: direction ?? classifyTripPage(title, language)?.direction ?? "outgoing",
             language,
             title,
         }));

@@ -2481,7 +2481,7 @@
       "fullName": "Ahmad Ali Al Sayegh",
       "id": "ahmad-ali-al-sayegh",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/UAE_Delegation_meets_Solih.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3901,7 +3901,7 @@
       "fullName": "Saud bin Rashid Al Mu'alla",
       "id": "saud-bin-rashid-al-mu-alla",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ae_uaq-escudo.png?width=160",
       "positions": [
         {
           "categories": [
@@ -6914,6 +6914,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2021-08-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-bin-rashid-al-maktoum--2021-08-28--IRQ",
+      "officialId": "mohammed-bin-rashid-al-maktoum",
+      "purpose": "Visit to Iraq",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        }
+      ],
+      "startDate": "2021-08-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Algiers",
@@ -6939,6 +6967,62 @@
       "startDate": "2022-11-01",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-02-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-bin-zayed-al-nahyan--2016-02-10--IND",
+      "officialId": "mohammed-bin-zayed-al-nahyan",
+      "purpose": "State Visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2016-02-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-01-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "mohammed-bin-zayed-al-nahyan--2017-01-24--IND",
+      "officialId": "mohammed-bin-zayed-al-nahyan",
+      "purpose": "State visit & Chief Guest of Indian Republic Day",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2017-01-24",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7146,11 +7230,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of the UAE Mohamed bin Zayed Al Nahyan",
       "id": "mohammed-bin-zayed-al-nahyan--2022-10-11--RUS",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Met with President Vladimir Putin, discussed the Ukraine war and OPEC+ supply cuts.",
+      "purpose": "Meeting with President of the UAE Mohamed bin Zayed Al Nahyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69574"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
@@ -7468,11 +7556,15 @@
         "Petersburg International Economic Forum.",
         "Met with President Vladimir Putin to discuss the Ukraine war."
       ],
-      "eventName": "International Economic Forum",
+      "eventName": "Meeting with President of the UAE Mohamed Al Nahyan",
       "id": "mohammed-bin-zayed-al-nahyan--2023-06-16--RUS",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Attended the St.",
+      "purpose": "Meeting with President of the UAE Mohamed Al Nahyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71444"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
@@ -7484,7 +7576,7 @@
       ],
       "startDate": "2023-06-16",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7521,8 +7613,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -7677,18 +7769,19 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2023-09-09",
+      "endDate": "2023-09-10",
       "engagements": [
-        "Met Prime Minister Narendra Modi"
+        "There were five leaders who were invited but did not attend (3 G20 members and 2 invitees): The Chinese leader Xi Jinping was represented by Premier Li Qiang.",
+        "The President of Russia Vladimir Putin was represented by Foreign Minister Sergei Lavrov."
       ],
       "eventName": "2023 G20 New Delhi summit",
       "id": "mohammed-bin-zayed-al-nahyan--2023-09-09--IND",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Attended the G20 Summit, where the UAE participated as a guest to discuss sustainable economic growth and climate action.",
+      "purpose": "2023 G20 New Delhi summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -7873,19 +7966,19 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2024-01-09",
+      "endDate": "2024-01-10",
       "engagements": [
-        "Met Prime Minister Narendra Modi.",
-        "Met Prime Minister Narendra Modi"
+        "Chief Guest of the 2024 Vibrant Gujarat Global Summit.",
+        "This was Sheikh al Nayhan's 5th visit to India in the last eight years."
       ],
-      "eventName": "Vibrant Gujarat Global Summit",
+      "eventName": "2024 Vibrant Gujarat Global Summit",
       "id": "mohammed-bin-zayed-al-nahyan--2024-01-09--IND",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Attended the Vibrant Gujarat Global Summit.",
+      "purpose": "Attending the 2024 Vibrant Gujarat Global Summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -8141,7 +8234,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -8224,8 +8317,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -8291,16 +8384,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2024-10-24",
+      "endDate": "2024-10-20",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "16th BRICS summit",
-      "id": "mohammed-bin-zayed-al-nahyan--2024-10-22--RUS",
+      "eventName": "Informal meeting with President of the UAE Sheikh Mohamed bin Zayed Al Nahyan",
+      "id": "mohammed-bin-zayed-al-nahyan--2024-10-20--RUS",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Attended the 16th BRICS summit",
+      "purpose": "Informal meeting with President of the UAE Sheikh Mohamed bin Zayed Al Nahyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/75357"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
@@ -8310,9 +8407,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-22",
+      "startDate": "2024-10-20",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8797,11 +8894,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
+      "eventName": "Meeting with UAE President Sheikh Mohamed bin Zayed Al Nahyan",
       "id": "mohammed-bin-zayed-al-nahyan--2025-08-07--RUS",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Met with President Vladimir Putin.",
+      "purpose": "Meeting with UAE President Sheikh Mohamed bin Zayed Al Nahyan",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77727"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
@@ -9235,7 +9336,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Pakistan"
         },
         {
           "label": "COLT dataset",
@@ -9294,7 +9395,7 @@
       "eventName": null,
       "id": "mohammed-bin-zayed-al-nahyan--2026-01-19--IND",
       "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "3 hours visit.",
+      "purpose": "Official visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
@@ -9302,12 +9403,12 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2026-01-19",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9831,6 +9932,34 @@
       "startDate": "2013-11-09",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "zayed-bin-sultan-al-nahyan--1971-10-12--IRN",
+      "officialId": "zayed-bin-sultan-al-nahyan",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

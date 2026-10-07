@@ -1,5 +1,11 @@
 import { ROLE_RANK } from "@/lib/travel/travel.constants";
-import type { Official, OfficialGroup, Position, RoleCategory } from "@/types/travel.types";
+import type {
+    OfficeTerms,
+    Official,
+    OfficialGroup,
+    Position,
+    RoleCategory,
+} from "@/types/travel.types";
 
 const LEADERSHIP_CATEGORIES = new Set<RoleCategory>([
     "head_of_state",
@@ -134,3 +140,26 @@ export const getLeadingCategory = (position: Pick<Position, "categories">): Role
     position.categories.reduce((best, category) =>
         ROLE_RANK[category] < ROLE_RANK[best] ? category : best
     );
+
+/**
+ * Groups an official's positions by office, so an office held twice (Gyanendra, King of Nepal in
+ * 1950–51 and 2001–08) is one entry with two terms. Offices keep the positions' order: current
+ * ones first, then the newest.
+ *
+ * @param positions - Positions, sorted as stored.
+ * @returns One entry per office.
+ */
+export const groupPositionsByOffice = (positions: readonly Position[]): OfficeTerms[] => {
+    const offices = new Map<string, OfficeTerms>();
+    for (const position of positions) {
+        const office = offices.get(position.title) ?? {
+            isCurrent: false,
+            terms: [],
+            title: position.title,
+        };
+        office.terms.push(position);
+        office.isCurrent ||= isCurrentPosition(position);
+        offices.set(position.title, office);
+    }
+    return [...offices.values()];
+};

@@ -990,7 +990,7 @@
       "fullName": "Charles Namoloh",
       "id": "charles-namoloh",
       "party": "SWAPO Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Namoloh_2009_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1206,9 +1206,11 @@
       "wikidataId": "Q5297682"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Emma Kantema"
+      ],
       "countryCode": "NAM",
-      "fullName": "Emma Kantema",
+      "fullName": "Emma Kantema-Gaomas",
       "id": "emma-kantema",
       "party": null,
       "photoUrl": null,
@@ -1229,10 +1231,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/namibia/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emma_Kantema-Gaomas"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Emma Kantema (born 16 August 1978) is a Namibian politician who is currently serving as a Minister of Gender and Child Welfare of the Republic of Namibia since 21 March 2025. She has been a member of the National Assembly for SWAPO since 2020.",
+      "wikidataId": "Q123498820"
     },
     {
       "aliases": [
@@ -1989,35 +1995,6 @@
       ],
       "summary": "Itah Kandji-Murangi is a Namibian politician. She served as Namibia's Minister of Higher Education, Training and Innovation from 21 March 2015 to 21 March 2025 .",
       "wikidataId": "Q70864355"
-    },
-    {
-      "aliases": [],
-      "countryCode": "NAM",
-      "fullName": "James Sankwasa",
-      "id": "james-sankwasa",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "james-sankwasa-p1",
-          "ministry": "Ministry of Urban and Rural Development",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Urban and Rural Development"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/namibia/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -3213,6 +3190,41 @@
       ],
       "summary": "Sanet Steenkamp (born 29 October 1972) is a Namibian educator and administrator, currently serving as Minister of Education, Innovation, Youth, Sports, Arts and Culture. She served as a Senior School Counselor in Oshana Region and as a Director of Education in Ohangwena Region.",
       "wikidataId": "Q133730667"
+    },
+    {
+      "aliases": [
+        "James Sankwasa"
+      ],
+      "countryCode": "NAM",
+      "fullName": "Sankwasa James Sankwasa",
+      "id": "james-sankwasa",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "james-sankwasa-p1",
+          "ministry": "Ministry of Urban and Rural Development",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Urban and Rural Development"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/namibia/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sankwasa_James_Sankwasa"
+        }
+      ],
+      "summary": "Sankwasa James Sankwasa (born 5 May 1955) is a Namibian politician, currently serving as Minister of Urban and Rural development and legislator in the 8th National Assembly. He previously served as a Deputy Minister of Works and Transport from 2015 to 2020.",
+      "wikidataId": "Q123469214"
     },
     {
       "aliases": [],
@@ -6251,23 +6263,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-10-25",
+      "endDate": "2019-10-23",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Africa-Russia Summit",
-      "id": "hage-geingob--2019-10-22--RUS",
+      "eventName": "Meeting with President of Namibia Hage Gottfried Geingob",
+      "id": "hage-geingob--2019-10-23--RUS",
       "officialId": "hage-geingob",
-      "purpose": "Attended Africa-Russia Summit",
+      "purpose": "Meeting with President of Namibia Hage Gottfried Geingob",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61882"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-10-22",
+      "startDate": "2019-10-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7782,6 +7798,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -12532,6 +12552,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13629,6 +13653,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -20691,6 +20719,34 @@
       "startDate": "2005-03-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2010-02-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "sam-nujoma--2010-02-05--RUS",
+      "officialId": "sam-nujoma",
+      "purpose": "Dmitry Medvedev met with the first president of Namibia Sam Nujoma",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/6797"
+        }
+      ],
+      "startDate": "2010-02-05",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "year",

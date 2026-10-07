@@ -1423,7 +1423,7 @@
       "fullName": "Csaba Lantos",
       "id": "csaba-lantos",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lantos_Csaba.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -7904,7 +7904,7 @@
       "fullName": "Béla Kovács",
       "id": "bela-kovacs-hun",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kov%C3%A1cs_B%C3%A9la_portr%C3%A9.png?width=160",
       "positions": [
         {
           "categories": [
@@ -14927,7 +14927,7 @@
       "fullName": "István Antos",
       "id": "istvan-antos",
       "party": "Hungarian Working People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-S95253%2C_Berlin%2C_Ausstellung_%22Der_neue_Weg_Ungarns%22.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -17292,7 +17292,7 @@
       "fullName": "József Györe",
       "id": "jozsef-gyore",
       "party": "Hungarian Communist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gy%C3%B6re_J%C3%B3zsef_s%C3%ADrja%2C_2004.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -19512,7 +19512,7 @@
       "fullName": "László Piros",
       "id": "laszlo-piros",
       "party": "Hungarian Communist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Piros_L%C3%A1szl%C3%B3_portr%C3%A9.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -22070,7 +22070,7 @@
       "fullName": "Szabolcs Fazakas",
       "id": "szabolcs-fazakas",
       "party": "Hungarian Socialist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Szabolcs_Fazakas_2012.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -23618,11 +23618,15 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1990-05-18",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "year",
@@ -23653,6 +23657,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [
+          12.568888888,
+          55.676111111
+        ],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1991-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "arpad-goncz--1991-01-01--DNK",
+      "officialId": "arpad-goncz",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Danish Royal House",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog"
+        }
+      ],
+      "startDate": "1991-01-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Washington",
@@ -23674,6 +23706,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1991-05-23",
@@ -23702,6 +23738,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1993-04-20",
@@ -23730,11 +23770,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1994-06-20",
       "statusHint": null,
       "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1996-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "arpad-goncz--1996-10-01--SWE",
+      "officialId": "arpad-goncz",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
+        }
+      ],
+      "startDate": "1996-10-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",
@@ -23842,6 +23914,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1998-03-17",
@@ -23879,6 +23955,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1999-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "arpad-goncz--1999-03-22--NOR",
+      "officialId": "arpad-goncz",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "1999-03-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -23898,6 +24002,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1999-06-06",
@@ -24516,6 +24624,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -24845,13 +24957,17 @@
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2006-11-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -25885,8 +26001,12 @@
       "eventName": null,
       "id": "ferenc-gyurcsany--2009-03-10--RUS",
       "officialId": "ferenc-gyurcsany",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with Prime Minister of Hungary Ferenc Gyurcsany",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3392"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -25894,7 +26014,35 @@
       ],
       "startDate": "2009-03-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-08-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "ferenc-madl--2003-08-27--MKD",
+      "officialId": "ferenc-madl",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2003-08-27",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -25918,6 +26066,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1946-06-11",
@@ -27984,6 +28136,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "janos-ader--2013-09-20--VAT",
+      "officialId": "janos-ader",
+      "purpose": "Pope Francis met Hungarian President János Áder, praising strong Church-State ties, discussing the economic crisis, life and family, creati…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2013-09-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -28007,6 +28187,90 @@
       "startDate": "2014-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "janos-ader--2017-03-24--VAT",
+      "officialId": "janos-ader",
+      "purpose": "Pope Francis received EU leaders and their delegations in the Apostolic Palace to mark the 60th anniversary of the Treaties of Rome, highli…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-03-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Zagreb",
+        "coordinates": [
+          15.977222222,
+          45.813055555
+        ],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-04-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "janos-ader--2017-04-12--HRV",
+      "officialId": "janos-ader",
+      "purpose": "Visit to Croatia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        }
+      ],
+      "startDate": "2017-04-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-02-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "janos-ader--2020-02-14--VAT",
+      "officialId": "janos-ader",
+      "purpose": "Pope Francis met Hungary’s President János Áder to discuss strong bilateral ties, upcoming Eucharistic Congress, social justice, family, en…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2020-02-14",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "year",
@@ -28420,6 +28684,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -28783,6 +29051,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -29377,6 +29649,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1988-07-26",
@@ -29414,6 +29690,36 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-08-25",
+      "engagements": [
+        "Talks highlighted bilateral ties, the Church’s role, family, life, youth, Christians in the Middle East, and the war in Ukraine with a focus on peace."
+      ],
+      "eventName": null,
+      "id": "katalin-novak--2022-08-25--VAT",
+      "officialId": "katalin-novak",
+      "purpose": "Pope Francis received Hungary’s President Novák.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-08-25",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -29437,6 +29743,34 @@
       "startDate": "2022-09-21",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-08-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "katalin-novak--2023-08-25--VAT",
+      "officialId": "katalin-novak",
+      "purpose": "Pope Francis met Hungarian President Katalin Novák, discussing family and Christian values, the Ukraine war and humanitarian efforts, relig…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2023-08-25",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -29690,6 +30024,34 @@
       "startDate": "1990-02-20",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "pal-losonczi--1971-10-12--IRN",
+      "officialId": "pal-losonczi",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",
@@ -30484,6 +30846,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -31167,6 +31533,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -31757,6 +32127,65 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-04-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "tamas-sulyok--2024-04-25--VAT",
+      "officialId": "tamas-sulyok",
+      "purpose": "Pope Francis met Hungarian President Sulyok, praising strong Holy See–Hungary ties, the Church’s role, and discussing families, youth, vuln…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-04-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-02-21",
+      "engagements": [
+        "Talks turned to the role of family and the protection of vulnerable Christian communities world-wide.",
+        "They also discussed current international affairs, especially ongoing conflicts, and expressed hope for peace efforts."
+      ],
+      "eventName": null,
+      "id": "tamas-sulyok--2026-02-21--VAT",
+      "officialId": "tamas-sulyok",
+      "purpose": "The pope and President Sulyok appreciated the contribution of the church to the social life of Hungary.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-02-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -31956,6 +32385,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -32199,6 +32632,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -34499,13 +34936,17 @@
       "purpose": "Visit to North Macedonia",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2011-05-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -35054,7 +35495,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -35377,11 +35818,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Hungary Viktor Orban",
       "id": "viktor-orban--2013-01-31--RUS",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/17400"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -35389,7 +35834,7 @@
       ],
       "startDate": "2013-01-31",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -35630,6 +36075,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "viktor-orban--2013-10-16--IND",
+      "officialId": "viktor-orban",
+      "purpose": "State Visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2013-10-16",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Brussels",
         "coordinates": [
           4.351666666,
@@ -35719,6 +36192,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-12-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "viktor-orban--2013-12-05--MKD",
+      "officialId": "viktor-orban",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2013-12-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ljubljana",
         "coordinates": [
           14.506111111,
@@ -35786,16 +36287,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2014-01-19",
+      "endDate": "2014-01-14",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Hungary Viktor Orban",
       "id": "viktor-orban--2014-01-14--RUS",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/20055"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -35803,7 +36308,7 @@
       ],
       "startDate": "2014-01-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -36438,23 +36943,27 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2015-11-30",
+      "endDate": "2015-12-01",
       "engagements": [
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "viktor-orban--2015-11-30--IRN",
+      "id": "viktor-orban--2015-12-01--IRN",
       "officialId": "viktor-orban",
       "purpose": "Visit to Iran",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-30",
+      "startDate": "2015-12-01",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -36735,6 +37244,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -38567,11 +39080,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Hungary Viktor Orban",
       "id": "viktor-orban--2018-07-15--RUS",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58003"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -38579,7 +39096,7 @@
       ],
       "startDate": "2018-07-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -39067,7 +39584,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-12-03",
+      "endDate": "2018-12-04",
       "engagements": [
         "Met President Kolinda Grabar-Kitarovic"
       ],
@@ -39076,6 +39593,10 @@
       "officialId": "viktor-orban",
       "purpose": "Visit to Croatia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -39606,6 +40127,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -40938,7 +41463,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2021-03-31",
+      "endDate": "2021-03-30",
       "engagements": [
         "Met President Shavkat Mirziyoyev",
         "Signed agreements"
@@ -40950,7 +41475,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Hungary%E2%80%93Uzbekistan_relations"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -41642,11 +42167,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Hungary Viktor Orban",
       "id": "viktor-orban--2022-02-01--RUS",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/67691"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -41654,7 +42183,7 @@
       ],
       "startDate": "2022-02-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -41822,6 +42351,10 @@
       "officialId": "viktor-orban",
       "purpose": "Visit to Vatican City",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -42208,7 +42741,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2022_Organization_of_Turkic_States_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -43232,27 +43765,30 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-10-18",
+      "endDate": "2023-10-17",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Gave a public address"
       ],
-      "eventName": "Belt and Road Forum for International Cooperation",
-      "id": "viktor-orban--2023-10-15--CHN",
+      "eventName": "Meeting with Prime Minister of Hungary Viktor Orban",
+      "id": "viktor-orban--2023-10-17--CHN",
       "officialId": "viktor-orban",
-      "purpose": "Attended Belt and Road Forum for International Cooperation",
+      "purpose": "Meeting with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/72516"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-15",
+      "startDate": "2023-10-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -44111,8 +44647,12 @@
       "eventName": null,
       "id": "viktor-orban--2024-07-05--RUS",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/74474"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -44120,7 +44660,7 @@
       ],
       "startDate": "2024-07-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -45719,13 +46259,18 @@
       },
       "endDate": "2025-10-27",
       "engagements": [
+        "Talks highlighted strong bilateral relations, the Church's social role, family and youth issues, and addressed Europe's challenges, Ukraine, and the Middle East.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
       "id": "viktor-orban--2025-10-27--VAT",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Hungarian PM Viktor Orbán.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -45733,7 +46278,7 @@
       ],
       "startDate": "2025-10-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -45775,21 +46320,25 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2025-11-08",
+      "endDate": "2025-11-07",
       "engagements": [
         "Met President Donald Trump"
       ],
       "eventName": null,
-      "id": "viktor-orban--2025-11-06--USA",
+      "id": "viktor-orban--2025-11-07--USA",
       "officialId": "viktor-orban",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-06",
+      "startDate": "2025-11-07",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -45865,11 +46414,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with Prime Minister of Hungary Viktor Orban",
       "id": "viktor-orban--2025-11-28--RUS",
       "officialId": "viktor-orban",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with Prime Minister of Hungary Viktor Orban",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78577"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -45877,7 +46430,7 @@
       ],
       "startDate": "2025-11-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

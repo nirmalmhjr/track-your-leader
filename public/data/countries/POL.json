@@ -388,7 +388,7 @@
           "url": "https://en.wikipedia.org/wiki/Lech_Wa%C5%82%C4%99sa"
         }
       ],
-      "summary": "Lech Wałęsa (born 29 September 1943) is a Polish statesman, anti-communist dissident and Nobel Peace Prize laureate who served as the president of Poland between 1990 and 1995. After winning the 1990 election, Wałęsa became the first democratically elected president of Poland since 1922 and the first-ever Polish president elected by popular vote.",
+      "summary": "Lech Wałęsa (born 29 September 1943) is a Polish statesman, anticommunist dissident and Nobel Peace Prize laureate who served as the president of Poland between 1990 and 1995. After winning the 1990 election, Wałęsa became the first democratically elected president of Poland since 1922 and the first-ever Polish president elected by popular vote.",
       "wikidataId": "Q444"
     },
     {
@@ -1360,7 +1360,7 @@
       "fullName": "Longin Cegielski",
       "id": "longin-cegielski",
       "party": "United People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Longin_Cegielski_gr%C3%B3b.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -1800,33 +1800,50 @@
       "wikidataId": "Q130496776"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Agnieszka Dziemianowicz-Bak"
+      ],
       "countryCode": "POL",
-      "fullName": "Agnieszka Dziemianowicz-Bak",
-      "id": "agnieszka-dziemianowicz-bak-pol",
-      "party": null,
-      "photoUrl": null,
+      "fullName": "Agnieszka Dziemianowicz-Bąk",
+      "id": "agnieszka-dziemianowicz-bak",
+      "party": "New Left",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Konwencja_-_Magdalena_Biejat_-_54303166834_(Dziemianowicz-B%C4%85k_cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "agnieszka-dziemianowicz-bak-pol-p1",
+          "id": "agnieszka-dziemianowicz-bak-p1",
           "ministry": "Ministry of Family, Labor and Social Policy",
           "portfolio": "labour",
           "startDate": null,
           "title": "Minister of Family, Labor and Social Policy"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2023-11-12",
+          "id": "agnieszka-dziemianowicz-bak-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2019-10-15",
+          "title": "Member of the Sejm"
         }
       ],
       "sources": [
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Agnieszka_Dziemianowicz-B%C4%85k"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Agnieszka Ewa Dziemianowicz-Bąk [aɡˈɲɛʂka d͡ʑɛmjaˈnɔvit͡ʂ bɔŋk] (born 20 January 1984) is a Polish social activist and politician representing the New Left party who has served as the Minister of Family, Labour and Social Policy since 2023. She has been a member of the Sejm since 2019.",
+      "wikidataId": "Q27998784"
     },
     {
       "aliases": [],
@@ -2119,36 +2136,8 @@
       "wikidataId": "Q514863"
     },
     {
-      "aliases": [],
-      "countryCode": "POL",
-      "fullName": "Andrzej Domanski",
-      "id": "andrzej-domanski-pol",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "andrzej-domanski-pol-p1",
-          "ministry": "Ministry of Finance and Economy",
-          "portfolio": "finance",
-          "startDate": null,
-          "title": "Minister of Finance and Economy"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
+        "Andrzej Domanski",
         "Andrzej Jan Domański"
       ],
       "countryCode": "POL",
@@ -2167,12 +2156,23 @@
           "portfolio": "science",
           "startDate": "2025-07-24",
           "title": "Minister of Development and Technology"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "andrzej-domanski-p2",
+          "ministry": "Ministry of Finance and Economy",
+          "portfolio": "finance",
+          "startDate": null,
+          "title": "Minister of Finance and Economy"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q123107527"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
         },
         {
           "label": "Wikipedia",
@@ -2564,7 +2564,7 @@
       "fullName": "Andrzej Zakrzewski",
       "id": "andrzej-zakrzewski",
       "party": "Solidarity Electoral Action",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrzej_Zakrzewski_-_gr%C3%B3b.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2764,7 +2764,7 @@
       "fullName": "Antoni Rajkiewicz",
       "id": "antoni-rajkiewicz",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Antoni_Rajkiewicz_gr%C3%B3b.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3133,30 +3133,45 @@
       "aliases": [],
       "countryCode": "POL",
       "fullName": "Dariusz Klimczak",
-      "id": "dariusz-klimczak-pol",
-      "party": null,
-      "photoUrl": null,
+      "id": "dariusz-klimczak",
+      "party": "Polish People's Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dariusz_Klimczak_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "dariusz-klimczak-pol-p1",
+          "id": "dariusz-klimczak-p1",
           "ministry": "Ministry of Infrastructure",
           "portfolio": null,
           "startDate": null,
           "title": "Minister of Infrastructure"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2023-11-12",
+          "id": "dariusz-klimczak-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2019-11-12",
+          "title": "Member of the Sejm"
         }
       ],
       "sources": [
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dariusz_Klimczak"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Dariusz Klimczak (born 17 June 1980) is a Polish politician who has been serving as Minister of Infrastructure under Prime Minister Donald Tusk in his third cabinet since 13 December 2023. He has also been the vice president of the Polish People's Party since 2015, and a member of the Sejm since 2019.",
+      "wikidataId": "Q16538939"
     },
     {
       "aliases": [
@@ -4272,7 +4287,7 @@
       "fullName": "Jan Mietkowski",
       "id": "jan-mietkowski",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_Mietkowski_gr%C3%B3b.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -4301,7 +4316,7 @@
       "fullName": "Jan Piątkowski",
       "id": "jan-piatkowski",
       "party": "Christian National Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%B3b_Jana_Pi%C4%85tkowskiego_na_cmentarzu_Ducha_%C5%9Awi%C4%99tego_we_Wroc%C5%82awiu.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4671,7 +4686,7 @@
       "fullName": "Janusz Wilhelmi",
       "id": "janusz-wilhelmi",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagrobek_janusz_wilhelmi.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -5238,36 +5253,9 @@
       "wikidataId": "Q11727556"
     },
     {
-      "aliases": [],
-      "countryCode": "POL",
-      "fullName": "Jolanta Sobieranska-Grenda",
-      "id": "jolanta-sobieranska-grenda-pol",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "jolanta-sobieranska-grenda-pol-p1",
-          "ministry": "Ministry of Health",
-          "portfolio": "health",
-          "startDate": null,
-          "title": "Minister of Health"
-        }
+      "aliases": [
+        "Jolanta Sobieranska-Grenda"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "POL",
       "fullName": "Jolanta Sobierańska-Grenda",
       "id": "jolanta-sobieranska-grenda",
@@ -5288,8 +5276,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q135442541"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
         },
         {
           "label": "Wikipedia",
@@ -6257,7 +6245,7 @@
       "fullName": "Łukasz Balcer",
       "id": "ukasz-balcer",
       "party": "Democratic Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%81ukasz_Balcer.png?width=160",
       "positions": [
         {
           "categories": [
@@ -6505,36 +6493,8 @@
       "wikidataId": "Q11772344"
     },
     {
-      "aliases": [],
-      "countryCode": "POL",
-      "fullName": "Marcin Kierwinski",
-      "id": "marcin-kierwinski-pol",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "marcin-kierwinski-pol-p1",
-          "ministry": "Ministry of the Interior and Administration",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of the Interior and Administration"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
+        "Marcin Kierwinski",
         "Marcin Piotr Kierwiński"
       ],
       "countryCode": "POL",
@@ -6549,6 +6509,17 @@
           ],
           "endDate": null,
           "id": "marcin-kierwinski-p1",
+          "ministry": "Ministry of the Interior and Administration",
+          "portfolio": "home_affairs",
+          "startDate": null,
+          "title": "Minister of the Interior and Administration"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "marcin-kierwinski-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "2024-09-26",
@@ -6559,7 +6530,7 @@
             "minister"
           ],
           "endDate": "2024-05-13",
-          "id": "marcin-kierwinski-p2",
+          "id": "marcin-kierwinski-p3",
           "ministry": "Ministry of the Interior and Administration of Poland",
           "portfolio": "home_affairs",
           "startDate": "2023-12-13",
@@ -6570,7 +6541,7 @@
             "legislator"
           ],
           "endDate": "2024-01-01",
-          "id": "marcin-kierwinski-p3",
+          "id": "marcin-kierwinski-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2011-01-01",
@@ -6579,8 +6550,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q11767619"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
         },
         {
           "label": "Wikipedia",
@@ -6700,7 +6671,7 @@
       "fullName": "Marek Rostworowski",
       "id": "marek-rostworowski",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tablica_Marka_Rostworowskiego.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6833,7 +6804,7 @@
       "fullName": "Marian Rybicki",
       "id": "marian-rybicki",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marian_Rybicki_gr%C3%B3b.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -7185,7 +7156,7 @@
       "fullName": "Michał Krukowski",
       "id": "micha-krukowski",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Micha%C5%82_Krukowski_gr%C3%B3b.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -7860,7 +7831,7 @@
       "fullName": "Robert Głębocki",
       "id": "robert-g-ebocki",
       "party": "Liberal Democratic Congress",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Glebocki.png?width=160",
       "positions": [
         {
           "categories": [
@@ -8308,7 +8279,7 @@
       "fullName": "Stanisław Zawadzki",
       "id": "stanis-aw-zawadzki",
       "party": "Polish Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagrobek_stanislaw_zawadzki.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -8338,7 +8309,7 @@
       "fullName": "Stefan Dybowski",
       "id": "stefan-dybowski",
       "party": "United People's Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grob_Stefana_Dybowskiego.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -8369,16 +8340,16 @@
       "aliases": [],
       "countryCode": "POL",
       "fullName": "Stefan Krajewski",
-      "id": "stefan-krajewski-pol",
-      "party": null,
-      "photoUrl": null,
+      "id": "stefan-krajewski",
+      "party": "Democratic Left Alliance",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stefan_Krajewski_2019.jpg?width=160",
       "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "stefan-krajewski-pol-p1",
+          "id": "stefan-krajewski-p1",
           "ministry": "Ministry of Agriculture and Rural Development",
           "portfolio": "agriculture",
           "startDate": null,
@@ -8391,8 +8362,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Polish economist.",
+      "wikidataId": "Q9345118"
     },
     {
       "aliases": [],
@@ -8466,7 +8437,7 @@
       "fullName": "Tadeusz Galiński",
       "id": "tadeusz-galinski",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tadeusz_Gali%C5%84ski_(gr%C3%B3b)_01.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -8740,7 +8711,7 @@
       "fullName": "Wacław Tułodziecki",
       "id": "wac-aw-tu-odziecki",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nagrobek_waclaw_tulodziecki.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -8915,10 +8886,13 @@
       "wikidataId": "Q55928"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Waldemar Witold Żurek",
+        "Waldemar Zurek"
+      ],
       "countryCode": "POL",
-      "fullName": "Waldemar Zurek",
-      "id": "waldemar-zurek-pol",
+      "fullName": "Waldemar Żurek",
+      "id": "waldemar-zurek",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -8927,7 +8901,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "waldemar-zurek-pol-p1",
+          "id": "waldemar-zurek-p1",
           "ministry": "Ministry of Justice",
           "portfolio": "justice",
           "startDate": null,
@@ -8940,8 +8914,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/poland/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Church historian, priest (1954-).",
+      "wikidataId": "Q135479526"
     },
     {
       "aliases": [
@@ -8949,7 +8923,7 @@
       ],
       "countryCode": "POL",
       "fullName": "Waldemar Żurek",
-      "id": "waldemar-zurek",
+      "id": "waldemar-zurek-pol",
       "party": null,
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Waldemar_%C5%BBurek_KPRM_(cropped).jpg?width=160",
       "positions": [
@@ -8958,7 +8932,7 @@
             "minister"
           ],
           "endDate": null,
-          "id": "waldemar-zurek-p1",
+          "id": "waldemar-zurek-pol-p1",
           "ministry": "Ministry of Justice",
           "portfolio": "justice",
           "startDate": "2025-07-24",
@@ -9036,7 +9010,7 @@
       "fullName": "Wiktor Trojanowski",
       "id": "wiktor-trojanowski",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wiktor_Trojanowski_grave.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -9066,7 +9040,7 @@
       "fullName": "Wincenty Kawalec",
       "id": "wincenty-kawalec",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wincenty_Kawalec_3.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -9403,7 +9377,7 @@
       "fullName": "Włodzimierz Berutowicz",
       "id": "w-odzimierz-berutowicz",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/W%C5%82odzimierz_Berutowicz_-_gr%C3%B3b.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -9838,7 +9812,7 @@
       "fullName": "Zofia Wasilkowska",
       "id": "zofia-wasilkowska",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan_i_Zofia_Wasilkowscy_gr%C3%B3b.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -9871,7 +9845,7 @@
       "fullName": "Zygmunt Najdowski",
       "id": "zygmunt-najdowski",
       "party": "Polish United Workers' Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grob_Zygmunta_Najdowskiego.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -14414,6 +14388,50 @@
     {
       "aliases": [],
       "countryCode": "POL",
+      "fullName": "Tomasz Grodzki",
+      "id": "tomasz-grodzki",
+      "party": "Civic Platform",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomasz_Grodzki_Kancelaria_Senatu_2015.jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2023-10-01",
+          "id": "tomasz-grodzki-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2019-11-12",
+          "title": "Marshal of the Senate of the Republic of Poland"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2023-10-01",
+          "id": "tomasz-grodzki-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2019-11-12",
+          "title": "Member of the Senate of the Republic of Poland"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q9359315"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tomasz_Grodzki"
+        }
+      ],
+      "summary": "Tomasz Paweł Grodzki is a Polish politician, doctor and surgeon. He has served as Marshal of the Senate from 2019 to 2023 defeating Stanisław Karczewski with a majority of 51 votes from the Senate.",
+      "wikidataId": "Q9359315"
+    },
+    {
+      "aliases": [],
+      "countryCode": "POL",
       "fullName": "Wiesław Chrzanowski",
       "id": "wies-aw-chrzanowski",
       "party": "Christian National Union",
@@ -14678,7 +14696,7 @@
       "fullName": "Zbigniew Dyka",
       "id": "zbigniew-dyka",
       "party": "Christian National Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%B3b_Zygmunta_Dyki_na_cmentarzu_Rakowickim_w_Krakowie.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -15052,6 +15070,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1996-07-09",
@@ -15135,11 +15157,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1999-04-23",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-07-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-kwasniewski--2000-07-10--RUS",
+      "officialId": "aleksander-kwasniewski",
+      "purpose": "President Vladimir Putin met with Polish President Alexander Kwasniewski",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/38286"
+        }
+      ],
+      "startDate": "2000-07-10",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "year",
@@ -15256,6 +15310,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2002-06-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-kwasniewski--2002-06-06--RUS",
+      "officialId": "aleksander-kwasniewski",
+      "purpose": "President Vladimir Putin met with Polish President Aleksander Kwasniewski",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/27112"
+        }
+      ],
+      "startDate": "2002-06-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -15275,9 +15357,41 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2002-07-17",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2002-10-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-kwasniewski--2002-10-02--MKD",
+      "officialId": "aleksander-kwasniewski",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
+        }
+      ],
+      "startDate": "2002-10-02",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -15359,11 +15473,71 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2003-01-12",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-06-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-kwasniewski--2003-06-28--RUS",
+      "officialId": "aleksander-kwasniewski",
+      "purpose": "Vladimir Putin met with Polish President Alexander Kwasniewski",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/28933"
+        }
+      ],
+      "startDate": "2003-06-28",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2003-09-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-kwasniewski--2003-09-16--NOR",
+      "officialId": "aleksander-kwasniewski",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "2003-09-16",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",
@@ -15443,6 +15617,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2004-01-26",
@@ -15476,6 +15654,34 @@
       "startDate": "2004-05-05",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Paris",
+        "coordinates": [
+          2.3522,
+          48.8566
+        ],
+        "countryCode": "FRA",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2004-06-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "aleksander-kwasniewski--2004-06-06--FRA",
+      "officialId": "aleksander-kwasniewski",
+      "purpose": "President Vladimir Putin met with Polish President Alexander Kwasniewski",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/31101"
+        }
+      ],
+      "startDate": "2004-06-06",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15527,6 +15733,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2005-02-08",
@@ -15555,6 +15765,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2005-10-12",
@@ -15849,7 +16063,7 @@
       "eventName": null,
       "id": "andrzej-duda--2015-11-08--VAT",
       "officialId": "andrzej-duda",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Poland’s President Duda to discuss the Church’s role in society, World Youth Day 2016, family support, aid for the needy,…",
       "sources": [
         {
           "label": "Wikipedia",
@@ -16213,7 +16427,7 @@
       ],
       "startDate": "2016-05-22",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16545,8 +16759,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -16684,6 +16898,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2017-01-19",
@@ -16726,6 +16941,34 @@
         }
       ],
       "startDate": "2017-02-17",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2017-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "andrzej-duda--2017-03-24--VAT",
+      "officialId": "andrzej-duda",
+      "purpose": "Pope Francis received EU leaders and their delegations in the Apostolic Palace to mark the 60th anniversary of the Treaties of Rome, highli…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2017-03-24",
       "statusHint": null,
       "type": "other"
     },
@@ -17698,7 +17941,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Andrzej_Duda"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2018-09-17",
@@ -17826,11 +18069,14 @@
         "region": "Europe"
       },
       "endDate": "2018-10-16",
-      "engagements": [],
+      "engagements": [
+        "Talks marked 40 years since St.",
+        "John Paul II’s election, stressing Christian values, family, hospitality, EU role, Ukraine, migration, and climate issues."
+      ],
       "eventName": null,
       "id": "andrzej-duda--2018-10-15--VAT",
       "officialId": "andrzej-duda",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Polish President Andrzej Duda.",
       "sources": [
         {
           "label": "Wikipedia",
@@ -17839,7 +18085,7 @@
       ],
       "startDate": "2018-10-15",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17908,10 +18154,10 @@
       },
       "endDate": "2018-12-05",
       "engagements": [],
-      "eventName": null,
+      "eventName": "funeral of Former President Bush",
       "id": "andrzej-duda--2018-12-05--USA",
       "officialId": "andrzej-duda",
-      "purpose": "Visit to United States",
+      "purpose": "Attended the funeral of Former President Bush",
       "sources": [
         {
           "label": "Wikipedia",
@@ -18216,7 +18462,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Andrzej_Duda"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2019-06-11",
@@ -18619,12 +18865,12 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2020-09-24",
+      "endDate": "2020-09-25",
       "engagements": [],
       "eventName": null,
       "id": "andrzej-duda--2020-09-23--VAT",
       "officialId": "andrzej-duda",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Poland’s President Andrzej Duda to discuss Saint John Paul II, Solidarność, family and youth education, and international…",
       "sources": [
         {
           "label": "Wikipedia",
@@ -19227,7 +19473,7 @@
       ],
       "startDate": "2021-11-18",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19651,7 +19897,7 @@
       "eventName": null,
       "id": "andrzej-duda--2022-03-31--VAT",
       "officialId": "andrzej-duda",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Polish President Andrzej Duda to discuss the Ukraine conflict, European security and peace, and the humanitarian situation…",
       "sources": [
         {
           "label": "Wikipedia",
@@ -20043,12 +20289,13 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Marijampolė",
+        "city": "Vilnius",
         "coordinates": [
-          23.354444444,
-          54.556666666
+          25.28,
+          54.687222222
         ],
         "countryCode": "LTU",
+        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2022-07-07",
@@ -21313,6 +21560,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2024-03-12",
@@ -21788,6 +22039,62 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-07-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "andrzej-duda--2025-07-03--VAT",
+      "officialId": "andrzej-duda",
+      "purpose": "Pope Leo XIV met Polish President Duda to discuss strong bilateral relations, Poland's political situation, and international concerns, wit…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-07-03",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-05-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "beata-szyd-o--2016-05-13--VAT",
+      "officialId": "beata-szyd-o",
+      "purpose": "Pope Francis met Polish PM Beata Szydło to discuss Church contributions, his upcoming visit for World Youth Day, family support, refugee re…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-05-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Ottawa",
@@ -21864,6 +22171,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2010-12-08",
@@ -21897,6 +22208,34 @@
       "startDate": "2011-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2011-04-11",
+      "engagements": [],
+      "eventName": "Meeting with President of Poland Bronislaw Komorowski",
+      "id": "bronis-aw-komorowski--2011-04-11--RUS",
+      "officialId": "bronis-aw-komorowski",
+      "purpose": "Meeting with President of Poland Bronislaw Komorowski",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/10907"
+        }
+      ],
+      "startDate": "2011-04-11",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21950,7 +22289,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Chicago_NATO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2012-05-20",
@@ -21987,6 +22326,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2013-09-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "bronis-aw-komorowski--2013-09-10--MKD",
+      "officialId": "bronis-aw-komorowski",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        }
+      ],
+      "startDate": "2013-09-10",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -22010,6 +22377,34 @@
       "startDate": "2013-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-04-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "bronis-aw-komorowski--2014-04-26--VAT",
+      "officialId": "bronis-aw-komorowski",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-04-26",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -22125,6 +22520,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-12-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2007-12-19--IRQ",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to Iraq",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        }
+      ],
+      "startDate": "2007-12-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Madrid",
@@ -22183,6 +22606,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2008-02-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2008-02-08--RUS",
+      "officialId": "donald-tusk",
+      "purpose": "President Vladimir Putin met with Polish Prime Minister Donald Tusk",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43774"
+        }
+      ],
+      "startDate": "2008-02-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington, D.C.",
         "coordinates": [
           -77.036666666,
@@ -22204,7 +22655,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Donald_Tusk"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2008-03-09",
@@ -22349,6 +22800,230 @@
         }
       ],
       "startDate": "2013-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-05-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2014-05-19--VAT",
+      "officialId": "donald-tusk",
+      "purpose": "Pope Francis met Poland’s PM Tusk, discussing John Paul II’s canonization, the 2016 World Youth Day visit, Poland’s social and economic sit…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2014-05-19",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Zagreb",
+        "coordinates": [
+          15.977222222,
+          45.813055555
+        ],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-09-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2015-09-01--HRV",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to Croatia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        }
+      ],
+      "startDate": "2015-09-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Zagreb",
+        "coordinates": [
+          15.977222222,
+          45.813055555
+        ],
+        "countryCode": "HRV",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-11-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2015-11-25--HRV",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to Croatia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        }
+      ],
+      "startDate": "2015-11-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2016-05-06--VAT",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-05-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2017-11-13--PHL",
+      "officialId": "donald-tusk",
+      "purpose": "Attended the 31st ASEAN Summit and the Twelfth East Asia Summit in Pasay",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2017-11-13",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Skopje",
+        "coordinates": [
+          21.431666666,
+          41.996111111
+        ],
+        "countryCode": "MKD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-04-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2018-04-27--MKD",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to North Macedonia",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Gjorge_Ivanov"
+        }
+      ],
+      "startDate": "2018-04-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tashkent",
+        "coordinates": [
+          69.279722222,
+          41.311111111
+        ],
+        "countryCode": "UZB",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-06-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2019-05-31--UZB",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to Uzbekistan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        }
+      ],
+      "startDate": "2019-05-31",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2019-10-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "donald-tusk--2019-10-05--VAT",
+      "officialId": "donald-tusk",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2019-10-05",
       "statusHint": null,
       "type": "other"
     },
@@ -24226,7 +24901,8 @@
       },
       "endDate": "2026-05-07",
       "engagements": [
-        "The situation in the Middle East and the war in Ukraine were discussed."
+        "The situation in the Middle East and the war in Ukraine were discussed.",
+        "They also discussed the social and economic condition of Poland, and the relations between the local Church and the state, especially in regard to education and ethical issues."
       ],
       "eventName": null,
       "id": "donald-tusk--2026-05-07--VAT",
@@ -24553,6 +25229,36 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2015-06-12",
+      "engagements": [
+        "Talks covered preparations for World Youth Day 2016, the Church's role in Poland, ethical issues, and the situation in Ukraine."
+      ],
+      "eventName": null,
+      "id": "ewa-kopacz--2015-06-12--VAT",
+      "officialId": "ewa-kopacz",
+      "purpose": "On 12 June 2015, Pope Francis met Polish PM Ewa Kopacz.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2015-06-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -24712,9 +25418,41 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1991-09-11",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-04-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "jan-krzysztof-bielecki--1992-04-13--USA",
+      "officialId": "jan-krzysztof-bielecki",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "1992-04-13",
       "statusHint": null,
       "type": "diplomatic_visit"
     },
@@ -24843,16 +25581,16 @@
       "eventName": null,
       "id": "jaros-aw-kaczynski--2006-09-13--USA",
       "officialId": "jaros-aw-kaczynski",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Jaros%C5%82aw_Kaczy%C5%84ski"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2006-09-13",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -25366,6 +26104,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1998-07-08",
@@ -25394,6 +26136,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1999-04-23",
@@ -26605,6 +27351,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2006-02-08",
@@ -26661,6 +27411,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2007-07-15",
@@ -26798,6 +27552,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1991-03-19",
@@ -26854,6 +27612,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1993-04-20",
@@ -26887,6 +27649,34 @@
       "startDate": "1994-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Amsterdam",
+        "coordinates": [
+          4.883333333,
+          52.366666666
+        ],
+        "countryCode": "NLD",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1994-10-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "lech-wa-esa--1994-10-04--NLD",
+      "officialId": "lech-wa-esa",
+      "purpose": "Visit to Netherlands",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Beatrix_der_Nederlanden"
+        }
+      ],
+      "startDate": "1994-10-04",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -26945,6 +27735,62 @@
       "type": "other"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Copenhagen",
+        "coordinates": [
+          12.568888888,
+          55.676111111
+        ],
+        "countryCode": "DNK",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "lech-wa-esa--1995-01-01--DNK",
+      "officialId": "lech-wa-esa",
+      "purpose": "Visit to Denmark",
+      "sources": [
+        {
+          "label": "Danish Royal House",
+          "url": "https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog"
+        }
+      ],
+      "startDate": "1995-01-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Oslo",
+        "coordinates": [
+          10.738888888,
+          59.913333333
+        ],
+        "countryCode": "NOR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1995-03-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "lech-wa-esa--1995-03-14--NOR",
+      "officialId": "lech-wa-esa",
+      "purpose": "Visit to Norway",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        }
+      ],
+      "startDate": "1995-03-14",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Stockholm",
@@ -26965,12 +27811,40 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+          "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
         }
       ],
       "startDate": "1995-03-29",
       "statusHint": null,
       "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2001-12-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "leszek-miller--2001-12-20--RUS",
+      "officialId": "leszek-miller",
+      "purpose": "President Vladimir Putin met with Polish Prime Minister Leszek Miller",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/26905"
+        }
+      ],
+      "startDate": "2001-12-20",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -26994,6 +27868,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2002-01-10",
@@ -27106,6 +27984,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2003-02-04",
@@ -27192,6 +28074,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "2004-08-07",
@@ -27225,6 +28111,34 @@
       "startDate": "2005-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2005-07-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "marek-belka--2005-07-06--PHL",
+      "officialId": "marek-belka",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2005-07-06",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "year",
@@ -27655,7 +28569,8 @@
       },
       "endDate": "2018-06-04",
       "engagements": [
-        "Talks praised strong ties, Church–State collaboration, family and environmental issues, ethical matters, and Poland's support for refugees."
+        "Talks praised strong ties, Church–State collaboration, family and environmental issues, ethical matters, and Poland's support for refugees.",
+        "Talks praised strong ties, Church–State collaboration, family and environmental issues, ethical matters, and Poland’s support for refugees."
       ],
       "eventName": null,
       "id": "mateusz-morawiecki--2018-06-04--VAT",
@@ -28069,6 +28984,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2023-04-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "mateusz-morawiecki--2023-04-11--USA",
+      "officialId": "mateusz-morawiecki",
+      "purpose": "Went to Washington, D.C.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        }
+      ],
+      "startDate": "2023-04-11",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Nairobi",
@@ -28117,12 +29060,12 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Iran%E2%80%93Poland_relations"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         }
       ],
       "startDate": "1974-01-01",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",
@@ -28209,6 +29152,37 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Colombo",
+        "coordinates": [
+          79.8612,
+          6.9271
+        ],
+        "countryCode": "LKA",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-05-31",
+      "engagements": [
+        "Radosław Sikorski representing Kaja Kallas, the vice-president of the European Commission and high representative of the union for foreign affairs and security policy.",
+        "The visit also coincides with Poland's current presidency of the council of the European Union."
+      ],
+      "eventName": null,
+      "id": "rados-aw-sikorski--2025-05-28--LKA",
+      "officialId": "rados-aw-sikorski",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Anura_Kumara_Dissanayake"
+        }
+      ],
+      "startDate": "2025-05-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Ottawa",
@@ -28286,6 +29260,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1990-03-20",
@@ -28314,11 +29292,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         }
       ],
       "startDate": "1990-09-29",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-01-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "tomasz-grodzki--2022-01-08--VAT",
+      "officialId": "tomasz-grodzki",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-01-08",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "year",
@@ -28542,6 +29552,34 @@
       "startDate": "2017-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tokyo",
+        "coordinates": [
+          139.6917,
+          35.6895
+        ],
+        "countryCode": "JPN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1987-07-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "wojciech-jaruzelski--1987-06-28--JPN",
+      "officialId": "wojciech-jaruzelski",
+      "purpose": "Visit to Japan",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Hirohito"
+        }
+      ],
+      "startDate": "1987-06-28",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",

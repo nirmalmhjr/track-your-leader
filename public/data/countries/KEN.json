@@ -2410,7 +2410,7 @@
       "fullName": "Jeremiah J.M. Nyagah",
       "id": "jeremiah-j-m-nyagah",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Khasakhala_005.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4203,7 +4203,7 @@
       "fullName": "Wilfrid Havelock",
       "id": "wilfrid-havelock",
       "party": "New Kenya Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wilfrid_Havelock%2C_1963_(cropped).tif?width=160",
       "positions": [
         {
           "categories": [
@@ -4661,7 +4661,7 @@
       "fullName": "Hanna Wendot Cheptumo",
       "id": "hanna-wendot-cheptumo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanna_Wendot_Cheptumo_official_portrait.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4752,7 +4752,7 @@
       "fullName": "James Opiyo Wandayi",
       "id": "james-opiyo-wandayi",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabinet_Secretary_of_Energy_James_Opiyo_Wandayi.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5494,18 +5494,6 @@
           "portfolio": "finance",
           "startDate": "2006-02-01",
           "title": "Minister for Finance of Kenya"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "amos-kimunya-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2017-08-31",
-          "title": "Member of the National Assembly",
-          "undated": true
         }
       ],
       "sources": [
@@ -6306,7 +6294,7 @@
       "fullName": "Francis Masakhalia",
       "id": "francis-masakhalia",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis_Masakhalia.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -7952,6 +7940,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1980-02-19",
@@ -7980,6 +7972,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1981-09-24",
@@ -8039,6 +8035,34 @@
         }
       ],
       "startDate": "1987-03-11",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1987-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-arap-moi--1987-05-11--USA",
+      "officialId": "daniel-arap-moi",
+      "purpose": "Official working visit. Also visited New York City on March 14.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1987-05-11",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -8801,6 +8825,34 @@
       "startDate": "1992-09-01",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1993-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-arap-moi--1993-01-01--IND",
+      "officialId": "daniel-arap-moi",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "1993-01-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -12153,6 +12205,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12245,6 +12301,34 @@
       "startDate": "2014-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1965-01-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "jomo-kenyatta--1965-01-21--IND",
+      "officialId": "jomo-kenyatta",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "1965-01-21",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "year",
@@ -12641,6 +12725,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -14827,7 +14915,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -17054,6 +17142,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -17467,7 +17559,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2015-04-20",
@@ -17925,7 +18017,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -18182,6 +18274,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2016-02-25",
@@ -19669,7 +19762,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -20709,11 +20802,15 @@
         "President Uhuru Kenyatta attended the first Russia Africa summit in Sochi along with 43 other heads of states or governments from Africa.",
         "Met President Vladimir Putin"
       ],
-      "eventName": "First Russia-Africa Summit",
-      "id": "uhuru-kenyatta--2019-10-23--RUS",
+      "eventName": "Meeting with President of Kenya Uhuru Kenyatta",
+      "id": "uhuru-kenyatta--2019-10-24--RUS",
       "officialId": "uhuru-kenyatta",
-      "purpose": "First Russia-Africa Summit",
+      "purpose": "Meeting with President of Kenya Uhuru Kenyatta",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61899"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
@@ -20723,9 +20820,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-10-23",
+      "startDate": "2019-10-24",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20917,11 +21014,11 @@
       "eventName": null,
       "id": "uhuru-kenyatta--2020-11-06--VAT",
       "officialId": "uhuru-kenyatta",
-      "purpose": "State Visit",
+      "purpose": "Pope Francis met Kenya’s President Uhuru Kenyatta to discuss bilateral ties, the Church’s role in education and healthcare, the pandemic, c…",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
         },
         {
           "label": "COLT dataset",
@@ -20930,7 +21027,7 @@
       ],
       "startDate": "2020-11-06",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -21483,7 +21580,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -22079,7 +22176,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_William_Ruto"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -22754,6 +22851,7 @@
           31.776679
         ],
         "countryCode": "ISR",
+        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-05-10",
@@ -23536,7 +23634,7 @@
       "endDate": "2023-12-06",
       "engagements": [
         "Ruto made a state visit to India.",
-        "Met Prime Minister Narendra Modi"
+        "First visit by President Ruto to India, and the first Presidential visit from Kenya in more than 6 years."
       ],
       "eventName": null,
       "id": "william-ruto--2023-12-04--IND",

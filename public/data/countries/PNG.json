@@ -505,7 +505,7 @@
       "fullName": "Leo Dion",
       "id": "leo-dion",
       "party": "National Alliance Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deputy_Prime_Minister_of_Papua_New_Guinea%2C_Mr._Leo_Dion_April_28%2C_2016_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -549,7 +549,7 @@
       "fullName": "Patrick Nisira",
       "id": "patrick-nisira",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick_Nisira_at_Law_and_Justice_Centre.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -963,7 +963,7 @@
       "fullName": "Belden Namah",
       "id": "belden-namah",
       "party": "Papua New Guinea Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Belden_Namah_at_Papua_New_Guinea_Repatriation_Ceremony.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3187,8 +3187,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2022-08-01",
+          "endDate": null,
           "id": "saki-soloma-p1",
+          "ministry": "Ministry of Labor and Employment",
+          "portfolio": "labour",
+          "startDate": null,
+          "title": "Minister for Labor and Employment"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2022-08-01",
+          "id": "saki-soloma-p2",
           "ministry": "Ministry of Energy",
           "portfolio": "energy",
           "startDate": "2020-12-20",
@@ -3199,7 +3210,7 @@
             "minister"
           ],
           "endDate": "2020-12-19",
-          "id": "saki-soloma-p2",
+          "id": "saki-soloma-p3",
           "ministry": "Ministry of Defence",
           "portfolio": "defence",
           "startDate": "2019-06-07",
@@ -3212,41 +3223,16 @@
           "url": "https://www.wikidata.org/wiki/Q113172045"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/papua-new-guinea/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Saki_Soloma"
         }
       ],
       "summary": "Saki Hacky Soloma is a Papua New Guinean politician who serves as the Minister of Energy for Papua New Guinea from December 2020 to August 2022. He previously served as the Minister for Correctional Services from 16 November 2020 until 19 December 2020 and as the Minister for the Papua New Guinea Defence Force from June 2019 to December 2020.",
       "wikidataId": "Q113172045"
-    },
-    {
-      "aliases": [],
-      "countryCode": "PNG",
-      "fullName": "Saki Soloma",
-      "id": "saki-soloma-png",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "saki-soloma-png-p1",
-          "ministry": "Ministry of Labor and Employment",
-          "portfolio": "labour",
-          "startDate": null,
-          "title": "Minister for Labor and Employment"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/papua-new-guinea/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -4916,7 +4902,7 @@
       "fullName": "Moi Avei",
       "id": "moi-avei",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ACP-EC_Council%2C_20th_meeting%2C_Mauritius_-_Moi_Avei_statement_before_agreement.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6839,6 +6825,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         }
       ],
       "startDate": "2022-09-28",
@@ -7138,6 +7128,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         }
       ],
       "startDate": "2023-09-25",
@@ -11729,21 +11723,25 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2009-03-31",
+      "endDate": "2009-04-01",
       "engagements": [
         "Met President Gloria Macapagal Arroyo"
       ],
       "eventName": null,
-      "id": "michael-somare--2009-03-28--PHL",
+      "id": "michael-somare--2009-03-29--PHL",
       "officialId": "michael-somare",
-      "purpose": "Visit to Philippines",
+      "purpose": "Official visit; visited Boracay, Aklan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-03-28",
+      "startDate": "2009-03-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -13017,7 +13015,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2011"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         },
         {
           "label": "COLT dataset",
@@ -14095,7 +14093,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_2015"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         },
         {
           "label": "COLT dataset",
@@ -14728,15 +14726,19 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-05-18",
+      "endDate": "2018-05-17",
       "engagements": [
         "Met President Rodrigo Duterte"
       ],
       "eventName": null,
       "id": "peter-o-neill--2018-05-15--PHL",
       "officialId": "peter-o-neill",
-      "purpose": "Visit to Philippines",
+      "purpose": "Official visit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -15008,6 +15010,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15124,6 +15130,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         },
         {
           "label": "COLT dataset",

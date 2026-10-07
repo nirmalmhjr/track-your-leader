@@ -137,7 +137,7 @@
       "fullName": "Horta Inta-A Na Man",
       "id": "horta-inta-a-na-man",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Tchad_c%C3%A9l%C3%A8bre_ce_mardi_11_ao%C3%BBt_2026_le_66%E1%B5%89_anniversaire_101_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4354,7 +4354,7 @@
       "fullName": "Manuel dos Santos 'Manecas'",
       "id": "manuel-dos-santos-manecas",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ASC_Leiden_-_Coutinho_Collection_-_10_12_-_Amilcar_Cabral%E2%80%99s_daughter_at_Chico_Mendes'_marriage_in_Ziguinchor%2C_Senegal_-_1973.tiff?width=160",
       "positions": [
         {
           "categories": [
@@ -5177,7 +5177,7 @@
       "fullName": "Vasco Cabral",
       "id": "vasco-cabral",
       "party": "African Party for the Independence of Guinea and Cape Verde",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vasco_Cabral%2C_1975_(cropped).png?width=160",
       "positions": [
         {
           "categories": [
@@ -9406,6 +9406,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12367,6 +12371,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "year",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1979-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "luis-cabral--1979-01-01--IND",
+      "officialId": "luis-cabral",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "1979-01-01",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Dakar",
@@ -13807,6 +13839,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1995-10-19",
@@ -13889,7 +13925,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",
@@ -14125,6 +14161,34 @@
       "startDate": "2013-07-18",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-08-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "manuel-serifo-nhamadjo--2013-08-04--IRN",
+      "officialId": "manuel-serifo-nhamadjo",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2013-08-04",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -17338,11 +17402,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of the Republic of Guinea-Bissau Umaro Sissoco Embalo",
       "id": "umaro-sissoco-embalo--2022-10-25--RUS",
       "officialId": "umaro-sissoco-embalo",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of the Republic of Guinea-Bissau Umaro Sissoco Embalo",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69675"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17350,7 +17418,7 @@
       ],
       "startDate": "2022-10-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18622,36 +18690,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2023-07-29",
-      "engagements": [
-        "Met President Vladimir Putin"
-      ],
-      "eventName": "Russia-Africa Summit",
-      "id": "umaro-sissoco-embalo--2023-07-26--RUS",
-      "officialId": "umaro-sissoco-embalo",
-      "purpose": "Attended Russia-Africa Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-07-26",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Abuja",
         "coordinates": [
           7.3986,
@@ -18676,6 +18714,40 @@
       "startDate": "2023-07-29",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-07-29",
+      "engagements": [
+        "Met President Vladimir Putin"
+      ],
+      "eventName": "Meeting with President of Guinea-Bissau Umaro Sissoco Embalo",
+      "id": "umaro-sissoco-embalo--2023-07-29--RUS",
+      "officialId": "umaro-sissoco-embalo",
+      "purpose": "Meeting with President of Guinea-Bissau Umaro Sissoco Embalo",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71840"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2023-07-29",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19245,8 +19317,12 @@
       "eventName": null,
       "id": "umaro-sissoco-embalo--2024-01-29--VAT",
       "officialId": "umaro-sissoco-embalo",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Guinea-Bissau President Umaro Sissoco Embaló, highlighting strong bilateral ties, discussing the country’s social situatio…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19254,7 +19330,7 @@
       ],
       "startDate": "2024-01-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -21703,13 +21779,18 @@
       },
       "endDate": "2025-09-29",
       "engagements": [
+        "Talks with Cardinal Parolin stressed good ties, Church's role in education/health, and global/social issues.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
       "id": "umaro-sissoco-embalo--2025-09-29--VAT",
       "officialId": "umaro-sissoco-embalo",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Guinea-Bissau's President Embaló.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21717,7 +21798,7 @@
       ],
       "startDate": "2025-09-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

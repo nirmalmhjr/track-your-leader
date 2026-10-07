@@ -691,7 +691,7 @@
       "fullName": "Darren Henfield",
       "id": "darren-henfield",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Secretary_Pompeo_Meets_With_Bahamian_Foreign_Minister_Henfield_(48325157062)_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3410,6 +3410,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -3472,6 +3476,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -3954,6 +3962,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4044,6 +4056,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -4532,6 +4548,34 @@
       "startDate": "2012-04-14",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2019-03-22",
+      "engagements": [],
+      "eventName": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
+      "id": "hubert-ingraham--2019-03-22--USA",
+      "officialId": "hubert-ingraham",
+      "purpose": "Caribbean Leaders Conference at Mar-a-Lago, Florida.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "2019-03-22",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -5214,6 +5258,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1977-09-06",
@@ -5554,6 +5602,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -6057,8 +6109,12 @@
       "eventName": null,
       "id": "perry-christie--2013-11-18--VAT",
       "officialId": "perry-christie",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bahamian PM Christie, discussing migration, the Church’s role in welfare and education, and hopes for stronger collaborati…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7806,8 +7862,12 @@
       "eventName": null,
       "id": "philip-brave-davis--2023-10-14--VAT",
       "officialId": "philip-brave-davis",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Bahamas Prime Minister Philip Davis, praising strong bilateral ties and discussing regional issues, including climate chan…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7815,7 +7875,7 @@
       ],
       "startDate": "2023-10-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",

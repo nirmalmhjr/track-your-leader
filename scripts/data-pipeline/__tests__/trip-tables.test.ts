@@ -117,3 +117,69 @@ test("Spanish and French tables are read by their headers", () => {
     assert.equal(french?.notes, "Rencontre");
     assert.equal(french?.sectionHint, "planned");
 });
+
+test("Dutch, Norwegian and Swedish monarch tables: guest columns mark received visits", () => {
+    const page = `
+<h2>Uitgaande staatsbezoeken</h2>
+<table class="wikitable">
+  <tr><th></th><th>begindatum</th><th>einddatum</th><th>land</th><th>gastheer/gastvrouw</th></tr>
+  <tr><td>1</td><td>24 juni 2014</td><td>25 juni 2014</td><td><a href="/wiki/Polen" title="Polen">Polen</a></td><td>President Komorowski</td></tr>
+</table>
+<h2>Statsbesøk til Norge</h2>
+<table class="wikitable">
+  <tr><th>Dato</th><th>Land</th><th>Gjestende statsoverhode</th></tr>
+  <tr><td>13.–15. oktober 1992</td><td><a href="/wiki/Danmark" title="Danmark">Danmark</a></td><td>Dronning Margrethe II</td></tr>
+</table>
+<h2>1970-talet</h2>
+<table class="wikitable">
+  <tr><th>Värdstat</th><th>Datum</th><th>Värd</th><th>Annat</th></tr>
+  <tr><td><a href="/wiki/Norge" title="Norge">Norge</a></td><td>1974, 8–10 oktober</td><td>Kung Olav V</td><td></td></tr>
+</table>`;
+    const rows = parseTripTables(page).rows.map((row) => [
+        row.country?.text,
+        row.date,
+        row.received,
+    ]);
+    assert.deepEqual(rows, [
+        ["Polen", "24 juni 2014 – 25 juni 2014", false],
+        ["Danmark", "13.–15. oktober 1992", true],
+        ["Norge", "1974, 8–10 oktober", false],
+    ]);
+});
+
+test("Japanese tables: a year column of its own, departure and return, places visited", () => {
+    const page = `
+<h3>天皇として</h3>
+<table class="wikitable">
+  <tr><th>年</th><th>出国</th><th>帰国</th><th>訪問地</th><th>同行</th><th>備考</th></tr>
+  <tr><td>1991年(平成3)</td><td>09月26日</td><td>10月06日</td><td><a href="/wiki/タイ王国" title="タイ王国">タイ</a></td><td>皇后</td><td>国際親善</td></tr>
+</table>
+<h3>2022年</h3>
+<table class="wikitable">
+  <tr><th>回数</th><th>訪問国</th><th>都市・地域</th><th>月日</th><th>詳細</th></tr>
+  <tr><td>2</td><td><a href="/wiki/インド" title="インド">インド</a></td><td>ニューデリー</td><td>3月19日-20日</td><td>首脳会談</td></tr>
+</table>`;
+    const rows = parseTripTables(page).rows.map((row) => [
+        row.country?.text,
+        row.date,
+        row.contextYear,
+    ]);
+    assert.deepEqual(rows, [
+        ["タイ", "09月26日 – 10月06日", 1991],
+        ["インド", "3月19日-20日", 2022],
+    ]);
+});
+
+test("lists of visits received keep each visitor's name and office", () => {
+    const page = `
+<h2>State visits received</h2>
+<table class="wikitable">
+  <tr><th>Name</th><th>Title</th><th>Country</th><th>Date</th><th>Visit Type</th></tr>
+  <tr><td><a href="/wiki/Ariel_Sharon" title="Ariel Sharon">Ariel Sharon</a></td><td>Prime Minister</td><td><a href="/wiki/Israel" title="Israel">Israel</a></td><td>9 September 2003</td><td>State visit</td></tr>
+</table>`;
+    const [row] = parseTripTables(page).rows;
+    assert.equal(row?.received, true);
+    assert.equal(row?.country?.text, "Israel");
+    assert.equal(row?.visitor?.links[0]?.title, "Ariel Sharon");
+    assert.equal(row?.visitorTitle, "Prime Minister");
+});

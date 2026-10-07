@@ -379,7 +379,7 @@
       "fullName": "Horace Chang",
       "id": "horace-chang",
       "party": "Jamaica Labour Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Patricia_Bullrich_and_Horace_Chang.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -532,7 +532,7 @@
       "fullName": "Anthony Hylton",
       "id": "anthony-hylton",
       "party": "People's National Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Minister_Anthony_Hylton.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1040,12 +1040,16 @@
       "wikidataId": "Q1200333"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Derrick Mckoy",
+        "Derrick Vincent McKoy",
+        "Dr Derrick Vincent McKoy"
+      ],
       "countryCode": "JAM",
-      "fullName": "Derrick Mckoy",
+      "fullName": "Derrick McKoy",
       "id": "derrick-mckoy-jam",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DerrickMcKoy.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1055,36 +1059,15 @@
           "id": "derrick-mckoy-jam-p1",
           "ministry": null,
           "portfolio": null,
-          "startDate": null,
+          "startDate": "2022-01-11",
           "title": "Attorney General"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/jamaica/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Derrick Vincent McKoy",
-        "Dr Derrick Vincent McKoy"
-      ],
-      "countryCode": "JAM",
-      "fullName": "Derrick McKoy",
-      "id": "derrick-mckoy",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "derrick-mckoy-p1",
+          "id": "derrick-mckoy-jam-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "2022-01-11",
@@ -1095,6 +1078,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q110527704"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/jamaica/"
         },
         {
           "label": "Wikipedia",
@@ -1346,19 +1333,8 @@
           "categories": [
             "minister"
           ],
-          "endDate": null,
-          "id": "fayval-williams-p3",
-          "ministry": "Ministry of Finance and the Public Service",
-          "portfolio": "finance",
-          "startDate": "2024-10-30",
-          "title": "Minister of Finance and the Public Service"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
           "endDate": "2022-01-10",
-          "id": "fayval-williams-p4",
+          "id": "fayval-williams-p3",
           "ministry": "Ministry of Education, Youth and Information",
           "portfolio": "education",
           "startDate": "2020-09-13",
@@ -1369,7 +1345,7 @@
             "minister"
           ],
           "endDate": "2020-09-12",
-          "id": "fayval-williams-p5",
+          "id": "fayval-williams-p4",
           "ministry": "Ministry of Science, Energy and Technology",
           "portfolio": "energy",
           "startDate": "2019-02-14",
@@ -1380,7 +1356,7 @@
             "junior_minister"
           ],
           "endDate": "2018-03-26",
-          "id": "fayval-williams-p6",
+          "id": "fayval-williams-p5",
           "ministry": null,
           "portfolio": "finance",
           "startDate": "2016-03-07",
@@ -1391,7 +1367,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "fayval-williams-p7",
+          "id": "fayval-williams-p6",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
@@ -1624,17 +1600,6 @@
           ],
           "endDate": null,
           "id": "kamina-johnson-smith-p1",
-          "ministry": "Ministry of Foreign Affairs and Foreign Trade",
-          "portfolio": "foreign_affairs",
-          "startDate": "2016-03-07",
-          "title": "Minister of Foreign Affairs and Foreign Trade"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "kamina-johnson-smith-p2",
           "ministry": "Ministry of Foreign Affairs and Foreign Trade",
           "portfolio": "foreign_affairs",
           "startDate": "2016-03-07",
@@ -3134,7 +3099,7 @@
       "fullName": "Peter Phillips",
       "id": "peter-phillips",
       "party": "People's National Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_David_Phillips%2C_2015_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3764,6 +3729,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1963-11-24",
@@ -4845,6 +4814,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5880,26 +5853,29 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2024-10-03",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Signed agreements"
+        "First bilateral visit by a Jamaican Prime Minister to India.",
+        "Met Prime Minister Narendra Modi"
       ],
       "eventName": null,
       "id": "andrew-holness--2024-09-30--IND",
       "officialId": "andrew-holness",
-      "purpose": "Visit to India",
+      "purpose": "Official Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1478/Official_visit_of_Prime_Minister_of_Jamaica_to_India_September_30__October_3_2024"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -7493,6 +7469,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1981-01-27",
@@ -7521,6 +7501,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1983-02-21",
@@ -7549,6 +7533,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1983-11-05",
@@ -7577,6 +7565,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1984-07-17",
@@ -7605,6 +7597,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1967-10-13",
@@ -7633,6 +7629,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1968-06-07",
@@ -7661,6 +7661,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1970-08-11",
@@ -7689,6 +7693,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1970-10-24",
@@ -8073,6 +8081,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1977-12-16",
@@ -8186,6 +8198,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -8448,6 +8464,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -8716,6 +8736,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1992-03-24",
@@ -9072,6 +9096,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9254,6 +9282,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9400,6 +9432,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",

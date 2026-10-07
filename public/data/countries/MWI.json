@@ -1370,7 +1370,7 @@
       "fullName": "Charles Mhango",
       "id": "charles-mhango",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Mhango_Malawi's_Minister_of_Justice_and_Constitutional_Affairs_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2278,7 +2278,7 @@
       "fullName": "Harry Mkandawire",
       "id": "harry-mkandawire",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Harry_Mkandawire.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2782,19 +2782,8 @@
           "categories": [
             "minister"
           ],
-          "endDate": null,
-          "id": "joseph-mwanamvekha-p2",
-          "ministry": "Ministry of Finance, Economic Planning and Development",
-          "portfolio": "finance",
-          "startDate": "2025-10-05",
-          "title": "Minister of Finance, Economic Planning and Development"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
           "endDate": "2020-06-29",
-          "id": "joseph-mwanamvekha-p3",
+          "id": "joseph-mwanamvekha-p2",
           "ministry": "Ministry of Finance, Economic Planning and Development",
           "portfolio": "finance",
           "startDate": "2019-05-15",
@@ -2805,7 +2794,7 @@
             "minister"
           ],
           "endDate": "2020-01-01",
-          "id": "joseph-mwanamvekha-p4",
+          "id": "joseph-mwanamvekha-p3",
           "ministry": "Ministry of Agriculture",
           "portfolio": "agriculture",
           "startDate": "2017-07-16",
@@ -2816,7 +2805,7 @@
             "legislator"
           ],
           "endDate": "2019-03-20",
-          "id": "joseph-mwanamvekha-p5",
+          "id": "joseph-mwanamvekha-p4",
           "ministry": null,
           "portfolio": null,
           "startDate": "2014-05-20",
@@ -2827,7 +2816,7 @@
             "minister"
           ],
           "endDate": "2017-07-17",
-          "id": "joseph-mwanamvekha-p6",
+          "id": "joseph-mwanamvekha-p5",
           "ministry": "Ministry of Industry and Trade",
           "portfolio": "trade",
           "startDate": "2014-06-23",
@@ -3249,7 +3238,7 @@
       "fullName": "Mark Phiri",
       "id": "mark-phiri",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Head_of_the_Malawian_Delegation_to_the_12th_World_Trade_Organisation_Ministerial_Conference_Mark_Katsonga_Phiri.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4114,9 +4103,11 @@
       "wikidataId": "Q109344941"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Thoko Tembo"
+      ],
       "countryCode": "MWI",
-      "fullName": "Thoko Tembo",
+      "fullName": "Thoko Matengambiri Tembo",
       "id": "thoko-tembo",
       "party": null,
       "photoUrl": null,
@@ -4139,8 +4130,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/malawi/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Malawian politician.",
+      "wikidataId": "Q133934854"
     },
     {
       "aliases": [
@@ -4937,22 +4928,10 @@
         },
         {
           "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "catherine-gotani-hara-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2025-01-01",
-          "title": "Member of the National Assembly of Malawi",
-          "undated": true
-        },
-        {
-          "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "catherine-gotani-hara-p5",
+          "id": "catherine-gotani-hara-p4",
           "ministry": "Ministry of Health and Population",
           "portfolio": "health",
           "startDate": null,
@@ -5948,6 +5927,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -11452,7 +11435,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -12268,9 +12251,41 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1967-06-08",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1968-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "hastings-banda--1968-05-01--ISR",
+      "officialId": "hastings-banda",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Levi_Eshkol"
+        }
+      ],
+      "startDate": "1968-05-01",
       "statusHint": null,
       "type": "other"
     },
@@ -13143,6 +13158,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -15482,36 +15501,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Vatican City",
-        "coordinates": [
-          12.453,
-          41.904
-        ],
-        "countryCode": "VAT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2024-08-19",
-      "engagements": [
-        "Met Pope Francis"
-      ],
-      "eventName": null,
-      "id": "lazarus-chakwera--2024-08-18--VAT",
-      "officialId": "lazarus-chakwera",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2024-08-18",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Rome",
         "coordinates": [
           12.4964,
@@ -15536,6 +15525,41 @@
       "startDate": "2024-08-19",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-08-19",
+      "engagements": [
+        "Talks highlighted strong ties, Church cooperation in health and education, and dialogue for regional and global peace.",
+        "Met Pope Francis"
+      ],
+      "eventName": null,
+      "id": "lazarus-chakwera--2024-08-19--VAT",
+      "officialId": "lazarus-chakwera",
+      "purpose": "Pope Francis met Malawi President Lazarus Chakwera, then Cardinal Parolin.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2024-08-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15937,6 +15961,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",

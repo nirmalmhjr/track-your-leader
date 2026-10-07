@@ -2414,6 +2414,35 @@
     {
       "aliases": [],
       "countryCode": "CHE",
+      "fullName": "Swiss Federal Council",
+      "id": "swiss-federal-council",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "1985-04-24",
+          "id": "swiss-federal-council-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "1985-04-22",
+          "title": "Official"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "CHE",
       "fullName": "Ueli Maurer",
       "id": "ueli-maurer",
       "party": "Swiss People's Party",
@@ -8163,7 +8192,7 @@
       "fullName": "Jean Treina",
       "id": "jean-treina",
       "party": "Social Democratic Party of Switzerland",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tombe_de_Jean_Treina%2C_cimeti%C3%A8re_des_Rois%2C_Gen%C3%A8ve.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -9851,18 +9880,6 @@
           "portfolio": null,
           "startDate": "2016-07-01",
           "title": "Councillor of State of Schwyz"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "michael-stahli-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2016-07-01",
-          "title": "Councillor of State of Schwyz",
-          "undated": true
         }
       ],
       "sources": [
@@ -16474,8 +16491,12 @@
       "eventName": null,
       "id": "alain-berset--2018-11-12--VAT",
       "officialId": "alain-berset",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Alain Berset to discuss Swiss Guard service, strong bilateral ties, and collaboration on migration, peace,…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16483,7 +16504,7 @@
       ],
       "startDate": "2018-11-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -17102,8 +17123,12 @@
       "eventName": null,
       "id": "alain-berset--2023-11-09--VAT",
       "officialId": "alain-berset",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Alain Berset, praising Holy See–Switzerland ties, the Swiss Guard, and discussing Africa, Ukraine, Israel-…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17202,6 +17227,34 @@
       "startDate": "2023-12-01",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-06-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "alain-berset--2025-06-17--VAT",
+      "officialId": "alain-berset",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-06-17",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18678,6 +18731,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18940,11 +18997,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Switzerland Doris Leuthard",
       "id": "doris-leuthard--2010-08-26--RUS",
       "officialId": "doris-leuthard",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Switzerland Doris Leuthard",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/8746"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18952,7 +19013,7 @@
       ],
       "startDate": "2010-08-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19069,13 +19130,17 @@
       "purpose": "Visit to Norway",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-10-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19236,7 +19301,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-04-25",
+      "endDate": "2017-04-26",
       "engagements": [
         "Met President Kolinda Grabar-Kitarovic"
       ],
@@ -19245,6 +19310,10 @@
       "officialId": "doris-leuthard",
       "purpose": "Visit to Croatia",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Kolinda_Grabar-Kitarovi%C4%87"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19301,8 +19370,12 @@
       "eventName": null,
       "id": "doris-leuthard--2017-05-06--VAT",
       "officialId": "doris-leuthard",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Leuthard to discuss strong ties, the Swiss Guard, Church–State collaboration, and shared concerns: Europe'…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19540,18 +19613,22 @@
         "Gave a public address"
       ],
       "eventName": null,
-      "id": "doris-leuthard--2017-08-31--IND",
+      "id": "doris-leuthard--2017-08-30--IND",
       "officialId": "doris-leuthard",
-      "purpose": "Visit to India",
+      "purpose": "State Visit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-08-31",
+      "startDate": "2017-08-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -20604,8 +20681,12 @@
       "eventName": null,
       "id": "guy-parmelin--2021-05-06--VAT",
       "officialId": "guy-parmelin",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Switzerland’s President Guy Parmelin to discuss bilateral ties, the Swiss Guard, the centenary of relations, and cooperati…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20613,7 +20694,7 @@
       ],
       "startDate": "2021-05-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -21002,6 +21083,64 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2026-02-20",
+      "engagements": [
+        "EU represented by executive VP of the European Commission Henna Virkkunen.",
+        "UK represented by Deputy PM David Lammy."
+      ],
+      "eventName": "AI Impact Summit",
+      "id": "guy-parmelin--2026-02-17--IND",
+      "officialId": "guy-parmelin",
+      "purpose": "AI Impact Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2026-02-17",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "guy-parmelin--2026-05-06--VAT",
+      "officialId": "guy-parmelin",
+      "purpose": "Conversation highlighted bilateral relations and the service of the Pontifical Swiss Guard.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-05-06",
+      "statusHint": null,
+      "type": "bilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -21025,6 +21164,35 @@
       "startDate": "2026-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2026-10-07",
+      "engagements": [
+        "Participated in the 2nd India–EFTA Prosperity Summit to mark the first anniversary of the India-EFTA Trade and Economic Partnership Agreement (TEPA) coming into force."
+      ],
+      "eventName": null,
+      "id": "guy-parmelin--2026-10-05--IND",
+      "officialId": "guy-parmelin",
+      "purpose": "State visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2026-10-05",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -21607,8 +21775,12 @@
       "eventName": null,
       "id": "ignazio-cassis--2022-05-06--VAT",
       "officialId": "ignazio-cassis",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Ignazio Cassis, recalling the Swiss Guard’s service, strong bilateral ties, collaboration on justice and p…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21616,7 +21788,7 @@
       ],
       "startDate": "2022-05-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -22603,7 +22775,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2016-02-28",
+      "endDate": "2016-02-26",
       "engagements": [
         "Met Supreme Leader Ayatollah Sayyed Ali Khamenei",
         "Signed agreements"
@@ -22614,13 +22786,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2016-02-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -22674,6 +22850,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -22761,8 +22941,12 @@
       "eventName": null,
       "id": "johann-schneider-ammann--2016-05-07--VAT",
       "officialId": "johann-schneider-ammann",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Schneider-Ammann to discuss strong ties, the Swiss Guard, youth education, migration, and global peace eff…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24256,15 +24440,20 @@
         "countryCode": "VAT",
         "region": "Europe"
       },
-      "endDate": "2025-10-05",
+      "endDate": "2025-10-03",
       "engagements": [
+        "Talks highlighted strong bilateral ties and shared hopes for peace in Ukraine and Gaza.",
         "Met Pope Leo XIV"
       ],
       "eventName": null,
       "id": "karin-keller-sutter--2025-10-03--VAT",
       "officialId": "karin-keller-sutter",
-      "purpose": "Visit to Vatican City",
+      "purpose": "On October 3, Pope Leo XIV met with Swiss President Karin Keller-Sutter.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -24272,7 +24461,7 @@
       ],
       "startDate": "2025-10-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -25089,16 +25278,20 @@
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "micheline-calmy-rey--2007-11-08--RUS",
+      "id": "micheline-calmy-rey--2007-11-09--RUS",
       "officialId": "micheline-calmy-rey",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met at the Kremlin with President of Switzerland Micheline Calmy-Rey",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43221"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-11-08",
+      "startDate": "2007-11-09",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -25535,15 +25728,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2011-10-31",
+      "endDate": "2011-10-30",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Switzerland Micheline Calmy-Rey",
       "id": "micheline-calmy-rey--2011-10-30--RUS",
       "officialId": "micheline-calmy-rey",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Switzerland Micheline Calmy-Rey",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/13269"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -25551,7 +25748,7 @@
       ],
       "startDate": "2011-10-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -26723,23 +26920,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2003-07-12",
+      "endDate": "2003-07-11",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "pascal-couchepin--2003-07-09--RUS",
+      "id": "pascal-couchepin--2003-07-11--RUS",
       "officialId": "pascal-couchepin",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with Pascal Couchepin, President of the Swiss Confederation",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/29027"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2003-07-09",
+      "startDate": "2003-07-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -27530,6 +27731,34 @@
       "startDate": "1992-05-07",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1971-10-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "rudolf-gnagi--1971-10-12--IRN",
+      "officialId": "rudolf-gnagi",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1971-10-12",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -28844,6 +29073,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Stockholm",
+        "coordinates": [
+          18.068611111,
+          59.329444444
+        ],
+        "countryCode": "SWE",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1985-04-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "swiss-federal-council--1985-04-22--SWE",
+      "officialId": "swiss-federal-council",
+      "purpose": "Visit to Sweden",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Carl_XVI_Gustaf"
+        }
+      ],
+      "startDate": "1985-04-22",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -28944,8 +29201,12 @@
       "eventName": null,
       "id": "ueli-maurer--2013-05-06--VAT",
       "officialId": "ueli-maurer",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Ueli Maurer to discuss strengthening ties between the Holy See and Switzerland, human rights, youth educat…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -29014,6 +29275,34 @@
       "startDate": "2013-07-17",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-08-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ueli-maurer--2013-08-01--IND",
+      "officialId": "ueli-maurer",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2013-08-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -29250,6 +29539,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
         },
         {
           "label": "COLT dataset",
@@ -29510,15 +29803,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-11-22",
+      "endDate": "2019-11-21",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "ueli-maurer--2019-11-21--RUS",
       "officialId": "ueli-maurer",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with President of Switzerland Ueli Maurer",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/62090"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -29526,7 +29823,7 @@
       ],
       "startDate": "2019-11-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -29588,6 +29885,34 @@
       "startDate": "2019-11-29",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-05-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "ueli-maurer--2023-05-06--VAT",
+      "officialId": "ueli-maurer",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2023-05-06",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -29780,15 +30105,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-05-06",
+      "endDate": "2024-05-04",
       "engagements": [
+        "Talks praised strong relations, Swiss Guard renovation, and focused on peace efforts in Ukraine and Israel–Palestine.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "viola-amherd--2024-05-04--VAT",
       "officialId": "viola-amherd",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Swiss President Viola Amherd, then Cardinal Parolin.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -29796,7 +30126,7 @@
       ],
       "startDate": "2024-05-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

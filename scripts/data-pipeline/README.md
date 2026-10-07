@@ -64,6 +64,8 @@ concurrency group, so they never write at the same time.
 | Trips of Canadian ministers | [Proactive Disclosure – Travel Expenses](https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce) | Open Government Licence – Canada |
 | Current trips of Nepal's President, VP, PM and Foreign Minister | [mofa.gov.np](https://mofa.gov.np) press releases | Government website |
 | Every foreign leader and minister received in India (monarchs included), and India's PM, President, VP and External Affairs Minister abroad, 2005 on | [mea.gov.in](https://www.mea.gov.in/incoming-visits) incoming and outgoing visit lists | All rights reserved: only facts (who, where, when) are kept, linked to MEA's page, no text copied |
+| Foreign leaders' visits to Russia (and meetings abroad), 2000 on: every in-person meeting of the Russian President with a foreign leader, with its date and place | [en.kremlin.ru](http://en.kremlin.ru/events/president/news) event list | CC BY 4.0 |
+| Danish monarchs' state and official visits abroad, and state visits to Denmark, 1972 on | [kongehuset.dk](https://www.kongehuset.dk/monarkiet-i-danmark/stats-og-officielle-besog) list | Facts only (who, where, when), linked to the page |
 | Coordinates of cities and capitals | Wikidata | CC0 |
 
 Wikipedia, GOV.UK and Canada's data require attribution; the app's panel footer credits the
@@ -114,7 +116,9 @@ collect.ts / run.ts → pipeline.ts
 │  ├─ who-assembly  sources/who-assembly.ts reads each delegate list (PDF) via un-delegations.parse
 │  ├─ canada     sources/canada-open-data.ts streams the national CSV
 │  ├─ nepal-mofa sources/nepal-mofa.ts reads press releases about visits abroad
-│  └─ india-mea  sources/india-mea.ts reads India's incoming and outgoing visit lists
+│  ├─ india-mea  sources/india-mea.ts reads India's incoming and outgoing visit lists
+│  ├─ kremlin    sources/kremlin.ts pages through the Kremlin's events; visitor-titles reads who
+│  └─ danish-court  sources/danish-court.ts reads the Royal House's list of visits
 ├─ extract/places.resolve.ts      countries, capitals and cities → coordinates via Wikidata
 ├─ extract/travellers.match.ts    who made each trip: Wikidata id → name → family name + office →
 │                                 office + date; unknown named travellers become new officials

@@ -1727,7 +1727,7 @@
       "fullName": "Amon Nikoi",
       "id": "amon-nikoi",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amon_Nikoi_1953.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -10746,7 +10746,7 @@
       "fullName": "Imoru Egala",
       "id": "imoru-egala",
       "party": "People's National Party",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_National_Archives_UK_-_CO_1069-43-65.jpg?width=160",
+      "photoUrl": null,
       "positions": [
         {
           "categories": [
@@ -16050,6 +16050,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -17582,6 +17586,34 @@
       "startDate": "1999-01-29",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1999-02-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "jerry-rawlings--1999-02-03--USA",
+      "officialId": "jerry-rawlings",
+      "purpose": "State visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1999-02-03",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19472,6 +19504,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -19674,6 +19710,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -20630,6 +20670,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2003-09-24",
@@ -21614,6 +21658,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -21906,6 +21954,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -22082,6 +22134,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -23808,6 +23864,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -23870,13 +23930,17 @@
       "purpose": "Visit to Netherlands",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://nl.wikipedia.org/wiki/Lijst_van_staatsbezoeken_van_Beatrix_der_Nederlanden"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2008-10-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -25256,6 +25320,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -25376,7 +25444,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -25670,16 +25738,20 @@
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "john-mahama--2014-11-09--VAT",
+      "id": "john-mahama--2014-11-10--VAT",
       "officialId": "john-mahama",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Ghana’s President Mahama, discussing strong Church–State relations, the Church’s contributions in education, healthcare, a…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-11-09",
+      "startDate": "2014-11-10",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -26466,7 +26538,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -26813,18 +26885,22 @@
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "john-mahama--2016-02-13--IRN",
+      "id": "john-mahama--2016-02-14--IRN",
       "officialId": "john-mahama",
       "purpose": "Visit to Iran",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-02-13",
+      "startDate": "2016-02-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -28128,6 +28204,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1967-10-10",
@@ -28376,6 +28456,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1958-07-23",
@@ -28396,7 +28480,7 @@
       },
       "endDate": "1960-09-22",
       "engagements": [],
-      "eventName": null,
+      "eventName": "United Nations General Assembly",
       "id": "kwame-nkrumah--1960-09-22--USA",
       "officialId": "kwame-nkrumah",
       "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
@@ -28404,6 +28488,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1960-09-22",
@@ -28432,6 +28520,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1961-03-08",
@@ -28517,6 +28609,34 @@
         }
       ],
       "startDate": "2019-03-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2024-04-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "mahamudu-bawumia--2024-04-24--VAT",
+      "officialId": "mahamudu-bawumia",
+      "purpose": "Pope Francis met Ghana VP Bawumia, noting strong Holy See–Ghana ties, cooperation in education and health, and discussing political, socio-…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2024-04-24",
       "statusHint": null,
       "type": "other"
     },
@@ -29318,6 +29438,35 @@
       "startDate": "2018-03-01",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2018-03-11",
+      "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…"
+      ],
+      "eventName": "International Solar Alliance Summit",
+      "id": "nana-akufo-addo--2018-03-08--IND",
+      "officialId": "nana-akufo-addo",
+      "purpose": "International Solar Alliance Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2018-03-08",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -33522,6 +33671,34 @@
       "startDate": "2023-07-20",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-07-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "nana-akufo-addo--2023-07-22--VAT",
+      "officialId": "nana-akufo-addo",
+      "purpose": "Pope Francis met Ghana’s President Akufo-Addo, highlighting strong Holy See–Ghana relations, cooperation in education and healthcare, and d…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2023-07-22",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

@@ -14,7 +14,7 @@
       "fullName": "Abdalá Bucaram Ortiz",
       "id": "abdala-bucaram-ortiz",
       "party": "Ecuadorian Roldosist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Abdala_Bucaram_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3174,7 +3174,7 @@
       "fullName": "Eduardo Izaguirre",
       "id": "eduardo-izaguirre",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eduardo_izaguirre_marin.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3349,7 +3349,7 @@
       "fullName": "Esteban Bernal",
       "id": "esteban-bernal",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Esteban_Remigio_Bernal.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6426,7 +6426,7 @@
       "fullName": "Marco Flores Troncoso",
       "id": "marco-flores-troncoso",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/COMISI%C3%93N_DE_R%C3%89GIMEN_ECON%C3%93MICO._(SEGUNDA)._VIRTUAL._ECUADOR%2C_07_DE_ABRIL_DEL_2021.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6987,7 +6987,7 @@
       "fullName": "Modesto Chávez Franco",
       "id": "modesto-chavez-franco",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Modestochavez.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -8276,7 +8276,7 @@
       "fullName": "Roberto Xavier Luque Nuques",
       "id": "roberto-xavier-luque-nuques",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto_Luque%2C_Ministro_de_Transporte._Comisi%C3%B3n_de_Biodiversidad_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -8284,6 +8284,17 @@
           ],
           "endDate": null,
           "id": "roberto-xavier-luque-nuques-p1",
+          "ministry": "Ministry of Infrastructure and Technology",
+          "portfolio": "science",
+          "startDate": null,
+          "title": "Minister of Infrastructure and Technology"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "roberto-xavier-luque-nuques-p2",
           "ministry": "Ministry of Transport and Public Works of Ecuador",
           "portfolio": "transport",
           "startDate": "2023-11-23",
@@ -8294,39 +8305,14 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q140713344"
-        }
-      ],
-      "summary": "",
-      "wikidataId": "Q140713344"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ECU",
-      "fullName": "Roberto Xavier Luque Nuques",
-      "id": "roberto-xavier-luque-nuques-ecu",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "roberto-xavier-luque-nuques-ecu-p1",
-          "ministry": "Ministry of Infrastructure and Technology",
-          "portfolio": "science",
-          "startDate": null,
-          "title": "Minister of Infrastructure and Technology"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/ecuador/"
         }
       ],
       "summary": "",
-      "wikidataId": null
+      "wikidataId": "Q140713344"
     },
     {
       "aliases": [],
@@ -10870,6 +10856,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1962-07-23",
@@ -11178,15 +11168,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-05-14",
+      "endDate": "2024-05-13",
       "engagements": [
+        "Talks highlighted strong ties, Church–State cooperation, and discussed youth jobs, security and migration.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "daniel-noboa--2024-05-13--VAT",
       "officialId": "daniel-noboa",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Ecuador President Daniel Noboa, then Archbishop Gallagher.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11194,7 +11189,7 @@
       ],
       "startDate": "2024-05-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12716,6 +12711,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1951-06-20",
@@ -13432,6 +13431,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -13517,8 +13520,12 @@
       "eventName": null,
       "id": "guillermo-lasso--2023-01-21--VAT",
       "officialId": "guillermo-lasso",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis and Ecuador’s President Lasso discussed Church–State cooperation, regional issues, development, peace, protecting life and chi…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13852,6 +13859,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -14767,6 +14778,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1979-07-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaime-roldos-aquilera--1979-07-20--USA",
+      "officialId": "jaime-roldos-aquilera",
+      "purpose": "Informal visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        }
+      ],
+      "startDate": "1979-07-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Asunción",
         "coordinates": [
           -57.634444444,
@@ -14905,6 +14944,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -15053,6 +15096,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -15490,13 +15537,18 @@
       },
       "endDate": "2017-12-16",
       "engagements": [
+        "They discussed Christianity’s role in national identity, respect for indigenous cultures, environmental protection, and regional development efforts.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "lenin-moreno--2017-12-16--VAT",
       "officialId": "lenin-moreno",
-      "purpose": "Visit to Vatican City",
+      "purpose": "This morning, Pope Francis received Ecuador’s President Lenín Moreno at the Vatican.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16391,6 +16443,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16460,6 +16516,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1984-06-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "leon-febres-cordero--1984-06-25--USA",
+      "officialId": "leon-febres-cordero",
+      "purpose": "Private visit. Met with President Reagan June 26.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        }
+      ],
+      "startDate": "1984-06-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -16509,6 +16593,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1986-01-12",
@@ -16567,6 +16655,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -17226,6 +17318,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-11-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "maria-alejandra-munoz--2020-11-07--VAT",
+      "officialId": "maria-alejandra-munoz",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2020-11-07",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -17253,6 +17373,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2018-10-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "maria-fernanda-espinosa--2018-10-29--VAT",
+      "officialId": "maria-fernanda-espinosa",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2018-10-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -17272,6 +17420,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1983-04-07",
@@ -18497,24 +18649,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2008-12-09",
+      "endDate": "2008-12-06",
       "engagements": [
         "Met President Mahmoud Ahmadinejad",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "rafael-correa--2008-12-05--IRN",
+      "id": "rafael-correa--2008-12-06--IRN",
       "officialId": "rafael-correa",
       "purpose": "Visit to Iran",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-12-05",
+      "startDate": "2008-12-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19160,22 +19316,26 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-10-30",
+      "endDate": "2009-10-29",
       "engagements": [
         "Met President Dmitry Medvedev",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "rafael-correa--2009-10-28--RUS",
+      "id": "rafael-correa--2009-10-29--RUS",
       "officialId": "rafael-correa",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev held talks with President of Ecuador Rafael Correa who is in Russia on an official visit",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/5855"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-10-28",
+      "startDate": "2009-10-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -21070,8 +21230,12 @@
       "eventName": null,
       "id": "rafael-correa--2013-04-19--VAT",
       "officialId": "rafael-correa",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Ecuador’s President Correa to discuss Church–State dialogue, social justice, solidarity, indigenous rights, and environmen…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22154,7 +22318,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-04-29",
+      "endDate": "2015-04-28",
       "engagements": [
         "Met Pope Francis",
         "Gave a public address"
@@ -22164,6 +22328,10 @@
       "officialId": "rafael-correa",
       "purpose": "Attended Climate Change Forum",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -22897,6 +23065,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -23201,6 +23373,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1992-01-27",
+      "engagements": [],
+      "eventName": "Attended Drug Summit in San Antonio",
+      "id": "rodrigo-borja-cevallos--1992-01-26--USA",
+      "officialId": "rodrigo-borja-cevallos",
+      "purpose": "Attended Drug Summit in San Antonio",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        }
+      ],
+      "startDate": "1992-01-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1992-01-30",
       "engagements": [
         "Gave a public address"
@@ -23213,6 +23413,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",
@@ -23285,6 +23489,34 @@
       "startDate": "1992-07-09",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1992-07-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "sixto-duran-ballen--1992-07-28--USA",
+      "officialId": "sixto-duran-ballen",
+      "purpose": "Met with President Bush during a private visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        }
+      ],
+      "startDate": "1992-07-28",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -23640,6 +23872,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -23992,6 +24228,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1996-06-23",

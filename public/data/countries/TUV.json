@@ -199,7 +199,7 @@
       "fullName": "Henry Naisali",
       "id": "henry-naisali",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Naisali_(February_1988).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -819,10 +819,21 @@
         },
         {
           "categories": [
-            "legislator"
+            "minister"
           ],
           "endDate": null,
           "id": "ampelosa-manoa-tehulu-p2",
+          "ministry": "Ministry of Public Works and Waste",
+          "portfolio": null,
+          "startDate": "2019-09-20",
+          "title": "Minister of Public Works and Waste"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "ampelosa-manoa-tehulu-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2019-09-09",
@@ -835,41 +846,16 @@
           "url": "https://www.wikidata.org/wiki/Q108805759"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/tuvalu/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Ampelosa_Manoa_Tehulu"
         }
       ],
       "summary": "Ampelosa Manoa Tehulu is a Tuvaluan politician. Tehulu was elected to the Parliament of Tuvalu at the 2019 Tuvaluan general election, and appointed Minister for Public Utilities & Environment in the cabinet of Kausea Natano.",
       "wikidataId": "Q108805759"
-    },
-    {
-      "aliases": [],
-      "countryCode": "TUV",
-      "fullName": "Ampelosa Manoa Tehulu",
-      "id": "ampelosa-manoa-tehulu-tuv",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "ampelosa-manoa-tehulu-tuv-p1",
-          "ministry": "Ministry of Public Works and Waste",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Public Works and Waste"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/tuvalu/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -1089,7 +1075,7 @@
       "fullName": "Falesa Pitoi",
       "id": "falesa-pitoi",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Falesa_pitoi%2C_Minister_for_Education%2C_Youth_%26_Sports%2C_at_Funafuti_Atol_airport_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2758,7 +2744,7 @@
       "fullName": "Namoliki Sualiki",
       "id": "namoliki-sualiki",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/First_Tuvalu_Disability_report_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5130,6 +5116,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -6107,29 +6097,32 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-03-12",
+      "endDate": "2018-03-11",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Gave a public address"
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
+        "Met Prime Minister Narendra Modi"
       ],
-      "eventName": "International Solar Alliance (ISA) Summit",
-      "id": "enele-sopoaga--2018-03-11--IND",
+      "eventName": "International Solar Alliance Summit",
+      "id": "enele-sopoaga--2018-03-08--IND",
       "officialId": "enele-sopoaga",
-      "purpose": "Attended International Solar Alliance (ISA) Summit",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-11",
+      "startDate": "2018-03-08",
       "statusHint": null,
       "type": "summit"
     },

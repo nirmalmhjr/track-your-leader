@@ -9,7 +9,7 @@ import type { RoleCategory } from "@/types/travel.types";
 import { groupBy } from "../lib/collections";
 import { normalizeName, stripParenthetical } from "../lib/text";
 import type { OfficialDraft } from "../types";
-import { assignIds, comparePositions, type IdRecord } from "./officials.extract";
+import { assignIds, comparePositions, type IdRecord, uniquePositions } from "./officials.extract";
 import type { PersonDraft } from "./people.extract";
 
 /**
@@ -103,7 +103,7 @@ export const buildPeopleRows = ({
                 id,
                 party: person.party,
                 photoUrl: person.photoUrl,
-                positions: [...person.positions]
+                positions: uniquePositions(person.positions)
                     .sort(comparePositions)
                     .map((position, index) => ({ ...position, id: `${id}-p${index + 1}` })),
                 wikidataId: person.wikidataId,
@@ -130,3 +130,50 @@ export const idRecordsOf = (stored: ReadonlyMap<CountryCode, readonly OfficialRo
         const { countryCode, fullName, id, wikidataId } = decodeOfficial(row);
         return { countryCode, fullName, id, wikidataId };
     });
+
+const nameKey = (countryCode: string, name: string): string =>
+    `${countryCode}|${normalizeName(stripParenthetical(name))}`;
+
+/**
+ * Folds officials known only by name (a cabinet list's "Sirajuddin Haqqani", whom the Wikidata
+ * search missed) into the one identified official or person of the same country with that name,
+ * so nobody is listed twice. Two identified people sharing a name are left apart.
+ *
+ * @param officials - Officials; updated in place.
+ * @param people - Everyone else politically exposed; updated in place.
+ * @returns The officials without the twins that were folded in.
+ */
+export const mergeNameTwins = (
+    officials: readonly OfficialDraft[],
+    people: readonly OfficialDraft[]
+): OfficialDraft[] => {
+    const identified = new Map<string, OfficialDraft[]>();
+    for (const record of [...officials, ...people]) {
+        if (!record.wikidataId) {
+            continue;
+        }
+        for (const key of new Set(
+            [record.name, ...record.aliases].map((name) => nameKey(record.countryCode, name))
+        )) {
+            identified.set(key, [...(identified.get(key) ?? []), record]);
+        }
+    }
+    return officials.filter((twin) => {
+        if (twin.wikidataId) {
+            return true;
+        }
+        const matches = [...new Set(identified.get(nameKey(twin.countryCode, twin.name)) ?? [])];
+        const [target] = matches;
+        if (matches.length !== 1 || !target) {
+            return true;
+        }
+        target.positions.push(...twin.positions);
+        target.sources.push(
+            ...twin.sources.filter(
+                (source) => !target.sources.some((known) => known.url === source.url)
+            )
+        );
+        target.aliases.push(twin.name, ...twin.aliases);
+        return false;
+    });
+};

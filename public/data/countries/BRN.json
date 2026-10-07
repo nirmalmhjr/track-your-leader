@@ -652,7 +652,7 @@
       "fullName": "Hairol Arni",
       "id": "hairol-arni",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hairol_Arni_on_22_January_2020.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -743,7 +743,7 @@
       "fullName": "Hamzah Sulaiman",
       "id": "hamzah-sulaiman",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamzah_Sulaiman_on_10_April_2018.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -814,7 +814,7 @@
       "fullName": "Isa Ibrahim",
       "id": "isa-ibrahim",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Isa_bin_Ibrahim_in_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1257,7 +1257,7 @@
       "fullName": "Pengiran Shamhary bin Pengiran Haji Mustapha",
       "id": "pengiran-shamhary-bin-pengiran-haji-mustapha",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pengiran_Shamhary_bin_Pengiran_Mustapha_in_2024.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2092,6 +2092,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1987-12-15",
+      "engagements": [],
+      "eventName": null,
+      "id": "hassanal-bolkiah-i-of-brunei--1987-12-14--PHL",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the 3rd ASEAN Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1987-12-14",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Canberra",
         "coordinates": [
           149.126944444,
@@ -2460,6 +2488,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -3831,13 +3863,17 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1999-11-29",
+      "endDate": "1999-11-30",
       "engagements": [],
       "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
       "id": "hassanal-bolkiah-i-of-brunei--1999-11-28--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "Attended the 3rd ASEAN Informal Summit in Manila",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4608,6 +4644,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -6802,21 +6842,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-10-16",
+      "endDate": "2009-10-15",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
-      "id": "hassanal-bolkiah-i-of-brunei--2009-10-11--RUS",
+      "id": "hassanal-bolkiah-i-of-brunei--2009-10-15--RUS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev held talks with Sultan of Brunei Darussalam Hassanal Bolkiah who is in Russia on an official visit",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/5751"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-10-11",
+      "startDate": "2009-10-15",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -7205,7 +7249,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/APEC_United_States_2011"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -7461,16 +7505,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2012-09-10",
+      "endDate": "2012-09-07",
       "engagements": [
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
+      "eventName": "Meeting with Sultan of Brunei Darussalam Hassanal Bolkiah",
       "id": "hassanal-bolkiah-i-of-brunei--2012-09-07--RUS",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
+      "purpose": "Meeting with Sultan of Brunei Darussalam Hassanal Bolkiah",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/16409"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -7478,7 +7526,7 @@
       ],
       "startDate": "2012-09-07",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -7684,6 +7732,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7774,13 +7826,17 @@
       "purpose": "Visit to Philippines",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-04-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8484,7 +8540,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/APEC_Philippines_2015"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         },
         {
           "label": "COLT dataset",
@@ -8550,6 +8606,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -8761,7 +8821,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         },
         {
           "label": "COLT dataset",
@@ -8917,7 +8977,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Twelfth_East_Asia_Summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         },
         {
           "label": "COLT dataset",
@@ -8989,28 +9049,33 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-01-25",
-      "engagements": [],
+      "endDate": "2018-01-26",
+      "engagements": [
+        "The leaders of all 10 ASEAN member states were invited as chief guests."
+      ],
       "eventName": "Association of Southeast Asian Nations (ASEAN) Summit",
-      "id": "hassanal-bolkiah-i-of-brunei--2018-01-24--IND",
+      "id": "hassanal-bolkiah-i-of-brunei--2018-01-25--IND",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Attended Association of Southeast Asian Nations (ASEAN) Summit",
+      "purpose": "69th Republic Day parade",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-01-24",
+      "startDate": "2018-01-25",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9593,8 +9658,12 @@
       "eventName": null,
       "id": "hassanal-bolkiah-i-of-brunei--2019-11-30--PHL",
       "officialId": "hassanal-bolkiah-i-of-brunei",
-      "purpose": "Visit to Philippines",
+      "purpose": "Official visit; attended the opening ceremony of the 2019 Southeast Asian Games",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -9861,6 +9930,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
@@ -11146,6 +11219,62 @@
       "startDate": "2025-11-30",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "hassanal-bolkiah-i-of-brunei--2026-05-06--PHL",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Attended the 48th ASEAN Summit and related meetings in Lapu-Lapu City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2026-05-06",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-06-17",
+      "engagements": [],
+      "eventName": "Meeting with Sultan of Brunei Darussalam Hassanal Bolkiah",
+      "id": "hassanal-bolkiah-i-of-brunei--2026-06-17--RUS",
+      "officialId": "hassanal-bolkiah-i-of-brunei",
+      "purpose": "Meeting with Sultan of Brunei Darussalam Hassanal Bolkiah",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80052"
+        }
+      ],
+      "startDate": "2026-06-17",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

@@ -133,6 +133,35 @@ export const countryCodeOfName = (name: string): CountryCode | null => {
 export const countriesInText = (text: string): CountryCode[] =>
     text.split(COUNTRY_LIST_SEPARATOR).flatMap((part) => countryCodeOfName(part) ?? []);
 
+/**
+ * Reads country names in another language ("Forbundsrepublikken Tyskland", "Storbritannien"):
+ * every country's Wikidata label and aliases there, then the English names.
+ *
+ * @param language - Wikidata language code ("da").
+ * @param extra - Historical names the labels lack ("sovjetunionen").
+ * @returns A lookup from a name to its country.
+ */
+export const loadCountryNames = async (
+    language: string,
+    extra: Readonly<Record<string, CountryCode>> = {}
+): Promise<(name: string) => CountryCode | null> => {
+    const rows = await runSparql(`
+        SELECT ?iso ?name WHERE {
+            ?country wdt:P298 ?iso .
+            { ?country rdfs:label ?name } UNION { ?country skos:altLabel ?name }
+            FILTER(LANG(?name) = "${language}")
+        }`);
+    const names = new Map<string, CountryCode>(Object.entries(extra));
+    for (const row of rows) {
+        const code = row.iso && getCountryReference(row.iso) ? (row.iso as CountryCode) : null;
+        if (code && row.name) {
+            names.set(normalizeName(row.name), code);
+        }
+    }
+    return (name) =>
+        names.get(normalizeName(name).replace(LEADING_THE, "")) ?? countryCodeOfName(name);
+};
+
 /** Every country's Wikidata item and capital, loaded once per run. */
 export interface PlaceIndex {
     capitals: Map<CountryCode, Place>;
@@ -320,6 +349,8 @@ export const createCityLookup = async (index: PlaceIndex): Promise<CityLookup> =
 interface ItemInfo {
     coordinates: Coordinates | null;
     countryCode: CountryCode | null;
+    /** English name, for places linked from other Wikipedias. */
+    label: string | null;
 }
 
 export interface PlaceResolver {
@@ -348,10 +379,11 @@ const fetchItems = async (
     const results = await Promise.all(
         batches.map((batch) =>
             runSparql(`
-                SELECT ?item ?coord ?country WHERE {
+                SELECT ?item ?coord ?country ?label WHERE {
                     VALUES ?item { ${batch.map((id) => `wd:${id}`).join(" ")} }
                     OPTIONAL { ?item wdt:P625 ?coord }
                     OPTIONAL { ?item wdt:P17 ?country }
+                    OPTIONAL { ?item rdfs:label ?label FILTER(LANG(?label) = "en") }
                 }`)
         )
     );
@@ -364,6 +396,7 @@ const fetchItems = async (
         info.set(item, {
             coordinates: parsePoint(row.coord),
             countryCode: country ? (codeByItem.get(country) ?? null) : null,
+            label: row.label ?? null,
         });
     }
     return info;
@@ -407,11 +440,14 @@ export const buildPlaceResolver = async (
     const cityOfLink = (link: CellLink): Place | null => {
         const item = itemByTitle.get(link.title);
         const info = item ? items.get(item) : undefined;
-        if (!(info?.coordinates && info.countryCode)) {
+        // Other Wikipedias name places in their own language ("ลอนดอน"): the English name is
+        // used, and a place without one counts for its country only.
+        const city = language === "en" ? link.text || link.title : info?.label;
+        if (!(info?.coordinates && info.countryCode && city)) {
             return null;
         }
         return {
-            city: link.text || link.title,
+            city,
             coordinates: info.coordinates,
             countryCode: info.countryCode,
             region: getCountryRegion(info.countryCode),

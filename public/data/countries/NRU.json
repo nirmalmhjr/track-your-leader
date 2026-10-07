@@ -1426,7 +1426,7 @@
       "fullName": "Maverick Eoe",
       "id": "maverick-eoe",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maverick_Eoe_2020_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3929,28 +3929,32 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2018-03-11",
       "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
         "Gave a public address"
       ],
       "eventName": "International Solar Alliance Summit",
-      "id": "baron-waqa--2018-03-11--IND",
+      "id": "baron-waqa--2018-03-08--IND",
       "officialId": "baron-waqa",
-      "purpose": "Attended International Solar Alliance Summit",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-11",
+      "startDate": "2018-03-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -4541,6 +4545,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         },
         {
           "label": "COLT dataset",
@@ -5623,6 +5631,90 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1978-11-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "hammer-deroburt--1978-11-22--PHL",
+      "officialId": "hammer-deroburt",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1978-11-22",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1980-05-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "hammer-deroburt--1980-05-01--PHL",
+      "officialId": "hammer-deroburt",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1980-05-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1980-08-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "hammer-deroburt--1980-08-29--PHL",
+      "officialId": "hammer-deroburt",
+      "purpose": "Official visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1980-08-29",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -5642,6 +5734,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
         }
       ],
       "startDate": "1989-05-08",

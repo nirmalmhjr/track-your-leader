@@ -943,7 +943,7 @@
       "fullName": "Kikeo Khaykhamphithoun",
       "id": "kikeo-khaykhamphithoun",
       "party": "Lao People's Revolutionary Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deputy_Prime_Minister_Khaykhamphithoune_(52136362206)_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2151,6 +2151,35 @@
       "wikidataId": null
     },
     {
+      "aliases": [],
+      "countryCode": "LAO",
+      "fullName": "Seine Saphantong",
+      "id": "seine-saphantong",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1999-05-23",
+          "id": "seine-saphantong-p1",
+          "ministry": null,
+          "portfolio": "agriculture",
+          "startDate": "1999-05-23",
+          "title": "Minister of Agriculture and Forestry"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Sonexay Sitphaxay"
       ],
@@ -2659,6 +2688,34 @@
       "startDate": "2010-10-28",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1962-05-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "boun-oum--1962-05-29--PHL",
+      "officialId": "boun-oum",
+      "purpose": "Official visit; good will mission",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1962-05-29",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -3767,24 +3824,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2011-10-16",
+      "endDate": "2011-10-13",
       "engagements": [
         "Met President Dmitry Medvedev",
         "Signed agreements"
       ],
-      "eventName": null,
-      "id": "choummaly-sayasone--2011-10-12--RUS",
+      "eventName": "Meeting with President of Laos Choummaly Sayasone",
+      "id": "choummaly-sayasone--2011-10-13--RUS",
       "officialId": "choummaly-sayasone",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Laos Choummaly Sayasone",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/13036"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-10-12",
+      "startDate": "2011-10-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4067,26 +4128,29 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-09-03",
       "engagements": [
         "Met General Secretary Xi Jinping"
       ],
-      "eventName": null,
-      "id": "choummaly-sayasone--2015-08-31--CHN",
+      "eventName": "Meeting with President of Laos Choummaly Sayasone",
+      "id": "choummaly-sayasone--2015-09-03--CHN",
       "officialId": "choummaly-sayasone",
-      "purpose": "Visit to China",
+      "purpose": "Meeting with President of Laos Choummaly Sayasone",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50226"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-08-31",
+      "startDate": "2015-09-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4143,6 +4207,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "2016-02-16",
@@ -4775,6 +4843,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2023-09-12",
+      "engagements": [],
+      "eventName": "Meeting with Vice President of Laos Pany Yathotou",
+      "id": "pany-yathotou--2023-09-12--RUS",
+      "officialId": "pany-yathotou",
+      "purpose": "Meeting with Vice President of Laos Pany Yathotou",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/72256"
+        }
+      ],
+      "startDate": "2023-09-12",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -4823,6 +4919,34 @@
         }
       ],
       "startDate": "2021-10-26",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-05-13",
+      "engagements": [],
+      "eventName": "Attended the U.S.-ASEAN Summit.",
+      "id": "phankham-viphavanh--2022-05-12--USA",
+      "officialId": "phankham-viphavanh",
+      "purpose": "Attended the U.S.-ASEAN Summit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        }
+      ],
+      "startDate": "2022-05-12",
       "statusHint": null,
       "type": "summit"
     },
@@ -5019,6 +5143,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1999-05-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "seine-saphantong--1999-05-23--IND",
+      "officialId": "seine-saphantong",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "1999-05-23",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1999-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "sisavath-keobounphanh--1999-11-28--PHL",
+      "officialId": "sisavath-keobounphanh",
+      "purpose": "Attended the 3rd ASEAN Informal Summit in Manila",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1999-11-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Jakarta",
         "coordinates": [
           106.826944444,
@@ -5100,6 +5280,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-09-04",
+      "engagements": [],
+      "eventName": "Meeting with Prime Minister of Laos Sonexay Siphandone",
+      "id": "sonexay-siphandone--2025-09-04--RUS",
+      "officialId": "sonexay-siphandone",
+      "purpose": "Meeting with Prime Minister of Laos Sonexay Siphandone",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77921"
+        }
+      ],
+      "startDate": "2025-09-04",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -5127,6 +5335,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-05-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "sonexay-siphandone--2026-05-07--PHL",
+      "officialId": "sonexay-siphandone",
+      "purpose": "Attended the 48th ASEAN Summit and related meetings in Lapu-Lapu City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2026-05-07",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-06-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "sonexay-siphandone--2026-06-18--RUS",
+      "officialId": "sonexay-siphandone",
+      "purpose": "Conversation with Prime Minister of Laos Sonexay Siphandone",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80060"
+        }
+      ],
+      "startDate": "2026-06-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -5146,6 +5410,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1958-01-13",
@@ -5174,6 +5442,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1962-07-26",
@@ -5202,6 +5474,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1966-10-12",
@@ -5230,6 +5506,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1967-10-20",
@@ -5258,6 +5538,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1969-10-06",
@@ -5286,11 +5570,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1970-10-21",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1971-08-30",
+      "engagements": [],
+      "eventName": "UN General Assembly",
+      "id": "souvanna-phouma--1971-08-30--USA",
+      "officialId": "souvanna-phouma",
+      "purpose": "Private visit to Washington Dulles International Airport while attending session of the UN General Assembly.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        }
+      ],
+      "startDate": "1971-08-30",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -5342,6 +5658,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         }
       ],
       "startDate": "1972-10-27",
@@ -5584,7 +5904,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2017_ASEAN_Summits"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         }
       ],
       "startDate": "2017-04-28",
@@ -5611,12 +5931,41 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Twelfth_East_Asia_Summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
         }
       ],
       "startDate": "2017-11-13",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2018-01-26",
+      "engagements": [
+        "The leaders of all 10 ASEAN member states were invited as chief guests."
+      ],
+      "eventName": null,
+      "id": "thongloun-sisoulith--2018-01-25--IND",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "69th Republic Day parade",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2018-01-25",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5977,27 +6326,30 @@
           39.9042
         ],
         "countryCode": "CHN",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-10-21",
+      "endDate": "2023-10-17",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Signed agreements"
       ],
-      "eventName": "Belt and Road Forum for International Cooperation",
-      "id": "thongloun-sisoulith--2023-10-16--CHN",
+      "eventName": "Meeting with President of Laos Thongloun Sisoulith",
+      "id": "thongloun-sisoulith--2023-10-17--CHN",
       "officialId": "thongloun-sisoulith",
-      "purpose": "Attended Belt and Road Forum for International Cooperation",
+      "purpose": "Meeting with President of Laos Thongloun Sisoulith",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/72522"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-16",
+      "startDate": "2023-10-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6224,11 +6576,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "16th BRICS summit",
-      "id": "thongloun-sisoulith--2024-10-22--RUS",
+      "eventName": "Meeting with President of Laos Thongloun Sisoulith",
+      "id": "thongloun-sisoulith--2024-10-24--RUS",
       "officialId": "thongloun-sisoulith",
-      "purpose": "Attended the 16th BRICS summit",
+      "purpose": "Meeting with President of Laos Thongloun Sisoulith",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/75386"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
@@ -6238,9 +6594,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-22",
+      "startDate": "2024-10-24",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6566,6 +6922,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-09",
+      "engagements": [],
+      "eventName": "Meeting with President of Laos Thongloun Sisoulith",
+      "id": "thongloun-sisoulith--2026-05-09--RUS",
+      "officialId": "thongloun-sisoulith",
+      "purpose": "Meeting with President of Laos Thongloun Sisoulith",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/79714"
+        }
+      ],
+      "startDate": "2026-05-09",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -6616,6 +7000,34 @@
       "startDate": "2011-11-18",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2012-05-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "thongsing-thammavong--2012-05-10--PHL",
+      "officialId": "thongsing-thammavong",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "2012-05-10",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

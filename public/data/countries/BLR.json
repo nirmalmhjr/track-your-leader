@@ -432,7 +432,7 @@
           "url": "https://en.wikipedia.org/wiki/Vladimir_Yermoshin"
         }
       ],
-      "summary": "Vladimir Vasilievich Yermoshin (born 26 October 1942) is a Belarusian politician who served as Prime Minister of Belarus from 2000 to 2001.Previously, he served as the Mayor of Minsk from 1995 to 2000.",
+      "summary": "Vladimir Vasilievich Yermoshin (born 26 October 1942) is a Belarusian politician who served as Prime Minister of Belarus from 2000 to 2001.",
       "wikidataId": "Q712434"
     },
     {
@@ -4595,6 +4595,35 @@
       "wikidataId": "Q3917722"
     },
     {
+      "aliases": [],
+      "countryCode": "BLR",
+      "fullName": "Mikałaj Ananjeu",
+      "id": "q21091424",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D0%B0%D0%BD%D1%8C%D0%B5%D0%B2_%D0%9D.%D0%9A..jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1999-04-16",
+          "id": "q21091424-p1",
+          "ministry": "Ministry of Sports",
+          "portfolio": "youth",
+          "startDate": "1998-03-16",
+          "title": "Minister of Sports"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q21091424"
+        }
+      ],
+      "summary": "Coach, Belarus.",
+      "wikidataId": "Q21091424"
+    },
+    {
       "aliases": [
         "Mikalay Pyatrovich Korbut",
         "Nikolay Korbut",
@@ -6432,7 +6461,7 @@
       "fullName": "Yury Zakharanka",
       "id": "yury-zakharanka",
       "party": "United Civic Party of Belarus",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Znikn%C4%85%C4%87_03_-_Czarownik_ci%C4%85gnie_za_uszy.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6659,35 +6688,6 @@
       ],
       "summary": "",
       "wikidataId": "Q141613087"
-    },
-    {
-      "aliases": [],
-      "countryCode": "BLR",
-      "fullName": "Ананьев, Николай Константинович",
-      "id": "q21091424",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D0%B0%D0%BD%D1%8C%D0%B5%D0%B2_%D0%9D.%D0%9A..jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1999-04-16",
-          "id": "q21091424-p1",
-          "ministry": "Ministry of Sports",
-          "portfolio": "youth",
-          "startDate": "1998-03-16",
-          "title": "Minister of Sports"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q21091424"
-        }
-      ],
-      "summary": "Coach, Belarus.",
-      "wikidataId": "Q21091424"
     },
     {
       "aliases": [],
@@ -8918,7 +8918,7 @@
       "fullName": "Lyudmila Postoyalko",
       "id": "lyudmila-postoyalko",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D1%8E%D0%B4%D0%BC%D0%B8%D0%BB%D0%B0_%D0%9F%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BB%D0%BA%D0%BE.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -10304,12 +10304,13 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Star City",
+        "city": "Moscow",
         "coordinates": [
-          38.1105,
-          55.8806
+          37.6175,
+          55.750555555
         ],
         "countryCode": "RUS",
+        "precision": "country",
         "region": "Europe"
       },
       "endDate": "1996-01-01",
@@ -11188,8 +11189,8 @@
       "destination": {
         "city": "Damascus",
         "coordinates": [
-          36.292,
-          33.513
+          36.291944444,
+          33.513055555
         ],
         "countryCode": "SYR",
         "region": "Asia"
@@ -11960,6 +11961,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2000-10-19",
+      "engagements": [],
+      "eventName": null,
+      "id": "alexander-lukashenka--2000-10-19--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "President Vladimir Putin met with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/39502"
+        }
+      ],
+      "startDate": "2000-10-19",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tripoli",
         "coordinates": [
           13.1875,
@@ -12322,15 +12351,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2002-06-12",
+      "endDate": "2002-06-11",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "alexander-lukashenka--2002-06-11--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with Alexander Lukashenko, the President of Belarus",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/27088"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -12338,7 +12371,7 @@
       ],
       "startDate": "2002-06-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12677,6 +12710,34 @@
       "startDate": "2003-12-09",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2004-05-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "alexander-lukashenka--2004-05-23--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "Vladimir Putin held talks with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/31004"
+        }
+      ],
+      "startDate": "2004-05-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13107,15 +13168,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2005-07-21",
+      "endDate": "2005-07-20",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "alexander-lukashenka--2005-07-20--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with President of Belarus Aleksandr Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/33777"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13123,7 +13188,7 @@
       ],
       "startDate": "2005-07-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13255,15 +13320,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2005-12-17",
+      "endDate": "2005-12-15",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "alexander-lukashenka--2005-12-15--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/34671"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13271,7 +13340,7 @@
       ],
       "startDate": "2005-12-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13313,15 +13382,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2006-04-29",
+      "endDate": "2006-04-28",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "alexander-lukashenka--2006-04-28--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/35465"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13329,7 +13402,7 @@
       ],
       "startDate": "2006-04-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13371,21 +13444,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2006-08-18",
+      "endDate": "2006-08-19",
       "engagements": [],
       "eventName": "Eurasian Economic Community (EEC) Summit",
-      "id": "alexander-lukashenka--2006-08-11--RUS",
+      "id": "alexander-lukashenka--2006-08-19--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Eurasian Economic Community (EEC) Summit",
+      "purpose": "President Vladimir Putin met with the President of Belarus, Aleksandr Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/36143"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-08-11",
+      "startDate": "2006-08-19",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13775,6 +13852,34 @@
         "precision": "country",
         "region": "Europe"
       },
+      "endDate": "2008-02-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "alexander-lukashenka--2008-02-03--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "President Vladimir Putin met with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43751"
+        }
+      ],
+      "startDate": "2008-02-03",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
       "endDate": "2008-02-22",
       "engagements": [
         "Met President Vladimir Putin"
@@ -13875,18 +13980,22 @@
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
-      "id": "alexander-lukashenka--2008-08-18--RUS",
+      "id": "alexander-lukashenka--2008-08-19--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/1139"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-08-18",
+      "startDate": "2008-08-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13937,8 +14046,12 @@
       "eventName": null,
       "id": "alexander-lukashenka--2008-10-25--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/1850"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13946,7 +14059,7 @@
       ],
       "startDate": "2008-10-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13995,8 +14108,12 @@
       "eventName": null,
       "id": "alexander-lukashenka--2008-12-22--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/2530"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14004,7 +14121,7 @@
       ],
       "startDate": "2008-12-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14145,18 +14262,22 @@
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
-      "id": "alexander-lukashenka--2009-03-18--RUS",
+      "id": "alexander-lukashenka--2009-03-19--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3487"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-03-18",
+      "startDate": "2009-03-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14170,15 +14291,47 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-04-11",
+      "endDate": "2009-03-21",
+      "engagements": [],
+      "eventName": null,
+      "id": "alexander-lukashenka--2009-03-21--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "Dmitry Medvedev met with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3509"
+        }
+      ],
+      "startDate": "2009-03-21",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2009-04-10",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
       "id": "alexander-lukashenka--2009-04-10--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3742"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14186,7 +14339,7 @@
       ],
       "startDate": "2009-04-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14669,11 +14822,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2010-06-11--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/8024"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14681,7 +14838,7 @@
       ],
       "startDate": "2010-06-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15064,23 +15221,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2011-08-24",
+      "endDate": "2011-08-22",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2011-08-18--RUS",
+      "eventName": "Meeting with President of the Republic of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2011-08-22--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of the Republic of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/12386"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-08-18",
+      "startDate": "2011-08-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15237,6 +15398,34 @@
       "startDate": "2011-12-19",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2012-01-23",
+      "engagements": [],
+      "eventName": "Informal meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2012-01-23--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "Informal meeting with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/14365"
+        }
+      ],
+      "startDate": "2012-01-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16033,19 +16222,23 @@
       "engagements": [
         "Met Prime Minister Dmitry Medvedev"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2014-05-07--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2014-05-08--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/20981"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2014-05-07",
+      "startDate": "2014-05-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16259,11 +16452,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2015-02-08--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/47641"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16271,7 +16468,7 @@
       ],
       "startDate": "2015-02-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16289,11 +16486,15 @@
       "engagements": [
         "Attended a meeting of the Supreme State Council of the Union State."
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2015-03-03--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/47771"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -16301,7 +16502,7 @@
       ],
       "startDate": "2015-03-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16434,15 +16635,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2015-07-09",
+      "endDate": "2015-07-08",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "7th BRICS summit",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2015-07-08--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the 7th BRICS summit",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49888"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/7th_BRICS_summit"
@@ -16454,7 +16659,7 @@
       ],
       "startDate": "2015-07-08",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16532,19 +16737,23 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Belarus-Kazakhstan-Russia Trilateral Meeting",
-      "id": "alexander-lukashenka--2015-09-15--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2015-09-18--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Belarus-Kazakhstan-Russia Trilateral Meeting",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50323"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-15",
+      "startDate": "2015-09-18",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16745,19 +16954,23 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2016-01-31--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2016-02-05--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/51271"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-01-31",
+      "startDate": "2016-02-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17072,15 +17285,19 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2016-10-07",
+      "endDate": "2016-10-06",
       "engagements": [
         "Met President Shavkat Mirziyoyev"
       ],
       "eventName": null,
       "id": "alexander-lukashenka--2016-10-06--UZB",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Uzbekistan",
+      "purpose": "The President of Belarus visited the grave of Islam Karimov in Samarkand, met with Karimov's wife and daughter, and met with Shavkat Mirziy…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17088,7 +17305,7 @@
       ],
       "startDate": "2016-10-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17193,23 +17410,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-11-23",
+      "endDate": "2016-11-22",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2016-11-23--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2016-11-22--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/53308"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-11-23",
+      "startDate": "2016-11-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17382,11 +17603,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2017-04-03--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/54176"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17394,7 +17619,7 @@
       ],
       "startDate": "2017-04-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17501,19 +17726,23 @@
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2017-06-29--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2017-06-30--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/54915"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-06-29",
+      "startDate": "2017-06-30",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17754,11 +17983,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Supreme Eurasian Economic Council",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2018-05-14--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Supreme Eurasian Economic Council",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57463"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17766,7 +17999,7 @@
       ],
       "startDate": "2018-05-14",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -17903,15 +18136,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2018-08-25",
+      "endDate": "2018-08-22",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2018-08-22--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58348"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17919,7 +18156,7 @@
       ],
       "startDate": "2018-08-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18093,11 +18330,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2018-12-25--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/59484"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18105,7 +18346,7 @@
       ],
       "startDate": "2018-12-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18123,11 +18364,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2018-12-29--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/59618"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18135,7 +18380,7 @@
       ],
       "startDate": "2018-12-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18149,15 +18394,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-02-15",
+      "endDate": "2019-02-13",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2019-02-13--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/59821"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18165,7 +18414,7 @@
       ],
       "startDate": "2019-02-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18269,27 +18518,30 @@
           42.866666666
         ],
         "countryCode": "KGZ",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2019-06-15",
+      "endDate": "2019-06-14",
       "engagements": [
         "Met President Sooronbay Jeenbekov",
         "Signed agreements"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "alexander-lukashenka--2019-06-13--KGZ",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2019-06-14--KGZ",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/60752"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-06-13",
+      "startDate": "2019-06-14",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18308,19 +18560,23 @@
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2019-07-17--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2019-07-18--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61036"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-07-17",
+      "startDate": "2019-07-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18594,8 +18850,12 @@
       "eventName": null,
       "id": "alexander-lukashenka--2019-12-07--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/62269"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18603,7 +18863,7 @@
       ],
       "startDate": "2019-12-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18622,11 +18882,15 @@
         "Attended the CIS summit.",
         "Met President Vladimir Putin"
       ],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2019-12-20--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/62373"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -18638,7 +18902,7 @@
       ],
       "startDate": "2019-12-20",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18657,18 +18921,22 @@
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "alexander-lukashenka--2020-02-06--RUS",
+      "id": "alexander-lukashenka--2020-02-07--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Talks with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/62752"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2020-02-06",
+      "startDate": "2020-02-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18781,11 +19049,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2020-09-14--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/64031"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -18797,7 +19069,7 @@
       ],
       "startDate": "2020-09-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18814,11 +19086,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2021-02-22--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/65046"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -18830,7 +19106,7 @@
       ],
       "startDate": "2021-02-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18881,11 +19157,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2021-04-22--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/65428"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -18897,7 +19177,7 @@
       ],
       "startDate": "2021-04-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18914,11 +19194,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "World Economic Forum (WEF)",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2021-05-28--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/65699"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -18930,7 +19214,7 @@
       ],
       "startDate": "2021-05-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18948,11 +19232,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2021-07-13--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/66185"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -18960,7 +19248,7 @@
       ],
       "startDate": "2021-07-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19069,11 +19357,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
-      "id": "alexander-lukashenka--2021-12-28--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2021-12-29--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the informal CIS summit..",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/67465"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19083,9 +19375,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-12-28",
+      "startDate": "2021-12-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19132,11 +19424,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2022-03-11--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the 25th",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/67963"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19148,7 +19444,7 @@
       ],
       "startDate": "2022-03-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19165,11 +19461,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2022-04-12--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68181"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19181,7 +19481,7 @@
       ],
       "startDate": "2022-04-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19199,8 +19499,12 @@
       "eventName": null,
       "id": "alexander-lukashenka--2022-05-16--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the CSTO summit.",
+      "purpose": "Conversation with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68422"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19225,15 +19529,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2022-05-22",
+      "endDate": "2022-05-23",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2022-05-22--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2022-05-23--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68460"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19243,9 +19551,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-05-22",
+      "startDate": "2022-05-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19275,6 +19583,34 @@
       "startDate": "2022-06-15",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-06-25",
+      "engagements": [],
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2022-06-25--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68702"
+        }
+      ],
+      "startDate": "2022-06-25",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19326,11 +19662,15 @@
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2022-09-26--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working level visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69434"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19342,7 +19682,7 @@
       ],
       "startDate": "2022-09-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19544,11 +19884,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
-      "id": "alexander-lukashenka--2022-12-26--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2022-12-27--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the informal CIS summit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/70190"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -19558,9 +19902,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-12-26",
+      "startDate": "2022-12-27",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19671,11 +20015,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2023-02-17--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/70530"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19683,7 +20031,7 @@
       ],
       "startDate": "2023-02-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19763,15 +20111,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-04-06",
+      "endDate": "2023-04-05",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2023-04-05--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/70874"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19779,7 +20131,7 @@
       ],
       "startDate": "2023-04-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19862,8 +20214,12 @@
       "eventName": null,
       "id": "alexander-lukashenka--2023-06-09--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Conversation with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71326"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19885,23 +20241,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-25",
+      "endDate": "2023-07-23",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2023-07-22--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2023-07-23--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71723"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-22",
+      "startDate": "2023-07-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19919,11 +20279,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2023-09-15--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/72276"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19931,7 +20295,7 @@
       ],
       "startDate": "2023-09-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20163,16 +20527,20 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2024-01-29",
+      "endDate": "2024-01-28",
       "engagements": [
         "Union State meeting.",
         "Met President Vladimir Putin"
       ],
-      "eventName": "Union State Supreme State Council Summit",
-      "id": "alexander-lukashenka--2024-01-27--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2024-01-28--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "80th anniversary of the end of the Blockade of Leningrad.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/73339"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -20182,9 +20550,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-01-27",
+      "startDate": "2024-01-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20267,15 +20635,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-04-12",
+      "endDate": "2024-04-11",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2024-04-11--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/73852"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20283,7 +20655,7 @@
       ],
       "startDate": "2024-04-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20490,19 +20862,23 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
-      "id": "alexander-lukashenka--2024-10-07--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2024-10-09--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/75291"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2024-10-07",
+      "startDate": "2024-10-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20593,11 +20969,11 @@
       "eventName": null,
       "id": "alexander-lukashenka--2024-11-25--PAK",
       "officialId": "alexander-lukashenka",
-      "purpose": "Official visit.",
+      "purpose": "Official",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Pakistan"
         },
         {
           "label": "COLT dataset",
@@ -20790,11 +21166,15 @@
         "Met with President Vladimir Putin.",
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2025-04-29--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/76825"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -20806,7 +21186,7 @@
       ],
       "startDate": "2025-04-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20910,24 +21290,28 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tianjin",
+        "city": "Beijing",
         "coordinates": [
-          117.205555555,
-          39.146666666
+          116.4074,
+          39.9042
         ],
         "countryCode": "CHN",
         "region": "Asia"
       },
-      "endDate": "2025-09-03",
+      "endDate": "2025-09-02",
       "engagements": [
         "Met General Secretary Xi Jinping",
         "Gave a public address"
       ],
-      "eventName": "2025 Tianjin SCO summit",
-      "id": "alexander-lukashenka--2025-08-31--CHN",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2025-09-02--CHN",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the 2025 Tianjin SCO summit and the 2025 China Victory Day Parade.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77907"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -20937,9 +21321,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-08-31",
+      "startDate": "2025-09-02",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20957,19 +21341,23 @@
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "World Atomic Week",
-      "id": "alexander-lukashenka--2025-09-25--RUS",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2025-09-26--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended World Atomic Week",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78077"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-09-25",
+      "startDate": "2025-09-26",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21012,15 +21400,19 @@
         "countryCode": "KGZ",
         "region": "Asia"
       },
-      "endDate": "2025-11-27",
+      "endDate": "2025-11-26",
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2025-11-26--KGZ",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78560"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21028,7 +21420,7 @@
       ],
       "startDate": "2025-11-26",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21167,15 +21559,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-12-22",
+      "endDate": "2025-12-21",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Supreme Eurasian Economic Council (SEEC) Summit",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2025-12-21--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended Supreme Eurasian Economic Council (SEEC) Summit and Commonwealth of Independent States (CIS) Summit",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78822"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -21183,7 +21579,7 @@
       ],
       "startDate": "2025-12-21",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21226,13 +21622,17 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2026-05-09",
+      "endDate": "2026-05-08",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
       "id": "alexander-lukashenka--2026-05-08--RUS",
       "officialId": "alexander-lukashenka",
-      "purpose": "Attended the 2026 Moscow Victory Day Parade.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/79701"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
@@ -21240,7 +21640,7 @@
       ],
       "startDate": "2026-05-08",
       "statusHint": null,
-      "type": "other"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21257,19 +21657,51 @@
       "engagements": [
         "Attended the EEU summit."
       ],
-      "eventName": null,
-      "id": "alexander-lukashenka--2026-05-28--KAZ",
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2026-05-29--KAZ",
       "officialId": "alexander-lukashenka",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/79909"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
         }
       ],
-      "startDate": "2026-05-28",
+      "startDate": "2026-05-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-06-26",
+      "engagements": [],
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2026-06-26--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80132"
+        }
+      ],
+      "startDate": "2026-06-26",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21351,6 +21783,34 @@
       "startDate": "2026-07-02",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-08-29",
+      "engagements": [],
+      "eventName": "Meeting with President of Belarus Alexander Lukashenko",
+      "id": "alexander-lukashenka--2026-08-29--RUS",
+      "officialId": "alexander-lukashenka",
+      "purpose": "Meeting with President of Belarus Alexander Lukashenko",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/80624"
+        }
+      ],
+      "startDate": "2026-08-29",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -21694,16 +22154,48 @@
       "eventName": null,
       "id": "mikhail-myasnikovich--2012-11-13--IND",
       "officialId": "mikhail-myasnikovich",
-      "purpose": "Visit to India",
+      "purpose": "Working Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/417/Visit_of_Prime_Minister_of_the_Republic_of_Belarus_to_India_November_1314"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2012-11-13",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2022-11-22",
+      "engagements": [],
+      "eventName": null,
+      "id": "raman-halowchanka--2022-11-22--IRN",
+      "officialId": "raman-halowchanka",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2022-11-22",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -21725,7 +22217,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Pakistan"
         }
       ],
       "startDate": "2024-10-15",

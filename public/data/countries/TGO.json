@@ -1631,7 +1631,7 @@
       "fullName": "Calixte Batossie Madjoulba",
       "id": "calixte-batossie-madjoulba",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Reuven_Rivlin_received_the_credentials_of_new_ambassadors_(1452).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4760,7 +4760,7 @@
       "fullName": "Kodjo Menan",
       "id": "kodjo-menan",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kodjo_Menan_with_Timermann.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5136,6 +5136,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1983-10-22",
@@ -5197,6 +5201,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -10044,6 +10052,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-08-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "faure-essozimna-gnassingbe--2013-08-04--IRN",
+      "officialId": "faure-essozimna-gnassingbe",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2013-08-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Ouagadougou",
         "coordinates": [
           -1.5275,
@@ -10823,6 +10859,36 @@
         }
       ],
       "startDate": "2016-01-20",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2016-01-28",
+      "engagements": [
+        "They discussed strong Vatican–Togo ties, the Church’s role in education, and regional challenges, emphasizing peace and security in West Africa."
+      ],
+      "eventName": null,
+      "id": "faure-essozimna-gnassingbe--2016-01-28--VAT",
+      "officialId": "faure-essozimna-gnassingbe",
+      "purpose": "Pope Francis met Togo’s President Faure Gnassingbé.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2016-01-28",
       "statusHint": null,
       "type": "other"
     },
@@ -12264,6 +12330,35 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2018-03-11",
+      "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…"
+      ],
+      "eventName": "International Solar Alliance Summit",
+      "id": "faure-essozimna-gnassingbe--2018-03-08--IND",
+      "officialId": "faure-essozimna-gnassingbe",
+      "purpose": "International Solar Alliance Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2018-03-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Yamoussoukro",
         "coordinates": [
           -5.274166666,
@@ -12733,15 +12828,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-04-30",
+      "endDate": "2019-04-29",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "faure-essozimna-gnassingbe--2019-04-29--VAT",
       "officialId": "faure-essozimna-gnassingbe",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Togo’s President Faure Gnassingbé to discuss strengthening ties, the Church’s role in education and healthcare, and joint…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16436,19 +16535,23 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "faure-essozimna-gnassingbe--2025-11-18--RUS",
+      "eventName": "Meeting with First President of the Council of Ministers of Togo Faure Gnassingbé",
+      "id": "faure-essozimna-gnassingbe--2025-11-19--RUS",
       "officialId": "faure-essozimna-gnassingbe",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with First President of the Council of Ministers of Togo Faure Gnassingbé",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78499"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-18",
+      "startDate": "2025-11-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16618,6 +16721,90 @@
       "startDate": "2011-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2020-06-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "gilbert-houngbo--2020-06-25--VAT",
+      "officialId": "gilbert-houngbo",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2020-06-25",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-06-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "gilbert-houngbo--2022-06-24--VAT",
+      "officialId": "gilbert-houngbo",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        }
+      ],
+      "startDate": "2022-06-24",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-02-02",
+      "engagements": [],
+      "eventName": null,
+      "id": "gilbert-houngbo--2026-02-02--VAT",
+      "officialId": "gilbert-houngbo",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-02-02",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -16890,6 +17077,34 @@
       "type": "multilateral_meeting"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Jerusalem",
+        "coordinates": [
+          35.234156,
+          31.776679
+        ],
+        "countryCode": "ISR",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1964-04-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "nicolas-grunitzky--1964-04-01--ISR",
+      "officialId": "nicolas-grunitzky",
+      "purpose": "Visit to Israel",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Levi_Eshkol"
+        }
+      ],
+      "startDate": "1964-04-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "New York City",
@@ -17065,7 +17280,7 @@
       },
       "endDate": "1960-09-23",
       "engagements": [],
-      "eventName": null,
+      "eventName": "UN General Assembly",
       "id": "sylvanus-epiphanio-olympio--1960-09-23--USA",
       "officialId": "sylvanus-epiphanio-olympio",
       "purpose": "Met with President Eisenhower in New York City while attending UN General Assembly session.",
@@ -17073,6 +17288,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1960-09-23",
@@ -17101,6 +17320,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1962-03-20",

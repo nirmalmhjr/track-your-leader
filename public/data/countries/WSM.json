@@ -567,7 +567,7 @@
       "countryCode": "WSM",
       "fullName": "Ale Vena Ale",
       "id": "ale-vena-ale-wsm",
-      "party": null,
+      "party": "Human Rights Protection Party",
       "photoUrl": null,
       "positions": [
         {
@@ -580,16 +580,35 @@
           "portfolio": "environment",
           "startDate": null,
           "title": "Minister of Natural Resources and Environment"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2023-07-19",
+          "id": "ale-vena-ale-wsm-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-04-09",
+          "title": "Member of the Legislative Assembly of Samoa"
         }
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4714048"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/samoa/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ale_Vena_Ale"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Ale Vena Ale (born 1951/1952) is a Samoan politician and member of the Legislative Assembly of Samoa. He is a founding member of the Human Rights Protection Party.",
+      "wikidataId": "Q4714048"
     },
     {
       "aliases": [],
@@ -2200,6 +2219,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-09-28",
+      "engagements": [],
+      "eventName": "Attended the U.S.-Pacific Island Country Summit.",
+      "id": "fiame-naomi-mata-afa--2022-09-28--USA",
+      "officialId": "fiame-naomi-mata-afa",
+      "purpose": "Attended the U.S.-Pacific Island Country Summit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        }
+      ],
+      "startDate": "2022-09-28",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Suva",
         "coordinates": [
           178.433333333,
@@ -2904,6 +2951,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -3451,6 +3502,34 @@
       "startDate": "1977-06-08",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Manila",
+        "coordinates": [
+          120.977222222,
+          14.595833333
+        ],
+        "countryCode": "PHL",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1980-06-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "tufuga-efi--1980-06-24--PHL",
+      "officialId": "tufuga-efi",
+      "purpose": "Visit to Philippines",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        }
+      ],
+      "startDate": "1980-06-24",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5019,23 +5098,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-12-04",
+      "endDate": "2015-12-03",
       "engagements": [
+        "Talks covered Samoa’s social issues, the Church’s role in education, and climate change challenges facing Pacific island nations.",
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "tuila-epa-sa-ilele-malielegaoi--2015-12-04--VAT",
+      "id": "tuila-epa-sa-ilele-malielegaoi--2015-12-03--VAT",
       "officialId": "tuila-epa-sa-ilele-malielegaoi",
-      "purpose": "Visit to Vatican City",
+      "purpose": "On 3 Dec 2015, Pope Francis met Samoa's PM.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-12-04",
+      "startDate": "2015-12-03",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

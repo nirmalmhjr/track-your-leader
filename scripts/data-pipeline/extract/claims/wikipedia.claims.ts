@@ -1,9 +1,10 @@
-import type { IsoDate, Place } from "@/types/travel.types";
+import type { IsoDate, Place, RoleCategory } from "@/types/travel.types";
 
 import { log } from "../../lib/log";
 import { cleanText, splitSentences } from "../../lib/text";
 import {
     fetchArticleHtml,
+    fetchWikidataIds,
     WIKI_LANGUAGES,
     type WikiLanguage,
     wikipediaUrl,
@@ -16,10 +17,12 @@ import type {
     TripClaim,
 } from "../../types";
 import { buildPlaceResolver, type PlaceIndex, type PlaceResolver } from "../places.resolve";
+import { classifyTitle } from "../roles";
 import { parseTripDates, type TripDates } from "../trip-dates.parse";
 import { discoverTripPages, type TripPage } from "../trip-pages.discover";
 import { parseTripTables, type TripRow } from "../trip-tables.parse";
 import { classifyTripType, detectEventName } from "../trip-type.classify";
+import { officeOf } from "../visitor-titles";
 
 /**
  * Wikipedia trip-list pages: "List of international … trips made by …" for the best-known
@@ -29,7 +32,8 @@ import { classifyTripType, detectEventName } from "../trip-type.classify";
  */
 
 /** Pages about state visits only; their rows default to state visits, received ones included. */
-const STATE_VISIT_PAGE = /^(?:List of state visits|Liste des visites d'État)\b/i;
+const STATE_VISIT_PAGE =
+    /^(?:List of state visits|Liste des visites d'État|Lijst van staatsbezoeken|Liste over statsbesøk|Lista över statsbesök)\b/i;
 const CANCELLED = /\b(cancel+ed|postponed|called off)\b/i;
 const NOTE_NOISE = /^(see also|main article|further information)\b/i;
 const MAX_PURPOSE_LENGTH = 140;
@@ -105,9 +109,13 @@ const describeRow = (row: TripRow): { engagements: string[]; purpose: string | n
 
 interface RowContext {
     draft: OfficialDraft;
+    /** Known officials by Wikidata id, for the country of a visitor no column names. */
+    draftById: ReadonlyMap<string, OfficialDraft>;
     page: TripPage;
     resolver: PlaceResolver;
     today: IsoDate;
+    /** Wikidata ids of the visitors linked in lists of visits received, by article title. */
+    visitorIds: ReadonlyMap<string, string>;
 }
 
 /** Who travelled and where to, as read from one row. */
@@ -131,26 +139,87 @@ const ownTrips = (row: TripRow, { draft, resolver }: RowContext): RowTrip[] =>
         },
     }));
 
+/** Offices a visitor's listed title can give; other titles leave the role to the name. */
+const VISITOR_ROLES: ReadonlySet<RoleCategory> = new Set([
+    "head_of_state",
+    "head_of_government",
+    "deputy_leader",
+    "minister",
+]);
+
+/** The visitor a row names, with their office from the title column ("Prime Minister"). */
+const namedVisitor = (
+    row: TripRow,
+    countryCode: TravellerHint["countryCode"],
+    wikidataId: string | null
+): TravellerHint | null => {
+    const name = cleanText(row.visitor?.text ?? "");
+    if (!name) {
+        return null;
+    }
+    const role = row.visitorTitle ? classifyTitle(row.visitorTitle) : null;
+    // Without a title column the name may carry the office ("Prime Minister Matteo Renzi");
+    // otherwise state visits are paid by heads of state.
+    const categories = role
+        ? role.categories.filter((category) => VISITOR_ROLES.has(category))
+        : (officeOf(name, countryCode)?.categories ?? (["head_of_state"] as RoleCategory[]));
+    return {
+        categories,
+        countryCode,
+        familyName: null,
+        name,
+        portfolio: role?.portfolio ?? null,
+        title: row.visitorTitle,
+        wikidataId,
+    };
+};
+
 /**
- * State visits the page owner hosted: one trip per visiting country, made by whoever was its
- * head of state on that date (state visits are paid by heads of state).
+ * Visits the page owner's country hosted: one trip per visiting country. The visitor is the one
+ * the row names, when it does; otherwise whoever was the country's head of state on that date
+ * (state visits are paid by heads of state).
  */
-const receivedTrips = (row: TripRow, { draft, resolver }: RowContext): RowTrip[] => {
-    const { destination, visitors } = resolver.visitsTo(row, draft.countryCode);
-    return destination
-        ? visitors.map((countryCode) => ({
-              destination,
-              traveller: {
-                  categories: ["head_of_state"],
-                  countryCode,
-                  familyName: null,
-                  name: null,
-                  portfolio: null,
-                  title: "Head of state",
-                  wikidataId: null,
-              },
-          }))
-        : [];
+const receivedTrips = (
+    row: TripRow,
+    { draft, draftById, resolver, visitorIds }: RowContext
+): RowTrip[] => {
+    // Without a country column, the visitor's cell names the country by its flag.
+    const { destination, visitors: listed } = resolver.visitsTo(
+        { cities: row.cities, country: row.country ?? row.visitor },
+        draft.countryCode
+    );
+    if (!destination) {
+        return [];
+    }
+    // The visitor is the linked person who is a known official (the cell may also link the flag
+    // and the office); their record gives the country when nothing else does.
+    const linkedId = (row.visitor?.links ?? [])
+        .map((link) => visitorIds.get(link.title))
+        .find((id) => id !== undefined && draftById.has(id));
+    const linkedCountry = linkedId ? draftById.get(linkedId)?.countryCode : undefined;
+    const visitors =
+        listed.length === 0 && linkedCountry && linkedCountry !== draft.countryCode
+            ? [linkedCountry]
+            : listed;
+    const named =
+        visitors.length === 1 && visitors[0]
+            ? namedVisitor(row, visitors[0], linkedId ?? null)
+            : null;
+    if (named) {
+        return [{ destination, traveller: named }];
+    }
+    return visitors.map((countryCode) => ({
+        destination,
+        traveller: {
+            categories: ["head_of_state"],
+            countryCode,
+            familyName: null,
+            name: null,
+            portfolio: null,
+            title: "Head of state",
+            wikidataId: null,
+        },
+    }));
 };
 
 /** One row can name several countries (a regional tour); each becomes its own claim. */
@@ -158,7 +227,7 @@ const claimsFromRow = (row: TripRow, context: RowContext): TripClaim[] | Skipped
     const { page, today } = context;
     const isStateVisitPage = STATE_VISIT_PAGE.test(page.title);
     const isReceived = page.direction === "received" || row.received;
-    if (isReceived && !isStateVisitPage) {
+    if (isReceived && !isStateVisitPage && !row.visitor) {
         // Visits hosted by a president or minister may be by heads of government too, so the
         // visitor can't be inferred from the office alone.
         return { reason: "hosted visit on a trip page", text: row.country?.text ?? row.date };
@@ -176,7 +245,12 @@ const claimsFromRow = (row: TripRow, context: RowContext): TripClaim[] | Skipped
     }
 
     const purposeText = cleanText(row.purpose?.text ?? "");
-    const { engagements, purpose } = describeRow(row);
+    // The app is in English: other Wikipedias give the trip's facts (dates, places, type), not
+    // their wording.
+    const isEnglish = page.language === "en";
+    const { engagements, purpose } = isEnglish
+        ? describeRow(row)
+        : { engagements: [], purpose: null };
     const isCancelled =
         row.sectionHint === "cancelled" || CANCELLED.test(`${row.date} ${purposeText}`);
     const classified = classifyTripType(purposeText, row.notes);
@@ -186,7 +260,9 @@ const claimsFromRow = (row: TripRow, context: RowContext): TripClaim[] | Skipped
         destination,
         endDate: dates.endDate,
         engagements,
-        eventName: detectEventName(row.purpose?.links.map((link) => link.text) ?? [], purposeText),
+        eventName: isEnglish
+            ? detectEventName(row.purpose?.links.map((link) => link.text) ?? [], purposeText)
+            : null,
         purpose,
         source: "wikipedia",
         sourceRef: { label: "Wikipedia", url: wikipediaUrl(page.title, page.language) },
@@ -195,6 +271,33 @@ const claimsFromRow = (row: TripRow, context: RowContext): TripClaim[] | Skipped
         traveller,
         type: classified === "other" && isStateVisitPage ? "state_visit" : classified,
     }));
+};
+
+/**
+ * Visitors named in lists of visits received, identified by the article their name links to.
+ *
+ * @param parsed - Parsed pages.
+ * @returns Wikidata id per linked article title, per Wikipedia.
+ */
+const resolveVisitors = async (
+    parsed: readonly { page: TripPage; rows: TripRow[] }[]
+): Promise<Map<WikiLanguage, Map<string, string>>> => {
+    const visitorIds = new Map<WikiLanguage, Map<string, string>>();
+    for (const language of WIKI_LANGUAGES) {
+        const titles = parsed
+            .filter(({ page }) => page.language === language)
+            .flatMap(({ page, rows }) =>
+                rows.flatMap((row) =>
+                    page.direction === "received" || row.received ? (row.visitor?.links ?? []) : []
+                )
+            )
+            .map((link) => link.title);
+        if (titles.length > 0) {
+            // biome-ignore lint/performance/noAwaitInLoops: one Wikipedia at a time keeps the lookups gentle.
+            visitorIds.set(language, await fetchWikidataIds(titles, language));
+        }
+    }
+    return visitorIds;
 };
 
 interface WikipediaInput {
@@ -262,6 +365,8 @@ export const extractWikipediaClaims = async ({
         resolvers.set(language, await buildPlaceResolver(links, places, language));
     }
 
+    const visitorIds = await resolveVisitors(parsed);
+
     const claims: TripClaim[] = [];
     for (const { page, rows, skippedTables } of parsed) {
         const draft = draftById.get(page.key);
@@ -275,7 +380,14 @@ export const extractWikipediaClaims = async ({
         }));
         let records = 0;
         for (const row of rows) {
-            const result = claimsFromRow(row, { draft, page, resolver, today });
+            const result = claimsFromRow(row, {
+                draft,
+                draftById,
+                page,
+                resolver,
+                today,
+                visitorIds: visitorIds.get(page.language) ?? new Map(),
+            });
             if (Array.isArray(result)) {
                 claims.push(...result);
                 records += result.length;

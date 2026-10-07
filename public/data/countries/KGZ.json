@@ -156,6 +156,35 @@
       "wikidataId": "Q24669"
     },
     {
+      "aliases": [],
+      "countryCode": "KGZ",
+      "fullName": "Kurmanbek Bakiev",
+      "id": "kurmanbek-bakiev",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_state"
+          ],
+          "endDate": "2005-05-08",
+          "id": "kurmanbek-bakiev-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2005-05-08",
+          "title": "Head of state"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/33301"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Kurmanbek Saliyevich Bakiyev"
       ],
@@ -3621,7 +3650,7 @@
       "fullName": "Muratbek Imanaliyev",
       "id": "muratbek-imanaliyev",
       "party": "Communist Party of the Soviet Union",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Muratbek_Imanaliyev_(cropped).jpeg?width=160",
       "positions": [
         {
           "categories": [
@@ -4610,7 +4639,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2024_Islamabad_SCO_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Pakistan"
         }
       ],
       "startDate": "2024-10-15",
@@ -4629,16 +4658,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2011-12-21",
+      "endDate": "2011-12-19",
       "engagements": [
         "Met President Dmitry Medvedev",
         "Signed agreements"
       ],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2011-12-19--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit and Commonwealth of Independent States (CIS) Summit and Supreme Eurasian Economic Council (SEEC) Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/14055"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4646,7 +4679,7 @@
       ],
       "startDate": "2011-12-19",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4721,23 +4754,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2012-02-23",
+      "endDate": "2012-02-24",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "almazbek-atambaev--2012-02-23--RUS",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
+      "id": "almazbek-atambaev--2012-02-24--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/14587"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-02-23",
+      "startDate": "2012-02-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4817,15 +4854,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2012-05-18",
+      "endDate": "2012-05-15",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2012-05-15--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/15352"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4833,7 +4874,7 @@
       ],
       "startDate": "2012-05-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5203,6 +5244,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-08-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "almazbek-atambaev--2013-08-04--IRN",
+      "officialId": "almazbek-atambaev",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2013-08-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Baku",
         "coordinates": [
           49.835183333,
@@ -5426,11 +5495,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2014-05-08--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/20983"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5438,7 +5511,7 @@
       ],
       "startDate": "2014-05-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5480,16 +5553,19 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2014-05-29",
       "engagements": [],
-      "eventName": "Supreme Eurasion Economic Council",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2014-05-29--KAZ",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Supreme Eurasion Economic Council",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/45792"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5497,7 +5573,7 @@
       ],
       "startDate": "2014-05-29",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5528,6 +5604,34 @@
       "startDate": "2014-06-03",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-08-11",
+      "engagements": [],
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
+      "id": "almazbek-atambaev--2014-08-11--RUS",
+      "officialId": "almazbek-atambaev",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/46430"
+        }
+      ],
+      "startDate": "2014-08-11",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5699,11 +5803,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2014-12-23--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/47322"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5711,7 +5819,7 @@
       ],
       "startDate": "2014-12-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5755,15 +5863,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-02-08",
+      "endDate": "2015-02-07",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2015-02-07--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/47637"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5771,7 +5883,7 @@
       ],
       "startDate": "2015-02-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5813,15 +5925,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-03-19",
+      "endDate": "2015-03-16",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2015-03-16--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/47861"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5829,7 +5945,7 @@
       ],
       "startDate": "2015-03-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6019,15 +6135,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-06-22",
+      "endDate": "2015-06-19",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "St. Petersburg International Economic Forum (SPIEF)",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2015-06-19--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended St. Petersburg International Economic Forum (SPIEF)",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49736"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6035,7 +6155,7 @@
       ],
       "startDate": "2015-06-19",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6140,7 +6260,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2015-09-07",
+      "endDate": "2015-09-05",
       "engagements": [
         "Met President Hassan Rouhani"
       ],
@@ -6150,13 +6270,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-09-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -6195,24 +6319,27 @@
           38.573055555
         ],
         "countryCode": "TJK",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-09-15",
       "engagements": [],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
-      "id": "almazbek-atambaev--2015-09-14--TJK",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
+      "id": "almazbek-atambaev--2015-09-15--TJK",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50293"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-09-14",
+      "startDate": "2015-09-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6230,11 +6357,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2015-10-08--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50465"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6242,7 +6373,7 @@
       ],
       "startDate": "2015-10-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6403,15 +6534,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2015-12-26",
+      "endDate": "2015-12-21",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2015-12-21--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit and Eurasian Economic Union Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50988"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6419,7 +6554,7 @@
       ],
       "startDate": "2015-12-21",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6437,11 +6572,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2016-03-02--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/51438"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6449,7 +6588,7 @@
       ],
       "startDate": "2016-03-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6644,11 +6783,15 @@
       "eventName": null,
       "id": "almazbek-atambaev--2016-12-18--IND",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to India",
+      "purpose": "State visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/938/State_Visit_of_the_President_of_Kyrgyzstan_to_India_December_1821_2016"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2016-12-18",
@@ -6676,6 +6819,10 @@
       "officialId": "almazbek-atambaev",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6846,23 +6993,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-06-25",
+      "endDate": "2017-06-19",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "almazbek-atambaev--2017-06-20--RUS",
+      "eventName": "Informal meeting with President of Kyrgyzstan Almazbek Atambayev",
+      "id": "almazbek-atambaev--2017-06-19--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Informal meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/54820"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-06-20",
+      "startDate": "2017-06-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6876,15 +7027,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-09-15",
+      "endDate": "2017-09-14",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2017-09-14--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/55620"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6892,7 +7047,7 @@
       ],
       "startDate": "2017-09-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6951,7 +7106,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -6974,15 +7129,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-11-18",
+      "endDate": "2017-11-17",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "St. Petersburg Cultural Forum",
+      "eventName": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "id": "almazbek-atambaev--2017-11-17--RUS",
       "officialId": "almazbek-atambaev",
-      "purpose": "Attended St. Petersburg Cultural Forum",
+      "purpose": "Meeting with President of Kyrgyzstan Almazbek Atambayev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/56118"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -6990,7 +7149,7 @@
       ],
       "startDate": "2017-11-17",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8575,24 +8734,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1995-07-25",
+      "endDate": "1995-07-26",
       "engagements": [
         "Met President Fidel Ramos",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "askar-akayev--1995-07-23--PHL",
+      "id": "askar-akayev--1995-07-22--PHL",
       "officialId": "askar-akayev",
       "purpose": "Visit to Philippines",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-07-23",
+      "startDate": "1995-07-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10351,24 +10514,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2000-06-12",
+      "endDate": "2000-06-10",
       "engagements": [
         "Met Supreme Leader Ayatollah Sayyed Ali Khamenei",
         "Signed agreements"
       ],
       "eventName": "Organization of Islamic Cooperation (OIC) Summit",
-      "id": "askar-akayev--2000-06-08--IRN",
+      "id": "askar-akayev--2000-06-10--IRN",
       "officialId": "askar-akayev",
       "purpose": "Attended Organization of Islamic Cooperation (OIC) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-06-08",
+      "startDate": "2000-06-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11152,6 +11319,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2002-05-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "askar-akayev--2002-05-14--RUS",
+      "officialId": "askar-akayev",
+      "purpose": "President Vladimir Putin met with President Askar Akayev of Kyrgyzstan",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43086"
+        }
+      ],
+      "startDate": "2002-05-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Astana",
         "coordinates": [
           71.433333333,
@@ -11418,6 +11613,34 @@
         }
       ],
       "startDate": "2002-08-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2002-08-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "askar-akayev--2002-08-20--USA",
+      "officialId": "askar-akayev",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        }
+      ],
+      "startDate": "2002-08-20",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12930,6 +13153,34 @@
         "precision": "country",
         "region": "Europe"
       },
+      "endDate": "2005-05-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "kurmanbek-bakiev--2005-05-08--RUS",
+      "officialId": "kurmanbek-bakiev",
+      "purpose": "Vladimir Putin met with the acting President of Kyrgyzstan, Kurmanbek Bakiev",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/33301"
+        }
+      ],
+      "startDate": "2005-05-08",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
       "endDate": "2005-05-09",
       "engagements": [
         "Met President Vladimir Putin"
@@ -13043,16 +13294,19 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2005-07-05",
       "engagements": [],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
+      "eventName": "Vladimir Putin held a meeting with Acting President of Kyrgyzstan Kurmanbek Bakiev",
       "id": "kurmanbek-bakiyev--2005-07-05--KAZ",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Vladimir Putin held a meeting with Acting President of Kyrgyzstan Kurmanbek Bakiev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/33700"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13060,7 +13314,7 @@
       ],
       "startDate": "2005-07-05",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13102,15 +13356,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2005-09-05",
+      "endDate": "2005-09-04",
       "engagements": [
         "Met President Vladimir Putin"
       ],
       "eventName": null,
       "id": "kurmanbek-bakiyev--2005-09-04--RUS",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Visit to Russia",
+      "purpose": "Vladimir Putin met with the President of Kyrgyzstan, Kurmanbek Bakiev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/34008"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13118,7 +13376,7 @@
       ],
       "startDate": "2005-09-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13606,7 +13864,6 @@
           53.902246
         ],
         "countryCode": "BLR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2006-11-28",
@@ -13615,18 +13872,22 @@
         "Signed agreements"
       ],
       "eventName": "Commonwealth of Independent States (CIS) Summit",
-      "id": "kurmanbek-bakiyev--2006-11-27--BLR",
+      "id": "kurmanbek-bakiyev--2006-11-28--BLR",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "President Vladimir Putin met with President of Kyrgyzstan Kurmanbek Bakiev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/36725"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-11-27",
+      "startDate": "2006-11-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13767,8 +14028,12 @@
       "eventName": null,
       "id": "kurmanbek-bakiyev--2008-02-21--RUS",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with President of Kyrgyzstan Kurmanbek Bakiev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43850"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13776,7 +14041,7 @@
       ],
       "startDate": "2008-02-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13878,23 +14143,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2008-06-08",
+      "endDate": "2008-06-07",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": null,
-      "id": "kurmanbek-bakiyev--2008-06-06--RUS",
+      "id": "kurmanbek-bakiyev--2008-06-07--RUS",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Kyrgyzstan Kurmanbek Bakiyev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/348"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-06-06",
+      "startDate": "2008-06-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -13943,8 +14212,12 @@
       "eventName": null,
       "id": "kurmanbek-bakiyev--2008-07-16--RUS",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Kyrgyzstan Kurmanbek Bakiyev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/805"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -13952,7 +14225,7 @@
       ],
       "startDate": "2008-07-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14115,7 +14388,7 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-02-06",
+      "endDate": "2009-02-03",
       "engagements": [
         "Met President Dmitry Medvedev",
         "Signed agreements"
@@ -14123,8 +14396,12 @@
       "eventName": "Collective Security Treaty Organization (CSTO) Summit",
       "id": "kurmanbek-bakiyev--2009-02-03--RUS",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit and Eurasian Economic Community (EEC) Summit",
+      "purpose": "Dmitry Medvedev held talks with President of Kyrgyzstan Kurmanbek Bakiyev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3051"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14132,7 +14409,35 @@
       ],
       "startDate": "2009-02-03",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2009-03-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "kurmanbek-bakiyev--2009-03-10--IRN",
+      "officialId": "kurmanbek-bakiyev",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2009-03-10",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -14174,15 +14479,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-06-16",
+      "endDate": "2009-06-14",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
       "eventName": "Collective Security Treaty Organization (CSTO) Summit",
       "id": "kurmanbek-bakiyev--2009-06-14--RUS",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit and Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Dmitry Medvedev met with President of Kyrgyzstan Kurmanbek Bakiyev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/4435"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14190,7 +14499,7 @@
       ],
       "startDate": "2009-06-14",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14289,7 +14598,6 @@
           53.902246
         ],
         "countryCode": "BLR",
-        "precision": "country",
         "region": "Europe"
       },
       "endDate": "2009-11-27",
@@ -14299,8 +14607,12 @@
       "eventName": "Eurasian Economic Community (EEC) Summit",
       "id": "kurmanbek-bakiyev--2009-11-27--BLR",
       "officialId": "kurmanbek-bakiyev",
-      "purpose": "Attended Eurasian Economic Community (EEC) Summit",
+      "purpose": "Dmitry Medvedev met with President of Kyrgyzstan Kurmanbek Bakiev",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/6140"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14308,7 +14620,7 @@
       ],
       "startDate": "2009-11-27",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14405,26 +14717,57 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2010-07-05",
       "engagements": [
         "Met President Nursultan Nazarbayev"
       ],
-      "eventName": "Eurasian Economic Community (EEC) Summit",
-      "id": "roza-otunbayeva--2010-07-04--KAZ",
+      "eventName": "Meeting with the new President of Kyrgyzstan Roza Otunbayeva",
+      "id": "roza-otunbayeva--2010-07-05--KAZ",
       "officialId": "roza-otunbayeva",
-      "purpose": "Attended Eurasian Economic Community (EEC) Summit",
+      "purpose": "Meeting with the new President of Kyrgyzstan Roza Otunbayeva",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/8276"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-07-04",
+      "startDate": "2010-07-05",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2010-07-24",
+      "engagements": [],
+      "eventName": "UN General Assembly",
+      "id": "roza-otunbayeva--2010-07-24--USA",
+      "officialId": "roza-otunbayeva",
+      "purpose": "Met with President Obama at the UN General Assembly in New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        }
+      ],
+      "startDate": "2010-07-24",
+      "statusHint": null,
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -14435,16 +14778,19 @@
           40.181388888
         ],
         "countryCode": "ARM",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-08-22",
+      "endDate": "2010-08-20",
       "engagements": [],
-      "eventName": "Collective Security Treaty Organization (CSTO) Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Roza Otunbayeva",
       "id": "roza-otunbayeva--2010-08-20--ARM",
       "officialId": "roza-otunbayeva",
-      "purpose": "Attended Collective Security Treaty Organization (CSTO) Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Roza Otunbayeva",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/8703"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -14452,7 +14798,7 @@
       ],
       "startDate": "2010-08-20",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -14850,27 +15196,30 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2011-06-16",
+      "endDate": "2011-06-15",
       "engagements": [
         "Met President Nursultan Nazarbayev",
         "Gave a public address"
       ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "roza-otunbayeva--2011-06-14--KAZ",
+      "eventName": "Meeting with President of Kyrgyzstan Roza Otunbayeva",
+      "id": "roza-otunbayeva--2011-06-15--KAZ",
       "officialId": "roza-otunbayeva",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
+      "purpose": "Meeting with President of Kyrgyzstan Roza Otunbayeva",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/11573"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-06-14",
+      "startDate": "2011-06-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15028,16 +15377,20 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2021-02-26",
+      "endDate": "2021-02-24",
       "engagements": [
         "Met with Tatar President Rustam Minnikhanov.",
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "sadyr-japarov--2021-02-25--RUS",
+      "eventName": "Meeting with President of Kyrgyzstan Sadyr Japarov",
+      "id": "sadyr-japarov--2021-02-24--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Official visit.",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/65069"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
@@ -15047,9 +15400,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-02-25",
+      "startDate": "2021-02-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15110,7 +15463,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -15137,11 +15490,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "World Humanitarian Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "id": "sadyr-japarov--2021-05-24--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/65647"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
@@ -15153,7 +15510,7 @@
       ],
       "startDate": "2021-05-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15557,8 +15914,12 @@
       "eventName": "Collective Security Treaty Organization (CSTO) Summit",
       "id": "sadyr-japarov--2022-05-16--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Talks with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/68425"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
@@ -15570,7 +15931,7 @@
       ],
       "startDate": "2022-05-16",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15645,19 +16006,23 @@
         "countryCode": "UZB",
         "region": "Asia"
       },
-      "endDate": "2022-09-16",
+      "endDate": "2022-09-15",
       "engagements": [
         "Met President Shavkat Mirziyoyev",
         "Signed agreements"
       ],
-      "eventName": "2022 Samarkand SCO summit",
+      "eventName": "Meeting with President of Kyrgyz Republic Sadyr Japarov",
       "id": "sadyr-japarov--2022-09-15--UZB",
       "officialId": "sadyr-japarov",
-      "purpose": "Attended the 2022 Samarkand SCO summit",
+      "purpose": "Meeting with President of Kyrgyz Republic Sadyr Japarov",
       "sources": [
         {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69352"
+        },
+        {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -15666,7 +16031,7 @@
       ],
       "startDate": "2022-09-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15740,27 +16105,30 @@
           51.133333333
         ],
         "countryCode": "KAZ",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2022-10-14",
+      "endDate": "2022-10-13",
       "engagements": [
         "Signed agreements",
         "Gave a public address"
       ],
       "eventName": "Commonwealth of Independent States (CIS) Summit",
-      "id": "sadyr-japarov--2022-10-12--KAZ",
+      "id": "sadyr-japarov--2022-10-13--KAZ",
       "officialId": "sadyr-japarov",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit and Conference on Interaction and Confidence-Building Measures in Asia (CICA) and Kyrgyzstan-Russia-Tajikistan Trilateral Meeting",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov and President of Tajikistan Emomali Rahmon",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69591"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2022-10-12",
+      "startDate": "2022-10-13",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -15854,7 +16222,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2022_Organization_of_Turkic_States_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -16038,15 +16406,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-05-09",
+      "endDate": "2023-05-08",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "id": "sadyr-japarov--2023-05-08--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71102"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
@@ -16058,7 +16430,7 @@
       ],
       "startDate": "2023-05-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16392,6 +16764,10 @@
       "purpose": "Attended Economic Cooperation Organization (ECO) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -16701,11 +17077,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "id": "sadyr-japarov--2024-02-21--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/73516"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
@@ -16717,7 +17097,7 @@
       ],
       "startDate": "2024-02-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16928,7 +17308,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2024-07-20",
+      "endDate": "2024-07-19",
       "engagements": [
         "Met President Shavkat Mirziyoyev"
       ],
@@ -16937,6 +17317,10 @@
       "officialId": "sadyr-japarov",
       "purpose": "Visit to Uzbekistan",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -17147,8 +17531,9 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2024-10-03",
+      "endDate": "2024-10-04",
       "engagements": [
+        "Talks highlighted strong relations, cooperation in health, education and culture, local Church life, and global conflicts, stressing peace.",
         "Met Pope Francis"
       ],
       "eventName": null,
@@ -17863,6 +18248,43 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "region": "Europe"
+      },
+      "endDate": "2025-07-02",
+      "engagements": [
+        "Met President Vladimir Putin"
+      ],
+      "eventName": null,
+      "id": "sadyr-japarov--2025-07-02--RUS",
+      "officialId": "sadyr-japarov",
+      "purpose": "Talks with President of Kyrgyzstan Sadyr Japarov",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/77342"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2025-07-02",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Baku",
         "coordinates": [
           49.835183333,
@@ -17882,39 +18304,6 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
-        }
-      ],
-      "startDate": "2025-07-03",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "region": "Europe"
-      },
-      "endDate": "2025-07-03",
-      "engagements": [
-        "Met President Vladimir Putin"
-      ],
-      "eventName": null,
-      "id": "sadyr-japarov--2025-07-03--RUS",
-      "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2025-07-03",
@@ -18139,23 +18528,23 @@
       "engagements": [
         "Met President Donald Trump"
       ],
-      "eventName": "C5+1 Summit",
-      "id": "sadyr-japarov--2025-11-06--USA",
+      "eventName": "Participated in C5+1 Presidential Summit Meeting with President Trump at the White House.",
+      "id": "sadyr-japarov--2025-11-05--USA",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit",
+      "purpose": "Participated in C5+1 Presidential Summit Meeting with President Trump at the White House.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-11-06",
+      "startDate": "2025-11-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -18303,19 +18692,23 @@
       },
       "endDate": "2025-12-21",
       "engagements": [],
-      "eventName": null,
-      "id": "sadyr-japarov--2025-12-20--RUS",
+      "eventName": "Meeting with President of Kyrgyzstan Sadyr Japarov",
+      "id": "sadyr-japarov--2025-12-21--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/78821"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
         }
       ],
-      "startDate": "2025-12-20",
+      "startDate": "2025-12-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18359,11 +18752,15 @@
       },
       "endDate": "2026-04-23",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "id": "sadyr-japarov--2026-04-23--RUS",
       "officialId": "sadyr-japarov",
-      "purpose": "Working visit.",
+      "purpose": "Meeting with President of Kyrgyzstan Sadyr Japarov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/79602"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sadyr_Japarov"
@@ -18371,7 +18768,7 @@
       ],
       "startDate": "2026-04-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -18812,7 +19209,7 @@
         "countryCode": "UZB",
         "region": "Asia"
       },
-      "endDate": "2017-12-13",
+      "endDate": "2017-12-14",
       "engagements": [
         "Met President Shavkat Mirziyoyev"
       ],
@@ -18823,7 +19220,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -19049,11 +19446,15 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Eurasian Economic Union (EAEU) Summit,Supreme Eurasian Economic Council (SEEC) Summit",
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "id": "sooronbay-jeenbekov--2018-05-14--RUS",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Took part in the a summit of the Eurasian Economic Union.",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57461"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
@@ -19065,7 +19466,7 @@
       ],
       "startDate": "2018-05-14",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19116,11 +19517,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "id": "sooronbay-jeenbekov--2018-06-14--RUS",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Attended the 2018 FIFA World Cup",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57783"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
@@ -19132,7 +19537,7 @@
       ],
       "startDate": "2018-06-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19273,11 +19678,15 @@
       },
       "endDate": "2018-09-28",
       "engagements": [],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
-      "id": "sooronbay-jeenbekov--2018-09-27--TJK",
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
+      "id": "sooronbay-jeenbekov--2018-09-28--TJK",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58646"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
@@ -19287,9 +19696,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-27",
+      "startDate": "2018-09-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19431,11 +19840,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "id": "sooronbay-jeenbekov--2019-02-09--RUS",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/59803"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -19443,7 +19856,7 @@
       ],
       "startDate": "2019-02-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19526,9 +19939,10 @@
       },
       "endDate": "2019-05-31",
       "engagements": [
-        "Met Prime Minister Narendra Modi"
+        "Leaders of 8 countries (all BIMSTEC countries excluding India, plus Kyrgyzstan and Mauritius), were invited to the swearing-in ceremony.",
+        "Thailand was represented by Special envoy Grisada Boonrach."
       ],
-      "eventName": null,
+      "eventName": "Second oath of office ceremony of Prime Minister Narendra Modi",
       "id": "sooronbay-jeenbekov--2019-05-28--IND",
       "officialId": "sooronbay-jeenbekov",
       "purpose": "Second swearing-in ceremony of Narendra Modi.",
@@ -19544,7 +19958,7 @@
       ],
       "startDate": "2019-05-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19693,11 +20107,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "id": "sooronbay-jeenbekov--2019-07-11--RUS",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/60981"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
@@ -19709,7 +20127,7 @@
       ],
       "startDate": "2019-07-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19756,11 +20174,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "id": "sooronbay-jeenbekov--2019-09-20--RUS",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Attended Centre 2019 strategic command-and-staff exercises",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61586"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
@@ -19772,7 +20194,7 @@
       ],
       "startDate": "2019-09-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -20123,11 +20545,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "id": "sooronbay-jeenbekov--2020-09-28--RUS",
       "officialId": "sooronbay-jeenbekov",
-      "purpose": "Working Visit",
+      "purpose": "Meeting with President of Kyrgyzstan Sooronbay Jeenbekov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/64098"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sooronbay_Jeenbekov"
@@ -20139,7 +20565,7 @@
       ],
       "startDate": "2020-09-28",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

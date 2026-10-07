@@ -3,6 +3,7 @@ import { ROLE_RANK } from "@/lib/travel/travel.constants";
 import type { CountryCode } from "@/types/geo.types";
 import type { SourceRef } from "@/types/travel.types";
 
+import { log } from "../lib/log";
 import { capitalize, cleanText, normalizeName, slugify, stripParenthetical } from "../lib/text";
 import type { WarehouseOfficial } from "../lib/warehouse";
 import {
@@ -16,7 +17,7 @@ import {
     snakString,
     type WikidataEntity,
 } from "../sources/wikidata";
-import { fetchIntros, wikipediaUrl } from "../sources/wikipedia";
+import { fetchIntros, fetchPageImages, PHOTO_LANGUAGES, wikipediaUrl } from "../sources/wikipedia";
 import type { OfficialDraft, PositionDraft } from "../types";
 import { classifyTitle } from "./roles";
 import { type Roster, rosterKey } from "./roster";
@@ -240,6 +241,27 @@ export const assignIds = (
 const positionRank = (position: PositionDraft): number =>
     Math.min(...position.categories.map((category) => ROLE_RANK[category]));
 
+/**
+ * Positions without repeats: two sources can report the same term (the leaders step and the
+ * people sweep both list "Minister of External Relations" from 2020), which shows twice otherwise.
+ * When one report knows the term is current and the other only that its end is unknown, the
+ * current one is kept.
+ *
+ * @param positions - Positions from every source.
+ * @returns Each office and term once.
+ */
+export const uniquePositions = <T extends PositionDraft>(positions: readonly T[]): T[] => {
+    const byTerm = new Map<string, T>();
+    for (const position of positions) {
+        const key = `${position.title}|${position.startDate}|${position.endDate}`;
+        const known = byTerm.get(key);
+        if (!known || (known.undated && !position.undated)) {
+            byTerm.set(key, position);
+        }
+    }
+    return [...byTerm.values()];
+};
+
 /** Current positions first (most senior first), then past ones from newest to oldest. */
 export const comparePositions = (a: PositionDraft, b: PositionDraft): number => {
     const aCurrent = a.endDate === null && !a.undated;
@@ -251,6 +273,49 @@ export const comparePositions = (a: PositionDraft, b: PositionDraft): number => 
         return positionRank(a) - positionRank(b) || a.title.localeCompare(b.title);
     }
     return (b.endDate ?? "").localeCompare(a.endDate ?? "") || a.title.localeCompare(b.title);
+};
+
+/**
+ * Photos for people Wikidata has none for: the free lead image of their article on the first
+ * Wikipedia (in `PHOTO_LANGUAGES` order) that has one.
+ *
+ * @param people - Wikidata items, with their article titles.
+ * @returns File name per person's item id.
+ */
+const leadImages = async (
+    people: ReadonlyMap<string, WikidataEntity>
+): Promise<Map<string, string>> => {
+    const found = new Map<string, string>();
+    const missing = [...people.values()].filter(
+        (person) => !snakString(claimsOf(person, PROPERTY.image)[0]?.mainsnak)
+    );
+    for (const language of PHOTO_LANGUAGES) {
+        const titled = missing.flatMap((person) => {
+            const title = person.wikiTitles[`${language}wiki`];
+            return title && !found.has(person.id) ? [{ id: person.id, title }] : [];
+        });
+        if (titled.length === 0) {
+            continue;
+        }
+        // A Wikipedia that fails only costs its photos, never the run.
+        // biome-ignore lint/performance/noAwaitInLoops: languages are tried in order of preference.
+        const images = await fetchPageImages(
+            titled.map(({ title }) => title),
+            language
+        ).catch((error: unknown) => {
+            log.warn(
+                `Lead images from ${language}.wikipedia.org failed: ${(error as Error).message}`
+            );
+            return new Map<string, string>();
+        });
+        for (const { id, title } of titled) {
+            const image = images.get(title);
+            if (image) {
+                found.set(id, image);
+            }
+        }
+    }
+    return found;
 };
 
 const officialRank = (official: GeneratedOfficial): number =>
@@ -271,8 +336,10 @@ export const enrichOfficials = async (
 ): Promise<{ idOf: Map<OfficialDraft, string>; officials: WarehouseOfficial[] }> => {
     const people = await fetchEntities(
         drafts.flatMap((draft) => draft.wikidataId ?? []),
-        ["labels", "aliases", "descriptions", "claims", "sitelinks"]
+        ["labels", "aliases", "descriptions", "claims", "sitelinks"],
+        PHOTO_LANGUAGES.map((language) => `${language}wiki`)
     );
+    const pageImages = await leadImages(people);
     await fillStartDates(drafts, people);
 
     const partyIds = [...people.values()].flatMap((person) => partyIdOf(person) ?? []);
@@ -285,7 +352,10 @@ export const enrichOfficials = async (
     const officials = drafts.map((draft): WarehouseOfficial => {
         const id = ids.get(draft) ?? slugify(draft.name);
         const person = draft.wikidataId ? people.get(draft.wikidataId) : undefined;
-        const photo = person ? snakString(claimsOf(person, PROPERTY.image)[0]?.mainsnak) : null;
+        const photo = person
+            ? (snakString(claimsOf(person, PROPERTY.image)[0]?.mainsnak) ??
+              pageImages.get(person.id))
+            : null;
         const partyId = person ? partyIdOf(person) : null;
         const sources = [...draft.sources];
         if (person?.enwikiTitle) {
@@ -302,10 +372,12 @@ export const enrichOfficials = async (
             id,
             party: partyId ? (parties.get(partyId)?.label ?? null) : null,
             photoUrl: photo ? commonsImageUrl(photo, PHOTO_WIDTH) : null,
-            positions: [...draft.positions].sort(comparePositions).map((position, index) => ({
-                ...position,
-                id: `${id}-p${index + 1}`,
-            })),
+            positions: uniquePositions(draft.positions)
+                .sort(comparePositions)
+                .map((position, index) => ({
+                    ...position,
+                    id: `${id}-p${index + 1}`,
+                })),
             sources,
             summary: summaryFor(
                 person?.enwikiTitle ? intros.get(person.enwikiTitle) : undefined,

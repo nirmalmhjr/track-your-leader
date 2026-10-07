@@ -200,7 +200,7 @@
       "fullName": "Lúcio Lara",
       "id": "lucio-lara",
       "party": "People's Movement for the Liberation of Angola",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/L%C3%BAcio_Lara.jpeg?width=160",
       "positions": [
         {
           "categories": [
@@ -4665,17 +4665,6 @@
           "portfolio": "foreign_affairs",
           "startDate": "2020-10-01",
           "title": "Minister of External Relations"
-        },
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "tete-antonio-p2",
-          "ministry": "Ministry of External Relations",
-          "portfolio": null,
-          "startDate": "2020-10-01",
-          "title": "Minister of External Relations"
         }
       ],
       "sources": [
@@ -7025,7 +7014,7 @@
       "fullName": "Paulo Teixeira Jorge",
       "id": "paulo-teixeira-jorge",
       "party": "People's Movement for the Liberation of Angola",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulo_Jorge%2C_1978_(cropped).tif?width=160",
       "positions": [
         {
           "categories": [
@@ -7151,18 +7140,6 @@
           "portfolio": null,
           "startDate": "1983-01-01",
           "title": "Governor of Cunene"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "pedro-mutindi-p6",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2019-10-29",
-          "title": "Member of the National Assembly of Angola",
-          "undated": true
         }
       ],
       "sources": [
@@ -7221,18 +7198,6 @@
           "portfolio": "education",
           "startDate": "2010-02-06",
           "title": "Minister of Education of Angola"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "pinda-simao-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2020-11-19",
-          "title": "Member of the National Assembly of Angola",
-          "undated": true
         }
       ],
       "sources": [
@@ -7466,18 +7431,6 @@
           "portfolio": "environment",
           "startDate": "2002-12-05",
           "title": "Minister of Urban Affairs and Environment of Angola"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "virgilio-ferreira-de-fontes-pereira-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2018-10-12",
-          "title": "Member of the National Assembly of Angola",
-          "undated": true
         }
       ],
       "sources": [
@@ -8112,11 +8065,15 @@
       },
       "endDate": "2018-07-26",
       "engagements": [],
-      "eventName": "Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "eventName": "Meeting with President of Angola Joao Lourenco",
       "id": "joao-lourenco--2018-07-26--ZAF",
       "officialId": "joao-lourenco",
-      "purpose": "Attended Brazil-Russia-India-China-South Africa (BRICS) Summit",
+      "purpose": "Meeting with President of Angola Joao Lourenco",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58109"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8124,7 +8081,7 @@
       ],
       "startDate": "2018-07-26",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8265,7 +8222,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2018-09-26",
@@ -8712,7 +8669,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -8740,19 +8697,23 @@
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "joao-lourenco--2019-10-22--RUS",
+      "eventName": "Meeting with President of Angola Joao Manuel Goncalves Lourenco",
+      "id": "joao-lourenco--2019-10-24--RUS",
       "officialId": "joao-lourenco",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with President of Angola Joao Manuel Goncalves Lourenco",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/61898"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-10-22",
+      "startDate": "2019-10-24",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8794,24 +8755,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2019-11-14",
+      "endDate": "2019-11-12",
       "engagements": [
         "Met Pope Francis",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "joao-lourenco--2019-11-11--VAT",
+      "id": "joao-lourenco--2019-11-12--VAT",
       "officialId": "joao-lourenco",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Angola’s President João Lourenço to discuss strong bilateral ties, the Church’s social role, the recent Vatican-Angola Agr…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-11-11",
+      "startDate": "2019-11-12",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -9712,6 +9677,34 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "2022-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "joao-lourenco--2022-11-30--USA",
+      "officialId": "joao-lourenco",
+      "purpose": "Met with President Biden marks the 30th anniversary of the Diplomatic Relations between Angola and the United States.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2022-11-30",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "2022-12-15",
       "engagements": [],
       "eventName": "Attended the U.S.-Africa Leaders' Summit.",
@@ -10137,7 +10130,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -10204,6 +10197,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -11332,17 +11329,21 @@
       },
       "endDate": "2025-05-04",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Signed agreements"
+        "First visit by a President of Angola to India in 38 years.",
+        "Met Prime Minister Narendra Modi"
       ],
       "eventName": "India-Angola Business Forum",
       "id": "joao-lourenco--2025-05-02--IND",
       "officialId": "joao-lourenco",
-      "purpose": "Attended India-Angola Business Forum",
+      "purpose": "State Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/1514/State_Visit_of_President_of_Angola_to_India_May_0204_2025"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -12199,6 +12200,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12907,6 +12912,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -14344,6 +14353,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -14855,6 +14868,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15314,24 +15331,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2006-11-02",
+      "endDate": "2006-10-31",
       "engagements": [
         "Met President Vladimir Putin",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "jose-eduardo-dos-santos--2006-10-30--RUS",
+      "id": "jose-eduardo-dos-santos--2006-10-31--RUS",
       "officialId": "jose-eduardo-dos-santos",
-      "purpose": "Visit to Russia",
+      "purpose": "Vladimir Putin met with the President of Angola, Jose Eduardo dos Santos",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/36541"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-10-30",
+      "startDate": "2006-10-31",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -16416,8 +16437,12 @@
       "eventName": null,
       "id": "jose-eduardo-dos-santos--2014-05-02--VAT",
       "officialId": "jose-eduardo-dos-santos",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Angola’s President dos Santos, discussing Church–State relations, a planned agreement on the Church’s legal status, the Ch…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

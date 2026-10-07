@@ -791,7 +791,7 @@
       "fullName": "Joseph Nérette",
       "id": "joseph-nerette",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph_Nerette.png?width=160",
       "positions": [
         {
           "categories": [
@@ -2533,7 +2533,7 @@
       "fullName": "Duly Brutus",
       "id": "duly-brutus",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/2010_February_23_Christine_Quinn.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3254,7 +3254,7 @@
       "fullName": "Jean Victor Généus",
       "id": "jean-victor-geneus",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/01.01.2023_-_Cumprimentos_dos_chefes_de_Estado_e_de_Governo_(52622175009).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3404,7 +3404,7 @@
       "fullName": "Jean-Victor Harvel Jean-Baptiste",
       "id": "jean-victor-harvel-jean-baptiste",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Victor_Harvel_Jean-Baptiste.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4249,9 +4249,11 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Paul Antoine Bien-Aime"
+      ],
       "countryCode": "HTI",
-      "fullName": "Paul Antoine Bien-Aime",
+      "fullName": "Paul Antoine Bien-Aimé",
       "id": "paul-antoine-bien-aime-hti",
       "party": null,
       "photoUrl": null,
@@ -4262,35 +4264,6 @@
           ],
           "endDate": null,
           "id": "paul-antoine-bien-aime-hti-p1",
-          "ministry": "Ministry of the Interior and Territorial Communities",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of the Interior and Territorial Communities"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "HTI",
-      "fullName": "Paul Antoine Bien-Aimé",
-      "id": "paul-antoine-bien-aime",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "paul-antoine-bien-aime-p1",
           "ministry": "Ministry of Interior and Territorial Communities",
           "portfolio": "home_affairs",
           "startDate": "2024-11-16",
@@ -4300,8 +4273,19 @@
           "categories": [
             "minister"
           ],
+          "endDate": null,
+          "id": "paul-antoine-bien-aime-hti-p2",
+          "ministry": "Ministry of the Interior and Territorial Communities",
+          "portfolio": "home_affairs",
+          "startDate": "2024-11-16",
+          "title": "Minister of the Interior and Territorial Communities"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
           "endDate": "2011-10-19",
-          "id": "paul-antoine-bien-aime-p2",
+          "id": "paul-antoine-bien-aime-hti-p3",
           "ministry": "Ministry of Interior and Territorial Communities",
           "portfolio": "home_affairs",
           "startDate": "2006-06-09",
@@ -4312,6 +4296,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q16199298"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
         },
         {
           "label": "Wikipedia",
@@ -4355,9 +4343,11 @@
       "wikidataId": "Q955737"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Pedrica Saint-Jean"
+      ],
       "countryCode": "HTI",
-      "fullName": "Pedrica Saint-Jean",
+      "fullName": "Pédrica Saint-Jean",
       "id": "pedrica-saint-jean-hti",
       "party": null,
       "photoUrl": null,
@@ -4370,33 +4360,15 @@
           "id": "pedrica-saint-jean-hti-p1",
           "ministry": "Ministry of Women’s Affairs and Women’s Rights",
           "portfolio": "women",
-          "startDate": null,
+          "startDate": "2024-11-16",
           "title": "Minister for Women’s Affairs and Women’s Rights"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "HTI",
-      "fullName": "Pédrica Saint-Jean",
-      "id": "pedrica-saint-jean",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "pedrica-saint-jean-p1",
+          "id": "pedrica-saint-jean-hti-p2",
           "ministry": null,
           "portfolio": "women",
           "startDate": "2024-11-16",
@@ -4407,6 +4379,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q131749214"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
         },
         {
           "label": "Wikipedia",
@@ -4803,36 +4779,9 @@
       "wikidataId": "Q114735642"
     },
     {
-      "aliases": [],
-      "countryCode": "HTI",
-      "fullName": "Sandra Paulemon",
-      "id": "sandra-paulemon-hti",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "sandra-paulemon-hti-p1",
-          "ministry": "Ministry of Planning and External Cooperation",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Planning and External Cooperation"
-        }
+      "aliases": [
+        "Sandra Paulemon"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "HTI",
       "fullName": "Sandra Paulémon",
       "id": "sandra-paulemon",
@@ -4855,6 +4804,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q138766257"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
         }
       ],
       "summary": "Haitian journalist.",
@@ -5157,36 +5110,9 @@
       "wikidataId": "Q20666359"
     },
     {
-      "aliases": [],
-      "countryCode": "HTI",
-      "fullName": "Vijonet Demero",
-      "id": "vijonet-demero-hti",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "vijonet-demero-hti-p1",
-          "ministry": "Ministry of National Education and Vocational Training",
-          "portfolio": "education",
-          "startDate": null,
-          "title": "Minister of National Education and Vocational Training"
-        }
+      "aliases": [
+        "Vijonet Demero"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "HTI",
       "fullName": "Vijonet Déméro",
       "id": "vijonet-demero",
@@ -5199,6 +5125,17 @@
           ],
           "endDate": null,
           "id": "vijonet-demero-p1",
+          "ministry": "Ministry of National Education and Vocational Training",
+          "portfolio": "education",
+          "startDate": "2026-03-04",
+          "title": "Minister of National Education and Vocational Training"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "vijonet-demero-p2",
           "ministry": "Ministry of National Education and Vocational Training of Haiti",
           "portfolio": "education",
           "startDate": "2026-03-04",
@@ -5209,6 +5146,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q139407904"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/haiti/"
         }
       ],
       "summary": "",
@@ -5433,7 +5374,7 @@
       "fullName": "Hervé Denis",
       "id": "herve-denis",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anbasad%C3%A8_Herv%C3%A9_Denis_ap_pale_Relasyon_ki_dwe_Egziste_ant_Ayiti_ak_Dyaspora_a.webm?width=160",
       "positions": [
         {
           "categories": [
@@ -5629,6 +5570,34 @@
       "startDate": "2024-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "alix-didier-fils-aime--2026-05-09--VAT",
+      "officialId": "alix-didier-fils-aime",
+      "purpose": "Discussion about bilateral relations and mentions of necessary international aid for the Haitian crisis.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-05-09",
+      "statusHint": null,
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -6682,6 +6651,90 @@
         "precision": "country",
         "region": "Americas"
       },
+      "endDate": "1941-05-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "elie-lescot--1941-04-22--USA",
+      "officialId": "elie-lescot",
+      "purpose": "Discussed economic assistance and Inter-American defense.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1941-04-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1942-03-24",
+      "engagements": [],
+      "eventName": null,
+      "id": "elie-lescot--1942-03-23--USA",
+      "officialId": "elie-lescot",
+      "purpose": "Signed agreements regarding economic and military assistance. In U.S. March 21 – April 9; visited New York City.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1942-03-23",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1943-10-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "elie-lescot--1943-10-14--USA",
+      "officialId": "elie-lescot",
+      "purpose": "At invitation of the President.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1943-10-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
       "endDate": "1990-05-24",
       "engagements": [
         "Met President George H.W. Bush"
@@ -6694,6 +6747,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -6843,6 +6900,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1986-11-20",
@@ -6957,6 +7018,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1993-03-16",
@@ -7074,6 +7139,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1994-09-16",
@@ -7105,6 +7174,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -9421,6 +9494,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -9479,8 +9556,12 @@
       "eventName": null,
       "id": "joseph-michel-martelly--2014-02-24--VAT",
       "officialId": "joseph-michel-martelly",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis received Haiti’s President Martelly, praising Church support in education, health, and charity, and stressing reconstruction,…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10465,13 +10546,18 @@
       },
       "endDate": "2018-01-26",
       "engagements": [
+        "Talks praised strong ties, Church aid in education and health, and urged dialogue to address emigration and social challenges.",
         "Met Pope Francis"
       ],
       "eventName": null,
       "id": "jovenel-moise--2018-01-26--VAT",
       "officialId": "jovenel-moise",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Haitian President Jovenel Moïse.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10479,7 +10565,7 @@
       ],
       "startDate": "2018-01-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10723,6 +10809,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -11326,7 +11416,7 @@
       },
       "endDate": "1955-01-29",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Addressed U.S. Congress",
       "id": "paul-magloire--1955-01-26--USA",
       "officialId": "paul-magloire",
       "purpose": "Official visit.",
@@ -11334,6 +11424,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1955-01-26",
@@ -11422,6 +11516,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         },
         {
           "label": "COLT dataset",
@@ -12156,6 +12254,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -12715,6 +12817,34 @@
       "startDate": "2007-02-12",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2007-03-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "rene-preval--2007-03-06--USA",
+      "officialId": "rene-preval",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "2007-03-06",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -13295,6 +13425,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "2010-03-09",
@@ -13527,6 +13661,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
         }
       ],
       "startDate": "1993-12-01",

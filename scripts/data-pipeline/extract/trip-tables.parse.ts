@@ -38,6 +38,10 @@ export interface TripRow {
     received: boolean;
     /** Set by headings such as "Future trips" or "Cancelled visits". */
     sectionHint: TravelStatusHint;
+    /** The visitor, in lists of visits received that name them ("Ariel Sharon"). */
+    visitor: TableCell | null;
+    /** The visitor's office as listed ("Prime Minister"). */
+    visitorTitle: string | null;
 }
 
 export interface ParsedTripPage {
@@ -46,7 +50,16 @@ export interface ParsedTripPage {
     skippedTables: string[];
 }
 
-type ColumnKey = "cities" | "country" | "date" | "endDate" | "notes" | "purpose";
+type ColumnKey =
+    | "cities"
+    | "country"
+    | "date"
+    | "endDate"
+    | "notes"
+    | "purpose"
+    | "visitor"
+    | "visitorTitle"
+    | "year";
 
 /** Whole words in any script: `\b` only knows ASCII letters, so it can't bound "é", "Ort" or "کشور". */
 const words = (list: readonly string[]): string => `(?<!\\p{L})(?:${list.join("|")})(?!\\p{L})`;
@@ -66,6 +79,9 @@ const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
             "fecha de (?:fin|término)",
             "data de (?:fim|término)",
             "enddatum",
+            "einddatum",
+            "end",
+            "帰国(?:月日)?",
             "تاريخ الانتهاء",
             "تاریخ پایان",
         ]),
@@ -79,6 +95,14 @@ const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
             "periodo",
             "data",
             "datum",
+            "begindatum",
+            "start(?: date)?",
+            "dato",
+            "出国(?:月日)?",
+            "月日",
+            "日付",
+            "วันที่",
+            "tarikh",
             "tanggal",
             "날짜",
             "일자",
@@ -105,6 +129,15 @@ const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
             "land",
             "länder",
             "staat(?:en)?",
+            "v[æe]rtsland",
+            "värdstat",
+            "gäststat",
+            "訪問国",
+            "ประเทศ",
+            "訪問先",
+            "国",
+            // Emperors' tables list countries under "places visited"; city lists keep a "国" column.
+            "訪問地",
             "negara",
             "국가",
             "방문국",
@@ -139,6 +172,9 @@ const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
                     "استان",
                     "город(?:а)?",
                     "места",
+                    "都市(?:・地域)?",
+                    "เมือง",
+                    "訪問地",
                 ]
             )}`,
             "u"
@@ -183,20 +219,45 @@ const COLUMN_PATTERNS: readonly (readonly [ColumnKey, RegExp])[] = [
                     "비고",
                     "ملاحظات",
                     "примечания",
+                    "備考",
+                    "หมายเหตุ",
+                    "butiran",
+                    "詳細",
                 ]
             )}`,
             "u"
         ),
     ],
+    // Lists of visits a country received name each visitor and their office.
+    [
+        "visitor",
+        headerPattern([
+            "name",
+            "leader",
+            "guests?",
+            "visitors?",
+            "gäst",
+            "gjest(?:ende(?: statsoverhode)?)?",
+            "staatshoofd",
+            "invité",
+        ]),
+    ],
+    ["visitorTitle", headerPattern(["title", "office", "position", "titre", "cargo"])],
+    // A year column of its own ("年" in Japanese tables): each row's dates omit the year.
+    ["year", headerPattern(["年"])],
 ];
 
 const YEAR = /\b(?:19|20)\d{2}\b/g;
+const ROW_YEAR = /(?:19|20)\d{2}/;
 const FUTURE_HEADING =
     /\b(future|upcoming|scheduled|planned|proposed|futur[oa]s?|próxim[oa]s|programad[oa]s|futurs?|prévus?|previst[oa]s|geplant|künftige?|mendatang|direncanakan)\b|(^|\s)à venir|예정|مستقبلية|آینده/i;
 const CANCELLED_HEADING =
     /\b(cancel+ed|postponed|cancelad[oa]s?|suspendid[oa]s?|annul|abgesagt|dibatalkan)|취소|ملغاة|لغو/i;
 const RECEIVED_HEADING =
-    /\b(received|incoming|hosted|inbound|recibid[oa]s|reçue?s|recebid[oa]s|empfangen)\b/i;
+    /\b(received|incoming|hosted|inbound|recibid[oa]s|reçue?s|recebid[oa]s|empfangen|inkomende|inkommande)\b/i;
+/** A column naming the guests ("Gjestende statsoverhode", "Gäst"): the table lists visits received. */
+const GUEST_HEADER =
+    /(?<!\p{L})(?:guests?|visitors?|gjestende|gjest|gäst(?:stat)?|bezoekers?)(?!\p{L})/iu;
 const NON_ARTICLE_TITLE = /^(file|image|help|wikipedia|category|template|portal|special):/i;
 const WIKI_LINK = "/wiki/";
 const NOISE =
@@ -319,8 +380,12 @@ const isHeaderRow = (line: readonly Element[]): boolean =>
     line.length > 1 && line.every((cell) => cell.tagName === "th");
 
 /** Whether a table's columns can make trips: a date, and a country or city. */
+/** A date, and where the trip went or (in lists of visits received) who came. */
 const hasDateAndPlace = (columns: Partial<Record<ColumnKey, number>>): boolean =>
-    columns.date !== undefined && (columns.country !== undefined || columns.cities !== undefined);
+    columns.date !== undefined &&
+    (columns.country !== undefined ||
+        columns.cities !== undefined ||
+        columns.visitor !== undefined);
 
 /**
  * The header row and its columns. A banner row ("Year 1403") may sit above the real headers,
@@ -355,6 +420,14 @@ const readDateText = (
     return end && end !== start ? `${start} – ${end}` : start;
 };
 
+/** The year a row's year cell gives ("1971年（昭和46）"), if the table has one. */
+const rowYearOf =
+    ($: CheerioAPI) =>
+    (cell: Element | undefined): number | null => {
+        const year = cell ? cleanText($(cell).text()).match(ROW_YEAR)?.[0] : undefined;
+        return year ? Number(year) : null;
+    };
+
 const readTable = (
     $: CheerioAPI,
     table: Element,
@@ -366,6 +439,8 @@ const readTable = (
         return { headers, rows: [] };
     }
 
+    const isGuestTable = headers.some((header) => GUEST_HEADER.test(header));
+    const rowYear = rowYearOf($);
     const caption = cleanText($(table).children("caption").text());
     const context = caption ? contextFrom([caption]) : { hint: null, received: false, year: null };
     const cellAt = (line: readonly Element[], key: ColumnKey): Element | undefined => {
@@ -384,16 +459,20 @@ const readTable = (
         const cities = cellAt(line, "cities");
         const purpose = cellAt(line, "purpose");
         const notes = cellAt(line, "notes");
+        const visitor = cellAt(line, "visitor");
+        const visitorTitle = cellAt(line, "visitorTitle");
         return [
             {
                 cities: cities ? readCell($, cities) : null,
-                contextYear: context.year ?? section.year,
+                contextYear: rowYear(cellAt(line, "year")) ?? context.year ?? section.year,
                 country: country ? readCell($, country) : null,
                 date,
                 notes: notes ? readNotes($, notes) : null,
                 purpose: purpose ? readCell($, purpose) : null,
-                received: context.received || section.received,
+                received: context.received || section.received || isGuestTable,
                 sectionHint: context.hint ?? section.hint,
+                visitor: visitor ? readCell($, visitor) : null,
+                visitorTitle: visitorTitle ? cleanText($(visitorTitle).text()) || null : null,
             },
         ];
     });
@@ -421,7 +500,9 @@ export const parseTripTables = (html: string): ParsedTripPage => {
             headings[level] = cleanText($(element).text());
             continue;
         }
-        if ($(element).parents("table").length > 0) {
+        // A table inside a trip table holds its details; one inside a plain layout table (the
+        // Swedish lists put outgoing and incoming visits side by side) is a trip table itself.
+        if ($(element).parents("table.wikitable").length > 0) {
             continue;
         }
         const table = readTable($, element, contextFrom(headings));

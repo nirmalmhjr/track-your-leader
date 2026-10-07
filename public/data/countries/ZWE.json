@@ -1615,7 +1615,7 @@
       "fullName": "Denis Norman",
       "id": "denis-norman",
       "party": "Zimbabwe African National Union – Patriotic Front",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Denis_Norman%2C_1981_(cropped).png?width=160",
       "positions": [
         {
           "categories": [
@@ -1707,7 +1707,7 @@
       "fullName": "Edgar Moyo",
       "id": "edgar-moyo",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IAEA_Zimbabwe_Bilateral_Meeting%2C_Vienna%2C_September_2024%2C_01.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2008,8 +2008,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2023-09-12",
+          "endDate": null,
           "id": "evelyn-ndlovu-p1",
+          "ministry": "Ministry of Environment, Climate and Wildlife",
+          "portfolio": "environment",
+          "startDate": null,
+          "title": "Minister of Environment, Climate and Wildlife"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-09-12",
+          "id": "evelyn-ndlovu-p2",
           "ministry": "Ministry of Education, Sport and Culture",
           "portfolio": "education",
           "startDate": "2021-09-30",
@@ -2022,41 +2033,16 @@
           "url": "https://www.wikidata.org/wiki/Q110197487"
         },
         {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/zimbabwe/"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Evelyn_Ndlovu"
         }
       ],
       "summary": "Evelyn Ndlovu is a Zimbabwean politician. She is currently the Minister of Environment, Climate and Wildlife.",
       "wikidataId": "Q110197487"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ZWE",
-      "fullName": "Evelyn Ndlovu",
-      "id": "evelyn-ndlovu-zwe",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "evelyn-ndlovu-zwe-p1",
-          "ministry": "Ministry of Environment, Climate and Wildlife",
-          "portfolio": "environment",
-          "startDate": null,
-          "title": "Minister of Environment, Climate and Wildlife"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/zimbabwe/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -5632,7 +5618,7 @@
       "fullName": "Ziyambi Ziyambi",
       "id": "ziyambi-ziyambi",
       "party": "Zimbabwe African National Union – Patriotic Front",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ziyambi_Ziyambi.png?width=160",
       "positions": [
         {
           "categories": [
@@ -6115,7 +6101,7 @@
       "fullName": "Taonga Mushayavanhu",
       "id": "taonga-mushayavanhu",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taonga_Mushayavanhu_(2017).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6233,7 +6219,7 @@
       "fullName": "David Karimanzira",
       "id": "david-karimanzira",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aston_Webb_Hall%2C_Birmingham_University.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6334,18 +6320,6 @@
           "portfolio": "science",
           "startDate": "2009-02-13",
           "title": "Minister of Information and Communications Technology"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "nelson-chamisa-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2003-03-30",
-          "title": "Member of the National Assembly of Zimbabwe",
-          "undated": true
         }
       ],
       "sources": [
@@ -6401,18 +6375,6 @@
           "portfolio": "tourism",
           "startDate": "2009-02-13",
           "title": "Minister of Tourism"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "walter-mzembi-p4",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2004-10-09",
-          "title": "Member of the National Assembly of Zimbabwe",
-          "undated": true
         }
       ],
       "sources": [
@@ -6596,6 +6558,34 @@
       "startDate": "2023-08-22",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2024-04-26",
+      "engagements": [],
+      "eventName": null,
+      "id": "constantine-chiwenga--2024-04-26--IRN",
+      "officialId": "constantine-chiwenga",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2024-04-26",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9702,15 +9692,19 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2023-07-28",
+      "endDate": "2023-07-27",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Russia-Africa Summit",
+      "eventName": "Meeting with President of Zimbabwe Emmerson Mnangagwa",
       "id": "emmerson-mnangagwa--2023-07-27--RUS",
       "officialId": "emmerson-mnangagwa",
-      "purpose": "Attended the 2nd Russia–Africa Summit.",
+      "purpose": "Meeting with President of Zimbabwe Emmerson Mnangagwa",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71820"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Emmerson_Mnangagwa"
@@ -9722,7 +9716,7 @@
       ],
       "startDate": "2023-07-27",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -10718,23 +10712,27 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2025-05-11",
+      "endDate": "2025-05-10",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "emmerson-mnangagwa--2025-05-08--RUS",
+      "eventName": "Meeting with President of Zimbabwe Emmerson Dambudzo Mnangagwa",
+      "id": "emmerson-mnangagwa--2025-05-10--RUS",
       "officialId": "emmerson-mnangagwa",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Zimbabwe Emmerson Dambudzo Mnangagwa",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/76893"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2025-05-08",
+      "startDate": "2025-05-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -11045,15 +11043,19 @@
         "countryCode": "VAT",
         "region": "Europe"
       },
-      "endDate": "2025-09-01",
+      "endDate": "2025-08-30",
       "engagements": [
         "Met Pope Leo XIV"
       ],
       "eventName": null,
       "id": "emmerson-mnangagwa--2025-08-30--VAT",
       "officialId": "emmerson-mnangagwa",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Leo XIV met Zimbabwe's President Mnangagwa to discuss Church-state ties, socio-economic issues, and cooperation on education, health,…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -11796,6 +11798,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1980-08-21",
@@ -11824,6 +11830,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1983-09-12",
@@ -12355,6 +12365,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -13620,6 +13634,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -21415,24 +21433,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-05-18",
+      "endDate": "2010-05-17",
       "engagements": [
         "Met President Mahmoud Ahmadinejad",
         "Gave a public address"
       ],
       "eventName": "G15 Summit",
-      "id": "robert-mugabe--2010-05-16--IRN",
+      "id": "robert-mugabe--2010-05-15--IRN",
       "officialId": "robert-mugabe",
       "purpose": "Attended G15 Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2010-05-16",
+      "startDate": "2010-05-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -22811,7 +22833,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",
@@ -24425,19 +24447,23 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "robert-mugabe--2015-05-06--RUS",
+      "eventName": "Meeting with President of Zimbabwe Robert Mugabe",
+      "id": "robert-mugabe--2015-05-10--RUS",
       "officialId": "robert-mugabe",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Zimbabwe Robert Mugabe",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/49451"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-05-06",
+      "startDate": "2015-05-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -26078,23 +26104,27 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-08-06",
+      "endDate": "2017-08-05",
       "engagements": [
         "Met President Hassan Rouhani"
       ],
       "eventName": null,
-      "id": "robert-mugabe--2017-08-04--IRN",
+      "id": "robert-mugabe--2017-08-05--IRN",
       "officialId": "robert-mugabe",
       "purpose": "Visit to Iran",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-08-04",
+      "startDate": "2017-08-05",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

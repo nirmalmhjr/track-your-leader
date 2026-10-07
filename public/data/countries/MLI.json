@@ -1688,9 +1688,11 @@
       "wikidataId": "Q106580823"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Amadou KEITA"
+      ],
       "countryCode": "MLI",
-      "fullName": "Amadou Keita",
+      "fullName": "Amadou Keïta",
       "id": "amadou-keita-mli",
       "party": null,
       "photoUrl": null,
@@ -1701,37 +1703,6 @@
           ],
           "endDate": null,
           "id": "amadou-keita-mli-p1",
-          "ministry": "Ministry of Mines",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Mines"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Amadou KEITA"
-      ],
-      "countryCode": "MLI",
-      "fullName": "Amadou Keïta",
-      "id": "amadou-keita",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "amadou-keita-p1",
           "ministry": "Ministry of Higher Education and Scientific Research",
           "portfolio": "education",
           "startDate": "2021-06-11",
@@ -2056,38 +2027,10 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
-      "countryCode": "MLI",
-      "fullName": "Daoud Aly Mohammedine",
-      "id": "daoud-aly-mohammedine",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "daoud-aly-mohammedine-p1",
-          "ministry": "Ministry of Security and Civilian Protection",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Security and Civilian Protection"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
         "Col-Maj. Daouda Aly Mohammedine",
-        "Daoud Aly MOHAMMEDINE"
+        "Daoud Aly MOHAMMEDINE",
+        "Daoud Aly Mohammedine"
       ],
       "countryCode": "MLI",
       "fullName": "Daouda Aly Mohammedine",
@@ -2105,21 +2048,36 @@
           "portfolio": null,
           "startDate": "2021-06-11",
           "title": "Minister of Internal Security and Civil Protection"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "daouda-aly-mohammedine-p2",
+          "ministry": "Ministry of Security and Civilian Protection",
+          "portfolio": null,
+          "startDate": "2021-06-11",
+          "title": "Minister of Security and Civilian Protection"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q114674179"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
         }
       ],
       "summary": "Politician in Mali.",
       "wikidataId": "Q114674179"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "DEMBELE Madina SISSOKO",
+        "Dembele Madina Sissoko",
+        "Madina Dembéle Sissoko"
+      ],
       "countryCode": "MLI",
-      "fullName": "Dembele Madina Sissoko",
+      "fullName": "Dembéle Madina Sissoko",
       "id": "dembele-madina-sissoko-mli",
       "party": null,
       "photoUrl": null,
@@ -2132,7 +2090,7 @@
           "id": "dembele-madina-sissoko-mli-p1",
           "ministry": "Ministry of Transport and Infrastructure",
           "portfolio": "transport",
-          "startDate": null,
+          "startDate": "2021-06-11",
           "title": "Minister of Transport and Infrastructure"
         }
       ],
@@ -2140,38 +2098,6 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "DEMBELE Madina SISSOKO",
-        "Madina Dembéle Sissoko"
-      ],
-      "countryCode": "MLI",
-      "fullName": "Dembéle Madina Sissoko",
-      "id": "dembele-madina-sissoko",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "dembele-madina-sissoko-p1",
-          "ministry": "Ministry of Transport and Infrastructure",
-          "portfolio": "transport",
-          "startDate": "2021-06-11",
-          "title": "Minister of Transport and Infrastructure"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q114674180"
         }
       ],
       "summary": "Politician in Mali.",
@@ -2562,7 +2488,8 @@
     {
       "aliases": [
         "Col-Maj. Ismael Wagué",
-        "Ismael WAGUE"
+        "Ismael WAGUE",
+        "Ismael Wague"
       ],
       "countryCode": "MLI",
       "fullName": "Ismaël Wagué",
@@ -2580,12 +2507,23 @@
           "portfolio": null,
           "startDate": "2020-10-05",
           "title": "Minister of Reconciliation"
+        },
+        {
+          "categories": [
+            "junior_minister"
+          ],
+          "endDate": null,
+          "id": "ismael-wague-mli-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2020-10-05",
+          "title": "Minister of State and Minister of Reconciliation, Peace and National Cohesion"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q98491629"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
         },
         {
           "label": "Wikipedia",
@@ -2613,45 +2551,31 @@
           "portfolio": null,
           "startDate": "2026-01-01",
           "title": "Minister of Territorial Administration and Decentralisation of Mali"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "issa-ousmane-coulibaly-p2",
+          "ministry": "Ministry of Territorial Administration and Decentralization",
+          "portfolio": null,
+          "startDate": "2026-01-01",
+          "title": "Minister of Territorial Administration and Decentralization"
         }
       ],
       "sources": [
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q139913051"
-        }
-      ],
-      "summary": "",
-      "wikidataId": "Q139913051"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MLI",
-      "fullName": "Issa Ousmane Coulibaly",
-      "id": "issa-ousmane-coulibaly-mli",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "issa-ousmane-coulibaly-mli-p1",
-          "ministry": "Ministry of Territorial Administration and Decentralization",
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of Territorial Administration and Decentralization"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
         }
       ],
       "summary": "",
-      "wikidataId": null
+      "wikidataId": "Q139913051"
     },
     {
       "aliases": [
@@ -2822,35 +2746,6 @@
       "wikidataId": "Q3218355"
     },
     {
-      "aliases": [],
-      "countryCode": "MLI",
-      "fullName": "Mahamadou Kassogue",
-      "id": "mahamadou-kassogue",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "mahamadou-kassogue-p1",
-          "ministry": "Ministry of Justice, Human Rights and Keeper of the Seals",
-          "portfolio": "justice",
-          "startDate": null,
-          "title": "Minister of Justice, Human Rights and Keeper of the Seals"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
         "Mamadou KONE",
         "Mamadou Koné"
@@ -2944,6 +2839,37 @@
     },
     {
       "aliases": [
+        "Amadou Keita"
+      ],
+      "countryCode": "MLI",
+      "fullName": "Mamadou Amadou Keita",
+      "id": "amadou-keita",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "amadou-keita-p1",
+          "ministry": "Ministry of Mines",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Mines"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
+        }
+      ],
+      "summary": "Malian painter.",
+      "wikidataId": "Q138349898"
+    },
+    {
+      "aliases": [
         "Mamadou Diarra"
       ],
       "countryCode": "MLI",
@@ -2976,6 +2902,7 @@
     {
       "aliases": [
         "Mahamadou KASSOGUE",
+        "Mahamadou Kassogue",
         "Mahamadou Kassogué"
       ],
       "countryCode": "MLI",
@@ -2994,12 +2921,23 @@
           "portfolio": "justice",
           "startDate": "2021-06-11",
           "title": "Minister of Justice of Mali"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "mamadou-kassogue-p2",
+          "ministry": "Ministry of Justice, Human Rights and Keeper of the Seals",
+          "portfolio": "justice",
+          "startDate": "2021-06-11",
+          "title": "Minister of Justice, Human Rights and Keeper of the Seals"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q113669743"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
         }
       ],
       "summary": "Politician in Mali.",
@@ -3064,12 +3002,14 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Mamou Daffe"
+      ],
       "countryCode": "MLI",
-      "fullName": "Mamou Daffe",
+      "fullName": "Mamou Daffé",
       "id": "mamou-daffe",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mamou_Daff%C3%A9.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3089,8 +3029,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Malian philanthropist.",
+      "wikidataId": "Q85708907"
     },
     {
       "aliases": [],
@@ -4392,31 +4332,13 @@
           "portfolio": null,
           "startDate": "2021-06-11",
           "title": "Minister Delegate to the Minister of Rural Development"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q114674193"
-        }
-      ],
-      "summary": "Politician in Mali.",
-      "wikidataId": "Q114674193"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MLI",
-      "fullName": "Youba Ba",
-      "id": "youba-ba-mli",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
+        },
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "youba-ba-mli-p1",
+          "id": "youba-ba-p2",
           "ministry": "Ministry of Livestock and Fisheries",
           "portfolio": "agriculture",
           "startDate": null,
@@ -4425,12 +4347,16 @@
       ],
       "sources": [
         {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q114674193"
+        },
+        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Mali.",
+      "wikidataId": "Q114674193"
     },
     {
       "aliases": [],
@@ -4555,35 +4481,6 @@
       ],
       "summary": "Politician in Mali.",
       "wikidataId": "Q114674185"
-    },
-    {
-      "aliases": [],
-      "countryCode": "MLI",
-      "fullName": "Ismael Wague",
-      "id": "ismael-wague",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "junior_minister"
-          ],
-          "endDate": null,
-          "id": "ismael-wague-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of State and Minister of Reconciliation, Peace and National Cohesion"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/mali/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -6099,6 +5996,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -6106,6 +6007,34 @@
       "startDate": "1997-11-18",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-12-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "alpha-oumar-konare--1997-12-09--IRN",
+      "officialId": "alpha-oumar-konare",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1997-12-09",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -9429,6 +9358,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -13137,6 +13070,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15571,24 +15508,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-30",
+      "endDate": "2023-07-29",
       "engagements": [
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "assimi-goita--2023-07-26--RUS",
+      "eventName": "Meeting with Interim President of Mali Assimi Goïta",
+      "id": "assimi-goita--2023-07-29--RUS",
       "officialId": "assimi-goita",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with Interim President of Mali Assimi Goïta",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71842"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-26",
+      "startDate": "2023-07-29",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -19788,6 +19729,35 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.208888888,
+          28.613888888
+        ],
+        "countryCode": "IND",
+        "region": "Asia"
+      },
+      "endDate": "2018-03-11",
+      "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…"
+      ],
+      "eventName": "International Solar Alliance Summit",
+      "id": "ibrahim-boubacar-keita--2018-03-08--IND",
+      "officialId": "ibrahim-boubacar-keita",
+      "purpose": "International Solar Alliance Summit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2018-03-08",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Riyadh",
         "coordinates": [
           46.71,
@@ -20602,8 +20572,12 @@
       "eventName": null,
       "id": "ibrahim-boubacar-keita--2020-02-13--VAT",
       "officialId": "ibrahim-boubacar-keita",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met Mali’s President Ibrahim Boubacar Keïta to discuss strong ties, security and humanitarian issues, terrorism, food insecuri…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -20857,11 +20831,43 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1961-09-12",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1980-02-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "moussa-traore--1980-02-11--IRQ",
+      "officialId": "moussa-traore",
+      "purpose": "Visit to Iraq",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        }
+      ],
+      "startDate": "1980-02-11",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -20885,6 +20891,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1988-10-05",

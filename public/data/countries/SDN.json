@@ -83,7 +83,7 @@
       "fullName": "Ahmed Awad Ibn Auf",
       "id": "ahmed-awad-ibn-auf",
       "party": "independent politician",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sudanese_coup_2019.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3902,7 +3902,7 @@
       "fullName": "Awad Ahmad al-Jaz",
       "id": "awad-ahmad-al-jaz",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sudan_Minister_of_Energy_%26_Mining%2C_Dr._Awad_Ahmed_Al-Jaz%2C_meeting_with_the._Union_Minister_for_Petroleum_and_Natural_Gas%2C_Shri_Murli_Deora%2C_in_New_Delhi_on_November_06%2C_2007_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -11025,7 +11025,7 @@
       "fullName": "Tayseer Alnorani",
       "id": "tayseer-alnorani",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taysir_El_Nourani.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -14749,6 +14749,7 @@
           32.8875
         ],
         "countryCode": "LBY",
+        "precision": "country",
         "region": "Africa"
       },
       "endDate": "2024-02-27",
@@ -16305,6 +16306,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1961-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "ibrahim-abboud--1961-10-04--USA",
+      "officialId": "ibrahim-abboud",
+      "purpose": "State visit.Afterwards visited Los Angeles, Fresno, San Francisco, Chicago, and New York City.Departed U.S.October 15.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "1961-10-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Cairo",
         "coordinates": [
           31.235833333,
@@ -16328,6 +16357,34 @@
       "startDate": "1964-01-13",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "London",
+        "coordinates": [
+          -0.1276,
+          51.5072
+        ],
+        "countryCode": "GBR",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "1964-06-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "ibrahim-abboud--1964-05-26--GBR",
+      "officialId": "ibrahim-abboud",
+      "purpose": "Visit to United Kingdom",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_received_by_Elizabeth_II"
+        }
+      ],
+      "startDate": "1964-05-26",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -16658,6 +16715,34 @@
       "startDate": "2025-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamil-idris--2026-05-11--VAT",
+      "officialId": "kamil-idris",
+      "purpose": "Discussion about the Sudanese civil war, the related humanitarian crisis, and the immediate necessity of a ceasefire, delivery of aid, and…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-05-11",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -18825,6 +18910,34 @@
       "startDate": "1997-08-11",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1997-12-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "omar-al-bashir--1997-12-09--IRN",
+      "officialId": "omar-al-bashir",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1997-12-09",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -26278,7 +26391,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
         },
         {
           "label": "COLT dataset",
@@ -26429,7 +26542,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",
@@ -29243,6 +29356,34 @@
         "precision": "country",
         "region": "Europe"
       },
+      "endDate": "2018-07-14",
+      "engagements": [],
+      "eventName": "Meeting with President of Sudan Omar al-Bashir",
+      "id": "omar-al-bashir--2018-07-14--RUS",
+      "officialId": "omar-al-bashir",
+      "purpose": "Meeting with President of Sudan Omar al-Bashir",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/57998"
+        }
+      ],
+      "startDate": "2018-07-14",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
       "endDate": "2018-07-22",
       "engagements": [
         "Met President Vladimir Putin"
@@ -29409,6 +29550,34 @@
       "startDate": "2019-02-09",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1986-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "sadiq-al-mahdi--1986-01-01--IRN",
+      "officialId": "sadiq-al-mahdi",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "1986-01-01",
+      "statusHint": null,
+      "type": "state_visit"
     }
   ]
 }

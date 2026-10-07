@@ -2433,35 +2433,6 @@
     {
       "aliases": [],
       "countryCode": "DJI",
-      "fullName": "Ahmed Osman Ali",
-      "id": "ahmed-osman-ali-dji",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "central_banker"
-          ],
-          "endDate": null,
-          "id": "ahmed-osman-ali-dji-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2026-10-05",
-          "title": "Governor, Central Bank"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/djibouti/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "DJI",
       "fullName": "Hassan Mohamed Kamil",
       "id": "hassan-mohamed-kamil",
       "party": null,
@@ -2691,6 +2662,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1977-09-27",
@@ -2893,6 +2868,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1991-04-23",
@@ -3645,7 +3624,7 @@
       },
       "endDate": "1999-09-21",
       "engagements": [],
-      "eventName": null,
+      "eventName": "United Nations General Assembly",
       "id": "ismail-omar-guelleh--1999-09-21--USA",
       "officialId": "ismail-omar-guelleh",
       "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
@@ -3653,6 +3632,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1999-09-21",
@@ -4031,6 +4014,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -4066,6 +4053,34 @@
       "startDate": "2003-02-23",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2003-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "ismail-omar-guelleh--2003-05-01--IND",
+      "officialId": "ismail-omar-guelleh",
+      "purpose": "State Visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2003-05-01",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5184,7 +5199,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
         },
         {
           "label": "COLT dataset",
@@ -5245,7 +5260,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",
@@ -5423,6 +5438,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5453,6 +5472,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2014-08-05",
@@ -6700,28 +6723,32 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-03-12",
+      "endDate": "2018-03-11",
       "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": "International Solar Alliance (ISA) Summit",
-      "id": "ismail-omar-guelleh--2018-03-11--IND",
+      "eventName": "International Solar Alliance Summit",
+      "id": "ismail-omar-guelleh--2018-03-08--IND",
       "officialId": "ismail-omar-guelleh",
-      "purpose": "Attended International Solar Alliance (ISA) Summit",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-11",
+      "startDate": "2018-03-08",
       "statusHint": null,
       "type": "summit"
     },
@@ -8378,6 +8405,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",

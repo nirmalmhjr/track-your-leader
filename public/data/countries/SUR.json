@@ -1342,12 +1342,14 @@
       "wikidataId": "Q2124641"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Andre Misiekaba"
+      ],
       "countryCode": "SUR",
-      "fullName": "Andre Misiekaba",
+      "fullName": "André Misiekaba",
       "id": "andre-misiekaba-sur",
-      "party": null,
-      "photoUrl": null,
+      "party": "National Democratic Party",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Misiekaba_2014.png?width=160",
       "positions": [
         {
           "categories": [
@@ -1359,6 +1361,18 @@
           "portfolio": "health",
           "startDate": null,
           "title": "Minister of Health, Wellbeing and Labor"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "andre-misiekaba-sur-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the National Assembly of Suriname",
+          "undated": true
         }
       ],
       "sources": [
@@ -1367,8 +1381,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/suriname/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Surinamese politician.",
+      "wikidataId": "Q3245564"
     },
     {
       "aliases": [],
@@ -1811,10 +1825,12 @@
       "wikidataId": "Q97497908"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Harish Monorath"
+      ],
       "countryCode": "SUR",
-      "fullName": "Harish Monorath",
-      "id": "harish-monorath",
+      "fullName": "Harish C. Monorath",
+      "id": "harish-c-monorath",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1823,11 +1839,23 @@
             "minister"
           ],
           "endDate": null,
-          "id": "harish-monorath-p1",
+          "id": "harish-c-monorath-p1",
           "ministry": "Ministry of Justice and Police",
           "portfolio": "justice",
           "startDate": null,
           "title": "Minister of Justice and Police"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "harish-c-monorath-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the National Assembly of Suriname",
+          "undated": true
         }
       ],
       "sources": [
@@ -1836,8 +1864,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/suriname/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Surinamese politician.",
+      "wikidataId": "Q17269982"
     },
     {
       "aliases": [],
@@ -3584,6 +3612,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2025-10-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "albert-ramdin--2025-10-06--VAT",
+      "officialId": "albert-ramdin",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2025-10-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -3654,16 +3710,20 @@
       "eventName": null,
       "id": "ashwin-adhin--2017-01-05--IND",
       "officialId": "ashwin-adhin",
-      "purpose": "Visit to India",
+      "purpose": "Bhartiya pravashi diwas",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/941/Visit_of_Vice_President_of_Suriname_to_India_January_0514_2017"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2017-01-05",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -3704,13 +3764,11 @@
         "region": "Americas"
       },
       "endDate": "2020-08-09",
-      "engagements": [
-        "Participou da cerimônia de posse do novo presidente eleito da Guiana, Irfaan Ali."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2020-08-08--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "Primeira viagem internacional como presidente do Suriname.",
+      "purpose": "Visit to Guyana",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3734,13 +3792,13 @@
       },
       "endDate": "2021-08-20",
       "engagements": [
-        "O presidente Santokhi visitou o país vizinho com uma ampla delegação para discutir assuntos de parceria econômica entre os dois países.",
-        "Encontrou-se com o presidente Irfaan Ali."
+        "Met President Irfaan Ali",
+        "Signed agreements"
       ],
       "eventName": null,
       "id": "chan-santokhi--2021-08-17--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de Estado.",
+      "purpose": "Visit to Guyana",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3769,13 +3827,13 @@
       },
       "endDate": "2021-09-09",
       "engagements": [
-        "Santokhi foi recebido pelo primeiro-ministro Mark Rutte e pelo rei Guilherme.",
-        "Visitou também o parlamento neerlandês."
+        "Met Prime Minister Mark Rutte",
+        "Gave a public address"
       ],
       "eventName": null,
       "id": "chan-santokhi--2021-09-08--NLD",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Netherlands",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3793,7 +3851,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Cidade do México",
+        "city": "Mexico City",
         "coordinates": [
           -99.13589,
           19.353773
@@ -3803,13 +3861,13 @@
       },
       "endDate": "2021-09-19",
       "engagements": [
-        "Encontro com o presidente do México Andrés Manuel López Obrador.",
-        "Met President Andres Manuel Lopez Obrador"
+        "Met President Andres Manuel Lopez Obrador",
+        "Signed agreements"
       ],
       "eventName": "Community of Latin American and Caribbean States (CELAC) Summit",
       "id": "chan-santokhi--2021-09-18--MEX",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 6.ª cúpula de chefes de Estado e de Governo da CELAC.",
+      "purpose": "Attended Community of Latin American and Caribbean States (CELAC) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3827,7 +3885,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Iorque",
+        "city": "New York City",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -3840,7 +3898,7 @@
       "eventName": "UN General Assembly general debate",
       "id": "chan-santokhi--2021-09-20--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 76.ª edição da Assembleia Geral das Nações Unidas e reuniu-se com o secretário geral das Nações Unidas António Guterres.",
+      "purpose": "Addressed the general debate of the seventy-sixth session of the UN General Assembly",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3874,7 +3932,7 @@
       "eventName": "UN Climate Change Conference",
       "id": "chan-santokhi--2021-10-30--GBR",
       "officialId": "chan-santokhi",
-      "purpose": "O presidente participou da Conferência das Nações Unidas sobre as Mudanças Climáticas de 2021 – COP26 – e encontrou-se com diversos líderes…",
+      "purpose": "Attended UN Climate Change Conference",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3905,7 +3963,7 @@
       "eventName": null,
       "id": "chan-santokhi--2021-11-27--ARE",
       "officialId": "chan-santokhi",
-      "purpose": "Santokhi participou da Expo Dubai 2020, onde visitou o pavilhão surinamês e destacou o interesse de que seu país está aberto aos investimen…",
+      "purpose": "Visit to United Arab Emirates",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3933,13 +3991,13 @@
       },
       "endDate": "2022-02-14",
       "engagements": [
-        "Encontrou-se com o presidente Irfaan Ali e com o vice-presidente Bharrat Jagdeo.",
-        "Visitou a Comissão do Setor Privado da Guiana."
+        "Met President Irfaan Ali",
+        "Gave a public address"
       ],
       "eventName": "International Energy Conference and Expo 2022",
       "id": "chan-santokhi--2022-02-14--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "O presidente viajou ao país vizinho para participar da Conferência Internacional de Energia e Expo Guiana.",
+      "purpose": "Attended International Energy Conference and Expo 2022",
       "sources": [
         {
           "label": "Wikipedia",
@@ -3957,7 +4015,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Cayo Ambergris",
+        "city": "Ambergris Caye",
         "coordinates": [
           -87.931038888,
           18.013947222
@@ -3966,13 +4024,11 @@
         "region": "Americas"
       },
       "endDate": "2022-03-04",
-      "engagements": [
-        "Encontro com o primeiro-ministro Johnny Briceño."
-      ],
+      "engagements": [],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2022-02-28--BLZ",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da reunião de cúpula de chefes de Estado e de Governo da CARICOM–SICA.",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4000,13 +4056,12 @@
       },
       "endDate": "2022-04-21",
       "engagements": [
-        "Encontrou-se com a primeira-ministra do país, Mia Mottley para a assinatura de acordos entre os dois países.",
-        "Participou do congresso De-risking and Correspondent Banking."
+        "Met Prime Minister Mia Mottley"
       ],
       "eventName": null,
       "id": "chan-santokhi--2022-04-20--BRB",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Barbados",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4034,8 +4089,7 @@
       },
       "endDate": "2022-06-10",
       "engagements": [
-        "Foi recebido pelo presidente Joe Biden e por sua esposa, Jill Biden.",
-        "Participou de uma reunião da CARICOM junto com a vice-presidente dos Estados Unidos, Kamala Harris."
+        "Met President Joe Biden"
       ],
       "eventName": "Attended the Summit of the Americas in Los Angeles, CA.",
       "id": "chan-santokhi--2022-06-08--USA",
@@ -4078,7 +4132,7 @@
       "eventName": "Agri-Investment Forum and Expo",
       "id": "chan-santokhi--2022-08-18--TTO",
       "officialId": "chan-santokhi",
-      "purpose": "Santokhi participou da Agri Investment Forum, onde visitou uma propriedade industrial e participou de uma reuniram conjunta com executivos…",
+      "purpose": "Attended Agri-Investment Forum and Expo",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4106,13 +4160,13 @@
       },
       "endDate": "2022-09-03",
       "engagements": [
-        "Reuniu-se com a primeira-ministra de Barbados, Mia Mottley, com o primeiro-ministro de São Cristóvão e Névis, Terrance Drew.",
-        "Met Prime Minister Mia Mottley"
+        "Met Prime Minister Mia Mottley",
+        "Gave a public address"
       ],
       "eventName": "AfriCaribbean Trade and Investment Forum",
       "id": "chan-santokhi--2022-08-31--BRB",
       "officialId": "chan-santokhi",
-      "purpose": "O presidente participou do 1.º Fórum de Comércio e Investimentos Afro–Caraíbas.",
+      "purpose": "Attended AfriCaribbean Trade and Investment Forum",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4130,7 +4184,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington D.C.",
+        "city": "Washington, D.C.",
         "coordinates": [
           -77.036666666,
           38.895
@@ -4139,14 +4193,11 @@
         "region": "Americas"
       },
       "endDate": "2022-09-21",
-      "engagements": [
-        "Já em Nova Iorque, reuniu-se com o secretário geral das Nações Unidas, António Guterres.",
-        "Discursou na 77.ª edição da Assembleia Geral das Nações Unidas."
-      ],
+      "engagements": [],
       "eventName": "UN General Assembly general debate",
       "id": "chan-santokhi--2022-09-16--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Reuniu-se com o secretário de Estado Antony Blinken e com a vice-presidente Kamala Harris em Washington D.C..",
+      "purpose": "Addressed the general debate of the seventy-seventh session of the UN General Assembly",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4174,8 +4225,7 @@
       },
       "endDate": "2022-11-10",
       "engagements": [
-        "Gave a public address",
-        "Em Sharm el-Sheikh, discursou na Conferência das Nações Unidas sobre as Mudanças Climáticas de 2022 — COP27 — e se reuniu com diversos líderes mundiais, dentre esses de uma reuniã…"
+        "Gave a public address"
       ],
       "eventName": "Conference of the Parties (COP)",
       "id": "chan-santokhi--2022-11-08--EGY",
@@ -4208,13 +4258,13 @@
       },
       "endDate": "2022-12-06",
       "engagements": [
-        "Encontrou-se com a premiê Mia Mottley, com o presidente de Cuba Miguel Díaz-Canel e com o primeiro-ministro de São Vicente e Granadinas, Ralph Gonsalves.",
-        "Homenageou, juntamente com seu homólogo Irfaan Ali, da Guiana, as vítimas do atentado do vôo 455 que foi abatido sobre Barbados em 1976."
+        "Met Prime Minister Mia Mottley",
+        "Gave a public address"
       ],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2022-12-05--BRB",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da reunião de cúpula CARICOM–Cuba.",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4241,13 +4291,11 @@
         "region": "Americas"
       },
       "endDate": "2023-01-02",
-      "engagements": [
-        "Participou de um jantar oferecido pelo governo brasileiro as autoridades estrangeiras no Palácio Itamaraty."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2023-01-01--BRA",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da cerimônia de posse do presidente eleito, Luiz Inácio Lula da Silva, acompanhado da primeira-dama Mellisa Santokhi.",
+      "purpose": "Visit to Brazil",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4261,7 +4309,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Délhi",
+        "city": "New Delhi",
         "coordinates": [
           77.208888888,
           28.613888888
@@ -4271,17 +4319,17 @@
       },
       "endDate": "2023-01-14",
       "engagements": [
-        "Em Nova Délhi, foi recepcionado no templo hindu de Shri Somnath Mandir e visitou a refinaria de Jamnagar.",
-        "Já em Indore, se encontrou com o primeiro-ministro Narendra Modi e participou da 17.ª Convenção Pravasi Bharatiya Divas a convite de Modi."
+        "The Pravasi Bharatiya Divas (PBD) Convention is held once every two years.",
+        "Met Prime Minister Narendra Modi"
       ],
       "eventName": "Pravasi Bhartiya Divas (PBD) Convention",
       "id": "chan-santokhi--2023-01-08--IND",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "17th Pravasi Bharatiya Divas Convention 2023",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Chan_Santokhi"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -4305,14 +4353,11 @@
         "region": "Europe"
       },
       "endDate": "2023-01-16",
-      "engagements": [
-        "Reuniu-se com o primeiro-ministro Mark Rutte para tratar de assuntos econômicos entre os dois países e sobre o pedido oficial de desculpas do governo neerlandês devido à escravidã…",
-        "Reuniu-se também com o ex-primeiro-ministro dos Países Baixos, Jan Peter Balkenende."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2023-01-14--NLD",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Netherlands",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4340,7 +4385,7 @@
       "eventName": null,
       "id": "chan-santokhi--2023-04-01--NLD",
       "officialId": "chan-santokhi",
-      "purpose": "Viajou ao país para se submeter a exames médicos.",
+      "purpose": "Visit to Netherlands",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4368,13 +4413,12 @@
       },
       "endDate": "2023-05-30",
       "engagements": [
-        "Encontrou-se com o presidente Luiz Inácio Lula da Silva e com o presidente da Venezuela Nicolás Maduro.",
         "Gave a public address"
       ],
       "eventName": "South American Leaders Summit",
       "id": "chan-santokhi--2023-05-29--BRA",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da reunião de chefes de Estado da América do Sul com o objetivo de reativar a UNASUL, partindo de uma proposta do próprio Brasil.",
+      "purpose": "Attended South American Leaders Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4401,13 +4445,11 @@
         "region": "Americas"
       },
       "endDate": "2023-05-29",
-      "engagements": [
-        "Reuniu-se com o presidente Irfaan Ali, onde trataram de diversos assuntos bilaterais, entre eles, a cooperação em petróleo e gás natural entre os países e também a respeito da fro…"
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2023-05-29--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "Visita breve.",
+      "purpose": "Visit to Guyana",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4431,13 +4473,12 @@
       },
       "endDate": "2023-06-10",
       "engagements": [
-        "Reuniu-se com o primeiro-ministro Philip Edward Davis.",
         "Gave a public address"
       ],
       "eventName": "United States-Caribbean Community (CARICOM) Meeting",
       "id": "chan-santokhi--2023-06-07--BHS",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da reunião de cúpula EUA–Caribe.",
+      "purpose": "Attended United States-Caribbean Community (CARICOM) Meeting",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4465,13 +4506,13 @@
       },
       "endDate": "2023-07-06",
       "engagements": [
-        "Reuniu-se com o primeiro-ministro Keith Rowley, com o primeiro-ministro da Coreia do Sul, Han Duck-soo, e com a ministra assistente dos Negócios Estrangeiros da China, Hua Chunyin…",
-        "Met Prime Minister Keith Rowley"
+        "Met Prime Minister Keith Rowley",
+        "Signed agreements"
       ],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2023-07-02--TTO",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da cúpula extraordinária para comemorar os 50 anos de criação da CARICOM, onde foi discutido assuntos como a crise no Haiti e as…",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4489,7 +4530,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bruxelas",
+        "city": "Brussels-Capital Region",
         "coordinates": [
           4.3525,
           50.846666666
@@ -4499,13 +4540,12 @@
       },
       "endDate": "2023-07-22",
       "engagements": [
-        "Reuniu-se com diversas lideranças belgas e de outros países, entre as quais o ministro-presidente de Flandres, Jan Jambon, o presidente da França, Emmanuel Macron, e o primeiro-mi…",
         "Signed agreements"
       ],
       "eventName": "European Council-Community of Latin American and Carribean States (EU-CELAC) Summit",
       "id": "chan-santokhi--2023-07-16--BEL",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da cúpula CELAC–UE.",
+      "purpose": "Attended European Council-Community of Latin American and Carribean States (EU-CELAC) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4533,13 +4573,12 @@
       },
       "endDate": "2023-09-17",
       "engagements": [
-        "Encontrou-se com o presidente Miguel Díaz-Canel e aproveitou para se reunir com estudantes surinameses no país caribenho.",
-        "Participou de uma reunião informal dos demais líderes da CARICOM com o presidente cubano."
+        "Gave a public address"
       ],
       "eventName": "G77 + China Summit",
       "id": "chan-santokhi--2023-09-14--CUB",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da cúpula do G77 – maior evento multilateral do sul global.",
+      "purpose": "Attended G77 + China Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4557,7 +4596,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Iorque",
+        "city": "New York City",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -4567,13 +4606,12 @@
       },
       "endDate": "2023-09-23",
       "engagements": [
-        "Reuniu-se com o chanceler da Alemanha, Olaf Scholz, com a primeira-ministra de Samoa, Naomi Mataʻafa, com o presidente da Coreia do Sul, Yoon Suk-yeol, e com o presidente dos Esta…",
-        "Encontrou-se também com empresários americanos interessados em investir no Suriname."
+        "Gave a public address"
       ],
       "eventName": "UN General Assembly general debate",
       "id": "chan-santokhi--2023-09-17--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Participou e discursou na Assembleia Geral das Nações Unidas.",
+      "purpose": "Addressed the general debate of the seventy-eighth session of the UN General Assembly",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4591,7 +4629,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "São Domingos",
+        "city": "Santo Domingo",
         "coordinates": [
           -69.936111111,
           18.4625
@@ -4601,13 +4639,13 @@
       },
       "endDate": "2023-10-05",
       "engagements": [
-        "Participou da cerimônia oficial de boas-vindas no palácio presidencial.",
-        "Encontrou-se com o presidente Luis Abinader."
+        "Met President Luis Abinader",
+        "Signed agreements"
       ],
       "eventName": null,
       "id": "chan-santokhi--2023-10-05--DOM",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de Estado.",
+      "purpose": "Visit to Dominican Republic",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4625,7 +4663,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Otava",
+        "city": "Ottawa",
         "coordinates": [
           -75.695,
           45.424722222
@@ -4635,13 +4673,12 @@
       },
       "endDate": "2023-10-19",
       "engagements": [
-        "Encontrou-se com o primeiro-ministro Justin Trudeau.",
         "Met Prime Minister Justin Trudeau"
       ],
       "eventName": "Canada-Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2023-10-15--CAN",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da cúpula CARICOM–Canadá, onde foi discutida a relação entre a nação canadense e o bloco caribenho e o desenvolvimento sustentáv…",
+      "purpose": "Attended Canada-Caribbean Community (CARICOM) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4659,7 +4696,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Riade",
+        "city": "Riyadh",
         "coordinates": [
           46.71,
           24.65
@@ -4668,9 +4705,7 @@
         "region": "Asia"
       },
       "endDate": "2023-11-18",
-      "engagements": [
-        "Encontrou-se com o ministro dos negócios estrangeiros, Adel al-Jubeir, e visitou o distrito financeiro Rei Abdullah na capital saudita."
-      ],
+      "engagements": [],
       "eventName": "Saudi Arabia-Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2023-11-15--SAU",
       "officialId": "chan-santokhi",
@@ -4731,14 +4766,11 @@
         "region": "Asia"
       },
       "endDate": "2023-12-05",
-      "engagements": [
-        "Discursou no plenário geral e apresentou a proposta de desenvolvimento sustentável do Suriname, conciliando a exploração de petróleo com a preservação do meio ambiente.",
-        "Encontrou-se com o primeiro-ministro dos Países Baixos, Mark Rutte, com o presidente da Guiana, Irfaan Ali, com o presidente do Brasil, Luiz Inácio Lula da Silva e com o president…"
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2023-12-05--ARE",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 28.ª Conferência das Nações Unidas sobre as Mudanças Climáticas (COP28).",
+      "purpose": "Visit to United Arab Emirates",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4762,13 +4794,12 @@
       },
       "endDate": "2024-02-29",
       "engagements": [
-        "Reuniu-se com o presidente Irfaan Ali.",
-        "Participou do lançamento da Câmara de Comércio Suriname-Guiana (SGCC)."
+        "Met President Irfaan Ali"
       ],
       "eventName": "Conference of Heads of Government of the Caribbean Community (CARICOM)",
       "id": "chan-santokhi--2024-02-24--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 46.ª cúpula de chefes de Estado e de Governo da Caricom.",
+      "purpose": "Attended Conference of Heads of Government of the Caribbean Community (CARICOM) and Brazil-Guyana-Suriname Trilateral Meeting",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4799,7 +4830,7 @@
       "eventName": "Community of Latin America and Carribean States (CELAC) Summit",
       "id": "chan-santokhi--2024-02-29--VCT",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 8.ª cúpula de chefes de Estado e de Governo da CELAC.",
+      "purpose": "Attended Community of Latin America and Carribean States (CELAC) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4827,13 +4858,12 @@
       },
       "endDate": "2024-03-24",
       "engagements": [
-        "Reuniu-se com o presidente Irfaan Ali para discutir a finalização do contrato e modalidades de financiamento para a construção de uma ponte binacional sobre o rio Corentine que de…",
         "Met President Irfaan Ali"
       ],
       "eventName": null,
       "id": "chan-santokhi--2024-03-22--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Guyana",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4851,7 +4881,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Pequim",
+        "city": "Beijing",
         "coordinates": [
           116.407526,
           39.90403
@@ -4861,13 +4891,12 @@
       },
       "endDate": "2024-04-17",
       "engagements": [
-        "Encontrou-se com o presidente Xi Jinping.",
-        "Visitou o Museu do Partido Comunista Chinês de Pequim."
+        "Met General Secretary Xi Jinping"
       ],
       "eventName": null,
       "id": "chan-santokhi--2024-04-11--CHN",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de Estado.",
+      "purpose": "Visit to China",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4895,13 +4924,11 @@
         "region": "Americas"
       },
       "endDate": "2024-06-17",
-      "engagements": [
-        "Reuniu-se com o empresário nigeriano Aliko Dangote, considerado no momento o homem mais rico da África e presidente do Dangote Group."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2024-06-10--BHS",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 31.ª reunião anual do Afreximbank e da terceira edição do Fórum de Comércio e Investimento Afro-caribenho, com o objetivo de…",
+      "purpose": "Visit to Bahamas",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4928,13 +4955,11 @@
         "region": "Americas"
       },
       "endDate": "2024-07-16",
-      "engagements": [
-        "Reuniu-se também com a cônsul-geral do Suriname em Willemstad, Christa Zuiverloon."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2024-07-16--CUW",
       "officialId": "chan-santokhi",
-      "purpose": "Encontrou-se com o ministro dos Transportes e Planejamento do território de Curaçao, Charles Cooper.",
+      "purpose": "Visit to Curaçao",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4948,7 +4973,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Iorque",
+        "city": "New York City",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -4961,7 +4986,7 @@
       "eventName": null,
       "id": "chan-santokhi--2024-07-16--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Viagem para tratar de assuntos pessoais.",
+      "purpose": "Visit to United States",
       "sources": [
         {
           "label": "Wikipedia",
@@ -4979,7 +5004,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Saint George's",
+        "city": "St. George's",
         "coordinates": [
           -61.753055555,
           12.0525
@@ -4989,13 +5014,12 @@
       },
       "endDate": "2024-07-30",
       "engagements": [
-        "Reuniu-se com o primeiro-ministro Dickon Mitchell e participou da cerimônia de inauguração de uma rotatória em homenagem ao bloco econômico.",
         "Gave a public address"
       ],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2024-07-27--GRD",
       "officialId": "chan-santokhi",
-      "purpose": "Após ser recebido no Aeroporto Internacional Maurice Bishop, iniciou uma visita oficial para participar da 47.ª cúpula de chefes de Estado…",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5027,7 +5051,7 @@
       "eventName": null,
       "id": "chan-santokhi--2024-08-13--DOM",
       "officialId": "chan-santokhi",
-      "purpose": "Acompanhado da primeira-dama Mellisa Santokhi-Seenacherry, participou da cerimônia de posse do presidente reeleito, Luis Abinader.",
+      "purpose": "Visit to Dominican Republic",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5045,7 +5069,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Iorque",
+        "city": "New York City",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -5055,13 +5079,12 @@
       },
       "endDate": "2024-09-28",
       "engagements": [
-        "Reuniu-se com o secretário-geral das Nações Unidas, António Guterres, e com a primeira-ministra de Aruba, Evelyn Wever-Croes.",
-        "Participou de uma reunião para discutir a crise sociopolítica no Haiti e promover uma nova missão de apoio internacional ao país caribenho."
+        "Gave a public address"
       ],
       "eventName": "UN General Assembly general debate",
       "id": "chan-santokhi--2024-09-20--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 79.ª Assembleia Geral das Nações Unidas e da Cúpula do Futuro.",
+      "purpose": "Addressed the general debate of the seventy-ninth session of the UN General Assembly",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5088,14 +5111,11 @@
         "region": "Americas"
       },
       "endDate": "2024-10-22",
-      "engagements": [
-        "Primeira viagem de um presidente do Suriname à Aruba.",
-        "Encontrou-se com a primeira-ministra Evelyn Wever-Croes e com o governador Alfonso Boekhoudt."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2024-10-21--ABW",
       "officialId": "chan-santokhi",
-      "purpose": "Visita oficial.",
+      "purpose": "Visit to Aruba",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5148,13 +5168,11 @@
         "region": "Americas"
       },
       "endDate": "2024-10-23",
-      "engagements": [
-        "Reuniu-se com o primeiro-ministro Gilmar Pisas e com a governadora Lucille George-Wout."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "chan-santokhi--2024-10-22--CUW",
       "officialId": "chan-santokhi",
-      "purpose": "Visita oficial.",
+      "purpose": "Visit to Curaçao",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5185,7 +5203,7 @@
       "eventName": null,
       "id": "chan-santokhi--2024-10-22--NLD",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Netherlands",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5216,7 +5234,7 @@
       "eventName": null,
       "id": "chan-santokhi--2024-10-23--USA",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to United States",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5249,7 +5267,7 @@
       "eventName": "Conference of the Parties (COP)",
       "id": "chan-santokhi--2024-10-28--COL",
       "officialId": "chan-santokhi",
-      "purpose": "Participou da 16.ª Conferência das Nações Unidas sobre Biodiversidade (COP16).",
+      "purpose": "Attended Conference of the Parties (COP)",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5339,13 +5357,13 @@
       },
       "endDate": "2025-02-21",
       "engagements": [
-        "Reuniu-se com a primeira-ministra Mia Mottley, com o secretário-geral das Nações Unidas, Antônio Guterres, e com a presidente da Comissão Europeia, Ursula von der Leyen.",
-        "Met Prime Minister Mia Mottley"
+        "Met Prime Minister Mia Mottley",
+        "Gave a public address"
       ],
       "eventName": "Caribbean Community (CARICOM) Summit",
       "id": "chan-santokhi--2025-02-19--BRB",
       "officialId": "chan-santokhi",
-      "purpose": "Viajou ao país caribenho para participar da 48.ª cúpula de chefes de Estado e de Governo da Caricom.",
+      "purpose": "Attended Caribbean Community (CARICOM) Summit",
       "sources": [
         {
           "label": "Wikipedia",
@@ -5373,13 +5391,13 @@
       },
       "endDate": "2025-05-19",
       "engagements": [
-        "Reuniu-se com o presidente Irfaan Ali e com o ministro das Relações Exteriores, Hugh Todd, para tratar de diversos assuntos bilaterais.",
-        "Participou da inauguração do escritório oficial da empresa do ramo de mineração GuySure Aggregate & Sands Inc."
+        "Met President Irfaan Ali",
+        "Gave a public address"
       ],
       "eventName": null,
       "id": "chan-santokhi--2025-05-19--GUY",
       "officialId": "chan-santokhi",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Guyana",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6592,7 +6610,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Iorque",
+        "city": "New York City",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -6602,13 +6620,12 @@
       },
       "endDate": "2025-09-26",
       "engagements": [
-        "Participou e discursou na 80.ª sessão da Assembleia Geral das Nações Unidas em Manhattan.",
-        "Participou de uma reunião com a diáspora surinamesa de Nova York."
+        "Gave a public address"
       ],
       "eventName": "UN General Assembly general debate",
       "id": "jennifer-geerlings-simons--2025-09-20--USA",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "Primeira viagem internacional como presidente do Suriname.",
+      "purpose": "Addressed the general debate of the eightieth session of the UN General Assembly",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6697,13 +6714,11 @@
         "region": "Americas"
       },
       "endDate": "2026-01-10",
-      "engagements": [
-        "Entre as reuniões, foi abordada a possibilidade de expandir os atendimentos médicos e as colaborações para a entidade."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "jennifer-geerlings-simons--2026-01-07--COL",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "A presidente Simons viajou junto ao ministro da Saúde, Bem-Estar e Trabalho, André Misiekaba, para visitar o Hospital Internacional da Colô…",
+      "purpose": "Visit to Colombia",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6726,13 +6741,11 @@
         "region": "Americas"
       },
       "endDate": "2026-02-27",
-      "engagements": [
-        "Reuniu-se com o primeiro-ministro são-cristovense, Terrance Drew, e com diversos outros líderes, entre eles o presidente da Guiana, Irfaan Ali, e a delegação da Arábia Saudita."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "jennifer-geerlings-simons--2026-02-22--KNA",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "A presidente Simons viajou para participar da 50.ª cúpula de chefes de Estado e de Governo da CARICOM.",
+      "purpose": "Visit to Saint Kitts and Nevis",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6755,13 +6768,11 @@
         "region": "Americas"
       },
       "endDate": "2026-03-01",
-      "engagements": [
-        "Reuniu-se com a primeira-ministra de Barbados, Mia Mottley, no Ilaro Court, com o o objetivo de aprofundar as relações com o Caribe."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "jennifer-geerlings-simons--2026-02-27--BRB",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to Barbados",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6784,14 +6795,11 @@
         "region": "Americas"
       },
       "endDate": "2026-05-30",
-      "engagements": [
-        "Reuniu-se com o presidente do Brasil, Luiz Inácio Lula da Silva, para discutir a cooperação econômica e comercial entre os países.",
-        "Foram assinados mais de doze acordos para ampliar a cooperação entre os dois países."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "jennifer-geerlings-simons--2026-05-27--BRA",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "Visita de Estado.",
+      "purpose": "Visit to Brazil",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6805,7 +6813,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "São Domingos",
+        "city": "Santo Domingo",
         "coordinates": [
           -69.936111111,
           18.4625
@@ -6814,14 +6822,11 @@
         "region": "Americas"
       },
       "endDate": "2026-06-01",
-      "engagements": [
-        "Reuniu-se com o presidente Luis Abinader para aprofundar as parcerias econômicas e comerciais entre os dois países.",
-        "Visitou o setor turístico na cidade de Punta Cana e discursou para o Congresso dominicano."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "jennifer-geerlings-simons--2026-05-30--DOM",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "Visita de Estado.",
+      "purpose": "Visit to Dominican Republic",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6835,7 +6840,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Londres",
+        "city": "London",
         "coordinates": [
           -0.1275,
           51.507222222
@@ -6844,14 +6849,11 @@
         "region": "Europe"
       },
       "endDate": "2026-07-26",
-      "engagements": [
-        "A presidente Simons se reuniu com empresários britânicos do setor petrolífero para atrair investimentos estrangeiros.",
-        "Reuniu-se com lideranças do Bank of America e com a empresa de exploração e energia offshore Subsea 7."
-      ],
+      "engagements": [],
       "eventName": null,
       "id": "jennifer-geerlings-simons--2026-07-22--GBR",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "Visita de trabalho.",
+      "purpose": "Visit to United Kingdom",
       "sources": [
         {
           "label": "Wikipedia",
@@ -6865,7 +6867,7 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Nova Iorque",
+        "city": "New York City",
         "coordinates": [
           -74.006111111,
           40.712777777
@@ -6874,14 +6876,11 @@
         "region": "Americas"
       },
       "endDate": "2026-09-25",
-      "engagements": [
-        "Reuniu-se com o presidente de Gana, John Dramani Mahama, e com o primeiro-ministro dos Países Baixos, Rob Jetten.",
-        "Participou da cerimônia de lançamento de um programa que facilita serviços de aplicação do passaporte surinamês em Nova Iorque."
-      ],
+      "engagements": [],
       "eventName": "UN General Assembly general debate",
       "id": "jennifer-geerlings-simons--2026-09-21--USA",
       "officialId": "jennifer-geerlings-simons",
-      "purpose": "Participou da 81.ª Assembleia Geral das Nações Unidas na sede da ONU.",
+      "purpose": "Addressed the general debate of the eighty-first session of the UN General Assembly",
       "sources": [
         {
           "label": "Wikipedia",
@@ -7658,6 +7657,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         }
       ],
       "startDate": "1992-02-03",
@@ -7837,6 +7840,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_South_America"
         },
         {
           "label": "COLT dataset",

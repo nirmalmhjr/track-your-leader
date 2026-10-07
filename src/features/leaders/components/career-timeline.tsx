@@ -2,11 +2,11 @@ import { getTranslations } from "next-intl/server";
 
 import { badgeVariants } from "@/components/ui/badge";
 import { SectionHeading } from "@/features/leaders/components/section-heading";
-import { isCurrentPosition } from "@/lib/travel/officials.utils";
+import { groupPositionsByOffice } from "@/lib/travel/officials.utils";
 import type { TravelFormat } from "@/lib/travel/travel-format";
 import { getTravelFormat } from "@/lib/travel/travel-format.server";
 import { cn } from "@/lib/utils";
-import type { Position } from "@/types/travel.types";
+import type { OfficeTerms, Position } from "@/types/travel.types";
 
 interface TenureLabels {
     fromEndUnknown: (date: string) => string;
@@ -33,13 +33,15 @@ const formatTenure = (position: Position, format: TravelFormat, labels: TenureLa
 
 interface CareerEntryProps {
     currentLabel: string;
+    office: OfficeTerms;
     portfolioLabel: string | null;
-    position: Position;
-    tenure: string;
+    /** One line per term in the office, newest first, keyed by the term's position id. */
+    tenures: readonly { id: string; label: string }[];
 }
 
-function CareerEntry({ position, tenure, currentLabel, portfolioLabel }: CareerEntryProps) {
-    const isCurrent = isCurrentPosition(position);
+function CareerEntry({ office, tenures, currentLabel, portfolioLabel }: CareerEntryProps) {
+    const { isCurrent, title } = office;
+    const [latest] = office.terms;
 
     return (
         <li className="relative flex flex-col gap-1 pb-6 last:pb-0">
@@ -53,15 +55,19 @@ function CareerEntry({ position, tenure, currentLabel, portfolioLabel }: CareerE
                 )}
             />
             <div className="flex flex-wrap items-center gap-2">
-                <h3 className="font-medium leading-snug">{position.title}</h3>
+                <h3 className="font-medium leading-snug">{title}</h3>
                 {isCurrent ? (
                     <span className={badgeVariants({ variant: "secondary" })}>{currentLabel}</span>
                 ) : null}
             </div>
-            {position.ministry ? (
-                <p className="text-muted-foreground text-sm">{position.ministry}</p>
+            {latest?.ministry ? (
+                <p className="text-muted-foreground text-sm">{latest.ministry}</p>
             ) : null}
-            <p className="text-muted-foreground text-xs tabular-nums">{tenure}</p>
+            <ul className="flex flex-col gap-0.5 text-muted-foreground text-xs tabular-nums">
+                {tenures.map((tenure) => (
+                    <li key={tenure.id}>{tenure.label}</li>
+                ))}
+            </ul>
             {portfolioLabel ? (
                 <span
                     className={badgeVariants({ className: "mt-1 self-start", variant: "outline" })}
@@ -73,8 +79,12 @@ function CareerEntry({ position, tenure, currentLabel, portfolioLabel }: CareerE
     );
 }
 
-/** Every position the official held, newest first, on a vertical timeline. */
+/**
+ * Every office the official held, newest first, on a vertical timeline. An office held more than
+ * once is one entry listing each term.
+ */
 export async function CareerTimeline({ positions }: { positions: readonly Position[] }) {
+    const offices = groupPositionsByOffice(positions);
     const [t, tOfficial, tPortfolio, format] = await Promise.all([
         getTranslations("Leaders.profile"),
         getTranslations("Explorer.official"),
@@ -92,20 +102,27 @@ export async function CareerTimeline({ positions }: { positions: readonly Positi
         <section aria-labelledby="career" className="flex flex-col gap-5">
             <SectionHeading
                 caption={t("careerCaption", {
-                    count: positions.length,
-                    countLabel: format.number(positions.length),
+                    count: offices.length,
+                    countLabel: format.number(offices.length),
                 })}
                 id="career"
                 title={t("career")}
             />
             <ol className="ml-1.5 border-l pl-6">
-                {positions.map((position) => (
+                {offices.map((office) => (
                     <CareerEntry
                         currentLabel={tOfficial("current")}
-                        key={position.id}
-                        portfolioLabel={position.portfolio ? tPortfolio(position.portfolio) : null}
-                        position={position}
-                        tenure={formatTenure(position, format, labels)}
+                        key={office.title}
+                        office={office}
+                        portfolioLabel={
+                            office.terms[0]?.portfolio
+                                ? tPortfolio(office.terms[0].portfolio)
+                                : null
+                        }
+                        tenures={office.terms.map((term) => ({
+                            id: term.id,
+                            label: formatTenure(term, format, labels),
+                        }))}
                     />
                 ))}
             </ol>

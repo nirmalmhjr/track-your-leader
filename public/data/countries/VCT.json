@@ -1797,6 +1797,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "1994-12-11",
+      "engagements": [],
+      "eventName": "Summit of the Americas",
+      "id": "james-fitz-allen-mitchell--1994-12-09--USA",
+      "officialId": "james-fitz-allen-mitchell",
+      "purpose": "Attended the Summit of the Americas in Miami",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_North_America_and_the_Caribbean"
+        }
+      ],
+      "startDate": "1994-12-09",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Georgetown",
         "coordinates": [
           -58.150833333,
@@ -5551,21 +5579,25 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2013-12-20",
+      "endDate": "2013-12-19",
       "engagements": [
         "Met Pope Francis"
       ],
       "eventName": null,
-      "id": "ralph-gonsalves--2013-12-17--VAT",
+      "id": "ralph-gonsalves--2013-12-19--VAT",
       "officialId": "ralph-gonsalves",
-      "purpose": "Visit to Vatican City",
+      "purpose": "Pope Francis met PM Ralph Gonsalves of Saint Vincent and the Grenadines, discussing life, family, education, interreligious dialogue, regio…",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-12-17",
+      "startDate": "2013-12-19",
       "statusHint": null,
       "type": "official_visit"
     },

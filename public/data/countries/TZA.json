@@ -501,7 +501,7 @@
       "fullName": "Edward Sokoine",
       "id": "edward-sokoine",
       "party": "Party of the Revolution",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward_Sokoine.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1086,7 +1086,7 @@
       "fullName": "Abdallah Ulega",
       "id": "abdallah-ulega",
       "party": "Party of the Revolution",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hon_Ulega_in_AED_2025.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -1868,7 +1868,7 @@
       "fullName": "Dorothy Gwajima",
       "id": "dorothy-gwajima",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1M4A0892.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -7426,6 +7426,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-02-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-mohamed-shein--2014-02-01--IND",
+      "officialId": "ali-mohamed-shein",
+      "purpose": "Official Visit",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2014-02-01",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "New Delhi",
@@ -9255,7 +9283,7 @@
       "engagements": [
         "Gave a public address"
       ],
-      "eventName": null,
+      "eventName": "United Nations General Assembly",
       "id": "benjamin-mkapa--1999-09-21--USA",
       "officialId": "benjamin-mkapa",
       "purpose": "Met with President Clinton during a meeting of the United Nations General Assembly in New York City.",
@@ -9263,6 +9291,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -12773,7 +12805,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -13711,7 +13743,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -13802,7 +13834,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2008-09-23",
@@ -14106,7 +14138,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -16887,7 +16919,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -17031,10 +17063,10 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Kigali",
+        "city": "Rusumo",
         "coordinates": [
-          30.115,
-          -1.9525
+          30.78317778,
+          -2.38210556
         ],
         "countryCode": "RWA",
         "region": "Africa"
@@ -17446,6 +17478,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1961-07-17",
@@ -17474,6 +17510,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1963-07-15",
@@ -17696,6 +17736,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1977-08-03",
@@ -17783,6 +17827,34 @@
       "startDate": "2024-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2026-01-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "mahmoud-thabit-kombo--2026-01-28--VAT",
+      "officialId": "mahmoud-thabit-kombo",
+      "purpose": "Visit to Vatican City",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Leo_XIV"
+        }
+      ],
+      "startDate": "2026-01-28",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "month",
@@ -19467,17 +19539,16 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2023-10-10",
       "engagements": [
-        "Samia Suluhu made a three-day visit to India.",
-        "Samia first met with the External Affairs Minister of India S."
+        "First visit by President Hassan to India and the first Presidential visit from Tanzania in more than 8 years.",
+        "Samia Suluhu made a three-day visit to India."
       ],
       "eventName": null,
       "id": "samia-suluhu-hassan--2023-10-08--IND",
@@ -19490,7 +19561,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Samia_Suluhu_Hassan"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -19762,11 +19833,11 @@
       "eventName": null,
       "id": "samia-suluhu-hassan--2024-02-12--VAT",
       "officialId": "samia-suluhu-hassan",
-      "purpose": "Official Visit",
+      "purpose": "Pope Francis met Tanzanian President Samia Suluhu Hassan, praising strong ties and the Church’s role in charity, education and health, and…",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Samia_Suluhu_Hassan"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
         },
         {
           "label": "COLT dataset",
@@ -19800,7 +19871,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Samia_Suluhu_Hassan"
+          "url": "https://no.wikipedia.org/wiki/Liste_over_statsbes%C3%B8k_under_Harald_V"
         },
         {
           "label": "COLT dataset",

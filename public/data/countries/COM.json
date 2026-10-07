@@ -2260,6 +2260,17 @@
           ],
           "endDate": null,
           "id": "daniel-ali-bandar-p1",
+          "ministry": "Ministry of Agriculture, Fisheries and Handicrafts",
+          "portfolio": "agriculture",
+          "startDate": null,
+          "title": "Minister of Agriculture, Fisheries and Handicrafts"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "daniel-ali-bandar-p2",
           "ministry": null,
           "portfolio": null,
           "startDate": "2022-05-09",
@@ -2270,39 +2281,14 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q114568452"
-        }
-      ],
-      "summary": "Politician in Comoros.",
-      "wikidataId": "Q114568452"
-    },
-    {
-      "aliases": [],
-      "countryCode": "COM",
-      "fullName": "Daniel Ali Bandar",
-      "id": "daniel-ali-bandar-com",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "daniel-ali-bandar-com-p1",
-          "ministry": "Ministry of Agriculture, Fisheries and Handicrafts",
-          "portfolio": "agriculture",
-          "startDate": null,
-          "title": "Minister of Agriculture, Fisheries and Handicrafts"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/comoros/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Comoros.",
+      "wikidataId": "Q114568452"
     },
     {
       "aliases": [
@@ -6193,30 +6179,34 @@
       "destination": {
         "city": "New Delhi",
         "coordinates": [
-          77.209,
-          28.6139
+          77.208888888,
+          28.613888888
         ],
         "countryCode": "IND",
-        "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2018-03-12",
+      "endDate": "2018-03-11",
       "engagements": [
+        "Other representatives: Leonard She Okitundu, Vice Prime Minister of the Democratic Republic of Congo, Ivan Collendavelloo, Deputy Prime Minister of Mauritius, Ashwin Adhin, Vice P…",
         "Met Prime Minister Narendra Modi"
       ],
-      "eventName": null,
-      "id": "azali-assoumani--2018-03-10--IND",
+      "eventName": "International Solar Alliance Summit",
+      "id": "azali-assoumani--2018-03-08--IND",
       "officialId": "azali-assoumani",
-      "purpose": "Visit to India",
+      "purpose": "International Solar Alliance Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-03-10",
+      "startDate": "2018-03-08",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -7423,6 +7413,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8166,24 +8160,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-29",
+      "endDate": "2023-07-27",
       "engagements": [
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
       "eventName": "Russia-Africa Summit",
-      "id": "azali-assoumani--2023-07-26--RUS",
+      "id": "azali-assoumani--2023-07-27--RUS",
       "officialId": "azali-assoumani",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with Chairperson of the African Union, President of the Union of the Comoros Azali Assoumani and Chairperson of the African Union Commission Moussa Faki Mahamat",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71813"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-26",
+      "startDate": "2023-07-27",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -8258,17 +8256,17 @@
       },
       "endDate": "2023-09-10",
       "engagements": [
-        "Met Prime Minister Narendra Modi",
-        "Gave a public address"
+        "There were five leaders who were invited but did not attend (3 G20 members and 2 invitees): The Chinese leader Xi Jinping was represented by Premier Li Qiang.",
+        "The President of Russia Vladimir Putin was represented by Foreign Minister Sergei Lavrov."
       ],
       "eventName": "2023 G20 New Delhi summit",
       "id": "azali-assoumani--2023-09-09--IND",
       "officialId": "azali-assoumani",
-      "purpose": "Attended the 2023 G20 New Delhi summit",
+      "purpose": "2023 G20 New Delhi summit",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2023_G20_New_Delhi_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         },
         {
           "label": "COLT dataset",
@@ -10166,7 +10164,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
         },
         {
           "label": "COLT dataset",
@@ -10575,6 +10573,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",

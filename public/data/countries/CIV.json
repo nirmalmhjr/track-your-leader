@@ -2097,7 +2097,7 @@
       "fullName": "Euphrasie Yao",
       "id": "euphrasie-yao",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Euphrasie_Kouassi_Yao.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2852,7 +2852,7 @@
       "fullName": "Lambert Amon Tanoh",
       "id": "lambert-amon-tanoh",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lambert_Amon_Tanoh.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4315,7 +4315,7 @@
       "fullName": "Zakpa Komenan",
       "id": "zakpa-komenan",
       "party": "Rally of Houphouëtists for Democracy and Peace",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rue_Rolland_Zakpa_Komenan_%C3%A0_Divo.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -5021,16 +5021,20 @@
         "Met President Barack Obama"
       ],
       "eventName": null,
-      "id": "alassane-ouattara--2011-07-26--USA",
+      "id": "alassane-ouattara--2011-07-29--USA",
       "officialId": "alassane-ouattara",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-07-26",
+      "startDate": "2011-07-29",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11605,37 +11609,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Vatican City",
-        "coordinates": [
-          12.453,
-          41.904
-        ],
-        "countryCode": "VAT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2022-09-17",
-      "engagements": [
-        "Met Pope Francis",
-        "Gave a public address"
-      ],
-      "eventName": null,
-      "id": "alassane-ouattara--2022-09-15--VAT",
-      "officialId": "alassane-ouattara",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2022-09-15",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Rome",
         "coordinates": [
           12.4964,
@@ -11660,6 +11633,41 @@
       "startDate": "2022-09-17",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Vatican City",
+        "coordinates": [
+          12.453,
+          41.904
+        ],
+        "countryCode": "VAT",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2022-09-17",
+      "engagements": [
+        "Met Pope Francis",
+        "Gave a public address"
+      ],
+      "eventName": null,
+      "id": "alassane-ouattara--2022-09-17--VAT",
+      "officialId": "alassane-ouattara",
+      "purpose": "Pope Francis received Cote d’Ivoire’s President Ouattara, discussing good bilateral relations, the Church’s role in education and healthcar…",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_Holy_See_under_Pope_Francis"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
+        }
+      ],
+      "startDate": "2022-09-17",
+      "statusHint": null,
+      "type": "bilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -12722,6 +12730,62 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2014-08-06",
+      "engagements": [],
+      "eventName": "U.S.-Africa Leaders' Summit",
+      "id": "daniel-kablan-duncan--2014-08-04--USA",
+      "officialId": "daniel-kablan-duncan",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2014-08-04",
+      "statusHint": null,
+      "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-11-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "daniel-kablan-duncan--2014-11-04--IND",
+      "officialId": "daniel-kablan-duncan",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        }
+      ],
+      "startDate": "2014-11-04",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -12795,6 +12859,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1962-05-22",
@@ -12851,6 +12919,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1967-08-17",
@@ -12879,6 +12951,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1973-10-08",
@@ -12907,6 +12983,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1983-06-06",
@@ -17823,6 +17903,34 @@
       "startDate": "2019-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2022-12-15",
+      "engagements": [],
+      "eventName": "U.S.-Africa Leaders' Summit",
+      "id": "patrick-achi--2022-12-13--USA",
+      "officialId": "patrick-achi",
+      "purpose": "Attended the U.S.-Africa Leaders' Summit.",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        }
+      ],
+      "startDate": "2022-12-13",
+      "statusHint": null,
+      "type": "summit"
     },
     {
       "datePrecision": "day",

@@ -23,7 +23,7 @@ import { getCountryReference } from "@/lib/geo/country-reference";
 import {
     getCurrentPosition,
     getPrimaryPosition,
-    isCurrentPosition,
+    groupPositionsByOffice,
 } from "@/lib/travel/officials.utils";
 import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import type { Official, Position } from "@/types/travel.types";
@@ -78,11 +78,13 @@ function OfficialSources({ sources }: { sources: Official["sources"] }) {
 
 function PositionHistory({ official }: { official: Official }) {
     const t = useTranslations("Explorer.official");
+    // An office held more than once is one entry listing each term.
+    const offices = groupPositionsByOffice(official.positions);
 
     return (
-        <Collapsible defaultOpen={official.positions.length > 1}>
+        <Collapsible defaultOpen={offices.length > 1}>
             <CollapsibleTrigger className="group flex w-full items-center justify-between rounded-md py-1 font-medium text-sm outline-none focus-visible:ring-3 focus-visible:ring-ring/50">
-                {t("positions", { count: official.positions.length })}
+                {t("positions", { count: offices.length })}
                 <IconChevronDown
                     aria-hidden
                     className="size-4 text-muted-foreground transition-transform group-data-panel-open:rotate-180"
@@ -90,20 +92,22 @@ function PositionHistory({ official }: { official: Official }) {
             </CollapsibleTrigger>
             <CollapsibleContent>
                 <ol className="mt-2 flex flex-col gap-3 border-l pl-4">
-                    {official.positions.map((position) => (
-                        <li className="flex flex-col gap-0.5" key={position.id}>
+                    {offices.map((office) => (
+                        <li className="flex flex-col gap-0.5" key={office.title}>
                             <span className="flex flex-wrap items-center gap-2 text-sm">
-                                {position.title}
-                                {isCurrentPosition(position) ? (
+                                {office.title}
+                                {office.isCurrent ? (
                                     <Badge variant="secondary">{t("current")}</Badge>
                                 ) : null}
                             </span>
-                            {position.ministry ? (
+                            {office.terms[0]?.ministry ? (
                                 <span className="text-muted-foreground text-xs">
-                                    {position.ministry}
+                                    {office.terms[0].ministry}
                                 </span>
                             ) : null}
-                            <PositionTenure position={position} />
+                            {office.terms.map((term) => (
+                                <PositionTenure key={term.id} position={term} />
+                            ))}
                         </li>
                     ))}
                 </ol>

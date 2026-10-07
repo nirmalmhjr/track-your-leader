@@ -1562,45 +1562,31 @@
           "portfolio": "agriculture",
           "startDate": "2011-01-01",
           "title": "Minister of Fisheries"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "tewolde-kelati-p2",
+          "ministry": "Ministry of Fisheries and Marine Resources",
+          "portfolio": "agriculture",
+          "startDate": "2011-01-01",
+          "title": "Minister of Fisheries and Marine Resources"
         }
       ],
       "sources": [
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q110535800"
-        }
-      ],
-      "summary": "Politician in Eritrea.",
-      "wikidataId": "Q110535800"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ERI",
-      "fullName": "Tewolde Kelati",
-      "id": "tewolde-kelati-eri",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "tewolde-kelati-eri-p1",
-          "ministry": "Ministry of Fisheries and Marine Resources",
-          "portfolio": "agriculture",
-          "startDate": null,
-          "title": "Minister of Fisheries and Marine Resources"
-        }
-      ],
-      "sources": [
+        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/eritrea/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Politician in Eritrea.",
+      "wikidataId": "Q110535800"
     },
     {
       "aliases": [
@@ -1817,35 +1803,6 @@
       ],
       "summary": "Sophia Tesfamariam Yohannes is the Permanent Representative of Eritrea to the United Nations, having presented her credentials to UN Secretary-General António Guterres on September 5, 2019. She is a Vice President of the 2025 Executive Board of UNICEF. She earned a Bachelor of Science degree in management from Western International University in Phoenix, Arizona.",
       "wikidataId": "Q96217261"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ERI",
-      "fullName": "Kibreab Woldemariam",
-      "id": "kibreab-woldemariam-eri",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "regional_leader"
-          ],
-          "endDate": null,
-          "id": "kibreab-woldemariam-eri-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2026-10-05",
-          "title": "Governor, Bank of Eritrea"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/eritrea/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     }
   ],
   "trips": [
@@ -2164,6 +2121,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -2368,6 +2329,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1998-04-25",
@@ -4210,7 +4175,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         },
         {
           "label": "COLT dataset",
@@ -5381,23 +5346,27 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-06-02",
+      "endDate": "2023-05-31",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
-      "id": "isaias-afwerki--2023-05-30--RUS",
+      "eventName": "Meeting with President of Eritrea Isaias Afwerki",
+      "id": "isaias-afwerki--2023-05-31--RUS",
       "officialId": "isaias-afwerki",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Eritrea Isaias Afwerki",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71261"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-05-30",
+      "startDate": "2023-05-31",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5442,24 +5411,28 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-07-31",
+      "endDate": "2023-07-28",
       "engagements": [
         "Met President Vladimir Putin",
         "Gave a public address"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "isaias-afwerki--2023-07-26--RUS",
+      "eventName": "Meeting with President of Eritrea Isaias Afwerki",
+      "id": "isaias-afwerki--2023-07-28--RUS",
       "officialId": "isaias-afwerki",
-      "purpose": "Attended Russia-Africa Summit",
+      "purpose": "Meeting with President of Eritrea Isaias Afwerki",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71830"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-26",
+      "startDate": "2023-07-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

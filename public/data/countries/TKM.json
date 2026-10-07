@@ -503,12 +503,15 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Begenc Gundogdyyew",
+        "Begenç Ataýewiç Gündogdyýew"
+      ],
       "countryCode": "TKM",
-      "fullName": "Begenc Gundogdyyew",
+      "fullName": "Begenç Gündogdyýew",
       "id": "begenc-gundogdyyew-tkm",
-      "party": null,
-      "photoUrl": null,
+      "party": "Democratic Party of Turkmenistan",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Begench_Gundogdyev_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -518,46 +521,15 @@
           "id": "begenc-gundogdyyew-tkm-p1",
           "ministry": "Ministry of Defense",
           "portfolio": "defence",
-          "startDate": null,
+          "startDate": "2018-06-14",
           "title": "Minister of Defense"
         },
-        {
-          "categories": [
-            "senior_official"
-          ],
-          "endDate": null,
-          "id": "begenc-gundogdyyew-tkm-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Secretary, Security Council"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/turkmenistan/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [
-        "Begenç Ataýewiç Gündogdyýew"
-      ],
-      "countryCode": "TKM",
-      "fullName": "Begenç Gündogdyýew",
-      "id": "begenc-gundogdyyew",
-      "party": "Democratic Party of Turkmenistan",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Begench_Gundogdyev_(cropped).jpg?width=160",
-      "positions": [
         {
           "categories": [
             "minister"
           ],
           "endDate": null,
-          "id": "begenc-gundogdyyew-p1",
+          "id": "begenc-gundogdyyew-tkm-p2",
           "ministry": "Ministry of Defense of Turkmenistan",
           "portfolio": "defence",
           "startDate": "2018-06-14",
@@ -565,10 +537,21 @@
         },
         {
           "categories": [
+            "senior_official"
+          ],
+          "endDate": null,
+          "id": "begenc-gundogdyyew-tkm-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Secretary, Security Council"
+        },
+        {
+          "categories": [
             "minister"
           ],
           "endDate": "2015-10-05",
-          "id": "begenc-gundogdyyew-p2",
+          "id": "begenc-gundogdyyew-tkm-p4",
           "ministry": "Ministry of Defense of Turkmenistan",
           "portfolio": "defence",
           "startDate": "2011-03-29",
@@ -579,6 +562,10 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q4152150"
+        },
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/turkmenistan/"
         },
         {
           "label": "Wikipedia",
@@ -1138,6 +1125,35 @@
     {
       "aliases": [],
       "countryCode": "TKM",
+      "fullName": "Myradow Goçmyrat Aşyrmuhammedowiç",
+      "id": "q48962284",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2017-10-05",
+          "id": "q48962284-p1",
+          "ministry": "Ministry of Finance",
+          "portfolio": "finance",
+          "startDate": "2017-07-07",
+          "title": "Minister of Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q48962284"
+        }
+      ],
+      "summary": "Turkmen politician.",
+      "wikidataId": "Q48962284"
+    },
+    {
+      "aliases": [],
+      "countryCode": "TKM",
       "fullName": "Myratberdi Gayypow",
       "id": "myratberdi-gayypow",
       "party": null,
@@ -1563,35 +1579,6 @@
       ],
       "summary": "Turkmen politician.",
       "wikidataId": "Q39083269"
-    },
-    {
-      "aliases": [],
-      "countryCode": "TKM",
-      "fullName": "Гочмурад Аширмухаммедович Мурадов",
-      "id": "q48962284",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "2017-10-05",
-          "id": "q48962284-p1",
-          "ministry": "Ministry of Finance",
-          "portfolio": "finance",
-          "startDate": "2017-07-07",
-          "title": "Minister of Finance"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q48962284"
-        }
-      ],
-      "summary": "Turkmen politician.",
-      "wikidataId": "Q48962284"
     },
     {
       "aliases": [],
@@ -2251,6 +2238,34 @@
         "precision": "country",
         "region": "Europe"
       },
+      "endDate": "2007-04-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "gurbanguly-berdimuhamedow--2007-04-23--RUS",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "President Vladimir Putin met with President of Turkmenistan Gurbanguly Berdymukhammedov",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/38683"
+        }
+      ],
+      "startDate": "2007-04-23",
+      "statusHint": null,
+      "type": "diplomatic_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
       "endDate": "2007-06-10",
       "engagements": [],
       "eventName": "Commonwealth of Independent States (CIS) Summit",
@@ -2266,6 +2281,34 @@
       "startDate": "2007-06-10",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-06-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "gurbanguly-berdimuhamedow--2007-06-16--IRN",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2007-06-16",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2431,7 +2474,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-10-17",
+      "endDate": "2007-10-16",
       "engagements": [
         "Met President Mahmoud Ahmadinejad",
         "Signed agreements"
@@ -2442,13 +2485,17 @@
       "purpose": "Attended Summit of the Caspian Sea Littoral States",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2007-10-16",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -2498,8 +2545,12 @@
       "eventName": "Commonwealth of Independent States (CIS) Summit",
       "id": "gurbanguly-berdimuhamedow--2008-02-22--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "President Vladimir Putin met with President of Turkmenistan Gurbanguly Berdymukhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/43856"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2507,7 +2558,7 @@
       ],
       "startDate": "2008-02-22",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2680,8 +2731,12 @@
       "eventName": "Commonwealth of Independent States (CIS) Summit",
       "id": "gurbanguly-berdimuhamedow--2008-06-06--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "Dmitry Medvedev met with President of Turkmenistan Gurbanguly Berdymukhammedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/44349"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -2689,7 +2744,7 @@
       ],
       "startDate": "2008-06-06",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -2976,18 +3031,22 @@
       "endDate": "2009-03-11",
       "engagements": [],
       "eventName": "Economic Cooperation Organization (ECO) Summit",
-      "id": "gurbanguly-berdimuhamedow--2009-03-11--IRN",
+      "id": "gurbanguly-berdimuhamedow--2009-03-10--IRN",
       "officialId": "gurbanguly-berdimuhamedow",
       "purpose": "Attended Economic Cooperation Organization (ECO) Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2009-03-11",
+      "startDate": "2009-03-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -3009,8 +3068,12 @@
       "eventName": null,
       "id": "gurbanguly-berdimuhamedow--2009-03-24--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev met with President of Turkmenistan Gurbanguly Berdymukhamedov, who has come to Russia on a state visit, at the presidential residence near Moscow",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/3535"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3018,7 +3081,7 @@
       ],
       "startDate": "2009-03-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -3271,15 +3334,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-11-30",
+      "endDate": "2009-11-29",
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Dmitry Medvedev had a meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "id": "gurbanguly-berdimuhamedow--2009-11-29--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Visit to Russia",
+      "purpose": "Dmitry Medvedev had a meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/6150"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3287,7 +3354,7 @@
       ],
       "startDate": "2009-11-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3337,8 +3404,12 @@
       "eventName": "Commonwealth of Independent States (CIS) Summit",
       "id": "gurbanguly-berdimuhamedow--2009-12-19--KAZ",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "Dmitry Medvedev met with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/6400"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3346,7 +3417,7 @@
       ],
       "startDate": "2009-12-19",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -3450,7 +3521,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-03-28",
+      "endDate": "2010-03-27",
       "engagements": [
         "Met President Mahmoud Ahmadinejad"
       ],
@@ -3460,13 +3531,45 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-03-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Tehran",
+        "coordinates": [
+          51.389722222,
+          35.688888888
+        ],
+        "countryCode": "IRN",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2010-04-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "gurbanguly-berdimuhamedow--2010-04-17--IRN",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "Visit to Iran",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        }
+      ],
+      "startDate": "2010-04-17",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -3536,7 +3639,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2010-05-26",
+      "endDate": "2010-05-24",
       "engagements": [
         "Met Prime Minister Manmohan Singh",
         "Signed agreements"
@@ -3544,8 +3647,12 @@
       "eventName": null,
       "id": "gurbanguly-berdimuhamedow--2010-05-24--IND",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Visit to India",
+      "purpose": "First official visit of Berdimuhamedow to India, Development of trade and economic co–operation",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3813,13 +3920,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2011-03-27",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -3861,16 +3972,19 @@
           38.573055555
         ],
         "countryCode": "TJK",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2011-09-03",
       "engagements": [],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "id": "gurbanguly-berdimuhamedow--2011-09-03--TJK",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/12552"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -3878,7 +3992,7 @@
       ],
       "startDate": "2011-09-03",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4044,11 +4158,15 @@
       "engagements": [
         "Met President Dmitry Medvedev"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "id": "gurbanguly-berdimuhamedow--2011-12-23--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/14111"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -4056,7 +4174,7 @@
       ],
       "startDate": "2011-12-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -4292,7 +4410,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
         },
         {
           "label": "COLT dataset",
@@ -4483,13 +4601,17 @@
       "purpose": "Visit to Iran",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-08-04",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -4731,6 +4853,34 @@
       "startDate": "2014-09-11",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Moscow",
+        "coordinates": [
+          37.6175,
+          55.750555555
+        ],
+        "countryCode": "RUS",
+        "precision": "country",
+        "region": "Europe"
+      },
+      "endDate": "2014-09-29",
+      "engagements": [],
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
+      "id": "gurbanguly-berdimuhamedow--2014-09-29--RUS",
+      "officialId": "gurbanguly-berdimuhamedow",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
+      "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/46691"
+        }
+      ],
+      "startDate": "2014-09-29",
+      "statusHint": null,
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5192,7 +5342,6 @@
           35.688888888
         ],
         "countryCode": "IRN",
-        "precision": "country",
         "region": "Asia"
       },
       "endDate": "2015-11-23",
@@ -5200,19 +5349,27 @@
         "Met President Hassan Rouhani",
         "Signed agreements"
       ],
-      "eventName": "Gas Exporting Countries Forum (GECF)",
-      "id": "gurbanguly-berdimuhamedow--2015-11-22--IRN",
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
+      "id": "gurbanguly-berdimuhamedow--2015-11-23--IRN",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Gas Exporting Countries Forum (GECF)",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/50767"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-11-22",
+      "startDate": "2015-11-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5436,15 +5593,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2016-11-02",
+      "endDate": "2016-11-01",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "id": "gurbanguly-berdimuhamedow--2016-11-01--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/53178"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5452,7 +5613,7 @@
       ],
       "startDate": "2016-11-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5680,15 +5841,19 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2017-10-12",
+      "endDate": "2017-10-11",
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Commonwealth of Independent States (CIS) Summit",
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "id": "gurbanguly-berdimuhamedow--2017-10-11--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Attended Commonwealth of Independent States (CIS) Summit",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimuhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/55814"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5696,7 +5861,7 @@
       ],
       "startDate": "2017-10-11",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -5813,6 +5978,10 @@
       "purpose": "Visit to Uzbekistan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -5927,11 +6096,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": null,
+      "eventName": "Meeting with President of Turkmenistan Gurbanguly Berdimukhamedov",
       "id": "gurbanguly-berdimuhamedow--2018-08-15--RUS",
       "officialId": "gurbanguly-berdimuhamedow",
-      "purpose": "Visit to Russia",
+      "purpose": "Meeting with President of Turkmenistan Gurbanguly Berdimukhamedov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/58310"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -5939,7 +6112,7 @@
       ],
       "startDate": "2018-08-15",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -6361,6 +6534,10 @@
       "purpose": "Visit to Uzbekistan",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -6508,7 +6685,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2022_Organization_of_Turkic_States_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         }
       ],
       "startDate": "2022-11-11",
@@ -6668,16 +6845,20 @@
       "eventName": null,
       "id": "rasit-meredow--2013-01-21--IND",
       "officialId": "rasit-meredow",
-      "purpose": "Visit to India",
+      "purpose": "Official Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/436/Visit_of_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_Turkmenistan_to_India_January_2122_2013"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2013-01-21",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6777,16 +6958,20 @@
       "eventName": null,
       "id": "rasit-meredow--2017-08-13--IND",
       "officialId": "rasit-meredow",
-      "purpose": "Visit to India",
+      "purpose": "Working Visit",
       "sources": [
         {
           "label": "Ministry of External Affairs, India",
           "url": "https://www.mea.gov.in/incoming-visit-info?1/981/Visit_of_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_Turkmenistan_to_India_August_1315_2017"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_India"
         }
       ],
       "startDate": "2017-08-13",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -6939,7 +7124,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "1992-02-16",
+      "endDate": "1992-02-17",
       "engagements": [
         "Signed agreements"
       ],
@@ -6949,13 +7134,17 @@
       "purpose": "Attended Economic Cooperation Organization (ECO) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1992-02-16",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8187,6 +8376,10 @@
           "url": "https://history.state.gov/departmenthistory/visits"
         },
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -8425,13 +8618,17 @@
       "purpose": "Attended Economic Cooperation Organization (ECO) Summit",
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Iran"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2000-06-10",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8924,18 +9121,22 @@
         "Met President Vladimir Putin"
       ],
       "eventName": null,
-      "id": "saparmyrat-nyyazow--2006-01-22--RUS",
+      "id": "saparmyrat-nyyazow--2006-01-23--RUS",
       "officialId": "saparmyrat-nyyazow",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with President of Turkmenistan Saparmurat Niyazov",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/34916"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-01-22",
+      "startDate": "2006-01-23",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9082,7 +9283,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serdar_Berdimuhamedow"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -9143,14 +9344,18 @@
         "Met with President Shavkat Mirziyoyev and President of China Xi Jinping.",
         "Met President Shavkat Mirziyoyev"
       ],
-      "eventName": "2022 Samarkand SCO summit",
+      "eventName": "Meeting with President of Turkmenistan Serdar Berdimuhamedov",
       "id": "serdar-berdimuhamedow--2022-09-15--UZB",
       "officialId": "serdar-berdimuhamedow",
-      "purpose": "Attended the 2022 SCO summit.",
+      "purpose": "Meeting with President of Turkmenistan Serdar Berdimuhamedov",
       "sources": [
         {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/69353"
+        },
+        {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serdar_Berdimuhamedow"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -9159,7 +9364,7 @@
       ],
       "startDate": "2022-09-15",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -9876,7 +10081,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serdar_Berdimuhamedow"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
         },
         {
           "label": "COLT dataset",
@@ -10560,14 +10765,14 @@
       "engagements": [
         "Met President Donald Trump"
       ],
-      "eventName": "C5+1 Summit",
+      "eventName": "Participated in C5+1 Presidential Summit Meeting with President Trump at the White House.",
       "id": "serdar-berdimuhamedow--2025-11-05--USA",
       "officialId": "serdar-berdimuhamedow",
       "purpose": "Attended the 2025 US–Central Asia Summit and met with President Donald Trump.",
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serdar_Berdimuhamedow"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
         },
         {
           "label": "COLT dataset",

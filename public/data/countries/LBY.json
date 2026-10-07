@@ -230,6 +230,10 @@
       ],
       "sources": [
         {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         },
@@ -4693,37 +4697,9 @@
       "wikidataId": "Q114884660"
     },
     {
-      "aliases": [],
-      "countryCode": "LBY",
-      "fullName": "Walid al-Lafi",
-      "id": "walid-al-lafi",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "junior_minister"
-          ],
-          "endDate": null,
-          "id": "walid-al-lafi-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": null,
-          "title": "Minister of State for Communication and Political Affairs"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/libya/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
-        "Walid Ellafi"
+        "Walid Ellafi",
+        "Walid al-Lafi"
       ],
       "countryCode": "LBY",
       "fullName": "Walid Ammar Muhammad Ammar Al-Lafi",
@@ -4745,8 +4721,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q114884664"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/libya/"
         },
         {
           "label": "Wikipedia",
@@ -4993,8 +4969,8 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
+          35.933333333,
+          31.95
         ],
         "countryCode": "JOR",
         "region": "Asia"
@@ -5767,6 +5743,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2014-08-05",
@@ -5795,6 +5775,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "2012-03-07",
@@ -7151,15 +7135,19 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "2017-12-02",
+      "endDate": "2017-12-01",
       "engagements": [
         "Met President Donald Trump"
       ],
       "eventName": null,
       "id": "fayez-al-sarraj--2017-12-01--USA",
       "officialId": "fayez-al-sarraj",
-      "purpose": "Visit to United States",
+      "purpose": "Working visit. Met with President Trump.",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -10697,11 +10685,15 @@
       "engagements": [
         "Met President Vladimir Putin"
       ],
-      "eventName": "Russia-Africa Summit",
-      "id": "mohamed-al-menfi--2023-07-27--RUS",
+      "eventName": "Meeting with President of the Presidential Council of Libya Mohamed Yunus al-Menfi",
+      "id": "mohamed-al-menfi--2023-07-28--RUS",
       "officialId": "mohamed-al-menfi",
-      "purpose": "Met with President Vladimir Putin and attended the Russia–Africa Summit.",
+      "purpose": "Meeting with President of the Presidential Council of Libya Mohamed Yunus al-Menfi",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/71832"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_al-Menfi"
@@ -10711,9 +10703,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-07-27",
+      "startDate": "2023-07-28",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12339,8 +12331,8 @@
       "destination": {
         "city": "Damascus",
         "coordinates": [
-          36.292,
-          33.513
+          36.291944444,
+          33.513055555
         ],
         "countryCode": "SYR",
         "region": "Asia"
@@ -12950,10 +12942,38 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "Baghdad",
+        "coordinates": [
+          44.366111111,
+          33.315277777
+        ],
+        "countryCode": "IRQ",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "1978-11-05",
+      "engagements": [],
+      "eventName": null,
+      "id": "muammar-gaddafi--1978-11-02--IRQ",
+      "officialId": "muammar-gaddafi",
+      "purpose": "Visit to Iraq",
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
+        }
+      ],
+      "startDate": "1978-11-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Damascus",
         "coordinates": [
-          36.292,
-          33.513
+          36.291944444,
+          33.513055555
         ],
         "countryCode": "SYR",
         "region": "Asia"
@@ -16198,8 +16218,8 @@
       "destination": {
         "city": "Damascus",
         "coordinates": [
-          36.292,
-          33.513
+          36.291944444,
+          33.513055555
         ],
         "countryCode": "SYR",
         "region": "Asia"
@@ -17926,7 +17946,7 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2012_Arab_League_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_Iraq"
         },
         {
           "label": "COLT dataset",
@@ -17989,6 +18009,10 @@
         {
           "label": "US Office of the Historian",
           "url": "https://history.state.gov/departmenthistory/visits"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
         }
       ],
       "startDate": "1954-07-13",
