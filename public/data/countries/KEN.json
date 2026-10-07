@@ -12302,6 +12302,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-03-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "monica-juma--2019-03-04--IND",
+      "officialId": "monica-juma",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1158/Visit_of_Cabinet_Secretary_For_Foreign_Affairs_and_International_Trade_of_The_Republic_of_Kenya_March_0406_2019"
+        }
+      ],
+      "startDate": "2019-03-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Brasília",
@@ -18952,16 +18980,20 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2017-01-11",
+      "endDate": "2017-01-12",
       "engagements": [
         "President Uhuru attended the inauguration of the 8th Vibrant Gujarat Global Summit 2017, as the Guest of Honor.",
         "Uhuru was joined with president Paul Kagame of Rwanda at the summit."
       ],
       "eventName": "Vibrant Gujarat Global Summit",
-      "id": "uhuru-kenyatta--2017-01-09--IND",
+      "id": "uhuru-kenyatta--2017-01-10--IND",
       "officialId": "uhuru-kenyatta",
       "purpose": "State Visit",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/944/Visit_of_President_of_Kenya_to_India_January_1012_2017"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Uhuru_Kenyatta"
@@ -18971,7 +19003,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-01-09",
+      "startDate": "2017-01-10",
       "statusHint": null,
       "type": "state_visit"
     },
@@ -23511,6 +23543,10 @@
       "officialId": "william-ruto",
       "purpose": "State visit",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1435/State_Visit_of_President_of_the_Republic_of_Kenya_to_India_December_0406_2023"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_William_Ruto"

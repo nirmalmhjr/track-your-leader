@@ -30898,6 +30898,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-11-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "b-rge-brende--2015-11-02--IND",
+      "officialId": "b-rge-brende",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/823/Visit_of_Minister_of_Foreign_Affairs_of_Norway_to_India_November_0204_2015"
+        }
+      ],
+      "startDate": "2015-11-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -33504,13 +33532,17 @@
       "purpose": "Attended World Sustainable Development Summit",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1136/State_Visit_of_Prime_Minister_of_Norway_January_0709_2019"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2019-01-07",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -42292,6 +42324,34 @@
       "startDate": "2013-09-23",
       "statusHint": null,
       "type": "conference"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-12-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "jonas-gahr-st-re--2006-12-14--IND",
+      "officialId": "jonas-gahr-st-re",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/549/Official_Visit_of_HE_Mr_Jonas_Gahr_Store_Foreign_Minister_of_Kingdom_of_Norway_to_IndiaDecember_1416_2006"
+        }
+      ],
+      "startDate": "2006-12-14",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

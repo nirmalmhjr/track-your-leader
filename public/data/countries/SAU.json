@@ -5980,13 +5980,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/543/State_Visit_of_The_Custodian_of_the_Two_Holy_Mosques_King_Abdullah_bin_Abdulaziz_AlSaud_of_the_Kingdom_of_Saudi_Arabia_to_IndiaJanuary_2427_2006"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2006-01-24",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -7271,6 +7275,34 @@
       "startDate": "2015-10-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-03-08",
+      "engagements": [],
+      "eventName": null,
+      "id": "adel-al-jubeir--2016-03-07--IND",
+      "officialId": "adel-al-jubeir",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/861/Official_visit_of_Foreign_Minister_of_Saudi_Arabia_to_India_March_0708_2016"
+        }
+      ],
+      "startDate": "2016-03-07",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -9201,13 +9233,17 @@
       "purpose": "Led Saudi Arabia's delegation to G20 Leaders Summit.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1422/State_Visit_of_HRH_Prince_Mohammed_Bin_Salman_Bin_Abdulaziz_AlSaud_Crown_Prince__Prime_Minister_of_the_Kingdom_of_Saudi_Arabia_to_India_September_0911_2023"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Mohammed_bin_Salman_as_Crown_Prince_of_Saudi_Arabia"
         }
       ],
       "startDate": "2023-09-09",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

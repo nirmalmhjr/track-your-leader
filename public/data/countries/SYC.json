@@ -2206,13 +2206,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1088/State_Visit_of_President_of_Seychelles_to_India_June_2227_2018"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-06-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5474,6 +5478,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-08-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "james-michel--2015-08-25--IND",
+      "officialId": "james-michel",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/800/State_visit_of_President_of_the_Republic_of_Seychelles_to_India_August_2527_2015"
+        }
+      ],
+      "startDate": "2015-08-25",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -5643,6 +5675,34 @@
       "startDate": "2025-12-06",
       "statusHint": null,
       "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-02-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "patrick-herminie--2026-02-05--IND",
+      "officialId": "patrick-herminie",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1558/State_Visit_of_the_President_of_Seychelles_to_India_February_05__10_2026"
+        }
+      ],
+      "startDate": "2026-02-05",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

@@ -31,6 +31,9 @@ const SPARQL_BATCH_SIZE = 200;
 const CITY_BATCH_SIZE = 40;
 const COUNTRY_LIST_SEPARATOR = /[,;/&]| and /;
 const LEADING_THE = /^the /;
+/** "Islamic Republic of", "Kingdom of the": the formal part of a country's full name. */
+const FORMAL_PREFIX =
+    /^(?:(?:islamic|federal|federative|democratic|people s|united|socialist|co operative|cooperative|plurinational|bolivarian|hashemite|arab|independent|oriental|grand)\s+)*(?:republic|kingdom|state|sultanate|principality|duchy|commonwealth)\s+of\s+(?:the\s+)?/;
 
 /** Common and historical names that differ from the ISO short names. */
 const COUNTRY_ALIASES: Readonly<Record<string, CountryCode>> = {
@@ -38,6 +41,7 @@ const COUNTRY_ALIASES: Readonly<Record<string, CountryCode>> = {
     "cabo verde": "CPV",
     "cape verde": "CPV",
     ceylon: "LKA",
+    "cote d ivoire": "CIV",
     "czech republic": "CZE",
     czechoslovakia: "CZE",
     "democratic republic of the congo": "COD",
@@ -47,10 +51,14 @@ const COUNTRY_ALIASES: Readonly<Record<string, CountryCode>> = {
     "federated states of micronesia": "FSM",
     "german democratic republic": "DEU",
     "great britain": "GBR",
+    "hellenic republic": "GRC",
     holland: "NLD",
     "holy see": "VAT",
     "ivory coast": "CIV",
     "korea republic of": "KOR",
+    "kyrgyz republic": "KGZ",
+    "lao pdr": "LAO",
+    "lao people s democratic republic": "LAO",
     "north korea": "PRK",
     "people s republic of china": "CHN",
     persia: "IRN",
@@ -61,21 +69,25 @@ const COUNTRY_ALIASES: Readonly<Record<string, CountryCode>> = {
     rhodesia: "ZWE",
     russia: "RUS",
     "russian federation": "RUS",
+    "slovak republic": "SVK",
     "south korea": "KOR",
     "south vietnam": "VNM",
     "soviet union": "RUS",
     swaziland: "SWZ",
+    "swiss confederation": "CHE",
     "the bahamas": "BHS",
     "the gambia": "GMB",
     "the netherlands": "NLD",
     turkey: "TUR",
     turkiye: "TUR",
+    uae: "ARE",
     uk: "GBR",
     "united states of america": "USA",
     us: "USA",
     usa: "USA",
     ussr: "RUS",
     "vatican city": "VAT",
+    "viet nam": "VNM",
     vietnam: "VNM",
     "west germany": "DEU",
     yugoslavia: "SRB",
@@ -100,11 +112,17 @@ const NAMES = ((): Map<string, CountryCode> => {
  * @param name - Country name as written in a source.
  * @returns The ISO code, or `null`.
  */
-export const countryCodeOfName = (name: string): CountryCode | null =>
-    NAMES.get(normalizeName(name).replace(LEADING_THE, "")) ??
-    // Article titles such as "Georgia (country)".
-    NAMES.get(normalizeName(stripParenthetical(name)).replace(LEADING_THE, "")) ??
-    null;
+export const countryCodeOfName = (name: string): CountryCode | null => {
+    const key = normalizeName(name).replace(LEADING_THE, "");
+    return (
+        NAMES.get(key) ??
+        // Article titles such as "Georgia (country)".
+        NAMES.get(normalizeName(stripParenthetical(name)).replace(LEADING_THE, "")) ??
+        // Full names: "Kingdom of Saudi Arabia", "United Republic of Tanzania".
+        NAMES.get(key.replace(FORMAL_PREFIX, "")) ??
+        null
+    );
+};
 
 /**
  * Every country named in a list such as "France, Belgium and the Netherlands".

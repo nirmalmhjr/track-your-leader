@@ -8672,6 +8672,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-10-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "nguyen-tan-dung--2014-10-27--IND",
+      "officialId": "nguyen-tan-dung",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/726/State_Visit_of_Prime_Minister_of_Vietnam_to_India_October_2728_2014"
+        }
+      ],
+      "startDate": "2014-10-27",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Nay Pyi Taw",
         "coordinates": [
           96.115,
@@ -9590,6 +9618,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-07-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "pham-binh-minh--2013-07-10--IND",
+      "officialId": "pham-binh-minh",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/601/Visit_of_Minister_of_Foreign_Affairs_of_Vietnam_July_1012_2013"
+        }
+      ],
+      "startDate": "2013-07-10",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -10106,13 +10162,17 @@
       "purpose": "Despite being the de jure head of government, the prime minister is de facto only the third most important political position in Vietnam, b…",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1469/State_Visit_of_HE_Pham_Minh_Chinh_Prime_Minister_of_the_Socialist_Republic_of_Vietnam_to_India_July_30_August_01_2024"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Ph%E1%BA%A1m_Minh_Ch%C3%ADnh"
         }
       ],
       "startDate": "2024-07-30",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11260,6 +11320,10 @@
       "purpose": "State visit.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1575/State_Visit_of_President_of_the_Socialist_Republic_of_Vietnam_to_India_May_05__07_2026"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_T%C3%B4_L%C3%A2m"
         }
@@ -11994,13 +12058,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1057/State_visit_of_President_of_Vietnam_to_India_March_24_2018"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-03-02",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

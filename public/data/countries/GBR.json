@@ -386,35 +386,6 @@
     {
       "aliases": [],
       "countryCode": "GBR",
-      "fullName": "Douglas-Home",
-      "id": "douglas-home",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "1964-02-14",
-          "id": "douglas-home-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1963-11-24",
-          "title": "Prime Minister"
-        }
-      ],
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "GBR",
       "fullName": "ᱥᱤᱫᱷᱟᱨᱛᱷᱚ ᱥᱚᱝᱠᱚᱨ ᱨᱟᱭ",
       "id": "q134025071",
       "party": "Indian National Congress",
@@ -11209,7 +11180,7 @@
           "url": "https://en.wikipedia.org/wiki/Keith_Brown_(Scottish_politician)"
         }
       ],
-      "summary": "Keith James Brown (born 20 December 1961) is a Scottish politician serving as Depute leader of the Scottish National Party (SNP) since 2018. He is a former Royal Marines commando and has been a Member of the Scottish Parliament (MSP) since 2007, first representing the Ochil constituency from 2007 to 2011, then the Clackmannanshire and Dunblane constituency since 2011.",
+      "summary": "Keith James Brown (born 20 December 1961) is a Scottish politician serving as Depute Leader of the Scottish National Party (SNP) since 2018. He is a former Royal Marines commando and has been a Member of the Scottish Parliament (MSP) since 2007, first representing the Ochil constituency from 2007 to 2011, then the Clackmannanshire and Dunblane constituency since 2011.",
       "wikidataId": "Q1738042"
     },
     {
@@ -93268,7 +93239,7 @@
           "url": "https://en.wikipedia.org/wiki/Keir_Starmer"
         }
       ],
-      "summary": "Sir Keir Rodney Starmer (born 2 September 1962) is a British politician and former lawyer who served as Prime Minister of the United Kingdom from 2024 to 2026. He was Leader of the Labour Party from 2020 to 2026 and Leader of the Opposition from 2020 to 2024.",
+      "summary": "Sir Keir Rodney Starmer (born 2 September 1962) is a British politician and lawyer who served as Prime Minister of the United Kingdom from 2024 to 2026. He was Leader of the Labour Party from 2020 to 2026 and Leader of the Opposition from 2020 to 2024.",
       "wikidataId": "Q6383803"
     },
     {
@@ -143638,11 +143609,15 @@
       "engagements": [
         "Met President Lyndon Johnson"
       ],
-      "eventName": null,
+      "eventName": "Attended funeral of President Kennedy.",
       "id": "alec-douglas-home--1963-11-24--USA",
       "officialId": "alec-douglas-home",
-      "purpose": "Visit to United States",
+      "purpose": "Attended funeral of President Kennedy.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -143695,15 +143670,19 @@
         "precision": "country",
         "region": "Americas"
       },
-      "endDate": "1964-02-15",
+      "endDate": "1964-02-14",
       "engagements": [
         "Met President Lyndon Johnson"
       ],
       "eventName": null,
       "id": "alec-douglas-home--1964-02-12--USA",
       "officialId": "alec-douglas-home",
-      "purpose": "Visit to United States",
+      "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -163126,6 +163105,10 @@
         {
           "label": "GOV.UK transparency data",
           "url": "https://www.gov.uk/government/publications/cabinet-office-ministerial-gifts-hospitality-travel-and-meetings-april-to-june-2022"
+        },
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1356/Visit_of_the_Prime_Minister_of_the_United_Kingdom_to_India_April_2122_2022"
         },
         {
           "label": "Wikipedia",
@@ -186536,10 +186519,14 @@
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "david-cameron--2013-02-17--IND",
+      "id": "david-cameron--2013-02-18--IND",
       "officialId": "david-cameron",
       "purpose": "Cameron undertook an overseas trade mission and held bilateral meetings.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/475/Official_Visit_of_Prime_Minister_of_UK_to_India_February_1820_2013"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_David_Cameron"
@@ -186549,9 +186536,9 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2013-02-17",
+      "startDate": "2013-02-18",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -203011,62 +202998,6 @@
       "startDate": "2025-08-27",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1963-11-25",
-      "engagements": [],
-      "eventName": "Attended funeral of President Kennedy.",
-      "id": "douglas-home--1963-11-24--USA",
-      "officialId": "douglas-home",
-      "purpose": "Attended funeral of President Kennedy.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "1963-11-24",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1964-02-14",
-      "engagements": [],
-      "eventName": null,
-      "id": "douglas-home--1964-02-12--USA",
-      "officialId": "douglas-home",
-      "purpose": "Official visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "1964-02-12",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -253749,6 +253680,10 @@
         {
           "label": "GOV.UK transparency data",
           "url": "https://www.gov.uk/government/publications/cabinet-office-ministerial-overseas-travel-and-meetings-october-to-december-2025"
+        },
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1533/Official_visit_of_Prime_Minister_of_the_United_Kingdom_to_India_October_0809_2025"
         },
         {
           "label": "Wikipedia",
@@ -306686,6 +306621,10 @@
       "purpose": "In her first bilateral trip outside Europe and first trade mission, May met with Prime Minister Narendra Modi in New Delhi to discuss India…",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/931/Visit_of_Prime_Minister_of_United_Kingdom_to_India_November_68_2016"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Theresa_May"
         },
@@ -320116,16 +320055,20 @@
         "Met Prime Minister Manmohan Singh"
       ],
       "eventName": null,
-      "id": "tony-blair--2005-09-07--IND",
+      "id": "tony-blair--2005-09-06--IND",
       "officialId": "tony-blair",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/597/Visit_of_Mr_Tony_Blair_Prime_Minister_of_United_Kingdom_to_India_September_68_2005"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2005-09-07",
+      "startDate": "2005-09-06",
       "statusHint": null,
       "type": "official_visit"
     },

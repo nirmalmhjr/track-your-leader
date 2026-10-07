@@ -2886,6 +2886,34 @@
         "precision": "country",
         "region": "Asia"
       },
+      "endDate": "2015-12-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "ameenah-gurib-fakim--2015-12-06--IND",
+      "officialId": "ameenah-gurib-fakim",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/833/Visit_of_President_of_the_Republic_of_Mauritius_to_India_December_0610_2015"
+        }
+      ],
+      "startDate": "2015-12-06",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
       "endDate": "1990-01-01",
       "engagements": [
         "Met Prime Minister Vishwanath Pratap Singh",
@@ -4540,6 +4568,34 @@
       "startDate": "2026-09-25",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-01-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "kailash-purryag--2013-01-03--IND",
+      "officialId": "kailash-purryag",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/422/State_visit_of_President_of_Republic_of_Mauritius_HE_Mr_Rajkeswur_Purryag_January_310_2013"
+        }
+      ],
+      "startDate": "2013-01-03",
+      "statusHint": null,
+      "type": "state_visit"
     },
     {
       "datePrecision": "month",
@@ -7777,13 +7833,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/990/State_Visit_of_Prime_Minister_of_the_Republic_of_Mauritius_to_India_2628_May_2017"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2017-05-26",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -8022,6 +8082,10 @@
       "officialId": "pravind-jugnauth",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1144/Official_Visit_of_Prime_Minister_of_the_Republic_of_Mauritius_January_20282019"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8345,6 +8409,10 @@
       "officialId": "pravind-jugnauth",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1355/Visit_of_Prime_Minister_of_Mauritius_to_India_April_1724_2022"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -8691,6 +8759,34 @@
       "startDate": "2024-09-24",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-05-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "raouf-bundhun--2006-05-07--IND",
+      "officialId": "raouf-bundhun",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/532/Official_visit_of_HE_Mr_Abdool_Raouf_Bundhun_Vice_President_of_the_Republic_of_MauritiusMay_0716_2006"
+        }
+      ],
+      "startDate": "2006-05-07",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

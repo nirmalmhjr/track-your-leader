@@ -3885,7 +3885,9 @@
       "wikidataId": "Q107475161"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Chantal Ngalulu Mulumba"
+      ],
       "countryCode": "COD",
       "fullName": "Chantal Ngalula Mulumba",
       "id": "chantal-ngalula-mulumba",
@@ -7384,6 +7386,8 @@
     },
     {
       "aliases": [
+        "Madame Meta Mudiayi",
+        "Meta Mudiaye",
         "Odelive Meta Mutombo Mudiay"
       ],
       "countryCode": "COD",
@@ -9838,6 +9842,7 @@
     {
       "aliases": [
         "Juliana Lumumba",
+        "Julianna Lumumba",
         "Julianne Lumumba",
         "Julienne Lumumba"
       ],
@@ -18765,7 +18770,8 @@
     },
     {
       "aliases": [
-        "Marie _madeleine Mienze kiaku"
+        "Marie Madeleine Mienze kiaku",
+        "Mienze Kiaku"
       ],
       "countryCode": "COD",
       "fullName": "Marie-Madeleine Mienze Kiaku",
@@ -21772,6 +21778,34 @@
       "startDate": "2009-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "bruno-tshibala--2017-11-09--IND",
+      "officialId": "bruno-tshibala",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1029/Visit_of_Vice_Prime_Minister_Minister_of_Foreign_Affairs_and_Regional_Integration_of_the_Democratic_Republic_of_the_Congo_to_India_November_0911_2017"
+        }
+      ],
+      "startDate": "2017-11-09",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -36649,6 +36683,34 @@
       "startDate": "2011-01-01",
       "statusHint": null,
       "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-08-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "raymond-tshibanda--2016-08-10--IND",
+      "officialId": "raymond-tshibanda",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/903/Official_visit_of_Minister_of_Foreign_Affairs_and_International_Cooperation_of_the_Democratic_Republic_of_the_Congo_to_India_August_1012_2016"
+        }
+      ],
+      "startDate": "2016-08-10",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

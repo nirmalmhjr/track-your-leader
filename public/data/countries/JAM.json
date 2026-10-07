@@ -5898,6 +5898,10 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1478/Official_visit_of_Prime_Minister_of_Jamaica_to_India_September_30__October_3_2024"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -7745,6 +7749,34 @@
       "startDate": "2017-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "kamina-johnson-smith--2017-10-08--IND",
+      "officialId": "kamina-johnson-smith",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1012/Visit_of_Minister_of_Foreign_Affairs_and_Foreign_Trade_of_Jamaica_to_India_October_0812_2017"
+        }
+      ],
+      "startDate": "2017-10-08",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "year",

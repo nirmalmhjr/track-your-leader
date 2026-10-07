@@ -60,6 +60,9 @@
     },
     {
       "aliases": [
+        "Anwar El Sadat",
+        "Anwar al-Sadat",
+        "Anwar as-Sadat",
         "Anwar el Sadat",
         "Anwar el-Sadat",
         "Mohamed Anwar El Sadat",
@@ -16663,6 +16666,10 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/909/State_Visit_of_the_President_of_Egypt_to_India_September_0103_2016"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
         },
@@ -16673,7 +16680,7 @@
       ],
       "startDate": "2016-09-01",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -20196,7 +20203,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-01-27",
+      "endDate": "2023-01-26",
       "engagements": [
         "Met Prime Minister Narendra Modi",
         "Signed agreements"
@@ -20206,6 +20213,10 @@
       "officialId": "abdel-fattah-el-sisi",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1391/State_Visit_of_President_of_Egypt_to_India_January_2426_2023"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
@@ -22447,6 +22458,34 @@
       "startDate": "2014-03-25",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-12-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "ahmed-aboul-gheit--2006-12-15--IND",
+      "officialId": "ahmed-aboul-gheit",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/496/Visit_of_HE_Mr_Ahmed_Aboul_Gheit_Minister_of_Foreign_Affairs_of_Egypt_to_India1517_December_2006"
+        }
+      ],
+      "startDate": "2006-12-15",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -38685,13 +38724,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/492/State_visit_of_His_Excellency_Dr_Mohamed_Morsy_President_of_the_Arab_Republic_of_Egypt_to_India_March_1820_2013"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-03-18",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -39180,6 +39223,34 @@
       "startDate": "2013-09-28",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2018-03-23",
+      "engagements": [],
+      "eventName": null,
+      "id": "sameh-shoukry--2018-03-22--IND",
+      "officialId": "sameh-shoukry",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1063/Visit_of_Foreign_Minister_of_the_Arab_Republic_of_Egypt_to_India_March_2223_2018"
+        }
+      ],
+      "startDate": "2018-03-22",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

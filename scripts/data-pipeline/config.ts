@@ -20,10 +20,11 @@ export const PIPELINE_CONFIG = {
     /** Pipeline memory between runs (who held which office since when). */
     stateDir: "scripts/data-pipeline/state",
     /**
-     * Wikimedia asks automated clients to identify themselves with a way to reach the operator.
-     * Set DATA_PIPELINE_CONTACT to your site URL or email (also as a GitHub Actions secret).
+     * Wikimedia asks automated clients to identify themselves with a way to reach the operator;
+     * without it, Wikidata and Wikipedia throttle the pipeline heavily. The project's repository
+     * by default, or DATA_PIPELINE_CONTACT (a site URL) to override it.
      */
-    userAgent: `TrackYourLeaderDataBot/1.0 (${process.env.DATA_PIPELINE_CONTACT ?? "contact: set DATA_PIPELINE_CONTACT"})`,
+    userAgent: `TrackYourLeaderDataBot/1.0 (${process.env.DATA_PIPELINE_CONTACT ?? "https://github.com/nirmalmhjr/track-your-leader"})`,
     /** Everything collected, for every country and year (`pnpm data:collect`). */
     warehouseDir: "data/warehouse",
     /** Offices held since this year are collected into the warehouse by default. */

@@ -967,35 +967,6 @@
     {
       "aliases": [],
       "countryCode": "DNK",
-      "fullName": "Lars Rasmussen",
-      "id": "lars-rasmussen",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "2011-03-14",
-          "id": "lars-rasmussen-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2011-03-14",
-          "title": "Prime Minister"
-        }
-      ],
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
-      "countryCode": "DNK",
       "fullName": "Marita Petersen",
       "id": "marita-petersen",
       "party": "Social Democratic Party of the Faroe Islands",
@@ -18681,7 +18652,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2008-02-09",
+      "endDate": "2008-02-08",
       "engagements": [
         "Met Prime Minister Manmohan Singh",
         "Signed agreements"
@@ -18692,13 +18663,17 @@
       "purpose": "Attended Delhi Sustainable Development Summit",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/458/State_Visit_of_HE_Mr_Anders_Fogh_Rasmussen_Prime_Minister_of_Denmark_to_India_February_48_2008"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2008-02-04",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -19727,6 +19702,62 @@
       "startDate": "2017-09-21",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "anders-samuelsen--2017-11-26--IND",
+      "officialId": "anders-samuelsen",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1035/Visit_of_Minister_of_Foreign_Affairs_of_the_Kingdom_of_Denmark_to_India_November_2630_2017"
+        }
+      ],
+      "startDate": "2017-11-26",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2018-12-18",
+      "engagements": [],
+      "eventName": null,
+      "id": "anders-samuelsen--2018-12-17--IND",
+      "officialId": "anders-samuelsen",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1132/Visit_of_Minister_of_Foreign_Affairs_of_the_Kingdom_of_Denmark_to_India_December_1718_2018"
+        }
+      ],
+      "startDate": "2018-12-17",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -23541,6 +23572,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-01-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "jeppe-kofod--2020-01-15--IND",
+      "officialId": "jeppe-kofod",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1241/Visit_of_Minister_of_Foreign_Affairs_of_the_Kingdom_of_Denmark_to_India_1517_January_2020"
+        }
+      ],
+      "startDate": "2020-01-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -23781,6 +23840,34 @@
       "startDate": "2010-11-19",
       "statusHint": null,
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "Washington",
+        "coordinates": [
+          -77.0369,
+          38.9072
+        ],
+        "countryCode": "USA",
+        "precision": "country",
+        "region": "Americas"
+      },
+      "endDate": "2011-03-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "lars-l-kke-rasmussen--2011-03-14--USA",
+      "officialId": "lars-l-kke-rasmussen",
+      "purpose": "Working visit.",
+      "sources": [
+        {
+          "label": "US Office of the Historian",
+          "url": "https://history.state.gov/departmenthistory/visits"
+        }
+      ],
+      "startDate": "2011-03-14",
+      "statusHint": null,
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -27353,34 +27440,6 @@
       "startDate": "2019-06-20",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2011-03-14",
-      "engagements": [],
-      "eventName": null,
-      "id": "lars-rasmussen--2011-03-14--USA",
-      "officialId": "lars-rasmussen",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2011-03-14",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "month",

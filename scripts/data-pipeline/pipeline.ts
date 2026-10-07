@@ -16,6 +16,7 @@ import { extractCanadaClaims } from "./extract/claims/canada.claims";
 import { extractColtClaims } from "./extract/claims/colt.claims";
 import { extractHistorianClaims } from "./extract/claims/historian.claims";
 import { extractHistorianVisitClaims } from "./extract/claims/historian-visits.claims";
+import { extractMeaClaims } from "./extract/claims/india-mea.claims";
 import { extractNepalMofaClaims } from "./extract/claims/nepal-mofa.claims";
 import { extractRelationsClaims } from "./extract/claims/relations.claims";
 import { extractSummitClaims } from "./extract/claims/summits.claims";
@@ -25,6 +26,7 @@ import { extractGeneralDebateClaims } from "./extract/claims/un-general-debate.c
 import { extractWhoAssemblyClaims } from "./extract/claims/who-assembly.claims";
 import { extractWikipediaClaims } from "./extract/claims/wikipedia.claims";
 import { type CountryList, resolveCountries } from "./extract/countries";
+import { THIN_YEAR_MAX_TRIPS, writeCoverageReport } from "./extract/coverage";
 import { resolveIdentities } from "./extract/identity";
 import {
     currentLeaders,
@@ -229,6 +231,8 @@ const extractSource = async (source: TripSourceId, input: ClaimsInput): Promise<
             return extractCanadaClaims({ cities, places });
         case "nepal-mofa":
             return extractNepalMofaClaims(places);
+        case "india-mea":
+            return extractMeaClaims(places);
         case "un-general-debate":
             return extractGeneralDebateClaims({ cities });
         case "who-assembly":
@@ -631,6 +635,13 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     log.step("App index");
     await writeAppIndex(today, options.force);
     await writePeopleFiles();
+
+    log.step("Coverage (data/warehouse/coverage.json)");
+    for (const { leaderYears, period, thin } of await writeCoverageReport(today)) {
+        log.info(
+            `${period}: ${thin} of ${leaderYears} leader-years have ${THIN_YEAR_MAX_TRIPS} trips or fewer`
+        );
+    }
 };
 
 /**
@@ -649,6 +660,7 @@ export const parseOptions = (
     const countries = flag("countries");
     const sources = flag("sources");
     const since = Number(flag("since"));
+    // `--sources=none` fetches no trip source (pnpm drops an empty `--sources=`).
     const sourceIds = sources
         ?.split(",")
         .filter((id): id is TripSourceId => (TRIP_SOURCES as readonly string[]).includes(id));

@@ -25165,6 +25165,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-09-04",
+      "engagements": [],
+      "eventName": null,
+      "id": "bart-de-wever--2026-09-02--IND",
+      "officialId": "bart-de-wever",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1603/Visit_of_Prime_Minister_of_Belgium_to_India_September_02__04_2026"
+        }
+      ],
+      "startDate": "2026-09-02",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Budapest",
         "coordinates": [
           19.040833333,
@@ -35391,6 +35419,34 @@
         }
       ],
       "startDate": "2016-11-28",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "philippe-of-belgium--2017-11-05--IND",
+      "officialId": "philippe-of-belgium",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1026/State_Visit_of_King_and_Queen_of_Belgium_to_India_November_0511_2017"
+        }
+      ],
+      "startDate": "2017-11-05",
       "statusHint": null,
       "type": "state_visit"
     },

@@ -4370,6 +4370,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-04-29",
+      "engagements": [],
+      "eventName": null,
+      "id": "batmunkh-battsetseg--2016-04-27--IND",
+      "officialId": "batmunkh-battsetseg",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/873/Visit_of_Minister_of_Foreign_Affairs_of_Mongolia_to_India_April_2729_2016"
+        }
+      ],
+      "startDate": "2016-04-27",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Baku",
         "coordinates": [
           49.835183333,
@@ -4811,13 +4839,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1192/State_Visit_of_President_of_Mongolia_to_India_September_1923_2019"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2019-09-19",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -5922,13 +5954,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1534/State_Visit_of_the_President_of_Mongolia_to_India_October_1316_2025"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2025-10-13",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -10768,6 +10804,34 @@
       "startDate": "2017-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-01-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "tsogtbaatar-damdin--2019-01-07--IND",
+      "officialId": "tsogtbaatar-damdin",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1139/Visit_of_Minister_of_Foreign_Affairs_of_Mongolia_January_0711_2019"
+        }
+      ],
+      "startDate": "2019-01-07",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

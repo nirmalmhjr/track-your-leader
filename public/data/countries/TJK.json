@@ -7274,13 +7274,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/518/State_Visit_of_the_HE_Mr_Emomali_Sharifovich_Rahmonov_President_of_the_Republic_of_Tajikistan_to_IndiaAugust_0610_2006"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2006-08-06",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -11432,6 +11436,10 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/936/Visit_of_President_of_Tajikistan_to_India_December_1418_2016"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -15020,6 +15028,60 @@
         }
       ],
       "startDate": "2011-09-26",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2023-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "jamoliddin-abdullozoda--2023-05-01--CHE",
+      "officialId": "jamoliddin-abdullozoda",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA76)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA76/A76_DIV1-en.pdf"
+        }
+      ],
+      "startDate": "2023-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "jamoliddin-abdullozoda--2026-05-01--CHE",
+      "officialId": "jamoliddin-abdullozoda",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA79)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_DIV1-en.pdf"
+        }
+      ],
+      "startDate": "2026-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
     },

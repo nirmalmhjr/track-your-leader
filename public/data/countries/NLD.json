@@ -24125,6 +24125,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-10-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "beatrix-of-the-netherlands--2007-10-22--IND",
+      "officialId": "beatrix-of-the-netherlands",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/433/Visit_of_Queen_Beatrix_of_the_Kingdom_of_Netherlands_2227_October_2007"
+        }
+      ],
+      "startDate": "2007-10-22",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -28491,16 +28519,20 @@
         "Met Prime Minister Manmohan Singh"
       ],
       "eventName": null,
-      "id": "jan-peter-balkenende--2006-01-16--IND",
+      "id": "jan-peter-balkenende--2006-01-17--IND",
       "officialId": "jan-peter-balkenende",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/545/Official_Visit_of_HE_Dr_Jan_Peter_Balkenende_Prime_Minister_of_Kingdom_of_Netherlands_to_IndiaJanuary_1720_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-01-16",
+      "startDate": "2006-01-17",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -46984,6 +47016,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2018-05-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "william-alexander-of-the-netherlands--2018-05-28--IND",
+      "officialId": "william-alexander-of-the-netherlands",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1081/Visit_of_Queen_of_the_Kingdom_of_Netherlands_May_2831_2018"
+        }
+      ],
+      "startDate": "2018-05-28",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Riga",
         "coordinates": [
           24.106944444,
@@ -47163,18 +47223,22 @@
       "endDate": "2019-10-18",
       "engagements": [],
       "eventName": null,
-      "id": "william-alexander-of-the-netherlands--2019-10-14--IND",
+      "id": "william-alexander-of-the-netherlands--2019-10-13--IND",
       "officialId": "william-alexander-of-the-netherlands",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1200/State_Visit_of_King_and_Queen_of_the_Netherlands_to_India_October_1318_2019"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_official_overseas_trips_made_by_Willem-Alexander_of_the_Netherlands"
         }
       ],
-      "startDate": "2019-10-14",
+      "startDate": "2019-10-13",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

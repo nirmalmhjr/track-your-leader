@@ -42,6 +42,14 @@ const heldOn = (position: PositionDraft, date: IsoDate, graceDays = TERM_GRACE_D
     (position.startDate === null || position.startDate <= addDaysIso(date, graceDays)) &&
     (position.endDate === null || position.endDate >= addDaysIso(date, -graceDays));
 
+/** End dates after this are data errors, not terms still to come. */
+const LATEST_PLAUSIBLE_END = "2100-01-01";
+
+/** Whether a term's dates can be trusted: a known start, and an end that can be true. */
+const isWellDated = (position: PositionDraft): boolean =>
+    position.startDate !== null &&
+    (position.endDate === null || position.endDate < LATEST_PLAUSIBLE_END);
+
 /** Whether a position fits the role a source describes (any shared category, same portfolio). */
 const fitsRole = (position: PositionDraft, claim: TripClaim): boolean => {
     const { categories, portfolio } = claim.traveller;
@@ -118,7 +126,21 @@ const pickInOffice = (
         );
     const withGrace = holders(TERM_GRACE_DAYS);
     const inOffice = withGrace.length > 1 ? holders(0) : withGrace;
-    return inOffice.length === 1 ? inOffice[0].draft : null;
+    if (inOffice.length <= 1) {
+        return inOffice[0]?.draft ?? null;
+    }
+    // A term with no start (a current cabinet member's) or an impossible end (Wikidata's
+    // Deputy Prime Minister "until 6767") seems to cover every date; one known to cover the
+    // trip's date is more credible.
+    const welldated = inOffice.filter(({ draft }) =>
+        draft.positions.some(
+            (position) =>
+                isWellDated(position) &&
+                heldOn(position, claim.startDate, 0) &&
+                (!requireRole || fitsRole(position, claim))
+        )
+    );
+    return welldated.length === 1 ? welldated[0].draft : null;
 };
 
 /**

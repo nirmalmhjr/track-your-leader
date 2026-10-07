@@ -14034,7 +14034,7 @@
       "fullName": "Nikos Kazantzakis",
       "id": "nikos-kazantzakis",
       "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikos_Kazantzakis.jpg?width=160",
+      "photoUrl": null,
       "positions": [
         {
           "categories": [
@@ -75205,6 +75205,10 @@
       "purpose": "He was the chief guest and keynote speaker at the 2024 Raisina Dialogue.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1446/State_Visit_of_Prime_Minister_of_Greece_to_India_February_2122_2024"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Kyriakos_Mitsotakis"
         },
@@ -75215,7 +75219,7 @@
       ],
       "startDate": "2024-02-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -77987,6 +77991,34 @@
       "startDate": "2017-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "nikos-kotzias--2017-11-25--IND",
+      "officialId": "nikos-kotzias",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1034/Visit_of_Minister_for_Foreign_Affairs_of_the_Hellenic_Republic_to_India_November_2528_2017"
+        }
+      ],
+      "startDate": "2017-11-25",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

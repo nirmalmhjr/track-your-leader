@@ -7260,13 +7260,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/737/Official_visit_of_the_President_Bangladesh_to_India_December_1823_2014"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohammad_Abdul_Hamid"
         }
       ],
       "startDate": "2014-12-18",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -7319,6 +7323,62 @@
         }
       ],
       "startDate": "2019-06-16",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-03-03",
+      "engagements": [],
+      "eventName": null,
+      "id": "abul-hassan-mahmood-ali--2016-03-01--IND",
+      "officialId": "abul-hassan-mahmood-ali",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/859/Visit_of_Foreign_Minister_of_the_Peoples_Republic_of_Bangladesh_to_India_March_0103_2016"
+        }
+      ],
+      "startDate": "2016-03-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-02-09",
+      "engagements": [],
+      "eventName": null,
+      "id": "abul-kalam-abdul-momen--2019-02-06--IND",
+      "officialId": "abul-kalam-abdul-momen",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1149/Visit_of_Minister_of_Foreign_Affairs_of_the_Peoples_Republic_of_Bangladesh_February_0609__2019"
+        }
+      ],
+      "startDate": "2019-02-06",
       "statusHint": null,
       "type": "other"
     },
@@ -9843,6 +9903,10 @@
       "officialId": "khaleda-zia",
       "purpose": "State Visit",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/536/State_Visit_of_HE_Begum_Khaleda_Zia_Prime_Minister_of_the_Peoples_Republic_of_Bangladesh_to_India2022_March_2006"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Khaleda_Zia"
@@ -14174,6 +14238,10 @@
       "purpose": "State Visit",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/955/State_Visit_of_Prime_Minister_of_Bangladesh_to_India_April_0710_2017"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Sheikh_Hasina"
         },
@@ -14986,7 +15054,7 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2019-10-03",
+      "endDate": "2019-10-06",
       "engagements": [
         "Hasina met with President Ram Nath Kovind and Prime Minister Narendra Modi.",
         "She was the co-chair of the Indian Economic Summit of the World Economic Forum."
@@ -14996,6 +15064,10 @@
       "officialId": "sheikh-hasina",
       "purpose": "Official Visit",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1196/Visit_of_Prime_Minister_of_Bangladesh_to_India_October_0306_2019"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Sheikh_Hasina"
@@ -15380,6 +15452,10 @@
       "officialId": "sheikh-hasina",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1374/Visit_of_Prime_Minister_of_Bangladesh_to_India_September_0508_2022"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -16009,13 +16085,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1457/State_Visit_of_Prime_Minister_of_Bangladesh_to_India_June_2122_2024"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2024-06-21",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

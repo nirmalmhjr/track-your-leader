@@ -31319,6 +31319,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-07-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "peter-szijjarto--2016-07-04--IND",
+      "officialId": "peter-szijjarto",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/896/Visit_of_Minister_of_Foreign_Affairs_and_Trade_of_Hungary_to_India_July_0406_2016"
+        }
+      ],
+      "startDate": "2016-07-04",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -31507,6 +31535,34 @@
       "startDate": "2019-09-26",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-01-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "peter-szijjarto--2020-01-14--IND",
+      "officialId": "peter-szijjarto",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1239/Visit_of_Minister_of_Foreign_Affairs_and_Trade_of_Hungary_to_India_1417_January_2020"
+        }
+      ],
+      "startDate": "2020-01-14",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -35528,13 +35584,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/643/State_Visit_of_Prime_Minister_of_Hungary_to_India__October1619_2013"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-10-01",
       "statusHint": null,
-      "type": "other"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

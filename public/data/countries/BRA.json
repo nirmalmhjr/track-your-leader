@@ -37194,6 +37194,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-10-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "geraldo-alckmin--2025-10-15--IND",
+      "officialId": "geraldo-alckmin",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1536/Visit_of_Vice_President_of_the_Federative_Republic_of_Brazil_to_India_October_1517_2025"
+        }
+      ],
+      "startDate": "2025-10-15",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Toronto",
         "coordinates": [
           -79.386666666,
@@ -39157,6 +39185,10 @@
       "officialId": "jair-bolsonaro",
       "purpose": "State visit.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1251/State_Visit_of_President_of_the_Federative_Republic_of_Brazil_to_India_January_2427_2020"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jair_Bolsonaro"
@@ -46406,6 +46438,10 @@
       "purpose": "Met with President A.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/446/State_Visit_of_the_President_of_Brazil_to_India_35_June_2007"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
         },
@@ -46416,7 +46452,7 @@
       ],
       "startDate": "2007-06-03",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -53407,13 +53443,17 @@
       "purpose": "Met with Prime Minister Narendra Modi.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1562/State_Visit_of_the_President_of_Federative_Republic_of_Brazil_to_India_February_1822_2026"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Luiz_In%C3%A1cio_Lula_da_Silva"
         }
       ],
       "startDate": "2026-02-18",
       "statusHint": null,
-      "type": "summit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -53951,6 +53991,34 @@
         }
       ],
       "startDate": "2015-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-11-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "mauro-vieira--2015-11-17--IND",
+      "officialId": "mauro-vieira",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/827/Visit_of_Minister_of_Foreign_Affairs_of_Brazil_to_India_November_1720_2015"
+        }
+      ],
+      "startDate": "2015-11-17",
       "statusHint": null,
       "type": "other"
     },

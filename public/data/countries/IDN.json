@@ -14521,7 +14521,7 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2016-12-14",
+      "endDate": "2016-12-13",
       "engagements": [
         "Met Prime Minister Narendra Modi",
         "Signed agreements"
@@ -14531,6 +14531,10 @@
       "officialId": "joko-widodo",
       "purpose": "Jokowi met with PM Narendra Modi to discuss economic cooperation and the Indian Ocean Rim Association.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/937/Visit_of_President_of_Indonesia_to_India_December_1213_2016"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Joko_Widodo"
@@ -19611,6 +19615,10 @@
       "purpose": "Prabowo served as the chief guest for India's 76th Republic Day celebrations.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1498/State_visit_of_President_of_Indonesia_to_India_January_2326_2025"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Prabowo_Subianto"
         },
@@ -19621,7 +19629,7 @@
       ],
       "startDate": "2025-01-23",
       "statusHint": null,
-      "type": "bilateral_meeting"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -21258,6 +21266,34 @@
       "startDate": "2026-12-14",
       "statusHint": "planned",
       "type": "summit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-12-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "retno-marsudi--2019-12-13--IND",
+      "officialId": "retno-marsudi",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1224/Visit_of_Minister_of_Foreign_Affairs_of_the_Republic_of_Indonesia_to_India_December_13__14_2019"
+        }
+      ],
+      "startDate": "2019-12-13",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

@@ -15021,6 +15021,34 @@
       "type": "summit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-10-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "konstantinos-kompos--2025-10-29--IND",
+      "officialId": "konstantinos-kompos",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1540/Visit_of_Minister_of_Foreign_Affairs_of_The_Republic_of_Cyprus_to_India_2931_October_2025"
+        }
+      ],
+      "startDate": "2025-10-29",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "month",
       "destination": {
         "city": "Tashkent",
@@ -18549,6 +18577,10 @@
       "purpose": "At the invitation of Indian Prime minister Narendra Modi, Christodoulides underwent a state visit.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1582/State_Visit_of_President_of_the_Republic_of_Cyprus_HE_Mr_Nikos_Christodoulides_to_India_2023_May_2026"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Nikos_Christodoulides"
         }
@@ -21091,7 +21123,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2017-04-28",
+      "endDate": "2017-04-29",
       "engagements": [
         "Met Prime Minister Narendra Modi"
       ],
@@ -21101,13 +21133,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/961/State_visit_of_President_of_the_Republic_of_Cyprus_to_India_April_2529_2017"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2017-04-25",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -26351,23 +26387,27 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2006-04-17",
+      "endDate": "2006-04-16",
       "engagements": [
         "Met Prime Minister Manmohan Singh"
       ],
       "eventName": null,
-      "id": "tassos-papadopoulos--2006-04-12--IND",
+      "id": "tassos-papadopoulos--2006-04-11--IND",
       "officialId": "tassos-papadopoulos",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/534/State_Visit_of_HE_Mr_Tassos_Papadopoulos_President_of_the_Republic_of_Cyprus_to_IndiaApril_1116_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-04-12",
+      "startDate": "2006-04-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

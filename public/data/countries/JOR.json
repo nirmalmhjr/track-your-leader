@@ -21197,7 +21197,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2006-12-02",
+      "endDate": "2006-12-01",
       "engagements": [
         "Met President A. P. J. Abdul Kalam",
         "Signed agreements"
@@ -21207,6 +21207,10 @@
       "officialId": "abdullah-ii-of-jordan",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/499/Visit_of_His_Majesty_King_Abdullah_II_Bin_El_Hussein_of_the_Hashemite_Kingdom_of_Jordan_to_India_November_30__December_01_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -31050,6 +31054,10 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1056/Visit_of_the_King_of_Jordan_to_India_February_27__March_01_2018"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -38122,6 +38130,34 @@
       "startDate": "2026-09-22",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-12-28",
+      "engagements": [],
+      "eventName": null,
+      "id": "ayman-al-safadi--2017-12-27--IND",
+      "officialId": "ayman-al-safadi",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1042/Visit_of_Minister_of_Foreign_Affairs_and_Expatriates_of_the_Hashemite_Kingdom_of_Jordan_to_India_December_2728_2017"
+        }
+      ],
+      "startDate": "2017-12-27",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

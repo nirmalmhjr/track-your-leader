@@ -83559,7 +83559,7 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2018-02-23",
+      "endDate": "2018-02-24",
       "engagements": [
         "Met Prime Minister Narendra Modi"
       ],
@@ -83568,6 +83568,10 @@
       "officialId": "justin-trudeau",
       "purpose": "Trudeau travelled to India to meet with Prime Minister Narendra Modi.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1054/State_Visit_of_Prime_Minister_of_Canada_to_India_February_1724_2018"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Justin_Trudeau"
@@ -83579,7 +83583,7 @@
       ],
       "startDate": "2018-02-17",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -93938,6 +93942,10 @@
       "purpose": "Carney met with Prime Minister Narendra Modi.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1564/Visit_of_the_Prime_Minister_of_Canada_to_India_February_27__March_02_2026"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Mark_Carney"
         }
@@ -96658,6 +96666,34 @@
       "startDate": "2007-09-01",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "year",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2008-12-31",
+      "engagements": [],
+      "eventName": null,
+      "id": "maxime-bernier--2008-01-01--IND",
+      "officialId": "maxime-bernier",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/454/Visit_of_Canadian_Foreign_Minister_to_India_from_January_10__12_2008"
+        }
+      ],
+      "startDate": "2008-01-01",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

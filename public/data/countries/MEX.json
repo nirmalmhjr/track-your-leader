@@ -12919,34 +12919,6 @@
     {
       "datePrecision": "year",
       "destination": {
-        "city": "New Delhi",
-        "coordinates": [
-          77.209,
-          28.6139
-        ],
-        "countryCode": "IND",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2016-12-31",
-      "engagements": [],
-      "eventName": null,
-      "id": "claudia-ruiz-massieu--2016-01-01--IND",
-      "officialId": "claudia-ruiz-massieu",
-      "purpose": "Visit to India",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/India%E2%80%93Mexico_relations"
-        }
-      ],
-      "startDate": "2016-01-01",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "year",
-      "destination": {
         "city": "Jerusalem",
         "coordinates": [
           35.234156,
@@ -13053,6 +13025,38 @@
         }
       ],
       "startDate": "2016-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2016-03-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "claudia-ruiz-massieu--2016-03-11--IND",
+      "officialId": "claudia-ruiz-massieu",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/862/Visit_of_Foreign_Minister_of_Mexico_to_India_March_1113_2016"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/India%E2%80%93Mexico_relations"
+        }
+      ],
+      "startDate": "2016-03-11",
       "statusHint": null,
       "type": "other"
     },
@@ -19699,7 +19703,7 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2007-09-11",
+      "endDate": "2007-09-12",
       "engagements": [
         "Met Prime Minister Manmohan Singh",
         "Signed agreements"
@@ -19709,6 +19713,10 @@
       "officialId": "felipe-calderon",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/440/State_visit_of_HE_Mr_Felipe_Calderon_Hinojosa_President_of_Mexico_to_India_912_September_2007"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/India%E2%80%93Mexico_relations"
@@ -19720,7 +19728,7 @@
       ],
       "startDate": "2007-09-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

@@ -14013,6 +14013,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2024-03-30",
+      "engagements": [],
+      "eventName": null,
+      "id": "dmytro-kuleba--2024-03-28--IND",
+      "officialId": "dmytro-kuleba",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1453/Official_Visit_of_Minister_for_Foreign_Affairs_of_Ukraine_to_India_March_2830_2024"
+        }
+      ],
+      "startDate": "2024-03-28",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -22126,6 +22154,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "pavlo-klimkin--2017-10-05--IND",
+      "officialId": "pavlo-klimkin",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1010/Visit_of_Minister_of_Foreign_Affairs_of_Ukraine_to_India_October_0507_2017"
+        }
+      ],
+      "startDate": "2017-10-05",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Strasbourg",
         "coordinates": [
           7.752222222,
@@ -28703,6 +28759,10 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/418/State_visit_of_the_President_of_Ukraine_to_India__912_December_2012"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Viktor_Yanukovych"
         },
@@ -28713,7 +28773,7 @@
       ],
       "startDate": "2012-12-09",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

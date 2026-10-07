@@ -432,7 +432,7 @@
           "url": "https://en.wikipedia.org/wiki/Vladimir_Yermoshin"
         }
       ],
-      "summary": "Vladimir Vasilievich Yermoshin (born 26 October 1942) is a Belarusian politician who served as Prime Minister of Belarus from 2000 to 2001.",
+      "summary": "Vladimir Vasilievich Yermoshin (born 26 October 1942) is a Belarusian politician who served as Prime Minister of Belarus from 2000 to 2001.Previously, he served as the Mayor of Minsk from 1995 to 2000.",
       "wikidataId": "Q712434"
     },
     {
@@ -17573,6 +17573,10 @@
       "purpose": "State visit.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1004/State_visit_of_President_of_Belarus_to_India_September_1112_2017"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Alexander_Lukashenko"
         },
@@ -21676,6 +21680,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2012-11-14",
+      "engagements": [],
+      "eventName": null,
+      "id": "mikhail-myasnikovich--2012-11-13--IND",
+      "officialId": "mikhail-myasnikovich",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/417/Visit_of_Prime_Minister_of_the_Republic_of_Belarus_to_India_November_1314"
+        }
+      ],
+      "startDate": "2012-11-13",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Islamabad",
         "coordinates": [
           73.036944444,
@@ -22244,6 +22276,34 @@
       "startDate": "2014-09-30",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-04-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "vladimir-makei--2015-04-14--IND",
+      "officialId": "vladimir-makei",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/766/Visit_of_Minister_of_Foreign_Affairs_of_the_Republic_of_Belarus_to_India_April_1416_2015"
+        }
+      ],
+      "startDate": "2015-04-14",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

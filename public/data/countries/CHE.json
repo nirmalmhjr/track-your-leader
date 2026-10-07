@@ -24538,6 +24538,34 @@
       "type": "official_visit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2026-10-07",
+      "engagements": [],
+      "eventName": null,
+      "id": "martin-pfister--2026-10-05--IND",
+      "officialId": "martin-pfister",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1608/State_Visit_of_President_of_the_Swiss_Confederation_to_India_0507_October_2026"
+        }
+      ],
+      "startDate": "2026-10-05",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Lima",

@@ -623,6 +623,35 @@
       "wikidataId": "Q714552"
     },
     {
+      "aliases": [],
+      "countryCode": "RUS",
+      "fullName": "Mikhail E Fradkov",
+      "id": "mikhail-e-fradkov",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2006-03-17",
+          "id": "mikhail-e-fradkov-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2006-03-16",
+          "title": "Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/537/Official_Visit_of_HE_Mr_Mikhail_E_Fradkov_Chairman_Prime_Minister_of_the_Government_of_the_Russian_Federation_and_Mrs_Fradkova_to_IndiaMarch_1617_2006"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Michail Michailovič Kasjanov",
         "Mikhail Kasyanov"
@@ -51791,6 +51820,33 @@
       "type": "summit"
     },
     {
+      "datePrecision": "month",
+      "destination": {
+        "city": "Geneva",
+        "coordinates": [
+          6.15,
+          46.2
+        ],
+        "countryCode": "CHE",
+        "region": "Europe"
+      },
+      "endDate": "2026-05-31",
+      "engagements": [],
+      "eventName": "World Health Assembly",
+      "id": "anton-alikhanov--2026-05-01--CHE",
+      "officialId": "anton-alikhanov",
+      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA79)",
+      "sources": [
+        {
+          "label": "World Health Organization",
+          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA79/A79_DIV1-en.pdf"
+        }
+      ],
+      "startDate": "2026-05-01",
+      "statusHint": null,
+      "type": "multilateral_meeting"
+    },
+    {
       "datePrecision": "day",
       "destination": {
         "city": "Rome",
@@ -59364,6 +59420,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-03-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "mikhail-e-fradkov--2006-03-16--IND",
+      "officialId": "mikhail-e-fradkov",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/537/Official_Visit_of_HE_Mr_Mikhail_E_Fradkov_Chairman_Prime_Minister_of_the_Government_of_the_Russian_Federation_and_Mrs_Fradkova_to_IndiaMarch_1617_2006"
+        }
+      ],
+      "startDate": "2006-03-16",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Washington",
         "coordinates": [
           -77.0369,
@@ -60852,6 +60936,34 @@
         }
       ],
       "startDate": "2006-01-01",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2006-11-17",
+      "engagements": [],
+      "eventName": null,
+      "id": "sergey-lavrov--2006-11-16--IND",
+      "officialId": "sergey-lavrov",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/502/Visit_of_HE_Mr_Sergei_Lavrov_Minister_of_Foreign_Affairs_of_the_Russian_Federation_to_IndiaNovember_1617_2006"
+        }
+      ],
+      "startDate": "2006-11-16",
       "statusHint": null,
       "type": "other"
     },
@@ -67104,6 +67216,10 @@
       "purpose": "Official visit; met with Prime Minister Manmohan Singh and President Abdul Kalam.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/593/Official_Visit_of_HE_Mr_Vladimir_V_Putin_President_of_the_Russian_Federation_to_India_January_2526_2007"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Vladimir_Putin"
         },
@@ -70344,16 +70460,20 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2012-12-24",
+      "endDate": "2012-12-23",
       "engagements": [
         "Met with Prime Minister Manmohan Singh and President Pranab Mukherjee.",
         "Met Prime Minister Manmohan Singh"
       ],
       "eventName": null,
-      "id": "vladimir-putin--2012-12-24--IND",
+      "id": "vladimir-putin--2012-12-23--IND",
       "officialId": "vladimir-putin",
       "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/420/Visit_of_HE_Vladimir_V_Putin_President_of_Russia_to_India_December_23_2012"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Vladimir_Putin"
@@ -70363,7 +70483,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-12-24",
+      "startDate": "2012-12-23",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -71792,7 +71912,7 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2014-12-12",
+      "endDate": "2014-12-11",
       "engagements": [
         "Met with Prime Minister Narendra Modi and President Pranab Mukherjee.",
         "Met Prime Minister Narendra Modi"
@@ -71802,6 +71922,10 @@
       "officialId": "vladimir-putin",
       "purpose": "Official visit.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/736/Official_Visit_of_the_President_of_the_Russian_Federation_to_India_December_1011_2014"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Vladimir_Putin"
@@ -74067,6 +74191,10 @@
       "purpose": "Met with Prime Minister Narendra Modi and President Ram Nath Kovind.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1106/Visit_of_President_of_the_Russian_Federation_HE_Mr_Vladimir_V_Putin_to_India_October_0405_2018"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Vladimir_Putin"
         },
@@ -75439,6 +75567,10 @@
       "purpose": "Met with Prime Minister Narendra Modi.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1339/Visit_of_President_of_the_Russian_Federation_to_India_December_6_2021"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Vladimir_Putin"
         },
@@ -76652,6 +76784,10 @@
       "officialId": "vladimir-putin",
       "purpose": "State visit.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1546/State_Visit_of_the_President_of_the_Russian_Federation_to_India_December_04__05_2025"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Vladimir_Putin"

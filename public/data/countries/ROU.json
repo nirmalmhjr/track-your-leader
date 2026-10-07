@@ -2068,7 +2068,9 @@
       "wikidataId": "Q4721197"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Minister of Finance, Romania"
+      ],
       "countryCode": "ROU",
       "fullName": "Alexandru Nazare",
       "id": "alexandru-nazare",
@@ -39005,6 +39007,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2018-11-27",
+      "engagements": [],
+      "eventName": null,
+      "id": "teodor-melescanu--2018-11-24--IND",
+      "officialId": "teodor-melescanu",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1123/Official_Visit_of_Minister_of_Foreign_Affairs_of_Romania_November_2427_2018"
+        }
+      ],
+      "startDate": "2018-11-24",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Rome",
         "coordinates": [
           12.4964,
@@ -40599,24 +40629,28 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2006-10-25",
+      "endDate": "2006-10-24",
       "engagements": [
         "Met Prime Minister Manmohan Singh",
         "Signed agreements"
       ],
       "eventName": null,
-      "id": "traian-basescu--2006-10-23--IND",
+      "id": "traian-basescu--2006-10-22--IND",
       "officialId": "traian-basescu",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/510/State_Visit_of_HE_Mr_Traian_Basescu_President_of_Romania_to_IndiaOctober_2224_2006"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2006-10-23",
+      "startDate": "2006-10-22",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

@@ -711,6 +711,35 @@
       "wikidataId": "Q6504758"
     },
     {
+      "aliases": [],
+      "countryCode": "SGP",
+      "fullName": "Deputy Prime Minister",
+      "id": "deputy-prime-minister",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2025-08-13",
+          "id": "deputy-prime-minister-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2025-08-12",
+          "title": "Deputy Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1525/Visit_of_Deputy_Prime_Minister_Foreign_Minister__the_Ministerial_delegation_of_Singapore_to_India_1213_August_2025"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
       "aliases": [
         "Kim Yong Gan"
       ],
@@ -4272,6 +4301,34 @@
     }
   ],
   "trips": [
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2025-08-13",
+      "engagements": [],
+      "eventName": null,
+      "id": "deputy-prime-minister--2025-08-12--IND",
+      "officialId": "deputy-prime-minister",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1525/Visit_of_Deputy_Prime_Minister_Foreign_Minister__the_Ministerial_delegation_of_Singapore_to_India_1213_August_2025"
+        }
+      ],
+      "startDate": "2025-08-12",
+      "statusHint": null,
+      "type": "other"
+    },
     {
       "datePrecision": "month",
       "destination": {
@@ -9171,6 +9228,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2014-07-06",
+      "engagements": [],
+      "eventName": null,
+      "id": "k-shanmugam--2014-06-30--IND",
+      "officialId": "k-shanmugam",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/701/Visit_of_Minister_for_Foreign_Affairs__Minister_for_Law_of_the_Republic_of_Singapore_to_India_June_30__July_6_2014"
+        }
+      ],
+      "startDate": "2014-06-30",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -10723,6 +10808,10 @@
       "officialId": "lawrence-wong",
       "purpose": "Introductory Visit to India as prime minister, at the invitation of Narendra Modi.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1529/Visit_of_Prime_Minister_of_Singapore_to_India_September_0204_2025"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Lawrence_Wong"
@@ -15895,6 +15984,10 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/922/Official_Visit_of_Prime_Minister_of_Singapore_to_India_October_37_2016"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
@@ -18660,6 +18753,10 @@
       "purpose": "State Visit to India, marking 60 years of relations between Singapore and India at the invitation of President Droupadi Murmu.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1497/State_visit_of_President_of_the_Republic_of_Singapore_to_India_January_1418_2025"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Tharman_Shanmugaratnam"
         }
@@ -19245,6 +19342,34 @@
       "type": "state_visit"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-02-11",
+      "engagements": [],
+      "eventName": null,
+      "id": "tony-tan-keng-yam--2015-02-08--IND",
+      "officialId": "tony-tan-keng-yam",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/749/State_Visit_of_President_of_Singapore_to_India_February_811_2015"
+        }
+      ],
+      "startDate": "2015-02-08",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "Mexico City",
@@ -19331,6 +19456,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2015-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "vivian-balakrishnan--2015-10-12--IND",
+      "officialId": "vivian-balakrishnan",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/815/Visit_of_Minister_for_Foreign_Affairs_of_the_Republic_of_Singapore_to_India_October_12_2015"
+        }
+      ],
+      "startDate": "2015-10-12",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -19381,6 +19534,34 @@
       "startDate": "2017-09-23",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2017-11-01",
+      "engagements": [],
+      "eventName": null,
+      "id": "vivian-balakrishnan--2017-10-31--IND",
+      "officialId": "vivian-balakrishnan",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1021/Visit_of_Minister_of_Foreign_Affairs_of_The_Republic_of_Singapore_to_India_October_31__01_November_2017"
+        }
+      ],
+      "startDate": "2017-10-31",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",

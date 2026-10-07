@@ -7311,6 +7311,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2019-03-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "mamadou-tangara--2019-03-07--IND",
+      "officialId": "mamadou-tangara",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1159/Official_Visit_of_Minister_for_Foreign_Affairs_of_the_Republic_of_Gambia_to_India_March_0712_2019"
+        }
+      ],
+      "startDate": "2019-03-07",
+      "statusHint": null,
+      "type": "official_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,

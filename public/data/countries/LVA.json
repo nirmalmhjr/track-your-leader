@@ -10454,6 +10454,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-09-20",
+      "engagements": [],
+      "eventName": null,
+      "id": "edgars-rinkevics--2013-09-14--IND",
+      "officialId": "edgars-rinkevics",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/625/Visit_of_Minister_of_Foreign_Affairs_of_the_Republic_of_Latvia_September_1420_2013"
+        }
+      ],
+      "startDate": "2013-09-14",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Paris",
         "coordinates": [
           2.3522,
@@ -10505,6 +10533,34 @@
       "startDate": "2018-09-29",
       "statusHint": null,
       "type": "multilateral_meeting"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2020-01-16",
+      "engagements": [],
+      "eventName": null,
+      "id": "edgars-rinkevics--2020-01-13--IND",
+      "officialId": "edgars-rinkevics",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1237/Visit_of_Minister_of_Foreign_Affairs_of_the_Republic_of_Latvia_to_India_January_1316_2020"
+        }
+      ],
+      "startDate": "2020-01-13",
+      "statusHint": null,
+      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -24794,6 +24850,10 @@
       "officialId": "maris-kucinskis",
       "purpose": "Visit to India",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1024/Visit_of_Prime_Minister_of_the_Republic_of_Latvia_to_India_November_0206_2017"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"

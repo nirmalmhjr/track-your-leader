@@ -845,6 +845,35 @@
     {
       "aliases": [],
       "countryCode": "ITA",
+      "fullName": "Massimo DAlema",
+      "id": "massimo-dalema",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "deputy_leader"
+          ],
+          "endDate": "2007-10-12",
+          "id": "massimo-dalema-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2007-10-09",
+          "title": "Deputy Prime Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/434/Visit_of_HE_Mr_Massimo_DAlema_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_Italy_912_October_07"
+        }
+      ],
+      "summary": "",
+      "wikidataId": null
+    },
+    {
+      "aliases": [],
+      "countryCode": "ITA",
       "fullName": "Matteo Salvini",
       "id": "matteo-salvini",
       "party": "Lega Lombarda",
@@ -60051,7 +60080,7 @@
         "countryCode": "IND",
         "region": "Asia"
       },
-      "endDate": "2023-03-02",
+      "endDate": "2023-03-03",
       "engagements": [
         "Later, she attend the inaugural session of Raisina Dialogue.",
         "Met Prime Minister Narendra Modi"
@@ -60061,6 +60090,10 @@
       "officialId": "giorgia-meloni",
       "purpose": "Prime Minister Meloni met with Prime Minister Narendra Modi and President Droupadi Murmu.",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1395/State_Visit_of_PM_of_Italy_to_India_March_0203_2023"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Giorgia_Meloni"
@@ -60072,7 +60105,7 @@
       ],
       "startDate": "2023-03-02",
       "statusHint": null,
-      "type": "diplomatic_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -67421,6 +67454,10 @@
       "purpose": "Conte met Indian Prime minister Narendra Modi",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1114/Official_Visit_of_Prime_Minister_of_Italy_to_India_October_2930_2018"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Giuseppe_Conte"
         },
@@ -74027,6 +74064,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2007-10-12",
+      "engagements": [],
+      "eventName": null,
+      "id": "massimo-dalema--2007-10-09--IND",
+      "officialId": "massimo-dalema",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/434/Visit_of_HE_Mr_Massimo_DAlema_Deputy_Prime_Minister_and_Minister_of_Foreign_Affairs_of_Italy_912_October_07"
+        }
+      ],
+      "startDate": "2007-10-09",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "Tunis",
         "coordinates": [
           10.18,
@@ -78787,6 +78852,10 @@
       "purpose": "Gentiloni went to India, where he met Prime Minister Narendra Modi.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1020/State_Visit_of_Prime_Minister_of_The_Republic_of_Italy_to_India_October_2930_2017"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Paolo_Gentiloni"
         },
@@ -78797,7 +78866,7 @@
       ],
       "startDate": "2017-10-29",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

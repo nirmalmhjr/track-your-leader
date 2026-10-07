@@ -20,9 +20,11 @@ pnpm data:collect                       # every source, every country, offices s
 pnpm data:collect --since=1980          # a shorter horizon (faster)
 pnpm data:collect --countries=NPL,IND   # only some countries (others stay as stored)
 pnpm data:collect --sources=colt,gov-uk # only some sources (others reuse stored claims)
+pnpm data:collect --sources=none        # no trip source (all reuse stored claims)
 pnpm data:sync                          # daily refresh of the featured countries (fast sources only)
 pnpm data:export                        # rebuild public/data/index.json from the country files (offline)
 pnpm data:people                        # unpack the people store into public/data/people/ (offline)
+pnpm data:coverage                      # which leaders have years with few trips (offline)
 pnpm data:test                          # parser tests
 ```
 
@@ -61,6 +63,7 @@ concurrency group, so they never write at the same time.
 | Trips of every UK minister, quarterly since about 2010 | GOV.UK ministerial transparency CSVs | Open Government Licence v3.0 |
 | Trips of Canadian ministers | [Proactive Disclosure – Travel Expenses](https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce) | Open Government Licence – Canada |
 | Current trips of Nepal's President, VP, PM and Foreign Minister | [mofa.gov.np](https://mofa.gov.np) press releases | Government website |
+| Every foreign leader and minister received in India (monarchs included), and India's PM, President, VP and External Affairs Minister abroad, 2005 on | [mea.gov.in](https://www.mea.gov.in/incoming-visits) incoming and outgoing visit lists | All rights reserved: only facts (who, where, when) are kept, linked to MEA's page, no text copied |
 | Coordinates of cities and capitals | Wikidata | CC0 |
 
 Wikipedia, GOV.UK and Canada's data require attribution; the app's panel footer credits the
@@ -110,13 +113,15 @@ collect.ts / run.ts → pipeline.ts
 │  ├─ un-general-debate  Wikipedia's session articles, speaker by speaker
 │  ├─ who-assembly  sources/who-assembly.ts reads each delegate list (PDF) via un-delegations.parse
 │  ├─ canada     sources/canada-open-data.ts streams the national CSV
-│  └─ nepal-mofa sources/nepal-mofa.ts reads press releases about visits abroad
+│  ├─ nepal-mofa sources/nepal-mofa.ts reads press releases about visits abroad
+│  └─ india-mea  sources/india-mea.ts reads India's incoming and outgoing visit lists
 ├─ extract/places.resolve.ts      countries, capitals and cities → coordinates via Wikidata
 ├─ extract/travellers.match.ts    who made each trip: Wikidata id → name → family name + office →
 │                                 office + date; unknown named travellers become new officials
 ├─ extract/officials.extract.ts   photos, parties, biographies, stable ids
 ├─ extract/trips.merge.ts         the same trip from several sources becomes one trip
 ├─ extract/app-index.ts           public/data/index.json: every country, official and trip, compact
+├─ extract/coverage.ts            data/warehouse/coverage.json: leaders' years with few trips
 └─ validate/guard.ts              refuses to write if counts drop by more than 20 %
 ```
 
@@ -184,6 +189,6 @@ Outputs:
 - *A country's capital or description*: the app uses Wikidata's capital. To show a curated one
   (and a government description), add the country to `TRACKED_COUNTRIES`; `pnpm data:sync`
   refreshes those countries daily.
-- *Wikimedia contact*: set `DATA_PIPELINE_CONTACT` (your site or repository URL) locally and
-  as a GitHub Actions secret so Wikimedia can reach you about the bot's traffic. Without it,
-  Wikipedia rate-limits the pipeline heavily.
+- *Wikimedia contact*: the bot's User-Agent names the project's repository so Wikimedia can
+  reach you about its traffic; without a contact, Wikipedia rate-limits the pipeline heavily.
+  Set `DATA_PIPELINE_CONTACT` (a site URL, never an email) to name something else.

@@ -2826,35 +2826,6 @@
       "wikidataId": "Q12223312"
     },
     {
-      "aliases": [],
-      "countryCode": "KWT",
-      "fullName": "Abdulrahman Badah al-Mutairi",
-      "id": "abdulrahman-badah-al-mutairi",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "abdulrahman-badah-al-mutairi-p1",
-          "ministry": "Ministry of Information and Culture",
-          "portfolio": "culture",
-          "startDate": null,
-          "title": "Minister of Information and Culture"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/kuwait/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
         "Abdulawahab Mohammad Al Rushaid",
         "Abdulwahab Alrasheed",
@@ -2910,6 +2881,7 @@
       "aliases": [
         "AbdAlrahman Badah Al-Mutairi",
         "Abdulrahman Badah Al-Mutairi",
+        "Abdulrahman Badah al-Mutairi",
         "Abdulrahman Bedah Al Mutairi",
         "Mr. AbdAlrahman Badah Al-Mutairi",
         "Mr. Abdulrahman Badah Abdulrahman Al-Mutairi",
@@ -2925,8 +2897,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2023-06-18",
+          "endDate": null,
           "id": "abdurrahman-baddah-al-mutairi-p1",
+          "ministry": "Ministry of Information and Culture",
+          "portfolio": "culture",
+          "startDate": null,
+          "title": "Minister of Information and Culture"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-06-18",
+          "id": "abdurrahman-baddah-al-mutairi-p2",
           "ministry": "Ministry of Information",
           "portfolio": null,
           "startDate": "2022-08-01",
@@ -2937,7 +2920,7 @@
             "junior_minister"
           ],
           "endDate": "2023-06-18",
-          "id": "abdurrahman-baddah-al-mutairi-p2",
+          "id": "abdurrahman-baddah-al-mutairi-p3",
           "ministry": null,
           "portfolio": "youth",
           "startDate": "2022-08-01",
@@ -2948,7 +2931,7 @@
             "junior_minister"
           ],
           "endDate": "2021-12-28",
-          "id": "abdurrahman-baddah-al-mutairi-p3",
+          "id": "abdurrahman-baddah-al-mutairi-p4",
           "ministry": null,
           "portfolio": "youth",
           "startDate": "2020-12-14",
@@ -2957,8 +2940,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q104175575"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/kuwait/"
         }
       ],
       "summary": "Politician in Kuwait.",
@@ -11699,6 +11682,34 @@
     {
       "datePrecision": "day",
       "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2013-11-10",
+      "engagements": [],
+      "eventName": null,
+      "id": "jaber-al-mubarak-al-hamad-al-sabah--2013-11-07--IND",
+      "officialId": "jaber-al-mubarak-al-hamad-al-sabah",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/647/State_Visit_of_Prime_Minister_of_Kuwait_to_India_November_710_2013"
+        }
+      ],
+      "startDate": "2013-11-07",
+      "statusHint": null,
+      "type": "state_visit"
+    },
+    {
+      "datePrecision": "day",
+      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -13362,13 +13373,17 @@
       "purpose": "Visit to India",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/527/State_Visit_of_His_Highness_Sheikh_Sabah_AlAhmad_AlJaber_AlSabah_Amir_of_the_State_of_Kuwait_to_IndiaJune_1419_2006"
+        },
+        {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2006-06-14",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

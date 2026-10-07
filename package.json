@@ -26,6 +26,7 @@
     "build": "pnpm data:people && next build",
     "clean": "rm -rf .next playwright-report test-results",
     "data:collect": "tsx scripts/data-pipeline/collect.ts",
+    "data:coverage": "tsx scripts/data-pipeline/coverage.ts",
     "data:export": "tsx scripts/data-pipeline/export.ts",
     "data:people": "tsx scripts/data-pipeline/export-people.ts",
     "data:sync": "tsx scripts/data-pipeline/run.ts",

@@ -47,5 +47,6 @@ scripts/data-pipeline/.cache
 # generated from data/warehouse/people by `pnpm data:people` (run before every build)
 /public/data/people/
 
-# data pipeline run logs
+# data pipeline run logs, and the coverage report (rebuilt offline by `pnpm data:coverage`)
 scripts/data-pipeline/.logs
+data/warehouse/coverage.json

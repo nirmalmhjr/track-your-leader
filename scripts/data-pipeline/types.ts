@@ -63,6 +63,7 @@ export const TRIP_SOURCES = [
     "gov-uk",
     "canada",
     "nepal-mofa",
+    "india-mea",
     "un-general-debate",
     "who-assembly",
     "uk-parliament",

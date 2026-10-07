@@ -251,6 +251,43 @@ test("right after a change of government, exact terms pick the office holder", a
     assert.equal(result.draftOf.get(visit), incoming);
 });
 
+test("an office named alone goes to the holder whose term is known to cover the date", async () => {
+    const holder = (name: string, startDate: string | null, endDate: string | null) =>
+        draft({
+            countryCode: "IND",
+            name,
+            positions: [
+                {
+                    categories: ["deputy_leader"],
+                    endDate,
+                    ministry: null,
+                    portfolio: null,
+                    startDate,
+                    title: "Vice President",
+                },
+            ],
+        });
+    const ansari = holder("Mohammad Hamid Ansari", "2007-08-11", "2017-08-10");
+    // Wikidata's end date for Patel is a typo; a current cabinet member's start is unknown.
+    const patel = holder("Sardar Vallabhbhai Patel", "1947-08-15", "6767-12-15");
+    const current = holder("Someone Current", null, null);
+    const visit = claim({
+        source: "india-mea",
+        startDate: "2013-01-14",
+        traveller: {
+            categories: ["deputy_leader"],
+            countryCode: "IND",
+            familyName: null,
+            name: null,
+            portfolio: null,
+            title: "Vice President",
+            wikidataId: null,
+        },
+    });
+    const result = await matchTravellers([visit], [patel, current, ansari], new Map(), TODAY);
+    assert.equal(result.draftOf.get(visit), ansari);
+});
+
 test("a surname alone matches the one official of that country with it and the role", async () => {
     const president = (name: string, startDate: string, endDate: string) =>
         draft({

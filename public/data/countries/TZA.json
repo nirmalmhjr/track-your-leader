@@ -7398,6 +7398,34 @@
       "type": "other"
     },
     {
+      "datePrecision": "day",
+      "destination": {
+        "city": "New Delhi",
+        "coordinates": [
+          77.209,
+          28.6139
+        ],
+        "countryCode": "IND",
+        "precision": "country",
+        "region": "Asia"
+      },
+      "endDate": "2008-03-25",
+      "engagements": [],
+      "eventName": null,
+      "id": "ali-mohamed-shein--2008-03-18--IND",
+      "officialId": "ali-mohamed-shein",
+      "purpose": "Visit to India",
+      "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/461/Visit_of_HE_Dr_Ali_Mohamed_Shein_the_Vice_President_of_the_United_Republic_of_Tanzania_to_India_March_1825_2008"
+        }
+      ],
+      "startDate": "2008-03-18",
+      "statusHint": null,
+      "type": "other"
+    },
+    {
       "datePrecision": "year",
       "destination": {
         "city": "New Delhi",
@@ -16854,6 +16882,10 @@
       "purpose": "State visit.",
       "sources": [
         {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/783/State_Visit_of_the_President_of_United_Republic_of_Tanzania_to_India_1721_June_2015"
+        },
+        {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Jakaya_Kikwete"
         },
@@ -19442,16 +19474,20 @@
         "precision": "country",
         "region": "Asia"
       },
-      "endDate": "2023-10-11",
+      "endDate": "2023-10-10",
       "engagements": [
         "Samia Suluhu made a three-day visit to India.",
         "Samia first met with the External Affairs Minister of India S."
       ],
       "eventName": null,
-      "id": "samia-suluhu-hassan--2023-10-09--IND",
+      "id": "samia-suluhu-hassan--2023-10-08--IND",
       "officialId": "samia-suluhu-hassan",
       "purpose": "State Visit",
       "sources": [
+        {
+          "label": "Ministry of External Affairs, India",
+          "url": "https://www.mea.gov.in/incoming-visit-info?1/1423/State_visit_of_President_of_the_United_Republic_of_Tanzania_to_India_October_810_2023"
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Samia_Suluhu_Hassan"
@@ -19461,7 +19497,7 @@
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2023-10-09",
+      "startDate": "2023-10-08",
       "statusHint": null,
       "type": "state_visit"
     },
