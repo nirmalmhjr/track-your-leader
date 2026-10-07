@@ -54,7 +54,7 @@ export function InOfficeDirectory({
     const { leadership, ministers, others } = splitInOffice(entries);
 
     return (
-        <div className="flex flex-col gap-10">
+        <div className="@container flex flex-col gap-10">
             {leadership.length > 0 ? (
                 <section aria-labelledby="in-office-leadership" className="flex flex-col gap-4">
                     <SectionHeading
@@ -62,7 +62,8 @@ export function InOfficeDirectory({
                         id="in-office-leadership"
                         title={t("leadershipTitle")}
                     />
-                    <ul className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+                    {/* By the section's width: beside the rail a tablet only fits one card. */}
+                    <ul className="grid @2xl:grid-cols-2 @5xl:grid-cols-3 gap-3">
                         {leadership.map((entry) => (
                             <li key={entry.official.id}>
                                 <LeaderCard

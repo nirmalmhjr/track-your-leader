@@ -74,7 +74,10 @@ export function CountryDirectoryView({ directory }: { directory: CountryDirector
             value={tab}
         >
             <div className="flex flex-wrap items-center justify-between gap-3">
-                <TabsList aria-label={t("tabs.label")} className="max-w-full overflow-x-auto">
+                <TabsList
+                    aria-label={t("tabs.label")}
+                    className="max-w-full gap-1 overflow-x-auto overflow-y-hidden"
+                >
                     <TabsTrigger value="in-office">
                         {t("tabs.inOffice")}
                         <TabCount value={inOffice.length} />
