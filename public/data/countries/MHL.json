@@ -1988,34 +1988,6 @@
       "type": "other"
     },
     {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1998-11-23",
-      "engagements": [],
-      "eventName": null,
-      "id": "amata-kabua--1998-11-23--USA",
-      "officialId": "amata-kabua",
-      "purpose": "Met with President Clinton at Agana, Guam.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
-        }
-      ],
-      "startDate": "1998-11-23",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
       "datePrecision": "month",
       "destination": {
         "city": "Geneva",
@@ -2788,36 +2760,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-09-28",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "christopher-loeak--2015-09-22--USA",
-      "officialId": "christopher-loeak",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-09-22",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -2827,7 +2769,9 @@
         "region": "Americas"
       },
       "endDate": "2015-09-30",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "christopher-loeak--2015-09-30--USA",
       "officialId": "christopher-loeak",
@@ -2836,6 +2780,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-09-30",
@@ -3122,43 +3070,11 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-09-20",
+      "endDate": "2023-09-25",
       "engagements": [
         "Met President Joe Biden",
         "Gave a public address"
       ],
-      "eventName": "UN General Assembly general debate",
-      "id": "david-kabua--2023-09-20--USA",
-      "officialId": "david-kabua",
-      "purpose": "Addressed the general debate of the seventy-eighth session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-09-20",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2023-09-25",
-      "engagements": [],
       "eventName": "Attended the Pacific Islands Countries Summit.",
       "id": "david-kabua--2023-09-25--USA",
       "officialId": "david-kabua",
@@ -3170,7 +3086,11 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2023-09-25",

@@ -427,7 +427,7 @@
           "url": "https://en.wikipedia.org/wiki/Nasry_Asfura"
         }
       ],
-      "summary": "Nasry Juan Asfura is a Honduran politician and construction businessman serving as the president of Honduras since 2026. A member of the National Party of Honduras (PNH), he previously served as the mayor of Tegucigalpa from 2014 to 2022.",
+      "summary": "Nasry Juan Asfura Zablah is a Honduran politician and construction businessman serving as the president of Honduras since 2026. A member of the National Party of Honduras (PNH), he previously served as the mayor of Tegucigalpa from 2014 to 2022.",
       "wikidataId": "Q16146159"
     },
     {
@@ -2283,12 +2283,14 @@
       "wikidataId": "Q110787063"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Juan Carlos Garcia Medina"
+      ],
       "countryCode": "HND",
-      "fullName": "Juan Carlos Garcia Medina",
+      "fullName": "Juan Carlos García Medina",
       "id": "juan-carlos-garcia-medina",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Juan_Carlos_Garc%C3%ADa_Molina%2C_retrato_oficial.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -2308,8 +2310,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/honduras/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Honduran politician.",
+      "wikidataId": "Q137921001"
     },
     {
       "aliases": [],
@@ -3152,12 +3154,14 @@
       "wikidataId": null
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Maria Antonieta Mejia"
+      ],
       "countryCode": "HND",
-      "fullName": "Maria Antonieta Mejia",
+      "fullName": "María Antonieta Mejía",
       "id": "maria-antonieta-mejia",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mar%C3%ADa_Antonieta_Mej%C3%ADa.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3175,10 +3179,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/honduras/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Antonieta_Mej%C3%ADa"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "María Antonieta Mejía Sánchez (born 15 May 1981) is a Honduran politician serving as First Vice President of Honduras since 2026. She previously served as member of the National Congress for the National Party of Honduras.",
+      "wikidataId": "Q137599370"
     },
     {
       "aliases": [],
@@ -3258,12 +3266,14 @@
       "wikidataId": "Q6003184"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Roberto Flores Bermudez"
+      ],
       "countryCode": "HND",
-      "fullName": "Roberto Flores Bermudez",
+      "fullName": "Roberto Flores Bermúdez",
       "id": "roberto-flores-bermudez",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roberto_Flores_Berm%C3%BAdez.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -3281,10 +3291,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/honduras/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Roberto_Flores_Berm%C3%BAdez"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Roberto Flores Bermúdez is a Honduran diplomat and politician, and the current Foreign Minister in Roberto Micheletti's interim government. He was previously the Foreign Minister in 1992 - 2002, and has twice been Honduras' Ambassador to the United States.",
+      "wikidataId": "Q16729025"
     },
     {
       "aliases": [
@@ -6815,7 +6829,9 @@
         "region": "Americas"
       },
       "endDate": "2017-09-19",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "juan-orlando-hernandez--2017-09-19--USA",
       "officialId": "juan-orlando-hernandez",
@@ -6824,41 +6840,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-second_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2017-09-19",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2017-09-24",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "juan-orlando-hernandez--2017-09-21--USA",
-      "officialId": "juan-orlando-hernandez",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-09-21",
+      "startDate": "2017-09-19",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

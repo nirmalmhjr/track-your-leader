@@ -29677,7 +29677,7 @@
       "fullName": "Keith Ashfield",
       "id": "keith-ashfield",
       "party": "Conservative Party of Canada",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fredericton_postal_workers_occupy_MP_Keith_Ashfield's_office.ogv?width=160",
       "positions": [
         {
           "categories": [
@@ -44227,38 +44227,15 @@
         {
           "label": "Government of Canada open data",
           "url": "https://open.canada.ca/data/en/dataset/009f9a49-c2d9-4d29-a6d4-1a228da335ce"
-        }
-      ],
-      "startDate": "2025-09-21",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2025-09-29",
-      "engagements": [],
-      "eventName": "UN General Assembly general debate",
-      "id": "anita-anand--2025-09-29--USA",
-      "officialId": "anita-anand",
-      "purpose": "Addressed the general debate of the eightieth session of the UN General Assembly",
-      "sources": [
+        },
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eightieth_session_of_the_United_Nations_General_Assembly"
         }
       ],
-      "startDate": "2025-09-29",
+      "startDate": "2025-09-21",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "conference"
     },
     {
       "datePrecision": "day",
@@ -50437,7 +50414,7 @@
       ],
       "startDate": "2016-10-14",
       "statusHint": null,
-      "type": "conference"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",
@@ -73368,33 +73345,6 @@
       "startDate": "2003-12-09",
       "statusHint": null,
       "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2015-10-03",
-      "engagements": [],
-      "eventName": "UN General Assembly general debate",
-      "id": "jean-gaetan-daniel--2015-10-03--USA",
-      "officialId": "jean-gaetan-daniel",
-      "purpose": "Addressed the general debate of the seventieth session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2015-10-03",
-      "statusHint": null,
-      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "year",
@@ -108137,36 +108087,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Berlin",
-        "coordinates": [
-          13.405,
-          52.52
-        ],
-        "countryCode": "DEU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2007-06-04",
-      "engagements": [
-        "Met Chancellor Angela Merkel"
-      ],
-      "eventName": "G8 Summit",
-      "id": "stephen-harper--2007-06-02--DEU",
-      "officialId": "stephen-harper",
-      "purpose": "Attended G8 Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2007-06-02",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Paris",
         "coordinates": [
           2.3522,
@@ -108206,7 +108126,9 @@
         "region": "Europe"
       },
       "endDate": "2007-06-08",
-      "engagements": [],
+      "engagements": [
+        "Met Chancellor Angela Merkel"
+      ],
       "eventName": "33rd G8 summit",
       "id": "stephen-harper--2007-06-06--DEU",
       "officialId": "stephen-harper",
@@ -108215,6 +108137,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Stephen_Harper"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2007-06-06",
@@ -109744,36 +109670,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2010-09-21",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "stephen-harper--2010-09-21--USA",
-      "officialId": "stephen-harper",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2010-09-21",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -109783,7 +109679,9 @@
         "region": "Americas"
       },
       "endDate": "2010-09-23",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "stephen-harper--2010-09-23--USA",
       "officialId": "stephen-harper",
@@ -109792,6 +109690,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-fifth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-09-23",
@@ -111833,36 +111735,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2014-09-23",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "stephen-harper--2014-09-22--USA",
-      "officialId": "stephen-harper",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2014-09-22",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -111872,7 +111744,9 @@
         "region": "Americas"
       },
       "endDate": "2014-09-25",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "stephen-harper--2014-09-25--USA",
       "officialId": "stephen-harper",
@@ -111881,6 +111755,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-ninth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2014-09-25",
@@ -115659,7 +115537,7 @@
       ],
       "startDate": "1945-04-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",

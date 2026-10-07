@@ -144,6 +144,9 @@ importers:
       '@types/topojson-specification':
         specifier: ^1.0.5
         version: 1.0.5
+      any-ascii:
+        specifier: 0.3.3
+        version: 0.3.3
       babel-plugin-react-compiler:
         specifier: ^1.0.0
         version: 1.0.0
@@ -1592,6 +1595,10 @@ packages:
   ansi-styles@6.2.3:
     resolution: {integrity: sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==}
     engines: {node: '>=12'}
+
+  any-ascii@0.3.3:
+    resolution: {integrity: sha512-8hm+zPrc1VnlxD5eRgMo9F9k2wEMZhbZVLKwA/sPKIt6ywuz7bI9uV/yb27uvc8fv8q6Wl2piJT51q1saKX0Jw==}
+    engines: {node: '>=12.20'}
 
   archiver-utils@2.1.0:
     resolution: {integrity: sha512-bEL/yUb/fNNiNTuUz979Z0Yg5L+LzLxGJz8x79lYmR54fmTIb6ob/hNQgkQnIUDWIFjZVQwl9Xs356I6BAMHfw==}
@@ -4979,6 +4986,8 @@ snapshots:
   ansi-regex@6.4.0: {}
 
   ansi-styles@6.2.3: {}
+
+  any-ascii@0.3.3: {}
 
   archiver-utils@2.1.0:
     dependencies:

@@ -9254,7 +9254,7 @@
           "url": "https://en.wikipedia.org/wiki/Greg_Moriarty"
         }
       ],
-      "summary": "Gregory Laurence Moriarty (born 4 April 1964) is an Australian public servant and diplomat who has served as the ambassador of Australia to the United States since May 2026. He was the Secretary of the Department of Defence from 4 September 2017 to 1 April 2026.",
+      "summary": "Gregory Laurence Moriarty (born 4 April 1964) is an Australian public servant and diplomat who has served as the ambassador of Australia to the United States since 2026. He was the Secretary of the Department of Defence from 4 September 2017 to 1 April 2026.",
       "wikidataId": "Q27734657"
     },
     {
@@ -49735,7 +49735,7 @@
       ],
       "startDate": "2022-09-09",
       "statusHint": null,
-      "type": "conference"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",
@@ -68842,34 +68842,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Manila",
-        "coordinates": [
-          120.977222222,
-          14.595833333
-        ],
-        "countryCode": "PHL",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2017-11-09",
-      "engagements": [],
-      "eventName": "Asia-Pacific Economic Cooperation (APEC) Summit",
-      "id": "malcolm-turnbull--2017-11-09--PHL",
-      "officialId": "malcolm-turnbull",
-      "purpose": "Attended Asia-Pacific Economic Cooperation (APEC) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2017-11-09",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Đà Nẵng",
         "coordinates": [
           108.209722222,
@@ -68951,6 +68923,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_the_Philippines"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2017-11-13",
@@ -81204,7 +81180,7 @@
       ],
       "startDate": "2022-09-09",
       "statusHint": null,
-      "type": "conference"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",

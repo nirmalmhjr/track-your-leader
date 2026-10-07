@@ -5,7 +5,7 @@ import type { Place } from "@/types/travel.types";
 
 import { matchTravellers } from "../extract/travellers.match";
 import { mergeClaims } from "../extract/trips.merge";
-import { isAbroad } from "../pipeline";
+import { isAbroad, markExtendedStay } from "../pipeline";
 import type { OfficialDraft, TripClaim } from "../types";
 
 const TODAY = "2026-10-04";
@@ -81,6 +81,25 @@ test("the same trip from several sources becomes one trip with the best details"
     assert.equal(trip.purpose, "Official visit");
     assert.equal(trip.type, "official_visit");
     assert.equal(trip.sources.length, 2);
+});
+
+test("two sources dating one trip a few days apart give one trip; one source's two legs stay two", () => {
+    const crossSource = mergeClaims(
+        [
+            claim({ endDate: "2006-06-16", source: "colt", startDate: "2006-06-14" }),
+            claim({ endDate: "2006-06-21", source: "wikipedia", startDate: "2006-06-19" }),
+        ],
+        "hamid-karzai"
+    );
+    assert.equal(crossSource.length, 1);
+    const sameSource = mergeClaims(
+        [
+            claim({ endDate: "2006-06-16", source: "colt", startDate: "2006-06-14" }),
+            claim({ endDate: "2006-06-21", source: "colt", startDate: "2006-06-19" }),
+        ],
+        "hamid-karzai"
+    );
+    assert.equal(sameSource.length, 2);
 });
 
 test("a month-only claim joins an overlapping trip but never stretches it", () => {
@@ -450,4 +469,20 @@ test("a visit naming a leader by one name goes to whoever held the office then",
         claims.map((entry) => draftOf.get(entry)?.name),
         ["Birendra of Nepal", "Mahendra I of Nepal", "B. P. Koirala"]
     );
+});
+
+test("months abroad are kept as an extended stay, not a visit", () => {
+    const [exile] = mergeClaims(
+        [claim({ endDate: "2021-10-20", source: "colt", startDate: "2021-08-16" })],
+        "ashraf-ghani"
+    );
+    const [visit] = mergeClaims(
+        [claim({ endDate: "2021-08-20", source: "colt", startDate: "2021-08-16" })],
+        "ashraf-ghani"
+    );
+    assert.ok(exile && visit);
+    const stay = markExtendedStay(exile);
+    assert.equal(stay.type, "extended_stay");
+    assert.ok(stay.purpose?.includes("stay abroad of 65 days"));
+    assert.equal(markExtendedStay(visit).type, visit.type);
 });

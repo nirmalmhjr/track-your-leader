@@ -35,6 +35,12 @@ const LEADING_THE = /^the /;
 const FORMAL_PREFIX =
     /^(?:(?:islamic|federal|federative|democratic|people s|united|socialist|co operative|cooperative|plurinational|bolivarian|hashemite|arab|independent|oriental|grand)\s+)*(?:republic|kingdom|state|sultanate|principality|duchy|commonwealth)\s+of\s+(?:the\s+)?/;
 
+/**
+ * Countries whose Wikidata item has no ISO code: Kosovo uses the user-assigned XKX, which
+ * Wikidata doesn't record, so nothing would link its officials and places otherwise.
+ */
+export const ITEMS_WITHOUT_ISO_CODE: Readonly<Record<string, string>> = { XKX: "Q1246" };
+
 /** Common and historical names that differ from the ISO short names. */
 const COUNTRY_ALIASES: Readonly<Record<string, CountryCode>> = {
     burma: "MMR",
@@ -193,8 +199,10 @@ export const loadPlaceIndex = async (): Promise<PlaceIndex> => {
         TRACKED_COUNTRIES.map((country) => [country.code, country.capital])
     );
     const fallbacks = new Map<CountryCode, Place>();
-    const codeByItem = new Map<string, CountryCode>();
-    const itemByCode = new Map<CountryCode, string>();
+    const codeByItem = new Map<string, CountryCode>(
+        Object.entries(ITEMS_WITHOUT_ISO_CODE).map(([code, item]) => [item, code])
+    );
+    const itemByCode = new Map<CountryCode, string>(Object.entries(ITEMS_WITHOUT_ISO_CODE));
     for (const row of rows) {
         const item = entityId(row.country);
         const code = row.iso;

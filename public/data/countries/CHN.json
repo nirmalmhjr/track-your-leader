@@ -1649,7 +1649,7 @@
       "fullName": "Kang Shi'en",
       "id": "kang-shi-en",
       "party": "Chinese Communist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/La_d%C3%A9l%C3%A9gation_fran%C3%A7aise_conduite_par_Fran%C3%A7ois_Giscard_d'Estaing_re%C3%A7ue_par_le_vice-Premier_Ministre_Kang_Shi'en.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -17588,8 +17588,10 @@
         "region": "Asia"
       },
       "endDate": "2005-07-01",
-      "engagements": [],
-      "eventName": null,
+      "engagements": [
+        "Met President Nursultan Nazarbayev"
+      ],
+      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
       "id": "hu-jintao--2005-06-30--KAZ",
       "officialId": "hu-jintao",
       "purpose": "State visit.",
@@ -17597,6 +17599,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Hu_Jintao"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2005-06-30",
@@ -17633,36 +17639,6 @@
       "startDate": "2005-06-30",
       "statusHint": null,
       "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [
-          71.433333333,
-          51.133333333
-        ],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2005-07-06",
-      "engagements": [
-        "Met President Nursultan Nazarbayev"
-      ],
-      "eventName": "Shanghai Cooperation Organization (SCO) Summit",
-      "id": "hu-jintao--2005-07-03--KAZ",
-      "officialId": "hu-jintao",
-      "purpose": "Attended Shanghai Cooperation Organization (SCO) Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2005-07-03",
-      "statusHint": null,
-      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -32987,7 +32963,7 @@
       "eventName": null,
       "id": "wen-jiabao--2010-05-30--JPN",
       "officialId": "wen-jiabao",
-      "purpose": "Visit to Japan",
+      "purpose": "A stay abroad of 306 days (such as exile, medical treatment or a posting), not an official visit.",
       "sources": [
         {
           "label": "Wikipedia",
@@ -32996,7 +32972,7 @@
       ],
       "startDate": "2010-05-30",
       "statusHint": null,
-      "type": "other"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",

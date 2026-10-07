@@ -1,8 +1,9 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { uniquePositions } from "../extract/officials.extract";
+import { bestLabel, isWithinLifetime, uniquePositions } from "../extract/officials.extract";
 import { mergeNameTwins } from "../extract/people.assemble";
+import { toLatinName } from "../lib/text";
 import type { OfficialDraft, PositionDraft } from "../types";
 
 const position = (
@@ -68,4 +69,27 @@ test("an official known only by name is folded into their identified twin", () =
     const son = draft("Kim Beazley", "Q304561");
     const unknown = draft("Kim Beazley", null);
     assert.equal(mergeNameTwins([other, son, unknown], []).length, 3);
+});
+
+test("trips after the traveller's death or in their childhood are someone else's", () => {
+    const life = { born: "1910-03-04", died: "1980-08-20" };
+    assert.equal(isWithinLifetime("1975-05-01", life), true);
+    assert.equal(isWithinLifetime("2009-09-25", life), false);
+    assert.equal(isWithinLifetime("1918-01-01", life), false);
+    assert.equal(isWithinLifetime("2009-09-25", undefined), true);
+});
+
+test("names become Latin script only where the script transliterates reliably", () => {
+    assert.deepEqual(toLatinName("Билен Салиу"), { name: "Bilen Saliu", original: "Билен Салиу" });
+    assert.deepEqual(toLatinName("Αλέξης Τσίπρας"), {
+        name: "Alexis Tsipras",
+        original: "Αλέξης Τσίπρας",
+    });
+    // Arabic and Thai would lose their vowels or word breaks: kept as written.
+    assert.deepEqual(toLatinName("عادل هاشم القميري"), {
+        name: "عادل هاشم القميري",
+        original: null,
+    });
+    assert.deepEqual(toLatinName("Ahmed al-Sharaa"), { name: "Ahmed al-Sharaa", original: null });
+    assert.equal(bestLabel({ ar: "عادل", fr: "Adel Hachem", mk: "Адел" }), "Adel Hachem");
 });

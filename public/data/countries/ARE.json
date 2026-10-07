@@ -7644,36 +7644,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Cairo",
-        "coordinates": [
-          31.2357,
-          30.0444
-        ],
-        "countryCode": "EGY",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2023-08-05",
-      "engagements": [
-        "Met President Abdel Fattah al-Sisi"
-      ],
-      "eventName": null,
-      "id": "mohammed-bin-zayed-al-nahyan--2023-08-05--EGY",
-      "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Visit to Egypt",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-08-05",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "El Alamein",
         "coordinates": [
           28.95,
@@ -7683,7 +7653,9 @@
         "region": "Africa"
       },
       "endDate": "2023-08-07",
-      "engagements": [],
+      "engagements": [
+        "Met President Abdel Fattah al-Sisi"
+      ],
       "eventName": null,
       "id": "mohammed-bin-zayed-al-nahyan--2023-08-07--EGY",
       "officialId": "mohammed-bin-zayed-al-nahyan",
@@ -7692,6 +7664,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2023-08-07",
@@ -8357,33 +8333,6 @@
         "countryCode": "RUS",
         "region": "Europe"
       },
-      "endDate": "2024-10-18",
-      "engagements": [],
-      "eventName": null,
-      "id": "mohammed-bin-zayed-al-nahyan--2024-10-18--RUS",
-      "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Attended the BRICS summit, the first since the UAE joined the organization in January 2024.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
-        }
-      ],
-      "startDate": "2024-10-18",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kazan",
-        "coordinates": [
-          49.114444444,
-          55.790833333
-        ],
-        "countryCode": "RUS",
-        "region": "Europe"
-      },
       "endDate": "2024-10-20",
       "engagements": [
         "Met President Vladimir Putin",
@@ -8400,7 +8349,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_BRICS_summit"
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
         },
         {
           "label": "COLT dataset",
@@ -8571,36 +8520,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Tirana",
-        "coordinates": [
-          19.818055555,
-          41.328333333
-        ],
-        "countryCode": "ALB",
-        "region": "Europe"
-      },
-      "endDate": "2025-02-23",
-      "engagements": [
-        "Met Prime Minister Edi Rama",
-        "Signed agreements"
-      ],
-      "eventName": null,
-      "id": "mohammed-bin-zayed-al-nahyan--2025-02-23--ALB",
-      "officialId": "mohammed-bin-zayed-al-nahyan",
-      "purpose": "Visit to Albania",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-02-23",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Rome",
         "coordinates": [
           12.482777777,
@@ -8640,7 +8559,10 @@
         "region": "Europe"
       },
       "endDate": "2025-02-25",
-      "engagements": [],
+      "engagements": [
+        "Met Prime Minister Edi Rama",
+        "Signed agreements"
+      ],
       "eventName": null,
       "id": "mohammed-bin-zayed-al-nahyan--2025-02-25--ALB",
       "officialId": "mohammed-bin-zayed-al-nahyan",
@@ -8649,6 +8571,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Mohamed_bin_Zayed_Al_Nahyan"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2025-02-25",
@@ -11359,7 +11285,7 @@
       "eventName": null,
       "id": "zayed-bin-sultan-al-nahyan--2000-09-26--USA",
       "officialId": "zayed-bin-sultan-al-nahyan",
-      "purpose": "Visit to United States",
+      "purpose": "A stay abroad of 61 days (such as exile, medical treatment or a posting), not an official visit.",
       "sources": [
         {
           "label": "COLT dataset",
@@ -11368,7 +11294,7 @@
       ],
       "startDate": "2000-09-26",
       "statusHint": null,
-      "type": "other"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",

@@ -739,7 +739,7 @@
           "url": "https://en.wikipedia.org/wiki/Theodor_Heuss"
         }
       ],
-      "summary": "Theodor Heuss was a German politician who served as the first president of West Germany from 1949 to 1959. His civil demeanour and cordial nature – somewhat a contrast to German nationalist traditions and the stern character of chancellor Konrad Adenauer – largely contributed to the stabilisation of democracy in West Germany during the Wirtschaftswunder years.",
+      "summary": "Theodor Heuss was a German politician who served as the first president of West Germany from 1949 to 1959. To date, he is one of only two German president, along with Richard von Weizsäcker (1984–1994), to have served two full five-year terms.",
       "wikidataId": "Q2594"
     },
     {
@@ -2795,7 +2795,7 @@
       "fullName": "August Geislhöringer",
       "id": "august-geislhoringer",
       "party": "Bavaria Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/August-Geislh%C3%B6ringer-Grab.JPG?width=160",
       "positions": [
         {
           "categories": [
@@ -14750,7 +14750,7 @@
       "fullName": "Antje Leendertse",
       "id": "antje-leendertse",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Antje_Leendertse_at_Arria_formula_meeting_on_the_situation_in_Belarus.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -59627,9 +59627,10 @@
       },
       "endDate": "2007-03-06",
       "engagements": [
-        "Merkel also attended the EU Social summit."
+        "Merkel also attended the EU Social summit.",
+        "Signed agreements"
       ],
-      "eventName": null,
+      "eventName": "European Council Summit",
       "id": "angela-merkel--2007-03-06--BEL",
       "officialId": "angela-merkel",
       "purpose": "Merkel attended the European Council summit to reach an agreement on climate protection.",
@@ -59637,39 +59638,13 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
-        }
-      ],
-      "startDate": "2007-03-06",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Brussels",
-        "coordinates": [
-          4.351666666,
-          50.846666666
-        ],
-        "countryCode": "BEL",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2007-03-09",
-      "engagements": [
-        "Signed agreements"
-      ],
-      "eventName": "European Council Summit",
-      "id": "angela-merkel--2007-03-08--BEL",
-      "officialId": "angela-merkel",
-      "purpose": "Attended European Council Summit",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2007-03-08",
+      "startDate": "2007-03-06",
       "statusHint": null,
       "type": "summit"
     },
@@ -63919,7 +63894,10 @@
         "region": "Europe"
       },
       "endDate": "2010-09-06",
-      "engagements": [],
+      "engagements": [
+        "Met President Dalia Grybauskaite",
+        "Gave a public address"
+      ],
       "eventName": null,
       "id": "angela-merkel--2010-09-06--LTU",
       "officialId": "angela-merkel",
@@ -63928,6 +63906,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2010-09-06",
@@ -63966,37 +63948,6 @@
       "startDate": "2010-09-07",
       "statusHint": null,
       "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vilnius",
-        "coordinates": [
-          25.28,
-          54.687222222
-        ],
-        "countryCode": "LTU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2010-09-08",
-      "engagements": [
-        "Met President Dalia Grybauskaite",
-        "Gave a public address"
-      ],
-      "eventName": null,
-      "id": "angela-merkel--2010-09-08--LTU",
-      "officialId": "angela-merkel",
-      "purpose": "Visit to Lithuania",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2010-09-08",
-      "statusHint": null,
-      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -64713,7 +64664,7 @@
       },
       "endDate": "2011-02-07",
       "engagements": [],
-      "eventName": null,
+      "eventName": "Weimar Triangle Summit",
       "id": "angela-merkel--2011-02-07--POL",
       "officialId": "angela-merkel",
       "purpose": "Merkel met with President Bronisław Komorowski and French President Nicolas Sarkozy on the Weimar Triangle.",
@@ -64721,39 +64672,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
-        }
-      ],
-      "startDate": "2011-02-07",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Warsaw",
-        "coordinates": [
-          21.011111111,
-          52.23
-        ],
-        "countryCode": "POL",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2011-02-11",
-      "engagements": [],
-      "eventName": "Weimar Triangle Summit",
-      "id": "angela-merkel--2011-02-10--POL",
-      "officialId": "angela-merkel",
-      "purpose": "Attended Weimar Triangle Summit",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-02-10",
+      "startDate": "2011-02-07",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -73879,36 +73806,6 @@
       "destination": {
         "city": "Amman",
         "coordinates": [
-          35.926084,
-          31.930983
-        ],
-        "countryCode": "JOR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-06-19",
-      "engagements": [
-        "Met King Abdullah II bin Al-Hussein"
-      ],
-      "eventName": null,
-      "id": "angela-merkel--2018-06-19--JOR",
-      "officialId": "angela-merkel",
-      "purpose": "Visit to Jordan",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2018-06-19",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Amman",
-        "coordinates": [
           35.933333333,
           31.95
         ],
@@ -73917,7 +73814,8 @@
       },
       "endDate": "2018-06-22",
       "engagements": [
-        "Merkel also met with Bundeswehr soldiers stationed in Jordan."
+        "Merkel also met with Bundeswehr soldiers stationed in Jordan.",
+        "Met King Abdullah II bin Al-Hussein"
       ],
       "eventName": null,
       "id": "angela-merkel--2018-06-21--JOR",
@@ -73927,6 +73825,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_trips_made_by_Angela_Merkel"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-06-21",
@@ -88601,48 +88503,24 @@
         "region": "Europe"
       },
       "endDate": "1999-12-01",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder--1999-12-01--ESP",
-      "officialId": "gerhard-schroder",
-      "purpose": "Visit to Spain",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Gerhard_Schr%C3%B6der"
-        }
-      ],
-      "startDate": "1999-12-01",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Madrid",
-        "coordinates": [
-          -3.703333333,
-          40.416944444
-        ],
-        "countryCode": "ESP",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1999-12-04",
       "engagements": [
         "Met Prime Minister Jose Maria Aznar"
       ],
       "eventName": "Aerospace Summit",
-      "id": "gerhard-schroder--1999-12-03--ESP",
+      "id": "gerhard-schroder--1999-12-01--ESP",
       "officialId": "gerhard-schroder",
       "purpose": "Attended Aerospace Summit",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Gerhard_Schr%C3%B6der"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1999-12-03",
+      "startDate": "1999-12-01",
       "statusHint": null,
       "type": "summit"
     },
@@ -88814,45 +88692,21 @@
       },
       "endDate": "2000-04-04",
       "engagements": [],
-      "eventName": null,
+      "eventName": "European Council-African Union (AU) Summit",
       "id": "gerhard-schroder--2000-04-03--EGY",
       "officialId": "gerhard-schroder",
-      "purpose": "Visit to Egypt",
+      "purpose": "Attended European Council-African Union (AU) Summit",
       "sources": [
         {
           "label": "Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Gerhard_Schr%C3%B6der"
-        }
-      ],
-      "startDate": "2000-04-03",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Cairo",
-        "coordinates": [
-          31.2357,
-          30.0444
-        ],
-        "countryCode": "EGY",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2000-04-07",
-      "engagements": [],
-      "eventName": "European Council-African Union (AU) Summit",
-      "id": "gerhard-schroder--2000-04-06--EGY",
-      "officialId": "gerhard-schroder",
-      "purpose": "Attended European Council-African Union (AU) Summit",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2000-04-06",
+      "startDate": "2000-04-03",
       "statusHint": null,
       "type": "summit"
     },
@@ -95423,286 +95277,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1999-02-12",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--1999-02-11--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "1999-02-11",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1999-04-25",
-      "engagements": [],
-      "eventName": "Attended NATO’s 50th Anniversary Summit.",
-      "id": "gerhard-schroder-deu--1999-04-23--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Attended NATO’s 50th Anniversary Summit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "1999-04-23",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2001-03-29",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2001-03-28--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2001-03-28",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2001-10-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2001-10-09--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2001-10-09",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2002-01-31",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2002-01-30--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Working visit. Also attended World Economic Forum in New York City.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2002-01-30",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2003-09-24",
-      "engagements": [],
-      "eventName": "Met with President Bush at the UN General Assembly in New York City.",
-      "id": "gerhard-schroder-deu--2003-09-24--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Met with President Bush at the UN General Assembly in New York City.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2003-09-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2004-02-27",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2004-02-26--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2004-02-26",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2004-06-11",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2004-06-08--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Attended G-8 Economic Summit at Sea Island, Georgia. Attended the funeral of Former President Reagan.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2004-06-08",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2005-05-09",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2005-05-09--RUS",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Vladimir Putin met with Federal Chancellor of Germany Gerhard Schroeder",
-      "sources": [
-        {
-          "label": "Kremlin (CC BY 4.0)",
-          "url": "http://en.kremlin.ru/events/president/news/33320"
-        }
-      ],
-      "startDate": "2005-05-09",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2005-06-27",
-      "engagements": [],
-      "eventName": null,
-      "id": "gerhard-schroder-deu--2005-06-27--USA",
-      "officialId": "gerhard-schroder-deu",
-      "purpose": "Working visit.",
-      "sources": [
-        {
-          "label": "US Office of the Historian",
-          "url": "https://history.state.gov/departmenthistory/visits"
-        }
-      ],
-      "startDate": "2005-06-27",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -102127,21 +101701,27 @@
         "countryCode": "LUX",
         "region": "Europe"
       },
-      "endDate": "1991-06-22",
-      "engagements": [],
-      "eventName": null,
+      "endDate": "1991-06-29",
+      "engagements": [
+        "Signed agreements"
+      ],
+      "eventName": "European Council Summit",
       "id": "helmut-kohl--1991-06-22--LUX",
       "officialId": "helmut-kohl",
-      "purpose": "Visit to Luxembourg",
+      "purpose": "Attended European Council Summit",
       "sources": [
         {
           "label": "Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Helmut_Kohl"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1991-06-22",
       "statusHint": null,
-      "type": "other"
+      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -102169,39 +101749,6 @@
       "startDate": "1991-06-25",
       "statusHint": null,
       "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Luxembourg",
-        "coordinates": [
-          6.13,
-          49.611388888
-        ],
-        "countryCode": "LUX",
-        "region": "Europe"
-      },
-      "endDate": "1991-06-29",
-      "engagements": [
-        "Signed agreements"
-      ],
-      "eventName": "European Council Summit",
-      "id": "helmut-kohl--1991-06-28--LUX",
-      "officialId": "helmut-kohl",
-      "purpose": "Attended European Council Summit",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Helmut_Kohl"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1991-06-28",
-      "statusHint": null,
-      "type": "summit"
     },
     {
       "datePrecision": "day",
@@ -104337,37 +103884,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Paris",
-        "coordinates": [
-          2.3522,
-          48.8566
-        ],
-        "countryCode": "FRA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "1994-05-27",
-      "engagements": [
-        "Met President Francois Mitterrand",
-        "Gave a public address"
-      ],
-      "eventName": null,
-      "id": "helmut-kohl--1994-05-26--FRA",
-      "officialId": "helmut-kohl",
-      "purpose": "Visit to France",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1994-05-26",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Mulhouse",
         "coordinates": [
           7.339166666,
@@ -104377,7 +103893,10 @@
         "region": "Europe"
       },
       "endDate": "1994-05-31",
-      "engagements": [],
+      "engagements": [
+        "Met President Francois Mitterrand",
+        "Gave a public address"
+      ],
       "eventName": null,
       "id": "helmut-kohl--1994-05-30--FRA",
       "officialId": "helmut-kohl",
@@ -104386,11 +103905,15 @@
         {
           "label": "Wikipedia",
           "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Helmut_Kohl"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1994-05-30",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -107728,53 +107251,29 @@
           55.750555555
         ],
         "countryCode": "RUS",
-        "precision": "country",
         "region": "Europe"
       },
-      "endDate": "1998-03-24",
+      "endDate": "1998-03-26",
       "engagements": [
         "Met President Boris Yeltsin"
       ],
       "eventName": "France-Germany-Russia Trilateral",
-      "id": "helmut-kohl--1998-03-23--RUS",
+      "id": "helmut-kohl--1998-03-26--RUS",
       "officialId": "helmut-kohl",
       "purpose": "Attended France-Germany-Russia Trilateral",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Helmut_Kohl"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1998-03-23",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "region": "Europe"
-      },
-      "endDate": "1998-03-26",
-      "engagements": [],
-      "eventName": null,
-      "id": "helmut-kohl--1998-03-26--RUS",
-      "officialId": "helmut-kohl",
-      "purpose": "Visit to Russia",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://de.wikipedia.org/wiki/Liste_der_Auslandsreisen_von_Bundeskanzler_Helmut_Kohl"
-        }
-      ],
       "startDate": "1998-03-26",
       "statusHint": null,
-      "type": "other"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

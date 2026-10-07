@@ -12647,7 +12647,9 @@
         "region": "Asia"
       },
       "endDate": "2017-01-11",
-      "engagements": [],
+      "engagements": [
+        "Met Emir Tamim bin Hamad Al Thani"
+      ],
       "eventName": null,
       "id": "michel-aoun--2017-01-11--QAT",
       "officialId": "michel-aoun",
@@ -12656,41 +12658,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michel_Aoun"
-        }
-      ],
-      "startDate": "2017-01-11",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Doha",
-        "coordinates": [
-          51.529444444,
-          25.286111111
-        ],
-        "countryCode": "QAT",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2017-01-14",
-      "engagements": [
-        "Met Emir Tamim bin Hamad Al Thani"
-      ],
-      "eventName": null,
-      "id": "michel-aoun--2017-01-13--QAT",
-      "officialId": "michel-aoun",
-      "purpose": "Visit to Qatar",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2017-01-13",
+      "startDate": "2017-01-11",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -12720,36 +12696,6 @@
         }
       ],
       "startDate": "2017-02-12",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Amman",
-        "coordinates": [
-          35.926084,
-          31.930983
-        ],
-        "countryCode": "JOR",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2017-02-15",
-      "engagements": [
-        "Met King Abdullah II bin Al-Hussein"
-      ],
-      "eventName": null,
-      "id": "michel-aoun--2017-02-14--JOR",
-      "officialId": "michel-aoun",
-      "purpose": "Visit to Jordan",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2017-02-14",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -12792,7 +12738,9 @@
         "region": "Asia"
       },
       "endDate": "2017-02-18",
-      "engagements": [],
+      "engagements": [
+        "Met King Abdullah II bin Al-Hussein"
+      ],
       "eventName": null,
       "id": "michel-aoun--2017-02-18--JOR",
       "officialId": "michel-aoun",
@@ -12801,6 +12749,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michel_Aoun"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2017-02-18",

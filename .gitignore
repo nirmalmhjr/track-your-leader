@@ -50,3 +50,4 @@ scripts/data-pipeline/.cache
 # data pipeline run logs, and the coverage report (rebuilt offline by `pnpm data:coverage`)
 scripts/data-pipeline/.logs
 data/warehouse/coverage.json
+data/warehouse/audit.json

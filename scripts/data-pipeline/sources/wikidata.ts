@@ -30,10 +30,13 @@ const POINT_PATTERN = /^Point\(([-\d.eE]+) ([-\d.eE]+)\)$/;
 
 /** Property ids used across the pipeline. */
 export const PROPERTY = {
+    birth: "P569",
     capital: "P36",
     citizenship: "P27",
+    commonsCategory: "P373",
     coordinates: "P625",
     country: "P17",
+    death: "P570",
     endTime: "P582",
     image: "P18",
     instanceOf: "P31",
@@ -208,6 +211,47 @@ export const claimsOf = (entity: WikidataEntity, property: string): WikidataClai
  */
 export const qualifier = (claim: WikidataClaim, property: string): Snak | undefined =>
     claim.qualifiers?.[property]?.[0];
+
+/**
+ * Every label items have, in any language, for people Wikidata names in no English or
+ * multilingual label.
+ *
+ * @param ids - Item ids.
+ * @returns Labels by language code, per item.
+ */
+export const fetchAllLabels = async (
+    ids: readonly string[]
+): Promise<Map<string, Record<string, string>>> => {
+    const labels = new Map<string, Record<string, string>>();
+    const responses = await Promise.all(
+        chunk([...new Set(ids)].sort(), ENTITY_BATCH_SIZE).map((batch) =>
+            fetchJson(
+                withQuery(API_ENDPOINT, {
+                    action: "wbgetentities",
+                    format: "json",
+                    ids: batch.join("|"),
+                    props: "labels",
+                })
+            )
+        )
+    );
+    for (const json of responses) {
+        for (const raw of Object.values(entitiesResponseSchema.parse(json).entities)) {
+            if (raw.missing === undefined) {
+                labels.set(
+                    raw.id,
+                    Object.fromEntries(
+                        Object.entries(raw.labels ?? {}).map(([language, term]) => [
+                            language,
+                            term.value,
+                        ])
+                    )
+                );
+            }
+        }
+    }
+    return labels;
+};
 
 /**
  * Fetches entities by id, in batches of 50.

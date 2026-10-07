@@ -993,6 +993,7 @@
     },
     {
       "aliases": [
+        "Akbar Toshqulov",
         "Toshqulov Akbar Joraboyevich"
       ],
       "countryCode": "UZB",
@@ -1015,8 +1016,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q115782420"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/uzbekistan/"
         },
         {
           "label": "Wikipedia",
@@ -1025,35 +1026,6 @@
       ],
       "summary": "Akbar Djurabayevich Tashkulov is the Minister of Justice of Uzbekistan, a legal expert, and a senior justice advisor.",
       "wikidataId": "Q115782420"
-    },
-    {
-      "aliases": [],
-      "countryCode": "UZB",
-      "fullName": "Akbar Toshqulov",
-      "id": "akbar-toshqulov",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "akbar-toshqulov-p1",
-          "ministry": "Ministry of Justice",
-          "portfolio": "justice",
-          "startDate": null,
-          "title": "Minister of Justice"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/uzbekistan/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -4818,7 +4790,9 @@
         "region": "Asia"
       },
       "endDate": "1994-01-16",
-      "engagements": [],
+      "engagements": [
+        "Met President Askar Akayev"
+      ],
       "eventName": null,
       "id": "islam-karimov--1994-01-16--KGZ",
       "officialId": "islam-karimov",
@@ -4827,39 +4801,13 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Kyrgyzstan%E2%80%93Uzbekistan_relations"
-        }
-      ],
-      "startDate": "1994-01-16",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Bishkek",
-        "coordinates": [
-          74.566666666,
-          42.866666666
-        ],
-        "countryCode": "KGZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "1994-01-18",
-      "engagements": [
-        "Met President Askar Akayev"
-      ],
-      "eventName": null,
-      "id": "islam-karimov--1994-01-18--KGZ",
-      "officialId": "islam-karimov",
-      "purpose": "Visit to Kyrgyzstan",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1994-01-18",
+      "startDate": "1994-01-16",
       "statusHint": null,
       "type": "official_visit"
     },
@@ -11998,8 +11946,10 @@
         "region": "Asia"
       },
       "endDate": "2018-10-20",
-      "engagements": [],
-      "eventName": null,
+      "engagements": [
+        "Met President Nursultan Nazarbayev"
+      ],
+      "eventName": "Kazakhstan-Russia-Uzbekistan Trilateral Meeting",
       "id": "shavkat-mirziyoyev--2018-10-20--KAZ",
       "officialId": "shavkat-mirziyoyev",
       "purpose": "Working Visit.",
@@ -12007,41 +11957,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Shavkat_Mirziyoyev"
-        }
-      ],
-      "startDate": "2018-10-20",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Astana",
-        "coordinates": [
-          71.433333333,
-          51.133333333
-        ],
-        "countryCode": "KAZ",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2018-10-24",
-      "engagements": [
-        "Met President Nursultan Nazarbayev"
-      ],
-      "eventName": "Kazakhstan-Russia-Uzbekistan Trilateral Meeting",
-      "id": "shavkat-mirziyoyev--2018-10-23--KAZ",
-      "officialId": "shavkat-mirziyoyev",
-      "purpose": "Attended Kazakhstan-Russia-Uzbekistan Trilateral Meeting",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-10-23",
+      "startDate": "2018-10-20",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

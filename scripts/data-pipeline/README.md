@@ -25,6 +25,7 @@ pnpm data:sync                          # daily refresh of the featured countrie
 pnpm data:export                        # rebuild public/data/index.json from the country files (offline)
 pnpm data:people                        # unpack the people store into public/data/people/ (offline)
 pnpm data:coverage                      # which leaders have years with few trips (offline)
+pnpm data:audit                         # duplicates, gaps and suspect records (offline)
 pnpm data:test                          # parser tests
 ```
 
@@ -47,6 +48,7 @@ concurrency group, so they never write at the same time.
 | Current cabinets (ministers, deputies) | CIA World Leaders (`page-data.json` behind each country page) | Public domain |
 | US cabinet (the CIA doesn't list the US) | Wikidata, offices listed in `config.ts` | CC0 |
 | Photos, parties, Wikidata ids | Wikidata / Wikimedia Commons | CC0 / per file |
+| Photos Wikidata lacks: the lead image of the person's article on 23 Wikipedias (free licences only), their Commons category, or their official parliamentary portrait | Wikipedia `pageimages`, Wikimedia Commons, [unitedstates/images](https://github.com/unitedstates/images) (US Congress), UK Parliament Members API | Per file (free) / public domain / CC BY 3.0 |
 | Short biographies | Wikipedia article intros | CC BY-SA |
 | Trips of well-known leaders and foreign ministers | Wikipedia trip-list pages in English, Spanish, French, Portuguese, German, Indonesian, Korean, Arabic and Persian ("List of … trips made by …", "Lista de viagens presidenciais de …", "이재명의 대통령 순방 목록"…) | CC BY-SA |
 | Every in-person speech at the UN General Assembly's general debate, 2008 on | Wikipedia's article for each session | CC BY-SA |

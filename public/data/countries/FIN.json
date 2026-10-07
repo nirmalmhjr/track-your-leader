@@ -29143,7 +29143,9 @@
         "region": "Europe"
       },
       "endDate": "2012-04-18",
-      "engagements": [],
+      "engagements": [
+        "Met Prime Minister Fredrik Reinfeldt"
+      ],
       "eventName": null,
       "id": "sauli-niinisto--2012-04-17--SWE",
       "officialId": "sauli-niinisto",
@@ -29152,41 +29154,15 @@
         {
           "label": "Wikipedia",
           "url": "https://sv.wikipedia.org/wiki/Lista_%C3%B6ver_statsbes%C3%B6k_av_Carl_XVI_Gustaf_av_Sverige"
-        }
-      ],
-      "startDate": "2012-04-17",
-      "statusHint": null,
-      "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Stockholm",
-        "coordinates": [
-          18.068611111,
-          59.329444444
-        ],
-        "countryCode": "SWE",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2012-04-20",
-      "engagements": [
-        "Met Prime Minister Fredrik Reinfeldt"
-      ],
-      "eventName": null,
-      "id": "sauli-niinisto--2012-04-20--SWE",
-      "officialId": "sauli-niinisto",
-      "purpose": "Visit to Sweden",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2012-04-20",
+      "startDate": "2012-04-17",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",
@@ -32027,40 +32003,12 @@
           54.687222222
         ],
         "countryCode": "LTU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-02-16",
-      "engagements": [
-        "Met President Dalia Grybauskaite"
-      ],
-      "eventName": null,
-      "id": "sauli-niinisto--2018-02-16--LTU",
-      "officialId": "sauli-niinisto",
-      "purpose": "Visit to Lithuania",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2018-02-16",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vilnius",
-        "coordinates": [
-          25.28,
-          54.687222222
-        ],
-        "countryCode": "LTU",
         "region": "Europe"
       },
       "endDate": "2018-02-18",
-      "engagements": [],
+      "engagements": [
+        "Met President Dalia Grybauskaite"
+      ],
       "eventName": null,
       "id": "sauli-niinisto--2018-02-18--LTU",
       "officialId": "sauli-niinisto",
@@ -32069,11 +32017,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Sauli_Niinist%C3%B6"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-02-18",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -38637,39 +38589,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2008-09-23",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2008-09-25",
-      "engagements": [],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "tarja-halonen--2008-09-25--USA",
-      "officialId": "tarja-halonen",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2008-09-25",
+      "startDate": "2008-09-23",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

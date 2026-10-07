@@ -16396,7 +16396,7 @@
       "eventName": null,
       "id": "dioncounda-traore--2012-05-23--FRA",
       "officialId": "dioncounda-traore",
-      "purpose": "Visit to France",
+      "purpose": "A stay abroad of 65 days (such as exile, medical treatment or a posting), not an official visit.",
       "sources": [
         {
           "label": "COLT dataset",
@@ -16405,7 +16405,7 @@
       ],
       "startDate": "2012-05-23",
       "statusHint": null,
-      "type": "other"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",
@@ -16670,36 +16670,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2013-09-24",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "ibrahim-boubacar-keita--2013-09-24--USA",
-      "officialId": "ibrahim-boubacar-keita",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2013-09-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -16709,7 +16679,9 @@
         "region": "Americas"
       },
       "endDate": "2013-09-27",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "ibrahim-boubacar-keita--2013-09-27--USA",
       "officialId": "ibrahim-boubacar-keita",
@@ -16718,6 +16690,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-09-27",
@@ -18108,39 +18084,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2015-09-28",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-10-01",
-      "engagements": [],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "ibrahim-boubacar-keita--2015-10-01--USA",
-      "officialId": "ibrahim-boubacar-keita",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2015-10-01",
+      "startDate": "2015-09-28",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -21381,33 +21333,6 @@
       "startDate": "2013-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Tehran",
-        "coordinates": [
-          51.389722222,
-          35.688888888
-        ],
-        "countryCode": "IRN",
-        "region": "Asia"
-      },
-      "endDate": "2012-08-31",
-      "engagements": [],
-      "eventName": "16th Summit of the Non-Aligned Movement",
-      "id": "tieman-hubert-coulibaly--2012-08-26--IRN",
-      "officialId": "tieman-hubert-coulibaly",
-      "purpose": "Attended the 16th Summit of the Non-Aligned Movement",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/16th_Summit_of_the_Non-Aligned_Movement"
-        }
-      ],
-      "startDate": "2012-08-26",
-      "statusHint": null,
-      "type": "summit"
     }
   ]
 }

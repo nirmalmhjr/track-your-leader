@@ -1,14 +1,29 @@
 import type { GeneratedOfficial } from "@/features/travel-explorer/data/generated-data.schema";
 import { ROLE_RANK } from "@/lib/travel/travel.constants";
 import type { CountryCode } from "@/types/geo.types";
-import type { SourceRef } from "@/types/travel.types";
+import type { IsoDate, SourceRef } from "@/types/travel.types";
 
 import { log } from "../lib/log";
-import { capitalize, cleanText, normalizeName, slugify, stripParenthetical } from "../lib/text";
+import {
+    capitalize,
+    cleanText,
+    isLatinName,
+    normalizeName,
+    slugify,
+    stripParenthetical,
+    toLatinName,
+} from "../lib/text";
 import type { WarehouseOfficial } from "../lib/warehouse";
+import { categoryPortrait } from "../sources/commons";
+import {
+    parliamentPortrait,
+    UK_PARLIAMENT_ID,
+    US_CONGRESS_ID,
+} from "../sources/parliament-portraits";
 import {
     claimsOf,
     commonsImageUrl,
+    fetchAllLabels,
     fetchEntities,
     PROPERTY,
     qualifier,
@@ -262,6 +277,107 @@ export const uniquePositions = <T extends PositionDraft>(positions: readonly T[]
     return [...byTerm.values()];
 };
 
+/** Languages whose labels are tried first for a name, after English. */
+const NAME_LANGUAGES = [
+    "en-gb",
+    "en-ca",
+    "en-us",
+    "fr",
+    "es",
+    "de",
+    "pt",
+    "it",
+    "nl",
+    "id",
+    "tr",
+    "pl",
+];
+
+/**
+ * The label to name someone by when Wikidata has no English one: Latin letters first (in any
+ * language, the common ones before the rest), then whatever there is.
+ *
+ * @param labels - Labels by language code.
+ * @returns The chosen label, or `null` when there are none.
+ */
+export const bestLabel = (labels: Readonly<Record<string, string>>): string | null => {
+    const rank = (language: string, label: string): number => {
+        const position = NAME_LANGUAGES.indexOf(language);
+        return (
+            (isLatinName(label) ? 0 : 100) + (position === -1 ? NAME_LANGUAGES.length : position)
+        );
+    };
+    const [best] = Object.entries(labels).sort(([a, x], [b, y]) => rank(a, x) - rank(b, y));
+    return best?.[1] ?? null;
+};
+
+/**
+ * An official's name for the app and the other names they go by: Wikidata's English label, else
+ * a Latin-script label from another language, else the name as found, transliterated where the
+ * script allows (the original kept among the aliases, so search still finds it).
+ */
+const namesOf = (
+    draft: OfficialDraft,
+    person: WikidataEntity | undefined,
+    otherLabels: ReadonlyMap<string, Record<string, string>>
+): { aliases: string[]; fullName: string } => {
+    const labels = draft.wikidataId ? otherLabels.get(draft.wikidataId) : undefined;
+    const { name: fullName, original } = toLatinName(
+        stripParenthetical(person?.label ?? (labels ? bestLabel(labels) : null) ?? draft.name)
+    );
+    const aliases = [
+        ...new Set([
+            draft.name,
+            ...draft.aliases,
+            ...(person?.aliases ?? []),
+            ...(original ? [original] : []),
+        ]),
+    ];
+    return { aliases, fullName };
+};
+
+/** Birth and death dates, by official id, to keep trips within a life (and adulthood). */
+const lifetimesOf = (
+    drafts: readonly OfficialDraft[],
+    ids: ReadonlyMap<OfficialDraft, string>,
+    people: ReadonlyMap<string, WikidataEntity>
+): Map<string, Lifetime> => {
+    const lifetimes = new Map<string, Lifetime>();
+    for (const draft of drafts) {
+        const person = draft.wikidataId ? people.get(draft.wikidataId) : undefined;
+        const id = ids.get(draft);
+        if (person && id) {
+            lifetimes.set(id, {
+                born: snakDate(claimsOf(person, PROPERTY.birth)[0]?.mainsnak),
+                died: snakDate(claimsOf(person, PROPERTY.death)[0]?.mainsnak),
+            });
+        }
+    }
+    return lifetimes;
+};
+
+/** When a person was born and died, as far as Wikidata knows. */
+export interface Lifetime {
+    born: IsoDate | null;
+    died: IsoDate | null;
+}
+
+/** Trips before this age aren't an official's own (a namesake's, or a mismatch). */
+const ADULT_AGE_YEARS = 15;
+
+/**
+ * Whether a trip falls within its traveller's life: not after their death, nor in childhood.
+ *
+ * @param startDate - When the trip began.
+ * @param lifetime - The traveller's birth and death, when known.
+ * @returns `false` for a trip that can't be theirs.
+ */
+export const isWithinLifetime = (startDate: IsoDate, lifetime: Lifetime | undefined): boolean => {
+    const { born, died } = lifetime ?? { born: null, died: null };
+    const adult = born ? `${Number(born.slice(0, 4)) + ADULT_AGE_YEARS}${born.slice(4)}` : null;
+    return !((died && startDate > died) || (adult && startDate < adult));
+};
+
 /** Current positions first (most senior first), then past ones from newest to oldest. */
 export const comparePositions = (a: PositionDraft, b: PositionDraft): number => {
     const aCurrent = a.endDate === null && !a.undated;
@@ -318,6 +434,45 @@ const leadImages = async (
     return found;
 };
 
+/**
+ * Photos for people with neither a Wikidata image nor a Wikipedia lead image: one from their
+ * Commons category whose file name names them, else their official parliamentary portrait.
+ *
+ * @param people - Wikidata items.
+ * @param leadImageIds - People who already have a lead image.
+ * @returns Photo address per person's item id.
+ */
+const otherPhotos = async (
+    people: ReadonlyMap<string, WikidataEntity>,
+    leadImageIds: ReadonlySet<string>
+): Promise<Map<string, string>> => {
+    const found = new Map<string, string>();
+    const missing = [...people.values()].filter(
+        (person) =>
+            !(
+                snakString(claimsOf(person, PROPERTY.image)[0]?.mainsnak) ||
+                leadImageIds.has(person.id)
+            )
+    );
+    for (const person of missing) {
+        const category = snakString(claimsOf(person, PROPERTY.commonsCategory)[0]?.mainsnak);
+        const file =
+            category && person.label
+                ? // biome-ignore lint/performance/noAwaitInLoops: Commons is asked one category at a time.
+                  await categoryPortrait(category, person.label).catch(() => null)
+                : null;
+        const portrait = parliamentPortrait({
+            ukParliament: snakString(claimsOf(person, UK_PARLIAMENT_ID)[0]?.mainsnak),
+            usCongress: snakString(claimsOf(person, US_CONGRESS_ID)[0]?.mainsnak),
+        });
+        const photo = file ? commonsImageUrl(file, PHOTO_WIDTH) : portrait;
+        if (photo) {
+            found.set(person.id, photo);
+        }
+    }
+    return found;
+};
+
 const officialRank = (official: GeneratedOfficial): number =>
     Math.min(...official.positions[0].categories.map((category) => ROLE_RANK[category]));
 
@@ -333,13 +488,18 @@ export const enrichOfficials = async (
     drafts: OfficialDraft[],
     previous: readonly IdRecord[],
     reserved: ReadonlySet<string> = new Set()
-): Promise<{ idOf: Map<OfficialDraft, string>; officials: WarehouseOfficial[] }> => {
+): Promise<{
+    idOf: Map<OfficialDraft, string>;
+    lifetimes: Map<string, Lifetime>;
+    officials: WarehouseOfficial[];
+}> => {
     const people = await fetchEntities(
         drafts.flatMap((draft) => draft.wikidataId ?? []),
         ["labels", "aliases", "descriptions", "claims", "sitelinks"],
         PHOTO_LANGUAGES.map((language) => `${language}wiki`)
     );
     const pageImages = await leadImages(people);
+    const morePhotos = await otherPhotos(people, new Set(pageImages.keys()));
     await fillStartDates(drafts, people);
 
     const partyIds = [...people.values()].flatMap((person) => partyIdOf(person) ?? []);
@@ -348,6 +508,11 @@ export const enrichOfficials = async (
         [...people.values()].flatMap((person) => person.enwikiTitle ?? [])
     );
     const ids = assignIds(drafts, previous, reserved);
+    // People Wikidata names in no English label: a name in Latin letters from any language.
+    const unlabelled = [...people.values()]
+        .filter((person) => !person.label)
+        .map((person) => person.id);
+    const otherLabels = await fetchAllLabels(unlabelled);
 
     const officials = drafts.map((draft): WarehouseOfficial => {
         const id = ids.get(draft) ?? slugify(draft.name);
@@ -362,16 +527,16 @@ export const enrichOfficials = async (
             sources.push({ label: "Wikipedia", url: wikipediaUrl(person.enwikiTitle) });
         }
 
-        const fullName = stripParenthetical(person?.label ?? draft.name);
+        const { aliases, fullName } = namesOf(draft, person, otherLabels);
         return {
-            aliases: [...new Set([draft.name, ...draft.aliases, ...(person?.aliases ?? [])])]
-                .filter((alias) => alias !== fullName)
-                .sort(),
+            aliases: aliases.filter((alias) => alias !== fullName).sort(),
             countryCode: draft.countryCode,
             fullName,
             id,
             party: partyId ? (parties.get(partyId)?.label ?? null) : null,
-            photoUrl: photo ? commonsImageUrl(photo, PHOTO_WIDTH) : null,
+            photoUrl: photo
+                ? commonsImageUrl(photo, PHOTO_WIDTH)
+                : ((person && morePhotos.get(person.id)) ?? null),
             positions: uniquePositions(draft.positions)
                 .sort(comparePositions)
                 .map((position, index) => ({
@@ -394,5 +559,5 @@ export const enrichOfficials = async (
             a.fullName.localeCompare(b.fullName) ||
             a.id.localeCompare(b.id)
     );
-    return { idOf: ids, officials };
+    return { idOf: ids, lifetimes: lifetimesOf(drafts, ids, people), officials };
 };

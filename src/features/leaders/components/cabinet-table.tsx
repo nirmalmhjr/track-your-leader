@@ -77,15 +77,6 @@ function CabinetRow({ entry, partyColors }: { entry: LeaderEntry; partyColors: P
 
     return (
         <TableRow className="max-sm:grid max-sm:grid-cols-[minmax(0,1fr)_auto] max-sm:gap-x-3 max-sm:gap-y-1.5 max-sm:p-3">
-            <TableCell className={cn(CELL, "whitespace-normal sm:w-[38%]")}>
-                <span className="font-medium">{getPortfolioName(position.title)}</span>
-                {others.length > 0 ? (
-                    <span className="block text-muted-foreground text-xs">
-                        {tCard("also")}{" "}
-                        {others.map((other) => getPortfolioName(other.title)).join(" · ")}
-                    </span>
-                ) : null}
-            </TableCell>
             <TableCell className={cn(CELL, "max-sm:col-start-1 max-sm:whitespace-normal")}>
                 <div className="flex min-w-0 items-center gap-2">
                     <OfficialAvatar official={official} size="sm" />
@@ -107,6 +98,16 @@ function CabinetRow({ entry, partyColors }: { entry: LeaderEntry; partyColors: P
                     </div>
                 ) : null}
             </TableCell>
+            <TableCell className={cn(CELL, "whitespace-normal sm:w-[38%]")}>
+                <span className="font-medium">{getPortfolioName(position.title)}</span>
+                {others.length > 0 ? (
+                    <span className="block text-muted-foreground text-xs">
+                        {tCard("also")}{" "}
+                        {others.map((other) => getPortfolioName(other.title)).join(" · ")}
+                    </span>
+                ) : null}
+            </TableCell>
+
             <TableCell className={cn(CELL, "max-sm:hidden")}>
                 {official.party ? (
                     <PartyChip colors={partyColors} party={official.party} />
@@ -154,11 +155,12 @@ export function CabinetTable({ entries, partyColors }: CabinetTableProps) {
                     <TableHeader className="bg-muted/50 max-sm:sr-only">
                         <TableRow className="hover:bg-transparent">
                             <TableHead className={headClass} scope="col">
-                                {tColumns("portfolio")}
-                            </TableHead>
-                            <TableHead className={headClass} scope="col">
                                 {tColumns("minister")}
                             </TableHead>
+                            <TableHead className={headClass} scope="col">
+                                {tColumns("portfolio")}
+                            </TableHead>
+
                             <TableHead className={headClass} scope="col">
                                 {tColumns("party")}
                             </TableHead>

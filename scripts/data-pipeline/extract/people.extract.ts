@@ -4,11 +4,12 @@ import type { IsoDate, RoleCategory } from "@/types/travel.types";
 import { chunk, groupBy } from "../lib/collections";
 import { addDaysIso, isoFromParts, isValidDay } from "../lib/dates";
 import { log } from "../lib/log";
-import { capitalize, stripParenthetical } from "../lib/text";
+import { capitalize, stripParenthetical, toLatinName } from "../lib/text";
 import { type QleverRow, runQlever } from "../sources/qlever";
 import { commonsImageUrl, wikidataUrl } from "../sources/wikidata";
 import type { CountryContext, OfficialDraft, PositionDraft } from "../types";
 import { leaderCategoriesOf } from "./leaders.extract";
+import { addMissingPhotos } from "./people.photos";
 import { countryCodeOfName } from "./places.resolve";
 import { classifyTitle, type RoleInfo } from "./roles";
 
@@ -353,6 +354,30 @@ export const isMonarchOf = (title: string, code: CountryCode): boolean => {
     );
 };
 
+/** "Prime Minister of the Faroe Islands": a government head's title naming where they govern. */
+const GOVERNMENT_OF =
+    /^(?:prime minister|premier|chief minister|first minister|chairman of the council of ministers)\s+of\s+(.+)$/i;
+
+/**
+ * A head of government of somewhere other than the country (the Faroe Islands for Denmark,
+ * Tatarstan for Russia, Iraqi Kurdistan for Iraq) is a regional leader there.
+ *
+ * @param category - The category the title or class gives.
+ * @param title - Office title.
+ * @param code - Country whose officials are being collected.
+ * @returns The category, or `regional_leader` for a region's head of government.
+ */
+export const regionalOr = (
+    category: RoleCategory | null,
+    title: string,
+    code: CountryCode
+): RoleCategory | null => {
+    const place = title.match(GOVERNMENT_OF)?.[1];
+    return category === "head_of_government" && place && countryCodeOfName(place) !== code
+        ? "regional_leader"
+        : category;
+};
+
 /** "… to Nepal", "… in the United States": the country an envoy is posted to. */
 const ENVOY_HOST = /\b(?:to|in)\s+(.+)$/i;
 /** "Ambassador of Israel to …": the state that sends the envoy. */
@@ -434,7 +459,11 @@ export const classifyOffice = (
     const titleIsSpecific = titleCategory !== "senior_official";
     const kind = ROOT_KINDS.find((candidate) => office.kinds.has(candidate));
     const categoryFromClass = kind ? ROOT_ROLE[kind] : null;
-    const category = titleIsSpecific ? titleCategory : categoryFromClass;
+    const category = regionalOr(
+        titleIsSpecific ? titleCategory : categoryFromClass,
+        title,
+        context.code
+    );
     if (!category) {
         return null;
     }
@@ -455,10 +484,12 @@ export const classifyOffice = (
 
 // --- People ---------------------------------------------------------------------------------
 
-interface PersonInfo {
+export interface PersonInfo {
     /** Countries of citizenship (`P27`). */
     citizenships: Set<string>;
     name: string | null;
+    /** The name as written in its own script, when `name` transliterates it. */
+    originalName: string | null;
     party: string | null;
     photoUrl: string | null;
 }
@@ -491,6 +522,7 @@ const fetchPeople = async (ids: readonly string[]): Promise<Map<string, PersonIn
             const person = people.get(row.person) ?? {
                 citizenships: new Set<string>(),
                 name: null,
+                originalName: null,
                 party: null,
                 photoUrl: null,
             };
@@ -534,7 +566,9 @@ const fetchPeople = async (ids: readonly string[]): Promise<Map<string, PersonIn
                         preference(a.language) - preference(b.language)
                 );
             if (person && best?.label) {
-                person.name = best.label;
+                const { name, original } = toLatinName(best.label);
+                person.name = name;
+                person.originalName = original;
             }
         }
     }
@@ -620,6 +654,34 @@ const withoutForeignEnvoys = (
     return kept;
 };
 
+/**
+ * A person's draft, filed under the country where they held the most offices.
+ *
+ * @returns The draft, or `null` for someone with no name or no office left.
+ */
+const personDraft = (
+    personId: string,
+    person: PersonInfo,
+    byCountry: ReadonlyMap<CountryCode, PositionDraft[]>
+): PersonDraft | null => {
+    const [first] = [...byCountry].sort(
+        (a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])
+    );
+    if (!(person.name && first)) {
+        return null;
+    }
+    return {
+        aliases: person.originalName ? [person.originalName] : [],
+        countryCode: first[0],
+        name: stripParenthetical(person.name),
+        party: person.party,
+        photoUrl: person.photoUrl,
+        positions: dedupePositions([...byCountry.values()].flat()),
+        sources: [{ label: "Wikidata", url: wikidataUrl(personId) }],
+        wikidataId: personId,
+    };
+};
+
 /** A person with a role in the period, with what QLever said about them. */
 export interface PersonDraft extends OfficialDraft {
     party: string | null;
@@ -676,29 +738,16 @@ export const extractPeople = async ({
 
     log.info(`Names, photos and parties of ${positionsByPerson.size} people`);
     const people = await fetchPeople([...positionsByPerson.keys()]);
+    await addMissingPhotos(people);
     const drafts = new Map<string, PersonDraft>();
     for (const [personId, allByCountry] of positionsByPerson) {
         const person = people.get(personId);
-        if (!person?.name) {
-            continue;
+        const draft = person
+            ? personDraft(personId, person, withoutForeignEnvoys(allByCountry, person, contexts))
+            : null;
+        if (draft) {
+            drafts.set(personId, draft);
         }
-        const byCountry = withoutForeignEnvoys(allByCountry, person, contexts);
-        if (byCountry.size === 0) {
-            continue;
-        }
-        const [countryCode] = [...byCountry].sort(
-            (a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])
-        )[0];
-        drafts.set(personId, {
-            aliases: [],
-            countryCode,
-            name: stripParenthetical(person.name),
-            party: person.party,
-            photoUrl: person.photoUrl,
-            positions: dedupePositions([...byCountry.values()].flat()),
-            sources: [{ label: "Wikidata", url: wikidataUrl(personId) }],
-            wikidataId: personId,
-        });
     }
     const byCountry = groupBy([...drafts.values()], (draft) => draft.countryCode);
     log.info(`${drafts.size} people in ${byCountry.size} countries`);

@@ -5679,7 +5679,10 @@
         "region": "Europe"
       },
       "endDate": "2019-10-23",
-      "engagements": [],
+      "engagements": [
+        "Met President Vladimir Putin",
+        "Gave a public address"
+      ],
       "eventName": "Meeting with Prime Minister of Ethiopia Abiy Ahmed",
       "id": "abiy-ahmed--2019-10-23--RUS",
       "officialId": "abiy-ahmed",
@@ -5688,42 +5691,15 @@
         {
           "label": "Kremlin (CC BY 4.0)",
           "url": "http://en.kremlin.ru/events/president/news/61883"
-        }
-      ],
-      "startDate": "2019-10-23",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2019-10-27",
-      "engagements": [
-        "Met President Vladimir Putin",
-        "Gave a public address"
-      ],
-      "eventName": "Russia-Africa Summit",
-      "id": "abiy-ahmed--2019-10-26--RUS",
-      "officialId": "abiy-ahmed",
-      "purpose": "Attended Russia-Africa Summit",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2019-10-26",
+      "startDate": "2019-10-23",
       "statusHint": null,
-      "type": "summit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

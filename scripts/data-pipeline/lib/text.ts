@@ -1,3 +1,5 @@
+import anyAscii from "any-ascii";
+
 const DIACRITICS = /[̀-ͯ]/g;
 /** Anything but letters and digits, in any script. */
 const NON_LETTER_OR_DIGIT = /[^\p{L}\p{N}]+/gu;
@@ -114,3 +116,32 @@ export const splitSentences = (value: string): string[] =>
  */
 export const capitalize = (value: string): string =>
     value ? `${value[0].toUpperCase()}${value.slice(1)}` : value;
+
+/** Names written in Latin letters only (accents and the ʻokina allowed). */
+const LATIN_NAME = /^[\p{Script=Latin}\p{M}\p{N}\s.,'’ʻ()&/-]+$/u;
+/**
+ * Scripts that transliterate reliably letter by letter. Arabic and Hebrew omit vowels, Thai and
+ * Chinese don't separate words, and Devanagari's inherent vowels get lost, so those stay as written.
+ */
+const RELIABLE_SCRIPT =
+    /^[\p{Script=Cyrillic}\p{Script=Greek}\p{Script=Georgian}\p{Script=Armenian}\p{Script=Hangul}\p{Script=Katakana}\p{Script=Hiragana}\p{M}\s.,'’()-]+$/u;
+
+/**
+ * Whether a name is written in Latin letters.
+ *
+ * @param name - Name in any script.
+ * @returns `true` for "Bilen Saliu", `false` for "Билен Салиу".
+ */
+export const isLatinName = (name: string): boolean => LATIN_NAME.test(name);
+
+/**
+ * A name in Latin letters for the English app: transliterated from scripts that convert reliably
+ * ("Билен Салиу" → "Bilen Saliu"), otherwise as written.
+ *
+ * @param name - Name in any script.
+ * @returns The name to show, and the original when it was transliterated.
+ */
+export const toLatinName = (name: string): { name: string; original: string | null } =>
+    isLatinName(name) || !RELIABLE_SCRIPT.test(name)
+        ? { name, original: null }
+        : { name: anyAscii(name), original: name };

@@ -62,6 +62,8 @@ export const TRAVEL_TYPES = [
     "bilateral_meeting",
     "multilateral_meeting",
     "other",
+    // Last, so the numbers stored for the other types in index.json stay the same.
+    "extended_stay",
 ] as const satisfies readonly TravelType[];
 
 export const TRAVEL_STATUSES = [

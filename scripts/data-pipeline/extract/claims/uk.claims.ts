@@ -62,6 +62,9 @@ const splitOutsideParentheses = (text: string): string[] => {
     return [...parts, current];
 };
 
+/** "Economic Secretary: Ian Pearson": an office, a colon, then the name. */
+const TITLE_COLON = /^([^:]{3,120}):\s*/;
+
 /**
  * Splits a minister cell such as "Secretary of State for Business, Rt Hon Vincent Cable MP"
  * into the person's name and, when given, their office.
@@ -70,7 +73,8 @@ const splitOutsideParentheses = (text: string): string[] => {
  * @returns Name (honorifics removed) and title.
  */
 export const parseMinisterCell = (cell: string): { name: string; title: string | null } => {
-    const parts = splitOutsideParentheses(cell)
+    // "Secretary of State: Lord Mandelson" names the office first, like "…, Rt Hon Vincent Cable".
+    const parts = splitOutsideParentheses(cell.replace(TITLE_COLON, "$1, "))
         .map((part) => part.trim())
         .filter(Boolean);
     const titleParts = parts.filter((part) => ROLE_WORDS.test(part));

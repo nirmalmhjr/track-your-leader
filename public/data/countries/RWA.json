@@ -4956,8 +4956,10 @@
         "region": "Americas"
       },
       "endDate": "1995-10-19",
-      "engagements": [],
-      "eventName": null,
+      "engagements": [
+        "Gave a public address"
+      ],
+      "eventName": "UN 50th Anniverary Commemoration",
       "id": "pasteur-bizimungu--1995-10-19--USA",
       "officialId": "pasteur-bizimungu",
       "purpose": "Attended Africare dinner with President Clinton.",
@@ -4969,39 +4971,13 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
-        }
-      ],
-      "startDate": "1995-10-19",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-10-26",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "UN 50th Anniverary Commemoration",
-      "id": "pasteur-bizimungu--1995-10-22--USA",
-      "officialId": "pasteur-bizimungu",
-      "purpose": "Attended UN 50th Anniverary Commemoration",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-10-22",
+      "startDate": "1995-10-19",
       "statusHint": null,
       "type": "multilateral_meeting"
     },

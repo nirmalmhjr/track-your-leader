@@ -1065,10 +1065,12 @@
       "wikidataId": "Q134315148"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Colin Gosine"
+      ],
       "countryCode": "TTO",
-      "fullName": "Colin Gosine",
-      "id": "colin-gosine",
+      "fullName": "Colin Neil Gosine",
+      "id": "colin-neil-gosine",
       "party": null,
       "photoUrl": null,
       "positions": [
@@ -1077,21 +1079,47 @@
             "minister"
           ],
           "endDate": null,
-          "id": "colin-gosine-p1",
+          "id": "colin-neil-gosine-p1",
           "ministry": "Ministry of Trade and Investment",
           "portfolio": "trade",
           "startDate": null,
           "title": "Minister of Trade and Investment"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "colin-neil-gosine-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2025-05-03",
+          "title": "Member of the House of Representatives of Trinidad and Tobago"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": "2024-06-25",
+          "id": "colin-neil-gosine-p3",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2024-01-23",
+          "title": "Member of the Senate of Trinidad and Tobago"
         }
       ],
       "sources": [
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/trinidad-and-tobago/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Colin_Neil_Gosine"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Colin Neil Gosine is a Trinidad and Tobago politician from the United National Congress (UNC). He has been MP for Chaguanas West in the House of Representatives since 2025.",
+      "wikidataId": "Q134328771"
     },
     {
       "aliases": [],
@@ -1337,7 +1365,7 @@
       "countryCode": "TTO",
       "fullName": "Dominic Smith",
       "id": "dominic-smith-tto",
-      "party": null,
+      "party": "United National Congress",
       "photoUrl": null,
       "positions": [
         {
@@ -1350,46 +1378,16 @@
           "portfolio": null,
           "startDate": null,
           "title": "Minister of Public Administration and Artificial Intelligence"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": null,
-          "id": "dominic-smith-tto-p2",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2025-05-03",
-          "title": "Member of the Senate of Trinidad and Tobago"
-        },
-        {
-          "categories": [
-            "legislator"
-          ],
-          "endDate": "2025-01-21",
-          "id": "dominic-smith-tto-p3",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "2022-11-29",
-          "title": "Member of the Senate of Trinidad and Tobago"
         }
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q134403782"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/trinidad-and-tobago/"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Dominic_Smith_(politician)"
         }
       ],
-      "summary": "Dominic Smith is a Trinidad and Tobago politician representing the United National Congress (UNC).",
-      "wikidataId": "Q134403782"
+      "summary": "Politician from Trinidad and Tobago.",
+      "wikidataId": "Q115797998"
     },
     {
       "aliases": [],
@@ -3194,7 +3192,7 @@
       "fullName": "Roodal Moonilal",
       "id": "roodal-moonilal",
       "party": "United National Congress",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr-roodal-moonilal.jpg?width=160",
       "positions": [
         {
           "categories": [

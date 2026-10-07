@@ -2052,7 +2052,7 @@
       "fullName": "Kouaro Yves Chabi",
       "id": "kouaro-yves-chabi",
       "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Image_manquante.png?width=160",
+      "photoUrl": null,
       "positions": [
         {
           "categories": [
@@ -3797,7 +3797,7 @@
           "url": "https://en.wikipedia.org/wiki/Patrice_Talon"
         }
       ],
-      "summary": "Patrice Guillaume Athanase Talon (born 1 May 1958) is a Beninese politician and businessman who has been the first president of the Senate since 2026. He previously served as the eighth president of Benin from 2016 to 2026.",
+      "summary": "Patrice Guillaume Athanase Talon (born 1 May 1958) is a Beninese politician and businessman who serves as the first president of the Senate since 2026. He previously served as the eighth president of Benin from 2016 to 2026.",
       "wikidataId": "Q16669148"
     },
     {
@@ -9267,34 +9267,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2016-09-20",
-      "engagements": [],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "patrice-talon--2016-09-19--USA",
-      "officialId": "patrice-talon",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2016-09-19",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -9313,6 +9285,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2016-09-22",
@@ -13247,34 +13223,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2008-09-21",
-      "engagements": [],
-      "eventName": "UN Millennium Development Goals Meeting",
-      "id": "thomas-boni-yayi--2008-09-20--USA",
-      "officialId": "thomas-boni-yayi",
-      "purpose": "Attended UN Millennium Development Goals Meeting",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-09-20",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -13293,6 +13241,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2008-09-23",

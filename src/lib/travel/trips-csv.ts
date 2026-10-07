@@ -45,6 +45,7 @@ const TYPE_LABELS: Readonly<Record<TravelType, string>> = {
     bilateral_meeting: "Bilateral meeting",
     conference: "Conference",
     diplomatic_visit: "Diplomatic visit",
+    extended_stay: "Extended stay",
     multilateral_meeting: "Multilateral meeting",
     official_visit: "Official visit",
     other: "Other",

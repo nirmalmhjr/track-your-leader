@@ -1442,10 +1442,6 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q52990196"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/italy/"
         },
@@ -3700,10 +3696,6 @@
         }
       ],
       "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q3059585"
-        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/italy/"
@@ -60100,34 +60092,6 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2023-01-02",
-      "engagements": [],
-      "eventName": null,
-      "id": "giorgia-meloni--2023-01-02--VAT",
-      "officialId": "giorgia-meloni",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-01-02",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vatican City",
-        "coordinates": [
-          12.453,
-          41.904
-        ],
-        "countryCode": "VAT",
-        "precision": "country",
-        "region": "Europe"
-      },
       "endDate": "2023-01-05",
       "engagements": [
         "Peter's Square."
@@ -90507,39 +90471,11 @@
         "precision": "country",
         "region": "Europe"
       },
-      "endDate": "2009-05-14",
+      "endDate": "2009-05-16",
       "engagements": [
         "Met President Dmitry Medvedev",
         "Signed agreements"
       ],
-      "eventName": null,
-      "id": "silvio-berlusconi--2009-05-14--RUS",
-      "officialId": "silvio-berlusconi",
-      "purpose": "Visit to Russia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2009-05-14",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2009-05-16",
-      "engagements": [],
       "eventName": null,
       "id": "silvio-berlusconi--2009-05-16--RUS",
       "officialId": "silvio-berlusconi",
@@ -90548,6 +90484,10 @@
         {
           "label": "Kremlin (CC BY 4.0)",
           "url": "http://en.kremlin.ru/events/president/news/4095"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2009-05-16",

@@ -56,7 +56,9 @@ export type TravelType =
     | "conference"
     | "bilateral_meeting"
     | "multilateral_meeting"
-    | "other";
+    | "other"
+    /** Months abroad (exile, medical treatment, a posting) rather than a visit. */
+    | "extended_stay";
 
 export type TravelStatus = "completed" | "upcoming" | "planned" | "cancelled";
 

@@ -3093,10 +3093,6 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4990177"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sweden/"
         },
@@ -4312,10 +4308,6 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6193547"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sweden/"
         },
@@ -5519,10 +5511,6 @@
         }
       ],
       "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q5737622"
-        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/sweden/"
@@ -8384,35 +8372,6 @@
     {
       "aliases": [],
       "countryCode": "SWE",
-      "fullName": "Q121538855",
-      "id": "q121538855",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1958-10-11",
-          "id": "q121538855-p1",
-          "ministry": null,
-          "portfolio": "finance",
-          "startDate": "1958-04-24",
-          "title": "Sweden's Minister for Finance"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q121538855"
-        }
-      ],
-      "summary": "Politician, Ottoman Empire.",
-      "wikidataId": "Q121538855"
-    },
-    {
-      "aliases": [],
-      "countryCode": "SWE",
       "fullName": "Roine Carlsson",
       "id": "roine-carlsson",
       "party": "Swedish Social Democratic Party",
@@ -9533,6 +9492,37 @@
       ],
       "summary": "Ylva Julia Margareta Johansson (born 13 February 1964) is a Swedish politician who served as European Commissioner for Home Affairs and Sweden's European Commissioner in the von der Leyen Commission from 1 December 2019 to 30 November 2024. Johansson was previously minister for schools from 1994 to 1998, minister for health and elderly care from 2004 to 2006 and minister for employment from 2014 to 2019 in the Government of Sweden.",
       "wikidataId": "Q3369258"
+    },
+    {
+      "aliases": [
+        "Q121538855"
+      ],
+      "countryCode": "SWE",
+      "fullName": "مفتاح عريقيب",
+      "id": "q121538855",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1958-10-11",
+          "id": "q121538855-p1",
+          "ministry": null,
+          "portfolio": "finance",
+          "startDate": "1958-04-24",
+          "title": "Sweden's Minister for Finance"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q121538855"
+        }
+      ],
+      "summary": "Politician, Ottoman Empire.",
+      "wikidataId": "Q121538855"
     },
     {
       "aliases": [
@@ -13656,7 +13646,7 @@
       "fullName": "Nicola Clase",
       "id": "nicola-clase",
       "party": "Moderate Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles_Emmerson%2C_Roger_Harrabin%2C_Robert_Blaauw_and_HE_Nicola_Clase_(7596345344).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -24470,7 +24460,7 @@
       "fullName": "Ivar Nordberg",
       "id": "ivar-nordberg",
       "party": "Swedish Social Democratic Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivar_Nordberg_SPA.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -58160,36 +58150,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2021-09-21",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "stefan-lofven--2021-09-20--USA",
-      "officialId": "stefan-lofven",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2021-09-20",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -58199,7 +58159,9 @@
         "region": "Americas"
       },
       "endDate": "2021-09-24",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "stefan-lofven--2021-09-24--USA",
       "officialId": "stefan-lofven",
@@ -58208,6 +58170,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-sixth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2021-09-24",

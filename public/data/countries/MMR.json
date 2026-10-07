@@ -143,17 +143,6 @@
           "id": "min-aung-hlaing-p2",
           "ministry": null,
           "portfolio": null,
-          "startDate": "2021-02-01",
-          "title": "Head of government"
-        },
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": null,
-          "id": "min-aung-hlaing-p3",
-          "ministry": null,
-          "portfolio": null,
           "startDate": "2021-08-01",
           "title": "Prime Minister of Myanmar"
         },
@@ -162,11 +151,22 @@
             "military_leader"
           ],
           "endDate": null,
-          "id": "min-aung-hlaing-p4",
+          "id": "min-aung-hlaing-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2011-03-30",
           "title": "Commander-in-Chief of Defence Services"
+        },
+        {
+          "categories": [
+            "head_of_government"
+          ],
+          "endDate": "2021-02-02",
+          "id": "min-aung-hlaing-p4",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2021-02-01",
+          "title": "Head of government"
         }
       ],
       "sources": [
@@ -649,7 +649,7 @@
           "categories": [
             "head_of_government"
           ],
-          "endDate": null,
+          "endDate": "2021-08-01",
           "id": "mahn-win-khaing-than-p1",
           "ministry": null,
           "portfolio": null,
@@ -2774,35 +2774,6 @@
       "wikidataId": "Q113426931"
     },
     {
-      "aliases": [],
-      "countryCode": "MMR",
-      "fullName": "Q4468221",
-      "id": "q4468221",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1979-01-01",
-          "id": "q4468221-p1",
-          "ministry": "Ministry of Foreign Affairs (Myanmar)",
-          "portfolio": "foreign_affairs",
-          "startDate": "1977-01-01",
-          "title": "Minister of Foreign Affairs (Myanmar)"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q4468221"
-        }
-      ],
-      "summary": "Politician.",
-      "wikidataId": "Q4468221"
-    },
-    {
       "aliases": [
         "Dr. Sa Sa",
         "Dr. Sasa",
@@ -3648,6 +3619,38 @@
       ],
       "summary": "Tun Tun Naung is a Burmese military officer and former Minister for Home Affairs of Myanmar. He was the former Union Minister of Border Affairs Tun Tun Naung is a career soldier, and currently holds the rank of Lieutenant General.",
       "wikidataId": "Q111353513"
+    },
+    {
+      "aliases": [
+        "Q4468221",
+        "У Мьин Маун"
+      ],
+      "countryCode": "MMR",
+      "fullName": "U M'in Maun",
+      "id": "q4468221",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1979-01-01",
+          "id": "q4468221-p1",
+          "ministry": "Ministry of Foreign Affairs (Myanmar)",
+          "portfolio": "foreign_affairs",
+          "startDate": "1977-01-01",
+          "title": "Minister of Foreign Affairs (Myanmar)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4468221"
+        }
+      ],
+      "summary": "Politician.",
+      "wikidataId": "Q4468221"
     },
     {
       "aliases": [],

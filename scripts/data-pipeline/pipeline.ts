@@ -10,6 +10,7 @@ import type { IsoDate } from "@/types/travel.types";
 
 import { countrySourceFor, PIPELINE_CONFIG } from "./config";
 import { writeAppIndex } from "./extract/app-index";
+import { LONGEST_VISIT_DAYS, writeAudit } from "./extract/audit";
 import { extractCabinet } from "./extract/cabinets.extract";
 import { extractIpeaClaims } from "./extract/claims/au-ipea.claims";
 import { extractCanadaClaims } from "./extract/claims/canada.claims";
@@ -38,7 +39,13 @@ import {
     fetchOfficesByLabel,
 } from "./extract/leaders.extract";
 import { withoutExcludedPositions } from "./extract/leaders.overrides";
-import { assembleDrafts, enrichOfficials } from "./extract/officials.extract";
+import { closeSupersededLeaderTerms } from "./extract/leaders.terms";
+import {
+    assembleDrafts,
+    enrichOfficials,
+    isWithinLifetime,
+    type Lifetime,
+} from "./extract/officials.extract";
 import {
     buildPeopleRows,
     idRecordsOf,
@@ -126,6 +133,33 @@ const hasValidDates = (claim: TripClaim): boolean =>
  */
 export const isAbroad = (claim: TripClaim): boolean =>
     claim.destination.countryCode !== claim.traveller.countryCode;
+const MS_PER_DAY = 86_400_000;
+/** The description the merger gives a trip its sources don't describe. */
+const GENERIC_PURPOSE = /^Visit to [^.]+$/;
+
+/**
+ * Marks months abroad (exile, medical treatment, a posting) as an extended stay, so they show as
+ * such rather than as a visit.
+ *
+ * @param trip - Merged trip.
+ * @returns The trip, typed `extended_stay` when longer than `LONGEST_VISIT_DAYS`.
+ */
+export const markExtendedStay = (trip: GeneratedTrip): GeneratedTrip => {
+    const days = Math.round((Date.parse(trip.endDate) - Date.parse(trip.startDate)) / MS_PER_DAY);
+    if (trip.datePrecision !== "day" || days <= LONGEST_VISIT_DAYS) {
+        return trip;
+    }
+    return {
+        ...trip,
+        // The merger's stand-in "Visit to X" gives way; a source's own description stays.
+        purpose:
+            trip.purpose && !GENERIC_PURPOSE.test(trip.purpose)
+                ? trip.purpose
+                : `A stay abroad of ${days} days (such as exile, medical treatment or a posting), not an official visit.`,
+        type: "extended_stay",
+    };
+};
+
 const stateFile = (name: string): string => path.join(PIPELINE_CONFIG.stateDir, name);
 
 // --- Officials ------------------------------------------------------------------------------
@@ -351,7 +385,12 @@ const tallyMatches = (report: PipelineReport, matches: Matches): void => {
 const buildTrips = (
     claims: readonly TripClaim[],
     matches: Matches,
-    idOf: ReadonlyMap<OfficialDraft, string>
+    idOf: ReadonlyMap<OfficialDraft, string>,
+    {
+        lifetimes,
+        report,
+        today,
+    }: { lifetimes: ReadonlyMap<string, Lifetime>; report: PipelineReport; today: IsoDate }
 ): Map<CountryCode, GeneratedTrip[]> => {
     const tripsByCountry = new Map<CountryCode, GeneratedTrip[]>();
     const matched = claims.filter((claim) => matches.draftOf.has(claim));
@@ -363,7 +402,20 @@ const buildTrips = (
         if (!id) {
             continue;
         }
-        const trips = generatedTripsSchema.parse(mergeClaims(list, id));
+        // A trip after the traveller's death, or in their childhood, was matched to the wrong person.
+        const lived = list.filter((claim) => isWithinLifetime(claim.startDate, lifetimes.get(id)));
+        for (const claim of list.filter((candidate) => !lived.includes(candidate))) {
+            report.tripsOutsideLifetime.push(`${draft.name}: ${claim.startDate} (${claim.source})`);
+        }
+        // A trip that hasn't begun is planned, whatever its source said; months abroad are a stay.
+        const trips = generatedTripsSchema
+            .parse(mergeClaims(lived, id))
+            .map((trip) =>
+                trip.startDate > today && trip.statusHint === null
+                    ? { ...trip, statusHint: "planned" as const }
+                    : trip
+            )
+            .map(markExtendedStay);
         const country = tripsByCountry.get(draft.countryCode);
         if (country) {
             country.push(...trips);
@@ -512,6 +564,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
         droppedPhotos: [],
         sources: {},
         tripPages: [],
+        tripsOutsideLifetime: [],
         unmatchedOfficials: [],
     };
 
@@ -576,9 +629,21 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
         new Map([...storedPeople].filter(([code]) => !selected.has(code)))
     ).map((record) => record.id);
 
+    // Leader terms left open after someone else took over are closed at the successor's start.
+    const leaderDrafts = [...officialDrafts, ...matches.newDrafts, ...promoted];
+    const closedTerms = [...groupBy(leaderDrafts, (draft) => draft.countryCode).values()].reduce(
+        (total, group) => total + closeSupersededLeaderTerms(group),
+        0
+    );
+    log.info(`${closedTerms} leader terms closed at their successor's start`);
+
     log.step("Officials: photos, parties, biographies");
-    const { idOf, officials: enriched } = await enrichOfficials(
-        [...officialDrafts, ...matches.newDrafts, ...promoted],
+    const {
+        idOf,
+        lifetimes,
+        officials: enriched,
+    } = await enrichOfficials(
+        leaderDrafts,
         [...previous, ...previousPeople],
         new Set([...reserved, ...reservedPeople])
     );
@@ -618,7 +683,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     );
 
     log.step("Merging trips");
-    const tripsByCountry = buildTrips(claims, matches, idOf);
+    const tripsByCountry = buildTrips(claims, matches, idOf, { lifetimes, report, today });
     log.info(`${countTrips(tripsByCountry)} trips for ${officials.length} officials`);
 
     log.step("Checks");
@@ -661,6 +726,14 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
             `${period}: ${thin} of ${leaderYears} leader-years have ${THIN_YEAR_MAX_TRIPS} trips or fewer`
         );
     }
+
+    log.step("Audit (data/warehouse/audit.json)");
+    const audit = await writeAudit(today);
+    log.info(
+        Object.entries(audit)
+            .map(([name, count]) => `${name} ${count}`)
+            .join(", ")
+    );
 };
 
 /**

@@ -299,7 +299,8 @@ const queryPages = async (
     titles: readonly string[],
     batchSize: number,
     params: Readonly<Record<string, string>>,
-    language = "en"
+    language = "en",
+    ttlHours?: number
 ): Promise<Map<string, PageInfo>> => {
     const pages = new Map<string, PageInfo>();
     const batches = chunk([...new Set(titles)].sort(), batchSize).flatMap(splitLongBatch);
@@ -313,7 +314,8 @@ const queryPages = async (
                     redirects: "1",
                     titles: batch.join("|"),
                     ...params,
-                })
+                }),
+                { ttlHours }
             )
         )
     );
@@ -328,6 +330,9 @@ const queryPages = async (
     }
     return pages;
 };
+
+/** Articles' lead images rarely change; they're asked for again monthly. */
+const PAGE_IMAGE_TTL_HOURS = 30 * 24;
 
 /** Lead images that aren't portraits: flags, arms, signatures, maps and drawings. */
 const NOT_A_PORTRAIT = /flag|coat[ _]of[ _]arms|emblem|seal|signature|autograph|logo|map|\.svg$/i;
@@ -356,7 +361,8 @@ export const fetchPageImages = async (
         titles,
         TITLE_BATCH_SIZE,
         { pilicense: "free", piprop: "name", prop: "pageimages" },
-        language
+        language,
+        PAGE_IMAGE_TTL_HOURS
     );
     const images = new Map<string, string>();
     for (const [title, page] of pages) {

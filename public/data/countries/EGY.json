@@ -11590,64 +11590,6 @@
     {
       "aliases": [],
       "countryCode": "EGY",
-      "fullName": "Q101096290",
-      "id": "q101096290",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1946-12-09",
-          "id": "q101096290-p1",
-          "ministry": null,
-          "portfolio": "finance",
-          "startDate": "1946-06-30",
-          "title": "Finance Minister"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q101096290"
-        }
-      ],
-      "summary": "Egyptian politician.",
-      "wikidataId": "Q101096290"
-    },
-    {
-      "aliases": [],
-      "countryCode": "EGY",
-      "fullName": "Q101096293",
-      "id": "q101096293",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1947-11-19",
-          "id": "q101096293-p1",
-          "ministry": null,
-          "portfolio": "finance",
-          "startDate": "1947-02-18",
-          "title": "Finance Minister"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q101096293"
-        }
-      ],
-      "summary": "Egyptian politician.",
-      "wikidataId": "Q101096293"
-    },
-    {
-      "aliases": [],
-      "countryCode": "EGY",
       "fullName": "Raafat Abdel Aziz Fahmy Mohamed Amin Hendy",
       "id": "raafat-abdel-aziz-fahmy-mohamed-amin-hendy",
       "party": null,
@@ -13681,6 +13623,68 @@
       ],
       "summary": "Egyptian politician.",
       "wikidataId": "Q127083106"
+    },
+    {
+      "aliases": [
+        "Q101096293"
+      ],
+      "countryCode": "EGY",
+      "fullName": "عبد الحميد بدر باشا",
+      "id": "q101096293",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1947-11-19",
+          "id": "q101096293-p1",
+          "ministry": null,
+          "portfolio": "finance",
+          "startDate": "1947-02-18",
+          "title": "Finance Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q101096293"
+        }
+      ],
+      "summary": "Egyptian politician.",
+      "wikidataId": "Q101096293"
+    },
+    {
+      "aliases": [
+        "Q101096290"
+      ],
+      "countryCode": "EGY",
+      "fullName": "عبد الرحمن البيلي",
+      "id": "q101096290",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1946-12-09",
+          "id": "q101096290-p1",
+          "ministry": null,
+          "portfolio": "finance",
+          "startDate": "1946-06-30",
+          "title": "Finance Minister"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q101096290"
+        }
+      ],
+      "summary": "Egyptian politician.",
+      "wikidataId": "Q101096290"
     },
     {
       "aliases": [],
@@ -18042,49 +18046,25 @@
         "region": "Europe"
       },
       "endDate": "2018-10-07",
-      "engagements": [],
-      "eventName": null,
-      "id": "abdel-fattah-el-sisi--2018-10-07--GRC",
-      "officialId": "abdel-fattah-el-sisi",
-      "purpose": "Visit to Greece",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
-        }
-      ],
-      "startDate": "2018-10-07",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Athens",
-        "coordinates": [
-          23.728055555,
-          37.984166666
-        ],
-        "countryCode": "GRC",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-10-10",
       "engagements": [
         "Met Prime Minister Alexis Tsipras",
         "Signed agreements"
       ],
       "eventName": "Cyprus-Egypt-Greece Trilateral Meeting",
-      "id": "abdel-fattah-el-sisi--2018-10-10--GRC",
+      "id": "abdel-fattah-el-sisi--2018-10-07--GRC",
       "officialId": "abdel-fattah-el-sisi",
       "purpose": "Attended Cyprus-Egypt-Greece Trilateral Meeting",
       "sources": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Abdel_Fattah_el-Sisi"
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-10-10",
+      "startDate": "2018-10-07",
       "statusHint": null,
       "type": "multilateral_meeting"
     },

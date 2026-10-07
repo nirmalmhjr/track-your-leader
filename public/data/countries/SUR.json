@@ -4727,36 +4727,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Abu Dhabi",
-        "coordinates": [
-          54.396944444,
-          24.451111111
-        ],
-        "countryCode": "ARE",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2023-12-03",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "Conference of the Parties (COP)",
-      "id": "chan-santokhi--2023-11-29--ARE",
-      "officialId": "chan-santokhi",
-      "purpose": "Attended Conference of the Parties (COP)",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2023-11-29",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Dubai",
         "coordinates": [
           55.309444444,
@@ -4766,15 +4736,21 @@
         "region": "Asia"
       },
       "endDate": "2023-12-05",
-      "engagements": [],
-      "eventName": null,
+      "engagements": [
+        "Gave a public address"
+      ],
+      "eventName": "Conference of the Parties (COP)",
       "id": "chan-santokhi--2023-12-05--ARE",
       "officialId": "chan-santokhi",
-      "purpose": "Visit to United Arab Emirates",
+      "purpose": "Attended Conference of the Parties (COP)",
       "sources": [
         {
           "label": "Wikipedia",
           "url": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Chan_Santokhi"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2023-12-05",
@@ -5715,7 +5691,9 @@
         "region": "Americas"
       },
       "endDate": "2011-09-22",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "desi-bouterse--2011-09-22--USA",
       "officialId": "desi-bouterse",
@@ -5724,41 +5702,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-sixth_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2011-09-22",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2011-09-25",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "desi-bouterse--2011-09-24--USA",
-      "officialId": "desi-bouterse",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2011-09-24",
+      "startDate": "2011-09-22",
       "statusHint": null,
-      "type": "conference"
+      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

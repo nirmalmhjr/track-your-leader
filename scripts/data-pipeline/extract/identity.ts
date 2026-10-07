@@ -14,7 +14,11 @@ import type { Roster, RosterMember } from "./roster";
  * Wikidata's search API is rate-limited, so each run searches at most this many names; the
  * rest wait for the next run (the roster remembers who has been looked up).
  */
-const MAX_SEARCHES_PER_RUN = 80;
+/** Searches per run; each name is searched again only after `identityRetryDays`. */
+const MAX_SEARCHES_PER_RUN = 2500;
+/** Titles cabinet lists put before names ("Bishop Juan Edghill", "Dr. Ahmed …", "Gen. …"). */
+const LEADING_TITLES =
+    /^(?:(?:dr|prof|gen|lt|col|maj|adm|brig|cdr|capt|eng|engr|rev|bishop|sheikh|shaikh|sir|dame|hon|mr|mrs|ms|haji|hajji|alhaji|pastor|imam)\.?\s+)+/i;
 
 interface IdentityInput {
     contexts: ReadonlyMap<CountryCode, CountryContext>;
@@ -23,14 +27,27 @@ interface IdentityInput {
     today: IsoDate;
 }
 
+/**
+ * Raised whenever the name search improves (2: leading titles dropped, more searches per run),
+ * so everyone it missed before is looked up again at once rather than after the retry delay.
+ */
+const SEARCH_VERSION = 2;
+
 const isDueForLookup = (member: RosterMember, today: IsoDate): boolean =>
     member.lookedUpOn === null ||
+    (member.searchVersion ?? 1) < SEARCH_VERSION ||
     addDaysIso(member.lookedUpOn, PIPELINE_CONFIG.identityRetryDays) <= today;
 
 /** "Ishiba Shigeru" is also tried as "Shigeru Ishiba" (family name first in some sources). */
-const spellingsOf = (name: string): string[] => {
+/** The name without the titles a list put before it. */
+const withoutTitles = (name: string): string => name.replace(LEADING_TITLES, "").trim() || name;
+
+/** The spellings a name is looked up by: as listed, without titles, and family name first. */
+const spellingsOf = (listed: string): string[] => {
+    const name = withoutTitles(listed);
     const words = name.split(" ");
-    return words.length === 2 ? [name, `${words[1]} ${words[0]}`] : [name];
+    const forms = words.length === 2 ? [name, `${words[1]} ${words[0]}`] : [name];
+    return [...new Set([listed, ...forms])];
 };
 
 /** First pass: exact name or alias matches among the country's citizens, one query per country. */
@@ -77,7 +94,7 @@ const searchNames = async (
         const country = contexts.get(member.countryCode);
         candidateLists.push(
             // biome-ignore lint/performance/noAwaitInLoops: Wikidata's search API rejects bursts, so names go one at a time.
-            country ? await searchPeople(member.name, country.wikidataId) : []
+            country ? await searchPeople(withoutTitles(member.name), country.wikidataId) : []
         );
     }
     const candidates = await fetchEntities(candidateLists.flat(), ["labels", "aliases"]);
@@ -89,7 +106,7 @@ const searchNames = async (
                 const names = [entity?.label, ...(entity?.aliases ?? [])].filter(
                     (name): name is string => Boolean(name)
                 );
-                return names.some((name) => isSameName(name, member.name));
+                return names.some((name) => isSameName(name, withoutTitles(member.name)));
             }) ?? null;
     }
 };
@@ -133,6 +150,7 @@ export const resolveIdentities = async ({
 
     for (const member of [...pending.filter((candidate) => candidate.wikidataId), ...toSearch]) {
         member.lookedUpOn = today;
+        member.searchVersion = SEARCH_VERSION;
     }
 
     return Object.values(roster)

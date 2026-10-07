@@ -4184,12 +4184,14 @@
       "wikidataId": "Q1570169"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Hamza Mustafa"
+      ],
       "countryCode": "SYR",
-      "fullName": "Hamza Mustafa",
+      "fullName": "Hamza al-Mustafa",
       "id": "hamza-mustafa",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamza_al-Mustafa_(2025).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4207,10 +4209,14 @@
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/syria/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hamza_al-Mustafa"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Hamza al-Mustafa is a Syrian politician, academic, researcher, and media executive who served as the Minister of Information between March 2025 and May 2026.",
+      "wikidataId": "Q133698876"
     },
     {
       "aliases": [
@@ -7343,35 +7349,6 @@
     {
       "aliases": [],
       "countryCode": "SYR",
-      "fullName": "Q113496670",
-      "id": "q113496670",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1963-01-01",
-          "id": "q113496670-p1",
-          "ministry": "Ministry of Foreign Affairs and Expatriates",
-          "portfolio": "foreign_affairs",
-          "startDate": "1962-01-01",
-          "title": "Minister of Foreign Affairs and Expatriates"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q113496670"
-        }
-      ],
-      "summary": "Syrian politician.",
-      "wikidataId": "Q113496670"
-    },
-    {
-      "aliases": [],
-      "countryCode": "SYR",
       "fullName": "Ra’id al-Salih",
       "id": "ra-id-al-salih",
       "party": null,
@@ -8383,6 +8360,37 @@
       ],
       "summary": "Syrian politician.",
       "wikidataId": "Q12178463"
+    },
+    {
+      "aliases": [
+        "Q113496670"
+      ],
+      "countryCode": "SYR",
+      "fullName": "أسعد محاسن",
+      "id": "q113496670",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1963-01-01",
+          "id": "q113496670-p1",
+          "ministry": "Ministry of Foreign Affairs and Expatriates",
+          "portfolio": "foreign_affairs",
+          "startDate": "1962-01-01",
+          "title": "Minister of Foreign Affairs and Expatriates"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q113496670"
+        }
+      ],
+      "summary": "Syrian politician.",
+      "wikidataId": "Q113496670"
     },
     {
       "aliases": [],
@@ -9912,7 +9920,7 @@
       },
       "endDate": "2026-09-21",
       "engagements": [],
-      "eventName": null,
+      "eventName": "UN General Assembly general debate",
       "id": "ahmed-al-sharaa--2026-09-21--USA",
       "officialId": "ahmed-al-sharaa",
       "purpose": "President Al-Sharaa arrives in New York for UN general Assembly.",
@@ -9925,33 +9933,6 @@
       "startDate": "2026-09-21",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2026-09-23",
-      "engagements": [],
-      "eventName": "UN General Assembly general debate",
-      "id": "ahmed-al-sharaa--2026-09-23--USA",
-      "officialId": "ahmed-al-sharaa",
-      "purpose": "Addressed the general debate of the eighty-first session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_eighty-first_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2026-09-23",
-      "statusHint": null,
-      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "month",
@@ -14790,7 +14771,7 @@
       ],
       "startDate": "1945-04-25",
       "statusHint": null,
-      "type": "conference"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",

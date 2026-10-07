@@ -14952,7 +14952,7 @@
       "eventName": null,
       "id": "abdelmadjid-tebboune--2020-10-28--DEU",
       "officialId": "abdelmadjid-tebboune",
-      "purpose": "Visit to Germany",
+      "purpose": "A stay abroad of 62 days (such as exile, medical treatment or a posting), not an official visit.",
       "sources": [
         {
           "label": "COLT dataset",
@@ -14961,7 +14961,7 @@
       ],
       "startDate": "2020-10-28",
       "statusHint": null,
-      "type": "other"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",
@@ -17619,33 +17619,6 @@
         }
       ],
       "startDate": "2018-05-01",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "month",
-      "destination": {
-        "city": "Geneva",
-        "coordinates": [
-          6.15,
-          46.2
-        ],
-        "countryCode": "CHE",
-        "region": "Europe"
-      },
-      "endDate": "2004-05-31",
-      "engagements": [],
-      "eventName": "World Health Assembly",
-      "id": "mourad-redjimi--2004-05-01--CHE",
-      "officialId": "mourad-redjimi",
-      "purpose": "Led or joined their country's delegation to the World Health Assembly (WHA57)",
-      "sources": [
-        {
-          "label": "World Health Organization",
-          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA57/A57_DIV1REV1.pdf"
-        }
-      ],
-      "startDate": "2004-05-01",
       "statusHint": null,
       "type": "multilateral_meeting"
     },

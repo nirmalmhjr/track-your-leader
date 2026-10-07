@@ -42,6 +42,21 @@ const compareTrust = (a: TripClaim, b: TripClaim): number =>
 const overlaps = (claim: TripClaim, start: string, end: string): boolean =>
     claim.startDate <= addDaysIso(end, 1) && claim.endDate >= addDaysIso(start, -1);
 
+/** Sources date one trip a few days apart; their claims this close are one trip. */
+const CROSS_SOURCE_LEEWAY_DAYS = 3;
+
+/**
+ * Whether a claim belongs to a trip already formed: it overlaps it, or another source reports it
+ * a few days off. One source's separate rows a few days apart stay separate trips (two legs).
+ */
+const joins = (
+    claim: TripClaim,
+    cluster: { claims: TripClaim[]; end: string; start: string }
+): boolean =>
+    overlaps(claim, cluster.start, cluster.end) ||
+    (!cluster.claims.some((member) => member.source === claim.source) &&
+        claim.startDate <= addDaysIso(cluster.end, CROSS_SOURCE_LEEWAY_DAYS));
+
 /**
  * Groups claims to one country into trips. Day-precision claims form the trips; a claim known
  * only to the month or year joins a trip it overlaps, but never stretches it, and stands alone
@@ -54,7 +69,7 @@ const clusterClaims = (claims: readonly TripClaim[]): TripClaim[][] => {
     const clusters: { claims: TripClaim[]; end: string; start: string }[] = [];
     for (const claim of precise) {
         const current = clusters.at(-1);
-        if (current && overlaps(claim, current.start, current.end)) {
+        if (current && joins(claim, current)) {
             current.claims.push(claim);
             current.end = claim.endDate > current.end ? claim.endDate : current.end;
         } else {

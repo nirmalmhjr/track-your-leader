@@ -15,6 +15,7 @@ import {
 } from "../sources/wikidata";
 import type { CountryContext, OfficeTerm, OfficialDraft, PositionDraft } from "../types";
 import { LEADER_TERM_OVERRIDES } from "./leaders.overrides";
+import { ITEMS_WITHOUT_ISO_CODE } from "./places.resolve";
 import { classifyTitle } from "./roles";
 
 /** `nature of statement: acting` — caretakers are not recorded as office holders. */
@@ -148,8 +149,15 @@ export const fetchCountryContexts = async (
 ): Promise<Map<CountryCode, CountryContext>> => {
     const rows = await runSparql(`
         SELECT ?iso ?country ?hos ?hog WHERE {
-            VALUES ?iso { ${codes.map(sparqlString).join(" ")} }
-            ?country wdt:P298 ?iso .
+            {
+                VALUES ?iso { ${codes.map(sparqlString).join(" ")} }
+                ?country wdt:P298 ?iso .
+            } UNION {
+                VALUES (?country ?iso) { ${Object.entries(ITEMS_WITHOUT_ISO_CODE)
+                    .filter(([code]) => codes.includes(code))
+                    .map(([code, item]) => `(wd:${item} ${sparqlString(code)})`)
+                    .join(" ")} }
+            }
             OPTIONAL { ?country wdt:P1906 ?hos }
             OPTIONAL { ?country wdt:P1313 ?hog }
         } ORDER BY ?iso ?hos ?hog`);
@@ -367,6 +375,8 @@ type LeaderKind = keyof typeof LEADER_KINDS;
 /** A dated "head of state" or "head of government" statement on a country's own item. */
 interface LeaderStatement extends OfficeTerm {
     code: CountryCode;
+    /** From `LEADER_TERM_OVERRIDES`: a correction, added even where Wikidata has a term already. */
+    isOverride?: boolean;
     kind: LeaderKind;
     /** Office title, when known; otherwise the generic "Head of state" or "Head of government". */
     title?: string;
@@ -385,6 +395,7 @@ const overrideStatements = (
                   {
                       code: override.code,
                       endDate: override.endDate,
+                      isOverride: true,
                       kind: override.kind,
                       officeId: `${override.kind}:${override.code}`,
                       personId: override.personId,
@@ -517,7 +528,7 @@ const addStatementTerms = async (
     );
     for (const term of statements) {
         const known = drafts.get(term.personId);
-        if (known && hasOverlapping(known, term)) {
+        if (known && hasOverlapping(known, term) && !term.isOverride) {
             continue;
         }
         const person = newPeople.get(term.personId);

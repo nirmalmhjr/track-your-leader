@@ -1648,10 +1648,6 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q110123603"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/tonga/"
         },
@@ -4833,34 +4829,6 @@
         "countryCode": "USA",
         "region": "Americas"
       },
-      "endDate": "2023-09-22",
-      "engagements": [],
-      "eventName": "UN General Assembly general debate",
-      "id": "hu-akavameiliku--2023-09-22--USA",
-      "officialId": "hu-akavameiliku",
-      "purpose": "Addressed the general debate of the seventy-eighth session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2023-09-22",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
       "endDate": "2023-09-25",
       "engagements": [],
       "eventName": "Attended the Pacific Islands Countries Summit.",
@@ -4874,7 +4842,7 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-eighth_session_of_the_United_Nations_General_Assembly"
         }
       ],
       "startDate": "2023-09-25",
@@ -6167,36 +6135,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2013-09-24",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "tupou-vi-of-tonga--2013-09-24--USA",
-      "officialId": "tupou-vi-of-tonga",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2013-09-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -6206,7 +6144,9 @@
         "region": "Americas"
       },
       "endDate": "2013-09-27",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "tupou-vi-of-tonga--2013-09-27--USA",
       "officialId": "tupou-vi-of-tonga",
@@ -6215,6 +6155,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-09-27",

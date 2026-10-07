@@ -7828,41 +7828,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2013-09-23",
-      "engagements": [
-        "Edi Rama met Hillary and Bill Clinton upon their invitation.",
-        "Gave a public address"
-      ],
-      "eventName": "United Nations General Assembly",
-      "id": "edi-rama--2013-09-21--USA",
-      "officialId": "edi-rama",
-      "purpose": "Attended the United Nations General Assembly.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2013-09-21",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -7872,7 +7837,10 @@
         "region": "Americas"
       },
       "endDate": "2013-09-28",
-      "engagements": [],
+      "engagements": [
+        "Edi Rama met Hillary and Bill Clinton upon their invitation.",
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "edi-rama--2013-09-28--USA",
       "officialId": "edi-rama",
@@ -7880,7 +7848,11 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-eighth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2013-09-28",
@@ -9135,40 +9107,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-09-29",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "World Leadership Forum",
-      "id": "edi-rama--2015-09-24--USA",
-      "officialId": "edi-rama",
-      "purpose": "Attended the 2015 World Leadership Forum as well as the 2015 Columbia University World Leader Forum.",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-09-24",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -9178,7 +9116,9 @@
         "region": "Americas"
       },
       "endDate": "2015-10-02",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "edi-rama--2015-10-02--USA",
       "officialId": "edi-rama",
@@ -9186,7 +9126,11 @@
       "sources": [
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Europe"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-10-02",

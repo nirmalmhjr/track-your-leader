@@ -28,6 +28,7 @@ const DEFAULT_ENGAGEMENTS: Readonly<Record<TravelType, (host: string) => readonl
     bilateral_meeting: (host) => [`Bilateral talks with ${host} counterparts`],
     conference: () => ["Plenary address", "Panel discussions"],
     diplomatic_visit: (host) => [`Consultations with senior ${host} officials`],
+    extended_stay: () => [],
     multilateral_meeting: () => ["Ministerial sessions", "Bilateral meetings on the sidelines"],
     official_visit: (host) => [
         `Delegation-level talks with the Government of ${host}`,

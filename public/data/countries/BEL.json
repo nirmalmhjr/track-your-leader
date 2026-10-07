@@ -2625,7 +2625,7 @@
       "fullName": "Antoon Spinoy",
       "id": "antoon-spinoy",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eregraf_Antoon_Spinoy.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -14491,7 +14491,7 @@
       "fullName": "Guy Coëme",
       "id": "guy-coeme",
       "party": "Socialist Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/En-us-Guy_Coeme_from_Belgium_pronunciation_(Voice_of_America).ogg?width=160",
       "positions": [
         {
           "categories": [
@@ -18139,7 +18139,7 @@
       "fullName": "Paul Struye",
       "id": "paul-struye",
       "party": "Christian Social Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Struye_House_-_1050%2C_Rue_Washington_(1).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -26552,36 +26552,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-09-27",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "charles-michel--2015-09-20--USA",
-      "officialId": "charles-michel",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-09-20",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -26591,7 +26561,9 @@
         "region": "Americas"
       },
       "endDate": "2015-09-30",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "charles-michel--2015-09-30--USA",
       "officialId": "charles-michel",
@@ -26600,6 +26572,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-09-30",
@@ -37801,7 +37777,7 @@
         }
       ],
       "startDate": "2026-10-12",
-      "statusHint": null,
+      "statusHint": "planned",
       "type": "state_visit"
     },
     {

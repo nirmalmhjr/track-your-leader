@@ -6743,39 +6743,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2022-09-22",
-      "engagements": [
-        "Met President Joe Biden"
-      ],
-      "eventName": "UN General Assembly general debate",
-      "id": "james-marape--2022-09-22--USA",
-      "officialId": "james-marape",
-      "purpose": "Addressed the general debate of the seventy-seventh session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-seventh_session_of_the_United_Nations_General_Assembly"
-        },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2022-09-22",
-      "statusHint": null,
-      "type": "multilateral_meeting"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Canberra",
         "coordinates": [
           149.13,
@@ -6806,17 +6773,18 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
+        "city": "New York City",
         "coordinates": [
-          -77.0369,
-          38.9072
+          -74.006111111,
+          40.712777777
         ],
         "countryCode": "USA",
-        "precision": "country",
         "region": "Americas"
       },
       "endDate": "2022-09-28",
-      "engagements": [],
+      "engagements": [
+        "Met President Joe Biden"
+      ],
       "eventName": "Attended the U.S.-Pacific Island Country Summit.",
       "id": "james-marape--2022-09-28--USA",
       "officialId": "james-marape",
@@ -6828,7 +6796,11 @@
         },
         {
           "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Oceania"
+          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-seventh_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2022-09-28",
@@ -14901,33 +14873,6 @@
       "startDate": "2019-04-25",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2008-09-27",
-      "engagements": [],
-      "eventName": "UN General Assembly general debate",
-      "id": "puka-temu--2008-09-27--USA",
-      "officialId": "puka-temu",
-      "purpose": "Addressed the general debate of the sixty-third session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_sixty-third_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2008-09-27",
-      "statusHint": null,
-      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",

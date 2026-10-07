@@ -13517,6 +13517,37 @@
       "wikidataId": "Q17409260"
     },
     {
+      "aliases": [
+        "Виктор Михайлов"
+      ],
+      "countryCode": "BGR",
+      "fullName": "Viktor Mikhaylov",
+      "id": "q12275264",
+      "party": "independent politician",
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1994-10-17",
+          "id": "q12275264-p1",
+          "ministry": "Ministry of Interior of Bulgaria",
+          "portfolio": "home_affairs",
+          "startDate": "1992-12-30",
+          "title": "Minister of Interior of Bulgaria"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q12275264"
+        }
+      ],
+      "summary": "Politician.",
+      "wikidataId": "Q12275264"
+    },
+    {
       "aliases": [],
       "countryCode": "BGR",
       "fullName": "Violeta Koritarova-Kasabova",
@@ -14046,35 +14077,6 @@
       ],
       "summary": "Bulgarian politician.",
       "wikidataId": "Q28533702"
-    },
-    {
-      "aliases": [],
-      "countryCode": "BGR",
-      "fullName": "Виктор Михайлов",
-      "id": "q12275264",
-      "party": "independent politician",
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1994-10-17",
-          "id": "q12275264-p1",
-          "ministry": "Ministry of Interior of Bulgaria",
-          "portfolio": "home_affairs",
-          "startDate": "1992-12-30",
-          "title": "Minister of Interior of Bulgaria"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12275264"
-        }
-      ],
-      "summary": "Politician.",
-      "wikidataId": "Q12275264"
     },
     {
       "aliases": [
@@ -34208,7 +34210,7 @@
       "eventName": null,
       "id": "georgi-parvanov--2003-06-12--LTU",
       "officialId": "georgi-parvanov",
-      "purpose": "Visit to Lithuania",
+      "purpose": "A stay abroad of 2106 days (such as exile, medical treatment or a posting), not an official visit.",
       "sources": [
         {
           "label": "Wikipedia",
@@ -34217,7 +34219,7 @@
       ],
       "startDate": "2003-06-12",
       "statusHint": null,
-      "type": "state_visit"
+      "type": "extended_stay"
     },
     {
       "datePrecision": "day",
@@ -41280,35 +41282,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "New York",
-        "coordinates": [
-          -75,
-          43
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2025-09-24",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "rosen-zhelyazkov--2025-09-22--USA",
-      "officialId": "rosen-zhelyazkov",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2025-09-22",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -41318,7 +41291,9 @@
         "region": "Americas"
       },
       "endDate": "2025-09-26",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "rosen-zhelyazkov--2025-09-26--USA",
       "officialId": "rosen-zhelyazkov",
@@ -41327,6 +41302,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_prime_ministerial_trips_made_by_Rosen_Zhelyazkov"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2025-09-26",

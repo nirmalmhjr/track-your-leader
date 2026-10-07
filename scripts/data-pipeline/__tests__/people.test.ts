@@ -9,6 +9,7 @@ import {
     isOfficeOfCountry,
     type OfficeInfo,
     positionFromHolding,
+    regionalOr,
 } from "../extract/people.extract";
 import { classifyTitle } from "../extract/roles";
 import { parseQleverTsv } from "../sources/qlever";
@@ -204,4 +205,24 @@ test("monarchs of a kingdom the country was are its heads of state, consorts and
     assert.equal(isMonarchOf("Empress of Japan", "JPN"), false);
     assert.equal(isMonarchOf("Prince of Wales", "GBR"), false);
     assert.equal(isMonarchOf("Emir of the Islamic State of Iraq", "IRQ"), false);
+});
+
+test("a region's head of government is a regional leader, not the country's", () => {
+    assert.equal(
+        regionalOr("head_of_government", "Prime Minister of the Faroe Islands", "DNK"),
+        "regional_leader"
+    );
+    assert.equal(
+        regionalOr("head_of_government", "Prime Minister of Tatarstan", "RUS"),
+        "regional_leader"
+    );
+    assert.equal(
+        regionalOr("head_of_government", "Prime Minister of Nepal", "NPL"),
+        "head_of_government"
+    );
+    assert.equal(
+        regionalOr("head_of_government", "Prime Minister of the Kingdom of Nepal", "NPL"),
+        "head_of_government"
+    );
+    assert.equal(regionalOr("minister", "Prime Minister of Tatarstan", "RUS"), "minister");
 });

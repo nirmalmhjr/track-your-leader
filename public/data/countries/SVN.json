@@ -1095,10 +1095,6 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q12796056"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
         },
@@ -3787,7 +3783,7 @@
       "fullName": "Jože Novak",
       "id": "joze-novak",
       "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/94._redna_seja_vlade_-_2024-03-07_-_Vlada_Republike_Slovenije_-_36_(cropped).jpg?width=160",
+      "photoUrl": null,
       "positions": [
         {
           "categories": [
@@ -3795,6 +3791,35 @@
           ],
           "endDate": null,
           "id": "joze-novak-p1",
+          "ministry": "Ministry of Natural Resources and Spatial Planning",
+          "portfolio": null,
+          "startDate": null,
+          "title": "Minister of Natural Resources and Spatial Planning"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
+        }
+      ],
+      "summary": "Researcher.",
+      "wikidataId": "Q114303583"
+    },
+    {
+      "aliases": [],
+      "countryCode": "SVN",
+      "fullName": "Jože Novak",
+      "id": "joze-novak-svn",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/94._redna_seja_vlade_-_2024-03-07_-_Vlada_Republike_Slovenije_-_36_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "joze-novak-svn-p1",
           "ministry": "Ministry of Natural Resources and Spatial Planning",
           "portfolio": null,
           "startDate": "2023-12-07",
@@ -3805,10 +3830,6 @@
         {
           "label": "Wikidata",
           "url": "https://www.wikidata.org/wiki/Q123725063"
-        },
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
         }
       ],
       "summary": "Slovenian politician and landscape architect.",
@@ -4523,12 +4544,14 @@
       "wikidataId": "Q113441550"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Mateja Ribic"
+      ],
       "countryCode": "SVN",
-      "fullName": "Mateja Ribic",
+      "fullName": "Mateja Ribič",
       "id": "mateja-ribic",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mateja_Ribi%C4%8D_ministrski_portret_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -4548,8 +4571,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Slovene politician.",
+      "wikidataId": "Q139977116"
     },
     {
       "aliases": [],
@@ -4651,10 +4674,6 @@
         }
       ],
       "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q18644615"
-        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
@@ -4845,10 +4864,6 @@
         }
       ],
       "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q139997360"
-        },
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
@@ -5692,10 +5707,6 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q43389533"
-        },
-        {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
         },
@@ -6416,12 +6427,60 @@
       "wikidataId": "Q18646301"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Primoz Dolenc"
+      ],
       "countryCode": "SVN",
-      "fullName": "Iztok Mirosic",
-      "id": "iztok-mirosic",
+      "fullName": "Primož Dolenc",
+      "id": "primoz-dolenc-svn",
       "party": null,
       "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "central_banker"
+          ],
+          "endDate": null,
+          "id": "primoz-dolenc-svn-p1",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2026-10-05",
+          "title": "Central Bank Governor"
+        },
+        {
+          "categories": [
+            "regional_leader"
+          ],
+          "endDate": null,
+          "id": "primoz-dolenc-svn-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": "2025-01-09",
+          "title": "Governor of the Bank of Slovenia"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Primo%C5%BE_Dolenc"
+        }
+      ],
+      "summary": "Primož Dolenc (born 1976) is a Slovenian economist and central banker who is currently serving as the Governor of the Bank of Slovenia. He took office on 1 March 2026, succeeding Boštjan Vasle.",
+      "wikidataId": "Q114322273"
+    },
+    {
+      "aliases": [
+        "Iztok Mirosic"
+      ],
+      "countryCode": "SVN",
+      "fullName": "Iztok Mirošič",
+      "id": "iztok-mirosic",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iztok_Miro%C5%A1i%C4%8D_in_2024_(cropped).jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -6441,8 +6500,8 @@
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/slovenia/"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Slovene diplomat.",
+      "wikidataId": "Q47538962"
     },
     {
       "aliases": [],

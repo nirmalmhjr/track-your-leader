@@ -1320,36 +1320,9 @@
       "wikidataId": "Q137757456"
     },
     {
-      "aliases": [],
-      "countryCode": "SWZ",
-      "fullName": "Jane Mkhonta",
-      "id": "jane-mkhonta",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "jane-mkhonta-p1",
-          "ministry": "Ministry of Tourism and Environmental Affairs",
-          "portfolio": "environment",
-          "startDate": null,
-          "title": "Minister of Tourism and Environmental Affairs"
-        }
+      "aliases": [
+        "Jane Mkhonta"
       ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/eswatini/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
-      "aliases": [],
       "countryCode": "SWZ",
       "fullName": "Jane Mkhonta-Simelane",
       "id": "jane-mkhonta-simelane",
@@ -1362,6 +1335,17 @@
           ],
           "endDate": null,
           "id": "jane-mkhonta-simelane-p1",
+          "ministry": "Ministry of Tourism and Environmental Affairs",
+          "portfolio": "environment",
+          "startDate": "2023-11-13",
+          "title": "Minister of Tourism and Environmental Affairs"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "jane-mkhonta-simelane-p2",
           "ministry": "Ministry of Tourism and Environmental Affairs of Eswatini",
           "portfolio": "environment",
           "startDate": "2023-11-13",
@@ -1372,7 +1356,7 @@
             "legislator"
           ],
           "endDate": null,
-          "id": "jane-mkhonta-simelane-p2",
+          "id": "jane-mkhonta-simelane-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2023-01-01",
@@ -1381,8 +1365,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q138042513"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/eswatini/"
         },
         {
           "label": "Wikipedia",
@@ -4380,8 +4364,10 @@
         "region": "Americas"
       },
       "endDate": "1995-10-19",
-      "engagements": [],
-      "eventName": null,
+      "engagements": [
+        "Gave a public address"
+      ],
+      "eventName": "United Nations (UN) General Assembly",
       "id": "mswati-iii--1995-10-19--USA",
       "officialId": "mswati-iii",
       "purpose": "Attended Africare dinner with President Clinton.",
@@ -4393,39 +4379,13 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Africa"
-        }
-      ],
-      "startDate": "1995-10-19",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1995-10-25",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "mswati-iii--1995-10-22--USA",
-      "officialId": "mswati-iii",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1995-10-22",
+      "startDate": "1995-10-19",
       "statusHint": null,
       "type": "conference"
     },

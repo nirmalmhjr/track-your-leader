@@ -462,7 +462,7 @@
       "fullName": "Solomon Mamaloni",
       "id": "solomon-mamaloni",
       "party": "People's Progressive Party",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Solomon_Mamaloni_-_article_audio.ogg?width=160",
       "positions": [
         {
           "categories": [
@@ -7904,36 +7904,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2018-09-26",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "rick-hou--2018-09-23--USA",
-      "officialId": "rick-hou",
-      "purpose": "Attended United Nations (UN) General Assembly and Concordia Summit",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2018-09-23",
-      "statusHint": null,
-      "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -7943,7 +7913,9 @@
         "region": "Americas"
       },
       "endDate": "2018-09-28",
-      "engagements": [],
+      "engagements": [
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "rick-hou--2018-09-28--USA",
       "officialId": "rick-hou",
@@ -7952,6 +7924,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-09-28",

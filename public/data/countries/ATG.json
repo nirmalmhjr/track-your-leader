@@ -5299,37 +5299,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-09-28",
-      "engagements": [
-        "Signed agreements",
-        "Gave a public address"
-      ],
-      "eventName": "United Nations (UN) General Assembly",
-      "id": "gaston-browne--2015-09-25--USA",
-      "officialId": "gaston-browne",
-      "purpose": "Attended United Nations (UN) General Assembly",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-09-25",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "New York City",
         "coordinates": [
           -74.006111111,
@@ -5339,7 +5308,10 @@
         "region": "Americas"
       },
       "endDate": "2015-10-01",
-      "engagements": [],
+      "engagements": [
+        "Signed agreements",
+        "Gave a public address"
+      ],
       "eventName": "UN General Assembly general debate",
       "id": "gaston-browne--2015-10-01--USA",
       "officialId": "gaston-browne",
@@ -5348,6 +5320,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventieth_session_of_the_United_Nations_General_Assembly"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-10-01",

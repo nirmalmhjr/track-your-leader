@@ -912,33 +912,51 @@
       "wikidataId": "Q1397927"
     },
     {
-      "aliases": [],
+      "aliases": [
+        "Emmanuel Nchimbi"
+      ],
       "countryCode": "TZA",
-      "fullName": "Emmanuel Nchimbi",
-      "id": "emmanuel-nchimbi",
-      "party": null,
-      "photoUrl": null,
+      "fullName": "Emmanuel John Nchimbi",
+      "id": "emmanuel-john-nchimbi",
+      "party": "Party of the Revolution",
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmanuel_Nchimbi.jpg?width=160",
       "positions": [
         {
           "categories": [
             "deputy_leader"
           ],
           "endDate": null,
-          "id": "emmanuel-nchimbi-p1",
+          "id": "emmanuel-john-nchimbi-p1",
           "ministry": null,
           "portfolio": null,
           "startDate": null,
           "title": "Vice President"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "emmanuel-john-nchimbi-p2",
+          "ministry": null,
+          "portfolio": null,
+          "startDate": null,
+          "title": "Member of the National Assembly of Tanzania",
+          "undated": true
         }
       ],
       "sources": [
         {
           "label": "CIA World Leaders",
           "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/tanzania/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Emmanuel_Nchimbi"
         }
       ],
-      "summary": "",
-      "wikidataId": null
+      "summary": "Emmanuel John Nchimbi (born 24 December 1971) is a Tanzanian diplomat and politician who served as the Vice-President of the United Republic of Tanzania from November 2025 until his resignation in August 2026. He previously served as the Minister of Home Affairs between 2012 and 2013 and as Member of Parliament for Songea Town constituency from 2010 to 2015.",
+      "wikidataId": "Q5018747"
     },
     {
       "aliases": [],
@@ -2874,6 +2892,7 @@
     },
     {
       "aliases": [
+        "Makame Mnyaa",
         "Makame Mnyaa Mbarawa",
         "Professor Makame Mbarawa"
       ],
@@ -2887,8 +2906,19 @@
           "categories": [
             "minister"
           ],
-          "endDate": "2023-09-01",
+          "endDate": null,
           "id": "makame-mbarawa-p1",
+          "ministry": "Ministry of Transport",
+          "portfolio": "transport",
+          "startDate": null,
+          "title": "Minister for Transport"
+        },
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "2023-09-01",
+          "id": "makame-mbarawa-p2",
           "ministry": "Ministry of Works, Transport and Communications",
           "portfolio": "transport",
           "startDate": "2015-12-24",
@@ -2899,7 +2929,7 @@
             "legislator"
           ],
           "endDate": "2020-06-16",
-          "id": "makame-mbarawa-p2",
+          "id": "makame-mbarawa-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2016-01-01",
@@ -2908,8 +2938,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q6738666"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/tanzania/"
         },
         {
           "label": "Wikipedia",
@@ -2918,35 +2948,6 @@
       ],
       "summary": "Professor Makame Mbarawa is a Tanzanian CCM politician and a nominated Member of Parliament. He is currently the Minister of Transport in Tanzania.",
       "wikidataId": "Q6738666"
-    },
-    {
-      "aliases": [],
-      "countryCode": "TZA",
-      "fullName": "Makame Mnyaa",
-      "id": "makame-mnyaa",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "makame-mnyaa-p1",
-          "ministry": "Ministry of Transport",
-          "portfolio": "transport",
-          "startDate": null,
-          "title": "Minister for Transport"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/tanzania/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
     },
     {
       "aliases": [],
@@ -15931,34 +15932,6 @@
       "startDate": "2013-12-06",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Pretoria",
-        "coordinates": [
-          28.2293,
-          -25.7479
-        ],
-        "countryCode": "ZAF",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "2013-12-10",
-      "engagements": [],
-      "eventName": null,
-      "id": "jakaya-mrisho-kikwete--2013-12-09--ZAF",
-      "officialId": "jakaya-mrisho-kikwete",
-      "purpose": "Visit to South Africa",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2013-12-09",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",

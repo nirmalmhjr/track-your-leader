@@ -2437,6 +2437,37 @@
       "wikidataId": "Q59797711"
     },
     {
+      "aliases": [
+        "Q139916213"
+      ],
+      "countryCode": "CHL",
+      "fullName": "Aristide Médenou",
+      "id": "q139916213",
+      "party": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristide_M%C3%A9d%C3%A9nou_%C3%A0_l'installation_officielle_des_membres_du_S%C3%A9nat_au_B%C3%A9nin_le_30_juillet_2026_(cropped).jpg?width=160",
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": null,
+          "id": "q139916213-p1",
+          "ministry": "Ministry of Finance of Chile",
+          "portfolio": "finance",
+          "startDate": "2026-05-24",
+          "title": "Minister of Finance of Chile"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q139916213"
+        }
+      ],
+      "summary": "Beninois politician.",
+      "wikidataId": "Q139916213"
+    },
+    {
       "aliases": [],
       "countryCode": "CHL",
       "fullName": "Arnaldo Carrasco",
@@ -2735,7 +2766,7 @@
           "url": "https://en.wikipedia.org/wiki/Bernardo_Leighton"
         }
       ],
-      "summary": "Bernardo Leighton Guzmán (16 August 1909 – 26 January 1995) was a Chilean lawyer and Christian Democratic politician. A co-founder of the National Falange, the movement that became the Christian Democratic Party (PDC), he served as a cabinet minister under three presidents—as Minister of Labor under Arturo Alessandri, Minister of Education under Gabriel González Videla, and Minister of the Interior under Eduardo Frei Montalva—and sat in the Chamber of Deputies for two periods.",
+      "summary": "Bernardo Leighton Guzmán (August 16, 1909, Negrete, Bío Bío Province – January 26, 1995, Santiago) was a Chilean Christian Democratic Party politician and lawyer. He served as minister of state under three presidents over a 36-year career.",
       "wikidataId": "Q728988"
     },
     {
@@ -14243,35 +14274,6 @@
       ],
       "summary": "María Pilar Armanet Armanet (born 4 February 1950) is a Chilean politician and lawyer who served as Minister Secretary-General of Government during the first government of Michelle Bachelet (2006–2010). She was the head of the University of the Americas.",
       "wikidataId": "Q9059598"
-    },
-    {
-      "aliases": [],
-      "countryCode": "CHL",
-      "fullName": "Q139916213",
-      "id": "q139916213",
-      "party": null,
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aristide_M%C3%A9d%C3%A9nou_%C3%A0_l'installation_officielle_des_membres_du_S%C3%A9nat_au_B%C3%A9nin_le_30_juillet_2026_(cropped).jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "q139916213-p1",
-          "ministry": "Ministry of Finance of Chile",
-          "portfolio": "finance",
-          "startDate": "2026-05-24",
-          "title": "Minister of Finance of Chile"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q139916213"
-        }
-      ],
-      "summary": "Beninois politician.",
-      "wikidataId": "Q139916213"
     },
     {
       "aliases": [],
@@ -27197,37 +27199,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "San Salvador",
-        "coordinates": [
-          -89.191155555,
-          13.697597222
-        ],
-        "countryCode": "SLV",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-08-12",
-      "engagements": [
-        "Met President Salvador Sanchez Ceren",
-        "Signed agreements"
-      ],
-      "eventName": null,
-      "id": "michelle-bachelet--2015-08-11--SLV",
-      "officialId": "michelle-bachelet",
-      "purpose": "Visit to El Salvador",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-08-11",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Mexico City",
         "coordinates": [
           -99.13589,
@@ -27271,7 +27242,10 @@
         "region": "Americas"
       },
       "endDate": "2015-08-14",
-      "engagements": [],
+      "engagements": [
+        "Met President Salvador Sanchez Ceren",
+        "Signed agreements"
+      ],
       "eventName": null,
       "id": "michelle-bachelet--2015-08-14--SLV",
       "officialId": "michelle-bachelet",
@@ -27280,6 +27254,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Michelle_Bachelet"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-08-14",

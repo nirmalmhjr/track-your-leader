@@ -29,6 +29,8 @@ const rosterMemberSchema = z.object({
     name: z.string(),
     /** Terms keyed by expanded office title. */
     positions: z.record(z.string(), rosterTermSchema),
+    /** Which version of the name search looked them up; a better search looks everyone up again. */
+    searchVersion: z.number().optional(),
     wikidataId: z.string().nullable(),
 });
 

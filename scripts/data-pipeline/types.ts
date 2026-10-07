@@ -139,5 +139,7 @@ export interface PipelineReport {
         rowsSkipped: SkippedRow[];
         title: string;
     }[];
+    /** Trips dated after the traveller's death or in their childhood: someone else's. */
+    tripsOutsideLifetime: string[];
     unmatchedOfficials: string[];
 }

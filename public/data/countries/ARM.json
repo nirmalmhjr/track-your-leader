@@ -2494,6 +2494,39 @@
       "wikidataId": "Q6369479"
     },
     {
+      "aliases": [
+        "Kazaryan, Karlos Bagratovich",
+        "Казарян, Карлос Багратович",
+        "Կառլոս Ղազարյան"
+      ],
+      "countryCode": "ARM",
+      "fullName": "Karrlos Ghazaryan",
+      "id": "q20512546",
+      "party": null,
+      "photoUrl": null,
+      "positions": [
+        {
+          "categories": [
+            "minister"
+          ],
+          "endDate": "1991-01-01",
+          "id": "q20512546-p1",
+          "ministry": "Ministry of Internal Affairs of Armenia",
+          "portfolio": "home_affairs",
+          "startDate": "1990-01-01",
+          "title": "Minister of Internal Affairs of Armenia"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q20512546"
+        }
+      ],
+      "summary": "",
+      "wikidataId": "Q20512546"
+    },
+    {
       "aliases": [],
       "countryCode": "ARM",
       "fullName": "Leonard Petrosyan",
@@ -3649,35 +3682,6 @@
       ],
       "summary": "Zohrab Hrachiki Mnatsakanyan (Armenian: Զոհրաբ Հրաչիկի Մնացականյան, born 20 March 1966) is an Armenian diplomat. Mnatsakanyan previously served as Minister of Foreign Affairs and Armenia's Permanent Representative to the United Nations.",
       "wikidataId": "Q6510832"
-    },
-    {
-      "aliases": [],
-      "countryCode": "ARM",
-      "fullName": "Казарян, Карлос Багратович",
-      "id": "q20512546",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": "1991-01-01",
-          "id": "q20512546-p1",
-          "ministry": "Ministry of Internal Affairs of Armenia",
-          "portfolio": "home_affairs",
-          "startDate": "1990-01-01",
-          "title": "Minister of Internal Affairs of Armenia"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q20512546"
-        }
-      ],
-      "summary": "",
-      "wikidataId": "Q20512546"
     },
     {
       "aliases": [],
@@ -6402,37 +6406,13 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Armen_Sarkissian"
-        }
-      ],
-      "startDate": "2021-07-20",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Doha",
-        "coordinates": [
-          51.529444444,
-          25.286111111
-        ],
-        "countryCode": "QAT",
-        "precision": "country",
-        "region": "Asia"
-      },
-      "endDate": "2021-07-23",
-      "engagements": [],
-      "eventName": null,
-      "id": "armen-sarkissian--2021-07-23--QAT",
-      "officialId": "armen-sarkissian",
-      "purpose": "Visit to Qatar",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2021-07-23",
+      "startDate": "2021-07-20",
       "statusHint": null,
       "type": "other"
     },
@@ -9913,7 +9893,7 @@
       },
       "endDate": "2019-09-22",
       "engagements": [],
-      "eventName": null,
+      "eventName": "UN General Assembly general debate",
       "id": "nikol-pashinyan--2019-09-21--USA",
       "officialId": "nikol-pashinyan",
       "purpose": "Attended the UN Seventy-fourth session of the United Nations General Assembly.",
@@ -9926,33 +9906,6 @@
       "startDate": "2019-09-21",
       "statusHint": null,
       "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2019-09-25",
-      "engagements": [],
-      "eventName": "UN General Assembly general debate",
-      "id": "nikol-pashinyan--2019-09-25--USA",
-      "officialId": "nikol-pashinyan",
-      "purpose": "Addressed the general debate of the seventy-fourth session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-fourth_session_of_the_United_Nations_General_Assembly"
-        }
-      ],
-      "startDate": "2019-09-25",
-      "statusHint": null,
-      "type": "multilateral_meeting"
     },
     {
       "datePrecision": "day",
@@ -16977,36 +16930,6 @@
       "destination": {
         "city": "Paris",
         "coordinates": [
-          2.3522,
-          48.8566
-        ],
-        "countryCode": "FRA",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2008-11-04",
-      "engagements": [
-        "Met Prime Minister Francois Fillon"
-      ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2008-11-04--FRA",
-      "officialId": "serzh-sargsyan",
-      "purpose": "Visit to France",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2008-11-04",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Paris",
-        "coordinates": [
           2.352222222,
           48.856666666
         ],
@@ -17014,7 +16937,9 @@
         "region": "Europe"
       },
       "endDate": "2008-11-06",
-      "engagements": [],
+      "engagements": [
+        "Met Prime Minister Francois Fillon"
+      ],
       "eventName": null,
       "id": "serzh-sargsyan--2008-11-06--FRA",
       "officialId": "serzh-sargsyan",
@@ -17023,6 +16948,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2008-11-06",
@@ -22505,7 +22434,9 @@
         "region": "Europe"
       },
       "endDate": "2016-06-20",
-      "engagements": [],
+      "engagements": [
+        "Met President Vladimir Putin"
+      ],
       "eventName": "Meeting with President of Armenia Serzh Sargsyan",
       "id": "serzh-sargsyan--2016-06-20--RUS",
       "officialId": "serzh-sargsyan",
@@ -22518,41 +22449,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Serzh_Sargsyan"
-        }
-      ],
-      "startDate": "2016-06-20",
-      "statusHint": null,
-      "type": "diplomatic_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Moscow",
-        "coordinates": [
-          37.6175,
-          55.750555555
-        ],
-        "countryCode": "RUS",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2016-06-22",
-      "engagements": [
-        "Met President Vladimir Putin"
-      ],
-      "eventName": null,
-      "id": "serzh-sargsyan--2016-06-22--RUS",
-      "officialId": "serzh-sargsyan",
-      "purpose": "Visit to Russia",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2016-06-22",
+      "startDate": "2016-06-20",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",

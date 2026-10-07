@@ -25058,7 +25058,9 @@
         "region": "Europe"
       },
       "endDate": "2018-09-07",
-      "engagements": [],
+      "engagements": [
+        "Met Prime Minister Zoran Zaev"
+      ],
       "eventName": null,
       "id": "sebastian-kurz--2018-09-07--MKD",
       "officialId": "sebastian-kurz",
@@ -25067,41 +25069,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_state_visits_to_Macedonia"
-        }
-      ],
-      "startDate": "2018-09-07",
-      "statusHint": null,
-      "type": "state_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Skopje",
-        "coordinates": [
-          21.431666666,
-          41.996111111
-        ],
-        "countryCode": "MKD",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-09-10",
-      "engagements": [
-        "Met Prime Minister Zoran Zaev"
-      ],
-      "eventName": null,
-      "id": "sebastian-kurz--2018-09-10--MKD",
-      "officialId": "sebastian-kurz",
-      "purpose": "Visit to North Macedonia",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-10",
+      "startDate": "2018-09-07",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "state_visit"
     },
     {
       "datePrecision": "day",

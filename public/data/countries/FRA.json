@@ -23349,7 +23349,7 @@
       "fullName": "Jean de Lipkowski",
       "id": "jean-de-lipkowski",
       "party": "Rally for the Republic",
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mesdemoiselles_Jeanine_de_Lipkowski%2C_Solange_de_Lipkowski%2C_Messieurs_Jean_No%C3%ABl_de_Lipkowski_et_Ren%C3%A9_de_Lipkowski_-_A65057.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -39878,7 +39878,8 @@
       },
       "endDate": "2018-06-26",
       "engagements": [
-        "Talks praised strong ties, the Church’s social role, and addressed climate, migration, disarmament, global conflicts, and the future of the European project."
+        "Talks praised strong ties, the Church’s social role, and addressed climate, migration, disarmament, global conflicts, and the future of the European project.",
+        "Gave a public address"
       ],
       "eventName": null,
       "id": "emmanuel-macron-fra--2018-06-26--VAT",
@@ -39888,6 +39889,10 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Emmanuel_Macron"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2018-06-26",
@@ -39924,36 +39929,6 @@
       "startDate": "2018-06-28",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Vatican City",
-        "coordinates": [
-          12.453,
-          41.904
-        ],
-        "countryCode": "VAT",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-06-29",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": null,
-      "id": "emmanuel-macron-fra--2018-06-28--VAT",
-      "officialId": "emmanuel-macron-fra",
-      "purpose": "Visit to Vatican City",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2018-06-28",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
@@ -59959,7 +59934,9 @@
         "region": "Africa"
       },
       "endDate": "1984-12-10",
-      "engagements": [],
+      "engagements": [
+        "Met President Juvenal Habyarimana"
+      ],
       "eventName": null,
       "id": "francois-mitterrand--1984-12-10--RWA",
       "officialId": "francois-mitterrand",
@@ -59968,11 +59945,15 @@
         {
           "label": "Wikipedia",
           "url": "https://fr.wikipedia.org/wiki/Liste_des_voyages_pr%C3%A9sidentiels_%C3%A0_l'%C3%A9tranger_de_Fran%C3%A7ois_Mitterrand"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1984-12-10",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",
@@ -60031,36 +60012,6 @@
           "label": "Wikipedia",
           "url": "https://fr.wikipedia.org/wiki/Liste_des_voyages_pr%C3%A9sidentiels_%C3%A0_l'%C3%A9tranger_de_Fran%C3%A7ois_Mitterrand"
         },
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1984-12-12",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Kigali",
-        "coordinates": [
-          30.115,
-          -1.9525
-        ],
-        "countryCode": "RWA",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1984-12-13",
-      "engagements": [
-        "Met President Juvenal Habyarimana"
-      ],
-      "eventName": null,
-      "id": "francois-mitterrand--1984-12-12--RWA",
-      "officialId": "francois-mitterrand",
-      "purpose": "Visit to Rwanda",
-      "sources": [
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
@@ -60464,36 +60415,6 @@
     {
       "datePrecision": "day",
       "destination": {
-        "city": "Bamako",
-        "coordinates": [
-          -7.992222222,
-          12.645833333
-        ],
-        "countryCode": "MLI",
-        "precision": "country",
-        "region": "Africa"
-      },
-      "endDate": "1986-11-14",
-      "engagements": [
-        "Met President Moussa Traore"
-      ],
-      "eventName": null,
-      "id": "francois-mitterrand--1986-11-13--MLI",
-      "officialId": "francois-mitterrand",
-      "purpose": "Visit to Mali",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "1986-11-13",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
         "city": "Lomé",
         "coordinates": [
           1.215833333,
@@ -60534,7 +60455,9 @@
         "region": "Africa"
       },
       "endDate": "1986-11-16",
-      "engagements": [],
+      "engagements": [
+        "Met President Moussa Traore"
+      ],
       "eventName": null,
       "id": "francois-mitterrand--1986-11-16--MLI",
       "officialId": "francois-mitterrand",
@@ -60543,11 +60466,15 @@
         {
           "label": "Wikipedia",
           "url": "https://fr.wikipedia.org/wiki/Liste_des_voyages_pr%C3%A9sidentiels_%C3%A0_l'%C3%A9tranger_de_Fran%C3%A7ois_Mitterrand"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "1986-11-16",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

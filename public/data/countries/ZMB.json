@@ -2554,36 +2554,8 @@
       "wikidataId": "Q137697658"
     },
     {
-      "aliases": [],
-      "countryCode": "ZMB",
-      "fullName": "Jack Mwiimbu",
-      "id": "jack-mwiimbu",
-      "party": null,
-      "photoUrl": null,
-      "positions": [
-        {
-          "categories": [
-            "minister"
-          ],
-          "endDate": null,
-          "id": "jack-mwiimbu-p1",
-          "ministry": "Ministry of Home Affairs",
-          "portfolio": "home_affairs",
-          "startDate": null,
-          "title": "Minister of Home Affairs"
-        }
-      ],
-      "sources": [
-        {
-          "label": "CIA World Leaders",
-          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/zambia/"
-        }
-      ],
-      "summary": "",
-      "wikidataId": null
-    },
-    {
       "aliases": [
+        "Jack Mwiimbu",
         "Jacob Jack Mwiimbu"
       ],
       "countryCode": "ZMB",
@@ -2605,10 +2577,21 @@
         },
         {
           "categories": [
-            "legislator"
+            "minister"
           ],
           "endDate": null,
           "id": "jacob-mwiimbu-p2",
+          "ministry": "Ministry of Home Affairs",
+          "portfolio": "home_affairs",
+          "startDate": "2021-08-27",
+          "title": "Minister of Home Affairs"
+        },
+        {
+          "categories": [
+            "legislator"
+          ],
+          "endDate": null,
+          "id": "jacob-mwiimbu-p3",
           "ministry": null,
           "portfolio": null,
           "startDate": "2016-08-11",
@@ -2617,8 +2600,8 @@
       ],
       "sources": [
         {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q45384555"
+          "label": "CIA World Leaders",
+          "url": "https://www.cia.gov/resources/world-leaders/foreign-governments/zambia/"
         },
         {
           "label": "Wikipedia",
@@ -8150,7 +8133,8 @@
       },
       "endDate": "2018-09-21",
       "engagements": [
-        "President Lungu addressed the United Nations General Assembly."
+        "President Lungu addressed the United Nations General Assembly.",
+        "Gave a public address"
       ],
       "eventName": "73rd session of the United Nations General Assembly",
       "id": "edgar-lungu--2018-09-16--USA",
@@ -8160,44 +8144,15 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_international_presidential_trips_made_by_Edgar_Lungu"
-        }
-      ],
-      "startDate": "2018-09-16",
-      "statusHint": null,
-      "type": "conference"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "New York City",
-        "coordinates": [
-          -74.006111111,
-          40.712777777
-        ],
-        "countryCode": "USA",
-        "region": "Americas"
-      },
-      "endDate": "2018-09-25",
-      "engagements": [
-        "Gave a public address"
-      ],
-      "eventName": "UN General Assembly general debate",
-      "id": "edgar-lungu--2018-09-25--USA",
-      "officialId": "edgar-lungu",
-      "purpose": "Addressed the general debate of the seventy-third session of the UN General Assembly",
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/General_debate_of_the_seventy-third_session_of_the_United_Nations_General_Assembly"
         },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "2018-09-25",
+      "startDate": "2018-09-16",
       "statusHint": null,
-      "type": "multilateral_meeting"
+      "type": "conference"
     },
     {
       "datePrecision": "day",

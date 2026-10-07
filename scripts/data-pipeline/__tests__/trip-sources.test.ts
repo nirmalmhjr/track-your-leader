@@ -222,6 +222,10 @@ test("UK minister cells separate the office from the name and honorifics", () =>
         }
     );
     assert.equal(parseMinisterCell("EARL HOWE").name, "Earl Howe");
+    assert.deepEqual(parseMinisterCell("Secretary of State: Lord Mandelson"), {
+        name: "Lord Mandelson",
+        title: "Secretary of State",
+    });
     assert.deepEqual(parseMinisterCell("Lord Ahmad of Wimbledon, Minister of State"), {
         name: "Lord Ahmad of Wimbledon",
         title: "Minister of State",

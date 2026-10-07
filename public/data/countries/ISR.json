@@ -28890,7 +28890,9 @@
         "region": "Americas"
       },
       "endDate": "1996-09-06",
-      "engagements": [],
+      "engagements": [
+        "Met President Bill Clinton"
+      ],
       "eventName": null,
       "id": "benjamin-netanyahu--1996-09-06--USA",
       "officialId": "benjamin-netanyahu",
@@ -28903,39 +28905,13 @@
         {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/List_of_diplomatic_visits_to_the_United_States%3A_Asia"
-        }
-      ],
-      "startDate": "1996-09-06",
-      "statusHint": null,
-      "type": "other"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Washington",
-        "coordinates": [
-          -77.0369,
-          38.9072
-        ],
-        "countryCode": "USA",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "1996-09-11",
-      "engagements": [
-        "Met President Bill Clinton"
-      ],
-      "eventName": null,
-      "id": "benjamin-netanyahu--1996-09-09--USA",
-      "officialId": "benjamin-netanyahu",
-      "purpose": "Visit to United States",
-      "sources": [
+        },
         {
           "label": "COLT dataset",
           "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
-      "startDate": "1996-09-09",
+      "startDate": "1996-09-06",
       "statusHint": null,
       "type": "official_visit"
     },

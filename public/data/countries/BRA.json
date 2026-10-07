@@ -13996,7 +13996,7 @@
       "fullName": "Murílio de Avellar Hingel",
       "id": "murilio-de-avellar-hingel",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mur%C3%ADlio_de_Avellar_Hingel_assinatura.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -30664,40 +30664,12 @@
           -16.495833333
         ],
         "countryCode": "BOL",
-        "precision": "country",
-        "region": "Americas"
-      },
-      "endDate": "2015-01-22",
-      "engagements": [
-        "Met President Evo Morales"
-      ],
-      "eventName": null,
-      "id": "dilma-rousseff--2015-01-22--BOL",
-      "officialId": "dilma-rousseff",
-      "purpose": "Visit to Bolivia",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2015-01-22",
-      "statusHint": null,
-      "type": "official_visit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "La Paz",
-        "coordinates": [
-          -68.133333333,
-          -16.495833333
-        ],
-        "countryCode": "BOL",
         "region": "Americas"
       },
       "endDate": "2015-01-25",
-      "engagements": [],
+      "engagements": [
+        "Met President Evo Morales"
+      ],
       "eventName": null,
       "id": "dilma-rousseff--2015-01-25--BOL",
       "officialId": "dilma-rousseff",
@@ -30706,11 +30678,15 @@
         {
           "label": "Wikipedia",
           "url": "https://pt.wikipedia.org/wiki/Lista_de_viagens_presidenciais_de_Dilma_Rousseff"
+        },
+        {
+          "label": "COLT dataset",
+          "url": "https://doi.org/10.7910/DVN/HJK7DN"
         }
       ],
       "startDate": "2015-01-25",
       "statusHint": null,
-      "type": "other"
+      "type": "official_visit"
     },
     {
       "datePrecision": "day",

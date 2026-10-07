@@ -175,42 +175,6 @@
     },
     {
       "aliases": [
-        "Bonifacio Ondo Edu",
-        "Bonifacio Ondó Edú-Aguong"
-      ],
-      "countryCode": "ESP",
-      "fullName": "Bonifacio Ondó Edu",
-      "id": "bonifacio-ondo-edu",
-      "party": "National Unity Movement of Equatorial Guinea",
-      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonifacio_Ondo_Edu.jpg?width=160",
-      "positions": [
-        {
-          "categories": [
-            "head_of_government"
-          ],
-          "endDate": "1968-10-12",
-          "id": "bonifacio-ondo-edu-p1",
-          "ministry": null,
-          "portfolio": null,
-          "startDate": "1963-12-15",
-          "title": "Prime minister of Spanish Guinea"
-        }
-      ],
-      "sources": [
-        {
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q732636"
-        },
-        {
-          "label": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/Bonifacio_Ond%C3%B3_Ed%C3%BA"
-        }
-      ],
-      "summary": "Bonifacio Ondó Edú-Aguong (19 March 1922 – 5 March 1969) was an Equatoguinean politician who served as the Prime Minister of Equatorial Guinea from 1964 to 1968 while it was still under Spanish colonial rule, as Spanish Guinea. He played a leading role in the country's independence, and led the National Unity Movement of Equatorial Guinea from 1959 until his death.",
-      "wikidataId": "Q732636"
-    },
-    {
-      "aliases": [
         "Rodríguez Zapatero",
         "ZP",
         "Zapatero"
@@ -9911,7 +9875,7 @@
         },
         {
           "categories": [
-            "head_of_government"
+            "regional_leader"
           ],
           "endDate": "2006-05-11",
           "id": "josep-bargallo-i-valls-p3",
@@ -18761,7 +18725,7 @@
       "fullName": "José Santos Peralba",
       "id": "jose-santos-peralba",
       "party": null,
-      "photoUrl": null,
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Jos%C3%A9_Santos_Peralba_Gir%C3%A1ldez%2C_Cholo_de_Sabar%C3%ADs.jpg?width=160",
       "positions": [
         {
           "categories": [
@@ -47910,7 +47874,7 @@
           "url": "https://en.wikipedia.org/wiki/Manuel_Fraga"
         }
       ],
-      "summary": "Manuel Fraga Iribarne was a Spanish professor and politician during the dictatorship of Francisco Franco, and one of the founders of the People's Alliance. Fraga was the Minister of Information and Tourism between 1962 and 1969, Ambassador to the United Kingdom between 1973 and 1975, Minister of the Interior in 1975, Second Deputy Prime Minister between 1975 and 1976.",
+      "summary": "Manuel Fraga Iribarne was a Spanish professor and politician during Francoist Spain, and one of the founders of the People's Alliance. Fraga was the Minister of Information and Tourism between 1962 and 1969, Ambassador to the United Kingdom between 1973 and 1975, Minister of the Interior in 1975, Second Deputy Prime Minister between 1975 and 1976.",
       "wikidataId": "Q276043"
     },
     {
@@ -63220,8 +63184,12 @@
       "eventName": null,
       "id": "jose-luis-rodriguez-zapatero--2004-12-10--RUS",
       "officialId": "jose-luis-rodriguez-zapatero",
-      "purpose": "Visit to Russia",
+      "purpose": "President Vladimir Putin met with Spanish Prime Minister Jose Luis Rodriguez Zapatero",
       "sources": [
+        {
+          "label": "Kremlin (CC BY 4.0)",
+          "url": "http://en.kremlin.ru/events/president/news/32363"
+        },
         {
           "label": "Wikipedia",
           "url": "https://es.wikipedia.org/wiki/Anexo%3AVisitas_oficiales_al_exterior_del_presidente_del_Gobierno_Jos%C3%A9_Luis_Rodr%C3%ADguez_Zapatero"
@@ -63233,7 +63201,7 @@
       ],
       "startDate": "2004-12-10",
       "statusHint": null,
-      "type": "official_visit"
+      "type": "diplomatic_visit"
     },
     {
       "datePrecision": "day",
@@ -83670,34 +83638,6 @@
       "startDate": "2018-06-24",
       "statusHint": null,
       "type": "summit"
-    },
-    {
-      "datePrecision": "day",
-      "destination": {
-        "city": "Berlin",
-        "coordinates": [
-          13.405,
-          52.52
-        ],
-        "countryCode": "DEU",
-        "precision": "country",
-        "region": "Europe"
-      },
-      "endDate": "2018-06-24",
-      "engagements": [],
-      "eventName": null,
-      "id": "pedro-sanchez--2018-06-24--DEU",
-      "officialId": "pedro-sanchez",
-      "purpose": "Visit to Germany",
-      "sources": [
-        {
-          "label": "COLT dataset",
-          "url": "https://doi.org/10.7910/DVN/HJK7DN"
-        }
-      ],
-      "startDate": "2018-06-24",
-      "statusHint": null,
-      "type": "other"
     },
     {
       "datePrecision": "day",
