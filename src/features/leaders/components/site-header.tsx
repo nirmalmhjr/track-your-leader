@@ -1,29 +1,17 @@
 "use client";
 
-import { IconMap2, IconRoute, IconUsers } from "@tabler/icons-react";
+import { IconRoute } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import { Suspense } from "react";
 
 import { SettingsMenu } from "@/components/shared/settings-menu";
+import { SiteNav } from "@/components/shared/site-nav";
 import { ROUTES } from "@/configs/routes";
-import { Link, usePathname } from "@/i18n/navigation";
-import { cn } from "@/lib/utils";
-
-const NAV_ITEMS = [
-    { href: ROUTES.HOME, icon: IconMap2, key: "map" },
-    { href: ROUTES.LEADERS, icon: IconUsers, key: "leaders" },
-] as const;
-
-const isActive = (pathname: string, href: string): boolean =>
-    href === ROUTES.HOME
-        ? pathname === ROUTES.HOME
-        : pathname === href || pathname.startsWith(`${href}/`);
+import { Link } from "@/i18n/navigation";
 
 /** Application bar for the directory pages: brand, the two sections and settings. */
 export function SiteHeader() {
-    const t = useTranslations("Leaders.nav");
     const tApp = useTranslations("Explorer.app");
-    const pathname = usePathname();
 
     return (
         <header className="flex h-14 shrink-0 items-center gap-3 border-b bg-sidebar px-3 md:px-4">
@@ -42,27 +30,8 @@ export function SiteHeader() {
                 </span>
             </Link>
 
-            <nav aria-label={t("label")} className="flex items-center gap-1">
-                {NAV_ITEMS.map(({ href, icon: Icon, key }) => {
-                    const active = isActive(pathname, href);
-                    return (
-                        <Link
-                            aria-current={active ? "page" : undefined}
-                            className={cn(
-                                "flex h-8 items-center gap-1.5 rounded-md px-2.5 font-medium text-muted-foreground text-sm outline-none transition-colors hover:bg-muted hover:text-foreground focus-visible:ring-3 focus-visible:ring-ring/50",
-                                active && "bg-muted text-foreground"
-                            )}
-                            href={href}
-                            key={key}
-                        >
-                            <Icon aria-hidden className="size-4" />
-                            {t(key)}
-                        </Link>
-                    );
-                })}
-            </nav>
-
-            <div className="ml-auto flex items-center">
+            <div className="ml-auto flex items-center gap-1.5">
+                <SiteNav />
                 {/* The menu reads the query string, which would otherwise opt the page out of static rendering. */}
                 <Suspense fallback={null}>
                     <SettingsMenu />

@@ -100,7 +100,7 @@ export function ExplorerSearch() {
                     const item: CountryItem = {
                         alpha2: reference.alpha2,
                         code: reference.alpha3,
-                        detail: isTracked ? t("tracked") : reference.subregion,
+                        detail: reference.subregion,
                         id: `country-${reference.alpha3}`,
                         label,
                     };
@@ -109,7 +109,7 @@ export function ExplorerSearch() {
                     });
                 })
                 .sort((a, b) => a.item.label.localeCompare(b.item.label)),
-        [countryByCode, format, t]
+        [countryByCode, format]
     );
 
     const groups = useMemo((): SearchGroup[] => {

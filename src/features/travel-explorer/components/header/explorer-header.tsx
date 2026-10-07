@@ -1,24 +1,21 @@
 "use client";
 
-import { IconRoute, IconUsers } from "@tabler/icons-react";
+import { IconRoute } from "@tabler/icons-react";
 import { useTranslations } from "next-intl";
 import { useCallback } from "react";
 
 import { SettingsMenu } from "@/components/shared/settings-menu";
+import { SiteNav } from "@/components/shared/site-nav";
 import { badgeVariants } from "@/components/ui/badge";
-import { buttonVariants } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
-import { ROUTES } from "@/configs/routes";
 import { ExplorerSearch } from "@/features/travel-explorer/components/header/explorer-search";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
-import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
-/** Slim application bar: brand, a notice while showing sample data, search and settings. */
+/** Slim application bar: brand, a notice while showing sample data, search, sections and settings. */
 export function ExplorerHeader() {
     const t = useTranslations("Explorer.app");
-    const tNav = useTranslations("Leaders.nav");
     const { goToLevel } = useExplorerState();
     const goToWorld = useCallback(() => goToLevel("world"), [goToLevel]);
     const { dataSource } = useExplorerData();
@@ -61,14 +58,8 @@ export function ExplorerHeader() {
             ) : null}
 
             <div className="ml-auto flex items-center gap-1.5">
-                <Link
-                    className={buttonVariants({ size: "sm", variant: "ghost" })}
-                    href={ROUTES.LEADERS}
-                >
-                    <IconUsers data-icon="inline-start" />
-                    <span className="sr-only sm:not-sr-only">{tNav("leaders")}</span>
-                </Link>
                 <ExplorerSearch />
+                <SiteNav />
                 <SettingsMenu />
             </div>
         </header>
