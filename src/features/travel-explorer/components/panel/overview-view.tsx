@@ -26,11 +26,11 @@ import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { CountrySort } from "@/features/travel-explorer/types/explorer.types";
-import { createSearchEntry, rankSearchEntry } from "@/features/travel-explorer/utils/search.utils";
 import { countTrips } from "@/features/travel-explorer/utils/travel-aggregates.utils";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
+import { createSearchEntry, rankSearchEntry } from "@/lib/travel/search.utils";
 import { isFutureStatus, summarizeTravel } from "@/lib/travel/travel-summary.utils";
 import { normalizeSearchText } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";

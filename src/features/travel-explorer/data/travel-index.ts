@@ -3,6 +3,7 @@ import { z } from "zod";
 import { resolvePositionTitle } from "@/features/travel-explorer/utils/positions.utils";
 import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
 import { getCountryReference, getCountryRegion } from "@/lib/geo/country-reference";
+import { toSearchPerson } from "@/lib/travel/search.utils";
 import { PORTFOLIOS, ROLE_CATEGORIES, TRAVEL_TYPES } from "@/lib/travel/travel.constants";
 import type { CountryCode } from "@/types/geo.types";
 import type {
@@ -11,6 +12,7 @@ import type {
     Official,
     Place,
     Position,
+    SearchPerson,
     TrackedCountry,
     TravelRecord,
 } from "@/types/travel.types";
@@ -29,6 +31,9 @@ import {
  *   enums and repeated places as numbers. Enough for the map, search, filters and lists.
  * - `countries/<ISO3>.json` — one country's full records (biographies, trip purposes,
  *   engagements, sources), loaded when that country is opened.
+ * - `search.json` — the index's officials reduced to what the header search lists, so the
+ *   leaders pages can search people without loading every trip. Built from `index.json` by
+ *   `pnpm data:search` before every build.
  */
 
 export const DATA_BASE_PATH = "/data";
@@ -130,6 +135,22 @@ export const peopleFileSchema = z.object({
     version: z.literal(INDEX_VERSION),
 });
 export type PeopleFile = z.infer<typeof peopleFileSchema>;
+
+/** [id, country, name, title, 1 when in office today, trips] */
+const searchPersonRow = z.tuple([
+    z.string(),
+    code,
+    z.string(),
+    z.string(),
+    z.union([z.literal(0), z.literal(1)]),
+    z.number().int().min(0),
+]);
+export const searchIndexSchema = z.object({
+    people: z.array(searchPersonRow),
+    updatedOn: isoDate,
+    version: z.literal(INDEX_VERSION),
+});
+export type SearchIndex = z.infer<typeof searchIndexSchema>;
 
 export const countryDetailSchema = z.object({
     officials: z.array(generatedOfficialSchema),
@@ -430,3 +451,61 @@ export const decodeTravelIndex = (index: TravelIndex, today: IsoDate): TravelBas
     }
     return { countries, officials, recordsByOrigin, updatedOn: index.updatedOn };
 };
+
+/**
+ * Reduces the index to the people the header search lists.
+ *
+ * @param index - The validated index.
+ * @returns The search file's contents.
+ */
+export const encodeSearchIndex = (index: TravelIndex): SearchIndex => {
+    const tripCounts = new Map<number, number>();
+    for (const [officialIndex] of index.trips) {
+        tripCounts.set(officialIndex, (tripCounts.get(officialIndex) ?? 0) + 1);
+    }
+    return {
+        people: index.officials.map((row, officialIndex) => {
+            const person = toSearchPerson(decodeOfficial(row), tripCounts.get(officialIndex) ?? 0);
+            return [
+                person.id,
+                person.countryCode,
+                person.fullName,
+                person.title,
+                person.isCurrent ? 1 : 0,
+                person.tripCount,
+            ];
+        }),
+        updatedOn: index.updatedOn,
+        version: INDEX_VERSION,
+    };
+};
+
+/**
+ * Writes the search file with one person per line, like the index.
+ *
+ * @param index - The search file's contents.
+ * @returns JSON text.
+ */
+export const serializeSearchIndex = (index: SearchIndex): string =>
+    [
+        "{",
+        `"version":${index.version},"updatedOn":${JSON.stringify(index.updatedOn)},`,
+        `"people":[\n${index.people.map((row) => JSON.stringify(row)).join(",\n")}\n]`,
+        "}\n",
+    ].join("\n");
+
+/**
+ * Decodes the search file.
+ *
+ * @param index - The validated search file.
+ * @returns Everyone the header search lists.
+ */
+export const decodeSearchIndex = (index: SearchIndex): SearchPerson[] =>
+    index.people.map(([id, countryCode, fullName, title, isCurrent, tripCount]) => ({
+        countryCode,
+        fullName,
+        id,
+        isCurrent: isCurrent === 1,
+        title,
+        tripCount,
+    }));

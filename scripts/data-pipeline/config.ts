@@ -17,6 +17,8 @@ export const PIPELINE_CONFIG = {
     maxCountDropRatio: 0.2,
     /** Everyone else on record per country, unpacked from the warehouse for the app. */
     peopleDir: "public/data/people",
+    /** The index's officials reduced to what the header search lists, built from the index. */
+    searchFile: "public/data/search.json",
     /** Pipeline memory between runs (who held which office since when). */
     stateDir: "scripts/data-pipeline/state",
     /**

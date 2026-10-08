@@ -14,6 +14,9 @@ files:
 - `data/warehouse/people/<ISO3>.json.gz`: everyone else (about 300,000 legislators, judges,
   diplomats…), compressed. `pnpm data:people` unpacks them into `public/data/people/`
   (git-ignored), and `pnpm build` runs it first.
+- `public/data/search.json`: the index's officials reduced to name, country, title, whether in
+  office and trip count, for the header search on the leaders pages. `pnpm data:search` builds
+  it from the index (git-ignored), and `pnpm build` runs it first.
 
 ```bash
 pnpm data:collect                       # every source, every country, offices since 1945
@@ -24,6 +27,7 @@ pnpm data:collect --sources=none        # no trip source (all reuse stored claim
 pnpm data:sync                          # daily refresh of the featured countries (fast sources only)
 pnpm data:export                        # rebuild public/data/index.json from the country files (offline)
 pnpm data:people                        # unpack the people store into public/data/people/ (offline)
+pnpm data:search                        # build public/data/search.json from the index (offline)
 pnpm data:coverage                      # which leaders have years with few trips (offline)
 pnpm data:audit                         # duplicates, gaps and suspect records (offline)
 pnpm data:test                          # parser tests

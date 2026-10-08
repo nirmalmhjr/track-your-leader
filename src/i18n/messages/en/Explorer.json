@@ -5,15 +5,23 @@
     "sampleDataDescription": "Officials in this preview are fictional and their trips are illustrative. Countries, offices, cities and international events are real."
   },
   "search": {
-    "open": "Search countries",
+    "open": "Search countries and people",
     "placeholderShort": "Search…",
-    "placeholder": "Search a country by name or code…",
-    "title": "Search countries",
+    "placeholder": "Search a country or person…",
+    "title": "Search countries and people",
     "countries": "Countries",
-    "empty": "No country matches your search.",
+    "empty": "No country or person matches your search.",
     "navigate": "Navigate",
     "select": "Open",
-    "close": "Close"
+    "close": "Close",
+    "people": "People",
+    "inOffice": "In office",
+    "former": "Former",
+    "trips": "{count, plural, one {{countLabel} trip} other {{countLabel} trips}}",
+    "peopleHint": "Type another letter to search people too.",
+    "peopleLoading": "Loading people…",
+    "peopleError": "People couldn't be loaded.",
+    "retry": "Try again"
   },
   "settings": {
     "label": "Settings",

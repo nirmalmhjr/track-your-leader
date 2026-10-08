@@ -1,11 +1,12 @@
 import type { CountryCode } from "@/types/geo.types";
-import type { IsoDate, Official, TrackedCountry } from "@/types/travel.types";
+import type { IsoDate, Official, SearchPerson, TrackedCountry } from "@/types/travel.types";
 
 import {
     type LoadedCountryDetail,
     type LoadedTravelBase,
     loadCountryDetail,
     loadCountryPeople,
+    loadSearchPeople,
     loadTravelBase,
 } from "./travel-dataset";
 
@@ -26,13 +27,16 @@ export interface TravelDataClient {
     getIndex: (today: IsoDate, signal?: AbortSignal) => Promise<LoadedTravelBase>;
     /** Everyone else on record for a country (legislators, judges…), who has no trips. */
     getPeople: (code: CountryCode, signal?: AbortSignal) => Promise<Official[]>;
+    /** Everyone the header search lists, without their trips. */
+    getSearchPeople: (today: IsoDate, signal?: AbortSignal) => Promise<SearchPerson[]>;
 }
 
-/** Reads `public/data/index.json`, `countries/<ISO3>.json` and `people/<ISO3>.json`. */
+/** Reads `public/data/index.json`, `search.json`, `countries/<ISO3>.json` and `people/<ISO3>.json`. */
 export const staticFileClient: TravelDataClient = {
     getCountry: loadCountryDetail,
     getIndex: loadTravelBase,
     getPeople: loadCountryPeople,
+    getSearchPeople: loadSearchPeople,
 };
 
 /** The client the app uses. */

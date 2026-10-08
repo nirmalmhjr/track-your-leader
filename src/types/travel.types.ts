@@ -124,6 +124,28 @@ export interface Official {
     wikidataId: string | null;
 }
 
+/** An official as the header search lists them: enough to find, describe and open them. */
+export interface SearchPerson {
+    countryCode: CountryCode;
+    fullName: string;
+    id: string;
+    /** Holds an office today. */
+    isCurrent: boolean;
+    /** Title of their current office, otherwise of the most senior one they held. */
+    title: string;
+    tripCount: number;
+}
+
+/** A country as the header search lists it. */
+export interface SearchCountry {
+    alpha2: string;
+    code: CountryCode;
+    /** Subregion, shown under the name. */
+    detail: string;
+    /** Name in the active language. */
+    label: string;
+}
+
 /** Everything the explorer shows: tracked countries, their officials and all trips. */
 export interface TravelDataset {
     countries: readonly TrackedCountry[];

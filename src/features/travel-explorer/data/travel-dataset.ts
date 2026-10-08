@@ -1,13 +1,22 @@
+import { toSearchPerson } from "@/lib/travel/search.utils";
 import type { CountryCode } from "@/types/geo.types";
-import type { IsoDate, Official, TrackedCountry, TravelRecord } from "@/types/travel.types";
+import type {
+    IsoDate,
+    Official,
+    SearchPerson,
+    TrackedCountry,
+    TravelRecord,
+} from "@/types/travel.types";
 
 import { buildSampleTravelDataset } from "./sample/sample-dataset";
 import {
     countryDetailSchema,
     DATA_BASE_PATH,
     decodeOfficial,
+    decodeSearchIndex,
     decodeTravelIndex,
     peopleFileSchema,
+    searchIndexSchema,
     type TravelBase,
     toTravelRecord,
     travelIndexSchema,
@@ -178,4 +187,43 @@ export const loadCountryPeople = async (
         throw new Error(`People of ${code} unavailable (HTTP ${response.status})`);
     }
     return decodePeople(await response.json());
+};
+
+/**
+ * The header search's people, taken from the full index when the search file hasn't been built.
+ *
+ * @param base - The decoded index.
+ * @returns Everyone in the index, with their trip counts.
+ */
+const searchPeopleFromBase = ({ officials, recordsByOrigin }: TravelBase): SearchPerson[] => {
+    const tripCounts = new Map<string, number>();
+    for (const records of recordsByOrigin.values()) {
+        for (const record of records) {
+            tripCounts.set(record.officialId, (tripCounts.get(record.officialId) ?? 0) + 1);
+        }
+    }
+    return officials.map((official) => toSearchPerson(official, tripCounts.get(official.id) ?? 0));
+};
+
+/**
+ * Loads everyone the header search lists. Before `pnpm data:search` has run (in development),
+ * or with the samples, they are taken from the full index instead.
+ *
+ * @param today - Reference date for trip statuses, used only when reading the full index.
+ * @param signal - Aborts the request.
+ * @returns The people, each with a title and trip count.
+ * @throws When the file exists but can't be read or doesn't match the expected format.
+ */
+export const loadSearchPeople = async (
+    today: IsoDate,
+    signal?: AbortSignal
+): Promise<SearchPerson[]> => {
+    const response = await fetch(`${DATA_BASE_PATH}/search.json`, { signal });
+    if (response.status === HTTP_NOT_FOUND) {
+        return searchPeopleFromBase((await loadTravelBase(today, signal)).base);
+    }
+    if (!response.ok) {
+        throw new Error(`Search data unavailable (HTTP ${response.status})`);
+    }
+    return decodeSearchIndex(searchIndexSchema.parse(await response.json()));
 };

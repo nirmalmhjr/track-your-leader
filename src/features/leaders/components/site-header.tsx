@@ -7,10 +7,12 @@ import { Suspense } from "react";
 import { SettingsMenu } from "@/components/shared/settings-menu";
 import { SiteNav } from "@/components/shared/site-nav";
 import { ROUTES } from "@/configs/routes";
+import { DirectorySearch } from "@/features/leaders/components/directory-search";
 import { Link } from "@/i18n/navigation";
+import type { CountryCode } from "@/types/geo.types";
 
-/** Application bar for the directory pages: brand, the two sections and settings. */
-export function SiteHeader() {
+/** Application bar for the directory pages: brand, search, the two sections and settings. */
+export function SiteHeader({ countryCodes }: { countryCodes: readonly CountryCode[] }) {
     const tApp = useTranslations("Explorer.app");
 
     return (
@@ -31,6 +33,7 @@ export function SiteHeader() {
             </Link>
 
             <div className="ml-auto flex items-center gap-1.5">
+                <DirectorySearch countryCodes={countryCodes} />
                 <SiteNav />
                 {/* The menu reads the query string, which would otherwise opt the page out of static rendering. */}
                 <Suspense fallback={null}>
