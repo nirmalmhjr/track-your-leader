@@ -2,6 +2,7 @@
 
 import { type CSSProperties, memo } from "react";
 
+import { MapCountryOutline } from "@/features/travel-explorer/components/map/map-country-outline";
 import { COUNTRY_FILLS } from "@/features/travel-explorer/constants/map-style.constants";
 import type { MapCountryShape } from "@/features/travel-explorer/utils/map-geometry.utils";
 import { cn } from "@/lib/utils";
@@ -53,16 +54,10 @@ export const MapCountriesLayer = memo(function CountriesLayer({
                 );
             })}
             {highlightedShape ? (
-                <path
-                    className="pointer-events-none fill-none stroke-(--map-ink) [stroke-width:1.25] [vector-effect:non-scaling-stroke]"
-                    d={highlightedShape.path}
-                />
+                <MapCountryOutline path={highlightedShape.path} variant="hover" />
             ) : null}
             {selectedShape ? (
-                <path
-                    className="pointer-events-none fill-none stroke-(--map-selected-border) [stroke-width:1.5] [vector-effect:non-scaling-stroke]"
-                    d={selectedShape.path}
-                />
+                <MapCountryOutline path={selectedShape.path} variant="selected" />
             ) : null}
         </g>
     );

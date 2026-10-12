@@ -21,6 +21,9 @@
     --map-graticule: oklch(0.55 0.01 250 / 0.1);
     --map-selected: oklch(0.6 0.02 250);
     --map-selected-border: oklch(0.18 0.01 250);
+    --map-selected-casing: transparent;
+    --map-hover-border: oklch(0.2 0.01 250);
+    --map-hover-casing: transparent;
     --map-seq-1: #cde2fb;
     --map-seq-2: #9ec5f4;
     --map-seq-3: #6da7ec;
@@ -41,6 +44,9 @@
     --map-graticule: oklch(0.8 0.01 250 / 0.06);
     --map-selected: oklch(0.62 0.02 250);
     --map-selected-border: oklch(0.95 0.005 250);
+    --map-selected-casing: transparent;
+    --map-hover-border: oklch(0.96 0.005 250);
+    --map-hover-casing: transparent;
     --map-seq-1: #163f73;
     --map-seq-2: #1c5cab;
     --map-seq-3: #2a78d6;
@@ -57,7 +63,8 @@
  * Terrain style: the Natural Earth II imagery (`pnpm geo:terrain`) shows through the land. Trip
  * shading is one blue at rising strength, so countries with few trips keep their natural colours.
  * The ocean is the imagery's own water colour, so the two meet without an edge. The imagery is
- * light in both themes, so these values don't change with the theme.
+ * light in both themes, so these values don't change with the theme. Outlines are white over a
+ * soft dark casing, which stays visible on forest, desert, ice and sea alike.
  */
 [data-map-style="terrain"] {
     --map-ocean: #6aa1c9;
@@ -66,7 +73,10 @@
     --map-border: oklch(1 0 0 / 0.6);
     --map-graticule: transparent;
     --map-selected: oklch(0.6 0.02 250 / 0.45);
-    --map-selected-border: oklch(0.18 0.01 250);
+    --map-selected-border: oklch(1 0 0);
+    --map-selected-casing: oklch(0.2 0.02 250 / 0.55);
+    --map-hover-border: oklch(1 0 0 / 0.9);
+    --map-hover-casing: oklch(0.2 0.02 250 / 0.35);
     --map-seq-1: rgb(37 106 191 / 0.12);
     --map-seq-2: rgb(37 106 191 / 0.22);
     --map-seq-3: rgb(37 106 191 / 0.32);

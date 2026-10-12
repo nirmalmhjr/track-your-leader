@@ -2,9 +2,9 @@
 
 import { memo, useId } from "react";
 
+import { MapCountryOutline } from "@/features/travel-explorer/components/map/map-country-outline";
 import type { Bounds, MapCountryShape } from "@/features/travel-explorer/utils/map-geometry.utils";
 import { useFlagImageUrl } from "@/hooks/use-flag-image-url";
-import { cn } from "@/lib/utils";
 
 /** Flags that are not rectangles; they are fitted whole rather than cropped. */
 const NON_RECTANGULAR_FLAGS = new Set(["np"]);
@@ -69,15 +69,14 @@ export const MapFlagFill = memo(function FlagFill({ shape, variant }: MapFlagFil
                 x={box.x}
                 y={box.y}
             />
-            <path
-                className={cn(
-                    "fill-none [vector-effect:non-scaling-stroke]",
-                    isSelected
-                        ? "stroke-(--map-selected-border) [stroke-width:1.5]"
-                        : "stroke-(--map-ink) [stroke-opacity:0.6] [stroke-width:1]"
-                )}
-                d={shape.path}
-            />
+            {isSelected ? (
+                <MapCountryOutline path={shape.path} variant="selected" />
+            ) : (
+                <path
+                    className="fill-none stroke-(--map-hover-border) [stroke-opacity:0.6] [stroke-width:1] [vector-effect:non-scaling-stroke]"
+                    d={shape.path}
+                />
+            )}
         </g>
     );
 });
