@@ -14,7 +14,12 @@ interface MapCountriesLayerProps {
     shapes: readonly MapCountryShape[];
 }
 
-const HOVER_FILL = "hover:fill-[color-mix(in_oklab,var(--country-fill)_82%,var(--map-ink))]";
+/**
+ * Hovered land darkens towards the ink, or takes the theme's own hover colour where land is a
+ * fade, which a colour mix can't take.
+ */
+const HOVER_FILL =
+    "hover:fill-[var(--map-hover-fill,color-mix(in_oklab,var(--country-fill)_82%,var(--map-ink)))]";
 
 /**
  * Country polygons in map units. Rendered once per data change and transformed as a group

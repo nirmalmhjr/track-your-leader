@@ -15,6 +15,7 @@ import {
     useState,
 } from "react";
 
+import { MapContinentGradients } from "@/features/travel-explorer/components/map/map-continent-gradients";
 import { MapCountriesLayer } from "@/features/travel-explorer/components/map/map-countries-layer";
 import { MapCountryCallout } from "@/features/travel-explorer/components/map/map-country-callout";
 import { MapFlagFill } from "@/features/travel-explorer/components/map/map-flag-fill";
@@ -22,22 +23,22 @@ import {
     type MapHoverTarget,
     MapHoverTooltip,
 } from "@/features/travel-explorer/components/map/map-hover-tooltip";
-import { MapLegend } from "@/features/travel-explorer/components/map/map-legend";
 import { MapRoutesLayer } from "@/features/travel-explorer/components/map/map-routes-layer";
 import { MapScopeSummary } from "@/features/travel-explorer/components/map/map-scope-summary";
-import { MapStyleToggle } from "@/features/travel-explorer/components/map/map-style-toggle";
+import { MapStylePreview } from "@/features/travel-explorer/components/map/map-style-preview";
 import { MapTerrainLayer } from "@/features/travel-explorer/components/map/map-terrain-layer";
 import { MapZoomControls } from "@/features/travel-explorer/components/map/map-zoom-controls";
 import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
-import {
-    COUNTRY_FILLS,
-    SEQUENTIAL_FILLS,
-} from "@/features/travel-explorer/constants/map-style.constants";
+import { COUNTRY_FILLS } from "@/features/travel-explorer/constants/map-style.constants";
 import { useExplorerData } from "@/features/travel-explorer/hooks/use-explorer-data";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
 import { type MapInsets, useMapZoom } from "@/features/travel-explorer/hooks/use-map-zoom";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { ExplorerSelection } from "@/features/travel-explorer/types/explorer.types";
+import {
+    continentFill,
+    getMapContinent,
+} from "@/features/travel-explorer/utils/map-continents.utils";
 import {
     type Bounds,
     combineBounds,
@@ -71,29 +72,23 @@ const COUNTRY_FRAME_ZOOM = 6.5;
 /** A selected country smaller than this share of the viewport keeps city labels off its flag. */
 const FLAG_LABEL_GUARD_MAX_SHARE = 0.2;
 const ROUTE_FRAME_ZOOM = 6;
-
+/**
+ * Country colours never depend on trips. Each country takes its continent's land (coloured in
+ * dark mode, plain otherwise); the terrain style leaves land clear; the selected country stands out.
+ */
 const computeFills = (
     shapes: readonly MapCountryShape[],
-    scene: MapScene,
-    trackedCodes: ReadonlySet<string>
+    focusCountry: string | null,
+    isTerrain: boolean
 ): Map<string, string> => {
     const fills = new Map<string, string>();
 
     for (const shape of shapes) {
-        const code = shape.reference?.alpha3;
-        let fill: string = COUNTRY_FILLS.land;
-
-        if (code === scene.focusCountry) {
+        const isSelected = Boolean(focusCountry) && shape.reference?.alpha3 === focusCountry;
+        let fill = isTerrain ? COUNTRY_FILLS.land : continentFill(getMapContinent(shape.reference));
+        if (isSelected) {
             fill = COUNTRY_FILLS.selected;
-        } else if (code) {
-            const step = scene.scale.stepFor(scene.values.get(code) ?? 0);
-            if (step >= 0) {
-                fill = SEQUENTIAL_FILLS[step];
-            } else if (scene.mode === "world" && trackedCodes.has(code)) {
-                fill = COUNTRY_FILLS.tracked;
-            }
         }
-
         fills.set(shape.key, fill);
     }
 
@@ -192,7 +187,6 @@ export function WorldMapCanvas({
             ),
         [shapes]
     );
-    const trackedCodes = useMemo(() => new Set(data.countryByCode.keys()), [data.countryByCode]);
 
     const scene = useMemo(
         () =>
@@ -209,8 +203,8 @@ export function WorldMapCanvas({
         [data, selection]
     );
     const fills = useMemo(
-        () => computeFills(shapes, scene, trackedCodes),
-        [shapes, scene, trackedCodes]
+        () => computeFills(shapes, scene.focusCountry, mapStyle === "terrain"),
+        [mapStyle, shapes, scene.focusCountry]
     );
     const focus = useMemo(
         () => ({
@@ -440,6 +434,7 @@ export function WorldMapCanvas({
                 width={width}
             >
                 <title id={titleId}>{t("title")}</title>
+                <MapContinentGradients shapes={shapes} />
                 <g transform={transform.toString()}>
                     {mapStyle === "terrain" ? (
                         <MapTerrainLayer height={height} transform={transform} width={width} />
@@ -494,7 +489,6 @@ export function WorldMapCanvas({
             ) : null}
 
             <MapScopeSummary left={overlayOffsets.left} scene={scene} />
-            <MapLegend bottom={overlayOffsets.bottom} left={overlayOffsets.left} scene={scene} />
             <MapZoomControls
                 bottom={overlayOffsets.bottom}
                 onFrameSelection={selection.country ? frameSelection : null}
@@ -502,9 +496,12 @@ export function WorldMapCanvas({
                 onZoomIn={zoomIn}
                 onZoomOut={zoomOut}
                 right={overlayOffsets.right}
-            >
-                <MapStyleToggle />
-            </MapZoomControls>
+            />
+            <MapStylePreview
+                bottom={overlayOffsets.bottom}
+                left={overlayOffsets.left}
+                shapes={shapes}
+            />
         </section>
     );
 }
