@@ -33,19 +33,14 @@
     --travel-cancelled: #898781;
     --map-ink: oklch(0.2 0.01 250);
     --map-halo: oklch(0.99 0 0);
-}
-
-:where(.dark) {
-    --map-ocean: oklch(0.17 0.035 262);
-    --map-land: oklch(0.34 0.06 270);
     /*
      * Each continent has its own colour, faded from bright in the north to deep in the south
      * (the map's continent gradients). Only colours that don't occur in nature, so nothing reads
      * as forest or desert, and they run west to east, cyan to rose, so they read as position.
-     * They never depend on trips.
+     * They never depend on trips. Light mode is pastel; dark mode sets its own brightness.
      */
-    --map-continent-top: 0.44 0.085;
-    --map-continent-bottom: 0.29 0.07;
+    --map-continent-top: 0.885 0.055;
+    --map-continent-bottom: 0.8 0.065;
     --map-hue-north-america: 215;
     --map-hue-south-america: 240;
     --map-hue-africa: 262;
@@ -59,6 +54,15 @@
     --map-land-asia: url("#map-land-asia");
     --map-land-oceania: url("#map-land-oceania");
     /* A colour mix can't take a gradient, so hovered land gets its own colour. */
+    --map-hover-fill: oklch(0.72 0.08 262);
+}
+
+:where(.dark) {
+    --map-ocean: oklch(0.17 0.035 262);
+    --map-land: oklch(0.34 0.06 270);
+    /* The continents' colours (see the light block), deeper for the dark background. */
+    --map-continent-top: 0.44 0.085;
+    --map-continent-bottom: 0.29 0.07;
     --map-hover-fill: oklch(0.44 0.08 240);
     --map-border: oklch(0.62 0.05 230 / 0.55);
     --map-graticule: oklch(0.8 0.01 250 / 0.06);
@@ -98,6 +102,8 @@
 [data-map-style="terrain"] {
     --map-ocean: #6aa1c9;
     --map-land: transparent;
+    /* Hovered land darkens slightly over the imagery instead of taking the flat map's colour. */
+    --map-hover-fill: initial;
     --map-border: oklch(1 0 0 / 0.6);
     --map-graticule: transparent;
     --map-selected: oklch(0.6 0.02 250 / 0.45);

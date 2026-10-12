@@ -38,7 +38,7 @@ import {
     fetchMinisterOffices,
     fetchOfficesByLabel,
 } from "./extract/leaders.extract";
-import { withoutExcludedPositions } from "./extract/leaders.overrides";
+import { removeExcludedPositions, withoutExcludedPositions } from "./extract/leaders.overrides";
 import {
     addTerritoryMonarchs,
     closeSupersededLeaderTerms,
@@ -652,6 +652,9 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
     const leaderDrafts = [...officialDrafts, ...matches.newDrafts, ...promoted];
     const bareTitles = dropBareGovernorGeneral(leaderDrafts);
     log.info(`${bareTitles} cabinet-list governor-general titles dropped for Wikidata's`);
+    // Twins folded in after the first sweep bring their own titles; a second sweep catches them.
+    const strayPositions = removeExcludedPositions(leaderDrafts);
+    log.info(`${strayPositions} excluded positions removed after folding in name twins`);
     const closedTerms = closeSupersededLeaderTerms(leaderDrafts);
     log.info(`${closedTerms} leader terms closed at their successor's start`);
     // Territories whose head of state is another country's monarch (Bermuda, the Cook Islands).

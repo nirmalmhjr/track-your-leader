@@ -76,7 +76,10 @@ function UpcomingTripRow({ record }: { record: TravelRecord }) {
                         </span>
                     </span>
                     <span className="flex items-center gap-2 text-muted-foreground text-xs">
-                        {format.relativeDays(record.startDate, today)}
+                        {/* "284 days ago" would count from 1 January for a trip known only by year. */}
+                        {record.datePrecision === "day"
+                            ? format.relativeDays(record.startDate, today)
+                            : null}
                         {record.status === "planned" ? (
                             <TravelStatusBadge record={record} today={today} />
                         ) : null}
@@ -213,7 +216,12 @@ export function OverviewView() {
 
     const upcoming = matchingRecords
         .filter((record) => isFutureStatus(record.status) && record.endDate >= today)
-        .sort((a, b) => a.startDate.localeCompare(b.startDate))
+        // Trips with a date come first, soonest first; those known only by month or year follow.
+        .sort(
+            (a, b) =>
+                Number(a.datePrecision !== "day") - Number(b.datePrecision !== "day") ||
+                a.startDate.localeCompare(b.startDate)
+        )
         .slice(0, OVERVIEW_UPCOMING_LIMIT);
 
     return (

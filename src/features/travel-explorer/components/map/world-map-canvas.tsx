@@ -73,8 +73,8 @@ const COUNTRY_FRAME_ZOOM = 6.5;
 const FLAG_LABEL_GUARD_MAX_SHARE = 0.2;
 const ROUTE_FRAME_ZOOM = 6;
 /**
- * Country colours never depend on trips. Each country takes its continent's land (coloured in
- * dark mode, plain otherwise); the terrain style leaves land clear; the selected country stands out.
+ * Country colours never depend on trips. Each country takes its continent's colour; the terrain
+ * style leaves land clear; the selected country stands out.
  */
 const computeFills = (
     shapes: readonly MapCountryShape[],

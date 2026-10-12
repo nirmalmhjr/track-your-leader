@@ -2,8 +2,8 @@ import type { Bounds, MapCountryShape } from "@/features/travel-explorer/utils/m
 import type { CountryReference } from "@/lib/geo/country-reference";
 
 /**
- * Continents drawn in their own colour in dark mode, west to east. Antarctica isn't drawn: the
- * flat map stops at 60°S.
+ * Continents drawn in their own colour, west to east. Antarctica isn't drawn: the flat map stops
+ * at 60°S.
  */
 export const MAP_CONTINENTS = [
     "north-america",
@@ -43,8 +43,8 @@ export const getMapContinent = (reference: CountryReference | null): MapContinen
 export const continentGradientId = (continent: MapContinent): string => `map-land-${continent}`;
 
 /**
- * Fill for a country: its continent's land where the theme defines one (dark mode paints each
- * continent with its own fade), and plain land otherwise.
+ * Fill for a country: its continent's land, a fade in the continent's own colour, where the
+ * theme defines one, and plain land otherwise.
  *
  * @param continent - The country's continent, if any.
  * @returns A CSS fill value.

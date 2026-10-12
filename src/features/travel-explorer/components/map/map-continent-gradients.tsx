@@ -9,9 +9,9 @@ import {
 import type { MapCountryShape } from "@/features/travel-explorer/utils/map-geometry.utils";
 
 /**
- * One fade per continent, bright at its north and deep at its south, in map units. Themes that
- * colour continents (dark mode) point `--map-land-<continent>` at these; the colours come from
- * `--map-continent-top`, `--map-continent-bottom` and each continent's `--map-hue-<continent>`.
+ * One fade per continent, bright at its north and deep at its south, in map units. The theme
+ * points `--map-land-<continent>` at these; the colours come from `--map-continent-top`,
+ * `--map-continent-bottom` (pastel in light mode, deeper in dark) and `--map-hue-<continent>`.
  */
 export const MapContinentGradients = memo(function ContinentGradients({
     shapes,

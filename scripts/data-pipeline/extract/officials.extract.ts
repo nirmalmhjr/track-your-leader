@@ -34,6 +34,7 @@ import {
 } from "../sources/wikidata";
 import { fetchIntros, fetchPageImages, PHOTO_LANGUAGES, wikipediaUrl } from "../sources/wikipedia";
 import type { OfficialDraft, PositionDraft } from "../types";
+import { overriddenName } from "./leaders.overrides";
 import { classifyTitle } from "./roles";
 import { type Roster, rosterKey } from "./roster";
 
@@ -322,9 +323,14 @@ const namesOf = (
     otherLabels: ReadonlyMap<string, Record<string, string>>
 ): { aliases: string[]; fullName: string } => {
     const labels = draft.wikidataId ? otherLabels.get(draft.wikidataId) : undefined;
+    const corrected = overriddenName(draft.wikidataId);
     const { name: fullName, original } = toLatinName(
-        stripParenthetical(person?.label ?? (labels ? bestLabel(labels) : null) ?? draft.name)
+        stripParenthetical(
+            corrected ?? person?.label ?? (labels ? bestLabel(labels) : null) ?? draft.name
+        )
     );
+    // A label known to be wrong ("Hugo Chávez" for Guyana's PM) mustn't stay findable either.
+    const wrongName = corrected ? person?.label : undefined;
     const aliases = [
         ...new Set([
             draft.name,
@@ -332,7 +338,7 @@ const namesOf = (
             ...(person?.aliases ?? []),
             ...(original ? [original] : []),
         ]),
-    ];
+    ].filter((alias) => alias !== wrongName);
     return { aliases, fullName };
 };
 

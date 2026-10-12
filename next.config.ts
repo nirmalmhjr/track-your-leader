@@ -39,6 +39,28 @@ const nextConfig: NextConfig = {
                 ],
                 source: "/(.*)",
             },
+            // Files in `public/` are otherwise re-checked on every visit (`max-age=0`). Map
+            // outlines and terrain tiles change only when rebuilt (`pnpm geo:*`): fresh for a
+            // week, then refreshed in the background. The travel data changes daily: fresh for
+            // five minutes, then shown at once while the newer copy loads.
+            {
+                headers: [
+                    {
+                        key: "Cache-Control",
+                        value: "public, max-age=604800, stale-while-revalidate=2592000",
+                    },
+                ],
+                source: "/geo/:path*",
+            },
+            {
+                headers: [
+                    {
+                        key: "Cache-Control",
+                        value: "public, max-age=300, stale-while-revalidate=86400",
+                    },
+                ],
+                source: "/data/:path*",
+            },
         ];
     },
 

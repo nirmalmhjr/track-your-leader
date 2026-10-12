@@ -11,14 +11,19 @@ import type { IsoDate, TravelRecord, TravelStatus, TravelSummary } from "@/types
 export const isFutureStatus = (status: TravelStatus): boolean => FUTURE_STATUSES.includes(status);
 
 /**
- * Whether a scheduled trip is happening today.
+ * Whether a scheduled trip is happening today. Only an exactly dated trip can be: one known only
+ * by month or year ("2026") spans the whole period, which says nothing about today.
  *
  * @param record - Trip to check.
  * @param today - Reference date.
- * @returns `true` when today falls within the trip's dates and it has not been cancelled.
+ * @returns `true` when the trip is dated to the day, today falls within its dates and it has not
+ * been cancelled.
  */
 export const isTripInProgress = (record: TravelRecord, today: IsoDate): boolean =>
-    isFutureStatus(record.status) && record.startDate <= today && today <= record.endDate;
+    record.datePrecision === "day" &&
+    isFutureStatus(record.status) &&
+    record.startDate <= today &&
+    today <= record.endDate;
 
 /**
  * Builds headline numbers for a set of trips. Cancelled trips are excluded from every count.

@@ -106,6 +106,16 @@ export const LEADER_TERM_OVERRIDES: readonly LeaderTermOverride[] = [
         startDate: "1979-02-08",
         title: "President of the Republic of the Congo",
     },
+    // Mahmoud Abbas has led Palestine since 2005; the terms collected for him all end by 2025.
+    {
+        code: "PSE",
+        endDate: null,
+        kind: "hos",
+        personId: "Q127998",
+        source: "https://en.wikipedia.org/wiki/President_of_the_State_of_Palestine",
+        startDate: "2005-01-15",
+        title: "President of Palestine",
+    },
     // B. P. Koirala, Nepal's first elected prime minister, dismissed by King Mahendra.
     {
         code: "NPL",
@@ -132,10 +142,39 @@ export interface PositionExclusion {
 }
 
 /**
+ * Titles that trip tables gave Mahmoud Abbas (footnote marks, a sentence from a cell, one-day
+ * "terms"), plus the cut-short terms his open presidency in `LEADER_TERM_OVERRIDES` replaces.
+ */
+const ABBAS_STRAY_TITLES = [
+    "Head of state",
+    "President",
+    "Vice President",
+    "Official",
+    "President of the Palestinian National Authority",
+    "President of the PNA",
+    "Palestinian President",
+    "President [nb 7]",
+    "Acting President [nb 1]",
+    "Acting President [nb 3][nb 4]",
+    'President said that Donald Trump had committed the "greatest crime" with his declaration, and the Palestinians reject any role of the United States in peace talks with Israel.',
+] as const;
+
+/**
  * Wrong "position held" statements on Wikidata, left out of every record. Better still, fix the
  * statement on Wikidata and remove the entry.
  */
 export const POSITION_EXCLUSIONS: readonly PositionExclusion[] = [
+    {
+        personId: "Q4082839",
+        reason: "Andrei Belousov stood in for 19 days while Mishustin had COVID-19; read as a successor, his acting term ended Mishustin's",
+        startDate: "2020-04-30",
+        title: "Prime Minister of Russia",
+    },
+    ...ABBAS_STRAY_TITLES.map((title) => ({
+        personId: "Q127998",
+        reason: "A trip-table title or a cut-short term; Abbas's presidency is in LEADER_TERM_OVERRIDES",
+        title,
+    })),
     {
         personId: "Q12209969",
         reason: "Khalid Al Ma'awali chairs the Shura Council; he was never Sultan",
@@ -180,6 +219,72 @@ export const POSITION_EXCLUSIONS: readonly PositionExclusion[] = [
     },
 ];
 
+interface PositionHolder {
+    positions: { endDate: IsoDate | null; startDate: IsoDate | null; title: string }[];
+    wikidataId: string | null;
+}
+
+const isExcluded = (
+    record: PositionHolder,
+    position: PositionHolder["positions"][number]
+): boolean =>
+    POSITION_EXCLUSIONS.some(
+        (entry) =>
+            entry.personId === record.wikidataId &&
+            entry.title === position.title &&
+            (entry.startDate === undefined || entry.startDate === position.startDate) &&
+            (entry.endDate === undefined || entry.endDate === position.endDate)
+    );
+
+/**
+ * Takes the excluded statements off records in place, for records other steps hold references
+ * to. Officials known only by name are folded into their identified twin after the first sweep,
+ * bringing their titles along, so the leaders get a second one. A record is never left without
+ * positions.
+ *
+ * @param records - Officials and people, changed in place.
+ * @returns How many positions were removed.
+ */
+export const removeExcludedPositions = (records: readonly PositionHolder[]): number => {
+    let removed = 0;
+    for (const record of records) {
+        const kept = record.positions.filter((position) => !isExcluded(record, position));
+        if (kept.length > 0 && kept.length < record.positions.length) {
+            removed += record.positions.length - kept.length;
+            record.positions.splice(0, record.positions.length, ...kept);
+        }
+    }
+    return removed;
+};
+
+/** A name Wikidata's label gets wrong, by the person's Wikidata item. */
+interface NameOverride {
+    name: string;
+    /** Why the label is wrong. */
+    reason: string;
+}
+
+/**
+ * Names to use instead of Wikidata's English label. Better still, fix the label on Wikidata and
+ * remove the entry.
+ */
+export const NAME_OVERRIDES: Readonly<Record<string, NameOverride>> = {
+    Q150080: { name: "Mikhail Fradkov", reason: "The label was misspelled “Mikhhail”" },
+    Q98053664: {
+        name: "Mark Phillips",
+        reason: "Guyana's Prime Minister; the label read “Hugo Chávez” when collected",
+    },
+};
+
+/**
+ * The corrected name for a Wikidata item, if its label is known to be wrong.
+ *
+ * @param wikidataId - The person's Wikidata item.
+ * @returns The name to use, or `null` to keep the label.
+ */
+export const overriddenName = (wikidataId: string | null): string | null =>
+    (wikidataId ? NAME_OVERRIDES[wikidataId]?.name : undefined) ?? null;
+
 /**
  * Takes the excluded statements off an official or person.
  *
@@ -194,18 +299,9 @@ export const withoutExcludedPositions = <
 >(
     record: T
 ): T | null => {
-    const excluded = POSITION_EXCLUSIONS.filter((entry) => entry.personId === record.wikidataId);
-    if (excluded.length === 0) {
+    const positions = record.positions.filter((position) => !isExcluded(record, position));
+    if (positions.length === record.positions.length) {
         return record;
     }
-    const positions = record.positions.filter(
-        (position) =>
-            !excluded.some(
-                (entry) =>
-                    entry.title === position.title &&
-                    (entry.startDate === undefined || entry.startDate === position.startDate) &&
-                    (entry.endDate === undefined || entry.endDate === position.endDate)
-            )
-    );
     return positions.length > 0 ? { ...record, positions } : null;
 };
