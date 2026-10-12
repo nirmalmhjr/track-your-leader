@@ -31,11 +31,12 @@ const TOP_OVERLAY_PX = 88;
 export function WorldMap() {
     const [containerRef, size] = useElementSize<HTMLDivElement>();
     const world = useWorldShapes();
-    const { status: dataStatus } = useExplorerData();
+    const { status: dataStatus, worldStats } = useExplorerData();
     const isTabletUp = useMediaQuery(TABLET_UP_MEDIA_QUERY);
     const isWide = useMediaQuery("(min-width: 1280px)");
     const isPanelOpen = useExplorerUiStore((state) => state.isPanelOpen);
     const sheetCoverPx = useExplorerUiStore((state) => state.sheetCoverPx);
+    const mapStyle = useExplorerUiStore((state) => state.mapStyle);
 
     // Tablets and up: the open side drawer narrows the area the map frames into from the right.
     // Phones: the bottom sheet shortens it from below.
@@ -66,6 +67,7 @@ export function WorldMap() {
     return (
         <div
             className="relative min-w-0 flex-1 overflow-hidden bg-(--map-ocean)"
+            data-map-style={mapStyle}
             ref={containerRef}
         >
             {world.status === "ready" && hasSize ? (
@@ -78,7 +80,7 @@ export function WorldMap() {
                 />
             ) : null}
             {world.status === "loading" ||
-            dataStatus === "loading" ||
+            (dataStatus === "loading" && !worldStats) ||
             (world.status === "ready" && !hasSize) ? (
                 <MapLoadingState />
             ) : null}

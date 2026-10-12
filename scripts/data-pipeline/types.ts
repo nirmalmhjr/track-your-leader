@@ -143,5 +143,7 @@ export interface PipelineReport {
     }[];
     /** Trips dated after the traveller's death or in their childhood: someone else's. */
     tripsOutsideLifetime: string[];
+    /** Trips whose source mistyped a year, with the dates they were read as. */
+    tripYearsRepaired: string[];
     unmatchedOfficials: string[];
 }

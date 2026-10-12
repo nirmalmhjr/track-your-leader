@@ -3,6 +3,7 @@ import { create } from "zustand";
 import type {
     CountrySort,
     FormerLayout,
+    MapStyle,
     SheetSnap,
 } from "@/features/travel-explorer/types/explorer.types";
 import { raiseSheetSnap } from "@/features/travel-explorer/utils/sheet-snap.utils";
@@ -31,6 +32,8 @@ interface ExplorerUiState {
      * Whether the side drawer (tablets and up) is showing; hidden, the map gets the whole screen.
      */
     isPanelOpen: boolean;
+    /** Look of the map: the flat default or the terrain imagery. */
+    mapStyle: MapStyle;
     setCountrySort: (sort: CountrySort) => void;
     setFiltersOpen: (isOpen: boolean) => void;
     setFormerLayout: (layout: FormerLayout) => void;
@@ -38,6 +41,7 @@ interface ExplorerUiState {
     setHoveredCountry: (code: CountryCode | null) => void;
     setHoveredOfficialId: (id: string | null) => void;
     setHoveredRecordId: (id: string | null) => void;
+    setMapStyle: (style: MapStyle) => void;
     /** Opens or hides the panel: the side drawer shows or hides, the bottom sheet rises or peeks. */
     setPanelOpen: (isOpen: boolean) => void;
     setSheetCoverPx: (coverPx: number) => void;
@@ -59,6 +63,7 @@ export const useExplorerUiStore = create<ExplorerUiState>()((set) => ({
     hoveredRecordId: null,
     isFiltersOpen: false,
     isPanelOpen: true,
+    mapStyle: "simple",
     setCountrySort: (countrySort) => set({ countrySort }),
     // The filters open inside the panel, so a peeking sheet rises to show them.
     setFiltersOpen: (isFiltersOpen) =>
@@ -72,6 +77,7 @@ export const useExplorerUiStore = create<ExplorerUiState>()((set) => ({
     setHoveredCountry: (hoveredCountry) => set({ hoveredCountry }),
     setHoveredOfficialId: (hoveredOfficialId) => set({ hoveredOfficialId }),
     setHoveredRecordId: (hoveredRecordId) => set({ hoveredRecordId }),
+    setMapStyle: (mapStyle) => set({ mapStyle }),
     setPanelOpen: (isPanelOpen) =>
         set((state) => ({
             isPanelOpen,

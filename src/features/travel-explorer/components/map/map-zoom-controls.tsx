@@ -11,6 +11,8 @@ import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip
 
 interface MapZoomControlsProps {
     bottom: number;
+    /** Further controls stacked above the zoom buttons. */
+    children?: ReactNode;
     onFrameSelection: (() => void) | null;
     onReset: () => void;
     onZoomIn: () => void;
@@ -52,7 +54,7 @@ function ControlButton({
     );
 }
 
-/** Zoom, reset and re-frame controls, kept small and grouped in one corner. */
+/** Zoom, reset and re-frame controls, grouped in one corner below any extra controls. */
 export function MapZoomControls({
     onZoomIn,
     onZoomOut,
@@ -60,37 +62,41 @@ export function MapZoomControls({
     onFrameSelection,
     bottom,
     right,
+    children,
 }: MapZoomControlsProps) {
     const t = useTranslations("Explorer.map.controls");
 
     return (
         <div
-            className="absolute z-10 flex flex-col overflow-hidden rounded-lg border bg-card shadow-md transition-[bottom,right] duration-300"
+            className="absolute z-10 flex flex-col items-end gap-2 transition-[bottom,right] duration-300"
             style={{ bottom, right }}
         >
-            <ControlButton label={t("zoomIn")} onClick={onZoomIn} shortcut="+">
-                <IconPlus />
-            </ControlButton>
-            <Separator />
-            <ControlButton label={t("zoomOut")} onClick={onZoomOut} shortcut="−">
-                <IconMinus />
-            </ControlButton>
-            <Separator />
-            {onFrameSelection ? (
-                <>
-                    <ControlButton
-                        label={t("frameSelection")}
-                        onClick={onFrameSelection}
-                        shortcut="F"
-                    >
-                        <IconFocusCentered />
-                    </ControlButton>
-                    <Separator />
-                </>
-            ) : null}
-            <ControlButton label={t("reset")} onClick={onReset} shortcut="0">
-                <IconWorld />
-            </ControlButton>
+            {children}
+            <div className="flex flex-col overflow-hidden rounded-lg border bg-card shadow-md">
+                <ControlButton label={t("zoomIn")} onClick={onZoomIn} shortcut="+">
+                    <IconPlus />
+                </ControlButton>
+                <Separator />
+                <ControlButton label={t("zoomOut")} onClick={onZoomOut} shortcut="−">
+                    <IconMinus />
+                </ControlButton>
+                <Separator />
+                {onFrameSelection ? (
+                    <>
+                        <ControlButton
+                            label={t("frameSelection")}
+                            onClick={onFrameSelection}
+                            shortcut="F"
+                        >
+                            <IconFocusCentered />
+                        </ControlButton>
+                        <Separator />
+                    </>
+                ) : null}
+                <ControlButton label={t("reset")} onClick={onReset} shortcut="0">
+                    <IconWorld />
+                </ControlButton>
+            </div>
         </div>
     );
 }

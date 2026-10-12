@@ -16,6 +16,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select";
+import { DataStatus } from "@/features/travel-explorer/components/panel/data-status";
 import { StatList } from "@/features/travel-explorer/components/stat-list";
 import {
     COUNTRY_SORTS,
@@ -26,12 +27,11 @@ import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-
 import { useHoverHighlight } from "@/features/travel-explorer/hooks/use-hover-highlight";
 import { useOpenCountry } from "@/features/travel-explorer/hooks/use-open-country";
 import type { CountrySort } from "@/features/travel-explorer/types/explorer.types";
-import { countTrips } from "@/features/travel-explorer/utils/travel-aggregates.utils";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { getCountryReference } from "@/lib/geo/country-reference";
 import { getCountrySearchTerms } from "@/lib/geo/country-search-terms";
 import { createSearchEntry, rankSearchEntry } from "@/lib/travel/search.utils";
-import { isFutureStatus, summarizeTravel } from "@/lib/travel/travel-summary.utils";
+import { isFutureStatus } from "@/lib/travel/travel-summary.utils";
 import { normalizeSearchText } from "@/lib/utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 import type { TrackedCountry, TravelRecord } from "@/types/travel.types";
@@ -114,8 +114,10 @@ function CountryRow({ country, label, trips, maxTrips }: CountryRowProps) {
     const handleSelect = useCallback(() => openCountry(country.code), [openCountry, country.code]);
     const highlightHandlers = useHoverHighlight(setHoveredCountry, country.code);
 
+    // Rows out of view are skipped until scrolled near, so the long list doesn't fetch every
+    // country's flag on load. 48px is a row's height (two lines of text plus padding).
     return (
-        <li>
+        <li className="[contain-intrinsic-size:auto_48px] [content-visibility:auto]">
             <button
                 className="grid w-full grid-cols-[auto_minmax(0,1fr)_4.5rem] items-center gap-x-3 rounded-md px-2 py-1.5 text-left outline-none transition-colors hover:bg-accent/50 focus-visible:ring-3 focus-visible:ring-ring/50"
                 onClick={handleSelect}
@@ -151,7 +153,7 @@ export function OverviewView() {
     const t = useTranslations("Explorer.overview");
     const locale = useLocale();
     const format = useTravelFormat();
-    const { countries, matchingOfficialIds, matchingRecords, today } = useExplorerData();
+    const { countries, matchingRecords, status, today, worldStats } = useExplorerData();
     const [query, setQuery] = useState("");
     const handleQueryChange = useCallback(
         (event: ChangeEvent<HTMLInputElement>) => setQuery(event.target.value),
@@ -185,9 +187,8 @@ export function OverviewView() {
         [countries, format]
     );
 
-    const summary = summarizeTravel(matchingRecords);
-    const tripsByCountry = countTrips(matchingRecords, (record) => record.originCountryCode);
-    const maxTrips = Math.max(1, ...tripsByCountry.values());
+    const tripsByCountry = worldStats?.tripsByOrigin;
+    const maxTrips = Math.max(1, ...(tripsByCountry?.values() ?? []));
     const normalizedQuery = normalizeSearchText(query);
 
     // Codes and abbreviations ("NPL", "UK", "UAE") find a country as well as its name; with a
@@ -202,7 +203,7 @@ export function OverviewView() {
             const row: CountryRowData = {
                 country,
                 label,
-                trips: tripsByCountry.get(country.code) ?? 0,
+                trips: tripsByCountry?.get(country.code) ?? 0,
             };
             return [{ rank, row }];
         })
@@ -225,9 +226,15 @@ export function OverviewView() {
             <StatList
                 items={[
                     { label: t("stats.countries"), value: format.number(countries.length) },
-                    { label: t("stats.officials"), value: format.number(matchingOfficialIds.size) },
-                    { label: t("stats.trips"), value: format.number(summary.tripCount) },
-                    { label: t("stats.upcoming"), value: format.number(summary.upcomingCount) },
+                    {
+                        label: t("stats.officials"),
+                        value: format.number(worldStats?.officialCount ?? 0),
+                    },
+                    { label: t("stats.trips"), value: format.number(worldStats?.tripCount ?? 0) },
+                    {
+                        label: t("stats.upcoming"),
+                        value: format.number(worldStats?.upcomingCount ?? 0),
+                    },
                 ]}
             />
 
@@ -285,20 +292,23 @@ export function OverviewView() {
                 <h3 className="font-medium text-sm" id="overview-upcoming">
                     {t("upcomingTitle")}
                 </h3>
-                {upcoming.length === 0 ? (
+                {/* The upcoming trips themselves arrive with the full data, after the summary. */}
+                {status === "ready" ? null : <DataStatus />}
+                {status === "ready" && upcoming.length === 0 ? (
                     <Empty className="border p-6">
                         <EmptyHeader>
                             <EmptyTitle className="text-sm">{t("noUpcomingTitle")}</EmptyTitle>
                             <EmptyDescription>{t("noUpcomingDescription")}</EmptyDescription>
                         </EmptyHeader>
                     </Empty>
-                ) : (
+                ) : null}
+                {upcoming.length > 0 ? (
                     <ul className="-mx-2 flex flex-col">
                         {upcoming.map((record) => (
                             <UpcomingTripRow key={record.id} record={record} />
                         ))}
                     </ul>
-                )}
+                ) : null}
             </section>
         </div>
     );

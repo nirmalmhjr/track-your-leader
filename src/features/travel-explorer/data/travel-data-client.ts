@@ -8,7 +8,9 @@ import {
     loadCountryPeople,
     loadSearchPeople,
     loadTravelBase,
+    loadWorldSummary,
 } from "./travel-dataset";
+import type { WorldSummary } from "./travel-index";
 
 /**
  * Where the explorer gets its data. Today it reads the static files the pipeline publishes in
@@ -29,14 +31,24 @@ export interface TravelDataClient {
     getPeople: (code: CountryCode, signal?: AbortSignal) => Promise<Official[]>;
     /** Everyone the header search lists, without their trips. */
     getSearchPeople: (today: IsoDate, signal?: AbortSignal) => Promise<SearchPerson[]>;
+    /**
+     * The countries and the world view's numbers for the default filters, loaded before the index
+     * so the first screen shows quickly; `null` when unavailable. An API client answers it from
+     * `GET /stats/world`.
+     */
+    getWorldSummary: (signal?: AbortSignal) => Promise<WorldSummary | null>;
 }
 
-/** Reads `public/data/index.json`, `search.json`, `countries/<ISO3>.json` and `people/<ISO3>.json`. */
+/**
+ * Reads `public/data/index.json`, `world-stats.json`, `search.json`, `countries/<ISO3>.json` and
+ * `people/<ISO3>.json`.
+ */
 export const staticFileClient: TravelDataClient = {
     getCountry: loadCountryDetail,
     getIndex: loadTravelBase,
     getPeople: loadCountryPeople,
     getSearchPeople: loadSearchPeople,
+    getWorldSummary: loadWorldSummary,
 };
 
 /** The client the app uses. */

@@ -20,7 +20,7 @@ export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number
     const tStatus = useTranslations("Explorer.statuses");
     const format = useTravelFormat();
     const describeRange = useDateRangeLabel();
-    const { dateRangeIgnoredFor, officialById } = useExplorerData();
+    const { dateRangeIgnoredFor, officialById, worldStats } = useExplorerData();
     const { filters, selection } = useExplorerState();
 
     const focusName = scene.focusCountry ? format.countryName(scene.focusCountry) : "";
@@ -37,10 +37,16 @@ export function MapScopeSummary({ scene, left }: { scene: MapScene; left: number
                 : t("outbound", { country: focusName });
     }
 
+    // The world view's numbers are ready before its trips are; elsewhere the scene's trips count.
+    const worldCounts = scene.mode === "world" ? worldStats : null;
     // Cancelled trips never happened, so they are listed in the breakdown but not counted.
-    const tripCount = scene.records.filter((record) => record.status !== "cancelled").length;
+    const tripCount =
+        worldCounts?.tripCount ??
+        scene.records.filter((record) => record.status !== "cancelled").length;
     const counts = TRAVEL_STATUSES.map((status) => ({
-        count: scene.records.filter((record) => record.status === status).length,
+        count:
+            worldCounts?.tripsByStatus[status] ??
+            scene.records.filter((record) => record.status === status).length,
         status,
     })).filter((entry) => entry.count > 0);
 

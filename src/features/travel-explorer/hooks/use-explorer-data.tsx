@@ -17,13 +17,17 @@ import type {
     LoadedTravelBase,
     TravelDataSource,
 } from "@/features/travel-explorer/data/travel-dataset";
+import type { WorldSummary } from "@/features/travel-explorer/data/travel-index";
 import { useExplorerState } from "@/features/travel-explorer/hooks/use-explorer-state";
+import type { WorldStats } from "@/features/travel-explorer/types/explorer.types";
 import {
+    countActiveFilters,
     createTravelMatcher,
     type DateRangeExemption,
     getDateRangeExemption,
     matchesOfficialFilters,
 } from "@/features/travel-explorer/utils/filters.utils";
+import { computeWorldStats } from "@/features/travel-explorer/utils/world-stats.utils";
 import { toIsoDate } from "@/lib/travel/date.utils";
 import { groupOfficialsByCountry } from "@/lib/travel/officials.utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
@@ -46,6 +50,9 @@ const groupRecords = (
     }
     return groups;
 };
+
+/** Longest the full index waits for the world summary before loading anyway. */
+const SUMMARY_HEAD_START_MS = 1500;
 
 const compareNewestFirst = (a: TravelRecord, b: TravelRecord): number =>
     b.startDate.localeCompare(a.startDate) || a.id.localeCompare(b.id);
@@ -90,17 +97,27 @@ interface ExplorerData {
     today: IsoDate;
     /** Day the data was last updated, or `null` for the samples. */
     updatedOn: IsoDate | null;
+    /**
+     * The world view's numbers for the current filters, at world level only. While the full data
+     * loads they come from the small summary file, when the filters are the defaults; `null`
+     * means the world view has to wait.
+     */
+    worldStats: WorldStats | null;
 }
 
 const ExplorerDataContext = createContext<ExplorerData | null>(null);
 
-/** Countries, officials and trips, with loaded countries' full records in place of the compact ones. */
+/**
+ * Countries, officials and trips, with loaded countries' full records in place of the compact
+ * ones. Until the index arrives, the countries come from the world summary.
+ */
 const useDataset = (
     base: LoadedTravelBase | null,
-    detailed: ReadonlyMap<CountryCode, LoadedCountryDetail>
+    detailed: ReadonlyMap<CountryCode, LoadedCountryDetail>,
+    summary: WorldSummary | null
 ) =>
     useMemo(() => {
-        const countries = base?.base.countries ?? [];
+        const countries = base?.base.countries ?? summary?.countries ?? [];
         const fullOfficials = new Map(
             [...detailed.values()].flatMap((detail) =>
                 detail.officials.map((official) => [official.id, official] as const)
@@ -133,7 +150,7 @@ const useDataset = (
             recordById: new Map(records.map((record) => [record.id, record])),
             records,
         };
-    }, [base, detailed]);
+    }, [base, detailed, summary]);
 
 /**
  * Loads the travel data, applies the current filters once and shares the indexed results with
@@ -145,6 +162,10 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
     const [today] = useState(() => toIsoDate(new Date()));
     const [attempt, setAttempt] = useState(0);
     const [baseState, setBaseState] = useState<BaseState>({ status: "loading" });
+    const [summary, setSummary] = useState<WorldSummary | null>(null);
+    // Only a visit that opens on the plain world view can use the summary, so only then is it
+    // worth fetching first.
+    const opensOnWorldViewRef = useRef(!selection.country && countActiveFilters(filters) === 0);
     // Kept apart so a country starting to load doesn't rebuild the whole dataset.
     const [details, setDetails] = useState<ReadonlyMap<CountryCode, LoadedCountryDetail>>(
         new Map()
@@ -157,20 +178,46 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
     // biome-ignore lint/correctness/useExhaustiveDependencies: `attempt` changes when the user retries, which must load again.
     useEffect(() => {
         const controller = new AbortController();
+        const { signal } = controller;
         setBaseState({ status: "loading" });
+        const loadIndex = () => {
+            travelDataClient
+                .getIndex(today, signal)
+                .then((loaded) => setBaseState({ loaded, status: "ready" }))
+                .catch(() => {
+                    if (!signal.aborted) {
+                        setBaseState({ status: "error" });
+                    }
+                });
+        };
+        if (!opensOnWorldViewRef.current) {
+            loadIndex();
+            return () => controller.abort();
+        }
+        // The summary goes first: the much larger index would compete with it for bandwidth. The
+        // index starts once the summary settles, or after a short head start if it stalls, so a
+        // slow or missing summary never holds up the data. Without one the world view waits.
+        let isIndexRequested = false;
+        const loadIndexOnce = () => {
+            if (!isIndexRequested) {
+                isIndexRequested = true;
+                loadIndex();
+            }
+        };
+        const headStart = setTimeout(loadIndexOnce, SUMMARY_HEAD_START_MS);
         travelDataClient
-            .getIndex(today, controller.signal)
-            .then((loaded) => setBaseState({ loaded, status: "ready" }))
-            .catch(() => {
-                if (!controller.signal.aborted) {
-                    setBaseState({ status: "error" });
-                }
-            });
-        return () => controller.abort();
+            .getWorldSummary(signal)
+            .then((loaded) => setSummary(loaded))
+            .catch(() => undefined)
+            .finally(loadIndexOnce);
+        return () => {
+            clearTimeout(headStart);
+            controller.abort();
+        };
     }, [today, attempt]);
 
     const base = baseState.status === "ready" ? baseState.loaded : null;
-    const dataset = useDataset(base, details);
+    const dataset = useDataset(base, details, summary);
     const selectedCountry = selection.country;
 
     useEffect(() => {
@@ -235,6 +282,30 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
         };
     }, [chosenTenure, dataset, filters, selection]);
 
+    const hasDefaultFilters = countActiveFilters(filters) === 0;
+    const worldStats = useMemo(() => {
+        if (selectedCountry) {
+            return null;
+        }
+        if (base) {
+            return computeWorldStats({
+                matchingOfficialCount: filtered.matchingOfficialIds.size,
+                matchingRecords: filtered.matchingRecords,
+                officialsByCountry: dataset.officialsByCountry,
+            });
+        }
+        const isSummaryUsable = baseState.status === "loading" && hasDefaultFilters;
+        return isSummaryUsable ? (summary?.stats ?? null) : null;
+    }, [
+        base,
+        baseState.status,
+        dataset.officialsByCountry,
+        filtered,
+        hasDefaultFilters,
+        selectedCountry,
+        summary,
+    ]);
+
     const value = useMemo<ExplorerData>(
         () => ({
             ...filtered,
@@ -250,9 +321,10 @@ export function ExplorerDataProvider({ children }: { children: ReactNode }) {
             retry,
             status: baseState.status,
             today,
-            updatedOn: base?.updatedOn ?? null,
+            updatedOn: base?.updatedOn ?? summary?.updatedOn ?? null,
+            worldStats,
         }),
-        [base, baseState.status, dataset, detailStatus, filtered, retry, today]
+        [base, baseState.status, dataset, detailStatus, filtered, retry, summary, today, worldStats]
     );
 
     return <ExplorerDataContext value={value}>{children}</ExplorerDataContext>;

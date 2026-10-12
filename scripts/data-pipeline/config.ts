@@ -31,6 +31,8 @@ export const PIPELINE_CONFIG = {
     warehouseDir: "data/warehouse",
     /** Offices held since this year are collected into the warehouse by default. */
     warehouseSinceYear: 1945,
+    /** The world view's numbers for the default filters, built from the index. */
+    worldStatsFile: "public/data/world-stats.json",
 } as const;
 
 export interface CountrySourceConfig {

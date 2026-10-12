@@ -1,5 +1,6 @@
 import { z } from "zod";
 
+import type { WorldStats } from "@/features/travel-explorer/types/explorer.types";
 import { resolvePositionTitle } from "@/features/travel-explorer/utils/positions.utils";
 import { resolveTravelStatus } from "@/features/travel-explorer/utils/travel-status.utils";
 import { getCountryReference, getCountryRegion } from "@/lib/geo/country-reference";
@@ -164,6 +165,36 @@ export const searchIndexSchema = z.object({
 });
 export type SearchIndex = z.infer<typeof searchIndexSchema>;
 
+const count = z.number().int().min(0);
+const countByCountry = z.record(code, count);
+/**
+ * `world-stats.json`: the countries and the world view's numbers for the default filters, so the
+ * map and overview show before the index arrives. The planned API's `GET /stats/world` returns
+ * the same numbers. Built from the index by `pnpm data:search` before every build; `asOf` is the
+ * day trip statuses were worked out for.
+ */
+export const worldStatsFileSchema = z.object({
+    asOf: isoDate,
+    countries: z.array(countryRow),
+    stats: z.object({
+        officialCount: count,
+        officialsByCountry: countByCountry,
+        tripCount: count,
+        tripsByOrigin: countByCountry,
+        tripsByStatus: z.object({
+            cancelled: count,
+            completed: count,
+            planned: count,
+            upcoming: count,
+        }),
+        upcomingCount: count,
+        visitsByDestination: countByCountry,
+    }),
+    updatedOn: isoDate,
+    version: z.literal(INDEX_VERSION),
+});
+export type WorldStatsFile = z.infer<typeof worldStatsFileSchema>;
+
 export const countryDetailSchema = z.object({
     officials: z.array(generatedOfficialSchema),
     trips: z.array(generatedTripSchema),
@@ -311,6 +342,32 @@ export const serializeTravelIndex = (index: TravelIndex): string => {
         "}\n",
     ].join("\n");
 };
+
+/**
+ * Packs the world view's numbers for `world-stats.json`.
+ *
+ * @param index - The index the numbers were worked out from.
+ * @param stats - The numbers for the default filters.
+ * @param asOf - Day the trip statuses were worked out for.
+ * @returns The file's contents.
+ */
+export const encodeWorldStatsFile = (
+    index: TravelIndex,
+    stats: WorldStats,
+    asOf: IsoDate
+): WorldStatsFile => ({
+    asOf,
+    countries: index.countries,
+    stats: {
+        ...stats,
+        officialsByCountry: Object.fromEntries(stats.officialsByCountry),
+        tripsByOrigin: Object.fromEntries(stats.tripsByOrigin),
+        tripsByStatus: { ...stats.tripsByStatus },
+        visitsByDestination: Object.fromEntries(stats.visitsByDestination),
+    },
+    updatedOn: index.updatedOn,
+    version: INDEX_VERSION,
+});
 
 // --- Reading (app) ------------------------------------------------------------------------------
 
@@ -480,6 +537,37 @@ export const decodeTravelIndex = (index: TravelIndex, today: IsoDate): TravelBas
     }
     return { countries, officials, recordsByOrigin, updatedOn: index.updatedOn };
 };
+
+export interface WorldSummary {
+    /** Day the trip statuses were worked out for. */
+    asOf: IsoDate;
+    countries: TrackedCountry[];
+    stats: WorldStats;
+    updatedOn: IsoDate;
+}
+
+/**
+ * Decodes `world-stats.json`.
+ *
+ * @param file - The validated file.
+ * @returns The countries and the world view's numbers for the default filters.
+ */
+export const decodeWorldStatsFile = ({
+    asOf,
+    countries,
+    stats,
+    updatedOn,
+}: WorldStatsFile): WorldSummary => ({
+    asOf,
+    countries: countries.map(toCountry),
+    stats: {
+        ...stats,
+        officialsByCountry: new Map(Object.entries(stats.officialsByCountry)),
+        tripsByOrigin: new Map(Object.entries(stats.tripsByOrigin)),
+        visitsByDestination: new Map(Object.entries(stats.visitsByDestination)),
+    },
+    updatedOn,
+});
 
 /**
  * Reduces the index to the people the header search lists.

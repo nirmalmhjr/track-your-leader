@@ -1,6 +1,7 @@
 import type {
     ExplorerSelection,
     SequentialScale,
+    WorldStats,
 } from "@/features/travel-explorer/types/explorer.types";
 import {
     buildSequentialScale,
@@ -61,6 +62,8 @@ interface SceneInput {
     recordsByOfficial: ReadonlyMap<string, readonly TravelRecord[]>;
     recordsByOrigin: ReadonlyMap<CountryCode, readonly TravelRecord[]>;
     selection: ExplorerSelection;
+    /** World view numbers, which shade the world map even before the trips have loaded. */
+    worldStats?: WorldStats | null;
 }
 
 const toneOf = (status: TravelStatus): RouteTone => {
@@ -166,11 +169,14 @@ export const buildMapScene = ({
     recordsByOfficial,
     countryByCode,
     isFormerSide,
+    worldStats,
 }: SceneInput): MapScene => {
     const focusCountry = selection.country;
 
     if (!focusCountry) {
-        const values = countTrips(matchingRecords, (record) => record.originCountryCode);
+        const values =
+            worldStats?.tripsByOrigin ??
+            countTrips(matchingRecords, (record) => record.originCountryCode);
         return {
             anchors: [],
             focusCountry: null,

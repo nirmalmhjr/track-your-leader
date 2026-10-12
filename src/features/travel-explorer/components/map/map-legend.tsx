@@ -15,6 +15,7 @@ import type { MapScene } from "@/features/travel-explorer/utils/map-scene.utils"
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { useTravelFormat } from "@/hooks/use-travel-format";
 import { TRAVEL_STATUSES } from "@/lib/travel/travel.constants";
+import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 
 function Swatch({ fill, label }: { fill: string; label: string }) {
     return (
@@ -35,6 +36,9 @@ function LegendContent({ scene }: { scene: MapScene }) {
     const format = useTravelFormat();
     const { officialById } = useExplorerData();
     const { selection } = useExplorerState();
+    const isTerrain = useExplorerUiStore((state) => state.mapStyle === "terrain");
+    // Over the terrain imagery all land is left clear, so the keys for plain land are dropped.
+    const showsLandKeys = Boolean(scene.focusCountry) || !isTerrain;
 
     const focusName = scene.focusCountry ? format.countryName(scene.focusCountry) : "";
     const officialName = selection.official ? officialById.get(selection.official)?.fullName : null;
@@ -93,16 +97,18 @@ function LegendContent({ scene }: { scene: MapScene }) {
                 )}
             </div>
 
-            <ul className="flex flex-col gap-1 text-muted-foreground">
-                {scene.focusCountry ? (
-                    <Swatch fill={COUNTRY_FILLS.selected} label={t("selected")} />
-                ) : (
-                    <>
-                        <Swatch fill={COUNTRY_FILLS.tracked} label={t("trackedNoTrips")} />
-                        <Swatch fill={COUNTRY_FILLS.land} label={t("notTracked")} />
-                    </>
-                )}
-            </ul>
+            {showsLandKeys ? (
+                <ul className="flex flex-col gap-1 text-muted-foreground">
+                    {scene.focusCountry ? (
+                        <Swatch fill={COUNTRY_FILLS.selected} label={t("selected")} />
+                    ) : (
+                        <>
+                            <Swatch fill={COUNTRY_FILLS.tracked} label={t("trackedNoTrips")} />
+                            <Swatch fill={COUNTRY_FILLS.land} label={t("notTracked")} />
+                        </>
+                    )}
+                </ul>
+            ) : null}
 
             {statusesShown.length > 0 ? (
                 <ul aria-label={t("routes")} className="flex flex-col gap-1 text-muted-foreground">

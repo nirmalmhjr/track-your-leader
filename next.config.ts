@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
-    allowedDevOrigins: ["192.168.1.86"],
+    allowedDevOrigins: ["192.168.1.82"],
     // Enable compression
     compress: true,
     // Experimental features for Next.js 16.1

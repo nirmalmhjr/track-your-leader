@@ -15,6 +15,8 @@ const MS_PER_DAY = 86_400_000;
 const EXAMPLES = 15;
 /** A day-precise trip longer than this is a stay (exile, treatment, a posting), not a visit. */
 export const LONGEST_VISIT_DAYS = 60;
+/** Exactly dated stays longer than this are almost always a mistyped year the repair missed. */
+const LONGEST_PLAUSIBLE_STAY_DAYS = 366;
 /** Trips this many days apart to one country, reported by different sources, are one trip. */
 const NEAR_DUPLICATE_DAYS = 5;
 /** Years either side of a person's known career before a trip looks like someone else's. */
@@ -164,6 +166,7 @@ const CHECKS = [
     "qidNames",
     "sameNameTwins",
     "tripsOutsideCareer",
+    "tripsOverAYear",
     "withoutWikidata",
 ] as const;
 type CheckName = (typeof CHECKS)[number];
@@ -201,7 +204,7 @@ const auditOfficials = (
     }
 };
 
-/** Checks on one country's trips: long stays and unmarked future trips. */
+/** Checks on one country's trips: long stays, impossible spans and unmarked future trips. */
 const auditTrips = (
     code: CountryCode,
     file: CountryData,
@@ -217,6 +220,14 @@ const auditTrips = (
             trip.type !== "extended_stay"
         ) {
             found.longStays.push(
+                `${code} · ${nameOf(trip.officialId)} in ${trip.destination.countryCode}: ${trip.startDate} – ${trip.endDate}`
+            );
+        }
+        if (
+            trip.datePrecision === "day" &&
+            days(trip.startDate, trip.endDate) > LONGEST_PLAUSIBLE_STAY_DAYS
+        ) {
+            found.tripsOverAYear.push(
                 `${code} · ${nameOf(trip.officialId)} in ${trip.destination.countryCode}: ${trip.startDate} – ${trip.endDate}`
             );
         }

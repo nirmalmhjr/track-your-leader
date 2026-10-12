@@ -53,6 +53,27 @@
     --map-halo: oklch(0.175 0.006 250);
 }
 
+/*
+ * Terrain style: the Natural Earth II imagery (`pnpm geo:terrain`) shows through the land. Trip
+ * shading is one blue at rising strength, so countries with few trips keep their natural colours.
+ * The ocean is the imagery's own water colour, so the two meet without an edge. The imagery is
+ * light in both themes, so these values don't change with the theme.
+ */
+[data-map-style="terrain"] {
+    --map-ocean: #6aa1c9;
+    --map-land: transparent;
+    --map-land-tracked: transparent;
+    --map-border: oklch(1 0 0 / 0.6);
+    --map-graticule: transparent;
+    --map-selected: oklch(0.6 0.02 250 / 0.45);
+    --map-selected-border: oklch(0.18 0.01 250);
+    --map-seq-1: rgb(37 106 191 / 0.12);
+    --map-seq-2: rgb(37 106 191 / 0.22);
+    --map-seq-3: rgb(37 106 191 / 0.32);
+    --map-seq-4: rgb(37 106 191 / 0.42);
+    --map-seq-5: rgb(37 106 191 / 0.52);
+}
+
 @theme inline {
     --color-map-ocean: var(--map-ocean);
     --color-map-land: var(--map-land);

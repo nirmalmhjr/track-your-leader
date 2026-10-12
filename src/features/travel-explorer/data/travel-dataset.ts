@@ -15,11 +15,14 @@ import {
     decodeOfficial,
     decodeSearchIndex,
     decodeTravelIndex,
+    decodeWorldStatsFile,
     peopleFileSchema,
     searchIndexSchema,
     type TravelBase,
     toTravelRecord,
     travelIndexSchema,
+    type WorldSummary,
+    worldStatsFileSchema,
 } from "./travel-index";
 
 /**
@@ -226,4 +229,24 @@ export const loadSearchPeople = async (
         throw new Error(`Search data unavailable (HTTP ${response.status})`);
     }
     return decodeSearchIndex(searchIndexSchema.parse(await response.json()));
+};
+
+/**
+ * Loads the countries and the world view's numbers for the default filters, which are small
+ * enough to show the map and overview before the full index arrives.
+ *
+ * @param signal - Aborts the request.
+ * @returns The summary, or `null` before `pnpm data:search` has run (in development) and with the
+ * samples, when the explorer waits for the full index instead.
+ * @throws When the file exists but can't be read or doesn't match the expected format.
+ */
+export const loadWorldSummary = async (signal?: AbortSignal): Promise<WorldSummary | null> => {
+    const response = await fetch(`${DATA_BASE_PATH}/world-stats.json`, { signal });
+    if (response.status === HTTP_NOT_FOUND) {
+        return null;
+    }
+    if (!response.ok) {
+        throw new Error(`World summary unavailable (HTTP ${response.status})`);
+    }
+    return decodeWorldStatsFile(worldStatsFileSchema.parse(await response.json()));
 };

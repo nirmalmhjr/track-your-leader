@@ -48,9 +48,10 @@ type SheetStyle = CSSProperties & { "--sheet-offset": string };
 
 function PanelBody() {
     const { selection, level } = useExplorerState();
-    const { status } = useExplorerData();
+    const { status, worldStats } = useExplorerData();
 
-    if (status !== "ready") {
+    // The world overview can show from its summary while the rest of the data loads.
+    if (status !== "ready" && !(level === "world" && worldStats)) {
         return <DataStatus />;
     }
 

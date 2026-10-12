@@ -69,6 +69,7 @@ import {
 } from "./extract/places.resolve";
 import { rosterSchema, updateRoster } from "./extract/roster";
 import { matchTravellers } from "./extract/travellers.match";
+import { careerOf, repairYearTypo } from "./extract/trip-dates.repair";
 import { mergeClaims } from "./extract/trips.merge";
 import { groupBy } from "./lib/collections";
 import { isValidDay, todayIso } from "./lib/dates";
@@ -406,9 +407,22 @@ const buildTrips = (
         if (!id) {
             continue;
         }
+        // A year typed wrong ("2107") turns days abroad into years; read it as the short trip it was.
+        const career = careerOf(draft.positions, today);
+        const repaired = list.map((claim) => {
+            const fixed = repairYearTypo(claim, career);
+            if (fixed !== claim) {
+                report.tripYearsRepaired.push(
+                    `${draft.name}: ${claim.startDate} – ${claim.endDate} read as ${fixed.startDate} – ${fixed.endDate} (${claim.source})`
+                );
+            }
+            return fixed;
+        });
         // A trip after the traveller's death, or in their childhood, was matched to the wrong person.
-        const lived = list.filter((claim) => isWithinLifetime(claim.startDate, lifetimes.get(id)));
-        for (const claim of list.filter((candidate) => !lived.includes(candidate))) {
+        const lived = repaired.filter((claim) =>
+            isWithinLifetime(claim.startDate, lifetimes.get(id))
+        );
+        for (const claim of repaired.filter((candidate) => !lived.includes(candidate))) {
             report.tripsOutsideLifetime.push(`${draft.name}: ${claim.startDate} (${claim.source})`);
         }
         // A trip that hasn't begun is planned, whatever its source said; months abroad are a stay.
@@ -569,6 +583,7 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
         sources: {},
         tripPages: [],
         tripsOutsideLifetime: [],
+        tripYearsRepaired: [],
         unmatchedOfficials: [],
     };
 

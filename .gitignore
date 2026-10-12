@@ -48,6 +48,7 @@ scripts/data-pipeline/.cache
 /public/data/people/
 # generated from public/data/index.json by `pnpm data:search` (run before every build)
 /public/data/search.json
+/public/data/world-stats.json
 
 # data pipeline run logs, and the coverage report (rebuilt offline by `pnpm data:coverage`)
 scripts/data-pipeline/.logs

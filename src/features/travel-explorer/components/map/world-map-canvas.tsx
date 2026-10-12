@@ -25,6 +25,8 @@ import {
 import { MapLegend } from "@/features/travel-explorer/components/map/map-legend";
 import { MapRoutesLayer } from "@/features/travel-explorer/components/map/map-routes-layer";
 import { MapScopeSummary } from "@/features/travel-explorer/components/map/map-scope-summary";
+import { MapStyleToggle } from "@/features/travel-explorer/components/map/map-style-toggle";
+import { MapTerrainLayer } from "@/features/travel-explorer/components/map/map-terrain-layer";
 import { MapZoomControls } from "@/features/travel-explorer/components/map/map-zoom-controls";
 import { MAP_CONFIG } from "@/features/travel-explorer/constants/explorer.constants";
 import {
@@ -162,6 +164,7 @@ export function WorldMapCanvas({
     const openCountry = useOpenCountry();
     const setFiltersOpen = useExplorerUiStore((state) => state.setFiltersOpen);
     const setPanelOpen = useExplorerUiStore((state) => state.setPanelOpen);
+    const mapStyle = useExplorerUiStore((state) => state.mapStyle);
     // Highlights from the panel redraw the map at low priority, so scrolling and pointing at
     // long lists stay responsive while the map catches up.
     const hoveredCountryNow = useExplorerUiStore((state) => state.hoveredCountry);
@@ -201,6 +204,7 @@ export function WorldMapCanvas({
                 recordsByOfficial: data.recordsByOfficial,
                 recordsByOrigin: data.recordsByOrigin,
                 selection,
+                worldStats: data.worldStats,
             }),
         [data, selection]
     );
@@ -437,6 +441,9 @@ export function WorldMapCanvas({
             >
                 <title id={titleId}>{t("title")}</title>
                 <g transform={transform.toString()}>
+                    {mapStyle === "terrain" ? (
+                        <MapTerrainLayer height={height} transform={transform} width={width} />
+                    ) : null}
                     <path
                         aria-hidden
                         className="pointer-events-none fill-none stroke-(--map-graticule) [stroke-width:0.5] [vector-effect:non-scaling-stroke]"
@@ -495,7 +502,9 @@ export function WorldMapCanvas({
                 onZoomIn={zoomIn}
                 onZoomOut={zoomOut}
                 right={overlayOffsets.right}
-            />
+            >
+                <MapStyleToggle />
+            </MapZoomControls>
         </section>
     );
 }

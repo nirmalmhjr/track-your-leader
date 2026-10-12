@@ -28,7 +28,7 @@ const TOOLTIP_HEIGHT = 84;
 function CountryTooltipBody({ shape, scene }: { shape: MapCountryShape; scene: MapScene }) {
     const t = useTranslations("Explorer.map.tooltip");
     const format = useTravelFormat();
-    const { countryByCode, officialsByCountry, recordsByDestination } = useExplorerData();
+    const { countryByCode, worldStats } = useExplorerData();
     const { reference } = shape;
     const code = reference?.alpha3;
 
@@ -44,7 +44,7 @@ function CountryTooltipBody({ shape, scene }: { shape: MapCountryShape; scene: M
     if (code === scene.focusCountry) {
         detail = t("selected");
     } else if (scene.mode === "world" && isTracked) {
-        const officials = officialsByCountry.get(code)?.length ?? 0;
+        const officials = worldStats?.officialsByCountry.get(code) ?? 0;
         detail = t("worldTracked", {
             officials,
             officialsLabel: format.number(officials),
@@ -52,9 +52,7 @@ function CountryTooltipBody({ shape, scene }: { shape: MapCountryShape; scene: M
             tripsLabel: format.number(value),
         });
     } else if (scene.mode === "world") {
-        const visits = (recordsByDestination.get(code) ?? []).filter(
-            (record) => record.status !== "cancelled"
-        ).length;
+        const visits = worldStats?.visitsByDestination.get(code) ?? 0;
         detail = t("worldUntracked", { visits, visitsLabel: format.number(visits) });
     } else if (scene.mode === "outbound" && value > 0) {
         detail = t("visitsFrom", {

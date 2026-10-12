@@ -6,6 +6,7 @@ import type {
     OFFICIAL_SORTS,
     SHEET_SNAPS,
 } from "@/features/travel-explorer/constants/explorer.constants";
+import type { MAP_STYLES } from "@/features/travel-explorer/constants/map-style.constants";
 import type { CountryCode } from "@/types/geo.types";
 import type {
     IsoDate,
@@ -23,6 +24,7 @@ export type CountryView = (typeof COUNTRY_VIEWS)[number];
 export type DestinationRegion = (typeof DESTINATION_REGIONS)[number];
 export type OfficialSort = (typeof OFFICIAL_SORTS)[number];
 export type FormerLayout = (typeof FORMER_LAYOUTS)[number];
+export type MapStyle = (typeof MAP_STYLES)[number];
 export type SheetSnap = (typeof SHEET_SNAPS)[number];
 
 /** Distance (px) the bottom sheet sits below its fully open position at each snap. */
@@ -81,4 +83,25 @@ export interface SequentialScale {
     stepFor: (value: number) => number;
     /** Upper bound (inclusive) of each step; the last step is open-ended. */
     thresholds: readonly number[];
+}
+
+/**
+ * Headline numbers of the world view for the current filters, in the shape of the planned
+ * `GET /stats/world` response (`docs/mongodb-api.md`). Cancelled trips never happened, so they
+ * appear only in `tripsByStatus`.
+ */
+export interface WorldStats {
+    /** Officials passing the filters. */
+    officialCount: number;
+    /**
+     * Officials on record in each country, whatever the filters. Shared heads of state count in
+     * every country they head.
+     */
+    officialsByCountry: ReadonlyMap<CountryCode, number>;
+    tripCount: number;
+    tripsByOrigin: ReadonlyMap<CountryCode, number>;
+    tripsByStatus: Readonly<Record<TravelStatus, number>>;
+    /** Upcoming and planned trips. */
+    upcomingCount: number;
+    visitsByDestination: ReadonlyMap<CountryCode, number>;
 }
