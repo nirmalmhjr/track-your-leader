@@ -94,3 +94,15 @@ test("office terms merge and predecessors are closed by successors", () => {
         { endDate: null, officeId: "Q1", personId: "B", startDate: "2020-09-16" },
     ]);
 });
+
+test("a governor-general represents the monarch, not a region", () => {
+    assert.deepEqual(classifyTitle("Governor General of Canada").categories, ["governor_general"]);
+    assert.deepEqual(classifyTitle("Governor-General of Jamaica").categories, ["governor_general"]);
+    assert.deepEqual(classifyTitle("Gov. Gen.").categories, ["governor_general"]);
+    assert.deepEqual(classifyTitle("Governor of Texas").categories, ["regional_leader"]);
+});
+
+test("Andorra's co-princes are heads of state", () => {
+    assert.deepEqual(classifyTitle("French co-prince of Andorra").categories, ["head_of_state"]);
+    assert.deepEqual(classifyTitle("Episcopal Co-Prince").categories, ["head_of_state"]);
+});

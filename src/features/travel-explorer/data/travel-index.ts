@@ -64,7 +64,10 @@ const placeRow = z.tuple([
     latitude,
     z.union([z.literal(0), z.literal(1)]),
 ]);
-/** [title, categories, portfolio, start, end, 1 when the source doesn't record the end] */
+/**
+ * [title, categories, portfolio, start, end, 1 when the source doesn't record the end], and for
+ * an office of another country than the official's, that flag (0 or 1) and the country.
+ */
 const positionRow = z.union([
     z.tuple([
         z.string(),
@@ -80,6 +83,15 @@ const positionRow = z.union([
         isoDate.nullable(),
         z.null(),
         z.literal(1),
+    ]),
+    z.tuple([
+        z.string(),
+        z.array(enumIndex(ROLE_CATEGORIES)).min(1),
+        enumIndex(PORTFOLIOS).nullable(),
+        isoDate.nullable(),
+        isoDate.nullable(),
+        z.union([z.literal(0), z.literal(1)]),
+        code,
     ]),
 ]);
 /** [id, country, name, party, photo, Wikidata id, positions] */
@@ -194,9 +206,22 @@ export const encodeOfficial = (
     official.positions.map((position): OfficialRow[6][number] => {
         const categories = position.categories.map((category) => ROLE_CATEGORIES.indexOf(category));
         const portfolio = position.portfolio ? PORTFOLIOS.indexOf(position.portfolio) : null;
+        const endDate = position.undated ? null : position.endDate;
+        if (position.countryCode) {
+            const undated = position.undated ? 1 : 0;
+            return [
+                position.title,
+                categories,
+                portfolio,
+                position.startDate,
+                endDate,
+                undated,
+                position.countryCode,
+            ];
+        }
         return position.undated
             ? [position.title, categories, portfolio, position.startDate, null, 1]
-            : [position.title, categories, portfolio, position.startDate, position.endDate];
+            : [position.title, categories, portfolio, position.startDate, endDate];
     }),
 ];
 
@@ -344,8 +369,12 @@ export const decodeOfficial = ([
     party,
     photoUrl,
     positions: positions.map(
-        ([title, categories, portfolio, startDate, endDate, undated], index): Position => ({
+        (
+            [title, categories, portfolio, startDate, endDate, undated, positionCountry],
+            index
+        ): Position => ({
             categories: categories.map((category) => ROLE_CATEGORIES[category]),
+            ...(positionCountry ? { countryCode: positionCountry } : {}),
             endDate,
             id: `${id}-p${index + 1}`,
             ministry: null,

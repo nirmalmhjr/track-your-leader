@@ -268,7 +268,7 @@ const positionRank = (position: PositionDraft): number =>
 export const uniquePositions = <T extends PositionDraft>(positions: readonly T[]): T[] => {
     const byTerm = new Map<string, T>();
     for (const position of positions) {
-        const key = `${position.title}|${position.startDate}|${position.endDate}`;
+        const key = `${position.title}|${position.startDate}|${position.endDate}|${position.countryCode ?? ""}`;
         const known = byTerm.get(key);
         if (!known || (known.undated && !position.undated)) {
             byTerm.set(key, position);
@@ -390,6 +390,43 @@ export const comparePositions = (a: PositionDraft, b: PositionDraft): number => 
     }
     return (b.endDate ?? "").localeCompare(a.endDate ?? "") || a.title.localeCompare(b.title);
 };
+
+/** A position without its country when that is the official's own (the stored form). */
+const atHome = (position: PositionDraft, draft: OfficialDraft): PositionDraft => {
+    if (position.countryCode !== draft.countryCode) {
+        return position;
+    }
+    const { countryCode: _own, ...rest } = position;
+    return rest;
+};
+
+/**
+ * Like `comparePositions`, but offices of the official's own country come before current offices
+ * abroad, so Charles III reads as Monarch of the United Kingdom rather than of Antigua.
+ */
+const compareHomeFirst = (a: PositionDraft, b: PositionDraft): number => {
+    const isAbroad = (position: PositionDraft): number =>
+        Number(
+            position.endDate === null && !position.undated && position.countryCode !== undefined
+        );
+    return isAbroad(a) - isAbroad(b) || comparePositions(a, b);
+};
+
+/**
+ * A draft's positions as stored: each term once, current ones first, with ids, and a country
+ * only on offices of another country than the official's.
+ *
+ * @param draft - Official or person.
+ * @param id - Their id, which the position ids extend.
+ * @returns The positions.
+ */
+export const storedPositions = (
+    draft: OfficialDraft,
+    id: string
+): (PositionDraft & { id: string })[] =>
+    uniquePositions(draft.positions.map((position) => atHome(position, draft)))
+        .sort(compareHomeFirst)
+        .map((position, index) => ({ ...position, id: `${id}-p${index + 1}` }));
 
 /**
  * Photos for people Wikidata has none for: the free lead image of their article on the first
@@ -537,12 +574,7 @@ export const enrichOfficials = async (
             photoUrl: photo
                 ? commonsImageUrl(photo, PHOTO_WIDTH)
                 : ((person && morePhotos.get(person.id)) ?? null),
-            positions: uniquePositions(draft.positions)
-                .sort(comparePositions)
-                .map((position, index) => ({
-                    ...position,
-                    id: `${id}-p${index + 1}`,
-                })),
+            positions: storedPositions(draft, id),
             sources,
             summary: summaryFor(
                 person?.enwikiTitle ? intros.get(person.enwikiTitle) : undefined,

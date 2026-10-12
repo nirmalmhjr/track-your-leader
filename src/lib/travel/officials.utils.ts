@@ -1,4 +1,5 @@
 import { ROLE_RANK } from "@/lib/travel/travel.constants";
+import type { CountryCode } from "@/types/geo.types";
 import type {
     OfficeTerms,
     Official,
@@ -10,6 +11,7 @@ import type {
 const LEADERSHIP_CATEGORIES = new Set<RoleCategory>([
     "head_of_state",
     "head_of_government",
+    "governor_general",
     "deputy_leader",
 ]);
 
@@ -60,6 +62,73 @@ export const getPrimaryPosition = (official: Official): Position => {
 };
 
 /**
+ * The country a position belongs to: its own when it has one, otherwise the official's.
+ *
+ * @param official - Holder of the position.
+ * @param position - Position to place.
+ * @returns The country's code.
+ */
+export const getPositionCountry = (
+    official: Pick<Official, "countryCode">,
+    position: Pick<Position, "countryCode">
+): CountryCode => position.countryCode ?? official.countryCode;
+
+/**
+ * An official as listed by one country: only the positions that belong to it, so Charles III,
+ * filed under the United Kingdom, reads as Monarch of Canada on Canada's page. The id stays the
+ * same, so the profile and the trips are still the one person's.
+ *
+ * @param official - Official to scope.
+ * @param code - Country listing them.
+ * @returns The official (unchanged when every position belongs there, and always in their own
+ * country), or `null` when they held no office of that country.
+ */
+export const scopeOfficialToCountry = (official: Official, code: CountryCode): Official | null => {
+    const positions = official.positions.filter(
+        (position) => getPositionCountry(official, position) === code
+    );
+    if (positions.length === official.positions.length) {
+        return official;
+    }
+    if (positions.length === 0) {
+        return official.countryCode === code ? official : null;
+    }
+    return { ...official, positions };
+};
+
+/**
+ * Groups officials under every country they held an office of, each scoped to that country
+ * (see `scopeOfficialToCountry`).
+ *
+ * @param officials - Officials to group.
+ * @returns Officials per country code.
+ */
+export const groupOfficialsByCountry = (
+    officials: readonly Official[]
+): Map<CountryCode, Official[]> => {
+    const byCountry = new Map<CountryCode, Official[]>();
+    for (const official of officials) {
+        const codes = new Set([
+            official.countryCode,
+            ...official.positions.map((position) => getPositionCountry(official, position)),
+        ]);
+        for (const code of codes) {
+            const scoped = scopeOfficialToCountry(official, code);
+            if (!scoped) {
+                continue;
+            }
+            const list = byCountry.get(code);
+            if (list) {
+                list.push(scoped);
+            } else {
+                byCountry.set(code, [scoped]);
+            }
+        }
+    }
+    return byCountry;
+};
+
+/**
  * Seniority rank used for sorting, where lower is more senior.
  *
  * @param official - Official to rank.
@@ -101,20 +170,40 @@ export const getCategoryGroup = (
 /**
  * Returns the other offices an official holds today, beside the one that describes them, such
  * as the ministries a prime minister keeps. Parliamentary seats are left out: most ministers
- * also sit in parliament, and the seat adds nothing next to their ministry.
+ * also sit in parliament, and the seat adds nothing next to their ministry. So are offices of
+ * other countries (Charles III's realms), which `getOtherOfficeCountries` counts instead.
  *
  * @param official - Official to inspect.
  * @returns Current positions other than the primary one, newest first.
  */
 export const getOtherCurrentPositions = (official: Official): Position[] => {
     const primary = getPrimaryPosition(official);
+    const country = getPositionCountry(official, primary);
     return official.positions.filter(
         (position) =>
             position !== primary &&
             isCurrentPosition(position) &&
+            getPositionCountry(official, position) === country &&
             !position.categories.includes("legislator")
     );
 };
+
+/**
+ * The other countries where an official holds an office today: for Charles III, listed by
+ * Canada, the United Kingdom and the other realms he reigns over.
+ *
+ * @param official - Official to inspect (not scoped to one country).
+ * @param code - The country listing them.
+ * @returns Codes of the other countries, in the order of the official's positions.
+ */
+export const getOtherOfficeCountries = (official: Official, code: CountryCode): CountryCode[] => [
+    ...new Set(
+        official.positions
+            .filter(isCurrentPosition)
+            .map((position) => getPositionCountry(official, position))
+            .filter((country) => country !== code)
+    ),
+];
 
 /**
  * Shortens a minister's title to the portfolio it names, for lists already headed "Portfolio".

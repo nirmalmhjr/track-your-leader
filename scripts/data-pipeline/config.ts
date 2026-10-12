@@ -69,6 +69,19 @@ const COMMONWEALTH_REALMS: ReadonlySet<CountryCode> = new Set([
     "VCT",
 ]);
 
+/**
+ * Territories whose head of state is another country's monarch, and that country: Bermuda's is
+ * the King of the United Kingdom, the Cook Islands' and Niue's the King in right of New Zealand,
+ * Aruba's the King of the Netherlands. Wikidata names no head of state for them, so the
+ * monarch's terms are listed there too (the monarch stays filed under their own country).
+ */
+export const TERRITORY_SOVEREIGNS: Readonly<Record<CountryCode, CountryCode>> = {
+    ABW: "NLD",
+    BMU: "GBR",
+    COK: "NZL",
+    NIU: "NZL",
+};
+
 /** Countries that need more than the defaults. */
 const COUNTRY_OVERRIDES: Readonly<Record<CountryCode, Partial<CountrySourceConfig>>> = {
     USA: {

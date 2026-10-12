@@ -134,6 +134,24 @@ function OtherOfficesLine({ official }: { official: Official }) {
     );
 }
 
+/** "Also in office in 14 other countries": a shared head of state's other realms, if any. */
+function OtherCountriesLine({ countries }: { countries: readonly string[] | undefined }) {
+    const t = useTranslations("Leaders.card");
+    const format = useTravelFormat();
+    if (!countries || countries.length === 0) {
+        return null;
+    }
+
+    return (
+        <span className="text-muted-foreground text-xs leading-snug">
+            {t("alsoInCountries", {
+                count: countries.length,
+                countLabel: format.number(countries.length),
+            })}
+        </span>
+    );
+}
+
 /** A leader as a card linking to their profile, with their travel at a glance. */
 export function LeaderCard({
     entry,
@@ -164,6 +182,7 @@ export function LeaderCard({
                     </span>
                     <TenureLine position={position} showStatus={showStatus} />
                     <OtherOfficesLine official={official} />
+                    <OtherCountriesLine countries={entry.otherCountries} />
                     {partyColors ? (
                         <PartyChip
                             className="mt-1 self-start"

@@ -77,12 +77,40 @@ const nearDuplicates = (
     return lines;
 };
 
+/**
+ * Every official holding an office of each country, wherever they are filed: Charles III, filed
+ * under the United Kingdom, holds Canada's head of state office too.
+ */
+const officialsByOfficeCountry = (
+    files: ReadonlyMap<CountryCode, CountryData>
+): Map<CountryCode, WarehouseOfficial[]> => {
+    const byCountry = new Map<CountryCode, WarehouseOfficial[]>();
+    for (const file of files.values()) {
+        for (const official of file.officials) {
+            const codes = new Set(
+                official.positions.map((position) => position.countryCode ?? official.countryCode)
+            );
+            for (const code of codes) {
+                const list = byCountry.get(code);
+                if (list) {
+                    list.push(official);
+                } else {
+                    byCountry.set(code, [official]);
+                }
+            }
+        }
+    }
+    return byCountry;
+};
+
 /** Every office category held today by more than one person, or by nobody. */
 const currentHeads = (code: CountryCode, officials: readonly WarehouseOfficial[]) => {
     const holders = new Map<string, Set<string>>();
     for (const official of officials) {
         for (const position of official.positions) {
-            const isCurrent = position.endDate === null && !position.undated && position.startDate;
+            const isHere = (position.countryCode ?? official.countryCode) === code;
+            const isCurrent =
+                isHere && position.endDate === null && !position.undated && position.startDate;
             for (const category of isCurrent ? position.categories : []) {
                 if (LEADER_CATEGORIES.has(category)) {
                     holders.set(
@@ -149,7 +177,9 @@ const auditOfficials = (
 ): void => {
     const names = new Map<string, string[]>();
     for (const official of officials) {
-        const terms = official.positions.map((p) => `${p.title}|${p.startDate}|${p.endDate}`);
+        const terms = official.positions.map(
+            (p) => `${p.title}|${p.startDate}|${p.endDate}|${p.countryCode ?? ""}`
+        );
         if (new Set(terms).size < terms.length) {
             found.duplicateTerms.push(`${code} · ${official.fullName}`);
         }
@@ -207,10 +237,11 @@ const auditTrips = (
 export const writeAudit = async (today: IsoDate): Promise<Record<string, number>> => {
     const files = await readCountries();
     const found = Object.fromEntries(CHECKS.map((name) => [name, [] as string[]])) as Findings;
+    const officeHolders = officialsByOfficeCountry(files);
     for (const [code, file] of files) {
         const byId = new Map(file.officials.map((official) => [official.id, official]));
         const nameOf = (id: string): string => byId.get(id)?.fullName ?? id;
-        const heads = currentHeads(code, file.officials);
+        const heads = currentHeads(code, officeHolders.get(code) ?? []);
         found.currentHeadsMissing.push(...heads.missing);
         found.currentHeadsSeveral.push(...heads.several);
         found.nearDuplicateTrips.push(...nearDuplicates(code, file, nameOf));

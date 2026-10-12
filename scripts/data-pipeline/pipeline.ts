@@ -39,7 +39,11 @@ import {
     fetchOfficesByLabel,
 } from "./extract/leaders.extract";
 import { withoutExcludedPositions } from "./extract/leaders.overrides";
-import { closeSupersededLeaderTerms } from "./extract/leaders.terms";
+import {
+    addTerritoryMonarchs,
+    closeSupersededLeaderTerms,
+    dropBareGovernorGeneral,
+} from "./extract/leaders.terms";
 import {
     assembleDrafts,
     enrichOfficials,
@@ -631,11 +635,13 @@ export const runPipeline = async (options: PipelineOptions): Promise<void> => {
 
     // Leader terms left open after someone else took over are closed at the successor's start.
     const leaderDrafts = [...officialDrafts, ...matches.newDrafts, ...promoted];
-    const closedTerms = [...groupBy(leaderDrafts, (draft) => draft.countryCode).values()].reduce(
-        (total, group) => total + closeSupersededLeaderTerms(group),
-        0
-    );
+    const bareTitles = dropBareGovernorGeneral(leaderDrafts);
+    log.info(`${bareTitles} cabinet-list governor-general titles dropped for Wikidata's`);
+    const closedTerms = closeSupersededLeaderTerms(leaderDrafts);
     log.info(`${closedTerms} leader terms closed at their successor's start`);
+    // Territories whose head of state is another country's monarch (Bermuda, the Cook Islands).
+    const territoryTerms = addTerritoryMonarchs(leaderDrafts);
+    log.info(`${territoryTerms} head-of-state terms added for territories`);
 
     log.step("Officials: photos, parties, biographies");
     const {

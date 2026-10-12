@@ -25,6 +25,7 @@ import {
     matchesOfficialFilters,
 } from "@/features/travel-explorer/utils/filters.utils";
 import { toIsoDate } from "@/lib/travel/date.utils";
+import { groupOfficialsByCountry } from "@/lib/travel/officials.utils";
 import { useExplorerUiStore } from "@/stores/explorer-ui-store";
 import type { CountryCode } from "@/types/geo.types";
 import type { IsoDate, Official, TrackedCountry, TravelRecord } from "@/types/travel.types";
@@ -121,15 +122,8 @@ const useDataset = (
         }
         records.sort(compareNewestFirst);
 
-        const officialsByCountry = new Map<CountryCode, Official[]>();
-        for (const official of officials) {
-            const list = officialsByCountry.get(official.countryCode);
-            if (list) {
-                list.push(official);
-            } else {
-                officialsByCountry.set(official.countryCode, [official]);
-            }
-        }
+        // Shared heads of state (Charles III) are listed in every country they head.
+        const officialsByCountry = groupOfficialsByCountry(officials);
         return {
             countries,
             countryByCode: new Map(countries.map((country) => [country.code, country])),

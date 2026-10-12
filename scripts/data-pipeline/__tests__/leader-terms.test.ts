@@ -3,7 +3,11 @@ import { test } from "node:test";
 
 import type { RoleCategory } from "@/types/travel.types";
 
-import { closeSupersededLeaderTerms } from "../extract/leaders.terms";
+import {
+    addTerritoryMonarchs,
+    closeSupersededLeaderTerms,
+    dropBareGovernorGeneral,
+} from "../extract/leaders.terms";
 import type { PositionDraft } from "../types";
 
 const term = (
@@ -60,4 +64,60 @@ test("members of a collective office don't end each other's terms", () => {
     const earlier = member("2018-01-01");
     const later = member("2024-01-01");
     assert.equal(closeSupersededLeaderTerms([earlier, later]), 0);
+});
+
+test("terms only end at a successor in the same country", () => {
+    // Charles III's Canadian reign isn't ended by a later head of state of the United Kingdom.
+    const kingdom = term("Head of state", "2022-09-08", ["head_of_state"]);
+    const canada = {
+        ...term("Monarch of Canada", "2022-09-08", ["head_of_state"]),
+        countryCode: "CAN",
+    };
+    const king = { countryCode: "GBR", positions: [kingdom, canada] };
+    const other = {
+        countryCode: "GBR",
+        positions: [term("Head of state", "2030-01-01", ["head_of_state"])],
+    };
+    closeSupersededLeaderTerms([king, other]);
+    assert.equal(kingdom.endDate, "2030-01-01");
+    assert.equal(canada.endDate, null);
+});
+
+test("a territory's head of state is its sovereign's monarch", () => {
+    const reign = { ...term("Monarch of the United Kingdom", "2022-09-08", ["head_of_state"]) };
+    const king = { countryCode: "GBR", positions: [reign] };
+    assert.equal(addTerritoryMonarchs([king], { BMU: "GBR" }), 1);
+    assert.deepEqual(king.positions[1], { ...reign, countryCode: "BMU" });
+    // Run again: the territory already has that term.
+    assert.equal(addTerritoryMonarchs([king], { BMU: "GBR" }), 0);
+    // Someone else's head-of-state terms aren't copied.
+    const president = {
+        countryCode: "FRA",
+        positions: [term("President", "2017-05-14", ["head_of_state"])],
+    };
+    assert.equal(addTerritoryMonarchs([president], { BMU: "GBR" }), 0);
+});
+
+test("a cabinet list's bare governor-general title gives way to Wikidata's term", () => {
+    // Canada: the CIA still lists Mary Simon, whose term Wikidata ends when the next one began.
+    const named = {
+        ...term("Governor General of Canada", "2021-07-26", ["governor_general"]),
+        endDate: "2026-06-07",
+    };
+    const simon = {
+        positions: [named, term("Governor General", "2026-10-05", ["governor_general"])],
+    };
+    const listedOnly = {
+        positions: [term("Governor General", "2026-10-05", ["governor_general"])],
+    };
+    assert.equal(dropBareGovernorGeneral([simon, listedOnly]), 1);
+    assert.deepEqual(simon.positions, [named]);
+    assert.equal(listedOnly.positions.length, 1);
+});
+
+test("a governor-general's term ends when the next one takes the office", () => {
+    const earlier = holder(term("Governor-General of Tuvalu", "2021-09-29", ["governor_general"]));
+    const next = holder(term("Governor-General of Tuvalu", "2026-09-30", ["governor_general"]));
+    closeSupersededLeaderTerms([earlier, next]);
+    assert.equal(earlier.positions[0]?.endDate, "2026-09-30");
 });

@@ -22,7 +22,9 @@ export type RoleCategory =
     | "diplomat"
     | "central_banker"
     | "military_leader"
-    | "party_leader";
+    | "party_leader"
+    /** The monarch's representative in a realm (the Governor General of Canada). */
+    | "governor_general";
 
 /** Normalised policy area of a ministerial position, independent of local ministry names. */
 export type Portfolio =
@@ -94,6 +96,12 @@ export interface TrackedCountry {
 
 export interface Position {
     categories: readonly RoleCategory[];
+    /**
+     * The country the office belongs to, when it isn't the official's own: Charles III is filed
+     * under the United Kingdom, and his "Monarch of Canada" position belongs to Canada. Absent
+     * means the official's country.
+     */
+    countryCode?: CountryCode;
     /** `null` while the position is still held, unless the position is `undated`. */
     endDate: IsoDate | null;
     id: string;

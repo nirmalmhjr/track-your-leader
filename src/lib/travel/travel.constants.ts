@@ -27,7 +27,15 @@ export const ROLE_CATEGORIES = [
     "central_banker",
     "military_leader",
     "party_leader",
+    "governor_general",
 ] as const satisfies readonly RoleCategory[];
+
+/** Roles in the order filters list them: each representative next to who they represent. */
+export const ROLE_DISPLAY_ORDER: readonly RoleCategory[] = [
+    "head_of_state",
+    "governor_general",
+    ...ROLE_CATEGORIES.filter((role) => role !== "head_of_state" && role !== "governor_general"),
+];
 
 export const PORTFOLIOS = [
     "foreign_affairs",
@@ -78,6 +86,7 @@ export const ROLE_RANK: Readonly<Record<RoleCategory, number>> = {
     central_banker: 5,
     deputy_leader: 2,
     diplomat: 6,
+    governor_general: 1,
     head_of_government: 1,
     head_of_state: 0,
     judiciary: 8,

@@ -33,6 +33,8 @@ export interface OfficeTerm {
 
 export interface PositionDraft {
     categories: RoleCategory[];
+    /** The country the office belongs to (see `Position.countryCode`); absent: the official's. */
+    countryCode?: CountryCode;
     endDate: IsoDate | null;
     ministry: string | null;
     portfolio: Portfolio | null;

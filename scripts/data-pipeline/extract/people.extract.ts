@@ -618,15 +618,20 @@ export const positionFromHolding = (
         : { ...base, endDate: null, startDate };
 };
 
-/** Same office and start: kept once (parliamentary terms repeat the statement's own dates). */
-const dedupePositions = (positions: readonly PositionDraft[]): PositionDraft[] => [
-    ...new Map(
-        positions.map((position) => [
-            `${position.title}|${position.startDate}|${position.endDate}|${position.undated ?? ""}`,
-            position,
-        ])
-    ).values(),
-];
+/**
+ * Same office and start: kept once (parliamentary terms repeat the statement's own dates), the
+ * first report winning.
+ */
+const dedupePositions = (positions: readonly PositionDraft[]): PositionDraft[] => {
+    const byTerm = new Map<string, PositionDraft>();
+    for (const position of positions) {
+        const key = `${position.title}|${position.startDate}|${position.endDate}|${position.undated ?? ""}`;
+        if (!byTerm.has(key)) {
+            byTerm.set(key, position);
+        }
+    }
+    return [...byTerm.values()];
+};
 
 // --- Assembly -------------------------------------------------------------------------------
 
@@ -655,7 +660,8 @@ const withoutForeignEnvoys = (
 };
 
 /**
- * A person's draft, filed under the country where they held the most offices.
+ * A person's draft, filed under the country where they held the most offices. Each position
+ * keeps the country it belongs to, so the person is listed in every country they served.
  *
  * @returns The draft, or `null` for someone with no name or no office left.
  */
@@ -664,9 +670,10 @@ const personDraft = (
     person: PersonInfo,
     byCountry: ReadonlyMap<CountryCode, PositionDraft[]>
 ): PersonDraft | null => {
-    const [first] = [...byCountry].sort(
+    const ranked = [...byCountry].sort(
         (a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0])
     );
+    const [first] = ranked;
     if (!(person.name && first)) {
         return null;
     }
@@ -676,7 +683,13 @@ const personDraft = (
         name: stripParenthetical(person.name),
         party: person.party,
         photoUrl: person.photoUrl,
-        positions: dedupePositions([...byCountry.values()].flat()),
+        // An office found under two countries (Bermuda's House of Assembly lies in Bermuda and
+        // the United Kingdom) is kept with the person's own country, which comes first.
+        positions: dedupePositions(
+            ranked.flatMap(([countryCode, positions]) =>
+                positions.map((position) => ({ ...position, countryCode }))
+            )
+        ),
         sources: [{ label: "Wikidata", url: wikidataUrl(personId) }],
         wikidataId: personId,
     };

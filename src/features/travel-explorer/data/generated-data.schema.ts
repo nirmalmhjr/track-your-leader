@@ -33,6 +33,8 @@ export const placeSchema = z.object({
 
 const positionSchema = z.object({
     categories: z.array(z.enum(ROLE_CATEGORIES)).min(1),
+    /** Set only when the office belongs to another country than the official's. */
+    countryCode: countryCode.optional(),
     endDate: isoDate.nullable(),
     id: z.string().min(1),
     ministry: z.string().nullable(),

@@ -4,9 +4,12 @@ import { test } from "node:test";
 import {
     getLeadingCategory,
     getOtherCurrentPositions,
+    getOtherOfficeCountries,
     getPortfolioName,
     getPrimaryPosition,
+    groupOfficialsByCountry,
     groupPositionsByOffice,
+    scopeOfficialToCountry,
 } from "@/lib/travel/officials.utils";
 import type { Official, Position } from "@/types/travel.types";
 
@@ -109,4 +112,53 @@ test("an office held more than once is one entry with every term", () => {
             ["Minister", ["p2"], false],
         ]
     );
+});
+
+const reign = (title: string, countryCode?: string): Position =>
+    position({
+        categories: ["head_of_state"],
+        endDate: null,
+        startDate: "2022-09-08",
+        title,
+        ...(countryCode ? { countryCode } : {}),
+    });
+
+const charles = (): Official => ({
+    ...official([
+        reign("Monarch of the United Kingdom"),
+        reign("Monarch of Canada", "CAN"),
+        reign("Monarch of Australia", "AUS"),
+    ]),
+    countryCode: "GBR",
+    fullName: "Charles III",
+    id: "charles-iii",
+});
+
+test("a shared head of state is listed by each country with that country's office", () => {
+    const byCountry = groupOfficialsByCountry([charles()]);
+    assert.deepEqual([...byCountry.keys()], ["GBR", "CAN", "AUS"]);
+    const canada = byCountry.get("CAN")?.[0];
+    assert.equal(canada?.id, "charles-iii");
+    assert.equal(canada?.countryCode, "GBR");
+    assert.deepEqual(
+        canada?.positions.map((held) => held.title),
+        ["Monarch of Canada"]
+    );
+    assert.deepEqual(
+        byCountry.get("GBR")?.[0]?.positions.map((held) => held.title),
+        ["Monarch of the United Kingdom"]
+    );
+});
+
+test("an official with no office in a country isn't listed there", () => {
+    assert.equal(scopeOfficialToCountry(charles(), "NZL"), null);
+    const kohl = official([position({})]);
+    assert.equal(scopeOfficialToCountry(kohl, "DEU"), kohl);
+});
+
+test("offices abroad are counted as countries, not listed as other offices", () => {
+    const king = charles();
+    assert.deepEqual(getOtherCurrentPositions(king), []);
+    assert.deepEqual(getOtherOfficeCountries(king, "GBR"), ["CAN", "AUS"]);
+    assert.deepEqual(getOtherOfficeCountries(king, "CAN"), ["GBR", "AUS"]);
 });

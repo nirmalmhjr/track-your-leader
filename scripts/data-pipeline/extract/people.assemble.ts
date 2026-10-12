@@ -9,7 +9,7 @@ import type { RoleCategory } from "@/types/travel.types";
 import { groupBy } from "../lib/collections";
 import { normalizeName, stripParenthetical } from "../lib/text";
 import type { OfficialDraft } from "../types";
-import { assignIds, comparePositions, type IdRecord, uniquePositions } from "./officials.extract";
+import { assignIds, type IdRecord, storedPositions } from "./officials.extract";
 import type { PersonDraft } from "./people.extract";
 
 /**
@@ -25,6 +25,7 @@ import type { PersonDraft } from "./people.extract";
 const EXECUTIVE_ROLES: ReadonlySet<RoleCategory> = new Set([
     "head_of_state",
     "head_of_government",
+    "governor_general",
     "deputy_leader",
     "minister",
     "junior_minister",
@@ -103,9 +104,7 @@ export const buildPeopleRows = ({
                 id,
                 party: person.party,
                 photoUrl: person.photoUrl,
-                positions: uniquePositions(person.positions)
-                    .sort(comparePositions)
-                    .map((position, index) => ({ ...position, id: `${id}-p${index + 1}` })),
+                positions: storedPositions(person, id),
                 wikidataId: person.wikidataId,
             }),
         };

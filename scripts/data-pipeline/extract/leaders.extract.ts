@@ -356,6 +356,7 @@ const positionFromTerm = (
 
     return {
         categories: categories.length > 0 ? categories : role.categories,
+        countryCode: context.code,
         endDate: term.endDate,
         ministry: categories.length > 0 ? null : role.ministry,
         portfolio: categories.length > 0 ? null : role.portfolio,
@@ -503,10 +504,11 @@ export const fetchLeaderStatements = async (
         .filter((term) => term.endDate === null || term.endDate >= since);
 };
 
-/** Whether a draft already holds a position of that kind overlapping the term. */
+/** Whether a draft already holds a position of that kind in that country overlapping the term. */
 const hasOverlapping = (draft: OfficialDraft, term: LeaderStatement): boolean =>
     draft.positions.some(
         (position) =>
+            (position.countryCode ?? draft.countryCode) === term.code &&
             position.categories.includes(LEADER_KINDS[term.kind].category) &&
             (position.startDate === null ||
                 term.endDate === null ||
@@ -543,6 +545,7 @@ const addStatementTerms = async (
         const { category, title } = LEADER_KINDS[term.kind];
         draft.positions.push({
             categories: [category],
+            countryCode: term.code,
             endDate: term.endDate,
             ministry: null,
             portfolio: null,
@@ -649,9 +652,10 @@ export const currentLeaders = (
                 position.categories.includes("head_of_state") ||
                 position.categories.includes("head_of_government");
             if (isLeader && position.endDate === null) {
-                const list = leaders.get(draft.countryCode) ?? [];
+                const code = position.countryCode ?? draft.countryCode;
+                const list = leaders.get(code) ?? [];
                 list.push({ name: draft.name, startDate: position.startDate });
-                leaders.set(draft.countryCode, list);
+                leaders.set(code, list);
             }
         }
     }

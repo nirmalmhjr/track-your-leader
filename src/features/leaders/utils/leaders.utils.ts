@@ -20,7 +20,10 @@ import {
     getCategoryGroup,
     getCurrentPosition,
     getOfficialRank,
+    getOtherOfficeCountries,
     getPrimaryPosition,
+    groupOfficialsByCountry,
+    scopeOfficialToCountry,
 } from "@/lib/travel/officials.utils";
 import type { PartyCount } from "@/lib/travel/party.utils";
 import { summarizeTravel } from "@/lib/travel/travel-summary.utils";
@@ -77,11 +80,12 @@ export const groupRecordsByOfficial = (base: TravelBase): Map<string, TravelReco
  */
 export const buildCountryList = (base: TravelBase): CountryListItem[] => {
     const officialCounts = new Map<CountryCode, { all: number; current: number }>();
-    for (const official of base.officials) {
-        const counts = officialCounts.get(official.countryCode) ?? { all: 0, current: 0 };
-        counts.all += 1;
-        counts.current += isInOffice(official) ? 1 : 0;
-        officialCounts.set(official.countryCode, counts);
+    // Counted as each country lists them, shared heads of state (Charles III) in every realm.
+    for (const [code, officials] of groupOfficialsByCountry(base.officials)) {
+        officialCounts.set(code, {
+            all: officials.length,
+            current: officials.filter(isInOffice).length,
+        });
     }
 
     return base.countries.map((country) => {
@@ -114,12 +118,20 @@ export const buildCountryDirectory = (
         return null;
     }
 
-    const officials = base.officials.filter((official) => official.countryCode === code);
-    const inOffice: LeaderEntry[] = officials
-        .filter(isInOffice)
-        .sort(compareBySeniority)
-        .map((official) => ({
+    // Shared heads of state (Charles III) are listed in every country they head.
+    const listed = base.officials.flatMap((official) => {
+        const scoped = scopeOfficialToCountry(official, code);
+        return scoped
+            ? [{ official: scoped, otherCountries: getOtherOfficeCountries(official, code) }]
+            : [];
+    });
+    const officials = listed.map((entry) => entry.official);
+    const inOffice: LeaderEntry[] = listed
+        .filter((entry) => isInOffice(entry.official))
+        .sort((a, b) => compareBySeniority(a.official, b.official))
+        .map(({ official, otherCountries }) => ({
             official,
+            otherCountries,
             summary: summarizeTravel(recordsByOfficial.get(official.id) ?? []),
         }));
 
@@ -166,6 +178,7 @@ export const buildOverview = (
         .slice(0, TOP_TRAVELLER_LIMIT)
         .map(({ official, recentTripCount, records }) => ({
             official,
+            otherCountries: getOtherOfficeCountries(official, official.countryCode),
             recentTripCount,
             summary: summarizeTravel(records),
         }));

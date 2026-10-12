@@ -51,7 +51,7 @@ import { getCountryReference } from "@/lib/geo/country-reference";
 import {
     OFFICE_TENURES,
     PORTFOLIOS,
-    ROLE_CATEGORIES,
+    ROLE_DISPLAY_ORDER,
     TRAVEL_STATUSES,
     TRAVEL_TYPES,
 } from "@/lib/travel/travel.constants";
@@ -257,7 +257,7 @@ function PersonSection() {
                     <CheckboxOptionList
                         legend={t("filters.role")}
                         onChange={setRoles}
-                        options={ROLE_CATEGORIES.map((role) => ({
+                        options={ROLE_DISPLAY_ORDER.map((role) => ({
                             label: t(`roles.${role}`),
                             value: role,
                         }))}

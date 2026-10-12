@@ -29,7 +29,14 @@ const ABBREVIATIONS: readonly (readonly [RegExp, string])[] = [
     [/,\s+and\s+/g, " and "],
 ];
 
-const HEAD_OF_STATE = /^(president|federal president|king|queen|emperor|monarch|sultan|emir)$/;
+/**
+ * Andorra's two co-princes are its heads of state, as Wikidata titles them (the CIA's "Head of
+ * State (Co-Prince)" can name one who has since left).
+ */
+const HEAD_OF_STATE =
+    /^(president|federal president|king|queen|emperor|monarch|sultan|emir)$|^(french|episcopal) co-prince\b/;
+/** Checked before the regional pattern, which "governor" would match. */
+const GOVERNOR_GENERAL = /^governor[- ]general\b/;
 /** "Prime Minister of Iran" too: offices a country abolished aren't its current one. */
 const HEAD_OF_GOVERNMENT = /^(prime minister|premier|chancellor)(,|$)|^prime minister of /;
 const DEPUTY_LEADER =
@@ -112,6 +119,7 @@ export const expandTitle = (title: string): string => {
 const CATEGORY_RULES: readonly (readonly [RegExp, RoleCategory])[] = [
     [HEAD_OF_STATE, "head_of_state"],
     [HEAD_OF_GOVERNMENT, "head_of_government"],
+    [GOVERNOR_GENERAL, "governor_general"],
     [DEPUTY_LEADER, "deputy_leader"],
     [JUNIOR_MINISTER, "junior_minister"],
     [MINISTER, "minister"],

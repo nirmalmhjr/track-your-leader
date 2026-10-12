@@ -22,6 +22,11 @@ export interface CountryListItem {
 /** An official with the headline numbers of their travel. */
 export interface LeaderEntry {
     official: Official;
+    /**
+     * Other countries where the official holds an office today (Charles III, listed by Canada,
+     * also reigns over the United Kingdom and other realms).
+     */
+    otherCountries?: readonly CountryCode[];
     summary: TravelSummary;
 }
 
